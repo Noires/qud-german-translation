@@ -1,0 +1,7 @@
+{
+  "Title": "Caves of Qud German Translation",
+  "Description": "[h1]Caves of Qud – Deutsche Uebersetzung[/h1]\r\n\r\nErstellt fuer den [b]lang-experimental[/b] Branch (offizielle Lokalisierungs-Unterstuetzung). Prototyp.\r\n\r\n[h2]Nutzung[/h2]\r\n[olist]\r\n[*] In Steam bei Caves of Qud unter Eigenschaften -> Betas den Branch 'lang-experimental' waehlen.\r\n[*] Dieses Mod abonnieren und im Spiel unter Mods (Scripting) aktivieren.\r\n[*] Unten links unter 'Languages' Deutsch waehlen.\r\n[/olist]\r\n\r\n[h2]Hinweise[/h2]\r\n[list]\r\n[*] Uebersetzungen stammen aus dem QudDE-Projekt (KI-gestuetzt, gesichtet).\r\n[*] Noch unvollstaendig; viele Stellen bleiben vorerst englisch.\r\n[*] Fehler und Token-Probleme bitte melden.\r\n[/list]",
+  "Tags": "Beta,Resource,Localization,German,Translation",
+  "Visibility": "2",
+  "ImagePath": "preview.png"
+}

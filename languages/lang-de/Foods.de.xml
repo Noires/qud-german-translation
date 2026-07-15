@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects Lang="de" Encoding="utf-8">
+  <object Name="Jerky" Load="Merge">
+    <part Name="Render" DisplayName="[Trockenfleisch]" />
+  </object>
+  <object Name="Food" Load="Merge">
+    <part Name="Render" DisplayName="[Nahrung]" />
+  </object>
+  <object Name="Organ" Load="Merge">
+    <part Name="Render" DisplayName="[Organ]" />
+  </object>
+  <object Name="Snack" Load="Merge">
+    <part Name="Render" DisplayName="[Imbiss]" />
+  </object>
+  <object Name="Raw Meat" Load="Merge">
+    <part Name="Render" DisplayName="[Rohes Fleisch]" />
+  </object>
+  <object Name="Raw Bear Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|Rohes Baerenfleisch}}" />
+    <part Name="Description" Short="Rohes Baerenfleisch, vom eigenen Blut benetzt." />
+  </object>
+  <object Name="Raw Pig Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|Rohes Schweinefleisch}}" />
+    <part Name="Description" Short="Rohes Schweinefleisch, vom eigenen Blut benetzt." />
+  </object>
+  <object Name="Raw Boar Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|Rohes Wildschweinfleisch}}" />
+    <part Name="Description" Short="Rohes Wildschweinfleisch, vom eigenen Blut benetzt." />
+  </object>
+  <object Name="Raw Goat Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|Rohes Ziegenfleisch}}" />
+    <part Name="Description" Short="Rohes Ziegenfleisch, vom eigenen Blut benetzt." />
+  </object>
+  <object Name="Raw Fish Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|Rohes Fischfleisch}}" />
+    <part Name="Description" Short="Fleisch von Wangen und Kiefer, mit dem Geruch von Salz." />
+  </object>
+  <object Name="Vinewafer" Load="Merge">
+    <part Name="Render" DisplayName="Wasserwein-Waffel" />
+    <part Name="Description" Short="Eine kleine Korkknospe quillt in der Feuchtigkeit auf. Waehrend sengender Wochen saugen kammfoermige Blaetter mit unmenschlicher Geduld Regentropfen auf und wachsen, indem sie aus hundert Meilen Wind einen einzigen Tropfen trinken." />
+  </object>
+  <object Name="Vinewafer Sheaf" Load="Merge">
+    <part Name="Render" DisplayName="{{g|Bund Wasserwein-Waffeln}}" />
+    <part Name="Description" Short="Waffeln, vom feuchtigkeitsspeichernden Wasserwein geschnitten, gebuendelt und verschnuert." />
+  </object>
+  <object Name="Dreadroot Tuber" Load="Merge">
+    <part Name="Render" DisplayName="{{K|Dreadroot-Knolle}}" />
+    <part Name="Description" Short="Eine zimtfarbene Knolle, von Erde und Chromdruck verzogen und von Rissen durchzogen, die tausend Jahre Verfall verzeichnen." />
+  </object>
+  <object Name="Starapple" Load="Merge">
+    <part Name="Render" DisplayName="Sternapfel" />
+    <part Name="Description" Short="Fuer hungrige Augen wirkt die helle Schale wie ein fuenfzackiger Sternkern, aus dem Saft tropft wie ein gluehender Granat im Kratersalz." />
+  </object>
+  <object Name="Spine Fruit" Load="Merge">
+    <part Name="Render" DisplayName="Stachelfrucht" />
+    <part Name="Description" Short="Die Rippen der Fractus schleudern nasse, scharfe Birnen aus sonnengebraeuntem Laub." />
+  </object>
+  <object Name="Plump Mushroom" Load="Merge">
+    <part Name="Render" DisplayName="Praller Pilz" />
+    <part Name="Description" Short="Unter dem ausgebreiteten Faltenhut woelbt sich der Stiel und droht auf Huefthoehe zu platzen. Der Pilz duengt sich mit etwas Laub zu voller Fuelle." />
+  </object>
+  <object Name="Hoarshroom" Load="Merge">
+    <part Name="Render" DisplayName="{{C|Leuchtender}} Frostpilz" />
+    <part Name="Description" Short="Auf dem lampenschirmartigen Hut mit sanftem Biolicht glitzern Raureifblueten." />
+  </object>
+  <object Name="Banana" Load="Merge">
+    <part Name="Render" DisplayName="{{W|Banane}}" />
+    <part Name="Description" Short="Die reife Wirbelsaeule schimmert reich an Farbe; in ihrer Schale liegen verstreut die Glanzlichter der Spindel." />
+  </object>
+  <object Name="Lagroot Tuber" Load="Merge">
+    <part Name="Render" DisplayName="Lagroot-Knolle" />
+    <part Name="Description" Short="Ein staerkehaltiger Wurzelzweig wurde aus der Erde geschnitten und abgeschaelt." />
+  </object>
+  <object Name="Urberry" Load="Merge">
+    <part Name="Render" DisplayName="{{m|Urbeere}}" />
+    <part Name="Description" Short="Dichter Erdsaft spannt die Schale zu einer Kugel, die vollkommenes Licht biegt. In ihrem Kern sind eine Million Befehle fuer Formen in die formgebende Form eingraviert." />
+  </object>
+</objects>

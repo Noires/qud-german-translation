@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects Lang="de" Encoding="utf-8">
+  <object Name="PhysicalObject" Load="Merge">
+    <part Name="Render" DisplayName="[Objekt]" />
+    <part Name="Description" Short="Ein abscheuliches Exemplar." />
+  </object>
+  <object Name="Water" Load="Merge">
+    <part Name="Render" DisplayName="Wasserlache" />
+    <part Name="Description" Short="Eine kleine Lache aus Fluessigkeit." />
+  </object>
+  <object Name="Gas" Load="Merge">
+    <part Name="Render" DisplayName="[Gas]" />
+  </object>
+  <object Name="PoisonGas" Load="Merge">
+    <part Name="Render" DisplayName="Giftgas" />
+    <part Name="Description" Short="Eine Wolke giftiger Daempfe haftet an der Luft und verstopft die Lungen, indem sie den Sauerstoff verdraengt, den blutwarme Wesen atmen." />
+  </object>
+  <object Name="MiasmaticAsh" Load="Merge">
+    <part Name="Render" DisplayName="Knochenasche" />
+    <part Name="Description" Short="Knochenfragmente wurden aerosolisiert und zu einem russigen Dunst verdichtet, der sogar Licht verschlingt." />
+  </object>
+  <object Name="Plasma" Load="Merge">
+    <part Name="Render" DisplayName="Plasma" />
+    <part Name="Description" Short="Smaragdgruene und neonfarbene Baender elektrisieren die Luft und bluehen wie gewalttaetige Blumen auf." />
+  </object>
+  <object Name="Steam" Load="Merge">
+    <part Name="Render" DisplayName="Dampf" />
+  </object>
+  <object Name="SteamGas" Load="Merge">
+    <part Name="Render" DisplayName="Bruehender Dampf" />
+    <part Name="Description" Short="Erhitztes Aerosol schwillt an und zerstreut sich in der Atmosphaere." />
+  </object>
+  <object Name="CryoGas" Load="Merge">
+    <part Name="Render" DisplayName="Kryonebel" />
+    <part Name="Description" Short="Maschinengekuehltes Wasser wird druckentlastet und zu einem eisigen Nebel, der alles Leben stilllegt." />
+  </object>
+  <object Name="AcidGas" Load="Merge">
+    <part Name="Render" DisplayName="Aetzgas" />
+    <part Name="Description" Short="Verdampfte Saeure sammelt sich noch als Lichthof und beginnt, die weichen Raender der befallenen Oberflaeche aufzuloesen." />
+  </object>
+  <object Name="StunGas" Load="Merge">
+    <part Name="Render" DisplayName="Betaeubungsgas" />
+    <part Name="Description" Short="Nickelfarbener Tau haftet an der Luft und fesselt die fluechtigen Molekuele der vorbeiziehenden Materie." />
+  </object>
+  <object Name="SleepGas" Load="Merge">
+    <part Name="Render" DisplayName="Schlafgas" />
+    <part Name="Description" Short="Miasma lagert sich in den Lungen der Nachbarn ab und lockt sie in ein Tal der Traeume. Ihre Koerper liegen still." />
+  </object>
+</objects>

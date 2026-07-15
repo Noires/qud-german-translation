@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects Lang="de" Encoding="utf-8">
+  <object Name="LoveAndFearCompleted" Load="Merge">
+    <part Name="Render" DisplayName="{{W|Die Geschichte von Bey Lahs Liebe}}" />
+    <part Name="Description" Short="Einige zerfetzte, fleckige Pergamentblaetter, an den Raendern mit einer Art Leim zusammengeheftet." />
+  </object>
+  <object Name="LoveAndFearUncompleted" Load="Merge">
+    <part Name="Render" DisplayName="{{W|Die Geschichte von Bey Lahs Furcht}}" />
+    <part Name="Description" Short="Einige zerfetzte, fleckige Pergamentblaetter, an den Raendern mit einer Art Leim zusammengeheftet." />
+  </object>
+  <object Name="Chiliad Hologram Locket" Load="Merge">
+    <part Name="Render" DisplayName="Baerenmedaillon" />
+    <part Name="Description" Short="Eine in Meteoritensardonyx geschnittene Kamee zeigt ein unbekanntes Sippenwappen, umgeben von feinen Zahnraedern und Segeln." />
+  </object>
+  <object Name="Amaranthine Dust" Load="Merge">
+    <part Name="Render" DisplayName="{{r|Amaranthiner Staub}}" />
+    <part Name="Description" Short="Dunkel leuchtende Kristalle wurden zermahlen und zu Staub verrieben. Eine Welt aus einer Million Ichs zerfaellt." />
+  </object>
+  <object Name="Coda Player Statue" Load="Merge">
+    <part Name="Render" DisplayName="Statue des Spielers" />
+  </object>
+  <object Name="Chiliad Chest" Load="Merge">
+    <part Name="Description" Short="Spiralig geschliffene Messingbeschlaege verstaerken den Boden einer alten Holztruhe; der Deckel blieb im Stil der Muschelschnitzer schmucklos und naturbelassen." />
+  </object>
+  <object Name="Chiliad Bottle" Load="Merge">
+    <part Name="Description" Short="Der schmale, vom Seewind gezeichnete Hals ist fuer eine grosse Kalksteinklaue gedreht; aus dem Gefaess steigen Wein- und Myrrheduefte auf." />
+  </object>
+  <object Name="Chiliad Vase" Load="Merge">
+    <part Name="Description" Short="An den ausladenden Henkeln und dem zerdrueckten Hals zeichnen sich Daumenabdruecke ab: Der Toepfer eilte zur naechsten Bestellung. Dennoch sind die praktischen Kanten weich und von beerenfarbener Glasur gemildert." />
+  </object>
+</objects>
