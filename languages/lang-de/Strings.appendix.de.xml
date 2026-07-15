@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <strings Lang="de" Encoding="utf-8">
   <string Context="genotype.Mutated Human.extrainfo" ID="Mutations" Value="Mutationen" />
+  <string Context="genotype.Mutated Human.extrainfo" ID="Moderate starting attributes" Value="Moderate Startfaehigkeiten" />
+  <string Context="genotype.Mutated Human.extrainfo" ID="-600 reputation with {{C|the Putus Templar}}" Value="-600 Ruf gegenueber {{C|den Putus Templar}}" />
+  <string Context="genotype.True Kin.extrainfo" ID="High starting attributes" Value="Hohe Startfaehigkeiten" />
+  <string Context="genotype.True Kin.extrainfo" ID="Access to cybernetics" Value="Zugang zu Kybernetik" />
+  <string Context="genotype.True Kin.extrainfo" ID="{{C|20}} bonus skill points each level" Value="{{C|20}} Bonus-Skillpunkte jede Stufe" />
+  <string Context="genotype.True Kin.extrainfo" ID="Bonus resistances based on arcology of origin" Value="Bonus-Widerstaende basierend auf Arcologie des Ursprungs" />
+  <string Context="genotype.True Kin.extrainfo" ID="May rebuke robots" Value="Kann Roboter zurechweisen" />
   <string Context="subtype.Arconaut.extrainfo" ID="Starts with random junk and artifacts" Value="Beginnt mit zufaelligem Schrott und Artefakten" />
   <string Context="subtype.Nomad.extrainfo" ID="Starts with a {{B|recycling suit}}" Value="Beginnt mit einem {{B|recycling suit}}" />
   <string Context="subtype.Tinker.extrainfo" ID="Begins with a number of random artifacts and scrap" Value="Beginnt mit einer Reihe von zufaelligen Artefakten und Ausschuss" />
   <string Context="subtype.Water Merchant.extrainfo" ID="Allowed entrance to many settlements for purposes of trade" Value="Zutritt zu vielen Siedlungen zu Handelszwecken erlaubt" />
+  <string Context="subtype.Water Merchant.extrainfo" ID="Starts with trade goods" Value="Beginnt mit Handelsguetern" />
+  <string Context="subtype.Watervine Farmer.extrainfo" ID="Starts with random cooking ingredients" Value="Beginnt mit zufaelligen Kochingredienzien" />
 </strings>

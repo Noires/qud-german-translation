@@ -3,6 +3,22 @@
 Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung im
 `lang-experimental`-Branch. Reines Daten-Mod (keine Harmony-Patches, keine DLL).
 
+## v0.2.0 – Vollständige Oberfläche und Dialoge
+
+### Neu
+
+- **Oberfläche (UI) nahezu vollständig:** `Strings.de.xml` von 1362 auf **5120 von 5189**
+  Strings erweitert (≈ 99 %). Menüs, Optionen, Tooltips, Pop-ups, Ladebildschirm-,
+  Tutorial- und Hinweistexte sind jetzt fast durchgängig auf Deutsch.
+- **Dialoge vollständig:** `Strings.Conversations.de.xml` mit **4571 von 4571** Zeilen
+  (100 %). NPC-Gespräche, Antwortoptionen und Erzähltext erscheinen auf Deutsch.
+- **UI-Anhang:** `Strings.appendix.de.xml` **14 von 14** (100 %).
+
+Die zusätzlichen Übersetzungen wurden aus den offiziellen Vorlagen
+(`ExampleLanguage/*.example.xml`) erzeugt (KI-gestützt, Token-geprüft: `=…=`, `{{…}}`,
+`{0}` bleiben erhalten). Rund 69 UI-Strings mit komplexen Platzhaltern bleiben vorerst
+englisch.
+
 ## v0.1.0 – Erste Version
 
 ### Aktuell übersetzt
