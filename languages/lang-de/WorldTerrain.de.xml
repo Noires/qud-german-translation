@@ -227,8 +227,8 @@
     <part Name="Render" DisplayName="Eyn Roj" />
     <part Name="Description" Short="In eine Marmorlichtung eingebettet liegt der gespaltene Stamm von Chavvah, dem Baum des Lebens. Seine gefallenen Blaetter liegen wie ein Spiegelteppich, und die Traumzaunkoenige zwitschern ein psychisches Lied." />
     <xtagGrammar Proper="wahr" massNoun="Falsch" />
-    <tag Name="IndefiniteArticle" Value="*delete" />
-    <tag Name="DefiniteArticle" Value="*delete" />
+    <tag Name="IndefiniteArticle" Value="*loeschen" />
+    <tag Name="DefiniteArticle" Value="*loeschen" />
   </object>
   <object Name="TerrainPalladiumReef 3l" Load="Merge">
     <part Name="Render" DisplayName="Yd Freehold" />

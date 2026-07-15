@@ -91,70 +91,70 @@
     <pregens>
       <pregen ID="Praetorian Prime" Name="Praetorianer Prime">
         <description>
-{{c|∙}} Charge-based melee fighter
-{{c|∙}} Starts with night vision
-{{c|∙}} {{W|Most survivable}} starting build
+{{c|∙}} Aufladungsbasierter Nahkaempfer
+{{c|∙}} Startet mit Nachtsicht
+{{c|∙}} {{W|Am widerstandsfaehigsten}} Startbuild
               </description>
       </pregen>
       <pregen ID="First Gardener" Name="Erster Gaertner">
         <description>
-{{c|∙}} Hybrid melee and ranged fighter
-{{c|∙}} Starts with cooking and gathering
-{{c|∙}} {{W|Highly survivable}} starting build
+{{c|∙}} Hybrider Nah- und Fernkaempfer
+{{c|∙}} Startet mit Kochen und Sammeln
+{{c|∙}} {{W|Hochgradig widerstandsfaehig}} Startbuild
               </description>
       </pregen>
       <pregen ID="First Child of the Hearth" Name="Erstes Kind des Herdes">
         <description>
-{{c|∙}} Melee fighter and extreme bruiser
-{{c|∙}} Starts with carbide hand bones
-{{c|∙}} {{W|Highly survivable}} starting build
+{{c|∙}} Nahkaempfer und extremer Schlaeger
+{{c|∙}} Startet mit Carbid-Handknochen
+{{c|∙}} {{W|Hochgradig widerstandsfaehig}} Startbuild
               </description>
       </pregen>
       <pregen ID="Marsh Taur" Name="Sumpf-Taur">
         <description>
-{{c|∙}} Charge-based melee fighter
-{{c|∙}} Ability to freeze enemies
-{{c|∙}} Highly maneuverable
-{{c|∙}} {{W|Most survivable}} starting build
+{{c|∙}} Aufladungsbasierter Nahkaempfer
+{{c|∙}} Faehigkeit, Feinde einzufrieren
+{{c|∙}} Hochgradig beweglich
+{{c|∙}} {{W|Am widerstandsfaehigsten}} Startbuild
               </description>
       </pregen>
       <pregen ID="Dream Tortoise" Name="Traum-Schildkroete">
         <description>
-{{c|∙}} Melee fighter
-{{c|∙}} Highly-armored
-{{c|∙}} Emits sleep gas to disable enemies
-{{c|∙}} {{W|Highly survivable}} starting build
+{{c|∙}} Nahkaempfer
+{{c|∙}} Hochgradig gepanzert
+{{c|∙}} Strahlt Schlafgas aus, um Feinde zu deaktivieren
+{{c|∙}} {{W|Hochgradig widerstandsfaehig}} Startbuild
               </description>
       </pregen>
       <pregen ID="Gunwing" Name="Gewehr-Fluegel">
         <description>
-{{c|∙}} Primarily ranged fighter
-{{c|∙}} Quick and maneuverable
-{{c|∙}} Flies
-{{c|∙}} {{W|Highly survivable}} starting build
+{{c|∙}} Primaer Fernkaempfer
+{{c|∙}} Schnell und beweglich
+{{c|∙}} Fliegt
+{{c|∙}} {{W|Hochgradig widerstandsfaehig}} Startbuild
               </description>
       </pregen>
       <pregen ID="Star-Eye Esper" Name="Sternauge-Esper">
         <description>
-{{c|∙}} Mental-based ranged fighter
-{{c|∙}} Effective crowd control and map vision
-{{c|∙}} {{W|Medium survivable}} starting build
+{{c|∙}} Mentaler Fernkaempfer
+{{c|∙}} Effektive Menschenmenge Kontrolle und Kartensicht
+{{c|∙}} {{W|Mittelmaessig widerstandsfaehig}} Startbuild
               </description>
       </pregen>
       <pregen ID="Firefrond" Name="Feuerfronde">
         <description>
-{{c|∙}} Hybrid melee fighter and mental caster
-{{c|∙}} Ability to set enemies on fire
-{{c|∙}} Causes harvestable plants to grow nearby
-{{c|∙}} {{W|Challenging}} starting build
+{{c|∙}} Hybrider Nahkaempfer und mentaler Magier
+{{c|∙}} Faehigkeit, Feinde in Brand zu setzen
+{{c|∙}} Verursacht, dass ernterbare Pflanzen in der Naehe wachsen
+{{c|∙}} {{W|Herausfordernd}} Startbuild
               </description>
       </pregen>
       <pregen ID="bzzzt" Name="bzzzt">
         <description>
-{{c|∙}} Hybrid melee fighter and electrical attacker
-{{c|∙}} Burrower and trap-setter
-{{c|∙}} Starts with night vision
-{{c|∙}} {{W|Challenging}} starting build
+{{c|∙}} Hybrider Nahkaempfer und elektrischer Angreifer
+{{c|∙}} Graber und Fallensteller
+{{c|∙}} Startet mit Nachtsicht
+{{c|∙}} {{W|Herausfordernd}} Startbuild
               </description>
       </pregen>
     </pregens>

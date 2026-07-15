@@ -156,7 +156,7 @@
     <part Name="AccomplishmentOnDrink">
       <accomplishment>Unerklaerlich trinkt Ihr Lava.</accomplishment>
       <muralText>Aus Gruenden, die die Sphinx der subjektiven Erfahrung geheim haelt, trank =name= den verbotenen Tee.</muralText>
-      <gospelText>While traveling through =player.zone.name=, =name= stopped at a tavern in =landmark.nearest=. There =player.subjective= lost a bet and bashfully drank a dram of lava. Miraculously, =player.subjective= left the tavern unharmed.</gospelText>
+      <gospelText>Auf der Reise durch =player.zone.name= machte =name= in einer Taverne in =landmark.nearest= Halt. Dort verlor =player.subjective= eine Wette und trank verlegen einen Schluck Lava. Auf wundersame Weise verliess =player.subjective= die Taverne unversehrt.</gospelText>
     </part>
     <freezeObject Name="SmallBoulder">
       <verb>verfestigen</verb>
@@ -300,7 +300,7 @@
       </boostedMessage>
       <accomplishmentText>Sie tranken die helle Creme des Palladium-Riffs und wurden beschleunigt.</accomplishmentText>
       <muralText>Seht =player.name= die Knochen der Poleis aufbrechen und ihr Mark trinken! Werdet belebt, unser Saad, durch die zivile Lebenskraft!</muralText>
-      <gospelText>While traveling through =terrain.t=, =player.name= stopped at a tavern in =landmark.nearest=. There =player.subjective= won a bet and triumphantly drank a dram of sunslag. =player.Subjective= =player.verb:were= quickened and left the tavern at an untrackable pace.</gospelText>
+      <gospelText>Auf der Reise durch =terrain.t= machte =player.name= in einer Taverne in =landmark.nearest= Halt. Dort gewann =player.subjective= eine Wette und trank triumphierend einen Schluck Sonnenschlacke. =player.Subjective= =player.verb:were= beschleunigt und verliess die Taverne in einem nicht zu verfolgenden Tempo.</gospelText>
     </part>
   </liquid>
   <liquid Name="Water">

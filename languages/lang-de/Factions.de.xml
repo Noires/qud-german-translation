@@ -36,7 +36,7 @@
   <faction Name="Oozes" DisplayName="Schleime" />
   <faction Name="Equines" DisplayName="Equiden" />
   <faction Name="Newly Sentient Beings" DisplayName="neu bewusste Wesen">
-    <interests Blurb=" don't know anything" />
+    <interests Blurb=" Ich weiss nichts" />
   </faction>
   <faction Name="Goatfolk" DisplayName="Ziegenfolk" />
   <faction Name="Hermits" DisplayName="Eremiten" />

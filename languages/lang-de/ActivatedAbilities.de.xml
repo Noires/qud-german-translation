@@ -132,7 +132,7 @@
   </ability>
   <ability Command="CommandInflateAxons">
     <description>
-              <p>You gain +<stat Name="QuicknessBonus" /> Quickness for <stat Name="QuicknessDuration" /> rounds, then you become sluggish for 10 rounds.</p>
+              <p>Ihr erhaltet +<stat Name="QuicknessBonus" /> Schnelligkeit fuer <stat Name="QuicknessDuration" /> Runden, danach werdet Ihr fuer 10 Runden traege.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -156,7 +156,7 @@
   </ability>
   <ability Command="CommandToggleNocturnalApex">
     <description>
-              <p>Gain +<stat Name="AgilityBonus" /> Agility and +<stat Name="MovespeedBonus" /> move speed for <stat Name="Duration" /> rounds.</p>
+              <p>Erhaltet +<stat Name="AgilityBonus" /> Geschicklichkeit und +<stat Name="MovespeedBonus" /> Bewegungsgeschwindigkeit fuer <stat Name="Duration" /> Runden.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -204,7 +204,7 @@
   </ability>
   <ability Command="ProjectStasisField">
     <description>
-              <p>Creates up to <stat Name="Coverage" /> squares of stasis field that last for <stat Name="Duration" />.</p>
+              <p>Erzeugt bis zu <stat Name="Coverage" /> Felder Stasisfeld, die <stat Name="Duration" /> lang anhalten.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -715,7 +715,7 @@
     <description>
               <p>Ihr werft Kraftstrahlen ueber das Spektrum von Licht und Materie aus.</p>
               <br />
-              <p>Fires <stat Name="Beams" /> beams at random enemies every round for <stat Name="Duration" />.</p>
+              <p>Feuert <stat Name="Beams" /> Strahlen jede Runde auf zufaellige Feinde, fuer <stat Name="Duration" />.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
@@ -874,7 +874,7 @@
   <ability Command="CommandReleaseAdrenaline">
     <description>
               <p>Ihr erhoeht den Adrenalinfluss eures Koerpers um <stat Name="Duration" />.</p>
-              <p>While it's flowing, you gain +<stat Name="QuicknessBonus" /> quickness and other physical mutations gain +<stat Name="MutationBonus" /> rank.</p>
+              <p>Waehrend es fliesst, erhaltet Ihr +<stat Name="QuicknessBonus" /> Schnelligkeit, und andere koerperliche Mutationen erhalten +<stat Name="MutationBonus" /> Rang.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -1047,8 +1047,8 @@
   <ability Command="CommandQuillFling">
     <description>
               <p>Sie stossen 10% Ihrer <stat Name="Quills" /> in einer Welle um sich herum aus.</p>
-              <p>You regenerate <stat Name="Quills" /> at the approximate rate of <stat Name="RegenRate" /> per round.</p>
-              <p>If you drop below half your <stat Name="Quills" />, you lose <stat Name="AVPenalty" /> AV.</p>
+              <p>Ihr regeneriert <stat Name="Quills" /> mit einer ungefaehren Rate von <stat Name="RegenRate" /> pro Runde.</p>
+              <p>Wenn Ihr unter die Haelfte Eurer <stat Name="Quills" /> fallt, verliert Ihr <stat Name="AVPenalty" /> AV.</p>
               <br />
               <p><gametext>=quill|capitalize=-Durchschlag:</gametext> <stat Name="QuillPen" /></p>
               <p><gametext>=quill|capitalize=-Schaden:</gametext> <stat Name="QuillDamage" /></p>
@@ -1118,9 +1118,9 @@
     <description>
               <p>Ihr bewegt euch schnell <switch Name="PowerSkate"><case Value="true">und hinterlasst eine feurige Abgaswolke</case><default>fuer kurze Zeit</default></switch>.</p>
               <br />
-              <p><switch Name="Multipler"><case Value="100">Double</case><case Value="200">Triple</case><default>+<stat Name="Multiplier" />%</default></switch> your move speed for <switch Name="PowerSkate"><case Value="true">until you run out of fuel</case><default><stat Name="Duration" /></default></switch>.</p>
+              <p><switch Name="Multipler"><case Value="100">Verdoppelt</case><case Value="200">Verdreifacht</case><default>+<stat Name="Multiplier" />%</default></switch> Eure Bewegungsgeschwindigkeit fuer <switch Name="PowerSkate"><case Value="true">bis Euch der Treibstoff ausgeht</case><default><stat Name="Duration" /></default></switch>.</p>
               <switch Name="DV"><case Value="0" /><default><p><stat Name="DV" /> DV</p></default></switch>
-              <p>-10 to hit in melee combat.</p>
+              <p>-10 Treffer im Nahkampf.</p>
               <switch Name="MissileAccuracy">
                   <case Value="Pistol"><p>Reduzierte Genauigkeit mit Fernwaffen, ausser Pistolen.</p></case>
                   <case Value=""><p>Reduzierte Genauigkeit mit Fernwaffen.</p></case>
@@ -1132,10 +1132,10 @@
   </ability>
   <ability Command="CommandToggleTrashRifling">
     <description>
-              <p>You rifle through trash, with a <switch Name="RiflingSkills">
-              <case Value="TrashDivining"><stat Name="Chance" />% chance to piece together clues and learn a random secret</case>
-              <case Value="Scavenger">chance to scavenge scrap from the pile</case>
-              <case Value="Scavenger,TrashDivining">chance to scavenge scrap from the pile and a <stat Name="Chance" />% chance to piece together clues and learn a random secret</case>
+              <p>Ihr durchwuehlt Muell, mit einer <switch Name="RiflingSkills">
+              <case Value="TrashDivining"><stat Name="Chance" />%igen Chance, Hinweise zusammenzufuegen und ein zufaelliges Geheimnis zu erfahren</case>
+              <case Value="Scavenger">Chance, Schrott aus dem Haufen zu bergen</case>
+              <case Value="Scavenger,TrashDivining">Chance, Schrott aus dem Haufen zu bergen, und einer <stat Name="Chance" />%igen Chance, Hinweise zusammenzufuegen und ein zufaelliges Geheimnis zu erfahren</case>
               </switch>.</p>
           </description>
   </ability>
@@ -1259,14 +1259,14 @@
   </ability>
   <ability Command="CommandHeavyWeaponsSweep">
     <description>
-              <p>You fire <stat Name="Shots" /> shots with your heavy weapon, sweeping over a <stat Name="ConeWidth" /> degree cone. Your heavy weapon is reloaded before each shot.</p>
+              <p>Ihr feuert <stat Name="Shots" /> Schuesse mit Eurer schweren Waffe ab und ueberstreicht einen Kegel von <stat Name="ConeWidth" /> Grad. Eure schwere Waffe wird vor jedem Schuss nachgeladen.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandAggressiveStance">
     <description>
-              <p>While wielding a long blade in your primary hand, you gain +<stat Name="PenBonus" /> to your penetration rolls but -<stat Name="HitPenalty" /> to hit.</p>
+              <p>Wenn Ihr eine Langklinge in Eurer Haupthand fuehrt, erhaltet Ihr +<stat Name="PenBonus" /> auf Eure Durchdringungswuerfe, aber -<stat Name="HitPenalty" /> auf Treffer.</p>
               <br />
               <p>Haltungen koennen auch andere Faehigkeiten beeinflussen.</p>
           </description>

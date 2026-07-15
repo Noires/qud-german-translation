@@ -2,8 +2,8 @@
 
 <templates Lang="de" Encoding="utf-8">
   <template ID="Effect.AdrenalControl2Boosted.Details">
-        <p>+<stat Name="QuicknessBonus" /> Quickness</p>
-        <p>+<stat Name="MutationBonus" Unit="Rang" /> to physical mutations</p>
+        <p>+<stat Name="QuicknessBonus" /> Schnelligkeit</p>
+        <p>+<stat Name="MutationBonus" Unit="Rang" /> zu physischen Mutationen</p>
     </template>
   <template ID="Effect.AnemoneEffect.Details">
         <switch Name="DamageBonus">
@@ -35,7 +35,7 @@
         <p>Wird bald traege werden.</p>
     </template>
   <template ID="Effect.BasiliskPoison.Details">
-        <p>-1d6 Move Speed per turn for 14-18 turns.</p>
+        <p>-1w6 Bewegungsgeschwindigkeit pro Runde fuer 14-18 Runden.</p>
         <p>[total:<stat Name="MovementDebuff" Filters="signed" /> Bewegungsgeschwindigkeit]</p>
     </template>
   <template ID="Effect.Beguiled.Details">
@@ -46,16 +46,16 @@
         </switch>
     </template>
   <template ID="Effect.Berserk.Details">
-        <p>100% chance to dismember with axes.</p>
+        <p>100% Chance zu Verstuemmelung mit Aexten.</p>
     </template>
   <template ID="Effect.Blaze_Tonic.Details">
-        <p>+100 Heat Resistance</p>
+        <p>+100 Waermewiderstand</p>
         <p>Kann nicht eingefroren werden.</p>
-        <p>+25% heat damage dealt.</p>
-        <p>-50 Cold Resistance</p>
+        <p>+25% Waermeschaden verursacht.</p>
+        <p>-50 Kaeltewiderstand</p>
         <switch Name="IsTrueKin">
-            <case Value="true"><p>+20 Quickness</p></case>
-            <default><p>+10 Quickness</p></default>
+            <case Value="true"><p>+20 Schnelligkeit</p></case>
+            <default><p>+10 Schnelligkeit</p></default>
         </switch>
         <p>Temperatur kann nicht durch externe Waermequellen erhoeht werden.</p>
         <p>Muss dich bewegen, um Verbrennung und den Verlust der Effekte dieses Tonikums zu vermeiden.</p>
@@ -94,9 +94,9 @@
         <p>Das naechste Mal, wenn Ihr eine Mahlzeit durch die Auswahl von Zutaten kocht, erhaltet Ihr die Auswahl aus drei dynamisch generierten Effekten zum Anwenden. Ihr erstellt ein Rezept fuer den gewaehlten Effekt.</p>
     </template>
   <template ID="Effect.Lovesick.Details">
-        <p>-6 Intelligence</p>
-        <p>-6 Willpower</p>
-        <p>-5 Move Speed</p>
+        <p>-6 Intelligenz</p>
+        <p>-6 Willenskraft</p>
+        <p>-5 Bewegungsgeschwindigkeit</p>
     </template>
   <template ID="Effect.MemberOfPsychicBattle.Details">
         <p>In psychischem Kampf mit einem Gegner gesperrt. (<stat Name="Turns" Unit="Zug" /> verbleibend)</p>

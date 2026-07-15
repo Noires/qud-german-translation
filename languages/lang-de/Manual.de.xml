@@ -2,60 +2,59 @@
 
 <help Lang="de" Encoding="utf-8">
   <topic name="Quickstart" DisplayName="Schnelleinstieg">
-These are nine things you should do when you start your game.
-After that, use the rest of this Help as a reference manual.
+Dies sind neun Dinge, die Ihr tun solltet, wenn Ihr Euer Spiel startet.
+Nachher, nutzt den Rest dieser Hilfe als Referenzhandbuch.
 
-{{W|1. Walk around}}
+{{W|1. Herumlaufen}}
 
-{{?KB|Move by pressing directional keys (~CmdMoveN, ~CmdMoveE, etc) or by clicking on the map.}}{{?Gamepad|Indicate direction with ~UI:Navigate and press ~Take A Step to move or hold ~Take A Step to move continuously.}}{{?Gamepad|
-You can also auto-explore the map with ~CmdAutoExplore.}}
+{{?KB|Bewegt Euch durch Druecken von Richtungstasten (~CmdMoveN, ~CmdMoveE, usw.) oder durch Klicken auf die Karte.}}{{?Gamepad|Gebt Richtung mit ~UI:Navigate an und drueckt ~Take A Step, um Euch zu bewegen oder haltet ~Take A Step, um kontinuierlich zu bewegen.}}{{?Gamepad|
+Ihr koennt auch die Karte mit ~CmdAutoExplore auto-erkunden.}}
 
-{{W|2. Interact with things}}
+{{W|2. Mit Dingen interagieren}}
 
-Walk next to an NPC or other object and press ~CmdUse.
+Wandelt neben einen NPC oder ein anderes Objekt und drueckt ~CmdUse.
 
-{{W|3. Look at things}}
+{{W|3. Dinge ansehen}}
 
-{{?KB|Press }}~CmdLook to enter Look mode and then move the cursor around the map.{{?KB|
-Or {{hotkey|right-click}} to quick look.}}
+{{?KB|Drueckt }}~CmdLook, um in den Look-Modus zu gehen und dann den Cursor um die Karte zu bewegen.{{?KB|
+Oder {{hotkey|Rechtsklick}} zum schnellen Blick.}}
 
-{{W|4. Use your abilities}}
+{{W|4. Eure Faehigkeiten nutzen}}
 
-{{?KB|Click on a button on the ability bar at the bottom of your screen
-or press its hotkey.}}{{?Gamepad|Navigate the hotbar at the bottom of your screen with ~UI:Navigate/left and ~UI:Navigate/right
-and then press ~Use Ability to use an ability.}}
+{{?KB|Klickt auf einen Button in der Faehigkeitsleiste am unteren Rand Eures Bildschirms oder drueckt seinen Hotkey.}}{{?Gamepad|Navigiert die Hotbar am unteren Rand Eures Bildschirms mit ~UI:Navigate/left und ~UI:Navigate/right
+und drueckt dann ~Use Ability, um eine Faehigkeit zu nutzen.}}
 
-{{W|5. View your character sheet}}
+{{W|5. Euer Charakterblatt ansehen}}
 
-{{?KB|Press ~CmdCharacter to view your core character info.
-Press ~CmdEquipment to view your equipment.
-Press ~CmdInventory to view your inventory.
-Press ~CmdJournal to view your journal.
-Press ~CmdQuests to view your quests.
-Press ~CmdSkillsPowers to view your skills.
-Press ~CmdFactions to view your faction relationships.
+{{?KB|Drueckt ~CmdCharacter, um Eure Kerncharakterinformationen anzusehen.
+Drueckt ~CmdEquipment, um Eure Ausruestung anzusehen.
+Drueckt ~CmdInventory, um Euer Inventar anzusehen.
+Drueckt ~CmdJournal, um Euer Tagebuch anzusehen.
+Drueckt ~CmdQuests, um Eure Quests anzusehen.
+Drueckt ~CmdSkillsPowers, um Eure Faehigkeiten anzusehen.
+Drueckt ~CmdFactions, um Eure Fraktionsbeziehungen anzusehen.
 
-You can scroll through these pages with ~Page Left and ~Page Right.}}{{?Gamepad|Press ~CmdCharacter to view your core character info.
-Navigate to other pages in your character sheet with ~Page Left and ~Page Right.}}
+Ihr koennt durch diese Seiten mit ~Page Left und ~Page Right blaettern.}}{{?Gamepad|Drueckt ~CmdCharacter, um Eure Kerncharakterinformationen anzusehen.
+Navigiert zu anderen Seiten in Eurem Charakterblatt mit ~Page Left und ~Page Right.}}
 
-{{W|6. Bring up a list of points of interest}}
+{{W|6. Eine Liste von Orten von Interesse aufbringen}}
 
-Press ~CmdMoveToPointOfInterest.
+Drueckt ~CmdMoveToPointOfInterest.
 
-{{W|7. Bring up additional information about objects on the map}}
+{{W|7. Zusaetzliche Informationen ueber Objekte auf der Karte aufbringen}}
 
-Press ~Highlight for an overlay with extra info like creature hostility 
-(red = hostile, yellow = neutral, green = friendly) and a clear view of 
-interesting items.
+Drueckt ~Highlight fuer ein Overlay mit zusaetzlichen Informationen wie Kreaturen-Feindseligkeiten 
+(rot = feindselig, gelb = neutral, gruen = freundlich) und eine klare Ansicht von 
+interessanten Gegenstaenden.
 
-{{W|8. Walk to another map}}
+{{W|8. Zu einer anderen Karte gehen}}
 
-Simply walk offscreen, or go to the world map with ~CmdMoveU.
+Einfach vom Bildschirm gehen, oder gehe zur Weltkarte mit ~CmdMoveU.
 
-{{W|9. Attack an enemy}}
+{{W|9. Einen Feind angreifen}}
 
-To perform a basic attack, just walk into a hostile creature.
-Or you can use an attack ability.
+Um einen Grundangriff durchzufuehren, lauft einfach in eine feindselige Kreatur hinein.
+Oder Ihr koennt eine Angriffsangriff-Faehigkeit nutzen.
 </topic>
   <topic name="Attributes" DisplayName="Attribute">
 [[{{C|Strength}}]]
@@ -143,67 +142,66 @@ Die meisten Teile der Ruestung haben einen Ruestungs-Wert und einen Ausweichwert
 Teile der Ruestung koennen andere Statistiken modifizieren; 'l'ook an einem Stueck Ruestung, um vollstaendig zu bestimmen, was es tut.
 </topic>
   <topic name="Combat" DisplayName="Kampf">
-[[{{C|Melee Combat}}]]
-Melee combat is combat between two adjacent opponents with standard melee
-weapons such as swords, daggers, axes, and clubs. To attack a hostile
-adjacent opponent, simply move in the direction of the opponent. To attack
-something else, such as a non-hostile opponent or a wall, use '~CmdAttackDirection'
-and select the direction in which you wish to attack.
+[[{{C|Nahkampf}}]]
+Nahkampf ist Kampf zwischen zwei benachbarten Gegnern mit Standardnaehkampfwaffen
+wie Schwerter, Dolche, Aexte und Keulen. Um einen feindsamen benachbarten Gegner
+anzugreifen, bewegt Euch einfach in seine Richtung. Um etwas anderes anzugreifen,
+wie einen nicht-feindsligen Gegner oder eine Wand, nutzt '~CmdAttackDirection'
+und waehlt die Richtung, in die Ihr angreifen moechtet.
 
-When you make a melee attack against a target, the following sequence of
-events occurs:
+Wenn Ihr einen Nahkampfangriff gegen ein Ziel durchfuehrt, passiert folgende Abfolge von
+Ereignissen:
 
-[[{{c|1. Determine whether or not you hit the target.}}]]
-Your to-hit roll is 1d20 plus your agility modifier plus any bonuses you
-receive from your weapon or skill powers. If this roll exceeds your
-opponent's dodge value (DV), then you hit. An empty circle icon over your
-target indicates that your attack missed.
+[[{{c|1. Bestimmt, ob Ihr das Ziel trefft oder nicht.}}]]
+Euer Trefferwurf ist 1w20 plus Euer Agilitaet-Modifikator plus eventuelle Boni, die Ihr
+von Eurer Waffe oder Faehigkeitskraeften erhalten. Wenn dieser Wurf den Ausweichenwert (DV)
+Eures Gegners uebersteigt, trefft Ihr. Ein leerer Kreis ueber Eurem
+Ziel zeigt an, dass Euer Angriff verfehlt hat.
 
-[[{{c|2. Determine whether a shield block takes place.}}]]
-If the target has a shield equipped, they have a base 25% chance to block
-with it, increasing with skill. A successful block adds the shield's armor
-value (AV) to the target's AV for this attack.
+[[{{c|2. Bestimmt, ob ein Schildblock stattfindet.}}]]
+Wenn das Ziel einen Schild hat, hat es eine Basischance von 25%, damit zu blocken,
+die mit Geschick zunimmt. Ein erfolgreicher Block addiert den Ruestungswert (AV) des Schilds
+zum AV des Ziels fuer diesen Angriff.
 
-[[{{c|3. Determine how severely your attack penetrates your target's armor.}}]]
-Each weapon has a penetration value ({{C|→}}4, for example). This value
-represents the armor value (AV) that your weapon will usually penetrate
-with ease. If your weapon's penetration value far exceeds your target's AV,
-your weapon will likely penetrate several times. Each time your weapon
-penetrates your target's armor, your target is dealt damage equal to your
-weapon's damage value ({{R|♥}}1d4, for example). A filled circle icon over your
-target indicates that your attack hit but failed to penetrate your target's
-armor. A heart icon indicates that your attack hit and penetrated your
-target's armor.
+[[{{c|3. Bestimmt, wie sehr Euer Angriff die Ruestung des Ziels durchdringt.}}]]
+Jede Waffe hat einen Durchdringungswert ({{C|→}}4, zum Beispiel). Dieser Wert
+repraesentiert den Ruestungswert (AV), den Eure Waffe normalerweise leicht durchdringen wird.
+Wenn Euer Waffendurchdringungswert den AV des Ziels weit uebersteigt,
+wird Eure Waffe wahrscheinlich mehrfach durchdringen. Jedes Mal, wenn Eure Waffe
+die Ruestung des Ziels durchdringt, erleidet das Ziel Schaden gleich dem Schadenwert Eurer
+Waffe ({{R|♥}}1w4, zum Beispiel). Ein gefuellter Kreis ueber Eurem
+Ziel zeigt an, dass Euer Angriff traf, aber nicht die Ruestung des Ziels durchdrang.
+Ein Herz-Symbol zeigt an, dass Euer Angriff traf und die Ruestung des Ziels durchdrang.
 
-[[{{c|4. Determine if multiple attacks are made.}}]]
-There is a 15% chance that you make an additional attack with your
-secondary hand. Characters with multiple limbs may make additional attacks
-beyond this.
+[[{{c|4. Bestimmt, ob mehrfache Angriffe durchgefuehrt werden.}}]]
+Es besteht eine 15% Chance, dass Ihr einen zusaetzlichen Angriff mit Eurer
+Nebenhand durchfuehrt. Charaktere mit mehreren Gliedmassen koennen zusaetzliche Angriffe
+ueber dies hinaus durchfuehren.
 
-[[{{C|Missile Combat}}]]
-Missile combat is combat between two opponents with missile weapons such
-as bows, pistols, and rifles. To make a missile attack, press '~CmdFire' to aim
-your weapon, then '~CmdFire' again to fire.
+[[{{C|Fernkampf}}]]
+Fernkampf ist Kampf zwischen zwei Gegnern mit Fernkampfwaffen wie
+Boegen, Pistolen und Gewehre. Um einen Fernkampfangriff durchzufuehren, drueckt '~CmdFire', um
+Eure Waffe zu richten, dann drueckt '~CmdFire' erneut, um zu schiessen.
 
-When you make a missile attack, the following sequence of events occurs:
+Wenn Ihr einen Fernkampfangriff durchfuehrt, passiert folgende Abfolge von Ereignissen:
 
-[[{{c|1. Determine the trajectory of your missile.}}]]
-How far a missile is likely to veer from its projected path is determined
-by your agility score and the weapon's accuracy.
+[[{{c|1. Bestimmt die Flugbahn Eures Projektils.}}]]
+Wie sehr ein Projektil wahrscheinlich von seiner beabsichtigten Bahn abweicht, wird
+durch Euren Agilitaet-Wert und die Genauigkeit der Waffe bestimmt.
 
-[[{{c|2. Hit the first medium-sized or larger object along the missile's}}
-{{c|trajectory.}}]]
+[[{{c|2. Trifft das erste mittelgrosse oder groessere Objekt auf der Bahn}}]
+{{c|des Projektils.}}]]
 
-[[{{c|3. Determine how severely the missile penetrates your target's armor.}}]]
-This is resolved in the same way as a melee attack.
+[[{{c|3. Bestimmt, wie sehr das Projektil die Ruestung des Ziels durchdringt.}}]]
+Dies wird auf die gleiche Weise wie ein Nahkampfangriff geloest.
 
-[[{{c|4. Determine if multiple attacks are made.}}]]
-Certain powers allow you to fire multiple missiles with certain missile
-weapons.
+[[{{c|4. Bestimmt, ob mehrfache Angriffe durchgefuehrt werden.}}]]
+Bestimmte Faehigkeitskraefte erlauben es Euch, mehrere Projektile mit bestimmten Fernkampfwaffen
+abzuschiessen.
 
-If you are engaged in melee combat with more than one hostile opponent,
-there is a 50% chance that each missile attack you make goes wild (veers
-45 degrees to the left or right).
+Wenn Ihr in Nahkampf mit mehr als einem feindsligen Gegner verwickelt seid,
+besteht eine 50% Chance, dass jeder Fernkampfangriff, den Ihr durchfuehrt, wild wird (weicht
+45 Grad nach links oder rechts aus).
 </topic>
   <topic name="Saving Throws" DisplayName="Rettungswuerfe">
 Bestimmte Effekte oder Faehigkeiten erfordern es, dass Kreaturen Rettungswuerfe durchfuehren oder Konsequenzen erleiden. Jeder Rettungswurf hat ein damit verbundenes Attribut und eine Schwierigkeit. Um einen Rettungswurf zu bestehen, wird eine Basis 1d20 geworfen und dann Euer relevanter Attributsmodifikator hinzugefuegt. Falls diese Zahl die Schwierigkeit erfuellt oder uebertrifft, besteht Ihr. Ansonsten fehlschlagt Ihr. Einige Rettungswuerfe gegen Faehigkeiten von Kreaturen addieren auch den Attributsmodifikator der Kreatur zur Schwierigkeit.
@@ -409,51 +407,46 @@ Einige Faehigkeiten, Mutationen und Ausruestungen ermoeglichen es Euch, bestimmt
   ]]
 </topic>
   <topic name="Open Source Licenses" DisplayName="Open-Source-Lizenzen">
-[[{{c|License for Harmony (https://github.com/pardeike/Harmony)}}
-  {{W|MIT License}}
+[[{{c|Lizenz fuer Harmony (https://github.com/pardeike/Harmony)}}
+  {{W|MIT Lizenz}}
 
   Copyright (c) 2017 Andreas Pardeike
 
-{{c|License for FuzzySharp (https://github.com/JakeBayer/FuzzySharp)}}
-  {{W|MIT License}}
+{{c|Lizenz fuer FuzzySharp (https://github.com/JakeBayer/FuzzySharp)}}
+  {{W|MIT Lizenz}}
 
   Copyright (c) 2018 
   
-{{c|License for UnityStandaloneFileBrowser
+{{c|Lizenz fuer UnityStandaloneFileBrowser
  (https://github.com/gkngkc/UnityStandaloneFileBrowser)}}
-  {{W|MIT License}}
+  {{W|MIT Lizenz}}
 
-  Copyright (c) 2017 Gökhan Gökçe
+  Copyright (c) 2017 Goekhan Goekçe
 
-{{c|License for ZString (https://github.com/Cysharp/ZString)}}
-  {{W|MIT License}}
+{{c|Lizenz fuer ZString (https://github.com/Cysharp/ZString)}}
+  {{W|MIT Lizenz}}
 
   Copyright (c) 2020 Yoshifumi Kawai / Cysharp, Inc.
 
-{{c|License for UniTask (https://github.com/Cysharp/UniTask)}}
-  {{W|MIT License}}
+{{c|Lizenz fuer UniTask (https://github.com/Cysharp/UniTask)}}
+  {{W|MIT Lizenz}}
 
   Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.
 
 
-{{W|MIT License}} {{c|- Full Text}}
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
+{{W|MIT Lizenz}} {{c|- Vollstaendiger Text}}
+  Hiermit wird unentgeltlich einer jeden Person, die in den Besitz dieser Software und der zugehoerigen Dokumentationsdateien (die "Software") gelangt, die Erlaubnis erteilt, ohne Einschraenkung in der Software zu handeln, einschliesslich ohne Einschraenkung die Rechte zu nutzen, zu kopieren, zu modifizieren, zusammenzufuehren, zu veroeffentlichen, zu verteilen, zu lizenzieren und/oder Kopien der Software zu verkaufen,
+und Personen, denen die Software bereitgestellt wird, dies unter folgenden Bedingungen zu gestatten:
 
-  The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
+  Der obige Copyright-Hinweis und dieser Erlaubnis-Hinweis muessen in allen
+  Kopien oder wesentlichen Teilen der Software enthalten sein.
 
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  SOFTWARE.]]
+  DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE GEWAeHRLEISTUNG JEGLICHER ART, WEDER AUSDRUeCKLICH NOCH STILLSCHWEIGEND,
+  EINSCHLIESSLICH ABER NICHT BEGRENZT AUF DIE GEWAeHRLEISTUNG DER MARKTGAeNGIGKEIT,
+  EIGNUNG FUeR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. IN KEINEM FALL SOLLEN DIE
+  AUTOREN ODER URHEBERRECHTSINHABER HAFTBAR FUeR ANSPRUeCHE, SCHAeDEN ODER SONSTIGE
+  HAFTUNG, OB NACH VERTRAG, DELIKT ODER SONSTWIE, ENTSTEHEND AUS,
+  ODER IN ZUSAMMENHANG MIT DER SOFTWARE ODER DER NUTZUNG ODER ANDEREN HANDLUNGEN MIT DER SOFTWARE.]]
 
 </topic>
 </help>
