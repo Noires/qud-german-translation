@@ -3,6 +3,33 @@
 Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung im
 `lang-experimental`-Branch. Reines Daten-Mod (keine Harmony-Patches, keine DLL).
 
+## v0.6.0 – Deutscher Grammatik-Helfer (Prototyp)
+
+Erster deutscher Grammatik-Helfer im Code (`languages/lang-de/CODE/VariableReplacers.de.cs`,
+analog zum koreanischen Referenz-Mod). Er überschreibt die Artikel-Token des Spiels für die
+Sprache `de`, sodass zur Laufzeit zusammengesetzte Objekt-Verweise einen **deutschen Artikel**
+erhalten statt des englischen „the/a":
+
+- `=the=`, `=the.name=`, `=t=` (z. B. `=subject.t=`, `=object.t=`) → `der/die/das/den`
+- `=a=`, `=a.name=`, `=an=` → `ein/eine/einen`
+
+Betroffen sind u. a. Kampfmeldungen, „Ansehen"-Texte, Aufheben-Meldungen und Dialogverweise
+(„Der Riesenkäfer greift Euch an." statt „the Riesenkäfer …").
+
+### Grenzen (Prototyp)
+
+- **Genus** wird aus dem Kopf-Substantiv abgeleitet (Endungs-Heuristik + Ausnahmeliste
+  häufiger Nomen). Deutsches Genus ist teils willkürlich – bei seltenen Nomen kann der
+  Artikel falsch sein.
+- **Kasus** ist nur als Subjekt (Nominativ) bzw. Objekt (Akkusativ) bekannt; Dativ/Genitiv
+  nach Präpositionen liefert das Token nicht, daher dort ggf. falscher Artikel (aber immer
+  noch deutscher statt englischer).
+- **Adjektive** in zusammengesetzten Namen sind reiner Text (kein Token) und werden nicht
+  gebeugt.
+
+**Hinweis:** Dies ist ein Code-Mod-Bestandteil und wird vom Spiel beim Laden kompiliert
+(Scripting muss aktiviert sein). Bei Kompilierfehlern wird der Helfer ignoriert.
+
 ## v0.5.0 – Kreaturen-Umgebungssprache
 
 Erster Schritt bei den prozeduralen Inhalten: die kurzen „Stimme"-Zeilen von
