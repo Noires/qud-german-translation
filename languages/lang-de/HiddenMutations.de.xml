@@ -8,15 +8,15 @@
                     <p>Ihr seht im Dunkeln.</p>
                 </leveltext>
     </mutation>
-    <mutation Name="Heightened Smell" DisplayName="Erhoehter Geruchssinn" BearerDescription="jene mit verbessertem Geruchssinn">
+    <mutation Name="Heightened Smell" DisplayName="Erhöhter Geruchssinn" BearerDescription="jene mit verbessertem Geruchssinn">
       <description>
-                    <p>Ihr besitzt aussergewoehnlich scharfen Geruchssinn.</p>
+                    <p>Ihr besitzt außergewöhnlich scharfen Geruchssinn.</p>
                 </description>
       <leveltext>
-                    <p>Sie erkennen das Vorhandensein von Kreaturen in einem Bereich von typischerweise <stat Name="Radius" Unit="Platz" /> abhaengig vom Gelaende</p>
+                    <p>Sie erkennen das Vorhandensein von Kreaturen in einem Bereich von typischerweise <stat Name="Radius" Unit="Platz" /> abhängig vom Gelände</p>
                     <switch Name="LevelMatch">
-                        <case Value="true"><p>Chance, in der Naehe erkannte Kreaturen zu identifizieren</p></case>
-                        <default><p>{{rules|Erhoehte Chance, erkannte Kreaturen in der Naehe zu identifizieren}}</p></default>
+                        <case Value="true"><p>Chance, in der Nähe erkannte Kreaturen zu identifizieren</p></case>
+                        <default><p>{{rules|Erhöhte Chance, erkannte Kreaturen in der Nähe zu identifizieren}}</p></default>
                     </switch>
                 </leveltext>
     </mutation>
@@ -30,136 +30,136 @@
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>
     </mutation>
-    <mutation Name="Heat Absorption" DisplayName="Waermeaufnahme" BearerDescription="jene, die Waerme absorbieren">
+    <mutation Name="Heat Absorption" DisplayName="Wärmeaufnahme" BearerDescription="jene, die Wärme absorbieren">
       <description>
-                    <p>Ihr regeneriert durch Waermeaufnahme.</p>
+                    <p>Ihr regeneriert durch Wärmeaufnahme.</p>
                 </description>
       <leveltext>
-                    <p>Immun gegen Waermeschaden</p>
+                    <p>Immun gegen Wärmeschaden</p>
                     <switch Name="HealFactor">
                         <case Value="0" />
-                        <default><p>Jedes Mal, wenn Ihr Hitzeschaden erleiden wuerdet, heilt Ihr stattdessen fuer <stat Name="HealFactor" />% dieses Schadens</p></default>
+                        <default><p>Jedes Mal, wenn Ihr Hitzeschaden erleiden würdet, heilt Ihr stattdessen für <stat Name="HealFactor" />% dieses Schadens</p></default>
                     </switch>
                 </leveltext>
     </mutation>
     <mutation Name="Wall Climber" DisplayName="Wandkletterer" BearerDescription="Wandkletterer" />
     <mutation Name="Spider Webs" DisplayName="Spinnennetze" BearerDescription="Netzweber" />
     <mutation Name="Frost Webs" DisplayName="Frostnetze" BearerDescription="Frostnettweber" />
-    <mutation Name="Acid Slime Glands" DisplayName="Saeureschleimdruesen" BearerDescription="Saeurespritze" />
+    <mutation Name="Acid Slime Glands" DisplayName="Säureschleimdrüsen" BearerDescription="Säurespritze" />
     <mutation Name="Sticky Tongue" DisplayName="Klebrige Zunge" BearerDescription="jene mit klebrigen Zungen" />
     <mutation Name="Spore Puff" DisplayName="Sporenpuff" BearerDescription="jene, die Sporen ausblasen" />
     <mutation Name="Magnetic Pulse" DisplayName="Magnetischer Impuls" BearerDescription="jene, die magnetische Pulse aussenden" />
-    <mutation Name="Urchin Belching" DisplayName="Igel-Ausstoss" BearerDescription="jene, die Seeigel ausstossen" />
+    <mutation Name="Urchin Belching" DisplayName="Igel-Ausstoß" BearerDescription="jene, die Seeigel ausstoßen" />
     <mutation Name="Waveform" DisplayName="Wellenform" BearerDescription="jene, die einer Wellenform entlangrasen" />
-    <mutation Name="Multiple Horns" DisplayName="Mehrere Hoerner" BearerDescription="jene mit mehreren Hoernern" />
+    <mutation Name="Multiple Horns" DisplayName="Mehrere Hörner" BearerDescription="jene mit mehreren Hörnern" />
     <mutation Name="Astral" DisplayName="Astral" BearerDescription="das Astralreich" />
     <mutation Name="Decarbonizer" DisplayName="Entkarbonisierer" BearerDescription="jene, die Kohlenstoff extrahieren" />
     <mutation Name="Lithifying Gaze" DisplayName="Versteinerter Blick" BearerDescription="jene, deren Blick versteinert" />
-    <mutation Name="Crungling Gaze" DisplayName="Crungling-Blick" BearerDescription="jene, deren Blick Traeume hervorruft" />
-    <mutation Name="Liquid Font" DisplayName="Fluessige Schrift" BearerDescription="jene, die Fluessigkeiten austreten lassen" />
+    <mutation Name="Crungling Gaze" DisplayName="Crungling-Blick" BearerDescription="jene, deren Blick Träume hervorruft" />
+    <mutation Name="Liquid Font" DisplayName="Flüssige Schrift" BearerDescription="jene, die Flüssigkeiten austreten lassen" />
     <mutation Name="Irisdual Beam" DisplayName="Irisduale Strahlung" BearerDescription="jene, die Strahlen abwerfen" />
-    <mutation Name="Bilge Sphincter" DisplayName="Bilgen-Schliessmuskel" BearerDescription="die Gallen-Sphincter" />
-    <mutation Name="Crystallinity" DisplayName="Kristallinitaet" BearerDescription="der Kristalline" />
-    <mutation Name="Fear Aura" DisplayName="Furchtaura" BearerDescription="jene mit furchtbaren Ausduenstungen" />
+    <mutation Name="Bilge Sphincter" DisplayName="Bilgen-Schließmuskel" BearerDescription="die Gallen-Sphincter" />
+    <mutation Name="Crystallinity" DisplayName="Kristallinität" BearerDescription="der Kristalline" />
+    <mutation Name="Fear Aura" DisplayName="Furchtaura" BearerDescription="jene mit furchtbaren Ausdünstungen" />
     <mutation Name="Burrowing" DisplayName="Graben" BearerDescription="jene, die sich unterirdisch eingraben" />
-    <mutation Name="Liquid Spitter" DisplayName="Fluessigkeits-Sprueher" BearerDescription="Fluessigkeitsspucker" />
+    <mutation Name="Liquid Spitter" DisplayName="Flüssigkeits-Sprüher" BearerDescription="Flüssigkeitsspucker" />
     <mutation Name="Freezing Ultraray" DisplayName="Gefrierende Ultrastrahl" BearerDescription="der Frosthand" />
     <mutation Name="Defensive Chromatophores" DisplayName="Defensive Chromatophoren" BearerDescription="jene, die funkeln" />
     <mutation Name="Fire Breath" DisplayName="Feuerodem" BearerDescription="jene, die Feuer atmen" />
     <mutation Name="Ice Breath" DisplayName="Eisatem" BearerDescription="jene, die Eis atmen" />
-    <mutation Name="Normality Breath" DisplayName="Normalitaetsatem" BearerDescription="jene, die Normalitaet atmen" />
-    <mutation Name="Corrosive Breath" DisplayName="Aetzatem" BearerDescription="jene mit aetzendem Atem" />
+    <mutation Name="Normality Breath" DisplayName="Normalitätsatem" BearerDescription="jene, die Normalität atmen" />
+    <mutation Name="Corrosive Breath" DisplayName="Ätzatem" BearerDescription="jene mit ätzendem Atem" />
     <mutation Name="Confusing Breath" DisplayName="Verwirrter Atem" BearerDescription="jene mit verwirrendem Atem" />
-    <mutation Name="Stun Breath" DisplayName="Betaeubungsatem" BearerDescription="jene mit betaeubendem Atem" />
+    <mutation Name="Stun Breath" DisplayName="Betäubungsatem" BearerDescription="jene mit betäubendem Atem" />
     <mutation Name="Poison Breath" DisplayName="Giftatem" BearerDescription="jene mit giftigem Atem" />
     <mutation Name="Sleep Breath" DisplayName="Schlafatem" BearerDescription="jene mit beruhigendem Atem" />
-    <mutation Name="Shame Breath" DisplayName="Hauch der Schande" BearerDescription="jene mit beschaemendem Atem" />
+    <mutation Name="Shame Breath" DisplayName="Hauch der Schande" BearerDescription="jene mit beschämendem Atem" />
     <mutation Name="Plasma Emission" DisplayName="Plasmaemission" BearerDescription="jene, die Plasma aussenden">
       <description>
                     <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
                 </description>
       <leveltext>
-                    <p>Setzt Gas fuer <stat Name="Duration" /> frei</p>
+                    <p>Setzt Gas für <stat Name="Duration" /> frei</p>
                     <switch Name="LevelMatch">
-                        <case Value="raise"><p>{{rules|Erhoeht <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="raise"><p>{{rules|Erhöht <stat Name="LevelEffectDescription" />}}</p></case>
                         <case Value="lower"><p>{{rules|Vermindert <stat Name="LevelEffectDescription" />}}</p></case>
                     </switch>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>
     </mutation>
-    <mutation Name="Poison Gas Generation" DisplayName="Giftgaserzeugung" BearerDescription="jene, die Giftgas ausstossen">
+    <mutation Name="Poison Gas Generation" DisplayName="Giftgaserzeugung" BearerDescription="jene, die Giftgas ausstoßen">
       <description>
                     <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
                 </description>
       <leveltext>
-                    <p>Setzt Gas fuer <stat Name="Duration" /> frei</p>
+                    <p>Setzt Gas für <stat Name="Duration" /> frei</p>
                     <switch Name="LevelMatch">
-                        <case Value="raise"><p>{{rules|Erhoeht <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="raise"><p>{{rules|Erhöht <stat Name="LevelEffectDescription" />}}</p></case>
                         <case Value="lower"><p>{{rules|Vermindert <stat Name="LevelEffectDescription" />}}</p></case>
                     </switch>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>
     </mutation>
-    <mutation Name="Defoliant Generation" DisplayName="Entlaubungsmittelerzeugung" BearerDescription="jene, die Entlaubungsmittel ausstossen">
+    <mutation Name="Defoliant Generation" DisplayName="Entlaubungsmittelerzeugung" BearerDescription="jene, die Entlaubungsmittel ausstoßen">
       <description>
                     <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
                 </description>
       <leveltext>
-                    <p>Setzt Gas fuer <stat Name="Duration" /> frei</p>
+                    <p>Setzt Gas für <stat Name="Duration" /> frei</p>
                     <switch Name="LevelMatch">
-                        <case Value="raise"><p>{{rules|Erhoeht <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="raise"><p>{{rules|Erhöht <stat Name="LevelEffectDescription" />}}</p></case>
                         <case Value="lower"><p>{{rules|Vermindert <stat Name="LevelEffectDescription" />}}</p></case>
                     </switch>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>
     </mutation>
-    <mutation Name="Fungicide Generation" DisplayName="Fungizid-Erzeugung" BearerDescription="jene, die Fungizid ausstossen">
+    <mutation Name="Fungicide Generation" DisplayName="Fungizid-Erzeugung" BearerDescription="jene, die Fungizid ausstoßen">
       <description>
                     <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
                 </description>
       <leveltext>
-                    <p>Setzt Gas fuer <stat Name="Duration" /> frei</p>
+                    <p>Setzt Gas für <stat Name="Duration" /> frei</p>
                     <switch Name="LevelMatch">
-                        <case Value="raise"><p>{{rules|Erhoeht <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="raise"><p>{{rules|Erhöht <stat Name="LevelEffectDescription" />}}</p></case>
                         <case Value="lower"><p>{{rules|Vermindert <stat Name="LevelEffectDescription" />}}</p></case>
                     </switch>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>
     </mutation>
-    <mutation Name="Confusion Gas Generation" DisplayName="Verwirrgaserzeugung" BearerDescription="jene, die Verwirrungsgas ausstossen">
+    <mutation Name="Confusion Gas Generation" DisplayName="Verwirrgaserzeugung" BearerDescription="jene, die Verwirrungsgas ausstoßen">
       <description>
                     <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
                 </description>
       <leveltext>
-                    <p>Setzt Gas fuer <stat Name="Duration" /> frei</p>
+                    <p>Setzt Gas für <stat Name="Duration" /> frei</p>
                     <switch Name="LevelMatch">
-                        <case Value="raise"><p>{{rules|Erhoeht <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="raise"><p>{{rules|Erhöht <stat Name="LevelEffectDescription" />}}</p></case>
                         <case Value="lower"><p>{{rules|Vermindert <stat Name="LevelEffectDescription" />}}</p></case>
                     </switch>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>
     </mutation>
-    <mutation Name="Normality Gas Generation" DisplayName="Normalitaetsgaserzeugung" BearerDescription="jene, die Normalitaetsgas ausstossen">
+    <mutation Name="Normality Gas Generation" DisplayName="Normalitätsgaserzeugung" BearerDescription="jene, die Normalitätsgas ausstoßen">
       <description>
                     <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
                 </description>
       <leveltext>
-                    <p>Setzt Gas fuer <stat Name="Duration" /> frei</p>
+                    <p>Setzt Gas für <stat Name="Duration" /> frei</p>
                     <switch Name="LevelMatch">
-                        <case Value="raise"><p>{{rules|Erhoeht <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="raise"><p>{{rules|Erhöht <stat Name="LevelEffectDescription" />}}</p></case>
                         <case Value="lower"><p>{{rules|Vermindert <stat Name="LevelEffectDescription" />}}</p></case>
                     </switch>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>
     </mutation>
-    <mutation Name="Glitter Dust Generation" DisplayName="Glitter-Staub-Erzeugung" BearerDescription="jene, die Glitzerstaub ausstossen">
+    <mutation Name="Glitter Dust Generation" DisplayName="Glitter-Staub-Erzeugung" BearerDescription="jene, die Glitzerstaub ausstoßen">
       <description>
                     <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
                 </description>
       <leveltext>
-                    <p>Setzt Gas fuer <stat Name="Duration" /> frei</p>
+                    <p>Setzt Gas für <stat Name="Duration" /> frei</p>
                     <switch Name="LevelMatch">
-                        <case Value="raise"><p>{{rules|Erhoeht <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="raise"><p>{{rules|Erhöht <stat Name="LevelEffectDescription" />}}</p></case>
                         <case Value="lower"><p>{{rules|Vermindert <stat Name="LevelEffectDescription" />}}</p></case>
                     </switch>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -170,22 +170,22 @@
     <mutation Name="Invisibility" DisplayName="Unsichtbarkeit" BearerDescription="der Unsichtbare" />
     <mutation Name="Interdiction" DisplayName="Interdiktive" BearerDescription="jene, die unterbrechen" />
     <mutation Name="Ley Shifting" DisplayName="Ley-Verschiebung" BearerDescription="jene, die Raumzeit verschieben" />
-    <mutation Name="Quantum Fugue" DisplayName="Quantenfuge" BearerDescription="Quantenfuechtlinge" />
-    <mutation Name="Reflect Shame" DisplayName="Schande zurueckwerfen" BearerDescription="jene, die Schande reflektieren">
+    <mutation Name="Quantum Fugue" DisplayName="Quantenfuge" BearerDescription="Quantenfüchtlinge" />
+    <mutation Name="Reflect Shame" DisplayName="Schande zurückwerfen" BearerDescription="jene, die Schande reflektieren">
       <description>
                     <p>Ihr spiegelt das schmachvolle Antlitz nahegelegener Kreaturen wider.</p>
                 </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Repelling Force" DisplayName="Abstossende Kraft" BearerDescription="die Abstossung">
+    <mutation Name="Repelling Force" DisplayName="Abstoßende Kraft" BearerDescription="die Abstoßung">
       <description>
-                    <p>Ihr beschwoert eine abstossende Kraft im umgebenden Bereich und wirft Feinde zurueck.</p>
+                    <p>Ihr beschwört eine abstoßende Kraft im umgebenden Bereich und wirft Feinde zurück.</p>
                 </description>
       <leveltext>
                     <statline Name="Area" DisplayName="Bereich" />
                     <switch Name="LevelMatch">
-                        <case Value="true"><p>Kreaturen werden vom Zentrum der Explosion weggestossen.</p></case>
-                        <default><p>{{rules|Erhoehte Stosskraft}}</p></default>
+                        <case Value="true"><p>Kreaturen werden vom Zentrum der Explosion weggestoßen.</p></case>
+                        <default><p>{{rules|Erhöhte Stoßkraft}}</p></default>
                     </switch>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>

@@ -1,51 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <help Lang="de" Encoding="utf-8">
-  <topic name="Quickstart" DisplayName="Schnelleinstieg">
+  <topic name="Quickstart" DisplayName="Schnellstart">
 Dies sind neun Dinge, die Ihr tun solltet, wenn Ihr Euer Spiel startet.
 Nachher, nutzt den Rest dieser Hilfe als Referenzhandbuch.
 
 {{W|1. Herumlaufen}}
 
-{{?KB|Bewegt Euch durch Druecken von Richtungstasten (~CmdMoveN, ~CmdMoveE, usw.) oder durch Klicken auf die Karte.}}{{?Gamepad|Gebt Richtung mit ~UI:Navigate an und drueckt ~Take A Step, um Euch zu bewegen oder haltet ~Take A Step, um kontinuierlich zu bewegen.}}{{?Gamepad|
-Ihr koennt auch die Karte mit ~CmdAutoExplore auto-erkunden.}}
+{{?KB|Bewegt Euch durch Drücken von Richtungstasten (~CmdMoveN, ~CmdMoveE, usw.) oder durch Klicken auf die Karte.}}{{?Gamepad|Gebt Richtung mit ~UI:Navigate an und drückt ~Take A Step, um Euch zu bewegen oder haltet ~Take A Step, um kontinuierlich zu bewegen.}}{{?Gamepad|
+Ihr könnt auch die Karte mit ~CmdAutoExplore auto-erkunden.}}
 
 {{W|2. Mit Dingen interagieren}}
 
-Wandelt neben einen NPC oder ein anderes Objekt und drueckt ~CmdUse.
+Wandelt neben einen NPC oder ein anderes Objekt und drückt ~CmdUse.
 
 {{W|3. Dinge ansehen}}
 
-{{?KB|Drueckt }}~CmdLook, um in den Look-Modus zu gehen und dann den Cursor um die Karte zu bewegen.{{?KB|
+{{?KB|Drückt }}~CmdLook, um in den Look-Modus zu gehen und dann den Cursor um die Karte zu bewegen.{{?KB|
 Oder {{hotkey|Rechtsklick}} zum schnellen Blick.}}
 
-{{W|4. Eure Faehigkeiten nutzen}}
+{{W|4. Eure Fähigkeiten nutzen}}
 
-{{?KB|Klickt auf einen Button in der Faehigkeitsleiste am unteren Rand Eures Bildschirms oder drueckt seinen Hotkey.}}{{?Gamepad|Navigiert die Hotbar am unteren Rand Eures Bildschirms mit ~UI:Navigate/left und ~UI:Navigate/right
-und drueckt dann ~Use Ability, um eine Faehigkeit zu nutzen.}}
+{{?KB|Klickt auf einen Button in der Fähigkeitsleiste am unteren Rand Eures Bildschirms oder drückt seinen Hotkey.}}{{?Gamepad|Navigiert die Hotbar am unteren Rand Eures Bildschirms mit ~UI:Navigate/left und ~UI:Navigate/right
+und drückt dann ~Use Ability, um eine Fähigkeit zu nutzen.}}
 
 {{W|5. Euer Charakterblatt ansehen}}
 
-{{?KB|Drueckt ~CmdCharacter, um Eure Kerncharakterinformationen anzusehen.
-Drueckt ~CmdEquipment, um Eure Ausruestung anzusehen.
-Drueckt ~CmdInventory, um Euer Inventar anzusehen.
-Drueckt ~CmdJournal, um Euer Tagebuch anzusehen.
-Drueckt ~CmdQuests, um Eure Quests anzusehen.
-Drueckt ~CmdSkillsPowers, um Eure Faehigkeiten anzusehen.
-Drueckt ~CmdFactions, um Eure Fraktionsbeziehungen anzusehen.
+{{?KB|Drückt ~CmdCharacter, um Eure Kerncharakterinformationen anzusehen.
+Drückt ~CmdEquipment, um Eure Ausrüstung anzusehen.
+Drückt ~CmdInventory, um Euer Inventar anzusehen.
+Drückt ~CmdJournal, um Euer Tagebuch anzusehen.
+Drückt ~CmdQuests, um Eure Quests anzusehen.
+Drückt ~CmdSkillsPowers, um Eure Fähigkeiten anzusehen.
+Drückt ~CmdFactions, um Eure Fraktionsbeziehungen anzusehen.
 
-Ihr koennt durch diese Seiten mit ~Page Left und ~Page Right blaettern.}}{{?Gamepad|Drueckt ~CmdCharacter, um Eure Kerncharakterinformationen anzusehen.
+Ihr könnt durch diese Seiten mit ~Page Left und ~Page Right blättern.}}{{?Gamepad|Drückt ~CmdCharacter, um Eure Kerncharakterinformationen anzusehen.
 Navigiert zu anderen Seiten in Eurem Charakterblatt mit ~Page Left und ~Page Right.}}
 
 {{W|6. Eine Liste von Orten von Interesse aufbringen}}
 
-Drueckt ~CmdMoveToPointOfInterest.
+Drückt ~CmdMoveToPointOfInterest.
 
-{{W|7. Zusaetzliche Informationen ueber Objekte auf der Karte aufbringen}}
+{{W|7. Zusätzliche Informationen über Objekte auf der Karte aufbringen}}
 
-Drueckt ~Highlight fuer ein Overlay mit zusaetzlichen Informationen wie Kreaturen-Feindseligkeiten 
-(rot = feindselig, gelb = neutral, gruen = freundlich) und eine klare Ansicht von 
-interessanten Gegenstaenden.
+Drückt ~Highlight für ein Overlay mit zusätzlichen Informationen wie Kreaturen-Feindseligkeiten 
+(rot = feindselig, gelb = neutral, grün = freundlich) und eine klare Ansicht von 
+interessanten Gegenständen.
 
 {{W|8. Zu einer anderen Karte gehen}}
 
@@ -53,163 +53,163 @@ Einfach vom Bildschirm gehen, oder gehe zur Weltkarte mit ~CmdMoveU.
 
 {{W|9. Einen Feind angreifen}}
 
-Um einen Grundangriff durchzufuehren, lauft einfach in eine feindselige Kreatur hinein.
-Oder Ihr koennt eine Angriffsangriff-Faehigkeit nutzen.
+Um einen Grundangriff durchzuführen, lauft einfach in eine feindselige Kreatur hinein.
+Oder Ihr könnt eine Angriffsangriff-Fähigkeit nutzen.
 </topic>
   <topic name="Attributes" DisplayName="Attribute">
 [[{{C|Strength}}]]
-Euer Staerkenwert bestimmt, wie viel Nahkampf-Schaden Ihr (durch Verbesserung Eures Ruestungs-Durchdringung), Eure Faehigkeit, erzwungene Bewegung zu widerstehen, und Eure Tragekapazitaet tut.
+Euer Stärkenwert bestimmt, wie viel Nahkampf-Schaden Ihr (durch Verbesserung Eures Rüstungs-Durchdringung), Eure Fähigkeit, erzwungene Bewegung zu widerstehen, und Eure Tragekapazität tut.
 
 [[{{C|Agility}}]]
-Euer Agilitaet-Wert bestimmt Eure Genauigkeit mit Nahkampf- und Fernkampf-Waffen und Eure Faehigkeit, Angriffen auszuweichen.
+Euer Agilität-Wert bestimmt Eure Genauigkeit mit Nahkampf- und Fernkampf-Waffen und Eure Fähigkeit, Angriffen auszuweichen.
 
 [[{{C|Toughness}}]]
-Euer Robustheit-Wert bestimmt Eure Anzahl von Lebenspunkten, Eure Lebenspunkt-Regenerations-Rate und Eure Faehigkeit, Gift und Krankheit zu widerstehen.
+Euer Robustheit-Wert bestimmt Eure Anzahl von Lebenspunkten, Eure Lebenspunkt-Regenerations-Rate und Eure Fähigkeit, Gift und Krankheit zu widerstehen.
 
 [[{{C|Intelligence}}]]
-Euer Intelligenz-Wert bestimmt Eure Anzahl von Faehigkeitspunkten und Eure Faehigkeit, Artefakte zu untersuchen.
+Euer Intelligenz-Wert bestimmt Eure Anzahl von Fähigkeitspunkten und Eure Fähigkeit, Artefakte zu untersuchen.
 
 [[{{C|Willpower}}]]
-Euer Willpower-Wert modifiziert die Abklingzeiten Eurer aktivierten Faehigkeiten, bestimmt Eure Faehigkeit, mentale Angriffe zu widerstehen, und modifiziert Eure Lebenspunkt-Regenerations-Rate.
+Euer Willpower-Wert modifiziert die Abklingzeiten Eurer aktivierten Fähigkeiten, bestimmt Eure Fähigkeit, mentale Angriffe zu widerstehen, und modifiziert Eure Lebenspunkt-Regenerations-Rate.
 
 [[{{C|Ego}}]]
-Euer Ego-Wert bestimmt die Wirksamkeit Eurer mentalen Mutationen, Eure Faehigkeit, mit Kaufleuten zu handeln, und Eure Faehigkeit, die Willen anderer lebender Kreaturen zu dominieren.
+Euer Ego-Wert bestimmt die Wirksamkeit Eurer mentalen Mutationen, Eure Fähigkeit, mit Kaufleuten zu handeln, und Eure Fähigkeit, die Willen anderer lebender Kreaturen zu dominieren.
 
 [[{{C|Armor Value and Dodge Value (AV / DV)}}]]
-Euer Ruestungs-Wert (AV) ist eine Messung, wie gut Ihr gegen physische Angriffe geschuetzt seid, die Euch treffen. Je hoeher Euer Score, desto weniger wahrscheinlich wird der Angriff eines Gegners schweren Schaden auf Euch ausrichten. Die meisten Charaktere beginnen mit einem Basis-AV-Wert von 0.
+Euer Rüstungs-Wert (AV) ist eine Messung, wie gut Ihr gegen physische Angriffe geschützt seid, die Euch treffen. Je höher Euer Score, desto weniger wahrscheinlich wird der Angriff eines Gegners schweren Schaden auf Euch ausrichten. Die meisten Charaktere beginnen mit einem Basis-AV-Wert von 0.
 
-Euer Ausweichwert (DV) ist eine Messung, wie wahrscheinlich es ist, dass Ihr von physischen Angriffen getroffen werdet. Je hoeher Euer Score, desto weniger wahrscheinlich wird der Angriff eines Gegners Euch treffen. Euer DV wird durch Euren Agilitaet-Modifikator modifiziert. Die meisten Charaktere beginnen mit einem Basis-DV von 6.
+Euer Ausweichwert (DV) ist eine Messung, wie wahrscheinlich es ist, dass Ihr von physischen Angriffen getroffen werdet. Je höher Euer Score, desto weniger wahrscheinlich wird der Angriff eines Gegners Euch treffen. Euer DV wird durch Euren Agilität-Modifikator modifiziert. Die meisten Charaktere beginnen mit einem Basis-DV von 6.
 
 [[{{C|Mental Armor (MA)}}]]
-Euer mentale Ruestung (MA) ist eine Messung, wie gut Ihr gegen mentale Angriffe geschuetzt seid, ebenso wie Euer Ruestungs-Wert eine Messung ist, wie gut Ihr gegen physische Angriffe geschuetzt seid. Je hoeher Euer Score, desto weniger wahrscheinlich wird der mentale Angriff eines Gegners schweren Auswirkungen auf Euch haben. Euer MA wird durch Euren Willpower-Modifikator modifiziert. Die meisten Charaktere beginnen mit einer Basis-MA von 4.
+Euer mentale Rüstung (MA) ist eine Messung, wie gut Ihr gegen mentale Angriffe geschützt seid, ebenso wie Euer Rüstungs-Wert eine Messung ist, wie gut Ihr gegen physische Angriffe geschützt seid. Je höher Euer Score, desto weniger wahrscheinlich wird der mentale Angriff eines Gegners schweren Auswirkungen auf Euch haben. Euer MA wird durch Euren Willpower-Modifikator modifiziert. Die meisten Charaktere beginnen mit einer Basis-MA von 4.
 
 [[{{C|Quickness (QN)}}]]
-Euer Quickness-Wert ist eine Messung, wie schnell Ihr jede und alle Aktionen durchfuehrt, die Ihr ergreifen. Euer Basis-Quickness-Wert ist 100. Beachtet, dass es sehr wenige Wege gibt, diesen Score zu vergroessern.
+Euer Quickness-Wert ist eine Messung, wie schnell Ihr jede und alle Aktionen durchführt, die Ihr ergreifen. Euer Basis-Quickness-Wert ist 100. Beachtet, dass es sehr wenige Wege gibt, diesen Score zu vergrößern.
 
 [[{{C|Movement Speed (MS)}}]]
 Euer Bewegungs-Geschwindigkeit ist eine Messung, wie schnell Ihr geht oder fliegt. Eure Basis-Bewegungs-Geschwindigkeit ist 100.
 
 [[{{C|Temperature (T)}}]]
-Eure Temperatur ist eine Messung, wie heiss oder kalt Ihr seid. Falls Ihr Cold seid, wird Euer Quickness-Wert um die Haelfte reduziert. Falls Ihr Frozen seid, seid Ihr nicht in der Lage, physische Aktionen zu ergreifen. Falls Ihr Flaming seid, erleidet Ihr jeden Umschwung Waermeschaden, bis Ihr Eure Temperatur reduziert.
+Eure Temperatur ist eine Messung, wie heiß oder kalt Ihr seid. Falls Ihr Cold seid, wird Euer Quickness-Wert um die Hälfte reduziert. Falls Ihr Frozen seid, seid Ihr nicht in der Lage, physische Aktionen zu ergreifen. Falls Ihr Flaming seid, erleidet Ihr jeden Umschwung Wärmeschaden, bis Ihr Eure Temperatur reduziert.
 
 [[{{C|Acid Resist}}]]
-Euer Saeure-Widerstand ist eine Messung, wie viel Saeurenschaden Ihr ablatet. Euer Basis-Saeure-Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen Saeurenschaden.
+Euer Säure-Widerstand ist eine Messung, wie viel Säurenschaden Ihr ablatet. Euer Basis-Säure-Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen Säurenschaden.
 
 [[{{C|Cold Resist}}]]
-Euer Kaelte-Widerstand ist eine Messung, wie viel Kaelteschaden Ihr ablatet und wie isoliert Ihr von Auswirkungen seid, die Eure Temperatur reduzieren. Euer Basis-Kaelte-Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen Kaelteschaden und Eure Temperatur kann nicht reduziert werden.
+Euer Kälte-Widerstand ist eine Messung, wie viel Kälteschaden Ihr ablatet und wie isoliert Ihr von Auswirkungen seid, die Eure Temperatur reduzieren. Euer Basis-Kälte-Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen Kälteschaden und Eure Temperatur kann nicht reduziert werden.
 
 [[{{C|Electrical Resist}}]]
-Euer elektrischer Widerstand ist eine Messung, wie viel elektrischen Schaden Ihr ablatet und wie widerstand Ihr zum elektrischen Strom seid. Euer Basis-elektrischer Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen elektrischen Schaden und Ihr fuehrt keinen Strom.
+Euer elektrischer Widerstand ist eine Messung, wie viel elektrischen Schaden Ihr ablatet und wie widerstand Ihr zum elektrischen Strom seid. Euer Basis-elektrischer Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen elektrischen Schaden und Ihr führt keinen Strom.
 
 [[{{C|Heat Resist}}]]
-Euer Waermewiderstand ist eine Messung, wie viel Waermeschaden Ihr ablatet und wie isoliert Ihr von Auswirkungen seid, die Eure Temperatur erhoehen. Euer Basis-Waermewiderstandswert ist 0. Bei 100, seid Ihr immun gegen Waermeschaden und Eure Temperatur kann nicht erhoeht werden.
+Euer Wärmewiderstand ist eine Messung, wie viel Wärmeschaden Ihr ablatet und wie isoliert Ihr von Auswirkungen seid, die Eure Temperatur erhöhen. Euer Basis-Wärmewiderstandswert ist 0. Bei 100, seid Ihr immun gegen Wärmeschaden und Eure Temperatur kann nicht erhöht werden.
 
 </topic>
   <topic name="Skills" DisplayName="Fertigkeiten">
-Eure Faehigkeiten repraesentieren die Faehigkeiten, die Ihr in Eurem Leben gelernt habt. Jeder Faehigkeitsbaum hat mehrere damit verbundene Faehigkeiten. Ihr beginnt mit mehreren Faehigkeiten, die von Eurer Kaste oder Berufung bestimmt werden. Ihr koennt andere Faehigkeiten kaufen, indem Ihr Faehigkeitspunkte ausgeben, die Ihr verdient, wenn Ihr einen Level gewinnen (je hoeher Euer Intelligenzwert ist, desto mehr Faehigkeitspunkte verdient Ihr).
+Eure Fähigkeiten repräsentieren die Fähigkeiten, die Ihr in Eurem Leben gelernt habt. Jeder Fähigkeitsbaum hat mehrere damit verbundene Fähigkeiten. Ihr beginnt mit mehreren Fähigkeiten, die von Eurer Kaste oder Berufung bestimmt werden. Ihr könnt andere Fähigkeiten kaufen, indem Ihr Fähigkeitspunkte ausgeben, die Ihr verdient, wenn Ihr einen Level gewinnen (je höher Euer Intelligenzwert ist, desto mehr Fähigkeitspunkte verdient Ihr).
 
-Um eine neue Faehigkeit zu kaufen, muesst Ihr zuerst die Einstiegsfaehigkeit in ihrem Faehigkeitsbaum kaufen. Ihr muesst alle Attribut- oder Energieanforderungen der Faehigkeit erfuellen, die Ihr zu kaufen versucht. Es ist moeglich, mit bestimmten Faehigkeiten zu beginnen, ohne seine Einstiegsfaehigkeit zu haben, wenn Eure Kaste oder Berufung es Euch gewaehrt hat.
+Um eine neue Fähigkeit zu kaufen, müsst Ihr zuerst die Einstiegsfähigkeit in ihrem Fähigkeitsbaum kaufen. Ihr müsst alle Attribut- oder Energieanforderungen der Fähigkeit erfüllen, die Ihr zu kaufen versucht. Es ist möglich, mit bestimmten Fähigkeiten zu beginnen, ohne seine Einstiegsfähigkeit zu haben, wenn Eure Kaste oder Berufung es Euch gewährt hat.
 
-Faehigkeiten gewaehren oft aktivierte Faehigkeiten. Sobald Ihr eine Faehigkeit kauft, koennt Ihr Eure neue aktivierte Faehigkeit aus dem Manage Abilities-Menue zugreifen ('~CmdAbilities').
+Fähigkeiten gewähren oft aktivierte Fähigkeiten. Sobald Ihr eine Fähigkeit kauft, könnt Ihr Eure neue aktivierte Fähigkeit aus dem Manage Abilities-Menü zugreifen ('~CmdAbilities').
 </topic>
-  <topic name="Mutations and Defects" DisplayName="Mutationen und Maengel">
-Mutationen sind spezielle biologische Kraefte, die den Bewohnern von Qud geschenkt werden -- echte Kin aus den aeusseren Arcologien besitzen keine Mutationen. Es gibt zwei Arten von Mutationen: physische und mentale. Jede Mutation hat einen damit verbundenen Mutationsscore. Die Scores Eurer physischen Mutationen und die Abklingzeiten von aktivierten Faehigkeiten, die von Euren physischen Mutationen gewaehrt werden, sind statisch. Andererseits werden die Scores Eurer mentalen Mutationen durch Euren Ego-Modifikator modifiziert und die Abklingzeiten von Faehigkeiten, die von Euren mentalen Mutationen gewaehrt werden, werden um 5% fuer jeden Punkt von Willpower moduliert, den Ihr ueber 16 habt.
+  <topic name="Mutations and Defects" DisplayName="Mutationen und Mängel">
+Mutationen sind spezielle biologische Kräfte, die den Bewohnern von Qud geschenkt werden -- echte Kin aus den äußeren Arcologien besitzen keine Mutationen. Es gibt zwei Arten von Mutationen: physische und mentale. Jede Mutation hat einen damit verbundenen Mutationsscore. Die Scores Eurer physischen Mutationen und die Abklingzeiten von aktivierten Fähigkeiten, die von Euren physischen Mutationen gewährt werden, sind statisch. Andererseits werden die Scores Eurer mentalen Mutationen durch Euren Ego-Modifikator modifiziert und die Abklingzeiten von Fähigkeiten, die von Euren mentalen Mutationen gewährt werden, werden um 5% für jeden Punkt von Willpower moduliert, den Ihr über 16 habt.
 
-Die meisten Charaktere beginnen mit Mutationscores von 1. Ihr verdient einen Mutationspunkt, wenn Ihr eine neue Stufe gewinnt, die Ihr ausgeben koennt, um den Score einer Eurer Mutationen um 1 zu erhoehen. Der Mutationsscore von keiner Eurer Mutationen darf 1 plus Eure Charakterstufe geteilt durch 2 ueberschreiten. Zusaetzlich koennen Mutationen nur durch Mutationspunkte bis zu einem maximalen Score von 10 erhoeht werden, obwohl Eure mentalen Mutationen diesen Score ueberschreiten koennen, wenn Euer Ego sie ueber 10 hinaus erhoeht.
+Die meisten Charaktere beginnen mit Mutationscores von 1. Ihr verdient einen Mutationspunkt, wenn Ihr eine neue Stufe gewinnt, die Ihr ausgeben könnt, um den Score einer Eurer Mutationen um 1 zu erhöhen. Der Mutationsscore von keiner Eurer Mutationen darf 1 plus Eure Charakterstufe geteilt durch 2 überschreiten. Zusätzlich können Mutationen nur durch Mutationspunkte bis zu einem maximalen Score von 10 erhöht werden, obwohl Eure mentalen Mutationen diesen Score überschreiten können, wenn Euer Ego sie über 10 hinaus erhöht.
 
-Alternativ koennt Ihr 4 Mutationspunkte ausgeben, um eine neue Mutation aus drei zufaellig ausgewaehlten Mutationen zu waehlen. Die Mutation, die Ihr waehlt, beginnt mit einem Score von 1. Falls Ihr ein Chimera seid, wird Euch eine Wahl von physischen Mutationen angeboten, falls Ihr ein Esper seid, wird Euch mentale Mutationen angeboten, ansonsten werden Euch drei voellig zufaellige Mutationen angeboten. Mutationen gewaehren oft aktivierte Faehigkeiten. Sobald Ihr eine Mutation gewinnt, koennt Ihr Eure neue aktivierte Faehigkeit aus dem Manage Abilities-Menue zugreifen ('~CmdAbilities').
+Alternativ könnt Ihr 4 Mutationspunkte ausgeben, um eine neue Mutation aus drei zufällig ausgewählten Mutationen zu wählen. Die Mutation, die Ihr wählt, beginnt mit einem Score von 1. Falls Ihr ein Chimera seid, wird Euch eine Wahl von physischen Mutationen angeboten, falls Ihr ein Esper seid, wird Euch mentale Mutationen angeboten, ansonsten werden Euch drei völlig zufällige Mutationen angeboten. Mutationen gewähren oft aktivierte Fähigkeiten. Sobald Ihr eine Mutation gewinnt, könnt Ihr Eure neue aktivierte Fähigkeit aus dem Manage Abilities-Menü zugreifen ('~CmdAbilities').
 
-Defekte sind Mutationen mit primaer negativen Auswirkungen. Bestimmte Mutanten beginnen mit einem einzelnen Defekt. Es gibt keinen Score fuer Defekte.
+Defekte sind Mutationen mit primär negativen Auswirkungen. Bestimmte Mutanten beginnen mit einem einzelnen Defekt. Es gibt keinen Score für Defekte.
 </topic>
   <topic name="Artifacts" DisplayName="Artefakte">
-Artefakte sind Gegenstaende, die technologisch so komplex sind, dass nur wenige der Bewohner von Qud sie verstehen. Ein unidentifiziertes Artefakt wird Euch als "Seltsames Artefakt" erscheinen. Ihr koennt ein Artefakt untersuchen, um zu versuchen, es zu identifizieren. Falls Ihr erfolgreich seid, koennt Ihr die Moeglichkeiten der Funktion dieses Artefakts eingrenzen (was einst ein "Knueppel" war, koennt Ihr nun beispielsweise als "Gewehr" identifizieren). Eventuell koenntet Ihr das Artefakt vollstaendig identifizieren. Jedes Mal, wenn Ihr versucht, etwas zu identifizieren, und fehlschlagt, besteht jedoch eine kleine Chance, dass Ihr es beschaedigt. Eure Chance, ein Artefakt erfolgreich zu identifizieren, basiert auf Eurem Intelligenzwert.
+Artefakte sind Gegenstände, die technologisch so komplex sind, dass nur wenige der Bewohner von Qud sie verstehen. Ein unidentifiziertes Artefakt wird Euch als "Seltsames Artefakt" erscheinen. Ihr könnt ein Artefakt untersuchen, um zu versuchen, es zu identifizieren. Falls Ihr erfolgreich seid, könnt Ihr die Möglichkeiten der Funktion dieses Artefakts eingrenzen (was einst ein "Knüppel" war, könnt Ihr nun beispielsweise als "Gewehr" identifizieren). Eventuell könntet Ihr das Artefakt vollständig identifizieren. Jedes Mal, wenn Ihr versucht, etwas zu identifizieren, und fehlschlagt, besteht jedoch eine kleine Chance, dass Ihr es beschädigt. Eure Chance, ein Artefakt erfolgreich zu identifizieren, basiert auf Eurem Intelligenzwert.
 </topic>
   <topic name="Tonics" DisplayName="Toniken">
-Toniken sind chemische Mixturen, die Eure mentalen und physischen Statistiken auf verschiedene Weise verbessern. Sie sind Artefakte, und daher muesst Ihr sie erfolgreich identifizieren, um zu verstehen, was sie tun. Das Einnahme eines Tonikums waehrend der Auswirkungen eines anderen zu trinken ist gefaehrlich; fuer jeden neuen Tonikum, das Ihr einnehmt, gibt es eine groessere und groessere Chance, dass die Tonikume schlecht aufeinander reagieren. Je hoeher Euer Robustheitsscore ist, desto groesser ist die Chance, dass Ihr mehrere Tonikume einnehmen koennt, ohne unerwuenschte Auswirkungen zu erleiden.
+Toniken sind chemische Mixturen, die Eure mentalen und physischen Statistiken auf verschiedene Weise verbessern. Sie sind Artefakte, und daher müsst Ihr sie erfolgreich identifizieren, um zu verstehen, was sie tun. Das Einnahme eines Tonikums während der Auswirkungen eines anderen zu trinken ist gefährlich; für jeden neuen Tonikum, das Ihr einnehmt, gibt es eine größere und größere Chance, dass die Tonikume schlecht aufeinander reagieren. Je höher Euer Robustheitsscore ist, desto größer ist die Chance, dass Ihr mehrere Tonikume einnehmen könnt, ohne unerwünschte Auswirkungen zu erleiden.
 
-Tonikume erzeugen staerkere Auswirkungen bei echtem Kin als bei mutierten Menschen. Ausserdem, da die Koerperchemie von Mutanten inhaerent instabil ist, gibt es eine 5% Chance, dass ein Tonikum, das von einem Mutanten eingenommen wird, stattdessen eine unerwuenschte Auswirkung erzeugt.
+Tonikume erzeugen stärkere Auswirkungen bei echtem Kin als bei mutierten Menschen. Außerdem, da die Körperchemie von Mutanten inhärent instabil ist, gibt es eine 5% Chance, dass ein Tonikum, das von einem Mutanten eingenommen wird, stattdessen eine unerwünschte Auswirkung erzeugt.
 
-Tonikume koennen mit der Tinker-Faehigkeit hergestellt werden. Zusaetzlich zu Bits benoetigt das Herstellen eines Tonikums oft einen natuerlichen Bestandteil.
+Tonikume können mit der Tinker-Fähigkeit hergestellt werden. Zusätzlich zu Bits benötigt das Herstellen eines Tonikums oft einen natürlichen Bestandteil.
 </topic>
-  <topic name="Weapons and Armor" DisplayName="Waffen und Ruestungen">
+  <topic name="Weapons and Armor" DisplayName="Waffen und Rüstungen">
 [[{{C|Waffen}}]]
 Jede Waffe hat einen Durchdringungswert und einen Schadenwert
-(zum Beispiel, {{C|→}}4, {{R|♥}}1d4). Der Durchdringungswert von Nahkampf-Waffen bezieht sich auf Euren Staerkewert, obwohl der Wert auf dem Material der Waffe basiert ist ('l'ook an einer Waffe, um ihren Durchdringungswert cap zu ansehen). Fernkampf-Waffen haben statische Durchdringungswerte, die nicht auf Euren Staerkenwert aendern. Waffen koennen andere Statistiken modifizieren; 'l'ook an einer Waffe, um vollstaendig zu bestimmen, was es tut.
+(zum Beispiel, {{C|→}}4, {{R|♥}}1d4). Der Durchdringungswert von Nahkampf-Waffen bezieht sich auf Euren Stärkewert, obwohl der Wert auf dem Material der Waffe basiert ist ('l'ook an einer Waffe, um ihren Durchdringungswert cap zu ansehen). Fernkampf-Waffen haben statische Durchdringungswerte, die nicht auf Euren Stärkenwert ändern. Waffen können andere Statistiken modifizieren; 'l'ook an einer Waffe, um vollständig zu bestimmen, was es tut.
 
-[[{{C|Ruestung}}]]
-Die meisten Teile der Ruestung haben einen Ruestungs-Wert und einen Ausweichwert
-(zum Beispiel, {{b|♦}}4 {{K|○}}4) das vergroessert Eure eigner {{b|♦}}AV und {{K|○}}DV (sieh {{g|Attribute}}).
-Teile der Ruestung koennen andere Statistiken modifizieren; 'l'ook an einem Stueck Ruestung, um vollstaendig zu bestimmen, was es tut.
+[[{{C|Rüstung}}]]
+Die meisten Teile der Rüstung haben einen Rüstungs-Wert und einen Ausweichwert
+(zum Beispiel, {{b|♦}}4 {{K|○}}4) das vergrößert Eure eigner {{b|♦}}AV und {{K|○}}DV (sieh {{g|Attribute}}).
+Teile der Rüstung können andere Statistiken modifizieren; 'l'ook an einem Stück Rüstung, um vollständig zu bestimmen, was es tut.
 </topic>
   <topic name="Combat" DisplayName="Kampf">
 [[{{C|Nahkampf}}]]
-Nahkampf ist Kampf zwischen zwei benachbarten Gegnern mit Standardnaehkampfwaffen
-wie Schwerter, Dolche, Aexte und Keulen. Um einen feindsamen benachbarten Gegner
+Nahkampf ist Kampf zwischen zwei benachbarten Gegnern mit Standardnähkampfwaffen
+wie Schwerter, Dolche, Äxte und Keulen. Um einen feindsamen benachbarten Gegner
 anzugreifen, bewegt Euch einfach in seine Richtung. Um etwas anderes anzugreifen,
 wie einen nicht-feindsligen Gegner oder eine Wand, nutzt '~CmdAttackDirection'
-und waehlt die Richtung, in die Ihr angreifen moechtet.
+und wählt die Richtung, in die Ihr angreifen möchtet.
 
-Wenn Ihr einen Nahkampfangriff gegen ein Ziel durchfuehrt, passiert folgende Abfolge von
+Wenn Ihr einen Nahkampfangriff gegen ein Ziel durchführt, passiert folgende Abfolge von
 Ereignissen:
 
 [[{{c|1. Bestimmt, ob Ihr das Ziel trefft oder nicht.}}]]
-Euer Trefferwurf ist 1w20 plus Euer Agilitaet-Modifikator plus eventuelle Boni, die Ihr
-von Eurer Waffe oder Faehigkeitskraeften erhalten. Wenn dieser Wurf den Ausweichenwert (DV)
-Eures Gegners uebersteigt, trefft Ihr. Ein leerer Kreis ueber Eurem
+Euer Trefferwurf ist 1w20 plus Euer Agilität-Modifikator plus eventuelle Boni, die Ihr
+von Eurer Waffe oder Fähigkeitskräften erhalten. Wenn dieser Wurf den Ausweichenwert (DV)
+Eures Gegners übersteigt, trefft Ihr. Ein leerer Kreis über Eurem
 Ziel zeigt an, dass Euer Angriff verfehlt hat.
 
 [[{{c|2. Bestimmt, ob ein Schildblock stattfindet.}}]]
 Wenn das Ziel einen Schild hat, hat es eine Basischance von 25%, damit zu blocken,
-die mit Geschick zunimmt. Ein erfolgreicher Block addiert den Ruestungswert (AV) des Schilds
-zum AV des Ziels fuer diesen Angriff.
+die mit Geschick zunimmt. Ein erfolgreicher Block addiert den Rüstungswert (AV) des Schilds
+zum AV des Ziels für diesen Angriff.
 
-[[{{c|3. Bestimmt, wie sehr Euer Angriff die Ruestung des Ziels durchdringt.}}]]
+[[{{c|3. Bestimmt, wie sehr Euer Angriff die Rüstung des Ziels durchdringt.}}]]
 Jede Waffe hat einen Durchdringungswert ({{C|→}}4, zum Beispiel). Dieser Wert
-repraesentiert den Ruestungswert (AV), den Eure Waffe normalerweise leicht durchdringen wird.
-Wenn Euer Waffendurchdringungswert den AV des Ziels weit uebersteigt,
+repräsentiert den Rüstungswert (AV), den Eure Waffe normalerweise leicht durchdringen wird.
+Wenn Euer Waffendurchdringungswert den AV des Ziels weit übersteigt,
 wird Eure Waffe wahrscheinlich mehrfach durchdringen. Jedes Mal, wenn Eure Waffe
-die Ruestung des Ziels durchdringt, erleidet das Ziel Schaden gleich dem Schadenwert Eurer
-Waffe ({{R|♥}}1w4, zum Beispiel). Ein gefuellter Kreis ueber Eurem
-Ziel zeigt an, dass Euer Angriff traf, aber nicht die Ruestung des Ziels durchdrang.
-Ein Herz-Symbol zeigt an, dass Euer Angriff traf und die Ruestung des Ziels durchdrang.
+die Rüstung des Ziels durchdringt, erleidet das Ziel Schaden gleich dem Schadenwert Eurer
+Waffe ({{R|♥}}1w4, zum Beispiel). Ein gefüllter Kreis über Eurem
+Ziel zeigt an, dass Euer Angriff traf, aber nicht die Rüstung des Ziels durchdrang.
+Ein Herz-Symbol zeigt an, dass Euer Angriff traf und die Rüstung des Ziels durchdrang.
 
-[[{{c|4. Bestimmt, ob mehrfache Angriffe durchgefuehrt werden.}}]]
-Es besteht eine 15% Chance, dass Ihr einen zusaetzlichen Angriff mit Eurer
-Nebenhand durchfuehrt. Charaktere mit mehreren Gliedmassen koennen zusaetzliche Angriffe
-ueber dies hinaus durchfuehren.
+[[{{c|4. Bestimmt, ob mehrfache Angriffe durchgeführt werden.}}]]
+Es besteht eine 15% Chance, dass Ihr einen zusätzlichen Angriff mit Eurer
+Nebenhand durchführt. Charaktere mit mehreren Gliedmaßen können zusätzliche Angriffe
+über dies hinaus durchführen.
 
 [[{{C|Fernkampf}}]]
 Fernkampf ist Kampf zwischen zwei Gegnern mit Fernkampfwaffen wie
-Boegen, Pistolen und Gewehre. Um einen Fernkampfangriff durchzufuehren, drueckt '~CmdFire', um
-Eure Waffe zu richten, dann drueckt '~CmdFire' erneut, um zu schiessen.
+Bögen, Pistolen und Gewehre. Um einen Fernkampfangriff durchzuführen, drückt '~CmdFire', um
+Eure Waffe zu richten, dann drückt '~CmdFire' erneut, um zu schießen.
 
-Wenn Ihr einen Fernkampfangriff durchfuehrt, passiert folgende Abfolge von Ereignissen:
+Wenn Ihr einen Fernkampfangriff durchführt, passiert folgende Abfolge von Ereignissen:
 
 [[{{c|1. Bestimmt die Flugbahn Eures Projektils.}}]]
 Wie sehr ein Projektil wahrscheinlich von seiner beabsichtigten Bahn abweicht, wird
-durch Euren Agilitaet-Wert und die Genauigkeit der Waffe bestimmt.
+durch Euren Agilität-Wert und die Genauigkeit der Waffe bestimmt.
 
-[[{{c|2. Trifft das erste mittelgrosse oder groessere Objekt auf der Bahn}}]
+[[{{c|2. Trifft das erste mittelgroße oder größere Objekt auf der Bahn}}]
 {{c|des Projektils.}}]]
 
-[[{{c|3. Bestimmt, wie sehr das Projektil die Ruestung des Ziels durchdringt.}}]]
-Dies wird auf die gleiche Weise wie ein Nahkampfangriff geloest.
+[[{{c|3. Bestimmt, wie sehr das Projektil die Rüstung des Ziels durchdringt.}}]]
+Dies wird auf die gleiche Weise wie ein Nahkampfangriff gelöst.
 
-[[{{c|4. Bestimmt, ob mehrfache Angriffe durchgefuehrt werden.}}]]
-Bestimmte Faehigkeitskraefte erlauben es Euch, mehrere Projektile mit bestimmten Fernkampfwaffen
-abzuschiessen.
+[[{{c|4. Bestimmt, ob mehrfache Angriffe durchgeführt werden.}}]]
+Bestimmte Fähigkeitskräfte erlauben es Euch, mehrere Projektile mit bestimmten Fernkampfwaffen
+abzuschießen.
 
 Wenn Ihr in Nahkampf mit mehr als einem feindsligen Gegner verwickelt seid,
-besteht eine 50% Chance, dass jeder Fernkampfangriff, den Ihr durchfuehrt, wild wird (weicht
+besteht eine 50% Chance, dass jeder Fernkampfangriff, den Ihr durchführt, wild wird (weicht
 45 Grad nach links oder rechts aus).
 </topic>
-  <topic name="Saving Throws" DisplayName="Rettungswuerfe">
-Bestimmte Effekte oder Faehigkeiten erfordern es, dass Kreaturen Rettungswuerfe durchfuehren oder Konsequenzen erleiden. Jeder Rettungswurf hat ein damit verbundenes Attribut und eine Schwierigkeit. Um einen Rettungswurf zu bestehen, wird eine Basis 1d20 geworfen und dann Euer relevanter Attributsmodifikator hinzugefuegt. Falls diese Zahl die Schwierigkeit erfuellt oder uebertrifft, besteht Ihr. Ansonsten fehlschlagt Ihr. Einige Rettungswuerfe gegen Faehigkeiten von Kreaturen addieren auch den Attributsmodifikator der Kreatur zur Schwierigkeit.
+  <topic name="Saving Throws" DisplayName="Rettungswürfe">
+Bestimmte Effekte oder Fähigkeiten erfordern es, dass Kreaturen Rettungswürfe durchführen oder Konsequenzen erleiden. Jeder Rettungswurf hat ein damit verbundenes Attribut und eine Schwierigkeit. Um einen Rettungswurf zu bestehen, wird eine Basis 1d20 geworfen und dann Euer relevanter Attributsmodifikator hinzugefügt. Falls diese Zahl die Schwierigkeit erfüllt oder übertrifft, besteht Ihr. Ansonsten fehlschlagt Ihr. Einige Rettungswürfe gegen Fähigkeiten von Kreaturen addieren auch den Attributsmodifikator der Kreatur zur Schwierigkeit.
 </topic>
   <topic name="Action Costs" DisplayName="Aktionskosten">
-Die Zeit, die es dauert, etwas zu tun, wird in Form einer Aktionskosten bewertet. Die meisten Aufgaben haben Aktionskosten von 1000. Eure Quickness erhoeht die Rate, mit der Ihr diese Kosten wiederherstellt, wodurch Ihr haeufiger handeln koennt als langsamere Kreaturen.
+Die Zeit, die es dauert, etwas zu tun, wird in Form einer Aktionskosten bewertet. Die meisten Aufgaben haben Aktionskosten von 1000. Eure Quickness erhöht die Rate, mit der Ihr diese Kosten wiederherstellt, wodurch Ihr häufiger handeln könnt als langsamere Kreaturen.
 
-Einige Faehigkeiten, Mutationen und Ausruestungen ermoeglichen es Euch, bestimmte Aktionen mit reduzierten oder null Aktionskosten zu ergreifen.
+Einige Fähigkeiten, Mutationen und Ausrüstungen ermöglichen es Euch, bestimmte Aktionen mit reduzierten oder null Aktionskosten zu ergreifen.
 </topic>
   <topic name="Credits" DisplayName="Abspann">
 
@@ -217,27 +217,27 @@ Einige Faehigkeiten, Mutationen und Ausruestungen ermoeglichen es Euch, bestimmt
                       Brian Bucklew und Jason Grinblat
                       
 
-              Qualitaetskontrolle und zusaetzliches Design - Nick Decapua
-              Zusaetzliche Programmierung - Corey Frang
+              Qualitätskontrolle und zusätzliches Design - Nick Decapua
+              Zusätzliche Programmierung - Corey Frang
                                Musik - Craig Hamilton            
-                                  Qualitaetskontrolle - Autumn McDonell
-              Zusaetzliche Programmierung - Bastia Rosen
-         Zusaetzliches Schreiben und Design - Caelyn Sandel
-                    Zusaetzliche Musik - Brandon Tanner        
+                                  Qualitätskontrolle - Autumn McDonell
+              Zusätzliche Programmierung - Bastia Rosen
+         Zusätzliches Schreiben und Design - Caelyn Sandel
+                    Zusätzliche Musik - Brandon Tanner        
                             Tile Art - Samuel Wilson
-                Zusaetzliches UI-Design - Polat Yarisci
+                Zusätzliches UI-Design - Polat Yarisci
                         Sounddesign - A Shell in the Pit
-            Qualitaetskontrolle, zusaetzliches Design und
-              Zusaetzliche Programmierung - Thaumatic Systems        
-              Zusaetzliche Programmierung - Brian Reynolds
+            Qualitätskontrolle, zusätzliches Design und
+              Zusätzliche Programmierung - Thaumatic Systems        
+              Zusätzliche Programmierung - Brian Reynolds
                        Rechtliche Beratung - Thomas C. Allison, P.A.
                       
                       Hintergrund-Kunst - Cyril van der Haegen
                             Logo-Kunst - Laura &amp;&amp; Jeff Bucholtz
-                Community Management - Ivy Melinda &amp;&amp; das Buergermeister-Team
+                Community Management - Ivy Melinda &amp;&amp; das Bürgermeister-Team
 
 
-                                {{C|Veroeffentlicht von}}
+                                {{C|Veröffentlicht von}}
                                 Kitfox Games
 
                                 Tina Liu
@@ -384,11 +384,11 @@ Einige Faehigkeiten, Mutationen und Ausruestungen ermoeglichen es Euch, bestimmt
                                 Doug "Severian" Callahan
                                 Leo Durante
                                 Rarden
-                                Ray ({{r|Buecher}})
+                                Ray ({{r|Bücher}})
                                 awful_falafel
                                 ambersand
                                 dmajorduckie
-                                Lukas Wagner (Koenig Muskelmagen)
+                                Lukas Wagner (König Muskelmagen)
                                 Marek Pohlodek
                                 Kamille Rose
                                 Retes;Nome
@@ -407,44 +407,44 @@ Einige Faehigkeiten, Mutationen und Ausruestungen ermoeglichen es Euch, bestimmt
   ]]
 </topic>
   <topic name="Open Source Licenses" DisplayName="Open-Source-Lizenzen">
-[[{{c|Lizenz fuer Harmony (https://github.com/pardeike/Harmony)}}
+[[{{c|Lizenz für Harmony (https://github.com/pardeike/Harmony)}}
   {{W|MIT Lizenz}}
 
   Copyright (c) 2017 Andreas Pardeike
 
-{{c|Lizenz fuer FuzzySharp (https://github.com/JakeBayer/FuzzySharp)}}
+{{c|Lizenz für FuzzySharp (https://github.com/JakeBayer/FuzzySharp)}}
   {{W|MIT Lizenz}}
 
   Copyright (c) 2018 
   
-{{c|Lizenz fuer UnityStandaloneFileBrowser
+{{c|Lizenz für UnityStandaloneFileBrowser
  (https://github.com/gkngkc/UnityStandaloneFileBrowser)}}
   {{W|MIT Lizenz}}
 
-  Copyright (c) 2017 Goekhan Goekçe
+  Copyright (c) 2017 Gökhan Gökçe
 
-{{c|Lizenz fuer ZString (https://github.com/Cysharp/ZString)}}
+{{c|Lizenz für ZString (https://github.com/Cysharp/ZString)}}
   {{W|MIT Lizenz}}
 
   Copyright (c) 2020 Yoshifumi Kawai / Cysharp, Inc.
 
-{{c|Lizenz fuer UniTask (https://github.com/Cysharp/UniTask)}}
+{{c|Lizenz für UniTask (https://github.com/Cysharp/UniTask)}}
   {{W|MIT Lizenz}}
 
   Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.
 
 
-{{W|MIT Lizenz}} {{c|- Vollstaendiger Text}}
-  Hiermit wird unentgeltlich einer jeden Person, die in den Besitz dieser Software und der zugehoerigen Dokumentationsdateien (die "Software") gelangt, die Erlaubnis erteilt, ohne Einschraenkung in der Software zu handeln, einschliesslich ohne Einschraenkung die Rechte zu nutzen, zu kopieren, zu modifizieren, zusammenzufuehren, zu veroeffentlichen, zu verteilen, zu lizenzieren und/oder Kopien der Software zu verkaufen,
+{{W|MIT Lizenz}} {{c|- Vollständiger Text}}
+  Hiermit wird unentgeltlich einer jeden Person, die in den Besitz dieser Software und der zugehörigen Dokumentationsdateien (die "Software") gelangt, die Erlaubnis erteilt, ohne Einschränkung in der Software zu handeln, einschließlich ohne Einschränkung die Rechte zu nutzen, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu verteilen, zu lizenzieren und/oder Kopien der Software zu verkaufen,
 und Personen, denen die Software bereitgestellt wird, dies unter folgenden Bedingungen zu gestatten:
 
-  Der obige Copyright-Hinweis und dieser Erlaubnis-Hinweis muessen in allen
+  Der obige Copyright-Hinweis und dieser Erlaubnis-Hinweis müssen in allen
   Kopien oder wesentlichen Teilen der Software enthalten sein.
 
-  DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE GEWAeHRLEISTUNG JEGLICHER ART, WEDER AUSDRUeCKLICH NOCH STILLSCHWEIGEND,
-  EINSCHLIESSLICH ABER NICHT BEGRENZT AUF DIE GEWAeHRLEISTUNG DER MARKTGAeNGIGKEIT,
-  EIGNUNG FUeR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. IN KEINEM FALL SOLLEN DIE
-  AUTOREN ODER URHEBERRECHTSINHABER HAFTBAR FUeR ANSPRUeCHE, SCHAeDEN ODER SONSTIGE
+  DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE GEWÄHRLEISTUNG JEGLICHER ART, WEDER AUSDRÜCKLICH NOCH STILLSCHWEIGEND,
+  EINSCHLIESSLICH ABER NICHT BEGRENZT AUF DIE GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT,
+  EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. IN KEINEM FALL SOLLEN DIE
+  AUTOREN ODER URHEBERRECHTSINHABER HAFTBAR FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE
   HAFTUNG, OB NACH VERTRAG, DELIKT ODER SONSTWIE, ENTSTEHEND AUS,
   ODER IN ZUSAMMENHANG MIT DER SOFTWARE ODER DER NUTZUNG ODER ANDEREN HANDLUNGEN MIT DER SOFTWARE.]]
 

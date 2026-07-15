@@ -20,7 +20,7 @@
     </variant>
     <variant Name="Medium">
       <noun>Schleimfeld</noun>
-      <adjective>schleimgetraenkt</adjective>
+      <adjective>schleimgetränkt</adjective>
     </variant>
     <variant Name="Strong">
       <noun>Schleimsumpf</noun>
@@ -33,10 +33,10 @@
       <adjective>teerverschmiert</adjective>
     </variant>
     <variant Name="Medium">
-      <noun>Teerpfuetzen</noun>
+      <noun>Teerpfützen</noun>
     </variant>
     <variant Name="Strong">
-      <noun>Brennende Teersuempfe</noun>
+      <noun>Brennende Teersümpfe</noun>
       <journalSecret>einige {{feurig|flammend}} {{K|Pech}} Gruben</journalSecret>
     </variant>
   </biome>
@@ -47,7 +47,7 @@
     </variant>
     <variant Name="Medium">
       <noun>Rostfeld</noun>
-      <adjective>rostumhuellt</adjective>
+      <adjective>rostumhüllt</adjective>
     </variant>
     <variant Name="Strong">
       <noun>Rostmoor</noun>

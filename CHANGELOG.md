@@ -3,6 +3,22 @@
 Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung im
 `lang-experimental`-Branch. Reines Daten-Mod (keine Harmony-Patches, keine DLL).
 
+## v0.4.0 – Echte Umlaute
+
+Die offizielle Lokalisierungs-API stellt Umlaute korrekt dar (getestet). Daher wurde
+der gesamte Mod von der ASCII-Ersatzschreibung (ae/oe/ue/ss) auf **echte Umlaute
+(ä ö ü ß)** umgestellt:
+
+- Von Workflows übersetzte Inhalte (UI, Dialoge, 25 weitere Kategorien) wurden
+  verlustfrei aus den ursprünglichen (umlauthaltigen) Übersetzungen neu erzeugt.
+- Aus dem QudDE-Projekt übernommene, zuvor gefaltete Inhalte (Objekt-Namen und
+  -Beschreibungen, Charaktererstellung, Mutationen) sowie ein Teil der UI wurden aus
+  den englischen Vorlagen neu mit Umlauten übersetzt (Haiku, token-geprüft).
+
+Ergebnis: nahezu der gesamte deutsche Text nutzt jetzt korrekte Orthographie
+(z. B. „Bär", „Höhlenspinne", „Riesenkäfer", „Stärke"). Ein kleiner Rest (~150
+Einträge mit besonders komplexen Platzhaltern) verbleibt vorerst in ASCII-Schreibung.
+
 ## v0.3.0 – Restliche Inhalte
 
 ### Neu

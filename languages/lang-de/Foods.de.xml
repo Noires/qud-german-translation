@@ -16,8 +16,8 @@
     <part Name="Render" DisplayName="[Rohes Fleisch]" />
   </object>
   <object Name="Raw Bear Meat" Load="Merge">
-    <part Name="Render" DisplayName="{{r|Rohes Baerenfleisch}}" />
-    <part Name="Description" Short="Rohes Baerenfleisch, vom eigenen Blut benetzt." />
+    <part Name="Render" DisplayName="{{r|rohes Bärenfleisch}}" />
+    <part Name="Description" Short="Rohes Bärenfleisch ist in seinem eigenen verschütteten Blut gefärbt." />
   </object>
   <object Name="Raw Pig Meat" Load="Merge">
     <part Name="Render" DisplayName="{{r|Rohes Schweinefleisch}}" />
@@ -36,43 +36,43 @@
     <part Name="Description" Short="Fleisch von Wangen und Kiefer, mit dem Geruch von Salz." />
   </object>
   <object Name="Vinewafer" Load="Merge">
-    <part Name="Render" DisplayName="Wasserwein-Waffel" />
-    <part Name="Description" Short="Eine kleine Korkknospe quillt in der Feuchtigkeit auf. Waehrend sengender Wochen saugen kammfoermige Blaetter mit unmenschlicher Geduld Regentropfen auf und wachsen, indem sie aus hundert Meilen Wind einen einzigen Tropfen trinken." />
+    <part Name="Render" DisplayName="Rebwafer" />
+    <part Name="Description" Short="Ein kleiner Korknubba schwillt vor Feuchte an. Es wurde über heiße Wochen vom ausgespreizten Wedel, mit unmenschlicher Geduld bekleidet, gegossen, der ein Körnchen Regen aus einem hundert-Meilen-Wind aufsog." />
   </object>
   <object Name="Vinewafer Sheaf" Load="Merge">
-    <part Name="Render" DisplayName="{{g|Bund Wasserwein-Waffeln}}" />
-    <part Name="Description" Short="Waffeln, vom feuchtigkeitsspeichernden Wasserwein geschnitten, gebuendelt und verschnuert." />
+    <part Name="Render" DisplayName="{{g|Rebenwafer}} Garbe" />
+    <part Name="Description" Short="Gebündelte Waffeln, die von der feuchtsaugenden Wasserwein-Pflanze geerntet und mit Schnur gebunden sind." />
   </object>
   <object Name="Dreadroot Tuber" Load="Merge">
     <part Name="Render" DisplayName="{{K|Dreadroot-Knolle}}" />
-    <part Name="Description" Short="Eine zimtfarbene Knolle, von Erde und Chromdruck verzogen und von Rissen durchzogen, die tausend Jahre Verfall verzeichnen." />
+    <part Name="Description" Short="Erdnarben beherbergen die Zimtzwiebel, verzerrt durch Boden- und Chrompressionen in eine Form, die tausenderlei Verwüstungen kodiert." />
   </object>
   <object Name="Starapple" Load="Merge">
     <part Name="Render" DisplayName="Sternapfel" />
-    <part Name="Description" Short="Fuer hungrige Augen wirkt die helle Schale wie ein fuenfzackiger Sternkern, aus dem Saft tropft wie ein gluehender Granat im Kratersalz." />
+    <part Name="Description" Short="Saft tropft von der hellen Haut, die den Quinkunx-Kern umhüllt. Vor hungrigen Augen glänzt es wie ein Granat im Vulkansalz." />
   </object>
   <object Name="Spine Fruit" Load="Merge">
     <part Name="Render" DisplayName="Stachelfrucht" />
-    <part Name="Description" Short="Die Rippen der Fractus schleudern nasse, scharfe Birnen aus sonnengebraeuntem Laub." />
+    <part Name="Description" Short="Eine Rippe aus Fractus verschießt eine nasse und spitzige Birne von seinem sonnengeschwollenen Grün." />
   </object>
   <object Name="Plump Mushroom" Load="Merge">
     <part Name="Render" DisplayName="Praller Pilz" />
-    <part Name="Description" Short="Unter dem ausgebreiteten Faltenhut woelbt sich der Stiel und droht auf Huefthoehe zu platzen. Der Pilz duengt sich mit etwas Laub zu voller Fuelle." />
+    <part Name="Description" Short="Unter einer Kappe aus ausgebreiteten Kiemen contouriert sich der Stiel zu einer platzenden Taille. Der Pilz ist fett auf den Toten seines Schleiers aus Lehm." />
   </object>
   <object Name="Hoarshroom" Load="Merge">
     <part Name="Render" DisplayName="{{C|Leuchtender}} Frostpilz" />
-    <part Name="Description" Short="Auf dem lampenschirmartigen Hut mit sanftem Biolicht glitzern Raureifblueten." />
+    <part Name="Description" Short="Raureif funkelt auf der Lampenschirmkappe, die mit sanftem Biolumineszenzlicht glüht." />
   </object>
   <object Name="Banana" Load="Merge">
     <part Name="Render" DisplayName="{{W|Banane}}" />
-    <part Name="Description" Short="Die reife Wirbelsaeule schimmert reich an Farbe; in ihrer Schale liegen verstreut die Glanzlichter der Spindel." />
+    <part Name="Description" Short="Seine Spindel ist in voller Reife reich gefärbt, und Spindle-Glitzer tupft die Schale." />
   </object>
   <object Name="Lagroot Tuber" Load="Merge">
     <part Name="Render" DisplayName="Lagroot-Knolle" />
-    <part Name="Description" Short="Ein staerkehaltiger Wurzelzweig wurde aus der Erde geschnitten und abgeschaelt." />
+    <part Name="Description" Short="Stärkehaltige Dendriten wurden aus der Erde geschlitzt und abgehobelt." />
   </object>
   <object Name="Urberry" Load="Merge">
     <part Name="Render" DisplayName="{{m|Urbeere}}" />
-    <part Name="Description" Short="Dichter Erdsaft spannt die Schale zu einer Kugel, die vollkommenes Licht biegt. In ihrem Kern sind eine Million Befehle fuer Formen in die formgebende Form eingraviert." />
+    <part Name="Description" Short="Erdendichter Saft presst die Beerenschale in eine perfekte und leicht gewölbte Sphäre. Innen kodiert ein Kern einen millionenfachen Befehlssatz für die Form der Formen." />
   </object>
 </objects>

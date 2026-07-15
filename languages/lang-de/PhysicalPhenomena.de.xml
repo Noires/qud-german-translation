@@ -5,45 +5,45 @@
     <part Name="Description" Short="Ein abscheuliches Exemplar." />
   </object>
   <object Name="Water" Load="Merge">
-    <part Name="Render" DisplayName="Wasserlache" />
-    <part Name="Description" Short="Eine kleine Lache aus Fluessigkeit." />
+    <part Name="Render" DisplayName="Becken" />
+    <part Name="Description" Short="Eine Flüssigkeitslache." />
   </object>
   <object Name="Gas" Load="Merge">
     <part Name="Render" DisplayName="[Gas]" />
   </object>
   <object Name="PoisonGas" Load="Merge">
     <part Name="Render" DisplayName="Giftgas" />
-    <part Name="Description" Short="Eine Wolke giftiger Daempfe haftet an der Luft und verstopft die Lungen, indem sie den Sauerstoff verdraengt, den blutwarme Wesen atmen." />
+    <part Name="Description" Short="Schwaden schädlichen Gases kleben in der Luft. Sie verstopfen die Lungen blutfeuchter Kreaturen, die den verdrängten Sauerstoff nicht extrahieren können." />
   </object>
   <object Name="MiasmaticAsh" Load="Merge">
     <part Name="Render" DisplayName="Knochenasche" />
-    <part Name="Description" Short="Knochenfragmente wurden aerosolisiert und zu einem russigen Dunst verdichtet, der sogar Licht verschlingt." />
+    <part Name="Description" Short="Knochenstücke werden in eine dicke Kohlenebelwolke vernebelt. Licht geht darin verloren." />
   </object>
   <object Name="Plasma" Load="Merge">
     <part Name="Render" DisplayName="Plasma" />
-    <part Name="Description" Short="Smaragdgruene und neonfarbene Baender elektrisieren die Luft und bluehen wie gewalttaetige Blumen auf." />
+    <part Name="Description" Short="Bänder aus Smaragd und Neonspitze durchziehen die knackende Luft und erblühen in gewaltsamen Blütenköpfen." />
   </object>
   <object Name="Steam" Load="Merge">
     <part Name="Render" DisplayName="Dampf" />
   </object>
   <object Name="SteamGas" Load="Merge">
-    <part Name="Render" DisplayName="Bruehender Dampf" />
-    <part Name="Description" Short="Erhitztes Aerosol schwillt an und zerstreut sich in der Atmosphaere." />
+    <part Name="Render" DisplayName="siedender Dampf" />
+    <part Name="Description" Short="Heißes Aerosol schwillt an, während es beginnt, sich in die Luft zu verteilen." />
   </object>
   <object Name="CryoGas" Load="Merge">
     <part Name="Render" DisplayName="Kryonebel" />
-    <part Name="Description" Short="Maschinengekuehltes Wasser wird druckentlastet und zu einem eisigen Nebel, der alles Leben stilllegt." />
+    <part Name="Description" Short="Maschinengekühltes Wasser wurde entspannt zu einem gefrierndem Nebel, um die Prozesse des Lebens in Schwebezustand zu halten." />
   </object>
   <object Name="AcidGas" Load="Merge">
     <part Name="Render" DisplayName="Aetzgas" />
-    <part Name="Description" Short="Verdampfte Saeure sammelt sich noch als Lichthof und beginnt, die weichen Raender der befallenen Oberflaeche aufzuloesen." />
+    <part Name="Description" Short="Selbst jetzt verdichtet sich der Nimbus verdampfter Säure und beginnt sich auf seinen kolonisierten Oberflächen niederzusetzen, beginnt durch ihre weichen Kanten zu sinken." />
   </object>
   <object Name="StunGas" Load="Merge">
-    <part Name="Render" DisplayName="Betaeubungsgas" />
-    <part Name="Description" Short="Nickelfarbener Tau haftet an der Luft und fesselt die fluechtigen Molekuele der vorbeiziehenden Materie." />
+    <part Name="Render" DisplayName="Lähmungsgas" />
+    <part Name="Description" Short="Der Nickeltau haftet an der Luft und stoppt die flüchtigen Moleküle von Wandermasse." />
   </object>
   <object Name="SleepGas" Load="Merge">
     <part Name="Render" DisplayName="Schlafgas" />
-    <part Name="Description" Short="Miasma lagert sich in den Lungen der Nachbarn ab und lockt sie in ein Tal der Traeume. Ihre Koerper liegen still." />
+    <part Name="Description" Short="Miasma setzt sich in die Lungen seiner Nachbarn und leitet sie zum träumenden Tal. Ihre Körper ruhen." />
   </object>
 </objects>

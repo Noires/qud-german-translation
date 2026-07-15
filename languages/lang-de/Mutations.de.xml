@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mutations Lang="de" Encoding="utf-8">
   <category Name="Morphotypes" DisplayName="{{W|Morphotypen}}">
-    <mutation Name="Chimera" DisplayName="Chimaere" />
+    <mutation Name="Chimera" DisplayName="Chimäre" />
     <mutation Name="Esper" DisplayName="Esper" />
     <mutation Name="Unstable Genome" DisplayName="Instabiles Genom" />
   </category>
   <category Name="Physical" DisplayName="{{G|Physische Mutationen}}">
-    <mutation Name="Adrenal Control" DisplayName="Adrenalinkontrolle" />
+    <mutation Name="Adrenal Control" DisplayName="Adrenalin-Kontrolle" />
     <mutation Name="Beak" DisplayName="Schnabel" />
-    <mutation Name="Burrowing Claws" DisplayName="Grabklauen" />
+    <mutation Name="Burrowing Claws" DisplayName="Grabekrallen" />
     <mutation Name="Carapace" DisplayName="Panzer" />
-    <mutation Name="Corrosive Gas Generation" DisplayName="Aetzgas-Erzeugung" />
-    <mutation Name="Double-muscled" DisplayName="Doppelt bemuskelt" />
+    <mutation Name="Corrosive Gas Generation" DisplayName="Korrosive Gaserzeugung" />
+    <mutation Name="Double-muscled" DisplayName="Doppelmuskelig" />
     <mutation Name="Electrical Generation" DisplayName="Stromerzeugung" />
     <mutation Name="Electromagnetic Pulse" DisplayName="Elektromagnetischer Puls" />
-    <mutation Name="Flaming Ray" DisplayName="Flammenstrahl" />
-    <mutation Name="Freezing Ray" DisplayName="Froststrahl" />
-    <mutation Name="Heightened Hearing" DisplayName="Geschaerftes Gehoer" />
-    <mutation Name="Heightened Quickness" DisplayName="Gesteigerte Schnelligkeit" />
-    <mutation Name="Horns" DisplayName="Hoerner" />
+    <mutation Name="Flaming Ray" DisplayName="Flammender Strahl" />
+    <mutation Name="Freezing Ray" DisplayName="Gefrierender Strahl" />
+    <mutation Name="Heightened Hearing" DisplayName="Erhöhtes Gehör" />
+    <mutation Name="Heightened Quickness" DisplayName="Erhöhte Schnelligkeit" />
+    <mutation Name="Horns" DisplayName="Hörner" />
     <mutation Name="Metamorphosis" DisplayName="Metamorphose" />
     <mutation Name="Multiple Arms" DisplayName="Mehrere Arme" />
     <mutation Name="Multiple Legs" DisplayName="Mehrere Beine" />
     <mutation Name="Night Vision" DisplayName="Nachtsicht" />
-    <mutation Name="Phasing" DisplayName="Phasenverschiebung" />
+    <mutation Name="Phasing" DisplayName="Phasenwechsel" />
     <mutation Name="Photosynthetic Skin" DisplayName="Photosynthetische Haut" />
-    <mutation Name="Quills" DisplayName="Stacheln" />
+    <mutation Name="Quills" DisplayName="Federn" />
     <mutation Name="Regeneration" DisplayName="Regeneration" />
-    <mutation Name="Sleep Gas Generation" DisplayName="Schlafgas-Erzeugung" />
-    <mutation Name="Slime Glands" DisplayName="Schleimdruesen" />
-    <mutation Name="Spinnerets" DisplayName="Spinndruesen" />
+    <mutation Name="Sleep Gas Generation" DisplayName="Schlafgaserzeugung" />
+    <mutation Name="Slime Glands" DisplayName="Schleimdüsen" />
+    <mutation Name="Spinnerets" DisplayName="Spinndrüsen" />
     <mutation Name="Stinger (Confusing Venom)" DisplayName="Stachel (Verwirrendes Gift)" />
-    <mutation Name="Stinger (Paralyzing Venom)" DisplayName="Stachel (Laehmendes Gift)" />
+    <mutation Name="Stinger (Paralyzing Venom)" DisplayName="Stachel (Lahmendes Gift)" />
     <mutation Name="Stinger (Poisoning Venom)" DisplayName="Stachel (Vergiftendes Gift)" />
     <mutation Name="Thick Fur" DisplayName="Dichtes Fell" />
     <mutation Name="Triple-jointed" DisplayName="Dreifach gelenkig" />
-    <mutation Name="Two-headed" DisplayName="Zweikoepfig" />
-    <mutation Name="Two-hearted" DisplayName="Zweiherzig" />
-    <mutation Name="Wings" DisplayName="Fluegel" />
+    <mutation Name="Two-headed" DisplayName="Zweikopfig" />
+    <mutation Name="Two-hearted" DisplayName="Doppelherzig" />
+    <mutation Name="Wings" DisplayName="Flügel" />
   </category>
-  <category Name="PhysicalDefects" DisplayName="{{R|Physische Defekte}}">
+  <category Name="PhysicalDefects" DisplayName="{{R|Körperliche Mängel}}">
     <mutation Name="Albino" DisplayName="Albino" />
     <mutation Name="Amphibious" DisplayName="Amphibisch" />
-    <mutation Name="Brittle Bones" DisplayName="Bruechige Knochen" />
-    <mutation Name="Nerve Poppy" DisplayName="Nervenmohn" />
+    <mutation Name="Brittle Bones" DisplayName="Brüchige Knochen" />
+    <mutation Name="Nerve Poppy" DisplayName="Nerven-Mohn" />
     <mutation Name="Carnivorous" DisplayName="Fleischfressend" />
-    <mutation Name="Cold-Blooded" DisplayName="Kaltbluetig" />
+    <mutation Name="Cold-Blooded" DisplayName="Kaltblütig" />
     <mutation Name="Electromagnetic Impulse" DisplayName="Elektromagnetischer Impuls" />
-    <mutation Name="Hooks for Feet" DisplayName="Haken als Fuesse" />
-    <mutation Name="Irritable Genome" DisplayName="Reizbares Genom" />
+    <mutation Name="Hooks for Feet" DisplayName="Haken für Füße" />
+    <mutation Name="Irritable Genome" DisplayName="Reizbare Genoma" />
     <mutation Name="Myopic" DisplayName="Kurzsichtig" />
-    <mutation Name="Spontaneous Combustion" DisplayName="Selbstentzuendung" />
+    <mutation Name="Spontaneous Combustion" DisplayName="Spontane Verbrennung" />
     <mutation Name="Tonic Allergy" DisplayName="Tonik-Allergie" />
   </category>
   <category Name="Mental" DisplayName="{{G|Mentale Mutationen}}">
-    <mutation Name="Beguiling" DisplayName="Betoerung" />
-    <mutation Name="Burgeoning" DisplayName="Wucherung" />
+    <mutation Name="Beguiling" DisplayName="Betörend" />
+    <mutation Name="Burgeoning" DisplayName="Gedeihend" />
     <mutation Name="Clairvoyance" DisplayName="Hellsehen" />
     <mutation Name="Confusion" DisplayName="Verwirrung" />
     <mutation Name="Cryokinesis" DisplayName="Kryokinese" />
@@ -64,32 +64,32 @@
     <mutation Name="Ego Projection" DisplayName="Ego-Projektion" />
     <mutation Name="Force Bubble" DisplayName="Kraftblase" />
     <mutation Name="Force Wall" DisplayName="Kraftwand" />
-    <mutation Name="Kindle" DisplayName="Entzuenden" />
+    <mutation Name="Kindle" DisplayName="Kindle" />
     <mutation Name="Light Manipulation" DisplayName="Lichtmanipulation" />
-    <mutation Name="Mass Mind" DisplayName="Massenbewusstsein" />
-    <mutation Name="Mental Mirror" DisplayName="Mentaler Spiegel" />
-    <mutation Name="Precognition" DisplayName="Praekognition" />
+    <mutation Name="Mass Mind" DisplayName="Massenhirn" />
+    <mutation Name="Mental Mirror" DisplayName="Geistiger Spiegel" />
+    <mutation Name="Precognition" DisplayName="Präkognition" />
     <mutation Name="Psychometry" DisplayName="Psychometrie" />
     <mutation Name="Pyrokinesis" DisplayName="Pyrokinese" />
-    <mutation Name="Sense Psychic" DisplayName="Psi-Gespuer" />
+    <mutation Name="Sense Psychic" DisplayName="Psychische Wahrnehmung" />
     <mutation Name="Spacetime Vortex" DisplayName="Raumzeit-Wirbel" />
-    <mutation Name="Stunning Force" DisplayName="Betaeubende Kraft" />
-    <mutation Name="Sunder Mind" DisplayName="Geist zerreissen" />
-    <mutation Name="Syphon Vim" DisplayName="Vim absaugen" />
+    <mutation Name="Stunning Force" DisplayName="Betäubende Kraft" />
+    <mutation Name="Sunder Mind" DisplayName="Geist spalten" />
+    <mutation Name="Syphon Vim" DisplayName="Vitalität absaugen" />
     <mutation Name="Telepathy" DisplayName="Telepathie" />
     <mutation Name="Teleportation" DisplayName="Teleportation" />
     <mutation Name="Teleport Other" DisplayName="Anderen teleportieren" />
     <mutation Name="Time Dilation" DisplayName="Zeitdilatation" />
-    <mutation Name="Temporal Fugue" DisplayName="Temporale Fuge" />
+    <mutation Name="Temporal Fugue" DisplayName="Zeitliche Flucht" />
   </category>
-  <category Name="MentalDefects" DisplayName="{{R|Mentale Defekte}}">
+  <category Name="MentalDefects" DisplayName="{{R|Geistige Mängel}}">
     <mutation Name="Amnesia" DisplayName="Amnesie" />
-    <mutation Name="Blinking Tic" DisplayName="Blinzeltick" />
-    <mutation Name="Dystechnia" DisplayName="Dystechnie" />
-    <mutation Name="Evil Twin" DisplayName="Boeser Zwilling" />
+    <mutation Name="Blinking Tic" DisplayName="Zuckender Zuck" />
+    <mutation Name="Dystechnia" DisplayName="Dystechnia" />
+    <mutation Name="Evil Twin" DisplayName="Böser Zwilling" />
     <mutation Name="Narcolepsy" DisplayName="Narkolepsie" />
-    <mutation Name="Psionic Migraines" DisplayName="Psionische Migraene" />
+    <mutation Name="Psionic Migraines" DisplayName="Psionische Migränen" />
     <mutation Name="Quantum Jitters" DisplayName="Quantenzittern" />
-    <mutation Name="Socially Repugnant" DisplayName="Sozial abstossend" />
+    <mutation Name="Socially Repugnant" DisplayName="Sozial widerwärtig" />
   </category>
 </mutations>

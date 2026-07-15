@@ -8,11 +8,11 @@
     <relictypemapping Name="Schwert" Type="LongBlade" />
     <relictypemapping Name="Hammer" Type="Cudgel" />
     <relictypemapping Name="Keule" Type="Cudgel" />
-    <relictypemapping Name="Haemmer" Type="Cudgel" />
-    <relictypemapping Name="verpruegeln" Type="Cudgel" />
+    <relictypemapping Name="Hämmer" Type="Cudgel" />
+    <relictypemapping Name="verprügeln" Type="Cudgel" />
     <relictypemapping Name="Helm" Type="Head" />
     <relictypemapping Name="Helm" Type="Head" />
-    <relictypemapping Name="Ruestung" Type="Body" />
+    <relictypemapping Name="Rüstung" Type="Body" />
     <relictypemapping Name="Weste" Type="Body" />
     <relictypemapping Name="Brustpanzer" Type="Body" />
     <relictypemapping Name="Maske" Type="Face" />
@@ -44,20 +44,20 @@
     <relictypemapping Name="winterliche Wahrheit" Type="Book" />
     <relictypemapping Name="Mahlzeit" Type="Food" />
     <relictypemapping Name="Festmahl" Type="Food" />
-    <relictypemapping Name="Schaedel" Type="Curio" />
-    <relictypemapping Name="einseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="zweiseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="dreiseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="Vierseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="Fuenfseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="sechsseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="siebenseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="achtflaechiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="neunflaechiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="zehnflaechiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="zwoelfseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="zwanzigseitiger Wuerfel" Type="Curio" />
-    <relictypemapping Name="Muenze" Type="Curio" />
+    <relictypemapping Name="Schädel" Type="Curio" />
+    <relictypemapping Name="einseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="zweiseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="dreiseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="Vierseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="Fünfseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="sechsseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="siebenseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="achtflächiger Würfel" Type="Curio" />
+    <relictypemapping Name="neunflächiger Würfel" Type="Curio" />
+    <relictypemapping Name="zehnflächiger Würfel" Type="Curio" />
+    <relictypemapping Name="zwölfseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="zwanzigseitiger Würfel" Type="Curio" />
+    <relictypemapping Name="Münze" Type="Curio" />
     <relictypemapping Name="Schild" Type="Shield" />
   </relictypemappings>
 </relics>

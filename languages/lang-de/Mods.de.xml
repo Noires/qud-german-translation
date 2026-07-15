@@ -1,63 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <mods Lang="de" Encoding="utf-8">
-  <mod Part="ModLacquered" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="lackiert" Description="Lackiert: Dieses Objekt kann nicht rosten." />
-  <mod Part="ModSturdy" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="robust" Description="Robust: Dieser Gegenstand kann nicht brechen." />
-  <mod Part="ModSlender" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="schlank" Description="Schlank: Dieser Gegenstand wiegt weniger als normal." />
-  <mod Part="ModWillowy" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="schlank" Description="Federleicht: Dieser Gegenstand wiegt viel weniger als normal." />
-  <mod Part="ModSuspensor" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="Mit Federungen ausgestattet" />
-  <mod Part="ModJewelEncrusted" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="juwelenbesetzt" Description="Juwelen-besetzt: Dieses Objekt ist viel wertvoller als ueblich und gewaehrt dem Traeger +100 Ruf bei Wasserbarone." />
-  <mod Part="ModDrumLoaded" TinkerCategory="Gewehre" TinkerDisplayName="Trommelmagazin geladen" Description="Trommel-beladen: Diese Waffe kann 20% zusaetzliche Munition halten." />
-  <mod Part="ModScoped" TinkerCategory="Gewehre" TinkerDisplayName="bezielt" Description="Gezielt: Diese Waffe hat erhoehte Genauigkeit." />
-  <mod Part="ModLiquidCooled" TinkerCategory="Gewehre" TinkerDisplayName="fluessigkeitsgekuehlt" />
+  <mod Part="ModLacquered" TinkerCategory="Nützlichkeit" TinkerDisplayName="lackiert" Description="Lackiert: Dieses Objekt kann nicht rosten." />
+  <mod Part="ModSturdy" TinkerCategory="Nützlichkeit" TinkerDisplayName="robust" Description="Robust: Dieser Gegenstand kann nicht brechen." />
+  <mod Part="ModSlender" TinkerCategory="Nützlichkeit" TinkerDisplayName="schlank" Description="Schlank: Dieser Gegenstand wiegt weniger als normal." />
+  <mod Part="ModWillowy" TinkerCategory="Nützlichkeit" TinkerDisplayName="schlank" Description="Federleicht: Dieser Gegenstand wiegt viel weniger als normal." />
+  <mod Part="ModSuspensor" TinkerCategory="Nützlichkeit" TinkerDisplayName="Mit Federungen ausgestattet" />
+  <mod Part="ModJewelEncrusted" TinkerCategory="Nützlichkeit" TinkerDisplayName="juwelenbesetzt" Description="Juwelen-besetzt: Dieses Objekt ist viel wertvoller als üblich und gewährt dem Träger +100 Ruf bei Wasserbarone." />
+  <mod Part="ModDrumLoaded" TinkerCategory="Gewehre" TinkerDisplayName="Trommelmagazin geladen" Description="Trommel-beladen: Diese Waffe kann 20% zusätzliche Munition halten." />
+  <mod Part="ModScoped" TinkerCategory="Gewehre" TinkerDisplayName="bezielt" Description="Gezielt: Diese Waffe hat erhöhte Genauigkeit." />
+  <mod Part="ModLiquidCooled" TinkerCategory="Gewehre" TinkerDisplayName="flüssigkeitsgekühlt" />
   <mod Part="ModBeamsplitter" TinkerCategory="Gewehre" TinkerDisplayName="Mit einem Strahlteiler ausgestattet" />
   <mod Part="ModNanon" TinkerCategory="Gewehre" TinkerDisplayName="nanon" />
-  <mod Part="ModSharp" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="scharf" Description="Scharf: +1 zu Durchdringungswuerfen" />
+  <mod Part="ModSharp" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="scharf" Description="Scharf: +1 zu Durchdringungswürfen" />
   <mod Part="ModMasterwork" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="Meisterwerk" Description="Meisterwerk: Diese Waffe erzielt doppelt so oft kritische Treffer." />
-  <mod Part="ModDisplacer" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="Verdraenger" />
+  <mod Part="ModDisplacer" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="Verdränger" />
   <mod Part="ModMorphogenetic" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="morphogenetisch" />
-  <mod Part="ModSerrated" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="gezackt" Description="Gezackt: Diese Waffe hat eine 3%-ige Chance, Gegner zu zerstueckeln." />
-  <mod Part="ModGigantic" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="gigantisch" />
+  <mod Part="ModSerrated" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="gezackt" Description="Gezackt: Diese Waffe hat eine 3%-ige Chance, Gegner zu zerstückeln." />
+  <mod Part="ModGigantic" TinkerCategory="Nützlichkeit" TinkerDisplayName="gigantisch" />
   <mod Part="ModElectrified" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="elektrifiziert" />
   <mod Part="ModFreezing" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="Gefrierend" />
   <mod Part="ModFlaming" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="Flammend" />
   <mod Part="ModCounterweighted" TinkerCategory="Nahkampfwaffen" TinkerDisplayName="gegengewichtet" />
-  <mod Part="ModReinforced" TinkerCategory="Ruestung" TinkerDisplayName="verstaerkt" Description="Verstaerkt: +1 RW" />
-  <mod Part="ModFlexiweaved" TinkerCategory="Ruestung" TinkerDisplayName="Flexigewebt" />
-  <mod Part="ModRecycling" TinkerCategory="Ruestung" TinkerDisplayName="Recycling" Description="Recycling: Dieses Objekt sammelt, reinigt und speichert bis zu 8 Drams des Abwassers des Traegers." />
-  <mod Part="ModDisguise" TinkerCategory="Ruestung" TinkerDisplayName="Verkleidung" />
-  <mod Part="ModVisored" TinkerCategory="Ruestung" TinkerDisplayName="mit Visier" Description="Mit Visier: +1 DV" />
-  <mod Part="ModPadded" TinkerCategory="Ruestung" TinkerDisplayName="gepolstert" />
-  <mod Part="ModLanterned" TinkerCategory="Ruestung" TinkerDisplayName="mit Laterne versehen" Description="Laternen-ausgestattet: Dieses Objekt spendet Licht." />
-  <mod Part="ModFilters" TinkerCategory="Ruestung" TinkerDisplayName="Mit Filtern ausgestattet" />
-  <mod Part="ModTwoFaced" TinkerCategory="Ruestung" TinkerDisplayName="zweigesichtig" Description="Zweigesichtig: Dieses Item gewaehrt einen zusaetzlichen Gesichtsplatz." />
-  <mod Part="ModTerrifyingVisage" TinkerCategory="Ruestung" TinkerDisplayName="von furchteinfloessender Visage" Description="Erschreckende Erscheinung: Dieser Gegenstand reduziert die Abklingzeiten von Beschimpfen, Einschuechtern und Drohender Blick um 10 Runden. Zusaetzlich nimmt er einen Kopf- und Gesichtssteckplatz ein." />
-  <mod Part="ModSereneVisage" TinkerCategory="Ruestung" TinkerDisplayName="von friedlicher Visage" Description="Heiteres Antlitz: +1 Willenskraft und reduziert die Abklingzeit von Meditieren um 40 Runden. Zusaetzlich nimmt dieses Objekt sowohl einen Kopf- als auch einen Gesichtsplatz ein." />
-  <mod Part="ModCoProcessor" TinkerCategory="Ruestung" TinkerDisplayName="Co-Prozessor" />
-  <mod Part="ModSpiked" TinkerCategory="Ruestung" TinkerDisplayName="mit Spitzen versehen" />
-  <mod Part="ModRefractive" TinkerCategory="Ruestung" TinkerDisplayName="brechend" />
-  <mod Part="ModSixFingered" TinkerCategory="Ruestung" TinkerDisplayName="sechsfingrig" Description="Sechsfingrig: +1 Geschicklichkeit" />
-  <mod Part="ModGesticulating" TinkerCategory="Ruestung" TinkerDisplayName="gestikulierend" />
-  <mod Part="ModFeathered" TinkerCategory="Ruestung" TinkerDisplayName="Gefiedert" Description="Gefiedert: Dieser Gegenstand gewaehrt dem Traeger +250 Ruf bei Voegeln." />
-  <mod Part="ModScaled" TinkerCategory="Ruestung" TinkerDisplayName="schuppig" Description="Schuppig: Dieses Objekt gewaehrt dem Traeger +250 Ruf mit schalenlosen Reptilien." />
-  <mod Part="ModWooly" TinkerCategory="Ruestung" TinkerDisplayName="wollig" Description="Wollig: Dieser Gegenstand gewaehrt Widerstand gegen Hitze und Kaelte." />
-  <mod Part="ModSnailEncrusted" TinkerCategory="Ruestung" TinkerDisplayName="schneckenverkrustet" Description="Schuppig: Dieses Objekt gewaehrt dem Traeger +250 Ruf mit Weichtieren." />
-  <mod Part="ModSpringLoaded" TinkerCategory="Ruestung" TinkerDisplayName="federgespannt" Description="Federgespannt: +5-10 Bewegungsgeschwindigkeit" />
-  <mod Part="ModCleated" TinkerCategory="Ruestung" TinkerDisplayName="Mit Stollen ausgestattet" />
-  <mod Part="ModPolarized" TinkerCategory="Ruestung" TinkerDisplayName="polarisiert" />
-  <mod Part="ModNav" TinkerCategory="Ruestung" TinkerDisplayName="nav" />
-  <mod Part="ModNulling" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="Nullifizierung" />
-  <mod Part="ModHighCapacity" TinkerCategory="Munition und Energiezellen" TinkerDisplayName="grosskapazitaetig" />
+  <mod Part="ModReinforced" TinkerCategory="Rüstung" TinkerDisplayName="verstärkt" Description="Verstärkt: +1 RW" />
+  <mod Part="ModFlexiweaved" TinkerCategory="Rüstung" TinkerDisplayName="Flexigewebt" />
+  <mod Part="ModRecycling" TinkerCategory="Rüstung" TinkerDisplayName="Recycling" Description="Recycling: Dieses Objekt sammelt, reinigt und speichert bis zu 8 Drams des Abwassers des Trägers." />
+  <mod Part="ModDisguise" TinkerCategory="Rüstung" TinkerDisplayName="Verkleidung" />
+  <mod Part="ModVisored" TinkerCategory="Rüstung" TinkerDisplayName="mit Visier" Description="Mit Visier: +1 DV" />
+  <mod Part="ModPadded" TinkerCategory="Rüstung" TinkerDisplayName="gepolstert" />
+  <mod Part="ModLanterned" TinkerCategory="Rüstung" TinkerDisplayName="mit Laterne versehen" Description="Laternen-ausgestattet: Dieses Objekt spendet Licht." />
+  <mod Part="ModFilters" TinkerCategory="Rüstung" TinkerDisplayName="Mit Filtern ausgestattet" />
+  <mod Part="ModTwoFaced" TinkerCategory="Rüstung" TinkerDisplayName="zweigesichtig" Description="Zweigesichtig: Dieses Item gewährt einen zusätzlichen Gesichtsplatz." />
+  <mod Part="ModTerrifyingVisage" TinkerCategory="Rüstung" TinkerDisplayName="von furchteinflößender Visage" Description="Erschreckende Erscheinung: Dieser Gegenstand reduziert die Abklingzeiten von Beschimpfen, Einschüchtern und Drohender Blick um 10 Runden. Zusätzlich nimmt er einen Kopf- und Gesichtssteckplatz ein." />
+  <mod Part="ModSereneVisage" TinkerCategory="Rüstung" TinkerDisplayName="von friedlicher Visage" Description="Heiteres Antlitz: +1 Willenskraft und reduziert die Abklingzeit von Meditieren um 40 Runden. Zusätzlich nimmt dieses Objekt sowohl einen Kopf- als auch einen Gesichtsplatz ein." />
+  <mod Part="ModCoProcessor" TinkerCategory="Rüstung" TinkerDisplayName="Co-Prozessor" />
+  <mod Part="ModSpiked" TinkerCategory="Rüstung" TinkerDisplayName="mit Spitzen versehen" />
+  <mod Part="ModRefractive" TinkerCategory="Rüstung" TinkerDisplayName="brechend" />
+  <mod Part="ModSixFingered" TinkerCategory="Rüstung" TinkerDisplayName="sechsfingrig" Description="Sechsfingrig: +1 Geschicklichkeit" />
+  <mod Part="ModGesticulating" TinkerCategory="Rüstung" TinkerDisplayName="gestikulierend" />
+  <mod Part="ModFeathered" TinkerCategory="Rüstung" TinkerDisplayName="Gefiedert" Description="Gefiedert: Dieser Gegenstand gewährt dem Träger +250 Ruf bei Vögeln." />
+  <mod Part="ModScaled" TinkerCategory="Rüstung" TinkerDisplayName="schuppig" Description="Schuppig: Dieses Objekt gewährt dem Träger +250 Ruf mit schalenlosen Reptilien." />
+  <mod Part="ModWooly" TinkerCategory="Rüstung" TinkerDisplayName="wollig" Description="Wollig: Dieser Gegenstand gewährt Widerstand gegen Hitze und Kälte." />
+  <mod Part="ModSnailEncrusted" TinkerCategory="Rüstung" TinkerDisplayName="schneckenverkrustet" Description="Schuppig: Dieses Objekt gewährt dem Träger +250 Ruf mit Weichtieren." />
+  <mod Part="ModSpringLoaded" TinkerCategory="Rüstung" TinkerDisplayName="federgespannt" Description="Federgespannt: +5-10 Bewegungsgeschwindigkeit" />
+  <mod Part="ModCleated" TinkerCategory="Rüstung" TinkerDisplayName="Mit Stollen ausgestattet" />
+  <mod Part="ModPolarized" TinkerCategory="Rüstung" TinkerDisplayName="polarisiert" />
+  <mod Part="ModNav" TinkerCategory="Rüstung" TinkerDisplayName="nav" />
+  <mod Part="ModNulling" TinkerCategory="Nützlichkeit" TinkerDisplayName="Nullifizierung" />
+  <mod Part="ModHighCapacity" TinkerCategory="Munition und Energiezellen" TinkerDisplayName="großkapazitätig" />
   <mod Part="ModMetered" TinkerCategory="Munition und Energiezellen" TinkerDisplayName="dosiert" />
   <mod Part="ModRadioPowered" TinkerCategory="Munition und Energiezellen" TinkerDisplayName="funkbetrieben" />
-  <mod Part="ModIlluminated" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="erleuchtet" Description="Illuminiert: Dieses Buch ist mit dekorativen Marginalien und Illustrationen verziert. Es ist 30% mehr wert." />
-  <mod Part="ModExtradimensional" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="Extradimensional" Description="Extradimensional: Dieser Gegenstand ist kuerzlich materialisiert und hat einige Eigenschaften aus seiner Heimatdimension geerbt." />
-  <mod Part="ModAirfoil" TinkerCategory="Granaten" TinkerDisplayName="Tragflaeche" />
+  <mod Part="ModIlluminated" TinkerCategory="Nützlichkeit" TinkerDisplayName="erleuchtet" Description="Illuminiert: Dieses Buch ist mit dekorativen Marginalien und Illustrationen verziert. Es ist 30% mehr wert." />
+  <mod Part="ModExtradimensional" TinkerCategory="Nützlichkeit" TinkerDisplayName="Extradimensional" Description="Extradimensional: Dieser Gegenstand ist kürzlich materialisiert und hat einige Eigenschaften aus seiner Heimatdimension geerbt." />
+  <mod Part="ModAirfoil" TinkerCategory="Granaten" TinkerDisplayName="Tragfläche" />
   <mod Part="ModPhaseConjugate" TinkerCategory="Granaten" TinkerDisplayName="phasenkonjugiert" />
-  <mod Part="ModHardened" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="elektromagnetisch geschirmt" />
-  <mod Part="ModJacked" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="muskuloes" />
-  <mod Part="ModOverloaded" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="ueberladen" />
-  <mod Part="ModPhaseHarmonic" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="phasenharmonisch" />
-  <mod Part="ModEngraved" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="graviert" Description="Graviert: Dieser Gegenstand ist mit einer Darstellung eines historischen Ereignisses graviert." />
-  <mod Part="ModPainted" TinkerCategory="Nuetzlichkeit" TinkerDisplayName="bemalt" Description="Bemalt: Dieser Gegenstand ist mit einer Darstellung eines historischen Ereignisses bemalt." />
+  <mod Part="ModHardened" TinkerCategory="Nützlichkeit" TinkerDisplayName="elektromagnetisch geschirmt" />
+  <mod Part="ModJacked" TinkerCategory="Nützlichkeit" TinkerDisplayName="muskulös" />
+  <mod Part="ModOverloaded" TinkerCategory="Nützlichkeit" TinkerDisplayName="überladen" />
+  <mod Part="ModPhaseHarmonic" TinkerCategory="Nützlichkeit" TinkerDisplayName="phasenharmonisch" />
+  <mod Part="ModEngraved" TinkerCategory="Nützlichkeit" TinkerDisplayName="graviert" Description="Graviert: Dieser Gegenstand ist mit einer Darstellung eines historischen Ereignisses graviert." />
+  <mod Part="ModPainted" TinkerCategory="Nützlichkeit" TinkerDisplayName="bemalt" Description="Bemalt: Dieser Gegenstand ist mit einer Darstellung eines historischen Ereignisses bemalt." />
 </mods>

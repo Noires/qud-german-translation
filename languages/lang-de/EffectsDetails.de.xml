@@ -8,7 +8,7 @@
   <template ID="Effect.AnemoneEffect.Details">
         <switch Name="DamageBonus">
             <case Value="0" />
-            <default><p>Zusaetzliche <stat Name="DamageBonus" /> Blutungsschaden pro Runde.</p></default>
+            <default><p>Zusätzliche <stat Name="DamageBonus" /> Blutungsschaden pro Runde.</p></default>
         </switch>
         <saveline Name="BleedingSave" HideValue="0" />
     </template>
@@ -21,9 +21,9 @@
             <default><p>Bewusstlos.</p></default>
         </switch>
         <p>-12 DV.</p>
-        <p>Angreifer erhalten +4 auf Durchdringungswuerfe.</p>
+        <p>Angreifer erhalten +4 auf Durchdringungswürfe.</p>
         <switch Name="UsesSleepMode">
-            <case Value="true"><p>Wird benommen zu normalen Operationen zurueckkehren, wenn Schaden erlitten wird.</p></case>
+            <case Value="true"><p>Wird benommen zu normalen Operationen zurückkehren, wenn Schaden erlitten wird.</p></case>
             <default><p>Wird benommen aufwachen, wenn Schaden erlitten wird.</p></default>
         </switch>
     </template>
@@ -32,10 +32,10 @@
     </template>
   <template ID="Effect.AxonsInflated.Details">
         <p><stat Name="QuicknessBonus" Filters="signed" /> Schnelligkeit</p>
-        <p>Wird bald traege werden.</p>
+        <p>Wird bald träge werden.</p>
     </template>
   <template ID="Effect.BasiliskPoison.Details">
-        <p>-1w6 Bewegungsgeschwindigkeit pro Runde fuer 14-18 Runden.</p>
+        <p>-1w6 Bewegungsgeschwindigkeit pro Runde für 14-18 Runden.</p>
         <p>[total:<stat Name="MovementDebuff" Filters="signed" /> Bewegungsgeschwindigkeit]</p>
     </template>
   <template ID="Effect.Beguiled.Details">
@@ -46,25 +46,25 @@
         </switch>
     </template>
   <template ID="Effect.Berserk.Details">
-        <p>100% Chance zu Verstuemmelung mit Aexten.</p>
+        <p>100% Chance zu Verstümmelung mit Äxten.</p>
     </template>
   <template ID="Effect.Blaze_Tonic.Details">
-        <p>+100 Waermewiderstand</p>
+        <p>+100 Wärmewiderstand</p>
         <p>Kann nicht eingefroren werden.</p>
-        <p>+25% Waermeschaden verursacht.</p>
-        <p>-50 Kaeltewiderstand</p>
+        <p>+25% Wärmeschaden verursacht.</p>
+        <p>-50 Kältewiderstand</p>
         <switch Name="IsTrueKin">
             <case Value="true"><p>+20 Schnelligkeit</p></case>
             <default><p>+10 Schnelligkeit</p></default>
         </switch>
-        <p>Temperatur kann nicht durch externe Waermequellen erhoeht werden.</p>
+        <p>Temperatur kann nicht durch externe Wärmequellen erhöht werden.</p>
         <p>Muss dich bewegen, um Verbrennung und den Verlust der Effekte dieses Tonikums zu vermeiden.</p>
     </template>
   <template ID="Effect.Blind.Details">
         <p>Kann nicht sehen.</p>
     </template>
   <template ID="Effect.BlinkingTicSickness.Details">
-        <p>Es gibt jede Runde, waehrend Ihr im Kampf seid, eine kleine Chance, dass Ihr zufaellig an einen nahegelegenen Ort teleportiert werdet.</p>
+        <p>Es gibt jede Runde, während Ihr im Kampf seid, eine kleine Chance, dass Ihr zufällig an einen nahegelegenen Ort teleportiert werdet.</p>
     </template>
   <template ID="Effect.BoostStatistic.Details">
         <p><stat Name="Bonus" Filters="signed" /> <gametext>=stat.title=</gametext></p>
@@ -91,7 +91,7 @@
         </switch>
     </template>
   <template ID="Effect.Inspired.Details">
-        <p>Das naechste Mal, wenn Ihr eine Mahlzeit durch die Auswahl von Zutaten kocht, erhaltet Ihr die Auswahl aus drei dynamisch generierten Effekten zum Anwenden. Ihr erstellt ein Rezept fuer den gewaehlten Effekt.</p>
+        <p>Das nächste Mal, wenn Ihr eine Mahlzeit durch die Auswahl von Zutaten kocht, erhaltet Ihr die Auswahl aus drei dynamisch generierten Effekten zum Anwenden. Ihr erstellt ein Rezept für den gewählten Effekt.</p>
     </template>
   <template ID="Effect.Lovesick.Details">
         <p>-6 Intelligenz</p>
@@ -107,7 +107,7 @@
     </template>
   <template ID="Effect.Phased.Details">
         <p>Kann nicht physisch mit Kreaturen und Objekten interagieren, es sei denn, diese sind ebenfalls phased.</p>
-        <p>Kann durch feste Gegenstaende gehen.</p>
+        <p>Kann durch feste Gegenstände gehen.</p>
     </template>
   <template ID="Effect.Rebuked.Details">
         <p>Von einer anderen Kreatur zur Gehorsamkeit gezwungen.</p>

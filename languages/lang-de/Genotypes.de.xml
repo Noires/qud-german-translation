@@ -9,11 +9,11 @@
     <stat Name="Ego" ChargenDescription="Dein Wert fuer {{W|Ego}} bestimmt die Wirkkraft deiner mentalen Mutationen, deine Faehigkeit, mit Haendlern zu feilschen, und deine Faehigkeit, den Willen anderer Lebewesen zu beherrschen." />
   </genotype>
   <genotype Name="True Kin" DisplayName="Wahre Verwandte">
-    <stat Name="Strength" ChargenDescription="Dein Wert fuer {{W|Staerke}} bestimmt, wie wirksam du im Nahkampf die Ruestung deiner Gegner durchdringst, wie viel Schaden deine Nahkampfangriffe anrichten, deine Faehigkeit, erzwungener Bewegung zu widerstehen, und deine Tragfaehigkeit." />
-    <stat Name="Agility" ChargenDescription="Dein Wert fuer {{W|Beweglichkeit}} bestimmt deine Treffsicherheit mit Nah- und Fernkampfwaffen sowie deine Faehigkeit, Angriffen auszuweichen." />
-    <stat Name="Toughness" ChargenDescription="Dein Wert fuer {{W|Zaehigkeit}} bestimmt deine Trefferpunkte, deine natuerliche Heilungsrate und deine Faehigkeit, Gift und Krankheit zu widerstehen." />
-    <stat Name="Intelligence" ChargenDescription="Dein Wert fuer {{W|Intelligenz}} bestimmt die Anzahl deiner Fertigkeitspunkte und deine Faehigkeit, Artefakte zu untersuchen." />
-    <stat Name="Willpower" ChargenDescription="Dein Wert fuer {{W|Willenskraft}} veraendert die Abklingzeiten deiner aktivierten Faehigkeiten, bestimmt deine Faehigkeit, mentalen Angriffen zu widerstehen, und veraendert deine natuerliche Heilungsrate." />
-    <stat Name="Ego" ChargenDescription="Dein Wert fuer {{W|Ego}} bestimmt deine Faehigkeit, mit Haendlern zu feilschen, und deine Faehigkeit, den Willen anderer Lebewesen zu beherrschen." />
+    <stat Name="Strength" ChargenDescription="Euer {{W|Stärke}}-Wert bestimmt, wie effektiv ihr die Rüstung eurer Gegner mit Nahkampfangriffen durchdringt, wie viel Schaden eure Nahkampfangriffe verursachen, eure Fähigkeit, erzwungenen Bewegungen zu widerstehen, und eure Tragekapazität." />
+    <stat Name="Agility" ChargenDescription="Euer {{W|Geschicklichkeit}}-Wert bestimmt eure Genauigkeit sowohl mit Nahkampf- als auch mit Fernkampfwaffen sowie eure Fähigkeit, Angriffen auszuweichen." />
+    <stat Name="Toughness" ChargenDescription="Euer {{W|Zähigkeit}}-Wert bestimmt eure Anzahl von Trefferpunkten, eure natürliche Heilungsrate und eure Fähigkeit, Giften und Krankheiten zu widerstehen." />
+    <stat Name="Intelligence" ChargenDescription="Euer {{W|Intelligenz}}-Wert bestimmt die Anzahl eurer Fertigkeitspunkte und eure Fähigkeit, Artefakte zu untersuchen." />
+    <stat Name="Willpower" ChargenDescription="Euer {{W|Willenskraft}}-Wert modifiziert die Abklingzeiten eurer aktivierten Fähigkeiten, bestimmt eure Fähigkeit, mentalen Angriffen zu widerstehen, und modifiziert eure natürliche Heilungsrate." />
+    <stat Name="Ego" ChargenDescription="Euer {{W|Ego}}-Wert bestimmt die Stärke eurer Fähigkeit, mit Kaufleuten zu feilschen, sowie eure Fähigkeit, die Willen anderer lebender Kreaturen zu beherrschen." />
   </genotype>
 </genotypes>

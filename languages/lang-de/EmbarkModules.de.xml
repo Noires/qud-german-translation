@@ -24,13 +24,13 @@
       </mode>
       <mode ID="Wander" Title="Wandern">
         <description>
-          {{c|∙}} Die meisten Kreaturen sind euch gegenueber neutral.
-          {{c|∙}} Keine EP fuer das Toeten.
-          {{c|∙}} Mehr EP fuer Entdeckungen und das Durchfuehren des Wasserritus.
+          {{c|∙}} Die meisten Kreaturen sind euch gegenüber neutral.
+          {{c|∙}} Keine EP für das Töten.
+          {{c|∙}} Mehr EP für Entdeckungen und das Durchführen des Wasserritus.
           {{c|∙}} Speicherpunkte an Siedlungen.
               </description>
       </mode>
-      <mode ID="Daily" Title="Taeglich">
+      <mode ID="Daily" Title="Täglich">
         <description>
           {{c|∙}} Eine Chance mit einem festen Charakter und Weltsamen.
           {{c|∙}} Derzeit an Tag {{W|=now.dayOfYear=}} des Jahres {{W|=now.year=}}.
@@ -46,7 +46,7 @@
     <types>
       <type ID="Pregen" Title="Voreinstellungen">
         <description>
-          Waehlt aus mehreren voreingestellten Charakteren. Sobald ihr euch damit vertraut macht, koennt ihr diese anpassen.
+          Wählt aus mehreren voreingestellten Charakteren. Sobald ihr euch damit vertraut macht, könnt ihr diese anpassen.
                </description>
       </type>
       <type ID="New" Title="Neu">
@@ -54,14 +54,14 @@
           Erstellt einen neuen Charakter.
               </description>
       </type>
-      <type ID="Random" Title="Zufaellig">
+      <type ID="Random" Title="Zufällig">
         <description>
-          Wuerfelt einen zufaelligen Charakter.
+          Würfelt einen zufälligen Charakter.
               </description>
       </type>
       <type ID="Library" Title="Bibliothek">
         <description>
-          Waehlt einen Charakter aus eurer Charakterbibliothek.
+          Wählt einen Charakter aus eurer Charakterbibliothek.
               </description>
       </type>
       <type ID="Last" Title="Zuletzt">
@@ -89,69 +89,69 @@
       <title>:choose preset:</title>
     </window>
     <pregens>
-      <pregen ID="Praetorian Prime" Name="Praetorianer Prime">
+      <pregen ID="Praetorian Prime" Name="Prätorianer Prime">
         <description>
-{{c|∙}} Aufladungsbasierter Nahkaempfer
+{{c|∙}} Aufladungsbasierter Nahkämpfer
 {{c|∙}} Startet mit Nachtsicht
-{{c|∙}} {{W|Am widerstandsfaehigsten}} Startbuild
+{{c|∙}} {{W|Am widerstandsfähigsten}} Startbuild
               </description>
       </pregen>
-      <pregen ID="First Gardener" Name="Erster Gaertner">
+      <pregen ID="First Gardener" Name="Erster Gärtner">
         <description>
-{{c|∙}} Hybrider Nah- und Fernkaempfer
+{{c|∙}} Hybrider Nah- und Fernkämpfer
 {{c|∙}} Startet mit Kochen und Sammeln
-{{c|∙}} {{W|Hochgradig widerstandsfaehig}} Startbuild
+{{c|∙}} {{W|Hochgradig widerstandsfähig}} Startbuild
               </description>
       </pregen>
       <pregen ID="First Child of the Hearth" Name="Erstes Kind des Herdes">
         <description>
-{{c|∙}} Nahkaempfer und extremer Schlaeger
+{{c|∙}} Nahkämpfer und extremer Schläger
 {{c|∙}} Startet mit Carbid-Handknochen
-{{c|∙}} {{W|Hochgradig widerstandsfaehig}} Startbuild
+{{c|∙}} {{W|Hochgradig widerstandsfähig}} Startbuild
               </description>
       </pregen>
       <pregen ID="Marsh Taur" Name="Sumpf-Taur">
         <description>
-{{c|∙}} Aufladungsbasierter Nahkaempfer
-{{c|∙}} Faehigkeit, Feinde einzufrieren
+{{c|∙}} Aufladungsbasierter Nahkämpfer
+{{c|∙}} Fähigkeit, Feinde einzufrieren
 {{c|∙}} Hochgradig beweglich
-{{c|∙}} {{W|Am widerstandsfaehigsten}} Startbuild
+{{c|∙}} {{W|Am widerstandsfähigsten}} Startbuild
               </description>
       </pregen>
-      <pregen ID="Dream Tortoise" Name="Traum-Schildkroete">
+      <pregen ID="Dream Tortoise" Name="Traum-Schildkröte">
         <description>
-{{c|∙}} Nahkaempfer
+{{c|∙}} Nahkämpfer
 {{c|∙}} Hochgradig gepanzert
 {{c|∙}} Strahlt Schlafgas aus, um Feinde zu deaktivieren
-{{c|∙}} {{W|Hochgradig widerstandsfaehig}} Startbuild
+{{c|∙}} {{W|Hochgradig widerstandsfähig}} Startbuild
               </description>
       </pregen>
-      <pregen ID="Gunwing" Name="Gewehr-Fluegel">
+      <pregen ID="Gunwing" Name="Gewehr-Flügel">
         <description>
-{{c|∙}} Primaer Fernkaempfer
+{{c|∙}} Primär Fernkämpfer
 {{c|∙}} Schnell und beweglich
 {{c|∙}} Fliegt
-{{c|∙}} {{W|Hochgradig widerstandsfaehig}} Startbuild
+{{c|∙}} {{W|Hochgradig widerstandsfähig}} Startbuild
               </description>
       </pregen>
       <pregen ID="Star-Eye Esper" Name="Sternauge-Esper">
         <description>
-{{c|∙}} Mentaler Fernkaempfer
+{{c|∙}} Mentaler Fernkämpfer
 {{c|∙}} Effektive Menschenmenge Kontrolle und Kartensicht
-{{c|∙}} {{W|Mittelmaessig widerstandsfaehig}} Startbuild
+{{c|∙}} {{W|Mittelmäßig widerstandsfähig}} Startbuild
               </description>
       </pregen>
       <pregen ID="Firefrond" Name="Feuerfronde">
         <description>
-{{c|∙}} Hybrider Nahkaempfer und mentaler Magier
-{{c|∙}} Faehigkeit, Feinde in Brand zu setzen
-{{c|∙}} Verursacht, dass ernterbare Pflanzen in der Naehe wachsen
+{{c|∙}} Hybrider Nahkämpfer und mentaler Magier
+{{c|∙}} Fähigkeit, Feinde in Brand zu setzen
+{{c|∙}} Verursacht, dass ernterbare Pflanzen in der Nähe wachsen
 {{c|∙}} {{W|Herausfordernd}} Startbuild
               </description>
       </pregen>
       <pregen ID="bzzzt" Name="bzzzt">
         <description>
-{{c|∙}} Hybrider Nahkaempfer und elektrischer Angreifer
+{{c|∙}} Hybrider Nahkämpfer und elektrischer Angreifer
 {{c|∙}} Graber und Fallensteller
 {{c|∙}} Startet mit Nachtsicht
 {{c|∙}} {{W|Herausfordernd}} Startbuild
@@ -207,35 +207,35 @@
     <locations>
       <location ID="Joppa" Name="{{Y|Joppa}}">
         <description>
-          Fuer neue Spieler empfohlen.
+          Für neue Spieler empfohlen.
               </description>
       </location>
       <location ID="SaltMarshVillage" Name="{{G|Salzmarsch}}&#xA;Dorf">
         <description>
-          {{c|∙}} Zufaelliges Dorf in Salzsuempfen.
-          {{c|∙}} Dorf unterrichtet Erntefaehigkeit.
+          {{c|∙}} Zufälliges Dorf in Salzsümpfen.
+          {{c|∙}} Dorf unterrichtet Erntefähigkeit.
           {{c|∙}} +50 Reputation mit Insekten und Fischen.
           {{c|∙}} Beginnt mit einem Paar {{g|krokos{{G|a}}ndalen}}.
               </description>
       </location>
-      <location ID="SaltDuneVillage" Name="{{Y|Salzduenen}}&#xA;Dorf">
+      <location ID="SaltDuneVillage" Name="{{Y|Salzdünen}}&#xA;Dorf">
         <description>
-          {{c|∙}} Zufaelliges Dorf in den Salzduenen.
+          {{c|∙}} Zufälliges Dorf in den Salzdünen.
           {{c|∙}} Dorf unterrichtet Fastenweg.
           {{c|∙}} +100 Reputation mit Reptilien.
           {{c|∙}} Beginnt mit einer {{Y|Issach{{r|a}}ri}}-Flagge.
               </description>
       </location>
-      <location ID="DesertCanyonsVillage" Name="{{W|Wuestenschlucht}}&#xA;Dorf">
+      <location ID="DesertCanyonsVillage" Name="{{W|Wüstenschlucht}}&#xA;Dorf">
         <description>
-          {{c|∙}} Zufaelliges Dorf in Wuestenschluchten.
+          {{c|∙}} Zufälliges Dorf in Wüstenschluchten.
           {{c|∙}} Dorf unterrichtet Wegkundigkeit.
-          {{c|∙}} +50 Reputation mit Pferden, Schildkroeten und Reben.
+          {{c|∙}} +50 Reputation mit Pferden, Schildkröten und Reben.
               </description>
       </location>
-      <location ID="HillsVillage" Name="{{Y|Huegel}}&#xA;Dorf">
+      <location ID="HillsVillage" Name="{{Y|Hügel}}&#xA;Dorf">
         <description>
-          {{c|∙}} Zufaelliges Dorf in den Huegeln.
+          {{c|∙}} Zufälliges Dorf in den Hügeln.
           {{c|∙}} Dorf unterrichtet Zerlegung.
           {{c|∙}} +100 Reputation mit Einsiedlern.
           {{c|∙}} Beginnt mit einem {{r|blutbefleckten}} Nackenring

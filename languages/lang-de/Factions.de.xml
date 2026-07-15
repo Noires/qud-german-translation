@@ -9,12 +9,12 @@
   <faction Name="Baboons" DisplayName="Paviane" />
   <faction Name="Apes" DisplayName="Affen" />
   <faction Name="Crabs" DisplayName="Krabben" />
-  <faction Name="Bears" DisplayName="Baeren" />
-  <faction Name="Winged Mammals" DisplayName="gefluegelte Saeugetiere" />
-  <faction Name="Birds" DisplayName="Voegel" />
+  <faction Name="Bears" DisplayName="Bären" />
+  <faction Name="Winged Mammals" DisplayName="geflügelte Säugetiere" />
+  <faction Name="Birds" DisplayName="Vögel" />
   <faction Name="Fish" DisplayName="Fisch">
     <interests>
-      <interest Tags="opalduskwaters,riveryonth,riversvy,mountainstream,riveropal" MatchAny="true" Description="waessrige Orte" />
+      <interest Tags="opalduskwaters,riveryonth,riversvy,mountainstream,riveropal" MatchAny="true" Description="wässrige Orte" />
     </interests>
   </faction>
   <faction Name="Insects" DisplayName="Insekten" />
@@ -26,21 +26,21 @@
   <faction Name="Dogs" DisplayName="Hunde" />
   <faction Name="Cragmensch" DisplayName="Cragmensch" />
   <faction Name="Mollusks" DisplayName="Weichtiere" />
-  <faction Name="Tortoises" DisplayName="Schildkroeten" />
+  <faction Name="Tortoises" DisplayName="Schildkröten" />
   <faction Name="Robots" DisplayName="Roboter" />
   <faction Name="Baetyls" DisplayName="Baetyls" />
-  <faction Name="Dromad" DisplayName="Dromad-Haendler" />
+  <faction Name="Dromad" DisplayName="Dromad-Händler" />
   <faction Name="Entropic" DisplayName="hochentropische Wesen" />
   <faction Name="Antelopes" DisplayName="Antilopen" />
-  <faction Name="Worms" DisplayName="Wuermer" />
+  <faction Name="Worms" DisplayName="Würmer" />
   <faction Name="Oozes" DisplayName="Schleime" />
   <faction Name="Equines" DisplayName="Equiden" />
   <faction Name="Newly Sentient Beings" DisplayName="neu bewusste Wesen">
-    <interests Blurb=" Ich weiss nichts" />
+    <interests Blurb=" Ich weiß nichts" />
   </faction>
   <faction Name="Goatfolk" DisplayName="Ziegenfolk" />
   <faction Name="Hermits" DisplayName="Eremiten" />
-  <faction Name="Frogs" DisplayName="Froesche" />
+  <faction Name="Frogs" DisplayName="Frösche" />
   <faction Name="Svardym" DisplayName="Svardym">
     <interests>
       <interest Tags="gyreplagues" WillBuy="false" WillSell="true" Description="die Plagen der Gyre" />
@@ -49,7 +49,7 @@
   <faction Name="Naphtaali" DisplayName="Naphtaali-Stamm" FormatWithArticle="true" Plural="false" />
   <faction Name="Trolls" DisplayName="Trolle" />
   <faction Name="Issachari" DisplayName="Issachari-Stamm" FormatWithArticle="true" Plural="false" />
-  <faction Name="Strangers" DisplayName="mysterioese Fremde" />
+  <faction Name="Strangers" DisplayName="mysteriöse Fremde" />
   <faction Name="Pariahs" DisplayName="Parias" />
   <faction Name="Hindren" DisplayName="Hindren von Bey Lah" FormatWithArticle="true" />
   <faction Name="Mopango" DisplayName="mopango" FormatWithArticle="true" />
@@ -58,7 +58,7 @@
     <ranks>
       <rank Name="apprentice" DisplayName="Lehrling" />
       <rank Name="journeyfriend" DisplayName="Wegegeselle" />
-      <rank Name="disciple" DisplayName="Schueler" />
+      <rank Name="disciple" DisplayName="Schüler" />
       <rank Name="meyvn" DisplayName="meyvn" />
     </ranks>
   </faction>
@@ -72,7 +72,7 @@
   <faction Name="Gyre Wights" DisplayName="Gyre-Wesen" FormatWithArticle="true" />
   <faction Name="Mamon" DisplayName="Kinder von Mamon" FormatWithArticle="true" />
   <faction Name="Seekers" DisplayName="Sucher des blinden Weges" FormatWithArticle="true" />
-  <faction Name="Wardens" DisplayName="Bruderschaft der Waerter" FormatWithArticle="true" Plural="false" />
+  <faction Name="Wardens" DisplayName="Bruderschaft der Wärter" FormatWithArticle="true" Plural="false" />
   <faction Name="Water" DisplayName="Wasserbaronen" />
   <faction Name="Flowers" DisplayName="Blumen" />
   <faction Name="Roots" DisplayName="Wurzeln" />
@@ -80,11 +80,11 @@
   <faction Name="Vines" DisplayName="Ranken" />
   <faction Name="Urchins" DisplayName="Seeigel" />
   <faction Name="Succulents" DisplayName="Sukkulenten" />
-  <faction Name="Trees" DisplayName="Baeume" />
-  <faction Name="Merchants" DisplayName="Haendlergilde" FormatWithArticle="true" Plural="false" />
+  <faction Name="Trees" DisplayName="Bäume" />
+  <faction Name="Merchants" DisplayName="Händlergilde" FormatWithArticle="true" Plural="false" />
   <faction Name="Farmers" DisplayName="Zunft der Bauern" FormatWithArticle="true" Plural="false" />
-  <faction Name="Resheph" DisplayName="Kult des Gekruemmten Lammes" FormatWithArticle="true" Plural="false" />
-  <faction Name="Daughters" DisplayName="Toechter des Exils" FormatWithArticle="true" Plural="true" />
+  <faction Name="Resheph" DisplayName="Kult des Gekrümmten Lammes" FormatWithArticle="true" Plural="false" />
+  <faction Name="Daughters" DisplayName="Töchter des Exils" FormatWithArticle="true" Plural="true" />
   <faction Name="YdFreehold" DisplayName="Bewohner des Yd Freistaats" FormatWithArticle="true" />
   <faction Name="Chavvah" DisplayName="Chavvah, der Baum des Lebens" FormatWithArticle="false" Plural="false" />
 </factions>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <factions Lang="de" Encoding="utf-8">
-  <faction Name="Sludges" DisplayName="Schlaemme" />
+  <faction Name="Sludges" DisplayName="Schlämme" />
   <faction Name="Soups" DisplayName="Suppen">
     <interests>
       <interest Tags="soups" Description="Suppen" />
-      <interest Tags="stews" Description="Eintoepfe" />
+      <interest Tags="stews" Description="Eintöpfe" />
       <interest Tags="messes" Description="Unordnung aller Art" />
     </interests>
   </faction>
@@ -20,20 +20,20 @@
     </interests>
   </faction>
   <faction Name="Slimes" DisplayName="Schleime" />
-  <faction Name="Amoeba" DisplayName="Amoebe">
+  <faction Name="Amoeba" DisplayName="Amöbe">
     <interests>
-      <interest Tags="adhesion" WillBuy="true" WillSell="false" Description="Zelladhaesion" />
+      <interest Tags="adhesion" WillBuy="true" WillSell="false" Description="Zelladhäsion" />
     </interests>
   </faction>
   <faction Name="Algae" DisplayName="Algen">
     <interests>
-      <interest Tags="lakesrivers" Description="die Lagen von Seen und Fluessen" />
+      <interest Tags="lakesrivers" Description="die Lagen von Seen und Flüssen" />
     </interests>
   </faction>
   <faction Name="Cocci" DisplayName="Kokken">
     <interests>
       <interest Tags="moistproteinrich" Description="die Lagen von feuchten, proteinreichen Umgebungen" />
-      <interest Tags="skinnasal" Description="Haut und Nasenhoehlen" />
+      <interest Tags="skinnasal" Description="Haut und Nasenhöhlen" />
     </interests>
   </faction>
   <faction Name="Bacilli" DisplayName="Bazillen">
@@ -51,10 +51,10 @@
   <faction Name="Vibrios" DisplayName="Vibrionen">
     <interests>
       <interest Tags="moistproteinrich" Description="die Lagen von feuchten, proteinreichen Umgebungen" />
-      <interest Tags="coves" WillBuy="true" WillSell="false" Description="die Lagen von Buchten und Muendungen" />
+      <interest Tags="coves" WillBuy="true" WillSell="false" Description="die Lagen von Buchten und Mündungen" />
     </interests>
   </faction>
-  <faction Name="Spirochaetes" DisplayName="Spirochaeten">
+  <faction Name="Spirochaetes" DisplayName="Spirochäten">
     <interests>
       <interest Tags="moistproteinrich" Description="die Lagen von feuchten, proteinreichen Umgebungen" />
       <interest Tags="spirals" Description="Spiralen" />
@@ -84,7 +84,7 @@
       <interest Tags="dead" WillBuy="true" WillSell="false" Description="die Lagen von toten Dingen" />
     </interests>
   </faction>
-  <faction Name="Smuts" DisplayName="Russfloeckchen">
+  <faction Name="Smuts" DisplayName="Rußflöckchen">
     <interests>
       <interest Tags="dead" WillBuy="true" WillSell="false" Description="die Lagen von toten Dingen" />
       <interest Tags="plantlairs" Description="die Lagen von Pflanzenlauern" />
@@ -104,38 +104,38 @@
   </faction>
   <faction Name="Crystal" DisplayName="gespreizten Kristalldinge, die funkeln">
     <interests>
-      <interest Tags="thingsunknown" Description="Dinge, die andere unmoeglich wissen koennen" />
+      <interest Tags="thingsunknown" Description="Dinge, die andere unmöglich wissen können" />
     </interests>
   </faction>
   <faction Name="Snailfolk" DisplayName="Schneckenvolk">
     <interests>
       <interest Tags="soups" Description="Suppen" />
-      <interest Tags="stews" Description="Eintoepfe" />
+      <interest Tags="stews" Description="Eintöpfe" />
       <interest Tags="teas" Description="Tees" />
     </interests>
   </faction>
   <faction Name="Walking Ibes" DisplayName="wandernde Ibes">
     <interests>
-      <interest Tags="talltrees" WillBuy="true" WillSell="false" Description="die Lagen von hohen Baeumen" />
-      <interest Tags="music" WillBuy="false" WillSell="true" Description="musikalische Auffuehrungen" />
+      <interest Tags="talltrees" WillBuy="true" WillSell="false" Description="die Lagen von hohen Bäumen" />
+      <interest Tags="music" WillBuy="false" WillSell="true" Description="musikalische Aufführungen" />
     </interests>
   </faction>
   <faction Name="Elephantines" DisplayName="Elefantinen" />
   <faction Name="Yanshufim" DisplayName="yanshufim" FormatWithArticle="true">
     <interests>
-      <interest Tags="astral" WillBuy="true" WillSell="false" Description="Orte astraler Schwaeche" />
+      <interest Tags="astral" WillBuy="true" WillSell="false" Description="Orte astraler Schwäche" />
     </interests>
   </faction>
-  <faction Name="Foxen" DisplayName="Fuechse">
+  <faction Name="Foxen" DisplayName="Füchse">
     <interests>
-      <interest Tags="games" Description="Gluecksspiele" />
-      <interest Tags="rivers" Description="die Lage der Fluesse" />
+      <interest Tags="games" Description="Glücksspiele" />
+      <interest Tags="rivers" Description="die Lage der Flüsse" />
     </interests>
   </faction>
   <faction Name="Batfolk" DisplayName="Fledermauspolk">
     <interests>
-      <interest Tags="caves" Description="Hoehlen" />
-      <interest Tags="vaultedroofs" WillBuy="true" WillSell="false" Description="die Lagen von Gewoelbedaechern" />
+      <interest Tags="caves" Description="Höhlen" />
+      <interest Tags="vaultedroofs" WillBuy="true" WillSell="false" Description="die Lagen von Gewölbedächern" />
     </interests>
   </faction>
   <faction Name="Nephilim">
@@ -152,7 +152,7 @@
   <faction Name="Quetzal Council" DisplayName="Quetzal-Rat" FormatWithArticle="true">
     <interests>
       <interest Tags="self-sovereignty" Description="Selbstbestimmung" />
-      <interest Tags="plaguemitigation" Description="die Bekaempfung von Plagen" />
+      <interest Tags="plaguemitigation" Description="die Bekämpfung von Plagen" />
     </interests>
   </faction>
   <faction Name="Chiliad Mamon" DisplayName="Enkel von Mamon" FormatWithArticle="true">

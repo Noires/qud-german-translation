@@ -44,7 +44,7 @@
   <inventoryAction Name="CompanionAttackTarget">
     <display>direkt zum Ziel angreifen</display>
     <preferToHighlight>Angriff</preferToHighlight>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="CompanionToggleEngagementAggressive">
     <display>aggressiv angreifen</display>
@@ -52,7 +52,7 @@
     <key>e</key>
   </inventoryAction>
   <inventoryAction Name="CompanionToggleEngagementDefensive">
-    <display>defensiv kaempfen</display>
+    <display>defensiv kämpfen</display>
     <preferToHighlight>angreifen</preferToHighlight>
     <key>e</key>
   </inventoryAction>
@@ -62,7 +62,7 @@
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="CompanionGiveItems">
-    <display>Gegenstaende geben</display>
+    <display>Gegenstände geben</display>
     <key>g</key>
   </inventoryAction>
   <inventoryAction Name="CompanionMoveTo">
@@ -70,7 +70,7 @@
     <key>m</key>
   </inventoryAction>
   <inventoryAction Name="CompanionChangeFollowDistance">
-    <display>Verfolgungsdistanz veraendern</display>
+    <display>Verfolgungsdistanz verändern</display>
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="CompanionStay">
@@ -78,7 +78,7 @@
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="CompanionAbilityUse">
-    <display>direkte Faehigkeitsverwertung</display>
+    <display>direkte Fähigkeitsverwertung</display>
     <key>u</key>
   </inventoryAction>
   <inventoryAction Name="CompanionRename">
@@ -99,7 +99,7 @@
   </inventoryAction>
   <inventoryAction Name="Apply">
     <display>anwenden</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ApplyTo">
     <display>anwenden auf</display>
@@ -110,16 +110,16 @@
     <key>e</key>
   </inventoryAction>
   <inventoryAction Name="ApplyToEat">
-    <display>Verfuettern an</display>
+    <display>Verfüttern an</display>
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="ApplyImportant">
     <display>anwenden</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ApplyDefault">
     <display>anwenden</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="DebugShowAttitude">
     <display>Haltung anzeigen {{K|[debug]}}</display>
@@ -134,11 +134,11 @@
     <key>/</key>
   </inventoryAction>
   <inventoryAction Name="Chat">
-    <display>Gespraech</display>
+    <display>Gespräch</display>
     <key>h</key>
   </inventoryAction>
   <inventoryAction Name="Destroy">
-    <display>{{R|zerstoeren}}</display>
+    <display>{{R|zerstören}}</display>
     <key>d</key>
   </inventoryAction>
   <inventoryAction Name="ResupplyForCloning">
@@ -146,11 +146,11 @@
     <key>r</key>
   </inventoryAction>
   <inventoryAction Name="CmdCustomAbilityAdd">
-    <display>benutzerdefinierte Faehigkeit hinzufuegen</display>
+    <display>benutzerdefinierte Fähigkeit hinzufügen</display>
     <key>u</key>
   </inventoryAction>
   <inventoryAction Name="CmdCustomAbilityEdit">
-    <display>benutzerdefinierte Faehigkeit bearbeiten</display>
+    <display>benutzerdefinierte Fähigkeit bearbeiten</display>
     <key>u</key>
   </inventoryAction>
   <inventoryAction Name="BeStoodUp">
@@ -166,7 +166,7 @@
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="Butcher">
-    <display>Metzger</display>
+    <display>zerlegen</display>
     <key>B</key>
   </inventoryAction>
   <inventoryAction Name="LoadTonics">
@@ -187,7 +187,7 @@
   </inventoryAction>
   <inventoryAction Name="ActivateRecoilerTeleporter">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="Look">
     <display>Aussehen</display>
@@ -211,34 +211,34 @@
   </inventoryAction>
   <inventoryAction Name="Eat">
     <display>essen</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="EatSus">
     <display>essen</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="Ascend">
     <display>aufsteigen</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="AscendCable">
     <display>aufsteigen</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="Descend">
     <display>hinabsteigen</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="DescendCable">
     <display>hinabsteigen</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="SleepOnBed">
     <display>Schlaf</display>
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="StandUpFromChair">
-    <display>Staender</display>
+    <display>Ständer</display>
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="SitOnChair">
@@ -246,7 +246,7 @@
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="Close">
-    <display>schliessen</display>
+    <display>schließen</display>
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="Open">
@@ -267,18 +267,18 @@
   </inventoryAction>
   <inventoryAction Name="ActivateForceProjector">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="DeactivateForceProjector">
     <display>deaktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="Pray">
     <display>beten</display>
     <key>y</key>
   </inventoryAction>
   <inventoryAction Name="Desecrate">
-    <display>schaenden</display>
+    <display>schänden</display>
     <key>D</key>
   </inventoryAction>
   <inventoryAction Name="Detonate">
@@ -291,11 +291,11 @@
   </inventoryAction>
   <inventoryAction Name="ActivateAnimateObject">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="Defibrillate">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="RaiseBanner">
     <display>erheben</display>
@@ -323,11 +323,11 @@
   </inventoryAction>
   <inventoryAction Name="DeactivateHologramBracelet">
     <display>deaktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateHologramBracelet">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="DeployInfrastructure">
     <display>deploy=deployNoun|spaceBefore=</display>
@@ -347,11 +347,11 @@
   </inventoryAction>
   <inventoryAction Name="ToggleForceEmitterDeactivate">
     <display>deaktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ToggleForceEmitterActivate">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="RifleThroughGarbage">
     <display>Gewehr</display>
@@ -359,14 +359,14 @@
   </inventoryAction>
   <inventoryAction Name="ActivateGenocideCurio">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="BlowGrandfatherHorn">
     <display>Schlag</display>
     <key>B</key>
   </inventoryAction>
   <inventoryAction Name="Harvest">
-    <display>Ernte</display>
+    <display>ernten</display>
     <key>h</key>
   </inventoryAction>
   <inventoryAction Name="SmokeHookah">
@@ -375,39 +375,39 @@
   </inventoryAction>
   <inventoryAction Name="ActivateMechanicalWings">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivatePassiveFactionDeed">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="DeactivateTemplarPhylactery">
     <display>deaktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateTemplarPhylactery">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivatePortableWall">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateSpiralBorer">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateSkyshroud">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateSummoningCurio">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateTeleprojector">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="Disassemble">
     <display>zerlegen</display>
@@ -426,55 +426,55 @@
     <key>R</key>
   </inventoryAction>
   <inventoryAction Name="PressIron">
-    <display>druecken</display>
+    <display>drücken</display>
     <key>p</key>
   </inventoryAction>
   <inventoryAction Name="DeactivateStopsvalinn">
     <display>deaktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateStopsvalinn">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="Tattoo">
-    <display>Taetowierung</display>
+    <display>Tätowierung</display>
     <key>t</key>
   </inventoryAction>
   <inventoryAction Name="ActivateTeleporter">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateTeleporterPair">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ActivateTeleporterPairCooldown">
     <display>aktivieren [{{C|=turns=}} Runden-Abklingzeit]</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ConfigureTemperatureController">
     <display>Zieltemperatur einstellen</display>
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="SmokeThurible">
-    <display>Raeucherstaebchen</display>
+    <display>Räucherstäbchen</display>
     <key>i</key>
   </inventoryAction>
   <inventoryAction Name="ActivateTimeCube">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="TorchLight">
     <display>Licht</display>
     <key>i</key>
   </inventoryAction>
   <inventoryAction Name="TorchExtinguish">
-    <display>Loeschen</display>
+    <display>Löschen</display>
     <key>x</key>
   </inventoryAction>
   <inventoryAction Name="FillSlotted">
-    <display>Fuellen =subject.basename|strip=</display>
+    <display>Füllen =subject.basename|strip=</display>
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="Unseal">
@@ -486,7 +486,7 @@
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="FillFrom">
-    <display>Fuellen</display>
+    <display>Füllen</display>
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="Drain">
@@ -498,27 +498,27 @@
     <key>k</key>
   </inventoryAction>
   <inventoryAction Name="Pour">
-    <display>giessen</display>
+    <display>gießen</display>
     <key>p</key>
   </inventoryAction>
   <inventoryAction Name="AutoCollectLiquidOn">
-    <display>Automatische Fluessigkeitsammlung</display>
-    <key>a</key>
+    <display>Automatische Flüssigkeitsammlung</display>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="AutoCollectLiquidOff">
-    <display>automatisches Fluessigkeitssammeln beenden</display>
-    <key>a</key>
+    <display>automatisches Flüssigkeitssammeln beenden</display>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="CollectLiquid">
-    <display>Fluessigkeit sammeln</display>
+    <display>Flüssigkeit sammeln</display>
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="CleanWithLiquid">
-    <display>alle Gegenstaende reinigen [1 Dram]</display>
+    <display>alle Gegenstände reinigen [1 Dram]</display>
     <key>n</key>
   </inventoryAction>
   <inventoryAction Name="CommandChangeGrip">
-    <display>Griff aendern</display>
+    <display>Griff ändern</display>
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="LoadMagazineAmmo">
@@ -554,15 +554,15 @@
     <key>D</key>
   </inventoryAction>
   <inventoryAction Name="CommandAutoEquipObject">
-    <display>Ausruesten (auto)</display>
+    <display>Ausrüsten (auto)</display>
     <key>e</key>
   </inventoryAction>
   <inventoryAction Name="CommandEquipObject">
-    <display>Ausruesten (manuell)</display>
+    <display>Ausrüsten (manuell)</display>
     <key>E</key>
   </inventoryAction>
   <inventoryAction Name="FightFire">
-    <display>Feuer bekaempfen</display>
+    <display>Feuer bekämpfen</display>
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="Attack">
@@ -570,12 +570,12 @@
     <key>k</key>
   </inventoryAction>
   <inventoryAction Name="Mod">
-    <display>Mod mit Tueftelei</display>
+    <display>Mod mit Tüftelei</display>
     <preferToHighlight>Basteln</preferToHighlight>
     <key>t</key>
   </inventoryAction>
   <inventoryAction Name="AddNotes">
-    <display>Notizen hinzufuegen</display>
+    <display>Notizen hinzufügen</display>
     <key>n</key>
   </inventoryAction>
   <inventoryAction Name="MarkUnimportant">
@@ -592,7 +592,7 @@
   </inventoryAction>
   <inventoryAction Name="CleanItem">
     <display>reinigen</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="ShowInternals">
     <display>Interna anzeigen {{K|[debug]}}</display>
@@ -622,19 +622,19 @@
   </inventoryAction>
   <inventoryAction Name="PowerSwitchOff">
     <display>deaktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="PowerSwitchOn">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="RemotePowerSwitchOff">
     <display>deaktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="RemotePowerSwitchOn">
     <display>aktivieren</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="WindUp">
     <display>Wind</display>
@@ -645,7 +645,7 @@
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="ExtinguishCampfire">
-    <display>Loeschen</display>
+    <display>Löschen</display>
     <key>x</key>
   </inventoryAction>
   <inventoryAction Name="CookWhipUp">
@@ -653,7 +653,7 @@
     <key>m</key>
   </inventoryAction>
   <inventoryAction Name="CookChooseIngredients">
-    <display>Waehle Zutaten zum Kochen aus.</display>
+    <display>Wähle Zutaten zum Kochen aus.</display>
     <key>i</key>
   </inventoryAction>
   <inventoryAction Name="CookFromRecipe">
@@ -700,10 +700,10 @@
   </inventoryAction>
   <inventoryAction Name="ArmMine">
     <display>Arm</display>
-    <key>a</key>
+    <key>ein</key>
   </inventoryAction>
   <inventoryAction Name="LayMineBomb">
-    <display>einstellen</display>
+    <display>Setzen</display>
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="LayMine">
@@ -743,7 +743,7 @@
     <key>i</key>
   </inventoryAction>
   <inventoryAction Name="CompanionEnterVehicle">
-    <display>Anhaenger direkt eintreten lassen</display>
+    <display>Anhänger direkt eintreten lassen</display>
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="CommandSingleSeatEject">

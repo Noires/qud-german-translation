@@ -2,30 +2,30 @@
 <objects Lang="de" Encoding="utf-8">
   <object Name="LoveAndFearCompleted" Load="Merge">
     <part Name="Render" DisplayName="{{W|Die Geschichte von Bey Lahs Liebe}}" />
-    <part Name="Description" Short="Einige zerfetzte, fleckige Pergamentblaetter, an den Raendern mit einer Art Leim zusammengeheftet." />
+    <part Name="Description" Short="Mehrere Blätter zerrissenes, altersverfärbtes Pergament sind an den Rändern durch eine Art Leim zusammengebunden." />
   </object>
   <object Name="LoveAndFearUncompleted" Load="Merge">
     <part Name="Render" DisplayName="{{W|Die Geschichte von Bey Lahs Furcht}}" />
-    <part Name="Description" Short="Einige zerfetzte, fleckige Pergamentblaetter, an den Raendern mit einer Art Leim zusammengeheftet." />
+    <part Name="Description" Short="Mehrere Blätter zerrissenes, altersverfärbtes Pergament sind an den Rändern durch eine Art Leim zusammengebunden." />
   </object>
   <object Name="Chiliad Hologram Locket" Load="Merge">
-    <part Name="Render" DisplayName="Baerenmedaillon" />
-    <part Name="Description" Short="Eine in Meteoritensardonyx geschnittene Kamee zeigt ein unbekanntes Sippenwappen, umgeben von feinen Zahnraedern und Segeln." />
+    <part Name="Render" DisplayName="bärisches Medaillon" />
+    <part Name="Description" Short="Ein Kamee aus Meteorit-Sardonyx trägt ein unbekanntes Clan-Siegel in blumiger Schrift, mit winzigen Zahnrädern und Segeln versehen." />
   </object>
   <object Name="Amaranthine Dust" Load="Merge">
     <part Name="Render" DisplayName="{{r|Amaranthiner Staub}}" />
-    <part Name="Description" Short="Dunkel leuchtende Kristalle wurden zermahlen und zu Staub verrieben. Eine Welt aus einer Million Ichs zerfaellt." />
+    <part Name="Description" Short="Der dunkelnde Kristall wurde zerschmettert und zu Staub abgeschliffen; eine Million Welten des Selbst sind zerfallen." />
   </object>
   <object Name="Coda Player Statue" Load="Merge">
-    <part Name="Render" DisplayName="Statue des Spielers" />
+    <part Name="Render" DisplayName="Spielerstatue" />
   </object>
   <object Name="Chiliad Chest" Load="Merge">
-    <part Name="Description" Short="Spiralig geschliffene Messingbeschlaege verstaerken den Boden einer alten Holztruhe; der Deckel blieb im Stil der Muschelschnitzer schmucklos und naturbelassen." />
+    <part Name="Description" Short="Spiralgedrehte Messingwinkel sichern die Unterseite eines alten hölzernen Koffers. Im Stil ihrer molluskischen Handwerker wird die Oberseite metallfrei und ohne Insignien gelassen." />
   </object>
   <object Name="Chiliad Bottle" Load="Merge">
-    <part Name="Description" Short="Der schmale, vom Seewind gezeichnete Hals ist fuer eine grosse Kalksteinklaue gedreht; aus dem Gefaess steigen Wein- und Myrrheduefte auf." />
+    <part Name="Description" Short="Eine Schleife am pelagischen Hals wurde gedreht, um große Kalkhände zu passen. Das Gefäß riecht nach Wein und Myrrhe." />
   </object>
   <object Name="Chiliad Vase" Load="Merge">
-    <part Name="Description" Short="An den ausladenden Henkeln und dem zerdrueckten Hals zeichnen sich Daumenabdruecke ab: Der Toepfer eilte zur naechsten Bestellung. Dennoch sind die praktischen Kanten weich und von beerenfarbener Glasur gemildert." />
+    <part Name="Description" Short="Daumenabdrücke auf den ausgestellten Griffen und am Hals zeigen, wo der Töpfer sich beeilt hat, Ton zu drehen und den nächsten Auftrag zu brennen. Doch die Kanten der Praktikabilität werden durch eine langsame und beerenhaft reiche Glasur erweicht." />
   </object>
 </objects>

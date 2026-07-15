@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <subtypes Lang="de" Encoding="utf-8">
-  <class ID="Castes" ChargenTitle="Kaste waehlen" SingularTitle="Kaste">
+  <class ID="Castes" ChargenTitle="Kaste wählen" SingularTitle="Kaste">
     <category Name="Ekuemekiyye" DisplayName="{{G|Die giftigen Arboreta von Ekuemekiyye, der Heiligen Stadt}}">
-      <subtype Name="Horticulturist" DisplayName="Gaertner" />
+      <subtype Name="Horticulturist" DisplayName="Gärtner" />
       <subtype Name="Priest of All Suns" DisplayName="Priester aller Sonnen" />
       <subtype Name="Priest of All Moons" DisplayName="Priester aller Monde" />
       <subtype Name="Syzygyrior" DisplayName="Syzygyrior" />
     </category>
-    <category Name="Ibul" DisplayName="{{C|Die eisbeschichtete Archaeologie von Ibul}}">
+    <category Name="Ibul" DisplayName="{{C|Die eisbeschichtete Archäologie von Ibul}}">
       <subtype Name="Artifex" DisplayName="Artifex" />
       <subtype Name="Consul" DisplayName="Konsul" />
-      <subtype Name="Praetorian" DisplayName="Praetorianer" />
+      <subtype Name="Praetorian" DisplayName="Prätorianer" />
       <subtype Name="Eunuch" DisplayName="Eunuch" />
     </category>
-    <category Name="Yawningmoon" DisplayName="{{R|Die Krustalen Moerser von Yawningmoon}}">
+    <category Name="Yawningmoon" DisplayName="{{R|Die Krustalen Mörser von Yawningmoon}}">
       <subtype Name="Child of the Hearth" DisplayName="Kind des Herdes" />
       <subtype Name="Child of the Wheel" DisplayName="Kind des Rades" />
       <subtype Name="Child of the Deep" DisplayName="Kind der Tiefe" />
       <subtype Name="Fuming God-Child" DisplayName="Rauchender Gott-Kind" />
     </category>
   </class>
-  <class ID="Callings" ChargenTitle="Berufung waehlen" SingularTitle="Berufung">
+  <class ID="Callings" ChargenTitle="Berufung wählen" SingularTitle="Berufung">
     <subtype Name="Apostle" DisplayName="Apostel" />
     <subtype Name="Arconaut" DisplayName="Arconaut">
       <!--(Strings.appendix)
@@ -29,8 +29,8 @@ string Context="subtype.Arconaut.extrainfo" ID="Starts with random junk and arti
 -->
     </subtype>
     <subtype Name="Greybeard" DisplayName="Graubart" />
-    <subtype Name="Gunslinger" DisplayName="Revolverschuetze" />
-    <subtype Name="Marauder" DisplayName="Pluenderer" />
+    <subtype Name="Gunslinger" DisplayName="Revolverschütze" />
+    <subtype Name="Marauder" DisplayName="Plünderer" />
     <subtype Name="Pilgrim" DisplayName="Pilger" />
     <subtype Name="Nomad" DisplayName="Nomade">
       <!--(Strings.appendix)
@@ -43,8 +43,8 @@ string Context="subtype.Nomad.extrainfo" ID="Starts with a {{B|recycling suit}}"
 string Context="subtype.Tinker.extrainfo" ID="Begins with a number of random artifacts and scrap"
 -->
     </subtype>
-    <subtype Name="Warden" DisplayName="Waerter" />
-    <subtype Name="Water Merchant" DisplayName="Wasserhaendler">
+    <subtype Name="Warden" DisplayName="Wärter" />
+    <subtype Name="Water Merchant" DisplayName="Wasserhändler">
       <!--(Strings.appendix)
 string Context="subtype.Water Merchant.extrainfo" ID="Allowed entrance to many settlements for purposes of trade"
 -->

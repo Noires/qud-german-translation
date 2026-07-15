@@ -2,34 +2,34 @@
 
 <statistics Lang="de" Encoding="utf-8">
   <statistic Name="Strength">
-    <displayName>Staerke</displayName>
-    <displayNameSingular>Staerke</displayNameSingular>
-    <displayTitle>Staerke</displayTitle>
-    <displayTitleSingular>Staerke</displayTitleSingular>
+    <displayName>Stärke</displayName>
+    <displayNameSingular>Stärke</displayNameSingular>
+    <displayTitle>Stärke</displayTitle>
+    <displayTitleSingular>Stärke</displayTitleSingular>
     <shortName>STR</shortName>
     <shortTitle>Str</shortTitle>
-    <narrationName>Staerke</narrationName>
-    <helpText>Eure {{W|Staerke}} bestimmt, wie viel Nahkampfschaden Ihr verursacht (durch Verbesserung Eurer Ruestungsdurchschlagskraft), Eure Faehigkeit, erzwungene Bewegung zu widerstehen, und Eure Tragekapazitaet.</helpText>
+    <narrationName>Stärke</narrationName>
+    <helpText>Eure {{W|Stärke}} bestimmt, wie viel Nahkampfschaden Ihr verursacht (durch Verbesserung Eurer Rüstungsdurchschlagskraft), Eure Fähigkeit, erzwungene Bewegung zu widerstehen, und Eure Tragekapazität.</helpText>
   </statistic>
   <statistic Name="Agility">
     <displayName>Beweglichkeit</displayName>
     <displayNameSingular>Beweglichkeit</displayNameSingular>
-    <displayTitle>Behaendigkeit</displayTitle>
-    <displayTitleSingular>Behaendigkeit</displayTitleSingular>
+    <displayTitle>Behändigkeit</displayTitle>
+    <displayTitleSingular>Behändigkeit</displayTitleSingular>
     <shortName>AGI</shortName>
     <shortTitle>Agi</shortTitle>
     <narrationName>Beweglichkeit</narrationName>
     <helpText>Eure {{W|Gewandtheit}} bestimmt Eure Genauigkeit mit Nahkampf- und Fernkampfwaffen sowie Eure Chance, Angriffen auszuweichen.</helpText>
   </statistic>
   <statistic Name="Toughness">
-    <displayName>Zaehigkeit</displayName>
-    <displayNameSingular>Zaehigkeit</displayNameSingular>
-    <displayTitle>Zaehigkeit</displayTitle>
-    <displayTitleSingular>Zaehigkeit</displayTitleSingular>
+    <displayName>Zähigkeit</displayName>
+    <displayNameSingular>Zähigkeit</displayNameSingular>
+    <displayTitle>Zähigkeit</displayTitle>
+    <displayTitleSingular>Zähigkeit</displayTitleSingular>
     <shortName>TOU</shortName>
     <shortTitle>Tou</shortTitle>
-    <narrationName>Zaehigkeit</narrationName>
-    <helpText>Eure {{W|Zaehigkeit}} bestimmt Eure Anzahl von Trefferpunkten, Eure Trefferpunkt-Regenerationsrate und Eure Faehigkeit, Gifte und Krankheiten zu widerstehen.</helpText>
+    <narrationName>Zähigkeit</narrationName>
+    <helpText>Eure {{W|Zähigkeit}} bestimmt Eure Anzahl von Trefferpunkten, Eure Trefferpunkt-Regenerationsrate und Eure Fähigkeit, Gifte und Krankheiten zu widerstehen.</helpText>
   </statistic>
   <statistic Name="Intelligence">
     <displayName>Intelligenz</displayName>
@@ -39,7 +39,7 @@
     <shortName>INT</shortName>
     <shortTitle>Int</shortTitle>
     <narrationName>Intelligenz</narrationName>
-    <helpText>Eure {{W|Intelligenz}} bestimmt Eure Anzahl von Fertigkeitspunkten und Eure Faehigkeit, Artefakte zu untersuchen.</helpText>
+    <helpText>Eure {{W|Intelligenz}} bestimmt Eure Anzahl von Fertigkeitspunkten und Eure Fähigkeit, Artefakte zu untersuchen.</helpText>
   </statistic>
   <statistic Name="Willpower">
     <displayName>Willenskraft</displayName>
@@ -49,7 +49,7 @@
     <shortName>WIL</shortName>
     <shortTitle>Wil</shortTitle>
     <narrationName>Willenskraft</narrationName>
-    <helpText>Euer {{W|Wille}} veraendert die Abklingzeiten Eurer aktivierten Faehigkeiten, bestimmt Eure Faehigkeit, mentale Angriffe zu widerstehen, und veraendert Eure Trefferpunkt-Regenerationsrate.</helpText>
+    <helpText>Euer {{W|Wille}} verändert die Abklingzeiten Eurer aktivierten Fähigkeiten, bestimmt Eure Fähigkeit, mentale Angriffe zu widerstehen, und verändert Eure Trefferpunkt-Regenerationsrate.</helpText>
   </statistic>
   <statistic Name="Ego">
     <displayName>Ego</displayName>
@@ -59,7 +59,7 @@
     <shortName>EGO</shortName>
     <shortTitle>Ego</shortTitle>
     <narrationName>Ego</narrationName>
-    <helpText>Euer {{W|Ego}} bestimmt die Potenz Eurer mentalen Mutationen, Eure Faehigkeit, mit Haendlern zu feilschen, und Eure Faehigkeit, den Willen anderer lebender Kreaturen zu dominieren.</helpText>
+    <helpText>Euer {{W|Ego}} bestimmt die Potenz Eurer mentalen Mutationen, Eure Fähigkeit, mit Händlern zu feilschen, und Eure Fähigkeit, den Willen anderer lebender Kreaturen zu dominieren.</helpText>
   </statistic>
   <statistic Name="AV">
     <displayName>AV</displayName>
@@ -69,7 +69,7 @@
     <shortName>AV</shortName>
     <shortTitle>AV</shortTitle>
     <narrationName>AV</narrationName>
-    <helpText>Euer {{W|Ruestungswert (AV)}} misst, wie gut Ihr gegen physische Angriffe geschuetzt seid. Je hoeher Euer Wert, desto weniger oft wird der Angriff eines Gegners Eure Ruestung durchdringen und Schaden verursachen.</helpText>
+    <helpText>Euer {{W|Rüstungswert (AV)}} misst, wie gut Ihr gegen physische Angriffe geschützt seid. Je höher Euer Wert, desto weniger oft wird der Angriff eines Gegners Eure Rüstung durchdringen und Schaden verursachen.</helpText>
   </statistic>
   <statistic Name="DV">
     <displayName>DV</displayName>
@@ -79,7 +79,7 @@
     <shortName>DV</shortName>
     <shortTitle>DV</shortTitle>
     <narrationName>DV</narrationName>
-    <helpText>Euer {{W|Ausweichswert (DV)}} misst, wie wahrscheinlich es ist, dass Ihr von physischen Angriffen getroffen werdet. Je hoeher Euer Wert, desto unwahrscheinlicher wird ein Angriff eines Gegners Euch treffen. Euer DV wird durch Euren Gewandtheits-Modifikator veraendert.</helpText>
+    <helpText>Euer {{W|Ausweichswert (DV)}} misst, wie wahrscheinlich es ist, dass Ihr von physischen Angriffen getroffen werdet. Je höher Euer Wert, desto unwahrscheinlicher wird ein Angriff eines Gegners Euch treffen. Euer DV wird durch Euren Gewandtheits-Modifikator verändert.</helpText>
   </statistic>
   <statistic Name="MA">
     <displayName>MA</displayName>
@@ -89,7 +89,7 @@
     <shortName>MA</shortName>
     <shortTitle>MA</shortTitle>
     <narrationName>MA</narrationName>
-    <helpText>Eure {{W|Geistige Ruestung (MA)}} misst, wie gut Ihr gegen mentale Angriffe geschuetzt seid. Je hoeher Euer Wert, desto unwahrscheinlicher wird der mentale Angriff eines Gegners Eure Verteidigungen durchdringen und Euch schaden. Eure MA wird durch Euren Willen-Modifikator veraendert.</helpText>
+    <helpText>Eure {{W|Geistige Rüstung (MA)}} misst, wie gut Ihr gegen mentale Angriffe geschützt seid. Je höher Euer Wert, desto unwahrscheinlicher wird der mentale Angriff eines Gegners Eure Verteidigungen durchdringen und Euch schaden. Eure MA wird durch Euren Willen-Modifikator verändert.</helpText>
   </statistic>
   <statistic Name="Speed">
     <displayName>Schnelligkeit</displayName>
@@ -99,7 +99,7 @@
     <shortName>QN</shortName>
     <shortTitle>QN</shortTitle>
     <narrationName>Schnelligkeit</narrationName>
-    <helpText>Eure {{W|Schnelligkeit}} misst die Geschwindigkeit, mit der Ihr jede Aktion durchfuehrt.</helpText>
+    <helpText>Eure {{W|Schnelligkeit}} misst die Geschwindigkeit, mit der Ihr jede Aktion durchführt.</helpText>
   </statistic>
   <statistic Name="MoveSpeed">
     <displayName>Bewegungsgeschwindigkeit</displayName>
@@ -109,7 +109,7 @@
     <shortName>MS</shortName>
     <shortTitle>MS</shortTitle>
     <narrationName>Bewegungsgeschwindigkeit</narrationName>
-    <helpText>Eure {{W|Bewegungsgeschwindigkeit}} misst, wie schnell Ihr gehen oder fliegen koennt.</helpText>
+    <helpText>Eure {{W|Bewegungsgeschwindigkeit}} misst, wie schnell Ihr gehen oder fliegen könnt.</helpText>
   </statistic>
   <statistic Name="Temperature">
     <displayName>Temperatur</displayName>
@@ -119,47 +119,47 @@
     <shortName>T</shortName>
     <shortTitle>T</shortTitle>
     <narrationName>Temperatur</narrationName>
-    <helpText>Eure {{W|Temperatur}} misst, wie heiss oder kalt Ihr seid. Zu kalt zu sein kann Eure Schnelligkeit senken und verhindern, dass Ihr physische Aktionen durchfuehrt. Zu heiss zu sein kann Euch in Brand setzen und jeden Runde Schaden verursachen.</helpText>
+    <helpText>Eure {{W|Temperatur}} misst, wie heiß oder kalt Ihr seid. Zu kalt zu sein kann Eure Schnelligkeit senken und verhindern, dass Ihr physische Aktionen durchführt. Zu heiß zu sein kann Euch in Brand setzen und jeden Runde Schaden verursachen.</helpText>
   </statistic>
   <statistic Name="AcidResistance">
-    <displayName>Saeureresistenz</displayName>
-    <displayNameSingular>Saeureresistenz</displayNameSingular>
-    <displayTitle>Saeureresistenz</displayTitle>
-    <displayTitleSingular>Saeureresistenz</displayTitleSingular>
+    <displayName>Säureresistenz</displayName>
+    <displayNameSingular>Säureresistenz</displayNameSingular>
+    <displayTitle>Säureresistenz</displayTitle>
+    <displayTitleSingular>Säureresistenz</displayTitleSingular>
     <shortName>AR</shortName>
     <shortTitle>AR</shortTitle>
-    <narrationName>Saeureresistenz</narrationName>
-    <helpText>Euer {{W|Saeureresistenz}} bestimmt, wie viel Saeureschaden Ihr ablehrt. Bei 100 seid Ihr immun gegen Saeureschaden.</helpText>
+    <narrationName>Säureresistenz</narrationName>
+    <helpText>Euer {{W|Säureresistenz}} bestimmt, wie viel Säureschaden Ihr ablehrt. Bei 100 seid Ihr immun gegen Säureschaden.</helpText>
   </statistic>
   <statistic Name="ColdResistance">
-    <displayName>Kaelteresistenz</displayName>
-    <displayNameSingular>Kaelteresistenz</displayNameSingular>
-    <displayTitle>Kaelteresistenz</displayTitle>
-    <displayTitleSingular>Kaelteresistenz</displayTitleSingular>
+    <displayName>Kälteresistenz</displayName>
+    <displayNameSingular>Kälteresistenz</displayNameSingular>
+    <displayTitle>Kälteresistenz</displayTitle>
+    <displayTitleSingular>Kälteresistenz</displayTitleSingular>
     <shortName>CR</shortName>
     <shortTitle>CR</shortTitle>
-    <narrationName>Kaelteresistenz</narrationName>
-    <helpText>Eure {{W|Kaelteresistenz}} bestimmt, wie viel Kaelteschaden Ihr ablehrt, und wie isoliert Ihr gegen Effekte seid, die Eure Temperatur senken. Bei 100 seid Ihr immun gegen Kaelteschaden und Eure Temperatur kann nicht gesenkt werden.</helpText>
+    <narrationName>Kälteresistenz</narrationName>
+    <helpText>Eure {{W|Kälteresistenz}} bestimmt, wie viel Kälteschaden Ihr ablehrt, und wie isoliert Ihr gegen Effekte seid, die Eure Temperatur senken. Bei 100 seid Ihr immun gegen Kälteschaden und Eure Temperatur kann nicht gesenkt werden.</helpText>
   </statistic>
   <statistic Name="ElectricResistance">
     <displayName>Elektrischer Widerstand</displayName>
     <displayNameSingular>Elektrischer Widerstand</displayNameSingular>
-    <displayTitle>Elektrische Widerstandsfaehigkeit</displayTitle>
-    <displayTitleSingular>Elektrische Widerstandsfaehigkeit</displayTitleSingular>
+    <displayTitle>Elektrische Widerstandsfähigkeit</displayTitle>
+    <displayTitleSingular>Elektrische Widerstandsfähigkeit</displayTitleSingular>
     <shortName>ER</shortName>
     <shortTitle>ER</shortTitle>
     <narrationName>Elektrischer Widerstand</narrationName>
-    <helpText>Eure {{W|Elektrische Resistenz}} bestimmt, wie viel Blitzschaden Ihr ablehrt, und wie widerstandsfaehig Ihr gegen elektrischen Strom seid. Bei 100 seid Ihr immun gegen Blitzschaden und leitet keinen Strom.</helpText>
+    <helpText>Eure {{W|Elektrische Resistenz}} bestimmt, wie viel Blitzschaden Ihr ablehrt, und wie widerstandsfähig Ihr gegen elektrischen Strom seid. Bei 100 seid Ihr immun gegen Blitzschaden und leitet keinen Strom.</helpText>
   </statistic>
   <statistic Name="HeatResistance">
-    <displayName>Waermebestaendigkeit</displayName>
-    <displayNameSingular>Waermebestaendigkeit</displayNameSingular>
+    <displayName>Wärmebeständigkeit</displayName>
+    <displayNameSingular>Wärmebeständigkeit</displayNameSingular>
     <displayTitle>Hitzeresistenz</displayTitle>
     <displayTitleSingular>Hitzeresistenz</displayTitleSingular>
     <shortName>HR</shortName>
     <shortTitle>HR</shortTitle>
-    <narrationName>Waermebestaendigkeit</narrationName>
-    <helpText>Eure {{W|Hitzeresistenz}} bestimmt, wie viel Hitzeschaden Ihr ablehrt, und wie isoliert Ihr gegen Effekte seid, die Eure Temperatur erhoehen. Bei 100 seid Ihr immun gegen Hitzeschaden und Eure Temperatur kann nicht erhoeht werden.</helpText>
+    <narrationName>Wärmebeständigkeit</narrationName>
+    <helpText>Eure {{W|Hitzeresistenz}} bestimmt, wie viel Hitzeschaden Ihr ablehrt, und wie isoliert Ihr gegen Effekte seid, die Eure Temperatur erhöhen. Bei 100 seid Ihr immun gegen Hitzeschaden und Eure Temperatur kann nicht erhöht werden.</helpText>
   </statistic>
   <statistic Name="Hitpoints">
     <displayName>Lebenspunkte</displayName>
