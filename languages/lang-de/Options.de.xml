@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<options Lang="de" Encoding="utf-8">
+  <option ID="OptionMasterVolume" DisplayText="Hauptlautstaerke" Category="Klang" />
+  <option ID="OptionSound" DisplayText="Soundeffekte" Category="Klang" />
+  <option ID="OptionSoundVolume" DisplayText="Soundeffekt-Lautstaerke" Category="Klang" />
+  <option ID="OptionMusic" DisplayText="Musik" Category="Klang" />
+  <option ID="OptionMusicVolume" DisplayText="Musiklautstaerke" Category="Klang" />
+  <option ID="OptionAmbient" DisplayText="Umgebungsgeraeusche" Category="Klang" />
+  <option ID="OptionAmbientVolume" DisplayText="Umgebungslautstaerke" Category="Klang" />
+  <option ID="OptionUseInterfaceSounds" DisplayText="Interface-Geraeusche" Category="Klang" />
+  <option ID="OptionInterfaceVolume" DisplayText="Interface-Lautstaerke" Category="Klang" />
+  <option ID="OptionUseCombatSounds" DisplayText="Kampfgeraeusche" Category="Klang" />
+  <option ID="OptionCombatVolume" DisplayText="Kampflautstaerke" Category="Klang" />
+  <option ID="OptionPlayFireSounds" DisplayText="Feuerknistersounds" Category="Klang" />
+  <option ID="OptionDisplayBrightness" DisplayText="Helligkeit" Category="Anzeige" />
+  <option ID="OptionDisplayContrast" DisplayText="Kontrast" Category="Anzeige" />
+  <option ID="OptionDisplayFullscreen" DisplayText="Vollbild" Category="Anzeige" />
+  <option ID="OptionDisplayResolution" DisplayText="Vollbildaufloesung" Category="Anzeige" />
+  <option ID="OptionDisplayFramerate" DisplayText="Bildwiederholfrequenz" Category="Anzeige" Values="10|10,20|20,30|30,40|40,50|50,60|60,120|120,Unlimited|Unlimited,VSync|VSync" />
+  <option ID="OptionUseTiles" DisplayText="Aktiviere Kachelgrafiken" Category="Anzeige" />
+  <option ID="OptionDisplayVignette" DisplayText="Vignetten-Effekt anzeigen" Category="Anzeige" />
+  <option ID="OptionDisplayScanlines" DisplayText="Scanlines anzeigen" Category="Anzeige" />
+  <option ID="OptionUseOverlayCombatEffects" DisplayText="Kampfanimationen anzeigen" Category="Anzeige" />
+  <option ID="OptionUseOverlayDamageText" DisplayText="Schwebende Schadenzahlen anzeigen" Category="Anzeige" />
+  <option ID="OptionUseParticleVFX" DisplayText="Moderne visuelle Effekte anzeigen" Category="Anzeige" />
+  <option ID="OptionUseTextParticleVFX" DisplayText="ASCII-Visuelle Effekte anzeigen" Category="Anzeige" />
+  <option ID="OptionDisableFloorTextures" DisplayText="Bodentexturen deaktivieren" Category="Anzeige" />
+  <option ID="OptionDisableBloodsplatter" DisplayText="Blutspritzer deaktivieren" Category="Anzeige" />
+  <option ID="OptionDisableSmoke" DisplayText="Raucheffekte deaktivieren" Category="Anzeige" />
+  <option ID="OptionDisableImposters" DisplayText="Moderne, kachelbasierte grafische Effekte deaktivieren" Category="Anzeige" />
+  <option ID="OptionMainMenuBackground" DisplayText="Hintergrundbild des Hauptmenues" Category="Anzeige" Values="Modern|Modern,Classic|Classic" />
+  <option ID="OptionImposterChars" DisplayText="Betrueger-Textkacheln" Category="Anzeige" />
+  <option ID="OptionsKeybindings" DisplayText="Steuerungsabbildung" Category="Steuerung" SearchKeywords="Steuerungsbelegung" />
+  <option ID="OptionKeyRepeatDelay" DisplayText="Verzoegerung der Tastenwiederholung" ConsoleDisplayText="Wiederholungsverzoegerung der Schaltflaeche" Category="Steuerung" />
+  <option ID="OptionKeyRepeatRate" DisplayText="Tastenwiederholungsrate" ConsoleDisplayText="Wiederholungsrate der Schaltflaeche" Category="Steuerung" />
+  <option ID="OptionMouseInput" DisplayText="Erlaube Mauseingabe" Category="Steuerung" />
+  <option ID="OptionMouseMovement" DisplayText="Erlaube Mauspfeiler" Category="Steuerung" />
+  <option ID="OptionMouseScrollWheel" DisplayText="Erlaube Scroll-Rad zum Zoomen" Category="Steuerung" />
+  <option ID="OptionCapInputBuffer" DisplayText="Eingabepuffer auf zwei Befehle begrenzen" Category="Steuerung" />
+  <option ID="OptionDisableFullscreenColorEffects" DisplayText="Vollbild-Farbeffekte deaktivieren (fuer Farbblindheit)" Category="Barrierefreiheit" />
+  <option ID="OptionAlphanumericBits" DisplayText="Bits mit alphanumerischen Zeichen statt Punkten anzeigen (fuer Farbblindheit)" Category="Barrierefreiheit" />
+  <option ID="OptionDisableTextAnimationEffects" DisplayText="Die meisten kachelbasierten Blitzeffekte deaktivieren" Category="Barrierefreiheit" />
+  <option ID="OptionDisableAllIdleTileAnimations" DisplayText="Alle untaetigen kachelgestuetzten Animationen deaktivieren" Category="Barrierefreiheit" />
+  <option ID="OptionDisableTextWarpEffects" DisplayText="Kachelbasierte Bildverzerrungseffekte deaktivieren" Category="Barrierefreiheit" />
+  <option ID="OptionDisableFullscreenWarpEffects" DisplayText="Vollbild-Bildverzerrungseffekte deaktivieren" Category="Barrierefreiheit" />
+  <option ID="OptionModernUI" DisplayText="Aktiviere modernes UI" Category="Benutzeroberflaeche" />
+  <option ID="OptionPrereleaseStageScale" DisplayText="Benutzeroberflaechen-Skalierung" Category="Benutzeroberflaeche" Values="auto|auto,auto x1.25|auto x1.25,auto x1.5|auto x1.5,.5|.5,.75|.75,1.0|1.0,1.25|1.25,1.5|1.5,2|2" />
+  <option ID="OptionModernCharacterSheet" DisplayText="Aktiviere modernes UI-Charakterblatt" Category="Benutzeroberflaeche" />
+  <option ID="OptionCharacterSheetAdditionalScale" DisplayText="Skalierungsprozentsatz des Charakterblatts" Category="Benutzeroberflaeche" />
+  <option ID="OptionPlayScale" DisplayText="Spielbereich-Skalierung" Category="Benutzeroberflaeche" SearchKeywords="Abdeckung Pixel Perfekt Anpassung" Values="Fit|Fit,Cover|Cover,Pixel Perfect|Pixel Perfect">
+    <helptext>
+        Bestimmt, wie der Spielbereich in dem nicht vom UI verwendeten Bereich skaliert wird.
+
+        {{W|Anpassung}}: Passt den gesamten Spielbereich auf den Bildschirm. Kann Letterboxing erforderlich machen.
+        {{W|Abdeckung}}: Stellt sicher, dass der Spielbereich den Bildschirm abdeckt. Minimiert Letterboxing.
+        {{W|Pixel-Perfekt}}: Dimensioniert den Spielbereich auf ein ganzzahliges Vielfaches der Pixelkunst. Maximiert die Schaerfe.
+      </helptext>
+  </option>
+  <option ID="OptionTileScale" DisplayText="Pixelgenaue Kachel-Grafikskala" Category="Benutzeroberflaeche" Values="1|1,2|2,3|3,4|4,5|5,6|6,7|7,8|8" />
+  <option ID="OptionAbilityBarMode" DisplayText="Faehigkeitslisten-Modus" Category="Benutzeroberflaeche" Values="Full|Full,Compact|Compact" />
+  <option ID="OptionOverlayMinimap" DisplayText="Zeige Minikarte" Category="Benutzeroberflaeche" />
+  <option ID="OptionOverlayNearbyObjects" DisplayText="Zeige Liste nahegelegener Objekte" Category="Benutzeroberflaeche" />
+  <option ID="OptionOverlayNearbyObjectsLocal" DisplayText="Liste naher Objekte: zeige nur Inhalte der aktuellen Zelle" Category="Benutzeroberflaeche" />
+  <option ID="OptionOverlayNearbyObjectsPools" DisplayText="Liste naher Objekte: zeige Fluessigkeitspfuetzen" Category="Benutzeroberflaeche" />
+  <option ID="OptionOverlayNearbyObjectsPlants" DisplayText="Liste naher Objekte: zeige Pflanzen" Category="Benutzeroberflaeche" />
+  <option ID="OptionOverlayNearbyObjectsTakeable" DisplayText="Liste naher Objekte: zeige nur aufnehmbare Objekte" Category="Benutzeroberflaeche" />
+  <option ID="OptionMessageLineLogScale" DisplayText="Schriftgroesse des Nachrichtenprotokolls (pt)" Category="Benutzeroberflaeche" />
+  <option ID="OptionDockMovable" DisplayText="Dock-Nachrichtenprotokoll &amp;&amp; Minimap" Category="Benutzeroberflaeche" Values="Unset|Unset,Right|Right,Left|Left,Flip|Flip" />
+  <option ID="OptionDockOpacity" DisplayText="Dock-Hintergrund-Deckkraft" Category="Benutzeroberflaeche" />
+  <option ID="OptionMouseCursor" DisplayText="Aussehen des Mauszeigers" Category="Benutzeroberflaeche" Values="System|System,Default|Default,Alternate|Alternate" />
+  <option ID="OptionMouseAutoHideCursorEnabled" DisplayText="Verberge den Mauszeiger automatisch bei Inaktivitaet" Category="Benutzeroberflaeche" />
+  <option ID="OptionControllerFont" DisplayText="Gamepad-Tasten-Darstellung" Category="Benutzeroberflaeche" Values="Auto|Auto,KBM|KBM,XBox|XBox,PS|PS,XBox Filled|XBox Filled,PS Filled|PS Filled,Switch|Switch" />
+  <option ID="OptionFloatingKeyboard" DisplayText="Ueberlagerte Tastatur fuer Eingaben auf unterstuetzten Geraeten anzeigen" Category="Benutzeroberflaeche" />
+  <option ID="OptionZoomSensitivity" DisplayText="Zoomempfindlichkeit" Category="Benutzeroberflaeche" />
+  <option ID="OptionTooltipDelay" DisplayText="Tooltip-Verzoegerung (ms)" Category="Benutzeroberflaeche" />
+  <option ID="Option@HPColor" DisplayText="Faerbe die Glyphe Eures Charakters nach Eurem Gesundheitszustand" Category="Benutzeroberflaeche" />
+  <option ID="Option@AlwaysHPColor" DisplayText="Ignoriert alle Effekte, die Euer Charakterglyphen umfaerben, ausser dem Gesundheitsstatus" Category="Benutzeroberflaeche" />
+  <option ID="Option@MutationColor" DisplayText="Erlaube Mutationen, das Glyphe Ihres Charakters umzufaerben" Category="Benutzeroberflaeche" />
+  <option ID="OptionDisplayMousableZoneTransitionBorder" DisplayText="Mit der Maus anklickbare Zonenwechselpfeile anzeigen" Category="Benutzeroberflaeche" />
+  <option ID="OptionShiftHidesSidebar" DisplayText="Shift druecken versteckt die Seitenleiste" Category="Benutzeroberflaeche" />
+  <option ID="OptionAllowFramelessZoomOut" DisplayText="Wenn maximal herausgezoomt, entferne den UI-Rahmen vom Hauptspielbildschirm" Category="Benutzeroberflaeche" />
+  <option ID="OptionHighlightStairs" DisplayText="Markieren Sie immer Treppen" Category="Benutzeroberflaeche" />
+  <option ID="OptionLogTurnSeparator" DisplayText="Fuegen Sie am Ende jeder Runde waehrend des Kampfes ein Zeilentrennung hinzu" Category="Benutzeroberflaeche" />
+  <option ID="OptionIndentBodyParts" DisplayText="Koerperteile nach Befestigung auf dem Ausruestungsbildschirm einruecken" Category="Benutzeroberflaeche" />
+  <option ID="OptionShowDetailedWeaponStats" DisplayText="Detaillierte Waffenpenetration und Schaden in Waffennamen anzeigen" Category="Benutzeroberflaeche" />
+  <option ID="OptionTakeallCorpses" DisplayText="Nehmt Leichen bei Verwendung des Befehls 'Alles nehmen' auf" Category="Benutzeroberflaeche" />
+  <option ID="OptionDropAll" DisplayText="Aktiviere eine 'Alles fallen lassen'-Interaktion fuer Gegenstaende in Eurem Inventar" Category="Benutzeroberflaeche" />
+  <option ID="OptionNavigateInventoryAndEquipmentWithPagination" DisplayText="Navigiere durch Inventar- und Ausruestungsfenster mit Links-/Rechts-Paginierung statt Bewegungstasten" Category="Benutzeroberflaeche" />
+  <option ID="OptionPressingRightInInventoryEquips" DisplayText="Ruestet den markierten Gegenstand aus/ab, wenn Ihr auf dem Ausruestungsbildschirm rechts oder links drueckt" Category="Benutzeroberflaeche" />
+  <option ID="OptionExpandHighlightedInventoryAndEquipmentPane" DisplayText="Erweitert den Ausruestungs- oder Inventarbereich bei Fokus" Category="Benutzeroberflaeche" />
+  <option ID="OptionStatusScreenSize" DisplayText="Groesse des Charakterblatts" Category="Benutzeroberflaeche" Values="Standard|Standard,Full Height|Full Height,Full|Full" />
+  <option ID="OptionTutorialComplete" DisplayText="Verschiebe das Tutorial ans Ende der Spielmodelliste" Category="Benutzeroberflaeche" />
+  <option ID="OptionShowCollectionBadges" DisplayText="Zeige Sammlersiegel im Hauptmenue" Category="Benutzeroberflaeche" />
+  <option ID="OptionShowSidebarAbilities" DisplayText="Faehigkeitssymbole in der Seitenleiste anzeigen" Category="Legacy-UI" />
+  <option ID="OptionShowCurrentCellPopup" DisplayText="Inhalt der aktuellen Zelle in einem Popup anzeigen" Category="Legacy-UI" />
+  <option ID="OptionShowMonsterHPHearts" DisplayText="Faerbe die Treffer-Herzen nach den verbleibenden TP des Ziels" Category="Legacy-UI" />
+  <option ID="OptionShowNumberOfItems" DisplayText="Zeige Anzahl der Gegenstaende in jeder Inventarkategorie" Category="Legacy-UI" />
+  <option ID="OptionLocationIntseadOfName" DisplayText="Ort statt Name in der Seitenleiste anzeigen" Category="Legacy-UI" />
+  <option ID="OptionMapDirectionsToKeypad" DisplayText="Ordnen Sie Richtungen immer dem Ziffernblock zu" Category="Legacy-UI" />
+  <option ID="OptionMapShiftDirectionToPage" DisplayText="Ordne Shift+Richtungen den Menuenavigationstasten zu (funktioniert nicht mit Nummernpad-Tasten)" Category="Legacy-UI" />
+  <option ID="OptionPushAZHotkeys" DisplayText="Leiten Sie A-Z-Tastenkombinationen immer an die aeltere Benutzeroberflaeche weiter" Category="Legacy-UI" />
+  <option ID="OptionAutoSip" DisplayText="Trinke automatisch Suesswasser, wenn du durstig bist" Category="Automatisierung" />
+  <option ID="OptionAutoSipLevel" DisplayText="Durstgrenzwert fuer automatisches Trinken" Category="Automatisierung" Values="Dehydrated|Dehydrated,Parched|Parched,Thirsty|Thirsty,Quenched|Quenched,Tumescent|Tumescent" />
+  <option ID="OptionAutoTorch" DisplayText="Zuende und loesche Fackeln automatisch" Category="Automatisierung" />
+  <option ID="OptionAutoDisassembleScrap" DisplayText="Zerlege automatisch Schrott" Category="Automatisierung" />
+  <option ID="OptionAutoexploreIgnoreEasyEnemies" DisplayText="Schwierigkeitsschwelle zum Ignorieren feindlicher Kreaturen" Category="Automatisierung" Values="None|None,Easy|Easy,Average|Average,Tough|Tough,Very Tough|Very Tough,Impossible|Impossible" />
+  <option ID="OptionAutoexploreIgnoreDistantEnemies" DisplayText="Reichweitenschwelle zum Ignorieren feindlicher Kreaturen" Category="Automatisierung" Values="None|None,1|1,2|2,3|3,5|5,7|7,10|10,15|15,20|20,30|30,40|40" />
+  <option ID="OptionAutoexploreAttackIgnoredAdjacentEnemies" DisplayText="Greift ignorierte Feindselie an, denen ihr euch waehrend der Automatischen Erkundung naehert" Category="Automatisierung" />
+  <option ID="OptionInterruptHeldMovement" DisplayText="Unterbreche gehaltene Bewegung wenn Feinde in der Naehe sind" Category="Automatisierung" />
+  <option ID="OptionInterruptHeldMovementOnZoneTransition" DisplayText="Unterbreche gehaltene Bewegung beim Betreten einer unerforschten Zone" Category="Automatisierung" />
+  <option ID="OptionUseTextAutowalkThreatIndicator" DisplayText="Verwende Textindikator fuer automatische Unterbrechung statt blitzendes rotes Feld" Category="Automatisierung" />
+  <option ID="OptionAutoexploreChests" DisplayText="Durchsuche Behaelter beim automatischen Erkunden" Category="Automatisierung" />
+  <option ID="OptionDigOnMove" DisplayText="Grabe automatisch durch Waende, indem du dich mit einem Grabwerkzeug hineinbewegst" Category="Automatisierung" />
+  <option ID="OptionAutosaveInterval" DisplayText="Speichern automatisch beim Wechsel zu einer anderen Zone" Category="Automatisierung" Values="|None,1|1,2|2,3|3,5|5,7|7,10|10,15|15,20|20,30|30,40|40" />
+  <option ID="OptionAutoexploreRate" DisplayText="Maximale automove Felder/s und Autoattack Aktionen/s" Category="Automatisierung" SearchKeywords="Autoact Autoexplore Bildfrequenz" Values="1|1,2|2,3|3,5|5,7|7,10|10,15|15,20|20,30|30,60|60,|∞" />
+  <option ID="OptionAutogetAmmo" DisplayText="Automatisches Holen von Munition" Category="Automatisches Holen" />
+  <option ID="OptionAutogetPrimitiveAmmo" DisplayText="Automatisches Holen von primitiver Munition" Category="Automatisches Holen" />
+  <option ID="OptionAutogetNuggets" DisplayText="Automatisches Holen von Kupfer-, Silber- und Goldnuggets" Category="Automatisches Holen" />
+  <option ID="OptionAutogetTradeGoods" DisplayText="Automatisches Abholen von Handelsguetern" Category="Automatisches Holen" />
+  <option ID="OptionAutogetFood" DisplayText="Automatisches Holen von Nahrung" Category="Automatisches Holen" />
+  <option ID="OptionAutogetFreshWater" DisplayText="Automatisches Holen von Frischwasser" Category="Automatisches Holen" />
+  <option ID="OptionAutogetDroppedLiquid" DisplayText="Automatisches Holen von Fluessigkeiten aus Behaeltern, die ihr fallen gelassen habt" Category="Automatisches Holen" />
+  <option ID="OptionAutogetSpecialItems" DisplayText="Automatisches Abholen von Spezialgegenstaenden" Category="Automatisches Holen" />
+  <option ID="OptionAutogetArtifacts" DisplayText="Automatisches Holen von Artefakten" Category="Automatisches Holen" />
+  <option ID="OptionAutogetScrap" DisplayText="Automatisches Holen von Schrott" Category="Automatisches Holen" />
+  <option ID="OptionAutogetBooks" DisplayText="Automatisches Holen von Buechern" Category="Automatisches Holen" />
+  <option ID="OptionAutogetZeroWeight" DisplayText="Automatisches Abholen von gewichtslosen Gegenstaenden" Category="Automatisches Holen" />
+  <option ID="OptionAutogetIfHostiles" DisplayText="Automatisches Holen, wenn Feindselie in der Naehe sind" Category="Automatisches Holen" />
+  <option ID="OptionAutogetFromNearby" DisplayText="Automatisches Holen aus benachbarten Zellen" Category="Automatisches Holen" />
+  <option ID="OptionAutomationAdvancedOptions" DisplayText="Zeige erweiterte Autoget-Optionen in Menues" Category="Automatisches Holen" SearchKeywords="Autoact Autoexplore Bildfrequenz Optionen" />
+  <option ID="OptionAskForWorldmap" DisplayText="Vor dem Bewegen zur Weltkarte nachfragen" Category="Anfragen" />
+  <option ID="OptionAskAutostair" DisplayText="Vor automatischem Gang zu Treppen nachfragen" Category="Anfragen" />
+  <option ID="OptionConfirmSwimming" DisplayText="Vor dem Schwimmen nachfragen" Category="Anfragen" />
+  <option ID="OptionConfirmDangerousLiquid" DisplayText="Vor dem Trinken und Betreten gefaehrlicher Fluessigkeiten nachfragen" Category="Anfragen" />
+  <option ID="OptionAskForOneItem" DisplayText="Beim Aufnehmen vom Boden eine Itemliste anfordern, auch wenn nur eines vorhanden ist" Category="Anfragen" />
+  <option ID="OptionPromptFavoriteRecipe" DisplayText="Nach neuen Rezepten zu Favoriten hinzufuegen fragen" Category="Anfragen" />
+  <option ID="OptionDisplayHPWarning" DisplayText="Grenzwert fuer Warnung bei niedrigen Lebenspunkten" Category="Anfragen" Values="20%|20%,40%|40%,60%|60%,80%|80%,100%|100%,No Warning|No Warning" />
+  <option ID="OptionDismemberAsPopup" DisplayText="Zeige Popups, wenn Ihr jemanden zerstueckelt oder enthauptet" Category="Anfragen" />
+  <option ID="OptionAbilityCooldownWarningAsMessage" DisplayText="Zeige Meldungen fuer Fertigkeiten in Abklingzeit als Nachrichteneintraege statt als Popups" Category="Anfragen" />
+  <option ID="OptionShowScavengeItemAsMessage" DisplayText="Zeige Pluendergegenstaende als Nachrichteneintraege statt als Popups" Category="Anfragen" />
+  <option ID="OptionPopupJournalNote" DisplayText="Popups anzeigen, wenn Sie Informationen in Ihr Tagebuch eintragen" Category="Anfragen" />
+  <option ID="OptionDisplayLedLevelUp" DisplayText="Ausfuehrliche Stufenaufstiegsmeldungen fuer Begleiter anzeigen" Category="Anfragen" />
+  <option ID="OptionDefaultDeathToViewFinalMessages" DisplayText="Die Standardauswahl bei Todesmeldungen in Roleplay-Modus auf 'Letzte Nachrichten anzeigen' statt 'Checkpoint erneut laden' setzen" Category="Anfragen" />
+  <option ID="OptionEnableMods" DisplayText="Aktiviere Mods" Category="Mods" />
+  <option ID="OptionAllowCSMods" DisplayText="Erlaube Skript-Mods (Skript-Mods koennen boesartigen Code enthalten!)" Category="Mods" />
+  <option ID="OptionOutputModAssembly" DisplayText="Kompilierte Mod-Assemblies auf die Festplatte schreiben" Category="Mods" />
+  <option ID="OptionHarmonyDebug" DisplayText="Aktiviere Harmony-Debug-Ausgabe" Category="Mods" />
+  <option ID="OptionTextBuilderDebug" DisplayText="Aktiviere Text Builder Leak-Analyse" Category="Mods">
+    <helptext>
+      Die meisten Formen von Text Builder muessen freigegeben werden, um ihre gepoolten Ressourcen ordnungsgemaess freizugeben, typischerweise mit einer using-Anweisung/Deklaration.
+      Wenn ihr das Freigeben eines Text Builders vergesst, wird ein Fehler ausgegeben. Wenn diese Option aktiviert ist, enthaelt dieser Fehler eine Stack-Verfolgung dahin, wo das Freigeben verpasst wurde.
+      </helptext>
+  </option>
+  <option ID="OptionCheckMemory" DisplayText="Speichernutzung ueberpruefen und eine Warnung anzeigen, wenn sie hoch ist" Category="Leistung" />
+  <option ID="OptionCacheEarly" DisplayText="Zonen frueh in den Cache spuelen (fuer Umgebungen mit wenig Speicher)" Category="Leistung" />
+  <option ID="OptionCollectEarly" DisplayText="Muellsammlung nach jedem Zonen-Flush (fuer Umgebungen mit wenig Speicher)" Category="Leistung" />
+  <option ID="OptionDisableFloorTextureObjects" DisplayText="Bodentextur-Objekte nicht generieren" Category="Leistung" />
+  <option ID="OptionThrottleAnimation" DisplayText="Animationen drosseln (fuer CPU-arme Umgebungen)" Category="Leistung" />
+  <option ID="OptionDrawStepImmediately" DisplayText="Einen Frame direkt nach dem Bewegen rendern (fuer schwache CPU-Umgebungen)" Category="Leistung" />
+  <option ID="OptionShowAdvancedOptions" DisplayText="Zeige erweiterte Optionen" Category="App-Einstellungen" />
+  <option ID="OptionMusicBackground" DisplayText="Caves of Qud im Hintergrund aktiv halten" Category="App-Einstellungen" />
+  <option ID="OptionSessionBackups" DisplayText="Anzahl der laufenden Sicherungsspeicherungen" Category="App-Einstellungen" Values="None|None,1|1,2|2,3|3,5|5,7|7,10|10,15|15,20|20,30|30,40|40">
+    <helptext>
+      Wenn ihr einen Spielstand aus dem Hauptmenue ladet, werden rollende Sicherungen von geladenen Spielstaenden in eurem Datenordner (&lt;...&gt;/CavesOfQud/Local/Session) bis zu dieser Anzahl beibehalten.
+      </helptext>
+  </option>
+  <option ID="OptionAnalytics" DisplayText="Sende anonyme Spielstatistiken" Category="App-Einstellungen" />
+  <option ID="OptionDisableSteamInputWarning" DisplayText="Eingabewarnung deaktivieren" Category="App-Einstellungen" />
+  <option ID="OptionDisablePermadeath" DisplayText="Gespeicherte Spiele im klassischen Modus beim Tod nicht loeschen" Category="Fehlersuche" />
+  <option ID="OptionAllowSaveLoad" DisplayText="Aktiviere Speichern und Laden" Category="Fehlersuche" />
+  <option ID="OptionAllowReallydie" DisplayText="Werde aufgefordert, Tode zu bestaetigen" Category="Fehlersuche" />
+  <option ID="OptionEnableSeed" DisplayText="Aktiviere Welt-Seeds (experimentell)" Category="Fehlersuche" />
+  <option ID="OptionEnablePrereleaseContent" DisplayText="Aktiviere unvollendete und nicht unterstuetzte Inhalte" Category="Fehlersuche" />
+  <option ID="OptionDisableDefectLimit" DisplayText="Erlaube Kreaturen, mehrere Maengel zu haben" Category="Fehlersuche" />
+  <option ID="OptionEnableColorTextInput" DisplayText="Aktiviere Farbmenue fuer Texteingabe" Category="Fehlersuche" />
+  <option ID="OptionDisableAchievements" DisplayText="Erfolge deaktivieren" Category="Fehlersuche" />
+  <option ID="OptionShowQuickstart" DisplayText="Zeige Schnellstart-Option waehrend der Charaktererstellung" Category="Fehlersuche" />
+  <option ID="OptionDisablePlayerbrain" DisplayText="Gehirn-Uebernahme bei spielergesteuerten Charakteren deaktivieren" Category="Fehlersuche" />
+  <option ID="OptionDisableZoneCaching2" DisplayText="Zone-Caching deaktivieren" Category="Fehlersuche" />
+  <option ID="OptionDisableTryLimit" DisplayText="Limit fuer Zonenaufbauversuche deaktivieren" Category="Fehlersuche" />
+  <option ID="OptionEnableWishRegionNames" DisplayText="Zonennamen vorab generieren fuer Wunsch-Unterstuetzung" Category="Fehlersuche" />
+  <option ID="OptionGivesRepShowsCurrentRep" DisplayText="Zeige Ansehen mit den Fraktionen einer Kreatur, wenn Ihr sie anschaut" Category="Fehlersuche" />
+  <option ID="OptionDebugShowConversationNode" DisplayText="Zeige XML-Gespraechs- und Knotennamen waehrend des Gespraechs" Category="Fehlersuche" />
+  <option ID="OptionDebugShowFullZoneDuringBuild" DisplayText="Zeige die vollstaendige Zone-ID waehrend der Zonenerstellung" Category="Fehlersuche" />
+  <option ID="OptionDebugDamagePenetrations" DisplayText="Zeige Debug-Text fuer Schadendurchdringung" Category="Fehlersuche" />
+  <option ID="OptionDebugSavingThrows" DisplayText="Zeige Debug-Text fuer Rettungswuerfe" Category="Fehlersuche" />
+  <option ID="OptionDebugGetLostChance" DisplayText="Zeige Debug-Text fuer verlorene Chancen" Category="Fehlersuche" />
+  <option ID="OptionDebugStatShift" DisplayText="Zeige Debug-Text fuer Attributverschiebungen" Category="Fehlersuche" />
+  <option ID="OptionDebugEncounterChance" DisplayText="Zeige Begegnungschance-Debug-Text" Category="Fehlersuche" />
+  <option ID="OptionDebugTravelSpeed" DisplayText="Zeige Debug-Text fuer Reisegeschwindigkeit" Category="Fehlersuche" />
+  <option ID="OptionDebugInternals" DisplayText="Zeige Debug-Informationen bei Objekten" Category="Fehlersuche" />
+  <option ID="OptionDebugAttitude" DisplayText="Zeige Einstellungsinformationen bei Objekten" Category="Fehlersuche" />
+  <option ID="OptionShowOverlandEncounters" DisplayText="Spezielle Begegnungen auf der Weltkarte anzeigen" Category="Fehlersuche" />
+  <option ID="OptionShowOverlandRegions" DisplayText="Biome auf der Weltkarte anzeigen" Category="Fehlersuche" />
+  <option ID="OptionDrawPopulationHintMaps" DisplayText="Zeichne Populationsplatzierungs-Hinweiskarten beim Zonenaufbau" Category="Fehlersuche" />
+  <option ID="OptionDrawInfluenceMaps" DisplayText="Zeichne Populationsplatzierungsregionen beim Zonenaufbau" Category="Fehlersuche" />
+  <option ID="OptionDrawPathfinder" DisplayText="Pfadfindung von Kreaturen zeichnen" Category="Fehlersuche" />
+  <option ID="OptionDrawPathfinderHalt" DisplayText="Warte auf Tastendruck beim Zeichnen der Pfadfindung" Category="Fehlersuche" />
+  <option ID="OptionDrawNavigationWeightMaps" DisplayText="Zeichne Navigationsgewichtskarten bei jedem Schritt" Category="Fehlersuche" />
+  <option ID="OptionDrawCASystems" DisplayText="Zellulaere Automaten bei der Verwendung in der Kartenerzeugung zeichnen" Category="Fehlersuche" />
+  <option ID="OptionShowReachable" DisplayText="Zeichne Erreichbarkeitskarten bei der Zonengenerierung" Category="Fehlersuche" />
+  <option ID="OptionDrawZoneSemantics" DisplayText="Zeichne semantische Tag-Informationen beim Zonenaufbau" Category="Fehlersuche" />
+  <option ID="OptionDrawFloodVis" DisplayText="Zeichne Sichtflutfuellung" Category="Fehlersuche" />
+  <option ID="OptionDrawFloodAud" DisplayText="Audibility-Flutfuellung zeichnen" Category="Fehlersuche" />
+  <option ID="OptionDrawFloodOlf" DisplayText="Zeichne Geruchsflutfuellung" Category="Fehlersuche" />
+  <option ID="OptionDrawArcs" DisplayText="Verlauf des elektrischen Bogens fuer die letzten paar Runden zeichnen" Category="Fehlersuche" />
+  <option ID="OptionWriteSoundsToLog" DisplayText="Abgespielte Sound-Dateinamen ins Nachrichtenprotokoll schreiben" Category="Fehlersuche" />
+  <option ID="OptionDisableSoundPreload" DisplayText="Vorladung von Sounds deaktivieren" Category="Fehlersuche" />
+  <option ID="OptionInventoryConsistencyCheck" DisplayText="Inventarkonsistenzpruefungen durchfuehren" Category="Fehlersuche" />
+  <option ID="OptionShowErrorPopups" DisplayText="Zeige Fehler-Popups" Category="Fehlersuche" />
+  <option ID="OptionDisableBindConflictChecking" DisplayText="Konfliktpruefung bei Neuzuweisung von Bedienelementen deaktivieren" Category="Fehlersuche" />
+  <option ID="OptionBugDeckKeyboardShift" DisplayText="Aktiviere Workaround fuer Steam Deck Umschalttaste-Bug" Category="Fehlersuche" />
+  <option ID="OptionDebugTranslations" DisplayText="Zeige Debug-(Uebersetzungs-)optionen" Category="Fehlersuche">
+    <helptext>Eine Gruppe von Debug-Optionen fuer Zeichenketten &amp; Uebersetzungen.</helptext>
+  </option>
+  <option ID="OptionStripUIColorText" DisplayText="Farbformatierung aus UI-Text entfernen" Category="Fehlersuche (Uebersetzung)">
+    <helptext>Entfernt Farbformatierung aus allen UI-Strings.</helptext>
+  </option>
+  <option ID="OptionDebugStringTable" DisplayText="String-Tabellen-ID statt uebersetztem Text rendern" Category="Fehlersuche (Uebersetzung)">
+    <helptext>Zeigt zusaetzliche S: T: Hinweise auf uebersetzten Strings statt der Uebersetzung an</helptext>
+  </option>
+  <option ID="OptionDebugStringTableMisses" DisplayText="Fehlerhafte String-Tabellensuchen als Fehler in Player.log protokollieren" Category="Fehlersuche (Uebersetzung)" />
+  <option ID="OptionDebugStringTableLoadingChecks" DisplayText="Aktiviere zusaetzliche XML-Zeichenfolgen-Ladungspruefungen" Category="Fehlersuche (Uebersetzung)">
+    <helptext>Warnungen beim Laden der Strings-XML protokollieren, wenn ein String in der aktuellen Strings-example.xml nicht vorhanden ist</helptext>
+  </option>
+  <option ID="OptionDebugExampleLanguage" DisplayText="Aktiviere Beispielsprachauswahl" Category="Fehlersuche (Uebersetzung)">
+    <helptext>Ermoeglicht die Auswahl der Beispielsprachdateien im Sprachauswaehler.</helptext>
+  </option>
+</options>

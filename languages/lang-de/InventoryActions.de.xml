@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<inventoryActions Lang="de" Encoding="utf-8">
+  <inventoryAction Name="InterfaceWithGritGateMainframe">
+    <display>Schnittstelle</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="InterfaceWithBecomingNook">
+    <display>Schnittstelle</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="InterfaceWithTerminal">
+    <display>Schnittstelle</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="WakeSleeper">
+    <display>Erwachen</display>
+    <key>w</key>
+  </inventoryAction>
+  <inventoryAction Name="DismissProselyte">
+    <display>entlassen</display>
+    <key>d</key>
+  </inventoryAction>
+  <inventoryAction Name="DismissServitor">
+    <display>entlassen</display>
+    <key>d</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionStopFlying">
+    <display>Flug beenden</display>
+    <key>_</key>
+  </inventoryAction>
+  <inventoryAction Name="Read">
+    <display>lesen</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="ReadUnread">
+    <display>lesen</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="CancelLifeDrain">
+    <display>Lebensraub abbrechen</display>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionAttackTarget">
+    <display>direkt zum Ziel angreifen</display>
+    <preferToHighlight>Angriff</preferToHighlight>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionToggleEngagementAggressive">
+    <display>aggressiv angreifen</display>
+    <preferToHighlight>angreifen</preferToHighlight>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionToggleEngagementDefensive">
+    <display>defensiv kaempfen</display>
+    <preferToHighlight>angreifen</preferToHighlight>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionCome">
+    <display>folgen</display>
+    <preferToHighlight>kommen</preferToHighlight>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionGiveItems">
+    <display>Gegenstaende geben</display>
+    <key>g</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionMoveTo">
+    <display>bewegen</display>
+    <key>m</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionChangeFollowDistance">
+    <display>Verfolgungsdistanz veraendern</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionStay">
+    <display>dort bleiben</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionAbilityUse">
+    <display>direkte Faehigkeitsverwertung</display>
+    <key>u</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionRename">
+    <display>umbenennen</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="Untarget">
+    <display>Ziel aufheben</display>
+    <key>t</key>
+  </inventoryAction>
+  <inventoryAction Name="Target">
+    <display>Ziel</display>
+    <key>t</key>
+  </inventoryAction>
+  <inventoryAction Name="ShowEffects">
+    <display>Effekte anzeigen</display>
+    <key>w</key>
+  </inventoryAction>
+  <inventoryAction Name="Apply">
+    <display>anwenden</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ApplyTo">
+    <display>anwenden auf</display>
+    <key>Ein</key>
+  </inventoryAction>
+  <inventoryAction Name="ApplyEat">
+    <display>essen</display>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="ApplyToEat">
+    <display>Verfuettern an</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="ApplyImportant">
+    <display>anwenden</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ApplyDefault">
+    <display>anwenden</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="DebugShowAttitude">
+    <display>Haltung anzeigen {{K|[debug]}}</display>
+    <key>Ein</key>
+  </inventoryAction>
+  <inventoryAction Name="DebugEnableThinkOutLoud">
+    <display>lautes Denken aktivieren {{K|[debug]}}</display>
+    <key>/</key>
+  </inventoryAction>
+  <inventoryAction Name="DebugDisableThinkOutLoud">
+    <display>lautes Denken deaktivieren {{K|[debug]}}</display>
+    <key>/</key>
+  </inventoryAction>
+  <inventoryAction Name="Chat">
+    <display>Gespraech</display>
+    <key>h</key>
+  </inventoryAction>
+  <inventoryAction Name="Destroy">
+    <display>{{R|zerstoeren}}</display>
+    <key>d</key>
+  </inventoryAction>
+  <inventoryAction Name="ResupplyForCloning">
+    <display>Nachschub [1 Drachme Klontrank]</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="CmdCustomAbilityAdd">
+    <display>benutzerdefinierte Faehigkeit hinzufuegen</display>
+    <key>u</key>
+  </inventoryAction>
+  <inventoryAction Name="CmdCustomAbilityEdit">
+    <display>benutzerdefinierte Faehigkeit bearbeiten</display>
+    <key>u</key>
+  </inventoryAction>
+  <inventoryAction Name="BeStoodUp">
+    <display>aufstehen</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="Pet">
+    <display>Haustier</display>
+    <key>p</key>
+  </inventoryAction>
+  <inventoryAction Name="Supply">
+    <display>Vorrat</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="Butcher">
+    <display>Metzger</display>
+    <key>B</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadTonics">
+    <display>Tonika laden</display>
+    <key>o</key>
+  </inventoryAction>
+  <inventoryAction Name="EjectTonics">
+    <display>Tonika auswerfen</display>
+    <key>j</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadTonic">
+    <display>in Medassist-Modul laden</display>
+    <key>m</key>
+  </inventoryAction>
+  <inventoryAction Name="ImprintRecoiler">
+    <display>Abdruck</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateRecoilerTeleporter">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="Look">
+    <display>Aussehen</display>
+    <key>l</key>
+  </inventoryAction>
+  <inventoryAction Name="ReadStory">
+    <display>Geschichte abrufen</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="EnterInterior">
+    <display>Betreten</display>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="ExitInterior">
+    <display>Ausgang</display>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="Examine">
+    <display>Untersuchen</display>
+    <key>x</key>
+  </inventoryAction>
+  <inventoryAction Name="Eat">
+    <display>essen</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="EatSus">
+    <display>essen</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="Ascend">
+    <display>aufsteigen</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="AscendCable">
+    <display>aufsteigen</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="Descend">
+    <display>hinabsteigen</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="DescendCable">
+    <display>hinabsteigen</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="SleepOnBed">
+    <display>Schlaf</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="StandUpFromChair">
+    <display>Staender</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="SitOnChair">
+    <display>sitzen</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="Close">
+    <display>schliessen</display>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="Open">
+    <display>offen</display>
+    <key>o</key>
+  </inventoryAction>
+  <inventoryAction Name="OpenCasual">
+    <display>offen</display>
+    <key>o</key>
+  </inventoryAction>
+  <inventoryAction Name="ExitEnclosing">
+    <display>Ausgang</display>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="EnterEnclosing">
+    <display>Betreten</display>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateForceProjector">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="DeactivateForceProjector">
+    <display>deaktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="Pray">
+    <display>beten</display>
+    <key>y</key>
+  </inventoryAction>
+  <inventoryAction Name="Desecrate">
+    <display>schaenden</display>
+    <key>D</key>
+  </inventoryAction>
+  <inventoryAction Name="Detonate">
+    <display>detonieren</display>
+    <key>n</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateAjiConch">
+    <display>Schlag</display>
+    <key>B</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateAnimateObject">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="Defibrillate">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="RaiseBanner">
+    <display>erheben</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="BubbleLevel">
+    <display>Umschwung</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="LightCampfire">
+    <display>Licht</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="DrawWithCrayons">
+    <display>ziehen</display>
+    <key>w</key>
+  </inventoryAction>
+  <inventoryAction Name="BuildFromDataDisk">
+    <display>Bau</display>
+    <key>B</key>
+  </inventoryAction>
+  <inventoryAction Name="LearnFromDataDisk">
+    <display>lernen</display>
+    <key>l</key>
+  </inventoryAction>
+  <inventoryAction Name="DeactivateHologramBracelet">
+    <display>deaktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateHologramBracelet">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="DeployInfrastructure">
+    <display>deploy=deployNoun|spaceBefore=</display>
+    <key>y</key>
+  </inventoryAction>
+  <inventoryAction Name="FlipBeam">
+    <display>Umschwung</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="Engrave">
+    <display>gravieren</display>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateFactionDeed">
+    <display>Verwicklungstext</display>
+    <key>n</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleForceEmitterDeactivate">
+    <display>deaktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleForceEmitterActivate">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="RifleThroughGarbage">
+    <display>Gewehr</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateGenocideCurio">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="BlowGrandfatherHorn">
+    <display>Schlag</display>
+    <key>B</key>
+  </inventoryAction>
+  <inventoryAction Name="Harvest">
+    <display>Ernte</display>
+    <key>h</key>
+  </inventoryAction>
+  <inventoryAction Name="SmokeHookah">
+    <display>Rauch</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateMechanicalWings">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivatePassiveFactionDeed">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="DeactivateTemplarPhylactery">
+    <display>deaktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateTemplarPhylactery">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivatePortableWall">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateSpiralBorer">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateSkyshroud">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateSummoningCurio">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateTeleprojector">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="Disassemble">
+    <display>zerlegen</display>
+    <key>m</key>
+  </inventoryAction>
+  <inventoryAction Name="DisassembleAll">
+    <display>alles zerlegen</display>
+    <key>M</key>
+  </inventoryAction>
+  <inventoryAction Name="Repair">
+    <display>reparieren</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="RepairOnActor">
+    <display>reparieren</display>
+    <key>R</key>
+  </inventoryAction>
+  <inventoryAction Name="PressIron">
+    <display>druecken</display>
+    <key>p</key>
+  </inventoryAction>
+  <inventoryAction Name="DeactivateStopsvalinn">
+    <display>deaktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateStopsvalinn">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="Tattoo">
+    <display>Taetowierung</display>
+    <key>t</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateTeleporter">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateTeleporterPair">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateTeleporterPairCooldown">
+    <display>aktivieren [{{C|=turns=}} Runden-Abklingzeit]</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ConfigureTemperatureController">
+    <display>Zieltemperatur einstellen</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="SmokeThurible">
+    <display>Raeucherstaebchen</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateTimeCube">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="TorchLight">
+    <display>Licht</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="TorchExtinguish">
+    <display>Loeschen</display>
+    <key>x</key>
+  </inventoryAction>
+  <inventoryAction Name="FillSlotted">
+    <display>Fuellen =subject.basename|strip=</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="Unseal">
+    <display>entsiegeln</display>
+    <key>u</key>
+  </inventoryAction>
+  <inventoryAction Name="Seal">
+    <display>Siegel</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="FillFrom">
+    <display>Fuellen</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="Drain">
+    <display>Saugen</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="Drink">
+    <display>trinken</display>
+    <key>k</key>
+  </inventoryAction>
+  <inventoryAction Name="Pour">
+    <display>giessen</display>
+    <key>p</key>
+  </inventoryAction>
+  <inventoryAction Name="AutoCollectLiquidOn">
+    <display>Automatische Fluessigkeitsammlung</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="AutoCollectLiquidOff">
+    <display>automatisches Fluessigkeitssammeln beenden</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="CollectLiquid">
+    <display>Fluessigkeit sammeln</display>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="CleanWithLiquid">
+    <display>alle Gegenstaende reinigen [1 Dram]</display>
+    <key>n</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandChangeGrip">
+    <display>Griff aendern</display>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadMagazineAmmo">
+    <display>laden</display>
+    <key>o</key>
+  </inventoryAction>
+  <inventoryAction Name="UnloadMagazineAmmo">
+    <display>entladen</display>
+    <key>u</key>
+  </inventoryAction>
+  <inventoryAction Name="Psychometry">
+    <display>Geschichte mit Psychometrie lesen</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="DrinkCharge">
+    <display>Trinkladung</display>
+    <key>k</key>
+  </inventoryAction>
+  <inventoryAction Name="Unequip">
+    <display>entfernen</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandTakeObject">
+    <display>erhalten</display>
+    <key>g</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandDropObject">
+    <display>fallen lassen</display>
+    <key>d</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandDropAllObject">
+    <display>alles fallen lassen</display>
+    <key>D</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandAutoEquipObject">
+    <display>Ausruesten (auto)</display>
+    <key>e</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandEquipObject">
+    <display>Ausruesten (manuell)</display>
+    <key>E</key>
+  </inventoryAction>
+  <inventoryAction Name="FightFire">
+    <display>Feuer bekaempfen</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="Attack">
+    <display>Angriff</display>
+    <key>k</key>
+  </inventoryAction>
+  <inventoryAction Name="Mod">
+    <display>Mod mit Tueftelei</display>
+    <preferToHighlight>Basteln</preferToHighlight>
+    <key>t</key>
+  </inventoryAction>
+  <inventoryAction Name="AddNotes">
+    <display>Notizen hinzufuegen</display>
+    <key>n</key>
+  </inventoryAction>
+  <inventoryAction Name="MarkUnimportant">
+    <display>als unwichtig markieren</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="MarkImportant">
+    <display>als wichtig markieren</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="RemoveNotes">
+    <display>Notizen entfernen</display>
+    <key>n</key>
+  </inventoryAction>
+  <inventoryAction Name="CleanItem">
+    <display>reinigen</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="ShowInternals">
+    <display>Interna anzeigen {{K|[debug]}}</display>
+    <key>W</key>
+  </inventoryAction>
+  <inventoryAction Name="RechargeCapacitor">
+    <display>aufladen</display>
+    <key>R</key>
+  </inventoryAction>
+  <inventoryAction Name="RechargeEnergyCell">
+    <display>aufladen</display>
+    <key>R</key>
+  </inventoryAction>
+  <inventoryAction Name="RechargeEnergyCellSlotted">
+    <display>aufladen =subject.basename|strip=</display>
+    <key>R</key>
+  </inventoryAction>
+  <inventoryAction Name="ReplaceSocketCell">
+    <display>Zelle ersetzen</display>
+    <preferToHighlight>Zelle</preferToHighlight>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="ReplaceSocketCellEmpty">
+    <display>Zelle installieren</display>
+    <preferToHighlight>Zelle</preferToHighlight>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="PowerSwitchOff">
+    <display>deaktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="PowerSwitchOn">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="RemotePowerSwitchOff">
+    <display>deaktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="RemotePowerSwitchOn">
+    <display>aktivieren</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="WindUp">
+    <display>Wind</display>
+    <key>w</key>
+  </inventoryAction>
+  <inventoryAction Name="Cook">
+    <display>kochen</display>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="ExtinguishCampfire">
+    <display>Loeschen</display>
+    <key>x</key>
+  </inventoryAction>
+  <inventoryAction Name="CookWhipUp">
+    <display>Eine Mahlzeit zaubern.</display>
+    <key>m</key>
+  </inventoryAction>
+  <inventoryAction Name="CookChooseIngredients">
+    <display>Waehle Zutaten zum Kochen aus.</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="CookFromRecipe">
+    <display>Kocht nach einem Rezept.</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="CookPreserve">
+    <display>Bewahrt Eure frischen Lebensmittel auf.</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="CookPreserveExotic">
+    <display>Bewahrt Eure exotischen Lebensmittel auf.</display>
+    <key>x</key>
+  </inventoryAction>
+  <inventoryAction Name="CookStopBleeding">
+    <display>Blutung stoppen.</display>
+    <key>B</key>
+  </inventoryAction>
+  <inventoryAction Name="CookTreatPoison">
+    <display>Gift behandeln.</display>
+    <key>p</key>
+  </inventoryAction>
+  <inventoryAction Name="CookTreatIllness">
+    <display>Krankheit behandeln.</display>
+    <key>l</key>
+  </inventoryAction>
+  <inventoryAction Name="CookTreatDiseaseOnset">
+    <display>Krankheitsausbruch behandeln.</display>
+    <key>d</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleScrapOff">
+    <display>nicht mehr als Schrott behandeln</display>
+    <preferToHighlight>Schrott</preferToHighlight>
+    <key>S</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleScrapOn">
+    <display>Als Schrott behandeln</display>
+    <preferToHighlight>Schrott</preferToHighlight>
+    <key>S</key>
+  </inventoryAction>
+  <inventoryAction Name="DisarmMine">
+    <display>entwaffnen</display>
+    <key>d</key>
+  </inventoryAction>
+  <inventoryAction Name="ArmMine">
+    <display>Arm</display>
+    <key>a</key>
+  </inventoryAction>
+  <inventoryAction Name="LayMineBomb">
+    <display>einstellen</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="LayMine">
+    <display>legen</display>
+    <key>L</key>
+  </inventoryAction>
+  <inventoryAction Name="PluckPolyp">
+    <display>Mut</display>
+    <key>p</key>
+  </inventoryAction>
+  <inventoryAction Name="Sacrifice">
+    <display>Opfer</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="FlipSwitch">
+    <display>Umschwung</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="VehicleControl">
+    <display>Kontrolle</display>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="ReleaseVehicle">
+    <display>Ausgang</display>
+    <key>x</key>
+  </inventoryAction>
+  <inventoryAction Name="RecallVehicle">
+    <display>abrufen =vehicleTerm=</display>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="RepairVehicle">
+    <display>reparieren =vehicleTerm=</display>
+    <key>r</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateGolemMound">
+    <display>Schnittstelle</display>
+    <key>i</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionEnterVehicle">
+    <display>Anhaenger direkt eintreten lassen</display>
+    <key>f</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandSingleSeatEject">
+    <display>auswerfen</display>
+    <key>j</key>
+  </inventoryAction>
+  <inventoryAction Name="StarshipLaunch">
+    <display>Abschuss</display>
+    <key>c</key>
+  </inventoryAction>
+  <inventoryAction Name="TelekineticPull">
+    <display>telekinetisch zu dir ziehen</display>
+    <key>p</key>
+  </inventoryAction>
+  <inventoryAction Name="TelekineticPullOne">
+    <display>etwas telekinetisch zu dir ziehen</display>
+    <key>P</key>
+  </inventoryAction>
+  <inventoryAction Name="TelekineticPullAndTake">
+    <display>telekinetisch zu dir ziehen und nehmen</display>
+    <preferToHighlight>nehmen</preferToHighlight>
+    <key>t</key>
+  </inventoryAction>
+  <inventoryAction Name="TelekineticPullAndTakeOne">
+    <display>etwas telekinetisch zu dir ziehen und nehmen</display>
+    <preferToHighlight>nehmen</preferToHighlight>
+    <key>T</key>
+  </inventoryAction>
+  <inventoryAction Name="TelekineticHurl">
+    <display>telekinetisch schleudern</display>
+    <key>h</key>
+  </inventoryAction>
+  <inventoryAction Name="TelekineticHurlOne">
+    <display>etwas telekinetisch schleudern</display>
+    <key>H</key>
+  </inventoryAction>
+  <inventoryAction Name="TelekineticMove">
+    <display>telekinetisch bewegen</display>
+    <key>m</key>
+  </inventoryAction>
+  <inventoryAction Name="TelekineticMoveOne">
+    <display>etwas telekinetisch bewegen</display>
+    <key>M</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleAllowAutogetStart">
+    <display>automatisches Sammeln starten</display>
+    <preferToHighlight>Start</preferToHighlight>
+    <key>S</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleAllowAutogetStop">
+    <display>automatisches Sammeln beenden</display>
+    <preferToHighlight>Stopp</preferToHighlight>
+    <key>S</key>
+  </inventoryAction>
+</inventoryActions>

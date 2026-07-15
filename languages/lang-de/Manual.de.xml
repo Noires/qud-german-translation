@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<help Lang="de" Encoding="utf-8">
+  <topic name="Quickstart" DisplayName="Schnelleinstieg">
+These are nine things you should do when you start your game.
+After that, use the rest of this Help as a reference manual.
+
+{{W|1. Walk around}}
+
+{{?KB|Move by pressing directional keys (~CmdMoveN, ~CmdMoveE, etc) or by clicking on the map.}}{{?Gamepad|Indicate direction with ~UI:Navigate and press ~Take A Step to move or hold ~Take A Step to move continuously.}}{{?Gamepad|
+You can also auto-explore the map with ~CmdAutoExplore.}}
+
+{{W|2. Interact with things}}
+
+Walk next to an NPC or other object and press ~CmdUse.
+
+{{W|3. Look at things}}
+
+{{?KB|Press }}~CmdLook to enter Look mode and then move the cursor around the map.{{?KB|
+Or {{hotkey|right-click}} to quick look.}}
+
+{{W|4. Use your abilities}}
+
+{{?KB|Click on a button on the ability bar at the bottom of your screen
+or press its hotkey.}}{{?Gamepad|Navigate the hotbar at the bottom of your screen with ~UI:Navigate/left and ~UI:Navigate/right
+and then press ~Use Ability to use an ability.}}
+
+{{W|5. View your character sheet}}
+
+{{?KB|Press ~CmdCharacter to view your core character info.
+Press ~CmdEquipment to view your equipment.
+Press ~CmdInventory to view your inventory.
+Press ~CmdJournal to view your journal.
+Press ~CmdQuests to view your quests.
+Press ~CmdSkillsPowers to view your skills.
+Press ~CmdFactions to view your faction relationships.
+
+You can scroll through these pages with ~Page Left and ~Page Right.}}{{?Gamepad|Press ~CmdCharacter to view your core character info.
+Navigate to other pages in your character sheet with ~Page Left and ~Page Right.}}
+
+{{W|6. Bring up a list of points of interest}}
+
+Press ~CmdMoveToPointOfInterest.
+
+{{W|7. Bring up additional information about objects on the map}}
+
+Press ~Highlight for an overlay with extra info like creature hostility 
+(red = hostile, yellow = neutral, green = friendly) and a clear view of 
+interesting items.
+
+{{W|8. Walk to another map}}
+
+Simply walk offscreen, or go to the world map with ~CmdMoveU.
+
+{{W|9. Attack an enemy}}
+
+To perform a basic attack, just walk into a hostile creature.
+Or you can use an attack ability.
+</topic>
+  <topic name="Attributes" DisplayName="Attribute">
+[[{{C|Strength}}]]
+Euer Staerkenwert bestimmt, wie viel Nahkampf-Schaden Ihr (durch Verbesserung Eures Ruestungs-Durchdringung), Eure Faehigkeit, erzwungene Bewegung zu widerstehen, und Eure Tragekapazitaet tut.
+
+[[{{C|Agility}}]]
+Euer Agilitaet-Wert bestimmt Eure Genauigkeit mit Nahkampf- und Fernkampf-Waffen und Eure Faehigkeit, Angriffen auszuweichen.
+
+[[{{C|Toughness}}]]
+Euer Robustheit-Wert bestimmt Eure Anzahl von Lebenspunkten, Eure Lebenspunkt-Regenerations-Rate und Eure Faehigkeit, Gift und Krankheit zu widerstehen.
+
+[[{{C|Intelligence}}]]
+Euer Intelligenz-Wert bestimmt Eure Anzahl von Faehigkeitspunkten und Eure Faehigkeit, Artefakte zu untersuchen.
+
+[[{{C|Willpower}}]]
+Euer Willpower-Wert modifiziert die Abklingzeiten Eurer aktivierten Faehigkeiten, bestimmt Eure Faehigkeit, mentale Angriffe zu widerstehen, und modifiziert Eure Lebenspunkt-Regenerations-Rate.
+
+[[{{C|Ego}}]]
+Euer Ego-Wert bestimmt die Wirksamkeit Eurer mentalen Mutationen, Eure Faehigkeit, mit Kaufleuten zu handeln, und Eure Faehigkeit, die Willen anderer lebender Kreaturen zu dominieren.
+
+[[{{C|Armor Value and Dodge Value (AV / DV)}}]]
+Euer Ruestungs-Wert (AV) ist eine Messung, wie gut Ihr gegen physische Angriffe geschuetzt seid, die Euch treffen. Je hoeher Euer Score, desto weniger wahrscheinlich wird der Angriff eines Gegners schweren Schaden auf Euch ausrichten. Die meisten Charaktere beginnen mit einem Basis-AV-Wert von 0.
+
+Euer Ausweichwert (DV) ist eine Messung, wie wahrscheinlich es ist, dass Ihr von physischen Angriffen getroffen werdet. Je hoeher Euer Score, desto weniger wahrscheinlich wird der Angriff eines Gegners Euch treffen. Euer DV wird durch Euren Agilitaet-Modifikator modifiziert. Die meisten Charaktere beginnen mit einem Basis-DV von 6.
+
+[[{{C|Mental Armor (MA)}}]]
+Euer mentale Ruestung (MA) ist eine Messung, wie gut Ihr gegen mentale Angriffe geschuetzt seid, ebenso wie Euer Ruestungs-Wert eine Messung ist, wie gut Ihr gegen physische Angriffe geschuetzt seid. Je hoeher Euer Score, desto weniger wahrscheinlich wird der mentale Angriff eines Gegners schweren Auswirkungen auf Euch haben. Euer MA wird durch Euren Willpower-Modifikator modifiziert. Die meisten Charaktere beginnen mit einer Basis-MA von 4.
+
+[[{{C|Quickness (QN)}}]]
+Euer Quickness-Wert ist eine Messung, wie schnell Ihr jede und alle Aktionen durchfuehrt, die Ihr ergreifen. Euer Basis-Quickness-Wert ist 100. Beachtet, dass es sehr wenige Wege gibt, diesen Score zu vergroessern.
+
+[[{{C|Movement Speed (MS)}}]]
+Euer Bewegungs-Geschwindigkeit ist eine Messung, wie schnell Ihr geht oder fliegt. Eure Basis-Bewegungs-Geschwindigkeit ist 100.
+
+[[{{C|Temperature (T)}}]]
+Eure Temperatur ist eine Messung, wie heiss oder kalt Ihr seid. Falls Ihr Cold seid, wird Euer Quickness-Wert um die Haelfte reduziert. Falls Ihr Frozen seid, seid Ihr nicht in der Lage, physische Aktionen zu ergreifen. Falls Ihr Flaming seid, erleidet Ihr jeden Umschwung Waermeschaden, bis Ihr Eure Temperatur reduziert.
+
+[[{{C|Acid Resist}}]]
+Euer Saeure-Widerstand ist eine Messung, wie viel Saeurenschaden Ihr ablatet. Euer Basis-Saeure-Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen Saeurenschaden.
+
+[[{{C|Cold Resist}}]]
+Euer Kaelte-Widerstand ist eine Messung, wie viel Kaelteschaden Ihr ablatet und wie isoliert Ihr von Auswirkungen seid, die Eure Temperatur reduzieren. Euer Basis-Kaelte-Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen Kaelteschaden und Eure Temperatur kann nicht reduziert werden.
+
+[[{{C|Electrical Resist}}]]
+Euer elektrischer Widerstand ist eine Messung, wie viel elektrischen Schaden Ihr ablatet und wie widerstand Ihr zum elektrischen Strom seid. Euer Basis-elektrischer Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen elektrischen Schaden und Ihr fuehrt keinen Strom.
+
+[[{{C|Heat Resist}}]]
+Euer Waermewiderstand ist eine Messung, wie viel Waermeschaden Ihr ablatet und wie isoliert Ihr von Auswirkungen seid, die Eure Temperatur erhoehen. Euer Basis-Waermewiderstandswert ist 0. Bei 100, seid Ihr immun gegen Waermeschaden und Eure Temperatur kann nicht erhoeht werden.
+
+</topic>
+  <topic name="Skills" DisplayName="Fertigkeiten">
+Eure Faehigkeiten repraesentieren die Faehigkeiten, die Ihr in Eurem Leben gelernt habt. Jeder Faehigkeitsbaum hat mehrere damit verbundene Faehigkeiten. Ihr beginnt mit mehreren Faehigkeiten, die von Eurer Kaste oder Berufung bestimmt werden. Ihr koennt andere Faehigkeiten kaufen, indem Ihr Faehigkeitspunkte ausgeben, die Ihr verdient, wenn Ihr einen Level gewinnen (je hoeher Euer Intelligenzwert ist, desto mehr Faehigkeitspunkte verdient Ihr).
+
+Um eine neue Faehigkeit zu kaufen, muesst Ihr zuerst die Einstiegsfaehigkeit in ihrem Faehigkeitsbaum kaufen. Ihr muesst alle Attribut- oder Energieanforderungen der Faehigkeit erfuellen, die Ihr zu kaufen versucht. Es ist moeglich, mit bestimmten Faehigkeiten zu beginnen, ohne seine Einstiegsfaehigkeit zu haben, wenn Eure Kaste oder Berufung es Euch gewaehrt hat.
+
+Faehigkeiten gewaehren oft aktivierte Faehigkeiten. Sobald Ihr eine Faehigkeit kauft, koennt Ihr Eure neue aktivierte Faehigkeit aus dem Manage Abilities-Menue zugreifen ('~CmdAbilities').
+</topic>
+  <topic name="Mutations and Defects" DisplayName="Mutationen und Maengel">
+Mutationen sind spezielle biologische Kraefte, die den Bewohnern von Qud geschenkt werden -- echte Kin aus den aeusseren Arcologien besitzen keine Mutationen. Es gibt zwei Arten von Mutationen: physische und mentale. Jede Mutation hat einen damit verbundenen Mutationsscore. Die Scores Eurer physischen Mutationen und die Abklingzeiten von aktivierten Faehigkeiten, die von Euren physischen Mutationen gewaehrt werden, sind statisch. Andererseits werden die Scores Eurer mentalen Mutationen durch Euren Ego-Modifikator modifiziert und die Abklingzeiten von Faehigkeiten, die von Euren mentalen Mutationen gewaehrt werden, werden um 5% fuer jeden Punkt von Willpower moduliert, den Ihr ueber 16 habt.
+
+Die meisten Charaktere beginnen mit Mutationscores von 1. Ihr verdient einen Mutationspunkt, wenn Ihr eine neue Stufe gewinnt, die Ihr ausgeben koennt, um den Score einer Eurer Mutationen um 1 zu erhoehen. Der Mutationsscore von keiner Eurer Mutationen darf 1 plus Eure Charakterstufe geteilt durch 2 ueberschreiten. Zusaetzlich koennen Mutationen nur durch Mutationspunkte bis zu einem maximalen Score von 10 erhoeht werden, obwohl Eure mentalen Mutationen diesen Score ueberschreiten koennen, wenn Euer Ego sie ueber 10 hinaus erhoeht.
+
+Alternativ koennt Ihr 4 Mutationspunkte ausgeben, um eine neue Mutation aus drei zufaellig ausgewaehlten Mutationen zu waehlen. Die Mutation, die Ihr waehlt, beginnt mit einem Score von 1. Falls Ihr ein Chimera seid, wird Euch eine Wahl von physischen Mutationen angeboten, falls Ihr ein Esper seid, wird Euch mentale Mutationen angeboten, ansonsten werden Euch drei voellig zufaellige Mutationen angeboten. Mutationen gewaehren oft aktivierte Faehigkeiten. Sobald Ihr eine Mutation gewinnt, koennt Ihr Eure neue aktivierte Faehigkeit aus dem Manage Abilities-Menue zugreifen ('~CmdAbilities').
+
+Defekte sind Mutationen mit primaer negativen Auswirkungen. Bestimmte Mutanten beginnen mit einem einzelnen Defekt. Es gibt keinen Score fuer Defekte.
+</topic>
+  <topic name="Artifacts" DisplayName="Artefakte">
+Artefakte sind Gegenstaende, die technologisch so komplex sind, dass nur wenige der Bewohner von Qud sie verstehen. Ein unidentifiziertes Artefakt wird Euch als "Seltsames Artefakt" erscheinen. Ihr koennt ein Artefakt untersuchen, um zu versuchen, es zu identifizieren. Falls Ihr erfolgreich seid, koennt Ihr die Moeglichkeiten der Funktion dieses Artefakts eingrenzen (was einst ein "Knueppel" war, koennt Ihr nun beispielsweise als "Gewehr" identifizieren). Eventuell koenntet Ihr das Artefakt vollstaendig identifizieren. Jedes Mal, wenn Ihr versucht, etwas zu identifizieren, und fehlschlagt, besteht jedoch eine kleine Chance, dass Ihr es beschaedigt. Eure Chance, ein Artefakt erfolgreich zu identifizieren, basiert auf Eurem Intelligenzwert.
+</topic>
+  <topic name="Tonics" DisplayName="Toniken">
+Toniken sind chemische Mixturen, die Eure mentalen und physischen Statistiken auf verschiedene Weise verbessern. Sie sind Artefakte, und daher muesst Ihr sie erfolgreich identifizieren, um zu verstehen, was sie tun. Das Einnahme eines Tonikums waehrend der Auswirkungen eines anderen zu trinken ist gefaehrlich; fuer jeden neuen Tonikum, das Ihr einnehmt, gibt es eine groessere und groessere Chance, dass die Tonikume schlecht aufeinander reagieren. Je hoeher Euer Robustheitsscore ist, desto groesser ist die Chance, dass Ihr mehrere Tonikume einnehmen koennt, ohne unerwuenschte Auswirkungen zu erleiden.
+
+Tonikume erzeugen staerkere Auswirkungen bei echtem Kin als bei mutierten Menschen. Ausserdem, da die Koerperchemie von Mutanten inhaerent instabil ist, gibt es eine 5% Chance, dass ein Tonikum, das von einem Mutanten eingenommen wird, stattdessen eine unerwuenschte Auswirkung erzeugt.
+
+Tonikume koennen mit der Tinker-Faehigkeit hergestellt werden. Zusaetzlich zu Bits benoetigt das Herstellen eines Tonikums oft einen natuerlichen Bestandteil.
+</topic>
+  <topic name="Weapons and Armor" DisplayName="Waffen und Ruestungen">
+[[{{C|Waffen}}]]
+Jede Waffe hat einen Durchdringungswert und einen Schadenwert
+(zum Beispiel, {{C|→}}4, {{R|♥}}1d4). Der Durchdringungswert von Nahkampf-Waffen bezieht sich auf Euren Staerkewert, obwohl der Wert auf dem Material der Waffe basiert ist ('l'ook an einer Waffe, um ihren Durchdringungswert cap zu ansehen). Fernkampf-Waffen haben statische Durchdringungswerte, die nicht auf Euren Staerkenwert aendern. Waffen koennen andere Statistiken modifizieren; 'l'ook an einer Waffe, um vollstaendig zu bestimmen, was es tut.
+
+[[{{C|Ruestung}}]]
+Die meisten Teile der Ruestung haben einen Ruestungs-Wert und einen Ausweichwert
+(zum Beispiel, {{b|♦}}4 {{K|○}}4) das vergroessert Eure eigner {{b|♦}}AV und {{K|○}}DV (sieh {{g|Attribute}}).
+Teile der Ruestung koennen andere Statistiken modifizieren; 'l'ook an einem Stueck Ruestung, um vollstaendig zu bestimmen, was es tut.
+</topic>
+  <topic name="Combat" DisplayName="Kampf">
+[[{{C|Melee Combat}}]]
+Melee combat is combat between two adjacent opponents with standard melee
+weapons such as swords, daggers, axes, and clubs. To attack a hostile
+adjacent opponent, simply move in the direction of the opponent. To attack
+something else, such as a non-hostile opponent or a wall, use '~CmdAttackDirection'
+and select the direction in which you wish to attack.
+
+When you make a melee attack against a target, the following sequence of
+events occurs:
+
+[[{{c|1. Determine whether or not you hit the target.}}]]
+Your to-hit roll is 1d20 plus your agility modifier plus any bonuses you
+receive from your weapon or skill powers. If this roll exceeds your
+opponent's dodge value (DV), then you hit. An empty circle icon over your
+target indicates that your attack missed.
+
+[[{{c|2. Determine whether a shield block takes place.}}]]
+If the target has a shield equipped, they have a base 25% chance to block
+with it, increasing with skill. A successful block adds the shield's armor
+value (AV) to the target's AV for this attack.
+
+[[{{c|3. Determine how severely your attack penetrates your target's armor.}}]]
+Each weapon has a penetration value ({{C|→}}4, for example). This value
+represents the armor value (AV) that your weapon will usually penetrate
+with ease. If your weapon's penetration value far exceeds your target's AV,
+your weapon will likely penetrate several times. Each time your weapon
+penetrates your target's armor, your target is dealt damage equal to your
+weapon's damage value ({{R|♥}}1d4, for example). A filled circle icon over your
+target indicates that your attack hit but failed to penetrate your target's
+armor. A heart icon indicates that your attack hit and penetrated your
+target's armor.
+
+[[{{c|4. Determine if multiple attacks are made.}}]]
+There is a 15% chance that you make an additional attack with your
+secondary hand. Characters with multiple limbs may make additional attacks
+beyond this.
+
+[[{{C|Missile Combat}}]]
+Missile combat is combat between two opponents with missile weapons such
+as bows, pistols, and rifles. To make a missile attack, press '~CmdFire' to aim
+your weapon, then '~CmdFire' again to fire.
+
+When you make a missile attack, the following sequence of events occurs:
+
+[[{{c|1. Determine the trajectory of your missile.}}]]
+How far a missile is likely to veer from its projected path is determined
+by your agility score and the weapon's accuracy.
+
+[[{{c|2. Hit the first medium-sized or larger object along the missile's}}
+{{c|trajectory.}}]]
+
+[[{{c|3. Determine how severely the missile penetrates your target's armor.}}]]
+This is resolved in the same way as a melee attack.
+
+[[{{c|4. Determine if multiple attacks are made.}}]]
+Certain powers allow you to fire multiple missiles with certain missile
+weapons.
+
+If you are engaged in melee combat with more than one hostile opponent,
+there is a 50% chance that each missile attack you make goes wild (veers
+45 degrees to the left or right).
+</topic>
+  <topic name="Saving Throws" DisplayName="Rettungswuerfe">
+Bestimmte Effekte oder Faehigkeiten erfordern es, dass Kreaturen Rettungswuerfe durchfuehren oder Konsequenzen erleiden. Jeder Rettungswurf hat ein damit verbundenes Attribut und eine Schwierigkeit. Um einen Rettungswurf zu bestehen, wird eine Basis 1d20 geworfen und dann Euer relevanter Attributsmodifikator hinzugefuegt. Falls diese Zahl die Schwierigkeit erfuellt oder uebertrifft, besteht Ihr. Ansonsten fehlschlagt Ihr. Einige Rettungswuerfe gegen Faehigkeiten von Kreaturen addieren auch den Attributsmodifikator der Kreatur zur Schwierigkeit.
+</topic>
+  <topic name="Action Costs" DisplayName="Aktionskosten">
+Die Zeit, die es dauert, etwas zu tun, wird in Form einer Aktionskosten bewertet. Die meisten Aufgaben haben Aktionskosten von 1000. Eure Quickness erhoeht die Rate, mit der Ihr diese Kosten wiederherstellt, wodurch Ihr haeufiger handeln koennt als langsamere Kreaturen.
+
+Einige Faehigkeiten, Mutationen und Ausruestungen ermoeglichen es Euch, bestimmte Aktionen mit reduzierten oder null Aktionskosten zu ergreifen.
+</topic>
+  <topic name="Credits" DisplayName="Abspann">
+
+                                 [[{{C|Erstellt von}}
+                      Brian Bucklew und Jason Grinblat
+                      
+
+              Qualitaetskontrolle und zusaetzliches Design - Nick Decapua
+              Zusaetzliche Programmierung - Corey Frang
+                               Musik - Craig Hamilton            
+                                  Qualitaetskontrolle - Autumn McDonell
+              Zusaetzliche Programmierung - Bastia Rosen
+         Zusaetzliches Schreiben und Design - Caelyn Sandel
+                    Zusaetzliche Musik - Brandon Tanner        
+                            Tile Art - Samuel Wilson
+                Zusaetzliches UI-Design - Polat Yarisci
+                        Sounddesign - A Shell in the Pit
+            Qualitaetskontrolle, zusaetzliches Design und
+              Zusaetzliche Programmierung - Thaumatic Systems        
+              Zusaetzliche Programmierung - Brian Reynolds
+                       Rechtliche Beratung - Thomas C. Allison, P.A.
+                      
+                      Hintergrund-Kunst - Cyril van der Haegen
+                            Logo-Kunst - Laura &amp;&amp; Jeff Bucholtz
+                Community Management - Ivy Melinda &amp;&amp; das Buergermeister-Team
+
+
+                                {{C|Veroeffentlicht von}}
+                                Kitfox Games
+
+                                Tina Liu
+                                Xin Ran Liu
+                                Alexandra Orlando
+                                Tanya X. Short
+                                
+
+                                {{C|Besonderer Dank}}
+                                Ashenai
+                                Riley Vincent
+                                Gibbed
+                                Floorislava
+                                Dr Amazing
+                                Devonaut
+                                Vaos
+                                Tyskil
+                                Lakren
+                                Stelas
+                                Social Animal
+                                Contra Duck
+                                Saberwulf
+                                Megaflare
+                                Doctorfrog
+                                Palecur
+                                NovaPolice
+                                Mirdath
+                                The Glow
+                                Dyzzy
+                                Schister
+                                Lazybuttons
+                                Colonp
+                                Niff
+                                Matterhorn
+                                Clamiam
+                                Donraj
+                                Randy Marsh
+                                Rabbi
+                                Getter77
+                                Capuchin
+                                Wafflecopter
+                                Nomikos
+                                Magitek
+                                Andrew Smash
+                                Vastin
+                                Frumple
+                                Sappho
+                                Soulwynd
+                                Cpbpunch
+                                Tarran
+                                Brian Turcotte
+                                Oryx
+                                Jim Shepard, Dungeonmans
+                                MightyMerch
+                                Eva Problems, Carbide Chef
+                                ein unsinniger Vogel
+                                Tarn &amp;&amp; Zach Adams
+                                
+
+                                {{C|Patrone}}
+                                Reed (mutierter Mensch) und Tiffany (Kaninchen)
+                                epsalon
+                                Tim Linscott
+                                Cody, die Ratte
+                                iconmaster
+                                Coal
+                                Reuben Eadon
+                                Goldkin
+                                mdct
+                                Rusted Jake Matz
+                                Benjamin T. Steed
+                                Xerkie!
+                                Dij
+                                LongueVanne
+                                50RCERESS
+                                Chef Agate Severance Star
+                                awful_falafel
+                                Jonny Robertson
+                                Ian Wall
+                                Orion Perruc-Reyes
+                                Ryan Orlando (Fat Thunder)
+                                FS Colley
+                                Asunaro
+                                Trevor Clack
+                                Gillian Eggleston
+                                Nerem
+                                Somsnosa
+                                Ivy Sly
+                                livelongcoffee
+                                SMB64 (Koshi)
+                                NO Press
+                                EveryZig314
+                                Floopygapples
+                                Eric Hulen
+                                Caine DeWitt
+                                Eric Anthony Rodriguez
+                                Nathaniel Krell
+                                Boo-cher
+                                Pax Frank
+                                Matteo De Cristofaro
+                                Meo
+                                Boyarde Roneen
+                                wastrel
+                                Drew Kerrigan
+                                Jordan Wood
+                                Kasey Patrick Morgan
+                                Callum Love
+                                Petrichor "petrak@7604"
+                                Devon Cupo
+                                Big Simple
+                                Kevin Orren
+                                Lennart Schefe
+                                Beemancer
+                                Lady Eithné, Queen of Brokilon
+                                Nic Gard
+                                NeroPrime
+                                InfiniteTidalWave
+                                Aveon Zero
+                                Joshua Southerland
+                                _tr
+                                James Earle
+                                Nick Correale
+                                MichaÅ‚ Byczko                                
+                                Reuben Eadon
+                                Shane Allcroft
+                                Aidan Page
+                                Earthly Delights Ogdo
+                                John Szevin
+                                Shane Allcroft
+                                Kelly Joyce
+                                Cleo Lamb
+                                Mike Sipior
+                                James Canter
+                                Joshua Buckley
+                                Qingyao Sun
+                                CHOWARD
+                                Luke J.
+                                Gobi Silverfrog, siver and gold goddess
+                                Ethan Rigby
+                                Ethan "Kobold" CB
+                                Maria Ross Colton Chamberlin
+                                {{w-W-Y-Y-Y-Y-Y-W-w sequence|Paingouin}} "Jordan B."
+                                James Lagervall
+                                Doug "Severian" Callahan
+                                Leo Durante
+                                Rarden
+                                Ray ({{r|Buecher}})
+                                awful_falafel
+                                ambersand
+                                dmajorduckie
+                                Lukas Wagner (Koenig Muskelmagen)
+                                Marek Pohlodek
+                                Kamille Rose
+                                Retes;Nome
+                                Sabboth Ochoa
+                                Almea
+                                Caleb Ulichney
+                                Visnex
+                                CreativeCorpse
+                                Kelly Vincent
+                                Teagan Erika Stephanie Strickland
+                                Mirthful Sloth
+                                beepy roboticvenusian (enchiridion)
+                                AvianAnarchy
+                                Gavin Conover
+
+  ]]
+</topic>
+  <topic name="Open Source Licenses" DisplayName="Open-Source-Lizenzen">
+[[{{c|License for Harmony (https://github.com/pardeike/Harmony)}}
+  {{W|MIT License}}
+
+  Copyright (c) 2017 Andreas Pardeike
+
+{{c|License for FuzzySharp (https://github.com/JakeBayer/FuzzySharp)}}
+  {{W|MIT License}}
+
+  Copyright (c) 2018 
+  
+{{c|License for UnityStandaloneFileBrowser
+ (https://github.com/gkngkc/UnityStandaloneFileBrowser)}}
+  {{W|MIT License}}
+
+  Copyright (c) 2017 Gökhan Gökçe
+
+{{c|License for ZString (https://github.com/Cysharp/ZString)}}
+  {{W|MIT License}}
+
+  Copyright (c) 2020 Yoshifumi Kawai / Cysharp, Inc.
+
+{{c|License for UniTask (https://github.com/Cysharp/UniTask)}}
+  {{W|MIT License}}
+
+  Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.
+
+
+{{W|MIT License}} {{c|- Full Text}}
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.]]
+
+</topic>
+</help>

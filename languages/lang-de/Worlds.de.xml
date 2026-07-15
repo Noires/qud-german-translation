@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<worlds Lang="de" Encoding="utf-8">
+  <world Name="ThinWorld" Load="Merge" DisplayName="Duenne Welt" />
+  <world Name="Tzimtzlum" Load="Merge" DisplayName="Tzimtzlum" />
+  <world Name="Interior" Load="Merge" DisplayName="Innen">
+    <cell Name="Golem" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Kontrollgrube" NameContext="Golem" />
+    </cell>
+    <cell Name="TempleMechaMkI" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Kontrollgrube" NameContext="Tempelmecha mk I" />
+    </cell>
+    <cell Name="TempleMechaMkII" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Kontrollgrube" NameContext="Tempelmecha mk II" />
+    </cell>
+    <cell Name="Mover" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Atrium" NameContext="Mover" />
+    </cell>
+    <cell Name="ShevaStarship" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Exodus" NameContext="Sternfahrerkai" />
+    </cell>
+    <cell Name="ShevaStarCarousel" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="vqvtl 3" NameContext="Sternfahrerkai" />
+    </cell>
+    <cell Name="Coda" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Coda" />
+    </cell>
+  </world>
+  <world Name="JoppaWorld" Load="Merge" DisplayName="Qud">
+    <cell Name="DefaultJoppaCell" Load="Merge">
+      <zone Level="0-9" x="0-2" y="0-2" Load="Merge" Name="offener Himmel" IndefiniteArticle="der" />
+      <zone Level="11-20" x="0-2" y="0-2" Load="Merge" Name="unterirdische Hoehlen" />
+      <zone Level="21-30" x="0-2" y="0-2" Load="Merge" Name="unterirdische Hoehlen" />
+      <zone Level="31-40" x="0-2" y="0-2" Load="Merge" Name="unterirdische Hoehlen" />
+      <zone Level="41-49" x="0-2" y="0-2" Load="Merge" Name="unterirdische Hoehlen" />
+    </cell>
+    <cell Name="WaterCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einem Salzfluss" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Salzfluss" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdischer Fluss" />
+    </cell>
+    <cell Name="LakeHinnomCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber dem Lake Hinnom" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Lake Hinnom" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="Hoehlen unter dem Lake Hinnom" />
+    </cell>
+    <cell Name="PalladiumReefCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber dem Palladiumriff" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Palladium-Riff" IndefiniteArticle="der" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdisches Riff" />
+    </cell>
+    <cell Name="YdFreeholdCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber dem Yd-Freihold" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Aussenbezirke" NameContext="das Yd Freehold" IndefiniteArticle="einige" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Yd Freehold" IndefiniteArticle="der" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdisches Riff" />
+      <zone Level="11" x="1" y="1" Load="Merge" ProperName="wahr" Name="Yd Freehold" />
+    </cell>
+    <cell Name="MoonStairCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber der Mondtreppe" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Mondtreppe" IndefiniteArticle="der" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdische Treppe" />
+    </cell>
+    <cell Name="EynRojCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Eyn Roj" IndefiniteArticle="der" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Eyn Roj" />
+      <zone Level="11-15" x="1" y="1" Load="Merge" ProperName="Falsch" Name="kristalline Wurzeln" />
+      <zone Level="16-40" x="1" y="1" Load="Merge" ProperName="Falsch" Name="kristalline Wurzeln" />
+      <zone Level="41-48" x="1" y="1" Load="Merge" ProperName="Falsch" Name="kristalline Wurzeln" />
+      <zone Level="49" x="1" y="1" Load="Merge" ProperName="Falsch" Name="kristalline Wurzeln" />
+    </cell>
+    <cell Name="FlowerfieldCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Blumenfeldern" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Blumenfelder" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdische Blumenfelder" />
+    </cell>
+    <cell Name="WatervineCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einem Salzmarsch" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Salzsumpf" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdisches Salzmarschland" />
+    </cell>
+    <cell Name="SaltMarsh" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einem Salzmarsch" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Salzsumpf" />
+    </cell>
+    <cell Name="Jungle" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber dem Dschungel" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Dschungel" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdischer Dschungel" />
+    </cell>
+    <cell Name="DeepJungle" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber dem tiefen Dschungel" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="tiefer Dschungel" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdischer dichter Dschungel" />
+    </cell>
+    <cell Name="Fungal" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber dem Regenbogenwald" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" ProperName="wahr" Name="Regenbogenholz" IndefiniteArticle="der" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="" NameContext="der Regenbogenwald" />
+    </cell>
+    <cell Name="Fungal Outskirts" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber dem Regenbogenwald" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" ProperName="wahr" Name="Regenbogenholz" IndefiniteArticle="der" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="" NameContext="der Regenbogenwald" />
+    </cell>
+    <cell Name="DesertCanyon" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einer Wuestenschlucht" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Wuestenschlucht" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdischer Wuestencanyon" />
+    </cell>
+    <cell Name="Hills" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Huegeln" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Huegel" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdische Huegel" />
+    </cell>
+    <cell Name="Mountains" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Bergen" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Berge" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdische Berge" />
+    </cell>
+    <cell Name="SaltDesertCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einer Salzwueste" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Salzwueste" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdische Salzwueste" />
+    </cell>
+    <cell Name="SixDayStilt" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber den Stelzengelaenden" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="" NameContext="Die Stelzenlande" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Sechstage-Stelze" />
+    </cell>
+    <cell Name="Kyakukya" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Kyakukya" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Aussenbezirke" NameContext="Kyakukya" IndefiniteArticle="einige" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Kyakukya" />
+    </cell>
+    <cell Name="Joppa" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Joppa" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Aussenbezirke" NameContext="Joppa" IndefiniteArticle="einige" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Joppa" />
+      <zone Level="11" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="12" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="13" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="14" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="14" x="1" y="0" Load="Merge" Name="wassergesaettigter Tunnel" />
+    </cell>
+    <cell Name="JoppaRuins" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Joppa" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Aussenbezirke" NameContext="Joppa" IndefiniteArticle="einige" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Joppa" />
+      <zone Level="11" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="12" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="13" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="14" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="14" x="1" y="0" Load="Merge" Name="wassergesaettigter Tunnel" />
+    </cell>
+    <cell Name="Rustwell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber den Rostbrunnen" IndefiniteArticle="der" />
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Rostbrunnen" />
+      <zone Level="11" x="1" y="1" Load="Merge" Name="Rostbrunnen" />
+      <zone Level="12" x="1" y="1" Load="Merge" Name="Rostbrunnen" />
+      <zone Level="13" x="1" y="1" Load="Merge" Name="Rostbrunnen" />
+    </cell>
+    <cell Name="Gritgate" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Grit Gate" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Aussenbezirke" NameContext="Grit Gate" IndefiniteArticle="einige" />
+      <zone Level="10" x="1" y="1" Load="Merge" NameContext="Grit Gate" />
+      <zone Level="11-29" x="0-2" y="0-2" Load="Merge" Name="untere Tunnel" NameContext="Grit Gate" />
+      <zone Level="12" x="1" y="0" Load="Merge" Name="untere Tunnel" NameContext="Grit Gate" />
+      <zone Level="12" x="1" y="1" Load="Merge" Name="untere Tunnel" NameContext="Grit Gate" />
+      <zone Level="13" x="1" y="1" Load="Merge" Name="Eintrittsebene" NameContext="Grit Gate" />
+      <zone Level="13" x="2" y="0" Load="Merge" ProperName="wahr" Name="Grit Gate" />
+      <zone Level="13" x="1" y="0" Load="Merge" ProperName="wahr" Name="Grit Gate" />
+      <zone Level="14" x="1" y="0" Load="Merge" ProperName="wahr" Name="Baratherums Studierstube" NameContext="Grit Gate" />
+      <zone Level="15" x="1" y="0" Load="Merge" Name="untere Tunnel" NameContext="Grit Gate" />
+    </cell>
+    <cell Name="Golgotha" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Golgotha" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" NameContext="Golgotha" />
+      <zone Level="10" x="1" y="1" Load="Merge" NameContext="Golgotha" />
+      <zone Level="11-14" x="1" y="1" Load="Merge" Name="Muellschaechte" NameContext="Golgotha" />
+      <zone Level="15" x="1" y="1" Load="Merge" ProperName="wahr" Name="Kloake" NameContext="Golgotha" />
+      <zone Level="16-20" x="1" y="1" Load="Merge" Name="unterirdische Hoehlen" />
+      <zone Level="21-30" x="1" y="1" Load="Merge" Name="unterirdische Hoehlen" />
+      <zone Level="31-40" x="1" y="1" Load="Merge" Name="unterirdische Hoehlen" />
+      <zone Level="41-49" x="1" y="1" Load="Merge" Name="unterirdische Hoehlen" />
+    </cell>
+    <cell Name="rusted archway" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einem rostigen Torbogen" IndefiniteArticle="der" />
+      <zone Level="10" x="1" y="1" Load="Merge" NameContext="ein verrostetes Torhaus" />
+      <zone Level="11-13" x="1" y="1" Load="Merge" Name="" NameContext="ein verrostetes Torhaus" />
+      <zone Level="14" x="1" y="1" Load="Merge" Name="" NameContext="ein verrostetes Torhaus" />
+    </cell>
+    <cell Name="Asphalt Mines" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber den Asphaltminen" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" NameContext="die Asphalt-Minen" />
+      <zone Level="10" x="1" y="1" Load="Merge" NameContext="die Asphalt-Minen" />
+      <zone Level="11-14" x="0-2" y="0-2" Load="Merge" Name="obere Schaechte" NameContext="die Asphalt-Minen" />
+      <zone Level="15" x="0-2" y="0-2" Load="Merge" Name="mittlere Schaechte" NameContext="die Asphalt-Minen" />
+      <zone Level="16-18" x="0-2" y="0-2" Load="Merge" Name="mittlere Schaechte" NameContext="die Asphalt-Minen" />
+      <zone Level="19-22" x="0-2" y="0-2" Load="Merge" Name="tiefe Schaechte" NameContext="die Asphalt-Minen" />
+      <zone Level="23-27" x="0-2" y="0-2" Load="Merge" ProperName="wahr" Name="Darkunder" NameContext="die Asphalt-Minen" />
+      <zone Level="28" x="0-2" y="0-2" Load="Merge" ProperName="wahr" Name="Stadt der Knochen" NameContext="die Asphalt-Minen" />
+      <zone Level="29" x="0-2" y="0-2" Load="Merge" ProperName="wahr" Name="Grosses Meer" NameContext="die Asphalt-Minen" />
+      <zone Level="30-35" x="0-2" y="0-2" Load="Merge" ProperName="wahr" Name="Tunnel von Ur" NameContext="die Asphalt-Minen" />
+      <zone Level="36-40" x="0-2" y="0-2" Load="Merge" ProperName="wahr" Name="Schlurfende Weite" NameContext="die Asphalt-Minen" />
+      <zone Level="40" x="1" y="1" Load="Merge" ProperName="wahr" Name="Schlurfende Weite" NameContext="die Asphalt-Minen" />
+    </cell>
+    <cell Name="Bethesda Susa" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Bethesda Susa" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Aussenbezirke" NameContext="Bethesda Susa" IndefiniteArticle="einige" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Bethesda Susa" />
+      <zone Level="11-26" x="1" y="1" Load="Merge" Name="Tunnel" NameContext="Bethesda Susa" />
+      <zone Level="11" x="1" y="0" Load="Merge" Name="Flusspassage" NameContext="Bethesda Susa" />
+      <zone Level="11" x="1" y="1" Load="Merge" Name="verfallener Kai" NameContext="Bethesda Susa" />
+      <zone Level="11" x="1" y="2" Load="Merge" Name="Flusspassage" NameContext="Bethesda Susa" />
+      <zone Level="12" x="1" y="1" Load="Merge" Name="Heilungsbecken" NameContext="Bethesda Susa" />
+      <zone Level="13" x="1" y="1" Load="Merge" Name="Heilungsbecken" NameContext="Bethesda Susa" />
+      <zone Level="14" x="1" y="1" Load="Merge" Name="Heilungsbecken" NameContext="Bethesda Susa" />
+      <zone Level="15" x="1" y="1" Load="Merge" Name="verlassener Fluegel" NameContext="Bethesda Susa" />
+      <zone Level="16-17" x="1" y="1" Load="Merge" Name="zerstoerter Stadtteil" NameContext="Bethesda Susa" />
+      <zone Level="18" x="1" y="1" Load="Merge" Name="zerstoerter Stadtteil" NameContext="Bethesda Susa" />
+      <zone Level="19-20" x="1" y="1" Load="Merge" Name="zerstoerter Stadtteil" NameContext="Bethesda Susa" />
+      <zone Level="21" x="1" y="1" Load="Merge" Name="verlassener Fluegel" NameContext="Bethesda Susa" />
+      <zone Level="22" x="1" y="1" Load="Merge" Name="verlassener Fluegel" NameContext="Bethesda Susa" />
+      <zone Level="23" x="1" y="1" Load="Merge" Name="Kybernetik-Station" NameContext="Bethesda Susa" />
+      <zone Level="24" x="1" y="1" Load="Merge" ProperName="wahr" Name="Cryobarrio" NameContext="Bethesda Susa" />
+      <zone Level="25" x="1" y="1" Load="Merge" ProperName="wahr" Name="Cryobarrio" NameContext="Bethesda Susa" />
+      <zone Level="26" x="1" y="1" Load="Merge" ProperName="wahr" Name="Tempel des Felsens" NameContext="Bethesda Susa" />
+      <zone Level="27-30" x="1" y="1" Load="Merge" Name="unterirdische Hoehlen" />
+      <zone Level="31-40" x="1" y="1" Load="Merge" Name="unterirdische Hoehlen" />
+      <zone Level="41-49" x="1" y="1" Load="Merge" Name="unterirdische Hoehlen" />
+    </cell>
+    <cell Name="BananaGrove" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einem Bananenhain" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Bananenhain" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdischer Bananenhain" />
+    </cell>
+    <cell Name="TheSpindle" Load="Merge">
+      <zone Level="0-9" x="0-2" y="0-2" Load="Merge" Name="Himmel um die Spindel" IndefiniteArticle="der" />
+      <zone Level="11" x="0-2" y="0-2" Load="Merge" Name="Volkskatakomben" NameContext="das Grab der Esser" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Strukturrippe" NameContext="das Grab der Esser" />
+      <zone Level="10" x="1" y="2" Load="Merge" Name="Grosses Vestibuel" NameContext="das Grab der Esser" />
+      <zone Level="10" x="0" y="2" Load="Merge" Name="Grosses Vestibuel" NameContext="das Grab der Esser" />
+      <zone Level="10" x="0" y="0" Load="Merge" Name="Grosses Vestibuel" NameContext="das Grab der Esser" />
+      <zone Level="10" x="0" y="1" Load="Merge" Name="Grosses Vestibuel" NameContext="das Grab der Esser" />
+      <zone Level="10" x="2" y="0" Load="Merge" Name="Zugangskorridor" NameContext="das Grab der Esser" />
+      <zone Level="10" x="2" y="2" Load="Merge" Name="Zugangskorridor" NameContext="das Grab der Esser" />
+      <zone Level="9" x="0" y="0-2" Load="Merge" Name="Kolumbarium: Grundherren und Wandler" NameContext="das Grab der Esser" />
+      <zone Level="9" x="1-2" y="0" Load="Merge" Name="Krematorium" NameContext="das Grab der Esser" />
+      <zone Level="9" x="1-2" y="2" Load="Merge" Name="Krematorium" NameContext="das Grab der Esser" />
+      <zone Level="9" x="2" y="1" Load="Merge" Name="Krematorium-Maschinenraum" NameContext="das Grab der Esser" />
+      <zone Level="8" x="0-2" y="0-2" Load="Merge" Name="Untere Krypten: Krieger und Tutoren" NameContext="das Grab der Esser" />
+      <zone Level="8" x="1" y="1" Load="Merge" Name="Spindle-Kanal" IndefiniteArticle="der" />
+      <zone Level="7" x="0-2" y="0-2" Load="Merge" Name="Obere Krypten: Priester und koenigliche Familien" NameContext="das Grab der Esser" />
+      <zone Level="7" x="1" y="1" Load="Merge" Name="Spindle-Kanal" IndefiniteArticle="der" />
+      <zone Level="6" x="0-2" y="0-2" Load="Merge" Name="Strukturrippe" NameContext="das Grab der Esser" />
+      <zone Level="6" x="0" y="2" Load="Merge" Name="Liminal Way" NameContext="das Grab der Esser" />
+      <zone Level="5" x="0" y="2" Load="Merge" Name="Grab des =sultan:1=" NameContext="das Grab der Esser" />
+      <zone Level="5" x="0" y="1" Load="Merge" Name="Grab des =sultan:1=" NameContext="das Grab der Esser" />
+      <zone Level="5" x="0" y="0" Load="Merge" Name="Grab des =sultan:1=" NameContext="das Grab der Esser" />
+      <zone Level="5" x="1" y="0" Load="Merge" Name="Grab des =sultan:1=" NameContext="das Grab der Esser" />
+      <zone Level="5" x="2" y="0" Load="Merge" Name="Grab des =sultan:1=" NameContext="das Grab der Esser" />
+      <zone Level="5" x="2" y="1" Load="Merge" Name="Grab des =sultan:1=" NameContext="das Grab der Esser" />
+      <zone Level="5" x="2" y="2" Load="Merge" Name="Grab des =sultan:1=" NameContext="das Grab der Esser" />
+      <zone Level="4" x="0" y="2" Load="Merge" Name="Grab des =sultan:2=" NameContext="das Grab der Esser" />
+      <zone Level="4" x="0" y="1" Load="Merge" Name="Grab des =sultan:2=" NameContext="das Grab der Esser" />
+      <zone Level="4" x="0" y="0" Load="Merge" Name="Grab des =sultan:2=" NameContext="das Grab der Esser" />
+      <zone Level="4" x="1" y="0" Load="Merge" Name="Grab des =sultan:2=" NameContext="das Grab der Esser" />
+      <zone Level="4" x="2" y="0" Load="Merge" Name="Grab des =sultan:2=" NameContext="das Grab der Esser" />
+      <zone Level="4" x="2" y="1" Load="Merge" Name="Grab des =sultan:2=" NameContext="das Grab der Esser" />
+      <zone Level="4" x="2" y="2" Load="Merge" Name="Grab des =sultan:2=" NameContext="das Grab der Esser" />
+      <zone Level="3" x="0" y="2" Load="Merge" Name="Grab des =sultan:3=" NameContext="das Grab der Esser" />
+      <zone Level="3" x="0" y="1" Load="Merge" Name="Grab des =sultan:3=" NameContext="das Grab der Esser" />
+      <zone Level="3" x="0" y="0" Load="Merge" Name="Grab des =sultan:3=" NameContext="das Grab der Esser" />
+      <zone Level="3" x="1" y="0" Load="Merge" Name="Grab des =sultan:3=" NameContext="das Grab der Esser" />
+      <zone Level="3" x="2" y="0" Load="Merge" Name="Grab des =sultan:3=" NameContext="das Grab der Esser" />
+      <zone Level="3" x="2" y="1" Load="Merge" Name="Grab des =sultan:3=" NameContext="das Grab der Esser" />
+      <zone Level="3" x="2" y="2" Load="Merge" Name="Grab des =sultan:3=" NameContext="das Grab der Esser" />
+      <zone Level="2" x="0" y="2" Load="Merge" Name="Grab des =sultan:4=" NameContext="das Grab der Esser" />
+      <zone Level="2" x="0" y="1" Load="Merge" Name="Grab des =sultan:4=" NameContext="das Grab der Esser" />
+      <zone Level="2" x="0" y="0" Load="Merge" Name="Grab des =sultan:4=" NameContext="das Grab der Esser" />
+      <zone Level="2" x="1" y="0" Load="Merge" Name="Grab des =sultan:4=" NameContext="das Grab der Esser" />
+      <zone Level="2" x="2" y="0" Load="Merge" Name="Grab des =sultan:4=" NameContext="das Grab der Esser" />
+      <zone Level="2" x="2" y="1" Load="Merge" Name="Grab des =sultan:4=" NameContext="das Grab der Esser" />
+      <zone Level="2" x="2" y="2" Load="Merge" Name="Grab des =sultan:4=" NameContext="das Grab der Esser" />
+      <zone Level="1" x="0" y="2" Load="Merge" Name="Grab des =sultan:5=" NameContext="das Grab der Esser" />
+      <zone Level="1" x="0" y="1" Load="Merge" Name="Grab des =sultan:5=" NameContext="das Grab der Esser" />
+      <zone Level="1" x="0" y="0" Load="Merge" Name="Grab des =sultan:5=" NameContext="das Grab der Esser" />
+      <zone Level="1" x="1" y="0" Load="Merge" Name="Grab des =sultan:5=" NameContext="das Grab der Esser" />
+      <zone Level="1" x="2" y="0" Load="Merge" Name="Grab des =sultan:5=" NameContext="das Grab der Esser" />
+      <zone Level="1" x="2" y="1" Load="Merge" Name="Grab des =sultan:5=" NameContext="das Grab der Esser" />
+      <zone Level="1" x="2" y="2" Load="Merge" Name="Grab des =sultan:5=" NameContext="das Grab der Esser" />
+      <zone Level="0" x="0" y="2" Load="Merge" Name="unfertiges Grab" NameContext="das Grab der Esser" />
+      <zone Level="0" x="0" y="1" Load="Merge" Name="unfertiges Grab" NameContext="das Grab der Esser" />
+      <zone Level="0" x="0" y="0" Load="Merge" Name="unfertiges Grab" NameContext="das Grab der Esser" />
+      <zone Level="0" x="1" y="0" Load="Merge" Name="unfertiges Grab" NameContext="das Grab der Esser" />
+      <zone Level="0" x="2" y="0" Load="Merge" Name="unfertiges Grab" NameContext="das Grab der Esser" />
+      <zone Level="0" x="2" y="1" Load="Merge" Name="unfertiges Grab" NameContext="das Grab der Esser" />
+      <zone Level="0" x="2" y="2" Load="Merge" Name="unfertiges Grab" NameContext="das Grab der Esser" />
+      <zone Level="0-14" x="1" y="1" Load="Merge" Name="Spindle-Kanal" IndefiniteArticle="der" />
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Aufstiegskammer" />
+      <zone Level="14" x="1" y="1" Load="Merge" Name="Tether Bay" IndefiniteArticle="der" />
+      <zone Level="0-5" x="1" y="2" Load="Merge" Name="Himmel um die Spindel" IndefiniteArticle="der" />
+    </cell>
+    <cell Name="Omonporch" Load="Merge">
+      <zone Level="6-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Omonporch" IndefiniteArticle="der" />
+      <zone Level="0-5" x="1" y="0" Load="Merge" Name="Himmel ueber Omonporch" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="" NameContext="Omonporch" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdischer Bananenhain" />
+      <zone Level="10" x="1" y="0" Load="Merge" Name="Arkade zu den Doppeltoren" NameContext="Omonporch" />
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Hof der Sultane" NameContext="Omonporch" />
+      <zone Level="10" x="0" y="0" Load="Merge" ProperName="wahr" Name="Ezra" />
+    </cell>
+    <cell Name="Redrock" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber Red Rock" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Aussenbezirke" NameContext="Roter Stein" IndefiniteArticle="einige" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="wahr" Name="Roter Stein" />
+      <zone Level="11" x="1" y="1" Load="Merge" Name="" NameContext="Roter Stein" />
+      <zone Level="12" x="1" y="1" Load="Merge" Name="" NameContext="Roter Stein" />
+      <zone Level="13" x="1" y="1" Load="Merge" Name="" NameContext="Roter Stein" />
+      <zone Level="14" x="1" y="1" Load="Merge" Name="" NameContext="Roter Stein" />
+      <zone Level="14" x="1" y="2" Load="Merge" Name="" NameContext="Roter Stein" />
+    </cell>
+    <cell Name="JoppaRedrockChannel" Load="Merge">
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Salzsumpf" />
+      <zone Level="14" x="1" y="0" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="14" x="1" y="1" Load="Merge" Name="wassergesaettigter Tunnel" />
+      <zone Level="14" x="1" y="2" Load="Merge" Name="wassergesaettigter Tunnel" />
+    </cell>
+    <cell Name="RuinsCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einigen Ruinen" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Ruinen" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdische Ruinen" />
+      <zone Level="16-20" x="0-2" y="0-2" Load="Merge" Name="unterirdische Ruinen" />
+      <zone Level="21-30" x="0-2" y="0-2" Load="Merge" Name="unterirdische Ruinen" />
+      <zone Level="31-40" x="0-2" y="0-2" Load="Merge" Name="unterirdische Ruinen" />
+    </cell>
+    <cell Name="BaroqueRuinsCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einigen barocken Ruinen" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="barocke Ruinen" />
+      <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="unterirdische barocke Ruinen" />
+      <zone Level="16-30" x="0-2" y="0-2" Load="Merge" Name="unterirdische barocke Ruinen" />
+      <zone Level="31-40" x="0-2" y="0-2" Load="Merge" Name="unterirdische barocke Ruinen" />
+    </cell>
+    <cell Name="JoppaTutorialArea" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="Himmel ueber einem Salzmarsch" IndefiniteArticle="der" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Salzsumpf" />
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Salzsumpf" />
+      <zone Level="10" x="1" y="0" Load="Merge" Name="Salzsumpf" />
+      <zone Level="11" x="1" y="1" Load="Merge" Name="Salzsumpf" />
+      <zone Level="11" x="1" y="0" Load="Merge" Name="Salzsumpf" />
+    </cell>
+  </world>
+  <world Name="NorthSheva" Load="Merge" DisplayName="Der Norden Sheva">
+    <cell Name="DefaultNorthShevaCell" Load="Merge">
+      <zone Level="0-9" x="0-2" y="0-2" Load="Merge" Name="hohe Umlaufbahn" />
+    </cell>
+    <cell Name="ArrivariumCell" Load="Merge">
+      <zone Level="10" x="1" y="0" Load="Merge" Name="Arrivarium" NameContext="die Noerdliche Sheva" />
+    </cell>
+    <cell Name="EarthGateCell" Load="Merge">
+      <zone Level="10" x="1" y="0" Load="Merge" Name="Erdtor" NameContext="die Noerdliche Sheva" IndefiniteArticle="der" />
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Schwarze Mauer" NameContext="die Noerdliche Sheva" IndefiniteArticle="der" />
+      <zone Level="10" x="1" y="2" Load="Merge" Name="Schwarze Mauer" NameContext="die Noerdliche Sheva" IndefiniteArticle="der" />
+    </cell>
+    <cell Name="TifaretCell" Load="Merge">
+      <zone Level="10" x="1" y="2" Load="Merge" Name="Flache Treppe" NameContext="die Noerdliche Sheva" />
+      <zone Level="9" x="1" y="2" Load="Merge" Name="Flache Treppe" NameContext="die Noerdliche Sheva" />
+      <zone Level="8" x="1" y="2" Load="Merge" Name="Bruecke der Eidolons" NameContext="die Noerdliche Sheva" />
+      <zone Level="8" x="2" y="2" Load="Merge" Name="Punkt von Tifaret" NameContext="die Noerdliche Sheva" />
+    </cell>
+    <cell Name="ArkStopCell" Load="Merge">
+      <zone Level="10" x="1" y="0" Load="Merge" Name="Noerdliche Arche" NameContext="die Noerdliche Sheva" IndefiniteArticle="der" />
+      <zone Level="10" x="0" y="0" Load="Merge" Name="Noerdliche Arche" NameContext="die Noerdliche Sheva" IndefiniteArticle="der" />
+    </cell>
+    <cell Name="ArkArchCell" Load="Merge">
+      <zone Level="10" x="1" y="2" Load="Merge" Name="Schuetzender Bogen" NameContext="die Noerdliche Arche" />
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Schuetzender Bogen" NameContext="die Noerdliche Arche" />
+      <zone Level="10" x="1" y="0" Load="Merge" Name="Schuetzender Bogen" NameContext="die Noerdliche Arche" />
+    </cell>
+    <cell Name="ArkSiachCell" Load="Merge">
+      <zone Level="10" x="1" y="2" Load="Merge" Name="Der Grosse Siach" NameContext="die Noerdliche Arche" />
+      <zone Level="10" x="2" y="2" Load="Merge" Name="holzgeschnitzter Raum" NameContext="die Noerdliche Arche" IndefiniteArticle="a" />
+    </cell>
+    <cell Name="QuayStopCell" Load="Merge">
+      <zone Level="10" x="2" y="2" Load="Merge" Name="Sternfahrerkai" NameContext="die Noerdliche Sheva" />
+    </cell>
+    <cell Name="QuayCellSurface" Load="Merge">
+      <zone Level="10" x="0" y="2" Load="Merge" Name="Noerdliche Moore" NameContext="Sternfahrerkai" />
+    </cell>
+    <cell Name="QuayCell" Load="Merge">
+      <zone Level="10" x="0" y="0" Load="Merge" Name="Noerdliche Moore" NameContext="Sternfahrerkai" />
+      <zone Level="10" x="0" y="1" Load="Merge" Name="Noerdliche Moore" NameContext="Sternfahrerkai" />
+    </cell>
+    <cell Name="StarOrchidTempleCell" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" Name="Sternenorchideentempel" />
+      <zone Level="9" x="1" y="1" Load="Merge" Name="Sternenorchideentempel" />
+      <zone Level="8" x="1" y="1" Load="Merge" Name="Sternenorchideentempel" />
+    </cell>
+  </world>
+</worlds>

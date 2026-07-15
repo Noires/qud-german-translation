@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<statistics Lang="de" Encoding="utf-8">
+  <statistic Name="Strength">
+    <displayName>Staerke</displayName>
+    <displayNameSingular>Staerke</displayNameSingular>
+    <displayTitle>Staerke</displayTitle>
+    <displayTitleSingular>Staerke</displayTitleSingular>
+    <shortName>STR</shortName>
+    <shortTitle>Str</shortTitle>
+    <narrationName>Staerke</narrationName>
+    <helpText>Eure {{W|Staerke}} bestimmt, wie viel Nahkampfschaden Ihr verursacht (durch Verbesserung Eurer Ruestungsdurchschlagskraft), Eure Faehigkeit, erzwungene Bewegung zu widerstehen, und Eure Tragekapazitaet.</helpText>
+  </statistic>
+  <statistic Name="Agility">
+    <displayName>Beweglichkeit</displayName>
+    <displayNameSingular>Beweglichkeit</displayNameSingular>
+    <displayTitle>Behaendigkeit</displayTitle>
+    <displayTitleSingular>Behaendigkeit</displayTitleSingular>
+    <shortName>AGI</shortName>
+    <shortTitle>Agi</shortTitle>
+    <narrationName>Beweglichkeit</narrationName>
+    <helpText>Eure {{W|Gewandtheit}} bestimmt Eure Genauigkeit mit Nahkampf- und Fernkampfwaffen sowie Eure Chance, Angriffen auszuweichen.</helpText>
+  </statistic>
+  <statistic Name="Toughness">
+    <displayName>Zaehigkeit</displayName>
+    <displayNameSingular>Zaehigkeit</displayNameSingular>
+    <displayTitle>Zaehigkeit</displayTitle>
+    <displayTitleSingular>Zaehigkeit</displayTitleSingular>
+    <shortName>TOU</shortName>
+    <shortTitle>Tou</shortTitle>
+    <narrationName>Zaehigkeit</narrationName>
+    <helpText>Eure {{W|Zaehigkeit}} bestimmt Eure Anzahl von Trefferpunkten, Eure Trefferpunkt-Regenerationsrate und Eure Faehigkeit, Gifte und Krankheiten zu widerstehen.</helpText>
+  </statistic>
+  <statistic Name="Intelligence">
+    <displayName>Intelligenz</displayName>
+    <displayNameSingular>Intelligenz</displayNameSingular>
+    <displayTitle>Intelligenz</displayTitle>
+    <displayTitleSingular>Intelligenz</displayTitleSingular>
+    <shortName>INT</shortName>
+    <shortTitle>Int</shortTitle>
+    <narrationName>Intelligenz</narrationName>
+    <helpText>Eure {{W|Intelligenz}} bestimmt Eure Anzahl von Fertigkeitspunkten und Eure Faehigkeit, Artefakte zu untersuchen.</helpText>
+  </statistic>
+  <statistic Name="Willpower">
+    <displayName>Willenskraft</displayName>
+    <displayNameSingular>Willenskraft</displayNameSingular>
+    <displayTitle>Willenskraft</displayTitle>
+    <displayTitleSingular>Willenskraft</displayTitleSingular>
+    <shortName>WIL</shortName>
+    <shortTitle>Wil</shortTitle>
+    <narrationName>Willenskraft</narrationName>
+    <helpText>Euer {{W|Wille}} veraendert die Abklingzeiten Eurer aktivierten Faehigkeiten, bestimmt Eure Faehigkeit, mentale Angriffe zu widerstehen, und veraendert Eure Trefferpunkt-Regenerationsrate.</helpText>
+  </statistic>
+  <statistic Name="Ego">
+    <displayName>Ego</displayName>
+    <displayNameSingular>Ego</displayNameSingular>
+    <displayTitle>Ego</displayTitle>
+    <displayTitleSingular>Ego</displayTitleSingular>
+    <shortName>EGO</shortName>
+    <shortTitle>Ego</shortTitle>
+    <narrationName>Ego</narrationName>
+    <helpText>Euer {{W|Ego}} bestimmt die Potenz Eurer mentalen Mutationen, Eure Faehigkeit, mit Haendlern zu feilschen, und Eure Faehigkeit, den Willen anderer lebender Kreaturen zu dominieren.</helpText>
+  </statistic>
+  <statistic Name="AV">
+    <displayName>AV</displayName>
+    <displayNameSingular>AV</displayNameSingular>
+    <displayTitle>AV</displayTitle>
+    <displayTitleSingular>AV</displayTitleSingular>
+    <shortName>AV</shortName>
+    <shortTitle>AV</shortTitle>
+    <narrationName>AV</narrationName>
+    <helpText>Euer {{W|Ruestungswert (AV)}} misst, wie gut Ihr gegen physische Angriffe geschuetzt seid. Je hoeher Euer Wert, desto weniger oft wird der Angriff eines Gegners Eure Ruestung durchdringen und Schaden verursachen.</helpText>
+  </statistic>
+  <statistic Name="DV">
+    <displayName>DV</displayName>
+    <displayNameSingular>DV</displayNameSingular>
+    <displayTitle>DV</displayTitle>
+    <displayTitleSingular>DV</displayTitleSingular>
+    <shortName>DV</shortName>
+    <shortTitle>DV</shortTitle>
+    <narrationName>DV</narrationName>
+    <helpText>Euer {{W|Ausweichswert (DV)}} misst, wie wahrscheinlich es ist, dass Ihr von physischen Angriffen getroffen werdet. Je hoeher Euer Wert, desto unwahrscheinlicher wird ein Angriff eines Gegners Euch treffen. Euer DV wird durch Euren Gewandtheits-Modifikator veraendert.</helpText>
+  </statistic>
+  <statistic Name="MA">
+    <displayName>MA</displayName>
+    <displayNameSingular>MA</displayNameSingular>
+    <displayTitle>MA</displayTitle>
+    <displayTitleSingular>MA</displayTitleSingular>
+    <shortName>MA</shortName>
+    <shortTitle>MA</shortTitle>
+    <narrationName>MA</narrationName>
+    <helpText>Eure {{W|Geistige Ruestung (MA)}} misst, wie gut Ihr gegen mentale Angriffe geschuetzt seid. Je hoeher Euer Wert, desto unwahrscheinlicher wird der mentale Angriff eines Gegners Eure Verteidigungen durchdringen und Euch schaden. Eure MA wird durch Euren Willen-Modifikator veraendert.</helpText>
+  </statistic>
+  <statistic Name="Speed">
+    <displayName>Schnelligkeit</displayName>
+    <displayNameSingular>Schnelligkeit</displayNameSingular>
+    <displayTitle>Schnelligkeit</displayTitle>
+    <displayTitleSingular>Schnelligkeit</displayTitleSingular>
+    <shortName>QN</shortName>
+    <shortTitle>QN</shortTitle>
+    <narrationName>Schnelligkeit</narrationName>
+    <helpText>Eure {{W|Schnelligkeit}} misst die Geschwindigkeit, mit der Ihr jede Aktion durchfuehrt.</helpText>
+  </statistic>
+  <statistic Name="MoveSpeed">
+    <displayName>Bewegungsgeschwindigkeit</displayName>
+    <displayNameSingular>Bewegungsgeschwindigkeit</displayNameSingular>
+    <displayTitle>Bewegungsgeschwindigkeit</displayTitle>
+    <displayTitleSingular>Bewegungsgeschwindigkeit</displayTitleSingular>
+    <shortName>MS</shortName>
+    <shortTitle>MS</shortTitle>
+    <narrationName>Bewegungsgeschwindigkeit</narrationName>
+    <helpText>Eure {{W|Bewegungsgeschwindigkeit}} misst, wie schnell Ihr gehen oder fliegen koennt.</helpText>
+  </statistic>
+  <statistic Name="Temperature">
+    <displayName>Temperatur</displayName>
+    <displayNameSingular>Temperatur</displayNameSingular>
+    <displayTitle>Temperatur</displayTitle>
+    <displayTitleSingular>Temperatur</displayTitleSingular>
+    <shortName>T</shortName>
+    <shortTitle>T</shortTitle>
+    <narrationName>Temperatur</narrationName>
+    <helpText>Eure {{W|Temperatur}} misst, wie heiss oder kalt Ihr seid. Zu kalt zu sein kann Eure Schnelligkeit senken und verhindern, dass Ihr physische Aktionen durchfuehrt. Zu heiss zu sein kann Euch in Brand setzen und jeden Runde Schaden verursachen.</helpText>
+  </statistic>
+  <statistic Name="AcidResistance">
+    <displayName>Saeureresistenz</displayName>
+    <displayNameSingular>Saeureresistenz</displayNameSingular>
+    <displayTitle>Saeureresistenz</displayTitle>
+    <displayTitleSingular>Saeureresistenz</displayTitleSingular>
+    <shortName>AR</shortName>
+    <shortTitle>AR</shortTitle>
+    <narrationName>Saeureresistenz</narrationName>
+    <helpText>Euer {{W|Saeureresistenz}} bestimmt, wie viel Saeureschaden Ihr ablehrt. Bei 100 seid Ihr immun gegen Saeureschaden.</helpText>
+  </statistic>
+  <statistic Name="ColdResistance">
+    <displayName>Kaelteresistenz</displayName>
+    <displayNameSingular>Kaelteresistenz</displayNameSingular>
+    <displayTitle>Kaelteresistenz</displayTitle>
+    <displayTitleSingular>Kaelteresistenz</displayTitleSingular>
+    <shortName>CR</shortName>
+    <shortTitle>CR</shortTitle>
+    <narrationName>Kaelteresistenz</narrationName>
+    <helpText>Eure {{W|Kaelteresistenz}} bestimmt, wie viel Kaelteschaden Ihr ablehrt, und wie isoliert Ihr gegen Effekte seid, die Eure Temperatur senken. Bei 100 seid Ihr immun gegen Kaelteschaden und Eure Temperatur kann nicht gesenkt werden.</helpText>
+  </statistic>
+  <statistic Name="ElectricResistance">
+    <displayName>Elektrischer Widerstand</displayName>
+    <displayNameSingular>Elektrischer Widerstand</displayNameSingular>
+    <displayTitle>Elektrische Widerstandsfaehigkeit</displayTitle>
+    <displayTitleSingular>Elektrische Widerstandsfaehigkeit</displayTitleSingular>
+    <shortName>ER</shortName>
+    <shortTitle>ER</shortTitle>
+    <narrationName>Elektrischer Widerstand</narrationName>
+    <helpText>Eure {{W|Elektrische Resistenz}} bestimmt, wie viel Blitzschaden Ihr ablehrt, und wie widerstandsfaehig Ihr gegen elektrischen Strom seid. Bei 100 seid Ihr immun gegen Blitzschaden und leitet keinen Strom.</helpText>
+  </statistic>
+  <statistic Name="HeatResistance">
+    <displayName>Waermebestaendigkeit</displayName>
+    <displayNameSingular>Waermebestaendigkeit</displayNameSingular>
+    <displayTitle>Hitzeresistenz</displayTitle>
+    <displayTitleSingular>Hitzeresistenz</displayTitleSingular>
+    <shortName>HR</shortName>
+    <shortTitle>HR</shortTitle>
+    <narrationName>Waermebestaendigkeit</narrationName>
+    <helpText>Eure {{W|Hitzeresistenz}} bestimmt, wie viel Hitzeschaden Ihr ablehrt, und wie isoliert Ihr gegen Effekte seid, die Eure Temperatur erhoehen. Bei 100 seid Ihr immun gegen Hitzeschaden und Eure Temperatur kann nicht erhoeht werden.</helpText>
+  </statistic>
+  <statistic Name="Hitpoints">
+    <displayName>Lebenspunkte</displayName>
+    <displayNameSingular>Lebenspunkt</displayNameSingular>
+    <displayTitle>Lebenspunkte</displayTitle>
+    <displayTitleSingular>Lebenspunkt</displayTitleSingular>
+    <shortName>HP</shortName>
+    <shortTitle>HP</shortTitle>
+    <narrationName>Leben</narrationName>
+  </statistic>
+  <statistic Name="AP">
+    <displayName>Attributpunkte</displayName>
+    <displayNameSingular>Attributpunkt</displayNameSingular>
+    <displayTitle>Attributpunkte</displayTitle>
+    <displayTitleSingular>Attributpunkt</displayTitleSingular>
+    <shortName>AP</shortName>
+    <shortTitle>AP</shortTitle>
+    <narrationName>Attributpunkte</narrationName>
+  </statistic>
+  <statistic Name="MP">
+    <displayName>Mutationspunkte</displayName>
+    <displayNameSingular>Mutationspunkt</displayNameSingular>
+    <displayTitle>Mutationspunkte</displayTitle>
+    <displayTitleSingular>Mutationspunkt</displayTitleSingular>
+    <shortName>MP</shortName>
+    <shortTitle>MP</shortTitle>
+    <narrationName>Mutationspunkte</narrationName>
+  </statistic>
+  <statistic Name="SP">
+    <displayName>Fertigkeitspunkte</displayName>
+    <displayNameSingular>Fertigkeitspunkt</displayNameSingular>
+    <displayTitle>Fertigkeitspunkte</displayTitle>
+    <displayTitleSingular>Fertigkeitspunkt</displayTitleSingular>
+    <shortName>SP</shortName>
+    <shortTitle>SP</shortTitle>
+    <narrationName>Fertigkeitspunkte</narrationName>
+  </statistic>
+  <statistic Name="XP">
+    <displayName>Erfahrungspunkte</displayName>
+    <displayNameSingular>Erfahrungspunkt</displayNameSingular>
+    <displayTitle>Erfahrungspunkte</displayTitle>
+    <displayTitleSingular>Erfahrungspunkt</displayTitleSingular>
+    <shortName>EP</shortName>
+    <shortTitle>EP</shortTitle>
+    <narrationName>Erfahrungspunkte</narrationName>
+  </statistic>
+  <statistic Name="XPValue">
+    <displayName>Erfahrungswert</displayName>
+    <displayNameSingular>Erfahrungswert</displayNameSingular>
+    <displayTitle>Erfahrungswert</displayTitle>
+    <displayTitleSingular>Erfahrungswert</displayTitleSingular>
+    <shortName>XV</shortName>
+    <shortTitle>XV</shortTitle>
+    <narrationName>Erfahrungswert</narrationName>
+  </statistic>
+  <statistic Name="Level">
+    <displayName>Stufe</displayName>
+    <displayNameSingular>Stufe</displayNameSingular>
+    <displayTitle>Stufe</displayTitle>
+    <displayTitleSingular>Stufe</displayTitleSingular>
+    <shortName>LV</shortName>
+    <shortTitle>Lvl</shortTitle>
+    <narrationName>Stufe</narrationName>
+  </statistic>
+  <statistic Name="Energy">
+    <displayName>Energie</displayName>
+    <displayNameSingular>Energie</displayNameSingular>
+    <displayTitle>Energie</displayTitle>
+    <displayTitleSingular>Energie</displayTitleSingular>
+    <shortName>EN</shortName>
+    <shortTitle>EN</shortTitle>
+    <narrationName>Energie</narrationName>
+  </statistic>
+</statistics>

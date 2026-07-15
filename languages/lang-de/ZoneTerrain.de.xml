@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<objects Lang="de" Encoding="utf-8">
+  <object Name="Plant" Load="Merge">
+    <stag Name="Plank" Value="Planke" />
+    <stag Name="Fiber" Value="ausziehen" />
+    <stag Name="FiberMaterial" Value="Rinde" />
+  </object>
+  <object Name="Shimscale Mangrove Tree_blue" Load="Merge">
+    <part Name="Render" DisplayName="Schimmerschuppen-Mangrovenbaum" />
+    <part Name="Description" Short="Licht schiesst in Streuguss durch ihre feuchten Blaetter, und ihre Wurzeln sehen aus wie eine Wachssaeulenreihe, die in ein Labyrinth geschmolzen und wieder verfestigt wurde." />
+  </object>
+  <object Name="Shimscale Mangrove Tree" Load="Merge">
+    <part Name="Render" DisplayName="Schimmerschuppen-Mangrovenbaum" />
+    <part Name="Description" Short="Licht schiesst in Streuguss durch ihre feuchten Blaetter, und ihre Wurzeln sehen aus wie eine Wachssaeulenreihe, die in ein Labyrinth geschmolzen und wieder verfestigt wurde." />
+  </object>
+  <object Name="Banana Tree" Load="Merge">
+    <part Name="Render" DisplayName="Bananenbaum" />
+    <part Name="Description" Short="Fruchttragende Haende erklimmen die Stiele des Betruegerbaums. Wenn sich das Licht auf der Oberflaeche des freigelegten Corms faengt, wirft Spindle-Glitter es zurueck zum erweiterten Hain." />
+  </object>
+  <object Name="Dogthorn Tree" Load="Merge">
+    <part Name="Render" DisplayName="Hundsdornbaum" />
+    <part Name="Description" Short="Ein verworrenes Wurzelgeflecht ergiesst sich durch die Erde. Die Rinde ist in spitze Stacheln gesplittert. Die Blaetter sind fettig und stinkend." />
+  </object>
+  <object Name="Leafless Dogthorn Tree" Load="Merge">
+    <part Name="Render" DisplayName="Hundsdornbaum" />
+    <part Name="Description" Short="Ein verworrenes Wurzelgeflecht ergiesst sich durch die Erde. Die Rinde ist in spitze Stacheln gesplittert." />
+  </object>
+  <object Name="Fracti" Load="Merge">
+    <part Name="Render" DisplayName="Fractus" />
+    <part Name="Description" Short="Ein besonders stachliges Peano-Fleckchen." />
+    <stag Name="Plank" Value="ausziehen" />
+    <stag Name="Fiber" Value="ausziehen" />
+    <stag Name="FiberMaterial" Value="Faser" />
+  </object>
+  <object Name="Starapple Tree" Load="Merge">
+    <part Name="Render" DisplayName="Sternapfelbaum" />
+    <part Name="Description" Short="Staraepfel haengen von aschigen Aesten, koestliche rote Lichtfloeckchen in einem gebleichten Gemaelde." />
+  </object>
+  <object Name="Starapple Tree Ripe" Load="Merge">
+    <part Name="Render" DisplayName="Sternapfelbaum" />
+    <part Name="Description" Short="Staraepfel haengen von aschigen Aesten, koestliche rote Lichtfloeckchen in einem gebleichten Gemaelde." />
+  </object>
+  <object Name="Witchwood Tree" Load="Merge">
+    <part Name="Render" DisplayName="Hexenholzbaum" />
+    <part Name="Description" Short="Goldene Wedel entfalten sich, wenn der Wuestenwind Feuchtigkeit bringt. Rindenstuecke, die in winzige sich schneidende Ringe angeordnet sind, wurden von Holzweidern abgekaut." />
+  </object>
+  <object Name="Dreadroot" Load="Merge">
+    <part Name="Render" DisplayName="Furchtenwurzel" />
+    <part Name="Description" Short="Haut schaelt sich auf dem Knollenbauchs, waehrend es mit erdender Basslage schnurrt, und die Triebe pochen in verstoerendem Stakkato." />
+    <stag Name="Plank" Value="Masse" />
+  </object>
+  <object Name="Sunflower" Load="Merge">
+    <part Name="Render" DisplayName="Sonnenblume" />
+    <part Name="Description" Short="Helle Blueten explodieren von einer zentralen Scheibe dunklerer, spiralfoermiger Blueten. Zusammen sind sie wie eine winzige Sonne." />
+  </object>
+  <object Name="Dicalyptus Tree" Load="Merge">
+    <part Name="Render" DisplayName="Diacalyptus-Baum" />
+    <part Name="Description" Short="Ein baumartiger, von Kaefern zernagter Stamm schiesst in den aetherischen Himmel und spreitet sich in eine Krone aus Laub aus." />
+  </object>
+  <object Name="Lahbloom" Load="Merge">
+    <part Name="Render" DisplayName="Lahbluete" />
+    <part Name="Description" Short="Insekten kreisen und summen um ein Quartett golden-brauner Bluetenblaetter, die ueber ihrem verdickenden Stengel haengen. Wenn etwas es beruehrt, peitscht die Bluete in zorniger Traeumerei auf." />
+  </object>
+  <object Name="Yuckwheat" Load="Merge">
+    <part Name="Render" DisplayName="yuckwheat" />
+    <part Name="Description" Short="Korallenblueten spriessen von der Spitze eines duennen Stengels. Ein metallischer oder knoecherner Huf hat seine Geschwister zerquetscht und ihre Saeurefasern in den Boden verteilt." />
+    <stag Name="FiberMaterial" Value="Strohdach" />
+  </object>
+  <object Name="Watervine" Load="Merge">
+    <part Name="Render" DisplayName="Wasserwinde" />
+    <part Name="Description" Short="Salz sammelt sich in seinen Furchen. Es ist verknotet mit feuchtigkeitsschwellenden Wafeln an Stelle von Blaettern." />
+    <stag Name="Plank" Value="Strohdach" />
+    <stag Name="Fiber" Value="Seil" />
+    <stag Name="FiberMaterial" Value="Rebe" />
+  </object>
+  <object Name="Gnawed Watervine" Load="Merge">
+    <part Name="Render" DisplayName="zernagter Wasserwein" />
+    <part Name="Description" Short="Salz sammelt sich in seinen Furchen. Es ist verknotet mit feuchtigkeitsschwellenden Wafeln an Stelle von Blaettern, und es sieht aus, als wuerde es halb aufgegessen sein." />
+  </object>
+  <object Name="Brinestalk" Load="Merge">
+    <part Name="Render" DisplayName="Brinestalk" />
+    <part Name="Description" Short="Dicke Pfaehle aus faserigem Salzfaeulnis stecken diese Salzwasserpools ab. Sie gehoeren niemandem." />
+    <stag Name="Plank" Value="Paket" />
+    <stag Name="Fiber" Value="Seil" />
+    <stag Name="FiberMaterial" Value="Faser" />
+    <xtagGrammar massNoun="wahr" />
+  </object>
+  <object Name="Swarmshade Tree_blue" Load="Merge">
+    <part Name="Render" DisplayName="Schwarmschatten-Baum" />
+    <part Name="Description" Short="Ein Nebel aus ausgegrabenen Blaettern raschelt mit trocknem Bach und Kaeferfrass." />
+  </object>
+  <object Name="Swarmshade Tree" Load="Merge">
+    <part Name="Render" DisplayName="Schwarmschatten-Baum" />
+    <part Name="Description" Short="Ein Nebel aus ausgegrabenen Blaettern raschelt mit trocknem Bach und Kaeferfrass." />
+  </object>
+  <object Name="Ziv Bough_blue" Load="Merge">
+    <part Name="Render" DisplayName="Ziv-Ast" />
+    <part Name="Description" Short="Die Stammkolonne dreht sich spiralfoermig auf dem radialen Lichtwegen und erblueht eine Krone aus Siegeslorbeer." />
+  </object>
+  <object Name="Ziv Bough" Load="Merge">
+    <part Name="Render" DisplayName="Ziv-Ast" />
+    <part Name="Description" Short="Die Stammkolonne dreht sich spiralfoermig auf dem radialen Lichtwegen und erblueht eine Krone aus Siegeslorbeer." />
+  </object>
+  <object Name="Star Palm" Load="Merge">
+    <part Name="Render" DisplayName="Sternpalme" />
+    <part Name="Description" Short="Sonnensatte Wedel haengen an einem kaefernarbigen Stamm in Form eines geschmolzenen Sterns." />
+  </object>
+  <object Name="Slime Grass" Load="Merge">
+    <part Name="Render" DisplayName="Schlammgras" />
+    <part Name="Description" Short="Die Straenge glaenzen mit einem schaeumenden Film." />
+    <xtagGrammar iArticle="einige" adjunctNoun="Klumpen" />
+    <stag Name="Plank" Value="Strohdach" />
+    <stag Name="Fiber" Value="Schnur" />
+    <stag Name="FiberMaterial" Value="Strohdach" />
+  </object>
+  <object Name="Grave Moss" Load="Merge">
+    <part Name="Render" DisplayName="Grabmoos" />
+    <part Name="Description" Short="Es ist farbenlos und sproede; es knirscht unter dem Fuss. Wie es sich in Matten zusammenballt, muss der Form der lebend-feuchten Koerperbaenke entsprechen, aus denen es einst bluehte und aus denen es mit dunklem roten Blut erneut erbluehen wird." />
+    <xtagGrammar iArticle="einige" />
+  </object>
+  <object Name="Stillvine" Load="Merge">
+    <part Name="Render" DisplayName="Stillrebe" />
+    <part Name="Description" Short="Geister-Zuckerrohr werden bis zu bildlicher Stille gewirbelt, und Feuchtigkeit sammelt sich auf ihren Knospen." />
+    <stag Name="Plank" Value="Strohdach" />
+    <stag Name="Fiber" Value="Seil" />
+    <stag Name="FiberMaterial" Value="Rebe" />
+  </object>
+  <object Name="Nimbus Beam" Load="Merge">
+    <part Name="Render" DisplayName="Nimbus-Strahl" />
+    <part Name="Description" Short="Flauschige Halos aus Saeure und myrtengruenen Blaettern guerten ein zum Himmel strebendes Holzminarett ein. Der Gipfel bricht aus dem Blaetterdach hervor, um das Sonnensauf-Spiel zu gewinnen." />
+  </object>
+  <object Name="Nachash Tree" Load="Merge">
+    <part Name="Render" DisplayName="Nachash-Baum" />
+    <part Name="Description" Short="Moosglatte Triebe winden sich an der Krone eines buckligen Stamms wie die Medusa. Luft bringt sie in noch mehr Unordnung." />
+  </object>
+  <object Name="Urberry Bush" Load="Merge">
+    <part Name="Render" DisplayName="Urbeerstrauch" />
+    <part Name="Description" Short="Durch das Innere eines gewoelbten Wurzeltrellis zeigen Blaetter in perfekten Winkeln, um Sonnenlicht zu seihen und Ur-Knospen in goldener Waerme zu baden." />
+  </object>
+  <object Name="n-Ary Tree" Load="Merge">
+    <part Name="Render" DisplayName="n-aerer Baum" />
+    <part Name="Description" Short="Leuchtende Pailletten-Blaetter schimmern in indigo Konstellationen, und Aeste verzweigen sich durch den Entropie-Pilz." />
+  </object>
+  <object Name="Glitchwood Tree" Load="Merge">
+    <part Name="Render" DisplayName="Glitchholzbaum" />
+    <part Name="Description" Short="Verbogene Wurzeln graben sich zu einem Baldachin aus Flaum empor. Das Auge versucht, eine Grenze um einzelne Blaetter zu ziehen, aber ihre Lichtlinien stottern und verlieren ihre Ableitungen." />
+  </object>
+  <object Name="Icosahedar" Load="Merge">
+    <part Name="Render" DisplayName="Ikosahedar" />
+    <part Name="Description" Short="Waechserne Sproesslinge sinken unter dem Gewicht der algebraischen Knollen. Jeder ist perfekt und regelmaessig, seine Oberflaechen matt mit glanzlosem platonischem Tau." />
+  </object>
+  <object Name="Noisegrass" Load="Merge">
+    <part Name="Render" DisplayName="Laermgras" />
+    <part Name="Description" Short="Echtes Potenzial surft auf rauen Wellen des Rhizoms und quantisiert sich in holzige Grasblaetter." />
+    <xtagGrammar iArticle="einige" />
+  </object>
+  <object Name="Yempuris" Load="Merge">
+    <part Name="Render" DisplayName="yempuris phi" />
+    <part Name="Description" Short="Blasen aus gruenen Stipeln sind in Ringen beschleunigten Gittergewebswachstums angeordnet. Das Tempo ist zauberhaft; der ernsthafte und unablaessige Wille der Pflanzenwelt wird hier millionfach erfasst." />
+    <stag Name="Plank" Value="Wedel" />
+  </object>
+  <object Name="Fungus" Load="Merge">
+    <stag Name="Plank" Value="Masse" />
+  </object>
+  <object Name="Godshroom" Load="Merge">
+    <part Name="Render" DisplayName="{{o|elcatl}}" />
+    <part Name="Description" Short="Sein Aspekt erfuellt mit leuchtendem Korallenton, fesselt dieser Pilz Euer Auge wie kein anderer. Qud kennt keinen solchen Farbton, und so fragt Ihr =player.reflexive=: Welch strahlender Regen koennte sein Fleisch gefaerbt haben? Koennte es ein Hauch der Fresser selbst sein, mumifiziert in der Erde des Regenbogen-Waldes?" />
+  </object>
+  <object Name="Brightshroom" Load="Merge">
+    <part Name="Render" DisplayName="Brightshroom" />
+    <part Name="Description" Short="Leuchtende Hyphen ergiessen ihr weiches Licht hinauf in die Kugelkappe der Erdlampe." />
+    <stag Name="HardMaterial" Value="Fleisch" />
+  </object>
+  <object Name="Spotted Shagspook" Load="Merge">
+    <part Name="Render" DisplayName="gefleckter Shagspook" />
+    <part Name="Description" Short="Sein Stiel ist stammfett, und Staub bedeckt die Flecken auf seiner gigantischen Kappe. Das Pigment seiner Haut ist fluessige Farbe von einer nahegelegenen Sickerstelle." />
+  </object>
+  <object Name="Dandy Cap" Load="Merge">
+    <part Name="Render" DisplayName="elegante Muetze" />
+    <part Name="Description" Short="Die Natur beschenkte einen vornehmen Hut dem schlanken, gebogenen Stiel und den Kiemen, die auf seiner Unterseite runzeln. Das Pigment seiner Haut ist fluessiger Farbstoff aus einer nahen Quelle." />
+  </object>
+  <object Name="Arsplice Hyphae" Load="Merge">
+    <part Name="Render" DisplayName="Arsplice-Hyphen" />
+    <part Name="Description" Short="Feenringe aus geflochtenen Gras-Korallen-Pilzhybriden durchbrechen ihr Schattennetzwerk und scheiden replizierte Streben als Verkleidung aus." />
+  </object>
+  <object Name="Coral" Load="Merge">
+    <stag Name="Plank" Value="Kolonie" />
+    <stag Name="Fiber" Value="Polyp" />
+    <stag Name="FiberMaterial" Value="Kalkstein" />
+  </object>
+  <object Name="PolypCache" Load="Merge">
+    <part Name="Render" DisplayName="geschwollene Zwiebel" />
+    <part Name="Description" Short="An den Fuehlern eines Polypenclusters haftend und aus einer korrodierten Strebe vorstehend, ist ein geschwollener Filmklumpen. Ein helles Gebraeu aus kohleverschmolzenem Platinschleim brennt darin." />
+  </object>
+  <object Name="Coral Polyp" Load="Merge">
+    <part Name="Render" DisplayName="Korallenpolyp" />
+    <part Name="Description" Short="Fuehler wiegen sich in einem Reif auf einer skelettartigen Vasensaeule. Die aborale Seite ist mit anderen Polypen verbunden und bildet eine fossile Arkologie." />
+  </object>
+  <object Name="Coral and Palladium Strut" Load="Merge">
+    <part Name="Render" DisplayName="Palladium-Strebe mit Korallenwuchs" />
+    <part Name="Description" Short="Bogenpolypen besiedeln die zylindrische Topologie des Gitters und bilden eine orthogonale Nachbarschaft in einem Netzwerk von Leben." />
+  </object>
+  <object Name="Finger Coral" Load="Merge">
+    <part Name="Render" DisplayName="Fingerkoralle" />
+    <part Name="Description" Short="Weichkoerperwesen scheiden die verkalten Waende ihrer Arkologien als luftkletternde Spitzen aus. Sie besitzen Steintextur und beherbergen Mikroleben in ihren Hohlraeumen." />
+    <stag Name="Plank" Value="Finger" />
+    <stag Name="Fiber" Value="Polyp" />
+    <stag Name="FiberMaterial" Value="Kalkstein" />
+  </object>
+  <object Name="Palladium Strut" Load="Merge">
+    <part Name="Render" DisplayName="Palladium-Strebe" />
+    <part Name="Description" Short="Mit Traenen erfuellte Gehaeuseflecken auf Zylindern, die rechtwinklig verbunden sind. Der Glanz des weicheren Metalls scheint hindurch, silberweiss Palladium, das einst Hydro- und Elektrokonduktion ueber ein arcologisches Gitter durchfuehrte." />
+  </object>
+  <object Name="Sponge" Load="Merge">
+    <stag Name="Plank" Value="Cluster" />
+    <stag Name="Fiber" Value="Ball" />
+    <stag Name="FiberMaterial" Value="Schwamm" />
+  </object>
+  <object Name="Tunnel Sponge" Load="Merge">
+    <part Name="Render" DisplayName="Tunnelschwamm" />
+    <part Name="Description" Short="Poroese Skelette aus Spongin durchbohren die umgestuelpten Tunnelkuppen, steinaehnlich, in Winkel." />
+    <stag Name="Plank" Value="Tunnel" />
+    <stag Name="Fiber" Value="Ring" />
+    <stag Name="FiberMaterial" Value="Schwamm" />
+  </object>
+  <object Name="Bop Sponge" Load="Merge">
+    <part Name="Render" DisplayName="Bop-Schwamm" />
+    <part Name="Description" Short="Es ist laminierte Gallerte, die wie ein Globoid mit Poren zum Filtern und Knabbern von Algen geformt ist, und sie wackelt." />
+    <stag Name="Plank" Value="ausziehen" />
+    <stag Name="Fiber" Value="Backe" />
+    <stag Name="FiberMaterial" Value="Schwamm" />
+  </object>
+  <object Name="Crystal" Load="Merge">
+    <stag Name="Plank" Value="Prisma" />
+    <stag Name="Fiber" Value="Splitter" />
+    <stag Name="FiberMaterial" Value="Kristall" />
+  </object>
+  <object Name="Psychal Rhythm Rock" Load="Merge">
+    <part Name="Render" DisplayName="Psychale Rhythmusfelsen" />
+    <part Name="Description" Short="Stalaktitische Prismen stottern-summen das verdichtete Gedankenmaterial von Billionen ueber das psychische Meer." />
+  </object>
+  <object Name="Chavvah Branch" Load="Merge">
+    <part Name="Render" DisplayName="kristalliner Ast" />
+    <part Name="Description" Short="Mikrosaeulen aus gluehendem Kristall sind in dichten Straeussen gebuendelt und verzweigen sich als herrliche Fraktale durch den Himmel. Sie werfen Mondlicht hin und her zwischen sich." />
+  </object>
+  <object Name="Chavvah Dense Leaves" Load="Merge">
+    <part Name="Render" DisplayName="dichte Kristallblaetter" />
+    <part Name="Description" Short="Tropfen statischen Taus verschwimmen die scharfen Kristallkanten. Die Flaechen selbst strahlen und rascheln auf einer psychischen Brise. In ihrer Gestalt fliessen sie wie umkehrbare Pailletten ueber die Grenze zwischen Geist und Koerper." />
+  </object>
+  <object Name="Chavvah Sparse Leaves" Load="Merge">
+    <part Name="Render" DisplayName="spaerliche Kristallblaetter" />
+    <part Name="Description" Short="Tropfen statischen Taus verschwimmen die scharfen Kristallkanten. Die Flaechen selbst strahlen und rascheln auf einer psychischen Brise. In ihrer Gestalt fliessen sie wie umkehrbare Pailletten ueber die Grenze zwischen Geist und Koerper." />
+  </object>
+  <object Name="Chavvah Chime Left" Load="Merge">
+    <part Name="Render" DisplayName="Klingendes Gestein" />
+    <part Name="Description" Short="Seine Ecken wurden durch statische Elektrizitaet abgewachst und seine Kristallknollen brennen mit gebeugtem Mondlicht. Es erklingt in nahen und fernen Toenen." />
+  </object>
+  <object Name="Chavvah Chime Right" Load="Merge">
+    <part Name="Render" DisplayName="Klingendes Gestein" />
+    <part Name="Description" Short="Seine Ecken wurden durch statische Elektrizitaet abgewachst und seine Kristallknollen brennen mit gebeugtem Mondlicht. Es erklingt in nahen und fernen Toenen." />
+  </object>
+  <object Name="Chavvah Taproot Floor" Load="Merge">
+    <part Name="Render" DisplayName="kristalline Pfahlwurzel" />
+    <part Name="Description" Short="Winzige Kristallschoesslinge wurden durch reine Ego-Gewicht zu einem kraeftigen, robusten und aequidistanten Transducer von vergaenglicher Gedankensoftware zerquetscht. Dekohaerierte Emotion und Erinnerung kristallisieren, waehrend sie die Wurzel hinaufschiessen." />
+  </object>
+  <object Name="Crystalline Root" Load="Merge">
+    <part Name="Render" DisplayName="kristalline Wurzel" />
+    <part Name="Description" Short="Hexagonale Fasern aus zartem Kristall winden sich durch die Erde und druecken den umgebenden psychalen Glanz durch das Phloem zu den sapientenGlocken." />
+  </object>
+  <object Name="Crystalline Radicle" Load="Merge">
+    <part Name="Render" DisplayName="junge kristalline Wurzel" />
+    <part Name="Description" Short="Hexagonale Fasern aus zartem, neu gehaeuteltem Kristall winden sich durch die Erde und vibrieren mit vorpsychaler Fuelle. Sie strahlen einen fruehen Glanz aus." />
+  </object>
+  <object Name="TauSoft" Load="Merge">
+    <part Name="Render" DisplayName="sanft leuchtend" />
+    <part Name="Description" Short="Herzenwurzeln verwickeln sich am gaehnenden psychalen Nexus des Kristallbaumes. Sie brennen mit dem Licht von gasfoermigen Empfindungsstoffen, all die Brocken von Ordnung in Erde und Stein, belebt durch eine tiefere Dimensionalverzerrung. Dies ist ein Ufer des psychischen Meeres." />
+  </object>
+  <object Name="BaseStalagmite" Load="Merge">
+    <part Name="Render" DisplayName="Stalagmit" />
+  </object>
+  <object Name="MiasmaticStalagmite" Load="Merge">
+    <part Name="Description" Short="Ein Geschwader von Blumenstein-Gliedmassen ergreift den Hoehlenboden, und ein gestreifter Kalzitstamm stoesst in die verfaulende Luft. Seine wirbelnde Spitze ist in Knochen-Dampf gehuellt." />
+    <part Name="Render" DisplayName="aschiger Stalagmit" />
+  </object>
+  <object Name="DirtFloor" Load="Merge">
+    <part Name="Render" DisplayName="verdichteter Erdboden" />
+  </object>
+  <object Name="DirtPath" Load="Merge">
+    <part Name="Render" DisplayName="Erdpfad" />
+  </object>
+  <object Name="DirtRoad" Load="Merge">
+    <part Name="Render" DisplayName="Erdpfad" />
+  </object>
+  <object Name="SaltPath" Load="Merge">
+    <part Name="Render" DisplayName="Saltsteinpfad" />
+  </object>
+  <object Name="PaintedFlowers" Load="Merge">
+    <part Name="Render" DisplayName="Saltsteinpfad" />
+  </object>
+  <object Name="WhiteTile" Load="Merge">
+    <part Name="Render" DisplayName="weisse Fliese" />
+  </object>
+  <object Name="GreenTile" Load="Merge">
+    <part Name="Render" DisplayName="gruene Fliese" />
+  </object>
+  <object Name="RedTile" Load="Merge">
+    <part Name="Render" DisplayName="rote Fliese" />
+  </object>
+  <object Name="FungalTrailBrick" Load="Merge">
+    <part Name="Render" DisplayName="Korallenpfad" />
+    <part Name="Description" Short="Korallensteine pflastern den Pfad zu einem anderen Ort." />
+  </object>
+  <object Name="CryptTrail" Load="Merge">
+    <part Name="Render" DisplayName="schwarzer Marmor-Gehweg" />
+    <part Name="Description" Short="Schwarze Marmorrechtecke tessellieren den Pfad." />
+  </object>
+  <object Name="StiltTile" Load="Merge">
+    <part Name="Render" DisplayName="weisse Fliese" />
+  </object>
+  <object Name="Bridge" Load="Merge">
+    <part Name="Render" DisplayName="Bruecke" />
+    <part Name="Description" Short="Ziegelrechtecke tessellieren den Pfad." />
+  </object>
+  <object Name="MetalWalkway" Load="Merge">
+    <part Name="Render" DisplayName="Metallgang" />
+    <part Name="Description" Short="Metallrechtecke tessellieren den Weg." />
+  </object>
+  <object Name="BrickWalkway" Load="Merge">
+    <part Name="Render" DisplayName="Ziegel-Gehweg" />
+    <part Name="Description" Short="Ziegelrechtecke tessellieren den Pfad." />
+  </object>
+  <object Name="MarbleWalkway" Load="Merge">
+    <part Name="Render" DisplayName="Marmorgang" />
+    <part Name="Description" Short="Marmorrechtecke tessellieren den Weg." />
+  </object>
+  <object Name="BlackMarbleWalkway" Load="Merge">
+    <part Name="Render" DisplayName="schwarzer Marmor-Gehweg" />
+    <part Name="Description" Short="Schwarze Marmorrechtecke tessellieren den Pfad." />
+  </object>
+  <object Name="GreyMarbleWalkway" Load="Merge">
+    <part Name="Render" DisplayName="Marmorgang" />
+    <part Name="Description" Short="Graue Marmorrechte pflastern den Pfad." />
+  </object>
+  <object Name="WoodFloor" Load="Merge">
+    <part Name="Render" DisplayName="Holzboden" />
+  </object>
+  <object Name="BrineBridge" Load="Merge">
+    <part Name="Render" DisplayName="Bruecke" />
+    <part Name="Description" Short="Eine Bruecke aus getrocknetem Salzpflanzenstaengel." />
+  </object>
+  <object Name="SaltDune" Load="Merge">
+    <part Name="Render" DisplayName="Salzduene" />
+  </object>
+  <object Name="HighSaltDune" Load="Merge">
+    <part Name="Render" DisplayName="Salzduene" />
+  </object>
+  <object Name="Sunken Room Stairs" Load="Merge">
+    <part Name="Render" DisplayName="Marmorstufen" />
+    <part Name="Description" Short="Gesprenkelte Marmorrechtecke sind Sprungsteine hinein und hinaus aus der Grube." />
+  </object>
+  <object Name="Primal Grass" Load="Merge">
+    <part Name="Render" DisplayName="Urpflanze" />
+    <stag Name="Plank" Value="Strohdach" />
+    <stag Name="Fiber" Value="Klinge" />
+    <stag Name="FiberMaterial" Value="Gras" />
+  </object>
+  <object Name="SmallHexFloor" Load="Merge">
+    <part Name="Render" DisplayName="seltsamer Boden" />
+  </object>
+  <object Name="FoamcreteFloor" Load="Merge">
+    <part Name="Render" DisplayName="Schaumbetonboden" />
+  </object>
+  <object Name="Web" Load="Merge">
+    <part Name="Render" DisplayName="Netz" />
+    <part Name="Description" Short="Glitzernde Seide wurde zu einer Fangspirale gesponnen und auf einer Reihe von Brueckenfaeden montiert." />
+  </object>
+  <object Name="FrostWeb" Load="Merge">
+    <part Name="Render" DisplayName="Frostnetz" />
+    <part Name="Description" Short="Glitzernde Seide wurde zu einer Fangspirale gesponnen und auf einer Reihe von Brueckenfaeden montiert. Rauhreif-Fraktale strukturieren die Straenge ausserhalb der 2D-Ebene." />
+  </object>
+  <object Name="PhaseWeb" Load="Merge">
+    <part Name="Render" DisplayName="Phasennetz" />
+    <part Name="Description" Short="Glitzernde Seide wurde zu einer Fangspirale gesponnen und auf einer Reihe von Brueckenfaeden montiert. Der Faden vibriert ueber Dimensionen in der Mannigfaltigkeit." />
+  </object>
+  <object Name="Stairs" Load="Merge">
+    <part Name="Render" DisplayName="Treppen" />
+    <xtagGrammar massNoun="wahr" />
+  </object>
+  <object Name="StairsUp" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinauf" />
+    <part Name="Description" Short="Staub erblueht auf der aufsteigenden Treppe." />
+  </object>
+  <object Name="StairsDown" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab" />
+    <part Name="Description" Short="Licht ebbt von der abgestiegenen Treppe ab." />
+  </object>
+  <object Name="SlimyShaft" Load="Merge">
+    <part Name="Render" DisplayName="schleimiger Schacht" />
+    <part Name="StairsDown" PullMessage="Sie fallen den schleimigen Schacht hinunter!" />
+    <part Name="Description" Short="Mechanische Toene werden an den schleimfeuchten Waenden eines dunklen Schachts erweicht. Ein Abgrund liegt darunter." />
+  </object>
+  <object Name="OpenShaft" Load="Merge">
+    <part Name="Render" DisplayName="tiefe Schacht" />
+    <part Name="Description" Short="Finsternis stroemt aus dem leeren Raum hoch." />
+    <xtagGrammar massNoun="Falsch" />
+  </object>
+  <object Name="Air" Load="Merge">
+    <part Name="Render" DisplayName="offene Luft" />
+    <part Name="StairsDown" PullMessage="Sie fallen hinunter!" JumpPrompt="Es sieht nach einem furchtbar langen Fall aus. Seid Ihr sicher, dass Ihr springen wollt?" />
+    <part Name="Description" Short="Der Raum ist von festen Hindernissen geleert." />
+    <tag Name="FallPreposition" Value="durch" />
+    <xtagGrammar massNoun="wahr" />
+  </object>
+  <object Name="Pit" Load="Merge">
+    <part Name="Render" DisplayName="offene Luft" />
+    <part Name="StairsDown" PullMessage="Ihr klettert eilig von einem felsigen Vorsprung hinab." JumpPrompt="Es sieht nach einem furchtbar langen Fall aus. Seid Ihr sicher, dass Ihr springen wollt?" />
+    <part Name="Description" Short="Der Raum ist von festen Hindernissen geleert." />
+    <xtagGrammar massNoun="wahr" />
+  </object>
+  <object Name="ElevatorShaft" Load="Merge">
+    <part Name="Render" DisplayName="Aufzugschacht" />
+    <part Name="Description" Short="Ein frachtloser Tau schwingt in einen dunklen und riesigen Kanal hinab." />
+  </object>
+  <object Name="ReefOpenShaft" Load="Merge">
+    <part Name="Render" DisplayName="Korallengrube" />
+    <part Name="StairsDown" PullMessage="" />
+    <part Name="Description" Short="Finsternis stroemt ueber die mit Polypen uebersaeten Raender einer offenen Grube hoch." />
+  </object>
+  <object Name="PondDown" Load="Merge">
+    <part Name="Render" DisplayName="kleiner Riss" />
+    <part Name="Description" Short="Ein Riss im roten Stein oeffnet sich zu einer Wasserfontaene der Untererde." />
+  </object>
+  <object Name="Yd StairsDown Kitchen" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zur Kueche" />
+  </object>
+  <object Name="Yd StairsDown Columbarium" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zum Kolumbarium" />
+  </object>
+  <object Name="Yd StairsDown Library" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zur Bibliothek" />
+  </object>
+  <object Name="Yd StairsDown Living Quarters" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zu den Wohnquartieren" />
+  </object>
+  <object Name="Yd StairsDown Workshop" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zur Werkstatt" />
+  </object>
+  <object Name="Yd StairsDown Infirmary" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zum Genesungsviertel" />
+  </object>
+  <object Name="Yd StairsDown Market" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zum Markt" />
+  </object>
+  <object Name="Yd StairsDown Many Eyes" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zu Viele Augen" />
+  </object>
+  <object Name="Yd StairsDown Salon" Load="Merge">
+    <part Name="Render" DisplayName="Treppen hinab zum Salon" />
+  </object>
+  <object Name="Chavvah Spiral StairsUp" Load="Merge">
+    <part Name="Render" DisplayName="Wendeltreppe hinauf" />
+    <part Name="Description" Short="Glatte und truebe Kegelstuempfe schweben in einer Helix psionischer Aufhaengung." />
+    <xtagGrammar iArticle="einige" />
+  </object>
+  <object Name="Chavvah Spiral StairsDown" Load="Merge">
+    <part Name="Render" DisplayName="Wendeltreppe hinab" />
+    <part Name="Description" Short="Glatte und truebe Kegelstuempfe schweben in einer Helix psionischer Aufhaengung." />
+    <xtagGrammar iArticle="einige" />
+  </object>
+</objects>

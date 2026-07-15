@@ -3,6 +3,36 @@
 Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung im
 `lang-experimental`-Branch. Reines Daten-Mod (keine Harmony-Patches, keine DLL).
 
+## v0.3.0 – Restliche Inhalte
+
+### Neu
+
+25 weitere Kategorien übersetzt (jeweils aus den offiziellen `ExampleLanguage`-Vorlagen,
+KI-gestützt via Haiku, Token- und Tag-geprüft: `=…=`, `{{…}}`, Inline-Tags wie
+`<p>`, `<br/>`, `<stat/>` bleiben erhalten):
+
+- **Fertigkeiten** (`Skills.de.xml`) – Namen, Beschreibungen und Kräfte
+- **Aktivierte Fähigkeiten** (`ActivatedAbilities.de.xml`)
+- **Bücher** (`Books.de.xml`) – Buchtexte/Seiten
+- **Quests** (`Quests.de.xml`)
+- **Optionen** (`Options.de.xml`), **Inventar-Aktionen** (`InventoryActions.de.xml`),
+  **Statistiken** (`Statistics.de.xml`), **Handbuch** (`Manual.de.xml`)
+- **Fraktionen** (`Factions.de.xml`, `ChiliadFactions.de.xml`), **Untertypen**
+  (`Subtypes.de.xml`), **Relikte** (`Relics.de.xml`)
+- **Flüssigkeiten** (`Liquids.de.xml`), **Effekt-Details** (`EffectsDetails.de.xml`),
+  **versteckte Mutationen** (`HiddenMutations.de.xml`)
+- **Gelände** (`WorldTerrain.de.xml`, `ZoneTerrain.de.xml`), **Welten/Biome**
+  (`Worlds.de.xml`, `Biomes.de.xml`), **Einschiffungs-Module** (`EmbarkModules.de.xml`)
+- sowie `Data`, `Mods`, `PronounSets`, `Widgets`, `SparkingBaetyls`
+
+Rund 3.100 von ~3.180 Textbausteinen dieser Kategorien wurden übersetzt (≈ 97 %);
+einzelne komplexe Einträge bleiben vorerst englisch.
+
+### Nicht übersetzt (absichtlich)
+
+- **Namen-Generierung** (`Naming`): besteht aus prozeduralen Namenssilben/-fragmenten;
+  eine Übersetzung würde die Namensbildung beschädigen und wird daher ausgelassen.
+
 ## v0.2.0 – Vollständige Oberfläche und Dialoge
 
 ### Neu

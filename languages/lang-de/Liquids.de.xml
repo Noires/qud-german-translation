@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<liquids Lang="de" Encoding="utf-8">
+  <liquid Name="Acid">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{G|Saeure}}</displayName>
+    <adjective>{{G|sauer}}</adjective>
+    <waterRitualName>Saeure</waterRitualName>
+    <smearedAdjective>{{G|sauer}}</smearedAdjective>
+    <smearedName>{{G|saeurebedeckt}}</smearedName>
+    <stainedName>{{G|Saeure}}</stainedName>
+    <part Name="MessageOnDrink" Message="{{G|ES BRENNT!}}" />
+    <part Name="DamageOnDrink" Message="von {{G|Saeure trinken}}!" />
+    <part Name="AcidEating" DamageMessage="von {{G|Saeure}}!" />
+  </liquid>
+  <liquid Name="Asphalt">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{K|Asphalt}}</displayName>
+    <adjective>{{K|terig}}</adjective>
+    <waterRitualName>Teer</waterRitualName>
+    <smearedAdjective>{{K|terig}}</smearedAdjective>
+    <smearedName>{{K|teert}}</smearedName>
+    <stainedName>{{K|Teer}}</stainedName>
+    <part Name="MessageOnDrink" Message="{{K|Es brennt!}}" />
+    <part Name="DamageOnDrink" Message="von {{K|Asphalt trinken}}!" />
+  </liquid>
+  <liquid Name="Algae">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{g|Alge}}</displayName>
+    <adjective>{{g|Algen-}}</adjective>
+    <waterRitualName>Algen</waterRitualName>
+    <smearedAdjective>{{g|Algen-}}</smearedAdjective>
+    <smearedName>{{g|algenbedeckt}}</smearedName>
+    <stainedName>{{g|Alge}}</stainedName>
+    <part Name="SnackOnDrink" Message="Die Salzlake sticht in Eurem Mund und erfuellt Euren Atem mit Seeluft." />
+  </liquid>
+  <liquid Name="Blood">
+    <circulatoryLossTerm>Blutung</circulatoryLossTerm>
+    <circulatoryLossNoun>bluten</circulatoryLossNoun>
+    <displayName>{{r|Blut}}</displayName>
+    <adjective>{{r|blutig}}</adjective>
+    <waterRitualName>Blut</waterRitualName>
+    <smearedAdjective>{{r|blutig}}</smearedAdjective>
+    <smearedName>{{r|blutig}}</smearedName>
+    <stainedName>{{r|Blut}}</stainedName>
+    <part Name="MessageOnDrink" Message="Es hat einen metallischen Geschmack." />
+  </liquid>
+  <liquid Name="BrainBrine">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{brainbrine|Gehirnlake}}</displayName>
+    <adjective>{{nervous|nervoes}}</adjective>
+    <waterRitualName>Gehirn-Salzlake</waterRitualName>
+    <smearedAdjective>{{nervous|nervoes}}</smearedAdjective>
+    <smearedName>{{nervous|nervoes}}</smearedName>
+    <stainedName>{{brainbrine|Gehirn-Lake}}</stainedName>
+  </liquid>
+  <liquid Name="Cider">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{cider|Apfelwein}}</displayName>
+    <adjective>{{cider|gewuerzt}}</adjective>
+    <waterRitualName>Apfelwein</waterRitualName>
+    <smearedAdjective>{{cider|duftend}}</smearedAdjective>
+    <smearedName>{{cider|duftend}}</smearedName>
+    <stainedName>{{cider|Apfelwein}}</stainedName>
+    <part Name="DrankWine" Message="Es ist wuerzig und koestlich." />
+  </liquid>
+  <liquid Name="CloningDraught">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{cloning|Klonungstrank}}</displayName>
+    <adjective>{{cloning|homogenisiert}}</adjective>
+    <waterRitualName>Trank</waterRitualName>
+    <smearedAdjective>{{cloning|homogenisiert}}</smearedAdjective>
+    <smearedName>{{cloning|homogenisiert}}</smearedName>
+    <stainedName>{{cloning|Klonungs-Trank}}</stainedName>
+    <part Name="CloningBehaviors" DrinkMessage="Sie fuehlen sich verstoerendambivalent." />
+  </liquid>
+  <liquid Name="Convalessence">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{C|Genesung}}</displayName>
+    <adjective>{{C|leuchtend}}</adjective>
+    <waterRitualName>Genesung</waterRitualName>
+    <smearedAdjective>{{C|leuchtend}}</smearedAdjective>
+    <smearedName>{{C|leuchtend}}</smearedName>
+    <stainedName>{{C|Genesung}}</stainedName>
+    <part Name="MessageOnDrink" Message="Es ist sprudelnd!" />
+    <freezeObject Name="CryoGas">
+      <verb>sublimieren</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Gel">
+    <slipperyMessage>{{Y|=subject.Does:slip= auf dem Gel!}}</slipperyMessage>
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{Y|Gel}}</displayName>
+    <adjective>{{Y|schmierig}}</adjective>
+    <waterRitualName>Gel</waterRitualName>
+    <smearedAdjective>{{Y|schmierig}}</smearedAdjective>
+    <smearedName>{{Y|schmierig}}</smearedName>
+    <stainedName>{{Y|Gel}}</stainedName>
+    <part Name="MessageOnDrink" Message="Es ist sehr fettig." />
+  </liquid>
+  <liquid Name="GreenGoo">
+    <circulatoryLossTerm>Schleimbildung</circulatoryLossTerm>
+    <circulatoryLossNoun>Schleim</circulatoryLossNoun>
+    <displayName>{{G|gruener Schleim}}</displayName>
+    <adjective>{{G|schleirig}}</adjective>
+    <waterRitualName>Schleim</waterRitualName>
+    <smearedAdjective>{{G|schleirig}}</smearedAdjective>
+    <smearedName>{{G|schleirig}}</smearedName>
+    <stainedName>{{G|Schleim}}</stainedName>
+    <part Name="PoisonOnGoingProne" Message="Giftiger Schleim brennt Eure Augen." />
+    <part Name="PoisonOnDrink" Message="Sie spueren Gift durch Ihre Adern fliessen!" />
+    <part Name="MessageOnDrink" Message="Es ist furchtbar!" />
+  </liquid>
+  <liquid Name="Honey">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{w|Honig}}</displayName>
+    <adjective>{{w|honigreich}}</adjective>
+    <waterRitualName>Honig</waterRitualName>
+    <smearedAdjective>{{w|klebrig}}</smearedAdjective>
+    <smearedName>{{w|klebrig}}</smearedName>
+    <stainedName>{{w|Honig}}</stainedName>
+    <part Name="SnackOnDrink" Message="Koestlich!" />
+  </liquid>
+  <liquid Name="Ink">
+    <slipperyMessage>{{K|=subject.Does:slip= auf der Tinte!}}</slipperyMessage>
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{K|Tinte}}</displayName>
+    <adjective>{{K|tintig}}</adjective>
+    <waterRitualName>Tinte</waterRitualName>
+    <smearedAdjective>{{K|tintig}}</smearedAdjective>
+    <smearedName>{{K|tintig}}</smearedName>
+    <stainedName>{{K|Tinte}}</stainedName>
+    <part Name="MessageOnDrink" Message="Es ist sehr tintenschwarz." />
+  </liquid>
+  <liquid Name="Lava">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{lava|Lava}}</displayName>
+    <adjective>{{lava|magmatisch}}</adjective>
+    <waterRitualName>Lava</waterRitualName>
+    <smearedAdjective>{{lava|magmatisch}}</smearedAdjective>
+    <smearedName>{{lava|lavabedeckt}}</smearedName>
+    <stainedName>{{lava|Lava}}</stainedName>
+    <part Name="MessageOnDrink" Message="{{lava|ES BRENNT!}}" />
+    <part Name="DamageOnDrink" Message="von {{lava|Lava trinken}}!" />
+    <part Name="AccomplishmentOnDrink">
+      <accomplishment>Unerklaerlich trinkt Ihr Lava.</accomplishment>
+      <muralText>Aus Gruenden, die die Sphinx der subjektiven Erfahrung geheim haelt, trank =name= den verbotenen Tee.</muralText>
+      <gospelText>While traveling through =player.zone.name=, =name= stopped at a tavern in =landmark.nearest=. There =player.subjective= lost a bet and bashfully drank a dram of lava. Miraculously, =player.subjective= left the tavern unharmed.</gospelText>
+    </part>
+    <freezeObject Name="SmallBoulder">
+      <verb>verfestigen</verb>
+    </freezeObject>
+    <freezeObject Name="MediumBoulder">
+      <verb>verfestigen</verb>
+    </freezeObject>
+    <freezeObject Name="Shale">
+      <verb>verfestigen</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="NeutronFlux">
+    <circulatoryLossTerm>Fluxierend</circulatoryLossTerm>
+    <circulatoryLossNoun>Fluxation</circulatoryLossNoun>
+    <displayName>{{neutronic|Neutron}} {{Y|Fluss}}</displayName>
+    <adjective>{{neutronic|neutrisch}}</adjective>
+    <waterRitualName>Fluss</waterRitualName>
+    <smearedAdjective>{{neutronic|neutrisch}}</smearedAdjective>
+    <smearedName>{{neutronic|neutral}}</smearedName>
+    <stainedName>{{neutronic|Fluss}}</stainedName>
+  </liquid>
+  <liquid Name="Oil">
+    <slipperyMessage>{{C|=subject.Does:slip= auf dem Oel!}}</slipperyMessage>
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{K|Oel}}</displayName>
+    <adjective>{{K|oelig}}</adjective>
+    <waterRitualName>Oel</waterRitualName>
+    <smearedAdjective>{{K|oelig}}</smearedAdjective>
+    <smearedName>{{K|oelig}}</smearedName>
+    <stainedName>{{K|Oel}}</stainedName>
+    <part Name="MessageOnDrink" Message="{{K|Ekelhaft!}}" />
+  </liquid>
+  <liquid Name="Ooze">
+    <circulatoryLossTerm>Schleimbildung</circulatoryLossTerm>
+    <circulatoryLossNoun>Schleim</circulatoryLossNoun>
+    <displayName>{{K|schwarzer Schleim}}</displayName>
+    <adjective>{{K|schleimend}}</adjective>
+    <waterRitualName>Schleim</waterRitualName>
+    <smearedAdjective>{{K|schleimend}}</smearedAdjective>
+    <smearedName>{{K|schleimend}}</smearedName>
+    <stainedName>{{K|Schleim}}</stainedName>
+    <part Name="MessageOnDrink" Message="Es ist abstossend!" />
+    <part Name="DiseaseOnGoingProne" Message="Fauliger Schleim spritzt Euch in den Mund. Ihr wuergt bei dem schrecklichen Geschmack." />
+    <part Name="DiseaseOnDrink" Message="Sie fuehlen sich krank!" />
+  </liquid>
+  <liquid Name="PrimordialSoup">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{c|Ursuppe}}</displayName>
+    <adjective>{{c|breiig}}</adjective>
+    <waterRitualName>Suppe</waterRitualName>
+    <smearedAdjective>{{c|breiig}}</smearedAdjective>
+    <smearedName>{{c|breiig}}</smearedName>
+    <stainedName>{{c|Suppe}}</stainedName>
+    <part Name="SoupSludgeSpawner">
+      <spawnMessage>Die reagierenden Fluessigkeiten gerinnen zu =object.a.name:withTitles=.</spawnMessage>
+      <stopMessage>Die Fluessigkeiten hoeren auf zu reagieren.</stopMessage>
+      <startMessage>Die urspruengliche Suppe =subject.to.the.direction= beginnt mit dem =liquid.name= zu reagieren.</startMessage>
+    </part>
+    <part Name="HydrateOnDrink" Message="Sie spueren, wie die Suppe in Ihrem Magen herumschwappt." />
+  </liquid>
+  <liquid Name="Putrescence">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{putrid|Faeulnis}}</displayName>
+    <adjective>{{putrid|faulig}}</adjective>
+    <waterRitualName>Faeulnis</waterRitualName>
+    <smearedAdjective>{{putrid|faulig}}</smearedAdjective>
+    <smearedName>{{putrid|faulig}}</smearedName>
+    <stainedName>{{putrid|Faeulnis}}</stainedName>
+    <part Name="VomitOnDrink" Message="Es ist ekelhaft!" />
+  </liquid>
+  <liquid Name="Salt">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{Y|Salz}}</displayName>
+    <adjective>{{Y|salzig}}</adjective>
+    <waterRitualName>Salz</waterRitualName>
+    <smearedAdjective>{{Y|salzig}}</smearedAdjective>
+    <smearedName>{{Y|salzverkrustet}}</smearedName>
+    <stainedName>{{Y|Salz}}</stainedName>
+    <part Name="SaltOnDrink" Message="Baeh, es ist salzig!" />
+    <part Name="AltAdjectiveWhenPurityBelow" Alt="{{w|brackig}}" />
+    <freezeObject Name="Halite">
+      <verb>verfestigen</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Sap">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{W|Saft}}</displayName>
+    <adjective>{{W|zuckerhaltig}}</adjective>
+    <waterRitualName>Saft</waterRitualName>
+    <smearedAdjective>{{W|saftig}}</smearedAdjective>
+    <smearedName>{{W|saftig}}</smearedName>
+    <stainedName>{{W|Saft}}</stainedName>
+    <part Name="SnackOnDrink" Message="Es schmeckt suess." />
+  </liquid>
+  <liquid Name="Slime">
+    <slipperyMessage>{{slimy|=subject.Does:slip= auf dem Schleim!}}</slipperyMessage>
+    <circulatoryLossTerm>Schleimbildung</circulatoryLossTerm>
+    <circulatoryLossNoun>Schleim</circulatoryLossNoun>
+    <displayName>{{slimy|Schleim}}</displayName>
+    <adjective>{{slimy|schleimig}}</adjective>
+    <waterRitualName>Fluessigkeit</waterRitualName>
+    <smearedAdjective>{{slimy|schleimig}}</smearedAdjective>
+    <smearedName>{{slimy|schleimig}}</smearedName>
+    <stainedName>{{g|Schleim}}</stainedName>
+    <part Name="ConfuseOnDrink" Message="Es ist abscheulich schleimig!" />
+  </liquid>
+  <liquid Name="Sludge">
+    <circulatoryLossTerm>Schleimbildung</circulatoryLossTerm>
+    <circulatoryLossNoun>Schleim</circulatoryLossNoun>
+    <displayName>{{w|brauner Schlamm}}</displayName>
+    <adjective>{{w|schlammig}}</adjective>
+    <waterRitualName>Schlamm</waterRitualName>
+    <smearedAdjective>{{w|schlammig}}</smearedAdjective>
+    <smearedName>{{w|schlammig}}</smearedName>
+    <stainedName>{{w|Schlamm}}</stainedName>
+    <part Name="RustOnGoingProne" Message="Brauner Schlamm spritzt in Euren Mund. Ihr zuckt bei dem metallischen Geschmack zusammen." />
+    <part Name="PoisonOnDrink" Message="Sie fuehlen sich krank!" />
+    <part Name="MessageOnDrink" Message="Es ist entsetzlich!" />
+  </liquid>
+  <liquid Name="Sunslag">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{sunslag|Sonnenslag}}</displayName>
+    <adjective>{{radiant|strahlend}}</adjective>
+    <waterRitualName>Sonnenschlag</waterRitualName>
+    <smearedAdjective>{{radiant|strahlend}}</smearedAdjective>
+    <smearedName>{{radiant|strahlend}}</smearedName>
+    <stainedName>{{sunslag|Sonnenslag}}</stainedName>
+    <part Name="SunSlagOnDrink">
+      <tooMuchMessage>Helligkeit brennt Euch im Mund, aber Ihr koennt nicht hoeher geweckt werden.</tooMuchMessage>
+      <noStatMessage>Helligkeit brennt Euch im Mund.</noStatMessage>
+      <boostedMessage>
+        Brightness burns your mouth and inspirits you.
+
+        Your Quickness is permanently increased by {{rules|=boost=}}.
+      </boostedMessage>
+      <accomplishmentText>Sie tranken die helle Creme des Palladium-Riffs und wurden beschleunigt.</accomplishmentText>
+      <muralText>Seht =player.name= die Knochen der Poleis aufbrechen und ihr Mark trinken! Werdet belebt, unser Saad, durch die zivile Lebenskraft!</muralText>
+      <gospelText>While traveling through =terrain.t=, =player.name= stopped at a tavern in =landmark.nearest=. There =player.subjective= won a bet and triumphantly drank a dram of sunslag. =player.Subjective= =player.verb:were= quickened and left the tavern at an untrackable pace.</gospelText>
+    </part>
+  </liquid>
+  <liquid Name="Water">
+    <slipperyMessage>{{C|=subject.Does:slip= auf dem Eis!}}</slipperyMessage>
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{B|Wasser}}</displayName>
+    <adjective>{{Y|verduennt}}</adjective>
+    <waterRitualName>Wasser</waterRitualName>
+    <smearedAdjective>{{B|nass}}</smearedAdjective>
+    <smearedName>{{B|nass}}</smearedName>
+    <stainedName>{{B|Wasser}}</stainedName>
+    <part Name="WaterHydration">
+      <amphibiousMessage>=subject.Does:pour= das Wasser auf =subject.itself=!</amphibiousMessage>
+      <freshMessage>Ahh, erfrischend!</freshMessage>
+    </part>
+    <part Name="AltSmearedAdjectiveWhenSecondaryTo" Alt="{{B|nass}}" />
+    <part Name="AltSmearedAdjectiveWhenMixed" Alt="{{Y|verduennt}}" />
+    <part Name="AltNameWhenPure" Alt="{{B|Suesswasser}}" />
+  </liquid>
+  <liquid Name="Wax">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{Y|geschmolzenes Wachs}}</displayName>
+    <adjective>{{Y|waechsern}}</adjective>
+    <waterRitualName>Wachs</waterRitualName>
+    <smearedAdjective>{{Y|wachsig}}</smearedAdjective>
+    <smearedName>{{Y|wachsig}}</smearedName>
+    <stainedName>{{Y|Wachs}}</stainedName>
+    <part Name="TemperatureChangeOnDrink" Message="Es ist heiss und eklig." />
+    <freezeObject Name="Wax Nodule">
+      <verb>erstarren</verb>
+    </freezeObject>
+    <freezeObject Name="Wax Block">
+      <verb>verfestigen</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Wine">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{m|Wein}}</displayName>
+    <adjective>{{m|ueppig}}</adjective>
+    <waterRitualName>Wein</waterRitualName>
+    <smearedAdjective>{{m|ueppig}}</smearedAdjective>
+    <smearedName>{{m|ueppig}}</smearedName>
+    <stainedName>{{m|Wein}}</stainedName>
+    <part Name="HydrateOnDrink" Message="Sie ergluehen vom waermenden Trunk!" />
+  </liquid>
+  <liquid Name="WarmStatic">
+    <circulatoryLossTerm>undicht</circulatoryLossTerm>
+    <circulatoryLossNoun>Leck</circulatoryLossNoun>
+    <displayName>{{Y|warmes Rauschen}}</displayName>
+    <adjective>{{Y|entropisch}}</adjective>
+    <waterRitualName>warme Statik</waterRitualName>
+    <smearedAdjective>{{Y|entropisch}}</smearedAdjective>
+    <smearedName>{{Y|entropisch}}</smearedName>
+    <stainedName>{{Y|warmes Rauschen}}</stainedName>
+    <part Name="GlitchOnPour">
+      <messageObject>=subject.T= =verb:glitch= in =object.an=.</messageObject>
+      <messageZone>Der Raum um Euch herum beginnt zu glitchern.</messageZone>
+      <accomplishmentObject>Ihr habt die rohe Entropie des Universums auf Dinge gegossen und habt sie in andere Dinge umgewandelt.</accomplishmentObject>
+      <accomplishmentZone>Ihr habt die rohe Entropie des Universums auf den Boden gegossen und einen Fehler im Raum um euch herum verursacht.</accomplishmentZone>
+    </part>
+  </liquid>
+</liquids>

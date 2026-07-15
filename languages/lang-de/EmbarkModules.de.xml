@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<embarkmodules Lang="de" Encoding="utf-8">
+  <module Class="XRL.CharacterBuilds.Qud.QudGamemodeModule">
+    <window ID="Chargen/Modes">
+      <title>:choose game mode:</title>
+      <name>Spielmodi</name>
+    </window>
+    <modes>
+      <mode ID="Tutorial" Title="Anleitung">
+        <description>
+          Lernt die Grundlagen von Caves of Qud.
+              </description>
+      </mode>
+      <mode ID="Classic" Title="Klassisch">
+        <description>
+          Dauernder Tod: Verliert euren Charakter, wenn ihr sterbt.
+              </description>
+      </mode>
+      <mode ID="Roleplay" Title="Rollenspiel">
+        <description>
+          Speicherpunkte an Siedlungen.
+              </description>
+      </mode>
+      <mode ID="Wander" Title="Wandern">
+        <description>
+          {{c|∙}} Die meisten Kreaturen sind euch gegenueber neutral.
+          {{c|∙}} Keine EP fuer das Toeten.
+          {{c|∙}} Mehr EP fuer Entdeckungen und das Durchfuehren des Wasserritus.
+          {{c|∙}} Speicherpunkte an Siedlungen.
+              </description>
+      </mode>
+      <mode ID="Daily" Title="Taeglich">
+        <description>
+          {{c|∙}} Eine Chance mit einem festen Charakter und Weltsamen.
+          {{c|∙}} Derzeit an Tag {{W|=now.dayOfYear=}} des Jahres {{W|=now.year=}}.
+              </description>
+      </mode>
+    </modes>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudChartypeModule">
+    <window ID="Chargen/CharType">
+      <name>CharTypes</name>
+      <title>:choose character type:</title>
+    </window>
+    <types>
+      <type ID="Pregen" Title="Voreinstellungen">
+        <description>
+          Waehlt aus mehreren voreingestellten Charakteren. Sobald ihr euch damit vertraut macht, koennt ihr diese anpassen.
+               </description>
+      </type>
+      <type ID="New" Title="Neu">
+        <description>
+          Erstellt einen neuen Charakter.
+              </description>
+      </type>
+      <type ID="Random" Title="Zufaellig">
+        <description>
+          Wuerfelt einen zufaelligen Charakter.
+              </description>
+      </type>
+      <type ID="Library" Title="Bibliothek">
+        <description>
+          Waehlt einen Charakter aus eurer Charakterbibliothek.
+              </description>
+      </type>
+      <type ID="Last" Title="Zuletzt">
+        <description>
+          Spielt den letzten Charakter, den ihr gespielt habt, erneut.
+              </description>
+      </type>
+    </types>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudBuildLibraryModule">
+    <window ID="Chargen/BuildLibrary">
+      <name>Bibliothek bauen</name>
+      <title>:build library:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudGenotypeModule">
+    <window ID="Chargen/ChooseGenotypes">
+      <name>Genotypen</name>
+      <title>:choose genotype:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudPregenModule">
+    <window ID="Chargen/Pregens">
+      <name>Vorgenerationen</name>
+      <title>:choose preset:</title>
+    </window>
+    <pregens>
+      <pregen ID="Praetorian Prime" Name="Praetorianer Prime">
+        <description>
+{{c|∙}} Charge-based melee fighter
+{{c|∙}} Starts with night vision
+{{c|∙}} {{W|Most survivable}} starting build
+              </description>
+      </pregen>
+      <pregen ID="First Gardener" Name="Erster Gaertner">
+        <description>
+{{c|∙}} Hybrid melee and ranged fighter
+{{c|∙}} Starts with cooking and gathering
+{{c|∙}} {{W|Highly survivable}} starting build
+              </description>
+      </pregen>
+      <pregen ID="First Child of the Hearth" Name="Erstes Kind des Herdes">
+        <description>
+{{c|∙}} Melee fighter and extreme bruiser
+{{c|∙}} Starts with carbide hand bones
+{{c|∙}} {{W|Highly survivable}} starting build
+              </description>
+      </pregen>
+      <pregen ID="Marsh Taur" Name="Sumpf-Taur">
+        <description>
+{{c|∙}} Charge-based melee fighter
+{{c|∙}} Ability to freeze enemies
+{{c|∙}} Highly maneuverable
+{{c|∙}} {{W|Most survivable}} starting build
+              </description>
+      </pregen>
+      <pregen ID="Dream Tortoise" Name="Traum-Schildkroete">
+        <description>
+{{c|∙}} Melee fighter
+{{c|∙}} Highly-armored
+{{c|∙}} Emits sleep gas to disable enemies
+{{c|∙}} {{W|Highly survivable}} starting build
+              </description>
+      </pregen>
+      <pregen ID="Gunwing" Name="Gewehr-Fluegel">
+        <description>
+{{c|∙}} Primarily ranged fighter
+{{c|∙}} Quick and maneuverable
+{{c|∙}} Flies
+{{c|∙}} {{W|Highly survivable}} starting build
+              </description>
+      </pregen>
+      <pregen ID="Star-Eye Esper" Name="Sternauge-Esper">
+        <description>
+{{c|∙}} Mental-based ranged fighter
+{{c|∙}} Effective crowd control and map vision
+{{c|∙}} {{W|Medium survivable}} starting build
+              </description>
+      </pregen>
+      <pregen ID="Firefrond" Name="Feuerfronde">
+        <description>
+{{c|∙}} Hybrid melee fighter and mental caster
+{{c|∙}} Ability to set enemies on fire
+{{c|∙}} Causes harvestable plants to grow nearby
+{{c|∙}} {{W|Challenging}} starting build
+              </description>
+      </pregen>
+      <pregen ID="bzzzt" Name="bzzzt">
+        <description>
+{{c|∙}} Hybrid melee fighter and electrical attacker
+{{c|∙}} Burrower and trap-setter
+{{c|∙}} Starts with night vision
+{{c|∙}} {{W|Challenging}} starting build
+              </description>
+      </pregen>
+    </pregens>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudSubtypeModule">
+    <window ID="Chargen/ChooseSubtypes">
+      <name>Untertypen</name>
+      <title>:choose subtype:</title>
+    </window>
+    <window ID="Chargen/ChooseSubtypesCategory">
+      <name>Untertypen mit Kategorie</name>
+      <title>:choose subtype:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudMutationsModule">
+    <window ID="Chargen/Mutations">
+      <name>Mutationen</name>
+      <title>:choose mutations:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudAttributesModule">
+    <window ID="Chargen/PickAttributes">
+      <title>:choose attributes:</title>
+      <name>Attribute</name>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudCyberneticsModule">
+    <window ID="Chargen/Cybernetic">
+      <name>Kybernetik</name>
+      <title>:choose cybernetic implant:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudBuildSummaryModule">
+    <window ID="Chargen/BuildSummary">
+      <name>Zusammenfassung</name>
+      <title>:build summary:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudCustomizeCharacterModule">
+    <window ID="Chargen/Customize">
+      <name>Anpassen</name>
+      <title>:Charakter anpassen:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudChooseStartingLocationModule">
+    <window ID="Chargen/ChooseStartingLocation">
+      <name>Startort</name>
+      <title>:choose starting location:</title>
+    </window>
+    <locations>
+      <location ID="Joppa" Name="{{Y|Joppa}}">
+        <description>
+          Fuer neue Spieler empfohlen.
+              </description>
+      </location>
+      <location ID="SaltMarshVillage" Name="{{G|Salzmarsch}}&#xA;Dorf">
+        <description>
+          {{c|∙}} Zufaelliges Dorf in Salzsuempfen.
+          {{c|∙}} Dorf unterrichtet Erntefaehigkeit.
+          {{c|∙}} +50 Reputation mit Insekten und Fischen.
+          {{c|∙}} Beginnt mit einem Paar {{g|krokos{{G|a}}ndalen}}.
+              </description>
+      </location>
+      <location ID="SaltDuneVillage" Name="{{Y|Salzduenen}}&#xA;Dorf">
+        <description>
+          {{c|∙}} Zufaelliges Dorf in den Salzduenen.
+          {{c|∙}} Dorf unterrichtet Fastenweg.
+          {{c|∙}} +100 Reputation mit Reptilien.
+          {{c|∙}} Beginnt mit einer {{Y|Issach{{r|a}}ri}}-Flagge.
+              </description>
+      </location>
+      <location ID="DesertCanyonsVillage" Name="{{W|Wuestenschlucht}}&#xA;Dorf">
+        <description>
+          {{c|∙}} Zufaelliges Dorf in Wuestenschluchten.
+          {{c|∙}} Dorf unterrichtet Wegkundigkeit.
+          {{c|∙}} +50 Reputation mit Pferden, Schildkroeten und Reben.
+              </description>
+      </location>
+      <location ID="HillsVillage" Name="{{Y|Huegel}}&#xA;Dorf">
+        <description>
+          {{c|∙}} Zufaelliges Dorf in den Huegeln.
+          {{c|∙}} Dorf unterrichtet Zerlegung.
+          {{c|∙}} +100 Reputation mit Einsiedlern.
+          {{c|∙}} Beginnt mit einem {{r|blutbefleckten}} Nackenring
+              </description>
+      </location>
+      <location ID="JoppaTutorial" Name="eine versunkene Karawanserai">
+        <description>
+          Ihr kommt am Rande von Qud an.
+              </description>
+      </location>
+    </locations>
+  </module>
+</embarkmodules>
