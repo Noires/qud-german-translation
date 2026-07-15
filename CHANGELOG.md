@@ -25,8 +25,9 @@ KI-gestützt via Haiku, Token- und Tag-geprüft: `=…=`, `{{…}}`, Inline-Tags
   (`Worlds.de.xml`, `Biomes.de.xml`), **Einschiffungs-Module** (`EmbarkModules.de.xml`)
 - sowie `Data`, `Mods`, `PronounSets`, `Widgets`, `SparkingBaetyls`
 
-Rund 3.100 von ~3.180 Textbausteinen dieser Kategorien wurden übersetzt (≈ 97 %);
-einzelne komplexe Einträge bleiben vorerst englisch.
+Alle **3.181 Textbausteine** dieser Kategorien wurden übersetzt (100 %) – inklusive
+der komplexen Einträge mit verschachtelten Platzhaltern (`<switch>`/`<case>`,
+mehrfache `<stat/>`, `=spice:…=`), die zum Schluss von Hand token-genau übertragen wurden.
 
 ### Nicht übersetzt (absichtlich)
 
