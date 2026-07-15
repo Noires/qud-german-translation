@@ -3,6 +3,30 @@
 Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung im
 `lang-experimental`-Branch. Reines Daten-Mod (keine Harmony-Patches, keine DLL).
 
+## v0.5.0 – Kreaturen-Umgebungssprache
+
+Erster Schritt bei den prozeduralen Inhalten: die kurzen „Stimme"-Zeilen von
+Kreaturen wurden von Hand übersetzt und den Basis-Kreaturen als Tags hinzugefügt
+(`SimpleConversation`, `PetResponse`) – 39 Einträge, 45 Tags auf 30 Objekten
+(Creatures, HiddenObjects).
+
+- Lautmalerische `=verb:x=`-Token wurden durch echte deutsche Verben ersetzt, die
+  strukturellen Token (`=subject.T=`, `=object.t=`, `=player.…=`) und die
+  `{{emote|…}}`-Markierungen bleiben erhalten. Beispiele:
+  - `=subject.T= wogt.` (ein Seeigel wogt)
+  - `=subject.T= starrt =object.t= ausdruckslos an.` (Haustier-Reaktion)
+  - `{{emote|*sanftes Wiehern*}}` (Equiden im Leerlauf)
+  - „Mond und Sonne. Weisheit und Wille.~Möge die Erde in dieser Jahreszeit für uns
+    Ertrag bringen.~Friede, =player.formalAddressTerm=."
+
+### Bewusst noch nicht übersetzt
+
+Die rekombinationsanfälligen Felder (`HeroNameTitle*` für generierte Legenden-Namen,
+`xtagTextFragments` für zusammengesetzte Beschreibungen) bleiben vorerst englisch.
+Eine korrekte deutsche Ausgabe erfordert Beugung (Artikel/Adjektiv/Kasus), die das
+Token-System zur Laufzeit nicht leistet – dafür wäre ein deutscher Grammatik-Helfer
+(`VariableReplacers.de.cs`, analog zum koreanischen Referenz-Mod) nötig.
+
 ## v0.4.0 – Echte Umlaute
 
 Die offizielle Lokalisierungs-API stellt Umlaute korrekt dar (getestet). Daher wurde
