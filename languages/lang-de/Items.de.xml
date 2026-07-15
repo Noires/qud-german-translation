@@ -67,7 +67,7 @@
     <part Name="Description" Short="Der photovoltaische Würfel badet in der Wärme der Hochsalzsonne und speichert sie als beschleunigter Saft." />
   </object>
   <object Name="Lead-Acid Cell" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Blei-Saeure}}-{{c|zelle}}" />
+    <part Name="Render" DisplayName="{{G|Blei-Säure}} {{c|Zelle}}" />
     <part Name="Description" Short="Innerhalb der isolierten Batteriefaß spaltet der elektromotorische Apparat die Energie aus Säure und wandelt sie in elektrische Ladung um." />
   </object>
   <object Name="Combustion Cell" Load="Merge">
@@ -512,10 +512,10 @@
     <part Name="Render" DisplayName="{{W|Gelbe Sicherheitskarte}}" />
   </object>
   <object Name="Green Security Card" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Gruene Sicherheitskarte}}" />
+    <part Name="Render" DisplayName="{{G|Notfalldienst-Sicherheitskarte}}" />
   </object>
   <object Name="Blue Security Card" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Blaue Sicherheitskarte}}" />
+    <part Name="Render" DisplayName="{{B|Sicherheitskarte der Strafverfolgung}}" />
   </object>
   <object Name="Purple Security Card" Load="Merge">
     <part Name="Render" DisplayName="{{M|Violette Sicherheitskarte}}" />
@@ -913,7 +913,7 @@
     <part Name="Description" Short="Hochöfen saugten die Gezeitenenergie aus dem Planeten, erhitzten Kohlenstoff auf Sonnentemperaturen und gossen ihn in sechseckige Formen. Die Smaragdzangen zum Abrufen der Gussformen zersäuberten und ventilierten Vanadium - den grünen Glanz - in das Verteilerrohr, wodurch das Metall unvollkommen wurde und seine charakteristische Färbung verlieh. Gussformen, die mit Staubpartikeln fleckig waren, wurden ausgesiebt und an Steinfresser verfüttert, wobei nur die perfekten sechseckigen Prismen übrig blieben." />
   </object>
   <object Name="Battle Axe7th" Load="Merge">
-    <part Name="Render" DisplayName="{{K|{{crysteel|Kampfaxt VII zweihaendig}}}}" />
+    <part Name="Render" DisplayName="{{K|makellose {{crysteel|Hellebarde}}}}" />
     <part Name="Description" Short="Hochöfen saugten die Gezeitenenergie aus dem Planeten, erhitzten Kohlenstoff auf Sonnentemperaturen und gossen ihn in sechseckige Formen. Die Smaragdzangen zum Abrufen der Gussformen zersäuberten und ventilierten Vanadium - den grünen Glanz - in das Verteilerrohr, wodurch das Metall unvollkommen wurde und seine charakteristische Färbung verlieh. Gussformen, die mit Staubpartikeln fleckig waren, wurden ausgesiebt und an Steinfresser verfüttert, wobei nur die perfekten sechseckigen Prismen übrig blieben." />
   </object>
   <object Name="Battle Axe8" Load="Merge">
@@ -981,7 +981,7 @@
     <part Name="Description" Short="Hochöfen saugten die Gezeitenenergie aus dem Planeten, erhitzten Kohlenstoff auf Sonnentemperaturen und gossen ihn in sechseckige Formen. Die Smaragdzangen zum Abrufen der Gussformen zersäuberten und ventilierten Vanadium - den grünen Glanz - in das Verteilerrohr, wodurch das Metall unvollkommen wurde und seine charakteristische Färbung verlieh. Gussformen, die mit Staubpartikeln fleckig waren, wurden ausgesiebt und an Steinfresser verfüttert, wobei nur die perfekten sechseckigen Prismen übrig blieben." />
   </object>
   <object Name="Long Sword7th" Load="Merge">
-    <part Name="Render" DisplayName="{{K|{{crysteel|Lang Schwert VII zweihaendig}}}}" />
+    <part Name="Render" DisplayName="{{K|makelloses {{crysteel|crysteel}} Großschwert}}" />
     <part Name="Description" Short="Hochöfen saugten die Gezeitenenergie aus dem Planeten, erhitzten Kohlenstoff auf Sonnentemperaturen und gossen ihn in sechseckige Formen. Die Smaragdzangen zum Abrufen der Gussformen zersäuberten und ventilierten Vanadium - den grünen Glanz - in das Verteilerrohr, wodurch das Metall unvollkommen wurde und seine charakteristische Färbung verlieh. Gussformen, die mit Staubpartikeln fleckig waren, wurden ausgesiebt und an Steinfresser verfüttert, wobei nur die perfekten sechseckigen Prismen übrig blieben." />
   </object>
   <object Name="Sharpened Polyp" Load="Merge">
@@ -1056,13 +1056,13 @@
     <part Name="Description" Short="Gasförmiges Kühlmittel wogt durch einen Chiffonschlauch und setzt Tau auf das breite, ebene Laufchrom. Es ergießt sich aus der eisbeschlagenen Schnauze in die Luft." />
   </object>
   <object Name="ProjectileLaserRifle" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Geschoss Laser Gewehr}}" />
+    <part Name="Render" DisplayName="{{C|Laserstrahl}}" />
   </object>
   <object Name="ProjectileEigenrifle" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Geschoss Eigenrifle}}" />
+    <part Name="Render" DisplayName="{{B|Punkt-Vektor}}" />
   </object>
   <object Name="ProjectileFreezeRay" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Geschoss Frost Strahl}}" />
+    <part Name="Render" DisplayName="{{C|Energiestrahl}}" />
   </object>
   <object Name="Hypertractor" Load="Merge">
     <part Name="Render" DisplayName="{{hypertractor|Hypertractor}}" />
@@ -1083,7 +1083,7 @@
     <part Name="Description" Short="Farbnebel-Crysteel umhüllt den Gold/Wasser-Mechanismus, der das Licht von Wellenlänge zu Wellenkürze quetscht.  Plasmon-Schlacke brodelt auf der Kuppe des Fasses wie überhitztes Schlammenleben." />
   </object>
   <object Name="ProjectileSpaserRifle" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Geschoss Spaser Gewehr}}" />
+    <part Name="Render" DisplayName="{{G|Plasmon}}" />
   </object>
   <object Name="Phase Cannon" Load="Merge">
     <part Name="Render" DisplayName="Phasen Kanone" />
@@ -1226,11 +1226,11 @@
     <part Name="Render" DisplayName="{{b|Karbid}} Pfeil" />
   </object>
   <object Name="Folded Carbide Arrow" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Gefalteter Karbidpfeil}}" />
+    <part Name="Render" DisplayName="{{B|gefaltetes Karbid}}-Pfeil" />
     <part Name="Description" Short="Ein schmaler Schaft mit Vogelfedern gefiedert ist mit einem gefalteten Karbidkopf bekrönt." />
   </object>
   <object Name="ProjectileFoldedCarbideArrow" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Geschoss Gefalteter Karbidpfeil}}" />
+    <part Name="Render" DisplayName="{{B|gefaltetes Karbid}}-Pfeil" />
   </object>
   <object Name="Fullerite Arrow" Load="Merge">
     <part Name="Render" DisplayName="{{K|Fulleritpfeil}}" />
@@ -1247,11 +1247,11 @@
     <part Name="Render" DisplayName="{{K|{{crysteel|crysteel}} Pfeil}}" />
   </object>
   <object Name="Flawless Crysteel Arrow" Load="Merge">
-    <part Name="Render" DisplayName="{{K|{{crysteel|Makelloser Kristallstahlpfeil}}}}" />
+    <part Name="Render" DisplayName="{{K|makelloser {{crysteel|crysteel}} Pfeil}}" />
     <part Name="Description" Short="Ein schmaler Schaft mit Vogelfedern gefiedert ist mit einem makellosen Crysteel-Kopf bekrönt." />
   </object>
   <object Name="ProjectileFlawlessCrysteelArrow" Load="Merge">
-    <part Name="Render" DisplayName="{{K|{{crysteel|Geschoss Makelloser Kristallstahlpfeil}}}}" />
+    <part Name="Render" DisplayName="{{K|makelloser {{crysteel|crysteel}} Pfeil}}" />
   </object>
   <object Name="Zetachrome Arrow" Load="Merge">
     <part Name="Render" DisplayName="{{zetachrome|Zetachrom}} Pfeil" />
@@ -1272,14 +1272,14 @@
     <part Name="Description" Short="Die Pistole ist mit Wasserweinhanf graviert und von Salzstein eingefasst. Am Griff ist ein Bild eines Nomaden und Ritters aus Salzstein. Der Ritter schlägt den Nomaden nieder." />
   </object>
   <object Name="ProjectileLaserPistol" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Geschoss Laser Pistole}}" />
+    <part Name="Render" DisplayName="{{C|Laserstrahl}}" />
   </object>
   <object Name="Eigenpistol" Load="Merge">
     <part Name="Render" DisplayName="Eigenpistol" />
     <part Name="Description" Short="Senkrecht zum neonazurblauen Lauf ist ein quadratisch platiertes Visier mit einer großen Okularlinse eingesetzt. Das Visier durch die Linse verzerrt sich, wenn das Gewehr kippt, aber der gezogene Vektor bleibt unverändert." />
   </object>
   <object Name="ProjectileEigenpistol" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Geschoss Eigenpistol}}" />
+    <part Name="Render" DisplayName="{{B|Punkt-Vektor}}" />
   </object>
   <object Name="Arc Winder" Load="Merge">
     <part Name="Render" DisplayName="Bogen Winder" />
@@ -1310,7 +1310,7 @@
     <part Name="Render" DisplayName="{{R|Wärmestrahl}}" />
   </object>
   <object Name="ProjectileDiThermoBeamCold" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Geschoss Di Thermo Strahl Kaelte}}" />
+    <part Name="Render" DisplayName="{{C|Kältestrahl}}" />
   </object>
   <object Name="Borderlands Revolver" Load="Merge">
     <part Name="Render" DisplayName="Grenzland Revolver" />
@@ -1511,7 +1511,7 @@
     <part Name="Description" Short="Lederstiefel werden durch stranggeprestes Draht gehärtet, das sorgsam in hunderte Kettenglieder gekringelt ist." />
   </object>
   <object Name="Elastyne Slippers" Load="Merge">
-    <part Name="Render" DisplayName="{{K|Elastin-Hausschuhe}} Elastin-Hausschuhe" />
+    <part Name="Render" DisplayName="{{K|elastyne}} Pantoffeln" />
     <part Name="Description" Short="Ein Streifen Schleimstoff, den Arconauten schwarze Dehnung nennen, wurde aus Gummi-Grotten gefischt und an die Füße geklebt." />
   </object>
   <object Name="Carbide Boots" Load="Merge">
@@ -1621,7 +1621,7 @@
     <part Name="Description" Short="Zwei Türme aus sonnenleitendem Chrom krönen Zylinder aus brennendem Gas, die über einem Metallgitter aus Schaufeln sitzen, das ein Zunftzeichen umgürtet. Eine 6-Helix aus Rauch, Unterschrift des Sternmotors, wodurch dieser Flieger geformt wird, wirbelt zum Himmel." />
   </object>
   <object Name="MurmurMask" Load="Merge">
-    <part Name="Render" DisplayName="{{K-C-K sequence|Fluestermaske}} {{Y-y-y-Y sequence|Fluestermaske}}" />
+    <part Name="Render" DisplayName="{{K-C-K sequence|Gemurmel}} {{Y-y-y-Y sequence|Maske}}" />
     <part Name="Description" Short="Einst vertrautes Papier, Farbe und Perlen werden zu einer bestialischen Form umgeordnet. Blasse Lichter von Spindelfarbe gleißen in den Augenhöhlen, und ein böser Schnabel öffnet sich in bedrohlicher Stille. Über das Antlitz verteilt befestigen Messingketten die Fragmente der zerrissenen Unschuld, die das Murmeln erschaffen." />
   </object>
   <object Name="Blackboard" Load="Merge">
@@ -1653,19 +1653,19 @@
     <part Name="Description" Short="Gebrochener Kristall verjüngt sich zu einem hasserfüllten Rasiermesser an den Scherbennahtsteilen. Er brach an der Resonanzwölbung des Schmerzes und fiel aus seinem Muttergestein als ein zerbrochenes Versprechen." />
   </object>
   <object Name="Nacham's Ribbon" Load="Merge">
-    <part Name="Render" DisplayName="{{K-K-K-K-K-c-C-Y sequence|Nachams Band}} {{C-c-K-K-K-K sequence|Nachams Band}}" />
+    <part Name="Render" DisplayName="{{K-K-K-K-K-c-C-Y sequence|Nachams}} {{C-c-K-K-K-K sequence|Band}}" />
     <part Name="Description" Short="Ein Vorhang dröhnender Kabel bildet einen Mantel für gekrümmte Schultern. Sie vibrieren mit neuronalen Frequenzen, die lange ruhig waren." />
   </object>
   <object Name="Vaam's Lens" Load="Merge">
-    <part Name="Render" DisplayName="{{K-K-K-K-c-C-Y sequence|Vaams Linse}} {{C-c-K-K sequence|Vaams Linse}}" />
+    <part Name="Render" DisplayName="{{K-K-K-K-c-C-Y sequence|Va'ams}} {{C-c-K-K sequence|Linse}}" />
     <part Name="Description" Short="Ein Ozeantrommler aus unbekanntem Zirkon reinigt sich selbst von Staub bis zur Partikel durch elektrostatische Löschung. Das zentrale Kreuz bietet dem Träger einen Griff." />
   </object>
   <object Name="Dagasha's Spur" Load="Merge">
-    <part Name="Render" DisplayName="{{K-K-K-K-c-C-Y-C-c sequence|Dagashas Sporn}} {{K sequence|Dagashas Sporn}}" />
+    <part Name="Render" DisplayName="{{K-K-K-K-c-C-Y-C-c sequence|Dagashas}} {{K sequence|Sporn}}" />
     <part Name="Description" Short="Eine Dornenkrone aus Kristallen in psionischen Winkeln ist ein Meilenstein im psychischen Meer." />
   </object>
   <object Name="Kah's Loop" Load="Merge">
-    <part Name="Render" DisplayName="{{K-K-c-C-Y sequence|Kahs Schleife}} {{C-c-K-K sequence|Kahs Schleife}}" />
+    <part Name="Render" DisplayName="{{K-K-c-C-Y sequence|Kahs}} {{C-c-K-K sequence|Schleife}}" />
     <part Name="Description" Short="Ein geripptes Kabel aus tangentialen Nadelspitzen quetscht das Glied und beschleunigt seine Biomasse über Erwartungen hinaus." />
   </object>
   <object Name="The Kesil Face" Load="Merge">
@@ -2441,7 +2441,7 @@
     <part Name="Description" Short="Kalligrafien sind in ungleichmäßigen Reihen und Spalten eingraviert, die über die Viertel- und Rückenstütze des Stiefels mäandrieren. Ihre Zeichenmasse scheint um eine zentrale Aussage zu kreisen: &amp;quot;Der Pfad ist kontrahiert.&amp;quot; Der Rest des Textes ist in einer Vielzahl von Zeichen und Stilen geätzt, die konkurrierende und zusammengesetzte Interpretationen der kryptischen Proklamation bieten." />
   </object>
   <object Name="Flawless Crysteel Boots" Load="Merge">
-    <part Name="Render" DisplayName="{{K|{{crysteel|Flawless Crysteel Stiefel}}}}" />
+    <part Name="Render" DisplayName="{{K|makellose {{crysteel|crysteel}} Stiefel}}" />
     <part Name="Description" Short="Hochöfen saugten die Gezeitenenergie aus dem Planeten, erhitzten Kohlenstoff auf Sonnentemperaturen und gossen ihn in sechseckige Formen. Die Smaragdzangen zum Abrufen der Gussformen zersäuberten und ventilierten Vanadium - den grünen Glanz - in das Verteilerrohr, wodurch das Metall unvollkommen wurde und seine charakteristische Färbung verlieh. Gussformen, die mit Staubpartikeln fleckig waren, wurden ausgesiebt und an Steinfresser verfüttert, wobei nur die perfekten sechseckigen Prismen übrig blieben." />
   </object>
   <object Name="3D Cobblers" Load="Merge">
@@ -2587,15 +2587,15 @@
     <part Name="Description" Short="Ein dicker Metallmantel umhüllt den Sprengstoff und wird an einen Schnellverschluss-Hebel geklemmt. Seine Kappe ist mit scharfen Kanten ausgekleidet." />
   </object>
   <object Name="AcidGasGrenade1" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Saeuregasgranate mk I}}gasgranate mk I" />
+    <part Name="Render" DisplayName="{{G|Säure}} Gasgranate mk I" />
     <part Name="Description" Short="Eine Gusseisenkugel ist durch einen Hebel mit einem Zugring eingespannt. Sie zischt innen." />
   </object>
   <object Name="AcidGasGrenade2" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Saeuregasgranate mk II}}gasgranate mk II" />
+    <part Name="Render" DisplayName="{{G|Säure}} Gasgranate mk II" />
     <part Name="Description" Short="Ein Metallschwarm aus waffelförmigen Sechsecken ist durch einen Chromhebel eingeklemmt. Es zischt innen." />
   </object>
   <object Name="AcidGasGrenade3" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Saeuregasgranate mk III}}gasgranate mk III" />
+    <part Name="Render" DisplayName="{{G|Säure}} Gasgranate mk III" />
     <part Name="Description" Short="Ein dicker Metallmantel umhüllt den Sprengstoff und wird an einen Schnellverschluss-Hebel geklemmt. Es zischt innen." />
   </object>
   <object Name="FlashbangGrenade1" Load="Merge">
@@ -2623,15 +2623,15 @@
     <part Name="Description" Short="Ein dicker Metallmantel umhüllt den Sprengstoff und wird an einen Schnellverschluss-Hebel geklemmt. Es ist heiß zum Anfassen." />
   </object>
   <object Name="ColdGrenade1" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Kaelte}}granate mk I" />
+    <part Name="Render" DisplayName="{{C|Gefrier}} Granate Mk. I" />
     <part Name="Description" Short="Eine Gusseisenkugel ist durch einen Hebel mit einem Zugring eingespannt. Sie ist kalt anzufassen." />
   </object>
   <object Name="ColdGrenade2" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Kaelte}}granate mk II" />
+    <part Name="Render" DisplayName="{{C|Gefrier}} Granate Mk. II" />
     <part Name="Description" Short="Ein Metallschwarm aus waffelförmigen Sechsecken ist durch einen Chromhebel eingeklemmt. Es ist kalt zum Anfassen." />
   </object>
   <object Name="ColdGrenade3" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Kaelte}}granate mk III" />
+    <part Name="Render" DisplayName="{{C|Gefrier}} Granate Mk. III" />
     <part Name="Description" Short="Ein dicker Metallmantel umhüllt den Sprengstoff und wird an einen Schnellverschluss-Hebel geklemmt. Es ist kalt zum Anfassen." />
   </object>
   <object Name="HEGrenade1" Load="Merge">
@@ -3074,7 +3074,7 @@
     <part Name="Description" Short="Ein zweiter Schädel wurde als Kegel aus einem Blatt entschwelten Metalls erhoben. Winzige Initialen sind eingekratzt." />
   </object>
   <object Name="Elastyne Skull Cap" Load="Merge">
-    <part Name="Render" DisplayName="{{K|Elastin-Schaedelschutz}}Schaedelschutz" />
+    <part Name="Render" DisplayName="{{K|elastyne}} Schädelmütze" />
     <part Name="Description" Short="Eine Kappe aus Schmutzmaterial, das Arkonauten schwarze Dehnung nennen, wurde aus Gummigrottos gefischt und an die Kopfhaut geklebt." />
   </object>
   <object Name="Electric Snail Shell" Load="Merge">
@@ -3142,7 +3142,7 @@
     <part Name="Description" Short="Luftiges Gedankengut wurde durch den Druck des materiellen Reiches in eine Gallertsubstanz abgelagert und zu einem Diadem aufgerollt. Es ist mit kristallinem Mikroleben geschmückt, Symbionten, die in der Tiefe des psychischen Meeres ausgebrütet wurden." />
   </object>
   <object Name="Enigma Cap" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Enigma-Muetze}}Muetze" />
+    <part Name="Render" DisplayName="{{B|Enigma}}-Kappe" />
     <part Name="Description" Short="Eine kalkhaltige Schale wurde an der Spitze abgeschlagen. Ihre Windungen beeindrucken das Auge mit gefälliger Geometrie, bevor sie in unbequeme und schwindelerregende Disharmonie abweichen." />
   </object>
   <object Name="Zetachrome Apex" Load="Merge">
@@ -3241,7 +3241,7 @@
     <part Name="Render" DisplayName="{{R-r-K-y-Y sequence|perlenbesetzt}} Armband" />
   </object>
   <object Name="Bracelet2" Load="Merge">
-    <part Name="Render" DisplayName="{{C-B-b-c sequence|Perlenarmband}}" />
+    <part Name="Render" DisplayName="{{C-B-b-c sequence|Perlen}} Armband" />
   </object>
   <object Name="Bracelet3" Load="Merge">
     <part Name="Render" DisplayName="{{m-M sequence|perlig}} Armband" />

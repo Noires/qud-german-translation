@@ -75,7 +75,7 @@
   </object>
   <object Name="Ray Cat" Load="Merge">
     <part Name="Render" DisplayName="Strahlenkatze" />
-    <part Name="Description" Short="Eine kleine Katze, deren glasfaserartiges Fell das Licht ferner Sterne in seltsame Ringe bricht. &amp;amp;amp;mphosphorescent&amp;amp;amp;y" />
+    <part Name="Description" Short="Eine kleine Katze, deren glasfaserartiges Fell das Licht ferner Sterne in seltsame Ringe bricht. &amp;amp;amp;amp;amp;amp;mphosphorescent&amp;amp;amp;amp;amp;amp;y" />
   </object>
   <object Name="Cat Claw" Load="Merge">
     <part Name="Render" DisplayName="Kralle" />
@@ -326,7 +326,7 @@
     <part Name="Description" Short="Ein Glubschaugen-Kopf und gestreckter Thorax von Sonnensalz-Weiß ist bereit, durch die Luft zu springen, durch das Vertrauen eines Sextetts springender Beine." />
   </object>
   <object Name="Salthopper_Mandibles" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Reissende Mandibeln}}" />
+    <part Name="Render" DisplayName="{{G|reißende Kiefer}}" />
   </object>
   <object Name="Salthopper Corpse" Load="Merge">
     <part Name="Render" DisplayName="Salzspringerleiche" />
@@ -639,7 +639,7 @@
     <part Name="Description" Short="Verdichtetes Sternengas sammelt sich an den Spitzen von =pronouns.possessive= Fangzähnen an und tropft auf blasse Beingebilde. =pronouns.Subjective= =verb:shudder:afterpronoun= im Bann einer reinen Ekstase, verloren in Raum und Zeit, und =pronouns.subjective= =verb:let:afterpronoun= einen stolzen und durchdringenden Ton aus." />
   </object>
   <object Name="PlasmaticGirshling_Bite" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Gluehender Fang}}" />
+    <part Name="Render" DisplayName="{{G|glühende}} Fangzähne" />
   </object>
   <object Name="Plasmatic Girshling Cresh" Load="Merge">
     <part Name="Render" DisplayName="Plasmatischer Girschling-Kamm" />
@@ -700,7 +700,7 @@
     <part Name="Description" Short="Ein Paar verkalkte Schürstangen wurden durch Abstammung geschärft, um die Hautschichtenkuchen zu durchstechen. Sie sind glatt von einem Film aus blubberndem Todesschlamm." />
   </object>
   <object Name="Incandescent Fangs" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Gluehende Fangzaehne}}" />
+    <part Name="Render" DisplayName="{{G|glühende}} Fangzähne" />
     <part Name="Description" Short="Ein Paar verkalkte Schürstangen wurden durch Abstammung geschärft, um die Hautschichtenkuchen zu durchstechen. Sie sind glatt von einem Film aus verdichtetem Sternengas." />
   </object>
   <object Name="Zigzag Fangs" Load="Merge">
@@ -790,7 +790,7 @@
     <part Name="Description" Short="=pronouns.Subjective= =verb:are:afterpronoun= eine wimmernde und fahle Made, und Pusteln giftigen Gases quillen aus =pronouns.possessive= aufgeblähtem Bauch." />
   </object>
   <object Name="YithMaggotBite" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Saeuremandibeln}}" />
+    <part Name="Render" DisplayName="{{G|säurefressende}} Kiefer" />
   </object>
   <object Name="Aloe Volta" Load="Merge">
     <part Name="Render" DisplayName="Aloe Volta" />
@@ -1083,7 +1083,7 @@
     <part Name="Render" DisplayName="{{K|Sickernder Pseudopod}}" />
   </object>
   <object Name="Blue Jel" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Blaues Gel}}" />
+    <part Name="Render" DisplayName="{{C|blaue Gallerte}}" />
     <part Name="Description" Short="Ein fettiger Sack aus leuchtender Brühe rotiert über den Boden in Spiralschritt und erleuchtet einen helikalen Pfad." />
   </object>
   <object Name="Luminous Pseudopod" Load="Merge">
@@ -1160,11 +1160,11 @@
     <part Name="Description" Short="Organische Materie wird durch Zerfallsagentien verflüssigt und durch enge Räume in die Formen von Prismatoiden gepresst. Durch einen Cousin-Instinkt zum Hunger galvanisiert, dreht die Gelatin-Entität sich jetzt in Kegelstumpfform nach vorne." />
   </object>
   <object Name="Green Goo" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Gruener Schleim}}" />
+    <part Name="Render" DisplayName="{{G|grünes Gelee}}" />
     <part Name="Description" Short="Ein fettiger Sack aus Schleim rotiert über den Boden in Spiralschritt. Unter =pronouns.possessive= Membran schlittern eine Schwadron funkelglänzender Aale nach Freiheit." />
   </object>
   <object Name="Gooey Pseudopod" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Schleimiger Pseudopod}}" />
+    <part Name="Render" DisplayName="{{G|schleimiger Scheinfuß}}" />
   </object>
   <object Name="Gyre Wight of Bethsaida" Load="Merge">
     <part Name="Render" DisplayName="Wirbel-Wight von Bethsaida" />
@@ -1190,7 +1190,7 @@
     <part Name="Description" Short="Ein Durcheinander aus verbranntem Haar bedeckt die Backen eines knurrenden, bösen Mastiffs, und zwei Reihen scharfer Fangzähne tropfen =pronouns.possessive= bleichenden Speichel." />
   </object>
   <object Name="Hyrkhound_Bite" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Saeurebenetzter}} Fang" />
+    <part Name="Render" DisplayName="{{G|säurebenässt}} Fangzähne" />
   </object>
   <object Name="Ixlthyxl" Load="Merge">
     <part Name="Render" DisplayName="Ixlthyxl" />
@@ -1256,7 +1256,7 @@
     <part Name="Description" Short="Ein Band aus schuppenlosen Geweben zittert in Schwebe jenseits eines Mundes, umgeben von wiederholten dreieckigen Zähnen. =pronouns.Subjective= =verb:extrude:afterpronoun= einen Doppelgänger durch die verspiegelten Ebenen der Realität." />
   </object>
   <object Name="Lamprey Bite" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Psychischer Biss}}" />
+    <part Name="Render" DisplayName="{{B|psionischer Biss}}" />
   </object>
   <object Name="BaseBreather" Load="Merge">
     <part Name="Render" DisplayName="Atembart" />
@@ -1604,7 +1604,7 @@
     <part Name="Description" Short="Ein gigantisches Gewebeband ohne Schuppen zittert schwebend jenseits eines Mundes mit wiederholten Dreieckszähnen, und imaginäre Flösschen kleiden =pronouns.possessive= glänzende Länge. =pronouns.Subjective= =verb:extrude:afterpronoun= ein Doppeltes durch die gespiegelten Ebenen der Realität und dreht sich rückwärts durch sie hindurch, um ein Dreifaches auszustoßen." />
   </object>
   <object Name="TriningLamprey_Bite" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Psychischer Biss}}" />
+    <part Name="Render" DisplayName="{{B|psionischer Biss}}" />
   </object>
   <object Name="Sultan Croc" Load="Merge">
     <part Name="Render" DisplayName="Sultan-Krokodil" />
@@ -1654,7 +1654,7 @@
   </object>
   <object Name="Astral Tabby" Load="Merge">
     <part Name="Render" DisplayName="Astral-Katze" />
-    <part Name="Description" Short="=pronouns.Subjective= =verb:flicker:afterpronoun= hinter =pronouns.possessive= marmornem Fell und bewohnt gleichzeitig diese Dimension, waehrend die traumhaften Korridore =pronouns.possessive= eigenen chimaerischen Welt durchstreift werden." />
+    <part Name="Description" Short="=pronouns.Subjective= =verb:flicker:afterpronoun= hinter =pronouns.possessive= Marmormantels, synchron diese Dimension bewohnend, während die verträumten Korridore von =pronouns.possessive= eigener chimerer Welt durchstreift." />
   </object>
   <object Name="Astral_Tabby_Claw" Load="Merge">
     <part Name="Render" DisplayName="Kralle" />
@@ -1685,7 +1685,7 @@
     <part Name="Description" Short="Schaftanker nass von einer namenlosen Schmiere kleben störrisch auf dem Boden. Eine mit Noppen gefüllte Untertasse beugt sich nach oben, und in ihr sitzt ein dampfender Globus, der Laute der Anderswelt gurgled. Es gibt Prozesse auf jenen feuchten und inneren Wolken, aber ihre Regeln sind jenseits des Wissens verschlossen." />
   </object>
   <object Name="ProjectileCrungleGaze" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Blick des Knaeuels}}" />
+    <part Name="Render" DisplayName="{{B|knirschender Blick}}" />
   </object>
   <object Name="Sated Dreamcrungle" Load="Merge">
     <part Name="Render" DisplayName="matter Traumknauser" />
@@ -1752,7 +1752,7 @@
     <part Name="Description" Short="Spitze und ausdrucksstarke Schilder reichen über den breiten Rücken wie ein kartengefertigtes Mosaik. Die Topografie eines anderen Ortes wird in dimensionsübergreifender Hornsubstanz dargestellt." />
   </object>
   <object Name="Starshell_Bite" Load="Merge">
-    <part Name="Render" DisplayName="{{K|Adumbraler}} Biss" />
+    <part Name="Render" DisplayName="{{K|adumbral}} Biss" />
   </object>
   <object Name="Phase Cannon Tinker" Load="Merge">
     <part Name="Render" DisplayName="Phasenkanonen-Konstrukteur" />
@@ -1872,7 +1872,7 @@
     <part Name="Render" DisplayName="{{c|Kettenpistolen-Geschütz}}" />
   </object>
   <object Name="LaserTurret" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Lasergeschuetz}}" />
+    <part Name="Render" DisplayName="{{B|Laser-Geschütz}}" />
   </object>
   <object Name="ChainLaserEmplacement" Load="Merge">
     <part Name="Render" DisplayName="{{B|Kettenlaserstellung}}" />
@@ -1904,7 +1904,7 @@
     <part Name="Render" DisplayName="Barathrumitischer Arkonaut" />
   </object>
   <object Name="LiquidLichen" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Fluessigflechte}}" />
+    <part Name="Render" DisplayName="{{B|liquidlichen}}" />
     <part Name="Description" Short="=pronouns.Possessive= blättrige Lappen schwellen an und werden feucht mit Flüssigkeit." />
   </object>
   <object Name="honeyLichen" Load="Merge">
@@ -1941,7 +1941,7 @@
     <part Name="Render" DisplayName="Riesen {{G|Säure}}-Träne" />
   </object>
   <object Name="acidLichen Minor" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Saeure}}quelle" />
+    <part Name="Render" DisplayName="{{G|Säure}} Träne" />
   </object>
   <object Name="wineLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{m|Wein}}-Träne" />
@@ -1965,7 +1965,7 @@
     <part Name="Render" DisplayName="Riesen {{B|Wasser}}-Träne" />
   </object>
   <object Name="waterLichen Minor" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Wasser}}quelle" />
+    <part Name="Render" DisplayName="{{B|Wasser}} Weinen" />
   </object>
   <object Name="gelLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{Y|Gel}}-Träne" />
@@ -1977,7 +1977,7 @@
     <part Name="Render" DisplayName="Riesen {{K|Asphalt}}-Träne" />
   </object>
   <object Name="asphaltLichen Minor" Load="Merge">
-    <part Name="Render" DisplayName="{{K|Asphalt}}quelle" />
+    <part Name="Render" DisplayName="{{K|asphalt}} Weinen" />
   </object>
   <object Name="saltLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{Y|Salz}}-Träne" />
@@ -1996,7 +1996,7 @@
     <part Name="Description" Short="Zum Leben erweckt, oder etwas dem Leben Ähnliches, durch den Ionenaustausch zwischen einer überreaktiven Ursuppe und ihrem flüssigen Cousin, wiederholt der Schlamm einen Prozess, der sich auf Billionen von Sternenumkreisungs-Weltfelsen abspielt." />
   </object>
   <object Name="Acidic Pseudopod" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Saeuretentakel}}" />
+    <part Name="Render" DisplayName="{{G|säure-Pseudopod}}" />
   </object>
   <object Name="Magmatic Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{R|Magma-Tentakel}}" />
@@ -2014,7 +2014,7 @@
     <part Name="Render" DisplayName="{{K|Teertentakel}}" />
   </object>
   <object Name="Watery Pseudopod" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Wassertentakel}}" />
+    <part Name="Render" DisplayName="{{B|wässriger Pseudopod}}" />
   </object>
   <object Name="Salty Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Salztentakel}}" />
@@ -2044,7 +2044,7 @@
     <part Name="Render" DisplayName="{{w|Schlammtentakel}}" />
   </object>
   <object Name="Gooey Pseudopod2" Load="Merge">
-    <part Name="Render" DisplayName="{{G|Zaehfluessiger Tentakel}}" />
+    <part Name="Render" DisplayName="{{G|schleimiger Scheinfuß}}" />
   </object>
   <object Name="Putrid Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{K|Fauliger Tentakel}}" />
@@ -2328,7 +2328,7 @@
   </object>
   <object Name="Neek" Load="Merge">
     <part Name="Render" DisplayName="Neek" />
-    <part Name="Description" Short="=pronouns.Possessive= Gesicht ist zart, sauber und mit winzigen Fellhaaren gesprenkelt. =pronouns.Possessive= Kopfhaar ist gelatiniert und zu einem scharfen Rechteck geformt. =pronouns.Possessive= Augen sind hell und weit. Seltsame Kleider haengen um =pronouns.possessive= schmalen Koerper, und =pronouns.possessive= Finger zappeln in gemusterter Unregelmaessigkeit. Gelegentlich =pronouns.subjective= =verb:beam:afterpronoun= ein Grinsen und =verb:freeze:afterpronoun= =pronouns.possessive= Bewegung, bevor alles wie zuvor weitergeht." />
+    <part Name="Description" Short="=pronouns.Possessive= Gesicht ist zart, sauber und mit winzigen Haaren gepunktet. =pronouns.Possessive= Kopfhaar ist gelatiniert und in ein scharfes Rechteck geformt. =pronouns.Possessive= Augen sind hell und weit. Seltsame Kleidung hängt um =pronouns.possessive= schlanke Gestalt herum, und =pronouns.possessive= Finger zappeln in gemusterter Asynchronität. Gelegentlich =pronouns.subjective= =verb:beam:afterpronoun= ein Grinsen und =verb:freeze:afterpronoun= =pronouns.possessive= Bewegung, bevor sie weitergehen, als ob nichts geschehen wäre." />
   </object>
   <object Name="Mafeo" Load="Merge">
     <part Name="Render" DisplayName="Mafeo" />
@@ -2358,7 +2358,7 @@
   </object>
   <object Name="Liihart" Load="Merge">
     <part Name="Render" DisplayName="Liihart" />
-    <part Name="Description" Short="=pronouns.Subjective==verb:'re:afterpronoun= so klein wie eine Faundren, aber ein genauerer Blick auf ihre angespannten Schultern und berechnenden Augen enthuellen sie als vollwertiger Zwerg. =pronouns.Subjective= =verb:wear:afterpronoun= =pronouns.possessive= Haar in einem Paar Haarknoten gebunden, so fest wie =pronouns.possessive= Nerven. =pronouns.Possessive= winzigen Hande, gerollt und angespannt, sind bedeckt mit den charakteristischen Braenden und Schnitten eines dilettantischen Tueftlers." />
+    <part Name="Description" Short="=pronouns.Subjective==verb:'re:afterpronoun= so klein, dass sie wie ein Faundren aussieht, aber ein genauerer Blick auf ihre angespannten Schultern und berechnenden Augen offenbart sie als einen ausgewachsenen Knirps. =pronouns.Subjective= =verb:wear:afterpronoun= =pronouns.possessive= Haar in einem Paar Brötchen, gebunden, so straff wie =pronouns.possessive= Nerven. =pronouns.Possessive= kleine Hände, gekrümmt und ängstlich, sind mit den charakteristischen Verbrennungen und Schnitten eines Hobby-Bastlers bedeckt." />
   </object>
   <object Name="Isahind" Load="Merge">
     <part Name="Render" DisplayName="Isahind" />
@@ -2370,7 +2370,7 @@
   </object>
   <object Name="Keh" Load="Merge">
     <part Name="Render" DisplayName="Keh" />
-    <part Name="Description" Short="Die Zeit hat Falten in =pronouns.possessive= Ohren und eine tiefe Furche in =pronouns.possessive= Kehle gelegt. Die so erzeugte scharfe Stimme setzt die Regung des Lebens auf der Wiese in Gang und haelt sie an. Der Bogen der Tradition hat =pronouns.possessive= Hindriarch genannt, eingeschrieben in den girlandenfoermigen Schnitt =pronouns.possessive= Haares, und das Gefaelle der Zeit hat =pronouns.possessive= in den Koepfen der Faundren als Grossricke verankert. Fuer alle in Bey Lah =verb:are:afterpronoun= =pronouns.subjective= das souveraene Gesetz." />
+    <part Name="Description" Short="Zeit hat Falten in =pronouns.possessive= Ohren und eine tiefe Furche in =pronouns.possessive= Kehle gelegt. Die scharfe Stimme, so erzeugt, startet und stoppt die Bewegung des Lebens in der Wiese. Der Bogen der Tradition hat =pronouns.possessive= Hindriarch genannt, eingraviert im Girlanden-Schnitt von =pronouns.possessive= Haaren, und der Abstieg der Zeit hat =pronouns.possessive= in den Gedanken der faundren als Grand-Doe gesperrt. Für alle in Bey Lah, =pronouns.subjective= =verb:are:afterpronoun= das souveräne Gesetz." />
   </object>
   <object Name="PariahKeh" Load="Merge">
     <part Name="Render" DisplayName="PariahKeh" />
@@ -2674,7 +2674,7 @@
     <part Name="Description" Short="Goldene Kiemen spannen und entspannen sich, spannen und entspannen sich, spannen und entspannen sich, als würden sie Atem in den Stiel des Kugelfisches einziehen. Bei jeder Ausatmung stößt er eine Wolke goldener Sporen wie Lichtteilchen aus. Sie flattern zurück zur Kappe und gerinnen zu einem goldenen Plasma." />
   </object>
   <object Name="FungusPuffer2" Load="Merge">
-    <part Name="Render" DisplayName="{{B|Azurblauer Sporenblaehpilz}}" />
+    <part Name="Render" DisplayName="{{B|brütender Azurpuff}}" />
     <part Name="Description" Short="Azurblaue Kiemen spannen und entspannen sich, spannen und entspannen sich, spannen und entspannen sich, als würden sie Atem in den Stiel des Kugelfisches einziehen. Bei jeder Ausatmung stößt er eine Wolke indigofarbener Sporen wie Dämmerungsteilchen aus. Sie flattern zurück zur Kappe und gerinnen zu einem azurblauen Plasma." />
   </object>
   <object Name="FungusPuffer3" Load="Merge">
@@ -2827,12 +2827,12 @@
     <part Name="Description" Short="Der Lehrer mit salzigen, gefränzten Locken nutzt =pronouns.possessive= Finger, um die Gematria zu zählen und die heiligen Zahlen in Worte der Bedeutung umzuwandeln." />
   </object>
   <object Name="Mechanimist Choraler" Load="Merge">
-    <part Name="Render" DisplayName="{{K|Mechanimistischer Chorsaenger}}" />
+    <part Name="Render" DisplayName="{{K|Mechanimist Choraler}}" />
     <part Name="Description" Short="Kolben-tinten-Hände winken in Begleitung zu =pronouns.possessive= Falsett-Klingeln, gedacht um den Klang von Sternenecho zu replizieren, das die Kugel von Kasaphescence im weichen Staub des Weltalls streifen." />
   </object>
   <object Name="Mechanimist Houndmaster" Load="Merge">
     <part Name="Render" DisplayName="Mechanimistischer Hundemeister" />
-    <part Name="Description" Short="Die Lippen des Hundelehrers sind nass von =pronouns.possessive= staendigem Strom gematrialen Knurrens, Phoneme durch numerologische Siebe gesponnen, auf die die Hunde abgerichtet sind." />
+    <part Name="Description" Short="Die Lippen des Hundetutors sind rutschig von =pronouns.possessive= konstanten Strom gematrial Knurren, Phoneme durch numerologische Siebe gesponnen, auf die die Hunde trainiert werden." />
   </object>
   <object Name="Fjolnir Fist" Load="Merge">
     <part Name="Render" DisplayName="{{C|Eisbedeckte Faust}}" />
@@ -2842,7 +2842,7 @@
     <part Name="Description" Short="Wo Licht auf Licht schwimmt und tanzt, rüttelt Dunkel auf Dunkel und klappert. Es gibt keine Bewegungskontinuität, stattdessen scheint die schwarze Leere gelegentlich plötzlich in Form zu brennen, bevor sie wieder verschwimmt. Die Augen verkrampfen sich bei dieser Zertrennung, und der Eindruck der Anwesenheit geht wieder verloren." />
   </object>
   <object Name="HagHands" Load="Merge">
-    <part Name="Render" DisplayName="{{K|Haende der Vettel}}" />
+    <part Name="Render" DisplayName="{{K|adumbral}} Hand" />
   </object>
   <object Name="Addling Urchin" Load="Merge">
     <part Name="Render" DisplayName="Verwirrter Seeigel" />

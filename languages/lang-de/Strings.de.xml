@@ -270,7 +270,7 @@
   <string Context="OptionsSliderControl Save Value" ID="Save" Value="Speichern" />
   <string Context="OptionsSliderControl Cancel Value" ID="Cancel" Value="Abbrechen" />
   <string Context="PickGameObjectLine CategoryExpanderAndName" ID="=expand.expanded= =category|color:K=" Value="=expand.expanded= =category|color:K=" />
-  <string Context="PickGameObjectLine OwnedByYou" ID="{{G|[owned by you]}}" Value="{{G|[von Euch besessen]}}" />
+  <string Context="PickGameObjectLine OwnedByYou" ID="{{G|[owned by you]}}" Value="{{G|[Im Besitz von Euch]}}" />
   <string Context="PickGameObjectScreen sort mode setting" ID="Sort Mode: =modes.textSelector#selected=" Value="Sortierungsmodus: =modes.textSelector#selected=" />
   <string Context="PickGameObjectScreen SortMode az" ID="A-Z" Value="A-Z" />
   <string Context="PickGameObjectScreen SortMode category" ID="By Class" Value="Nach Klasse" />
@@ -389,7 +389,7 @@
   <string Context="Quest UI QuestsLine Quest Giver Text" ID="=questGiverName= / =questGiverLocationName=" Value="=questGiverName= / =questGiverLocationName=" />
   <string Context="Character Status Screen Tab Name (Short)" ID="Quests" Value="Quests" />
   <string Context="Character Status Screen Tab Name (Long)" ID="Quests" Value="Quests" />
-  <string Context="Quests UI Map Pin Quest Label" ID="{{B|quest:}} =quest.name|strip=" Value="{{B|quest:}} =quest.name|strip=" />
+  <string Context="Quests UI Map Pin Quest Label" ID="{{B|quest:}} =quest.name|strip=" Value="{{B|Quest:}} =quest.name|strip=" />
   <string Context="Skill UI Expander" ID="=expand.expanded=" Value="=expand.expanded=" />
   <string Context="Skill UI Line Unlearned Enough" ID="Starting Cost {{g|[=skill.cost= sp]}}" Value="Startkosten {{g|[=skill.cost= sp]}}" />
   <string Context="Skill UI Line Unlearned Not Enough" ID="Starting Cost {{r|[=skill.cost= sp]}}" Value="Startkosten {{r|[=skill.cost= sp]}}" />
@@ -417,7 +417,7 @@
   <string Context="StatusScreens - Base Accept button" ID="Accept" Value="Akzeptieren" />
   <string Context="TinkeringDetailsLine Cost" ID="=tinkerable.cost=" Value="=tinkerable.cost=" />
   <string Context="TinkeringDetails ModCostRules" ID="{{rules|=description=}}" Value="{{rules|=description=}}" />
-  <string Context="TinkeringLine NoSchematics" ID="{{K|You don't have any schematics.}}" Value="{{K|Ihr habt keine Bauplaene.}}" />
+  <string Context="TinkeringLine NoSchematics" ID="{{K|You don't have any schematics.}}" Value="{{K|Ihr habt keine Schaltpläne.}}" />
   <string Context="TinkeringLine Category and Expander" ID="=expand.expanded= =category= [=count=]" Value="=expand.expanded= =category= [=count=]" />
   <string Context="TinkeringLine BuildDisplayNameAndCost" ID="=name= [=coststring=]" Value="=name= [=coststring=]" />
   <string Context="TinkeringLine Mods NoApplicableItems" ID="&lt;no applicable items&gt;" Value="&lt;keine anwendbaren Gegenstände&gt;" />
@@ -535,7 +535,7 @@
   <string Context="Region Discovery Popup" ID="You discover the location of =region=." Value="Ihr entdeckt die Position von =region=." />
   <string Context="Region Discovery Accomplishment" ID="You discovered the location of =region=." Value="Ihr habt die Position von =region= entdeckt." />
   <string Context="Region Discovery mural text" ID="=spice:commonPhrases.intrepid.!random|capitalize= =name= discovered the location of =region=, once thought lost to the sands of time." Value="=spice:commonPhrases.intrepid.!random|capitalize= =name= entdeckte die Position von =region=, die man lange für verloren hielt." />
-  <string Context="Region Discovery gospel text" ID="In =year=, =name= appointed a corrupt administrator as minister of =region=. =person.Subjective= mandated the practice of =spice:elements.$domain.practices.!random= in =player.possessiveAdjective= name." Value="Im =year= ernannte =name= einen korrupten Administrator zum Minister von =region=. =person.Subjective= ordnete die Praxis von =spice:elements.$domain.practices.!random= in =player.possessiveAdjective= Namen an." />
+  <string Context="Region Discovery gospel text" ID="In =year=, =name= appointed a corrupt administrator as minister of =region=. =person.Subjective= mandated the practice of =spice:elements.$domain.practices.!random= in =player.possessiveAdjective= name." Value="Im =year=, =name= ernannte einen korrupten Administrator als Minister von =region=. =person.Subjective= verordnete die Praxis von =spice:elements.$domain.practices.!random= im =player.possessiveAdjective= Namen." />
   <string Context="HistoricEvent AddQuestsForRegion Step Name" ID="Travel to the historical site of =region=" Value="Reist zum historischen Ort von =region=" />
   <string Context="HistoricEvent AddQuestsForRegion Quest Name" ID="Visit =region=" Value="Besucht =region=" />
   <string Context="HistoricEvent AddQuestsForRelic Step 1 Name" ID="Locate =region=" Value="Findet =region=" />
@@ -586,8 +586,8 @@
   <string Context="HistoricEvent Abdicate gospel" ID="=spice:instancesOf.inYear.!random|capitalize= %=year=%, =spice:instancesOf.afterTumultuousYears.!random=, the sultan of Qud =spice:instancesOf.abdicated.!random=. Because =spice:instancesOf.ascensionReasons_VAR.!random=, =spice.entity:subjectPronoun= was chosen as the successor." Value="=spice:instancesOf.inYear.!random|capitalize= %=year=%, =spice:instancesOf.afterTumultuousYears.!random=, der Sultan von Qud =spice:instancesOf.abdicated.!random=. Weil =spice:instancesOf.ascensionReasons_VAR.!random=, =spice.entity:subjectPronoun= wurde als Nachfolger gewählt." />
   <string Context="HistoricEvent Abdicate var expansion" ID="=spice.entity:name|'s=" Value="=spice.entity:name|'s=" />
   <string Context="HistoricEvent Abdicate tombInscription" ID="=spice:commonPhrases.celebrate.!random|capitalize= the =spice:commonPhrases.sacred.!random= =yearName=, when =spice.entity:name= was dowered with the =maskName= and named sultan of Qud! =spice.entity:possessivePronoun|capitalize= ancestors the Fossilized Saads looked on in approval, since -- just like them -- =spice.entity:subjectPronoun= was known by =spice.entity:possessivePronoun= =sultanKnownFor=." Value="=spice:commonPhrases.celebrate.!random|capitalize= die =spice:commonPhrases.sacred.!random= =yearName=, als =spice.entity:name= mit dem =maskName= beschenkt und zum Sultan von Qud ernannt wurde! =spice.entity:possessivePronoun|capitalize= Ahnen, die Versteinerten Saads, blickten zustimmend herab, da -- genau wie sie -- =spice.entity:subjectPronoun= bekannt war für =spice.entity:possessivePronoun= =sultanKnownFor=." />
-  <string Context="HistoricEvent Abdicate gospel" ID="=spice:instancesOf.inYear.!random|capitalize= %=year=%, =afterTumultousYears=, =spice.entity:name|'s= counselors suggested =spice.entity:subjectPronoun= =spice:instancesOf.abdicate.!random=. Instead, =spice.entity:subjectPronoun= =countered=." Value="=spice:instancesOf.inYear.!random|capitalize= %=year=%, =afterTumultousYears=, =spice.entity:name|'s= Ratgeber schlugen vor, dass =spice.entity:subjectPronoun= =spice:instancesOf.abdicate.!random=. Stattdessen =spice.entity:subjectPronoun= =countered=." />
-  <string Context="HistoricEvent Abdicate tombInscription" ID="=spice:commonPhrases.remember.!random|capitalize= the lesson that =spice.entity:name= taught =spice.entity:possessivePronoun= advisors when they suggested =spice.entity:subjectPronoun= abdicate the throne =afterTumultuousYears=. Did =spice.entity:subjectPronoun= do any such thing? No! Instead, =spice.entity:subjectPronoun= =countered=." Value="=spice:commonPhrases.remember.!random|capitalize= die Lehre, die =spice.entity:name= =spice.entity:possessivePronoun= Berater lehrte, als diese =spice.entity:subjectPronoun= aufforderten, den Thron =afterTumultuousYears= abzudanken. Tat =spice.entity:subjectPronoun= das? Nein! Stattdessen =spice.entity:subjectPronoun= =countered=." />
+  <string Context="HistoricEvent Abdicate gospel" ID="=spice:instancesOf.inYear.!random|capitalize= %=year=%, =afterTumultousYears=, =spice.entity:name|'s= counselors suggested =spice.entity:subjectPronoun= =spice:instancesOf.abdicate.!random=. Instead, =spice.entity:subjectPronoun= =countered=." Value="=spice:instancesOf.inYear.!random|capitalize= %=year=%, =afterTumultousYears=, =spice.entity:name|'s= Berater rieten =spice.entity:subjectPronoun= =spice:instancesOf.abdicate.!random=. Stattdessen =spice.entity:subjectPronoun= =countered=." />
+  <string Context="HistoricEvent Abdicate tombInscription" ID="=spice:commonPhrases.remember.!random|capitalize= the lesson that =spice.entity:name= taught =spice.entity:possessivePronoun= advisors when they suggested =spice.entity:subjectPronoun= abdicate the throne =afterTumultuousYears=. Did =spice.entity:subjectPronoun= do any such thing? No! Instead, =spice.entity:subjectPronoun= =countered=." Value="=spice:commonPhrases.remember.!random|capitalize= die Lektion, die =spice.entity:name= =spice.entity:possessivePronoun= Beratern lehrte, als diese =spice.entity:subjectPronoun= vorschlugen, den Thron =afterTumultuousYears= abzudanken. Tat =spice.entity:subjectPronoun= so etwas? Nein! Stattdessen, =spice.entity:subjectPronoun= =countered=." />
   <string Context="HistoricEvent BattleItem itemAdjective" ID="=spice:elements.$element.adjectives.!random=" Value="=spice:elements.$element.adjectives.!random=" />
   <string Context="HistoricEvent BattleItem itemName" ID="=spice.nameItemAdjectiveRoot#itemAdjective|title= =faction.formattedName|randomMeaningfulWord|title==liberate.if:boon:bane=" Value="=spice.nameItemAdjectiveRoot#itemAdjective|title= =faction.formattedName|randomMeaningfulWord|title==liberate.if:boon:bane=" />
   <string Context="HistoricEvent BattleItem itemName" ID="=spice.nameItemAdjectiveRoot#itemAdjective|title=, the =liberate.if:Boon:Bane= of =faction.formattedName|randomMeaningfulWord|title=" Value="=spice.nameItemAdjectiveRoot#itemAdjective|title=, die =liberate.if:Boon:Bane= von =faction.formattedName|randomMeaningfulWord|title=" />
@@ -599,7 +599,7 @@
   <string Context="HistoricEvent BornAsHeir cognomen" ID="the =spice:commonPhrases.eminent.!random|title= =var|title=" Value="die =spice:commonPhrases.eminent.!random|title= =var|title=" />
   <string Context="HistoricEvent BornAsHeir cognomen" ID="=var|randomMeaningfulWord|title=born" Value="=var|randomMeaningfulWord|title=geboren" />
   <string Context="HistoricEvent BornAsHeir gospel" ID="=spice:commonPhrases.oneStarryNight.!random|capitalize= in =spice.entity:region=, a healthy child was born to the sultan at =spice.entity:location=. At the moment of =spice.entity:possessivePronoun= birth, =miracle=, and in celebration the people =spice:commonPhrases.celebrated.!random=. The babe was named =spice.entity:name=, but the people called =spice.entity:objectPronoun= =cognomen=." Value="=spice:commonPhrases.oneStarryNight.!random|capitalize= in =spice.entity:region=, wurde ein gesundes Kind des Sultans bei =spice.entity:location= geboren. Im Moment von =spice.entity:possessivePronoun= Geburt, =miracle=, und zur Feier =spice:commonPhrases.celebrated.!random= die Menschen. Das Kind wurde benannt =spice.entity:name=, aber die Menschen nannten =spice.entity:objectPronoun= =cognomen=." />
-  <string Context="HistoricEvent BornAsHeir tombInscription" ID="=spice:commonPhrases.onlooker.!random|capitalize=! =spice:instancesOf.observeInWonder.!random|capitalize= the life of =spice.entity:name= -- called =cognomen=! -- scion of the Fossilized Saads and who was dowered the =maskName=. Observe the twin miracles of the =yearName=: the =male.if:heir:heiress= was born, and =miracle|giveFamousPersonAName=." Value="=spice:commonPhrases.onlooker.!random|capitalize=! =spice:instancesOf.observeInWonder.!random|capitalize= das Leben von =spice.entity:name= -- genannt =cognomen=! -- Spross der Versteinerten Saads und wer mit dem =maskName= ausgestattet wurde. Beobachtet die Zwillingswunder des =yearName=: der =male.if:heir:heiress= wurde geboren, und =miracle|giveFamousPersonAName=." />
+  <string Context="HistoricEvent BornAsHeir tombInscription" ID="=spice:commonPhrases.onlooker.!random|capitalize=! =spice:instancesOf.observeInWonder.!random|capitalize= the life of =spice.entity:name= -- called =cognomen=! -- scion of the Fossilized Saads and who was dowered the =maskName=. Observe the twin miracles of the =yearName=: the =male.if:heir:heiress= was born, and =miracle|giveFamousPersonAName=." Value="=spice:commonPhrases.onlooker.!random|capitalize=! =spice:instancesOf.observeInWonder.!random|capitalize= das Leben von =spice.entity:name= -- genannt =cognomen=! -- Nachkomme der versteinerten Saads, dem das =maskName= als Mitgift gegeben wurde. Beobachte die beiden Wunder des =yearName=: der =male.if:heir:heiress= wurde geboren, und =miracle|giveFamousPersonAName=." />
   <string Context="HistoricEvent FoundAsBabe Gospel (simple)" ID="=spice:commonPhrases.oneStarryNight.!random|capitalize=, a babe was found swaddled =spice:myth.mythicPrepPlaces.!random= =spice:elements.entity@elements[random].babeTrait.!random=. That babe came to be known as =spice.entity:name=." Value="=spice:commonPhrases.oneStarryNight.!random|capitalize=, ein Kind wurde gefunden eingewickelt =spice:myth.mythicPrepPlaces.!random= =spice:elements.entity@elements[random].babeTrait.!random=. Dieses Kind wurde als =spice.entity:name= bekannt." />
   <string Context="HistoricEvent FoundAsBabe Gospel (profession)" ID="=spice:commonPhrases.oneStarryNight.!random|capitalize=, a =spice:professions.$profession.singular= found a babe =spice:elements.$element.babeTrait.!random= outside =person.possessive= =spice:professions.$profession.guildhall=. =person.Subjective= and =person.possessive= fellow =spice:professions.$profession.plural= adopted the babe and named =spice.entity:objectPronoun= =spice.entity:name=." Value="=spice:commonPhrases.oneStarryNight.!random|capitalize=, ein =spice:professions.$profession.singular= fand ein Kind =spice:elements.$element.babeTrait.!random= außerhalb des =person.possessive= =spice:professions.$profession.guildhall=. =person.Subjective= und =person.possessive= Kollege =spice:professions.$profession.plural= adoptierten das Kind und nannten =spice.entity:objectPronoun= =spice.entity:name=." />
   <string Context="HistoricEvent FoundAsBabe faction cognomen" ID="=coinflip.if:the ==spice:elements.$element.adjectives.!random|capitalize= =spice:commonPhrases.scion.!random|capitalize= of =faction.formattedName|titleCaseWithArticle=" Value="=coinflip.if:the ==spice:elements.$element.adjectives.!random|capitalize= =spice:commonPhrases.scion.!random|capitalize= von =faction.formattedName|titleCaseWithArticle=" />
@@ -665,7 +665,7 @@
   <string Context="HistoricEvent CorruptAdministrator gospel" ID="In %=year=%, a corrupt administrator was appointed minister of =region=. =person.Subjective= outlawed association with =faction.formattedName=, and =spice.entity:name= was forced to flee." Value="In %=year=% wurde ein korrupter Administrator zum Minister von =region= ernannt. =person.Subjective= verbot die Zusammenarbeit mit =faction.formattedName=, und =spice.entity:name= war gezwungen zu fliehen." />
   <string Context="HistoricEvent CorruptAdministrator tombInscription" ID="=spice:commonPhrases.remember.!random|capitalize= the =yearName=, when a corrupt administrator was appointed minister of =region=. =person.Subjective= outlawed association with =faction.formattedName=, and =spice.entity:name= was forced to flee." Value="=spice:commonPhrases.remember.!random|capitalize= den =yearName=, als ein korrupter Administrator zum Minister von =region= ernannt wurde. =person.Subjective= verbot die Zusammenarbeit mit =faction.formattedName=, und =spice.entity:name= war gezwungen zu fliehen." />
   <string Context="HistoricEvent CorruptAdministrator gospel" ID="In %=year=%, =spice.entity:name= appointed a corrupt administrator as minister of =region=. =person.Subjective= mandated association with =faction.formattedName= in =spice.entity:name|'s= name." Value="In %=year=% ernannte =spice.entity:name= einen korrupten Administrator zum Minister von =region=. =person.Subjective= ordnete die Zusammenarbeit mit =faction.formattedName= im Namen von =spice.entity:name|'s= an." />
-  <string Context="HistoricEvent CorruptAdministrator tombInscription" ID="=spice:commonPhrases.remember.!random|capitalize= the =yearName=, when the moral =spice:commonPhrases.depravity.!random= of =spice:history.gospels.ImmoralPractice.entity@era.!random= was =spice:commonPhrases.rife.!random= in =region=. =spice:commonPhrases.remember.!random|capitalize= that =spice.entity:name=, to =spice:commonPhrases.restore.!random= =spice:commonPhrases.morality.!random=, appointed a minister who mandated the association with =faction.formattedName=." Value="=spice:commonPhrases.remember.!random|capitalize= den =yearName=, als die moralische =spice:commonPhrases.depravity.!random= von =spice:history.gospels.ImmoralPractice.entity@era.!random= in =region= =spice:commonPhrases.rife.!random= war. =spice:commonPhrases.remember.!random|capitalize=, dass =spice.entity:name=, um =spice:commonPhrases.morality.!random= =spice:commonPhrases.restore.!random=, einen Minister ernannte, der die Zusammenarbeit mit =faction.formattedName= ordnete." />
+  <string Context="HistoricEvent CorruptAdministrator tombInscription" ID="=spice:commonPhrases.remember.!random|capitalize= the =yearName=, when the moral =spice:commonPhrases.depravity.!random= of =spice:history.gospels.ImmoralPractice.entity@era.!random= was =spice:commonPhrases.rife.!random= in =region=. =spice:commonPhrases.remember.!random|capitalize= that =spice.entity:name=, to =spice:commonPhrases.restore.!random= =spice:commonPhrases.morality.!random=, appointed a minister who mandated the association with =faction.formattedName=." Value="=spice:commonPhrases.remember.!random|capitalize= das =yearName=, als die moralische =spice:commonPhrases.depravity.!random= von =spice:history.gospels.ImmoralPractice.entity@era.!random= war =spice:commonPhrases.rife.!random= in =region=. =spice:commonPhrases.remember.!random|capitalize=, dass =spice.entity:name=, um =spice:commonPhrases.restore.!random= =spice:commonPhrases.morality.!random=, einen Minister ernannte, der die Vereinigung mit =faction.formattedName= anordnete." />
   <string Context="HistoricEvent FakedDeath cognomen" ID="the =spice:elements.$element.adjectives.!random|title= =spice:commonPhrases.ghost.!random|title=" Value="der =spice:elements.$element.adjectives.!random|title= =spice:commonPhrases.ghost.!random|title=" />
   <string Context="HistoricEvent FakedDeath cognomen" ID="the =spice.entity:colors[random]|title= =spice:commonPhrases.ghost.!random|title=" Value="der =spice.entity:colors[random]|title= =spice:commonPhrases.ghost.!random|title=" />
   <string Context="HistoricEvent FakedDeath cognomen suffix" ID="=cognomen= of =spice.entity:region=" Value="=cognomen= von =spice.entity:region=" />
@@ -685,7 +685,7 @@
   <string Context="HistoricEvent FoundGuild newLocationName" ID="the =spice:professions.$profession.guildhall|title= of the =spice:elements.$element.adjectives.!random|title=" Value="die =spice:professions.$profession.guildhall|title= der =spice:elements.$element.adjectives.!random|title=" />
   <string Context="HistoricEvent FoundGuild gospel" ID="After =spice:commonPhrases.treating.!random= with =faction.formattedName=, =spice.entity:name= convinced them to help =spice.entity:objectPronoun= found =spice:professions.$profession.guildhall|article= in =newRegion= for the purpose of =spice:professions.$profession.studying= =spice:elements.$element.nounsPlural.!random=. They named it =newLocationName=." Value="Nach =spice:commonPhrases.treating.!random= mit =faction.formattedName= überredete =spice.entity:name= sie, =spice.entity:objectPronoun= bei der Gründung von =spice:professions.$profession.guildhall|article= in =newRegion= zum Zweck von =spice:professions.$profession.studying= =spice:elements.$element.nounsPlural.!random= zu helfen. Sie nannten es =newLocationName=." />
   <string Context="HistoricEvent FoundGuild activity" ID="=spice:history.gospels.CivilizationActivity.entity@era.!random=" Value="=spice:history.gospels.CivilizationActivity.entity@era.!random=" />
-  <string Context="HistoricEvent FoundGuild tombInscription" ID="In =yearName= we =spice:instancesOf.rejoicedAt.!random= the =spice:commonPhrases.inauguration.!random= of =newLocationName=, where =faction.formattedName= =spice:professions.$profession.foundingVerbTombInscription.!random=." Value="Im =yearName= =spice:instancesOf.rejoicedAt.!random= wir die =spice:commonPhrases.inauguration.!random= von =newLocationName=, wo =faction.formattedName= =spice:professions.$profession.foundingVerbTombInscription.!random=." />
+  <string Context="HistoricEvent FoundGuild tombInscription" ID="In =yearName= we =spice:instancesOf.rejoicedAt.!random= the =spice:commonPhrases.inauguration.!random= of =newLocationName=, where =faction.formattedName= =spice:professions.$profession.foundingVerbTombInscription.!random=." Value="Im =yearName= wir =spice:instancesOf.rejoicedAt.!random= die =spice:commonPhrases.inauguration.!random= von =newLocationName=, wo =faction.formattedName= =spice:professions.$profession.foundingVerbTombInscription.!random=." />
   <string Context="HistoricEvent GenericDeath gospel" ID="In %=year=%, =spice.entity:name==listOfCognomen= died of natural causes. =spice.entity:subjectPronoun|capitalize= was =age= years old." Value="In %=year=% starb =spice.entity:name==listOfCognomen= eines natürlichen Todes. =spice.entity:subjectPronoun|capitalize= war =age= Jahre alt." />
   <string Context="HistoricEvent GenericDeath tombInscription" ID="In the =yearName=, =spice.entity:name==listOfCognomen= laid =spice.entity:possessivePronoun= body to rest and crossed into Brightsheol. =spice.entity:subjectPronoun|capitalize= was =age= years old." Value="Im =yearName= legte =spice.entity:name==listOfCognomen= =spice.entity:possessivePronoun= Körper zur Ruhe und trat in Brightsheol über. =spice.entity:subjectPronoun|capitalize= war =age= Jahre alt." />
   <string Context="HistoricEvent InspiringExperience prefix" ID="Somewhere in =region=" Value="Irgendwo in =region=" />
@@ -755,7 +755,7 @@
   <string Context="Resheph Gospel (absolves Rebekah)" ID="In %=year=%, Rebekah died of glotrot, and on her deathbed Resheph forgave her and absolved her of sin. He allowed her to be buried in the village of Ezra, outside the gate to the Tomb of the Eaters and beneath the shadow of the Spindle." Value="Im %=year=% starb Rebekah an der Glotrot, und auf ihrem Sterbebett verzieh ihr Resheph und sprach sie frei von Sünde. Er erlaubte ihr, im Dorf Ezra begraben zu werden, außerhalb des Tors zum Grab der Esser und im Schatten der Spindel." />
   <string Context="Resheph Gospel (appoints Rebekah)" ID="In %=year=%, Resheph appointed Rebekah administrator of =region=. She tendered alms for the sick in his name." Value="Im %=year=% ernannte Resheph Rebekah zur Verwalterin von =region=. Sie spendete Almosen für die Kranken in seinem Namen." />
   <string Context="Resheph Gospel (becomes sultan)" ID="Acting against a prohibition on the practice of worshipping the stars, Resheph led an army to the gates of Omonporch. There he defeated his brothers in battle and liberated its citizens, and they crowned him the sultan of Qud." Value="Gegen ein Verbot der Sternenanbetung verstoßend, führte Resheph eine Armee zu den Toren von Omonporch. Dort besiegte er seine Brüder in der Schlacht und befreite ihre Bürger, und sie kürten ihn zum Sultan von Qud." />
-  <string Context="Resheph Gospel (betrayed)" ID="In %=year=%, Rebekah betrayed Resheph by stealing the Mark of Death from the gate to the Tomb of the Eaters. In punishment, Resheph excommunicated her from the sultanate." Value="Im %=year=% verriet Rebekah Resheph, indem sie das Mal des Todes vom Tor zum Grab der Esser stahl. Zur Strafe exkommunizierte Resheph sie aus dem Sultanat." />
+  <string Context="Resheph Gospel (betrayed)" ID="In %=year=%, Rebekah betrayed Resheph by stealing the Mark of Death from the gate to the Tomb of the Eaters. In punishment, Resheph excommunicated her from the sultanate." Value="Im %=year=%, Rebekah verriet Resheph durch den Diebstahl des Zeichens des Todes vom Tor zum Grab der Fresser. Als Strafe exkommunizierte Resheph sie aus dem Sultanat." />
   <string Context="Resheph Gospel (cleanses gyre)" ID="In %=year=%, Resheph cleansed the marshlands of the plagues of the Gyre and taught Abram to sow watervine along its fertile tracks." Value="Im %=year=% reinigte Resheph die Marschländer von den Plagen der Gyre und lehrte Abram, Wasserwein entlang seiner fruchtbaren Pfade zu säen." />
   <string Context="Resheph Gospel (closes tomb)" ID="In %=year=%, Resheph closed the gates to the Tomb of the Eaters, abdicated the throne, and dissolved the sultanate in order to lift the curse of the Gyre." Value="Im %=year=% schloss Resheph die Tore zum Grab der Esser, dankte vom Thron ab und löste das Sultanat auf, um den Fluch der Gyre zu heben." />
   <string Context="Resheph Gospel (dies)" ID="In %=year=%, Resheph, the Above, Ghost-in-Cerulean, the Coiled Lamb of Baetyls, died of natural causes. He was 216 years old." Value="Im %=year=% starb Resheph, die Oberen, Ghost-in-Cerulean, das Gekrümmte Lamm der Baetyls, an natürlichen Ursachen. Er war 216 Jahre alt." />
@@ -1308,7 +1308,7 @@
   <string Context="PickItem scroll up" ID="&lt;{{W|8}} to scroll up&gt;" Value="&lt;{{W|8}} zum Hochscrollen&gt;" />
   <string Context="PickItem StartMarker" ID="{{Y|&gt;}}" Value="{{Y|&gt;}}" />
   <string Context="PickItem Category Name and Expander" ID="=start==keychar=) =expand.expander= {{K|[{{|=category=}}]}}" Value="=start==keychar=) =expand.expander= {{K|[{{|=category=}}]}}" />
-  <string Context="PickItem OwnedByYou" ID="{{G|[owned by you]}}" Value="{{G|[von Euch besessen]}}" />
+  <string Context="PickItem OwnedByYou" ID="{{G|[owned by you]}}" Value="{{G|[Im Besitz von Euch]}}" />
   <string Context="PickItem ScrollDown" ID="&lt;{{W|2}} to scroll down&gt;" Value="&lt;{{W|2}} zum Runterscrollen&gt;" />
   <string Context="PickItem PutsOverWeightLimit" ID="Taking =number.all.these= =number.isplural:objects:object= will put you over your weight limit. Are you sure you want to do it?" Value="Das Nehmen von =number.all.these= =number.isplural:objects:object= würde Euer Gewichtslimit überschreiten. Seid Ihr sicher, dass Ihr das tun wollt?" />
   <string Context="Campfire CookFromRecipe Rename" ID="You can't rename a recipe that someone else created." Value="Ihr könnt ein Rezept nicht umbenennen, das jemand anderes erstellt hat." />
@@ -1484,7 +1484,7 @@
   <string Context="Journal - Village Notes, Joppa" ID="In the mystic air of Jeweled Dusk, a circle of farmers clasped hands and sheathed a vinereaper in the moistened soil. From then on, the villagers of Joppa were known as the people of the vine." Value="In der mystischen Luft von Jeweled Dusk faßten Bauern sich an den Händen und steckten einen Weinhexer in den feuchten Boden. Von da an waren die Dorfbewohner von Joppa als das Volk der Rebe bekannt." />
   <string Context="Journal - Village Notes, Joppa" ID="Since the first festival of Ut yara Ux, the villagers of Joppa have feasted on warm apple matz." Value="Seit dem ersten Fest von Ut yara Ux laben sich die Dorfbewohner von Joppa an warmem Apfelmatz." />
   <string Context="Journal - Village Notes, Kyakukya" ID="Under the Beetle Moon, folks settled here to gather goods of passage for Ape Saad Oboroqoru, and so Kyakukya was founded." Value="Unter dem Käfermond siedelten sich Leute hier an, um Waren der Passage für Ape Saad Oboroqoru zu sammeln, und so wurde Kyakukya gegründet." />
-  <string Context="Journal - Village Notes, Kyakukya" ID="In 979, Nuntu, the legendary albino ape, grew tired of bludgeoning things to death and journeyed to a root-strangled place on the River Svy. There he came upon Kyakukya and its inhabitants. The villagers of Kyakukya asked Nuntu to employ his magisterial skills and lead the village." Value="Im Jahr 979 wurde Nuntu, der legendaere Albinoaffe, des Totschlagens ueberdruessig und reiste an einen von Wurzeln umschlungenen Ort am Fluss Svy. Dort stiess er auf Kyakukya und seine Bewohner. Die Dorfbewohner von Kyakukya baten Nuntu, seine meisterlichen Faehigkeiten einzusetzen und das Dorf zu fuehren." />
+  <string Context="Journal - Village Notes, Kyakukya" ID="In 979, Nuntu, the legendary albino ape, grew tired of bludgeoning things to death and journeyed to a root-strangled place on the River Svy. There he came upon Kyakukya and its inhabitants. The villagers of Kyakukya asked Nuntu to employ his magisterial skills and lead the village." Value="Im Jahr 979, Nuntu, der legendäre Albino-Affe, wurde müde, Dinge zu Tode zu schlagen, und reiste zu einem wurzelgewürgten Ort am Fluss Svy. Dort traf er auf Kyakukya und seine Bewohner. Die Dorfbewohner von Kyakukya baten Nuntu, seine Fähigkeiten einzusetzen und das Dorf zu führen." />
   <string Context="Journal - Village Notes, Yd" ID="Centuries after the height of the Gyre, the svardym Goek, Mak, and Geeub met the galgal Many Eyes while languishing inside of a reef sponge. Together they founded the Yd Freehold to live out the rest of their lives." Value="Jahrhunderte nach dem Höhepunkt des Gyre trafen die Svardym Goek, Mak und Geeub auf den Galgal Many Eyes, während sie in einem Riffschwamm schmachteten. Zusammen gründeten sie die Yd Freehold, um den Rest ihres Lebens auszuleben." />
   <string Context="Journal - Village Notes, Yd" ID="In 901, the villagers of the Yd Freehold and its founders abolished all forms of hierarchy from their settlement. The two pillars of civic life in the Freehold thus became anarchy and authenticity." Value="Im Jahre 979 wurde Nuntu, der legendäre albino Affe, müde, Dinge zu Tode zu schlagen, und reiste zu einem von Wurzeln überwucherten Ort am Fluss Svy. Dort traf er auf Kyakukya und seine Bewohner. Die Bewohner von Kyakukya baten Nuntu, seine meisterlichen Fähigkeiten einzusetzen und das Dorf zu führen." />
   <string Context="JournalAPI Last-Ditch MuralText from Accomplishment Text" ID="=text|capitalize|secondToThirdPerson=" Value="=text|capitalize|secondToThirdPerson=" />
@@ -1694,9 +1694,9 @@
   <string Context="Faction GetFormattedName *" ID="everyone" Value="alle" />
   <string Context="Faction Feeling" ID="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:despise:despises= you. Even docile =faction.ifPlural:ones:members= will attack you." Value="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:despise:despises= Euch. Selbst zahme =faction.ifPlural:ones:members= werden Euch angreifen." />
   <string Context="Faction Feeling" ID="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:dislike:dislikes= you, but docile =faction.ifPlural:ones:members= won't attack you." Value="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:dislike:dislikes= Euch, aber zahme =faction.ifPlural:ones:members= werden Euch nicht angreifen." />
-  <string Context="Faction Feeling" ID="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:favor:favors= you. Aggressive =faction.ifPlural:ones:members= won't attack you." Value="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:favor:favors= Euch. Aggressive =faction.ifPlural:ones:members= werden Euch nicht angreifen." />
+  <string Context="Faction Feeling" ID="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:favor:favors= you. Aggressive =faction.ifPlural:ones:members= won't attack you." Value="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:favor:favors= dich. Aggressive =faction.ifPlural:ones:members= werden dich nicht angreifen." />
   <string Context="Faction Feeling" ID="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:revere:reveres= you and =faction.ifPlural:consider:considers= you one of their own." Value="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:revere:reveres= Euch und =faction.ifPlural:consider:considers= Euch für einen der Ihren." />
-  <string Context="Faction Feeling" ID="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:don't:doesn't= care about you, but aggressive =faction.ifPlural:ones:members= will attack you." Value="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:don't:doesn't= sich um Euch, aber aggressive =faction.ifPlural:ones:members= werden Euch angreifen." />
+  <string Context="Faction Feeling" ID="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:don't:doesn't= care about you, but aggressive =faction.ifPlural:ones:members= will attack you." Value="{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:don't:doesn't= sich um dich kümmern, aber aggressive =faction.ifPlural:ones:members= werden dich angreifen." />
   <string Context="Faction Pet Text" ID="{{C|=faction.formattedName|capitalize=}} will usually let you pet them." Value="{{C|=faction.formattedName|capitalize=}} werden Euch normalerweise erlauben, sie zu streicheln." />
   <string Context="Faction Pet Text" ID="{{C|=faction.formattedName|capitalize=}} won't usually let you pet them." Value="{{C|=faction.formattedName|capitalize=}} werden Euch normalerweise nicht erlauben, sie zu streicheln." />
   <string Context="Faction Rank Text" ID="You hold the =faction.rankTerm= of =rank= among them." Value="Ihr haltet unter ihnen den Rang =faction.rankTerm= von =rank=." />
@@ -1882,7 +1882,7 @@
   <string Context="Cybernetics Debug Wish 'implant'" ID="No blueprint by the name '=name=' could be found." Value="Es konnte kein Schema namens '=name=' gefunden werden." />
   <string Context="Cybernetics Debug Wish 'implant'" ID="The blueprint '=blueprint.name=' is not a cybernetic." Value="Der Bauplan '=blueprint.name=' ist keine Kybernetik." />
   <string Context="Cybernetics Debug Wish 'implant'" ID="No body part by the name '=slot=' could be found." Value="Kein Körperteil namens '=slot=' konnte gefunden werden." />
-  <string Context="Cybernetics Debug Wish 'implant'" ID="Your =part.ordinalName= =part.isPlural:are:is= implanted with =cybernetic.name=!" Value="Euer =part.ordinalName= =part.isPlural:are:is= mit =cybernetic.name= implantiert!" />
+  <string Context="Cybernetics Debug Wish 'implant'" ID="Your =part.ordinalName= =part.isPlural:are:is= implanted with =cybernetic.name=!" Value="Deine =part.ordinalName= =part.isPlural:are:is= mit =cybernetic.name= implantiert!" />
   <string Context="DifficultyEvaluation Impossible" ID="Impossible" Value="Unmöglich" />
   <string Context="DifficultyEvaluation Very Tough" ID="Very Tough" Value="Sehr schwer" />
   <string Context="DifficultyEvaluation Tough" ID="Tough" Value="Schwer" />
@@ -1998,7 +1998,7 @@
   <string Context="Asleep Effect DisplayName" ID="{{c|asleep}}" Value="{{c|schlafend}}" />
   <string Context="Asleep Effect DisplayName SleepMode" ID="{{c|sleep mode}}" Value="{{c|Schlafmodus}}" />
   <string Context="Asleep Effect Apply SleepMode Message Log" ID="=subject.Does:enter= {{C|sleep mode}}." Value="=subject.Does:enter= {{C|Schlafmodus}}." />
-  <string Context="Asleep Effect Apply Message Log" ID="=subject.Does:fall= {{C|asleep}}." Value="=subject.Does:fall= {{C|einschlafen}}." />
+  <string Context="Asleep Effect Apply Message Log" ID="=subject.Does:fall= {{C|asleep}}." Value="=subject.Does:fall= {{C|eingeschlafen}}." />
   <string Context="Asleep Effect Remove SleepMode Message Log" ID="=subject.Does:exit= sleep mode." Value="=subject.Does:exit= Schlafmodus." />
   <string Context="Asleep Effect Remove Message Log" ID="=subject.Does:wake= up." Value="=subject.Does:wake= auf." />
   <string Context="Asleep Effect Companion Status" ID="asleep" Value="schlafend" />
@@ -2037,7 +2037,7 @@
   <string Context="BlinkingTicSickness Effect DisplayName" ID="{{B|acute blinking tic}}" Value="{{B|akuter Blinzel-Tick}}" />
   <string Context="BlinkingTicSickness Effect GetDescription" ID="{{B|blinking}}" Value="{{B|Blinzeln}}" />
   <string Context="BlinkingTicSickness Effect Player Teleport Message Log" ID="You lurch suddenly!" Value="Ihr taumelt plötzlich!" />
-  <string Context="BoostedImmunity Effect DisplayName" ID="{{G|boosted immunity}}" Value="{{G|gestaerkte Immunitaet}}" />
+  <string Context="BoostedImmunity Effect DisplayName" ID="{{G|boosted immunity}}" Value="{{G|verstärkte Immunität}}" />
   <string Context="BoostStatistic Effect DisplayName" ID="boosted =stat.name=" Value="gesteigert =stat.name=" />
   <string Context="BoostStatistic Effect Apply Player Message Log Increase" ID="Your =stat.title= increases." Value="Euer =stat.title= erhöht sich." />
   <string Context="BoostStatistic Effect Apply Player Message Log Decrease" ID="Your =stat.title= decreases." Value="Euer =stat.title= sinkt." />
@@ -2071,13 +2071,13 @@
   <string Context="Burrowed Effect End Ability Name" ID="Stop Burrowing" Value="Graben stoppen" />
   <string Context="Burrowed Effect Travel Fail" ID="You cannot travel long distances while burrowed." Value="Ihr könnt nicht lange Strecken zurücklegen, während Ihr vergraben seid." />
   <string Context="Burrowed Effect Remove Damaged" ID="=subject.Does:are= forced to the surface." Value="=subject.Does:are= zur Oberfläche gezwungen." />
-  <string Context="Burrowed Effect Emerge" ID="=subject.Does:emerge= from the ground." Value="=subject.Does:emerge= aus der Erde." />
+  <string Context="Burrowed Effect Emerge" ID="=subject.Does:emerge= from the ground." Value="=subject.Does:emerge= aus dem Boden." />
   <string Context="ContainedAcidEating Display Name" ID="{{Y|sizzling}}" Value="{{Y|zischend}}" />
   <string Context="ContainedAcidEating Adjective" ID="{{Y|sizzling}}" Value="{{Y|zischend}}" />
   <string Context="CookingDomainAcid_UnitResist Description - Amount known" ID="=bonus.signed= Acid Resistance" Value="=bonus.signed= Säureresistenz" />
   <string Context="CookingDomainAcid_UnitResist Description" ID="+10-15 Acid Resistance" Value="+10-15 Säureresistenz" />
   <string Context="CookingDomainAgility_LargeAgilityBuff_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:gain= +8 Agility for 50 turns." Value="=subject.it.does:gain= +8 Gewandtheit für 50 Züge." />
-  <string Context="CookingDomainAgility_LargeAgilityBuff_ProceduralCookingTriggeredAction Notification" ID="=subject.does:assume= a limber pose." Value="=subject.does:assume= eine biegsame Haltung." />
+  <string Context="CookingDomainAgility_LargeAgilityBuff_ProceduralCookingTriggeredAction Notification" ID="=subject.does:assume= a limber pose." Value="=subject.does:assume= eine geschmeidge Haltung." />
   <string Context="CookingDomainAgility_Shank_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:shank= =subject.their= opponent." Value="=subject.it.does:shank= =subject.their= Gegner." />
   <string Context="CookingDomainAgility_Shank_ProceduralCookingTriggeredAction Notification" ID="=subject.does:perform= an act of nimble violence." Value="=subject.does:perform= einen Akt wendiger Gewalt." />
   <string Context="CookingDomainAgility_OnPerformCriticalHit Description" ID="whenever =subject.thisCreature= =subject.verb:perform= a critical hit," Value="wenn =subject.thisCreature= =subject.verb:perform= einen kritischen Treffer," />
@@ -2141,7 +2141,7 @@
   <string Context="CookingDomainDensity_UnitPermanentAV Description - Unknown roll" ID="+1 AV permanently. Small chance of gravitational collapse." Value="+1 RW dauerhaft. Kleine Chance für gravitativen Kollaps." />
   <string Context="CookingDomainDensity_UnitPermanentAV Accomplishment" ID="You became denser." Value="Du bist dichter geworden." />
   <string Context="CookingDomainDensity_UnitPermanentAV Accomplishment" ID="On the =day= of =month=, =name= uncorked the cosmic wine and imbibed the forbidden starjuice. O, the mass within!" Value="Am =day= von =month= öffnete =name= den kosmischen Wein und trank den verbotenen Sternensaft. O, die Masse darin!" />
-  <string Context="CookingDomainDensity_UnitPermanentAV Accomplishment" ID="Somewhere in =terrain.t=, =name= had a dream that =subject.subjective= imbibed a dram of starjuice. =spice:commonPhrases.fromThenOn.!random|capitalize=, =subject.subjective= always kept some stars in a bottle on =subject.possessive= person." Value="Irgendwo in =terrain.t= hatte =name= einen Traum, dass =subject.subjective= einen Schluck Sternensaft trank. =spice:commonPhrases.fromThenOn.!random|capitalize=, =subject.subjective= behielt immer einige Sterne in einer Flasche bei =subject.possessive= Person." />
+  <string Context="CookingDomainDensity_UnitPermanentAV Accomplishment" ID="Somewhere in =terrain.t=, =name= had a dream that =subject.subjective= imbibed a dram of starjuice. =spice:commonPhrases.fromThenOn.!random|capitalize=, =subject.subjective= always kept some stars in a bottle on =subject.possessive= person." Value="Irgendwo in =terrain.t=, =name= hatte einen Traum, dass =subject.subjective= einen Schluck Sternensaft trank. =spice:commonPhrases.fromThenOn.!random|capitalize=, =subject.subjective= behielt immer einige Sterne in einer Flasche auf =subject.possessive= Person." />
   <string Context="CookingDomainDissociation_UnitOtherBodyBonus Description" ID="As long as your body isn't your own, you gain =bonus.signed= Quickness." Value="Solange Euer Körper nicht Euer eigener ist, erlangt Ihr =bonus.signed= Schnelligkeit." />
   <string Context="CookingDomainDissociation_UnitOtherBodyBonus Description - Unknown roll" ID="As long as your body isn't your own, you gain +40-70 Quickness." Value="Solange dein Körper nicht dir selbst gehört, gewinnst du +40-70 Geschwindigkeit." />
   <string Context="CookingDomainElectric_EMP_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:release= an electromagnetic pulse at level =tier=." Value="=subject.it.does:release= einen elektromagnetischen Puls auf Stufe =tier=." />
@@ -2366,7 +2366,7 @@
   <string Context="Lovesick Effect Accomplishment" ID="Your heart sang at the sight of =object.a.name=." Value="Euer Herz sang beim Anblick von =object.a.name=." />
   <string Context="Lovesick Effect Mural Text" ID="The troubadour-hero =name= rode the tides of =player.their= passions and shipwrecked on the shores of =object.a.name=." Value="Der Troubadour-Held =name= ritt auf den Wellen von =player.their= Leidenschaften und strandete an den Küsten von =object.a.name=." />
   <string Context="Lovesick Effect Gospel Text" ID="=spice:elements.$element.weddingConditions.!random|capitalize=, =name= cemented =player.their= friendship with =player.the.faction:base= by marrying =object.a.name=." Value="=spice:elements.$element.weddingConditions.!random|capitalize=, zementierte =name= =player.their= Freundschaft mit =player.the.faction:base= durch die Heirat mit =object.a.name=." />
-  <string Context="Lovesick message log" ID="=subject.Does:fall= in love with =object.the.name=!" Value="=subject.Does:fall= sich unsterblich in =object.the.name= verliebt!" />
+  <string Context="Lovesick message log" ID="=subject.Does:fall= in love with =object.the.name=!" Value="=subject.Does:fall= verliebt in =object.the.name=!" />
   <string Context="Lovesick Effect Cured Accomplishment" ID="Though your affection for =object.a.name= endowed you with a certain wisdom, you no longer feel the tug on your heartstrings." Value="Obwohl Eure Zuneigung zu =object.a.name= Euch mit einer bestimmten Weisheit ausgestattet hat, spürt Ihr nicht mehr das Ziehen an Euren Herzenseilen." />
   <string Context="Lovesick Effect Cured Mural Text" ID="The call of the sea rang through the troubadour-hero =name= once again, and =player.they= set sail from the familiar shore of =object.a.name=." Value="Der Ruf des Meeres durchzog den Troubadour-Helden =name= erneut, und =player.they= segelten ab von der vertrauten Küste von =object.a.name=." />
   <string Context="Lovesick Effect Cured Gospel Text" ID="=spice:elements.$element.weddingConditions.!random|capitalize=, =name= cemented =player.their= friendship with =player.the.faction:base= by annulling =player.their= marriage to =object.a.name=." Value="=spice:elements.$element.weddingConditions.!random|capitalize=, zementierte =name= =player.their= Freundschaft mit =player.the.faction:base= durch die Annullierung von =player.their= Ehe mit =object.a.name=." />
@@ -2497,9 +2497,9 @@
   <string Context="Body Lost Use Of Part" ID="You have lost the use of your =part.ordinalName=." Value="Ihr habt die Kontrolle über euren =part.ordinalName= verloren." />
   <string Context="Body Recover Use Of Part" ID="You have recovered the use of your =part.ordinalName=." Value="Ihr habt die Kontrolle über euren =part.ordinalName= wiederhergestellt." />
   <string Context="Body Severed Limb Description" ID="Dried =subject.bleedLiquid= crusts on the severed =limb.name= of =subject.a.name:single:withTitles|strip=." Value="Getrocknete =subject.bleedLiquid=-Krusten auf dem abgetrennten =limb.name= von =subject.a.name:single:withTitles|strip=." />
-  <string Context="Body Limb Dismember Message" ID="Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!" Value="Euer =limb.ordinalName= =limb.ifPlural:are:is= abgetrennt!" />
+  <string Context="Body Limb Dismember Message" ID="Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!" Value="Dein =limb.ordinalName= =limb.ifPlural:are:is= verstümmelt!" />
   <string Context="Body Limb Dismember Mural" ID="While fighting a battle to protect the practice of =spice:elements.$element.practices.!random=, =name= valorously had =player.possessive= =limb.ordinalName= dismembered." Value="Während eines Kampfes zum Schutz der Praktik von =spice:elements.$element.practices.!random= wurde =name= tapfer =player.possessive= =limb.ordinalName= abgetrennt." />
-  <string Context="Body Limb Dismember Accomplishment" ID="Your =limb.ordinalName= =limb.ifPlural:were:was= dismembered." Value="Euer =limb.ordinalName= =limb.ifPlural:were:was= abgetrennt." />
+  <string Context="Body Limb Dismember Accomplishment" ID="Your =limb.ordinalName= =limb.ifPlural:were:was= dismembered." Value="Dein =limb.ordinalName= =limb.ifPlural:were:was= verstümmelt." />
   <string Context="Body Regenerate Limb" ID="=subject.Does:regenerate= =subject.their= =limb.ordinalName=!" Value="=subject.Does:regenerate= =subject.their= =limb.ordinalName=!" />
   <string Context="Body MissingParts summary list item (single, unfound by name)" ID="=subject.their= =part.name=" Value="=subject.their= =part.name=" />
   <string Context="Body MissingParts summary list item (single)" ID="=part.a.name=" Value="=part.a.name=" />
@@ -3039,7 +3039,7 @@
   <string Context="DecoyHologramEmitter Target Picker Label" ID="Summon Decoy" Value="Köder beschwören" />
   <string Context="DecoyHologramEmitter Out Of Range" ID="That is out of range (=range.things:square=)" Value="Das ist außerhalb der Reichweite (=range.things:square=)" />
   <string Context="DecoyHologramEmitter Starting Up" ID="=subject.Does:are= still starting up." Value="=subject.Does:are= fährt immer noch hoch." />
-  <string Context="DecoyHologramEmitter Not Enough Charge" ID="=subject.Does:do= not have enough charge to sustain the hologram." Value="=subject.Does:do= hat nicht genug Ladung, um das Hologramm aufrechtzuerhalten." />
+  <string Context="DecoyHologramEmitter Not Enough Charge" ID="=subject.Does:do= not have enough charge to sustain the hologram." Value="=subject.Does:do= nicht genug Ladung um das Hologramm aufrechtzuerhalten." />
   <string Context="DecoyHologramEmitter Unresponsive" ID="=subject.Does:are= unresponsive." Value="=subject.Does:are= nicht reaktionsfähig." />
   <string Context="DecoyHologram Emitter Disappear Message" ID="An image of =subject.property:HologramOf= disappears." Value="Ein Abbild von =subject.property:HologramOf= verschwindet." />
   <string Context="DecoyHologramEmitter ActivatedAbilityName Deactivate" ID="Deactivate Holographic Decoy" Value="Holographischen Köder deaktivieren" />
@@ -3064,8 +3064,8 @@
   <string Context="DiThermoBeam Player Message" ID="=subject.Does:flip= the thermal polarity on =object.the.name=." Value="=subject.Does:flip= die thermale Polarität auf =object.the.name=." />
   <string Context="DoubleEdge Description Only Received" ID="Take =received.abs=% =received.threshold:0:more:less= damage" Value="Erleidet =received.abs=% =received.threshold:0:more:less= Schaden" />
   <string Context="DoubleEdge Description Only Dealt" ID="Deal =dealt.abs=% =dealt.threshold:0:more:less= damage" Value="Verursache =dealt.abs=% =dealt.threshold:0:more:less= Schaden" />
-  <string Context="Drill Description" ID="=usesCharge.if:When powered, ==pen.signed= penetration vs. walls." Value="=usesCharge.if:When powered, ==pen.signed= Durchschlagskraft gegen Mauern." />
-  <string Context="Drill Description Hit Count" ID="=usesCharge.if:When powered, destroys:Destroys= walls after =hitCount.things:penetrating hit=." Value="=usesCharge.if:When powered, destroys:Destroys= Mauern nach =hitCount.things:penetrating hit=." />
+  <string Context="Drill Description" ID="=usesCharge.if:When powered, ==pen.signed= penetration vs. walls." Value="=usesCharge.if:When powered, ==pen.signed= Penetration gegen Wände." />
+  <string Context="Drill Description Hit Count" ID="=usesCharge.if:When powered, destroys:Destroys= walls after =hitCount.things:penetrating hit=." Value="=usesCharge.if:When powered, destroys:Destroys= Wände nach =hitCount.things:penetrating hit=." />
   <string Context="DrinkMagnifier Description" ID="=chance=% chance for liquid-drinking effects to apply twice" Value="=chance=% Chance, dass Flüssigkeits-Trinkeffekte doppelt angewendet werden" />
   <string Context="Engraver NameForStatus" ID="PrecisionEngraver" Value="PrecisionEngraver" />
   <string Context="Engraver Hostiles Fail" ID="You can't engrave with hostiles nearby." Value="Ihr könnt nicht eingravieren, wenn Feindselige in der Nähe sind." />
@@ -3103,7 +3103,7 @@
   <string Context="ForceEmitter Deactivate Suspended" ID="=subject.Does:vibrate= slightly." Value="=subject.Does:vibrate= leicht." />
   <string Context="ForceEmitter Deactivate Player" ID="The {{B|force bubble}} snaps off." Value="Die {{B|Kraftblase}} zerplatzt." />
   <string Context="ForceEmitter Deactivate NonPlayer" ID="The {{B|force bubble}} around =object.the.name= snaps off." Value="Die {{B|Kraftblase}} um =object.the.name= springt ab." />
-  <string Context="ForceEmitter Activate Unpowered" ID="=subject.Does:don't= have enough charge to sustain the field!" Value="=subject.Does:don't= hat nicht genug Ladung, um das Feld aufrechtzuerhalten!" />
+  <string Context="ForceEmitter Activate Unpowered" ID="=subject.Does:don't= have enough charge to sustain the field!" Value="=subject.Does:don't= genug Ladung um das Feld aufrechtzuerhalten!" />
   <string Context="ForceEmitter Activate NothingHappens" ID="Nothing happens." Value="Nichts geschieht." />
   <string Context="ForceEmitter Activate" ID="A {{B|force bubble}} pops into being around =object.the.name=." Value="Eine {{B|Kraftblase}} taucht um =object.the.name= auf." />
   <string Context="ForceEmitter AbilityName Deactivate Fallback" ID="Deactivate Force Emitter" Value="Kraftemitter deaktivieren" />
@@ -3157,7 +3157,7 @@
   <string Context="LowStatBooster RulesPostfix" ID="=amount.signed= to the lowest of =statlist.orList=. =part.statusSummary|addParens=" Value="=amount.signed= zum niedrigsten von =statlist.orList=. =part.statusSummary|addParens=" />
   <string Context="MakeFussOnTaken DefaultAction" ID="found" Value="gefunden" />
   <string Context="MakeFussOnTaken MakeFuss Popup" ID="You have =action= =object.the.name=!" Value="Ihr habt =action= =object.the.name=!" />
-  <string Context="MapReveal NotOwned Warning" ID="=subject.Does:are= not owned by you, and using =subject.them= will consume =subject.them=. Are you sure you want to do so?" Value="=subject.Does:are= nicht in eurem Besitz, und die Verwendung von =subject.them= verbraucht =subject.them=. Seid ihr sicher, dass ihr das tun wollt?" />
+  <string Context="MapReveal NotOwned Warning" ID="=subject.Does:are= not owned by you, and using =subject.them= will consume =subject.them=. Are you sure you want to do so?" Value="=subject.Does:are= nicht von dir besessen, und die Benutzung von =subject.them= wird =subject.them= verbrauchen. Bist du sicher, dass du das tun willst?" />
   <string Context="MapReveal NotOwned InInventory Warning" ID="=subject.Does:are= not owned by you, and using =object.the.name= will consume =object.them=. Are you sure you want to do so?" Value="=subject.Does:are= nicht euer Eigentum, und das Verwenden von =object.the.name= wird =object.them= verbrauchen. Seid ihr sicher?" />
   <string Context="MapReveal Ordinary" ID="=subject.Does:seem= to be behaving as nothing more than an ordinary piece of paper." Value="=subject.Does:seem= sich wie nichts anderes als ein gewöhnliches Stück Papier zu verhalten." />
   <string Context="MapReveal Success Message" ID="=subject.itis= a map of your surroundings!" Value="=subject.itis= eine Karte eurer Umgebung!" />
@@ -3182,10 +3182,10 @@
   <string Context="MultiNavigationBonus LostIncreased OtherTerrain" ID="Chance of becoming lost in other terrain increased by =min.range#max=%. =part.statusSummary|addParens=" Value="Chance, sich in anderem Gelände zu verirren, um =min.range#max=% erhöht. =part.statusSummary|addParens=" />
   <string Context="MultiNavigationBonus LostIncreased CertainTerrain" ID="Chance of becoming lost in certain terrain increased by =min.range#max=%. =part.statusSummary|addParens=" Value="Chance, sich in bestimmtem Gelände zu verirren, um =min.range#max=% erhöht. =part.statusSummary|addParens=" />
   <string Context="MultiNavigationBonus LostIncreased SpecificTerrain" ID="Chance of becoming lost in =skill.terrain= increased by =min.range#max=%. =part.statusSummary|addParens=" Value="Chance, sich in =skill.terrain= zu verirren, um =min.range#max=% erhöht. =part.statusSummary|addParens=" />
-  <string Context="MultiNavigationBonus LostRandom AllTerrain" ID="Chance of becoming lost adjusted by =min.range: to #max=%. =part.statusSummary|addParens=" Value="Chance, sich zu verirren, angepasst um =min.range: to #max=%. =part.statusSummary|addParens=" />
+  <string Context="MultiNavigationBonus LostRandom AllTerrain" ID="Chance of becoming lost adjusted by =min.range: to #max=%. =part.statusSummary|addParens=" Value="Chance, verloren zu werden, angepasst durch =min.range: to #max=%=. =part.statusSummary|addParens=" />
   <string Context="MultiNavigationBonus LostRandom OtherTerrain" ID="Chance of becoming lost in other terrain adjusted by =min.range: to #max=%. =part.statusSummary|addParens=" Value="Chance, sich in anderem Gelände zu verirren, angepasst um =min.range: to #max=%. =part.statusSummary|addParens=" />
   <string Context="MultiNavigationBonus LostRandom CertainTerrain" ID="Chance of becoming lost in certain terrain adjusted by =min.range: to #max=%. =part.statusSummary|addParens=" Value="Chance, sich in bestimmtem Gelände zu verirren, angepasst um =min.range: to #max=%. =part.statusSummary|addParens=" />
-  <string Context="MultiNavigationBonus LostRandom SpecificTerrain" ID="Chance of becoming lost in =skill.terrain= adjusted by =min.range: to #max=%. =part.statusSummary|addParens=" Value="Chance, sich in =skill.terrain= zu verirren, angepasst um =min.range: to #max=%. =part.statusSummary|addParens=" />
+  <string Context="MultiNavigationBonus LostRandom SpecificTerrain" ID="Chance of becoming lost in =skill.terrain= adjusted by =min.range: to #max=%. =part.statusSummary|addParens=" Value="Chance, in =skill.terrain= verloren zu werden, angepasst durch =min.range: to #max=%=. =part.statusSummary|addParens=" />
   <string Context="MutationOnEquip RulesPostfix CanLevel" ID="Grants you =mutation.name= at level =level=." Value="Gewährt euch =mutation.name= auf Stufe =level=." />
   <string Context="MutationOnEquip RulesPostfix NoLevel" ID="Grants you =mutation.name=." Value="Gewährt euch =mutation.name=." />
   <string Context="NaturalWeapon Unequip failure message" ID="You can't remove =object.the.name=." Value="Ihr könnt =object.the.name= nicht entfernen." />
@@ -3216,8 +3216,8 @@
   <string Context="PoweredFloating NameForStatus TechScanning" ID="HoverSystems" Value="HoverSystems" />
   <string Context="PoweredFloating FailureMessage" ID="=subject.Does:do= not seem to be able to float at this time." Value="=subject.Does:do= scheint momentan nicht schweben zu können." />
   <string Context="PoweredFloating CheckFloating Cease Announce" ID="=subject.Does:cease= floating near you." Value="=subject.Does:cease= schwebt nicht mehr in der Nähe." />
-  <string Context="PoweredFloating CheckFloating FallScoop Announce" ID="=subject.Does:fall= to the ground; you scoop =subject.them= up." Value="=subject.Does:fall= auf den Boden; Ihr hebt =subject.them= auf." />
-  <string Context="PoweredFloating CheckFloating Fall Announce" ID="=subject.Does:fall= to the ground." Value="=subject.Does:fall= auf den Boden." />
+  <string Context="PoweredFloating CheckFloating FallScoop Announce" ID="=subject.Does:fall= to the ground; you scoop =subject.them= up." Value="=subject.Does:fall= zu Boden; du schaufelst =subject.them= auf." />
+  <string Context="PoweredFloating CheckFloating Fall Announce" ID="=subject.Does:fall= to the ground." Value="=subject.Does:fall= zu Boden." />
   <string Context="PsychicMeridian AfflictNosebleed" ID="=subject.Does:impale= =subject.itself= on =object.the.name's:withTitles= psychic barbs." Value="=subject.Does:impale= =subject.itself= auf =object.the.name's:withTitles= psychischen Stacheln." />
   <string Context="QuickenMind Ability Name" ID="Quicken Mind" Value="Geist beschleunigen" />
   <string Context="QuickenMind Booting Fail" ID="=subject.Does:are= still attuning." Value="=subject.Does:are= stimmt sich immer noch ab." />
@@ -3327,7 +3327,7 @@
   <string Context="ProjectileReflectionShield Details" ID="Reflects incoming projectiles and thrown objects at a =chance=% chance." Value="Reflektiert einfliegende Projektile und geworfene Objekte mit =chance=% Wahrscheinlichkeit." />
   <string Context="ReflectProjectiles Details FailureDescription" ID="Deactivated" Value="Deaktiviert" />
   <string Context="ReflectProjectiles Check activates" ID="=subject.Does:activate= =subject.its= reflective shield." Value="=subject.Does:activate= =subject.its= reflektierende Schild." />
-  <string Context="ReflectProjectiles Check deactivated" ID="=subject.Does:have= =subject.its= reflective shield deactivated." Value="=subject.Does:have= =subject.its= Reflektionsschild deaktiviert." />
+  <string Context="ReflectProjectiles Check deactivated" ID="=subject.Does:have= =subject.its= reflective shield deactivated." Value="=subject.Does:have= =subject.its= reflektives Schild deaktiviert." />
   <string Context="Repair TooConfused" ID="You're too confused to do that." Value="Sie sind zu verwirrt, um das zu tun." />
   <string Context="Repair IncompatibleFlyingState" ID="You cannot reach =object.the.name= to repair =object.it=." Value="Du kannst =object.the.name= nicht erreichen, um =object.it= zu reparieren." />
   <string Context="Repair OutofPhase" ID="You are out of phase with =object.the.name= and cannot repair =object.it=." Value="Du bist nicht in Phase mit =object.the.name= und kannst =object.it= nicht reparieren." />
@@ -3345,14 +3345,14 @@
   <string Context="RocketSkates GetRunningBehavior MessageName" ID="power skating" Value="Power-Skating" />
   <string Context="RocketSkates GetRunningBehavior Ability Name" ID="Power Skate" Value="Kraftgleiten" />
   <string Context="RocketSkates GetRunningBehavior Verb" ID="power skate" Value="Power-Skate" />
-  <string Context="RocketSkates GetRunningBehavior DisplayName" ID="{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|power skating}}" Value="{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y Sequenz|Power-Skating}}" />
+  <string Context="RocketSkates GetRunningBehavior DisplayName" ID="{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|power skating}}" Value="{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|Power Skating}}" />
   <string Context="RocketSkates GetJumpingBehavior AbilityName" ID="Rocket Jump" Value="Raketensprung" />
   <string Context="RocketSkates GetJumpingBehavior Verb" ID="rocket jump" Value="Raketen-Sprung" />
   <string Context="RocketSkates JumpedEvent" ID="A {{fiery|jet of flame}} shoots out of =object.the.name:asPossessed:secondPerson=!" Value="Ein {{feuriger|Flammenstrahl}} schießt aus =object.the.name:asPossessed:secondPerson=!" />
   <string Context="RocketSkates RulesPostfix 1 (Sprint)" ID="Replaces Sprint with Power Skate (unlimited duration)." Value="Ersetzt Sprint durch Power Skate (unbegrenzte Dauer)." />
   <string Context="RocketSkates RulesPostfix 2 (Fire)" ID="Emits plumes of fire when the wearer moves while power skating." Value="Sendet Flammen aus, wenn der Träger sich beim Power-Skating bewegt." />
   <string Context="RocketSkates RulesPostfix 3 (Jump)" ID="Replaces Jump with Rocket Jump." Value="Ersetzt Sprung durch Raketen-Sprung." />
-  <string Context="RocketSkates EmitFlamePlume" ID="=subject.Does:emit= a {{fiery|plume of flame}}!" Value="=subject.Does:emit= eine {{feurige|Flammenschwade}}!" />
+  <string Context="RocketSkates EmitFlamePlume" ID="=subject.Does:emit= a {{fiery|plume of flame}}!" Value="=subject.Does:emit= eine {{fiery|Flammensäule}}!" />
   <string Context="SlipRingPart ShortDescription" ID="=chance.signed=% chance to slip away from natural melee attacks" Value="=chance.signed=% Chance, natürlichen Nahkampfangriffen auszuweichen" />
   <string Context="SlipRingPart DefenderBeforeHit Success" ID="=subject.Does:slip= away from =object.the.name's= =weapon.name:withTitles=!" Value="=subject.Does:slip= weg von =object.the.name's= =weapon.name:withTitles=!" />
   <string Context="SpiralBorerCurio HandleEvent FailInside" ID="You cannot do that inside." Value="Das kannst du nicht drinnen machen." />
@@ -3366,7 +3366,7 @@
   <string Context="Stopsvaalinn Suspended Message" ID="=subject.Does:vibrate= slightly." Value="=subject.Does:vibrate= leicht." />
   <string Context="Stopsvaalinn Snapoff Message" ID="The {{R|force bubble}} snaps off." Value="Die {{R|Kraftblase}} zerplatzt." />
   <string Context="Stopsvaalinn Snapoff Message Other" ID="The {{R|force bubble}} in front of =subject.the.name= snaps off." Value="Die {{R|Kraftblase}} vor =subject.the.name= schnellt ab." />
-  <string Context="Stopsvaalinn Not Enough Charge" ID="=subject.Does:don't= have enough charge to sustain the field!" Value="=subject.Does:don't= hat nicht genug Ladung, um das Feld aufrechtzuerhalten!" />
+  <string Context="Stopsvaalinn Not Enough Charge" ID="=subject.Does:don't= have enough charge to sustain the field!" Value="=subject.Does:don't= genug Ladung um das Feld aufrechtzuerhalten!" />
   <string Context="Stopsvaalinn Silent Fail" ID="Nothing happens." Value="Nichts geschieht." />
   <string Context="Stopsvaalinn Success" ID="A {{R|force bubble}} pops into being in front of you!" Value="Eine {{R|Kraftblase}} erscheint plötzlich vor dir!" />
   <string Context="Stopsvaalinn Success Other" ID="A {{R|force bubble}} pops into being in front of =subject.the= =subject.shortname=." Value="Eine {{R|Kraftblase}} erscheint plötzlich vor =subject.the= =subject.shortname=." />
@@ -3411,7 +3411,7 @@
   <string Context="Teleprojector Activate AlreadyDominating" ID="You can't dominate someone you are already dominating." Value="Ihr könnt jemanden nicht beherrschen, den Ihr bereits beherrscht." />
   <string Context="Teleprojector Activate TargetAlreadyDominated" ID="You can't do that." Value="Das könnt Ihr nicht tun." />
   <string Context="Teleprojector Activate CannotApplyRoboDomination" ID="=subject.Does:do= not have a digital mind you can make electronic contact with." Value="=subject.Does:do= keinen digitalen Verstand haben, mit dem Ihr elektronischen Kontakt aufnehmen könnt." />
-  <string Context="Teleprojector Activate NoCharge" ID="=subject.Does:don't= have enough charge to function." Value="=subject.Does:don't= haben nicht genug Ladung zum Funktionieren." />
+  <string Context="Teleprojector Activate NoCharge" ID="=subject.Does:don't= have enough charge to function." Value="=subject.Does:don't= genug Ladung zum Funktionieren haben." />
   <string Context="Teleprojector Activate UplinkFail" ID="There is nothing there that =object.the.name= can uplink with." Value="Es gibt dort nichts, mit dem =object.the.name= sich verbinden kann." />
   <string Context="Teleprojector RobotDom YouTakeControl" ID="You take control of =object.the.name=!" Value="Ihr übernehmt die Kontrolle über =object.the.name=!" />
   <string Context="Teleprojector RoboDom Resisted" ID="=subject.Does:resist= =object.the.name's= domination!" Value="=subject.Does:resist= =object.the.name's= Herrschaft!" />
@@ -3662,7 +3662,7 @@
   <string Context="ExplodeAfterTurns Message Log" ID="=subject.Does:explode=!" Value="=subject.Does:explode=!" />
   <string Context="ExplodeOnHit Message Log" ID="=subject.Does:explode=!" Value="=subject.Does:explode=!" />
   <string Context="ShatterOnHit Message Log" ID="=subject.Does:shatter=." Value="=subject.Does:shatter=." />
-  <string Context="StickyOnHit Message Log" ID="=subject.Does:get= entangled in =object.the.name=!" Value="=subject.Does:get= wird in =object.the.name= verwickelt!" />
+  <string Context="StickyOnHit Message Log" ID="=subject.Does:get= entangled in =object.the.name=!" Value="=subject.Does:get= verwickelt in =object.the.name=!" />
   <string Context="GrapplingGun MissilePenetrateEvent MessageFragmentOrExtraSentence TODO" ID=", but =subject.verb:manage= to latch on anyway" Value=", aber =subject.verb:manage= greift trotzdem an" />
   <string Context="HookOnMissileHit DraggedToward" ID="=subject.Does:are= dragged toward =object.the.name=." Value="=subject.Does:are= zu =object.the.name= gezogen." />
   <string Context="MissilePerformance RulesPostfix PenetrationModifier Powered" ID="When powered, =subject.this= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =modifier.signed= to =subject.their= penetration rolls." Value="Wenn aktiviert, =subject.this= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =modifier.signed= auf =subject.their= Durchschlagswürfe." />
@@ -3832,8 +3832,8 @@
   <string Context="ModMagnetized Display Adjective" ID="magnetized" Value="magnetisiert" />
   <string Context="ModMagnetized Cant Float" ID="=subject.Does:are= not able to float right now." Value="=subject.Does:are= nicht in der Lage zu schweben." />
   <string Context="ModMagnetized Description" ID="Magnetized: This item floats around you." Value="Magnetisiert: Dieser Gegenstand schwebt um dich herum." />
-  <string Context="ModMagnetic Falls Down Picked Up" ID="=subject.Does:fall= to the ground; you pick =subject.them= up." Value="=subject.Does:fall= auf den Boden; Ihr hebt =subject.them= auf." />
-  <string Context="ModMagnetic Falls Down" ID="=subject.Does:fall= to the ground." Value="=subject.Does:fall= auf den Boden." />
+  <string Context="ModMagnetic Falls Down Picked Up" ID="=subject.Does:fall= to the ground; you pick =subject.them= up." Value="=subject.Does:fall= zu Boden; du hebst =subject.them= auf." />
+  <string Context="ModMagnetic Falls Down" ID="=subject.Does:fall= to the ground." Value="=subject.Does:fall= zu Boden." />
   <string Context="ModMasterwork Display Adjective" ID="{{Y|masterwork}}" Value="{{Y|Meisterwerk}}" />
   <string Context="ModMasterwork Description" ID="Masterwork: This weapon scores critical hits =bonus=% of the time instead of 5%." Value="Meisterwerk: Diese Waffe erzielt kritische Treffer =bonus=% der Zeit statt 5%." />
   <string Context="ModMercurial Techscanning NameForStatus" ID="ReactiveTeleporter" Value="ReactiveTeleporter" />
@@ -3982,10 +3982,10 @@
   <string Context="EvilTwin Evil DisplayName" ID="=modifier|spaceAfter==subject.displayNameOnlyDirect=" Value="=modifier|spaceAfter==subject.displayNameOnlyDirect=" />
   <string Context="HooksForFeet BlueprintName description variable" ID="=blueprint.name=" Value="=blueprint.name=" />
   <string Context="IrritableGenome acts up" ID="=subject.The.name's= irritable genome acts up. =spentPointsReport.join: =" Value="=subject.The.name's= reizbare Genom wird unruhig. =spentPointsReport.join: =" />
-  <string Context="Narcolepsy Doze Message" ID="=subject.Does:fall= asleep!" Value="=subject.Does:fall= ein!" />
+  <string Context="Narcolepsy Doze Message" ID="=subject.Does:fall= asleep!" Value="=subject.Does:fall= eingeschlafen!" />
   <string Context="PsionicMigraines Cannot Equip Head" ID="Your head is too sensitive to wear that." Value="Euer Kopf ist zu empfindlich, um das zu tragen." />
   <string Context="QuantumJitters Slip Message" ID="Your focus slips, causing you to dent spacetime in the local region." Value="Euer Fokus lässt nach und verursacht, dass Ihr die Raumzeit in der lokalen Region verbeult." />
-  <string Context="SpontaneousCombustion triggered message log" ID="=subject.Does:erupt= into flames!" Value="=subject.Does:erupt= in Flammen auf!" />
+  <string Context="SpontaneousCombustion triggered message log" ID="=subject.Does:erupt= into flames!" Value="=subject.Does:erupt= in Flammen!" />
   <string Context="Beguiling Pick Direction Title" ID="[Select a direction to beguile a creature]" Value="[Wähle eine Richtung, um einen Gegner zu bezaubern]" />
   <string ID="There are no valid targets in that square." Value="Es gibt keine gültigen Ziele auf diesem Feld." />
   <string Context="Beguiling Pick Creature" ID="Who would you like to beguile?" Value="Wen möchtest du bezaubern?" />
@@ -4030,7 +4030,7 @@
   <string Context="ForceBubble Off MessageLog" ID="The {{B|force bubble}} around =subject.the.name= snaps off." Value="Die {{B|Kraftblase}} um =subject.the.name= herum platzt." />
   <string Context="ForceBubble On MessageLog" ID="A {{B|force bubble}} pops into being around =subject.the.name=." Value="Eine {{B|Kraftblase}} entsteht um =subject.the.name= herum." />
   <string Context="ForceBubble ActivatedAbility Name" ID="Force Bubble" Value="Kraftblase" />
-  <string Context="ForceWall On MessageLog" ID="=subject.Does:conjure= a {{B|wall of force}}!" Value="=subject.Does:conjure= eine {{B|Kraftwand}}!" />
+  <string Context="ForceWall On MessageLog" ID="=subject.Does:conjure= a {{B|wall of force}}!" Value="=subject.Does:conjure= eine {{B|Kraftmauer}}!" />
   <string Context="ForceWall ActivatedAbility Name" ID="Force Wall" Value="Kraftwand" />
   <string Context="Kindle TargetPicker Label" ID="Kindle" Value="Kindle" />
   <string Context="Kindle On MessageLog" ID="=subject.A.name= appears =subject.to.the.direction=." Value="=subject.A.name= erscheint =subject.to.the.direction=." />
@@ -4086,8 +4086,8 @@
   <string Context="SpaceTimeVortex ActivatedAbility" ID="Spacetime Vortex" Value="Raumzeit-Wirbel" />
   <string Context="StunningForce Use Message Player Nearby" ID="=subject.Does:invoke= a concussive blast around =subject.them=!" Value="=subject.Does:invoke= einen Druckimpuls um =subject.them= herum!" />
   <string Context="StunningForce Use Message Player Away" ID="=subject.Does:invoke= a concussive blast =dir.to.the.direction=!" Value="=subject.Does:invoke= einen Druckimpuls =dir.to.the.direction=!" />
-  <string Context="StunningForce Use Message Other Nearby" ID="=subject.Does:feel= a concussive blast around =subject.them=!" Value="=subject.Does:feel= eine Sprengwelle um =subject.them=!" />
-  <string Context="StunningForce Use Message Other Away" ID="=subject.Does:feel= a concussive blast =dir.from.the.direction=!" Value="=subject.Does:feel= eine Sprengwelle =dir.from.the.direction=!" />
+  <string Context="StunningForce Use Message Other Nearby" ID="=subject.Does:feel= a concussive blast around =subject.them=!" Value="=subject.Does:feel= einen Schlag um =subject.them=!" />
+  <string Context="StunningForce Use Message Other Away" ID="=subject.Does:feel= a concussive blast =dir.from.the.direction=!" Value="=subject.Does:feel= einen Schlag =dir.from.the.direction=!" />
   <string Context="StunningForce TargetPicker Label" ID="Stunning Force" Value="Betäubende Kraft" />
   <string Context="StunningForce ActivatedAbility Name" ID="Stunning Force" Value="Betäubende Kraft" />
   <string Context="SunderMind MemberOfPsychicBattle Effect Description" ID="locked in psychic battle" Value="in einen Psi-Kampf verstrickt" />
@@ -4140,7 +4140,7 @@
   <string Context="TimeDilation ActivatedAbility Name" ID="Time Dilation" Value="Zeitdilatation" />
   <string Context="Infiltrate Target Picker Title" ID="Infiltrate" Value="Infiltrieren" />
   <string Context="Infiltrate notify player enemy teleported them" ID="You are teleported by =object.the.name=." Value="Ihr werdet von =object.the.name= teleportiert." />
-  <string Context="Infiltrate targeting" ID="=subject.Does:focus= =subject.its= sensor somewhere else." Value="=subject.Does:focus= =subject.its= Sensor woanders hin." />
+  <string Context="Infiltrate targeting" ID="=subject.Does:focus= =subject.its= sensor somewhere else." Value="=subject.Does:focus= =subject.its= Sensor irgendwo anders." />
   <string Context="Infiltrate Activated Ablity Name" ID="Infiltrate" Value="Infiltrieren" />
   <string Context="Mutation with Defect Display" ID="=mutationName= ({{r|D}})" Value="=mutationName= ({{r|D}})" />
   <string ID="Your adrenaline subsides." Value="Euer Adrenalinanstieg lässt nach." />
@@ -4148,21 +4148,21 @@
   <string ID="Release Adrenaline" Value="Adrenalin freisetzen" />
   <string ID="{{R|adrenaline flowing}}" Value="{{R|Adrenalin fließt}}" />
   <string ID="You can't excavate with hostiles nearby." Value="Ihr könnt nicht graben, wenn Feindselige in der Nähe sind." />
-  <string ID="=subject.Does:dig= a passage down." Value="=subject.Does:dig= einen Durchgang nach unten." />
+  <string ID="=subject.Does:dig= a passage down." Value="=subject.Does:dig= einen Gang hinunter." />
   <string ID="You can't excavate the sky!" Value="Ihr könnt den Himmel nicht graben!" />
-  <string ID="=subject.Does:dig= a passage up." Value="=subject.Does:dig= einen Durchgang nach oben." />
+  <string ID="=subject.Does:dig= a passage up." Value="=subject.Does:dig= einen Gang hinauf." />
   <string ID="carapace" Value="Panzer" />
-  <string ID="=subject.Does:fail= to tighten =subject.possessive= =carapace.name=" Value="=subject.Does:fail= =subject.possessive= =carapace.name= zu straffen" />
+  <string ID="=subject.Does:fail= to tighten =subject.possessive= =carapace.name=" Value="=subject.Does:fail= festzuziehen =subject.possessive= =carapace.name=" />
   <string ID="You tighten your =carapace.name=. Your AV increases by {{G|=tightFactor.name=}}." Value="Ihr strafft euren =carapace.name=. Eure AV nimmt um {{G|=tightFactor.name=}} zu." />
   <string ID="=subject.Does:tighten= =subject.possessive= =carapace.name=" Value="=subject.Does:tighten= =subject.possessive= =carapace.name=" />
-  <string ID="=carapace.Does:loosen=. =subject.Name's= AV decreases by {{R|=tightFactor.name=}}." Value="=carapace.Does:loosen=. Die AV von =subject.Name's= verringert sich um {{R|=tightFactor.name=}}." />
+  <string ID="=carapace.Does:loosen=. =subject.Name's= AV decreases by {{R|=tightFactor.name=}}." Value="=carapace.Does:loosen=. =subject.Name's= AV nimmt um {{R|=tightFactor.name=}} ab." />
   <string ID="=subject.Name's= =carapace.does:loosen=." Value="=subject.Name's= =carapace.does:loosen=." />
   <string Context="Elec Gen Discharge Message" ID="=subject.Does:discharge= =amount.things:unit= of electrical charge!" Value="=subject.Does:discharge= =amount.things:unit= elektrischer Ladung!" />
   <string Context="Elec Gen Discharge Message" ID="=subject.Does:discharge= an electrical arc!" Value="=subject.Does:discharge= einen elektrischen Bogen!" />
   <string Context="Elec Gen AbilityDisplay Discharge" ID="Discharge [=charge= charge]" Value="Entladung [=charge= Ladung]" />
   <string Context="Elec Gen DrinkCharge Fail Evaded" ID="=subject.Does:try= to touch =object.the.name=, but =object.it.does:evade= =subject.them=." Value="=subject.Does:try= =object.the.name= zu berühren, aber =object.it.does:evade= =subject.them=." />
   <string Context="Elec Gen DrinkCharge" ID="=subject.Does:drink= the juice from =object.the.name= and recharge =amount.things:unit= of electrical charge." Value="=subject.Does:drink= den Saft von =object.the.name= und lädt =amount.things:unit= elektrischer Ladung auf." />
-  <string Context="Elec Gen DrinkCharge Unretained" ID="=subject.Does:drink= the juice from =object.the.name= but don't seem to retain any of it." Value="=subject.Does:drink= den Saft von =object.the.name=, scheint aber nichts davon zu behalten." />
+  <string Context="Elec Gen DrinkCharge Unretained" ID="=subject.Does:drink= the juice from =object.the.name= but don't seem to retain any of it." Value="=subject.Does:drink= den Saft von =object.the.name=, aber scheinen nichts davon zu behalten." />
   <string Context="Elec Gen DrinkCharge Unknown Amount" ID="=subject.Does:touch= =object.the.name=." Value="=subject.Does:touch= =object.the.name=." />
   <string Context="Elec Gen DrinkCharge None Player" ID="You can't seem to drink any of the juice from =object.the.name=." Value="Ihr könnt anscheinend keinen Saft von =object.the.name= trinken." />
   <string Context="Elec Gen DrinkCharge None" ID="=subject.Does:touch= =object.a.name=." Value="=subject.Does:touch= =object.a.name=." />
@@ -4182,14 +4182,14 @@
   <string Context="Mutation Use Fail BodyPart Too Damaged (null)" ID="Your =bodyPartType|lower= is too damaged to do that!" Value="Euer =bodyPartType|lower= ist zu beschädigt, um das zu tun!" />
   <string Context="FlamingRay Chargen Variant" ID="=mutation.name= (=bodyPartType=)" Value="=mutation.name= (=bodyPartType=)" />
   <string Context="Flaming Ray Targeting Screen Title" ID="Flaming Ray" Value="Flammender Strahl" />
-  <string Context="FlamingRay emit" ID="=subject.Does:emit= a flaming ray from =subject.its= =part.ordinalName=!" Value="=subject.Does:emit= einen Flammenstrahl aus =subject.its= =part.ordinalName=!" />
-  <string Context="FlamingRay emit no part" ID="=subject.Does:emit= a flaming ray!" Value="=subject.Does:emit= einen Flammenstrahl!" />
+  <string Context="FlamingRay emit" ID="=subject.Does:emit= a flaming ray from =subject.its= =part.ordinalName=!" Value="=subject.Does:emit= einen flammenden Strahl aus =subject.its= =part.ordinalName=!" />
+  <string Context="FlamingRay emit no part" ID="=subject.Does:emit= a flaming ray!" Value="=subject.Does:emit= einen flammenden Strahl!" />
   <string Context="Flaming Ray Ability Name" ID="Flaming Ray" Value="Flammender Strahl" />
   <string Context="Flaming Ray Missing Limb Message" ID="Missing =part.name=" Value="Fehlendes =part.name=" />
   <string Context="FreezingRay Chargen Variant" ID="=mutation.name= (=bodyPartType=)" Value="=mutation.name= (=bodyPartType=)" />
   <string Context="FreezingRay TargetPicker Label" ID="Freezing Ray" Value="Gefrierender Strahl" />
-  <string Context="FreezingRay emit" ID="=subject.Does:emit= a freezing ray from =subject.its= =part.ordinalName=!" Value="=subject.Does:emit= einen Gefrierstrahl aus =subject.its= =part.ordinalName=!" />
-  <string Context="FreezingRay emit no part" ID="=subject.Does:emit= a freezing ray!" Value="=subject.Does:emit= einen Gefrierstrahl!" />
+  <string Context="FreezingRay emit" ID="=subject.Does:emit= a freezing ray from =subject.its= =part.ordinalName=!" Value="=subject.Does:emit= einen gefrierenden Strahl von =subject.its= =part.ordinalName=!" />
+  <string Context="FreezingRay emit no part" ID="=subject.Does:emit= a freezing ray!" Value="=subject.Does:emit= einen gefrierenden Strahl!" />
   <string Context="Freezing Ray Ability Name" ID="Freezing Ray" Value="Gefrierender Strahl" />
   <string Context="Freezing Ray Missing Limb Message" ID="Missing =part.name=" Value="Fehlendes =part.name=" />
   <string Context="mutation sleep gas ability name" ID="Release Sleep Gas" Value="Freisetzung von Schlafgas" />
@@ -4233,7 +4233,7 @@
   <string Context="Quills fling (while engulfed)" ID="=subject.Does:fling= =subject.its= =quills.name=!" Value="=subject.Does:fling= =subject.its= =quills.name=!" />
   <string Context="Quills fling" ID="=subject.Does:fling= =subject.its= =quills.name= everywhere!" Value="=subject.Does:fling= überall =subject.its= =quills.name=!" />
   <string Context="Quills TakeDamage Message Fragment" ID="from %t =quillsName=!" Value="von %t =quillsName=!" />
-  <string Context="Regeneration Decapitate Regen Message" ID="{{G|You were decapitated, but a new head regrew immediately!}}" Value="{{G|Sie wurden enthauptet, doch sofort wuchs ein neuer Kopf nach!}}" />
+  <string Context="Regeneration Decapitate Regen Message" ID="{{G|You were decapitated, but a new head regrew immediately!}}" Value="{{G|Ihr wurdet enthauptet, aber ein neuer Kopf ist sofort nachgewachsen!}}" />
   <string Context="SlimeGlands Targeting Title" ID="Spit Slime" Value="Spucke Schleim" />
   <string Context="Slime Glands spit" ID="=subject.Does:spit= a pool of slime!" Value="=subject.Does:spit= einen Schleimpool!" />
   <string Context="SlimeGlands Ability Name" ID="Spit Slime" Value="Spucke Schleim" />
@@ -4339,7 +4339,7 @@
   <string Context="RefractLight Always" ID="=verb.ThirdPerson= light-based attacks." Value="=verb.ThirdPerson= lichtbasierte Angriffe." />
   <string Context="RefractLight Sometimes" ID="Has =chance.a.number=% chance to =verb= light-based attacks." Value="Hat =chance.a.number=% Chance, lichtbasierte Angriffe zu =verb=." />
   <string Context="RebornOnDeathInThinWorld Popup" ID="Death has no meaning here." Value="Der Tod hat hier keine Bedeutung." />
-  <string Context="RebornOnDeathInThinWorld Message Log" ID="=subject.Does:continue= being." Value="=subject.Does:continue= zu bestehen." />
+  <string Context="RebornOnDeathInThinWorld Message Log" ID="=subject.Does:continue= being." Value="=subject.Does:continue= zu sein." />
   <string Context="Shield Performance Display Name Tag" ID="=glyph:AV==av= =glyph:DV==dv=" Value="=glyph:AV==av= =glyph:DV==dv=" />
   <string Context="Shield Short Description Rules" ID="Shields only grant their AV when you successfully block an attack." Value="Schilde gewähren ihren Rüstungswert nur, wenn Sie erfolgreich einen Angriff blocken." />
   <string Context="Jump MovementCapabilities Description" ID="Jump to Square" Value="Auf Feld springen" />
@@ -4434,9 +4434,9 @@
   <string Context="Campfire CookFromRecipe Confirm Forget" ID="Are you sure you want to forget this recipe?" Value="Möchtest du dieses Rezept wirklich vergessen?" />
   <string Context="Campfire Cook Error" ID="You can't cook with hostile creatures nearby." Value="Ihr könnt nicht kochen, wenn Feindselige in der Nähe sind." />
   <string Context="Campfire Cook Error" ID="=subject.Does:are= turned off." Value="=subject.Does:are= ausgeschaltet." />
-  <string Context="Campfire Cook Error" ID="=subject.Does:do= not have enough charge to operate." Value="=subject.Does:do= nicht genug Ladung zum Betreiben." />
+  <string Context="Campfire Cook Error" ID="=subject.Does:do= not have enough charge to operate." Value="=subject.Does:do= nicht genug Ladung zum Betreiben haben." />
   <string Context="Campfire Cook Error" ID="=subject.Does:need= to be hung up first." Value="=subject.Does:need= zuerst aufgehängt zu werden." />
-  <string Context="Campfire Cook Error" ID="=subject.Does:do= not seem to be working." Value="=subject.Does:do= scheint nicht zu funktionieren." />
+  <string Context="Campfire Cook Error" ID="=subject.Does:do= not seem to be working." Value="=subject.Does:do= nicht zu funktionieren scheinen." />
   <string Context="Campfire Cook CookingActions Menu Title" ID="{{W|The fire breathes its warmth on your bones.}}" Value="{{W|Das Feuer atmet seine Wärme auf eure Knochen.}}" />
   <string Context="Campfire RollTasty" ID="You eat the meal. It's tastier than usual." Value="Ihr esst die Mahlzeit. Sie schmeckt besser als üblich." />
   <string Context="Campfire RollTasty" ID="You gorge on the succulent meat. It's tastier than usual." Value="Ihr verschlingt das saftige Fleisch. Es schmeckt köstlicher als gewöhnlich." />
@@ -4654,7 +4654,7 @@
   <string Context="StairsDown HowToDescend" ID="Use =commandKey:CmdMoveD= to descend." Value="Nutzt =commandKey:CmdMoveD=, um hinabzusteigen." />
   <string Context="StairsDown LockedNoKey" ID="=subject.Does:are= locked, and you don't have the key." Value="=subject.Does:are= verschlossen, und Ihr habt keinen Schlüssel." />
   <string Context="Companion fell down a hole message log" ID="Your =subject.pluralize.word:companion=, =subject.a.name:withTitles=, =subject.verb:have= fallen =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite= =object.to.the.direction=!" Value="Euer =subject.pluralize.word:companion=, =subject.a.name:withTitles=, =subject.verb:have= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite= =object.to.the.direction= gefallen!" />
-  <string Context="StairsDown FallDown" ID="=subject.Does:fall= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite=." Value="=subject.Does:fall= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite= hinab." />
+  <string Context="StairsDown FallDown" ID="=subject.Does:fall= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite=." Value="=subject.Does:fall= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite=." />
   <string Context="StairsDown FellFromAbove" ID="=subject.A.name= =subject.verb:fall= down from above." Value="=subject.A.name= =subject.verb:fall= von oben hinab." />
   <string Context="StairsDown You fall downward" ID="You fall downward!" Value="Ihr fallt hinunter!" />
   <string Context="StairsUp HowToGoUp" ID="Use =commandKey:CmdMoveU= to ascend." Value="Nutzt =commandKey:CmdMoveU=, um aufzusteigen." />

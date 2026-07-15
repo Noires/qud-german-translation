@@ -15,9 +15,11 @@ der gesamte Mod von der ASCII-Ersatzschreibung (ae/oe/ue/ss) auf **echte Umlaute
   -Beschreibungen, Charaktererstellung, Mutationen) sowie ein Teil der UI wurden aus
   den englischen Vorlagen neu mit Umlauten übersetzt (Haiku, token-geprüft).
 
-Ergebnis: nahezu der gesamte deutsche Text nutzt jetzt korrekte Orthographie
-(z. B. „Bär", „Höhlenspinne", „Riesenkäfer", „Stärke"). Ein kleiner Rest (~150
-Einträge mit besonders komplexen Platzhaltern) verbleibt vorerst in ASCII-Schreibung.
+Ergebnis: der gesamte deutsche Text nutzt jetzt korrekte Orthographie
+(z. B. „Bär", „Höhlenspinne", „Riesenkäfer", „Stärke"). Auch die anfangs
+verbliebenen komplexen Platzhalter-Einträge (Grammatik- und Spice-Token) wurden
+in kleineren Chargen token-genau neu übersetzt – **alle umgestellten Einträge
+(3520/3520) sind übersetzt, 0 Reste in ASCII-Schreibung.**
 
 ## v0.3.0 – Restliche Inhalte
 
