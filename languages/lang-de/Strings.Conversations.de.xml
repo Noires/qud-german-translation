@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Lang="de" Encoding="utf-8">
+  <string ID="..." Value="..." />
+  <string ID="Live and drink." Value="Leben Sie und trinken Sie." />
+  <string Context="Conversation MechanimistPilgrim.Start.Text.Text" ID="Glory to Shekhinah." Value="Ruhm sei Shekhinah." />
+  <string Context="Conversation Q Girl.Start3.EndChoice.Text" ID="Live and drink, tinker." Value="Leben Sie und trinken Sie, Bastler." />
+  <string Context="Conversation Q Girl.Rumbling.EndChoice.Text" ID="Live and drink, tinker." Value="Leben Sie und trinken Sie, Bastler." />
+  <string Context="Conversation Q Girl.Quetzal.EndChoice.Text" ID="Live and drink, tinker." Value="Leben Sie und trinken Sie, Bastler." />
+  <string Context="Conversation Q Girl.Hair.EndChoice.Text" ID="Live and drink, tinker." Value="Leben Sie und trinken Sie, Bastler." />
+  <string Context="Conversation Q Girl.Goggles.EndChoice.Text" ID="Live and drink, tinker." Value="Leben Sie und trinken Sie, Bastler." />
+  <string Context="Conversation Q Girl.Tinker.EndChoice.Text" ID="Live and drink, tinker." Value="Leben Sie und trinken Sie, Bastler." />
+  <string Context="Conversation Mafeo.Start2.EndChoice.Text" ID="Live and drink, =pronouns.formalAddressTerm=." Value="Leben Sie und trinken Sie, =pronouns.formalAddressTerm=." />
+  <string Context="Conversation AsphodelChaos.Start.Text" ID="That was awful!" Value="Das war schrecklich!" />
+  <string Context="Conversation AsphodelDone.Start.Text" ID="Your friends may lease the Spindle, as we agreed." Value="Eure Freunde koennen den Spindle mieten, wie wir vereinbart haben." />
+  <string Context="Conversation Neelahind.KithAndKinCircumstance.KithAndKinCircumstance.KithAndKinMotiveChoice.Text" ID="I discovered a patch of watervine stained red with blood, a sign of recent violence." Value="Ich entdeckte einen blutrot gefaerbten Flecken Wasserrebe, ein Zeichen kuerzlicher Gewalt." />
+  <string Context="Conversation Neelahind.KithAndKinMotive.KithAndKinMotive.KithAndKinAccusationChoice.Text" ID="I discovered a patch of watervine stained red with blood, a sign of recent violence." Value="Ich entdeckte einen blutrot gefaerbten Flecken Wasserrebe, ein Zeichen kuerzlicher Gewalt." />
+  <string Context="Conversation YlaHaj.Start.EndChoice.Text" ID="Live and drink, tinker." Value="Leben Sie und trinken Sie, Bastler." />
+</strings>

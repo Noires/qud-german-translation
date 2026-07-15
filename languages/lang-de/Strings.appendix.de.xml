@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Lang="de" Encoding="utf-8">
+  <string Context="genotype.Mutated Human.extrainfo" ID="Mutations" Value="Mutationen" />
+  <string Context="subtype.Arconaut.extrainfo" ID="Starts with random junk and artifacts" Value="Beginnt mit zufaelligem Schrott und Artefakten" />
+  <string Context="subtype.Nomad.extrainfo" ID="Starts with a {{B|recycling suit}}" Value="Beginnt mit einem {{B|recycling suit}}" />
+  <string Context="subtype.Tinker.extrainfo" ID="Begins with a number of random artifacts and scrap" Value="Beginnt mit einer Reihe von zufaelligen Artefakten und Ausschuss" />
+  <string Context="subtype.Water Merchant.extrainfo" ID="Allowed entrance to many settlements for purposes of trade" Value="Zutritt zu vielen Siedlungen zu Handelszwecken erlaubt" />
+</strings>
