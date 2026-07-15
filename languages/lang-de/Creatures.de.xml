@@ -419,12 +419,15 @@
   </object>
   <object Name="BaseUrchin" Load="Merge">
     <part Name="Render" DisplayName="[Basis-Seeigel]" />
+    <tag Name="SimpleConversation" Value="{{w|*wogt träge*}}" />
+    <tag Name="PetResponse" Value="=subject.T= wogt." />
   </object>
   <object Name="Humanoid" Load="Merge">
     <part Name="Render" DisplayName="[Humanoid]" />
   </object>
   <object Name="BaseHumanoid" Load="Merge">
     <part Name="Render" DisplayName="[Basis-Humanoid]" />
+    <tag Name="SimpleConversation" Value="Mond und Sonne. Weisheit und Wille.~Möge die Erde in dieser Jahreszeit für uns Ertrag bringen.~Friede, =player.formalAddressTerm=." />
   </object>
   <object Name="BaseMopango" Load="Merge">
     <part Name="Render" DisplayName="[Basis-Mopango]" />
@@ -435,9 +438,11 @@
   </object>
   <object Name="MutatedPlant" Load="Merge">
     <part Name="Render" DisplayName="[Mutierte Pflanze]" />
+    <tag Name="PetResponse" Value="=subject.T= wiegt sich sanft." />
   </object>
   <object Name="MutatedFungus" Load="Merge">
     <part Name="Render" DisplayName="[Mutierter Pilz]" />
+    <tag Name="PetResponse" Value="=subject.T= quatscht." />
   </object>
   <object Name="BaseNest" Load="Merge">
     <part Name="Render" DisplayName="[Nest]" />
@@ -852,6 +857,7 @@
   <object Name="Equimax" Load="Merge">
     <part Name="Render" DisplayName="Equimax" />
     <part Name="Description" Short="=pronouns.Possessive= gebürstete Haut ist um =pronouns.possessive= kräftige Widerrist, Flanken und Oberschenkel straff. Ein reiches Platinmantel ist glatt über einen ruhigen Körper ausgebreitet und bricht dann an den Hufen in wilden Büscheln aus. Über eine lange Schnauze hinweg verhängen Mähnenquasten =pronouns.possessive= Augen." />
+    <tag Name="SimpleConversation" Value="{{emote|*sanftes Wiehern*}}" />
   </object>
   <object Name="Equimax_Kick" Load="Merge">
     <part Name="Render" DisplayName="Tritt" />
@@ -1778,6 +1784,7 @@
   <object Name="Unimax" Load="Merge">
     <part Name="Render" DisplayName="Unimax" />
     <part Name="Description" Short="Pferdehaarteppiche sind =pronouns.possessive= schöne Kraft wie weißer Regen auf dem Blassen Meer, und dann werden sie von Magenta-Mähnen-Bändern zerschlagen. Das und =pronouns.possessive= Schwanz sind Flaggen eines verlorenen und Nie-Königreichs. Über den Kopf wird ein Traum versprochen: Knochen rasen sich zu einem Nichts-Punkt zusammen und werden von Zeitlichems Atem in Glitter-Keratin gehüllt." />
+    <tag Name="SimpleConversation" Value="{{emote|*sanftes Wiehern*}}" />
   </object>
   <object Name="Unimax_Kick" Load="Merge">
     <part Name="Render" DisplayName="Tritt" />
@@ -3779,5 +3786,88 @@
   </object>
   <object Name="Metachrome Foot ShortBlades" Load="Merge">
     <part Name="Render" DisplayName="{{metachrome|Metachrom}} Spitze" />
+  </object>
+  <object Name="Key" Load="Merge">
+    <tag Name="PetResponse" Value="=subject.T= starrt =object.t= ausdruckslos an." />
+    <tag Name="SimpleConversation" Value="Mond und Sonne. Weisheit und Wille.~Möge die Erde in dieser Jahreszeit für uns Ertrag bringen.~Friede, =player.formalAddressTerm=." />
+  </object>
+  <object Name="BaseAnimal" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*sanftes Knurren*}}" />
+    <tag Name="PetResponse" Value="=subject.T= knurrt leise." />
+  </object>
+  <object Name="BaseAntelope" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*grast träge*}}" />
+  </object>
+  <object Name="BaseBat" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*schlägt träge mit den Flügeln*}}" />
+  </object>
+  <object Name="BaseBird" Load="Merge">
+    <tag Name="PetResponse" Value="=subject.T= zwitschert." />
+  </object>
+  <object Name="BaseCat" Load="Merge">
+    <tag Name="PetResponse" Value="=subject.T= miaut." />
+  </object>
+  <object Name="BaseClam" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*sitzt einladend offen da*}}" />
+    <tag Name="PetResponse" Value="=subject.T= schloopt." />
+  </object>
+  <object Name="BaseCrab" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*raues Quaken*}}" />
+    <tag Name="PetResponse" Value="=subject.T= quakt." />
+  </object>
+  <object Name="BaseDog" Load="Merge">
+    <tag Name="PetResponse" Value="=subject.T= bellt." />
+  </object>
+  <object Name="BaseFish" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*starrt dich unverwandt an*}}" />
+    <tag Name="PetResponse" Value="=subject.T= gluckert." />
+  </object>
+  <object Name="BaseInsect" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*scharfes Klicken*}}~{{emote|*sanftes Summen*}}" />
+    <tag Name="PetResponse" Value="=subject.T= summt." />
+  </object>
+  <object Name="BaseOoze" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*sondert laut ab*}}~{{emote|*sanftes Sprudeln*}}" />
+    <tag Name="PetResponse" Value="=subject.T= spritzt." />
+  </object>
+  <object Name="BaseReptile" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{w|*sanftes Zischen*}}" />
+    <tag Name="PetResponse" Value="=subject.T= zischt." />
+  </object>
+  <object Name="BaseFrog" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*quakt*}}" />
+    <tag Name="PetResponse" Value="=subject.T= quakt." />
+  </object>
+  <object Name="BaseSpider" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*schwankt träge hin und her*}}" />
+  </object>
+  <object Name="BaseStar" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*existiert unergründlich*}}" />
+    <tag Name="PetResponse" Value="{{emote|*xxxff*}}" />
+  </object>
+  <object Name="BaseTortoise" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*schnieft und niest*}}" />
+    <tag Name="PetResponse" Value="=subject.T= quakt." />
+  </object>
+  <object Name="BaseWorm" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*wogt träge*}}" />
+    <tag Name="PetResponse" Value="=subject.T= schlängelt sich." />
+  </object>
+  <object Name="Robot" Load="Merge">
+    <tag Name="PetResponse" Value="=subject.T= piept und boopt." />
+  </object>
+  <object Name="BaseRobot" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*piep bup*}}~{{emote|*bup piep*}}~{{emote|*piep bup piep*}}~{{emote|*bup piep bup*}}" />
+  </object>
+  <object Name="BaseApe" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*trommelt sich auf die Brust*}}" />
+    <tag Name="PetResponse" Value="=subject.T= brabbelt." />
+  </object>
+  <object Name="BasePlant" Load="Merge">
+    <tag Name="SimpleConversation" Value="{{emote|*Die Pflanze zeigt keinerlei Anzeichen von Verständnis*.}}" />
+    <tag Name="PetResponse" Value="=subject.T= wiegt sich sanft." />
+  </object>
+  <object Name="BaseFungus" Load="Merge">
+    <tag Name="PetResponse" Value="=subject.T= quatscht." />
   </object>
 </objects>

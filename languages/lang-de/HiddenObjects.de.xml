@@ -28,4 +28,7 @@
   <object Name="Chiliad Vase" Load="Merge">
     <part Name="Description" Short="Daumenabdrücke auf den ausgestellten Griffen und am Hals zeigen, wo der Töpfer sich beeilt hat, Ton zu drehen und den nächsten Auftrag zu brennen. Doch die Kanten der Praktikabilität werden durch eine langsame und beerenhaft reiche Glasur erweicht." />
   </object>
+  <object Name="Sheyd" Load="Merge">
+    <tag Name="PetResponse" Value="=subject.T= zirpt." />
+  </object>
 </objects>
