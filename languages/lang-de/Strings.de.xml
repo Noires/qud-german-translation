@@ -5383,4 +5383,5 @@
   <string ID="{{rules|=ego.signed= Ego}}&#10;{{rules|=hitBonus.signed= To-Hit}}&#10;{{rules|=detailedStats=}}">{{rules|=ego.signed= Ego}}&#10;{{rules|=hitBonus.signed= Treffer}}&#10;{{rules|=detailedStats=}}</string>
   <string ID="{{rules|=ego.signed= Ego}}&#10;{{rules|=detailedStats=}}">{{rules|=ego.signed= Ego}}&#10;{{rules|=detailedStats=}}</string>
   <string ID="{{rules|=hitBonus.signed= To-Hit}}&#10;{{rules|=detailedStats=}}">{{rules|=hitBonus.signed= Treffer}}&#10;{{rules|=detailedStats=}}</string>
+  <string ID="There are hostiles nearby!" Value="Es sind Feinde in der Nähe!" />
 </strings>
