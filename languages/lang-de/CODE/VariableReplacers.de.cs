@@ -209,9 +209,9 @@ namespace LanguagesOfQudGerman
         {
             switch (g)
             {
-                case Gender.Masc: return c == Case.Acc ? "einen" : "ein";
-                case Gender.Fem: return "eine";
-                case Gender.Neut: return "ein";
+                case Gender.Masc: return c == Case.Dat ? "einem" : c == Case.Gen ? "eines" : c == Case.Acc ? "einen" : "ein";
+                case Gender.Fem: return (c == Case.Dat || c == Case.Gen) ? "einer" : "eine";
+                case Gender.Neut: return c == Case.Dat ? "einem" : c == Case.Gen ? "eines" : "ein";
                 default: return ""; // no indefinite plural article
             }
         }
@@ -383,6 +383,56 @@ namespace LanguagesOfQudGerman
         public static string Genitiv(VariableContext Context, GameObject Object)
         { return CaseName(Context, Object, Case.Gen); }
 
+        // ---- indefinite case forms: "=object.a.dativ=" -> "einem Käfer / einer Wand" ----
+        // ein-word determiner (einem/einer/eines), mixed adjective declension (strong for
+        // plural, which has no indefinite article). Fixes "von einen X" -> "von einem X".
+        private static string BuildIndefinitePhrase(string name, Case c, bool plural, bool capitalize)
+        {
+            string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (words.Length == 0) return name;
+            string head = words[words.Length - 1];
+            Gender g = plural ? Gender.Plural : GuessGender(head);
+            string art = Indefinite(g, c); // "" for plural (no indefinite plural article)
+            DeclType decl = art.Length == 0 ? DeclType.Strong : DeclType.Mixed;
+            var parts = new List<string>();
+            if (art.Length != 0) parts.Add(Cap(art, capitalize));
+            for (int i = 0; i < words.Length - 1; i++)
+                parts.Add(AdjStem(words[i]) + AdjEnding(decl, c, g));
+            parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
+            if (art.Length == 0 && capitalize && parts.Count > 0) parts[0] = Cap(parts[0], true);
+            return string.Join(" ", parts);
+        }
+
+        private static string IndefCaseName(VariableContext Context, GameObject Object, Case c)
+        {
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson)
+                return Cap(PlayerPronoun(c), Context.Capitalize);
+            if (IsProper(Object))
+            {
+                string pn = GermanName(Object);
+                return c == Case.Gen ? GenitiveNoun(pn, Gender.Masc) : pn;
+            }
+            return BuildIndefinitePhrase(GermanName(Object), c, IsPlural(Object), Context.Capitalize);
+        }
+
+        [VariableReplacer(new string[] { "a.nominativ" }, Capitalization = true)]
+        public static string IndefNominativ(VariableContext Context, GameObject Object)
+        { return IndefCaseName(Context, Object, Case.Nom); }
+
+        [VariableReplacer(new string[] { "a.akkusativ" }, Capitalization = true)]
+        public static string IndefAkkusativ(VariableContext Context, GameObject Object)
+        { return IndefCaseName(Context, Object, Case.Acc); }
+
+        [VariableReplacer(new string[] { "a.dativ" }, Capitalization = true)]
+        [VariableExample("einem Krokodil:Einem Krokodil", "Croc")]
+        [VariableExample("einem Leuchtfisch:Einem Leuchtfisch", "Glowfish")]
+        public static string IndefDativ(VariableContext Context, GameObject Object)
+        { return IndefCaseName(Context, Object, Case.Dat); }
+
+        [VariableReplacer(new string[] { "a.genitiv" }, Capitalization = true)]
+        public static string IndefGenitiv(VariableContext Context, GameObject Object)
+        { return IndefCaseName(Context, Object, Case.Gen); }
+
         // Pipeline self-test: runs a real template ("=object.dativ=") through the game's
         // replacer engine on a sample object, proving the FULL chain (token -> replacer ->
         // German) at load, without needing the in-game testreplacers wish. Self-diagnosing:
@@ -404,6 +454,9 @@ namespace LanguagesOfQudGerman
                 new[] { "Glowfish",  "=object.genitiv=",   "des Leuchtfischs" },
                 new[] { "Goat",      "=object.dativ=",     "der Ziege" },
                 new[] { "Snapjaw",   "=object.akkusativ=", "den Schnappkiefer" },
+                new[] { "Croc",      "=object.a.dativ=",   "einem Krokodil" },
+                new[] { "Glowfish",  "=object.a.dativ=",   "einem Leuchtfisch" },
+                new[] { "Goat",      "=object.a.dativ=",   "einer Ziege" },
             };
             int pass = 0, fail = 0;
             foreach (var t in tests)
