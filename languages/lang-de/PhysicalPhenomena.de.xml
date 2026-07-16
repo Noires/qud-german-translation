@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <objects Lang="de" Encoding="utf-8">
   <object Name="PhysicalObject" Load="Merge">
     <part Name="Render" DisplayName="[Objekt]" />
@@ -7,43 +7,149 @@
   <object Name="Water" Load="Merge">
     <part Name="Render" DisplayName="Becken" />
     <part Name="Description" Short="Eine Flüssigkeitslache." />
+    <part Name="LiquidVolume" NamePreposition="von" />
   </object>
   <object Name="Gas" Load="Merge">
     <part Name="Render" DisplayName="[Gas]" />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="PoisonGas" Load="Merge">
     <part Name="Render" DisplayName="Giftgas" />
     <part Name="Description" Short="Schwaden schädlichen Gases kleben in der Luft. Sie verstopfen die Lungen blutfeuchter Kreaturen, die den verdrängten Sauerstoff nicht extrahieren können." />
+    <tag Name="GasGenerationName" Value="Giftgaserzeugung" />
+    <tag Name="LevelEffectDescription" Value="Rettungswurf-Schwierigkeit gegen Gift und Schaden" />
   </object>
   <object Name="MiasmaticAsh" Load="Merge">
     <part Name="Render" DisplayName="Knochenasche" />
     <part Name="Description" Short="Knochenstücke werden in eine dicke Kohlenebelwolke vernebelt. Licht geht darin verloren." />
+    <tag Name="GasGenerationName" Value="Knochenasche-Erzeugung" />
+    <tag Name="LevelEffectDescription" Value="Rettungswurf-Schwierigkeit gegen Erstickung und Schaden" />
   </object>
   <object Name="Plasma" Load="Merge">
     <part Name="Render" DisplayName="Plasma" />
     <part Name="Description" Short="Bänder aus Smaragd und Neonspitze durchziehen die knackende Luft und erblühen in gewaltsamen Blütenköpfen." />
+    <part Name="GasDamaging" Noun="Plasma" />
+    <tag Name="GasGenerationName" Value="Plasma-Emission" />
+    <tag Name="LevelEffectDescription" Value="Schaden und Dauer der Plasma-Anhaftung" />
   </object>
   <object Name="Steam" Load="Merge">
     <part Name="Render" DisplayName="Dampf" />
+    <tag Name="GasGenerationName" Value="Dampferzeugung" />
   </object>
   <object Name="SteamGas" Load="Merge">
     <part Name="Render" DisplayName="siedender Dampf" />
     <part Name="Description" Short="Heißes Aerosol schwillt an, während es beginnt, sich in die Luft zu verteilen." />
+    <tag Name="GasGenerationName" Value="Dampfgaserzeugung" />
   </object>
   <object Name="CryoGas" Load="Merge">
     <part Name="Render" DisplayName="Kryonebel" />
     <part Name="Description" Short="Maschinengekühltes Wasser wurde entspannt zu einem gefrierndem Nebel, um die Prozesse des Lebens in Schwebezustand zu halten." />
+    <tag Name="GasGenerationName" Value="Kryonebel-Erzeugung" />
   </object>
   <object Name="AcidGas" Load="Merge">
     <part Name="Render" DisplayName="Aetzgas" />
     <part Name="Description" Short="Selbst jetzt verdichtet sich der Nimbus verdampfter Säure und beginnt sich auf seinen kolonisierten Oberflächen niederzusetzen, beginnt durch ihre weichen Kanten zu sinken." />
+    <part Name="GasDamaging" Noun="Säure" />
+    <tag Name="GasGenerationName" Value="Ätzgaserzeugung" />
+    <tag Name="LevelEffectDescription" Value="Schaden" />
   </object>
   <object Name="StunGas" Load="Merge">
     <part Name="Render" DisplayName="Lähmungsgas" />
     <part Name="Description" Short="Der Nickeltau haftet an der Luft und stoppt die flüchtigen Moleküle von Wandermasse." />
+    <tag Name="GasGenerationName" Value="Betäubungsgaserzeugung" />
   </object>
   <object Name="SleepGas" Load="Merge">
     <part Name="Render" DisplayName="Schlafgas" />
     <part Name="Description" Short="Miasma setzt sich in die Lungen seiner Nachbarn und leitet sie zum träumenden Tal. Ihre Körper ruhen." />
+    <tag Name="GasGenerationName" Value="Schlafgaserzeugung" />
+    <tag Name="LevelEffectDescription" Value="Rettungswurf-Schwierigkeit gegen Schlaf" />
+  </object>
+  <object Name="StableCryoGas" Load="Merge">
+    <part Name="Render" DisplayName="Kryonebel" />
+    <tag Name="GasGenerationName" Value="Stabile Kryonebel-Erzeugung" />
+  </object>
+  <object Name="ConfusionGas" Load="Merge">
+    <part Name="Render" DisplayName="Verwirrungsgas" />
+    <part Name="Description" Short="Kobaltfarbenes Gas dringt in die Nase ein und bringt den Verstand durcheinander." />
+    <tag Name="GasGenerationName" Value="Verwirrungsgaserzeugung" />
+    <tag Name="LevelEffectDescription" Value="Rettungswurf-Schwierigkeit gegen Verwirrung" />
+  </object>
+  <object Name="Miasma" Load="Merge">
+    <part Name="Render" DisplayName="Miasma" />
+    <part Name="Description" Short="Zunge, Nagel und Milz wurden zu einer Masse verbacken und dann von Hitze zu luftigen Kotpünktchen zerfetzt." />
+    <tag Name="GasGenerationName" Value="Miasma-Erzeugung" />
+    <tag Name="LevelEffectDescription" Value="Rettungswurf-Schwierigkeit gegen Krankheit" />
+  </object>
+  <object Name="NormalityGas" Load="Merge">
+    <part Name="Render" DisplayName="Normalitätsgas" />
+    <part Name="Description" Short="Gasmoleküle ordnen sich entlang der Ley-Linien dieser Ebene an und bilden ein luftiges Geflecht. Objekte auf orthogonalen Flugbahnen werden eingefangen und zurück zu ihrer planaren Heimat gestoßen." />
+    <part Name="GasDamaging" Noun="Normalitätsgas" />
+    <tag Name="GasGenerationName" Value="Normalitätsgaserzeugung" />
+    <tag Name="LevelEffectDescription" Value="Astrale Fesselung und Schaden gegen außerdimensionale Wesen" />
+  </object>
+  <object Name="DefoliantGas" Load="Merge">
+    <part Name="Render" DisplayName="Entlaubungsmittel" />
+    <part Name="Description" Short="Der synthetische Nebel namens Golden Dawn steigt aus seinem Kanister auf, zerstäubt Laub und hinterlässt einen klaren Blick auf den Horizont." />
+    <part Name="GasDamaging" Noun="Entlaubungsmittel" />
+    <tag Name="GasGenerationName" Value="Entlaubungsmittel-Erzeugung" />
+    <tag Name="LevelEffectDescription" Value="Schaden" />
+  </object>
+  <object Name="FungicideGas" Load="Merge">
+    <part Name="Render" DisplayName="Fungizid" />
+    <part Name="Description" Short="Magentafarbener Regen überzieht die Heterotrophen mit einem feuchten Film, der ihre Aufnahme von toten Tier- und Pflanzenresten hemmt." />
+    <part Name="GasDamaging" Noun="Fungizid" />
+    <tag Name="GasGenerationName" Value="Fungizid-Erzeugung" />
+    <tag Name="LevelEffectDescription" Value="Schaden" />
+  </object>
+  <object Name="GlitterGas" Load="Merge">
+    <part Name="Render" DisplayName="Glitzerstaub" />
+    <part Name="Description" Short="Winzige Sechsecke aus zerstoßenem Glas, Insektenteilen und Polyesterfolie funkeln in der Luft wie ionisiertes Helium von Sternenstaub." />
+    <tag Name="GasGenerationName" Value="Glitzerstaub-Erzeugung" />
+  </object>
+  <object Name="FungalSporeGasLuminous" Load="Merge">
+    <part Name="Render" DisplayName="Pilzsporen" />
+    <part Name="Description" Short="Nebelschwaden wirbelnder Schimmelpünktchen lassen die Luft verschwommen erscheinen." />
+  </object>
+  <object Name="FungalSporeGasPuff" Load="Merge">
+    <part Name="Render" DisplayName="Pilzsporen" />
+    <part Name="Description" Short="Nebelschwaden wirbelnder Schimmelpünktchen lassen die Luft verschwommen erscheinen." />
+  </object>
+  <object Name="FungalSporeGasWax" Load="Merge">
+    <part Name="Render" DisplayName="Pilzsporen" />
+    <part Name="Description" Short="Nebelschwaden wirbelnder Schimmelpünktchen lassen die Luft verschwommen erscheinen." />
+  </object>
+  <object Name="FungalSporeGasMumbles" Load="Merge">
+    <part Name="Render" DisplayName="Pilzsporen" />
+    <part Name="Description" Short="Nebelschwaden wirbelnder Schimmelpünktchen lassen die Luft verschwommen erscheinen." />
+  </object>
+  <object Name="Shimmering Heat" Load="Merge">
+    <part Name="Render" DisplayName="flirrende Hitze" />
+    <part Name="Description" Short="Heiße Luft wogt über einem Wirbel und flackert im gleißenden Licht." />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Frigid Mist" Load="Merge">
+    <part Name="Render" DisplayName="eisiger Nebel" />
+    <part Name="Description" Short="Luft knistert unter einem Wirbel und bläst unterkühlte Feuchtigkeit zu funkelndem Staub." />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Space-Time Anomaly" Load="Merge">
+    <part Name="Render" DisplayName="Raumzeitwirbel" />
+    <part Name="Description" Short="Leuchtende Bilder ferner Orte und Zeiten werden von den Flächen eines platonischen Prismendings projiziert, und Schallwellen werden bis zur Asymptote auseinandergezogen. Die Ley-Linien sind hier verknotet, und die Illusion der Lokalität zerfällt." />
+  </object>
+  <object Name="Wormhole" Load="Merge">
+    <part Name="Render" DisplayName="schimmernde Sphäre" />
+    <part Name="Description" Short="Leuchtende Bilder ferner Orte und Zeiten projizieren sich von den Flächen eines platonischen Prisma-Dings, und Schallwellen werden bis zur Asymptote auseinandergezogen. Die Ley-Linien sind hier verknotet, und die Illusion der Lokalität zerbröckelt." />
+  </object>
+  <object Name="InteriorVoid" Load="Merge">
+    <part Name="Render" DisplayName="leerer Raum" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Kindleflame" Load="Merge">
+    <part Name="Render" DisplayName="entfachte Flamme" />
+    <part Name="Description" Short="Eine brennende Flamme aus Bernstein schwebt unterhalb eines psychischen Dochts." />
+  </object>
+  <object Name="RealityStabilizationField" Load="Merge">
+    <part Name="Render" DisplayName="{{normal|Normalitätsfeld}}" />
+    <part Name="Description" Short="Schattensegmente ordnen sich entlang der Ley-Linien dieser Ebene an und bilden ein geometrisches Netz. Objekte auf orthogonalen Flugbahnen werden eingefangen und zurück zu ihrer planaren Heimat gestoßen." />
   </object>
 </objects>

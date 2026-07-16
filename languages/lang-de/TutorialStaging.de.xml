@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects Lang="de" Encoding="utf-8">
+  <object Name="TutorialClockworkBeetlePariah" Load="Merge">
+    <part Name="Render" DisplayName="Uhrwerk-Käfer und Paria seines Volkes" />
+  </object>
+</objects>

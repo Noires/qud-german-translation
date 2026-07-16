@@ -1,8 +1,8 @@
 {
     "id": "coq-german-translation",
     "title": "Caves of Qud German Translation",
-    "description": "Deutsche Uebersetzung fuer Caves of Qud, erstellt fuer den lang-experimental Branch (offizielle Lokalisierungs-Unterstuetzung). Prototyp - basiert auf den Uebersetzungen des QudDE-Projekts.",
-    "version": "0.6.0",
+    "description": "Deutsche Übersetzung für Caves of Qud, erstellt für den lang-experimental Branch (offizielle Lokalisierungs-Unterstützung). Prototyp - basiert auf den Übersetzungen des QudDE-Projekts.",
+    "version": "0.8.0",
     "author": "Noires & Contributors",
     "tags": "Localization",
     "previewImage": "preview.png"

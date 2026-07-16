@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<strings Lang="de" Encoding="utf-8">
+  <string Context="SaveManagementRow - Line 2" ID="{{C|Location:}} =location=">{{C|Ort:}} =location=</string>
+  <string Context="SaveManagementRow - Line 3" ID="{{C|Last saved:}} =saveTime=">{{C|Zuletzt gespeichert:}} =saveTime=</string>
+  <string Context="CharacterStatusScreen attribute points" ID="Attribute Points: {{=color=|=ap=}}">Attributpunkte: {{=color=|=ap=}}</string>
+</strings>

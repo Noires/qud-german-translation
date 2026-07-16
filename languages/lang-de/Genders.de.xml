@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<genders EnableSelection="false" EnableGeneration="false" GenerateGeneric="0" Lang="de" Encoding="utf-8">
+
+  <gender Name="neuter" Subjective="es" Objective="es" PossessiveAdjective="sein" SubstantivePossessive="seins" Reflexive="sich" UseBareIndicative="true" DoNotReplicateAsPronounSet="true" />
+
+  <gender Name="nonspecific" PseudoPlural="true" Subjective="sie" Objective="sie" PossessiveAdjective="ihr" SubstantivePossessive="ihres" Reflexive="sich" />
+
+  <gender Name="neuterperson" Subjective="es" Objective="es" PossessiveAdjective="sein" SubstantivePossessive="seins" Reflexive="sich" />
+
+  <gender Name="male" Subjective="er" Objective="ihn" PossessiveAdjective="sein" SubstantivePossessive="seins" Reflexive="sich"
+    PersonTerm="Mann" ImmaturePersonTerm="Junge" FormalAddressTerm="Freund" OffspringTerm="Sohn" SiblingTerm="Bruder" ParentTerm="Vater" />
+
+  <gender Name="female" Subjective="sie" Objective="sie" PossessiveAdjective="ihr" SubstantivePossessive="ihres" Reflexive="sich"
+    PersonTerm="Frau" ImmaturePersonTerm="Mädchen" FormalAddressTerm="Freundin" OffspringTerm="Tochter" SiblingTerm="Schwester" ParentTerm="Mutter" />
+
+  <gender Name="plural" Plural="true" Subjective="sie" Objective="sie" PossessiveAdjective="ihr" SubstantivePossessive="ihres" Reflexive="sich"
+    PersonTerm="Leute" ImmaturePersonTerm="Kinder" FormalAddressTerm="Freunde" OffspringTerm="Kinder" SiblingTerm="Geschwister" ParentTerm="Vorfahren"
+    UseBareIndicative="true" DoNotReplicateAsPronounSet="true" />
+
+  <gender Name="collective" Plural="true" Subjective="sie" Objective="sie" PossessiveAdjective="ihr" SubstantivePossessive="ihres" Reflexive="sich"
+    PersonTerm="Menschen" ImmaturePersonTerm="Kinder" FormalAddressTerm="Freunde" OffspringTerm="Kinder" SiblingTerm="Geschwister" ParentTerm="Vorfahren" />
+
+  <gender Name="males" Plural="true" Subjective="sie" Objective="sie" PossessiveAdjective="ihr" SubstantivePossessive="ihres" Reflexive="sich"
+    PersonTerm="Männer" ImmaturePersonTerm="Jungen" FormalAddressTerm="Freunde" OffspringTerm="Söhne" SiblingTerm="Brüder" ParentTerm="Väter"
+    DoNotReplicateAsPronounSet="true" />
+
+  <gender Name="females" Plural="true" Subjective="sie" Objective="sie" PossessiveAdjective="ihr" SubstantivePossessive="ihres" Reflexive="sich"
+    PersonTerm="Frauen" ImmaturePersonTerm="Mädchen" FormalAddressTerm="Freundinnen" OffspringTerm="Töchter" SiblingTerm="Schwestern" ParentTerm="Mütter"
+    DoNotReplicateAsPronounSet="true" />
+
+  <gender Name="hindren male" Generic="false" Subjective="er" Objective="ihn" PossessiveAdjective="sein" SubstantivePossessive="seins" Reflexive="sich"
+    PersonTerm="Mann" ImmaturePersonTerm="Kitz" FormalAddressTerm="Bock" OffspringTerm="Sohn" SiblingTerm="Bruder" ParentTerm="Vater" />
+
+  <gender Name="hindren female" Generic="false" Subjective="sie" Objective="sie" PossessiveAdjective="ihr" SubstantivePossessive="ihres" Reflexive="sich"
+    PersonTerm="Frau" ImmaturePersonTerm="Kitz" FormalAddressTerm="meine Ricke" OffspringTerm="Tochter" SiblingTerm="Schwester" ParentTerm="Mutter" />
+
+  <gender Name="hartind" Generic="false" PseudoPlural="true" Subjective="sie" Objective="sie" PossessiveAdjective="ihr" SubstantivePossessive="ihres" Reflexive="sich"
+    PersonTerm="Hartind" ImmaturePersonTerm="Kitz" FormalAddressTerm="Hartind" OffspringTerm="Kind" SiblingTerm="Geschwister" ParentTerm="Elternteil" />
+
+  <gender Name="elverson" Generic="false" PseudoPlural="false" Subjective="ey" Objective="em" PossessiveAdjective="eir" SubstantivePossessive="eirs" Reflexive="emself"
+    PersonTerm="Person" ImmaturePersonTerm="Kind" FormalAddressTerm="Freund" OffspringTerm="Kind" SiblingTerm="Geschwister" ParentTerm="Elternteil" />
+
+</genders>

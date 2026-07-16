@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <objects Lang="de" Encoding="utf-8">
   <object Name="Wall" Load="Merge">
     <part Name="Render" DisplayName="[Wand]" />
     <part Name="Description" Short="[Wand]" />
+    <tag Name="HeroNameTitleDescriptor" Value="Rissige,Rissfreie,Einmal Gesprungene,Bemalte,Noch Stehende,Vernagelte,Stabile,Zweimal Gesprungene,Unbemalte,Unbeschlagene" />
+    <tag Name="HeroNameTitleClientele" Value="Erbauer,Feiglinge,Verteidiger,Dächer,die Angegriffenen,die Standhaften" />
+    <xtagTextFragments Skin="Textur" PoeticFeatures="aufragende Erscheinung,sanfte Stille,tröstliche Umschließung" />
   </object>
   <object Name="BaseSedimentaryRock" Load="Merge">
     <part Name="Render" DisplayName="[Felsenmauer]" />
@@ -20,50 +23,62 @@
   <object Name="Shale" Load="Merge">
     <part Name="Render" DisplayName="Schiefer" />
     <part Name="Description" Short="Ton und Quarz wurden getrocknet und in den roten Stein zerschlagen, der seit Tausenden nach Tausenden von Jahren von Hügelfolk abgebaut wurde." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Sandstone" Load="Merge">
     <part Name="Render" DisplayName="Sandstein" />
     <part Name="Description" Short="Stein wird zu Sand erodiert, Sand wird in Seen geweht, Seen werden im Schlamm begraben, und Schlamm zerdrückt Sand zu Stein. Die Erde wird neu angeordnet." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Limestone" Load="Merge">
     <part Name="Render" DisplayName="Kalkstein" />
     <part Name="Description" Short="Wirbelloses Leben wurde seiner Gewebe beraubt und blutete über Millionen von Jahren. Das graugrüne Gestein ist eine Nekropole." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Marl" Load="Merge">
     <part Name="Render" DisplayName="Mergel" />
     <part Name="Description" Short="Lakustrine Ökosysteme, gegossen in kalkreichem Schlamm, stellen ihre millionenjahralten Angelegenheiten in kreideweißem Glanz aus." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Halite" Load="Merge">
     <part Name="Render" DisplayName="Steinsalz" />
     <part Name="Description" Short="Karminwolken nehmen ihre Kristallgewohnheit an: innen und außen verschachtelte Würfel. Warum verbirgt Moghra'yi diese Form vor der Sonne?" />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Gypsum" Load="Merge">
     <part Name="Render" DisplayName="Gips" />
     <part Name="Description" Short="Gebranntes Kristallgold wirft seine geometrischen Schatten auf die Böden von einer Million wässriger Grotten." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Black Shale" Load="Merge">
     <part Name="Render" DisplayName="schwarzer Schiefer" />
     <part Name="Description" Short="Schwarzer Stein steht als Denkmal für die Schneckenstädte, die unter Ton starben und zu Pyrit verrotteten." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Coral Rag" Load="Merge">
     <part Name="Render" DisplayName="Korallengestein" />
     <part Name="Description" Short="Riffe waren die Ökologien der jungen Ozeane. Nun sind sie türkise Krypten, ihre Oberflächen von Säurewasser in raue Wunden gebissen." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Oolite" Load="Merge">
     <part Name="Render" DisplayName="Oolith" />
     <part Name="Description" Short="Steinige Eier werden in perlmuttrigen ebenen Blättern ausgebrütet. Keine Larven schlüpfen je; sie werden zu Staub abgerieben." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Serpentinite" Load="Merge">
     <part Name="Render" DisplayName="Serpentin" />
     <part Name="Description" Short="Unbenannt für die Wesen der Oberflächenwelt sind die Geburtsakrien der Untererde, wo ultramafischer Stein in Fruchtwasser befeuchtet und als Weltserpent geboren wird." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Slate" Load="Merge">
     <part Name="Render" DisplayName="Dachschiefer" />
     <part Name="Description" Short="Vulkanischer Staub verpuppte sich in seinem Kokon tief in der Erde und brach frei als grauer Stein. Sophisten theoretisieren, dass es die Farbe des reinen Äthers ist." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Quartzite" Load="Merge">
     <part Name="Render" DisplayName="Quarzit" />
     <part Name="Description" Short="Gesprenkelte Kristallmosaiken aus rot und zyan sind die metamorphen Überreste zerbröckelnder Weltplatten. Die neue Erde ringt um ihre Geburt." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Marble" Load="Merge">
     <part Name="Render" DisplayName="Marmormauer" />
@@ -76,22 +91,27 @@
   <object Name="Black Marble" Load="Merge">
     <part Name="Render" DisplayName="schwarzer Marmor" />
     <part Name="Description" Short="Weltvoids in den untersten Reichweiten des Planeten werden durch numinöse Mauerwerk aufgeteilt. Es gibt eine Bedeutung in den Mustern seiner schwachen weißen Filigran, aber sie wird von niemandem erkannt." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Polished Black Marble" Load="Merge">
     <part Name="Render" DisplayName="polierter schwarzer Marmor" />
     <part Name="Description" Short="Weltvoids in den untersten Reichweiten des Planeten werden durch numinöse Mauerwerk aufgeteilt. Es gibt eine Bedeutung in den Mustern seiner schwachen weißen Filigran, aber sie wird von niemandem erkannt." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Granite" Load="Merge">
     <part Name="Render" DisplayName="Granit" />
     <part Name="Description" Short="Feldspat und seine verwandten Gesteine sind zusammengesetzt und mit statischem Körnermuster übersät. Risse deuten die Kieselsteine der Zukunft an." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Mudroot" Load="Merge">
     <part Name="Render" DisplayName="verflochtene Schlamwurzel" />
     <part Name="Description" Short="Geflechte aus faserigen Pflanzenadern verflechten verdichteten Schlamm und weinen brackiges Blut." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Basalt" Load="Merge">
     <part Name="Render" DisplayName="Basalt" />
     <part Name="Description" Short="Die Narben des Lavaflusses sind als kleine Felssimse über dem breiten Stein lesbar. Die kleinen dunklen Löcher waren einst die Geburtskrater aufgelöster Gase." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="GodshroomWall" Load="Merge">
     <part Name="Render" DisplayName="Pilzfleisch" />
@@ -105,6 +125,7 @@
   <object Name="PlantWall" Load="Merge">
     <part Name="Render" DisplayName="Pflanzenmaterial" />
     <part Name="Description" Short="Zeit und Zufall - die zwei Hände der Natur - haben Wurzeln, Stämme und Blätter zu einem faserigen Damm gewebt." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="AgateWall" Load="Merge">
     <part Name="Render" DisplayName="Schieferwand mit {{K|Achat}} Lagerstätten" />
@@ -137,6 +158,7 @@
   <object Name="Fulcrete" Load="Merge">
     <part Name="Render" DisplayName="Fulkret" />
     <part Name="Description" Short="Inseln aus Kohlenstoffkies bevölkern ein Bitumenmeer und erheben sich von der horizontalen Ebene in die Leere der Luftrasp. Zeit und Druck haben Haarlinien-Gräben entlang des Beckens hinterlassen." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="EbonFulcrete" Load="Merge">
     <part Name="Render" DisplayName="schwarzes Fulkret" />
@@ -157,10 +179,12 @@
   <object Name="Foamcrete" Load="Merge">
     <part Name="Render" DisplayName="Schaumbeton" />
     <part Name="Description" Short="Die Risse in der Wand sind Fossilien des hexagonalen Expansionsmusters des verdichteten Schaumbetons." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Verdigris" Load="Merge">
     <part Name="Render" DisplayName="angelaufenes Chrom" />
     <part Name="Description" Short="Das giftige Wassermoos hellt die Metallform auf und zieht messingtrunkene Insekten an." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Concrete" Load="Merge">
     <part Name="Render" DisplayName="Betonmauer" />
@@ -181,6 +205,7 @@
   <object Name="BurntWood" Load="Merge">
     <part Name="Render" DisplayName="verkohltes Holz" />
     <part Name="Description" Short="Baumrinde wurde durch Himmelsfeuerangriff pechschwarz verbrannt und glänzt nun im Nachglanz." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="CanvasWall" Load="Merge">
     <part Name="Render" DisplayName="Leinwand" />
@@ -193,6 +218,7 @@
   <object Name="WornWoodWall" Load="Merge">
     <part Name="Render" DisplayName="verwittertes Holz" />
     <part Name="Description" Short="Hier sind mehrere abgestreifte Stämme von fahlem Salzstengel mit Schlamm verklebt." />
+    <xtagGrammar iArticle="etwas" />
   </object>
   <object Name="WornWoodWall with Mask" Load="Merge">
     <part Name="Render" DisplayName="verwittertes Holz mit hängender Maske" />
@@ -201,6 +227,7 @@
   <object Name="BrickWall" Load="Merge">
     <part Name="Render" DisplayName="Ziegelstein" />
     <part Name="Description" Short="Gebrannte Tonbarren werden diagonal verlegt und eine Barriere ist gemacht. Jeder Stein ist beeinträchtigt durch die bunten Schnitte der Zeit, Unvollkommenheiten in der Wärmebilanz des Ofens, in dem er gebrannt wurde, und Pilze in seinem Geburtsschlamm." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="CyberWall" Load="Merge">
     <part Name="Render" DisplayName="Tetraxenoglasmauer" />
@@ -233,6 +260,7 @@
   <object Name="Burnished Azzurum" Load="Merge">
     <part Name="Render" DisplayName="poliertes Azzurum" />
     <part Name="Description" Short="Zyan bricht durch einen gläsernen Rumpf und sieht aus, als wäre der Himmel in ein Dickicht hexagonaler Prismen kristallisiert. Die Esser gruben es aus seinem magmatischen Geburtsort aus und arrangierten es zu Hügeln, um die Spindel zu verehren." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Petal-Strewn WoodWall" Load="Merge">
     <part Name="Render" DisplayName="blütenbestreute Salzstengel-Mauer" />
@@ -261,6 +289,7 @@
   <object Name="HolographicShaleWall" Load="Merge">
     <part Name="Render" DisplayName="holografischer Schiefer" />
     <part Name="Description" Short="Glitzerndes Licht wird in Parallaxe zur Illusion einer Schiefermauer gemeißelt: Ton und Quarz wurden getrocknet und in den roten Stein geschlagen, der von Hügelfolk seit tausenden nach tausenden Jahren abgebaut wird." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="HoloMarble" Load="Merge">
     <part Name="Render" DisplayName="Marmormauer" />
@@ -290,38 +319,47 @@
   <object Name="WalltrapFire" Load="Merge">
     <part Name="Render" DisplayName="Dampfende Lüftungsöffnungen" />
     <part Name="Description" Short="Schwaden Dampf rollen aus vertikalen Lüftungsschlitzen, die in Säulen aus angelaufenem Chrom geschnitten sind." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapAcid" Load="Merge">
     <part Name="Render" DisplayName="Rauchende Lüftungsöffnungen" />
     <part Name="Description" Short="Schwaden schädlicher Dämpfe rollen aus vertikalen Lüftungsschlitzen, die in Säulen aus angelaufenem Chrom geschnitten sind." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapShock" Load="Merge">
     <part Name="Render" DisplayName="Funkelnde Lüftungsöffnungen" />
     <part Name="Description" Short="Funken fliegen aus vertikalen Lüftungsschlitzen, die in Säulen aus angelaufenem Chrome geschnitten sind." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapCrabs" Load="Merge">
     <part Name="Render" DisplayName="zerkratzte Lüftungsöffnungen" />
     <part Name="Description" Short="Winzige Kratzer kennzeichnen seitliche Lüftungsöffnungen, die in Reihen aus angelaufenem Chrom geschnitten sind." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapClockworkBeetles" Load="Merge">
     <part Name="Render" DisplayName="Tickende Lüftungsöffnungen" />
     <part Name="Description" Short="Winzige Kratzer kennzeichnen seitliche Lüftungsöffnungen, die in Reihen aus angelaufenem Chrom geschnitten sind." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="WalltrapNormalityGas" Load="Merge">
     <part Name="Render" DisplayName="Lüftungsöffnungen mit sechseckigen Rückständen" />
     <part Name="Description" Short="Normalitätskondensate tessellieren die vertikalen Lüftungen, die in Säulen aus matt gewordener Chromlegierung geschnitten sind." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="WalltrapDefoliant" Load="Merge">
     <part Name="Render" DisplayName="Lüftungsöffnungen mit Moospartikeln" />
     <part Name="Description" Short="Lange tot und zu Partikeln geblasen von Wogen der Goldenen Morgenröte, totes Moos klebt an den Lüftungsschlitzen des angelaufenen Chroms." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="WalltrapFungicide" Load="Merge">
     <part Name="Render" DisplayName="Lüftungsöffnungen mit Schimmelpartikeln" />
     <part Name="Description" Short="Längst tot und zu Partikeln erodiert durch magentafarbene Schauer, totes Schimmeltzeug klebt an den Lüftungsöffnungen von angeschlagenem Chrom." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="WalltrapFireCrematory" Load="Merge">
     <part Name="Render" DisplayName="Dampfende Lüftungsöffnungen" />
     <part Name="Description" Short="Schwaden Dampf rollen aus vertikalen Lüftungsschlitzen, die in Säulen aus rußverschmutztem Chrom geschnitten sind." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="CryochamberWall" Load="Merge">
     <part Name="Render" DisplayName="Bereifter Pfeiler" />
@@ -412,10 +450,12 @@
   <object Name="FulcreteWithSquareWave" Load="Merge">
     <part Name="Render" DisplayName="Fulkret mit Rechteckwelle" />
     <part Name="Description" Short="Mit integralen Pigmenten gefärbtes Fulcrete erstrahlt in geflecktem Farbton. Es wurde mit regelmäßiger Geometrie eingraviert, die das Auge über die horizontale Ebene lenkt." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="CatacombWall" Load="Merge">
     <part Name="Render" DisplayName="verdichtete Knochen" />
     <part Name="Description" Short="Knochenformen der menschlichen Gestalt werden ungeordnet, um richtig zu tessellieren. Runde Schädel erfordern Ellenbogenknotenpunkte, um die Lücken in ihren Sequenzen zu füllen. Die Grenzen dieser Welt sind reißweiß und voller Präsenz." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="ColumbariumWall" Load="Merge">
     <part Name="Render" DisplayName="kunstvoll geschnitzter Marmor" />
@@ -428,6 +468,7 @@
   <object Name="BaseSultanWall" Load="Merge">
     <part Name="Render" DisplayName="[zeremonielle Sultanatsmauer]" />
     <part Name="Description" Short="sultan_wand" />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="BaseInnerSultanWall" Load="Merge">
     <part Name="Description" Short="sultan_wand" />
@@ -487,6 +528,7 @@
   <object Name="BaseMuralWall" Load="Merge">
     <part Name="Render" DisplayName="[Wandmalerei]" />
     <part Name="Description" Short="sultan_wand" />
+    <tag Name="HeroNameTitleDescriptor" Value="Robust,Vernietet,Unvernietet,Rissfrei,Rissig,Einmal-Gerissen,Zweimal-Gerissen,Noch-Stehend,Bemalt,Unbemalt" />
   </object>
   <object Name="BaseMuralLeftend" Load="Merge">
     <part Name="Render" DisplayName="Wand-Endkappe" />
@@ -546,6 +588,7 @@
   <object Name="GolemInteriorWall" Load="Merge">
     <part Name="Render" DisplayName="Elektrisch gebrannter Ton, Metallplattierung und Gewebe" />
     <part Name="Description" Short="Eine feuchte Gewebeverkleidung erstreckt sich über elektrogefeuerte Keramik und gelötete Metallplatten. Unter einer durchscheinenden Folie blinken Gitter von Unterschaltkreisen ihr goldenes Licht." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="GolemInteriorWall Endcap" Load="Merge">
     <part Name="Render" DisplayName="Innenraum" />
@@ -588,6 +631,7 @@
   <object Name="Rubble" Load="Merge">
     <part Name="Render" DisplayName="Trümmer" />
     <part Name="Description" Short="Unregelmäßige Steinmassen sind zusammengehäuft. Über ihre Oberfläche hinweg stechen Ordnungspunkte sporadisch durch den Entropie-Haufen: ein Statuenfinger, der Gnomon einer Sonnenuhr, ein Paket Schaltkreisbrett." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="Rubble Grey" Load="Merge">
     <part Name="Render" DisplayName="Trümmer" />
@@ -607,6 +651,7 @@
   <object Name="ChavvahTrunk" Load="Merge">
     <part Name="Render" DisplayName="kristalliner Stamm" />
     <part Name="Description" Short="Quarzzeug in der radialen Gewohnheit bildet Krusten über einer Schicht Weichstein, und darunter eine Schicht toter Kristalle, die in statischem Harz tropft und mit psychischen Versprechen singt." />
+    <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="Chavvah Taproot" Load="Merge">
     <part Name="Render" DisplayName="kristalline Pfahlwurzel" />
@@ -615,29 +660,48 @@
   <object Name="CryochamberPlaque" Load="Merge">
     <part Name="Render" DisplayName="Chromtafel" />
     <part Name="Description" Short="Die glänzende Oberfläche des Schnellchroms schwimmt in wechselnden Brechungsmustern. Wenn sein Licht konzentriert wird, beginnen Glyphen zu erscheinen." />
+    <part Name="Chat" Says="KAMMER UNBESETZT: WARTET AUF PROBE" />
   </object>
   <object Name="GritGate Mainframe Tape Drive" Load="Merge">
     <part Name="Render" DisplayName="Vakuumsäulen-Bandlaufwerk" />
     <part Name="Description" Short="Magnetband wird auf eine Rolle aufgespult und zu einem Schreib-/Lesekopf geführt, der Daten aus der dritten Dimension stanzt und sie dann wieder belebt." />
+    <part Name="ChargeSink" NameForStatus="Speichersystem" />
   </object>
   <object Name="GritGate Mainframe Status Panel" Load="Merge">
     <part Name="Render" DisplayName="Großrechner-Statusfeld" />
     <part Name="Description" Short="Über ein Feld aus Messing und Chrom blinken Dioden in Wirbeln." />
+    <part Name="ChargeSink" NameForStatus="Anzeige" />
   </object>
   <object Name="GritGate Mainframe Monitor 1" Load="Merge">
     <part Name="Render" DisplayName="Großrechner-Monitor" />
     <part Name="Description" Short="Scanlines malen die Mondsichel in Kathodenbernstein." />
+    <part Name="ChargeSink" NameForStatus="Anzeige" />
   </object>
   <object Name="GritGate Mainframe Monitor 2" Load="Merge">
     <part Name="Render" DisplayName="Großrechner-Steuerpult" />
     <part Name="Description" Short="Federschaum-Tasten drücken gegen Finger im Verlauf einer flirtenden Koppelung zwischen Maschine und Volk." />
+    <part Name="ChargeSink" NameForStatus="Anzeige" />
   </object>
   <object Name="Crematory Mainframe Monitor 1" Load="Merge">
     <part Name="Render" DisplayName="Großrechner-Monitor" />
     <part Name="Description" Short="Scanlines malen die Mondsichel in Kathodenbernstein." />
+    <part Name="ChargeSink" NameForStatus="Anzeige" />
   </object>
   <object Name="Crematory Mainframe Status Panel" Load="Merge">
     <part Name="Render" DisplayName="Großrechner-Statusfeld" />
     <part Name="Description" Short="Über ein Feld aus Messing und Chrom blinken Dioden in Wirbeln." />
+    <part Name="ChargeSink" NameForStatus="Anzeige" />
+  </object>
+  <object Name="CryochamberPlaqueSpider" Load="Merge">
+    <part Name="Chat" Says="PROBE: PHASENSPINNE" />
+  </object>
+  <object Name="CryochamberPlaqueRhinox" Load="Merge">
+    <part Name="Chat" Says="PROBE: RHINOX" />
+  </object>
+  <object Name="CryochamberPlaqueSkybear" Load="Merge">
+    <part Name="Chat" Says="PROBE: SAAD AMUS, DER HIMMELSBÄR, CHAMPION VON SALUM" />
+  </object>
+  <object Name="CryochamberPlaqueYempris" Load="Merge">
+    <part Name="Chat" Says="PROBE: YEMPURIS PHI" />
   </object>
 </objects>

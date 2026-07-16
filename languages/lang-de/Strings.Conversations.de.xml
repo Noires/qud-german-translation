@@ -4571,4 +4571,7 @@
   <string Context="Conversation GyreWightQon.Start.Text.Text8" ID="The Grounded Mind cannot soar. The Mind Aloft is limitless." Value="Der geerdete Verstand kann nicht fliegen. Der erhobene Verstand ist grenzenlos." />
   <string Context="Conversation GyreWightQon.Start.Text.Text9" ID="Be open. Receive the Greatest Dreams. Hear the Girsh Sing." Value="Seid offen. Empfangt die Größten Träume. Hört die Girsch singen." />
   <string Context="Conversation GyreWightQon.Start.Text.Text10" ID="You can be it. We can all be it! Behold Nephilim!" Value="Ihr könnt es sein. Wir können alle es sein! Schaut, Nephilim!" />
+  <string ID="The magnetic field has been disabled and the Spindle is free to ascend. What now?">
+Das Magnetfeld wurde deaktiviert und die Spindel ist bereit aufzusteigen. Was nun?
+  </string>
 </strings>

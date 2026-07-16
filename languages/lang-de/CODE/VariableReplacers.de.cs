@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text.RegularExpressions;
+using XRL;
 using XRL.Language;
 using XRL.World;
 using XRL.World.Text;
@@ -8,7 +11,40 @@ using XRL.World.Text.Delegates;
 
 namespace LanguagesOfQudGerman
 {
+    // Diagnostic: prints a line to Player.log at mod init so we can confirm the German
+    // grammar code actually compiled and loaded (successful VariableReplacer registration
+    // is otherwise silent). Look for "[QudDE]" in Player.log. This beacon covers the
+    // TOKEN-string path (this file); the runtime message post-processor logs its own
+    // "[QudDE] COQDE runtime loaded ..." beacon (see languages/lang-de/COQDE/).
+    [HasModSensitiveStaticCache]
+    public static class GermanReplacerBootstrap
+    {
+        [ModSensitiveCacheInit]
+        public static void Init()
+        {
+            UnityEngine.Debug.Log("[QudDE] VariableReplacers (token strings) loaded (Lang=de, Override=true).");
+            VariableReplacers.LoadLexicon();
+        }
+    }
+
     // German grammar replacer (prototype).
+    //
+    // SCOPE / SPLIT (see docs/RUNTIME_POSTPROCESSOR_PLAN.md §5b): German runtime grammar is
+    // handled in two places that do NOT overlap — do not delete one thinking the other covers
+    // it:
+    //   * THIS file (game-compiled) rewrites the ~300 TOKEN strings ("=object.the.name=",
+    //     "=the=", "=a.name=" …) via Override=true. Only token-based strings reach it.
+    //   * COQDE.dll (languages/lang-de/COQDE/) rewrites the code-built MESSAGE LOG lines
+    //     ("The snapjaw dies." …) that never use those tokens and so never reach this file.
+    //
+    // Gender note: grammatical gender now has ONE shared data source — the lexicon
+    // languages/lang-de/COQDE/GenderLexicon.tsv, loaded by BOTH this token replacer
+    // (LoadLexicon below) and the COQDE DLL. The inline Overrides table + ending-heuristic
+    // remain as the fallback baseline if the file is missing. (The conjugation/logic is still
+    // duplicated because this is a separate, reflection-loaded assembly from the game-compiled
+    // CODE/; sharing the *logic* at runtime would couple this proven token path to the DLL's
+    // load order. Keep the two override tables in sync when adding nouns. (Reflection-based
+    // single-source consolidation is a tracked follow-up.)
     //
     // Overrides the definite/indefinite article tokens so that runtime-composed object
     // references ("the giant beetle", "a leather boot", "=subject.t=", "=object.t=") render
@@ -49,6 +85,45 @@ namespace LanguagesOfQudGerman
             {"auge", Gender.Neut}, {"arm", Gender.Masc}, {"bein", Gender.Neut}, {"kopf", Gender.Masc}, {"hand", Gender.Fem},
             {"flügel", Gender.Masc}, {"fluegel", Gender.Masc}, {"schwanz", Gender.Masc}, {"zunge", Gender.Fem}, {"zahn", Gender.Masc},
         };
+
+        // Merge the shared gender lexicon (languages/lang-de/COQDE/GenderLexicon.tsv) into the
+        // override table above. Same file the COQDE DLL loads, so both layers agree on gender
+        // from one data source. File entries win over the inline defaults; on any error we keep
+        // the inline table (no regression).
+        internal static void LoadLexicon()
+        {
+            try
+            {
+                foreach (var mod in ModManager.Mods)
+                {
+                    string p = Path.Combine(mod.Path, "languages", "lang-de", "COQDE", "GenderLexicon.tsv");
+                    if (!File.Exists(p)) continue;
+                    int n = 0;
+                    foreach (var raw in File.ReadAllLines(p))
+                    {
+                        string line = raw.Trim();
+                        if (line.Length == 0 || line[0] == '#') continue;
+                        var parts = raw.Split('\t');
+                        if (parts.Length < 2) continue;
+                        string noun = parts[0].Trim().ToLowerInvariant();
+                        if (noun.Length == 0) continue;
+                        switch (parts[1].Trim().ToLowerInvariant())
+                        {
+                            case "m": Overrides[noun] = Gender.Masc; n++; break;
+                            case "f": Overrides[noun] = Gender.Fem; n++; break;
+                            case "n": Overrides[noun] = Gender.Neut; n++; break;
+                            case "p": Overrides[noun] = Gender.Plural; n++; break;
+                        }
+                    }
+                    UnityEngine.Debug.Log("[QudDE] gender lexicon (token layer): " + n + " entries");
+                    return;
+                }
+            }
+            catch (Exception ex)
+            {
+                UnityEngine.Debug.LogWarning("[QudDE] gender lexicon load failed: " + ex.Message);
+            }
+        }
 
         private static string VisibleText(string value)
         {
@@ -105,6 +180,18 @@ namespace LanguagesOfQudGerman
             return ctx.Type == TargetType.Object ? Case.Acc : Case.Nom;
         }
 
+        // Proper names ("Warden Ualraig", "Oboroqoru") take NO article in German.
+        private static bool IsProper(GameObject obj)
+        {
+            return obj != null && obj.HasProperName;
+        }
+
+        // Engine knows singular/plural reliably; grammatical plural article is always "die".
+        private static bool IsPlural(GameObject obj)
+        {
+            return obj != null && obj.IsPlural;
+        }
+
         private static string Definite(Gender g, Case c)
         {
             switch (g)
@@ -138,42 +225,57 @@ namespace LanguagesOfQudGerman
             return obj.GetDisplayName(Short: true, BaseOnly: true);
         }
 
+        // Definite article for an object, respecting plural ("die") over the noun heuristic.
+        private static string DefiniteFor(GameObject obj, Case c)
+        {
+            if (IsPlural(obj)) return "die";
+            return Definite(GuessGender(GermanName(obj)), c);
+        }
+
         // ---- definite article, no name ("=the=") ----
-        [VariableReplacer(new string[] { "the" }, Default = "der ", Capitalization = true)]
+        [VariableReplacer(new string[] { "the" }, Default = "der ", Capitalization = true, Override = true)]
         public static string DefiniteArticle(VariableContext Context, GameObject Object)
         {
             if (Object.IsPlayer() && Grammar.AllowSecondPerson) return "";
-            var art = Definite(GuessGender(GermanName(Object)), CaseOf(Context));
+            // A proper name takes no article; the token stands alone, so emit nothing.
+            if (IsProper(Object)) return "";
+            var art = DefiniteFor(Object, CaseOf(Context));
             return Cap(art, Context.Capitalize) + " ";
         }
 
         // ---- definite article + name ("=the.name=", "=t=", "=subject.t=", "=object.t=") ----
-        [VariableReplacer(new string[] { "the.name", "t", "formattedName" }, Capitalization = true)]
+        [VariableReplacer(new string[] { "the.name", "t", "formattedName" }, Capitalization = true, Override = true)]
         public static string DefiniteName(VariableContext Context, GameObject Object)
         {
             string name = GermanName(Object);
             if (Object.IsPlayer() && Grammar.AllowSecondPerson)
-                return Context.Capitalize ? "Ihr" : "Ihr";
-            var art = Definite(GuessGender(name), CaseOf(Context));
+                return "Ihr";
+            // Proper names ("Warden Ualraig") take no article in German.
+            if (IsProper(Object)) return name;
+            var art = DefiniteFor(Object, CaseOf(Context));
             return Cap(art, Context.Capitalize) + " " + name;
         }
 
         // ---- indefinite article, no name ("=a=") ----
-        [VariableReplacer(new string[] { "a" }, Default = "ein ", Capitalization = true)]
+        [VariableReplacer(new string[] { "a" }, Default = "ein ", Capitalization = true, Override = true)]
         public static string IndefiniteArticle(VariableContext Context, GameObject Object)
         {
+            // No indefinite article before plurals or proper names.
+            if (IsPlural(Object) || IsProper(Object)) return "";
             var art = Indefinite(GuessGender(GermanName(Object)), CaseOf(Context));
             if (art.Length == 0) return "";
             return Cap(art, Context.Capitalize) + " ";
         }
 
         // ---- indefinite article + name ("=a.name=", "=an=") ----
-        [VariableReplacer(new string[] { "a.name", "an" }, Default = "ein Ding", Capitalization = true)]
+        [VariableReplacer(new string[] { "a.name", "an" }, Default = "ein Ding", Capitalization = true, Override = true)]
         public static string IndefiniteName(VariableContext Context, GameObject Object)
         {
             string name = GermanName(Object);
             if (Object.IsPlayer() && Grammar.AllowSecondPerson)
                 return "Ihr";
+            // Plurals and proper names get the bare name (no indefinite article).
+            if (IsPlural(Object) || IsProper(Object)) return name;
             var art = Indefinite(GuessGender(name), CaseOf(Context));
             if (art.Length == 0) return name;
             return Cap(art, Context.Capitalize) + " " + name;

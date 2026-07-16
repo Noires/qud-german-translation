@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <worlds Lang="de" Encoding="utf-8">
   <world Name="ThinWorld" Load="Merge" DisplayName="Dünne Welt" />
   <world Name="Tzimtzlum" Load="Merge" DisplayName="Tzimtzlum" />
@@ -398,4 +397,192 @@
       <zone Level="8" x="1" y="1" Load="Merge" Name="Sternenorchideentempel" />
     </cell>
   </world>
+  <zone Name="▶Control pit" NameContext="Golem" />
+  <zone Name="▶Control pit" NameContext="Tempelmecha mk I" />
+  <zone Name="▶Control pit" NameContext="Tempelmecha mk II" />
+  <zone Name="▶Atrium" NameContext="Mover" />
+  <zone Name="▶Exodus" ProperName="wahr" NameContext="Sternfahrerkai" />
+  <zone Name="▶vqvtl 3" ProperName="wahr" NameContext="Sternfahrerkai" />
+  <zone Name="▶open sky" IndefiniteArticle="die" />
+  <zone Name="▶sky above a salt river" IndefiniteArticle="die" />
+  <zone Name="▶sky above Lake Hinnom" IndefiniteArticle="die" />
+  <zone Name="▶sky above the Palladium Reef" IndefiniteArticle="die" />
+  <zone Name="▶Palladium Reef" IndefiniteArticle="die" />
+  <zone Name="▶sky above the Yd Freehold" IndefiniteArticle="die" />
+  <zone Name="▶outskirts" NameContext="das Yd Freehold" IndefiniteArticle="einige" />
+  <zone Name="▶Yd Freehold" ProperName="wahr" IndefiniteArticle="die" />
+  <zone Name="▶Yd Freehold" ProperName="wahr" />
+  <zone Name="▶sky above the Moon Stair" IndefiniteArticle="die" />
+  <zone Name="▶Moon Stair" IndefiniteArticle="die" />
+  <zone Name="▶sky above Eyn Roj" IndefiniteArticle="die" />
+  <zone Name="▶Eyn Roj" ProperName="wahr" />
+  <zone Name="▶crystalline roots" ProperName="Falsch" />
+  <zone Name="▶crystalline roots" ProperName="Falsch" />
+  <zone Name="▶crystalline roots" ProperName="Falsch" />
+  <zone Name="▶crystalline roots" ProperName="Falsch" />
+  <zone Name="▶sky above flower fields" IndefiniteArticle="die" />
+  <zone Name="▶sky above salt marsh" IndefiniteArticle="die" />
+  <zone Name="▶sky above salt marsh" IndefiniteArticle="die" />
+  <zone Name="▶sky above jungle" IndefiniteArticle="die" />
+  <zone Name="▶sky above the deep jungle" IndefiniteArticle="die" />
+  <zone Name="▶sky above the Rainbow Wood" IndefiniteArticle="die" />
+  <zone Name="▶Rainbow Wood" ProperName="wahr" IndefiniteArticle="die" />
+  <zone Name="▶sky above the Rainbow Wood" IndefiniteArticle="die" />
+  <zone Name="▶Rainbow Wood" ProperName="wahr" IndefiniteArticle="die" />
+  <zone Name="▶sky above desert canyon" IndefiniteArticle="die" />
+  <zone Name="▶sky above hills" IndefiniteArticle="die" />
+  <zone Name="▶sky above mountains" IndefiniteArticle="die" />
+  <zone Name="▶sky above salt desert" IndefiniteArticle="die" />
+  <zone Name="▶sky above the Stiltgrounds" IndefiniteArticle="die" />
+  <zone Name="▶Six Day Stilt" ProperName="wahr" />
+  <zone Name="▶sky above Kyakukya" IndefiniteArticle="die" />
+  <zone Name="▶outskirts" NameContext="Kyakukya" IndefiniteArticle="einige" />
+  <zone Name="▶Kyakukya" ProperName="wahr" />
+  <zone Name="▶sky above Joppa" IndefiniteArticle="die" />
+  <zone Name="▶outskirts" NameContext="Joppa" IndefiniteArticle="einige" />
+  <zone Name="▶Joppa" ProperName="wahr" />
+  <zone Name="▶sky above Joppa" IndefiniteArticle="die" />
+  <zone Name="▶outskirts" NameContext="Joppa" IndefiniteArticle="einige" />
+  <zone Name="▶Joppa" ProperName="wahr" />
+  <zone Name="▶sky above the Rust Wells" IndefiniteArticle="die" />
+  <zone Name="▶sky above Grit Gate" IndefiniteArticle="die" />
+  <zone Name="▶outskirts" NameContext="Grit Gate" IndefiniteArticle="einige" />
+  <zone Name="▶lower tunnels" NameContext="Grit Gate" />
+  <zone Name="▶lower tunnels" NameContext="Grit Gate" />
+  <zone Name="▶lower tunnels" NameContext="Grit Gate" />
+  <zone Name="▶entrance level" NameContext="Grit Gate" />
+  <zone Name="▶Grit Gate" ProperName="wahr" />
+  <zone Name="▶Grit Gate" ProperName="wahr" />
+  <zone Name="▶Barathrum's Study" ProperName="wahr" NameContext="Grit Gate" />
+  <zone Name="▶lower tunnels" NameContext="Grit Gate" />
+  <zone Name="▶sky above Golgotha" IndefiniteArticle="die" />
+  <zone Name="▶trash chutes" NameContext="Golgotha" />
+  <zone Name="▶Cloaca" ProperName="wahr" NameContext="Golgotha" />
+  <zone Name="▶sky above a rusted archway" IndefiniteArticle="die" />
+  <zone Name="▶sky above the Asphalt Mines" IndefiniteArticle="die" />
+  <zone Name="▶upper shafts" NameContext="die Asphalt-Minen" />
+  <zone Name="▶middle shafts" NameContext="die Asphalt-Minen" />
+  <zone Name="▶middle shafts" NameContext="die Asphalt-Minen" />
+  <zone Name="▶deep shafts" NameContext="die Asphalt-Minen" />
+  <zone Name="▶Darkunder" ProperName="wahr" NameContext="die Asphalt-Minen" />
+  <zone Name="▶City of Bones" ProperName="wahr" NameContext="die Asphalt-Minen" />
+  <zone Name="▶Great Sea" ProperName="wahr" NameContext="die Asphalt-Minen" />
+  <zone Name="▶Tunnels of Ur" ProperName="wahr" NameContext="die Asphalt-Minen" />
+  <zone Name="▶Swilling Vast" ProperName="wahr" NameContext="die Asphalt-Minen" />
+  <zone Name="▶Swilling Vast" ProperName="wahr" NameContext="die Asphalt-Minen" />
+  <zone Name="▶sky above Bethesda Susa" IndefiniteArticle="die" />
+  <zone Name="▶outskirts" NameContext="Bethesda Susa" IndefiniteArticle="einige" />
+  <zone Name="▶Bethesda Susa" ProperName="wahr" />
+  <zone Name="▶tunnels" NameContext="Bethesda Susa" />
+  <zone Name="▶river passage" NameContext="Bethesda Susa" />
+  <zone Name="▶ruined wharf" NameContext="Bethesda Susa" />
+  <zone Name="▶river passage" NameContext="Bethesda Susa" />
+  <zone Name="▶healing pools" NameContext="Bethesda Susa" />
+  <zone Name="▶healing pools" NameContext="Bethesda Susa" />
+  <zone Name="▶healing pools" NameContext="Bethesda Susa" />
+  <zone Name="▶abandoned ward" NameContext="Bethesda Susa" />
+  <zone Name="▶ruined ward" NameContext="Bethesda Susa" />
+  <zone Name="▶ruined ward" NameContext="Bethesda Susa" />
+  <zone Name="▶ruined ward" NameContext="Bethesda Susa" />
+  <zone Name="▶abandoned ward" NameContext="Bethesda Susa" />
+  <zone Name="▶abandoned ward" NameContext="Bethesda Susa" />
+  <zone Name="▶cybernetics ward" NameContext="wahr" />
+  <zone Name="▶Cryobarrio" ProperName="Bethesda Susa" NameContext="wahr" />
+  <zone Name="▶Cryobarrio" ProperName="Bethesda Susa" NameContext="wahr" />
+  <zone Name="▶Temple of the Rock" ProperName="Bethesda Susa" NameContext="die" />
+  <zone Name="▶sky above a banana grove" IndefiniteArticle="die" />
+  <zone Name="▶sky around the Spindle" IndefiniteArticle="das Grab der Esser" />
+  <zone Name="▶Folk Catacombs" NameContext="das Grab der Esser" />
+  <zone Name="▶structural rib" NameContext="das Grab der Esser" />
+  <zone Name="▶Grand Vestibule" NameContext="das Grab der Esser" />
+  <zone Name="▶Grand Vestibule" NameContext="das Grab der Esser" />
+  <zone Name="▶Grand Vestibule" NameContext="das Grab der Esser" />
+  <zone Name="▶Grand Vestibule" NameContext="das Grab der Esser" />
+  <zone Name="▶access corridor" NameContext="das Grab der Esser" />
+  <zone Name="▶access corridor" NameContext="das Grab der Esser" />
+  <zone Name="▶Columbarium: Landlords and Changers" NameContext="das Grab der Esser" />
+  <zone Name="▶Crematory" NameContext="das Grab der Esser" />
+  <zone Name="▶Crematory" NameContext="das Grab der Esser" />
+  <zone Name="▶Crematory Machine Room" NameContext="das Grab der Esser" />
+  <zone Name="▶Lower Crypts: Warriors and Tutors" NameContext="das Grab der Esser" />
+  <zone Name="▶Spindle Channel" IndefiniteArticle="der" />
+  <zone Name="▶Upper Crypts: Priests and Royal Families" NameContext="das Grab der Esser" />
+  <zone Name="▶Spindle Channel" IndefiniteArticle="der" />
+  <zone Name="▶structural rib" NameContext="das Grab der Esser" />
+  <zone Name="▶Liminal Way" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:1=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:1=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:1=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:1=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:1=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:1=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:1=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:2=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:2=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:2=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:2=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:2=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:2=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:2=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:3=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:3=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:3=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:3=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:3=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:3=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:3=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:4=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:4=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:4=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:4=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:4=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:4=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:4=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:5=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:5=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:5=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:5=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:5=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:5=" NameContext="das Grab der Esser" />
+  <zone Name="▶Tomb of =sultan:5=" NameContext="das Grab der Esser" />
+  <zone Name="▶unfinished tomb" NameContext="das Grab der Esser" />
+  <zone Name="▶unfinished tomb" NameContext="das Grab der Esser" />
+  <zone Name="▶unfinished tomb" NameContext="das Grab der Esser" />
+  <zone Name="▶unfinished tomb" NameContext="das Grab der Esser" />
+  <zone Name="▶unfinished tomb" NameContext="das Grab der Esser" />
+  <zone Name="▶unfinished tomb" NameContext="das Grab der Esser" />
+  <zone Name="▶unfinished tomb" NameContext="das Grab der Esser" />
+  <zone Name="▶Spindle Channel" IndefiniteArticle="die" />
+  <zone Name="▶Tether Bay" IndefiniteArticle="die" />
+  <zone Name="▶sky around the Spindle" IndefiniteArticle="die" />
+  <zone Name="▶sky above Omonporch" IndefiniteArticle="die" />
+  <zone Name="▶sky above Omonporch" IndefiniteArticle="die" />
+  <zone Name="▶Arcade to the Twin Gates" NameContext="Omonporch" />
+  <zone Name="▶Court of the Sultans" NameContext="Omonporch" />
+  <zone Name="▶Ezra" ProperName="wahr" />
+  <zone Name="▶sky above Red Rock" IndefiniteArticle="die" />
+  <zone Name="▶outskirts" NameContext="Roter Stein" IndefiniteArticle="einige" />
+  <zone Name="▶Red Rock" ProperName="wahr" />
+  <zone Name="▶sky above some ruins" IndefiniteArticle="die" />
+  <zone Name="▶sky above some baroque ruins" IndefiniteArticle="die" />
+  <zone Name="▶sky above salt marsh" IndefiniteArticle="die" />
+  <zone Name="▶Arrivarium" NameContext="die Nördliche Sheva" />
+  <zone Name="▶Earth Gate" NameContext="die Nördliche Sheva" IndefiniteArticle="die" />
+  <zone Name="▶Black Wall" NameContext="die Nördliche Sheva" IndefiniteArticle="die" />
+  <zone Name="▶Black Wall" NameContext="die Nördliche Sheva" IndefiniteArticle="die" />
+  <zone Name="▶Shallow Stair" NameContext="die Nördliche Sheva" />
+  <zone Name="▶Shallow Stair" NameContext="die Nördliche Sheva" />
+  <zone Name="▶Bridge of Eidolons" NameContext="die Nördliche Sheva" />
+  <zone Name="▶Point of Tifaret" NameContext="die Nördliche Sheva" />
+  <zone Name="▶Northern Ark" NameContext="die Nördliche Sheva" IndefiniteArticle="die" />
+  <zone Name="▶Northern Ark" NameContext="die Nördliche Sheva" IndefiniteArticle="die" />
+  <zone Name="▶Shielding Arch" NameContext="die Nördliche Arche" />
+  <zone Name="▶Shielding Arch" NameContext="die Nördliche Arche" />
+  <zone Name="▶Shielding Arch" NameContext="die Nördliche Arche" />
+  <zone Name="▶The Great Siach" NameContext="die Nördliche Arche" />
+  <zone Name="▶wood-carved space" NameContext="die Nördliche Arche" IndefiniteArticle="ein" />
+  <zone Name="▶Starfarer's Quay" NameContext="die Nördliche Sheva" />
+  <zone Name="▶Northwise moors" NameContext="Sternfahrerkai" />
+  <zone Name="▶Northwise moors" NameContext="Sternfahrerkai" />
+  <zone Name="▶Northwise moors" NameContext="Sternfahrerkai" />
 </worlds>

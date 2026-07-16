@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <objects Lang="de" Encoding="utf-8">
   <object Name="BaseUnknown" Load="Merge">
     <part Name="Render" DisplayName="seltsames Artefakt" />
@@ -454,5 +453,15 @@
   <object Name="Data_Asterisk_Chavvah" Load="Merge">
     <tag Name="DisplayName" Value="Chavvah" />
     <tag Name="Postfix" Value="Es ist eingraviert mit kristallinen Wurzeln, die sich um jede Speiche winden." />
+  </object>
+  <object Name="Test_Bow With A Name" Load="Merge">
+    <part Name="Render" DisplayName="{{amorous|Bogen mit einem Namen}}" />
+    <xtagGrammar Proper="wahr" />
+    <tag Name="IndefiniteArticle" Value="der" />
+    <tag Name="DefiniteArticle" Value="der" />
+  </object>
+  <object Name="Test_Named Canteen" Load="Merge">
+    <part Name="Render" DisplayName="{{G|Wilson}}" />
+    <xtagGrammar Proper="wahr" />
   </object>
 </objects>

@@ -520,7 +520,7 @@
   <string Context="PopupMessage UI Single Button Text (gamepad)" ID="{{W|press =commandKey:Accept=}}" Value="{{W|drücken =commandKey:Accept=}}" />
   <string Context="PopupMessage UI Single Button Text (kbm)" ID="{{W|[=commandKey:Accept=]}} {{y|Continue}}" Value="{{W|[=commandKey:Accept=]}} {{y|Fortfahren}}" />
   <string Context="PopupMessage UI Yes Button Text (gamepad)" ID="{{W|[=commandKey:Accept=]}} {{y|Yes}}" Value="{{W|[=commandKey:Accept=]}} {{y|Ja}}" />
-  <string Context="PopupMessage UI Yes Button Text (kbm)" ID="{{W|[y]}} {{y|Yes}}" Value="{{W|[y]}}Z {{y|Yes}}Z" />
+  <string Context="PopupMessage UI Yes Button Text (kbm)" ID="{{W|[y]}} {{y|Yes}}" Value="{{W|[y]}} {{y|Ja}}" />
   <string Context="PopupMessage UI No Button Text (gamepad)" ID="{{W|[=commandKey:V Negative=]}} {{y|No}}" Value="{{W|[=commandKey:V Negative=]}} {{y|Nein}}" />
   <string Context="PopupMessage UI No Button Text (kbm)" ID="{{W|[n]}} {{y|No}}" Value="{{W|[n]}} {{y|Nein}}" />
   <string Context="PopupMessage UI Accept Button Text" ID="[{{W|=commandKey:Accept=}}] Accept" Value="[{{W|=commandKey:Accept=}}] Akzeptieren" />
@@ -1086,7 +1086,7 @@
   <string Context="Naming Expand Property Spice" ID="=spice#query|title=" Value="=spice#query|title=" />
   <string Context="NameStyle Naming.xml Format" ID="=name|nameStyle#format=" Value="=name|nameStyle#format=" />
   <string Context="Naming.xml Loading Status Bar" ID="Loading Naming.xml" Value="Naming.xml wird geladen" />
-  <string Context="OngoingAction/autoActDescription (verb gerund)" ID="acting" Value="Handeln" />
+  <string Context="OngoingAction/autoActDescription (verb gerund)" ID="acting" Value="zu handeln" />
   <string Context="direction.expanded (N)" ID="north" Value="Norden" />
   <string Context="direction.expanded (S)" ID="south" Value="Süden" />
   <string Context="direction.expanded (E)" ID="east" Value="Osten" />
@@ -1115,7 +1115,7 @@
   <string Context="direction.description (U)" ID="above" Value="oben" />
   <string Context="direction.description (.)" ID="here" Value="hier" />
   <string Context="direction.description (?)" ID="somewhere" Value="irgendwo" />
-  <string Context="direction.description (compass)" ID="to the =dir.direction.expanded=" Value="zum =dir.direction.expanded=" />
+  <string Context="direction.description (compass)" ID="to the =dir.direction.expanded=" Value="im =dir.direction.expanded=" />
   <string Context="direction.description.player" ID="=dir.to.the.direction=" Value="=dir.to.the.direction=" />
   <string Context="direction.description.actor (D)" ID="below =subject.them=" Value="unter =subject.them=" />
   <string Context="direction.description.actor (U)" ID="above =subject.them=" Value="über =subject.them=" />
@@ -1853,14 +1853,14 @@
   <string Context="Calendar TimeOfDay" ID="Jeweled Dusk" Value="Juwelen-Dämmerung" />
   <string Context="Calendar TimeOfDay" ID="Waxing Beetle Moon" Value="Zunehmender Käfermond" />
   <string Context="Calendar TimeOfDay default" ID="Zero Hour" Value="Stunde Null" />
-  <string Context="autoActDescription (verb gerund)" ID="exploring" Value="Erkunden" />
-  <string Context="autoActDescription (verb gerund)" ID="waiting" Value="Warten" />
-  <string Context="autoActDescription (verb gerund)" ID="digging" Value="Graben" />
-  <string Context="autoActDescription (verb gerund)" ID="gathering" Value="Sammeln" />
-  <string Context="autoActDescription (verb gerund)" ID="resting" Value="Ausruhen" />
-  <string Context="autoActDescription (verb gerund)" ID="attacking" Value="Angreifen" />
-  <string Context="autoActDescription (verb gerund)" ID="moving" Value="Bewegen" />
-  <string Context="AutoAct Interrupt Message" ID="You stop =autoActDescription= because =because=." Value="Ihr stoppt =autoActDescription=, weil =because=." />
+  <string Context="autoActDescription (verb gerund)" ID="exploring" Value="zu erkunden" />
+  <string Context="autoActDescription (verb gerund)" ID="waiting" Value="zu warten" />
+  <string Context="autoActDescription (verb gerund)" ID="digging" Value="zu graben" />
+  <string Context="autoActDescription (verb gerund)" ID="gathering" Value="zu sammeln" />
+  <string Context="autoActDescription (verb gerund)" ID="resting" Value="euch auszuruhen" />
+  <string Context="autoActDescription (verb gerund)" ID="attacking" Value="anzugreifen" />
+  <string Context="autoActDescription (verb gerund)" ID="moving" Value="euch zu bewegen" />
+  <string Context="AutoAct Interrupt Message" ID="You stop =autoActDescription= because =because=." Value="Ihr hört auf, =autoActDescription=, weil =because=." />
   <string Context="AutoAct Interrupt 'because' (clause)" ID="your spacetime context is incoherent" Value="euer Raumzeit-Kontext ist inkohärent" />
   <string Context="AutoAct Interrupt 'because' (clause)" ID="you can go no further" Value="ihr könnt nicht weiter gehen" />
   <string Context="AutoAct Interrupt 'because' (clause)" ID="something is wrong with the spacetime connectivity of your environment" Value="etwas stimmt mit der Raumzeit-Konnektivität eurer Umgebung nicht" />
@@ -2434,10 +2434,10 @@
   <string Context="GameObject ConfirmUseImportant DefaultVerb" ID="use" Value="Verwenden" />
   <string Context="RandomlySpendPoints spentPointsReport fragment" ID="=subject.Possessive= base rank in =mutation.name= increases to =mutation.baseLevel|rules=" Value="Die Basisstufe von =subject.Possessive= in =mutation.name= erhöht sich auf =mutation.baseLevel|rules=." />
   <string Context="spotmessage.defaultVerb" ID="see" Value="Sehen" />
-  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles==subject.generalDirection:noHere#object|spaceBefore=, so you refrain from =autoActDescription=." Value="=subject.Does#verb= =object.an:withTitles==subject.generalDirection:noHere#object|spaceBefore=, also enthältst du dich von =autoActDescription=." />
-  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles==subject.generalDirection:noHere#object|spaceBefore= and stop =autoActDescription=." Value="=subject.Does#verb= =object.an:withTitles==subject.generalDirection:noHere#object|spaceBefore= und hörst auf =autoActDescription=." />
-  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles:notvisible==subject.generalDirection:noHere#object|spaceBefore=, so you refrain from =autoActDescription=." Value="=subject.Does#verb= =object.an:withTitles:notvisible==subject.generalDirection:noHere#object|spaceBefore=, also enthältst du dich von =autoActDescription=." />
-  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles:notvisible==subject.generalDirection:noHere#object|spaceBefore= and stop =autoActDescription=." Value="=subject.Does#verb= =object.an:withTitles:notvisible==subject.generalDirection:noHere#object|spaceBefore= und hörst auf =autoActDescription=." />
+  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles==subject.generalDirection:noHere#object|spaceBefore=, so you refrain from =autoActDescription=." Value="=subject.Does#verb= =object.an:withTitles==subject.generalDirection:noHere#object|spaceBefore=, also hört ihr auf, =autoActDescription=." />
+  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles==subject.generalDirection:noHere#object|spaceBefore= and stop =autoActDescription=." Value="=subject.Does#verb= =object.an:withTitles==subject.generalDirection:noHere#object|spaceBefore= und hört auf, =autoActDescription=." />
+  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles:notvisible==subject.generalDirection:noHere#object|spaceBefore=, so you refrain from =autoActDescription=." Value="=subject.Does#verb= =object.an:withTitles:notvisible==subject.generalDirection:noHere#object|spaceBefore=, also hört ihr auf, =autoActDescription=." />
+  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles:notvisible==subject.generalDirection:noHere#object|spaceBefore= and stop =autoActDescription=." Value="=subject.Does#verb= =object.an:withTitles:notvisible==subject.generalDirection:noHere#object|spaceBefore= und hört auf, =autoActDescription=." />
   <string Context="GameObject adjunct noun default" ID="set" Value="Setzen" />
   <string Context="Tutorial Death" ID="Oh, you died. That's okay. It's a very common occurance in the world of Qud.&#10;&#10;Because the tutorial drops you off in Classic mode with permadeath, your character is wiped when you die.&#10;&#10;The good news is: you get to make a whole new character! Now with a little more knowledge than you had before." Value="Oh, du bist gestorben. Das ist okay. Es ist ein sehr häufiges Vorkommen in der Welt von Qud.&#10;&#10;Weil das Tutorial dich im Classic-Modus mit permanentem Tod auslöst, wird dein Charakter gelöscht, wenn du stirbst.&#10;&#10;Die gute Nachricht ist: Du kannst einen ganz neuen Charakter erschaffen! Jetzt mit ein wenig mehr Wissen als zuvor." />
   <string Context="Tutorial Death" ID="Next time, if you want a more forgiving mode of play, try Roleplay, which lets you checkpoint at settlements.&#10;&#10;Or try Wander mode, where most creatures are neutral to you and you gain experience via discovery instead of killing.&#10;&#10;Or keep playing Classic if the challenge appeals to you and you'd like to explore a breadth of character types." Value="Nächstes Mal, wenn Ihr einen nachsichtigeren Spielmodus möchtet, versucht Roleplay, der Euch ermöglicht, an Siedlungen Kontrollpunkte zu setzen.&#10;&#10;Oder versucht den Wanderer-Modus, bei dem die meisten Kreaturen neutral zu Euch sind und Ihr Erfahrung durch Entdeckung statt durch Töten gewinnt.&#10;&#10;Oder spielt weiter Classic, wenn Euch die Herausforderung reizt und Ihr eine Vielzahl von Charaktertypen erkunden möchtet." />
@@ -2691,9 +2691,9 @@
   <string Context="InventoryAbilitySystem Edit Ability w/ Ability Name only" ID="Edit custom ability: =abilityname=" Value="Benutzerdefinierte Fähigkeit bearbeiten: =abilityname=" />
   <string Context="InventoryAbilitySystem Removed custom inventory ability" ID="Removed custom inventory ability: =abilityname=" Value="Benutzerdefinierte Inventarfähigkeit entfernt: =abilityname=" />
   <string Context="InventoryAbilitySystem can't find ability for item" ID="{{R|[Inventory Abilities] - Can't find ability for item!}}" Value="{{R|[Inventarfähigkeiten] - Kann Fähigkeit für Gegenstand nicht finden!}}" />
-  <string Context="LevelHPGain" ID="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:hitpoint=" Value="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:hitpoint=" />
-  <string Context="LevelSPGain" ID="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Skill Point=" Value="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Skill Point=" />
-  <string Context="LevelMPGain" ID="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Mutation Point=" Value="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Mutation Point=" />
+  <string Context="LevelHPGain" ID="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:hitpoint=" Value="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} Trefferpunkte" />
+  <string Context="LevelSPGain" ID="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Skill Point=" Value="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} Skillpunkte" />
+  <string Context="LevelMPGain" ID="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Mutation Point=" Value="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} Mutationspunkte" />
   <string Context="LevelAPGain" ID="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attribute Point=" Value="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attribute Point=" />
   <string Context="LevelABGain" ID="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} to each attribute" Value="=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} für jedes Attribut" />
   <string Context="LevelGainDetailed" ID="=subject.Does:have= gained a level! =subject.They= =subject.is= now level {{C|=level=}}!" Value="=subject.Does:have= eine Stufe gewonnen! =subject.They= =subject.is= jetzt Stufe {{C|=level=}}!" />
@@ -2820,6 +2820,7 @@
   <string Context="Shrine prayer message log" ID="=subject.Does:voice= a short prayer beneath =object.the.name=." Value="=subject.Does:voice= ein kurzes Gebet unter =object.the.name=." />
   <string Context="Shrine desecrate message log" ID="=subject.Does:desecrate= =object.the.name=." Value="=subject.Does:desecrate= =object.the.name=." />
   <string Context="Shrine Desecrate needs liquids" ID="You need a dram of =liquids.either.or= to desecrate a shrine." Value="Ihr benötigt einen Schluck =liquids.either.or=, um einen Schrein zu schänden." />
+  <string Context="Cooking ingredient liquid label" ID="a dram of =item.liquid.name=" Value="ein Dram =item.liquid.name=" />
   <string Context="Shrine choose liquid popup title" ID="Choose a desecration liquid" Value="Wähle eine Entweiheungsflüssigkeit" />
   <string Context="Shrine choose liquid choice" ID="=liquid.name=" Value="=liquid.name=" />
   <string Context="SultanShrine Description" ID="The shrine depicts a significant event from the life of the ancient sultan =sultanName=:&#10;&#10;=gospel=" Value="Der Schrein zeigt ein bedeutsames Ereignis aus dem Leben des alten Sultans =sultanName=:&#10;&#10;=gospel=" />
@@ -2828,7 +2829,7 @@
   <string Context="SultanShrine Relic Discovery Gospel" ID="In an excavation at a site of deep history near =location=, =name= recovered =relic=, the historic relic once thought lost to the sands of time." Value="Bei einer Ausgrabung an einem historischen Ort nahe =location= bargen =name= =relic=, die legendäre Reliquie, die einst als in den Sanden der Zeit verloren galt." />
   <string Context="TeleportGate DisplayName Base" ID="secant" Value="Sekante" />
   <string Context="TeleportGate DisplayName Base" ID="=n=-ring" Value="=n=-Ring" />
-  <string Context="TeleportGate Lost Popup" ID="You're lost! Regain your bearings by exploring your surroundings." Value="Ihr seid verloren! Erholen Sie sich wieder, indem Sie Eure Umgebung erkunden." />
+  <string Context="TeleportGate Lost Popup" ID="You're lost! Regain your bearings by exploring your surroundings." Value="Ihr habt die Orientierung verloren! Erkundet eure Umgebung, um euch neu zu orientieren." />
   <string Context="Tombstone (part3) murdered by dude" ID="=spice:tombstones.generallyMurdered.!random=" Value="=spice:tombstones.generallyMurdered.!random=" />
   <string Context="Tombstone (part3) item death 1" ID="=spice:tombstones.itemDeath1.!random=" Value="=spice:tombstones.itemDeath1.!random=" />
   <string Context="Tombstone (part3) item death 2" ID="=spice:tombstones.itemDeath2.!random=" Value="=spice:tombstones.itemDeath2.!random=" />
@@ -5158,4 +5159,228 @@
   <string Context="ZoneManager Build Zone UI Status String" ID="Building zone..." Value="Zone wird erstellt..." />
   <string Context="ZoneManager zone build error retry message" ID="This zone isn't building properly. Do you want to force it to stop and build immediately?" Value="Diese Zone wird nicht ordnungsgemäß erstellt. Möchten Sie sie zum Stoppen und sofortigen Erstellen erzwingen?" />
   <string Context="ZoneManager zone build error popup" ID="There was an issue building this zone. Automatically report it to us?" Value="Es gab ein Problem beim Erstellen dieser Zone. Automatisch melden?" />
+  <string ID="=leaderboard|upper= =friendsOnly.if:(friends only)=">=leaderboard|upper= =friendsOnly.if:(friends only)=</string>
+  <string ID="{{W|[=commandKey:Accept=]}} {{y|Press Button}}">{{W|[=commandKey:Accept=]}} {{y|Knopf drücken}}</string>
+  <string ID="{{=color=|$}}{{c|=price=}}">{{=color=|$}}{{c|=price=}}</string>
+  <string ID="=trader.The.name= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.">=trader.The.name= =trader.verb:pony= =give= =give.pluralize:dram= frisches Wasser oben drauf, um den Handel auszugleichen.</string>
+  <string ID="You can't craft with that =object=.">Ihr könnt mit diesem =object= nicht basteln.</string>
+  <string ID="You can't unequip =object.the.name=.">Ihr könnt =object.the.name= nicht ablegen.</string>
+  <string ID="=subject.it.does:emit= a ray of frost per Freezing Ray at rank 5-6.">=subject.it.does:emit= einen Froststrahl gemäß Gefrierender Strahl auf Stufe 5-6.</string>
+  <string ID="=subject.it.does:freeze= an area per Cryokinesis at rank 5-6.">=subject.it.does:freeze= eine Fläche gemäß Kryokinese auf Stufe 5-6.</string>
+  <string ID="=subject.it.does:release= an electromagnetic pulse at rank =tier=.">=subject.it.does:release= einen elektromagnetischen Puls auf Stufe =tier=.</string>
+  <string ID="=subject.it.does:release= an electromagnetic pulse at rank 8-9.">=subject.it.does:release= einen elektromagnetischen Puls auf Stufe 8-9.</string>
+  <string ID="=subject.it.does:release= an electrical discharge per Electrical Generation at rank =tier=.">=subject.it.does:release= eine elektrische Entladung gemäß Elektrische Erzeugung auf Stufe =tier=.</string>
+  <string ID="=subject.it.does:release= an electrical discharge per Electrical Generation at rank 5-6.">=subject.it.does:release= eine elektrische Entladung gemäß Elektrische Erzeugung auf Stufe 5-6.</string>
+  <string ID="=subject.it.does:emit= a ray of flame per Flaming Ray at rank 5-6.">=subject.it.does:emit= einen Flammenstrahl gemäß Flammender Strahl auf Stufe 5-6.</string>
+  <string ID="=subject.it.does:toast= an area per Pyrokinesis at rank 5-6.">=subject.it.does:toast= eine Fläche gemäß Pyrokinese auf Stufe 5-6.</string>
+  <string ID="whenever =subject.thisCreature= =subject.verb:take= damage, there's =tier.a.number=% chance">wenn =subject.thisCreature= =subject.verb:take= Schaden, besteht eine =tier.a.number=%-ige Chance</string>
+  <string ID="whenever =subject.thisCreature= =subject.verb:take= damage, there's an 8-10% chance">wenn =subject.thisCreature= =subject.verb:take= Schaden, besteht eine 8-10%-ige Chance</string>
+  <string ID="whenever =subject.thisCreature= =subject.verb:take= damage, there's =tier.a.number=% chance =subject.they= start phasing for 8-10 turns.">wenn =subject.thisCreature= =subject.verb:take= Schaden, besteht eine =tier.a.number=%-ige Chance, dass =subject.they= für 8–10 Züge zu phasen beginnt.</string>
+  <string ID="+20% + (Photosynthetic Skin rank * 10)% to natural healing rate">+20% + (Photosynthetische-Haut-Stufe * 10)% zur natürlichen Heilungsrate</string>
+  <string ID="+13 + (Photosynthetic Skin rank * 2) Quickness">+13 + (Stufe von Photosynthetische Haut * 2) Schnelligkeit</string>
+  <string ID="Can use =mutationName= at rank =tier=.">Kann =mutationName= auf Stufe =tier= verwenden.</string>
+  <string ID="=tier.signed= =tier.pluralize:rank= to =mutationName=.">=tier.signed= =tier.pluralize:rank= zu =mutationName=.</string>
+  <string ID="Can use =mutationName= at rank =addedTier=. If =subject.they= already =subject.verb:have= =mutationName=, it's enhanced by =bonusTier= ranks.">Kann =mutationName= auf Stufe =addedTier= nutzen. Wenn =subject.they= bereits =subject.verb:have= =mutationName=, wird es um =bonusTier= Stufen verstärkt.</string>
+  <string ID="Can use =mutationName= at rank =addedTier=.">Kann =mutationName= auf Stufe =addedTier= verwenden.</string>
+  <string ID="=subject.it.does:expel= quills per the Quills mutation at rank =tier=.">=subject.it.does:expel= Stacheln gemäß der Mutation 'Stacheln' auf Stufe =tier=.</string>
+  <string ID="=subject.it.does:expel= quills per the Quills mutation at rank 8-9.">=subject.it.does:expel= Stacheln gemäß der Mutation 'Stacheln' auf Stufe 8-9.</string>
+  <string ID="Whenever =subject.thisCreature= =subject.verb:take= avoidable damage, there's =tier.a.number=% chance =subject.it.does:teleport= to a random space on the map instead.">Wann immer =subject.thisCreature= =subject.verb:take= vermeidbarer Schaden, besteht eine =tier.a.number=%-Chance, dass =subject.it.does:teleport= stattdessen zu einem zufälligen Ort auf der Karte.</string>
+  <string ID="{{w|itchy skin}}">{{w|juckende Haut}}</string>
+  <string ID="You have no infectable body parts.">Ihr habt keine infizierbaren Körperteile.</string>
+  <string ID="Choose a limb to infect with =fungus=.">Wählt ein Körperteil aus, das mit =fungus= infiziert werden soll.</string>
+  <string ID="You contracted =object.name= on your =part.ordinalName=, endearing =subject.reflexive= to fungi across Qud.">Ihr habt Euch =object.name= an Eurem =part.ordinalName= zugezogen und damit =subject.reflexive= bei den Pilzen in ganz Qud beliebt gemacht.</string>
+  <string ID="Bless the =day= of =month=, when =name= cemented a historic alliance with fungi by contracting =object.name= on =player.their= =part.ordinalName=!">Gesegnet sei der =day= des =month=, an dem =name= durch die Ansteckung mit =object.name= an =player.their= =part.ordinalName= ein historisches Bündnis mit den Pilzen besiegelte!</string>
+  <string ID="While traveling around =player.terrain.t=, =name= discovered =player.landmark.nearest=. There =player.subjective= befriened fungi and contracted =object.name= on =player.their= =part.ordinalName=.">Während =name= =player.terrain.t= bereiste, entdeckte =player.subjective= =player.landmark.nearest=. Dort freundete sich =player.subjective= mit Pilzen an und zog sich =object.name= an =player.their= =part.ordinalName= zu.</string>
+  <string ID="You've contracted =object.name= on your =part.ordinalName=.">Ihr habt Euch =object.name= an Eurem =part.ordinalName= zugezogen.</string>
+  <string ID="{{r|sore throat}}">{{r|Halsschmerzen}}</string>
+  <string ID="glotrot">Glotrot</string>
+  <string ID="You have contracted glotrot! Your tongue begins to bleed as the muscle rots away.">Ihr habt Euch Glotrot zugezogen! Eure Zunge beginnt zu bluten, während der Muskel verfault.</string>
+  <string ID="You contracted glotrot.">Ihr habt Euch Glotrot zugezogen.</string>
+  <string ID="Woe to the scroundrels and dastards who conspired to have =name= contract the rotting tongue!">Wehe den Schurken und Halunken, die sich verschworen, um =name= die verfaulende Zunge zuzufügen!</string>
+  <string ID="Near the location of Golgotha, =name= was captured by bandits. =player.Subjective= languished in captivity for =captivityTime= years, eventually contracting glotrot before escaping to =player.terrain.t=">In der Nähe von Golgotha wurde =name= von Banditen gefangen genommen. =player.Subjective= schmachtete =captivityTime= Jahre lang in Gefangenschaft und zog sich schließlich Glotrot zu, bevor =player.subjective= nach =player.terrain.t= entkam</string>
+  <string ID="{{glotrot|glotrot}}">{{glotrot|Glotrot}}</string>
+  <string ID="You tear open the tender muscle fibers of your tongue.">Ihr reißt die zarten Muskelfasern Eurer Zunge auf.</string>
+  <string ID="You are cured of glotrot. Your tongue regrows.">Ihr seid von Glotrot geheilt. Eure Zunge wächst nach.</string>
+  <string ID="You were cured of glotrot and your tongue regrew.">Ihr wurdet von Glotrot geheilt und Eure Zunge wuchs nach.</string>
+  <string ID="Blessed was the =day= of =month=, in the year of =year=, when =name= was cured of the rotting tongue!">Gesegnet war der =day= des =month= im Jahr =year=, als =name= von der verfaulenden Zunge geheilt wurde!</string>
+  <string ID="Some time in =year=, =name= came upon the bandits who had captured =player.objective= and let =player.objective= languish in captivity until =player.subjective= contracted glotrot. =name= murdered their leader =spice:elements.$domain.murdermethods.!random= and cured =player.reflexive= of the disease.">Irgendwann im Jahr =year= stieß =name= auf die Banditen, die =player.objective= gefangen genommen und in Gefangenschaft schmachten ließen, bis =player.subjective= sich Glotrot zuzog. =name= ermordete deren Anführer =spice:elements.$domain.murdermethods.!random= und heilte =player.reflexive= von der Krankheit.</string>
+  <string ID="Your tongue regrows.">Eure Zunge wächst nach.</string>
+  <string ID="Your tongue regrew.">Eure Zunge wuchs nach.</string>
+  <string ID="Remember the =day= of =month=, in the year of =year=, when through shere strength of will =name= regrew =player.their= tongue.">Erinnert Euch an den =day= des =month= im Jahr =year=, als =name= durch reine Willenskraft =player.their= Zunge nachwachsen ließ.</string>
+  <string ID="One auspicious eve while exploring the chutes of Golgotha, =name= dreamed that =player.subjective= contracted a rotting disease and that =player.their= tongue festered and fell out. From then on, =name= vowed to always keep =player.their= tongue on =player.their= person.">An einem verheißungsvollen Abend, während =name= die Schächte von Golgotha erkundete, träumte =player.subjective=, =player.subjective= habe sich eine verfaulende Krankheit zugezogen und =player.their= Zunge sei vereitert und ausgefallen. Von da an schwor =name=, =player.their= Zunge stets bei sich zu tragen.</string>
+  <string ID="Your tongue begins to bleed as the muscle rots away.">Eure Zunge beginnt zu bluten, während der Muskel verfault.</string>
+  <string ID="Your tongue has rotted away.">Eure Zunge ist verfault.</string>
+  <string ID="Your tongue rotted away.">Eure Zunge verfaulte.</string>
+  <string ID="On =day= of =month=, in the year of =year=, =name= took a vow of silence and removed =player.their= own tongue">Am =day= des =month= im Jahr =year= legte =name= ein Schweigegelübde ab und entfernte =player.their= eigene Zunge</string>
+  <string ID="Do you want to stop travelling?">Möchtet Ihr aufhören zu reisen?</string>
+  <string ID="It tastes even worse than you had imagined -- like a dead turtle boiled in phlegm.">Es schmeckt noch schlimmer, als Ihr es Euch vorgestellt habt -- wie eine tote Schildkröte, gekocht in Schleim.</string>
+  <string ID="stiff legs">steife Beine</string>
+  <string ID="ironshank">Eisenschenkel</string>
+  <string ID="You have contracted Ironshank! You feel the cartilage stretch as your leg bones grind together at the joints.">Ihr habt Euch den Eisenschenkel zugezogen! Ihr spürt, wie der Knorpel sich dehnt, während Eure Beinknochen an den Gelenken aneinander reiben.</string>
+  <string ID="You contracted ironshank.">Ihr habt Euch den Eisenschenkel zugezogen.</string>
+  <string ID="Woe to the scroundrels and dastards who conspired to have =name= contract Stiff Leg!">Wehe den Schurken und Halunken, die sich verschworen haben, um =name= das Steife Bein zuzuziehen!</string>
+  <string ID="Near the location of Golgotha, =name= was captured by bandits. =player.Subjective= languished in captivity for =captivityTime= years, eventually contracting ironshank before escaping to =player.terrain.t=.">In der Nähe von Golgotha wurde =name= von Banditen gefangen genommen. =player.Subjective= schmachtete =captivityTime= Jahre lang in Gefangenschaft und zog sich schließlich den Eisenschenkel zu, bevor =player.subjective= nach =player.terrain.t= floh.</string>
+  <string ID="{{ironshank|ironshank}}">{{ironshank|Eisenschenkel}}</string>
+  <string ID="The pain in your joints subsides.">Der Schmerz in Euren Gelenken lässt nach.</string>
+  <string ID="You are cured of ironshank.">Ihr seid vom Eisenschenkel geheilt.</string>
+  <string ID="You were cured of ironshank and your leg bones softened.">Ihr wurdet vom Eisenschenkel geheilt, und Eure Beinknochen wurden wieder weich.</string>
+  <string ID="Blessed was the =day= of =month=, in the year of =year=, when =name= was cured of ironing leg!">Gesegnet war der =day= des =month=, im Jahre =year=, als =name= vom Bügelbein geheilt wurde!</string>
+  <string ID="Some time in =year=, =name= came upon the bandits who had captured =player.objective= and let =player.objective= languish in captivity until =player.subjective= contracted ironshank. =name= murdered their leader =spice:elements.$domain.murdermethods.!random= and cured =player.reflexive of the disease.">Irgendwann im Jahre =year= stieß =name= auf die Banditen, die =player.objective= gefangen genommen und in Gefangenschaft schmachten lassen hatten, bis =player.subjective= sich den Eisenschenkel zuzog. =name= ermordete deren Anführer =spice:elements.$domain.murdermethods.!random= und heilte =player.reflexive von der Krankheit.</string>
+  <string ID="Your legs bones are nearly fused at the joints.">Eure Beinknochen sind an den Gelenken beinahe verwachsen.</string>
+  <string ID="You feel the cartilage stretch as your leg bones grind together at the joints.">Ihr spürt, wie sich der Knorpel dehnt, während Eure Beinknochen an den Gelenken aneinander reiben.</string>
+  <string ID="blurry vision">verschwommenes Sehen</string>
+  <string ID="monochrome">Monochromie</string>
+  <string ID="You have contracted monochrome! Color starts to seep out of the world.">Ihr habt Euch die Monochromie zugezogen! Die Farbe beginnt aus der Welt zu sickern.</string>
+  <string ID="You contracted monochrome.">Ihr habt Euch die Monochromie zugezogen.</string>
+  <string ID="Woe to the scroundrels and dastards who conspired to have =name= contract univision!">Wehe den Schurken und Halunken, die sich verschworen haben, um =name= die Einfarbsicht zuzuziehen!</string>
+  <string ID="Near the location of Omonporch, =name= was captured by bandits. =player.Subjective= languished in captivity for =captivityTime= years, eventually contracting monochrome before escaping to =player.terrain.t=.">In der Nähe von Omonporch wurde =name= von Banditen gefangen genommen. =player.Subjective= schmachtete =captivityTime= Jahre lang in Gefangenschaft und zog sich schließlich die Monochromie zu, bevor =player.subjective= nach =player.terrain.t= floh.</string>
+  <string ID="You are cured of monochrome.">Ihr seid von der Monochromie geheilt.</string>
+  <string ID="You were cured of monochrome and your vision returned to color.">Ihr wurdet von der Monochromie geheilt, und Eure Sicht gewann wieder Farbe.</string>
+  <string ID="Blessed was the =day= of =month=, in the year of =year=, when =name= was cured of greying eye!">Gesegnet war der =day= des =month=, im Jahre =year=, als =name= vom Grauauge geheilt wurde!</string>
+  <string ID="Some time in =year=, =name= came upon the bandits who had captured =player.objective= and let =player.objective= languish in captivity until =player.subjective= contracted monochrome. =name= murdered their leader =spice:elements.$domain.murdermethods.!random= and cured =player.reflexive= of the disease.">Irgendwann im Jahre =year= stieß =name= auf die Banditen, die =player.objective= gefangen genommen und in Gefangenschaft schmachten lassen hatten, bis =player.subjective= sich die Monochromie zuzog. =name= ermordete deren Anführer =spice:elements.$domain.murdermethods.!random= und heilte =player.reflexive= von der Krankheit.</string>
+  <string ID="=user.The.name's.item:includeAdjunctNoun#subject= =subject.verb:emit= a shower of sparks!">=user.The.name's.item:includeAdjunctNoun#subject= =subject.verb:emit= einen Funkenregen!</string>
+  <string ID="=user.The.name's:includeAdjunctNoun#subject= =subject.verb:shower= sparks everywhere.">=user.The.name's:includeAdjunctNoun#subject= =subject.verb:shower= überall Funken.</string>
+  <string ID="=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:an engraving:engravings= of =descriptions.andList|ensureEndMark=">=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:an engraving:engravings= von =descriptions.andList|ensureEndMark=</string>
+  <string ID="=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:a tattoo:tattoos= of =descriptions.andList|ensureEndMark=">=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:a tattoo:tattoos= von =descriptions.andList|ensureEndMark=</string>
+  <string ID="Access your =subject.name:single=">Zugriff auf Euer =subject.name:single=</string>
+  <string ID="=subject.name:single=">=subject.name:single=</string>
+  <string ID="You are too confused to remember what =item.a.name= =item.is=.">Ihr seid zu verwirrt, um Euch zu erinnern, was =item.a.name= =item.is=.</string>
+  <string ID="=subject.Does:unequip= =subject.its.item#object=.">=subject.Does:unequip= =subject.its.item#object=.</string>
+  <string ID="Grants you =mutationName= at level =level=.">Gewährt Euch =mutationName= auf Stufe =level=.</string>
+  <string ID="=subject.Does:break=.">=subject.Does:break=.</string>
+  <string ID="Take =received.abs=% =received.threshold:0:more:less= damage =bothSignsAreSame.if:and:but= deal =dealt.abs=% =dealt.threshold:0:more:less= damage">Erleidet =received.abs=% =received.threshold:0:more:less= Schaden =bothSignsAreSame.if:and:but= verursacht =dealt.abs=% =dealt.threshold:0:more:less= Schaden</string>
+  <string ID="=subject.Does:decide= =subject.it.does:are= no longer angry at =object.the.name=.">=subject.Does:decide= =subject.it.does:are= nicht mehr wütend auf =object.the.name=.</string>
+  <string ID="Deactivate =object.basename|strip|title=">Deaktivieren =object.basename|strip|title=</string>
+  <string ID="=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= into =result.a.name=.">=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= zu =result.a.name=.</string>
+  <string ID="=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= into =amount.a.or.cardinal.names#result=.">=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= zu =amount.a.or.cardinal.names#result=.</string>
+  <string ID="When activated, =chance=% chance of being randomly long-range teleported when taking =avoidable.if:avoidable= damage.">Bei Aktivierung: =chance=% Chance, bei =avoidable.if:avoidable= Schaden zufällig über weite Entfernung teleportiert zu werden.</string>
+  <string ID="When powered, provides =min.range#max=% reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Wenn aktiviert, bietet =min.range#max=% Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
+  <string ID="Provides =min.range#max=% reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Bietet =min.range#max=% Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
+  <string ID="When powered, causes =min.range: to #max=% increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Wenn aktiviert, verursacht =min.range: to #max=% Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
+  <string ID="Causes =min.range#max=% increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Verursacht =min.range#max=% Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
+  <string ID="When powered, confers =min.range#max=% reduction/increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Wenn aktiviert, gewährt =min.range#max=% Verringerung/Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
+  <string ID="Confers =min.range#max=% reduction/increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Gewährt =min.range#max=% Verringerung/Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
+  <string ID="When powered, provides =min.range#max= =number.isplural:points:point= of reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Wenn aktiviert, bietet =min.range#max= =number.isplural:points:point= Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
+  <string ID="When powered, provides =min.range#max= =number.isplural:points:point= of reduction in the cooldowns of activated abilities other than =abilities.andList|strip=.">Wenn aktiviert, bietet =min.range#max= =number.isplural:points:point= Verringerung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.</string>
+  <string ID="When powered, provides =min.range#max= =number.isplural:points:point= of reduction in the cooldowns of activated abilities.">Wenn aktiviert, bietet =min.range#max= =number.isplural:points:point= Verringerung der Abklingzeiten aktivierter Fähigkeiten.</string>
+  <string ID="Provides =min.range#max= =number.isplural:points:point= of reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Bietet =min.range#max= =number.isplural:points:point= Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
+  <string ID="Provides =min.range#max= =number.isplural:points:point= of reduction in the cooldowns of activated abilities other than =abilities.andList|strip=.">Bietet =min.range#max= =number.isplural:points:point= Verringerung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.</string>
+  <string ID="You cannot reach =object.the.name= to repair =object.them=.">Ihr könnt =object.the.name= nicht erreichen, um =object.them= zu reparieren.</string>
+  <string ID="You are out of phase with =object.the.name= and cannot repair =object.them=.">Ihr seid nicht in Phase mit =object.the.name= und könnt =object.them= nicht reparieren.</string>
+  <string ID="=subject.Does:start= dashing in a plume of flame and smoke!">=subject.Does:start= in einer Wolke aus Flammen und Rauch loszustürmen!</string>
+  <string ID="=subject.The.name= merely =subject.verb:click=.">=subject.The.name= lediglich =subject.verb:click=.</string>
+  <string ID="=subject.Does:aren't= working.">=subject.Does:aren't= funktionsfähig.</string>
+  <string ID="=subject.Does:aren't= working!">=subject.Does:aren't= funktionsfähig!</string>
+  <string ID="=subject.The.name= =subject.is= unpowered. Do you want to continue without =subject.its= full benefits?">=subject.The.name= =subject.is= ohne Energie. Möchtet Ihr ohne =subject.its= vollen Nutzen fortfahren?</string>
+  <string ID="=subject.The.name= =subject.is= inoperative. Do you want to continue without =subject.its= full benefits?">=subject.The.name= =subject.is= funktionsunfähig. Möchtet Ihr ohne =subject.its= vollen Nutzen fortfahren?</string>
+  <string ID="=subject.The.name= =subject.is= inoperative. Do you want to continue without =subject.its= benefits?">=subject.The.name= =subject.is= funktionsunfähig. Möchtet Ihr ohne =subject.its= Nutzen fortfahren?</string>
+  <string ID="=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.">=subject.Does:collect= =transfer.things:dram= von =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.</string>
+  <string ID="All of =object.the.name's= wounds that can be staunched have been already.">Alle Wunden von =object.the.name's=, die gestillt werden können, wurden bereits gestillt.</string>
+  <string ID="=subject.Does:bandage= =object.the.name's= wounds.">=subject.Does:bandage= die Wunden von =object.the.name's=.</string>
+  <string ID="=subject.Does:cause= several plants to germinate with the force of =subject.its.item#object=!">=subject.Does:cause= mehrere Pflanzen dazu, mit der Kraft von =subject.its.item#object= zu keimen!</string>
+  <string ID="=chance=% chance to cleave mental armor on critical hit">=chance=% Chance, bei einem kritischen Treffer die Geistesrüstung zu spalten</string>
+  <string ID="=chance=% chance to cleave armor on critical hit">=chance=% Chance, bei einem kritischen Treffer die Rüstung zu spalten</string>
+  <string ID="=chance=% chance to cleave armor">=chance=% Chance, die Rüstung zu spalten</string>
+  <string ID="Cleaves mental armor on critical hit">Spaltet bei einem kritischen Treffer die Geistesrüstung</string>
+  <string ID="Cleaves armor on critical hit">Spaltet bei einem kritischen Treffer die Rüstung</string>
+  <string ID="Cleaves armor">Spaltet Rüstung</string>
+  <string ID="=subject.Does:destabilize=.">=subject.Does:destabilize=.</string>
+  <string ID="=chance=% chance melee attacks cause a small explosion">=chance=% Chance, dass Nahkampfangriffe eine kleine Explosion verursachen</string>
+  <string ID="Melee attacks cause a small explosion">Nahkampfangriffe verursachen eine kleine Explosion</string>
+  <string ID="You forget something.">Ihr vergesst etwas.</string>
+  <string ID="=subject.Does:try= to eat your memories, but =subject.itDoes:starve=.">=subject.Does:try=, Eure Erinnerungen zu essen, aber =subject.itDoes:starve=.</string>
+  <string ID="Change Grip">Griff wechseln</string>
+  <string ID="=entry.name=">=entry.name=</string>
+  <string ID="Choose a style">Wählt einen Stil</string>
+  <string ID="Since =subject.does:are= still latched onto =object.the.name=, releasing =subject.them= leaves =subject.them= in =object.their= possession!">Da =subject.does:are= noch immer an =object.the.name= festgeklammert, lässt das Loslassen =subject.them= in =object.their= Besitz zurück!</string>
+  <string ID="Since =subject.does:are= still latched onto you, =object.the.name= releasing =subject.them= leaves =subject.them= in your possession!">Da =subject.does:are= noch immer an Euch festgeklammert, lässt =object.the.name= es beim Loslassen von =subject.them= in Eurem Besitz zurück!</string>
+  <string ID="Since =subject.does:are= still latched onto you, =object.their= releasing =subject.them= leaves =subject.them= in your possession!">Da =subject.does:are= noch immer an Euch festgeklammert, lässt =object.their= Loslassen von =subject.them= es in Eurem Besitz zurück!</string>
+  <string ID="Since =subject.does:are= still latched onto =object.the.name=, =actor.the.name= releasing =subject.them= leaves =subject.them= in =object.the.name's:withTitles= possession!">Da =subject.does:are= noch immer an =object.the.name= festgeklammert, lässt =actor.the.name= beim Loslassen von =subject.them= es in =object.the.name's:withTitles= Besitz zurück!</string>
+  <string ID="=subject.Does:latch= onto =object.the.name=!">=subject.Does:latch= sich an =object.the.name=!</string>
+  <string ID="=subject.IndicativeProximal= =subject.descriptiveCategory|matchPlurality= =subject.verb:have= =amount.signed= to =subject.its= =stat.title= bonus.">=subject.IndicativeProximal= =subject.descriptiveCategory|matchPlurality= =subject.verb:have= =amount.signed= zu =subject.its= =stat.title=-Bonus.</string>
+  <string ID="=subject.IndicativeProximal= =subject.descriptiveCategory|matchPlurality= =subject.verb:have= =amount.signed= to =subject.its= damage die size.">=subject.IndicativeProximal= =subject.descriptiveCategory|matchPlurality= =subject.verb:have= =amount.signed= zu =subject.its= Schadenswürfelgröße.</string>
+  <string ID="=subject.IndicativeProximal= =subject.descriptiveCategory|matchPlurality= =subject.verb:have= =amount.signed= to =subject.its= damage rolls.">=subject.IndicativeProximal= =subject.descriptiveCategory|matchPlurality= =subject.verb:have= =amount.signed= zu =subject.its= Schadenswürfen.</string>
+  <string ID="=subject.IndicativeProximal= =subject.descriptiveCategory|matchPlurality= =subject.verb:have= =amount.signed= to =subject.its= penetration rolls.">=subject.IndicativeProximal= =subject.descriptiveCategory|matchPlurality= =subject.verb:have= =amount.signed= zu =subject.its= Durchdringungswürfen.</string>
+  <string ID="Causes enemies to be knocked prone">Bringt Feinde zu Fall</string>
+  <string ID="Melee attacks cause enemies to be knocked prone">Nahkampfangriffe bringen Feinde zu Fall</string>
+  <string ID="=subject.Does:drain:permanently= =object.the.name's:withTitles= =stat.narration= by =amount.things:point=!">=subject.Does:drain:permanently= =object.the.name's:withTitles= =stat.narration= um =amount.things:point=!</string>
+  <string ID="Melee attacks cause enemies to get stuck for =duration= turns">Nahkampfangriffe lassen Feinde für =duration= Runden feststecken</string>
+  <string ID="Heal for =percent=% of damage dealt vs. organic creatures, -=reduction=, max =maximum=">Heilt um =percent=% des verursachten Schadens gegen organische Kreaturen, -=reduction=, max. =maximum=</string>
+  <string ID="Heal for =percent=% of damage dealt vs. organic creatures, max =maximum=">Heilt um =percent=% des verursachten Schadens gegen organische Kreaturen, max. =maximum=</string>
+  <string ID="Heal for =percent=% of damage dealt vs. organic creatures, -=reduction=">Heilt um =percent=% des verursachten Schadens gegen organische Kreaturen, -=reduction=</string>
+  <string ID="Heal for =percent=% of damage dealt vs. organic creatures">Heilt um =percent=% des verursachten Schadens gegen organische Kreaturen</string>
+  <string ID="Heal for =percent=% of damage dealt, -=reduction=, max =maximum=">Heilt um =percent=% des verursachten Schadens, -=reduction=, max. =maximum=</string>
+  <string ID="Heal for =percent=% of damage dealt, -=reduction=">Heilt um =percent=% des verursachten Schadens, -=reduction=</string>
+  <string ID="Heal for =percent=% of damage dealt, max =maximum=">Heilt um =percent=% des verursachten Schadens, max. =maximum=</string>
+  <string ID="Heal for =percent=% of damage dealt">Heilt um =percent=% des verursachten Schadens</string>
+  <string ID="{{rules|=detailedStats=}}">{{rules|=detailedStats=}}</string>
+  <string ID="=stat.Name= Bonus Cap: no limit">=stat.Name= Bonus-Obergrenze: kein Limit</string>
+  <string ID="=stat.Name= Bonus Cap: =max=">=stat.Name= Bonus-Obergrenze: =max=</string>
+  <string ID="Weapon Class: =critDesc=">Waffenklasse: =critDesc=</string>
+  <string ID="Attack Chance: =chance=%">Trefferchance: =chance=%</string>
+  <string ID="Offhand Attack Chance: =chance=%">Nebenhand-Trefferchance: =chance=%</string>
+  <string ID="=glyph:PV==glyph.strip:Vibro==penBonus.signed|when#nonZero=">=glyph:PV==glyph.strip:Vibro==penBonus.signed|when#nonZero=</string>
+  <string ID="=glyph:PV==prefixNumber=">=glyph:PV==prefixNumber=</string>
+  <string ID="=glyph:PV==prefixNumber={{K|/=penetration=}}">=glyph:PV==prefixNumber={{K|/=penetration=}}</string>
+  <string ID="You =partial.if:partially= fill =object.the.name= with =volume.liquid.name=.">Ihr =partial.if:partially= befüllt =object.the.name= mit =volume.liquid.name=.</string>
+  <string ID="Supply =object.the.name= with how many drams of your =liquid.name|strip=? (max=equals==amount=)">Mit wie vielen Dram Eures =liquid.name|strip= versorgt Ihr =object.the.name=? (max=equals==amount=)</string>
+  <string ID="You have no =liquid.name|strip= to supply =object.the.name= with.">Ihr habt kein =liquid.name|strip=, um damit =object.the.name= zu versorgen.</string>
+  <string ID="=subject.Does:have= no room for more =liquid.name|strip=.">=subject.Does:have= keinen Platz für mehr =liquid.name|strip=.</string>
+  <string ID="=subject.Does:transfer= =liquid.cardinal.drams.of.liquid#amount|strip= to =object.aForNPCSubject.name=.">=subject.Does:transfer= =liquid.cardinal.drams.of.liquid#amount|strip= zu =object.aForNPCSubject.name=.</string>
+  <string ID="[=chargeStatus=]">[=chargeStatus=]</string>
+  <string ID="=glyph.strip:Damage|color:W==damageroll=">=glyph.strip:Damage|color:W==damageroll=</string>
+  <string ID="=subject.Does:transfer= =cell.a.name= to =host.aForNPCSubject.name=.">=subject.Does:transfer= =cell.a.name= zu =host.aForNPCSubject.name=.</string>
+  <string ID="=subject.The.name= cannot take =cell.the.name=.">=subject.The.name= kann =cell.the.name= nicht aufnehmen.</string>
+  <string ID="=subject.the.name= cannot take =cell.the.name=.">=subject.the.name= kann =cell.the.name= nicht aufnehmen.</string>
+  <string ID="[=amount|color#amountColor=]">[=amount|color#amountColor=]</string>
+  <string ID="You reload =object.the.name= with =ammo.a.or.stack.name=.">Ihr ladet =object.the.name= mit =ammo.a.or.stack.name= nach.</string>
+  <string ID="Supply =host.the.name= with how many of =ammo.name:single=? (max=equals==amount=)">Versorgt =host.the.name= mit wie vielen =ammo.name:single=? (max=equals==amount=)</string>
+  <string ID="Supply =host.the.name= with how many =ammo.pluralName=? (max=equals==amount=)">Versorgt =host.the.name= mit wie vielen =ammo.pluralName=? (max=equals==amount=)</string>
+  <string ID="=subject.Does:transfer= =ammo.name:single= to =host.aForNPCSubject.name=.">=subject.Does:transfer= =ammo.name:single= zu =host.aForNPCSubject.name=.</string>
+  <string ID="=subject.Does:transfer= =amount.a.or.cardinal.names#ammo= to =host.aForNPCSubject.name=.">=subject.Does:transfer= =amount.a.or.cardinal.names#ammo= zu =host.aForNPCSubject.name=.</string>
+  <string ID="a disguise=appearance.if: of :==appearance=">eine Verkleidung=appearance.if: of :==appearance=</string>
+  <string ID="A weird=analgesic.if::, painful= shock reverberates through you.">Ein seltsamer=analgesic.if::, painful= Schock durchfährt Euch.</string>
+  <string ID="hologram of =subject.a.name=">Hologramm von =subject.a.name=</string>
+  <string ID="Serene visage: This item grants bonus Willpower, and reduces the cooldown of Meditate by 40 rounds. It requires both the head and face to wear.">Gelassenes Gesicht: Dieser Gegenstand gewährt Bonus auf Willenskraft und reduziert die Abklingzeit von Meditation um 40 Runden. Es erfordert sowohl den Kopf als auch das Gesicht zum Tragen.</string>
+  <string ID="=subject.Does:fail= to tighten =subject.possessive= =carapace.name=.">=subject.Does:fail= festzuziehen =subject.possessive= =carapace.name=.</string>
+  <string ID="You tighten your =carapace.name=. Your AV increases by {{G|=tightFactor=}}.">Ihr strafft Euren =carapace.name=. Eure AV nimmt um {{G|=tightFactor=}} zu.</string>
+  <string ID="=subject.Does:tighten= =subject.possessive= =carapace.name=.">=subject.Does:tighten= =subject.possessive= =carapace.name=.</string>
+  <string ID="Your =carapace.name= =carapace.verb:loosen=. =subject.The.name's= AV decreases by {{R|=tightFactor=}}.">Euer =carapace.name= =carapace.verb:loosen=. =subject.The.name's= AV nimmt um {{R|=tightFactor=}} ab.</string>
+  <string ID="=subject.The.name's= =carapace.name= =carapace.verb:loosen=.">=subject.The.name's= =carapace.name= =carapace.verb:loosen=.</string>
+  <string ID="Tighten =carapace.name=">=carapace.name= straffen</string>
+  <string ID="=subject.Does:bask= in the sunlight and =subject.verb:absorb= the nourishing rays.">=subject.Does:bask= im Sonnenlicht und =subject.verb:absorb= die nährenden Strahlen.</string>
+  <string ID="Bask">Sonnenbad</string>
+  <string ID="=abilityName= [=quillsAmount.things#quillsSingular#quillsName= left]">=abilityName= [=quillsAmount.things#quillsSingular#quillsName= übrig]</string>
+  <string ID="=subject.Does:impale= =subject.itself= on =object.the.name's= =quillsName= and =subject.verb:take= =damage= damage!">=subject.Does:impale= =subject.itself= auf =object.the.name's= =quillsName= und =subject.verb:take= =damage= Schaden!</string>
+  <string ID="You don't have enough =quillsName=! You need at least =minimumQuills= =quillsName= to =abilityName=.">Ihr habt nicht genug =quillsName=! Ihr benötigt mindestens =minimumQuills= =quillsName=, um =abilityName=.</string>
+  <string ID="=subject.Does:fling= =subject.its= =quillsName=!">=subject.Does:fling= =subject.its= =quillsName=!</string>
+  <string ID="=subject.Does:fling= =subject.its= =quillsName= everywhere!">=subject.Does:fling= überall =subject.its= =quillsName=!</string>
+  <string ID="The attack breaks =quillsAmount.cardinal.things#quillsSingular#quillsName=!">Der Angriff zerbricht =quillsAmount.cardinal.things#quillsSingular#quillsName=!</string>
+  <string ID="=subject.The.name's.item#weapon= =weapon.verb:lop= off =object.the.name's= =limb.ordinalName=!">=subject.The.name's.item#weapon= =weapon.verb:lop= =object.the.name's= =limb.ordinalName= ab!</string>
+  <string ID="=subject.Does:lop= off =subject.their= own =limb.ordinalName=!">=subject.Does:lop= =subject.their= eigenes =limb.ordinalName= ab!</string>
+  <string ID="=subject.Does:lop= off =object.the.name's= =limb.ordinalName=!">=subject.Does:lop= =object.the.name's= =limb.ordinalName= ab!</string>
+  <string ID="=subject.The.name's.item#weapon= =weapon.verb:chop= off =object.the.name's= =limb.ordinalName=!">=subject.The.name's.item#weapon= =weapon.verb:chop= =object.the.name's= =limb.ordinalName= ab!</string>
+  <string ID="=item.DisplayNameOnlyDirect=: how many do you want to preserve? (max =equals= =item.count=)">=item.DisplayNameOnlyDirect=: wie viele wollt Ihr bewahren? (max =equals= =item.count=)</string>
+  <string ID="=ingredient.a.cookingIngredientName=">=ingredient.a.cookingIngredientName=</string>
+  <string ID="You have =partial.if:partially =recharged =object.the.name:single=.">Ihr habt =partial.if:partially =aufgeladen =object.the.name:single=.</string>
+  <string ID="{{W|=isIn.if:Opening:Examining= =object.a.name|strip=}}">{{W|=isIn.if:Opening:Examining= =object.a.name|strip=}}</string>
+  <string ID="Chance to reveal secrets via Trash Divining =bonus.sign:decreased by::increased by= =bonus.absOrEmpty|wrap::%= =conflict.sign:but::and= =magnitude.sign:decreased by::increased by= =magnitude.absOrEmpty|wrap::x=">Chance auf Geheimnisenthüllung durch Müllwahrsagung =bonus.sign:decreased by::increased by= =bonus.absOrEmpty|wrap::%= =conflict.sign:but::and= =magnitude.sign:decreased by::increased by= =magnitude.absOrEmpty|wrap::x=</string>
+  <string ID="Eureka! You may now =fragments.andList=... and were able to work out how without needing to destroy =object.isplural:these:this one=!">Eureka! Ihr könnt nun =fragments.andList=... und habt herausgefunden, wie, ohne =object.isplural:these:this one= zerstören zu müssen!</string>
+  <string ID="=object.a.name:single=">=object.a.name:single=</string>
+  <string ID="=subject.they= must be wielded =twoSlots.if:four:two=-handed by non-gigantic creatures">=subject.they= muss von nicht-gigantischen Kreaturen =twoSlots.if:four:two=-händig geführt werden</string>
+  <string ID="=subject.isPlural:These:This= =subject.pluralize#what= =otherProps.andList=.">=subject.isPlural:These:This= =subject.pluralize#what= =otherProps.andList=.</string>
+  <string ID="=subject.isPlural:These:This= =subject.pluralize#what= =weaponProps.andList=. =otherProps.andList=.">=subject.isPlural:These:This= =subject.pluralize#what= =weaponProps.andList=. =otherProps.andList=.</string>
+  <string ID="=subject.fragment:Skin:skin= of =subject.refname=">=subject.fragment:Skin:skin= von =subject.refname=</string>
+  <string ID="=subject.refname= =subject.fragment:Skin:skin=">=subject.refname= =subject.fragment:Skin:skin=</string>
+  <string ID="=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name=">=amount|color#amountColor= =amount.pluralize:dram= von =liquid.name=</string>
+  <string ID="=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name=">=amount.cardinal|color#amountColor= =amount.pluralize:dram= von =liquid.name=</string>
+  <string ID=", =sameDirection.if:also ::==direction=">, =sameDirection.if:also ::==direction=</string>
+  <string ID="=subject.shortsingle=">=subject.shortsingle=</string>
+  <string ID="=subject.shortsingle:asIfKnown=">=subject.shortsingle:asIfKnown=</string>
+  <string ID="=subject.the.name:asIfKnown=">=subject.the.name:asIfKnown=</string>
+  <string ID="=properNames.andList= and =owner.its= =regularNames.andList=">=properNames.andList= und =owner.its= =regularNames.andList=</string>
+  <string ID="You add the following entry into the {{K|Annals of Qud}}.&#10;&#10;&quot;On the =date.day= of =date.month=, {{Y|=subject.basename|strip=}} became =positive.if:admired:despised= by =faction.formattedName= for =reason=.&quot;">Ihr fügt den folgenden Eintrag in die {{K|Annalen von Qud}} ein.&#10;&#10;"Am =date.day=. =date.month= wurde {{Y|=subject.basename|strip=}} von =faction.formattedName= für =reason= =positive.if:bewundert:verachtet=."</string>
+  <string ID="{{rules|=ego.signed= Ego}}&#10;{{rules|=hitBonus.signed= To-Hit}}&#10;{{rules|=detailedStats=}}">{{rules|=ego.signed= Ego}}&#10;{{rules|=hitBonus.signed= Treffer}}&#10;{{rules|=detailedStats=}}</string>
+  <string ID="{{rules|=ego.signed= Ego}}&#10;{{rules|=detailedStats=}}">{{rules|=ego.signed= Ego}}&#10;{{rules|=detailedStats=}}</string>
+  <string ID="{{rules|=hitBonus.signed= To-Hit}}&#10;{{rules|=detailedStats=}}">{{rules|=hitBonus.signed= Treffer}}&#10;{{rules|=detailedStats=}}</string>
 </strings>

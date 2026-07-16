@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <objects Lang="de" Encoding="utf-8">
   <object Name="Plant" Load="Merge">
     <stag Name="Plank" Value="Planke" />
@@ -467,5 +466,9 @@
     <part Name="Render" DisplayName="Wendeltreppe hinab" />
     <part Name="Description" Short="Glatte und trübe Kegelstümpfe schweben in einer Helix psionischer Aufhängung." />
     <xtagGrammar iArticle="einige" />
+  </object>
+  <object Name="CyanMarbleWalkway" Load="Merge">
+    <part Name="Render" DisplayName="Marmorlaufweg" />
+    <part Name="Description" Short="Marmorrechtecke bedecken den Pfad wie ein Mosaik." />
   </object>
 </objects>

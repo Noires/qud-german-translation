@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "note": "Route-scoped regex rewrites for code-built message-log lines. First match wins per line (order matters: specific before generic). {group:shape} = capture group, term-translated then run through the German shape operator (nom/acc/dat/gen, subject=nom, object=acc, name, v-<infinitive>). English frames mirror the game's assembled strings; German is authored here. See docs/RUNTIME_POSTPROCESSOR_PLAN.md.",
+  "patterns": [
+
+    { "comment": "--- combat frames. Alternations (you|Euch, with|mit, hits|trifft, for|für, damage|Schaden) absorb the inconsistent pre-translation (verb via GetVerb, pronoun/prep via data layer). {weapon:possdat} handles its/your/sein/euer + adjective inflection. No-target/penetration forms must precede the target forms.",
+      "id": "route-player-hit-notarget-roll", "routes": ["MessageLog"],
+      "pattern": "^You hit (?<c>\\(x\\d+\\) )?(?:for|für) (?<n>\\d+) (?:damage|Schaden) (?:with|mit) (?<w>.+?)! \\[(?<r>\\d+)\\]$",
+      "replacement": "Ihr trefft {c}für {n} Schaden mit {w:possdat}! [{r}]" },
+
+    { "id": "route-actor-crit-notarget-roll", "routes": ["MessageLog"],
+      "pattern": "^(?<a>.+?) (?:critically hits|critically trifft|kritisch trifft) (?<c>\\(x\\d+\\) )?(?:for|für) (?<n>\\d+) (?:damage|Schaden) (?:with|mit) (?<w>.+?)\\. \\[(?<r>\\d+)\\]$",
+      "replacement": "{a:nom} trifft {c}kritisch für {n} Schaden mit {w:possdat}. [{r}]" },
+
+    { "id": "route-actor-hits-notarget-roll", "routes": ["MessageLog"],
+      "pattern": "^(?<a>.+?) (?:hits|trifft) (?<c>\\(x\\d+\\) )?(?:for|für) (?<n>\\d+) (?:damage|Schaden) (?:with|mit) (?<w>.+?)\\. \\[(?<r>\\d+)\\]$",
+      "replacement": "{a:nom} trifft {c}für {n} Schaden mit {w:possdat}. [{r}]" },
+
+    { "id": "route-actor-miss-you-weapon-roll", "routes": ["MessageLog"],
+      "pattern": "^(?<a>.+?) (?:misses|verfehlt) (?:you|Euch) (?:with|mit) (?<w>.+?)! \\[(?<r>\\d+) vs\\. (?<d>\\d+)\\]$",
+      "replacement": "{a:nom} verfehlt Euch mit {w:possdat}! [{r} vs. {d}]" },
+
+    { "id": "route-actor-miss-you-roll", "routes": ["MessageLog"],
+      "pattern": "^(?<a>.+?) (?:misses|verfehlt) (?:you|Euch)! \\[(?<r>\\d+) vs\\. (?<d>\\d+)\\]$",
+      "replacement": "{a:nom} verfehlt Euch! [{r} vs. {d}]" },
+
+    { "id": "route-actor-strikes-you", "routes": ["MessageLog"],
+      "pattern": "^(?<a>.+?) (?:strikes|trifft) (?:you|Euch|Ihr) (?:with|mit) (?<w>.+?)!$",
+      "replacement": "{a:nom} trifft Euch mit {w:possdat}!" },
+
+    { "id": "route-actor-impales-self", "routes": ["MessageLog"],
+      "pattern": "^(?<a>.+?) (?:impales|pfählt) (?:itself|sich) (?:on|an|auf) (?<w>.+?) (?:and|und) (?:takes|nimmt|erleidet) (?<n>\\d+) (?:damage|Schaden)!$",
+      "replacement": "{a:nom} pfählt sich an {w:possdat} und erleidet {n} Schaden!" },
+
+    { "id": "route-attack-breaks", "routes": ["MessageLog"],
+      "pattern": "^The attack breaks (?<x>.+?)!$",
+      "replacement": "Der Angriff zerbricht {x}!" },
+
+    { "comment": "German-cleanup: the data layer already translates the player hit but leaves the weapon possessive/adjective uninflected ('mit Eurem eiserne Rebenklinge'). Re-run the weapon through possdat.",
+      "id": "route-player-hit-de-cleanup", "routes": ["MessageLog"],
+      "pattern": "^Ihr trefft (?<c>\\(x\\d+\\) )?mit (?<w>.+?) für (?<n>\\d+) Schaden!(?<roll> \\[\\d+\\])?$",
+      "replacement": "Ihr trefft {c}mit {w:possdat} für {n} Schaden!{roll}" },
+
+    { "id": "route-player-hit-roll", "routes": ["MessageLog"],
+      "pattern": "^You hit (?<target>.+?)(?<count> \\(x\\d+\\))? for (?<amount>\\d+) damage with (?<weapon>.+?)! \\[(?<roll>\\d+)\\]$",
+      "replacement": "Ihr trefft {target:acc}{count} mit {weapon:possdat} für {amount} Schaden! [{roll}]" },
+
+    { "id": "route-player-critical-hit-damage", "routes": ["MessageLog"],
+      "pattern": "^You critically hit (?<target>.+?)(?<count> \\(x\\d+\\))? with (?<weapon>.+?) for (?<amount>\\d+) damage!$",
+      "replacement": "Ihr trefft {target:acc}{count} kritisch mit {weapon:possdat} für {amount} Schaden!" },
+
+    { "id": "route-player-hit-damage", "routes": ["MessageLog"],
+      "pattern": "^You hit (?<target>.+?)(?<count> \\(x\\d+\\))? with (?<weapon>.+?) for (?<amount>\\d+) damage!$",
+      "replacement": "Ihr trefft {target:acc}{count} mit {weapon:possdat} für {amount} Schaden!" },
+
+    { "id": "route-player-miss", "routes": ["MessageLog"],
+      "pattern": "^You miss (?<target>.+?)\\.$",
+      "replacement": "Ihr verfehlt {target:acc}." },
+
+    { "id": "route-actor-critically-hits-you-roll", "routes": ["MessageLog"],
+      "pattern": "^(?<attacker>.+?) critically hits you(?<count> \\(x\\d+\\))? for (?<amount>\\d+) damage with (?<weapon>.+?)\\. \\[(?<roll>\\d+)\\]$",
+      "replacement": "{attacker:nom} trifft Euch{count} kritisch mit {weapon:possdat} für {amount} Schaden. [{roll}]" },
+
+    { "id": "route-actor-hits-you-roll", "routes": ["MessageLog"],
+      "pattern": "^(?<attacker>.+?) hits you(?<count> \\(x\\d+\\))? for (?<amount>\\d+) damage with (?<weapon>.+?)\\. \\[(?<roll>\\d+)\\]$",
+      "replacement": "{attacker:nom} trifft Euch{count} mit {weapon:possdat} für {amount} Schaden. [{roll}]" },
+
+    { "id": "route-actor-hits-you-with", "routes": ["MessageLog"],
+      "pattern": "^(?<attacker>.+?) hits you(?<count> \\(x\\d+\\))? with (?<weapon>.+?) for (?<amount>\\d+) damage!$",
+      "replacement": "{attacker:nom} trifft Euch{count} mit {weapon:possdat} für {amount} Schaden!" },
+
+    { "id": "route-actor-hits-target-roll", "routes": ["MessageLog"],
+      "pattern": "^(?<attacker>.+?) hits (?<target>.+?) for (?<amount>\\d+) damage with (?<weapon>.+?)\\. \\[(?<roll>\\d+)\\]$",
+      "replacement": "{attacker:nom} trifft {target:acc} mit {weapon:possdat} für {amount} Schaden. [{roll}]" },
+
+    { "id": "route-actor-hits-target-with-count", "routes": ["MessageLog"],
+      "pattern": "^(?<attacker>.+?) hits (?<target>.+?) with (?<weapon>.+?)(?<count> \\(x\\d+\\))? for (?<amount>\\d+) damage!$",
+      "replacement": "{attacker:nom} trifft {target:acc} mit {weapon:possdat}{count} für {amount} Schaden!" },
+
+    { "id": "route-penetration-fail-armor", "routes": ["MessageLog"],
+      "pattern": "^(?<weapon>.+?) fails to penetrate (?<target>.+?)'s armor!$",
+      "replacement": "{weapon:nom} durchdringt die Rüstung von {target:dat} nicht!" },
+
+    { "id": "route-actor-misses-you", "routes": ["MessageLog"],
+      "pattern": "^(?<attacker>.+?) misses you\\.$",
+      "replacement": "{attacker:nom} verfehlt Euch." },
+
+    { "id": "route-actor-hits-you-simple", "routes": ["MessageLog"],
+      "pattern": "^(?<attacker>.+?) hits you!$",
+      "replacement": "{attacker:nom} trifft Euch!" },
+
+    { "id": "route-actor-hits-target-simple", "routes": ["MessageLog"],
+      "pattern": "^(?<attacker>.+?) hits (?<target>.+?)!$",
+      "replacement": "{attacker:nom} trifft {target:acc}!" },
+
+    { "id": "route-target-dies-excl", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) dies!$",
+      "replacement": "{target:nom} {target:v-sterben}!" },
+
+    { "id": "route-target-dies-period", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) dies\\.$",
+      "replacement": "{target:nom} {target:v-sterben}." },
+
+    { "id": "route-player-die", "routes": ["MessageLog"],
+      "pattern": "^You die!$",
+      "replacement": "Ihr sterbt!" },
+
+    { "id": "route-target-is-destroyed", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) is destroyed!$",
+      "replacement": "{target:nom} wird zerstört!" },
+
+    { "id": "route-target-takes-no-damage-from-effect", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) takes no damage from (?<effect>.+?)\\.$",
+      "replacement": "{target:nom} erleidet keinen Schaden durch {effect:acc}." },
+
+    { "id": "route-target-takes-damage-from-effect", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) takes (?<amount>\\d+) damage from (?<effect>.+?)\\.$",
+      "replacement": "{target:nom} erleidet {amount} Schaden durch {effect:acc}." },
+
+    { "id": "route-player-takes-damage-from-effect", "routes": ["MessageLog"],
+      "pattern": "^You take (?<amount>\\d+) damage from (?<effect>.+?)\\.$",
+      "replacement": "Ihr erleidet {amount} Schaden durch {effect:acc}." },
+
+    { "id": "route-target-begins-bleeding", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) begins bleeding!$",
+      "replacement": "{target:nom} fängt an zu bluten!" },
+
+    { "comment": "cleanup: data layer half-translates 'bleeding'->'Blutung' but leaves the code verb 'begins' English.",
+      "id": "route-target-begins-blutung", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) begins Blutung!$",
+      "replacement": "{target:nom} fängt an zu bluten!" },
+
+    { "id": "route-target-begins-flying", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) begins flying[.!]$",
+      "replacement": "{target:nom} beginnt zu fliegen." },
+
+    { "comment": "cleanup: GetVerb already turned 'begins'->'beginnt' before the line assembled, so the gerund stays English -> fix to 'zu <inf>'.",
+      "id": "route-beginnt-flying", "routes": ["MessageLog"],
+      "pattern": "^(?<subj>.+?) beginnt flying[.!]$",
+      "replacement": "{subj:nom} beginnt zu fliegen." },
+
+
+    { "id": "route-projectile-whizzes-past", "routes": ["MessageLog"],
+      "pattern": "^(?<projectile>.+?) whizzes past (?<dir>.+?)\\.$",
+      "replacement": "{projectile:nom} saust {dir} vorbei." },
+
+    { "id": "route-player-begins-bleeding", "routes": ["MessageLog"],
+      "pattern": "^You begin bleeding!$",
+      "replacement": "Ihr fangt an zu bluten!" },
+
+    { "id": "route-target-is-dazed", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) is dazed\\.$",
+      "replacement": "{target:nom} ist benommen." },
+
+    { "id": "route-target-falls-unconscious", "routes": ["MessageLog"],
+      "pattern": "^(?<target>.+?) falls unconscious\\.$",
+      "replacement": "{target:nom} wird bewusstlos." },
+
+    { "id": "route-actor-stands-up", "routes": ["MessageLog"],
+      "pattern": "^(?<actor>.+?) stands up\\.$",
+      "replacement": "{actor:nom} steht auf." },
+
+    { "id": "route-actor-starts-to-glow", "routes": ["MessageLog"],
+      "pattern": "^(?<actor>.+?) starts to glow\\.$",
+      "replacement": "{actor:nom} beginnt zu leuchten." },
+
+    { "id": "route-actor-consumes", "routes": ["MessageLog"],
+      "pattern": "^(?<actor>.+?) consumes (?<food>.+?)\\.$",
+      "replacement": "{actor:nom} verzehrt {food:acc}." },
+
+    { "id": "route-actor-harvests", "routes": ["MessageLog"],
+      "pattern": "^(?<actor>.+?) harvests (?<item>.+?)\\.$",
+      "replacement": "{actor:nom} erntet {item:acc}." },
+
+    { "id": "route-object-revealed-direction", "routes": ["MessageLog"],
+      "pattern": "^(?<object>.+?) is revealed (?<direction>.+?)!$",
+      "replacement": "{object:nom} wird enthüllt {direction}!" },
+
+    { "id": "route-way-blocked", "routes": ["MessageLog"],
+      "pattern": "^The way is blocked by (?<blocker>.+?)\\.$",
+      "replacement": "Der Weg wird von {blocker:dat} versperrt." },
+
+    { "id": "route-you-block", "routes": ["MessageLog"],
+      "pattern": "^You block with (?<weapon>.+?)! \\(\\+(?<av>\\d+) AV\\)$",
+      "replacement": "Ihr blockt mit {weapon:possdat}! (+{av} AV)" },
+
+    { "id": "route-no-more-ammo", "routes": ["MessageLog"],
+      "pattern": "^(?<weapon>.+?) has no more ammo!$",
+      "replacement": "{weapon:nom} hat keine Munition mehr!" },
+
+    { "id": "route-you-unequip", "routes": ["MessageLog"],
+      "pattern": "^You unequip (?<item>.+?)\\.$",
+      "replacement": "Ihr legt {item:acc} ab." },
+
+    { "id": "route-you-reload", "routes": ["MessageLog"],
+      "pattern": "^You reload (?<weapon>.+?) with (?<ammo>.+?)\\.$",
+      "replacement": "Ihr ladet {weapon:acc} mit {ammo:dat} nach." },
+
+    { "comment": "--- death-screen frames (routes: MessageLog + Popup + UIText). {pre} absorbs the already-German 'Du bist gestorben.' prefix, if present, and re-emits it verbatim. Per-verb participles are baked; a generic fallback keeps rare verbs legible. See docs/RUNTIME_POSTPROCESSOR_PLAN.md.",
+      "id": "route-death-bitten", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were bitten to death by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} zu Tode gebissen." },
+
+    { "id": "route-death-clawed", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were clawed to death by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} zu Tode zerfleischt." },
+
+    { "id": "route-death-frozen", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were frozen to death by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} zu Tode gefroren." },
+
+    { "id": "route-death-burned", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were burned to death by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} zu Tode verbrannt." },
+
+    { "id": "route-death-stabbed", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were stabbed to death by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} erstochen." },
+
+    { "id": "route-death-shot", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were shot to death by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} erschossen." },
+
+    { "id": "route-death-crushed-by", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were crushed to death by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} zu Tode zerquetscht." },
+
+    { "id": "route-death-to-death-generic", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were (?<verb>[A-Za-z-]+) to death by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} zu Tode {verb}." },
+
+    { "id": "route-death-killed-by", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You were killed by (?<killer>.+?)\\.(?:\\s*\\[[^\\]]*\\])?\\s*$",
+      "replacement": "{pre}Ihr wurdet von {killer:dat} getötet." },
+
+    { "id": "route-death-bled-because", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You bled to death because of (?<cause>.+?)\\.\\s*$",
+      "replacement": "{pre}Ihr seid wegen {cause} verblutet." },
+
+    { "id": "route-death-bled", "routes": ["MessageLog", "Popup", "UIText", "GameSummary"],
+      "pattern": "^(?<pre>[\\s\\S]*?)You bled to death\\.\\s*$",
+      "replacement": "{pre}Ihr seid verblutet." },
+
+    { "id": "route-discover-location", "routes": ["Popup", "MessageLog"],
+      "pattern": "^You discover (?<place>.+?)!$",
+      "replacement": "Ihr entdeckt {place}!" },
+
+    { "id": "route-note-location-journal", "routes": ["Popup", "MessageLog"],
+      "pattern": "^You note the location of (?<place>.+?) in the (?<section>.+?) section of your journal\\.$",
+      "replacement": "Ihr vermerkt den Ort von {place} im Abschnitt {section} eures Journals." },
+
+    { "comment": "--- code-built popups (Popup body via Show args; your|Euer alternation) ---",
+      "id": "route-popup-genome-excited", "routes": ["Popup"],
+      "pattern": "^Your genome enters an excited state! Would you like to spend (?<n>\\d+) mutation points to buy a Mutation before rapidly mutating\\?$",
+      "replacement": "Euer Genom gerät in einen erregten Zustand! Möchtet Ihr {n} Mutationspunkte ausgeben, um eine Mutation zu kaufen, bevor Ihr schnell mutiert?" },
+
+    { "id": "route-popup-rapidly-advanced", "routes": ["Popup", "MessageLog"],
+      "pattern": "^You have rapidly advanced (?<m>.+?) by (?<a>.+?) ranks to rank (?<r>\\d+)!$",
+      "replacement": "{m} wurde um {a} Ränge auf Rang {r} verbessert!" },
+
+    { "id": "route-popup-swell-name", "routes": ["Popup"],
+      "pattern": "^You swell with the inspiration to name (?:your|Euer|Eure) (?<x>.+?)\\. Do you wish to\\?$",
+      "replacement": "Euch überkommt die Eingebung, {x:euer} zu benennen. Möchtet Ihr das?" },
+
+    { "id": "route-popup-rename-title", "routes": ["Popup"],
+      "pattern": "^Rename (?:your|Euer|Eure) (?<x>.+?)\\.$",
+      "replacement": "Benennt {x:euer} um." },
+
+    { "id": "route-popup-select-name-color", "routes": ["Popup"],
+      "pattern": "^You select the name '(?<nm>.+?)' for (?:your|Euer|Eure) (?<x>.+?)\\. Choose a color for (?:it|es)\\.$",
+      "replacement": "Ihr wählt den Namen '{nm}' für {x:euer}. Wählt eine Farbe dafür." },
+
+    { "id": "route-popup-you-name", "routes": ["Popup"],
+      "pattern": "^You name (?:your|Euer|Eure) (?<x>.+?) '(?<nm>.+?)'\\.$",
+      "replacement": "Ihr benennt {x:euer} '{nm}'." },
+
+    { "comment": "cooking-ingredient liquid label: inflect the liquid's attributive adjective (data stores base form 'brackig'). 'ein Dram brackig Schleim' -> 'ein Dram brackiger Schleim'.",
+      "id": "route-dram-liquid", "routes": ["MenuOption", "Popup"],
+      "pattern": "^ein Dram (?<liq>.+?)(?<c> x\\d+)?$",
+      "replacement": "ein Dram {liq:strongnom}{c}" },
+
+    { "comment": "rename option-list items (MenuOption route).",
+      "id": "route-menu-enter-name", "routes": ["MenuOption"],
+      "pattern": "^Enter a name\\.$", "replacement": "Einen Namen eingeben." },
+    { "id": "route-menu-name-qualities", "routes": ["MenuOption"],
+      "pattern": "^Name (?:it|es) based on (?:its|sein|ihre|seine) qualities\\.$", "replacement": "Nach seinen Eigenschaften benennen." },
+    { "id": "route-menu-random-own-culture", "routes": ["MenuOption"],
+      "pattern": "^Choose a random name from (?:your|Eurer) own culture\\.$", "replacement": "Einen zufälligen Namen aus Eurer eigenen Kultur wählen." },
+    { "id": "route-menu-random-culture", "routes": ["MenuOption"],
+      "pattern": "^Choose a random name from the (?<who>.+?)'s culture\\.$", "replacement": "Einen zufälligen Namen aus der Kultur von {who:dat} wählen." },
+    { "id": "route-menu-no-coloration", "routes": ["MenuOption"],
+      "pattern": "^no coloration$", "replacement": "keine Färbung" },
+
+    { "comment": "--- Phase 4: status / misc English frames that leaked ---",
+      "id": "route-lost-bearings", "routes": ["Popup", "MessageLog"],
+      "pattern": "^You're lost! Regain your bearings by exploring your surroundings\\.$",
+      "replacement": "Ihr habt die Orientierung verloren! Erkundet eure Umgebung, um euch neu zu orientieren." },
+
+    { "id": "route-regain-bearings", "routes": ["Popup", "MessageLog"],
+      "pattern": "^You regain your bearings\\.$",
+      "replacement": "Ihr habt eure Orientierung wiedergefunden." },
+
+    { "id": "route-you-are-paralyzed", "routes": ["MessageLog", "Popup"],
+      "pattern": "^You are paralyzed!$",
+      "replacement": "Ihr seid gelähmt!" },
+
+    { "id": "route-cures-you-of-paralyzed", "routes": ["MessageLog"],
+      "pattern": "^Your regenerative metabolism cures you of paralyzed\\.$",
+      "replacement": "Euer regenerativer Stoffwechsel heilt euch von der Lähmung." },
+
+    { "comment": "generic cure fallback (status stays English until termed/added).",
+      "id": "route-cures-you-of", "routes": ["MessageLog"],
+      "pattern": "^Your regenerative metabolism cures you of (?<x>.+?)\\.$",
+      "replacement": "Euer regenerativer Stoffwechsel heilt euch von {x}." },
+
+    { "comment": "ambient speech: verb already German (schreit/sagt/...) but leading 'The' English -> article.",
+      "id": "route-ambient-speech-the", "routes": ["MessageLog"],
+      "pattern": "^(?<subj>The .+?) (?<verb>schreit|sagt|ruft|brüllt|flüstert|murmelt|knurrt|zischt|quietscht|jault|winselt|singt|lacht|weint)(?<rest>[,.:! ][\\s\\S]*)$",
+      "replacement": "{subj:nom} {verb}{rest}" },
+
+    { "comment": "--- possessive display names (route Possessive; GameObject.Poss) ---",
+      "id": "route-poss-your", "routes": ["Possessive"],
+      "pattern": "^Your (?<item>.+)$",
+      "replacement": "{item:euer}" },
+
+    { "comment": "common-noun owner -> German genitive, reordered: 'the snapjaw's tail' -> 'der Schwanz des Schnappkiefers'",
+      "id": "route-poss-the-owner", "routes": ["Possessive"],
+      "pattern": "^[Tt]he (?<owner>.+?)(?:'s|') (?<item>.+)$",
+      "replacement": "{item:def} {owner:possgen}" },
+
+    { "comment": "proper-name owner -> 'Ualraigs Schwert' (genitive-s, no article)",
+      "id": "route-poss-proper-owner", "routes": ["Possessive"],
+      "pattern": "^(?<owner>.+?)(?:'s|') (?<item>.+)$",
+      "replacement": "{owner}s {item}" }
+
+  ]
+}
