@@ -457,8 +457,12 @@ namespace LanguagesOfQudGerman
                     foreach (var v in arr)
                     {
                         string inf = (string)v["inf"];
+                        string s3 = (string)v["s3"];
                         if (string.IsNullOrEmpty(inf)) continue;
-                        VerbsByInf[inf] = new[] { (string)v["s3"] ?? inf, (string)v["p2"] ?? inf, (string)v["p3"] ?? inf };
+                        // Only STRONG verbs (explicit s3) go in the table; WEAK verbs (inf only)
+                        // fall through to WeakConjugate's algorithmic present tense.
+                        if (string.IsNullOrEmpty(s3)) continue;
+                        VerbsByInf[inf] = new[] { s3, (string)v["p2"] ?? inf, (string)v["p3"] ?? inf };
                         n++;
                     }
                     UnityEngine.Debug.Log("[QudDE] verb table (by infinitive): " + n + " strong verbs");
@@ -550,9 +554,13 @@ namespace LanguagesOfQudGerman
             }
             // German conjugation replacer (subject-based): GameText.VariableReplace(text, subject, object)
             string[][] vtests = {
-                new[] { "Croc", "=subject.konjde:sehen=",  "sieht" },  // strong (from Verbs.json)
-                new[] { "Croc", "=subject.konjde:machen=", "macht" },  // weak (algorithmic)
-                new[] { "Croc", "=subject.konjde:waten=",  "watet" },  // weak, -et after t
+                new[] { "Croc", "=subject.konjde:sehen=",    "sieht" },   // strong (from Verbs.json)
+                new[] { "Croc", "=subject.konjde:machen=",   "macht" },   // weak (algorithmic)
+                new[] { "Croc", "=subject.konjde:waten=",    "watet" },   // weak, -et after t
+                new[] { "Croc", "=subject.konjde:schlagen=", "schlägt" }, // agent strong: a->ä
+                new[] { "Croc", "=subject.konjde:graben=",   "gräbt" },   // agent strong: a->ä
+                new[] { "Croc", "=subject.konjde:tragen=",   "trägt" },   // agent strong: a->ä
+                new[] { "Croc", "=subject.konjde:heilen=",   "heilt" },   // agent weak
             };
             foreach (var t in vtests)
             {

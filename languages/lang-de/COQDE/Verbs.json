@@ -2,68 +2,1181 @@
   "version": 2,
   "note": "German verb conjugations. Two consumers: (1) the message-log {group:v-<inf>} operator keys on the German infinitive 'inf'; (2) the GameObject.GetVerb Harmony postfix keys on 'en' (the English base form the game passes to GetVerb, i.e. the 2nd-person/plural form: 'are','have','wade','see'...). Forms: s3=3rd sg (er/sie/es), p2=2nd pl / formal 'Ihr' (ihr), p3=3rd pl (sie). Unmapped English verbs fall back to the game's English output (no regression). Only include non-separable German equivalents (separable-prefix verbs like 'greift an' break word order in a single-token replacement); leave those to English fallback.",
   "verbs": [
-    { "en": "are",       "inf": "sein",        "s3": "ist",         "p2": "seid",        "p3": "sind" },
-    { "en": "have",      "inf": "haben",       "s3": "hat",         "p2": "habt",        "p3": "haben" },
-    { "en": "do",        "inf": "tun",         "s3": "tut",         "p2": "tut",         "p3": "tun" },
-    { "en": "see",       "inf": "sehen",       "s3": "sieht",       "p2": "seht",        "p3": "sehen" },
-    { "en": "wade",      "inf": "waten",       "s3": "watet",       "p2": "watet",       "p3": "waten" },
-    { "en": "swim",      "inf": "schwimmen",   "s3": "schwimmt",    "p2": "schwimmt",    "p3": "schwimmen" },
-    { "en": "fall",      "inf": "fallen",      "s3": "fällt",       "p2": "fallt",       "p3": "fallen" },
-    { "en": "take",      "inf": "nehmen",      "s3": "nimmt",       "p2": "nehmt",       "p3": "nehmen" },
-    { "en": "begin",     "inf": "beginnen",    "s3": "beginnt",     "p2": "beginnt",     "p3": "beginnen" },
-    { "en": "start",     "inf": "starten",     "s3": "startet",     "p2": "startet",     "p3": "starten" },
-    { "en": "explode",   "inf": "explodieren", "s3": "explodiert",  "p2": "explodiert",  "p3": "explodieren" },
-    { "en": "transfer",  "inf": "übertragen",  "s3": "überträgt",   "p2": "übertragt",   "p3": "übertragen" },
-    { "en": "try",       "inf": "versuchen",   "s3": "versucht",    "p2": "versucht",    "p3": "versuchen" },
-    { "en": "miss",      "inf": "verfehlen",   "s3": "verfehlt",    "p2": "verfehlt",    "p3": "verfehlen" },
-    { "en": "seem",      "inf": "scheinen",    "s3": "scheint",     "p2": "scheint",     "p3": "scheinen" },
-    { "en": "reflect",   "inf": "reflektieren","s3": "reflektiert", "p2": "reflektiert", "p3": "reflektieren" },
-    { "en": "pour",      "inf": "strömen",     "s3": "strömt",      "p2": "strömt",      "p3": "strömen" },
-    { "en": "need",      "inf": "brauchen",    "s3": "braucht",     "p2": "braucht",     "p3": "brauchen" },
-    { "en": "feel",      "inf": "fühlen",      "s3": "fühlt",       "p2": "fühlt",       "p3": "fühlen" },
-    { "en": "disappear", "inf": "verschwinden","s3": "verschwindet","p2": "verschwindet","p3": "verschwinden" },
-    { "en": "vanish",    "inf": "verschwinden","s3": "verschwindet","p2": "verschwindet","p3": "verschwinden" },
-    { "en": "clean",     "inf": "reinigen",    "s3": "reinigt",     "p2": "reinigt",     "p3": "reinigen" },
-    { "en": "activate",  "inf": "aktivieren",  "s3": "aktiviert",   "p2": "aktiviert",   "p3": "aktivieren" },
-    { "en": "wander",    "inf": "wandern",     "s3": "wandert",     "p2": "wandert",     "p3": "wandern" },
-    { "en": "wake",      "inf": "erwachen",    "s3": "erwacht",     "p2": "erwacht",     "p3": "erwachen" },
-    { "en": "vibrate",   "inf": "vibrieren",   "s3": "vibriert",    "p2": "vibriert",    "p3": "vibrieren" },
-    { "en": "touch",     "inf": "berühren",    "s3": "berührt",     "p2": "berührt",     "p3": "berühren" },
-    { "en": "stop",      "inf": "stoppen",     "s3": "stoppt",      "p2": "stoppt",      "p3": "stoppen" },
-    { "en": "resist",    "inf": "widerstehen", "s3": "widersteht",  "p2": "widersteht",  "p3": "widerstehen" },
-    { "en": "shake",     "inf": "zittern",     "s3": "zittert",     "p2": "zittert",     "p3": "zittern" },
-    { "en": "emit",      "inf": "verströmen",  "s3": "verströmt",   "p2": "verströmt",   "p3": "verströmen" },
-    { "en": "gain",      "inf": "gewinnen",    "s3": "gewinnt",     "p2": "gewinnt",     "p3": "gewinnen" },
-    { "en": "lose",      "inf": "verlieren",   "s3": "verliert",    "p2": "verliert",    "p3": "verlieren" },
-    { "en": "get",       "inf": "bekommen",    "s3": "bekommt",     "p2": "bekommt",     "p3": "bekommen" },
-    { "en": "give",      "inf": "geben",       "s3": "gibt",        "p2": "gebt",        "p3": "geben" },
-    { "en": "go",        "inf": "gehen",       "s3": "geht",        "p2": "geht",        "p3": "gehen" },
-    { "en": "make",      "inf": "machen",      "s3": "macht",       "p2": "macht",       "p3": "machen" },
-    { "en": "use",       "inf": "benutzen",    "s3": "benutzt",     "p2": "benutzt",     "p3": "benutzen" },
-    { "en": "eat",       "inf": "essen",       "s3": "isst",        "p2": "esst",        "p3": "essen" },
-    { "en": "drink",     "inf": "trinken",     "s3": "trinkt",      "p2": "trinkt",      "p3": "trinken" },
-    { "en": "die",       "inf": "sterben",     "s3": "stirbt",      "p2": "sterbt",      "p3": "sterben" },
-    { "en": "bleed",     "inf": "bluten",      "s3": "blutet",      "p2": "blutet",      "p3": "bluten" },
-    { "en": "burn",      "inf": "brennen",     "s3": "brennt",      "p2": "brennt",      "p3": "brennen" },
-    { "en": "stand",     "inf": "stehen",      "s3": "steht",       "p2": "steht",       "p3": "stehen" },
-    { "en": "appear",    "inf": "erscheinen",  "s3": "erscheint",   "p2": "erscheint",   "p3": "erscheinen" },
-    { "en": "become",    "inf": "werden",      "s3": "wird",        "p2": "werdet",      "p3": "werden" },
-    { "en": "hit",       "inf": "treffen",     "s3": "trifft",      "p2": "trefft",      "p3": "treffen" },
-    { "en": "fail",      "inf": "scheitern",   "s3": "scheitert",   "p2": "scheitert",   "p3": "scheitern" },
-    { "en": "crumble",   "inf": "zerbröckeln", "s3": "zerbröckelt", "p2": "zerbröckelt", "p3": "zerbröckeln" },
-    { "en": "vomit",     "inf": "erbrechen",   "s3": "erbricht",    "p2": "erbrecht",    "p3": "erbrechen" },
-    { "en": "hiss",      "inf": "zischen",     "s3": "zischt",      "p2": "zischt",      "p3": "zischen" },
-    { "en": "buzz",      "inf": "summen",      "s3": "summt",       "p2": "summt",       "p3": "summen" },
-    { "en": "snore",     "inf": "schnarchen",  "s3": "schnarcht",   "p2": "schnarcht",   "p3": "schnarchen" },
-    { "en": "yell",      "inf": "schreien",    "s3": "schreit",     "p2": "schreit",     "p3": "schreien" },
-    { "en": "flicker",   "inf": "flackern",    "s3": "flackert",    "p2": "flackert",    "p3": "flackern" },
-    { "en": "shimmer",   "inf": "schimmern",   "s3": "schimmert",   "p2": "schimmert",   "p3": "schimmern" },
-    { "en": "suffer",    "inf": "leiden",      "s3": "leidet",      "p2": "leidet",      "p3": "leiden" },
-    { "en": "thirst",    "inf": "dürsten",     "s3": "dürstet",     "p2": "dürstet",     "p3": "dürsten" },
-    { "en": "shatter",   "inf": "zerspringen", "s3": "zerspringt",  "p2": "zerspringt",  "p3": "zerspringen" },
-    { "en": "sunder",    "inf": "zerbersten",  "s3": "zerbirst",    "p2": "zerberstet",  "p3": "zerbersten" },
-    { "en": "voice",     "inf": "ertönen",     "s3": "ertönt",      "p2": "ertönt",      "p3": "ertönen" },
-    { "en": "waver",     "inf": "schwanken",   "s3": "schwankt",    "p2": "schwankt",    "p3": "schwanken" },
-    { "en": "harvest",   "inf": "ernten",      "s3": "erntet",      "p2": "erntet",      "p3": "ernten" }
+    {
+      "en": "are",
+      "inf": "sein",
+      "s3": "ist",
+      "p2": "seid",
+      "p3": "sind"
+    },
+    {
+      "en": "have",
+      "inf": "haben",
+      "s3": "hat",
+      "p2": "habt",
+      "p3": "haben"
+    },
+    {
+      "en": "do",
+      "inf": "tun",
+      "s3": "tut",
+      "p2": "tut",
+      "p3": "tun"
+    },
+    {
+      "en": "see",
+      "inf": "sehen",
+      "s3": "sieht",
+      "p2": "seht",
+      "p3": "sehen"
+    },
+    {
+      "en": "wade",
+      "inf": "waten",
+      "s3": "watet",
+      "p2": "watet",
+      "p3": "waten"
+    },
+    {
+      "en": "swim",
+      "inf": "schwimmen",
+      "s3": "schwimmt",
+      "p2": "schwimmt",
+      "p3": "schwimmen"
+    },
+    {
+      "en": "fall",
+      "inf": "fallen",
+      "s3": "fällt",
+      "p2": "fallt",
+      "p3": "fallen"
+    },
+    {
+      "en": "take",
+      "inf": "nehmen",
+      "s3": "nimmt",
+      "p2": "nehmt",
+      "p3": "nehmen"
+    },
+    {
+      "en": "begin",
+      "inf": "beginnen",
+      "s3": "beginnt",
+      "p2": "beginnt",
+      "p3": "beginnen"
+    },
+    {
+      "en": "start",
+      "inf": "starten",
+      "s3": "startet",
+      "p2": "startet",
+      "p3": "starten"
+    },
+    {
+      "en": "explode",
+      "inf": "explodieren",
+      "s3": "explodiert",
+      "p2": "explodiert",
+      "p3": "explodieren"
+    },
+    {
+      "en": "transfer",
+      "inf": "übertragen",
+      "s3": "überträgt",
+      "p2": "übertragt",
+      "p3": "übertragen"
+    },
+    {
+      "en": "try",
+      "inf": "versuchen",
+      "s3": "versucht",
+      "p2": "versucht",
+      "p3": "versuchen"
+    },
+    {
+      "en": "miss",
+      "inf": "verfehlen",
+      "s3": "verfehlt",
+      "p2": "verfehlt",
+      "p3": "verfehlen"
+    },
+    {
+      "en": "seem",
+      "inf": "scheinen",
+      "s3": "scheint",
+      "p2": "scheint",
+      "p3": "scheinen"
+    },
+    {
+      "en": "reflect",
+      "inf": "reflektieren",
+      "s3": "reflektiert",
+      "p2": "reflektiert",
+      "p3": "reflektieren"
+    },
+    {
+      "en": "pour",
+      "inf": "strömen",
+      "s3": "strömt",
+      "p2": "strömt",
+      "p3": "strömen"
+    },
+    {
+      "en": "need",
+      "inf": "brauchen",
+      "s3": "braucht",
+      "p2": "braucht",
+      "p3": "brauchen"
+    },
+    {
+      "en": "feel",
+      "inf": "fühlen",
+      "s3": "fühlt",
+      "p2": "fühlt",
+      "p3": "fühlen"
+    },
+    {
+      "en": "disappear",
+      "inf": "verschwinden",
+      "s3": "verschwindet",
+      "p2": "verschwindet",
+      "p3": "verschwinden"
+    },
+    {
+      "en": "vanish",
+      "inf": "verschwinden",
+      "s3": "verschwindet",
+      "p2": "verschwindet",
+      "p3": "verschwinden"
+    },
+    {
+      "en": "clean",
+      "inf": "reinigen",
+      "s3": "reinigt",
+      "p2": "reinigt",
+      "p3": "reinigen"
+    },
+    {
+      "en": "activate",
+      "inf": "aktivieren",
+      "s3": "aktiviert",
+      "p2": "aktiviert",
+      "p3": "aktivieren"
+    },
+    {
+      "en": "wander",
+      "inf": "wandern",
+      "s3": "wandert",
+      "p2": "wandert",
+      "p3": "wandern"
+    },
+    {
+      "en": "wake",
+      "inf": "erwachen",
+      "s3": "erwacht",
+      "p2": "erwacht",
+      "p3": "erwachen"
+    },
+    {
+      "en": "vibrate",
+      "inf": "vibrieren",
+      "s3": "vibriert",
+      "p2": "vibriert",
+      "p3": "vibrieren"
+    },
+    {
+      "en": "touch",
+      "inf": "berühren",
+      "s3": "berührt",
+      "p2": "berührt",
+      "p3": "berühren"
+    },
+    {
+      "en": "stop",
+      "inf": "stoppen",
+      "s3": "stoppt",
+      "p2": "stoppt",
+      "p3": "stoppen"
+    },
+    {
+      "en": "resist",
+      "inf": "widerstehen",
+      "s3": "widersteht",
+      "p2": "widersteht",
+      "p3": "widerstehen"
+    },
+    {
+      "en": "shake",
+      "inf": "zittern",
+      "s3": "zittert",
+      "p2": "zittert",
+      "p3": "zittern"
+    },
+    {
+      "en": "emit",
+      "inf": "verströmen",
+      "s3": "verströmt",
+      "p2": "verströmt",
+      "p3": "verströmen"
+    },
+    {
+      "en": "gain",
+      "inf": "gewinnen",
+      "s3": "gewinnt",
+      "p2": "gewinnt",
+      "p3": "gewinnen"
+    },
+    {
+      "en": "lose",
+      "inf": "verlieren",
+      "s3": "verliert",
+      "p2": "verliert",
+      "p3": "verlieren"
+    },
+    {
+      "en": "get",
+      "inf": "bekommen",
+      "s3": "bekommt",
+      "p2": "bekommt",
+      "p3": "bekommen"
+    },
+    {
+      "en": "give",
+      "inf": "geben",
+      "s3": "gibt",
+      "p2": "gebt",
+      "p3": "geben"
+    },
+    {
+      "en": "go",
+      "inf": "gehen",
+      "s3": "geht",
+      "p2": "geht",
+      "p3": "gehen"
+    },
+    {
+      "en": "make",
+      "inf": "machen",
+      "s3": "macht",
+      "p2": "macht",
+      "p3": "machen"
+    },
+    {
+      "en": "use",
+      "inf": "benutzen",
+      "s3": "benutzt",
+      "p2": "benutzt",
+      "p3": "benutzen"
+    },
+    {
+      "en": "eat",
+      "inf": "essen",
+      "s3": "isst",
+      "p2": "esst",
+      "p3": "essen"
+    },
+    {
+      "en": "drink",
+      "inf": "trinken",
+      "s3": "trinkt",
+      "p2": "trinkt",
+      "p3": "trinken"
+    },
+    {
+      "en": "die",
+      "inf": "sterben",
+      "s3": "stirbt",
+      "p2": "sterbt",
+      "p3": "sterben"
+    },
+    {
+      "en": "bleed",
+      "inf": "bluten",
+      "s3": "blutet",
+      "p2": "blutet",
+      "p3": "bluten"
+    },
+    {
+      "en": "burn",
+      "inf": "brennen",
+      "s3": "brennt",
+      "p2": "brennt",
+      "p3": "brennen"
+    },
+    {
+      "en": "stand",
+      "inf": "stehen",
+      "s3": "steht",
+      "p2": "steht",
+      "p3": "stehen"
+    },
+    {
+      "en": "appear",
+      "inf": "erscheinen",
+      "s3": "erscheint",
+      "p2": "erscheint",
+      "p3": "erscheinen"
+    },
+    {
+      "en": "become",
+      "inf": "werden",
+      "s3": "wird",
+      "p2": "werdet",
+      "p3": "werden"
+    },
+    {
+      "en": "hit",
+      "inf": "treffen",
+      "s3": "trifft",
+      "p2": "trefft",
+      "p3": "treffen"
+    },
+    {
+      "en": "fail",
+      "inf": "scheitern",
+      "s3": "scheitert",
+      "p2": "scheitert",
+      "p3": "scheitern"
+    },
+    {
+      "en": "crumble",
+      "inf": "zerbröckeln",
+      "s3": "zerbröckelt",
+      "p2": "zerbröckelt",
+      "p3": "zerbröckeln"
+    },
+    {
+      "en": "vomit",
+      "inf": "erbrechen",
+      "s3": "erbricht",
+      "p2": "erbrecht",
+      "p3": "erbrechen"
+    },
+    {
+      "en": "hiss",
+      "inf": "zischen",
+      "s3": "zischt",
+      "p2": "zischt",
+      "p3": "zischen"
+    },
+    {
+      "en": "buzz",
+      "inf": "summen",
+      "s3": "summt",
+      "p2": "summt",
+      "p3": "summen"
+    },
+    {
+      "en": "snore",
+      "inf": "schnarchen",
+      "s3": "schnarcht",
+      "p2": "schnarcht",
+      "p3": "schnarchen"
+    },
+    {
+      "en": "yell",
+      "inf": "schreien",
+      "s3": "schreit",
+      "p2": "schreit",
+      "p3": "schreien"
+    },
+    {
+      "en": "flicker",
+      "inf": "flackern",
+      "s3": "flackert",
+      "p2": "flackert",
+      "p3": "flackern"
+    },
+    {
+      "en": "shimmer",
+      "inf": "schimmern",
+      "s3": "schimmert",
+      "p2": "schimmert",
+      "p3": "schimmern"
+    },
+    {
+      "en": "suffer",
+      "inf": "leiden",
+      "s3": "leidet",
+      "p2": "leidet",
+      "p3": "leiden"
+    },
+    {
+      "en": "thirst",
+      "inf": "dürsten",
+      "s3": "dürstet",
+      "p2": "dürstet",
+      "p3": "dürsten"
+    },
+    {
+      "en": "shatter",
+      "inf": "zerspringen",
+      "s3": "zerspringt",
+      "p2": "zerspringt",
+      "p3": "zerspringen"
+    },
+    {
+      "en": "sunder",
+      "inf": "zerbersten",
+      "s3": "zerbirst",
+      "p2": "zerberstet",
+      "p3": "zerbersten"
+    },
+    {
+      "en": "voice",
+      "inf": "ertönen",
+      "s3": "ertönt",
+      "p2": "ertönt",
+      "p3": "ertönen"
+    },
+    {
+      "en": "waver",
+      "inf": "schwanken",
+      "s3": "schwankt",
+      "p2": "schwankt",
+      "p3": "schwanken"
+    },
+    {
+      "en": "harvest",
+      "inf": "ernten",
+      "s3": "erntet",
+      "p2": "erntet",
+      "p3": "ernten"
+    },
+    {
+      "en": "teleport",
+      "inf": "teleportieren",
+      "s3": "teleportiert",
+      "p2": "teleportiert",
+      "p3": "teleportieren"
+    },
+    {
+      "en": "phase",
+      "inf": "phasen",
+      "s3": "phast",
+      "p2": "phast",
+      "p3": "phasen"
+    },
+    {
+      "en": "jump",
+      "inf": "springen",
+      "s3": "springt",
+      "p2": "springt",
+      "p3": "springen"
+    },
+    {
+      "en": "pass",
+      "inf": "passieren",
+      "s3": "passiert",
+      "p2": "passiert",
+      "p3": "passieren"
+    },
+    {
+      "en": "heal",
+      "inf": "heilen",
+      "s3": "heilt",
+      "p2": "heilt",
+      "p3": "heilen"
+    },
+    {
+      "en": "loosen",
+      "inf": "lockern",
+      "s3": "lockert",
+      "p2": "lockert",
+      "p3": "lockern"
+    },
+    {
+      "en": "fling",
+      "inf": "schleudern",
+      "s3": "schleudert",
+      "p2": "schleudert",
+      "p3": "schleudern"
+    },
+    {
+      "en": "chop",
+      "inf": "hacken",
+      "s3": "hackt",
+      "p2": "hackt",
+      "p3": "hacken"
+    },
+    {
+      "en": "identify",
+      "inf": "identifizieren",
+      "s3": "identifiziert",
+      "p2": "identifiziert",
+      "p3": "identifizieren"
+    },
+    {
+      "en": "perform",
+      "inf": "vollführen",
+      "s3": "vollführt",
+      "p2": "vollführt",
+      "p3": "vollführen"
+    },
+    {
+      "en": "toast",
+      "inf": "rösten",
+      "s3": "röstet",
+      "p2": "röstet",
+      "p3": "rösten"
+    },
+    {
+      "en": "shower",
+      "inf": "überschütten",
+      "s3": "überschüttet",
+      "p2": "überschüttet",
+      "p3": "überschütten"
+    },
+    {
+      "en": "dig",
+      "inf": "graben",
+      "s3": "gräbt",
+      "p2": "grabt",
+      "p3": "graben"
+    },
+    {
+      "en": "pony",
+      "inf": "blechen",
+      "s3": "blecht",
+      "p2": "blecht",
+      "p3": "blechen"
+    },
+    {
+      "en": "beat",
+      "inf": "schlagen",
+      "s3": "schlägt",
+      "p2": "schlagt",
+      "p3": "schlagen"
+    },
+    {
+      "en": "exit",
+      "inf": "verlassen",
+      "s3": "verlässt",
+      "p2": "verlasst",
+      "p3": "verlassen"
+    },
+    {
+      "en": "burrow",
+      "inf": "wühlen",
+      "s3": "wühlt",
+      "p2": "wühlt",
+      "p3": "wühlen"
+    },
+    {
+      "en": "cause",
+      "inf": "verursachen",
+      "s3": "verursacht",
+      "p2": "verursacht",
+      "p3": "verursachen"
+    },
+    {
+      "en": "grow",
+      "inf": "wachsen",
+      "s3": "wächst",
+      "p2": "wachst",
+      "p3": "wachsen"
+    },
+    {
+      "en": "shoot",
+      "inf": "schießen",
+      "s3": "schießt",
+      "p2": "schießt",
+      "p3": "schießen"
+    },
+    {
+      "en": "push",
+      "inf": "stoßen",
+      "s3": "stößt",
+      "p2": "stoßt",
+      "p3": "stoßen"
+    },
+    {
+      "en": "detonate",
+      "inf": "detonieren",
+      "s3": "detoniert",
+      "p2": "detoniert",
+      "p3": "detonieren"
+    },
+    {
+      "en": "decide",
+      "inf": "entscheiden",
+      "s3": "entscheidet",
+      "p2": "entscheidet",
+      "p3": "entscheiden"
+    },
+    {
+      "en": "click",
+      "inf": "klicken",
+      "s3": "klickt",
+      "p2": "klickt",
+      "p3": "klicken"
+    },
+    {
+      "en": "collect",
+      "inf": "sammeln",
+      "s3": "sammelt",
+      "p2": "sammelt",
+      "p3": "sammeln"
+    },
+    {
+      "en": "seal",
+      "inf": "versiegeln",
+      "s3": "versiegelt",
+      "p2": "versiegelt",
+      "p3": "versiegeln"
+    },
+    {
+      "en": "bandage",
+      "inf": "verbinden",
+      "s3": "verbindet",
+      "p2": "verbindet",
+      "p3": "verbinden"
+    },
+    {
+      "en": "remove",
+      "inf": "entfernen",
+      "s3": "entfernt",
+      "p2": "entfernt",
+      "p3": "entfernen"
+    },
+    {
+      "en": "match",
+      "inf": "entsprechen",
+      "s3": "entspricht",
+      "p2": "entsprecht",
+      "p3": "entsprechen"
+    },
+    {
+      "en": "penetrate",
+      "inf": "durchdringen",
+      "s3": "durchdringt",
+      "p2": "durchdringt",
+      "p3": "durchdringen"
+    },
+    {
+      "en": "invoke",
+      "inf": "beschwören",
+      "s3": "beschwört",
+      "p2": "beschwört",
+      "p3": "beschwören"
+    },
+    {
+      "en": "tighten",
+      "inf": "straffen",
+      "s3": "strafft",
+      "p2": "strafft",
+      "p3": "straffen"
+    },
+    {
+      "en": "discharge",
+      "inf": "entladen",
+      "s3": "entlädt",
+      "p2": "entladet",
+      "p3": "entladen"
+    },
+    {
+      "en": "cleave",
+      "inf": "spalten",
+      "s3": "spaltet",
+      "p2": "spaltet",
+      "p3": "spalten"
+    },
+    {
+      "en": "sense",
+      "inf": "spüren",
+      "s3": "spürt",
+      "p2": "spürt",
+      "p3": "spüren"
+    },
+    {
+      "en": "detach",
+      "inf": "lösen",
+      "s3": "löst",
+      "p2": "löst",
+      "p3": "lösen"
+    },
+    {
+      "en": "disarm",
+      "inf": "entwaffnen",
+      "s3": "entwaffnet",
+      "p2": "entwaffnet",
+      "p3": "entwaffnen"
+    },
+    {
+      "en": "enter",
+      "inf": "betreten",
+      "s3": "betritt",
+      "p2": "betretet",
+      "p3": "betreten"
+    },
+    {
+      "en": "press",
+      "inf": "drücken",
+      "s3": "drückt",
+      "p2": "drückt",
+      "p3": "drücken"
+    },
+    {
+      "en": "ogle",
+      "inf": "begaffen",
+      "s3": "begafft",
+      "p2": "begafft",
+      "p3": "begaffen"
+    },
+    {
+      "en": "emerge",
+      "inf": "erscheinen",
+      "s3": "erscheint",
+      "p2": "erscheint",
+      "p3": "erscheinen"
+    },
+    {
+      "en": "shank",
+      "inf": "erstechen",
+      "s3": "ersticht",
+      "p2": "erstecht",
+      "p3": "erstechen"
+    },
+    {
+      "en": "stiffen",
+      "inf": "versteifen",
+      "s3": "versteift",
+      "p2": "versteift",
+      "p3": "versteifen"
+    },
+    {
+      "en": "flush",
+      "inf": "spülen",
+      "s3": "spült",
+      "p2": "spült",
+      "p3": "spülen"
+    },
+    {
+      "en": "beguile",
+      "inf": "betören",
+      "s3": "betört",
+      "p2": "betört",
+      "p3": "betören"
+    },
+    {
+      "en": "spark",
+      "inf": "sprühen",
+      "s3": "sprüht",
+      "p2": "sprüht",
+      "p3": "sprühen"
+    },
+    {
+      "en": "shift",
+      "inf": "verschieben",
+      "s3": "verschiebt",
+      "p2": "verschiebt",
+      "p3": "verschieben"
+    },
+    {
+      "en": "dismiss",
+      "inf": "entlassen",
+      "s3": "entlässt",
+      "p2": "entlasst",
+      "p3": "entlassen"
+    },
+    {
+      "en": "rebuke",
+      "inf": "tadeln",
+      "s3": "tadelt",
+      "p2": "tadelt",
+      "p3": "tadeln"
+    },
+    {
+      "en": "regenerate",
+      "inf": "regenerieren",
+      "s3": "regeneriert",
+      "p2": "regeneriert",
+      "p3": "regenerieren"
+    },
+    {
+      "en": "dust",
+      "inf": "bestäuben",
+      "s3": "bestäubt",
+      "p2": "bestäubt",
+      "p3": "bestäuben"
+    },
+    {
+      "en": "ignore",
+      "inf": "ignorieren",
+      "s3": "ignoriert",
+      "p2": "ignoriert",
+      "p3": "ignorieren"
+    },
+    {
+      "en": "refuse",
+      "inf": "verweigern",
+      "s3": "verweigert",
+      "p2": "verweigert",
+      "p3": "verweigern"
+    },
+    {
+      "en": "blink",
+      "inf": "blinzeln",
+      "s3": "blinzelt",
+      "p2": "blinzelt",
+      "p3": "blinzeln"
+    },
+    {
+      "en": "lapse",
+      "inf": "verfallen",
+      "s3": "verfällt",
+      "p2": "verfallt",
+      "p3": "verfallen"
+    },
+    {
+      "en": "grant",
+      "inf": "gewähren",
+      "s3": "gewährt",
+      "p2": "gewährt",
+      "p3": "gewähren"
+    },
+    {
+      "en": "receive",
+      "inf": "erhalten",
+      "s3": "erhält",
+      "p2": "erhaltet",
+      "p3": "erhalten"
+    },
+    {
+      "en": "bear",
+      "inf": "tragen",
+      "s3": "trägt",
+      "p2": "tragt",
+      "p3": "tragen"
+    },
+    {
+      "en": "collapse",
+      "inf": "kollabieren",
+      "s3": "kollabiert",
+      "p2": "kollabiert",
+      "p3": "kollabieren"
+    },
+    {
+      "en": "unlock",
+      "inf": "entriegeln",
+      "s3": "entriegelt",
+      "p2": "entriegelt",
+      "p3": "entriegeln"
+    },
+    {
+      "en": "desecrate",
+      "inf": "entweihen",
+      "s3": "entweiht",
+      "p2": "entweiht",
+      "p3": "entweihen"
+    },
+    {
+      "en": "implode",
+      "inf": "implodieren",
+      "s3": "implodiert",
+      "p2": "implodiert",
+      "p3": "implodieren"
+    },
+    {
+      "en": "blow",
+      "inf": "blasen",
+      "s3": "bläst",
+      "p2": "blast",
+      "p3": "blasen"
+    },
+    {
+      "en": "raise",
+      "inf": "erheben",
+      "s3": "erhebt",
+      "p2": "erhebt",
+      "p3": "erheben"
+    },
+    {
+      "en": "plop",
+      "inf": "plumpsen",
+      "s3": "plumpst",
+      "p2": "plumpst",
+      "p3": "plumpsen"
+    },
+    {
+      "en": "light",
+      "inf": "entzünden",
+      "s3": "entzündet",
+      "p2": "entzündet",
+      "p3": "entzünden"
+    },
+    {
+      "en": "tinker",
+      "inf": "basteln",
+      "s3": "bastelt",
+      "p2": "bastelt",
+      "p3": "basteln"
+    },
+    {
+      "en": "flinch",
+      "inf": "zucken",
+      "s3": "zuckt",
+      "p2": "zuckt",
+      "p3": "zucken"
+    },
+    {
+      "en": "leak",
+      "inf": "sickern",
+      "s3": "sickert",
+      "p2": "sickert",
+      "p3": "sickern"
+    },
+    {
+      "en": "dissipate",
+      "inf": "verfliegen",
+      "s3": "verfliegt",
+      "p2": "verfliegt",
+      "p3": "verfliegen"
+    },
+    {
+      "en": "cease",
+      "inf": "enden",
+      "s3": "endet",
+      "p2": "endet",
+      "p3": "enden"
+    },
+    {
+      "en": "extrude",
+      "inf": "extrudieren",
+      "s3": "extrudiert",
+      "p2": "extrudiert",
+      "p3": "extrudieren"
+    },
+    {
+      "en": "swap",
+      "inf": "tauschen",
+      "s3": "tauscht",
+      "p2": "tauscht",
+      "p3": "tauschen"
+    },
+    {
+      "en": "incense",
+      "inf": "erzürnen",
+      "s3": "erzürnt",
+      "p2": "erzürnt",
+      "p3": "erzürnen"
+    },
+    {
+      "en": "unseal",
+      "inf": "entsiegeln",
+      "s3": "entsiegelt",
+      "p2": "entsiegelt",
+      "p3": "entsiegeln"
+    },
+    {
+      "en": "staunch",
+      "inf": "stillen",
+      "s3": "stillt",
+      "p2": "stillt",
+      "p3": "stillen"
+    },
+    {
+      "en": "cool",
+      "inf": "kühlen",
+      "s3": "kühlt",
+      "p2": "kühlt",
+      "p3": "kühlen"
+    },
+    {
+      "en": "manage",
+      "inf": "verwalten",
+      "s3": "verwaltet",
+      "p2": "verwaltet",
+      "p3": "verwalten"
+    },
+    {
+      "en": "bump",
+      "inf": "rempeln",
+      "s3": "rempelt",
+      "p2": "rempelt",
+      "p3": "rempeln"
+    },
+    {
+      "en": "require",
+      "inf": "erfordern",
+      "s3": "erfordert",
+      "p2": "erfordert",
+      "p3": "erfordern"
+    },
+    {
+      "en": "were",
+      "inf": "sein",
+      "s3": "ist",
+      "p2": "seid",
+      "p3": "sind"
+    },
+    {
+      "en": "impel",
+      "inf": "drängen",
+      "s3": "drängt",
+      "p2": "drängt",
+      "p3": "drängen"
+    },
+    {
+      "en": "peer",
+      "inf": "spähen",
+      "s3": "späht",
+      "p2": "späht",
+      "p3": "spähen"
+    },
+    {
+      "en": "attempt",
+      "inf": "versuchen",
+      "s3": "versucht",
+      "p2": "versucht",
+      "p3": "versuchen"
+    },
+    {
+      "en": "blur",
+      "inf": "verschwimmen",
+      "s3": "verschwimmt",
+      "p2": "verschwimmt",
+      "p3": "verschwimmen"
+    },
+    {
+      "en": "multiply",
+      "inf": "vermehren",
+      "s3": "vermehrt",
+      "p2": "vermehrt",
+      "p3": "vermehren"
+    },
+    {
+      "en": "focus",
+      "inf": "fokussieren",
+      "s3": "fokussiert",
+      "p2": "fokussiert",
+      "p3": "fokussieren"
+    },
+    {
+      "en": "spit",
+      "inf": "spucken",
+      "s3": "spuckt",
+      "p2": "spuckt",
+      "p3": "spucken"
+    },
+    {
+      "en": "strike",
+      "inf": "schlagen",
+      "s3": "schlägt",
+      "p2": "schlagt",
+      "p3": "schlagen"
+    },
+    {
+      "en": "collide",
+      "inf": "kollidieren",
+      "s3": "kollidiert",
+      "p2": "kollidiert",
+      "p3": "kollidieren"
+    },
+    {
+      "en": "pop",
+      "inf": "platzen",
+      "s3": "platzt",
+      "p2": "platzt",
+      "p3": "platzen"
+    },
+    {
+      "en": "extinguish",
+      "inf": "löschen",
+      "s3": "löscht",
+      "p2": "löscht",
+      "p3": "löschen"
+    },
+    {
+      "en": "cannot",
+      "inf": "können",
+      "s3": "kann",
+      "p2": "könnt",
+      "p3": "können"
+    },
+    {
+      "en": "amputate",
+      "inf": "amputieren",
+      "s3": "amputiert",
+      "p2": "amputiert",
+      "p3": "amputieren"
+    },
+    {
+      "en": "hold",
+      "inf": "halten",
+      "s3": "hält",
+      "p2": "haltet",
+      "p3": "halten"
+    },
+    {
+      "en": "contain",
+      "inf": "enthalten",
+      "s3": "enthält",
+      "p2": "enthaltet",
+      "p3": "enthalten"
+    },
+    {
+      "en": "split",
+      "inf": "teilen",
+      "s3": "teilt",
+      "p2": "teilt",
+      "p3": "teilen"
+    },
+    {
+      "en": "break",
+      "inf": "brechen",
+      "s3": "bricht",
+      "p2": "brecht",
+      "p3": "brechen"
+    },
+    {
+      "en": "destabilize",
+      "inf": "destabilisieren",
+      "s3": "destabilisiert",
+      "p2": "destabilisiert",
+      "p3": "destabilisieren"
+    },
+    {
+      "en": "starve",
+      "inf": "verhungern",
+      "s3": "verhungert",
+      "p2": "verhungert",
+      "p3": "verhungern"
+    },
+    {
+      "en": "latch",
+      "inf": "umklammern",
+      "s3": "umklammert",
+      "p2": "umklammert",
+      "p3": "umklammern"
+    },
+    {
+      "en": "bask",
+      "inf": "sonnen",
+      "s3": "sonnt",
+      "p2": "sonnt",
+      "p3": "sonnen"
+    },
+    {
+      "en": "absorb",
+      "inf": "absorbieren",
+      "s3": "absorbiert",
+      "p2": "absorbiert",
+      "p3": "absorbieren"
+    },
+    {
+      "en": "grab",
+      "inf": "packen",
+      "s3": "packt",
+      "p2": "packt",
+      "p3": "packen"
+    },
+    {
+      "en": "tug",
+      "inf": "zerren",
+      "s3": "zerrt",
+      "p2": "zerrt",
+      "p3": "zerren"
+    }
   ]
 }
