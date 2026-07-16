@@ -1177,6 +1177,20 @@
       "s3": "zerrt",
       "p2": "zerrt",
       "p3": "zerren"
+    },
+    {
+      "en": "_fangen",
+      "inf": "fangen",
+      "s3": "fängt",
+      "p2": "fangt",
+      "p3": "fangen"
+    },
+    {
+      "en": "_lassen",
+      "inf": "lassen",
+      "s3": "lässt",
+      "p2": "lasst",
+      "p3": "lassen"
     }
   ]
 }

@@ -561,6 +561,8 @@ namespace LanguagesOfQudGerman
                 new[] { "Croc", "=subject.konjde:graben=",   "gräbt" },   // agent strong: a->ä
                 new[] { "Croc", "=subject.konjde:tragen=",   "trägt" },   // agent strong: a->ä
                 new[] { "Croc", "=subject.konjde:heilen=",   "heilt" },   // agent weak
+                new[] { "Croc", "=subject.konjde:fangen=",   "fängt" },   // separable base (abfangen)
+                new[] { "Croc", "=subject.konjde:lassen=",   "lässt" },   // separable base (fallen lassen)
             };
             foreach (var t in vtests)
             {
