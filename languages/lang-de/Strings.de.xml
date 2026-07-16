@@ -5384,4 +5384,19 @@
   <string ID="{{rules|=ego.signed= Ego}}&#10;{{rules|=detailedStats=}}">{{rules|=ego.signed= Ego}}&#10;{{rules|=detailedStats=}}</string>
   <string ID="{{rules|=hitBonus.signed= To-Hit}}&#10;{{rules|=detailedStats=}}">{{rules|=hitBonus.signed= Treffer}}&#10;{{rules|=detailedStats=}}</string>
   <string ID="There are hostiles nearby!" Value="Es sind Feinde in der Nähe!" />
+  <string ID="You die!" Value="Ihr sterbt!" />
+  <string ID="You begin bleeding!" Value="Ihr fangt an zu bluten!" />
+  <string ID="Would you like to walk to the nearest stairway down?" Value="Möchtet Ihr zur nächsten Treppe nach unten gehen?" />
+  <string ID="Would you like to walk to the nearest stairway up?" Value="Möchtet Ihr zur nächsten Treppe nach oben gehen?" />
+  <string ID="Enter a name." Value="Einen Namen eingeben." />
+  <string ID="no coloration" Value="keine Färbung" />
+  <string ID="You regain your bearings." Value="Ihr habt eure Orientierung wiedergefunden." />
+  <string ID="You are paralyzed!" Value="Ihr seid gelähmt!" />
+  <string ID="Your regenerative metabolism cures you of paralyzed." Value="Euer regenerativer Stoffwechsel heilt euch von der Lähmung." />
+  <string ID="You are stuck!" Value="Ihr steckt fest!" />
+  <string ID="You break free!" Value="Ihr befreit Euch!" />
+  <string ID="You are overwhelmed with terror!" Value="Ihr werdet von Entsetzen überwältigt!" />
+  <string ID="You don't have anything to use in that slot." Value="Ihr habt nichts, was Ihr in diesem Platz verwenden könnt." />
+  <string ID="You must charge at least two spaces." Value="Ihr müsst mindestens zwei Felder stürmen." />
+  <string ID="select an action" Value="Aktion auswählen" />
 </strings>
