@@ -886,7 +886,7 @@
   <string Context="Translator Base - Mutate Zone Name, Biome nouns" ID="=base= and =noun=" Value="=base= und =noun=" />
   <string Context="Total weight panel" ID="=current= / =max= lbs." Value="=current= / =max= Pfd." />
   <string Context="Message Log Turn Separator" ID="[--turn start--]" Value="[--Zug-Start--]" />
-  <string Context="AutoAct Pathfind Error" ID="You cannot find a path to =object.the.name=." Value="Ihr könnt keinen Weg zu =object.the.name= finden." />
+  <string Context="AutoAct Pathfind Error" ID="You cannot find a path to =object.the.name=." Value="Ihr könnt keinen Weg zu =object.dativ= finden." />
   <string Context="AutoAct Pathfind Error" ID="You cannot find a path to your destination." Value="Ihr könnt keinen Weg zu eurem Ziel finden." />
   <string Context="AutoAct Pathfind Error" ID="You cannot find a path toward the =direction.expandedDirection=." Value="Ihr könnt keinen Weg in Richtung =direction.expandedDirection= finden." />
   <string Context="AutoAct explore interrupt popup" ID="There doesn't seem to be anywhere else to explore." Value="Es scheint nirgendwo anders zu sein, um es zu erkunden." />
@@ -948,8 +948,8 @@
   <string Context="Core Cannot AutoAttack Confused" ID="You cannot autoattack while you are confused." Value="Ihr könnt nicht automatisch angreifen, während Ihr verwirrt seid." />
   <string Context="Core NoAutoattack NonHostile" ID="You do not autoattack =object.the.name= because =object.it.is= not hostile to you." Value="Ihr greift =object.the.name= nicht automatisch an, da =object.it.is= nicht feindselig zu Euch ist." />
   <string Context="Core Cannot See Target" ID="You cannot see your target." Value="Ihr könnt euer Ziel nicht sehen." />
-  <string Context="Core Cannot Flee" ID="You can't find a way to flee from =object.the.name=." Value="Ihr könnt keinen Fluchtweg von =object.the.name= finden." />
-  <string Context="Core Cannot Reach" ID="You can't find a way to reach =object.the.name=." Value="Ihr könnt keinen Weg zu =object.the.name= finden." />
+  <string Context="Core Cannot Flee" ID="You can't find a way to flee from =object.the.name=." Value="Ihr könnt keinen Fluchtweg von =object.dativ= finden." />
+  <string Context="Core Cannot Reach" ID="You can't find a way to reach =object.the.name=." Value="Ihr könnt keinen Weg zu =object.dativ= finden." />
   <string Context="Core NoHostiles" ID="You don't see any hostiles nearby." Value="Ihr seht keine Feinde in der Nähe." />
   <string Context="Core Cannot Walk Into" ID="You may not {{Y|w}}alk into a hostile creature!" Value="Ihr dürft nicht {{Y|w}}alk in eine feindselige Kreatur hinein!" />
   <string Context="Core No Companions" ID="You have no companions." Value="Ihr habt keine Gefährten." />
@@ -2798,11 +2798,11 @@
   <string Context="Examiner CriticalFail puzzled" ID="You are puzzled by =object.the.name:long=." Value="Ihr seid verwirrt von =object.the.name:long=." />
   <string Context="Forcefield CollapseUnderPressureOfNormality" ID="=subject.Does:collapse= under the pressure of normality." Value="=subject.Does:collapse= unter dem Druck von Normalität." />
   <string Context="door" ID="You cannot open =object.t=." Value="Ihr könnt =object.t= nicht öffnen." />
-  <string ID="You are out of phase with =object.t=." Value="Ihr seid außer Phase mit =object.t=." />
+  <string ID="You are out of phase with =object.t=." Value="Ihr seid außer Phase mit =object.dativ=." />
   <string ID="You cannot reach =object.t=." Value="Ihr könnt =object.t= nicht erreichen." />
   <string ID="You can't unlock =object.t= from a distance." Value="Ihr könnt =object.t= nicht aus der Ferne entsperren." />
   <string ID="You unlock =object.t=." Value="Ihr entsperrt =object.t=." />
-  <string ID="You interface with =object.t= and unlock =object.them=." Value="Ihr interagiert mit =object.t= und entsperrt =object.them=." />
+  <string ID="You interface with =object.t= and unlock =object.them=." Value="Ihr interagiert mit =object.dativ= und entsperrt =object.them=." />
   <string ID="You lay your hand upon =object.t= and draw forth =object.its= passcode. You enter the code and =object.does:unlock=." Value="Ihr legt Eure Hand auf =object.t= und zieht =object.its= Passcode heraus. Ihr gebt den Code ein und =object.does:unlock=." />
   <string ID="You can't unlock =object.t=." Value="Ihr könnt =object.t= nicht entsperren." />
   <string ID="=subject.T= cannot be closed." Value="=subject.T= kann nicht geschlossen werden." />
@@ -3375,7 +3375,7 @@
   <string Context="SummoningCurio ActivateCurio Popup" ID="You activate the curio and toss it on the ground. It erupts into a throng of tiny polygons, which amalgamate into a fully formed =creature.displayNameOnlyDirect|strip=." Value="Du aktivierst die Kuriosität und wirfst sie auf den Boden. Sie platzt in eine Menge winziger Polygone auf, die sich zu einem vollständig geformten =creature.displayNameOnlyDirect|strip= vereinigen." />
   <string Context="SummoningCurio RulesPostfix ShortDescription" ID="Fabricates one =creature.displayNameOnlyDirect|strip=, cognitively altered to like you." Value="Erschafft einen =creature.displayNameOnlyDirect|strip=, kognitiv verändert, um dich zu mögen." />
   <string Context="SummoningCurio TargetPicker Label" ID="Fabricate =creature.displayNameOnlyDirect|strip=" Value="Erschaffe =creature.displayNameOnlyDirect|strip=" />
-  <string Context="SwapOnHit AnnounceSwapMessage" ID="=subject.Does:swap= positions with =object.the.name=." Value="=subject.Does:swap= Positionen mit =object.the.name= aus." />
+  <string Context="SwapOnHit AnnounceSwapMessage" ID="=subject.Does:swap= positions with =object.the.name=." Value="=subject.Does:swap= Positionen mit =object.dativ= aus." />
   <string Context="TattooGun NameForStatus" ID="IntradermalInjector" Value="IntradermaleInjektor" />
   <string Context="TattooGun Hostiles Fail" ID="You can't tattoo with hostiles nearby." Value="Du kannst nicht tätowieren, wenn Gegner in der Nähe sind." />
   <string Context="TattooGun Out Of Liquid" ID="=subject.Does:are= out of =liquid.name|colorSafe=." Value="=subject.Does:are= leer an =liquid.name|colorSafe=." />

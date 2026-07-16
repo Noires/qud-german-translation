@@ -24,6 +24,8 @@ namespace LanguagesOfQudGerman
         {
             UnityEngine.Debug.Log("[QudDE] VariableReplacers (token strings) loaded (Lang=de, Override=true).");
             VariableReplacers.LoadLexicon();
+            VariableReplacers.SelfTestCases();
+            VariableReplacers.SelfTestPipeline();
         }
     }
 
@@ -63,7 +65,7 @@ namespace LanguagesOfQudGerman
     public static class VariableReplacers
     {
         private enum Gender { Masc, Fem, Neut, Plural }
-        private enum Case { Nom, Acc }
+        private enum Case { Nom, Acc, Dat, Gen }
 
         // Curated gender overrides for common game nouns (head-noun form, lowercase, folded/umlaut).
         private static readonly Dictionary<string, Gender> Overrides = new Dictionary<string, Gender>
@@ -196,10 +198,10 @@ namespace LanguagesOfQudGerman
         {
             switch (g)
             {
-                case Gender.Masc: return c == Case.Acc ? "den" : "der";
-                case Gender.Fem: return "die";
-                case Gender.Neut: return "das";
-                default: return "die"; // plural
+                case Gender.Masc: return c == Case.Gen ? "des" : c == Case.Dat ? "dem" : c == Case.Acc ? "den" : "der";
+                case Gender.Fem: return (c == Case.Dat || c == Case.Gen) ? "der" : "die";
+                case Gender.Neut: return c == Case.Gen ? "des" : c == Case.Dat ? "dem" : "das";
+                default: return c == Case.Dat ? "den" : c == Case.Gen ? "der" : "die"; // plural
             }
         }
 
@@ -228,7 +230,7 @@ namespace LanguagesOfQudGerman
         // Definite article for an object, respecting plural ("die") over the noun heuristic.
         private static string DefiniteFor(GameObject obj, Case c)
         {
-            if (IsPlural(obj)) return "die";
+            if (IsPlural(obj)) return c == Case.Dat ? "den" : c == Case.Gen ? "der" : "die";
             return Definite(GuessGender(GermanName(obj)), c);
         }
 
@@ -254,6 +256,204 @@ namespace LanguagesOfQudGerman
             if (IsProper(Object)) return name;
             var art = DefiniteFor(Object, CaseOf(Context));
             return Cap(art, Context.Capitalize) + " " + name;
+        }
+
+        // ---- native-migration Phase 1a: full case system (definite article + name) ----
+        // The case is supplied by the translator in the German template:
+        //   "=object.nominativ=", "=object.akkusativ=",
+        //   "=object.dativ="  (e.g. "mit =object.dativ="),
+        //   "=object.genitiv=" (e.g. "der Zorn =object.genitiv=").
+        // Player (second person): nom "Ihr", akk/dat "Euch", gen "Euer".
+        // Reflexive: an object in object/dative position that refers back to the sentence
+        // subject renders as "sich" (or "euch" for the player).
+
+        private static string PlayerPronoun(Case c)
+        {
+            switch (c)
+            {
+                case Case.Acc:
+                case Case.Dat: return "euch";
+                case Case.Gen: return "euer";
+                default: return "Ihr"; // nominative
+            }
+        }
+
+        // Object in object/dative position that refers back to the sentence subject.
+        private static bool IsReflexive(VariableContext ctx, GameObject obj)
+        {
+            return obj != null && ctx.Invocation != null
+                && ReferenceEquals(ctx.Invocation.Subject, obj)
+                && ctx.Type == TargetType.Object;
+        }
+
+        // Genitive head-noun for masc/neut: append -s (or -es after s/ß/x/z). Fem/plural unchanged.
+        private static string GenitiveNoun(string name, Gender g)
+        {
+            if (g == Gender.Fem || g == Gender.Plural || string.IsNullOrEmpty(name)) return name;
+            char last = char.ToLowerInvariant(name[name.Length - 1]);
+            if (last == 's' || last == 'ß' || last == 'x' || last == 'z') return name + "es";
+            return name + "s";
+        }
+
+        // ---- Phase 1b: attributive adjective declension (ported from COQDE GermanGrammar) ----
+        private enum DeclType { Weak, Mixed, Strong }
+
+        private static string AdjEnding(DeclType t, Case c, Gender g)
+        {
+            if (t == DeclType.Weak)
+            {
+                if (c == Case.Nom) return g == Gender.Plural ? "en" : "e";
+                if (c == Case.Acc) return (g == Gender.Masc || g == Gender.Plural) ? "en" : "e";
+                return "en"; // dat/gen
+            }
+            if (t == DeclType.Mixed)
+            {
+                if (c == Case.Nom) return g == Gender.Masc ? "er" : g == Gender.Fem ? "e" : g == Gender.Neut ? "es" : "en";
+                if (c == Case.Acc) return g == Gender.Masc ? "en" : g == Gender.Fem ? "e" : g == Gender.Neut ? "es" : "en";
+                return "en"; // dat/gen
+            }
+            switch (c) // Strong (no determiner)
+            {
+                case Case.Nom: return g == Gender.Masc ? "er" : g == Gender.Fem ? "e" : g == Gender.Neut ? "es" : "e";
+                case Case.Acc: return g == Gender.Masc ? "en" : g == Gender.Fem ? "e" : g == Gender.Neut ? "es" : "e";
+                case Case.Dat: return g == Gender.Fem ? "er" : g == Gender.Plural ? "en" : "em";
+                default: return (g == Gender.Fem || g == Gender.Plural) ? "er" : "en"; // Gen
+            }
+        }
+
+        // Reduce a possibly-already-inflected adjective to its stem (eiserne->eisern, großer->groß).
+        private static string AdjStem(string word)
+        {
+            string w = word.ToLowerInvariant();
+            foreach (var suf in new[] { "em", "en", "er", "es", "e" })
+                if (w.Length - suf.Length >= 3 && w.EndsWith(suf, StringComparison.Ordinal))
+                    return w.Substring(0, w.Length - suf.Length);
+            return w;
+        }
+
+        // Definite noun phrase: determiner + weak-declined adjectives + head (genitive-suffixed).
+        // For a single-word name this reduces to "article + name" (identical to Phase 1a).
+        private static string BuildDefinitePhrase(string name, Case c, bool plural, bool capitalize)
+        {
+            string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (words.Length == 0) return name;
+            string head = words[words.Length - 1];
+            Gender g = plural ? Gender.Plural : GuessGender(head);
+            var parts = new List<string> { Cap(Definite(g, c), capitalize) };
+            for (int i = 0; i < words.Length - 1; i++)
+                parts.Add(AdjStem(words[i]) + AdjEnding(DeclType.Weak, c, g));
+            parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
+            return string.Join(" ", parts);
+        }
+
+        // Shared core for all four case replacers.
+        private static string CaseName(VariableContext Context, GameObject Object, Case c)
+        {
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson)
+                return Cap(PlayerPronoun(c), Context.Capitalize);
+            if ((c == Case.Acc || c == Case.Dat) && IsReflexive(Context, Object))
+                return Cap("sich", Context.Capitalize);
+            string name = GermanName(Object);
+            if (IsProper(Object))
+                return c == Case.Gen ? GenitiveNoun(name, Gender.Masc) : name;
+            return BuildDefinitePhrase(name, c, IsPlural(Object), Context.Capitalize);
+        }
+
+        [VariableReplacer(new string[] { "nominativ" }, Capitalization = true)]
+        [VariableExample("das Krokodil:Das Krokodil", "Croc")]
+        [VariableExample("der Leuchtfisch:Der Leuchtfisch", "Glowfish")]
+        public static string Nominativ(VariableContext Context, GameObject Object)
+        { return CaseName(Context, Object, Case.Nom); }
+
+        [VariableReplacer(new string[] { "akkusativ" }, Capitalization = true)]
+        [VariableExample("das Krokodil:Das Krokodil", "Croc")]
+        [VariableExample("den Leuchtfisch:Den Leuchtfisch", "Glowfish")]
+        public static string Akkusativ(VariableContext Context, GameObject Object)
+        { return CaseName(Context, Object, Case.Acc); }
+
+        [VariableReplacer(new string[] { "dativ" }, Capitalization = true)]
+        [VariableExample("dem Krokodil:Dem Krokodil", "Croc")]
+        [VariableExample("dem Leuchtfisch:Dem Leuchtfisch", "Glowfish")]
+        public static string Dativ(VariableContext Context, GameObject Object)
+        { return CaseName(Context, Object, Case.Dat); }
+
+        [VariableReplacer(new string[] { "genitiv" }, Capitalization = true)]
+        [VariableExample("des Krokodils:Des Krokodils", "Croc")]
+        [VariableExample("des Leuchtfischs:Des Leuchtfischs", "Glowfish")]
+        public static string Genitiv(VariableContext Context, GameObject Object)
+        { return CaseName(Context, Object, Case.Gen); }
+
+        // Pipeline self-test: runs a real template ("=object.dativ=") through the game's
+        // replacer engine on a sample object, proving the FULL chain (token -> replacer ->
+        // German) at load, without needing the in-game testreplacers wish. Self-diagnosing:
+        // a resolved output ("dem Krokodil") = success; a literal "=object.dativ=" = the role
+        // didn't bind. Guarded so it can never harm load.
+        public static void SelfTestPipeline()
+        {
+            // {blueprint, template, expected}. Runs each through the real replacer engine on a
+            // freshly-created object and logs PASS/FAIL — the Turkish [VariableExample] idea,
+            // self-run at load so it needs no testreplacers wish / active game.
+            string[][] tests = {
+                new[] { "Croc",      "=object.nominativ=", "das Krokodil" },
+                new[] { "Croc",      "=object.akkusativ=", "das Krokodil" },
+                new[] { "Croc",      "=object.dativ=",     "dem Krokodil" },
+                new[] { "Croc",      "=object.genitiv=",   "des Krokodils" },
+                new[] { "Glowfish",  "=object.nominativ=", "der Leuchtfisch" },
+                new[] { "Glowfish",  "=object.akkusativ=", "den Leuchtfisch" },
+                new[] { "Glowfish",  "=object.dativ=",     "dem Leuchtfisch" },
+                new[] { "Glowfish",  "=object.genitiv=",   "des Leuchtfischs" },
+                new[] { "Goat",      "=object.dativ=",     "der Ziege" },
+                new[] { "Snapjaw",   "=object.akkusativ=", "den Schnappkiefer" },
+            };
+            int pass = 0, fail = 0;
+            foreach (var t in tests)
+            {
+                try
+                {
+                    GameObject o = GameObjectFactory.Factory.CreateObject(t[0]);
+                    string got = GameText.VariableReplace(t[1], null, o);
+                    bool ok = string.Equals(got, t[2], StringComparison.Ordinal);
+                    if (ok) pass++; else fail++;
+                    UnityEngine.Debug.Log("[QudDE] pipeline-test " + (ok ? "PASS" : "FAIL") + ": "
+                        + t[0] + " " + t[1] + " -> \"" + got + "\""
+                        + (ok ? "" : " (expected \"" + t[2] + "\")"));
+                }
+                catch (Exception e)
+                {
+                    fail++;
+                    UnityEngine.Debug.Log("[QudDE] pipeline-test ERROR: " + t[0] + " " + t[1] + " : " + e.Message);
+                }
+            }
+            UnityEngine.Debug.Log("[QudDE] pipeline-test summary: " + pass + " passed, " + fail + " failed");
+        }
+
+        // Load-time self-test: logs every case for representative nouns to Player.log
+        // ("[QudDE] case-selftest:"), so grammar is verifiable offline without testreplacers.
+        public static void SelfTestCases()
+        {
+            string[] nouns = { "Wand", "Käfer", "Schwert", "Krokodil", "Leuchtfisch" };
+            string[] labels = { "nom", "akk", "dat", "gen" };
+            Case[] cs = { Case.Nom, Case.Acc, Case.Dat, Case.Gen };
+            foreach (var noun in nouns)
+            {
+                Gender g = GuessGender(noun);
+                var sb = new System.Text.StringBuilder();
+                for (int i = 0; i < cs.Length; i++)
+                {
+                    string art = Definite(g, cs[i]);
+                    string head = cs[i] == Case.Gen ? GenitiveNoun(noun, g) : noun;
+                    sb.Append(labels[i]).Append('=').Append(art).Append(' ').Append(head);
+                    if (i < cs.Length - 1) sb.Append(" | ");
+                }
+                UnityEngine.Debug.Log("[QudDE] case-selftest: " + noun + " (" + g + "): " + sb);
+            }
+            // Phase 1b: adjective declension on multi-word literal names (no GameObject needed).
+            string[] phrases = { "eiserne Rebenklinge", "rostige alte Kette", "großer Käfer" };
+            foreach (var p in phrases)
+                UnityEngine.Debug.Log("[QudDE] phrase-selftest: \"" + p + "\" -> nom=\""
+                    + BuildDefinitePhrase(p, Case.Nom, false, false) + "\" | akk=\""
+                    + BuildDefinitePhrase(p, Case.Acc, false, false) + "\" | dat=\""
+                    + BuildDefinitePhrase(p, Case.Dat, false, false) + "\"");
         }
 
         // ---- indefinite article, no name ("=a=") ----

@@ -8,6 +8,10 @@ COQDE.debug
 
 # Archived in-game screenshots (kept locally for reference, not in the repo)
 docs/screenshots/
+docs/archive/
+
+# Reference material from other language mods (kept locally, not shipped)
+chineseexample.txt
 
 # The compiled runtime ships as languages/lang-de/COQDE/COQDE.dll (committed);
 # its source lives in build/COQDE/ and is NEVER copied into the game Mods folder
