@@ -4574,4 +4574,5 @@
   <string ID="The magnetic field has been disabled and the Spindle is free to ascend. What now?">
 Das Magnetfeld wurde deaktiviert und die Spindel ist bereit aufzusteigen. Was nun?
   </string>
+  <string Context="Conversation BaseConversation.WaterRitual.RandomMentalMutationChoice.WaterRitualRandomMutation" ID="=subject.T= =verb:grab= your hand and you close your eyes. You find =player.reflexive= in a darkling thicket. =subject.T= =verb:tug= you over roots of braided nether, until finally you stumble into a glade. Others are here. You take their hands as =subject.t= took yours.&#10;&#10;After a moment or an eon, you awaken knowing =mutation.name=." Value="=subject.T= =subject.konjde:greifen= nach eurer Hand und ihr schließt die Augen. Ihr findet =player.reflexive= in einem düsteren Dickicht wieder. =subject.T= =subject.konjde:ziehen= euch über Wurzeln aus geflochtenem Äther, bis ihr schließlich auf eine Lichtung stolpert. Andere sind hier. Ihr nehmt ihre Hände, so wie =subject.t= eure nahm.&amp;#10;&amp;#10;Nach einem Augenblick oder einer Ewigkeit erwacht ihr und kennt =mutation.name=." />
 </strings>

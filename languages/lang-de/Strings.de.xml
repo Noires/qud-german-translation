@@ -5399,4 +5399,15 @@
   <string ID="You don't have anything to use in that slot." Value="Ihr habt nichts, was Ihr in diesem Platz verwenden könnt." />
   <string ID="You must charge at least two spaces." Value="Ihr müsst mindestens zwei Felder stürmen." />
   <string ID="select an action" Value="Aktion auswählen" />
+  <string Context="DifficultyEvaluation Impossible" ID="Impossible" Value="Unmöglich" />
+  <string Context="DifficultyEvaluation Very Tough" ID="Very Tough" Value="Sehr hart" />
+  <string Context="DifficultyEvaluation Tough" ID="Tough" Value="Hart" />
+  <string Context="DifficultyEvaluation Average" ID="Average" Value="Durchschnittlich" />
+  <string Context="DifficultyEvaluation Easy" ID="Easy" Value="Leicht" />
+  <string Context="DifficultyEvaluation Trivial" ID="Trivial" Value="Trivial" />
+  <string Context="Message Log Title" ID="Message log" Value="Nachrichtenprotokoll" />
+  <string Context="Stomach sip message with source" ID="=subject.Does:take= a sip of fresh water from =object.the.name:itsPossessor=." Value="=subject.The.name= =subject.konjde:nehmen= einen Schluck frisches Wasser aus =object.the.name:itsPossessor=." />
+  <string Context="FlamingRay emit" ID="=subject.Does:emit= a flaming ray from =subject.its= =part.ordinalName=!" Value="=subject.The.name= =subject.konjde:feuern= einen Flammenstrahl aus =subject.its= =part.ordinalName= ab!" />
+  <string Context="MeleeWeapon Simplified Last Part" ID=" =glyph:Damage==damage=" Value=" =glyph:Damage==damage=" />
+  <string Context="TextBuilder.Compound - default space" ID=" " Value=" " />
 </strings>
