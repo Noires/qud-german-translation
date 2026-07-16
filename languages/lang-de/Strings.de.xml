@@ -902,13 +902,13 @@
   <string Context="AutoAct Rest Loading Status Bar" ID="Resting until healed... Turn: =num=" Value="Ruhe bis geheilt ... Zug: =num=" />
   <string Context="AutoAct attack interrupt message" ID="You will not auto-attack =target.the.name= because =target.it.is= not hostile to you." Value="Ihr werdet nicht automatisch =target.the.name= angreifen, da =target.it.is= nicht feindselig zu Euch ist." />
   <string Context="AutoAct attack interrupt message" ID="You cannot see your target." Value="Ihr könnt euer Ziel nicht sehen." />
-  <string Context="AutoAct attack interrupt message" ID="You can't find a way to navigate to =target.the.name=." Value="Ihr könnt keinen Weg zu =target.the.name= finden." />
+  <string Context="AutoAct attack interrupt message" ID="You can't find a way to navigate to =target.the.name=." Value="Ihr könnt keinen Weg zu =target.dativ= finden." />
   <string Context="AutoAct attack interrupt message" ID="You are unable to attack =target.the.name=." Value="Ihr könnt =target.the.name= nicht angreifen." />
-  <string Context="AutoAct attack interrupt message" ID="You can't seem to find a way to reach =target.the.name=." Value="Ihr könnt anscheinend keinen Weg zu =target.the.name= finden." />
+  <string Context="AutoAct attack interrupt message" ID="You can't seem to find a way to reach =target.the.name=." Value="Ihr könnt anscheinend keinen Weg zu =target.dativ= finden." />
   <string Context="AutoAct Wait Loading Status Bar" ID="Waiting for =num.things:turn=..." Value="Warten auf =num.things:turn= ..." />
   <string Context="AutoAct Wait Loading Status Complete" ID="Done waiting." Value="Warten beendet." />
   <string Context="AutoAct Wait Loading Status Bar" ID="Waiting for =remaining.things:round=..." Value="Warten auf =remaining.things:round= ..." />
-  <string Context="AutoAct interrupt 'because' (clause)" ID="of =object.the.name= =subject.to.its.direction#object=" Value="von =object.the.name= =subject.to.its.direction#object=" />
+  <string Context="AutoAct interrupt 'because' (clause)" ID="of =object.the.name= =subject.to.its.direction#object=" Value="von =object.dativ= =subject.to.its.direction#object=" />
   <string Context="Core Hotload Config" ID="Configuration hotloaded..." Value="Konfiguration neu geladen ..." />
   <string Context="Core Hotload Books" ID="Hot Loading Books..." Value="Lade Bücher ..." />
   <string Context="Core Invalid Object" ID="Invalid inventory object: =object.toString=" Value="Ungültiges Inventarobjekt: =object.toString=" />
@@ -1871,7 +1871,7 @@
   <string Context="AutoAct interrupt 'because' (clause)" ID="=blocker.does:are= in the way" Value="=blocker.does:are= im Weg" />
   <string Context="AutoAct interrupt 'because' clause" ID="you tried to move but stayed in the same place" Value="ihr versuchtet euch zu bewegen, aber blieb am gleichen Ort" />
   <string Context="Cloning - Renaming a proper name" ID="clone of =subject.refname:withIndefiniteArticle=" Value="Klon von =subject.refname:withIndefiniteArticle=" />
-  <string Context="Cloning detach message log" ID="=subject.A.name= =subject.verb:detach= from =object.the.name=!" Value="=subject.A.name= =subject.verb:detach= von =object.the.name=!" />
+  <string Context="Cloning detach message log" ID="=subject.A.name= =subject.verb:detach= from =object.the.name=!" Value="=subject.A.name= =subject.verb:detach= von =object.dativ=!" />
   <string Context="Cloning Accomplishment" ID="On the =day= of =month=, you multiplied." Value="Am =day= von =month= habt Ihr euch vermehrt." />
   <string Context="Cloning Accomplishment muralText" ID="In the month of =month= of =year=, =player.name= immaculately birthed =player.reflexive=." Value="Im Monat =month= des Jahres =year= gebar =player.name= unbefleckt =player.reflexive=." />
   <string Context="Cloning Accomplishment gospelText" ID="In =year=, while traveling near =landmark.nearest=, =name= created a simulacrum of =player.reflexive= for the purpose of faking chariot accidents." Value="Im =year= erschuf =name= während einer Reise in der Nähe von =landmark.nearest= ein Simulakrum von =player.reflexive= zum Zweck der Vortäuschung von Wagen-Unfällen." />
@@ -2258,7 +2258,7 @@
   <string Context="CookingDomainReflect_Reflect100HighTier_ProceduralCookingTriggeredAction Notification" ID="=subject.does:grow= spines all over =subject.their= body." Value="=subject.does:grow= überall Dornen auf =subject.their= Körper." />
   <string Context="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Details - more than one left" ID="Reflect 100% damage the next =times= times =subject.it.does:take= damage." Value="Reflektiere 100% Schaden die nächsten =times= Male =subject.it.does:take= Schaden." />
   <string Context="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Details" ID="Reflect 100% damage the next time =subject.it.does:take= damage." Value="Reflektiere 100% Schaden das nächste Mal =subject.it.does:take= Schaden." />
-  <string Context="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Message" ID="=subject.Does:reflect= =amount= damage back at =object.the.name=" Value="=subject.Does:reflect= =amount= Schaden zurück zu =object.the.name=" />
+  <string Context="CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Message" ID="=subject.Does:reflect= =amount= damage back at =object.the.name=" Value="=subject.Does:reflect= =amount= Schaden zurück zu =object.dativ=" />
   <string Context="CookingDomainReflect_OnReflectedDamage Description" ID="whenever =subject.thisCreature= =subject.verb:reflect= damage, there's a 50% chance" Value="wann immer =subject.thisCreature= =subject.verb:reflect= Schaden, besteht eine 50% Chance" />
   <string Context="CookingDomainReflect_OnReflectedDamageHighTier Description" ID="whenever =subject.thisCreature= =subject.verb:reflect= damage, there's a 100% chance" Value="wann immer =subject.thisCreature= =subject.verb:reflect= Schaden, besteht eine 100% Chance" />
   <string Context="CookingDomainReflect_OnDamagedHighTier Description - Unknown rolls" ID="whenever =subject.thisCreature= =subject.verb:take= damage, there's a 16-20% chance" Value="wann immer =subject.thisCreature= =subject.verb:take= Schaden, besteht eine 16-20% Chance" />
@@ -2336,7 +2336,7 @@
   <string Context="CookingDomainTeleport_OnTeleport Description" ID="whenever =subject.thisCreature= =subject.verb:teleport=," Value="wann immer =subject.thisCreature= =subject.verb:teleport=," />
   <string Context="CookingDomainTeleport_UnitBlink Description" ID="Whenever =subject.thisCreature= =subject.verb:take= avoidable damage, there's a =tier=% chance =subject.it.does:teleport= to a random space on the map instead." Value="Wann immer =subject.thisCreature= =subject.verb:take= vermeidbarer Schaden, besteht eine =tier=% Chance, dass =subject.it.does:teleport= stattdessen zu einem zufälligen Ort auf der Karte." />
   <string Context="CookingDomainTeleport_UnitBlink Description - Unknown rolls" ID="Whenever =subject.thisCreature= =subject.verb:take= avoidable damage, there's a 20-25% chance =subject.it.does:teleport= to a random space on the map instead." Value="Wann immer =subject.thisCreature= =subject.verb:take= vermeidbarer Schaden, besteht eine 20-25% Chance, dass =subject.it.does:teleport= stattdessen zu einem zufälligen Ort auf der Karte." />
-  <string Context="CookingDomainTeleport_UnitBlink Message - Player attacking" ID="Fate intervenes and you deal no damage to =object.the.name=." Value="Das Schicksal greift ein und Ihr verursacht keinen Schaden bei =object.the.name=." />
+  <string Context="CookingDomainTeleport_UnitBlink Message - Player attacking" ID="Fate intervenes and you deal no damage to =object.the.name=." Value="Das Schicksal greift ein und Ihr verursacht keinen Schaden bei =object.dativ=." />
   <string Context="CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Description" ID="=subject.it.does:shoot= out up to three sticky tongues per Sticky Tongue at rank 10." Value="=subject.it.does:shoot= bis zu drei klebrige Zungen gemäß Klebrige Zunge auf Rang 10 aus." />
   <string Context="CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Notification" ID="=subject.does:shoot= out a trio of sticky tongues." Value="=subject.does:shoot= drei klebrige Zungen aus." />
   <string Context="CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Message" ID="A trio of tongues vegetate from =subject.the.name's= =bodypart:Face=!" Value="Ein Trio von Zungen wächst aus =subject.the.name's= =bodypart:Face=!" />
@@ -2980,7 +2980,7 @@
   <string Context="Butcherable default butcher verb" ID="butcher" Value="zerlegen" />
   <string Context="Butcherable Butcher Message" ID="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =amount.cardinal= =result.name|pluralize=." Value="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= in =amount.cardinal= =result.name|pluralize=." />
   <string Context="Butcherable Butcher Message Amount 1" ID="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =result.a.name=." Value="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= in =result.a.name=." />
-  <string Context="Butcherable Fail Message" ID="=subject.Does:fail= to =verb= anything useful from =object.the.name= =subject.formatDirection:ifAny#direction=." Value="=subject.Does:fail= etwas Nützliches von =object.the.name= =subject.formatDirection:ifAny#direction= zu =verb=." />
+  <string Context="Butcherable Fail Message" ID="=subject.Does:fail= to =verb= anything useful from =object.the.name= =subject.formatDirection:ifAny#direction=." Value="=subject.Does:fail= etwas Nützliches von =object.dativ= =subject.formatDirection:ifAny#direction= zu =verb=." />
   <string Context="CampfireRemains AttemptLight FailInPool" ID="You cannot light =object.the.name= while =object.itis= in =pool.the.name=." Value="Ihr könnt =object.the.name= nicht anzünden, während =object.itis= in =pool.the.name= ist." />
   <string Context="CampfireRemains AttemptLight AnnounceSuccess" ID="=subject.Does:light= =object.the.name=." Value="=subject.Does:light= =object.the.name=." />
   <string Context="CancelRangedAttacks RulesPostfix PowerSensitive" ID="When activated, =chance=% chance of stopping ranged attacks. =part.statusSummary|when#notTinkering|addParens=" Value="Bei Aktivierung, =chance=% Chance, Fernkampfangriffe zu stoppen. =part.statusSummary|when#notTinkering|addParens=" />
@@ -3123,9 +3123,9 @@
   <string Context="GenocideCurio Activation Message" ID="You activate =object.the.name= and toss it into the air." Value="Ihr aktiviert =object.the.name= und werft es in die Luft." />
   <string Context="GeomagneticDisc BeforeThrown Collision" ID="=subject.The.name= and =object.the.name= collide and fall to the ground." Value="=subject.The.name= und =object.the.name= kollidieren und fallen zu Boden." />
   <string Context="GeomagneticDisc DoThrow PassThrough" ID="=subject.Does:pass= through =object.the.name=!" Value="=subject.Does:pass= durch =object.the.name=!" />
-  <string Context="GeomagneticDisc DoThrow Flinch" ID="=subject.Does:flinch= out of the way of =object.the.name=!" Value="=subject.Does:flinch= aus dem Weg von =object.the.name=!" />
-  <string Context="GeomagneticDisc SignalFailure" ID="A loud buzz is emitted. The failure glyph flashes on the side of =object.the.name=." Value="Ein lautes Summen wird emittiert. Das Fehlersymbol blinkt auf der Seite von =object.the.name=." />
-  <string Context="GeomagneticDisc SignalLowPowerFailure" ID="A loud buzz is emitted. The failure glyph flashes on the side of =object.the.name=." Value="Ein lautes Summen wird emittiert. Das Fehlersymbol blinkt auf der Seite von =object.the.name=." />
+  <string Context="GeomagneticDisc DoThrow Flinch" ID="=subject.Does:flinch= out of the way of =object.the.name=!" Value="=subject.Does:flinch= aus dem Weg von =object.dativ=!" />
+  <string Context="GeomagneticDisc SignalFailure" ID="A loud buzz is emitted. The failure glyph flashes on the side of =object.the.name=." Value="Ein lautes Summen wird emittiert. Das Fehlersymbol blinkt auf der Seite von =object.dativ=." />
+  <string Context="GeomagneticDisc SignalLowPowerFailure" ID="A loud buzz is emitted. The failure glyph flashes on the side of =object.the.name=." Value="Ein lautes Summen wird emittiert. Das Fehlersymbol blinkt auf der Seite von =object.dativ=." />
   <string Context="GeomagneticDisc ExamineFailure FliesAround" ID="=subject.Does:suddenly:start= flying around!" Value="=subject.Does:suddenly:start= wild herumzufliegen!" />
   <string Context="GlimmerAlteration Increases" ID="Increases psychic glimmer in the =amount.ordinal= degree." Value="Erhöht psychisches Flimmern um den =amount.ordinal= Grad." />
   <string Context="GlimmerAlteration Decreases" ID="Reduces psychic glimmer in the =amount.ordinal= degree." Value="Reduziert psychisches Flimmern um den =amount.ordinal= Grad." />
@@ -3159,11 +3159,11 @@
   <string Context="MakeFussOnTaken DefaultAction" ID="found" Value="gefunden" />
   <string Context="MakeFussOnTaken MakeFuss Popup" ID="You have =action= =object.the.name=!" Value="Ihr habt =action= =object.the.name=!" />
   <string Context="MapReveal NotOwned Warning" ID="=subject.Does:are= not owned by you, and using =subject.them= will consume =subject.them=. Are you sure you want to do so?" Value="=subject.Does:are= nicht von dir besessen, und die Benutzung von =subject.them= wird =subject.them= verbrauchen. Bist du sicher, dass du das tun willst?" />
-  <string Context="MapReveal NotOwned InInventory Warning" ID="=subject.Does:are= not owned by you, and using =object.the.name= will consume =object.them=. Are you sure you want to do so?" Value="=subject.Does:are= nicht euer Eigentum, und das Verwenden von =object.the.name= wird =object.them= verbrauchen. Seid ihr sicher?" />
+  <string Context="MapReveal NotOwned InInventory Warning" ID="=subject.Does:are= not owned by you, and using =object.the.name= will consume =object.them=. Are you sure you want to do so?" Value="=subject.Does:are= nicht euer Eigentum, und das Verwenden von =object.dativ= wird =object.them= verbrauchen. Seid ihr sicher?" />
   <string Context="MapReveal Ordinary" ID="=subject.Does:seem= to be behaving as nothing more than an ordinary piece of paper." Value="=subject.Does:seem= sich wie nichts anderes als ein gewöhnliches Stück Papier zu verhalten." />
   <string Context="MapReveal Success Message" ID="=subject.itis= a map of your surroundings!" Value="=subject.itis= eine Karte eurer Umgebung!" />
   <string Context="MechanicalWings FlightSourceDescription" ID="Mechanical Wings" Value="Mechanische Flügel" />
-  <string Context="MechanicalWings Warning AbovePit" ID="It looks like a long way down =object.the.name= you're above. Are you sure you want to stop flying?" Value="Es sieht wie ein langer Weg nach unten zu =object.the.name= aus, über dem ihr schwebt. Seid ihr sicher, dass ihr das Fliegen beenden wollt?" />
+  <string Context="MechanicalWings Warning AbovePit" ID="It looks like a long way down =object.the.name= you're above. Are you sure you want to stop flying?" Value="Es sieht wie ein langer Weg nach unten zu =object.dativ= aus, über dem ihr schwebt. Seid ihr sicher, dass ihr das Fliegen beenden wollt?" />
   <string Context="MechanicalWings TryStartupFail Bootup" ID="=subject.The.name= =subject.is= still starting up." Value="=subject.The.name= =subject.is= wird gerade noch hochgefahren." />
   <string Context="MechanicalWings TryStartupFail BootupNonObvious" ID="=subject.The.name= =subject.is= unresponsive." Value="=subject.The.name= =subject.is= reagiert nicht." />
   <string ID="=subject.Does:dissipate=." Value="=subject.Does:dissipate=." />
@@ -3331,7 +3331,7 @@
   <string Context="ReflectProjectiles Check deactivated" ID="=subject.Does:have= =subject.its= reflective shield deactivated." Value="=subject.Does:have= =subject.its= reflektives Schild deaktiviert." />
   <string Context="Repair TooConfused" ID="You're too confused to do that." Value="Sie sind zu verwirrt, um das zu tun." />
   <string Context="Repair IncompatibleFlyingState" ID="You cannot reach =object.the.name= to repair =object.it=." Value="Du kannst =object.the.name= nicht erreichen, um =object.it= zu reparieren." />
-  <string Context="Repair OutofPhase" ID="You are out of phase with =object.the.name= and cannot repair =object.it=." Value="Du bist nicht in Phase mit =object.the.name= und kannst =object.it= nicht reparieren." />
+  <string Context="Repair OutofPhase" ID="You are out of phase with =object.the.name= and cannot repair =object.it=." Value="Du bist nicht in Phase mit =object.dativ= und kannst =object.it= nicht reparieren." />
   <string Context="Repair TargetNotAllowedToBeRepaired" ID="You can't repair that." Value="Ihr könnt das nicht reparieren." />
   <string Context="Repair NotNearHostiles" ID="You can't repair with hostile creatures nearby." Value="Ihr könnt nicht reparieren, wenn feindselige Kreaturen in der Nähe sind." />
   <string Context="Repair Success" ID="You repair =object.the.name:single=." Value="Du reparierst =object.the.name:single=." />
@@ -3510,7 +3510,7 @@
   <string Context="Liquid Volume - Sealed description appendix" ID="Sealed: The liquid contained inside can't be accessed." Value="Versiegelt: Die Flüssigkeit darin kann nicht zugegriffen werden." />
   <string Context="Liquid Volume - drink failure message" ID="You are unable to drink that." Value="Ihr könnt das nicht trinken." />
   <string Context="Liquid Volume - drink failure message" ID="You are unable to drink liquids." Value="Ihr könnt keine Flüssigkeiten trinken." />
-  <string Context="Liquid Volume - drink failure message" ID="You cannot seem to interact with =object.the.name= in any way." Value="Ihr scheint nicht in der Lage zu sein, mit =object.the.name= auf irgendeine Weise zu interagieren." />
+  <string Context="Liquid Volume - drink failure message" ID="You cannot seem to interact with =object.the.name= in any way." Value="Ihr scheint nicht in der Lage zu sein, mit =object.dativ= auf irgendeine Weise zu interagieren." />
   <string Context="Liquid Volume - confirm drink dangerous" ID="Are you sure you want to drink that?" Value="Möchtest du das wirklich trinken?" />
   <string Context="Liquid Volume - Drinking temporary liquid" ID="It's fizzy." Value="Es prickelt." />
   <string Context="Liquid Volume - Warn drink unowned" ID="=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to drink from =subject.them=?" Value="=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr aus =subject.them= trinken möchtet?" />
@@ -3518,7 +3518,7 @@
   <string Context="Liquid Volume - Empty error message" ID="It's empty, there's nothing left to drink!" Value="Es ist leer, es gibt nichts mehr zu trinken!" />
   <string Context="Liquid Volume - has no drain error" ID="=object.Does:have= no drain." Value="=object.Does:have= keinen Abfluss." />
   <string Context="Liquid Volume - sealed error" ID="=object.Does:are= sealed." Value="=object.Does:are= versiegelt." />
-  <string Context="Liquid Volume - statis error" ID="You cannot seem to interact with =object.the.name= in any way." Value="Ihr scheint nicht in der Lage zu sein, mit =object.the.name= auf irgendeine Weise zu interagieren." />
+  <string Context="Liquid Volume - statis error" ID="You cannot seem to interact with =object.the.name= in any way." Value="Ihr scheint nicht in der Lage zu sein, mit =object.dativ= auf irgendeine Weise zu interagieren." />
   <string Context="Liquid Volume - empty error" ID="=object.Does:are= empty." Value="=object.Does:are= leer." />
   <string Context="Liquid Volume - Warn drain unowned" ID="=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to drain =subject.them=?" Value="=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr =subject.them= entleeren möchtet?" />
   <string Context="Liquid Volume - Warn drain" ID="Are you sure you want to drain =subject.the.name=?" Value="Seid Ihr sicher, dass Ihr =subject.the.name= ablassen möchtet?" />
@@ -3632,7 +3632,7 @@
   <string Context="LiquidAmmoLoader ImpureLiquid NoColor" ID="[?]" Value="[?]" />
   <string Context="LiquidAmmoLoader Reload AlreadyFull" ID="=subject.Does:are= already full of =volume.name=." Value="=subject.Does:are= bereits voll mit =volume.name=." />
   <string Context="LiquidAmmoLoader Reload NoLiquidAvailable" ID="You have no =liquid.name= for =object.the.name=." Value="Ihr habt keine =liquid.name= für =object.the.name=." />
-  <string Context="LiquidAmmoLoader Reload DumpWrongLiquidFirst" ID="You dump the =volume.name= out of =object.the.name=." Value="Ihr schüttet =volume.name= aus =object.the.name= aus." />
+  <string Context="LiquidAmmoLoader Reload DumpWrongLiquidFirst" ID="You dump the =volume.name= out of =object.the.name=." Value="Ihr schüttet =volume.name= aus =object.dativ= aus." />
   <string Context="LiquidAmmoLoader Reload Success Partial" ID="You partially fill =object.the.name= with =volume.name=." Value="Ihr füllt =object.the.name= teilweise mit =volume.name=." />
   <string Context="LiquidAmmoLoader Reload Success" ID="You fill =object.the.name= with =volume.name=." Value="Ihr füllt =object.the.name= mit =volume.name=." />
   <string Context="LiquidAmmoLoader Status Empty" ID="=subject.Does:are= empty." Value="=subject.Does:are= leer." />
@@ -3665,7 +3665,7 @@
   <string Context="ShatterOnHit Message Log" ID="=subject.Does:shatter=." Value="=subject.Does:shatter=." />
   <string Context="StickyOnHit Message Log" ID="=subject.Does:get= entangled in =object.the.name=!" Value="=subject.Does:get= verwickelt in =object.the.name=!" />
   <string Context="GrapplingGun MissilePenetrateEvent MessageFragmentOrExtraSentence TODO" ID=", but =subject.verb:manage= to latch on anyway" Value=", aber =subject.verb:manage= greift trotzdem an" />
-  <string Context="HookOnMissileHit DraggedToward" ID="=subject.Does:are= dragged toward =object.the.name=." Value="=subject.Does:are= zu =object.the.name= gezogen." />
+  <string Context="HookOnMissileHit DraggedToward" ID="=subject.Does:are= dragged toward =object.the.name=." Value="=subject.Does:are= zu =object.dativ= gezogen." />
   <string Context="MissilePerformance RulesPostfix PenetrationModifier Powered" ID="When powered, =subject.this= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =modifier.signed= to =subject.their= penetration rolls." Value="Wenn aktiviert, =subject.this= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =modifier.signed= auf =subject.their= Durchschlagswürfe." />
   <string Context="MissilePerformance RulesPostfix PenetrationModifier" ID="=subject.This= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =modifier.signed= to =subject.their= penetration rolls." Value="=subject.This= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =modifier.signed= auf =subject.their= Durchschlagswürfe." />
   <string Context="MissilePerformance RulesPostfix PenetrationCapModifier Powered" ID="When powered, =subject.this= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =modifier.signed= to the maximum of =subject.their= penetration rolls." Value="Wenn aktiviert, =subject.this= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =modifier.signed= auf das Maximum von =subject.their= Durchschlagswürfen." />
@@ -3707,7 +3707,7 @@
   <string Context="ModBiomech Description" ID="Biomech: Has biomechanical power transmission systems." Value="Biomech: Verfügt über biomechanische Kraftübertragungssysteme." />
   <string Context="ModBlinkEscape Techscanning NameForStatus" ID="EmergencyTeleporter" Value="NotfallTeleporter" />
   <string Context="ModBlinkEscape Description" ID="Whenever you're about to take avoidable damage, there's =chance.a.number=% chance you blink away instead." Value="Wann immer Ihr vermeidbaren Schaden erleiden würdet, gibt es eine =chance.a.number=%-Chance, dass Ihr stattdessen fortblinkt." />
-  <string ID="Fate intervenes and you deal no damage to =object.the.name=." Value="Das Schicksal greift ein und Ihr verursacht keinen Schaden bei =object.the.name=." />
+  <string ID="Fate intervenes and you deal no damage to =object.the.name=." Value="Das Schicksal greift ein und Ihr verursacht keinen Schaden bei =object.dativ=." />
   <string Context="ModCleated Techscanning NameForStatus" ID="StabilityAssist" Value="StabilitätsAssistent" />
   <string Context="ModCleated DisplayName WithClause" ID="cleats" Value="mit Stollen" />
   <string Context="ModCleated Description" ID="Fitted with cleats: =saveVs.saveBonus#amount=" Value="Mit Stollen ausgestattet: =saveVs.saveBonus#amount=" />
@@ -3817,7 +3817,7 @@
   <string Context="ModLiquidCooled NonPure Colorless Volume" ID=" [?]" Value=" [?]" />
   <string Context="ModLiquidCooled Already Full" ID="=subject.Does:are= already full of =volume.liquid.name=." Value="=subject.Does:are= bereits voll mit =volume.liquid.name=." />
   <string Context="ModLiquidCooled No Necessary Liquid" ID="You have no =liquid.name|strip= for =object.the.name=." Value="Ihr habt kein =liquid.name|strip= für =object.the.name=." />
-  <string Context="ModLiquidCooled Liquid Dump Message" ID="You dump the =volume.liquid.name= out of =object.the.name=." Value="Ihr leert das =volume.liquid.name= aus =object.the.name=." />
+  <string Context="ModLiquidCooled Liquid Dump Message" ID="You dump the =volume.liquid.name= out of =object.the.name=." Value="Ihr leert das =volume.liquid.name= aus =object.dativ=." />
   <string Context="ModLiquidCooled Liquid Fill =snapshotName= Before Loading" ID="=subject.the.name=" Value="=subject.the.name=" />
   <string Context="ModLiquidCooled Liquid Fill Message" ID="You=partial.if: partially:= fill =snapshotName= with =volume.liquid.name=." Value="Ihr=partial.if: partially:= füllt =snapshotName= mit =volume.liquid.name=." />
   <string Context="ModLiquidCooled Display Adjective" ID="{{=liquid.color=|liquid-cooled}}" Value="{{=liquid.color=|flüssigkeitsgekühlt}}" />
@@ -4038,7 +4038,7 @@
   <string Context="Kindle ActivatedAbility Name" ID="Kindle" Value="Kindle" />
   <string Context="LifeDrain TargetPicker Label" ID="Syphon Vim" Value="Vitalität absaugen" />
   <string Context="LifeDrain Fail No Target" ID="No one is there for you to syphon vim from." Value="Es ist niemand da, von dem du Energie absaugen könntest." />
-  <string Context="LifeDrain Fail Invalid Target or Self" ID="You cannot syphon vim from =object.the.name=." Value="Ihr könnt kein Vim aus =object.the.name= siphonieren." />
+  <string Context="LifeDrain Fail Invalid Target or Self" ID="You cannot syphon vim from =object.the.name=." Value="Ihr könnt kein Vim aus =object.dativ= siphonieren." />
   <string Context="LifeDrain ActivatedAbility Name" ID="Syphon Vim" Value="Vitalität absaugen" />
   <string Context="LightManip Lase Fail too weak" ID="Your capacity is too weak." Value="Eure Kapazität ist zu schwach." />
   <string Context="LightManip Lase TargetPicker Label" ID="Lase" Value="Lasern" />
@@ -4094,7 +4094,7 @@
   <string Context="SunderMind MemberOfPsychicBattle Effect Description" ID="locked in psychic battle" Value="in einen Psi-Kampf verstrickt" />
   <string Context="SunderMind Canceled" ID="Your concentration slips and the channel between you and =object.the.name= dissipates into aether." Value="Eure Konzentration lässt nach und der Kanal zwischen euch und =object.the.name= zerfällt in Äther." />
   <string Context="SunderMind Canceled" ID="Your concentration slips and the channel dissipates." Value="Eure Konzentration lässt nach und der Kanal zerstreut sich." />
-  <string Context="SunderMind Start Channeling" ID="You burrow a channel through the psychic aether to =object.the.name= and begin to sunder =object.its= mind!" Value="Ihr gräbt einen Kanal durch die psychische Äther zu =object.the.name= und beginnt =object.its= Verstand zu spalten!" />
+  <string Context="SunderMind Start Channeling" ID="You burrow a channel through the psychic aether to =object.the.name= and begin to sunder =object.its= mind!" Value="Ihr gräbt einen Kanal durch die psychische Äther zu =object.dativ= und beginnt =object.its= Verstand zu spalten!" />
   <string Context="SunderMind Start Channeling against player" ID="=subject.The.name= =subject.to.the.direction= =subject.verb:burrow= a channel through the psychic aether and =subject.verb:begin= to sunder your mind!" Value="=subject.The.name= =subject.to.the.direction= =subject.verb:burrow= einen Kanal durch die psychische Äther und =subject.verb:begin= euren Verstand zu spalten!" />
   <string Context="SunderMind death by head explode pt.1" ID="Your sense of self is pulled apart by what feels like a billion years of geologic pressure." Value="Euer Ich wird auseinandergerissen durch das, was sich wie eine Milliarde Jahre geologischen Drucks anfühlt." />
   <string Context="SunderMind death by head explode pt.2" ID="Your head explodes!" Value="Euer Kopf explodiert!" />
@@ -4140,7 +4140,7 @@
   <string Context="TimeDilation Start Message" ID="Time begins to distort around =subject.the.name=." Value="Die Zeit beginnt sich um =subject.the.name= zu verzerren." />
   <string Context="TimeDilation ActivatedAbility Name" ID="Time Dilation" Value="Zeitdilatation" />
   <string Context="Infiltrate Target Picker Title" ID="Infiltrate" Value="Infiltrieren" />
-  <string Context="Infiltrate notify player enemy teleported them" ID="You are teleported by =object.the.name=." Value="Ihr werdet von =object.the.name= teleportiert." />
+  <string Context="Infiltrate notify player enemy teleported them" ID="You are teleported by =object.the.name=." Value="Ihr werdet von =object.dativ= teleportiert." />
   <string Context="Infiltrate targeting" ID="=subject.Does:focus= =subject.its= sensor somewhere else." Value="=subject.Does:focus= =subject.its= Sensor irgendwo anders." />
   <string Context="Infiltrate Activated Ablity Name" ID="Infiltrate" Value="Infiltrieren" />
   <string Context="Mutation with Defect Display" ID="=mutationName= ({{r|D}})" Value="=mutationName= ({{r|D}})" />
@@ -4162,10 +4162,10 @@
   <string Context="Elec Gen Discharge Message" ID="=subject.Does:discharge= an electrical arc!" Value="=subject.Does:discharge= einen elektrischen Bogen!" />
   <string Context="Elec Gen AbilityDisplay Discharge" ID="Discharge [=charge= charge]" Value="Entladung [=charge= Ladung]" />
   <string Context="Elec Gen DrinkCharge Fail Evaded" ID="=subject.Does:try= to touch =object.the.name=, but =object.it.does:evade= =subject.them=." Value="=subject.Does:try= =object.the.name= zu berühren, aber =object.it.does:evade= =subject.them=." />
-  <string Context="Elec Gen DrinkCharge" ID="=subject.Does:drink= the juice from =object.the.name= and recharge =amount.things:unit= of electrical charge." Value="=subject.Does:drink= den Saft von =object.the.name= und lädt =amount.things:unit= elektrischer Ladung auf." />
-  <string Context="Elec Gen DrinkCharge Unretained" ID="=subject.Does:drink= the juice from =object.the.name= but don't seem to retain any of it." Value="=subject.Does:drink= den Saft von =object.the.name=, aber scheinen nichts davon zu behalten." />
+  <string Context="Elec Gen DrinkCharge" ID="=subject.Does:drink= the juice from =object.the.name= and recharge =amount.things:unit= of electrical charge." Value="=subject.Does:drink= den Saft von =object.dativ= und lädt =amount.things:unit= elektrischer Ladung auf." />
+  <string Context="Elec Gen DrinkCharge Unretained" ID="=subject.Does:drink= the juice from =object.the.name= but don't seem to retain any of it." Value="=subject.Does:drink= den Saft von =object.dativ=, aber scheinen nichts davon zu behalten." />
   <string Context="Elec Gen DrinkCharge Unknown Amount" ID="=subject.Does:touch= =object.the.name=." Value="=subject.Does:touch= =object.the.name=." />
-  <string Context="Elec Gen DrinkCharge None Player" ID="You can't seem to drink any of the juice from =object.the.name=." Value="Ihr könnt anscheinend keinen Saft von =object.the.name= trinken." />
+  <string Context="Elec Gen DrinkCharge None Player" ID="You can't seem to drink any of the juice from =object.the.name=." Value="Ihr könnt anscheinend keinen Saft von =object.dativ= trinken." />
   <string Context="Elec Gen DrinkCharge None" ID="=subject.Does:touch= =object.a.name=." Value="=subject.Does:touch= =object.a.name=." />
   <string Context="Elec Gen IPS Object Short Description Postfix" ID="Integrated power: When equipped, you can power =object.this.them==object.nounIfBareIndicative:device|spaceBefore= via Electrical Generation." Value="Integrierte Stromversorgung: Wenn ausgerüstet, könnt Ihr =object.this.them==object.nounIfBareIndicative:device|spaceBefore= mit Stromerzeugung antreiben." />
   <string Context="Elec Gen Damage Recharge" ID="=subject.Does:recharge= =amount.things:unit= of electrical charge from the damage." Value="=subject.Does:recharge= =amount.things:unit= von elektrischer Ladung aus dem Schaden." />
@@ -4251,7 +4251,7 @@
   <string Context="Stinger VenomType" ID="paralyzing" Value="lähmend" />
   <string Context="ThickFur Extra Physical Feature" ID="thick fur" Value="dichtes Fell" />
   <string Context="TwoHeaded shake off effect message log" ID="=subject.Poss#head= =head.isPlural:help:helps= =subject.them= shake off =effect.being.effected#definite=!" Value="=subject.Poss#head= =head.isPlural:help:helps= =subject.them= schütteln =effect.being.effected#definite= ab!" />
-  <string Context="Wings Confirm long fall" ID="It looks like a long way down =object.the.name= you're above. Are you sure you want to stop flying?" Value="Es sieht wie ein langer Weg nach unten zu =object.the.name= aus, über dem ihr schwebt. Seid ihr sicher, dass ihr das Fliegen beenden wollt?" />
+  <string Context="Wings Confirm long fall" ID="It looks like a long way down =object.the.name= you're above. Are you sure you want to stop flying?" Value="Es sieht wie ein langer Weg nach unten zu =object.dativ= aus, über dem ihr schwebt. Seid ihr sicher, dass ihr das Fliegen beenden wollt?" />
   <string Context="Wings Failure (EMPed robot wings)" ID="=subject.Poss#wingsBlueprint|strip= will not move!" Value="=subject.Poss#wingsBlueprint|strip= werden sich nicht bewegen!" />
   <string Context="Wings body part description default" ID="Worn around Wings" Value="Um die Flügel getragen" />
   <string ID="=subject.Does:are= shamed by =subject.possessive= reflection!" Value="=subject.Does:are= von =subject.possessive= Spiegelung beschämt!" />
@@ -4334,7 +4334,7 @@
   <string Context="Temporary - Disappearing combat log message" ID="=subject.The.name= =subject.directionIfAny= =subject.verb:disappear=." Value="=subject.The.name= =subject.directionIfAny= =subject.verb:disappear=." />
   <string Context="Temporary - Death Reason" ID="Faded from existence." Value="Aus der Existenz verblasst." />
   <string Context="Temporary - Stabilized" ID="=subject.Does:flicker= and =subject.possessive= worldline through spacetime snaps back to its canonical path. =subject.The.name= =subject.verb:vanish=." Value="=subject.Does:flicker= und =subject.possessive= Weltlinie durch die Raumzeit schnellt auf ihren kanonischen Weg zurück. =subject.The.name= =subject.verb:vanish=." />
-  <string Context="AIBarathrumShuttle" ID="=subject.Does:start= interfacing with =object.the.name=." Value="=subject.Does:start= sich mit =object.the.name= zu verbinden." />
+  <string Context="AIBarathrumShuttle" ID="=subject.Does:start= interfacing with =object.the.name=." Value="=subject.Does:start= sich mit =object.dativ= zu verbinden." />
   <string Context="ReflectDamage Message Log" ID="=subject.Does:reflect= =amount= damage back at =object.the.name=." Value="=subject.Does:reflect= =amount= Schaden auf =object.the.name= zurück." />
   <string Context="RefractLight default verb" ID="refract" Value="brechen" />
   <string Context="RefractLight Always" ID="=verb.ThirdPerson= light-based attacks." Value="=verb.ThirdPerson= lichtbasierte Angriffe." />
@@ -4446,12 +4446,12 @@
   <string Context="Campfire RollIngredients random ingredient" ID="=spice:cooking.ingredient.!random=" Value="=spice:cooking.ingredient.!random=" />
   <string Context="Campfire DescribeMeal fallback default ingredients" ID="unknown" Value="unbekannt" />
   <string Context="Campfire DescribeMeal" ID="=spice:cooking.cookTemplate.!random=" Value="=spice:cooking.cookTemplate.!random=" />
-  <string Context="Campfire NostrumsStopBleeding" ID="You try to staunch the wounds of =object.the.name=, but your limbs pass through =object.them=." Value="Ihr versucht, die Wunden von =object.the.name= zu stillen, aber eure Gliedmaßen gehen durch =object.them= hindurch." />
-  <string Context="Campfire NostrumsStopBleeding" ID="You try to staunch the wounds of =object.the.name=, but cannot affect =object.them=." Value="Ihr versucht, die Wunden von =object.the.name= zu stillen, könnt aber =object.them= nicht beeinflussen." />
+  <string Context="Campfire NostrumsStopBleeding" ID="You try to staunch the wounds of =object.the.name=, but your limbs pass through =object.them=." Value="Ihr versucht, die Wunden von =object.dativ= zu stillen, aber eure Gliedmaßen gehen durch =object.them= hindurch." />
+  <string Context="Campfire NostrumsStopBleeding" ID="You try to staunch the wounds of =object.the.name=, but cannot affect =object.them=." Value="Ihr versucht, die Wunden von =object.dativ= zu stillen, könnt aber =object.them= nicht beeinflussen." />
   <string Context="Campfire NostrumsStopBleeding" ID="You staunch your wounds, though some are too deep to treat." Value="Ihr stehst Eure Wunden, obwohl einige zu tief sind, um sie zu behandeln." />
-  <string Context="Campfire NostrumsStopBleeding" ID="You staunch the wounds of =object.the.name=, though some are too deep to treat." Value="Ihr stillt die Wunden von =object.the.name=, obwohl einige zu tief sind, um sie zu behandeln." />
+  <string Context="Campfire NostrumsStopBleeding" ID="You staunch the wounds of =object.the.name=, though some are too deep to treat." Value="Ihr stillt die Wunden von =object.dativ=, obwohl einige zu tief sind, um sie zu behandeln." />
   <string Context="Campfire NostrumsStopBleeding" ID="You staunch your wounds." Value="Ihr stehst Eure Wunden." />
-  <string Context="Campfire NostrumsStopBleeding" ID="You staunch the wounds of =object.the.name=." Value="Ihr stillt die Wunden von =object.the.name=." />
+  <string Context="Campfire NostrumsStopBleeding" ID="You staunch the wounds of =object.the.name=." Value="Ihr stillt die Wunden von =object.dativ=." />
   <string Context="Campfire NostrumsStopBleeding" ID="=object.name's= wounds are too deep to treat." Value="=object.name's= Wunden sind zu tief, um sie zu behandeln." />
   <string Context="Campfire NostrumsStopBleeding" ID="You are not bleeding." Value="Ihr blutest nicht." />
   <string Context="Campfire NostrumsStopBleeding" ID="Neither you nor =object.the.name= are bleeding." Value="Weder Ihr noch =object.the.name= bluten." />
@@ -4495,7 +4495,7 @@
   <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Neither you nor =object.the.name= are suffering from the onset of a disease." Value="Weder Ihr noch =object.the.name= leidet unter dem Ausbruch einer Krankheit." />
   <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Neither you nor any of your nearby companions are suffering from the onset of a disease." Value="Weder Ihr noch Eure Gefährten in der Nähe leiden unter dem Ausbruch einer Krankheit." />
   <string Context="Campfire Extinguish" ID="=subject.Does:extinguish= =object.the.name=." Value="=subject.Does:extinguish= =object.the.name=." />
-  <string Context="Campfire Extinguish (no actor)" ID="=subject.Does:are= extinguished by =object.the.name=." Value="=subject.Does:are= von =object.the.name= ausgelöscht." />
+  <string Context="Campfire Extinguish (no actor)" ID="=subject.Does:are= extinguished by =object.the.name=." Value="=subject.Does:are= von =object.dativ= ausgelöscht." />
   <string Context="Cookbook Chef Name" ID="=subject.a.name|strip=" Value="=subject.a.name|strip=" />
   <string Context="Cookbook Accomplishment" ID="You read =object.refname=." Value="Ihr lest =object.refname=." />
   <string Context="Cookbook Mural Text" ID="In the month of =month= of =year=, =subject.name= penned the influential cookbook, =object.refname=." Value="Im Monat =month= des =year= schrieb =subject.name= das einflussreiche Kochbuch =object.refname=." />
@@ -4592,9 +4592,9 @@
   <string Context="AmputateLimb Fail Cannot Bring Self" ID="You cannot bring yourself to amputate your =limb.ordinalName=." Value="Ihr könnt Euch nicht dazu durchringen, Euer =limb.ordinalName= zu amputieren." />
   <string Context="AmputateLimb Fail Cannot Amputate Limb Holding Amputating Weapon" ID="=subject.Does:cannot= amputate the =limb.type.name= holding =subject.its.item#weapon=." Value="=subject.Does:cannot= das =limb.type.name= nicht amputieren, das =subject.its.item#weapon= hält." />
   <string Context="AmputateLimb Fail Sees No Reason" ID="=subject.Does:see= no reason for you to amputate =subject.its= =limb.ordinalName=." Value="=subject.Does:see= keinen Grund für Euch, =subject.its= =limb.ordinalName= zu amputieren." />
-  <string Context="AmputateLimb MessageLog OutofPhase" ID="=subject.Does:try= to amputate =object.the.name's= =limb.ordinalName= with =weapon.the.name=, but =weapon.it.does:pass= through =object.them=." Value="=subject.Does:try= =object.the.name's= =limb.ordinalName= mit =weapon.the.name= zu amputieren, aber =weapon.it.does:pass= durch =object.them= hindurch." />
-  <string Context="AmputateLimb MessageLog InStasis" ID="=subject.Does:try= to amputate =object.the.name's= =limb.ordinalName= with =weapon.the.name=, but =weapon.it.does:have= no effect." Value="=subject.Does:try= =object.the.name's= =limb.ordinalName= mit =weapon.the.name= zu amputieren, aber =weapon.it.does:have= keine Wirkung." />
-  <string Context="AmputateLimb Popup Standard" ID="=subject.Does:amputate= =object.the.name's= =limb.ordinalName= with =weapon.the.name=." Value="=subject.Does:amputate= =object.the.name's= =limb.ordinalName= mit =weapon.the.name=." />
+  <string Context="AmputateLimb MessageLog OutofPhase" ID="=subject.Does:try= to amputate =object.the.name's= =limb.ordinalName= with =weapon.the.name=, but =weapon.it.does:pass= through =object.them=." Value="=subject.Does:try= =object.the.name's= =limb.ordinalName= mit =weapon.dativ= zu amputieren, aber =weapon.it.does:pass= durch =object.them= hindurch." />
+  <string Context="AmputateLimb MessageLog InStasis" ID="=subject.Does:try= to amputate =object.the.name's= =limb.ordinalName= with =weapon.the.name=, but =weapon.it.does:have= no effect." Value="=subject.Does:try= =object.the.name's= =limb.ordinalName= mit =weapon.dativ= zu amputieren, aber =weapon.it.does:have= keine Wirkung." />
+  <string Context="AmputateLimb Popup Standard" ID="=subject.Does:amputate= =object.the.name's= =limb.ordinalName= with =weapon.the.name=." Value="=subject.Does:amputate= =object.the.name's= =limb.ordinalName= mit =weapon.dativ=." />
   <string Context="AmputateLimb Activated Ability Name" ID="Amputate Limb" Value="Glied amputieren" />
   <string Context="Akimbo skill ability name" ID="Akimbo" Value="Akimbo" />
   <string Context="EmptyTheClips Ability Name" ID="Empty the Clips" Value="Lade die Magazine" />
@@ -4663,7 +4663,7 @@
   <string Context="CrematoryMachineRoomTerminal Additional Option" ID="..." Value="..." />
   <string ID="&lt;more...&gt;" Value="&lt;mehr ...&gt;" />
   <string Context="Container part - default =preposition=" ID="in" Value="in" />
-  <string Context="Container Cannot Trade" ID="You cannot trade with =object.the.name=." Value="Ihr könnt nicht mit =object.the.name= handeln." />
+  <string Context="Container Cannot Trade" ID="You cannot trade with =object.the.name=." Value="Ihr könnt nicht mit =object.dativ= handeln." />
   <string Context="Container Not Owned" ID="That is not owned by you. Are you sure you want to open it?" Value="Das gehört Euch nicht. Seid Ihr sicher, dass Ihr es öffnen möchtet?" />
   <string Context="Container Nothing Preposition That" ID="There's nothing =preposition= that. Would you like to store an item?" Value="Es gibt nichts =preposition= davon. Wollt Ihr einen Gegenstand lagern?" />
   <string Context="DoubleContainer BeforeDeath" ID="You broke apart." Value="Ihr seid auseinandergefallen." />
@@ -4721,7 +4721,7 @@
   <string Context="Disassembly InterruptBecause" ID="the item you were working on disappeared" Value="der Gegenstand, mit dem Ihr arbeitet, ist verschwunden" />
   <string Context="Disassembly InterruptBecause" ID="the item you were working on was destroyed" Value="der Gegenstand, mit dem Ihr arbeitet, wurde zerstört" />
   <string Context="Disassembly InterruptBecause" ID="=object.does:are= no longer within your reach" Value="=object.does:are= nicht mehr in Eurer Reichweite" />
-  <string Context="Disassembly InterruptBecause" ID="you can no longer interact with =object.the.name=" Value="Ihr könnt nicht länger mit =object.the.name= interagieren" />
+  <string Context="Disassembly InterruptBecause" ID="you can no longer interact with =object.the.name=" Value="Ihr könnt nicht länger mit =object.dativ= interagieren" />
   <string Context="Disassembly InterruptBecause" ID="=object.the.name= can no longer be disassembled" Value="=object.the.name= lässt sich nicht länger zerlegen" />
   <string Context="Disassembly InterruptBecause" ID="you no longer know how to disassemble things" Value="Ihr habt verlernt, wie man Gegenstände zerlegt" />
   <string Context="Disassembly InterruptBecause" ID="you can no longer move your extremities" Value="Ihr könnt Eure Gliedmaßen nicht länger bewegen" />
@@ -5266,7 +5266,7 @@
   <string ID="Provides =min.range#max= =number.isplural:points:point= of reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.">Bietet =min.range#max= =number.isplural:points:point= Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.</string>
   <string ID="Provides =min.range#max= =number.isplural:points:point= of reduction in the cooldowns of activated abilities other than =abilities.andList|strip=.">Bietet =min.range#max= =number.isplural:points:point= Verringerung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.</string>
   <string ID="You cannot reach =object.the.name= to repair =object.them=.">Ihr könnt =object.the.name= nicht erreichen, um =object.them= zu reparieren.</string>
-  <string ID="You are out of phase with =object.the.name= and cannot repair =object.them=.">Ihr seid nicht in Phase mit =object.the.name= und könnt =object.them= nicht reparieren.</string>
+  <string ID="You are out of phase with =object.the.name= and cannot repair =object.them=.">Ihr seid nicht in Phase mit =object.dativ= und könnt =object.them= nicht reparieren.</string>
   <string ID="=subject.Does:start= dashing in a plume of flame and smoke!">=subject.Does:start= in einer Wolke aus Flammen und Rauch loszustürmen!</string>
   <string ID="=subject.The.name= merely =subject.verb:click=.">=subject.The.name= lediglich =subject.verb:click=.</string>
   <string ID="=subject.Does:aren't= working.">=subject.Does:aren't= funktionsfähig.</string>
