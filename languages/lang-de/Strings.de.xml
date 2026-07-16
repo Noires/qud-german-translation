@@ -2024,7 +2024,7 @@
   <string Context="Beguiled Effect Journal Accomplishment" ID="=beguiled.A.name= ogled you lovingly after you employed your charm." Value="=beguiled.A.name= betrachtete Euch verliebt an, nachdem Ihr Euren Charme einsetztet." />
   <string Context="Beguiled Effect Journal Accomplishment Mural" ID="The storied eroticism of =player.name= became intimately known to =beguiled.a.name=." Value="Die legendäre Erotik von =player.name= wurde =beguiled.a.name= innig bekannt." />
   <string Context="Beguiled Effect Journal Accomplishment Gospel" ID="=spice:elements.$domain.weddingConditions.!random|capitalize=, =player.name= cemented =player.possessiveAdjective= friendship with =beguiled.the.faction:base= by marrying =beguiled.a.name=." Value="=spice:elements.$domain.weddingConditions.!random|capitalize=, =player.name= besiegelte =player.possessiveAdjective= Freundschaft mit =beguiled.the.faction:base= durch Heirat mit =beguiled.a.name=." />
-  <string Context="Beguiled Effect Remove Message Log" ID="=subject.Does:lose= interest in =object.the.name=." Value="=subject.Does:lose= das Interesse an =object.the.name=." />
+  <string Context="Beguiled Effect Remove Message Log" ID="=subject.Does:lose= interest in =object.the.name=." Value="=subject.Does:lose= das Interesse an =object.dativ=." />
   <string Context="Berserk Effect DisplayName" ID="berserk" Value="im Blutrausch" />
   <string Context="Berserker Effect Duration Player Message Log" ID="=duration.things:turn remains:turns remain= until your berserker rage ends." Value="=duration.things:turn remains:turns remain= bis zum Ende Eurer Berserker-Raserei." />
   <string Context="Blaze_Tonic Effect GetDescription" ID="{{blaze|blaze}} tonic" Value="{{blaze|blaze}}-Tonikum" />
@@ -2817,7 +2817,7 @@
   <string Context="Rebekahs tombstone finalize" ID="=engraving|tombstoneRebekah=" Value="=engraving|tombstoneRebekah=" />
   <string Context="RecomingPlaque Text" ID="&quot;Unwrap thyself of thy grave clothes, and go.&quot;" Value="&quot;Befreie dich von deinen Grabkleidern und gehe.&quot;" />
   <string Context="RecomingPlaque Inscribed" ID="=text|recomingPlaque=" Value="=text|recomingPlaque=" />
-  <string Context="Shrine prayer message log" ID="=subject.Does:voice= a short prayer beneath =object.the.name=." Value="=subject.Does:voice= ein kurzes Gebet unter =object.the.name=." />
+  <string Context="Shrine prayer message log" ID="=subject.Does:voice= a short prayer beneath =object.the.name=." Value="=subject.Does:voice= ein kurzes Gebet unter =object.dativ=." />
   <string Context="Shrine desecrate message log" ID="=subject.Does:desecrate= =object.the.name=." Value="=subject.Does:desecrate= =object.the.name=." />
   <string Context="Shrine Desecrate needs liquids" ID="You need a dram of =liquids.either.or= to desecrate a shrine." Value="Ihr benötigt einen Schluck =liquids.either.or=, um einen Schrein zu schänden." />
   <string Context="Cooking ingredient liquid label" ID="a dram of =item.liquid.name=" Value="ein Dram =item.liquid.name=" />
@@ -3146,7 +3146,7 @@
   <string Context="HologramProjector Appears" ID="=subject.a.name= =subject.verb:appear= =subject.to.the.direction=." Value="=subject.a.name= =subject.verb:appear= =subject.to.the.direction=." />
   <string Context="HologramProjector Disappears" ID="=subject.a.name= =subject.verb:disappear= =subject.to.the.direction=." Value="=subject.a.name= =subject.verb:disappear= =subject.to.the.direction=." />
   <string Context="Hookah Fail NoWater" ID="=subject.Does:need= water in =subject.them=." Value="=subject.Does:need= Wasser in =subject.them=." />
-  <string Context="Hookah Puffs" ID="=subject.Does:take= a puff on =object.the.name=." Value="=subject.Does:take= einen Zug an =object.the.name=." />
+  <string Context="Hookah Puffs" ID="=subject.Does:take= a puff on =object.the.name=." Value="=subject.Does:take= einen Zug an =object.dativ=." />
   <string Context="Icy DisplayName Adjective" ID="{{icy|icy}}" Value="{{icy|eisig}}" />
   <string Context="Insulating RulesPostfix" ID="Severity of cooling effects reduced by =amount=%. Cold damage reduced by =amount=%." Value="Schwere der Kühleffekte um =amount=% reduziert. Kälteschaden um =amount=% reduziert." />
   <string Context="JumpBoost RulesPostfix RangeIncrease" ID="This item increases jump distance by =range.abs=." Value="Dieses Objekt erhöht die Sprungweite um =range.abs=." />
@@ -3407,7 +3407,7 @@
   <string Context="Teleprojector AbilityName" ID="Activate =object.basename|strip|title=" Value="Aktiviert =object.basename|strip|title=" />
   <string Context="Teleprojector Activate CoolingDown" ID="=subject.Does:are= still cooling down." Value="=subject.Does:are= kühlen noch ab." />
   <string Context="Teleprojector Pick Direction Label" ID="Activate Teleprojector" Value="Teleprojector aktivieren" />
-  <string Context="Teleprojector Activate NoBrain" ID="There seems to be no digital mind in =object.the.name= to dominate." Value="Es scheint keinen digitalen Verstand in =object.the.name= zu geben, den Ihr dominieren könnt." />
+  <string Context="Teleprojector Activate NoBrain" ID="There seems to be no digital mind in =object.the.name= to dominate." Value="Es scheint keinen digitalen Verstand in =object.dativ= zu geben, den Ihr dominieren könnt." />
   <string Context="Teleprojector Activate CopyRelationshipFail" ID="You can't dominate =subject.itself=!" Value="Ihr könnt =subject.itself= nicht dominieren!" />
   <string Context="Teleprojector Activate AlreadyDominating" ID="You can't dominate someone you are already dominating." Value="Ihr könnt jemanden nicht beherrschen, den Ihr bereits beherrscht." />
   <string Context="Teleprojector Activate TargetAlreadyDominated" ID="You can't do that." Value="Das könnt Ihr nicht tun." />
@@ -3555,7 +3555,7 @@
   <string Context="Liquid Volume - pour on self message" ID="=amount.things:dram= of =volume.liquid.name= pours out all over you!" Value="=amount.things:dram= von =volume.liquid.name= gießt sich überall auf Euch!" />
   <string Context="Liquid Volume - poured out over" ID="=amount.things:dram= of =volume.liquid.name= pours out all over =subject.the.name=!" Value="=amount.things:dram= von =volume.liquid.name= gießt sich überall auf =subject.the.name=!" />
   <string Context="Liquid Volume - poured out message" ID="=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out." Value="=subject.Does:pour= =amount.things:dram= von =volume.liquid.name= aus." />
-  <string Context="Liquid Volume - pour but empty error" ID="There's nothing in =object.the.name= to pour." Value="Es gibt nichts in =object.the.name= zum Ausgießen." />
+  <string Context="Liquid Volume - pour but empty error" ID="There's nothing in =object.the.name= to pour." Value="Es gibt nichts in =object.dativ= zum Ausgießen." />
   <string Context="Liquid Volume - Warn fill unowned" ID="=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to take from =subject.them=?" Value="=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr von =subject.them= nehmen möchtet?" />
   <string Context="Liquid Volume - no containers to fill" ID="You have no containers to fill." Value="Ihr habt keine Behälter zum Füllen." />
   <string Context="Liquid Volume - container to fill menu title" ID="[Select a container to fill]" Value="[Wählt einen Behälter zum Füllen]" />
@@ -4022,7 +4022,7 @@
   <string Context="Dominate Dominate" ID="=subject.Does:take= control of =object.the.name=!" Value="=subject.Does:take= die Kontrolle über =object.the.name=!" />
   <string Context="Dominate Fail Immune" ID="Something prevents you from dominating =object.the.name=." Value="Etwas hindert dich daran, =object.the.name= zu beherrschen." />
   <string Context="Dominate Fail" ID="=subject.Does:resist= =object.name's= domination!" Value="=subject.Does:resist= =object.name's= Herrschaft!" />
-  <string Context="Dominate Failure" ID="There seems to be no mind in =object.the.name= to dominate." Value="Es scheint keinen Verstand in =object.the.name= zu geben, um ihn zu beherrschen." />
+  <string Context="Dominate Failure" ID="There seems to be no mind in =object.the.name= to dominate." Value="Es scheint keinen Verstand in =object.dativ= zu geben, um ihn zu beherrschen." />
   <string Context="Dominate Failure" ID="You can't dominate =object.itself=!" Value="Du kannst =object.itself= nicht beherrschen!" />
   <string Context="Dominate Failure" ID="You can't dominate someone you are already dominating." Value="Ihr könnt jemanden nicht beherrschen, den Ihr bereits beherrscht." />
   <string Context="Dominate Failure" ID="You can't do that." Value="Das könnt Ihr nicht tun." />
@@ -4458,7 +4458,7 @@
   <string Context="Campfire NostrumsStopBleeding" ID="Neither you nor any of your nearby companions are bleeding." Value="Weder Ihr noch Eure Gefährten in der Nähe bluten." />
   <string Context="Campfire NostrumsTreatPoison" ID="Treat whom first?" Value="Wen zuerst behandeln?" />
   <string Context="Campfire NostrumsTreatPoison" ID="Treat whom next?" Value="Wen als nächstes behandeln?" />
-  <string Context="Campfire NostrumsTreatPoison" ID="You have no medicinal ingredients with which to treat the poison coursing through =object.the.name=." Value="Ihr habt keine Heilzutaten, um das Gift in =object.the.name= zu behandeln." />
+  <string Context="Campfire NostrumsTreatPoison" ID="You have no medicinal ingredients with which to treat the poison coursing through =object.the.name=." Value="Ihr habt keine Heilzutaten, um das Gift in =object.dativ= zu behandeln." />
   <string Context="Campfire NostrumsTreatPoison" ID="Select an ingredient to use." Value="Wählt eine Zutat zum Verwenden." />
   <string Context="Campfire NostrumsTreatPoison" ID="You try to cure the poison coursing through =object.the.name=, but your limbs pass through =object.them=." Value="Ihr versucht, das Gift in =object.the.name= zu heilen, aber Eure Gliedmaßen gehen durch =object.them= hindurch." />
   <string Context="Campfire NostrumsTreatPoison" ID="You try to cure the poison coursing through =object.the.name=, but cannot affect =object.them=." Value="Ihr versucht, das Gift in =object.the.name= zu heilen, könnt =object.them= aber nicht beeinflussen." />
