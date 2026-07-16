@@ -4,6 +4,29 @@ Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung i
 `lang-experimental`-Branch. Daten-Mod plus eine kompilierte Laufzeit-DLL (`COQDE.dll`)
 für die im Code zusammengesetzten Meldungen (seit v0.8.0).
 
+## v0.8.1 – Mehr Laufzeit-Muster (Parität + Playtest-Funde)
+
+Rein datengesteuerte Erweiterung von `COQDE/Patterns.json` (**81 → 148 Muster**) –
+**keine** DLL-Neukompilierung nötig. Abgeglichen mit dem koreanischen Referenz-Mod;
+nur sichere Frames portiert, die nicht mit der Datenschicht oder den Kampfmustern
+kollidieren.
+
+- **Treppen-Popup:** „Möchtet Ihr zur nächsten Treppe nach unten/oben gehen?"
+- **„Es sind Feinde in der Nähe!"** (Abbruch-Popup beim Auto-Erkunden/Reisen).
+- **Fertigkeit lehren:** „X lehrt Euch Y!" (Fertigkeitsname aus der Datenschicht).
+- **Todesarten ergänzt** (gelasert, illuminiert, gestochen, gesteinigt, mit Plasma
+  verbrannt, eingeäschert, in einer Explosion) und der **Todesbildschirm
+  (GameSummary)** fängt jetzt auch die Kleinschreib-Variante „…, you were … to death"
+  (bisher blieb die Zusammenfassung dort englisch).
+- **Status/Bewegung:** feststecken/befreien, ein-/ausschalten, betäubt, zu Boden
+  geworfen, einschlafen, stürmen, streicheln, von Entsetzen überwältigt, fliehen,
+  explodiert.
+- **Ruf/Fraktionen:** „Euer Ruf bei … stieg/sank um … auf …", inkl. bewundern/
+  verachten/nicht mögen.
+- **Interaktion:** Aufträge erhalten/abgeschlossen, Wasserritual, Journal-Notizen,
+  durchwühlen, „Ihr erhaltet …!".
+- **Tonika:** statische Flavortexte (Muskeln, Haut, Herzschlag, Kribbeln, Flackern …).
+
 ## v0.8.0 – Laufzeit-Nachbearbeitung der Meldungsprotokolle (COQDE.dll, Prototyp)
 
 - **Neue Laufzeit-DLL `languages/lang-de/COQDE/COQDE.dll`** (Harmony-Patch), die die

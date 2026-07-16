@@ -1,0 +1,19 @@
+"workshopitem"
+{
+	"appid"			"333640"
+	"publishedfileid"	"3765297035"
+	"contentfolder"		"C:\\Users\\dusti\\AppData\\LocalLow\\Freehold Games\\CavesOfQud\\Mods\\CavesOfQudGermanLang"
+	"previewfile"		"C:\\Users\\dusti\\AppData\\LocalLow\\Freehold Games\\CavesOfQud\\Mods\\CavesOfQudGermanLang\\preview.png"
+	"changenote"		"[h1]v0.8.1 - Mehr Laufzeit-Uebersetzungen[/h1]
+Rein datengetriebene Erweiterung (81 -> 148 Muster), abgeglichen mit dem koreanischen Referenz-Mod. Neu uebersetzt:
+[list]
+[*]Treppen-Popup ('Moechtet Ihr zur naechsten Treppe nach unten/oben gehen?')
+[*]'Es sind Feinde in der Naehe!' (Abbruch beim Auto-Erkunden/Reisen)
+[*]'X lehrt Euch Y!' (Fertigkeit lehren)
+[*]Weitere Todesarten (gelasert, gesteinigt, mit Plasma verbrannt, eingeaeschert, Explosion) und der Todesbildschirm zeigt sie jetzt auch in der Zusammenfassung
+[*]Status/Bewegung: feststecken, befreien, betaeubt, zu Boden geworfen, einschlafen, stuermen u.a.
+[*]Ruf/Fraktionen: 'Euer Ruf bei ... stieg/sank um ... auf ...'
+[*]Auftraege, Wasserritual, Journal-Notizen, durchwuehlen
+[*]Tonikum-Flavortexte
+[/list]"
+}
