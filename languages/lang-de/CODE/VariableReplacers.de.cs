@@ -8,6 +8,7 @@ using XRL.World;
 using XRL.World.Text;
 using XRL.World.Text.Attributes;
 using XRL.World.Text.Delegates;
+using Newtonsoft.Json.Linq;
 
 namespace LanguagesOfQudGerman
 {
@@ -24,6 +25,7 @@ namespace LanguagesOfQudGerman
         {
             UnityEngine.Debug.Log("[QudDE] VariableReplacers (token strings) loaded (Lang=de, Override=true).");
             VariableReplacers.LoadLexicon();
+            VariableReplacers.LoadVerbs();
             VariableReplacers.SelfTestCases();
             VariableReplacers.SelfTestPipeline();
         }
@@ -433,6 +435,71 @@ namespace LanguagesOfQudGerman
         public static string IndefGenitiv(VariableContext Context, GameObject Object)
         { return IndefCaseName(Context, Object, Case.Gen); }
 
+        // ---- Phase 2 (Turkish-way): German conjugation replacer, keyed on the GERMAN infinitive.
+        // The translator authors German verbs in data-layer templates:
+        //   "=subject.konjde:sehen=" -> sieht / seht / sehen  (by the subject's person).
+        // Strong (irregular) verbs come from Verbs.json by 'inf'; regular (weak) verbs are
+        // conjugated algorithmically. We deliberately do NOT override the game's English "verb"
+        // replacer (neither does the Turkish reference) — legacy =verb:X= tokens keep working via
+        // the DLL during the transition, and become German templates through the data track.
+        private static readonly Dictionary<string, string[]> VerbsByInf = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
+
+        internal static void LoadVerbs()
+        {
+            try
+            {
+                foreach (var mod in ModManager.Mods)
+                {
+                    string p = Path.Combine(mod.Path, "languages", "lang-de", "COQDE", "Verbs.json");
+                    if (!File.Exists(p)) continue;
+                    var arr = (JArray)JObject.Parse(File.ReadAllText(p))["verbs"];
+                    int n = 0;
+                    foreach (var v in arr)
+                    {
+                        string inf = (string)v["inf"];
+                        if (string.IsNullOrEmpty(inf)) continue;
+                        VerbsByInf[inf] = new[] { (string)v["s3"] ?? inf, (string)v["p2"] ?? inf, (string)v["p3"] ?? inf };
+                        n++;
+                    }
+                    UnityEngine.Debug.Log("[QudDE] verb table (by infinitive): " + n + " strong verbs");
+                    return;
+                }
+            }
+            catch (Exception ex) { UnityEngine.Debug.LogWarning("[QudDE] verb table load failed: " + ex.Message); }
+        }
+
+        // 0 = 3rd sg (er/sie/es), 1 = 2nd pl / "Ihr" (player), 2 = 3rd pl.
+        private static int VerbPerson(GameObject o)
+        {
+            if (o == null) return 0;
+            if (o.IsPlayer() && Grammar.AllowSecondPerson) return 1;
+            if (o.IsPlural) return 2;
+            return 0;
+        }
+
+        // Regular (weak) German present tense from an infinitive: s3/p2 = stem+t (+e- after t/d),
+        // p3 = infinitive. Strong verbs are handled by the Verbs.json table, not here.
+        private static string WeakConjugate(string inf, int person)
+        {
+            if (string.IsNullOrEmpty(inf)) return inf;
+            if (person == 2) return inf; // 3rd plural = infinitive
+            string stem = inf.EndsWith("en") ? inf.Substring(0, inf.Length - 2)
+                        : inf.EndsWith("n") ? inf.Substring(0, inf.Length - 1) : inf;
+            char last = stem.Length > 0 ? stem[stem.Length - 1] : ' ';
+            return stem + ((last == 't' || last == 'd') ? "et" : "t");
+        }
+
+        [VariableReplacer(new string[] { "konjde" }, Capitalization = true)]
+        [VariableParametrizedExample("sehen", "sieht:Sieht", "Croc")]
+        [VariableParametrizedExample("machen", "macht:Macht", "Croc")]
+        public static string KonjDe(VariableContext Context, GameObject Object)
+        {
+            string inf = (Context.Parameters != null && Context.Parameters.Count > 0) ? Context.Parameters[0] : "";
+            int p = VerbPerson(Object);
+            string de = (VerbsByInf.TryGetValue(inf, out var f) && !string.IsNullOrEmpty(f[p])) ? f[p] : WeakConjugate(inf, p);
+            return Cap(de, Context.Capitalize);
+        }
+
         // Pipeline self-test: runs a real template ("=object.dativ=") through the game's
         // replacer engine on a sample object, proving the FULL chain (token -> replacer ->
         // German) at load, without needing the in-game testreplacers wish. Self-diagnosing:
@@ -458,13 +525,17 @@ namespace LanguagesOfQudGerman
                 new[] { "Glowfish",  "=object.a.dativ=",   "einem Leuchtfisch" },
                 new[] { "Goat",      "=object.a.dativ=",   "einer Ziege" },
             };
+            // Distinct dummy for the unused role: avoids the game's "null subject" error and,
+            // being a different instance, keeps subject != object so reflexive doesn't fire.
+            GameObject other = null;
+            try { other = GameObjectFactory.Factory.CreateObject("Snapjaw"); } catch { }
             int pass = 0, fail = 0;
             foreach (var t in tests)
             {
                 try
                 {
                     GameObject o = GameObjectFactory.Factory.CreateObject(t[0]);
-                    string got = GameText.VariableReplace(t[1], null, o);
+                    string got = GameText.VariableReplace(t[1], other, o);
                     bool ok = string.Equals(got, t[2], StringComparison.Ordinal);
                     if (ok) pass++; else fail++;
                     UnityEngine.Debug.Log("[QudDE] pipeline-test " + (ok ? "PASS" : "FAIL") + ": "
@@ -476,6 +547,25 @@ namespace LanguagesOfQudGerman
                     fail++;
                     UnityEngine.Debug.Log("[QudDE] pipeline-test ERROR: " + t[0] + " " + t[1] + " : " + e.Message);
                 }
+            }
+            // German conjugation replacer (subject-based): GameText.VariableReplace(text, subject, object)
+            string[][] vtests = {
+                new[] { "Croc", "=subject.konjde:sehen=",  "sieht" },  // strong (from Verbs.json)
+                new[] { "Croc", "=subject.konjde:machen=", "macht" },  // weak (algorithmic)
+                new[] { "Croc", "=subject.konjde:waten=",  "watet" },  // weak, -et after t
+            };
+            foreach (var t in vtests)
+            {
+                try
+                {
+                    GameObject o = GameObjectFactory.Factory.CreateObject(t[0]);
+                    string got = GameText.VariableReplace(t[1], o, other);
+                    bool ok = string.Equals(got, t[2], StringComparison.Ordinal);
+                    if (ok) pass++; else fail++;
+                    UnityEngine.Debug.Log("[QudDE] verb-test " + (ok ? "PASS" : "FAIL") + ": "
+                        + t[0] + " " + t[1] + " -> \"" + got + "\"" + (ok ? "" : " (expected \"" + t[2] + "\")"));
+                }
+                catch (Exception e) { UnityEngine.Debug.Log("[QudDE] verb-test ERROR: " + t[1] + " : " + e.Message); }
             }
             UnityEngine.Debug.Log("[QudDE] pipeline-test summary: " + pass + " passed, " + fail + " failed");
         }
