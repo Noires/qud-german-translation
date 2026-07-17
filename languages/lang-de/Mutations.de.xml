@@ -369,12 +369,12 @@
         <p>Ihr erzeugt einen zähflüssigen Schleim, den Ihr auf Dinge spucken könnt.</p>
         <br />
         <p>Bedeckt ein Gebiet mit Schleim</p>
+        <statline Name="Range" DisplayName="Reichweite" />
+        <statline Name="Area" DisplayName="Bereich" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Ihr könnt über Schleim laufen, ohne auszurutschen.</p>
       </description>
       <leveltext />
-      <statline Name="Range" DisplayName="Reichweite" />
-      <statline Name="Area" DisplayName="Bereich" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Spinnerets" DisplayName="Spinndrüsen" BearerDescription="Netzweber">
       <description>
@@ -747,10 +747,10 @@
       <description>
         <p>Ihr entfacht mit Eurem Verstand ein kleines Feuer.</p>
         <br />
+        <statline Name="Range" DisplayName="Reichweite" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </description>
       <leveltext />
-      <statline Name="Range" DisplayName="Reichweite" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Light Manipulation" DisplayName="Lichtmanipulation" BearerDescription="Manipulatoren des Lichts" BiomeAdjective="erleuchtet">
       <description>

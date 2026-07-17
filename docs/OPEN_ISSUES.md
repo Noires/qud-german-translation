@@ -1,64 +1,72 @@
 # Open Issues & Resources (native migration)
 
-_Last updated: 2026-07-17 (session 2). Branch: `native-migration`._
+_Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
 
-## Open issues
+## Waiting on official localization support (decision 2026-07-17: no shims, wait for the dev team)
 
-### 1. Body-part names in the anatomy/equipment paperdoll (UI) — decision deferred
-- **Symptom:** body-part names show English on the equipment/anatomy screen.
-- **What we know:** the paperdoll builds names via `BodyPart.GetCardinalName()` **in C#** — no
-  `=part.name=` token, no provider hook. The old DLL worked by Harmony-patching exactly
-  `GetCardinalName()`. The Turkish mod shelved its attempt (`UnusedDelegates.tr.cs`).
-- **DONE (committed):** native `name`/`ordinalName` replacer override with German laterality
-  inflection (`TransformBodyPart`: "right hand" → "rechte Hand") covers the **token path**
-  (combat / ability / mutation text). Load-time self-test included.
-- **Decision (2026-07-17): deferred by user.** Options remain: (b) minimal Harmony shim patching
-  only `GetCardinalName()` (can reuse `TransformBodyPart`), or (c) accept English there
-  (100% DLL-free like Turkish).
+### 1. Body-part names in the anatomy/equipment paperdoll (UI)
+- The paperdoll builds names via `BodyPart.GetCardinalName()` **in C#** — no `=part.name=` token,
+  no provider hook, no string-table lookup. Only a Harmony patch could reach it (the retired
+  DLL's approach); the official Turkish mod shelved its attempt (`UnusedDelegates.tr.cs`).
+- **Covered natively (committed):** the token path (combat / ability / mutation text) via our
+  `name`/`ordinalName` replacer override with German laterality inflection
+  ("right hand" → "rechte Hand"). Load-time self-test passes in every run.
+- **Status: WAIT** for the dev team to expose a body-part hook/token for the paperdoll.
 
-### 2. Death screen ("You were killed by …") — likely fixed, needs one in-game death to confirm
-- Both `DeathReason` entries exist (IDs byte-identical to Turkish's) and the German word order was
-  improved ("Ihr wurdet [versehentlich ]von =object.a.dativ= getötet.").
-- Log evidence: the 2026-07-17 00:44 run reached `XRLCore.BuildScore` (death screen) with **no**
-  `DeathReason` string-table miss logged → the lookup hit. Any English seen earlier was likely
-  a pre-fix or cached death.
-- **To close:** die once in a fresh run; if the death line is English, check `Player.log` for a
-  new miss line and add that exact `Context`/`ID`.
+### 2. Death screen ("You were killed by …")
+- **Generic combat deaths** go through the string table: `"DeathReason Killed By"` exists exactly
+  once in Assembly-CSharp (2.0.212.29), our entry is present with a byte-correct English ID, and
+  no `DeathReason` miss appears in any post-fix log — that path should render German.
+- **Specific causes are C# literals with no data hook:** confirmed by binary scan —
+  `"bled to death"` (1 hit), `"died of thirst"` (2 hits), `"You died"` (5 hits) are embedded
+  strings, not templates; no `Context="DeathReason …"` exists for them. The Turkish mod only
+  covers the same 5 entries we ship. The old DLL translated these at display time.
+- **Status: WAIT** for the dev team to route death causes through the string table.
+  (In current disable-DLL mode these show English by design.)
 
-## Resolved 2026-07-17 (session 2)
+## Known-benign (do not chase)
 
-### ID-attribute corruption (major regression, found while auditing) — FIXED
-- The `=verb:X=` → `=konjde:INF=` conversion (commits a28f0c0, 1e4e0cb) rewrote verb tokens in
+### 7 string-table misses at every startup (DifficultyEvaluation ×6, Message Log Title)
+- Logged at app startup **before** `RefreshModDirectory` runs — the base game queries them during
+  boot, before mod string tables exist. Both `StringsLoader` and the consumer cache
+  (`DifficultyEvaluation._DifficultyTranslations`) are `[ModSensitiveStaticCache]`: they are
+  cleared when mods load and rebuilt on next access, so **in-game text is German**. The miss
+  lines are once-per-session log noise and cannot be fixed from mod data.
+
+## Resolved 2026-07-17
+
+### ID-attribute corruption (major regression) — FIXED (ce1c901)
+- The `=verb:X=` → `=konjde:INF=` conversion (a28f0c0, 1e4e0cb) rewrote verb tokens in
   **ID attributes as well as Values**. The game resolves entries via
-  `ContextStrings(Context).TryGetValue(ID)` (`XRL.Language.Strings.TryGetString`) with the exact
-  **English** template as key → 505 entries in `Strings.de.xml` + 1 in
-  `Strings.Conversations.de.xml` silently fell back to English.
-- Restored original English IDs from pre-conversion commit 0520a1b (matched by Context +
-  token-stripped skeleton); German Values kept; 8 stale duplicates deleted. Commit ce1c901.
-- **Rule going forward: never edit `ID="…"` — it is the lookup key, byte-exact English.**
+  `ContextStrings(Context).TryGetValue(ID)` with the exact **English** template as key →
+  505 entries in `Strings.de.xml` + 1 in `Strings.Conversations.de.xml` silently fell back to
+  English. Restored from pre-conversion commit 0520a1b; 8 stale duplicates deleted.
+- **Rule: never edit `ID="…"` — it is the lookup key, byte-exact English.**
 
-### 3. Worlds.de.xml — FIXED (was "188 untranslated zones")
-- The 188 `▶` entries were **orphaned generator stubs** directly under `<worlds>` (outside any
-  `<world>`/`<cell>`), duplicating zones already translated in the structured section. Verified
-  against the game's `Base/Worlds.xml`: 281/284 zone keys covered, the 3 absent are
-  `Name="None"` engine sentinels (Turkish omits them too), 0 stale keys. Stubs deleted.
-- Also fixed translated booleans: `ProperName="wahr"`(27)/`"Falsch"`(4) → `"true"`/`"false"`;
-  per-zone ProperName now matches English exactly. Commit a295c8a.
+### 3. Worlds.de.xml — FIXED (a295c8a)
+- The "188 untranslated zones" were orphaned generator stubs outside any `<world>`; the
+  structured section already covers 281/284 zone keys (3 absent are `Name="None"` sentinels,
+  Turkish omits them too). Stubs deleted; `ProperName="wahr"/"Falsch"` booleans → `"true"/"false"`.
 
-### Mutations.de.xml MODWARN spam — FIXED
-- The `MODWARN XmlDataHelper` spam was **not** (only) Worlds: 59 warnings came from
-  `<statline Name=… DisplayName=…/>` elements misplaced as direct children of `<mutation>`.
-  Merged each DisplayName onto the matching `<statline>` inside `<leveltext>` (Turkish-mod
-  placement), orphans removed. Commit f31edd3. Together with the Worlds stub removal, all 247
-  of our MODWARN lines should be gone — verify in the next run's `Player.log`.
+### Mutations.de.xml MODWARN spam — FIXED (f31edd3 + session 3)
+- 59 `<statline DisplayName=…>` elements were misplaced as direct children of `<mutation>`:
+  54 merged into `<leveltext>`, 5 redundant ones removed; the last 5 stragglers (Slime Glands,
+  Kindle — mutations whose statlines live inside `<description>` in the English source) moved
+  to match English placement. Expected MODWARN count for our mod next run: **0**.
+
+## Current mode
+- **disable-DLL playtest mode**: deployed mod has `COQDE.dll.disabled`; the
+  `[QudDE] COQDE bootstrap failed: package folder not found` log line is expected. The runtime
+  post-processor (message-log translation, C#-literal death reasons) is OFF until re-enabled
+  (rename back to `COQDE.dll`).
+- Native layer self-tests: 25/25 PASS every run (cases, phrases, verbs, body parts).
 
 ## Status of what's DONE (native)
 - Verbs (`=konjde:INF=`), cases (nom/akk/dat/gen), adjective declension, pronouns — native.
 - Body parts in **text** — native (replacer override incl. laterality inflection).
 - 5 death reasons — native (match Turkish); word order improved.
-- All 15 string-table misses from the last playtest — covered.
 - 506 corrupted lookup IDs restored; Worlds/Mutations schema warnings eliminated.
-- Smoke-compile passes; deployed mod copy verified hash-identical for all changed files.
+- Smoke-compile passes; deployed mod copy synced.
 
 ## Resources on hand (in `docs/`)
 
@@ -66,19 +74,11 @@ _Last updated: 2026-07-17 (session 2). Branch: `native-migration`._
 - `docs/archive/coqcode/` — the game's localization engine source:
   - `Translator.cs`, `Translator.Provider.cs`, `TranslatorBase.cs`, `TranslatorEnglish.cs`,
     `Grammar.cs` — the provider contract & English baseline (what we can override).
-  - `Delegates/Delegates.*.cs` (~33 files) — every built-in `[VariableReplacer]`. Key ones:
-    - `Delegates.BodyPart.cs` — proves `name` uses `Part.Name`; paperdoll bypasses tokens.
-    - `Delegates.GameObject.cs` — object display-name replacers.
-    - `Delegates.PostProcessors.cs` — chained `|postprocessor` delegates.
-  - NOTE: the string-table lookup itself is NOT in the archive; decompile
-    `XRL.Language.Strings` from Assembly-CSharp with `ilspycmd` when needed.
-- `docs/archive/caves-of-qud-turkish-main/` — official 100% native reference mod:
-  - `Data/Code/*.tr.cs` — their replacers/post-processors (incl. `UnusedDelegates.tr.cs`, the
-    abandoned body-part attempt).
-  - `Data/Strings.tr.xml`, `Strings.Conversations.tr.xml` — their data-layer strings incl.
-    `… DeathReason` entries (our death IDs match these exactly).
-  - `Data/Mutations.tr.xml` — `<switch Name="BodyPartName">` pattern + correct statline placement.
-  - `Data/Worlds.tr.xml` — correct zone localization structure (`ProperName="true"`, no stubs).
+  - `Delegates/Delegates.*.cs` (~33 files) — every built-in `[VariableReplacer]`.
+  - NOTE: the string-table code (`XRL.Language.Strings`, `StringsLoader`) is NOT in the archive;
+    decompile from Assembly-CSharp with `ilspycmd -t <type>` when needed.
+- `docs/archive/caves-of-qud-turkish-main/` — official 100% native reference mod
+  (Strings/Worlds/Mutations structure, DeathReason entries, shelved body-part attempt).
 
 ### Our planning docs
 - `docs/NATIVE_MIGRATION_PLAN.md` — full plan, locked decisions, testing strategy.
@@ -87,9 +87,7 @@ _Last updated: 2026-07-17 (session 2). Branch: `native-migration`._
 - `docs/SCREENSHOT_FIXES_PLAN.md` + `docs/screenshots/` — in-game issue screenshots & fixes.
 
 ### Diagnostics
-- `OptionDebugStringTableMisses` — already ON; logs `String table miss - Lang de - Context=… ID=…`
-  to `Player.log` (`%AppData%/../LocalLow/Freehold Games/CavesOfQud/Player.log`). This is the
-  ground-truth tool for the open issues above.
-- `MODWARN [Caves of Qud German Translation]` lines in `Player.log` — schema errors in our
-  `*.de.xml`; should now be zero.
+- `OptionDebugStringTableMisses` — ON; logs `String table miss - Lang de - Context=… ID=…` to
+  `Player.log`. Expected baseline: exactly the 7 benign startup misses listed above.
+- `MODWARN [Caves of Qud German Translation]` in `Player.log` — schema errors; expected: 0.
 - `build/smoke/smoke.csproj` — mandatory pre-deploy compile gate for `CODE/*.cs`.
