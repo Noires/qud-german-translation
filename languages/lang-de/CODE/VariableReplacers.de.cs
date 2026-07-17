@@ -413,18 +413,92 @@ namespace LanguagesOfQudGerman
             return w;
         }
 
+        // Wörter, nach denen ein Name KEINE "Adjektive + Kopf"-Phrase mehr ist
+        // ("Phiole mit Wasser", "Zahnrad aus der Großen Maschine").
+        private static readonly HashSet<string> FunctionWords = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+        {
+            "aus", "mit", "von", "der", "die", "das", "dem", "den", "des", "ein", "eine",
+            "einem", "einen", "einer", "eines", "und", "im", "in", "an", "auf", "für", "fuer",
+            "zu", "zur", "zum", "voller", "ohne", "über", "ueber", "unter",
+        };
+
+        // "kleingeschriebene Adjektive + großgeschriebener Kopf"? Nur dann dürfen führende
+        // Wörter dekliniert werden - alles andere bekommt den Artikel unverändert vorangestellt.
+        private static bool IsAdjNounPattern(string[] words)
+        {
+            if (words.Length == 0) return false;
+            string head = words[words.Length - 1];
+            if (head.Length == 0 || !char.IsUpper(head[0])) return words.Length == 1;
+            for (int i = 0; i < words.Length - 1; i++)
+            {
+                string w = words[i];
+                if (w.Length == 0 || FunctionWords.Contains(w)) return false;
+                foreach (char ch in w)
+                    if (!char.IsLetter(ch) || char.IsUpper(ch)) return false;
+            }
+            return true;
+        }
+
+        // Genus-Kopf einer Phrase: bei "Phiole mit Wasser" zählt das Wort VOR dem ersten
+        // Funktionswort (Phiole, nicht Wasser); sonst wie gehabt das letzte Wort.
+        private static string PhraseGenderHead(string[] words)
+        {
+            for (int i = 1; i < words.Length; i++)
+                if (FunctionWords.Contains(words[i]))
+                    return words[i - 1];
+            return words[words.Length - 1];
+        }
+
         // Definite noun phrase: determiner + weak-declined adjectives + head (genitive-suffixed).
         // For a single-word name this reduces to "article + name" (identical to Phase 1a).
         private static string BuildDefinitePhrase(string name, Case c, bool plural, bool capitalize)
         {
             string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             if (words.Length == 0) return name;
+            Gender g = plural ? Gender.Plural : GuessGender(PhraseGenderHead(words));
+            if (!IsAdjNounPattern(words))
+                return Cap(Definite(g, c), capitalize) + " " + name;
             string head = words[words.Length - 1];
-            Gender g = plural ? Gender.Plural : GuessGender(head);
             var parts = new List<string> { Cap(Definite(g, c), capitalize) };
             for (int i = 0; i < words.Length - 1; i++)
                 parts.Add(AdjStem(words[i]) + AdjEnding(DeclType.Weak, c, g));
             parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
+            return string.Join(" ", parts);
+        }
+
+        // Nachdeklination für den C#-Pfad: "Der nass Leuchtfisch" -> "Der nasse Leuchtfisch".
+        // Der Artikel wurde bereits (von uns oder Daten-Overrides) vorangestellt; hier werden
+        // nur die Adjektive dazwischen dekliniert - ausschließlich beim sicheren Muster.
+        internal static string DeclineAfterArticle(string s, GameObject obj)
+        {
+            if (string.IsNullOrEmpty(s)) return s;
+            string[] all = s.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (all.Length < 3) return s;   // Artikel + Adjektiv + Kopf ist das Minimum
+            string art = all[0];
+            string artLower = art.ToLowerInvariant();
+            Gender g;
+            DeclType decl;
+            var rest = new string[all.Length - 1];
+            Array.Copy(all, 1, rest, 0, rest.Length);
+            if (!IsAdjNounPattern(rest)) return s;
+            switch (artLower)
+            {
+                case "der": g = Gender.Masc; decl = DeclType.Weak; break;
+                case "das": g = Gender.Neut; decl = DeclType.Weak; break;
+                case "die":
+                    g = (obj != null && IsPlural(obj)) ? Gender.Plural : Gender.Fem;
+                    decl = DeclType.Weak; break;
+                case "eine": g = Gender.Fem; decl = DeclType.Mixed; break;
+                case "ein":
+                    g = GuessGender(PhraseGenderHead(rest));
+                    if (g == Gender.Fem) g = Gender.Masc;   // "ein" schließt Fem aus
+                    decl = DeclType.Mixed; break;
+                default: return s;
+            }
+            var parts = new List<string> { art };
+            for (int i = 0; i < rest.Length - 1; i++)
+                parts.Add(AdjStem(rest[i]) + AdjEnding(decl, Case.Nom, g));
+            parts.Add(rest[rest.Length - 1]);
             return string.Join(" ", parts);
         }
 
@@ -483,9 +557,11 @@ namespace LanguagesOfQudGerman
         {
             string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             if (words.Length == 0) return name;
-            string head = words[words.Length - 1];
-            Gender g = plural ? Gender.Plural : GuessGender(head);
+            Gender g = plural ? Gender.Plural : GuessGender(PhraseGenderHead(words));
             string art = Indefinite(g, c); // "" for plural (no indefinite plural article)
+            if (!IsAdjNounPattern(words))
+                return art.Length == 0 ? Cap(name, capitalize) : Cap(art, capitalize) + " " + name;
+            string head = words[words.Length - 1];
             DeclType decl = art.Length == 0 ? DeclType.Strong : DeclType.Mixed;
             var parts = new List<string>();
             if (art.Length != 0) parts.Add(Cap(art, capitalize));
@@ -873,12 +949,13 @@ namespace LanguagesOfQudGerman
         {
             string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             if (words.Length == 0) return name;
-            string head = words[words.Length - 1];
-            // Genus über den GANZEN Namen (GuessGender strippt Farbcodes/Markup selbst) -
-            // das rohe letzte Split-Wort kann "&WKampfaxt"-artige Reste tragen.
-            Gender g = plural ? Gender.Plural : GuessGender(name);
+            // Genus über den Phrasen-Kopf (GuessGender strippt Farbcodes/Markup selbst).
+            Gender g = plural ? Gender.Plural : GuessGender(PhraseGenderHead(words));
             // Spieler-Anrede "Euer" wird im Qud-Ton immer großgeschrieben.
             string det = DeclinePoss(stem, g, c);
+            if (!IsAdjNounPattern(words))
+                return Cap(det, capitalize || stem == "euer") + " " + name;
+            string head = words[words.Length - 1];
             var parts = new List<string> { Cap(det, capitalize || stem == "euer") };
             for (int i = 0; i < words.Length - 1; i++)
                 parts.Add(AdjStem(words[i]) + AdjEnding(DeclType.Mixed, c, g));
@@ -1035,6 +1112,11 @@ namespace LanguagesOfQudGerman
                 new[] { TryGermanVerb("see", 1, out var vSee) ? vSee : "?", "seht" },
                 new[] { TryGermanVerb("Sehen", 0, out var vSehen) ? vSehen : "?", "sieht" },
                 new[] { TryGermanVerb("open", 0, out _) ? "TREFFER" : "fallback", "fallback" },
+                new[] { DeclineAfterArticle("Der nass Leuchtfisch", null), "Der nasse Leuchtfisch" },
+                new[] { DeclineAfterArticle("ein nass Leuchtfisch", null), "ein nasser Leuchtfisch" },
+                new[] { DeclineAfterArticle("das Zahnrad aus der Großen Maschine", null), "das Zahnrad aus der Großen Maschine" },
+                new[] { BuildDefinitePhrase("Phiole mit Wasser", Case.Dat, false, false), "der Phiole mit Wasser" },
+                new[] { BuildDefinitePhrase("nass Leuchtfisch", Case.Nom, false, false), "der nasse Leuchtfisch" },
             };
             foreach (var t in poss)
             {

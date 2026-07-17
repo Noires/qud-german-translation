@@ -91,7 +91,13 @@ namespace LanguagesOfQudGerman
                 string bare = base.GameObjectDisplayName(GO, out AdjunctNounActive, Params);
                 return VariableReplacers.CSharpPossessivePhrase(bare, GO, stem, dative, cap);
             }
-            return base.GameObjectDisplayName(GO, out AdjunctNounActive, Params);
+            string result = base.GameObjectDisplayName(GO, out AdjunctNounActive, Params);
+            // "Der nass Leuchtfisch" -> "Der nasse Leuchtfisch": vorangeklebte Zustands-
+            // Adjektive (nass/blutig aus den Flüssigkeits-Daten) nachdeklinieren, sobald ein
+            // Artikel vorangestellt wurde. Greift nur beim sicheren Adjektiv+Kopf-Muster.
+            if (Params.WithDefiniteArticle || Params.WithIndefiniteArticle)
+                result = VariableReplacers.DeclineAfterArticle(result, GO);
+            return result;
         }
 
         private static readonly string[] Einer =
