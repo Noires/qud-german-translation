@@ -85,6 +85,14 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
 ## Follow-ups (deliberately NOT done yet)
 - **Possessive `'s` tokens** (49 Values, fast alles HistorySpice): `Grammar.MakePossessive`
   ist hartes Englisch-C#; sauberste Lösung ist Umformulierung auf `=genitiv=` je Stelle.
+- **Parametrisierte Kasus-Fälle** (~15 Values): Präposition + Token MIT Parametern
+  (`=object.the.name:long=`, `:single`, `:itsPossessor`, `:asPossessed`) — unsere
+  Kasus-Replacer (dativ/akkusativ/a.dativ/…) unterstützen keine Parameter; Umstellung
+  würde die Parameter-Semantik verlieren. Suchmuster:
+  `(mit|von|zu|bei|aus) =\w+\.(the\.name|a\.name):`+Parameter in Strings.de.xml.
+- **264 unübersetzte DisplayNames** (kleingeschrieben englisch), v. a. Furniture.de.xml
+  (door, clay oven, arc sconce, control switch, …) — eigenes Übersetzungspaket; Audit-Skript:
+  Scratchpad `gender_audit.py`-Muster (`DisplayName="[a-z]…"`).
 - **`LibraryCorpus.de.json`** (prozedurale Markov-Bücher, Base 2.4 MB): Generator-Skript über
   die schon übersetzte `Books.de.xml` wäre der Weg; großer Sichtungsaufwand.
 - **LICENSE-Datei**: Nutzerentscheidung (QudDE-kompatibel vs. MIT).

@@ -16,7 +16,6 @@
   <string Context="MakeAndList Default Separator" ID=", " Value=", " />
   <string Context="MakeAndList Alternate Separator" ID="; " Value="; " />
   <string Context="GameObject.GetDisplayName adjunct noun post" ID="=name= =adjunctNoun=" Value="=name= =adjunctNoun=" />
-  <string Context="Physics Passing By Object With Article" ID="=object.a.name=" Value="=object.a.name=" />
   <!-- Eigennamen, die im Deutschen unverändert bleiben -->
   <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Hotur" Value="Clan Hotur" />
   <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Sol" Value="Clan Sol" />

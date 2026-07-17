@@ -2022,8 +2022,8 @@
   <string Context="Beguiled Effect GetDescription" ID="{{m|beguiled}}" Value="{{m|bezirzt}}" />
   <string Context="Beguiled Effect Apply Message Log" ID="=subject.Does:ogle= =object.the.name= lovingly." Value="=subject.Konjde:begaffen= =object.the.name= liebevoll an." />
   <string Context="Beguiled Effect Journal Accomplishment" ID="=beguiled.A.name= ogled you lovingly after you employed your charm." Value="=beguiled.A.name= betrachtete Euch verliebt an, nachdem Ihr Euren Charme einsetztet." />
-  <string Context="Beguiled Effect Journal Accomplishment Mural" ID="The storied eroticism of =player.name= became intimately known to =beguiled.a.name=." Value="Die legendäre Erotik von =player.name= wurde =beguiled.a.name= innig bekannt." />
-  <string Context="Beguiled Effect Journal Accomplishment Gospel" ID="=spice:elements.$domain.weddingConditions.!random|capitalize=, =player.name= cemented =player.possessiveAdjective= friendship with =beguiled.the.faction:base= by marrying =beguiled.a.name=." Value="=spice:elements.$domain.weddingConditions.!random|capitalize=, =player.name= besiegelte =player.possessiveAdjective= Freundschaft mit =beguiled.the.faction:base= durch Heirat mit =beguiled.a.name=." />
+  <string Context="Beguiled Effect Journal Accomplishment Mural" ID="The storied eroticism of =player.name= became intimately known to =beguiled.a.name=." Value="Die legendäre Erotik von =player.name= wurde =beguiled.a.dativ= innig bekannt." />
+  <string Context="Beguiled Effect Journal Accomplishment Gospel" ID="=spice:elements.$domain.weddingConditions.!random|capitalize=, =player.name= cemented =player.possessiveAdjective= friendship with =beguiled.the.faction:base= by marrying =beguiled.a.name=." Value="=spice:elements.$domain.weddingConditions.!random|capitalize=, =player.name= besiegelte =player.possessiveAdjective= Freundschaft mit =beguiled.the.faction:base= durch Heirat mit =beguiled.a.dativ=." />
   <string Context="Beguiled Effect Remove Message Log" ID="=subject.Does:lose= interest in =object.the.name=." Value="=subject.Konjde:verlieren= das Interesse an =object.dativ=." />
   <string Context="Berserk Effect DisplayName" ID="berserk" Value="im Blutrausch" />
   <string Context="Berserker Effect Duration Player Message Log" ID="=duration.things:turn remains:turns remain= until your berserker rage ends." Value="=duration.things:turn remains:turns remain= bis zum Ende Eurer Berserker-Raserei." />
@@ -2056,7 +2056,7 @@
   <string Context="Budding Effect GetDescription" ID="{{r|budding}}" Value="{{r|knospend}}" />
   <string Context="Budding Effect StateDescription" ID="{{r|about to bud}}" Value="{{r|knospend}}" />
   <string Context="Budding Effect Apply Has Back Message Log" ID="A grotesque protuberance swells from =subject.poss#back= as =subject.it.does:begin= to bud!" Value="Eine groteske Wölbung schwillt aus =subject.poss#back= an, während =subject.it.konjde:beginnen= zu knospen!" />
-  <string Context="Budding Effect Apply No Back Message Log" ID="A grotesque protuberance swells from =subject.the.name= as =subject.it.does:begin= to bud!" Value="Eine groteske Wölbung schwillt aus =subject.the.name= an, während =subject.it.konjde:beginnen= zu knospen!" />
+  <string Context="Budding Effect Apply No Back Message Log" ID="A grotesque protuberance swells from =subject.the.name= as =subject.it.does:begin= to bud!" Value="Eine groteske Wölbung schwillt aus =subject.dativ= an, während =subject.it.konjde:beginnen= zu knospen!" />
   <string Context="Budding Effect Remove Has Back Message Log" ID="The grotesque protuberance on =subject.poss#back= subsides." Value="Die groteske Wölbung auf =subject.poss#back= klingt ab." />
   <string Context="Budding Effect Remove No Back Message Log" ID="=subject.Poss:grotesque protuberance= subsides." Value="=subject.Poss:grotesque protuberance= lässt nach." />
   <string Context="Burning Effect DisplayName" ID="{{R|burning}}" Value="{{R|brennend}}" />
@@ -2607,9 +2607,9 @@
   <string Context="ConversationScript Fail In Melee" ID="=subject.Does:are= engaged in hand-to-hand combat and =subject.is= too busy to have a conversation with you." Value="=subject.Konjde:sein= in hand-to-hand Kampf verwickelt und =subject.is= zu beschäftigt, um mit Euch zu sprechen." />
   <string Context="ConversationScript Fail Aflame" ID="=subject.Does:are= on fire and =subject.is= too busy to have a conversation with you." Value="=subject.Konjde:sein= in Flammen und =subject.is= zu beschäftigt, um mit Euch zu sprechen." />
   <string Context="ConversationScript Fail CantStart" ID="You cannot seem to engage =subject.the.name= in conversation." Value="Ihr könnt =subject.the.name= nicht zu einem Gespräch bewegen." />
-  <string Context="ConversationScript Fail Cant Telepathically" ID="You can sense nothing from =subject.the.name=." Value="Ihr könnt von =subject.the.name= nichts wahrnehmen." />
-  <string Context="ConversationScript Fail Mentally Hostile" ID="You sense only hostility from =subject.the.name=." Value="Ihr spürt nur Feindseligkeit von =subject.the.name=." />
-  <string Context="ConversationScript Fail Cant Mentally Contact" ID="You cannot seem to make contact with =subject.the.name=" Value="Ihr könnt keinen Kontakt zu =subject.the.name= herstellen." />
+  <string Context="ConversationScript Fail Cant Telepathically" ID="You can sense nothing from =subject.the.name=." Value="Ihr könnt von =subject.dativ= nichts wahrnehmen." />
+  <string Context="ConversationScript Fail Mentally Hostile" ID="You sense only hostility from =subject.the.name=." Value="Ihr spürt nur Feindseligkeit von =subject.dativ=." />
+  <string Context="ConversationScript Fail Cant Mentally Contact" ID="You cannot seem to make contact with =subject.the.name=" Value="Ihr könnt keinen Kontakt zu =subject.dativ= herstellen." />
   <string Context="ConversationScript Fail Nothing To Say" ID="=subject.Does:have= nothing to say." Value="=subject.Konjde:haben= nichts zu sagen." />
   <string Context="ConversationScript PronounExchange" ID="You and =subject.the.name= exchange pronouns; =subject.its= are =subject.pronouns=." Value="Ihr und =subject.the.name= tauscht Pronomen aus; =subject.its= sind =subject.pronouns=." />
   <string Context="ConversationScript PronounExchange (theirs only)" ID="=subject.The.name= =subject.verb:give= you =subject.its= pronouns, which are =subject.pronouns=." Value="=subject.The.name= =subject.konjde:geben= Euch =subject.its= Pronomen, die sind =subject.pronouns=." />
@@ -2859,7 +2859,7 @@
   <string Context="ThermalGrenade Detonate Message Log" ID="=subject.Does:explode=!" Value="=subject.Konjde:explodieren=!" />
   <string Context="TimeDilationGrenade Detonate Message Log" ID="=subject.Does:discorporate=!" Value="=subject.The.name= =subject.konjde:lösen= sich auf!" />
   <string Context="HiddenRender RevealedSomewhere" ID="=subject.A.name= =subject.verb:are= revealed =subject.to.the.direction=!" Value="=subject.A.name= =subject.konjde:sein= enthüllt =subject.to.the.direction=!" />
-  <string Context="Kith and Kin, Imporant NPC died popup" ID="The death of =subject.the.name= means that the investigation can go no further." Value="Der Tod von =subject.the.name= bedeutet, dass die Untersuchung nicht weiter voranschreiten kann." />
+  <string Context="Kith and Kin, Imporant NPC died popup" ID="The death of =subject.the.name= means that the investigation can go no further." Value="Der Tod von =subject.dativ= bedeutet, dass die Untersuchung nicht weiter voranschreiten kann." />
   <string Context="ActivePartStatus" ID="Operational" Value="Betriebsbereit" />
   <string Context="ActivePartStatus" ID="NeedsSubject" Value="NeedsSubject" />
   <string Context="ActivePartStatus" ID="EMP" Value="EMP" />
@@ -2896,7 +2896,7 @@
   <string Context="Inventory Nothing To Take" ID="There's nothing to take." Value="Es gibt nichts zu nehmen." />
   <string Context="Inventory Equip" ID="=subject.Does:equip= =object.indefiniteForOthers#subject=." Value="=subject.The.name= =subject.konjde:legen= =object.indefiniteForOthers#subject= an." />
   <string Context="Inventory Container Not Owned Confirm Popup" ID="That is not owned by you. Are you sure you want to take it?" Value="Das gehört Euch nicht. Seid Ihr sicher, dass Ihr es nehmen möchtet?" />
-  <string Context="Inventory take from container" ID="=subject.Does:take= =object.the.name= from =container.the.name==subject.to.its.direction#container|before: =." Value="=subject.Konjde:nehmen= =object.the.name= aus =container.the.name==subject.to.its.direction#container|before: =." />
+  <string Context="Inventory take from container" ID="=subject.Does:take= =object.the.name= from =container.the.name==subject.to.its.direction#container|before: =." Value="=subject.Konjde:nehmen= =object.the.name= aus =container.dativ==subject.to.its.direction#container|before: =." />
   <string Context="Inventory take from direction" ID="=subject.Does:take= =object.the.name==subject.from.its.direction#direction|spaceBefore=." Value="=subject.Konjde:nehmen= =object.the.name==subject.from.its.direction#direction|spaceBefore=." />
   <string Context="Inventory take" ID="=subject.Does:take= =object.the.name=." Value="=subject.Konjde:nehmen= =object.the.name=." />
   <string Context="Inventory drop" ID="=subject.Does:drop= =object.the.name=." Value="=subject.The.name= =subject.konjde:lassen= =object.the.name= fallen." />
@@ -2974,9 +2974,9 @@
   <string Context="BubbleLevel No Sound Message" ID="=subject.Does:make= no sound." Value="=subject.Konjde:machen= keinen Ton." />
   <string Context="Butcherable default butcher verb" ID="butcher" Value="zerlegen" />
   <string Context="Butcherable Butcher Message" ID="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =amount.cardinal= =result.name|pluralize=." Value="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= in =amount.cardinal= =result.name|pluralize=." />
-  <string Context="Butcherable Butcher Message Amount 1" ID="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =result.a.name=." Value="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= in =result.a.name=." />
+  <string Context="Butcherable Butcher Message Amount 1" ID="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =result.a.name=." Value="=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= in =result.a.akkusativ=." />
   <string Context="Butcherable Fail Message" ID="=subject.Does:fail= to =verb= anything useful from =object.the.name= =subject.formatDirection:ifAny#direction=." Value="=subject.Konjde:scheitern= etwas Nützliches von =object.dativ= =subject.formatDirection:ifAny#direction= zu =verb=." />
-  <string Context="CampfireRemains AttemptLight FailInPool" ID="You cannot light =object.the.name= while =object.itis= in =pool.the.name=." Value="Ihr könnt =object.the.name= nicht anzünden, während =object.itis= in =pool.the.name= ist." />
+  <string Context="CampfireRemains AttemptLight FailInPool" ID="You cannot light =object.the.name= while =object.itis= in =pool.the.name=." Value="Ihr könnt =object.the.name= nicht anzünden, während =object.itis= in =pool.dativ= ist." />
   <string Context="CampfireRemains AttemptLight AnnounceSuccess" ID="=subject.Does:light= =object.the.name=." Value="=subject.Konjde:entzünden= =object.the.name=." />
   <string Context="CancelRangedAttacks RulesPostfix PowerSensitive" ID="When activated, =chance=% chance of stopping ranged attacks. =part.statusSummary|when#notTinkering|addParens=" Value="Bei Aktivierung, =chance=% Chance, Fernkampfangriffe zu stoppen. =part.statusSummary|when#notTinkering|addParens=" />
   <string Context="CancelRangedAttacks RulesPostfix NotPowerSensitive" ID="=chance=% chance of stopping ranged attacks. =part.statusSummary|when#notTinkering|addParens=" Value="=chance=% Chance, Fernkampfangriffe zu stoppen. =part.statusSummary|when#notTinkering|addParens=" />
@@ -3131,7 +3131,7 @@
   <string Context="Hangable DisplayName Tag" ID="{{y|[hanging]}}" Value="{{y|[hängend]}}" />
   <string Context="Hangable DisplayName Tag" ID="{{y|[on ground]}}" Value="{{y|[auf dem Boden]}}" />
   <string Context="Harvestable DefaultVerb" ID="harvest" Value="ernten" />
-  <string Context="Harvestable FromRandomTable ShowSource" ID="=subject.Does#verb= =object.a.name= =subject.from.its.direction:ifAny#direction= into =result.a.name=." Value="=subject.Does#verb= =object.a.name= =subject.from.its.direction:ifAny#direction= in =result.a.name=." />
+  <string Context="Harvestable FromRandomTable ShowSource" ID="=subject.Does#verb= =object.a.name= =subject.from.its.direction:ifAny#direction= into =result.a.name=." Value="=subject.Does#verb= =object.a.name= =subject.from.its.direction:ifAny#direction= in =result.a.akkusativ=." />
   <string Context="Harvestable FromRandomTable" ID="=subject.Does#verb= =result.a.name= =subject.from.its.direction:ifAny#direction=." Value="=subject.Does#verb= =result.a.name= =subject.from.its.direction:ifAny#direction=." />
   <string Context="Harvestable ShowSource" ID="=subject.Does#verb= =object.a.name= =subject.from.its.direction:ifAny#direction= into =amount.a.or.cardinal.names#result=." Value="=subject.Does#verb= =object.a.name= =subject.from.its.direction:ifAny#direction= in =amount.a.or.cardinal.names#result=." />
   <string Context="Harvestable Harvest" ID="=subject.Does#verb= =amount.a.or.cardinal.names#result= =subject.from.its.direction:ifAny#direction=." Value="=subject.Does#verb= =amount.a.or.cardinal.names#result= =subject.from.its.direction:ifAny#direction=." />
@@ -3361,7 +3361,7 @@
   <string Context="Stopsvaalinn Command Label" ID="Activate Stopsvalinn" Value="Stopsvalinn aktivieren" />
   <string Context="Stopsvaalinn Suspended Message" ID="=subject.Does:vibrate= slightly." Value="=subject.Konjde:vibrieren= leicht." />
   <string Context="Stopsvaalinn Snapoff Message" ID="The {{R|force bubble}} snaps off." Value="Die {{R|Kraftblase}} zerplatzt." />
-  <string Context="Stopsvaalinn Snapoff Message Other" ID="The {{R|force bubble}} in front of =subject.the.name= snaps off." Value="Die {{R|Kraftblase}} vor =subject.the.name= schnellt ab." />
+  <string Context="Stopsvaalinn Snapoff Message Other" ID="The {{R|force bubble}} in front of =subject.the.name= snaps off." Value="Die {{R|Kraftblase}} vor =subject.dativ= schnellt ab." />
   <string Context="Stopsvaalinn Not Enough Charge" ID="=subject.Does:don't= have enough charge to sustain the field!" Value="=subject.Does:don't= genug Ladung um das Feld aufrechtzuerhalten!" />
   <string Context="Stopsvaalinn Silent Fail" ID="Nothing happens." Value="Nichts geschieht." />
   <string Context="Stopsvaalinn Success" ID="A {{R|force bubble}} pops into being in front of you!" Value="Eine {{R|Kraftblase}} erscheint plötzlich vor dir!" />
@@ -3374,7 +3374,7 @@
   <string Context="TattooGun NameForStatus" ID="IntradermalInjector" Value="IntradermaleInjektor" />
   <string Context="TattooGun Hostiles Fail" ID="You can't tattoo with hostiles nearby." Value="Du kannst nicht tätowieren, wenn Gegner in der Nähe sind." />
   <string Context="TattooGun Out Of Liquid" ID="=subject.Does:are= out of =liquid.name|colorSafe=." Value="=subject.Konjde:sein= leer an =liquid.name|colorSafe=." />
-  <string Context="TattooGun Contaminated" ID="The =liquid.name|colorSafe= in =subject.the.name= is contaminated!" Value="Die =liquid.name|colorSafe= in =subject.the.name= ist kontaminiert!" />
+  <string Context="TattooGun Contaminated" ID="The =liquid.name|colorSafe= in =subject.the.name= is contaminated!" Value="Die =liquid.name|colorSafe= in =subject.dativ= ist kontaminiert!" />
   <string Context="TattooGun Unpowered" ID="subject.The.name= merely =subject.verb:click=." Value="subject.The.name= macht lediglich =subject.konjde:klicken=." />
   <string Context="TattooGun Not Working" ID="subject.Does:aren't= working." Value="subject.Does:aren't= funktioniert nicht." />
   <string Context="TattooGun Picker Label" ID="Tattoo" Value="Tätowierung" />
@@ -3547,7 +3547,7 @@
   <string Context="Liquid Volume - pour menu option (on yourself)" ID="Pour it on =subject.itself=." Value="Gießt es auf =subject.itself=." />
   <string Context="Liquid Volume - Pour target destination picker title" ID="Pour" Value="Gießen" />
   <string Context="Liquid Volume - pour on self message" ID="=amount.things:dram= of =volume.liquid.name= pours out all over you!" Value="=amount.things:dram= von =volume.liquid.name= gießt sich überall auf Euch!" />
-  <string Context="Liquid Volume - poured out over" ID="=amount.things:dram= of =volume.liquid.name= pours out all over =subject.the.name=!" Value="=amount.things:dram= von =volume.liquid.name= gießt sich überall auf =subject.the.name=!" />
+  <string Context="Liquid Volume - poured out over" ID="=amount.things:dram= of =volume.liquid.name= pours out all over =subject.the.name=!" Value="=amount.things:dram= von =volume.liquid.name= gießt sich überall auf =subject.akkusativ=!" />
   <string Context="Liquid Volume - poured out message" ID="=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out." Value="=subject.Konjde:strömen= =amount.things:dram= von =volume.liquid.name= aus." />
   <string Context="Liquid Volume - pour but empty error" ID="There's nothing in =object.the.name= to pour." Value="Es gibt nichts in =object.dativ= zum Ausgießen." />
   <string Context="Liquid Volume - Warn fill unowned" ID="=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to take from =subject.them=?" Value="=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr von =subject.them= nehmen möchtet?" />
@@ -3647,7 +3647,7 @@
   <string Context="MagazineAmmoLoader ReloadEvent AlreadyFull" ID="=subject.Does:are= already fully loaded." Value="=subject.Konjde:sein= ist bereits vollständig geladen." />
   <string Context="MagazineAmmoLoader DisplayName Tag WithAmmo" ID="[=object.name=]" Value="[=object.name=]" />
   <string Context="MagazineAmmoLoader DisplayName Tag NoAmmo" ID="[{{K|empty}}]" Value="[{{K|leer}}]" />
-  <string Context="MagazineAmmoLoader Load Success One" ID="You reload =object.the.name= with =ammo.a.name=." Value="Ihr ladet =object.the.name= mit =ammo.a.name= nach." />
+  <string Context="MagazineAmmoLoader Load Success One" ID="You reload =object.the.name= with =ammo.a.name=." Value="Ihr ladet =object.the.name= mit =ammo.a.dativ= nach." />
   <string Context="MagazineAmmoLoader Load Success" ID="You reload =object.the.name= with =ammo.name=." Value="Ihr ladet =object.the.name= mit =ammo.name= nach." />
   <string Context="MagazineAmmoLoader FireEvent SupplyQuery PopupAskNumber" ID="Supply =object.the.name= with how many =ammo.plural.or.of.proper=? (max=equals==amount=)" Value="Versorgt =object.the.name= mit wie vielen =ammo.plural.or.of.proper=? (max=equals==amount=)" />
   <string Context="MagazineAmmoLoader FireEvent SupplyAmmoSuccess ProperName" ID="=subject.Does:transfer= =object.name= to =host.a.name=." Value="=subject.Konjde:übertragen= =object.name= zu =host.a.dativ=." />
@@ -4258,10 +4258,10 @@
   <string Context="Physics AccelerateInternal collide message" ID="=subject.Does:collide= with =object.a.name=." Value="=subject.Konjde:kollidieren= mit =object.a.dativ=." />
   <string Context="Physics AccelerateInternal my damage message" ID="from colliding with =object.a.name=." Value="von der Kollision mit =object.a.dativ=." />
   <string Context="Physics AccelerateInternal my damage message w/ pens" ID="=pens.pens= from colliding with =object.a.name=." Value="=pens.pens= von der Kollision mit =object.a.dativ=." />
-  <string Context="Physics AccelerateInternal my damage message" ID="from =subject.a.name= colliding with =object.them=." Value="von =subject.a.name=, das mit =object.them= kollidiert." />
-  <string Context="Physics AccelerateInternal my damage message w/ pens" ID="=pens.pens= from =subject.a.name= colliding with =object.them=." Value="=pens.pens= von =subject.a.name=, das mit =object.them= kollidiert." />
+  <string Context="Physics AccelerateInternal my damage message" ID="from =subject.a.name= colliding with =object.them=." Value="von =subject.a.dativ=, das mit =object.them= kollidiert." />
+  <string Context="Physics AccelerateInternal my damage message w/ pens" ID="=pens.pens= from =subject.a.name= colliding with =object.them=." Value="=pens.pens= von =subject.a.dativ=, das mit =object.them= kollidiert." />
   <string Context="shock damage message (TODO)" ID="from %t electrical discharge!" Value="von %t elektrischer Entladung!" />
-  <string Context="Physics Passing By Object With Article" ID="=object.a.name=" Value="=object.a.name=" />
+  <string Context="Physics Passing By Object With Article" ID="=object.a.name=" Value="=object.a.dativ=" />
   <string Context="Physics PassingBy" ID="You pass by =passed.andList=." Value="Ihr geht an =passed.andList= vorbei." />
   <string ID="=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=." Value="=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=." />
   <string Context="DeathReason Self Kill" ID="You =accidental.if:accidentally :=killed =subject.itself=." Value="Ihr habt =subject.itself= =accidental.if:versehentlich :=getötet." />

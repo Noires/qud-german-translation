@@ -153,6 +153,19 @@ namespace LanguagesOfQudGerman
             if (head.Length == 0) return Gender.Neut;
             string h = head.ToLowerInvariant();
             if (Overrides.TryGetValue(h, out var g)) return g;
+            // Kompositum: Genus vom Grundwort erben (langschwert -> schwert, werkbank -> bank).
+            // Längster bekannter Suffix gewinnt; VOR der Endungs-Heuristik, weil Grundwörter
+            // wie "raum" sonst von Pseudo-Endungen (-um -> Neut) gekapert würden.
+            // Falsche Erbschaften (z. B. gewand ≠ wand) per exaktem Lexikon-Eintrag abfangen.
+            int bestLen = 0; Gender bestGender = Gender.Masc;
+            foreach (var kv in Overrides)
+            {
+                string k = kv.Key;
+                if (k.Length >= 3 && k.Length < h.Length && k.Length > bestLen
+                    && h.EndsWith(k, StringComparison.Ordinal))
+                { bestLen = k.Length; bestGender = kv.Value; }
+            }
+            if (bestLen > 0) return bestGender;
             // crude plural: German plurals often end -en/-er/-e after a stem; skip (too unreliable) -> singular.
             // feminine endings
             if (h.EndsWith("ung") || h.EndsWith("heit") || h.EndsWith("keit") || h.EndsWith("schaft")
