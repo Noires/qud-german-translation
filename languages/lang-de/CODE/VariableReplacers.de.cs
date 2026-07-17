@@ -422,16 +422,37 @@ namespace LanguagesOfQudGerman
             "zu", "zur", "zum", "voller", "ohne", "über", "ueber", "unter",
         };
 
+        // Farb-Verpackung eines Wortes abspalten: "{{r|blutig}}" und "&rblutig" tragen den
+        // deklinierbaren Kern innen; ohne das griffe das Sicherheits-Muster nie bei den
+        // eingefärbten Zustands-Adjektiven der Flüssigkeits-Daten.
+        private static readonly Regex ColorWrap = new Regex(@"^(\{\{[^|{}]+\|)(.+?)(\}\})$", RegexOptions.CultureInvariant);
+        private static readonly Regex ColorPrefix = new Regex(@"^((?:[&^].)+)(.+)$", RegexOptions.CultureInvariant);
+
+        private static void SplitColor(string w, out string pre, out string core, out string post)
+        {
+            pre = ""; post = ""; core = w;
+            var m = ColorWrap.Match(core);
+            if (m.Success) { pre = m.Groups[1].Value; core = m.Groups[2].Value; post = m.Groups[3].Value; }
+            var p = ColorPrefix.Match(core);
+            if (p.Success) { pre += p.Groups[1].Value; core = p.Groups[2].Value; }
+        }
+
+        private static string DeclineAdj(string word, DeclType t, Case c, Gender g)
+        {
+            SplitColor(word, out string pre, out string core, out string post);
+            return pre + AdjStem(core) + AdjEnding(t, c, g) + post;
+        }
+
         // "kleingeschriebene Adjektive + großgeschriebener Kopf"? Nur dann dürfen führende
         // Wörter dekliniert werden - alles andere bekommt den Artikel unverändert vorangestellt.
         private static bool IsAdjNounPattern(string[] words)
         {
             if (words.Length == 0) return false;
-            string head = words[words.Length - 1];
+            SplitColor(words[words.Length - 1], out _, out string head, out _);
             if (head.Length == 0 || !char.IsUpper(head[0])) return words.Length == 1;
             for (int i = 0; i < words.Length - 1; i++)
             {
-                string w = words[i];
+                SplitColor(words[i], out _, out string w, out _);
                 if (w.Length == 0 || FunctionWords.Contains(w)) return false;
                 foreach (char ch in w)
                     if (!char.IsLetter(ch) || char.IsUpper(ch)) return false;
@@ -461,7 +482,7 @@ namespace LanguagesOfQudGerman
             string head = words[words.Length - 1];
             var parts = new List<string> { Cap(Definite(g, c), capitalize) };
             for (int i = 0; i < words.Length - 1; i++)
-                parts.Add(AdjStem(words[i]) + AdjEnding(DeclType.Weak, c, g));
+                parts.Add(DeclineAdj(words[i], DeclType.Weak, c, g));
             parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
             return string.Join(" ", parts);
         }
@@ -497,7 +518,7 @@ namespace LanguagesOfQudGerman
             }
             var parts = new List<string> { art };
             for (int i = 0; i < rest.Length - 1; i++)
-                parts.Add(AdjStem(rest[i]) + AdjEnding(decl, Case.Nom, g));
+                parts.Add(DeclineAdj(rest[i], decl, Case.Nom, g));
             parts.Add(rest[rest.Length - 1]);
             return string.Join(" ", parts);
         }
@@ -566,7 +587,7 @@ namespace LanguagesOfQudGerman
             var parts = new List<string>();
             if (art.Length != 0) parts.Add(Cap(art, capitalize));
             for (int i = 0; i < words.Length - 1; i++)
-                parts.Add(AdjStem(words[i]) + AdjEnding(decl, c, g));
+                parts.Add(DeclineAdj(words[i], decl, c, g));
             parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
             if (art.Length == 0 && capitalize && parts.Count > 0) parts[0] = Cap(parts[0], true);
             return string.Join(" ", parts);
@@ -958,7 +979,7 @@ namespace LanguagesOfQudGerman
             string head = words[words.Length - 1];
             var parts = new List<string> { Cap(det, capitalize || stem == "euer") };
             for (int i = 0; i < words.Length - 1; i++)
-                parts.Add(AdjStem(words[i]) + AdjEnding(DeclType.Mixed, c, g));
+                parts.Add(DeclineAdj(words[i], DeclType.Mixed, c, g));
             parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
             return string.Join(" ", parts);
         }
@@ -1118,6 +1139,8 @@ namespace LanguagesOfQudGerman
                 new[] { BuildDefinitePhrase("Phiole mit Wasser", Case.Nom, false, false), "die Phiole mit Wasser" },
                 new[] { BuildDefinitePhrase("Phiole mit Wasser", Case.Dat, false, false), "der Phiole mit Wasser" },
                 new[] { BuildDefinitePhrase("nass Leuchtfisch", Case.Nom, false, false), "der nasse Leuchtfisch" },
+                new[] { DeclineAfterArticle("Der {{r|blutig}} Issachari-Raider", null), "Der {{r|blutige}} Issachari-Raider" },
+                new[] { DeclineAfterArticle("Der &rblutig Leuchtfisch", null), "Der &rblutige Leuchtfisch" },
             };
             foreach (var t in poss)
             {

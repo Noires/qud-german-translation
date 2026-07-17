@@ -1877,6 +1877,7 @@
   </object>
   <object Name="Saltwurm" Load="Merge">
     <part Name="Render" DisplayName="Salzwurm" />
+    <part Name="SlowDangerousMovement" PrepMessageSelf="Ihr weitet Euer Maul, um Euch =dirward= zu bewegen." PrepMessageOther="Das Maul =subject.genitiv= weitet sich!" />
     <part Name="Description" Short="Eine Salzkaskade von einer Betrügerdüne offenbart etwas aus dem schmerzenden Traum der späten Welt: eine lebende Iod-Grotte, genährt zur =pronouns.possessive= unwahrscheinlichen Größe durch die riesige und auftriebsfähige Wellenbahn von Moghra'yi. Ein Regenvorhang aus Glas strömt über dem Zufluss von =pronouns.possessive= Filterfutter, und dahinter liegt der aufgenommene Planet in zermalmte Landstriche." />
   </object>
   <object Name="Saltwurm_Crush" Load="Merge">
@@ -1889,6 +1890,7 @@
   </object>
   <object Name="Star Kraken" Load="Merge">
     <part Name="Render" DisplayName="Sternkrake" />
+    <part Name="SlowDangerousMovement" PrepMessageSelf="Ihr weitet Euer Maul, um Euch =dirward= zu bewegen." PrepMessageOther="Das Maul =subject.genitiv= weitet sich, und ein Gebirge aus Magen quillt hervor!" />
     <part Name="Description" Short="Ein vollständiger Kontinentalschelf aus halbversteinerter, stern-orkidee Körpermasse kriecht über die Erde, sendend Stein, Chrom, Holz und Messing in Köcher. Hunderttausende von Unterstacheln leiten =pronouns.possessive= Quincunx zyklopen Armen in Bewegung, und ein Delta subduktierender Bauchmuskulatur haftet an und subsumiert Materie in =pronouns.possessive= somatische Sterngrenzen. In =pronouns.possessive= Kielwasser wird eine Arcologie disarrangierter Weltfragmente erhoben." />
   </object>
   <object Name="StarKraken_Arm" Load="Merge">
