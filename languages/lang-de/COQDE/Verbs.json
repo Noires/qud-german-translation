@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "note": "German verb conjugations. Two consumers: (1) the message-log {group:v-<inf>} operator keys on the German infinitive 'inf'; (2) the GameObject.GetVerb Harmony postfix keys on 'en' (the English base form the game passes to GetVerb, i.e. the 2nd-person/plural form: 'are','have','wade','see'...). Forms: s3=3rd sg (er/sie/es), p2=2nd pl / formal 'Ihr' (ihr), p3=3rd pl (sie). Unmapped English verbs fall back to the game's English output (no regression). Only include non-separable German equivalents (separable-prefix verbs like 'greift an' break word order in a single-token replacement); leave those to English fallback.",
+  "note": "German verb conjugations for the =subject.konjde:INFINITIV= token replacer (CODE/VariableReplacers.de.cs), keyed on the German infinitive inf. Forms: s3=3rd sg (er/sie/es), p2=2nd pl / formal Ihr, p3=3rd pl (sie). en documents which English verb(s) motivated the entry. Only STRONG/irregular verbs need entries - regular verbs conjugate algorithmically (stem+t). Only include non-separable German equivalents (separable-prefix verbs like greift an break word order in a single-token replacement).",
   "verbs": [
     {
-      "en": "are",
+      "en": "are/were",
       "inf": "sein",
       "s3": "ist",
       "p2": "seid",
@@ -87,7 +87,7 @@
       "p3": "übertragen"
     },
     {
-      "en": "try",
+      "en": "try/attempt",
       "inf": "versuchen",
       "s3": "versucht",
       "p2": "versucht",
@@ -136,14 +136,7 @@
       "p3": "fühlen"
     },
     {
-      "en": "disappear",
-      "inf": "verschwinden",
-      "s3": "verschwindet",
-      "p2": "verschwindet",
-      "p3": "verschwinden"
-    },
-    {
-      "en": "vanish",
+      "en": "disappear/vanish",
       "inf": "verschwinden",
       "s3": "verschwindet",
       "p2": "verschwindet",
@@ -311,7 +304,7 @@
       "p3": "stehen"
     },
     {
-      "en": "appear",
+      "en": "appear/emerge",
       "inf": "erscheinen",
       "s3": "erscheint",
       "p2": "erscheint",
@@ -542,7 +535,7 @@
       "p3": "blechen"
     },
     {
-      "en": "beat",
+      "en": "beat/strike",
       "inf": "schlagen",
       "s3": "schlägt",
       "p2": "schlagt",
@@ -722,13 +715,6 @@
       "s3": "begafft",
       "p2": "begafft",
       "p3": "begaffen"
-    },
-    {
-      "en": "emerge",
-      "inf": "erscheinen",
-      "s3": "erscheint",
-      "p2": "erscheint",
-      "p3": "erscheinen"
     },
     {
       "en": "shank",
@@ -1004,13 +990,6 @@
       "p3": "erfordern"
     },
     {
-      "en": "were",
-      "inf": "sein",
-      "s3": "ist",
-      "p2": "seid",
-      "p3": "sind"
-    },
-    {
       "en": "impel",
       "inf": "drängen",
       "s3": "drängt",
@@ -1023,13 +1002,6 @@
       "s3": "späht",
       "p2": "späht",
       "p3": "spähen"
-    },
-    {
-      "en": "attempt",
-      "inf": "versuchen",
-      "s3": "versucht",
-      "p2": "versucht",
-      "p3": "versuchen"
     },
     {
       "en": "blur",
@@ -1058,13 +1030,6 @@
       "s3": "spuckt",
       "p2": "spuckt",
       "p3": "spucken"
-    },
-    {
-      "en": "strike",
-      "inf": "schlagen",
-      "s3": "schlägt",
-      "p2": "schlagt",
-      "p3": "schlagen"
     },
     {
       "en": "collide",

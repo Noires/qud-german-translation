@@ -431,8 +431,8 @@ namespace LanguagesOfQudGerman
         //   "=subject.konjde:sehen=" -> sieht / seht / sehen  (by the subject's person).
         // Strong (irregular) verbs come from Verbs.json by 'inf'; regular (weak) verbs are
         // conjugated algorithmically. We deliberately do NOT override the game's English "verb"
-        // replacer (neither does the Turkish reference) — legacy =verb:X= tokens keep working via
-        // the DLL during the transition, and become German templates through the data track.
+        // replacer (neither does the Turkish reference) — any remaining legacy =verb:X= tokens
+        // simply render their English conjugation until the template is converted to =konjde:=.
         private static readonly Dictionary<string, string[]> VerbsByInf = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
 
         internal static void LoadVerbs()
