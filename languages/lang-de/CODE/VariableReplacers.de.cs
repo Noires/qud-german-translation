@@ -1115,6 +1115,7 @@ namespace LanguagesOfQudGerman
                 new[] { DeclineAfterArticle("Der nass Leuchtfisch", null), "Der nasse Leuchtfisch" },
                 new[] { DeclineAfterArticle("ein nass Leuchtfisch", null), "ein nasser Leuchtfisch" },
                 new[] { DeclineAfterArticle("das Zahnrad aus der Großen Maschine", null), "das Zahnrad aus der Großen Maschine" },
+                new[] { BuildDefinitePhrase("Phiole mit Wasser", Case.Nom, false, false), "die Phiole mit Wasser" },
                 new[] { BuildDefinitePhrase("Phiole mit Wasser", Case.Dat, false, false), "der Phiole mit Wasser" },
                 new[] { BuildDefinitePhrase("nass Leuchtfisch", Case.Nom, false, false), "der nasse Leuchtfisch" },
             };
