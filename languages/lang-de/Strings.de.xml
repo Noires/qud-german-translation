@@ -5065,9 +5065,9 @@
   <string Context="JoppaWorldBuilder Orchards" ID="Planting orchards..." Value="Pflanze Obstgärten..." />
   <string Context="JoppaWorldBuilder Farms" ID="Settling farms..." Value="Bauernhöfe werden besiedelt..." />
   <string ID="Fencing pigs..." Value="Schweine einzäunen..." />
-  <string ID="the lair of {{M|Oboroqoru, Ape God}}" Value="das Lager von {{M|Oboroqoru, Affengott}}" />
+  <string ID="the lair of {{M|Oboroqoru, Ape God}}" Value="den Unterschlupf von {{M|Oboroqoru, Affengott}}" />
   <string ID="You discover a lair. Would you like to investigate?" Value="Ihr entdeckt ein Lager. Möchtet Ihr es untersuchen?" />
-  <string ID="the lair of Oboroqoru, Ape God" Value="das Lager von Oboroqoru, dem Affengott" />
+  <string ID="the lair of Oboroqoru, Ape God" Value="der Unterschlupf von Oboroqoru, dem Affengott" />
   <string ID="the mouth of {{M|Shug'ruith the Burrower}}" Value="der Mund von {{M|Shug'ruith dem Wühler}}" />
   <string ID="You come upon a yawning pit. Would you like to investigate?" Value="Ihr stoßt auf eine klaffende Grube. Möchtet Ihr sie untersuchen?" />
   <string ID="the cradle of {{M|Shug'ruith the Burrower}}" Value="die Wiege von {{M|Shug'ruith dem Wühler}}" />
@@ -5075,7 +5075,7 @@
   <string ID="the cradle of {{M|Girsh Rermadon}}" Value="die Wiege von {{M|Girsh Rermadon}}" />
   <string ID="the cradle of {{M|Girsh Agolgot}}" Value="die Wiege von {{M|Girsh Agolgot}}" />
   <string ID="the cradle of {{M|Girsh Bethsaida}}" Value="die Wiege von {{M|Girsh Bethsaida}}" />
-  <string ID="the village lair of {{M|Mamon Souldrinker}}" Value="das Dorf-Lager von {{M|Mamon Souldrinker}}" />
+  <string ID="the village lair of {{M|Mamon Souldrinker}}" Value="den Dorf-Unterschlupf von {{M|Mamon Souldrinker}}" />
   <string ID="Bey Lah" Value="Bey Lah" />
   <string ID="outskirts" Value="Außenbezirke" />
   <string Context="JoppaWorldBuilder ZoneName Indefinite Article - Bey Lah outskirts" ID="some" Value="einige" />
@@ -5092,8 +5092,8 @@
   <string ID="Kindrish, the ancestral bracelet of the hindren" Value="Kindrish, das Ahnen-Armband der Hindren" />
   <string Context="JoppaWorldBuilder Weep Secret" ID="=subject.a.name:short=" Value="=subject.a.name:short=" />
   <string Context="lair noun" ID="lair" Value="Unterschlupf" />
-  <string ID="the =lairname= of =subject.refname:long:withTitles:LairName=" Value="das =lairname= von =subject.refname:long:withTitles:LairName=" />
-  <string ID="the lair of =subject.refname:long:withTitles:LairName|strip=" Value="das Lager von =subject.refname:long:withTitles:LairName|strip=" />
+  <string ID="the =lairname= of =subject.refname:long:withTitles:LairName=" Value="den =lairname= von =subject.refname:long:withTitles:LairName=" />
+  <string ID="the lair of =subject.refname:long:withTitles:LairName|strip=" Value="der Unterschlupf von =subject.refname:long:withTitles:LairName|strip=" />
   <string ID="lair" Value="Unterschlupf" />
   <string ID="Generating deep history..." Value="Tiefengeschichte wird erzeugt..." />
   <string ID="Generating historical sites..." Value="Erzeuge historische Stellen..." />

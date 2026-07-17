@@ -535,6 +535,9 @@ namespace LanguagesOfQudGerman
         // replacer (neither does the Turkish reference) — any remaining legacy =verb:X= tokens
         // simply render their English conjugation until the template is converted to =konjde:=.
         private static readonly Dictionary<string, string[]> VerbsByInf = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
+        // Englisches Basisverb -> deutsche Formen {s3,p2,p3}: erlaubt dem Does-Override,
+        // LAUFZEIT-Verben ("see", "hear" aus #verb-Argumenten) deutsch zu konjugieren.
+        private static readonly Dictionary<string, string[]> VerbsByEn = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
 
         internal static void LoadVerbs()
         {
@@ -554,14 +557,44 @@ namespace LanguagesOfQudGerman
                         // Only STRONG verbs (explicit s3) go in the table; WEAK verbs (inf only)
                         // fall through to WeakConjugate's algorithmic present tense.
                         if (string.IsNullOrEmpty(s3)) continue;
-                        VerbsByInf[inf] = new[] { s3, (string)v["p2"] ?? inf, (string)v["p3"] ?? inf };
+                        var forms = new[] { s3, (string)v["p2"] ?? inf, (string)v["p3"] ?? inf };
+                        VerbsByInf[inf] = forms;
+                        string en = (string)v["en"];
+                        if (!string.IsNullOrEmpty(en))
+                            foreach (string e in en.Split('/'))
+                                if (e.Trim().Length > 0) VerbsByEn[e.Trim()] = forms;
                         n++;
                     }
-                    UnityEngine.Debug.Log("[QudDE] verb table (by infinitive): " + n + " strong verbs");
+                    UnityEngine.Debug.Log("[QudDE] verb table (by infinitive): " + n + " strong verbs, "
+                        + VerbsByEn.Count + " english keys");
                     return;
                 }
             }
             catch (Exception ex) { UnityEngine.Debug.LogWarning("[QudDE] verb table load failed: " + ex.Message); }
+        }
+
+        // Deutsche Verbform für ein Laufzeit-Verb, das deutsch (Infinitiv, ggf. aus einem
+        // übersetzten Datenfeld wie "Sehen") ODER englisch ("see") ankommen kann.
+        // Nur echte Tabellentreffer gelten als gefunden - naive Weak-Konjugation englischer
+        // Wörter ("open" -> "opent") wäre schlimmer als der englische Fallback.
+        private static bool TryGermanVerb(string verb, int person, out string form)
+        {
+            form = null;
+            if (string.IsNullOrEmpty(verb)) return false;
+            string v = verb.Trim();
+            if (VerbsByInf.TryGetValue(v, out var f) || VerbsByEn.TryGetValue(v, out f))
+            {
+                form = f[person];
+                return !string.IsNullOrEmpty(form);
+            }
+            // deutsch aussehende Infinitive (Umlaut oder -en + kein englischer Tabellen-Key)
+            string lower = v.ToLowerInvariant();
+            if (lower.IndexOfAny(new[] { 'ä', 'ö', 'ü', 'ß' }) >= 0 && lower.EndsWith("en"))
+            {
+                form = WeakConjugate(lower, person);
+                return true;
+            }
+            return false;
         }
 
         // 0 = 3rd sg (er/sie/es), 1 = 2nd pl / "Ihr" (player), 2 = 3rd pl.
@@ -583,6 +616,64 @@ namespace LanguagesOfQudGerman
                         : inf.EndsWith("n") ? inf.Substring(0, inf.Length - 1) : inf;
             char last = stem.Length > 0 ? stem[stem.Length - 1] : ' ';
             return stem + ((last == 't' || last == 'd') ? "et" : "t");
+        }
+
+        // Kleines Adverb-Lexikon für die "adverb:verb"-Form von Does ("already:have").
+        private static readonly Dictionary<string, string> Adverbs = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            { "already", "bereits" }, { "just", "gerade" }, { "merely", "lediglich" },
+            { "still", "noch" }, { "now", "jetzt" }, { "then", "dann" }, { "also", "auch" },
+            { "no longer", "nicht mehr" }, { "suddenly", "plötzlich" },
+        };
+
+        // ---- Does-Override: "Name + konjugiertes Verb" auch für LAUFZEIT-Verben ----
+        // "=subject.Does#verb=" bekommt sein Verb erst zur Laufzeit (Autoact: "Sehen"/"see").
+        // Der englische Does kann weder deutsche Infinitive noch englische Verben deutsch
+        // konjugieren ("Ihr Sehen ein Krokodil"). Bei Tabellentreffer bauen wir deutsch
+        // ("Ihr seht", "der Schnappkiefer sieht"); sonst greift unverändert das Original.
+        private static string DoesDe(VariableContext Context, GameObject Object, string verb, string adverb, Func<string> original)
+        {
+            int person = VerbPerson(Object);
+            if (!TryGermanVerb(verb, person, out string form))
+                return original();
+            string name = DefiniteName(Context, Object);
+            string adv = null;
+            if (!string.IsNullOrEmpty(adverb))
+                adv = Adverbs.TryGetValue(adverb.Trim(), out var a) ? a : adverb;
+            return name + " " + form + (adv == null ? "" : " " + adv);
+        }
+
+        [VariableReplacer(new string[] { "does", "did" }, Default = "do", Override = true, Capitalization = true)]
+        public static string DoesDeParam(VariableContext Context, GameObject Object)
+        {
+            int paramCnt = Context.Parameters.Count;
+            bool hasEarlyEmpty = paramCnt >= 2 && string.IsNullOrEmpty(Context.Parameters[1]);
+            int verbidx = (paramCnt >= 2 && !hasEarlyEmpty) ? 1 : 0;
+            string verb = paramCnt >= 1 ? Context.Parameters[verbidx] : Context.Default;
+            string adverb = (paramCnt >= 2 && !hasEarlyEmpty) ? Context.Parameters[0] : null;
+            return DoesDe(Context, Object, verb, adverb, () => Context.Capitalize
+                ? Object.Does(verb, Adverb: adverb,
+                    Single: Context.HasParameter("single"),
+                    Short: !Context.HasParameter("long"),
+                    WithoutTitles: !Context.HasParameter("withTitles"))
+                : Object.does(verb, Adverb: adverb,
+                    Single: Context.HasParameter("single"),
+                    Short: !Context.HasParameter("long"),
+                    WithoutTitles: !Context.HasParameter("withTitles")));
+        }
+
+        [VariableReplacer(new string[] { "does", "did" }, Override = true, Capitalization = true)]
+        public static string DoesDeArg(VariableContext Context, GameObject Object, string Verb)
+        {
+            return DoesDe(Context, Object, Verb, null, () => Context.Capitalize
+                ? Object.Does(Verb,
+                    Single: Context.HasParameter("single"),
+                    Short: !Context.HasParameter("long"),
+                    WithoutTitles: !Context.HasParameter("withTitles"))
+                : Object.does(Verb,
+                    Single: Context.HasParameter("single"),
+                    Short: !Context.HasParameter("long"),
+                    WithoutTitles: !Context.HasParameter("withTitles")));
         }
 
         [VariableReplacer(new string[] { "konjde" }, Capitalization = true)]
@@ -724,6 +815,8 @@ namespace LanguagesOfQudGerman
         // (respektiert they/them-Sets aus PronounSets.de.xml); generische Kreaturen richten
         // sich nach dem grammatischen Genus ihres deutschen Nomens: das Krokodil -> "sein",
         // die Schlange -> "ihr" (deutsche Kongruenzregel, nicht das Spiel-Gender).
+        internal static string PossStemFor(GameObject owner) { return PossStem(owner); }
+
         private static string PossStem(GameObject owner)
         {
             if (owner.IsPlayer() && Grammar.AllowSecondPerson) return "euer";
@@ -772,7 +865,9 @@ namespace LanguagesOfQudGerman
             string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             if (words.Length == 0) return name;
             string head = words[words.Length - 1];
-            Gender g = plural ? Gender.Plural : GuessGender(head);
+            // Genus über den GANZEN Namen (GuessGender strippt Farbcodes/Markup selbst) -
+            // das rohe letzte Split-Wort kann "&WKampfaxt"-artige Reste tragen.
+            Gender g = plural ? Gender.Plural : GuessGender(name);
             // Spieler-Anrede "Euer" wird im Qud-Ton immer großgeschrieben.
             string det = DeclinePoss(stem, g, c);
             var parts = new List<string> { Cap(det, capitalize || stem == "euer") };
@@ -927,6 +1022,10 @@ namespace LanguagesOfQudGerman
                 new[] { DeclinePoss("hir", Gender.Masc, Case.Dat), "hir" },
                 new[] { CSharpPossessivePhrase("gepanzerte Klaue", null, "sein", true, false), "seiner gepanzerten Klaue" },
                 new[] { CSharpPossessivePhrase("Anzeige", null, "sein", false, true), "Seine Anzeige" },
+                new[] { CSharpPossessivePhrase("Kampfaxt", null, "ihr", true, false), "ihrer Kampfaxt" },
+                new[] { TryGermanVerb("see", 1, out var vSee) ? vSee : "?", "seht" },
+                new[] { TryGermanVerb("Sehen", 0, out var vSehen) ? vSehen : "?", "sieht" },
+                new[] { TryGermanVerb("open", 0, out _) ? "TREFFER" : "fallback", "fallback" },
             };
             foreach (var t in poss)
             {

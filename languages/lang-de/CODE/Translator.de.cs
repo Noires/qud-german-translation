@@ -76,6 +76,13 @@ namespace LanguagesOfQudGerman
             string stem = string.IsNullOrEmpty(poss) ? null : NormalizePossStem(poss);
             if (stem != null && GO != null && !GO.HasProperName)
             {
+                // Das durchgereichte Pronomen stammt aus dem SPIEL-Gender des Besitzers
+                // (Karawenwache male -> "sein"); Deutsch kongruiert aber mit dem grammatischen
+                // Genus des Besitzer-NOMENS ("die Karawanenwache ... ihre Kampfaxt"). Der
+                // Träger ist über den Halter des Items erreichbar.
+                GameObject holder = GO.Holder;
+                if (holder != null)
+                    stem = VariableReplacers.PossStemFor(holder);
                 bool cap = Params.Capitalize || char.IsUpper(poss[0]);
                 bool dative = !(char.IsUpper(poss[0]) && stem != "euer");
                 Params.WithDefiniteArticle = false;
