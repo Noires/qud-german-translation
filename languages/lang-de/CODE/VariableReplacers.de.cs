@@ -685,30 +685,105 @@ namespace LanguagesOfQudGerman
             return IndefCaseName(Context, Object, Case.Gen);
         }
 
-        // Possessivartikel "euer" dekliniert nach Kasus + Genus des Besitztums.
-        private static string Euer(Gender g, Case c)
+        // Possessiv-STAMM eines Besitzers. Benannte Figuren behalten ihre Pronomen-Daten
+        // (respektiert they/them-Sets aus PronounSets.de.xml); generische Kreaturen richten
+        // sich nach dem grammatischen Genus ihres deutschen Nomens: das Krokodil -> "sein",
+        // die Schlange -> "ihr" (deutsche Kongruenzregel, nicht das Spiel-Gender).
+        private static string PossStem(GameObject owner)
         {
-            switch (c)
+            if (owner.IsPlayer() && Grammar.AllowSecondPerson) return "euer";
+            if (!IsProper(owner))
             {
-                case Case.Nom: return (g == Gender.Fem || g == Gender.Plural) ? "eure" : "euer";
-                case Case.Acc: return g == Gender.Masc ? "euren" : (g == Gender.Neut ? "euer" : "eure");
-                case Case.Dat: return g == Gender.Fem ? "eurer" : g == Gender.Plural ? "euren" : "eurem";
-                default: return (g == Gender.Fem || g == Gender.Plural) ? "eurer" : "eures";
+                Gender g = IsPlural(owner) ? Gender.Plural : GuessGender(GermanName(owner));
+                return (g == Gender.Fem || g == Gender.Plural) ? "ihr" : "sein";
             }
+            string adj = owner.GetPronounProvider().PossessiveAdjective;
+            return string.IsNullOrEmpty(adj) ? "sein" : adj.ToLowerInvariant();
         }
 
-        // "Eurem rostigen Wischmopp" - Possessivartikel + Mixed-Deklination (wie ein-Wörter).
-        private static string BuildPossessivePhrase(string name, Case c, bool plural, bool capitalize)
+        // Dekliniert sein/ihr/euer/mein/dein/unser nach Genus des Besitztums + Kasus
+        // (ein-Wort-Deklination; euer -> eure/eurem). Unbekannte Stämme aus Pronomen-Sets
+        // (hir, xyr, eir ...) bleiben unverändert - besser undekliniert als verstümmelt.
+        private static string DeclinePoss(string stem, Gender g, Case c)
+        {
+            bool known = stem == "sein" || stem == "ihr" || stem == "euer"
+                      || stem == "mein" || stem == "dein" || stem == "unser";
+            if (!known) return stem;
+            string end;
+            switch (c)
+            {
+                case Case.Nom: end = (g == Gender.Fem || g == Gender.Plural) ? "e" : ""; break;
+                case Case.Acc: end = g == Gender.Masc ? "en" : (g == Gender.Neut ? "" : "e"); break;
+                case Case.Dat: end = g == Gender.Fem ? "er" : (g == Gender.Plural ? "en" : "em"); break;
+                default: end = (g == Gender.Fem || g == Gender.Plural) ? "er" : "es"; break;
+            }
+            if (end.Length == 0) return stem;
+            return (stem == "euer" ? "eur" : stem) + end;
+        }
+
+        // Kasus aus Token-Parametern (":dativ"/":dat" ...); ohne Parameter Nominativ.
+        private static Case CaseParam(VariableContext ctx)
+        {
+            if (ctx.HasParameter("dativ") || ctx.HasParameter("dat")) return Case.Dat;
+            if (ctx.HasParameter("akkusativ") || ctx.HasParameter("akk")) return Case.Acc;
+            if (ctx.HasParameter("genitiv") || ctx.HasParameter("gen")) return Case.Gen;
+            return Case.Nom;
+        }
+
+        // "Eurem rostigen Wischmopp" / "seinem gefrorenen Biss" - Possessivartikel mit
+        // beliebigem Stamm + Mixed-Adjektivdeklination (wie nach ein-Wörtern).
+        private static string BuildPossessivePhrase(string name, Case c, bool plural, bool capitalize, string stem = "euer")
         {
             string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             if (words.Length == 0) return name;
             string head = words[words.Length - 1];
             Gender g = plural ? Gender.Plural : GuessGender(head);
-            var parts = new List<string> { Cap(Euer(g, c), capitalize) };
+            // Spieler-Anrede "Euer" wird im Qud-Ton immer großgeschrieben.
+            string det = DeclinePoss(stem, g, c);
+            var parts = new List<string> { Cap(det, capitalize || stem == "euer") };
             for (int i = 0; i < words.Length - 1; i++)
                 parts.Add(AdjStem(words[i]) + AdjEnding(DeclType.Mixed, c, g));
             parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
             return string.Join(" ", parts);
+        }
+
+        // ---- Possessivpronomen-Replacer (Finding: "mit ihr Biss" -> "mit seinem Biss") ----
+
+        // Alleinstehendes "=X.its=" vor festem deutschen Substantiv: Kasus + Genus des
+        // Folgeworts als Parameter annotieren, z. B. "=subject.its:akk:f= Energiezelle"
+        // -> "seine/ihre/Eure Energiezelle". Ohne Parameter: unflektierter Stamm.
+        [VariableReplacer(new string[] { "possessive", "their", "its", "possessiveAdjective" }, Override = true, Capitalization = true)]
+        public static string PossessiveAdjDe(VariableContext Context, GameObject Object)
+        {
+            string stem = PossStem(Object);
+            Gender? g = null;
+            if (Context.HasParameter("m")) g = Gender.Masc;
+            else if (Context.HasParameter("f")) g = Gender.Fem;
+            else if (Context.HasParameter("n")) g = Gender.Neut;
+            else if (Context.HasParameter("pl")) g = Gender.Plural;
+            string de = g.HasValue ? DeclinePoss(stem, g.Value, CaseParam(Context)) : stem;
+            return Cap(de, Context.Capitalize || stem == "euer");
+        }
+
+        // "=subject.its.item:dativ#weapon=" -> "mit seinem Biss" / "mit Eurer Klinge".
+        // Genus kommt vom Item selbst; Eigennamen-Items lassen das Possessiv weg (wie das
+        // englische Original: "his Stopsvalinn" -> "Stopsvalinn").
+        [VariableReplacer(new string[] { "its.item", "its_" }, Override = true, Capitalization = true)]
+        public static string ItsItemDe(VariableContext Context, GameObject Object, GameObject Item)
+        {
+            string n = GermanName(Item);
+            if (IsProper(Item)) return Cap(n, Context.Capitalize);
+            return BuildPossessivePhrase(n, CaseParam(Context), IsPlural(Item), Context.Capitalize, PossStem(Object));
+        }
+
+        // Kombiniert Possessiv + Körperteil in EINEM Token, damit das Genus des Teils die
+        // Endung bestimmen kann: "von =subject.its.part:dat#part=!" -> "von seiner rechten
+        // Hand!" (ersetzt Muster "=subject.its= =part.ordinalName=").
+        [VariableReplacer(new string[] { "its.part" }, Capitalization = true)]
+        public static string ItsPartDe(VariableContext Context, GameObject Object, XRL.World.Anatomy.BodyPart Part)
+        {
+            string de = TransformBodyPart(Part.GetOrdinalName(), Part.Laterality, false);
+            return BuildPossessivePhrase(de, CaseParam(Context), false, Context.Capitalize, PossStem(Object));
         }
 
         // Pipeline self-test: runs a real template ("=object.dativ=") through the game's
@@ -807,9 +882,14 @@ namespace LanguagesOfQudGerman
                 new[] { GermanPossessiveSuffix("Krokodil"), "Krokodils" },
                 new[] { GermanPossessiveSuffix("Marx"), "Marx'" },
                 new[] { GermanPossessiveSuffix("{{M|Resheph}}"), "{{M|Reshephs}}" },
-                new[] { BuildPossessivePhrase("rostiger Wischmopp", Case.Dat, false, false), "eurem rostigen Wischmopp" },
-                new[] { BuildPossessivePhrase("Flammenpistole", Case.Dat, false, false), "eurer Flammenpistole" },
-                new[] { Euer(Gender.Neut, Case.Acc), "euer" },
+                new[] { BuildPossessivePhrase("rostiger Wischmopp", Case.Dat, false, false), "Eurem rostigen Wischmopp" },
+                new[] { BuildPossessivePhrase("Flammenpistole", Case.Dat, false, false), "Eurer Flammenpistole" },
+                new[] { BuildPossessivePhrase("Biss", Case.Dat, false, false, "sein"), "seinem Biss" },
+                new[] { BuildPossessivePhrase("rechte Hand", Case.Dat, false, false, "ihr"), "ihrer rechten Hand" },
+                new[] { DeclinePoss("euer", Gender.Neut, Case.Acc), "euer" },
+                new[] { DeclinePoss("sein", Gender.Fem, Case.Acc), "seine" },
+                new[] { DeclinePoss("ihr", Gender.Plural, Case.Dat), "ihren" },
+                new[] { DeclinePoss("hir", Gender.Masc, Case.Dat), "hir" },
             };
             foreach (var t in poss)
             {

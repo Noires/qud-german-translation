@@ -1889,7 +1889,7 @@
   <string Context="DifficultyEvaluation Average" ID="Average" Value="Durchschnittlich" />
   <string Context="DifficultyEvaluation Easy" ID="Easy" Value="Leicht" />
   <string Context="DifficultyEvaluation Trivial" ID="Trivial" Value="Trivial" />
-  <string Context="Disarm Message Log" ID="=subject.Does:disarm= =object.the.name= of =object.its.item#weapon=!" Value="=subject.Konjde:entwaffnen= =object.the.name= von =object.its.item#weapon=!" />
+  <string Context="Disarm Message Log" ID="=subject.Does:disarm= =object.the.name= of =object.its.item#weapon=!" Value="=subject.Konjde:schlagen= =object.dativ= =object.its.item:akk#weapon= aus der Hand!" />
   <string Context="Firefighting On Self" ID="=subject.Does:beat= at the flames with =subject.its= =hands.name=!" Value="=subject.Konjde:schlagen= auf die Flammen mit =subject.its= =hands.name=!" />
   <string Context="Firefighting On Other" ID="=subject.Does:beat= at the flames on =object.the.name= with =subject.its= =hands.name=!" Value="=subject.Konjde:schlagen= auf die Flammen auf =object.the.name= mit =subject.its= =hands.name=!" />
   <string Context="MatterPhase" ID="solid" Value="fest" />
@@ -2399,7 +2399,7 @@
   <string Context="RealityStabilized blocked by solid, metal" ID="=subject.the.name= {{electrical|=subject.verb:spark= and =subject.verb:buzz=}} for a moment, but nothing else happens." Value="=subject.the.name= {{electrical|=subject.konjde:sprühen= und =subject.konjde:summen=}} kurz, aber nichts anderes geschieht." />
   <string Context="RealityStabilized blocked by solid" ID="=subject.the.name= {{C|=subject.verb:shift= and =subject.verb:waver=}} for a moment, but nothing else happens." Value="=subject.the.name= {{C|=subject.konjde:verschieben= und =subject.konjde:schwanken=}} kurz, aber nichts anderes geschieht." />
   <string Context="Rebuked Effect DisplayName" ID="{{C|rebuked}}" Value="{{C|zurechtgewiesen}}" />
-  <string Context="Rebuked Dismiss" ID="=subject.Does:dismiss= =object.the.name= from =subject.its= service." Value="=subject.Konjde:entlassen= =object.the.name= aus =subject.its= Dienst." />
+  <string Context="Rebuked Dismiss" ID="=subject.Does:dismiss= =object.the.name= from =subject.its= service." Value="=subject.Konjde:entlassen= =object.the.name= aus =subject.its:dat:m= Dienst." />
   <string Context="Rebuked Applied" ID="=subject.Does:rebuke= =object.the.name= into submission." Value="=subject.Konjde:tadeln= =object.the.name= zur Unterwerfung." />
   <string Context="Rebuke Removed" ID="=subject.Does:wander= away disinterestedly." Value="=subject.Konjde:wandern= gleichgültig davon." />
   <string Context="Sprinting DisplayName" ID="sprinting" Value="sprintend" />
@@ -2656,7 +2656,7 @@
   <string Context="GivesRep Water-sib Description Postfix" ID="You are water-bonded with =object.objective=." Value="Ihr seid wasserggebunden mit =object.objective=." />
   <string Context="GivesRep Death Curse (fragment, appends PlayerReputation Modify Fragments)" ID="You violated the covenant of the water ritual and killed your bonded kith. You are cursed.&#10;&#10;" Value="Ihr habt den Bund des Wasserritus gebrochen und Euer Wasserbund-Gefährten getötet. Ihr seid verflucht.&#10;&#10;" />
   <string Context="GivesRep Death Curse Accomplishment" ID="You slew your bonded kith =object.a.name:withTitles=, violating the covenant of the water ritual and earning the emnity of all." Value="Ihr habt Euer Wasserbund-Gefährten =object.a.name:withTitles= erschlagen, was den Bund des Wasserritus verletzt und die Feindseligkeit aller verdient." />
-  <string Context="GivesRep DeathCurse Mural Text" ID="Blasphemously, the traitor =object.name= attacked =subject.name=, =object.its= water-sib, and =subject.name= was forced to slay =object.them=. Deep in grief, =subject.name= wept for one year." Value="Blasphemisch griff der Verräter =object.name= =subject.name= an, =object.its= Wasserschwester, und =subject.name= musste =object.them= töten. Tief in Trauer weinte =subject.name= ein ganzes Jahr." />
+  <string Context="GivesRep DeathCurse Mural Text" ID="Blasphemously, the traitor =object.name= attacked =subject.name=, =object.its= water-sib, and =subject.name= was forced to slay =object.them=. Deep in grief, =subject.name= wept for one year." Value="Blasphemisch griff der Verräter =object.name= =subject.name= an, =object.its:nom:f= Wasserschwester, und =subject.name= musste =object.them= töten. Tief in Trauer weinte =subject.name= ein ganzes Jahr." />
   <string Context="GivesRep DeathCurse Gospel Text" ID="In the month of =month= of =year=, =subject.name= was challenged by =spice:commonPhrases.pretender.!random|article= to a duel over the rights of =mostLiked.factionName=. =name= won and murdered the pretender before tragically realizing =spice:pronouns.subject.!random= was =subject.possessiveAdjective= water-sib." Value="Im Monat =month= des =year= wurde =subject.name= von =spice:commonPhrases.pretender.!random|article= zu einem Duell um die Rechte von =mostLiked.factionName= herausgefordert. =name= gewann und tötete den Anwärter, bevor =spice:pronouns.subject.!random= tragischerweise bemerkte, daß =subject.possessiveAdjective= Wassergeschwister war." />
   <string Context="GivesRep Death Accomplishment" ID="You slew =object.a.name:withTitles=." Value="Ihr habt =object.a.name:withTitles= erschlagen." />
   <string Context="GivesRep Death Mural Text" ID="In the month of =month= of =year=, brave =subject.name= slew =spice:commonPhrases.odious.!random= =object.a.name:withTitles= in single combat." Value="Im Monat =month= des Jahres =year= tötete der tapfere =subject.name= =spice:commonPhrases.odious.!random= =object.a.name:withTitles= im Einzelkampf." />
@@ -2729,8 +2729,8 @@
   <string Context="Stomach UghFeelSick" ID="Ugh, you feel sick." Value="Äh, Euch ist übel." />
   <string Context="Stomach Dehydration Message Amphibious" ID="{{R|=subject.The.name= =subject.verb:are= dehydrated and will be unable to heal naturally until =subject.they= =subject.verb:get= water to douse =subject.itself= with.}}" Value="{{R|=subject.The.name= =subject.konjde:sein= ausgetrocknet und wird nicht natürlich heilen können bis =subject.they= =subject.konjde:bekommen= Wasser zum Übergießen =subject.itself= damit.}}" />
   <string Context="Stomach Dehydration Message Not Amphibious" ID="{{R|=subject.The.name= =subject.verb:are= dehydrated and will be unable to heal naturally until =subject.they= =subject.verb:get= water to drink.}}" Value="{{R|=subject.The.name= =subject.konjde:sein= ausgetrocknet und können sich nicht natürlich heilen, bis =subject.they= =subject.konjde:bekommen= Wasser zum Trinken erhalten.}}" />
-  <string Context="Swarmer Alpha Desc" ID="Swarm Alpha: As long as =subject.thisCreature= =subject.verb:are= adjacent to =subject.its= target, =subject.it.does:grant= =bonus= to the swarm bonuses of each other swarmer who is adjacent to =subject.its= target." Value="Schwarmführer: Solange =subject.thisCreature= =subject.konjde:sein= benachbart zu =subject.its= Ziel ist, =subject.it.konjde:gewähren= =bonus= zu den Schwarmprämien jedes anderen Schwarmmitglieds, das benachbart zu =subject.its= Ziel ist." />
-  <string Context="Swarmer Desc" ID="Swarmer: =subject.ThisCreature= =subject.verb:receive= +1 to hit in melee and +1 to penetration rolls for each other hostile swarmer beyond the first who is in another square adjacent to =subject.its= target. (currently =bonus.signed=)" Value="Schwärmer: =subject.ThisCreature= =subject.konjde:erhalten= +1 zum Treffer im Nahkampf und +1 auf Durchdringungswürfe für jeden anderen feindseligen Schwärmer jenseits des ersten, der auf einem anderen Feld neben =subject.its= Ziel ist. (aktuell =bonus.signed=)" />
+  <string Context="Swarmer Alpha Desc" ID="Swarm Alpha: As long as =subject.thisCreature= =subject.verb:are= adjacent to =subject.its= target, =subject.it.does:grant= =bonus= to the swarm bonuses of each other swarmer who is adjacent to =subject.its= target." Value="Schwarmführer: Solange =subject.thisCreature= =subject.konjde:sein= benachbart zu =subject.its:dat:n= Ziel ist, =subject.it.konjde:gewähren= =bonus= zu den Schwarmprämien jedes anderen Schwarmmitglieds, das benachbart zu =subject.its:dat:n= Ziel ist." />
+  <string Context="Swarmer Desc" ID="Swarmer: =subject.ThisCreature= =subject.verb:receive= +1 to hit in melee and +1 to penetration rolls for each other hostile swarmer beyond the first who is in another square adjacent to =subject.its= target. (currently =bonus.signed=)" Value="Schwärmer: =subject.ThisCreature= =subject.konjde:erhalten= +1 zum Treffer im Nahkampf und +1 auf Durchdringungswürfe für jeden anderen feindseligen Schwärmer jenseits des ersten, der auf einem anderen Feld neben =subject.its:dat:n= Ziel ist. (aktuell =bonus.signed=)" />
   <string Context="Cybernetics Cursed" ID="You can't remove =object.the.name:notAsPossessed=." Value="Ihr könnt =object.the.name:notAsPossessed= nicht entfernen." />
   <string Context="Cybernetics Compute Power Rules Text" ID="Compute power on the local lattice increases this item's effectiveness." Value="Rechenkraft im lokalen Gitter erhöht die Wirksamkeit dieses Gegenstands." />
   <string Context="Cybernetics AnomalyFumigator Activated Ability Name" ID="Anomaly Fumigator" Value="Anomalie-Begaser" />
@@ -2798,7 +2798,7 @@
   <string ID="You can't unlock =object.t= from a distance." Value="Ihr könnt =object.t= nicht aus der Ferne entsperren." />
   <string ID="You unlock =object.t=." Value="Ihr entsperrt =object.t=." />
   <string ID="You interface with =object.t= and unlock =object.them=." Value="Ihr interagiert mit =object.dativ= und entsperrt =object.them=." />
-  <string ID="You lay your hand upon =object.t= and draw forth =object.its= passcode. You enter the code and =object.does:unlock=." Value="Ihr legt Eure Hand auf =object.t= und zieht =object.its= Passcode heraus. Ihr gebt den Code ein und =object.konjde:entriegeln=." />
+  <string ID="You lay your hand upon =object.t= and draw forth =object.its= passcode. You enter the code and =object.does:unlock=." Value="Ihr legt Eure Hand auf =object.t= und zieht =object.its:akk:m= Passcode heraus. Ihr gebt den Code ein und =object.konjde:entriegeln=." />
   <string ID="You can't unlock =object.t=." Value="Ihr könnt =object.t= nicht entsperren." />
   <string ID="=subject.T= cannot be closed." Value="=subject.T= kann nicht geschlossen werden." />
   <string ID="You cannot close =object.t==reason=." Value="Ihr könnt =object.t==reason= nicht schließen." />
@@ -2968,7 +2968,7 @@
   <string Context="BootSequence Default VerbOnBootAborted" ID="bloop" Value="Bloop" />
   <string Context="BootSequence Boot Message" ID="=subject.Does#verb=." Value="=subject.Does#verb=." />
   <string Context="BootSequence Display Adjective" ID="[{{K|=timeLeft= sec}}]" Value="[{{K|=timeLeft= Sek}}]" />
-  <string Context="Bootsequence Description" ID="=subject.Its= readout indicates that =subject.its= startup sequence will take an estimated =timeLeft.cardinal= more =timeLeft.pluralize:round=." Value="=subject.Its= Anzeige zeigt an, dass =subject.its= Startsequenz noch geschätzt =timeLeft.cardinal= weitere =timeLeft.pluralize:round= benötigt." />
+  <string Context="Bootsequence Description" ID="=subject.Its= readout indicates that =subject.its= startup sequence will take an estimated =timeLeft.cardinal= more =timeLeft.pluralize:round=." Value="=subject.Its:nom:f= Anzeige zeigt an, dass =subject.its:nom:f= Startsequenz noch geschätzt =timeLeft.cardinal= weitere =timeLeft.pluralize:round= benötigt." />
   <string Context="BreakableInMelee Break Message" ID="subject.Does:break=." Value="subject.Does:break=." />
   <string Context="BubbleLevel Sound Message" ID="=subject.Does:plop=." Value="=subject.Konjde:plumpsen=." />
   <string Context="BubbleLevel No Sound Message" ID="=subject.Does:make= no sound." Value="=subject.Konjde:machen= keinen Ton." />
@@ -3322,8 +3322,8 @@
   <string Context="ProjectileReflectionShield DisplayName" ID="{{Y|reflectively shielded}}" Value="{{Y|reflektiv abgeschirmt}}" />
   <string Context="ProjectileReflectionShield Details" ID="Reflects incoming projectiles and thrown objects at a =chance=% chance." Value="Reflektiert einfliegende Projektile und geworfene Objekte mit =chance=% Wahrscheinlichkeit." />
   <string Context="ReflectProjectiles Details FailureDescription" ID="Deactivated" Value="Deaktiviert" />
-  <string Context="ReflectProjectiles Check activates" ID="=subject.Does:activate= =subject.its= reflective shield." Value="=subject.Konjde:aktivieren= =subject.its= reflektierende Schild." />
-  <string Context="ReflectProjectiles Check deactivated" ID="=subject.Does:have= =subject.its= reflective shield deactivated." Value="=subject.Konjde:haben= =subject.its= reflektives Schild deaktiviert." />
+  <string Context="ReflectProjectiles Check activates" ID="=subject.Does:activate= =subject.its= reflective shield." Value="=subject.Konjde:aktivieren= =subject.its:akk:m= reflektierenden Schild." />
+  <string Context="ReflectProjectiles Check deactivated" ID="=subject.Does:have= =subject.its= reflective shield deactivated." Value="=subject.Konjde:haben= =subject.its:akk:m= reflektierenden Schild deaktiviert." />
   <string Context="Repair TooConfused" ID="You're too confused to do that." Value="Sie sind zu verwirrt, um das zu tun." />
   <string Context="Repair IncompatibleFlyingState" ID="You cannot reach =object.the.name= to repair =object.it=." Value="Du kannst =object.the.name= nicht erreichen, um =object.it= zu reparieren." />
   <string Context="Repair OutofPhase" ID="You are out of phase with =object.the.name= and cannot repair =object.it=." Value="Du bist nicht in Phase mit =object.dativ= und kannst =object.it= nicht reparieren." />
@@ -3434,11 +3434,11 @@
   <string Context="Toolbox RulesPostfix ComputePower Good" ID="Compute power on the local lattice increases this item's effectiveness." Value="Rechenkraft im lokalen Gitter erhöht die Wirksamkeit dieses Gegenstands." />
   <string Context="Toolbox RulesPostfix ComputePower Bad" ID="Compute power on the local lattice decreases this item's effectiveness." Value="Rechnerleistung im lokalen Gitter verringert die Effektivität dieses Gegenstands." />
   <string Context="Toolbox WarnTinkeringBonus UnpoweredBonusAvailable" ID="=subject.The.name= =subject.is= unpowered. Do you want to continue, using =subject.them= without power?" Value="=subject.The.name= =subject.is= stromlos. Möchtet Ihr fortfahren und =subject.them= ohne Stromversorgung nutzen?" />
-  <string Context="Toolbox WarnTinkeringBonus UnpoweredBonusNotAvailable" ID="=subject.The.name= =subject.is= unpowered. Do you want to continue without =subject.its= benefits?" Value="=subject.The.name= =subject.is= stromlos. Möchtet Ihr fortfahren ohne =subject.its= Vorteile?" />
-  <string Context="Toolbox WarnTinkeringBonus BootingBonusAvailable" ID="=subject.The.name= =subject.is= still starting up. Do you want to continue without =subject.its= full benefits?" Value="=subject.The.name= =subject.is= wird noch gestartet. Möchtet Ihr fortfahren ohne =subject.its= vollständige Vorteile?" />
-  <string Context="Toolbox WarnTinkeringBonus BootingBonusNotAvailable" ID="=subject.The.name= =subject.is= still starting up. Do you want to continue without =subject.its= benefits?" Value="=subject.The.name= =subject.is= wird noch gestartet. Möchtet Ihr fortfahren ohne =subject.its= Vorteile?" />
-  <string Context="Toolbox WarnTinkeringBonus InoperativeBonusAvailable" ID="=subject.The.name= =subject.is= inoperative. Do you want to continue, without =subject.its= full benefits?" Value="=subject.The.name= =subject.is= ist nicht funktionsfähig. Möchtet Ihr fortfahren ohne =subject.its= vollständige Vorteile?" />
-  <string Context="Toolbox WarnTinkeringBonus InoperativeBonusNotAvailable" ID="=subject.The.name= =subject.is= inoperative. Do you want to continue, without =subject.its= benefits?" Value="=subject.The.name= =subject.is= ist nicht funktionsfähig. Möchtet Ihr fortfahren ohne =subject.its= Vorteile?" />
+  <string Context="Toolbox WarnTinkeringBonus UnpoweredBonusNotAvailable" ID="=subject.The.name= =subject.is= unpowered. Do you want to continue without =subject.its= benefits?" Value="=subject.The.name= =subject.is= stromlos. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= Vorteile?" />
+  <string Context="Toolbox WarnTinkeringBonus BootingBonusAvailable" ID="=subject.The.name= =subject.is= still starting up. Do you want to continue without =subject.its= full benefits?" Value="=subject.The.name= =subject.is= wird noch gestartet. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= vollständigen Vorteile?" />
+  <string Context="Toolbox WarnTinkeringBonus BootingBonusNotAvailable" ID="=subject.The.name= =subject.is= still starting up. Do you want to continue without =subject.its= benefits?" Value="=subject.The.name= =subject.is= wird noch gestartet. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= Vorteile?" />
+  <string Context="Toolbox WarnTinkeringBonus InoperativeBonusAvailable" ID="=subject.The.name= =subject.is= inoperative. Do you want to continue, without =subject.its= full benefits?" Value="=subject.The.name= =subject.is= ist nicht funktionsfähig. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= vollständigen Vorteile?" />
+  <string Context="Toolbox WarnTinkeringBonus InoperativeBonusNotAvailable" ID="=subject.The.name= =subject.is= inoperative. Do you want to continue, without =subject.its= benefits?" Value="=subject.The.name= =subject.is= ist nicht funktionsfähig. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= Vorteile?" />
   <string Context="Torch Display Name - Adjective" ID="lit" Value="erleuchtet" />
   <string Context="Torch Burnout MessageLog" ID="Your torch burns out!" Value="Ihre Fackel brennt aus!" />
   <string Context="Torch Light Fail (covered)" ID="You cannot light =object.the.name= because of the liquid =object.it.is= covered in." Value="Ihr könnt =object.the.name= nicht entzünden, weil die Flüssigkeit =object.it.is= darin bedeckt ist." />
@@ -3532,7 +3532,7 @@
   <string Context="LiquidVolume - Cleaning failure" ID="You cannot do that for some reason." Value="Ihr könnt das aus irgendeinem Grund nicht tun." />
   <string Context="LiquidVolume - autocollect failure" ID="Auto collection only works on unsealed containers with pure liquids." Value="Automatisches Sammeln funktioniert nur bei unversiegelten Behältern mit reinen Flüssigkeiten." />
   <string Context="LiquidVolume - autocollect no liquid to choose" ID="It isn't clear what kind of liquid would be appropriate for =object.the.name= to collect. Pour a pure liquid into it, and then enable auto-collect." Value="Es ist nicht klar, welche Art von Flüssigkeit für =object.the.name= zum Sammeln geeignet wäre. Gießt eine reine Flüssigkeit hinein und aktiviert dann automatisches Sammeln." />
-  <string Context="Liquid Volume - seal but broken message" ID="=subject.Does:seal= =object.the.name= as best =subject.they= can, but in =object.its= condition this does little." Value="=subject.Konjde:versiegeln= =object.the.name= so gut =subject.they= können, aber in =object.its= Zustand nützt dies wenig." />
+  <string Context="Liquid Volume - seal but broken message" ID="=subject.Does:seal= =object.the.name= as best =subject.they= can, but in =object.its= condition this does little." Value="=subject.Konjde:versiegeln= =object.the.name= so gut =subject.they= können, aber in =object.its:dat:m= Zustand nützt dies wenig." />
   <string Context="Liquid Volume - seal message" ID="=subject.Does:seal= =object.the.name=." Value="=subject.Konjde:versiegeln= =object.the.name=." />
   <string Context="Liquid Volume - unseal message" ID="=subject.Does:unseal= =object.the.name=." Value="=subject.Konjde:entsiegeln= =object.the.name=." />
   <string Context="Liquid Volume - Cleaning message, cleaned item" ID="=object.a.name:asPossessed:secondPerson=" Value="=object.a.name:asPossessed:secondPerson=" />
@@ -3557,7 +3557,7 @@
   <string Context="Liquid Volume - Cleaning liquids default" ID="liquid" Value="flüssig" />
   <string Context="Liquid Volume - Cleaning liquids" ID="=names.orList=" Value="=names.orList=" />
   <string Context="BandageMedication TargetPicker Label" ID="Bandage whom?" Value="Wen verbinden?" />
-  <string Context="BandageMedication PerformBandaging FailCantReach" ID="You cannot reach =object.the.name= to bandage =object.its= wounds." Value="Ihr könnt =object.the.name= nicht erreichen, um =object.its= Wunden zu verbinden." />
+  <string Context="BandageMedication PerformBandaging FailCantReach" ID="You cannot reach =object.the.name= to bandage =object.its= wounds." Value="Ihr könnt =object.the.name= nicht erreichen, um =object.its:akk:pl= Wunden zu verbinden." />
   <string Context="BandageMedication PerformBandaging FailNobodyThere" ID="There's no one there." Value="Dort ist niemand." />
   <string Context="BandageMedication PerformBandaging hostile entity fail" ID="=object.Does:won't= let you bandage =object.them=." Value="=object.Does:won't= lässt Euch =object.them= nicht verbinden." />
   <string Context="BandageMedication PerformBandaging Already" ID="=object.The.name's= wounds have been bandaged." Value="=object.The.name's= Wunden wurden verbunden." />
@@ -3679,9 +3679,9 @@
   <string Context="MissilePerformance RulesPostfix PenetrateCreatures Powered" ID="When powered, =subject.indicativeProximal= =subject.getDescriptiveCategory:matchPlurality= =subject.verb:penetrate= creatures." Value="Wenn aktiviert, =subject.indicativeProximal= =subject.getDescriptiveCategory:matchPlurality= =subject.konjde:durchdringen= Kreaturen." />
   <string Context="MissilePerformance RulesPostfix PenetrateCreatures" ID="=subject.IndicativeProximal= =subject.getDescriptiveCategory:matchPlurality= =subject.verb:penetrate= creatures." Value="=subject.IndicativeProximal= =subject.getDescriptiveCategory:matchPlurality= =subject.konjde:durchdringen= Kreaturen." />
   <string Context="NoteImprovedAccuracy RulesPostfix" ID="=subject.IndicativeProximal= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= improved accuracy." Value="=subject.IndicativeProximal= =subject.descriptiveCategory:matchPlurality= =subject.konjde:haben= verbesserte Genauigkeit." />
-  <string Context="NoteImprovedRateOfFire RulesPostfix ShotsPerAction" ID="=amount.signed= to =subject.its= shots per action" Value="=amount.signed= auf =subject.its= Schüsse pro Aktion" />
-  <string Context="NoteImprovedRateOfFire RulesPostfix AmmoPerAction" ID="=amount.signed= to =subject.its= ammo per action" Value="=amount.signed= auf =subject.its= Munition pro Aktion" />
-  <string Context="NoteImprovedRateOfFire RulesPostfix AmmoCapacityAmount" ID="=amount.signed= to =subject.its= ammo capacity" Value="=amount.signed= auf =subject.its= Munitionskapazität" />
+  <string Context="NoteImprovedRateOfFire RulesPostfix ShotsPerAction" ID="=amount.signed= to =subject.its= shots per action" Value="=amount.signed= auf =subject.its:akk:pl= Schüsse pro Aktion" />
+  <string Context="NoteImprovedRateOfFire RulesPostfix AmmoPerAction" ID="=amount.signed= to =subject.its= ammo per action" Value="=amount.signed= auf =subject.its:akk:f= Munition pro Aktion" />
+  <string Context="NoteImprovedRateOfFire RulesPostfix AmmoCapacityAmount" ID="=amount.signed= to =subject.its= ammo capacity" Value="=amount.signed= auf =subject.its:akk:f= Munitionskapazität" />
   <string Context="NoteImprovedRateOfFire RulesPostfix" ID="=subject.IndicativeProximal= =subject.descriptiveCategory:matchPlurality= =subject.verb:have= =items.andList=." Value="=subject.IndicativeProximal= =subject.descriptiveCategory:matchPlurality= =subject.konjde:haben= =items.andList=." />
   <string Context="PoweredMissilePerformance Techscanning NameForStatus" ID="PerformanceEnhancementSystems" Value="Leistungsverbesserungssysteme" />
   <string Context="Projectile Default PassByVerb" ID="whiz" Value="Blitz" />
@@ -4062,9 +4062,9 @@
   <string Context="Precognition ActivatedAbility End" ID="Precognition - End vision" Value="Präkognition - Endvision" />
   <string Context="Psychometry Failure Examine" ID="Do you want to continue despite being unable to use Psychometry?" Value="Möchtet Ihr fortfahren, obwohl Ihr Psychometrie nicht nutzen könnt?" />
   <string Context="Psychometry Failure Repair" ID="Do you want to continue despite being unable to use Psychometry?" Value="Möchtet Ihr fortfahren, obwohl Ihr Psychometrie nicht nutzen könnt?" />
-  <string Context="Psychometry Fail Identify" ID="=object.This= =object.isplural:artifacts:artifact= =object.is= too complex for you to decipher =object.its= function." Value="=object.This= =object.isplural:artifacts:artifact= =object.is= zu komplex, um =object.its= Funktion zu entschlüsseln." />
+  <string Context="Psychometry Fail Identify" ID="=object.This= =object.isplural:artifacts:artifact= =object.is= too complex for you to decipher =object.its= function." Value="=object.This= =object.isplural:artifacts:artifact= =object.is= zu komplex, um =object.its:akk:f= Funktion zu entschlüsseln." />
   <string Context="Psychometry Success Identify" ID="You flush with understanding of the =object.isplural:artifacts':artifact's= past and determine =object.them= to be =object.a.name:single=." Value="Ihr werdet von Verständnis für die Vergangenheit =object.isplural:artifacts':artifact's= durchflutet und bestimmt =object.them= als =object.a.name:single=." />
-  <string Context="Psychometry can't identify" ID="=object.This:single= =object.isplural:artifacts:artifact= =object.is= too complex for you to decipher =object.its= method of construction." Value="=object.This:single= =object.isplural:artifacts:artifact= =object.is= zu komplex, um =object.its= Konstruktionsmethode zu entschlüsseln." />
+  <string Context="Psychometry can't identify" ID="=object.This:single= =object.isplural:artifacts:artifact= =object.is= too complex for you to decipher =object.its= method of construction." Value="=object.This:single= =object.isplural:artifacts:artifact= =object.is= zu komplex, um =object.its:akk:f= Konstruktionsmethode zu entschlüsseln." />
   <string Context="Psychometry reverse engineer" ID="You abide the memory of =object.a.or.the==object.shortsingle's= creation. You learn to build =sample.pluralize=." Value="Ihr bewahrt das Gedächtnis an =object.a.or.the==object.shortsingle's= Erschaffung. Ihr lernt, =sample.pluralize= zu bauen." />
   <string Context="Psychometry Ability Placeholder Text" ID="To use Psychometry, interact with an artifact and then choose 'read history with Psychometry." Value="Um Psychometrie zu nutzen, interagiert mit einem Artefakt und wählt dann &quot;Geschichte mit Psychometrie lesen&quot;." />
   <string Context="Psychometry Activated Ability Name" ID="Psychometry" Value="Psychometrie" />
@@ -4088,7 +4088,7 @@
   <string Context="SunderMind MemberOfPsychicBattle Effect Description" ID="locked in psychic battle" Value="in einen Psi-Kampf verstrickt" />
   <string Context="SunderMind Canceled" ID="Your concentration slips and the channel between you and =object.the.name= dissipates into aether." Value="Eure Konzentration lässt nach und der Kanal zwischen euch und =object.the.name= zerfällt in Äther." />
   <string Context="SunderMind Canceled" ID="Your concentration slips and the channel dissipates." Value="Eure Konzentration lässt nach und der Kanal zerstreut sich." />
-  <string Context="SunderMind Start Channeling" ID="You burrow a channel through the psychic aether to =object.the.name= and begin to sunder =object.its= mind!" Value="Ihr gräbt einen Kanal durch die psychische Äther zu =object.dativ= und beginnt =object.its= Verstand zu spalten!" />
+  <string Context="SunderMind Start Channeling" ID="You burrow a channel through the psychic aether to =object.the.name= and begin to sunder =object.its= mind!" Value="Ihr gräbt einen Kanal durch die psychische Äther zu =object.dativ= und beginnt =object.its:akk:m= Verstand zu spalten!" />
   <string Context="SunderMind Start Channeling against player" ID="=subject.The.name= =subject.to.the.direction= =subject.verb:burrow= a channel through the psychic aether and =subject.verb:begin= to sunder your mind!" Value="=subject.The.name= =subject.to.the.direction= =subject.konjde:wühlen= einen Kanal durch die psychische Äther und =subject.konjde:beginnen= euren Verstand zu spalten!" />
   <string Context="SunderMind death by head explode pt.1" ID="Your sense of self is pulled apart by what feels like a billion years of geologic pressure." Value="Euer Ich wird auseinandergerissen durch das, was sich wie eine Milliarde Jahre geologischen Drucks anfühlt." />
   <string Context="SunderMind death by head explode pt.2" ID="Your head explodes!" Value="Euer Kopf explodiert!" />
@@ -4135,7 +4135,7 @@
   <string Context="TimeDilation ActivatedAbility Name" ID="Time Dilation" Value="Zeitdilatation" />
   <string Context="Infiltrate Target Picker Title" ID="Infiltrate" Value="Infiltrieren" />
   <string Context="Infiltrate notify player enemy teleported them" ID="You are teleported by =object.the.name=." Value="Ihr werdet von =object.dativ= teleportiert." />
-  <string Context="Infiltrate targeting" ID="=subject.Does:focus= =subject.its= sensor somewhere else." Value="=subject.Konjde:fokussieren= =subject.its= Sensor irgendwo anders." />
+  <string Context="Infiltrate targeting" ID="=subject.Does:focus= =subject.its= sensor somewhere else." Value="=subject.Konjde:fokussieren= =subject.its:akk:m= Sensor irgendwo anders." />
   <string Context="Infiltrate Activated Ablity Name" ID="Infiltrate" Value="Infiltrieren" />
   <string Context="Mutation with Defect Display" ID="=mutationName= ({{r|D}})" Value="=mutationName= ({{r|D}})" />
   <string ID="Your adrenaline subsides." Value="Euer Adrenalinanstieg lässt nach." />
@@ -4182,7 +4182,7 @@
   <string Context="Flaming Ray Missing Limb Message" ID="Missing =part.name=" Value="Fehlendes =part.name=" />
   <string Context="FreezingRay Chargen Variant" ID="=mutation.name= (=bodyPartType=)" Value="=mutation.name= (=bodyPartType=)" />
   <string Context="FreezingRay TargetPicker Label" ID="Freezing Ray" Value="Gefrierender Strahl" />
-  <string Context="FreezingRay emit" ID="=subject.Does:emit= a freezing ray from =subject.its= =part.ordinalName=!" Value="=subject.Konjde:verströmen= einen gefrierenden Strahl von =subject.its= =part.ordinalName=!" />
+  <string Context="FreezingRay emit" ID="=subject.Does:emit= a freezing ray from =subject.its= =part.ordinalName=!" Value="=subject.Konjde:verströmen= einen gefrierenden Strahl von =subject.its.part:dat#part=!" />
   <string Context="FreezingRay emit no part" ID="=subject.Does:emit= a freezing ray!" Value="=subject.Konjde:verströmen= einen gefrierenden Strahl!" />
   <string Context="Freezing Ray Ability Name" ID="Freezing Ray" Value="Gefrierender Strahl" />
   <string Context="Freezing Ray Missing Limb Message" ID="Missing =part.name=" Value="Fehlendes =part.name=" />
@@ -4208,7 +4208,7 @@
   <string Context="HeightenedSmell hostile perception verb" ID="smell" Value="riechen" />
   <string Context="Metamorphed Effect DisplayName" ID="metamorphed" Value="metamorphosiert" />
   <string Context="Metamorphed Effect ActiveAbility Name" ID="End Metamorphosis" Value="Metamorphose beenden" />
-  <string ID="=subject.Does:revert= to =subject.its= original form." Value="=subject.The.name= =subject.konjde:kehren= zu =subject.its= ursprünglicher Form zurück." />
+  <string ID="=subject.Does:revert= to =subject.its= original form." Value="=subject.The.name= =subject.konjde:kehren= zu =subject.its:dat:f= ursprünglichen Form zurück." />
   <string Context="Metamorphosis Target Picker Title" ID="Metamorphosis" Value="Metamorphose" />
   <string Context="Metamorphosis assume form" ID="=subject.Does:assume= the form of =newBody.a.shortname:withTitles=." Value="=subject.The.name= =subject.konjde:nehmen= die Form von =newBody.a.shortname:withTitles= an." />
   <string Context="Metamorphosis Error" ID="That creature is of too high a level to duplicate!" Value="Diese Kreatur hat eine zu hohe Stufe, um dupliziert zu werden!" />
@@ -4311,7 +4311,7 @@
   <string Context="EnergyCellSocket Cell Short Description" ID="&#10;{{rules|=cell.name|strip=: =chargeStatus=}}" Value="&#10;{{rules|=cell.name|strip=: =chargeStatus=}}" />
   <string Context="EnergyCellSocket Remove Failure" ID="You can't remove =cell.the.name=!" Value="Ihr könnt =cell.the.name= nicht entfernen!" />
   <string Context="EnergyCellSocket Remove Cell From Device" ID="=subject.Does:pop= =object.the.name:notAsPossessed= out of =device.the.name:itsSubjectPossessor=." Value="=subject.Konjde:platzen= =object.the.name:notAsPossessed= aus =device.dativ:itsSubjectPossessor=." />
-  <string Context="EnergyCellSocket Attempt Replacing Cell, Not Owned" ID="=object.IndicativeDistal= =object.is= not owned by you. Are you sure you want to access =object.its= energy cell?" Value="=object.IndicativeDistal= =object.is= ist nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr auf =object.its= Energiezelle zugreifen möchtet?" />
+  <string Context="EnergyCellSocket Attempt Replacing Cell, Not Owned" ID="=object.IndicativeDistal= =object.is= not owned by you. Are you sure you want to access =object.its= energy cell?" Value="=object.IndicativeDistal= =object.is= ist nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr auf =object.its:akk:f= Energiezelle zugreifen möchtet?" />
   <string Context="EnergyCellSocket Remove Cell Option" ID="remove cell: =cell.long.name=" Value="Zelle entfernen: =cell.long.name=" />
   <string Context="EnergyCellSocket Disassemble Cell Option" ID="disassemble cell" Value="Zelle zerlegen" />
   <string Context="EnergyCellSocket No Fitting Cells" ID="You have no cells that fit." Value="Ihr habt keine passenden Zellen." />
@@ -4367,11 +4367,11 @@
   <string Context="Dismember Fail Nothing" ID="There's nothing there to dismember." Value="Da gibt es nichts zu zerlegen." />
   <string Context="Dismember Fail No Primary Axe" ID="You must have an axe equipped in your primary hand to dismember." Value="Ihr müsst eine Axt in eurer Primärhand ausgerüstet haben, um zu verstümmeln." />
   <string Context="Dismember ActivatedAbility Name" ID="Dismember" Value="Zerstückeln" />
-  <string Context="HookAndDrag Target Stands Its Ground" ID="=subject.Does:stand= =subject.its= ground!" Value="=subject.Konjde:stehen= =subject.its= Boden!" />
+  <string Context="HookAndDrag Target Stands Its Ground" ID="=subject.Does:stand= =subject.its= ground!" Value="=subject.Konjde:behaupten= =subject.its:akk:m= Boden!" />
   <string Context="HookAndDrag FireEvent NoAxeEquipped" ID="You must have an axe equipped in your primary hand to use Hook and Drag." Value="Ihr müsst eine Axt in eurer Primärhand ausgerüstet haben, um Hook and Drag zu verwenden." />
   <string Context="HookAndDrag Target Label" ID="Hook and Drag" Value="Haken und Ziehen" />
   <string Context="HookAndDrag FireEvent NoValidTarget" ID="There's nothing there you can hook." Value="Es gibt dort nichts, das ihr einhaken könnt." />
-  <string Context="HookAndDrag FireEvent SuccessMessage" ID="=subject.Does:hook= =object.the.name= with =subject.its.item#weapon=!" Value="=subject.The.name= =subject.konjde:haken= =object.the.name= mit =subject.its.item#weapon= ein!" />
+  <string Context="HookAndDrag FireEvent SuccessMessage" ID="=subject.Does:hook= =object.the.name= with =subject.its.item#weapon=!" Value="=subject.The.name= =subject.konjde:haken= =object.the.name= mit =subject.its.item:dat#weapon= ein!" />
   <string Context="Hook and Drag ability name" ID="Hook and Drag" Value="Haken und Ziehen" />
   <string Context="BaseSkill Add Skill Popup (WaterRitual)" ID="=subject.Does:teach|strip= you {{W|=skill.name=}}!" Value="=subject.Does:teach|strip= Euch {{W|=skill.name=}}!" />
   <string Context="BaseSkill Add Skill Popup (Book)" ID="You learn {{W|=skill.name=}}!" Value="Ihr lernt {{W|=skill.name=}}!" />
@@ -4540,7 +4540,7 @@
   <string Context="ShakeItOff particle text daze avoided" ID="*shook off daze*" Value="*Verwirrung abgeschüttelt*" />
   <string Context="ShakeItOff Daze" ID="=subject.Does:shake= off the dazing." Value="=subject.Konjde:zittern= die Benommenheit ab." />
   <string Context="ShakeItOff particle text daze success" ID="*shook off daze*" Value="*Verwirrung abgeschüttelt*" />
-  <string Context="ShakeItOff TryToShakeItOff Daze Success" ID="=subject.Does:shake= off =subject.its= daze." Value="=subject.Konjde:zittern= =subject.its= Benommenheit ab." />
+  <string Context="ShakeItOff TryToShakeItOff Daze Success" ID="=subject.Does:shake= off =subject.its= daze." Value="=subject.Konjde:schütteln= =subject.its:akk:f= Benommenheit ab." />
   <string Context="ShakeItOff particle text stun success" ID="*shook off stun*" Value="*Betäubung abgeschüttelt*" />
   <string Context="ShakeItOff TryToShakeItOff Stun Success" ID="=subject.Does:shake= off the stun." Value="=subject.Konjde:zittern= die Betäubung ab." />
   <string Context="Sweep ability name" ID="Sweep" Value="Schwung" />
@@ -4574,7 +4574,7 @@
   <string Context="AmputateLimb Fail Hostiles Nearby" ID="You can't perform field amputations with hostiles nearby!" Value="Ihr könnt keine Amputationen vor Ort durchführen, wenn Gegner in der Nähe sind!" />
   <string Context="AmputateLimb Fail Axe Equipped" ID="You must have an axe or a weapon capable of dismemberment equipped in order to perform a field amputation." Value="Ihr müsst eine Axt oder eine Waffe, die zu Verstümmelungen fähig ist, ausgerüstet haben, um eine Amputation vor Ort durchzuführen." />
   <string Context="AmputateLimb Direct Picker Label" ID="Amputate whose limb?" Value="Amputiere welches Glied?" />
-  <string Context="AmputateLimb Fail Cannot Reach Target" ID="You cannot reach =object.the.name= to amputate =object.its= limb." Value="Ihr könnt =object.the.name= nicht erreichen, um =object.its= Gliedmaße zu amputieren." />
+  <string Context="AmputateLimb Fail Cannot Reach Target" ID="You cannot reach =object.the.name= to amputate =object.its= limb." Value="Ihr könnt =object.the.name= nicht erreichen, um =object.its:akk:f= Gliedmaße zu amputieren." />
   <string Context="AmputateLimb Fail No Target" ID="There is no one there for you to amputate their limb." Value="Es gibt dort niemanden, dem Ihr ein Glied amputieren könntet." />
   <string Context="AmputateLimb Fail No Permission" ID="=subject.Does:won't= let you do that." Value="=subject.Does:won't= lässt Euch das nicht tun." />
   <string Context="AmputateLimb Fail Cannot Move" ID="You cannot amputate =object.the.name's:withTitles= limbs." Value="Ihr könnt die Gliedmaßen von =object.the.name's:withTitles= nicht amputieren." />
@@ -4584,7 +4584,7 @@
   <string Context="AmputateLimb Popup Title" ID="Amputate which limb?" Value="Amputiert welches Glied?" />
   <string Context="AmputateLimb Fail Cannot Bring Self" ID="You cannot bring yourself to amputate your =limb.ordinalName=." Value="Ihr könnt Euch nicht dazu durchringen, Euer =limb.ordinalName= zu amputieren." />
   <string Context="AmputateLimb Fail Cannot Amputate Limb Holding Amputating Weapon" ID="=subject.Does:cannot= amputate the =limb.type.name= holding =subject.its.item#weapon=." Value="=subject.Konjde:können= das =limb.type.name= nicht amputieren, das =subject.its.item#weapon= hält." />
-  <string Context="AmputateLimb Fail Sees No Reason" ID="=subject.Does:see= no reason for you to amputate =subject.its= =limb.ordinalName=." Value="=subject.Konjde:sehen= keinen Grund für Euch, =subject.its= =limb.ordinalName= zu amputieren." />
+  <string Context="AmputateLimb Fail Sees No Reason" ID="=subject.Does:see= no reason for you to amputate =subject.its= =limb.ordinalName=." Value="=subject.Konjde:sehen= keinen Grund für Euch, =subject.its.part:akk#limb= zu amputieren." />
   <string Context="AmputateLimb MessageLog OutofPhase" ID="=subject.Does:try= to amputate =object.the.name's= =limb.ordinalName= with =weapon.the.name=, but =weapon.it.does:pass= through =object.them=." Value="=subject.Konjde:versuchen= =object.the.name's= =limb.ordinalName= mit =weapon.dativ= zu amputieren, aber =weapon.it.konjde:passieren= durch =object.them= hindurch." />
   <string Context="AmputateLimb MessageLog InStasis" ID="=subject.Does:try= to amputate =object.the.name's= =limb.ordinalName= with =weapon.the.name=, but =weapon.it.does:have= no effect." Value="=subject.Konjde:versuchen= =object.the.name's= =limb.ordinalName= mit =weapon.dativ= zu amputieren, aber =weapon.it.konjde:haben= keine Wirkung." />
   <string Context="AmputateLimb Popup Standard" ID="=subject.Does:amputate= =object.the.name's= =limb.ordinalName= with =weapon.the.name=." Value="=subject.Konjde:amputieren= =object.the.name's= =limb.ordinalName= mit =weapon.dativ=." />
@@ -4848,7 +4848,7 @@
   <string Context="ActivePart OperationalScope - overallItem (WorksOnSelf)" ID="=subject.reflexive=" Value="=subject.reflexive=" />
   <string Context="ActivePart OperationalScope - overallItem (WorksOnEnclosed)" ID="someone enclosed within =subject.them=" Value="jemand eingeschlossen in =subject.them=" />
   <string Context="ActivePart OperationalScope" ID="=overallItems.orList=" Value="=overallItems.orList=" />
-  <string Context="ActivePart OperationalScope (default)" ID="=subject.its= operating area" Value="=subject.its= Operationsgebiet" />
+  <string Context="ActivePart OperationalScope (default)" ID="=subject.its= operating area" Value="=subject.its:nom:n= Operationsgebiet" />
   <string Context="DelegatesJournal Effects Line 2+ Prefix (15 chars wide)" ID="&#10;             {{K|/}} " Value="&#10;             {{K|/}} " />
   <string Context="DelegatesJournal Effects Prefix (15 chars wide)" ID="{{K|Effects:}}     {{K|/}} " Value="{{K|Effekte:}}     {{K|/}} " />
   <string Context="DelegatesJournal Ingredients Separator" ID=", " Value=", " />
@@ -5393,7 +5393,7 @@
   <string ID="You must charge at least two spaces." Value="Ihr müsst mindestens zwei Felder stürmen." />
   <string ID="select an action" Value="Aktion auswählen" />
   <string Context="Stomach sip message with source" ID="=subject.Does:take= a sip of fresh water from =object.the.name:itsPossessor=." Value="=subject.The.name= =subject.konjde:nehmen= einen Schluck frisches Wasser aus =object.dativ:itsPossessor=." />
-  <string Context="FlamingRay emit" ID="=subject.Does:emit= a flaming ray from =subject.its= =part.ordinalName=!" Value="=subject.The.name= =subject.konjde:feuern= einen Flammenstrahl aus =subject.its= =part.ordinalName= ab!" />
+  <string Context="FlamingRay emit" ID="=subject.Does:emit= a flaming ray from =subject.its= =part.ordinalName=!" Value="=subject.The.name= =subject.konjde:feuern= einen Flammenstrahl aus =subject.its.part:dat#part= ab!" />
   <string Context="MeleeWeapon Simplified Last Part" ID=" =glyph:Damage==damage=" Value=" =glyph:Damage==damage=" />
   <string Context="TextBuilder.Compound - default space" ID=" " Value=" " />
 
@@ -5402,7 +5402,7 @@
   <string Context="Photosynthetic Skin Bask Success" ID="=subject.Does:bask= in the sunlight and =subject.verb:absorb= the nourishing rays." Value="=subject.The.name= =subject.konjde:faulenzen= im Sonnenlicht und =subject.konjde:absorbieren= die nährenden Strahlen." />
   <string Context="Joppa Zealot Yell" ID="=subject.Does:yell=, {{W|'=message='}}" Value="=subject.The.name= =subject.konjde:schreien=: {{W|'=message='}}" />
   <string Context="Physics (Inventory) Category" ID="*All" Value="*Alle" />
-  <string Context="Combat Player Miss Message (with weapon)" ID="{{r|=subject.Does:miss= with =subject.its.item#weapon=!}} [=hitResult= vs. =dv=]" Value="{{r|=subject.Konjde:verfehlen= mit =subject.its.item#weapon=!}} [=hitResult= vs. =dv=]" />
-  <string Context="Combat Attacker Miss Message (with weapon)" ID="=subject.Does:miss= you with =subject.its.item#weapon=! [=hitResult= vs. =dv=]" Value="=subject.The.name= =subject.konjde:verfehlen= euch mit =subject.its.item#weapon=! [=hitResult= vs. =dv=]" />
+  <string Context="Combat Player Miss Message (with weapon)" ID="{{r|=subject.Does:miss= with =subject.its.item#weapon=!}} [=hitResult= vs. =dv=]" Value="{{r|=subject.Konjde:verfehlen= mit =subject.its.item:dat#weapon=!}} [=hitResult= vs. =dv=]" />
+  <string Context="Combat Attacker Miss Message (with weapon)" ID="=subject.Does:miss= you with =subject.its.item#weapon=! [=hitResult= vs. =dv=]" Value="=subject.The.name= =subject.konjde:verfehlen= euch mit =subject.its.item:dat#weapon=! [=hitResult= vs. =dv=]" />
   <string Context="LevelGainDetailed" ID="=subject.Does:have= gained a level! =subject.They= =subject.is= now level {{C|=level=}}!" Value="=subject.Konjde:gewinnen= eine Stufe! =subject.They= =subject.konjde:sein= jetzt Stufe {{C|=level=}}!" />
 </strings>
