@@ -82,16 +82,19 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
 - `Genders.de.xml` confirmed loaded (generic `GetXMLFilesWithRoot("genders")` path).
 - Smoke-compile passes; deployed mod copy synced.
 
-## Follow-ups (deliberately NOT done yet)
-- **Possessive `'s` tokens** (49 Values, fast alles HistorySpice): `Grammar.MakePossessive`
-  ist hartes Englisch-C#; sauberste Lösung ist Umformulierung auf `=genitiv=` je Stelle.
-- **2 asPossessed-Kasus-Fälle** (Rest von ursprünglich ~15, erledigt 2026-07-17): die
-  Kasus-Replacer unterstützen jetzt `single/long/withTitles/asIfKnown` + `itsPossessor`
-  (Besitzer-Genitiv-Anhang). Offen nur noch `:asPossessed:secondPerson` (2 Values,
-  „Eurer X"-Possessivpronomen-Logik) — Suchmuster `asPossessed:secondPerson` in Strings.de.xml.
-- **`LibraryCorpus.de.json`** (prozedurale Markov-Bücher, Base 2.4 MB): Generator-Skript über
-  die schon übersetzte `Books.de.xml` wäre der Weg; großer Sichtungsaufwand.
-- **LICENSE-Datei**: Nutzerentscheidung (QudDE-kompatibel vs. MIT).
+## Follow-ups — ALLE ERLEDIGT (2026-07-17, Session 4)
+- ~~Possessive `'s`~~: `possessive`/`'s`-Postprocessor + 7 Replacer (`the.name's`, `name's`,
+  `a.name's`, …) überschrieben — vorangestellter Genitiv („Reshephs Wagen", „des Krokodils
+  Bein"), Spieler → „Euer". Deckt die 49 `|'s`-HistorySpice-Templates und 70+ Token-Vorkommen.
+- ~~asPossessed~~: Kasus-Replacer rendern Spieler-Besitz als dekliniertes „Euer"
+  („aus Eurer Flammenpistole"), Kreaturen-Besitz mit Genitiv-Anhang. Letzte 2 Values umgestellt.
+- ~~LibraryCorpus.de.json~~: generiert (74.677 Ketten aus Books + Beschreibungen +
+  Konversationen, `build/tools/build_library_corpus.py`, `*sultan*`-Platzhalter eingewebt).
+  Nach Buch-/Beschreibungs-Änderungen NEU GENERIEREN und deployen.
+- ~~LICENSE~~: MIT mit Freehold-IP-/QudDE-Hinweis.
+
+Damit ist alles Machbare umgesetzt — offen bleiben nur die beiden „Waiting on official
+localization support"-Punkte oben (Paperdoll-Körperteile, C#-Literal-Todesursachen).
 
 ## Resources on hand (in `docs/`)
 
