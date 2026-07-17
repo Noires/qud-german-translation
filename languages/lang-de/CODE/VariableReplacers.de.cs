@@ -504,6 +504,76 @@ namespace LanguagesOfQudGerman
             return Cap(de, Context.Capitalize);
         }
 
+        // ---- Phase 2: native body-part replacer (German laterality inflection) ----
+        // Overrides the BodyPart "name"/"ordinalName" replacers: strip English laterality,
+        // translate the base part name, re-add German laterality inflected by the part's gender
+        // ("right hand" -> "rechte Hand", "left leg" -> "linkes Bein"). Replaces the DLL BodyPartPatch.
+        private static readonly Dictionary<string, string> BodyPartTerms = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            { "head", "Kopf" }, { "face", "Gesicht" }, { "eye", "Auge" }, { "eyes", "Augen" },
+            { "hand", "Hand" }, { "hands", "Hände" }, { "arm", "Arm" }, { "arms", "Arme" },
+            { "foot", "Fuß" }, { "feet", "Füße" }, { "leg", "Bein" }, { "legs", "Beine" },
+            { "tail", "Schwanz" }, { "claw", "Klaue" }, { "tongue", "Zunge" }, { "wing", "Flügel" },
+            { "body", "Körper" }, { "head slot", "Kopf" },
+        };
+
+        private static string LateralityAdjectives(int code, Gender g)
+        {
+            string e = (g == Gender.Fem || g == Gender.Plural) ? "e" : (g == Gender.Neut ? "es" : "er");
+            var parts = new List<string>();
+            void Add(int flag, string stem) { if ((code & flag) != 0) parts.Add(stem + e); }
+            Add(4, "ober"); Add(8, "unter"); Add(16, "vorder"); Add(32, "mittler"); Add(64, "hinter");
+            Add(512, "inner"); Add(1024, "äußer"); Add(128, "inner"); Add(256, "äußer");
+            Add(1, "link"); Add(2, "recht");
+            return string.Join(" ", parts);
+        }
+
+        private static string TranslateBodyPartName(string eng)
+        {
+            if (string.IsNullOrEmpty(eng)) return eng;
+            if (BodyPartTerms.TryGetValue(eng.Trim(), out var de)) return de;
+            var words = eng.Split(' ');
+            for (int i = 0; i < words.Length; i++)
+                if (BodyPartTerms.TryGetValue(words[i], out var w)) words[i] = w;
+            return string.Join(" ", words);
+        }
+
+        private static readonly Regex BpPosSuffix = new Regex(@"\s*\((\d+)\)\s*$", RegexOptions.CultureInvariant);
+
+        private static string TransformBodyPart(string eng, int lat, bool capitalize)
+        {
+            if (string.IsNullOrEmpty(eng)) return eng;
+            if (eng.IndexOf("{{", StringComparison.Ordinal) >= 0 || eng.IndexOf('[') >= 0 || eng.IndexOf('<') >= 0)
+                return TranslateBodyPartName(eng);
+            string suffix = "", core = eng;
+            var mm = BpPosSuffix.Match(eng);
+            if (mm.Success) { suffix = " (" + mm.Groups[1].Value + ")"; core = eng.Substring(0, mm.Index); }
+            bool upper = core.Length > 0 && char.IsUpper(core[0]);
+            string baseEng = lat != 0 ? XRL.World.Capabilities.Laterality.StripLateralityAdjective(core, lat, false) : core;
+            string baseDe = TranslateBodyPartName(baseEng.Trim());
+            Gender g = GuessGender(baseDe);
+            string adj = lat != 0 ? LateralityAdjectives(lat, g) : "";
+            string composed = (adj.Length > 0 ? adj + " " : "") + baseDe + suffix;
+            if (upper && composed.Length > 0) composed = char.ToUpperInvariant(composed[0]) + composed.Substring(1);
+            return composed;
+        }
+
+        // Overrides the game's BodyPart "name"/"ordinalName" replacers (Delegates.BodyPart.cs).
+        // The engine dispatches on (replacer-name + parameter type), NOT return type, so a
+        // string-returning override cleanly replaces the game's void Name for the TOKEN path
+        // (combat / ability / mutation text). NOTE: this does NOT reach the equipment/anatomy
+        // paperdoll, which calls BodyPart.GetCardinalName() directly in C# (no token, no provider
+        // hook, no string-table lookup) -- the official Turkish mod hit the same wall and shelved
+        // its body-part replacer (see docs/archive/.../UnusedDelegates.tr.cs). That surface needs
+        // a Harmony patch on GetCardinalName (the retired DLL's approach) or stays English.
+        [VariableReplacer(new string[] { "name" }, Override = true, Capitalization = true)]
+        public static string BodyPartName(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
+        { return TransformBodyPart(Part.GetCardinalName(), Part.Laterality, Context.Capitalize); }
+
+        [VariableReplacer(new string[] { "ordinalName" }, Override = true, Capitalization = true)]
+        public static string BodyPartOrdinalName(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
+        { return TransformBodyPart(Part.GetOrdinalName(), Part.Laterality, Context.Capitalize); }
+
         // Pipeline self-test: runs a real template ("=object.dativ=") through the game's
         // replacer engine on a sample object, proving the FULL chain (token -> replacer ->
         // German) at load, without needing the in-game testreplacers wish. Self-diagnosing:
@@ -576,6 +646,24 @@ namespace LanguagesOfQudGerman
                         + t[0] + " " + t[1] + " -> \"" + got + "\"" + (ok ? "" : " (expected \"" + t[2] + "\")"));
                 }
                 catch (Exception e) { UnityEngine.Debug.Log("[QudDE] verb-test ERROR: " + t[1] + " : " + e.Message); }
+            }
+            // body-part transform (logic-level: strip English laterality -> German inflected)
+            object[][] bp = {
+                new object[] { "right hand", 2, "rechte Hand" },
+                new object[] { "left leg",   1, "linkes Bein" },
+                new object[] { "hand",       0, "Hand" },
+            };
+            foreach (var t in bp)
+            {
+                try
+                {
+                    string got = TransformBodyPart((string)t[0], (int)t[1], false);
+                    bool ok = string.Equals(got, (string)t[2], StringComparison.Ordinal);
+                    if (ok) pass++; else fail++;
+                    UnityEngine.Debug.Log("[QudDE] bodypart-test " + (ok ? "PASS" : "FAIL") + ": \""
+                        + t[0] + "\" (lat " + t[1] + ") -> \"" + got + "\"" + (ok ? "" : " (expected \"" + t[2] + "\")"));
+                }
+                catch (Exception e) { UnityEngine.Debug.Log("[QudDE] bodypart-test ERROR: " + t[0] + " : " + e.Message); }
             }
             UnityEngine.Debug.Log("[QudDE] pipeline-test summary: " + pass + " passed, " + fail + " failed");
         }
