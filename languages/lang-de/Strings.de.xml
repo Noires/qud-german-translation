@@ -2496,7 +2496,7 @@
   <string Context="RandomAltarBaetyl Journal Entry" ID="A baetyl demanding &quot;=demand=&quot; and promising &quot;=reward=&quot;." Value="Ein Baetyl, der &quot;=demand=&quot; fordert und &quot;=reward=&quot; verspricht." />
   <string Context="Body Lost Use Of Part" ID="You have lost the use of your =part.ordinalName=." Value="Ihr habt die Kontrolle über euren =part.ordinalName= verloren." />
   <string Context="Body Recover Use Of Part" ID="You have recovered the use of your =part.ordinalName=." Value="Ihr habt die Kontrolle über euren =part.ordinalName= wiederhergestellt." />
-  <string Context="Body Severed Limb Description" ID="Dried =subject.bleedLiquid= crusts on the severed =limb.name= of =subject.a.name:single:withTitles|strip=." Value="Getrocknete =subject.bleedLiquid=-Krusten auf dem abgetrennten =limb.name= von =subject.a.name:single:withTitles|strip=." />
+  <string Context="Body Severed Limb Description" ID="Dried =subject.bleedLiquid= crusts on the severed =limb.name= of =subject.a.name:single:withTitles|strip=." Value="Getrocknete =subject.bleedLiquid=-Krusten auf dem abgetrennten =limb.name= von =subject.a.dativ:single:withTitles|strip=." />
   <string Context="Body Limb Dismember Message" ID="Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!" Value="Dein =limb.ordinalName= =limb.ifPlural:are:is= verstümmelt!" />
   <string Context="Body Limb Dismember Mural" ID="While fighting a battle to protect the practice of =spice:elements.$element.practices.!random=, =name= valorously had =player.possessive= =limb.ordinalName= dismembered." Value="Während eines Kampfes zum Schutz der Praktik von =spice:elements.$element.practices.!random= wurde =name= tapfer =player.possessive= =limb.ordinalName= abgetrennt." />
   <string Context="Body Limb Dismember Accomplishment" ID="Your =limb.ordinalName= =limb.ifPlural:were:was= dismembered." Value="Dein =limb.ordinalName= =limb.ifPlural:were:was= verstümmelt." />
@@ -2713,7 +2713,7 @@
   <string Context="Stomach Amphibious Minus Water" ID="desiccated" Value="ausgetrocknet" />
   <string Context="Stomach Not Amphibious Minus Water" ID="dehydrated" Value="ausgetrocknet" />
   <string Context="Stomach pour over message no source" ID="=subject.Does:pour= fresh water over =subject.itself=." Value="=subject.Konjde:strömen= Süßwasser über =subject.itself= aus." />
-  <string Context="Stomach pour over message with source" ID="=subject.Does:pour= fresh water from =object.the.name:itsPossessor= over =subject.itself=." Value="=subject.Konjde:strömen= Süßwasser aus =object.the.name:itsPossessor= über =subject.itself=." />
+  <string Context="Stomach pour over message with source" ID="=subject.Does:pour= fresh water from =object.the.name:itsPossessor= over =subject.itself=." Value="=subject.Konjde:strömen= Süßwasser aus =object.dativ:itsPossessor= über =subject.itself=." />
   <string Context="Stomach sip message no source" ID="=subject.Does:take= a sip of fresh water." Value="=subject.Konjde:nehmen= einen Schluck Süßwasser." />
   <string Context="Stomach runoutofwater question" ID="You have run out of {{B|water}}! Do you want to stop travelling?" Value="Euer {{B|Wasser}} ist aufgebraucht! Möchtet Ihr die Reise beenden?" />
   <string Context="Stomach dryingout question" ID="You are drying out! Do you want to stop travelling?" Value="Ihr trocknet aus! Wollt Ihr aufhören zu reisen?" />
@@ -2776,7 +2776,7 @@
   <string Context="SkrefCorpseLoot Gospel" ID="On the =day= of =month=, =name= stumbled upon the flattened remains of a vainglorious humanoid. From that day forth, =name= always kept some mechanical wings on =player.their= person." Value="Am =day=. =month= stieß =name= auf die zersplitterten Überreste eines hochmütigen Humanoids. Von da an behielt =name= stets einige mechanische Flügel bei =player.their= Körper." />
   <string Context="Examiner already broken" ID="Whatever =object.they= =object.is=, =object.it.is= broken..." Value="Was immer =object.they= =object.is=, =object.it.is= ist kaputt..." />
   <string Context="Examiner damage risk warning" ID="=object.Does:are= not owned by you, and examining =object.them= risks damaging =object.them=. Are you sure you want to do so?" Value="=object.Konjde:sein= gehört nicht Euch, und das Untersuchen von =object.them= risikiert Schäden an =object.them=. Seid Ihr sicher, dass Ihr das tun wollt?" />
-  <string Context="Examiner damage contained risk warning" ID="=container.Does:are= not owned by you, and examining =object.a.name:single= inside =container.them= risks causing damage. Are you sure you want to do so?" Value="=container.Konjde:sein= gehört nicht Euch, und das Untersuchen von =object.a.name:single= in =container.them= risikiert Schäden. Seid Ihr sicher, dass Ihr das tun wollt?" />
+  <string Context="Examiner damage contained risk warning" ID="=container.Does:are= not owned by you, and examining =object.a.name:single= inside =container.them= risks causing damage. Are you sure you want to do so?" Value="=container.Konjde:sein= gehört nicht Euch, und das Untersuchen von =object.a.dativ:single= in =container.them= risikiert Schäden. Seid Ihr sicher, dass Ihr das tun wollt?" />
   <string Context="Examiner Identify Snapshot Name" ID="=item.the.name:single=" Value="=item.the.name:single=" />
   <string Context="Examiner Identify Message - Snapshot Matched" ID="You commit the distinguishing characteristics of =snapshot= to memory." Value="Ihr speichert die unterscheidenden Merkmale von =snapshot= in Eurem Gedächtnis." />
   <string Context="Examiner Identify Message" ID="You identify =snapshot= as =object.a.name:single=." Value="Ihr identifiziert =snapshot= als =object.a.name:single=." />
@@ -2787,10 +2787,10 @@
   <string Context="Examiner Result Partial Snapshot Match Variant" ID="You make some progress understanding =snapshot=. You think =object.it.is= probably a variety of =sample.basename:asIfKnown=, and you believe you would be able to recognize an ordinary =sample.one.of.those= now." Value="Ihr macht Fortschritte beim Verständnis von =snapshot=. Ihr denkt, dass =object.it.is= wahrscheinlich eine Variante von =sample.basename:asIfKnown= ist, und Ihr glaubt, ein gewöhnliches =sample.one.of.those= würdet Ihr jetzt erkennen können." />
   <string Context="Examiner ResultPartialSuccess Snapshot Mismatch" ID="You make some progress understanding =snapshot=. =snapshotDoesSeem= to be =object.a.name:single=." Value="Ihr macht Fortschritte beim Verständnis von =snapshot=. =snapshotDoesSeem= zu sein =object.a.name:single=." />
   <string Context="Examiner ResultPartialSuccess Snapshot Match" ID="You make some progress understanding =snapshot=." Value="Ihr macht Fortschritte beim Verständnis von =snapshot=." />
-  <string Context="Examiner Failure" ID="You are puzzled by =object.the.name:long=." Value="Ihr seid verwirrt von =object.the.name:long=." />
+  <string Context="Examiner Failure" ID="You are puzzled by =object.the.name:long=." Value="Ihr seid verwirrt von =object.dativ:long=." />
   <string Context="Examiner FakeConfusionFailure" ID="You think you broke =object.them=..." Value="Ihr denkt, Ihr habt =object.them= kaputt gemacht..." />
   <string Context="Examiner CriticalFail" ID="You think you broke =object.them=..." Value="Ihr denkt, Ihr habt =object.them= kaputt gemacht..." />
-  <string Context="Examiner CriticalFail puzzled" ID="You are puzzled by =object.the.name:long=." Value="Ihr seid verwirrt von =object.the.name:long=." />
+  <string Context="Examiner CriticalFail puzzled" ID="You are puzzled by =object.the.name:long=." Value="Ihr seid verwirrt von =object.dativ:long=." />
   <string Context="Forcefield CollapseUnderPressureOfNormality" ID="=subject.Does:collapse= under the pressure of normality." Value="=subject.Konjde:kollabieren= unter dem Druck von Normalität." />
   <string Context="door" ID="You cannot open =object.t=." Value="Ihr könnt =object.t= nicht öffnen." />
   <string ID="You are out of phase with =object.t=." Value="Ihr seid außer Phase mit =object.dativ=." />
@@ -3331,7 +3331,7 @@
   <string Context="Repair NotNearHostiles" ID="You can't repair with hostile creatures nearby." Value="Ihr könnt nicht reparieren, wenn feindselige Kreaturen in der Nähe sind." />
   <string Context="Repair Success" ID="You repair =object.the.name:single=." Value="Du reparierst =object.the.name:single=." />
   <string Context="Repair ExceptionalSuccess" ID="You receive tinkering bits &lt;=bittype.bits=&gt;" Value="Du erhältst Bastel-Bits &lt;=bittype.bits=&gt;" />
-  <string Context="Repair Success" ID="You make some progress repairing =object.the.name:single=." Value="Du machst Fortschritte beim Reparieren von =object.the.name:single=." />
+  <string Context="Repair Success" ID="You make some progress repairing =object.the.name:single=." Value="Du machst Fortschritte beim Reparieren von =object.dativ:single=." />
   <string Context="Repair Failure" ID="You can't figure out how to fix =object.the.name:single=." Value="Du weißt nicht, wie man =object.the.name:single= repariert." />
   <string Context="Repair CriticalFailure Destroy" ID="=subject.Does:accidentally:destroy= =object.the.name=!" Value="=subject.Does:accidentally:destroy= =object.the.name=!" />
   <string Context="Repair CriticalFailure Broke" ID="You think you broke =object.it=..." Value="Du denkst, du hast =object.it= kaputt gemacht..." />
@@ -4068,8 +4068,8 @@
   <string Context="Psychometry reverse engineer" ID="You abide the memory of =object.a.or.the==object.shortsingle's= creation. You learn to build =sample.pluralize=." Value="Ihr bewahrt das Gedächtnis an =object.a.or.the==object.shortsingle's= Erschaffung. Ihr lernt, =sample.pluralize= zu bauen." />
   <string Context="Psychometry Ability Placeholder Text" ID="To use Psychometry, interact with an artifact and then choose 'read history with Psychometry." Value="Um Psychometrie zu nutzen, interagiert mit einem Artefakt und wählt dann &quot;Geschichte mit Psychometrie lesen&quot;." />
   <string Context="Psychometry Activated Ability Name" ID="Psychometry" Value="Psychometrie" />
-  <string Context="Psychometry Activate Fail Confused" ID="You strain to part the veil of time in order to use psychometry on =object.the.name:single=, but you are too confused." Value="Ihr strengt euch an, den Schleier der Zeit zu lüften, um Psychometrie auf =object.the.name:single= zu verwenden, aber ihr seid zu verwirrt." />
-  <string Context="Psychometry Activate Fail Cooldown" ID="You strain to part the veil of time in order to use psychometry on =object.the.name:single=, but your psyche is too exhausted." Value="Ihr strengt euch an, den Schleier der Zeit zu lüften, um Psychometrie auf =object.the.name:single= zu verwenden, aber eure Psyche ist zu erschöpft." />
+  <string Context="Psychometry Activate Fail Confused" ID="You strain to part the veil of time in order to use psychometry on =object.the.name:single=, but you are too confused." Value="Ihr strengt euch an, den Schleier der Zeit zu lüften, um Psychometrie auf =object.akkusativ:single= zu verwenden, aber ihr seid zu verwirrt." />
+  <string Context="Psychometry Activate Fail Cooldown" ID="You strain to part the veil of time in order to use psychometry on =object.the.name:single=, but your psyche is too exhausted." Value="Ihr strengt euch an, den Schleier der Zeit zu lüften, um Psychometrie auf =object.akkusativ:single= zu verwenden, aber eure Psyche ist zu erschöpft." />
   <string Context="Psychometry InitiateRealityDistortionTransit Purpose" ID="use psychometry on =object.the.name:single=" Value="Psychometrie auf =object.the.name:single= verwenden" />
   <string Context="Pyrokinesis TargetPicker Label" ID="Toast" Value="Toast" />
   <string Context="Pyrokinesis ActivatedAbility Name" ID="Toast" Value="Toast" />
@@ -4093,8 +4093,8 @@
   <string Context="SunderMind death by head explode pt.1" ID="Your sense of self is pulled apart by what feels like a billion years of geologic pressure." Value="Euer Ich wird auseinandergerissen durch das, was sich wie eine Milliarde Jahre geologischen Drucks anfühlt." />
   <string Context="SunderMind death by head explode pt.2" ID="Your head explodes!" Value="Euer Kopf explodiert!" />
   <string Context="SunderMind head explode witnessed" ID="=subject.The.name's:withTitles= head explodes!" Value="Der Kopf von =subject.The.name's:withTitles= explodiert!" />
-  <string Context="SunderMind DeathReason" ID="Your head was exploded by =object.a.name:withTitles=." Value="Euer Kopf wurde von =object.a.name:withTitles= gesprengt." />
-  <string Context="SunderMind ThirdPerson DeathReason" ID="=subject.Its= head was exploded by =object.a.name:withTitles=." Value="Der Kopf von =subject.Its= wurde von =object.a.name:withTitles= zum Platzen gebracht." />
+  <string Context="SunderMind DeathReason" ID="Your head was exploded by =object.a.name:withTitles=." Value="Euer Kopf wurde von =object.a.dativ:withTitles= gesprengt." />
+  <string Context="SunderMind ThirdPerson DeathReason" ID="=subject.Its= head was exploded by =object.a.name:withTitles=." Value="Der Kopf von =subject.Its= wurde von =object.a.dativ:withTitles= zum Platzen gebracht." />
   <string Context="SunderMind Nosebleed death source" ID="psychic attack" Value="psychischer Angriff" />
   <string Context="SunderMind Nosebleed start" ID="=subject.The.name's:withTitles= nose begins to bleed." Value="Die Nase von =subject.The.name's:withTitles= fängt an zu bluten." />
   <string Context="SunderMind Nosebleed death source" ID="nosebleed" Value="Nasenbluten" />
@@ -4310,7 +4310,7 @@
   <string Context="EnergyCellSocket DisplayName Tag" ID="{{y|[=cell.long=]}}" Value="{{y|[=cell.long=]}}" />
   <string Context="EnergyCellSocket Cell Short Description" ID="&#10;{{rules|=cell.name|strip=: =chargeStatus=}}" Value="&#10;{{rules|=cell.name|strip=: =chargeStatus=}}" />
   <string Context="EnergyCellSocket Remove Failure" ID="You can't remove =cell.the.name=!" Value="Ihr könnt =cell.the.name= nicht entfernen!" />
-  <string Context="EnergyCellSocket Remove Cell From Device" ID="=subject.Does:pop= =object.the.name:notAsPossessed= out of =device.the.name:itsSubjectPossessor=." Value="=subject.Konjde:platzen= =object.the.name:notAsPossessed= aus =device.the.name:itsSubjectPossessor=." />
+  <string Context="EnergyCellSocket Remove Cell From Device" ID="=subject.Does:pop= =object.the.name:notAsPossessed= out of =device.the.name:itsSubjectPossessor=." Value="=subject.Konjde:platzen= =object.the.name:notAsPossessed= aus =device.dativ:itsSubjectPossessor=." />
   <string Context="EnergyCellSocket Attempt Replacing Cell, Not Owned" ID="=object.IndicativeDistal= =object.is= not owned by you. Are you sure you want to access =object.its= energy cell?" Value="=object.IndicativeDistal= =object.is= ist nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr auf =object.its= Energiezelle zugreifen möchtet?" />
   <string Context="EnergyCellSocket Remove Cell Option" ID="remove cell: =cell.long.name=" Value="Zelle entfernen: =cell.long.name=" />
   <string Context="EnergyCellSocket Disassemble Cell Option" ID="disassemble cell" Value="Zelle zerlegen" />
@@ -4455,7 +4455,7 @@
   <string Context="Campfire NostrumsTreatPoison" ID="Select an ingredient to use." Value="Wählt eine Zutat zum Verwenden." />
   <string Context="Campfire NostrumsTreatPoison" ID="You try to cure the poison coursing through =object.the.name=, but your limbs pass through =object.them=." Value="Ihr versucht, das Gift in =object.the.name= zu heilen, aber Eure Gliedmaßen gehen durch =object.them= hindurch." />
   <string Context="Campfire NostrumsTreatPoison" ID="You try to cure the poison coursing through =object.the.name=, but cannot affect =object.them=." Value="Ihr versucht, das Gift in =object.the.name= zu heilen, könnt =object.them= aber nicht beeinflussen." />
-  <string Context="Campfire NostrumsTreatPoison" ID="You cure the =result.pluralize:poison= coursing through =object.the.name= with a balm made from =cure.a.name:single=." Value="Ihr heilt das =result.pluralize:poison= in =object.the.name= mit einer Salbe aus =cure.a.name:single=." />
+  <string Context="Campfire NostrumsTreatPoison" ID="You cure the =result.pluralize:poison= coursing through =object.the.name= with a balm made from =cure.a.name:single=." Value="Ihr heilt das =result.pluralize:poison= in =object.the.name= mit einer Salbe aus =cure.a.dativ:single=." />
   <string Context="Campfire NostrumsTreatPoison" ID="You try to cure the poison coursing through =object.the.name=, but your cures are ineffective." Value="Ihr versucht, das Gift in =object.the.name= zu heilen, aber Eure Heilmittel sind unwirksam." />
   <string Context="Campfire NostrumsTreatPoison" ID="The poison affecting you is too strong to be cured by your nostrums." Value="Das Gift, das Euch betrifft, ist zu stark, um von Euren Nostrums geheilt zu werden." />
   <string Context="Campfire NostrumsTreatPoison" ID="The poison affecting you and =object.the.name= is too strong to be cured by your nostrums." Value="Das Gift, das Euch und =object.the.name= beeinflusst, ist zu stark, um von Euren Heilmitteln geheilt zu werden." />
@@ -4470,7 +4470,7 @@
   <string Context="Campfire NostrumsTreatIllness" ID="Select an ingredient to use." Value="Wählt eine Zutat zum Verwenden." />
   <string Context="Campfire NostrumsTreatIllness" ID="You try to cure =object.name's= illness, but your limbs pass through =object.them=." Value="Ihr versucht, =object.name's= Krankheit zu heilen, aber Eure Gliedmaßen gehen durch =object.them= hindurch." />
   <string Context="Campfire NostrumsTreatIllness" ID="You try to cure =object.name's= illness, but cannot affect =object.them=." Value="Ihr versucht, =object.name's= Krankheit zu heilen, könnt =object.them= aber nicht beeinflussen." />
-  <string Context="Campfire NostrumsTreatIllness" ID="You cure =object.name's= illness with a balm made from =cure.a.name:single=." Value="Ihr heilt =object.name's= Krankheit mit einer Salbe aus =cure.a.name:single=." />
+  <string Context="Campfire NostrumsTreatIllness" ID="You cure =object.name's= illness with a balm made from =cure.a.name:single=." Value="Ihr heilt =object.name's= Krankheit mit einer Salbe aus =cure.a.dativ:single=." />
   <string Context="Campfire NostrumsTreatIllness" ID="You are not ill." Value="Ihr seid nicht krank." />
   <string Context="Campfire NostrumsTreatIllness" ID="Neither you nor =object.the.name= are ill." Value="Weder Ihr noch =object.the.name= seid krank." />
   <string Context="Campfire NostrumsTreatIllness" ID="Neither you nor any of your nearby companions are ill." Value="Weder Ihr noch Eure Gefährten in der Nähe seid krank." />
@@ -4481,9 +4481,9 @@
   <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Select an ingredient to use." Value="Wählt eine Zutat zum Verwenden." />
   <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You try to cure =object.name's= disease onset, but your limbs pass through =object.them=." Value="Ihr versucht, den Ausbruch von =object.name's= Krankheit zu heilen, aber Eure Gliedmaßen gehen durch =object.them= hindurch." />
   <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You try to cure =object.name's= disease onset, but cannot affect =object.them=." Value="Ihr versucht, den Ausbruch von =object.name's= Krankheit zu heilen, könnt =object.them= aber nicht beeinflussen." />
-  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You cure =object.name's= =effect.description= with a balm made from =cure.a.name:single=." Value="Ihr heilt =object.name's= =effect.description= mit einer Salbe aus =cure.a.name:single=." />
-  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You boost =object.name's= immunity with a balm made from =cure.a.name:single=." Value="Ihr stärkt =object.name's= Immunität mit einer Salbe aus =cure.a.name:single=." />
-  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You try to boost =object.name's= immunity with a balm made from =cure.a.name:single=, but it is ineffective." Value="Ihr versucht, =object.name's= Immunität mit einer Salbe aus =cure.a.name:single= zu stärken, aber sie ist unwirksam." />
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You cure =object.name's= =effect.description= with a balm made from =cure.a.name:single=." Value="Ihr heilt =object.name's= =effect.description= mit einer Salbe aus =cure.a.dativ:single=." />
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You boost =object.name's= immunity with a balm made from =cure.a.name:single=." Value="Ihr stärkt =object.name's= Immunität mit einer Salbe aus =cure.a.dativ:single=." />
+  <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You try to boost =object.name's= immunity with a balm made from =cure.a.name:single=, but it is ineffective." Value="Ihr versucht, =object.name's= Immunität mit einer Salbe aus =cure.a.dativ:single= zu stärken, aber sie ist unwirksam." />
   <string Context="Campfire NostrumsTreatDiseaseOnset" ID="You are not suffering from the onset of a disease." Value="Sie leiden nicht unter dem Ausbruch einer Krankheit." />
   <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Neither you nor =object.the.name= are suffering from the onset of a disease." Value="Weder Ihr noch =object.the.name= leidet unter dem Ausbruch einer Krankheit." />
   <string Context="Campfire NostrumsTreatDiseaseOnset" ID="Neither you nor any of your nearby companions are suffering from the onset of a disease." Value="Weder Ihr noch Eure Gefährten in der Nähe leiden unter dem Ausbruch einer Krankheit." />
@@ -5392,7 +5392,7 @@
   <string ID="You don't have anything to use in that slot." Value="Ihr habt nichts, was Ihr in diesem Platz verwenden könnt." />
   <string ID="You must charge at least two spaces." Value="Ihr müsst mindestens zwei Felder stürmen." />
   <string ID="select an action" Value="Aktion auswählen" />
-  <string Context="Stomach sip message with source" ID="=subject.Does:take= a sip of fresh water from =object.the.name:itsPossessor=." Value="=subject.The.name= =subject.konjde:nehmen= einen Schluck frisches Wasser aus =object.the.name:itsPossessor=." />
+  <string Context="Stomach sip message with source" ID="=subject.Does:take= a sip of fresh water from =object.the.name:itsPossessor=." Value="=subject.The.name= =subject.konjde:nehmen= einen Schluck frisches Wasser aus =object.dativ:itsPossessor=." />
   <string Context="FlamingRay emit" ID="=subject.Does:emit= a flaming ray from =subject.its= =part.ordinalName=!" Value="=subject.The.name= =subject.konjde:feuern= einen Flammenstrahl aus =subject.its= =part.ordinalName= ab!" />
   <string Context="MeleeWeapon Simplified Last Part" ID=" =glyph:Damage==damage=" Value=" =glyph:Damage==damage=" />
   <string Context="TextBuilder.Compound - default space" ID=" " Value=" " />

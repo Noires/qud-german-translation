@@ -234,6 +234,45 @@ namespace LanguagesOfQudGerman
             return obj.GetDisplayName(Short: true, BaseOnly: true);
         }
 
+        // Parameter-aware variant for the case replacers: honors the same display params the
+        // game's own name replacers accept (single, long, withTitles, asIfKnown), so templates
+        // can write e.g. "=object.dativ:single=" without losing the parameter semantics.
+        private static string GermanName(GameObject obj, VariableContext ctx)
+        {
+            if (ctx == null || ctx.Parameters == null || ctx.Parameters.Count == 0)
+                return GermanName(obj);
+            bool wantLong = ctx.HasParameter("long");
+            bool withTitles = ctx.HasParameter("withTitles");
+            return obj.GetDisplayName(
+                Short: !wantLong,
+                BaseOnly: !wantLong && !withTitles,
+                Single: ctx.HasParameter("single"),
+                WithoutTitles: !withTitles,
+                AsIfKnown: ctx.HasParameter("asIfKnown"));
+        }
+
+        // Genitive phrase of an object ("des Schnappkiefers", "der eisernen Kiste").
+        private static string GenitivePhrase(GameObject obj)
+        {
+            string n = GermanName(obj);
+            if (IsProper(obj)) return GenitiveNoun(n, Gender.Masc);
+            return BuildDefinitePhrase(n, Case.Gen, IsPlural(obj), false);
+        }
+
+        // itsPossessor / itsSubjectPossessor: append the holder's genitive
+        // ("aus der Wasserhaut des Schnappkiefers"). Player holders get no suffix -
+        // second-person context already implies ownership.
+        private static string WithPossessor(string phrase, VariableContext ctx, GameObject obj)
+        {
+            if (ctx != null && (ctx.HasParameter("itsPossessor") || ctx.HasParameter("itsSubjectPossessor")))
+            {
+                GameObject holder = obj?.Holder;
+                if (holder != null && holder.IsCreature && !holder.IsPlayer())
+                    return phrase + " " + GenitivePhrase(holder);
+            }
+            return phrase;
+        }
+
         // Definite article for an object, respecting plural ("die") over the noun heuristic.
         private static string DefiniteFor(GameObject obj, Case c)
         {
@@ -360,10 +399,10 @@ namespace LanguagesOfQudGerman
                 return Cap(PlayerPronoun(c), Context.Capitalize);
             if ((c == Case.Acc || c == Case.Dat) && IsReflexive(Context, Object))
                 return Cap("sich", Context.Capitalize);
-            string name = GermanName(Object);
+            string name = GermanName(Object, Context);
             if (IsProper(Object))
-                return c == Case.Gen ? GenitiveNoun(name, Gender.Masc) : name;
-            return BuildDefinitePhrase(name, c, IsPlural(Object), Context.Capitalize);
+                return WithPossessor(c == Case.Gen ? GenitiveNoun(name, Gender.Masc) : name, Context, Object);
+            return WithPossessor(BuildDefinitePhrase(name, c, IsPlural(Object), Context.Capitalize), Context, Object);
         }
 
         [VariableReplacer(new string[] { "nominativ" }, Capitalization = true)]
@@ -416,10 +455,12 @@ namespace LanguagesOfQudGerman
                 return Cap(PlayerPronoun(c), Context.Capitalize);
             if (IsProper(Object))
             {
-                string pn = GermanName(Object);
-                return c == Case.Gen ? GenitiveNoun(pn, Gender.Masc) : pn;
+                string pn = GermanName(Object, Context);
+                return WithPossessor(c == Case.Gen ? GenitiveNoun(pn, Gender.Masc) : pn, Context, Object);
             }
-            return BuildIndefinitePhrase(GermanName(Object), c, IsPlural(Object), Context.Capitalize);
+            return WithPossessor(
+                BuildIndefinitePhrase(GermanName(Object, Context), c, IsPlural(Object), Context.Capitalize),
+                Context, Object);
         }
 
         [VariableReplacer(new string[] { "a.nominativ" }, Capitalization = true)]
