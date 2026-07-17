@@ -144,6 +144,12 @@ Referenz: `docs/archive/caves-of-qud-turkish-main/Data/Code/Translator.tr.cs` (Z
   (Strings/Worlds/Mutations structure, DeathReason entries, shelved body-part attempt).
 
 ### Our planning docs
+- `docs/GRAMMAR_ENGINE.md` — **die Engine-Referenz**: Architektur, Kasus/Genus/Deklination/
+  Possessive/Verben, Kontrakte mit Begründung, Lückenliste der deutschen Grammatik.
+- `docs/TURKISH_REFERENCE.md` — self-contained Extrakt des türkischen Referenz-Mods
+  (PUA-Marker, Konventionen, Verdikt-Tabelle) — das Archiv selbst ist gitignoriert.
+- `.claude/skills/qud-de-grammatik/SKILL.md` — das Arbeitsverfahren (Finding-Diagnose-Baum,
+  Kontrakt-Checkliste, Erweiterungs-Prozedur).
 - `docs/NATIVE_MIGRATION_PLAN.md` — the migration plan (executed; kept for the locked decisions).
 - DLL-era docs (`RUNTIME_POSTPROCESSOR_PLAN`, `KOREAN_PARITY_GAPS`, `SCREENSHOT_FIXES_PLAN`)
   were removed with the DLL on 2026-07-17 — recover from git history if ever needed.
