@@ -1,5 +1,6 @@
 using System.Globalization;
 using XRL.Language;
+using XRL.World;
 
 namespace LanguagesOfQudGerman
 {
@@ -44,6 +45,46 @@ namespace LanguagesOfQudGerman
             if (a == "some ") return "etwas ";
             if (a == "Some ") return "Etwas ";
             return a;
+        }
+
+        // Possessiv-Stämme, die der C#-Pfad als DefaultDefiniteArticle durchreicht
+        // (GameObject.its_/Poss). Englische Reste (its/his/...) können auftauchen, wenn
+        // Pronomen aus unübersetzten Quellen kommen; deutsche kommen aus Genders.de.xml.
+        private static string NormalizePossStem(string d)
+        {
+            switch (d.Trim().ToLowerInvariant())
+            {
+                case "sein": case "its": case "his": return "sein";
+                case "ihr": case "her": case "their": return "ihr";
+                case "euer": case "your": return "euer";
+                case "mein": case "my": return "mein";
+                case "dein": return "dein";
+                case "unser": case "our": return "unser";
+                default: return null;
+            }
+        }
+
+        // C#-komponierte Zeilen bauen Besitz-Phrasen über GetDisplayName mit dem Possessiv-
+        // pronomen als DefaultDefiniteArticle ("with " + Attacker.its_(Weapon)). Wir bauen
+        // die Phrase deutsch: Stamm vom Pronomen, Genus vom Objektnamen, Adjektive dekliniert.
+        // Kasus-Heuristik: kleingeschriebenes Pronomen = satzintern nach Präposition -> Dativ
+        // ("mit seiner gepanzerten Klaue"); großgeschriebenes "Its"/"Sein" = Satzanfang -> Nominativ.
+        // "Euer" ist in den Daten immer groß und bleibt daher bei der Dativ-Wette.
+        public override string GameObjectDisplayName(GameObject GO, out bool AdjunctNounActive, GameObjectDisplayNameParams Params)
+        {
+            string poss = Params.WithDefiniteArticle ? Params.DefaultDefiniteArticle : null;
+            string stem = string.IsNullOrEmpty(poss) ? null : NormalizePossStem(poss);
+            if (stem != null && GO != null && !GO.HasProperName)
+            {
+                bool cap = Params.Capitalize || char.IsUpper(poss[0]);
+                bool dative = !(char.IsUpper(poss[0]) && stem != "euer");
+                Params.WithDefiniteArticle = false;
+                Params.DefaultDefiniteArticle = null;
+                Params.Capitalize = false;
+                string bare = base.GameObjectDisplayName(GO, out AdjunctNounActive, Params);
+                return VariableReplacers.CSharpPossessivePhrase(bare, GO, stem, dative, cap);
+            }
+            return base.GameObjectDisplayName(GO, out AdjunctNounActive, Params);
         }
 
         private static readonly string[] Einer =

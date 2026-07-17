@@ -33,9 +33,16 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
   `DefiniteArticle`/`IndefiniteArticle` (nur den englischen Basis-Fallback; Daten-Overrides
   und Eigennamen-Logik bleiben) → C#-Zeilen beginnen mit "Der/Die/Das …" statt "The …",
   "a/an" → "ein/eine", "some" → "etwas".
-- **Rest wartet auf Upstream:** Verb ("hits"), Satzgerüst ("for 5 damage with") und das
-  undeklinierte Possessiv ("ihr" aus den Pronomen-Daten) sind ohne Message-Rewriting
-  nicht erreichbar.
+- **Possessivphrasen erreicht (2026-07-17):** `GameObject.its_(Weapon)` läuft durch den
+  überschreibbaren `GameObjectDisplayName`-Provider mit dem Pronomen als
+  `DefaultDefiniteArticle`. `TranslatorDeutsch` baut daraus die volle deutsche Phrase
+  inkl. Adjektivdeklination → "mit **seiner gepanzerten Klaue**". Kasus-Heuristik:
+  kleingeschriebenes Pronomen (satzintern, nach Präposition) → Dativ; großes "Its" →
+  Nominativ; "Euer" (in Daten immer groß) → Dativ-Wette. Bei Markup im Namen wird nur
+  der Artikel dekliniert.
+- **Rest wartet auf Upstream:** Verb ("hits") und Satzgerüst ("for 5 damage with") sind
+  ohne Message-Rewriting nicht erreichbar. Erwartete Puma-Zeile jetzt:
+  "Der Chitinpanzer-Puma hits (x1) for 5 damage with seiner gepanzerten Klaue."
 
 ## Known-benign (do not chase)
 

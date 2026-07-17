@@ -298,6 +298,23 @@ namespace LanguagesOfQudGerman
             return Cap(art, capital) + " ";
         }
 
+        // C#-Pfad "with its X" (GameObject.its_ -> GetDisplayName mit Possessiv als
+        // DefaultDefiniteArticle): komplette deutsche Possessivphrase inkl. Adjektiv-
+        // deklination ("seiner gepanzerten Klaue"). Bei Markup im Namen (Farbtags) wird
+        // nur der Artikel dekliniert, der Name bleibt unangetastet.
+        internal static string CSharpPossessivePhrase(string bareName, GameObject obj, string stem, bool dative, bool capitalize)
+        {
+            if (string.IsNullOrEmpty(bareName)) return bareName;
+            Case c = dative ? Case.Dat : Case.Nom;
+            bool plural = obj != null && IsPlural(obj);
+            if (bareName.IndexOf("{{", StringComparison.Ordinal) >= 0 || bareName.IndexOf('[') >= 0)
+            {
+                Gender g = plural ? Gender.Plural : GuessGender(VisibleText(bareName));
+                return Cap(DeclinePoss(stem, g, c), capitalize || stem == "euer") + " " + bareName;
+            }
+            return BuildPossessivePhrase(bareName, c, plural, capitalize, stem);
+        }
+
         // ---- definite article, no name ("=the=") ----
         [VariableReplacer(new string[] { "the" }, Default = "der ", Capitalization = true, Override = true)]
         public static string DefiniteArticle(VariableContext Context, GameObject Object)
@@ -908,6 +925,8 @@ namespace LanguagesOfQudGerman
                 new[] { DeclinePoss("sein", Gender.Fem, Case.Acc), "seine" },
                 new[] { DeclinePoss("ihr", Gender.Plural, Case.Dat), "ihren" },
                 new[] { DeclinePoss("hir", Gender.Masc, Case.Dat), "hir" },
+                new[] { CSharpPossessivePhrase("gepanzerte Klaue", null, "sein", true, false), "seiner gepanzerten Klaue" },
+                new[] { CSharpPossessivePhrase("Anzeige", null, "sein", false, true), "Seine Anzeige" },
             };
             foreach (var t in poss)
             {
