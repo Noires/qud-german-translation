@@ -172,9 +172,10 @@ namespace LanguagesOfQudGerman
                 || h.EndsWith("ion") || h.EndsWith("tät") || h.EndsWith("taet") || h.EndsWith("ik")
                 || h.EndsWith("enz") || h.EndsWith("anz") || h.EndsWith("ur") || h.EndsWith("ie"))
                 return Gender.Fem;
-            // neuter endings
+            // neuter endings ("-ma" ist KEINE Regel: der Puma, die Firma, das Thema -
+            // die griechischen Neutra stehen stattdessen im Lexikon)
             if (h.EndsWith("chen") || h.EndsWith("lein") || h.EndsWith("ment") || h.EndsWith("tum")
-                || h.EndsWith("um") || h.EndsWith("ma"))
+                || h.EndsWith("um"))
                 return Gender.Neut;
             // masculine endings
             if (h.EndsWith("er") || h.EndsWith("ling") || h.EndsWith("ismus") || h.EndsWith("ich")
