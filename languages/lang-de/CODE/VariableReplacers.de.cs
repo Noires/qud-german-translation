@@ -26,6 +26,7 @@ namespace LanguagesOfQudGerman
             VariableReplacers.LoadVerbs();
             VariableReplacers.SelfTestCases();
             VariableReplacers.SelfTestPipeline();
+            TranslatorDeutsch.SelfTest();
         }
     }
 
