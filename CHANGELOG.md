@@ -1,8 +1,27 @@
 # Änderungsverlauf – Caves of Qud Deutsch (lang-experimental)
 
 Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung im
-`lang-experimental`-Branch. Daten-Mod plus eine kompilierte Laufzeit-DLL (`COQDE.dll`)
-für die im Code zusammengesetzten Meldungen (seit v0.8.0).
+`lang-experimental`-Branch. Reiner Daten-Mod mit nativen VariableReplacers; die frühere
+Laufzeit-DLL (`COQDE.dll`, v0.8.0–v0.8.1) wurde in v0.9.0 entfernt.
+
+## v0.9.0 – Vollständig native Lokalisierung (Laufzeit-DLL entfernt)
+
+- **Laufzeit-DLL entfernt:** `COQDE.dll`, `Bootstrap.cs`, `Patterns.json` und `Terms.json`
+  sind raus – der Mod ist jetzt zu 100 % datengesteuert + native Replacer, wie der
+  offizielle türkische Referenz-Mod. `GenderLexicon.tsv` und `Verbs.json` bleiben (werden
+  vom Token-Replacer geladen). Körperteil-Namen auf dem Ausrüstungsbildschirm und
+  spezifische Todesursachen („verblutet" u. Ä.) warten auf offizielle Unterstützung
+  durch die Entwickler.
+- **Große Regression behoben:** 506 String-Tabellen-Einträge hatten durch die
+  konjde-Token-Konvertierung beschädigte englische ID-Schlüssel und fielen still auf
+  Englisch zurück; alle Original-IDs wiederhergestellt.
+- **Native Körperteil-Namen im Text** (Kampf/Fähigkeiten/Mutationen) mit deutscher
+  Lateralitäts-Beugung („rechte Hand", „linkes Bein").
+- **Worlds.de.xml bereinigt:** 188 verwaiste Stub-Zonen entfernt (Abdeckung gegen das
+  englische Original verifiziert: 281/284, Rest sind Engine-Platzhalter), boolesche
+  Attribute korrigiert.
+- **Mutations.de.xml:** 64 falsch platzierte `statline`-Elemente an die Stelle des
+  englischen Originals verschoben – keine `MODWARN`-Zeilen mehr im Log.
 
 ## v0.8.1 – Mehr Laufzeit-Muster (Parität + Playtest-Funde)
 

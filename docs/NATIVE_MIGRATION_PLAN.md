@@ -1,5 +1,10 @@
 # Native Migration Plan — official replacer/post-processor pipeline
 
+> **Status: EXECUTED (2026-07-17).** Phase 2 complete — the DLL stack (`COQDE.dll`,
+> `Bootstrap.cs`, `Patterns.json`, `Terms.json`, `build/COQDE/`) is deleted; only
+> `GenderLexicon.tsv` + `Verbs.json` remain as shared data for the native token layer.
+> This document is kept for the locked decisions and testing strategy.
+
 Goal: replace the external Harmony runtime (`COQDE.dll` + `Patterns.json` regex) with the
 game's **official** localization pipeline — `[LanguageProvider("de")]` + `[VariableReplacer]`
 + `[VariablePostProcessor]` — mirroring the Freehold-authored Turkish reference

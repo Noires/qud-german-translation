@@ -14,9 +14,7 @@ namespace LanguagesOfQudGerman
 {
     // Diagnostic: prints a line to Player.log at mod init so we can confirm the German
     // grammar code actually compiled and loaded (successful VariableReplacer registration
-    // is otherwise silent). Look for "[QudDE]" in Player.log. This beacon covers the
-    // TOKEN-string path (this file); the runtime message post-processor logs its own
-    // "[QudDE] COQDE runtime loaded ..." beacon (see languages/lang-de/COQDE/).
+    // is otherwise silent). Look for "[QudDE]" in Player.log.
     [HasModSensitiveStaticCache]
     public static class GermanReplacerBootstrap
     {
@@ -31,24 +29,18 @@ namespace LanguagesOfQudGerman
         }
     }
 
-    // German grammar replacer (prototype).
+    // German grammar replacer.
     //
-    // SCOPE / SPLIT (see docs/RUNTIME_POSTPROCESSOR_PLAN.md §5b): German runtime grammar is
-    // handled in two places that do NOT overlap — do not delete one thinking the other covers
-    // it:
-    //   * THIS file (game-compiled) rewrites the ~300 TOKEN strings ("=object.the.name=",
-    //     "=the=", "=a.name=" …) via Override=true. Only token-based strings reach it.
-    //   * COQDE.dll (languages/lang-de/COQDE/) rewrites the code-built MESSAGE LOG lines
-    //     ("The snapjaw dies." …) that never use those tokens and so never reach this file.
+    // SCOPE: this file (game-compiled) rewrites the ~300 TOKEN strings ("=object.the.name=",
+    // "=the=", "=a.name=" …) via Override=true. Only token-based strings reach it. Code-built
+    // MESSAGE LOG lines ("The snapjaw dies." …) never use tokens and are NOT translated here —
+    // the retired COQDE.dll used to rewrite those at runtime (removed 2026-07-17, recoverable
+    // from git history; see docs/OPEN_ISSUES.md — waiting on official localization support).
     //
-    // Gender note: grammatical gender now has ONE shared data source — the lexicon
-    // languages/lang-de/COQDE/GenderLexicon.tsv, loaded by BOTH this token replacer
-    // (LoadLexicon below) and the COQDE DLL. The inline Overrides table + ending-heuristic
-    // remain as the fallback baseline if the file is missing. (The conjugation/logic is still
-    // duplicated because this is a separate, reflection-loaded assembly from the game-compiled
-    // CODE/; sharing the *logic* at runtime would couple this proven token path to the DLL's
-    // load order. Keep the two override tables in sync when adding nouns. (Reflection-based
-    // single-source consolidation is a tracked follow-up.)
+    // Gender note: grammatical gender has ONE shared data source — the lexicon
+    // languages/lang-de/COQDE/GenderLexicon.tsv, loaded by LoadLexicon below. The inline
+    // Overrides table + ending-heuristic remain as the fallback baseline if the file is
+    // missing.
     //
     // Overrides the definite/indefinite article tokens so that runtime-composed object
     // references ("the giant beetle", "a leather boot", "=subject.t=", "=object.t=") render
@@ -91,8 +83,7 @@ namespace LanguagesOfQudGerman
         };
 
         // Merge the shared gender lexicon (languages/lang-de/COQDE/GenderLexicon.tsv) into the
-        // override table above. Same file the COQDE DLL loads, so both layers agree on gender
-        // from one data source. File entries win over the inline defaults; on any error we keep
+        // override table above. File entries win over the inline defaults; on any error we keep
         // the inline table (no regression).
         internal static void LoadLexicon()
         {

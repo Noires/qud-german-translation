@@ -55,10 +55,11 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
   to match English placement. Expected MODWARN count for our mod next run: **0**.
 
 ## Current mode
-- **disable-DLL playtest mode**: deployed mod has `COQDE.dll.disabled`; the
-  `[QudDE] COQDE bootstrap failed: package folder not found` log line is expected. The runtime
-  post-processor (message-log translation, C#-literal death reasons) is OFF until re-enabled
-  (rename back to `COQDE.dll`).
+- **100% native — DLL retired 2026-07-17**: `COQDE.dll`, `Bootstrap.cs`, `Patterns.json` and
+  `Terms.json` removed from repo and deploy (recoverable from git history, last present at
+  commit e19d38d). `languages/lang-de/COQDE/` now holds only the shared data files
+  `GenderLexicon.tsv` + `Verbs.json`, loaded by `CODE/VariableReplacers.de.cs`. Code-built
+  message-log lines are untranslated pending official support (same as Turkish).
 - Native layer self-tests: 25/25 PASS every run (cases, phrases, verbs, body parts).
 
 ## Status of what's DONE (native)
@@ -81,10 +82,9 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
   (Strings/Worlds/Mutations structure, DeathReason entries, shelved body-part attempt).
 
 ### Our planning docs
-- `docs/NATIVE_MIGRATION_PLAN.md` — full plan, locked decisions, testing strategy.
-- `docs/RUNTIME_POSTPROCESSOR_PLAN.md` — replacer/post-processor design notes.
-- `docs/KOREAN_PARITY_GAPS.md` — parity diff vs the Korean mod.
-- `docs/SCREENSHOT_FIXES_PLAN.md` + `docs/screenshots/` — in-game issue screenshots & fixes.
+- `docs/NATIVE_MIGRATION_PLAN.md` — the migration plan (executed; kept for the locked decisions).
+- DLL-era docs (`RUNTIME_POSTPROCESSOR_PLAN`, `KOREAN_PARITY_GAPS`, `SCREENSHOT_FIXES_PLAN`)
+  were removed with the DLL on 2026-07-17 — recover from git history if ever needed.
 
 ### Diagnostics
 - `OptionDebugStringTableMisses` — ON; logs `String table miss - Lang de - Context=… ID=…` to
