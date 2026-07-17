@@ -31,9 +31,8 @@
       <leveltext>
         <p>Ihr könnt den Adrenalinfluss Eures Körpers für <stat Name="Duration" /> steigern.</p>
         <p>Während er fließt, erhaltet Ihr +<stat Name="QuicknessBonus" /> Schnelligkeit, und andere körperliche Mutationen erhalten +<stat Name="MutationBonus" Unit="rank" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Beak" DisplayName="Schnabel" BearerDescription="jene mit Schnäbeln">
       <description>
@@ -107,9 +106,8 @@
             <p>{{rules|Verringerte <stat Name="LevelEffectDescription" />}}</p>
           </case>
         </switch>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Double-muscled" DisplayName="Doppelmuskelig" BearerDescription="die Doppelmuskulösen">
       <description>
@@ -150,11 +148,9 @@
       </description>
       <leveltext>
         <p>Bereich: <stat Name="Area" /> um Euch herum zentriert</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Flaming Ray" DisplayName="Flammender Strahl" BearerDescription="die Feuerhändigen">
       <description>
@@ -166,13 +162,11 @@
       </description>
       <leveltext>
         <p>Sondert einen <stat Name="Range" />-Felder langen Flammenstrahl in eine Richtung Eurer Wahl ab.</p>
-        <statline Name="Damage" />
-        <statline Name="Cooldown" />
+        <statline Name="Damage" DisplayName="Schaden" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Nahkampfangriffe erhitzen Gegner um <stat Name="HeatOnHit" Unit="degree" />
         </p>
       </leveltext>
-      <statline Name="Damage" DisplayName="Schaden" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Freezing Ray" DisplayName="Gefrierender Strahl" BearerDescription="die Frosthändigen">
       <description>
@@ -184,13 +178,11 @@
       </description>
       <leveltext>
         <p>Sondert einen <stat Name="Range" />-Felder langen Froststrahl in eine Richtung Eurer Wahl ab.</p>
-        <statline Name="Damage" />
-        <statline Name="Cooldown" />
+        <statline Name="Damage" DisplayName="Schaden" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Nahkampfangriffe kühlen Gegner um <stat Name="CoolOnHit" Unit="degree" />
         </p>
       </leveltext>
-      <statline Name="Damage" DisplayName="Schaden" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Heightened Hearing" DisplayName="Erhöhtes Gehör" BearerDescription="jene mit verbessertem Gehör">
       <description>
@@ -253,9 +245,8 @@
       </description>
       <leveltext>
         <p>Könnt nur die Gestalt von Kreaturen der Stufe <stat Name="MaxLevel" /> oder niedriger annehmen.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Multiple Arms" DisplayName="Mehrere Arme" BearerDescription="die Vielarmigen">
       <description>
@@ -286,11 +277,9 @@
         <p>Ihr könnt für kurze Zeitspannen durch feste Objekte phasen.</p>
       </description>
       <leveltext>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Photosynthetic Skin" DisplayName="Photosynthetische Haut" BearerDescription="die Grünhäutigen">
       <description>
@@ -372,18 +361,14 @@
           </case>
           <default />
         </switch>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Slime Glands" DisplayName="Schleimdüsen" BearerDescription="Schleimspucker">
       <description>
         <p>Ihr erzeugt einen zähflüssigen Schleim, den Ihr auf Dinge spucken könnt.</p>
         <br />
         <p>Bedeckt ein Gebiet mit Schleim</p>
-        <statline Name="Range" />
-        <statline Name="Area" />
-        <statline Name="Cooldown" />
         <p>Ihr könnt über Schleim laufen, ohne auszurutschen.</p>
       </description>
       <leveltext />
@@ -405,11 +390,10 @@
         </switch>
         <statline Name="SpinDuration" DisplayName="Duration" Unit="move action" />
         <saveline Name="MoveSave" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Ihr seid immun dagegen, festzustecken.</p>
         <p>+300 Ruf bei {{w|Spinnentieren}}</p>
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Stinger (Confusing Venom)" DisplayName="Stachel (Verwirrendes Gift)" BearerDescription="jene mit Stacheln voll verwirrenden Giftes">
       <description>
@@ -635,21 +619,19 @@
       <leveltext>
         <p>Mentalangriff gegen eine Kreatur mit einem Verstand</p>
         <p>Erfolgswurf: {{rules|Mutationsrang}} oder Ego-Modifikator (je nachdem, was höher ist) + Charakterstufe + 1d8 gegen Verteidiger-MA + Charakterstufe</p>
-        <statline Name="Range" />
+        <statline Name="Range" DisplayName="Reichweite" />
         <p>Bezirzte Kreatur: +<stat Name="BonusHP" /> Bonus-Trefferpunkte</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Range" DisplayName="Reichweite" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Burgeoning" DisplayName="Gedeihend" BearerDescription="psychische Gärtner" BiomeAdjective="gedeihend">
       <description>
         <p>Ihr lasst Pflanzen in einem nahen Bereich spontan wachsen und behindert damit Eure Feinde.</p>
       </description>
       <leveltext>
-        <statline Name="Range" />
+        <statline Name="Range" DisplayName="Reichweite" />
         <p>Bereich: <stat Name="Area" /> + Wachstum in angrenzende Felder</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <switch Name="LevelMatch">
           <case Value="true" />
           <default>
@@ -658,8 +640,6 @@
         </switch>
         <p>+200 Ruf bei {{w|dem Konsortium der Phyta}}</p>
       </leveltext>
-      <statline Name="Range" DisplayName="Reichweite" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Clairvoyance" DisplayName="Hellsehen" BearerDescription="die Hellsichtigen" BiomeEpithet="Panoptikum">
       <description>
@@ -668,9 +648,8 @@
       <leveltext>
         <statline Name="VisionRadius" DisplayName="Vision radius" />
         <statline Name="VisionDuration" DisplayName="Vision duration" Unit="round" />
-        <statline Name="Cooldown" Unit="round" />
+        <statline Name="Cooldown" Unit="round" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Confusion" DisplayName="Verwirrung" BearerDescription="Rätselsteller" BiomeEpithet="psychisches Labyrinth">
       <description>
@@ -680,11 +659,9 @@
         <p>Betroffene Kreaturen handeln halb zufällig und erhalten einen -<stat Name="Penalty" /> Malus auf ihre mentalen Fähigkeiten.</p>
         <statline Name="ConeAngle" DisplayName="Kegelwinkel" Unit="Grad" />
         <statline Name="ConeLength" DisplayName="Kegellänge" />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Cryokinesis" DisplayName="Kryokinese" BearerDescription="Kryomanten" BiomeEpithet="Frostwiese">
       <description>
@@ -702,30 +679,25 @@
             <p>{{rules|Verringerte Kühltemperatur-Intensität}}</p>
           </default>
         </switch>
-        <statline Name="Range" />
-        <statline Name="Area" />
+        <statline Name="Range" DisplayName="Reichweite" />
+        <statline Name="Area" DisplayName="Fläche" />
         <statline Name="DamageRound1" DisplayName="Runde 1 Schaden" />
         <statline Name="DamageRound2" DisplayName="Runde 2 Schaden" />
         <statline Name="DamageRound3" DisplayName="Runde 3 Schaden" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Range" DisplayName="Reichweite" />
-      <statline Name="Area" DisplayName="Fläche" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Disintegration" DisplayName="Desintegration" BearerDescription="Desintegratoren" BiomeAdjective="schnell resonierend">
       <description>
         Ihr desintegriert Materie in der Nähe.
       </description>
       <leveltext>
-        <statline Name="Area" />
+        <statline Name="Area" DisplayName="Fläche" />
         <statline Name="DamageNonStructural" DisplayName="Schaden an nicht-strukturellen Objekten" />
         <statline Name="DamageStructural" DisplayName="Schaden an strukturellen Objekten" />
         <p>Ihr seid nach dem Einsatz dieser Kraft für 3 Runden erschöpft.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Area" DisplayName="Fläche" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Domination" DisplayName="Beherrschung" BearerDescription="jene, die den Willen anderer beherrschen" BiomeEpithet="Theater der Willen">
       <description>
@@ -735,11 +707,9 @@
         <p>Mentaler Angriff gegen eine Kreatur mit einem Verstand</p>
         <p>Erfolgswurf: {{rules|Mutationsrang}} oder Ego-Modifikator (je nachdem, was höher ist) + Charakterstufe + 1d8 gegen MA des Verteidigers + Charakterstufe</p>
         <p>Reichweite: 1</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Ego Projection" DisplayName="Ego-Projektion" BearerDescription="jene, die ihr Ego in die physische Welt projizieren" BiomeAdjective="psychisch lichtbrechend">
       <description>
@@ -747,11 +717,9 @@
       </description>
       <leveltext>
         <p>Erhöht ein körperliches Attribut um einen Betrag, der doppelt so hoch ist wie Euer Ego-Bonus</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Force Bubble" DisplayName="Kraftblase" BearerDescription="Blasenvolk" BiomeAdjective="blasig">
       <description>
@@ -759,12 +727,10 @@
       </description>
       <leveltext>
         <p>Erzeugt ein 3x3 großes Kraftfeld, das auf Euch zentriert ist</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Ihr könnt Fernkampfwaffen durch das Kraftfeld abfeuern.</p>
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Force Wall" DisplayName="Kraftwand" BearerDescription="Architekten der Kraftwände" BiomeEpithet="Kraftbastion">
       <description>
@@ -772,19 +738,15 @@
       </description>
       <leveltext>
         <p>Erzeugt 9 zusammenhängende Felder aus unbeweglichem Kraftfeld.</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Ihr könnt Fernkampfwaffen durch das Kraftfeld abfeuern.</p>
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Kindle" DisplayName="Kindle" BearerDescription="Entzünder" BiomeAdjective="entzündend">
       <description>
         <p>Ihr entfacht mit Eurem Verstand ein kleines Feuer.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
       </description>
       <leveltext />
       <statline Name="Range" DisplayName="Reichweite" />
@@ -810,7 +772,7 @@
       </description>
       <leveltext>
         <p>Aktualisiert alle mentalen Mutationen</p>
-        <statline Name="CooldownNoWillpower" Unit="Runde" />
+        <statline Name="CooldownNoWillpower" Unit="Runde" DisplayName="Abklingzeit ohne Willenskraft" />
         <p>Abklingzeit wird nicht durch Willenskraft beeinflusst.</p>
         <p>Jede Verwendung zieht etwas mehr Aufmerksamkeit von psychischen Eindringlingen an.</p>
         <switch Name="LevelMatch">
@@ -823,7 +785,6 @@
         </switch>
         <p>-200 Ruf bei {{w|den Suchern des Sichtlosen Weges}}</p>
       </leveltext>
-      <statline Name="CooldownNoWillpower" DisplayName="Abklingzeit ohne Willenskraft" />
     </mutation>
     <mutation Name="Mental Mirror" DisplayName="Geistiger Spiegel" BearerDescription="die mental Reflektierenden" BiomeEpithet="Spiegelsteppe">
       <description>
@@ -832,9 +793,8 @@
       <leveltext>
         <p>Wenn Ihr einen mentalen Angriff erleidet, während Mentaler Spiegel nicht abklingt, erhaltet Ihr +<stat Name="BonusMA" /> mentale Rüstung (MA).</p>
         <p>Wenn der Angriff daraufhin Eure MA nicht durchdringt, wird er auf Euren Angreifer zurückreflektiert.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Precognition" DisplayName="Präkognition" BearerDescription="die Hellsichtigen" BiomeEpithet="Zukunftsstätte">
       <description>
@@ -844,9 +804,8 @@
         <p>Ihr könnt diese Kraft aktivieren und später zu dem Zeitpunkt zurückkehren, an dem Ihr sie aktiviert habt.</p>
         <p>Dauer zwischen Nutzung und Rückkehr: <stat Name="Duration" />
         </p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Psychometry" DisplayName="Psychometrie" BearerDescription="die psychometrisch Empfindsamen" BiomeAdjective="retrokognitiv">
       <description>
@@ -874,16 +833,13 @@
             <p>{{rules|Verringerte Hitzeintensität}}</p>
           </default>
         </switch>
-        <statline Name="Range" />
-        <statline Name="Area" />
+        <statline Name="Range" DisplayName="Reichweite" />
+        <statline Name="Area" DisplayName="Fläche" />
         <statline Name="DamageRound1" DisplayName="Round 1 damage" />
         <statline Name="DamageRound2" DisplayName="Round 2 damage" />
         <statline Name="DamageRound3" DisplayName="Round 3 damage" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Range" DisplayName="Reichweite" />
-      <statline Name="Area" DisplayName="Fläche" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Sense Psychic" DisplayName="Psychische Wahrnehmung" BearerDescription="die psychisch Empfindsamen" BiomeAdjective="nackt">
       <description>
@@ -901,19 +857,18 @@
       <leveltext>
         <p>Beschwört einen Vortex herauf, der alles in seinem Pfad verschlingt.</p>
         <statline Name="BonusDuration" DisplayName="Bonus duration" Unit="round" HideValue="0" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Ihr könnt den Vortex betreten, um an einen zufälligen Ort in Qud teleportiert zu werden.</p>
         <p>+200 Ruf bei {{w|hochgradig entropischen Wesen}}</p>
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Stunning Force" DisplayName="Betäubende Kraft" BearerDescription="der Telekinetische" BiomeAdjective="telekinetisch">
       <description>
         <p>Ihr entfesselt eine erschütternde Kraft in einem nahen Gebiet, die Feinde zurückwirft und betäubt.</p>
       </description>
       <leveltext>
-        <statline Name="Range" />
-        <statline Name="Area" />
+        <statline Name="Range" DisplayName="Reichweite" />
+        <statline Name="Area" DisplayName="Bereich" />
         <switch Name="LevelMatch">
           <case Value="true">
             <p>Kreaturen werden vom Zentrum der Explosion weggeschleudert, betäubt und erleiden in bis zu 3 Schüben Wuchtschaden.</p>
@@ -923,11 +878,8 @@
           </default>
         </switch>
         <statline Name="DamageIncrement" DisplayName="Damage increment" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Range" DisplayName="Reichweite" />
-      <statline Name="Area" DisplayName="Bereich" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Sunder Mind" DisplayName="Geist spalten" BearerDescription="Geistzerstörer" BiomeEpithet="psychischer Friedhof">
       <description>
@@ -939,11 +891,9 @@
         <p>Jede Runde führt Ihr einen mentalen Angriff gegen die mentale Rüstung (MA) aus.</p>
         <statline Name="DamageIncrement" DisplayName="Damage increment" />
         <p>Nach der zehnten Runde fügt Ihr Bonusschaden in Höhe des bisher insgesamt verursachten Schadens zu.</p>
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Reichweite" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Range" DisplayName="Reichweite" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Syphon Vim" DisplayName="Vitalität absaugen" BearerDescription="Lebenssauger" BiomeEpithet="Schlachtfeld">
       <description>
@@ -954,11 +904,9 @@
         <p>Entzieht pro Runde <stat Name="HP" Unit="hit point" />
         </p>
         <p>Das Ziel erhält jede Runde einen mentalen Rettungswurf, um dem Schaden zu widerstehen</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Telepathy" DisplayName="Telepathie" BearerDescription="der Telepathische" BiomeAdjective="telepathisch">
       <description>
@@ -976,18 +924,16 @@
       <leveltext>
         <p>Teleportiert Euch an einen zufälligen Ort innerhalb eines bestimmten Bereichs.</p>
         <statline Name="UncertaintyRadius" DisplayName="Unsicherheitsradius" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Teleport Other" DisplayName="Anderen teleportieren" BearerDescription="jene, die andere teleportieren" BiomeEpithet="Einsiedelei">
       <description>
         <p>Ihr teleportiert eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.</p>
       </description>
       <leveltext>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Time Dilation" DisplayName="Zeitdilatation" BearerDescription="Zeitdehner" BiomeEpithet="Zeitprisma">
       <description>
@@ -998,24 +944,19 @@
         <p>Abstand 1: Kreaturen erhalten eine <stat Name="QuicknessPenalty1" />% Schnelligkeitsstrafe</p>
         <p>Abstand 4: Kreaturen erhalten eine <stat Name="QuicknessPenalty4" />% Schnelligkeitsstrafe</p>
         <p>Abstand 7: Kreaturen erhalten eine <stat Name="QuicknessPenalty7" />% Schnelligkeitsstrafe</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
     <mutation Name="Temporal Fugue" DisplayName="Zeitliche Flucht" BearerDescription="Zeitflüchtige" BiomeEpithet="Raumzeit-Knotenpunkt">
       <description>
         <p>Ihr bewegt Euch schnell vor und zurück durch die Zeit und erstellt mehrere Kopien von Euch selbst.</p>
       </description>
       <leveltext>
-        <statline Name="Duration" />
-        <statline Name="Copies" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Dauer" />
+        <statline Name="Copies" DisplayName="Kopien" />
+        <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
-      <statline Name="Duration" DisplayName="Dauer" />
-      <statline Name="Copies" DisplayName="Kopien" />
-      <statline Name="Cooldown" DisplayName="Abklingzeit" />
     </mutation>
   </category>
   <category Name="MentalDefects" DisplayName="{{R|Geistige Mängel}}">
