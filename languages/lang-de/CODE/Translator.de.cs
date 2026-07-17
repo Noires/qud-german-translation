@@ -10,15 +10,41 @@ namespace LanguagesOfQudGerman
     // Ordinal / OrdinalWithDigits / Multiplicative (see Delegates.Numbers.cs), so this single
     // provider makes all of them German - no replacer overrides needed.
     //
-    // Deliberately NOT overridden: ExtractArticle/AddArticle/IndefiniteArticle (articles are
-    // handled by our VariableReplacers on the token path), MakeAndList/MakeCommaList/
-    // MutateZoneName (already localized via their _S/_T string-table entries in Strings.de.xml),
-    // GameObjectDisplayName (base behavior + data suffices).
+    // Deliberately NOT overridden: ExtractArticle/AddArticle (English-name parsing),
+    // MakeAndList/MakeCommaList/MutateZoneName (already localized via their _S/_T string-table
+    // entries in Strings.de.xml), GameObjectDisplayName (base behavior + data suffices).
+    //
+    // Definite/IndefiniteArticle ARE overridden: the TOKEN path goes through our
+    // VariableReplacers, but C#-composed message-log lines call GameObject.The/A ->
+    // Translator.DefiniteArticle directly ("The Chitinpanzer-Puma hits ..."); we replace only
+    // the base implementation's English fallback so property/xtag article overrides keep
+    // working (Worlds.de.xml IndefiniteArticle="die" etc.).
     [LanguageProvider("de")]
     public class TranslatorDeutsch : TranslatorBase
     {
         private static CultureInfo _de;
         public override CultureInfo GetCultureInfo() => _de ??= new CultureInfo("de-DE");
+
+        // C#-Pfad-Artikel: nur den englischen Fallback der Basis ersetzen - Property-/xtag-
+        // Overrides (DefiniteArticle/IndefiniteArticle-Attribute aus den Daten), Eigennamen-
+        // Unterdrückung und Examiner-Rekursion der Basis bleiben unangetastet.
+        public override string DefiniteArticle(DefiniteArticleParams Params)
+        {
+            string a = base.DefiniteArticle(Params);
+            if (a == "the " || a == "The ")
+                return VariableReplacers.CSharpDefiniteArticle(Params.Object, a[0] == 'T');
+            return a;
+        }
+
+        public override string IndefiniteArticle(IndefiniteArticleParams Params)
+        {
+            string a = base.IndefiniteArticle(Params);
+            if (a == "a " || a == "an " || a == "A " || a == "An ")
+                return VariableReplacers.CSharpIndefiniteArticle(Params.Object, char.IsUpper(a[0]));
+            if (a == "some ") return "etwas ";
+            if (a == "Some ") return "Etwas ";
+            return a;
+        }
 
         private static readonly string[] Einer =
         {

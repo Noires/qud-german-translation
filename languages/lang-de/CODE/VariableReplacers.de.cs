@@ -280,6 +280,24 @@ namespace LanguagesOfQudGerman
             return Definite(GuessGender(GermanName(obj)), c);
         }
 
+        // Deutsche Artikel für den C#-Pfad (GameObject.The/A -> Translator.DefiniteArticle):
+        // von TranslatorDeutsch aufgerufen, wenn die Basis auf ihr englisches "the "/"a "
+        // zurückfällt. Kasus ist dort unbekannt -> Nominativ (Subjektposition dominiert).
+        internal static string CSharpDefiniteArticle(GameObject obj, bool capital)
+        {
+            if (obj == null) return capital ? "Der " : "der ";
+            string art = DefiniteFor(obj, Case.Nom);
+            return Cap(art, capital) + " ";
+        }
+
+        internal static string CSharpIndefiniteArticle(GameObject obj, bool capital)
+        {
+            if (obj == null) return capital ? "Ein " : "ein ";
+            string art = Indefinite(IsPlural(obj) ? Gender.Plural : GuessGender(GermanName(obj)), Case.Nom);
+            if (art.Length == 0) return "";
+            return Cap(art, capital) + " ";
+        }
+
         // ---- definite article, no name ("=the=") ----
         [VariableReplacer(new string[] { "the" }, Default = "der ", Capitalization = true, Override = true)]
         public static string DefiniteArticle(VariableContext Context, GameObject Object)

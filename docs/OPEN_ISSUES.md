@@ -24,6 +24,19 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
 - **Status: WAIT** for the dev team to route death causes through the string table.
   (In current disable-DLL mode these show English by design.)
 
+### 3. C#-komponierte Message-Log-Zeilen (Beispiel: "The X hits for 5 damage with its Y.")
+- **Befund (2026-07-17):** Kampfzeilen wie die Puma-Hit-Meldung werden in C# konkateniert
+  (" damage with " ist ein Assembly-Literal, kein Manifest-Template, kein String-Miss) —
+  dieselbe Klasse wie "The snapjaw dies.", die der pensionierte DLL-Postprocessor per Regex
+  übersetzte.
+- **Teilverbesserung umgesetzt:** `TranslatorDeutsch` überschreibt jetzt
+  `DefiniteArticle`/`IndefiniteArticle` (nur den englischen Basis-Fallback; Daten-Overrides
+  und Eigennamen-Logik bleiben) → C#-Zeilen beginnen mit "Der/Die/Das …" statt "The …",
+  "a/an" → "ein/eine", "some" → "etwas".
+- **Rest wartet auf Upstream:** Verb ("hits"), Satzgerüst ("for 5 damage with") und das
+  undeklinierte Possessiv ("ihr" aus den Pronomen-Daten) sind ohne Message-Rewriting
+  nicht erreichbar.
+
 ## Known-benign (do not chase)
 
 ### 7 string-table misses at every startup (DifficultyEvaluation ×6, Message Log Title)
