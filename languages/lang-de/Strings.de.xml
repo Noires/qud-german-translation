@@ -1730,7 +1730,7 @@
   <string Context="Faction Secret Description Extra (fragment)" ID="They're also interested in sharing secrets about =sultanTerm|plural= they admire or despise." Value="Sie sind auch daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, zu teilen." />
   <string Context="Faction Secret Description (extras)" ID="=fragments.join: =" Value="=fragments.join: =" />
   <string Context="Faction Default Rank Term" ID="rank" Value="Rang" />
-  <string Context="Faction FormattedName" ID="=withArticle.if:the ==displayName=" Value="=withArticle.if:the ==displayName=" />
+  <string Context="Faction FormattedName" ID="=withArticle.if:the ==displayName=" Value="=displayName=" />
   <string Context="Faction Heirloom Name" ID="=spice:elements.$element.adjectives.!random= =spice:itemTypes.$type.!random= of =namedRuin=" Value="=spice:elements.$element.adjectives.!random= =spice:itemTypes.$type.!random= von =namedRuin=" />
   <string Context="Faction Heirloom Article" ID="the" Value="die" />
   <string Context="Faction Heirloom Name" ID="=spice:history.relics.names.!random=" Value="=spice:history.relics.names.!random=" />
@@ -2664,10 +2664,10 @@
   <string Context="GivesRep Description Suffix Loved List (fragment) (shows current rep debug option)" ID="{{C|=faction.factionName=}}{{K|(=rep=)}}" Value="{{C|=faction.factionName=}}{{K|(=rep=)}}" />
   <string Context="GivesRep Description Suffix Loved List (fragment)" ID="{{C|=faction.factionName=}}" Value="{{C|=faction.factionName=}}" />
   <string Context="GivesRep Description Suffix Loved List" ID="Loved by =list.andList=." Value="Geliebt von =list.andList=." />
-  <string Context="GivesRep Description Suffix" ID="Loved by {{C|=faction.factionName=}}=repDebugOption= for =reason=" Value="Geliebt von {{C|=faction.factionName=}}=repDebugOption= wegen =reason=" />
-  <string Context="GivesRep Description Suffix" ID="Admired by {{C|=faction.factionName=}}=repDebugOption= for =reason=" Value="Bewundert von {{C|=faction.factionName=}}=repDebugOption= wegen =reason=" />
-  <string Context="GivesRep Description Suffix" ID="Disliked by {{C|=faction.factionName=}}=repDebugOption= for =reason=" Value="Abgelehnt von {{C|=faction.factionName=}}=repDebugOption= wegen =reason=" />
-  <string Context="GivesRep Description Suffix" ID="Hated by {{C|=faction.factionName=}}=repDebugOption= for =reason=" Value="Gehasst von {{C|=faction.factionName=}}=repDebugOption= für =reason=" />
+  <string Context="GivesRep Description Suffix" ID="Loved by {{C|=faction.factionName=}}=repDebugOption= for =reason=" Value="Geliebt von {{C|=faction.factionName=}}=repDebugOption=, weil Ihr =reason=" />
+  <string Context="GivesRep Description Suffix" ID="Admired by {{C|=faction.factionName=}}=repDebugOption= for =reason=" Value="Bewundert von {{C|=faction.factionName=}}=repDebugOption=, weil Ihr =reason=" />
+  <string Context="GivesRep Description Suffix" ID="Disliked by {{C|=faction.factionName=}}=repDebugOption= for =reason=" Value="Abgelehnt von {{C|=faction.factionName=}}=repDebugOption=, weil Ihr =reason=" />
+  <string Context="GivesRep Description Suffix" ID="Hated by {{C|=faction.factionName=}}=repDebugOption= for =reason=" Value="Gehasst von {{C|=faction.factionName=}}=repDebugOption=, weil Ihr =reason=" />
   <string Context="GenerateFriendOrFoe" ID="=spice:friendOrFoe.$spiceKey.hateReasons.!random=" Value="=spice:friendOrFoe.$spiceKey.hateReasons.!random=" />
   <string Context="GenerateFriendOrFoe" ID="=spice:friendOrFoe.$spiceKey.likeReasons.!random=" Value="=spice:friendOrFoe.$spiceKey.likeReasons.!random=" />
   <string Context="GenerateFriendOrFoe HEB" ID="=spice:friendOrFoe.$spiceKey.hateReasons.!random=" Value="=spice:friendOrFoe.$spiceKey.hateReasons.!random=" />
