@@ -116,6 +116,21 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
 Damit ist alles Machbare umgesetzt — offen bleiben nur die beiden „Waiting on official
 localization support"-Punkte oben (Paperdoll-Körperteile, C#-Literal-Todesursachen).
 
+## Technik-Option (nicht umgesetzt): unsichtbare PUA-Marker à la Turkish-Mod
+Das Spiel reserviert `U+E700–U+E7FF` als beim Rendern ausgeblendete Flag-Zone
+(`QUD_PUA_FLAG_START/END` in TextConstants). Der türkische Mod nutzt das als unsichtbaren
+Metadaten-Kanal durch die Text-Pipeline: `COMPOUND_MARK U+E70C` markiert „Suffix bereits
+angefügt" (Idempotenz-Schutz, alle Helfer prüfen `Contains(...)` vor erneutem Anfügen),
+plus Kasus-Marker (`DATIVE_MARK U+E7DA`, `ACCUSATIVE_MARK U+E7AC`, `LOCATIVE_MARK U+E7DE`,
+`ABLATIVE_MARK U+E7AB`, `INSTRUMENTAL_MARK U+E711`), die ein späterer PostProcessor
+ausliest, wo kein Token-Parameter durchgereicht werden kann.
+**Für uns relevant, falls:** (a) die Nachdeklination (`DeclineAfterArticle`) je doppelt
+läuft → „schon dekliniert"-Marker; (b) Kasus-Info durch C#-konkatenierte Fragmente oder
+verschachtelte Templates geschleust werden muss, wo `:dativ`-Parameter nicht hinkommen.
+Solange die expliziten Token-Parameter reichen, bleiben sie erste Wahl (lesbarer).
+Referenz: `docs/archive/caves-of-qud-turkish-main/Data/Code/Translator.tr.cs` (Zeilen 17–22,
+`ModifyColoredText` mit `SuffixOutside`-Konzept für Eigennamen).
+
 ## Resources on hand (in `docs/`)
 
 ### Game source (reference, gitignored under `docs/archive/`)
