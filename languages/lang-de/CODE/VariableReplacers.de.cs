@@ -400,6 +400,17 @@ namespace LanguagesOfQudGerman
             if ((c == Case.Acc || c == Case.Dat) && IsReflexive(Context, Object))
                 return Cap("sich", Context.Capitalize);
             string name = GermanName(Object, Context);
+            // asPossessed: Besitzer-Artikel statt bestimmtem Artikel. Spieler-Besitz ->
+            // dekliniertes "Euer" ("aus Eurem Wischmopp"); Kreaturen-Besitz -> Genitiv-Anhang.
+            if (Context.HasParameter("asPossessed"))
+            {
+                GameObject holder = Object.Holder;
+                if (holder != null && holder.IsPlayer() && Grammar.AllowSecondPerson)
+                    return BuildPossessivePhrase(name, c, IsPlural(Object), Context.Capitalize);
+                if (holder != null && holder.IsCreature)
+                    return BuildDefinitePhrase(name, c, IsPlural(Object), Context.Capitalize)
+                        + " " + GenitivePhrase(holder);
+            }
             if (IsProper(Object))
                 return WithPossessor(c == Case.Gen ? GenitiveNoun(name, Gender.Masc) : name, Context, Object);
             return WithPossessor(BuildDefinitePhrase(name, c, IsPlural(Object), Context.Capitalize), Context, Object);
@@ -620,6 +631,86 @@ namespace LanguagesOfQudGerman
         public static string BodyPartOrdinalName(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
         { return TransformBodyPart(Part.GetOrdinalName(), Part.Laterality, Context.Capitalize); }
 
+        // ---- Possessiv: vorangestellter Genitiv & Euer-Deklination ----
+        // Englische 's-Konstruktionen werden als vorangestellter deutscher Genitiv gerendert:
+        // "Barathrum's leg" -> "Barathrums Bein", "the croc's leg" -> "des Krokodils Bein"
+        // (gehoben/archaisch, passt zum Qud-Ton). Spieler-Besitz -> "Euer" (Grundform, da das
+        // Genus des FOLGENDEN Substantivs hier nicht bekannt ist).
+
+        // Deutsche 's-Regel für nackte Namen: +s, nach s/ß/x/z nur Apostroph (Marx').
+        internal static string GermanPossessiveSuffix(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return s;
+            int wrap = 0;
+            while (s.EndsWith("}}", StringComparison.Ordinal)) { wrap++; s = s.Substring(0, s.Length - 2); }
+            char last = s.Length > 0 ? char.ToLowerInvariant(s[s.Length - 1]) : ' ';
+            s += ("sßxz".IndexOf(last) >= 0) ? "'" : "s";
+            for (int i = 0; i < wrap; i++) s += "}}";
+            return s;
+        }
+
+        // Overrides des "possessive"/"'s"-Postprocessors (Grammar.MakePossessive ist englisch).
+        // Wirkt auf alle "|'s"-Templates, v. a. die HistorySpice-Sätze
+        // ("=spice.entity:name|'s= Wagen" -> "Reshephs Wagen").
+        // String-Return statt Value-Mutation: die Delegate-Registrierung akzeptiert beide
+        // Formen (typeof(void)/typeof(string)-Check im Engine-Code), und TextBuilder-Schreib-
+        // Overloads (Append/Insert) sind im net48-Smoke-Build nicht auflösbar (CS0518/Span).
+        [VariablePostProcessor("possessive", "makePossessive", "'s", Override = true)]
+        public static string PossessivePost(VariableContext Context)
+        {
+            return GermanPossessiveSuffix(Context.Value.ToString());
+        }
+
+        [VariableReplacer(new string[] { "the.name's", "t's" }, Override = true, Capitalization = true)]
+        public static string PossessiveDefinite(VariableContext Context, GameObject Object)
+        {
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("Euer", Context.Capitalize);
+            string n = GermanName(Object, Context);
+            if (IsProper(Object)) return Cap(GenitiveNoun(n, Gender.Masc), Context.Capitalize);
+            return BuildDefinitePhrase(n, Case.Gen, IsPlural(Object), Context.Capitalize);
+        }
+
+        [VariableReplacer(new string[] { "name's", "basename's", "refname's" }, Override = true, Capitalization = true)]
+        public static string PossessiveBare(VariableContext Context, GameObject Object)
+        {
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("Euer", Context.Capitalize);
+            string n = GermanName(Object, Context);
+            return Cap(GenitiveNoun(n, IsPlural(Object) ? Gender.Plural : GuessGender(n)), Context.Capitalize);
+        }
+
+        [VariableReplacer(new string[] { "a.name's", "an's" }, Override = true, Capitalization = true)]
+        public static string PossessiveIndefinite(VariableContext Context, GameObject Object)
+        {
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("Euer", Context.Capitalize);
+            return IndefCaseName(Context, Object, Case.Gen);
+        }
+
+        // Possessivartikel "euer" dekliniert nach Kasus + Genus des Besitztums.
+        private static string Euer(Gender g, Case c)
+        {
+            switch (c)
+            {
+                case Case.Nom: return (g == Gender.Fem || g == Gender.Plural) ? "eure" : "euer";
+                case Case.Acc: return g == Gender.Masc ? "euren" : (g == Gender.Neut ? "euer" : "eure");
+                case Case.Dat: return g == Gender.Fem ? "eurer" : g == Gender.Plural ? "euren" : "eurem";
+                default: return (g == Gender.Fem || g == Gender.Plural) ? "eurer" : "eures";
+            }
+        }
+
+        // "Eurem rostigen Wischmopp" - Possessivartikel + Mixed-Deklination (wie ein-Wörter).
+        private static string BuildPossessivePhrase(string name, Case c, bool plural, bool capitalize)
+        {
+            string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (words.Length == 0) return name;
+            string head = words[words.Length - 1];
+            Gender g = plural ? Gender.Plural : GuessGender(head);
+            var parts = new List<string> { Cap(Euer(g, c), capitalize) };
+            for (int i = 0; i < words.Length - 1; i++)
+                parts.Add(AdjStem(words[i]) + AdjEnding(DeclType.Mixed, c, g));
+            parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
+            return string.Join(" ", parts);
+        }
+
         // Pipeline self-test: runs a real template ("=object.dativ=") through the game's
         // replacer engine on a sample object, proving the FULL chain (token -> replacer ->
         // German) at load, without needing the in-game testreplacers wish. Self-diagnosing:
@@ -710,6 +801,21 @@ namespace LanguagesOfQudGerman
                         + t[0] + "\" (lat " + t[1] + ") -> \"" + got + "\"" + (ok ? "" : " (expected \"" + t[2] + "\")"));
                 }
                 catch (Exception e) { UnityEngine.Debug.Log("[QudDE] bodypart-test ERROR: " + t[0] + " : " + e.Message); }
+            }
+            // Possessiv-Logik (pure Funktionen, ohne Engine)
+            string[][] poss = {
+                new[] { GermanPossessiveSuffix("Krokodil"), "Krokodils" },
+                new[] { GermanPossessiveSuffix("Marx"), "Marx'" },
+                new[] { GermanPossessiveSuffix("{{M|Resheph}}"), "{{M|Reshephs}}" },
+                new[] { BuildPossessivePhrase("rostiger Wischmopp", Case.Dat, false, false), "eurem rostigen Wischmopp" },
+                new[] { BuildPossessivePhrase("Flammenpistole", Case.Dat, false, false), "eurer Flammenpistole" },
+                new[] { Euer(Gender.Neut, Case.Acc), "euer" },
+            };
+            foreach (var t in poss)
+            {
+                bool ok = string.Equals(t[0], t[1], StringComparison.Ordinal);
+                if (ok) pass++; else fail++;
+                if (!ok) UnityEngine.Debug.Log("[QudDE] possessiv-test FAIL: \"" + t[0] + "\" (erwartet \"" + t[1] + "\")");
             }
             UnityEngine.Debug.Log("[QudDE] pipeline-test summary: " + pass + " passed, " + fail + " failed");
         }

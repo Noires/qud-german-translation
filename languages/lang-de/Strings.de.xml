@@ -3344,7 +3344,7 @@
   <string Context="RocketSkates GetRunningBehavior DisplayName" ID="{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|power skating}}" Value="{{K-y-Y-M-m-K-m-M-Y-y-K-y-Y sequence|Power Skating}}" />
   <string Context="RocketSkates GetJumpingBehavior AbilityName" ID="Rocket Jump" Value="Raketensprung" />
   <string Context="RocketSkates GetJumpingBehavior Verb" ID="rocket jump" Value="Raketen-Sprung" />
-  <string Context="RocketSkates JumpedEvent" ID="A {{fiery|jet of flame}} shoots out of =object.the.name:asPossessed:secondPerson=!" Value="Ein {{feuriger|Flammenstrahl}} schießt aus =object.the.name:asPossessed:secondPerson=!" />
+  <string Context="RocketSkates JumpedEvent" ID="A {{fiery|jet of flame}} shoots out of =object.the.name:asPossessed:secondPerson=!" Value="Ein {{feuriger|Flammenstrahl}} schießt aus =object.dativ:asPossessed:secondPerson=!" />
   <string Context="RocketSkates RulesPostfix 1 (Sprint)" ID="Replaces Sprint with Power Skate (unlimited duration)." Value="Ersetzt Sprint durch Power Skate (unbegrenzte Dauer)." />
   <string Context="RocketSkates RulesPostfix 2 (Fire)" ID="Emits plumes of fire when the wearer moves while power skating." Value="Sendet Flammen aus, wenn der Träger sich beim Power-Skating bewegt." />
   <string Context="RocketSkates RulesPostfix 3 (Jump)" ID="Replaces Jump with Rocket Jump." Value="Ersetzt Sprung durch Raketen-Sprung." />
@@ -3538,7 +3538,7 @@
   <string Context="Liquid Volume - Cleaning message, cleaned item" ID="=object.a.name:asPossessed:secondPerson=" Value="=object.a.name:asPossessed:secondPerson=" />
   <string Context="Liquid Volume - default clean mess type" ID="mess" Value="Verpflegung" />
   <string Context="Liquid Volume - clean message (with volume)" ID="=subject.Does:clean= the =messTerms.andList= from =items.andList= with a dram of =volume.liquid.name= =subject.from.container.direction#volume=." Value="=subject.Konjde:reinigen= die =messTerms.andList= von =items.andList= mit einem Dram =volume.liquid.name= =subject.from.container.direction#volume=." />
-  <string Context="Liquid Volume - clean message (with object)" ID="=subject.Does:clean= the =messTerms.andList= from =items.andList= with =object.a.name:asPossessed:secondPerson=." Value="=subject.Konjde:reinigen= die =messTerms.andList= von =items.andList= mit =object.a.name:asPossessed:secondPerson=." />
+  <string Context="Liquid Volume - clean message (with object)" ID="=subject.Does:clean= the =messTerms.andList= from =items.andList= with =object.a.name:asPossessed:secondPerson=." Value="=subject.Konjde:reinigen= die =messTerms.andList= von =items.andList= mit =object.dativ:asPossessed:secondPerson=." />
   <string Context="Liquid Volume - clean message no known source" ID="=subject.Does:clean= the =messTerms.andList= from =items.andList=." Value="=subject.Konjde:reinigen= die =messTerms.andList= von =items.andList=." />
   <string Context="Liquid Volume - Warn clean unowned" ID="=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to pour from =subject.them=?" Value="=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr aus =subject.them= gießen möchtet?" />
   <string Context="Liquid Volume - pour menu title" ID="Where do you want to pour =object.the.name=?" Value="Wohin möchtet Ihr =object.the.name= gießen?" />
