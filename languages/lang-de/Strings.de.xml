@@ -1620,7 +1620,7 @@
   <string Context="DimensionManager Journal Observation" ID="There exists a dimension known as {{O|=dimensionName=}}." Value="Es gibt eine Dimension namens {{O|=dimensionName=}}." />
   <string Context="DimensionManager dimension.name" ID="the =spice:extradimensional.dimensionNames.!random|title=" Value="die =spice:extradimensional.dimensionNames.!random|title=" />
   <string Context="DimensionManager Journal Observation" ID="There exists a pocket dimension known as {{O|Tzimtzlum}}." Value="Es gibt eine Taschendimension namens {{O|Tzimtzlum}}." />
-  <string Context="Baboon Hero Naming.xml Context" ID="=rings.toString=-ringed" Value="=rings.toString=-ringed" />
+  <string Context="Baboon Hero Naming.xml Context" ID="=rings.toString=-ringed" Value="=rings.toString=-ringige" />
   <string Context="Baboon Hero Naming.xml Context" ID="King" Value="König" />
   <string Context="Baboon Hero Naming.xml Context" ID="Queen" Value="Königin" />
   <string Context="Baboon Hero Naming.xml Context" ID="Philanderer" Value="Frauenheld" />
@@ -1652,27 +1652,27 @@
   <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Yr" Value="Clan Yr" />
   <string Context="Goatfolk Hero Naming.xml Context" ID="Clan Mnim" Value="Clan Mnim" />
   <string Context="Snapjaw Hero Naming.xml Context" ID="fleet-footed" Value="flinkfüßig" />
-  <string Context="Snapjaw Hero Naming.xml Context" ID="learned" Value="erfuhr" />
+  <string Context="Snapjaw Hero Naming.xml Context" ID="learned" Value="gelehrt" />
   <string Context="Snapjaw Hero Naming.xml Context" ID="stalwart" Value="treu" />
   <string Context="Snapjaw Hero Naming.xml Context" ID="fearsome" Value="furchterregend" />
   <string Context="Snapjaw Hero Naming.xml Context" ID="nimble" Value="gewandt" />
-  <string Context="Snapjaw Hero Naming.xml Context" ID="hulking" Value="Wuchtig" />
+  <string Context="Snapjaw Hero Naming.xml Context" ID="hulking" Value="wuchtig" />
   <string Context="Snapjaw Hero Naming.xml Context" ID="calloused" Value="schwielig" />
   <string Context="Snapjaw Hero Naming.xml Context" ID="Skullsplitter" Value="Schädelspalter" />
-  <string Context="Snapjaw Hero Naming.xml Context" ID="Firesnarler" Value="Firesnarler" />
-  <string Context="Snapjaw Hero Naming.xml Context" ID="Bear-baiter" Value="Bärenhetz" />
-  <string Context="Snapjaw Hero Naming.xml Context" ID="Tot-eater" Value="Tot-Fresser" />
+  <string Context="Snapjaw Hero Naming.xml Context" ID="Firesnarler" Value="Feuerfletscher" />
+  <string Context="Snapjaw Hero Naming.xml Context" ID="Bear-baiter" Value="Bärenhetzer" />
+  <string Context="Snapjaw Hero Naming.xml Context" ID="Tot-eater" Value="Kinderfresser" />
   <string Context="Snapjaw Hero Naming.xml Context" ID="Gutspiller" Value="Darmabreißer" />
   <string Context="Snapjaw Hero Naming.xml Context" ID="King" Value="König" />
   <string Context="Troll Hero Naming.xml Context" ID="frenetic" Value="hektisch" />
-  <string Context="Troll Hero Naming.xml Context" ID="learned" Value="erfuhr" />
+  <string Context="Troll Hero Naming.xml Context" ID="learned" Value="gelehrt" />
   <string Context="Troll Hero Naming.xml Context" ID="everlasting" Value="ewig" />
   <string Context="Troll Hero Naming.xml Context" ID="bestial" Value="bestialisch" />
   <string Context="Troll Hero Naming.xml Context" ID="bloodthirsty" Value="blutdürstig" />
-  <string Context="Troll Hero Naming.xml Context" ID="hulking" Value="Wuchtig" />
-  <string Context="Troll Hero Naming.xml Context" ID="rubberhide" Value="Gummihaut" />
+  <string Context="Troll Hero Naming.xml Context" ID="hulking" Value="wuchtig" />
+  <string Context="Troll Hero Naming.xml Context" ID="rubberhide" Value="gummihäutig" />
   <string Context="Troll Hero Naming.xml Context" ID="Skull-collector" Value="Schädelsammler" />
-  <string Context="Troll Hero Naming.xml Context" ID="Heart-eater" Value="Herz-Esser" />
+  <string Context="Troll Hero Naming.xml Context" ID="Heart-eater" Value="Herzfresser" />
   <string Context="Troll Hero Naming.xml Context" ID="Hunt-master" Value="Jagdmeister" />
   <string Context="Troll Hero Naming.xml Context" ID="Man-eater" Value="Menschenfresser" />
   <string Context="Troll Hero Naming.xml Context" ID="two-headed" Value="zweiköpfig" />

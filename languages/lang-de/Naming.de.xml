@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Prozedurale Namensgenerierung (Sultane, Helden-Titel, Wildnis-Orte, Dorf-Rollen).
+  PARTIELLE Datei: Nur namestyles mit echtem englischem Inhalt werden überschrieben
+  (templates bzw. templatevars mit Load="Replace"); Silben-Pools und rein token-basierte
+  Stile erben unverändert aus Base/Naming.xml.
+
+  WICHTIG - Substring-Kontrakt: Die Hero-ObjectBuilder (z. B. BaboonHero1) prüfen den
+  generierten Titel per text.Contains(Strings._S("<X> Naming.xml Context", "King")).
+  Jeder hier erzeugte Wert MUSS den zugehörigen Strings.de.xml-Wert desselben Kontexts
+  als Teilstring enthalten (deklinierte Formen wie "gelehrte" ⊇ "gelehrt" sind ok),
+  sonst verlieren Helden ihre wertabhängigen Boni. Beide Seiten synchron pflegen!
+-->
+<naming Encoding="utf-8" Lang="de">
+  <namestyles HyphenSeparator="-" NameSeparator=" ">
+
+    <!-- ==== Wildnis-Orte (Gattungsbegriff + generierter Name, wie "Kloster Andechs") ==== -->
+    <namestyle Name="Qudish Banana Grove Site">
+      <templates Load="Replace"><template Name="Bananenhain =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Baroque Ruins Site">
+      <templates Load="Replace"><template Name="Barockruinen =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Deep Jungle Site">
+      <templates Load="Replace"><template Name="Tiefdschungel =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Desert Canyon Site">
+      <templates Load="Replace"><template Name="Wüstenschlucht =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Flower Fields Site">
+      <templates Load="Replace"><template Name="Blumenfelder =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Fungal Site">
+      <templates Load="Replace"><template Name="Pilz-=name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Hills Site">
+      <templates Load="Replace"><template Name="Hügel =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Jungle Site">
+      <templates Load="Replace"><template Name="Dschungel =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Lake Hinnom Site">
+      <templates Load="Replace"><template Name="Gewässer =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Moon Stair Site">
+      <templates Load="Replace"><template Name="Mondtreppe =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Mountains Site">
+      <templates Load="Replace"><template Name="Gebirge =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Palladium Reef Site">
+      <templates Load="Replace"><template Name="Palladium-Riff =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Ruins Site">
+      <templates Load="Replace"><template Name="Ruinen =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Salt Dunes Site">
+      <templates Load="Replace"><template Name="Salzdünen =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Salt Marsh Site">
+      <templates Load="Replace"><template Name="Salzsumpf =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Spindle Site">
+      <templates Load="Replace"><template Name="Spindel =name=" /></templates>
+    </namestyle>
+    <namestyle Name="Qudish Water Site">
+      <templates Load="Replace"><template Name="Gewässer =name=" /></templates>
+    </namestyle>
+
+    <!-- ==== Ziegenvolk-/Qlippoth-Orte: TitleCase-Komposita (Schwarz+wald = Schwarzwald).
+         templatevars Load="Replace" ersetzt ALLE Variablen des Stils - daher werden auch
+         die unveränderten (sultan, suffix-Meckerlaute) mitgeliefert. ==== -->
+    <namestyle Name="Goatfolk Site">
+      <templatevars Load="Replace">
+        <templatevar Name="prefix">
+          <value Name="Asch" /><value Name="Schwarz" /><value Name="Blut" /><value Name="Knochen" />
+          <value Name="Spalt" /><value Name="Farn" /><value Name="Herz" /><value Name="Mond" />
+          <value Name="Moos" /><value Name="Regen" /><value Name="Harz" /><value Name="Schädel" />
+          <value Name="Stern" /><value Name="Weiß" />
+        </templatevar>
+        <templatevar Name="sultan">
+          <value Name="Resheph" />
+        </templatevar>
+        <templatevar Name="suffix">
+          <value Name="bäh" /><value Name="bääääääh" /><value Name="bäääääh" /><value Name="bääääh" />
+          <value Name="bäääh" /><value Name="bääh" /><value Name="määh" /><value Name="määääääh" />
+          <value Name="määääh" /><value Name="määääh" /><value Name="määäh" /><value Name="rah" />
+          <value Name="rääääääh" /><value Name="räääääh" /><value Name="rääääh" /><value Name="räääh" />
+          <value Name="rääh" />
+        </templatevar>
+        <templatevar Name="forest">
+          <value Name="gehölz" /><value Name="tal" /><value Name="grund" /><value Name="lichtung" />
+          <value Name="klamm" /><value Name="schlucht" /><value Name="hain" /><value Name="wiese" />
+          <value Name="wurzel" /><value Name="au" /><value Name="forst" /><value Name="klage" />
+          <value Name="wald" />
+        </templatevar>
+        <templatevar Name="location">
+          <value Name="bogen" /><value Name="biss" /><value Name="bucht" /><value Name="spalt" />
+          <value Name="sichel" /><value Name="tiefe" /><value Name="teich" /><value Name="stern" />
+          <value Name="leere" /><value Name="brunn" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Qlippoth Site">
+      <templatevars Load="Replace">
+        <templatevar Name="prefix">
+          <value Name="Asch" /><value Name="Schwarz" /><value Name="Geist" /><value Name="Staub" />
+          <value Name="Schemen" /><value Name="Mond" /><value Name="Traum" /><value Name="Stern" />
+          <value Name="Weiß" /><value Name="Grau" /><value Name="Düster" /><value Name="Fahl" />
+          <value Name="Dämmer" /><value Name="Immer" /><value Name="Nichts" />
+        </templatevar>
+        <templatevar Name="sultan">
+          <value Name="Resheph" />
+        </templatevar>
+        <templatevar Name="suffix">
+          <value Name="bäh" /><value Name="bääääääh" /><value Name="bäääääh" /><value Name="bääääh" />
+          <value Name="bäääh" /><value Name="bääh" /><value Name="määh" /><value Name="määääääh" />
+          <value Name="määääh" /><value Name="määääh" /><value Name="määäh" /><value Name="rah" />
+          <value Name="rääääääh" /><value Name="räääääh" /><value Name="rääääh" /><value Name="räääh" />
+          <value Name="rääh" />
+        </templatevar>
+        <templatevar Name="forest">
+          <value Name="gehölz" /><value Name="tal" /><value Name="grund" /><value Name="lichtung" />
+          <value Name="klamm" /><value Name="schlucht" /><value Name="hain" /><value Name="wiese" />
+          <value Name="wurzel" /><value Name="au" /><value Name="forst" /><value Name="klage" />
+          <value Name="wald" /><value Name="mulde" />
+        </templatevar>
+        <templatevar Name="location">
+          <value Name="sichel" /><value Name="tiefe" /><value Name="teich" /><value Name="stern" />
+          <value Name="leere" /><value Name="brunn" /><value Name="traum" /><value Name="mythe" />
+          <value Name="stille" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+
+    <!-- ==== Helden-Titel/-Beinamen (Werte substring-konsistent zu Strings.de.xml) ==== -->
+    <namestyle Name="Baboon Hero Title">
+      <templates Load="Replace"><template Name="der =rings= Pavian-=position=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="position">
+          <value Name="Frauenheld" /><value Name="Rätselsteller" /><value Name="Eremit" />
+          <value Name="Kunstkenner" /><value Name="Demagoge" /><value Name="König" /><value Name="Königin" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Crab Hero Title">
+      <templates Load="Replace"><template Name="der =adjective= =creatureTypeCap=-=position=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="adjective">
+          <value Name="widerhallende" /><value Name="hektische" /><value Name="vielbeinige" />
+          <value Name="massive" /><value Name="einkrallige" /><value Name="panzergesprungene" />
+        </templatevar>
+        <templatevar Name="position">
+          <value Name="Uralte" /><value Name="Tiefenkriecher" /><value Name="Goliath" />
+          <value Name="Lord" /><value Name="Patriarch" /><value Name="Skuttler" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Goatfolk Hero Epithet">
+      <templatevars Load="Replace">
+        <templatevar Name="epithet">
+          <value Name="Sternengucker" /><value Name="Herzbeißer" /><value Name="Doppelredner" />
+          <value Name="Seelentrinker" /><value Name="Weißfinger" /><value Name="Spalthorn" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Goatfolk Hero Title">
+      <templates Load="Replace"><template Name="der Ziegenvolk-Schamane von Clan =clan=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="clan">
+          <value Name="Hotur" /><value Name="Ibex" /><value Name="Sol" />
+          <value Name="Weißzunge" /><value Name="Yr" /><value Name="Mnim" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Godhed Hero Title">
+      <templates Load="Replace">
+        <template Name="Godhed von =noun1=" />
+        <template Name="Godhed von =noun1=-=noun2=" Weight="2" />
+        <template Name="Godhed von =adj=-=noun1=" Weight="2" />
+      </templates>
+    </namestyle>
+    <namestyle Name="Snapjaw Hero Title">
+      <templates Load="Replace"><template Name="der =adjective= Schnappkiefer-=occupation=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="adjective">
+          <value Name="schwielige" /><value Name="furchterregende" /><value Name="flinkfüßige" />
+          <value Name="wuchtige" /><value Name="gelehrte" /><value Name="gewandte" /><value Name="treue" />
+        </templatevar>
+        <templatevar Name="occupation">
+          <value Name="Bärenhetzer" /><value Name="Feuerfletscher" /><value Name="Darmabreißer" />
+          <value Name="König" /><value Name="Schädelspalter" /><value Name="Kinderfresser" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Troll Hero Title">
+      <templates Load="Replace"><template Name="der =adjective= Troll-=occupation=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="adjective">
+          <value Name="verdrehte" /><value Name="ewige" /><value Name="wuchtige" />
+          <value Name="bestialische" /><value Name="hektische" /><value Name="gummihäutige" />
+          <value Name="blutdürstige" /><value Name="zweiköpfige" />
+        </templatevar>
+        <templatevar Name="occupation">
+          <value Name="Schädelsammler" /><value Name="Herzfresser" /><value Name="Jagdmeister" />
+          <value Name="Menschenfresser" /><value Name="Höhlenkönig" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Mechanimist Hero Title">
+      <templatevars Load="Replace">
+        <templatevar Name="cognomen">
+          <value Name="von Shekhinah erwählt" /><value Name="Chromgestrafft" />
+          <value Name="Liebling der Argentväter" /><value Name="Baetyl-Bursche" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Bear Hero Title">
+      <templates Load="Replace"><template Name="namhafter honigliebender =creatureType=" /></templates>
+    </namestyle>
+    <namestyle Name="Ape Hero Epithet">
+      <templates Load="Replace"><template Name="der =adjective=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="adjective">
+          <value Name="Farbenfrohe" /><value Name="Elegante" /><value Name="Modische" />
+          <value Name="Prismatische" /><value Name="Stilvolle" /><value Name="Weltgewandte" />
+          <value Name="Gutgekleidete" /><value Name="Wohlgewandete" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Ape Hero Title">
+      <templates Load="Replace"><template Name="legendärer =creatureType=" /></templates>
+    </namestyle>
+    <namestyle Name="Tortoise Hero Epithet">
+      <templates Load="Replace"><template Name="der =disposition=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="disposition">
+          <value Name="Zänkische" /><value Name="Cholerische" /><value Name="Griesgrämige" />
+          <value Name="Mürrische" /><value Name="Quengelige" /><value Name="Ruppige" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Tortoise Hero Title">
+      <templates Load="Replace"><template Name="legendärer =creatureType=" /></templates>
+    </namestyle>
+    <namestyle Name="Arachnid Hero Title">
+      <templates Load="Replace"><template Name="legendärer =creatureType= und virtuoser Weber" /></templates>
+    </namestyle>
+    <namestyle Name="Bird Hero Epithet">
+      <templates Load="Replace"><template Name="=singer=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="singer">
+          <value Name="Barde" /><value Name="Spielmann" /><value Name="Sänger" />
+          <value Name="Sängerin" /><value Name="Troubadour" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Antelope Hero">
+      <templates Load="Replace"><template Name="=name= =adjective=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="adjective">
+          <value Name="Flinkhuf" /><value Name="Schnellspringer" /><value Name="Springinsfeld" />
+          <value Name="Wieselhuf" /><value Name="Tänzelhuf" /><value Name="Drachentänzer" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Antelope Hero Title">
+      <templates Load="Replace"><template Name="legendärer =creatureType=" /></templates>
+    </namestyle>
+    <namestyle Name="Templar Hero Title">
+      <templates Load="Replace"><template Name="Kriegstreiber unter den Wahren" /></templates>
+    </namestyle>
+    <namestyle Name="Templar Commander Title">
+      <templates Load="Replace"><template Name="Ritterkommandant des Heiligen Tempels" /></templates>
+    </namestyle>
+    <namestyle Name="Templar Wraith Title">
+      <templates Load="Replace"><template Name="Schemen-Tempelritter des Binären Honorums" /></templates>
+    </namestyle>
+    <namestyle Name="Templar Grand Newfather Honorific">
+      <templates Load="Replace"><template Name="Großer Neuvater" /></templates>
+    </namestyle>
+    <namestyle Name="Templar Mecha Honorific">
+      <templates Load="Replace"><template Name="Hoher Mecha" /></templates>
+    </namestyle>
+    <namestyle Name="Barathrumite Hero Title">
+      <templates Load="Replace"><template Name="=adjective= Barathrumiten-=role=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="adjective">
+          <value Name="gefeierter" /><value Name="angesehener" /><value Name="geschätzter" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Seeker Hero Title">
+      <templatevars Load="Replace">
+        <templatevar Name="position">
+          <value Name="Diener von Ptoh" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Seeker Dervish Title">
+      <templates Load="Replace"><template Name="legendärer =creatureType=" /></templates>
+    </namestyle>
+    <namestyle Name="Pariah Hero Title">
+      <templates Load="Replace"><template Name="=creatureTypeCap=-Paria" /></templates>
+    </namestyle>
+    <namestyle Name="Barathrumite Pariah Hero Title">
+      <templates Load="Replace"><template Name="=creatureTypeCap=-Bilderstürmer" /></templates>
+    </namestyle>
+    <namestyle Name="Mechanimist Pariah Hero Title">
+      <templates Load="Replace"><template Name="=creatureTypeCap=-Häretiker" /></templates>
+    </namestyle>
+    <namestyle Name="General Hero Title">
+      <templates Load="Replace"><template Name="legendärer =creatureType=" /></templates>
+    </namestyle>
+    <namestyle Name="Lair Hero Title">
+      <templates Load="Replace"><template Name="legendärer =creatureType=" /></templates>
+    </namestyle>
+    <namestyle Name="Newly Sentient Being Hero Title">
+      <templates Load="Replace">
+        <template Name="legendärer =creatureType=" />
+        <template Name="namhafter =creatureType=" />
+      </templates>
+    </namestyle>
+    <namestyle Name="Newly Sentient Being Hero Extra Title">
+      <templates Load="Replace"><template Name="Freund von =clientele=" /></templates>
+    </namestyle>
+
+    <!-- ==== Dorf-Rollen ==== -->
+    <namestyle Name="Mayor Title">
+      <templates Load="Replace">
+        <template Name="=mayorSyn= des Dorfes" />
+        <template Name="der =mayorSyn= des Dorfes" />
+      </templates>
+    </namestyle>
+    <namestyle Name="King Honorific">
+      <templatevars Load="Replace">
+        <templatevar Name="monarchSynCap"><value Name="König" /></templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Queen Honorific">
+      <templatevars Load="Replace">
+        <templatevar Name="monarchSynCap"><value Name="Königin" /></templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Councilor Honorific">
+      <templatevars Load="Replace">
+        <templatevar Name="councilorSynCap"><value Name="Ratsherr" /></templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Senator Honorific">
+      <templatevars Load="Replace">
+        <templatevar Name="councilorSynCap"><value Name="Senator" /></templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Parliamentarian Honorific">
+      <templatevars Load="Replace">
+        <templatevar Name="councilorSyn"><value Name="Parlamentarier" /></templatevar>
+        <templatevar Name="councilorSynCap"><value Name="Parlamentarier" /></templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Viceroy Honorific">
+      <templatevars Load="Replace">
+        <templatevar Name="viceroySynCap"><value Name="Vizekönig" /></templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Administrator Epithet">
+      <templates Load="Replace"><template Name="der =wiseAdjective=" /></templates>
+      <templatevars Load="Replace">
+        <templatevar Name="wiseAdjective">
+          <value Name="Gelehrte" /><value Name="Umsichtige" /><value Name="Weise" />
+          <value Name="Besonnene" /><value Name="Gewitzte" /><value Name="Scharfsinnige" />
+          <value Name="Wachsame" /><value Name="Kluge" />
+        </templatevar>
+      </templatevars>
+    </namestyle>
+    <namestyle Name="Warden Honorific">
+      <templates Load="Replace"><template Name="Wächter" /></templates>
+    </namestyle>
+    <namestyle Name="Warden Two-Headed Honorific">
+      <templates Load="Replace"><template Name="Wächter" /></templates>
+    </namestyle>
+    <namestyle Name="Warden Plural Honorific">
+      <templates Load="Replace"><template Name="Wächter" /></templates>
+    </namestyle>
+    <namestyle Name="Merchant Title">
+      <templates Load="Replace">
+        <template Name="Dorfhändler" />
+        <template Name="der Dorfhändler" />
+      </templates>
+    </namestyle>
+    <namestyle Name="Dromad Merchant Title">
+      <templates Load="Replace"><template Name="Dromedar-Händler" /></templates>
+    </namestyle>
+    <namestyle Name="Tinker Title">
+      <templates Load="Replace">
+        <template Name="Dorftüftler" />
+        <template Name="der Dorftüftler" />
+      </templates>
+    </namestyle>
+    <namestyle Name="Apothecary Title">
+      <templates Load="Replace">
+        <template Name="Dorfapotheker" />
+        <template Name="der Dorfapotheker" />
+      </templates>
+    </namestyle>
+
+    <!-- ==== Gyre-Wiedergänger ==== -->
+    <namestyle Name="Agolgot Gyre Wight Honorific">
+      <templates Load="Replace"><template Name="Röhrenmelker" /></templates>
+    </namestyle>
+    <namestyle Name="Agolgot Gyre Wight Epithet">
+      <templates Load="Replace"><template Name="von Agolgot" /></templates>
+    </namestyle>
+    <namestyle Name="Bethsaida Gyre Wight Honorific">
+      <templates Load="Replace"><template Name="Gyre-Zwilling" /></templates>
+    </namestyle>
+    <namestyle Name="Bethsaida Gyre Wight Epithet">
+      <templates Load="Replace"><template Name="von Bethsaida" /></templates>
+    </namestyle>
+    <namestyle Name="Shug'ruith Gyre Wight Honorific">
+      <templates Load="Replace"><template Name="Tiefer" /></templates>
+    </namestyle>
+    <namestyle Name="Shug'ruith Gyre Wight Epithet">
+      <templates Load="Replace"><template Name="von Shug'ruith" /></templates>
+    </namestyle>
+    <namestyle Name="Rermadon Gyre Wight Honorific">
+      <templates Load="Replace"><template Name="Gashell" /></templates>
+    </namestyle>
+    <namestyle Name="Qas Gyre Wight Title">
+      <templates Load="Replace"><template Name="Brautjungfer von Qas" /></templates>
+    </namestyle>
+    <namestyle Name="Qon Gyre Wight Title">
+      <templates Load="Replace"><template Name="Brautjungfer von Qon" /></templates>
+    </namestyle>
+
+  </namestyles>
+</naming>

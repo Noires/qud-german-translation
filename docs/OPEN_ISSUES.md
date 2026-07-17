@@ -67,7 +67,27 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
 - Body parts in **text** — native (replacer override incl. laterality inflection).
 - 5 death reasons — native (match Turkish); word order improved.
 - 506 corrupted lookup IDs restored; Worlds/Mutations schema warnings eliminated.
+- **`TranslatorDeutsch` provider** (`CODE/Translator.de.cs`, `[LanguageProvider("de")]`):
+  de-DE culture + German number words. Covers ALL number tokens (=cardinal=, =ordinal=,
+  =multiplicative=, cardinal.things, …) since they route through Translator.* (verified in
+  Delegates.Numbers.cs). Self-test `[QudDE] zahl-test` runs at load.
+- **`TextConstants.de.xml`**: weirdSets without ä/Ä/ö/Ö/ü/Ü/ß; German article word-list so
+  `MutateZoneName` injects biome adjectives AFTER the article.
+- **`Naming.de.xml`**: partial file (Turkish pattern) — site-name templates, hero titles/
+  epithets, village roles, Gyre wights. Syllable pools inherit from Base. SUBSTRING CONTRACT:
+  hero builders check `text.Contains(_S("<X> Naming.xml Context", …))` — Naming values must
+  contain the matching Strings.de.xml value as substring (10 legacy values fixed for this).
+- **`Untranslated.de.xml`**: bookkeeping for intentionally-identical templates (never loaded,
+  `Lang="de-unuebersetzt"`).
+- `Genders.de.xml` confirmed loaded (generic `GetXMLFilesWithRoot("genders")` path).
 - Smoke-compile passes; deployed mod copy synced.
+
+## Follow-ups (deliberately NOT done yet)
+- **Possessive `'s` tokens** (49 Values, fast alles HistorySpice): `Grammar.MakePossessive`
+  ist hartes Englisch-C#; sauberste Lösung ist Umformulierung auf `=genitiv=` je Stelle.
+- **`LibraryCorpus.de.json`** (prozedurale Markov-Bücher, Base 2.4 MB): Generator-Skript über
+  die schon übersetzte `Books.de.xml` wäre der Weg; großer Sichtungsaufwand.
+- **LICENSE-Datei**: Nutzerentscheidung (QudDE-kompatibel vs. MIT).
 
 ## Resources on hand (in `docs/`)
 

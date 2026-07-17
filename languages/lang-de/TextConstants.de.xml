@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<textconstants Encoding="utf-8" Lang="de">
+  <!--
+    Weirdify-Zeichensätze: ersetzen Buchstaben, um extradimensionale Kreaturen fremdartig
+    wirken zu lassen. Regel der Vorlage: "weird" darf KEIN Zeichen sein, das in übersetztem
+    Text normal vorkommt. Für Deutsch entfernen wir daher ä/Ä, ö/Ö, ü/Ü und ß aus den
+    Base-Sets (ein Set, dessen Set nur noch dem Base entspricht, ist deaktiviert).
+    Sets werden per Base-Schlüssel überschrieben; alle nicht aufgeführten Sets erben
+    unverändert aus Base/TextConstants.xml.
+  -->
+  <weirdSets>
+    <weirdSet Base="a" Set="aâàåáªα" />
+    <weirdSet Base="A" Set="AÅÆ" />
+    <weirdSet Base="B" Set="B" />
+    <weirdSet Base="o" Set="oôòóσ°" />
+    <weirdSet Base="O" Set="OΦΘφ" />
+    <weirdSet Base="u" Set="uûùúµ" />
+    <weirdSet Base="U" Set="Uµ" />
+  </weirdSets>
+  <!--
+    Artikel-Wortliste: TranslatorBase.ZoneNamePrefixes nutzt sie, um bei Biom-Zonennamen
+    das Adjektiv NACH dem Artikel einzufügen ("die verfluchten Dünen" statt
+    "verfluchte die Dünen"). Additiv zur Base-Liste (a/an/the/some bleiben erhalten).
+  -->
+  <wordlists>
+    <article Word="der" />
+    <article Word="die" />
+    <article Word="das" />
+    <article Word="dem" />
+    <article Word="den" />
+    <article Word="des" />
+    <article Word="ein" />
+    <article Word="eine" />
+    <article Word="einem" />
+    <article Word="einen" />
+    <article Word="einer" />
+    <article Word="eines" />
+    <article Word="einige" />
+    <article Word="etwas" />
+  </wordlists>
+</textconstants>
