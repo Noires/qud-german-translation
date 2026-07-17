@@ -820,13 +820,21 @@ namespace LanguagesOfQudGerman
         private static string PossStem(GameObject owner)
         {
             if (owner.IsPlayer() && Grammar.AllowSecondPerson) return "euer";
-            if (!IsProper(owner))
+            // Sinn-Kongruenz vor Nomen-Genus: echte männliche/weibliche Figuren behalten ihr
+            // Geschlecht ("die Karawanenwache (m) ... mit seiner Axt"). Erst ungegenderte
+            // Kreaturen (nonspecific/neuter) fallen auf das grammatische Genus des deutschen
+            // Nomens zurück (das Krokodil -> sein, die Schlange -> ihr).
+            string gname = owner.GetGender()?.Name;
+            if (gname == "male" || gname == "hindren male") return "sein";
+            if (gname == "female" || gname == "hindren female") return "ihr";
+            if (gname == "males" || gname == "females" || gname == "plural" || gname == "collective") return "ihr";
+            if (IsProper(owner))
             {
-                Gender g = IsPlural(owner) ? Gender.Plural : GuessGender(GermanName(owner));
-                return (g == Gender.Fem || g == Gender.Plural) ? "ihr" : "sein";
+                string adj = owner.GetPronounProvider().PossessiveAdjective;
+                return string.IsNullOrEmpty(adj) ? "sein" : adj.ToLowerInvariant();
             }
-            string adj = owner.GetPronounProvider().PossessiveAdjective;
-            return string.IsNullOrEmpty(adj) ? "sein" : adj.ToLowerInvariant();
+            Gender g = IsPlural(owner) ? Gender.Plural : GuessGender(GermanName(owner));
+            return (g == Gender.Fem || g == Gender.Plural) ? "ihr" : "sein";
         }
 
         // Dekliniert sein/ihr/euer/mein/dein/unser nach Genus des Besitztums + Kasus
