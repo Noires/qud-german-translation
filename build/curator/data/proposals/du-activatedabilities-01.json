@@ -1,0 +1,1458 @@
+{
+  "batch": "du-activatedabilities-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-activatedabilities-01)",
+  "created": "2026-10-22 14:50",
+  "items": [
+    {
+      "uid": "cbba57082ea5178d",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandAmputateLimb]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr amputiert eine eurer eigenen Gliedmaßen oder die Gliedmaße eines infizierten Begleiters.",
+      "new_value": "Du amputierst eine deiner eigenen Gliedmaßen oder die Gliedmaße eines infizierten Begleiters.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3c66157a99d1338f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandFlyToggle]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr überquert Bodengelände und könnt von Bodenkreaturen nicht im Nahkampf angegriffen werden.",
+      "new_value": "Du überquerst Bodengelände und kannst von Bodenkreaturen nicht im Nahkampf angegriffen werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df3ae574e45ab12f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandFlyToggle]/description#1/p#5@#text",
+      "context": null,
+      "old_value": "Ihr könnt nur über dem Boden fliegen.",
+      "new_value": "Du kannst nur über dem Boden fliegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "01033f5ef23b46c6",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSwoopAttack]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr stoßt herab, um ein Ziel auf dem Boden anzugreifen, wobei Ihr einen Zug für den Angriff und einen für die Rückkehr in die Luft aufwendet.",
+      "new_value": "Du stößt herab, um ein Ziel auf dem Boden anzugreifen, wobei du einen Zug für den Angriff und einen für die Rückkehr in die Luft aufwendest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "98a8667d397a70bb",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandEndBurrowing]/description#1@#text",
+      "context": null,
+      "old_value": "Sie verlassen Ihren Bau.",
+      "new_value": "Du verlässt deinen Bau.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4220e4fade9dcd7f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandEndDomination]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr hört auf, diese Kreatur zu beherrschen.",
+      "new_value": "Du hörst auf, diese Kreatur zu beherrschen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8848516802f8409b",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ShadeOilPhase]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt für kurze Zeit durch feste Objekte hindurchgehen.",
+      "new_value": "Du kannst für kurze Zeit durch feste Objekte hindurchgehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b7e968fb7c50613e",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandEndSubmerged]/description#1@#text",
+      "context": null,
+      "old_value": "Sie verlassen Ihren Unterschlupf.",
+      "new_value": "Du verlässt deinen Unterschlupf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d4e8a455d6ebf11",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandRunOver]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr stürmt in einer Linie vor und rammt Kreaturen in Eurem Weg.",
+      "new_value": "Du stürmst in einer Linie vor und rammst Kreaturen in deinem Weg.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1fd6ac69bc875682",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandClone]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr klont eine organische Kreatur.",
+      "new_value": "Du klonst eine organische Kreatur.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "08c5b9dbcb690631",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandToggleAnchorSpikes]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt nicht gezwungen werden, Euch durch physische Mittel zu bewegen.",
+      "new_value": "Du kannst nicht gezwungen werden, dich durch physische Mittel zu bewegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e14b3181a8dfb011",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandCathedraBlackOpal]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr zerreißt die Raumzeit und teleportiert Euch an einen zufälligen Ort in Qud.",
+      "new_value": "Du zerreißt die Raumzeit und teleportierst dich an einen zufälligen Ort in Qud.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "be9e58dfe872b447",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandCathedraSapphire]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr beschwört eine Druckwelle um euch selbst. Kreaturen werden vom Zentrum der Explosion weg gestoßen, betäubt und erleiden quetschenden Schaden in bis zu 3 Etappen.",
+      "new_value": "Du beschwörst eine Druckwelle um dich selbst. Kreaturen werden vom Zentrum der Explosion weg gestoßen, betäubt und erleiden quetschenden Schaden in bis zu 3 Etappen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "992870dc8a15b67c",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandCathedraWhiteOpal]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß Glitter um Euch herum frei.",
+      "new_value": "Du setzt einen Stoß Glitter um dich herum frei.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80a490d996f057c2",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandRecomposite]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch zu einem beliebigen erforschten Ort auf der Karte.",
+      "new_value": "Du teleportierst dich zu einem beliebigen erforschten Ort auf der Karte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ff42e5ba1cd5f67c",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandEmergencyRecomposite]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch zu einem zufälligen, erforschten Ort auf der Karte.",
+      "new_value": "Du teleportierst dich zu einem zufälligen, erforschten Ort auf der Karte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d39198b31d974c3e",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandToggleCyberNightVision]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr seht im Dunkeln.",
+      "new_value": "Du siehst im Dunkeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3d6f0446beba06ae",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandActivateOnboardRecoilerTeleporter]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch zum programmierten Ort zurück.",
+      "new_value": "Du teleportierst dich zum programmierten Ort zurück.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "af3f820ef1de971d",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTogglePhaseHarmonicModulator]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt mit In-Phase- und Out-of-Phase-Objekten und Kreaturen interagieren.",
+      "new_value": "Du kannst mit In-Phase- und Out-of-Phase-Objekten und Kreaturen interagieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c6dff50a438a2029",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[AlterHolographicVisage]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr ändert Euer Aussehen und gewinnt +200 Ruf bei der ausgewählten Fraktion.",
+      "new_value": "Du änderst dein Aussehen und gewinnst +200 Ruf bei der ausgewählten Fraktion.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f20d11874484bf8",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTogglePhaseAdaptiveScope]/description#1@#text",
+      "context": null,
+      "old_value": "Wenn Ihr eine Fernwaffe abfeuert oder etwas wirft, wechselt Euer Projektil die Phase, um Hindernisse zu durchqueren und Euer Ziel zu erreichen.",
+      "new_value": "Wenn du eine Fernwaffe abfeuerst oder etwas wirfst, wechselt dein Projektil die Phase, um Hindernisse zu durchqueren und dein Ziel zu erreichen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "65cd4dd3b1063a44",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandActivateTetheredRecoilerTeleporter]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch zum verbundenen Ort.",
+      "new_value": "Du teleportierst dich zum verbundenen Ort.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8c944b1b805e288c",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ActivateAjiConch]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr blasst in die Muschel und erzeugt einen Gaskegel.",
+      "new_value": "Du bläst in die Muschel und erzeugst einen Gaskegel.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "db75b87779219100",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandRecoil]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch zu einem programmierten Ort zurück.",
+      "new_value": "Du teleportierst dich zu einem programmierten Ort zurück.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f07548210a0657ad",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ToggleForceEmitter]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Erschafft um Euch herum ein 3x3-Kraftfeld.",
+      "new_value": "Erschafft um dich herum ein 3x3-Kraftfeld.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b83104ab64715a11",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ToggleForceEmitter]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Ihr könnt Geschosswaffen durch das Kraftfeld abfeuern.",
+      "new_value": "Du kannst Geschosswaffen durch das Kraftfeld abfeuern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4787c1e4507e2de9",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ActivateTeleprojector]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr projiziert euren Geist in einen benachbarten Roboter und kontrolliert seine Handlungen, während euer Körper ruht.",
+      "new_value": "Du projizierst deinen Geist in einen benachbarten Roboter und kontrollierst seine Handlungen, während dein Körper ruht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "447c4c636f24bb93",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ConfigureTemperatureController]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt eine Zieltemperatur und werdet jede Runde geheizt oder gekühlt, bis diese erreicht ist.",
+      "new_value": "Du setzt eine Zieltemperatur und wirst jede Runde geheizt oder gekühlt, bis diese erreicht ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d69c8726e60988fa",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ActivatePaxInfection]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr bläst Sporen aus und verbreitet Klanq.",
+      "new_value": "Du bläst Sporen aus und verbreitest Klanq.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "019c749782cc7647",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ActivateSkyshroud]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr eilt los in einer Flammen- und Rauchsäule.",
+      "new_value": "Du eilst los in einer Flammen- und Rauchsäule.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fedca83ce70d80be",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ActivateSkyshroud]/description#1/p#5@#text",
+      "context": null,
+      "old_value": "Für je drei Felder, die Ihr sprintet, erhaltet Ihr +2 auf Treffer und +2 auf Durchschlag bei Eurem Sprintangriff.",
+      "new_value": "Für je drei Felder, die du sprintest, erhältst du +2 auf Treffer und +2 auf Durchschlag bei deinem Sprintangriff.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f91bce422451ac3d",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandChangeGrip]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr ändert den Griffstil auf Eurer Waffe und führt sie als einen anderen Waffentyp.",
+      "new_value": "Du änderst den Griffstil auf deiner Waffe und führst sie als einen anderen Waffentyp.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "387a54ea464ba33f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBeguileCreature]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr verführt eine benachbarte Kreatur dazu, Euch treu zu dienen.",
+      "new_value": "Du verführst eine benachbarte Kreatur dazu, dir treu zu dienen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "17c9c9d3c4c00f3f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBurgeoning]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr veranlasst Pflanzen, spontan in einer nahen Gegend zu wachsen und Eure Feinde zu behindern.",
+      "new_value": "Du veranlasst Pflanzen, spontan in einer nahen Gegend zu wachsen und deine Feinde zu behindern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a8e3b163aeb897c8",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandClairvoyance]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr erhaltet kurzzeitig Sicht auf eine nahe Gegend.",
+      "new_value": "Du erhältst kurzzeitig Sicht auf eine nahe Gegend.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7c8b7305b6228ffb",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandConfuse]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr verwirrt nahe Feinde.",
+      "new_value": "Du verwirrst nahe Feinde.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aac3ef5e074dd605",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandCryokinesis]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr kühlt mit Eurer Gedankenkraft eine nahe Gegend ab, verursacht Schaden und friert Dinge für 3 Runden ein.",
+      "new_value": "Du kühlst mit deiner Gedankenkraft eine nahe Gegend ab, verursachst Schaden und frierst Dinge für 3 Runden ein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "09f08b3d8a403410",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandForceBubble]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Erschafft um Euch herum ein 3x3-Kraftfeld.",
+      "new_value": "Erschafft um dich herum ein 3x3-Kraftfeld.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2e90460fcbcefb39",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandForceBubble]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Ihr könnt Geschosswaffen durch das Kraftfeld abfeuern.",
+      "new_value": "Du kannst Geschosswaffen durch das Kraftfeld abfeuern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4a336f81fd0976dd",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandForceWall]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Sie erzeugen eine Kraftwand, die Sie vor Ihren Feinden schützt.",
+      "new_value": "Du erzeugst eine Kraftwand, die dich vor deinen Feinden schützt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "559b695b383c3fe8",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandForceWall]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Ihr könnt Geschosswaffen durch das Kraftfeld abfeuern.",
+      "new_value": "Du kannst Geschosswaffen durch das Kraftfeld abfeuern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7b15b3179e4536c",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandKindle]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr entzündet ein kleines Feuer mit eurem Geist.",
+      "new_value": "Du entzündest ein kleines Feuer mit deinem Geist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9cf560cfa79c4c84",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandLeyShift]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr verschiebt die Raumzeit in der lokalen Region.",
+      "new_value": "Du verschiebst die Raumzeit in der lokalen Region.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80b6aa1d7cc1ce93",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandLifeDrain]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr verbindet Euch mit einer nahen organischen Kreatur und saugt ihre Lebenskraft aus.",
+      "new_value": "Du verbindest dich mit einer nahen organischen Kreatur und saugst ihre Lebenskraft aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f27c8fbc08db4b35",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandLase]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Sie konzentrieren Ihr Umgebungslicht zu einem Laserstrahl.",
+      "new_value": "Du konzentrierst dein Umgebungslicht zu einem Laserstrahl.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0e33b3214d0c0a7",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandLase]/description#1/p#2@#text",
+      "context": null,
+      "old_value": "Reduziert vorübergehend den Radius Eures Umgebungslichts um 1.",
+      "new_value": "Reduziert vorübergehend den Radius deines Umgebungslichts um 1.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "803041bc20851d55",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandAmbientLight]/description#1/p#2@#text",
+      "context": null,
+      "old_value": "Ihr könnt das Licht in einen Laserstrahl konzentrieren und den Radius vorübergehend um 1 verringern.",
+      "new_value": "Du kannst das Licht in einen Laserstrahl konzentrieren und den Radius vorübergehend um 1 verringern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eda4abdb5af9b713",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandPrecognition]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr blickt in eure nahe Zukunft.",
+      "new_value": "Du blickst in deine nahe Zukunft.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d04f70f6e828ee45",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandPrecognition]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr könnt diese Kraft aktivieren und später zu dem Zeitpunkt zurückgehen, als ihr sie aktiviert habt.",
+      "new_value": "Du kannst diese Kraft aktivieren und später zu dem Zeitpunkt zurückgehen, als du sie aktiviert hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d198c0ec5f12b0d1",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandPsychometryMenu]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr lest die Geschichte von Artefakten, indem ihr sie berührt, und lernt, was sie tun und wie sie hergestellt wurden.",
+      "new_value": "Du liest die Geschichte von Artefakten, indem du sie berührst, und lernst, was sie tun und wie sie hergestellt wurden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8e5cad653e2019b7",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandPyrokinesis]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Sie heizen eine nahegelegene Fläche mit Ihrem Verstand auf, richten Schaden an und setzen Dinge 3 Runden lang in Brand.",
+      "new_value": "Du heizt eine nahegelegene Fläche mit deinem Verstand auf, richtest Schaden an und setzt Dinge 3 Runden lang in Brand.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d70a3dd4c567e711",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSpaceTimeVortex]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr zerreißt die Raumzeit und schleudert nahegelegene Dinge durch einen Riss im kosmischen Gefüge.",
+      "new_value": "Du zerreißt die Raumzeit und schleuderst nahegelegene Dinge durch einen Riss im kosmischen Gefüge.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "71b33f4017fa9d60",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSpaceTimeVortex]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Ihr könnt den Wirbel betreten, um euch zu einem zufälligen Ort in Qud zu teleportieren.",
+      "new_value": "Du kannst den Wirbel betreten, um dich zu einem zufälligen Ort in Qud zu teleportieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f54babaacdbe0dbc",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandStunningForce]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr beschwört eine Druckwelle in einem nahen Bereich. Kreaturen werden vom Zentrum der Explosion weg gestoßen, betäubt und erleiden quetschenden Schaden in bis zu 3 Etappen.",
+      "new_value": "Du beschwörst eine Druckwelle in einem nahen Bereich. Kreaturen werden vom Zentrum der Explosion weg gestoßen, betäubt und erleiden quetschenden Schaden in bis zu 3 Etappen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9e5de52f311d9044",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSunderMind]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr zerreißt den Verstand eines Feindes und lässt ihn vor Schmerz taumeln.",
+      "new_value": "Du zerreißt den Verstand eines Feindes und lässt ihn vor Schmerz taumeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d037d0a4d6fadb72",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSunderMind]/description#1/p#6@#text",
+      "context": null,
+      "old_value": "Nach der zehnten Runde verursachen Sie Bonusschaden gleich dem Gesamtschaden, den Sie bisher verursacht haben.",
+      "new_value": "Nach der zehnten Runde verursachst du Bonusschaden gleich dem Gesamtschaden, den du bisher verursacht hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b26e02862d70d285",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTelepathy]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt durch den psychischen Äther mit anderen kommunizieren.",
+      "new_value": "Du kannst durch den psychischen Äther mit anderen kommunizieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "10708fc9bdaed23a",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTelepathy]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Es kostet Euch viel weniger Zeit, Euren Gefährten Befehle zu erteilen.",
+      "new_value": "Es kostet dich viel weniger Zeit, deinen Gefährten Befehle zu erteilen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3cc914b850fc3409",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTeleport]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch an einen nahegelegenen Ort.",
+      "new_value": "Du teleportierst dich an einen nahegelegenen Ort.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "abfc861640997617",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTeleport]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Teleportiert Euch an einen zufälligen Ort innerhalb eines bestimmten Bereichs.",
+      "new_value": "Teleportiert dich an einen zufälligen Ort innerhalb eines bestimmten Bereichs.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "17443ec3d303b486",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandLeaderTeleport]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch an einen nahegelegenen Ort in der Nähe eures Anführers.",
+      "new_value": "Du teleportierst dich an einen nahegelegenen Ort in der Nähe deines Anführers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9f14bed32104a0ce",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTeleportOther]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.",
+      "new_value": "Du teleportierst eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a10c3c735d821763",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTemporalFugue]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr bewegt euch schnell vor und zurück durch die Zeit und erstellt mehrere Kopien eurer selbst.",
+      "new_value": "Du bewegst dich schnell vor und zurück durch die Zeit und erstellst mehrere Kopien deiner selbst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a87a69db766a88ab",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandQuantumFugue]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr bewegt euch schnell vor und zurück durch die Zeit und erstellt mehrere Kopien eurer selbst.",
+      "new_value": "Du bewegst dich schnell vor und zurück durch die Zeit und erstellst mehrere Kopien deiner selbst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f2d275956738a55",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTimeDilation]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Sie verzerren die Zeit um Ihre Person, um Ihre Feinde zu verlangsamen.",
+      "new_value": "Du verzerrst die Zeit um deine Person, um deine Feinde zu verlangsamen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2dd70d18f694ad06",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSpitAcid]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr speiet eine Pfütze ätzender Säure.",
+      "new_value": "Du speist eine Pfütze ätzender Säure.",
+      "note": "speiet -> speist",
+      "status": "accepted"
+    },
+    {
+      "uid": "06d2133e7e2b9706",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBelchUrchins]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr stoßt verschiedene Stacheltiere in einer nahen Gegend aus.",
+      "new_value": "Du stößt verschiedene Stacheltiere in einer nahen Gegend aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "92db071fa973a533",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBurrow]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt durch Graben unter der Erde reisen.",
+      "new_value": "Du kannst durch Graben unter der Erde reisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5aff93369103748c",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandScintillate]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr könnt nicht handeln, während Ihr funkelt.",
+      "new_value": "Du kannst nicht handeln, während du funkelst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2122fedb0e9f0d33",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandFearAura]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr macht Kreaturen um Euch herum Angst.",
+      "new_value": "Du machst Kreaturen um dich herum Angst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "172d90b0f9b2fab4",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandFearAura]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr veranlasst benachbarte Kreaturen, in Angst zu fliehen.",
+      "new_value": "Du veranlasst benachbarte Kreaturen, in Angst zu fliehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ba2b1ec055389be",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandStoneGaze]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr verwandelt Dinge mit eurem Blick in Stein.",
+      "new_value": "Du verwandelst Dinge mit deinem Blick in Stein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "29399d75cd9a2ab3",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandStoneGaze]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Schießt nach einer 3-Runden-Aufladung einen Strahl ab, der Euer Ziel zu Stein verwandelt.",
+      "new_value": "Schießt nach einer 3-Runden-Aufladung einen Strahl ab, der dein Ziel zu Stein verwandelt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7e593d56c9847d02",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandCrungleGaze]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr provoziert Wachträume mit eurem Blick.",
+      "new_value": "Du provozierst Wachträume mit deinem Blick.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ebe8f48c6b5276b2",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandCrungleGaze]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Schießt nach einer 3-Runden-Aufladung einen Strahl ab, der Euer Ziel in einen Wachtraum sendet.",
+      "new_value": "Schießt nach einer 3-Runden-Aufladung einen Strahl ab, der dein Ziel in einen Wachtraum sendet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0a7aaf793e71e0c4",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandIrisdualBeam]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr werft Kraftstrahlen über das Spektrum von Licht und Materie aus.",
+      "new_value": "Du wirfst Kraftstrahlen über das Spektrum von Licht und Materie aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "308fa80fe4492010",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandMassiveCharge]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Nach einer Runde Aufwärmung beginnen Sie einen zerstörerischen Angriff, zerstören Wände und stoßen Kreaturen aus Ihrem Weg.",
+      "new_value": "Nach einer Runde Aufwärmung beginnst du einen zerstörerischen Angriff, zerstörst Wände und stößt Kreaturen aus deinem Weg.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8eb9f185a23d03c7",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSlog]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr speiet eine Lache Flüssigkeit aus eurem Raum in einen benachbarten Bereich.",
+      "new_value": "Du speist eine Lache Flüssigkeit aus deinem Raum in einen benachbarten Bereich.",
+      "note": "speiet -> speist",
+      "status": "accepted"
+    },
+    {
+      "uid": "f36e161616688b49",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSpinWeb]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr spinnt klebrige Seidennetze.",
+      "new_value": "Du spinnst klebrige Seidennetze.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "730831183e7a5411",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSpinWeb]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Während des Drehens hinterlasst Ihr Spinnweben in Eurer Spur.",
+      "new_value": "Während des Drehens hinterlässt du Spinnweben in deiner Spur.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "334f7e7c69053b72",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSpinSimpleWeb]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr spinnt klebrige Seidennetze.",
+      "new_value": "Du spinnst klebrige Seidennetze.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "671f26f50990ed6a",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSpinSimpleWeb]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Während des Drehens hinterlasst Ihr Spinnweben in Eurer Spur.",
+      "new_value": "Während des Drehens hinterlässt du Spinnweben in deiner Spur.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "167dd113adf872f6",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandStickyTongue]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Nach einer Runde Aufwärmung ziehen Sie die nächste Kreatur mit Ihrer Zunge zu Ihnen.",
+      "new_value": "Nach einer Runde Aufwärmung ziehst du die nächste Kreatur mit deiner Zunge zu dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5dac95dc703b641b",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandWaveformWorm]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr spurtet in eine Richtung, verursacht Schaden an Kreaturen, durch die Ihr geht.",
+      "new_value": "Du spurtest in eine Richtung, verursachst Schaden an Kreaturen, durch die du gehst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "652be4e1837958e4",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_ConfusionBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Verwirrungsgas aus.",
+      "new_value": "Du atmest Verwirrungsgas aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b92e37cf2085b1a2",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_CorrosiveBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Ätzgas aus.",
+      "new_value": "Du atmest Ätzgas aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "03ab02da9e258dcd",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_FireBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Feuer aus.",
+      "new_value": "Du atmest Feuer aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7901ba4e1363ed79",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_IceBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Eis aus.",
+      "new_value": "Du atmest Eis aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c447a37c77d069f3",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_NormalityBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Normalitätsgas aus.",
+      "new_value": "Du atmest Normalitätsgas aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "798886fff06c1806",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_PoisonBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Giftgas aus.",
+      "new_value": "Du atmest Giftgas aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9560765a23ffc045",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_ShameBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Schandegas aus.",
+      "new_value": "Du atmest Schandegas aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "46769cf306a6c423",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_SleepBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Schlafgas aus.",
+      "new_value": "Du atmest Schlafgas aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9078b98c2877cd16",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBreathe_StunBreather]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr atmet Lähmungsgas aus.",
+      "new_value": "Du atmest Lähmungsgas aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "38f3db6c01255db1",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandToggleBurrowingClaws]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr besitzt schaufelähnliche Klauen, mit denen Ihr Euch durch die Erde graben könnt.",
+      "new_value": "Du besitzt schaufelähnliche Klauen, mit denen du dich durch die Erde graben kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "92c8a428e285d677",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandToggleProvideCharge]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr aktiviert ausgerüstete Geräte mit integrierter Energie.",
+      "new_value": "Du aktivierst ausgerüstete Geräte mit integrierter Energie.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de18253d62cb57c6",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandSleepGas]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß Schlafgas um Euch herum frei",
+      "new_value": "Du setzt einen Stoß Schlafgas um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "630c6ed4d01df0d3",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandNormalityGas]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß Normalitätsgas um Euch herum frei",
+      "new_value": "Du setzt einen Stoß Normalitätsgas um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a2c3823ecdd3206f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandAcidGas]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß ätzenden Gases um Euch herum frei",
+      "new_value": "Du setzt einen Stoß ätzenden Gases um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8aa2a72be3746fda",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandPlasma]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß Plasma um Euch herum frei",
+      "new_value": "Du setzt einen Stoß Plasma um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "97380f45a9fc8b71",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandDefoliantGas]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß Entlaubungsmittel um Euch herum frei",
+      "new_value": "Du setzt einen Stoß Entlaubungsmittel um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "28634bb9850dfa88",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandPoisonGas]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß Giftgas um Euch herum frei",
+      "new_value": "Du setzt einen Stoß Giftgas um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b54759c853068cc2",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandFungicideGas]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß Fungizid um Euch herum frei",
+      "new_value": "Du setzt einen Stoß Fungizid um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c6a2a0020f55606d",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandConfusionGas]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Ausbruch von Verwirrungsgas um euch herum frei",
+      "new_value": "Du setzt einen Ausbruch von Verwirrungsgas um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9700663bf146b242",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[GasGenerationCommandGlitterGas]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt einen Stoß Glitter um Euch herum frei",
+      "new_value": "Du setzt einen Stoß Glitter um dich herum frei",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7758faf87e1939e",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandMetamorphosis]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr nehmt die Form jeder Kreatur an, die Ihr berührt.",
+      "new_value": "Du nimmst die Form jeder Kreatur an, die du berührst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a1756a2465409389",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandEndMetamorphosis]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr hört auf, die Form dieser Kreatur anzunehmen.",
+      "new_value": "Du hörst auf, die Form dieser Kreatur anzunehmen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e9961a02be0a1cea",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTogglePhase]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt für kurze Zeit durch feste Objekte hindurchgehen.",
+      "new_value": "Du kannst für kurze Zeit durch feste Objekte hindurchgehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "027b1489bed96e18",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandBask]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr badet im Sonnenlicht und absorbiert die nährenden Strahlen der Sonne statt eine Mahlzeit zu essen.",
+      "new_value": "Du badest im Sonnenlicht und absorbierst die nährenden Strahlen der Sonne statt eine Mahlzeit zu essen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c837e08e2b7195f8",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSpitSlime]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr produziert einen zähen Schleim, den ihr auf Dinge spucken könnt.",
+      "new_value": "Du produzierst einen zähen Schleim, den du auf Dinge spucken kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d25f0f5dea3dd220",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandRepellingForce]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr beschwört eine abstoßende Kraft im umgebenden Bereich und wirft Feinde zurück.",
+      "new_value": "Du beschwörst eine abstoßende Kraft im umgebenden Bereich und wirfst Feinde zurück.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "62607aa070a02c0e",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandAcrobaticsJump]/description#1/switch[CanJumpOverCreatures]/case#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt über Kreaturen springen.",
+      "new_value": "Du kannst über Kreaturen springen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "161c8c5878ac1788",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandAcrobaticsJump]/description#1/switch[CanJumpOverCreatures]/default#2/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt nicht über Kreaturen springen.",
+      "new_value": "Du kannst nicht über Kreaturen springen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "87c65f28d039b6ad",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandDismember]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr führt einen Axtenangriff gegen einen Gegner aus. Wenn ihr trefft und durchdringt, trennt ihr eines ihrer Glieder zufällig ab und sie fangen an zu bluten.",
+      "new_value": "Du führst einen Axtenangriff gegen einen Gegner aus. Wenn du triffst und durchdringst, trennst du eines ihrer Glieder zufällig ab und sie fangen an zu bluten.",
+      "note": "ihrer Glieder = Gegner (3. Pers.), unverändert",
+      "status": "accepted"
+    },
+    {
+      "uid": "2e607e245842e2b0",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandAxeHookAndDrag]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Sie fassen das Glied eines Gegners mit dem Schaft Ihrer Axt.",
+      "new_value": "Du fasst das Glied eines Gegners mit dem Schaft deiner Axt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "336add9dabd23309",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandAxeHookAndDrag]/description#1/p#2@#text",
+      "context": null,
+      "old_value": "Wenn erfolgreich, zieht Ihr Euren Gegner mit Euch mit, wenn Ihr Euch bewegt, und Ihr macht einen kostenlosen Angriff mit Eurer Axt.",
+      "new_value": "Wenn erfolgreich, ziehst du deinen Gegner mit dir mit, wenn du dich bewegst, und du machst einen kostenlosen Angriff mit deiner Axt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0af5ecaa8a8aee9",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandAxeHookAndDrag]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Euer Gegner bekommt eine Chance, die Aktion zu widerstehen und sich zu Beginn seines Zuges zu befreien.",
+      "new_value": "Dein Gegner bekommt eine Chance, die Aktion zu widerstehen und sich zu Beginn seines Zuges zu befreien.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a5144c6a6946e957",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandButcherToggle]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr zerlegt Leichen, über die Ihr geht.",
+      "new_value": "Du zerlegst Leichen, über die du gehst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7af86b7089dcc2d4",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandHarvestToggle]/description#1@#text",
+      "context": null,
+      "old_value": "Sie ernten Pflanzen, über die Sie gehen.",
+      "new_value": "Du erntest Pflanzen, über die du gehst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ad06e4bf9e7cdf93",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandFloorSmash]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Nach einer 3-Runden-Aufwärmung starten Sie eine Fulkritplatte auf den Boden, was Schaden verursacht und eine Grube im Zielfeld erstellt, mit einer Chance für zusätzliche Gruben in benachbarten Feldern.",
+      "new_value": "Nach einer 3-Runden-Aufwärmung startest du eine Fulkritplatte auf den Boden, was Schaden verursacht und eine Grube im Zielfeld erstellt, mit einer Chance für zusätzliche Gruben in benachbarten Feldern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "69bd0f8c4afa8d72",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSnapjawHowl]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr heult auf und versetzt nahegelegene Snapjaws in Raserei.",
+      "new_value": "Du heulst auf und versetzt nahegelegene Snapjaws in Raserei.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5d6e1517ae5779ea",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSubmerge]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr taucht euch in einen Wasserkörper ein.",
+      "new_value": "Du tauchst dich in einen Wasserkörper ein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3f2df4bf5e0e834f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandConk]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr führt einen Angriff mit einem Knüppel gegen einen benachbarten Gegner aus. Wenn ihr trefft, betäubt ihr sie automatisch für 3-4 Runden.",
+      "new_value": "Du führst einen Angriff mit einem Knüppel gegen einen benachbarten Gegner aus. Wenn du triffst, betäubst du sie automatisch für 3-4 Runden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b1b20bb30feb8b5",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandCudgelSlam]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr führt einen Angriff mit einem Knüppel gegen einen benachbarten Gegner mit +1 auf eurem Penetrationswurf aus.",
+      "new_value": "Du führst einen Angriff mit einem Knüppel gegen einen benachbarten Gegner mit +1 auf deinem Penetrationswurf aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "65b1125c87d4610d",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandFlurry]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr führt einen Angriff mit jedem waffentragenden Glied aus, einschließlich zusätzlicher Glieder, die durch Mutation oder Technologie gewährt werden.",
+      "new_value": "Du führst einen Angriff mit jedem waffentragenden Glied aus, einschließlich zusätzlicher Glieder, die durch Mutation oder Technologie gewährt werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f31a9ae823050b8",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandLunge]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "{{W|Aggressive Haltung}}: Stößt durch einen leeren Raum auf einen Gegner und greift mit +2 auf euren Durchdringungsgewurf an. Ihr müsst durch den leeren Raum stoßen.",
+      "new_value": "{{W|Aggressive Haltung}}: Stößt durch einen leeren Raum auf einen Gegner und greift mit +2 auf deinen Durchdringungsgewurf an. Du musst durch den leeren Raum stoßen.",
+      "note": "nur euren->deinen, Ihr müsst->Du musst; Stößt/greift (3. Sg.) unverändert",
+      "status": "accepted"
+    },
+    {
+      "uid": "de17145bacf06544",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandPersuasionBerate]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr beschämt eine nahegelegene Kreatur und senkt ihre DV, Zielgenauigkeit, Ego und Willenskraft um 4 sowie ihre Beweglichkeit um 10%.",
+      "new_value": "Du beschämst eine nahegelegene Kreatur und senkst ihre DV, Zielgenauigkeit, Ego und Willenskraft um 4 sowie ihre Beweglichkeit um 10%.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1b2f16fc9189ada8",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandPersuasionMenacingStare]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr starrt einen Gegner an und treibt ihn in Angst zur Flucht.",
+      "new_value": "Du starrst einen Gegner an und treibst ihn in Angst zur Flucht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f5ca0b542822180",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandProselytize]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr überredet eine intelligente Kreatur, euch zu folgen.",
+      "new_value": "Du überredest eine intelligente Kreatur, dir zu folgen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e2ccf79e19102531",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandRebukeRobot]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr belehrt einen Roboter, damit er weggeht oder dir folgt.",
+      "new_value": "Du belehrst einen Roboter, damit er weggeht oder dir folgt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "84e5afd8105348a0",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandMarkTarget]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr verbringt einen Zug damit, ein Ziel anzuvisieren und zu markieren.",
+      "new_value": "Du verbringst einen Zug damit, ein Ziel anzuvisieren und zu markieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc8e61ba9f558e78",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandMarkTarget]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr auf ein markiertes Ziel mit einem Bogen oder Gewehr schießt, wird Eure Wendigkeit für die Genauigkeitsbestimmung so behandelt, als wäre sie 2 Punkte höher.",
+      "new_value": "Jedes Mal, wenn du auf ein markiertes Ziel mit einem Bogen oder Gewehr schießt, wird deine Wendigkeit für die Genauigkeitsbestimmung so behandelt, als wäre sie 2 Punkte höher.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "00be040902afe0ae",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandMarkTarget]/description#1/p#5@#text",
+      "context": null,
+      "old_value": "Ihr könnt jeweils nur ein Ziel markieren.",
+      "new_value": "Du kannst jeweils nur ein Ziel markieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "660cfd568f88971f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandShieldSlam]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr schlagt einen Gegner mit eurem Schild nieder und verursacht ihm Schaden.",
+      "new_value": "Du schlägst einen Gegner mit deinem Schild nieder und verursachst ihm Schaden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c7317bace7e0b1cc",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandShieldSlam]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr mit ausgerüstetem Schild einen Gegner angreift, erhaltet Ihr einen kostenlosen Schildhieb gegen ihn.",
+      "new_value": "Jedes Mal, wenn du mit ausgerüstetem Schild einen Gegner angreifst, erhältst du einen kostenlosen Schildhieb gegen ihn.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "657a6839aed1a8a6",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandHobble]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr führt einen Angriff mit einer kurzen Klinge in eurer dominanten Hand aus und sucht nach einer schwachen Stelle in der Rüstung eures Gegners. Wenn ihr trefft, dringt ihr genau einmal durch und lahmt sie.",
+      "new_value": "Du führst einen Angriff mit einer kurzen Klinge in deiner dominanten Hand aus und suchst nach einer schwachen Stelle in der Rüstung deines Gegners. Wenn du triffst, dringst du genau einmal durch und lahmst sie.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "70d3b34eeb771955",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandShank]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr führt einen Nahkampfangriff mit einer kurzen Klinge in eurer dominanten Hand (bevorzugt) oder Nebenhand aus. Wenn ihr trefft, erhält der Angriff +2 auf Penetrationswürfe für jeden negativen Statuseffekt, an dem euer Gegner leidet.",
+      "new_value": "Du führst einen Nahkampfangriff mit einer kurzen Klinge in deiner dominanten Hand (bevorzugt) oder Nebenhand aus. Wenn du triffst, erhält der Angriff +2 auf Penetrationswürfe für jeden negativen Statuseffekt, an dem dein Gegner leidet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "44161bf1cba3af8f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSurvivalCamp]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr entzündet ein Lagerfeuer zum Kochen von Mahlzeiten und zur Konservierung von Lebensmitteln.",
+      "new_value": "Du entzündest ein Lagerfeuer zum Kochen von Mahlzeiten und zur Konservierung von Lebensmitteln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd13415a901101f2",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSurvivalCamp]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr könnt kein Lager aufschlagen, während Ihr im Kampf seid.",
+      "new_value": "Du kannst kein Lager aufschlagen, während du im Kampf bist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cc2da7127f899d89",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandMeleeCharge]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr stürmt vor und führt einen Nahkampfangriff mit +1 zum Durchdringungswurf aus.",
+      "new_value": "Du stürmst vor und führst einen Nahkampfangriff mit +1 zum Durchdringungswurf aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b2998e8398745a96",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTacticsJuke]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr bewegt euch ein Feld ohne Aktionskosten und tauscht Plätze, wenn sich eine Kreatur im Zielfeld befindet.",
+      "new_value": "Du bewegst dich ein Feld ohne Aktionskosten und tauschst Plätze, wenn sich eine Kreatur im Zielfeld befindet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d9286c98797a7fe8",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandTacticsJuke]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr könnt Plätze mit feindlichen Kreaturen tauschen.",
+      "new_value": "Du kannst Plätze mit feindlichen Kreaturen tauschen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b7eb9b9fe8c96efd",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandLayMine]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt eine Granate als Mine ein.",
+      "new_value": "Du setzt eine Granate als Mine ein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "780ad2b451e9a659",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandRechargeObject]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr ladet eine Energiezelle oder einen Kondensator mit Bastel-Bits auf.",
+      "new_value": "Du lädst eine Energiezelle oder einen Kondensator mit Bastel-Bits auf.",
+      "note": "ladet -> lädst",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0cc866db85c4d15",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandReleaseVehicle]/description#1@#text",
+      "context": null,
+      "old_value": "Sie verlassen den Pilotensitz des Fahrzeugs, in dem Sie sind.",
+      "new_value": "Du verlässt den Pilotensitz des Fahrzeugs, in dem du bist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "55a5350e1218337a",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSeatEject]/description#1@#text",
+      "context": null,
+      "old_value": "Ihr und Eure sitzenden Begleiter werdet gewaltsam aus dem Fahrzeug hinausgestoßen, in dem Ihr sitzt.",
+      "new_value": "Du und deine sitzenden Begleiter werdet gewaltsam aus dem Fahrzeug hinausgestoßen, in dem ihr sitzt.",
+      "note": "du + Begleiter = Plural: werdet/ihr sitzt bleibt Plural (klein)",
+      "status": "accepted"
+    }
+  ]
+}

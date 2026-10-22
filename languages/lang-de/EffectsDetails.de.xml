@@ -64,7 +64,7 @@
         <p>Kann nicht sehen.</p>
     </template>
   <template ID="Effect.BlinkingTicSickness.Details">
-        <p>Es gibt jede Runde, während Ihr im Kampf seid, eine kleine Chance, dass Ihr zufällig an einen nahegelegenen Ort teleportiert werdet.</p>
+        <p>Es gibt jede Runde, während du im Kampf bist, eine kleine Chance, dass du zufällig an einen nahegelegenen Ort teleportiert wirst.</p>
     </template>
   <template ID="Effect.BoostStatistic.Details">
         <p><stat Name="Bonus" Filters="signed" /> <gametext>=stat.title=</gametext></p>
@@ -91,7 +91,7 @@
         </switch>
     </template>
   <template ID="Effect.Inspired.Details">
-        <p>Das nächste Mal, wenn Ihr eine Mahlzeit durch die Auswahl von Zutaten kocht, erhaltet Ihr die Auswahl aus drei dynamisch generierten Effekten zum Anwenden. Ihr erstellt ein Rezept für den gewählten Effekt.</p>
+        <p>Das nächste Mal, wenn du eine Mahlzeit durch die Auswahl von Zutaten kochst, erhältst du die Auswahl aus drei dynamisch generierten Effekten zum Anwenden. Du erstellst ein Rezept für den gewählten Effekt.</p>
     </template>
   <template ID="Effect.Lovesick.Details">
         <p>-6 Intelligenz</p>
@@ -115,5 +115,110 @@
   <template ID="Effect.WakingDream.Details">
         <p>Gewinne eine Stufe als dieses Wesen, um angenehm zu erwachen.</p>
         <p>Sterben oder Charakter aufgeben, um unruhig zu erwachen.</p>
+    </template>
+  <template ID="Effect.CoatedInPlasma.Details">
+        <p>-100 Hitzeresistenz</p>
+        <p>-100 Kälteresistenz</p>
+        <p>-100 Elektroresistenz</p>
+        <p>Temperatur kehrt nicht von selbst zur Umgebungstemperatur zurück.</p>
+        <p>Löschen durch Abklopfen oder Wälzen ist nur zu 25 % wirksam.</p>
+        <p>Entfernt flüssige Überzüge.</p>
+    </template>
+  <template ID="Effect.Confused.Details">
+        <p>Handelt halb zufällig.</p>
+        <p><stat Name="DVChange" Filters="signed" /> DV</p>
+        <p><stat Name="MAChange" Filters="signed" /> MA</p>
+        <switch Name="MentalChange">
+            <case Value="0" />
+            <default>
+                <p><stat Name="MentalChange" Filters="signed" /> auf alle geistigen Attribute</p>
+            </default>
+        </switch>
+    </template>
+  <template ID="Effect.ContainedAcidEating.Details">
+        <switch Name="HasValidVolume">
+            <case Value="true">
+                <p>Wird von Säure zersetzt.</p>
+                <p>Erleidet <stat Name="MinDamage" />-<stat Name="MaxDamage" /> Schaden pro Runde.</p>
+            </case>
+            <default><p>Kein Schaden.</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.CorpseThethered.Details">
+        <p>Steht derzeit auf einem Feld, das vor der läutenden Teleportation der Glocke der Ruhe sicher ist.</p>
+    </template>
+  <template ID="Effect.Crackling.Details">
+        <p>Elektromagnetisch instabil.</p>
+    </template>
+  <template ID="Effect.Dashing.Details">
+        <p>Stürmt bei Bewegung in eine Richtung bis zum nächsten Hindernis.</p>
+    </template>
+  <template ID="Effect.Dazed.Details">
+        <p>-4 Behändigkeit</p>
+        <p>-4 Intelligenz</p>
+        <p>-10 Bewegungsgeschwindigkeit</p>
+    </template>
+  <template ID="Effect.Disoriented.Details">
+        <p><stat Name="DVChange" Filters="signed" /> DV</p>
+        <p><stat Name="MAChange" Filters="signed" /> MA</p>
+    </template>
+  <template ID="Effect.Distracted.Details">
+        <p>Hat ein Köderobjekt als <gametext>=subject.its:akk:n=</gametext> Ziel.</p>
+    </template>
+  <template ID="Effect.Dominated.Details">
+        <p>Steht unter fremder Kontrolle.</p>
+    </template>
+  <template ID="Effect.Dominating.Details">
+        <p>Diese Kreatur reagiert nicht.</p>
+        <p>DV auf 0 gesetzt.</p>
+    </template>
+  <template ID="Effect.Ecstatic.Details">
+        <p>+10 Schnelligkeit</p>
+    </template>
+  <template ID="Effect.ElectromagneticPulsed.Details">
+        <p>Deaktiviert (falls robotisch).</p>
+        <p>Kann nicht aktiviert werden (falls Artefakt).</p>
+    </template>
+  <template ID="Effect.Emboldened.Details">
+        <p><stat Name="Bonus" Filters="signed" /> <gametext>=stat.title=</gametext></p>
+    </template>
+  <template ID="Effect.EmptyTheClips.Details">
+        <p>Feuert Pistolen doppelt so schnell ab.</p>
+    </template>
+  <template ID="Effect.Exhausted.Details">
+        <p>Kann keine Aktionen ausführen.</p>
+    </template>
+  <template ID="Effect.FungalSporeInfection.Details">
+        <p>Die Haut schuppt und juckt. Wächst dort etwas?</p>
+    </template>
+  <template ID="Effect.Glotrot.Details">
+        <switch Name="TongueRotting">
+            <case Value="true">
+                <p>Die Zunge verfault.</p>
+                <p>Beginnt beim Essen oder Trinken zu bluten.</p>
+            </case>
+            <default>
+                <p>Die Zunge ist verfault.</p>
+                <p>Kann nicht sprechen.</p>
+            </default>
+        </switch>
+    </template>
+  <template ID="Effect.GlotrotOnset.Details">
+        <p>Der Hals ist wund und die Zunge geschwollen.</p>
+    </template>
+  <template ID="Effect.Ironshank.Details">
+        <p>Die Beinknochen verwachsen an den Gelenken.</p>
+        <p><stat Name="MoveSpeedChange" Filters="signed" /> Bewegungsgeschwindigkeit</p>
+        <p><stat Name="AVChange" Filters="signed" /> AV</p>
+        <p>Verliert weiter Bewegungsgeschwindigkeit und gewinnt AV, bis der Malus auf die Bewegungsgeschwindigkeit -80 erreicht.</p>
+    </template>
+  <template ID="Effect.IronshankOnset.Details">
+        <p>Die Beine schmerzen an den Gelenken.</p>
+    </template>
+  <template ID="Effect.Monochrome.Details">
+        <p>Sieht nur Schattierungen einer einzigen Farbe.</p>
+    </template>
+  <template ID="Effect.MonochromeOnset.Details">
+        <p>Die Sicht ist verschwommen.</p>
     </template>
 </templates>

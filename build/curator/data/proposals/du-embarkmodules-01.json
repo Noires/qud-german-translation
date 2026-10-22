@@ -1,0 +1,18 @@
+{
+  "batch": "du-embarkmodules-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-embarkmodules-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "da91b06309d424e1",
+      "file": "EmbarkModules.de.xml",
+      "key": "/embarkmodules#0/module#12/locations#2/location[eine versunkene Karawanserai]/description#1@#text",
+      "context": null,
+      "old_value": "\n          Ihr kommt am Rande von Qud an.\n              ",
+      "new_value": "\n          Du kommst am Rande von Qud an.\n              ",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

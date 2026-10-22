@@ -1,0 +1,158 @@
+{
+  "batch": "ifplural-strings-01",
+  "rule": "fix-ifplural",
+  "note": "Weichen-Token-Argumente deutsch (ifplural-strings-01)",
+  "created": "2026-10-22 16:29",
+  "items": [
+    {
+      "uid": "013089df350f28da",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooPoor For Recharge|You need {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water to charge =object.isplural:one of :==object.indicativeDistal=.",
+      "context": "XRLUITradeUI TooPoor For Recharge",
+      "old_value": "Du benötigst {{C|=cost.cardinal=}} =cost.pluralize:Dram:Dram= frisches Wasser, um =object.isplural:one of :==object.indicativeDistal= zu laden.",
+      "new_value": "Du benötigst {{C|=cost.cardinal=}} =cost.pluralize:Dram:Dram= frisches Wasser, um =object.isplural:eines von :==object.indicativeDistal= zu laden.",
+      "note": "one of -> eines von; Kasus der indicativeDistal-Ausgabe unbekannt",
+      "status": "accepted"
+    },
+    {
+      "uid": "dff2c905cd637f75",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Recharge Cost|You may recharge =object.isplural:one of :==object.indicativeDistal= for {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI Recharge Cost",
+      "old_value": "Du kannst =object.isplural:one of :==object.indicativeDistal= für {{C|=cost.cardinal=}} =cost.pluralize:Dram:Dram= frisches Wasser aufladen.",
+      "new_value": "Du kannst =object.isplural:eines von :==object.indicativeDistal= für {{C|=cost.cardinal=}} =cost.pluralize:Dram:Dram= frisches Wasser aufladen.",
+      "note": "one of -> eines von; Kasus der indicativeDistal-Ausgabe unbekannt",
+      "status": "accepted"
+    },
+    {
+      "uid": "a8bcccfb6bafb007",
+      "file": "Strings.de.xml",
+      "key": "Faction Feeling|{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:despise:despises= you. Even docile =faction.ifPlural:ones:members= will attack you.",
+      "context": "Faction Feeling",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:despise:despises= dich. Selbst zahme =faction.ifPlural:ones:members= werden dich angreifen.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:verachten:verachtet= dich. Selbst zahme =faction.ifPlural:Vertreter:Mitglieder= werden dich angreifen.",
+      "note": "Verbform Mz/Ez; ones->Vertreter",
+      "status": "accepted"
+    },
+    {
+      "uid": "b5ee9f1020a13354",
+      "file": "Strings.de.xml",
+      "key": "Faction Feeling|{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:dislike:dislikes= you, but docile =faction.ifPlural:ones:members= won't attack you.",
+      "context": "Faction Feeling",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:dislike:dislikes= dich, aber zahme =faction.ifPlural:ones:members= werden dich nicht angreifen.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:mögen:mag= dich nicht, aber zahme =faction.ifPlural:Vertreter:Mitglieder= werden dich nicht angreifen.",
+      "note": "dislike -> mögen/mag ... nicht",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3943d2f7f430f06",
+      "file": "Strings.de.xml",
+      "key": "Faction Feeling|{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:favor:favors= you. Aggressive =faction.ifPlural:ones:members= won't attack you.",
+      "context": "Faction Feeling",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:favor:favors= dich. Aggressive =faction.ifPlural:ones:members= werden dich nicht angreifen.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:schätzen:schätzt= dich. Aggressive =faction.ifPlural:Vertreter:Mitglieder= werden dich nicht angreifen.",
+      "note": "favor -> schätzen/schätzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d0c1949fb42d408",
+      "file": "Strings.de.xml",
+      "key": "Faction Feeling|{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:revere:reveres= you and =faction.ifPlural:consider:considers= you one of their own.",
+      "context": "Faction Feeling",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:revere:reveres= dich und =faction.ifPlural:consider:considers= dich für einen der Ihren.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:verehren:verehrt= dich und =faction.ifPlural:halten:hält= dich für einen der ihren.",
+      "note": "revere/consider übersetzt; 'der Ihren' -> 'der ihren' (Duden-zulässig, vermeidet Höflichkeitsform-Verwechslung)",
+      "status": "accepted"
+    },
+    {
+      "uid": "29ca05ad01be455c",
+      "file": "Strings.de.xml",
+      "key": "Faction Feeling|{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:don't:doesn't= care about you, but aggressive =faction.ifPlural:ones:members= will attack you.",
+      "context": "Faction Feeling",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:don't:doesn't= sich um dich kümmern, aber aggressive =faction.ifPlural:ones:members= werden dich angreifen.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:kümmern:kümmert= sich nicht um dich, aber aggressive =faction.ifPlural:Vertreter:Mitglieder= werden dich angreifen.",
+      "note": "don't/doesn't -> Verb kümmern/kümmert + nicht ausserhalb",
+      "status": "accepted"
+    },
+    {
+      "uid": "64a08acdb37f452d",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Cybernetics Install Message|You installed =cybernetic.isPlural:some:a= cybernetic =cybernetic.basename= and came one step closer to the Grand Unification.",
+      "context": "BodyPart Cybernetics Install Message",
+      "old_value": "Du hast =cybernetic.isPlural:some:a= kybernetisches =cybernetic.basename= installiert und bist der Großen Vereinigung einen Schritt näher gekommen.",
+      "new_value": "Du hast =cybernetic.isPlural:die kybernetischen Implantate:das kybernetische Implantat= =cybernetic.basename= installiert und bist der Großen Vereinigung einen Schritt näher gekommen.",
+      "note": "Artikel+Adjektiv ins Token gezogen, Apposition mit Implantat (genusunabhängig vom basename)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fff1629d42cce5e7",
+      "file": "Strings.de.xml",
+      "key": "Psychometry Success Identify|You flush with understanding of the =object.isplural:artifacts':artifact's= past and determine =object.them= to be =object.a.name:single=.",
+      "context": "Psychometry Success Identify",
+      "old_value": "Du wirst von Verständnis für die Vergangenheit =object.isplural:artifacts':artifact's= durchflutet und bestimmst =object.them= als =object.a.name:single=.",
+      "new_value": "Du wirst von Verständnis für die Vergangenheit =object.isplural:der Artefakte:des Artefakts= durchflutet und bestimmst =object.them= als =object.a.name:single=.",
+      "note": "Genitiv Mz/Ez",
+      "status": "accepted"
+    },
+    {
+      "uid": "5d25d3291ff487fe",
+      "file": "Strings.de.xml",
+      "key": "TwoHeaded shake off effect message log|=subject.Poss#head= =head.isPlural:help:helps= =subject.them= shake off =effect.being.effected#definite=!",
+      "context": "TwoHeaded shake off effect message log",
+      "old_value": "=subject.Poss#head= =head.isPlural:help:helps= =subject.them= schütteln =effect.being.effected#definite= ab!",
+      "new_value": "=subject.Poss#head= =head.isPlural:helfen:hilft= =subject.them=, =effect.being.effected#definite= abzuschütteln!",
+      "note": "helfen/hilft + Infinitivsatz; subject.them liefert evtl. Akkusativ statt Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "bd49b23245734919",
+      "file": "Strings.de.xml",
+      "key": "Tinker Recharge|It would take {{C|=needed=}} =bits.bitString= =needed.ifplural:bits:bit= to fully recharge =object.the.name:single=. You have {{C|=available=}}. How many do you want to use?",
+      "context": "Tinker Recharge",
+      "old_value": "Es würde {{C|=needed=}} =bits.bitString= =needed.ifplural:bits:bit= kosten, um =object.the.name:single= vollständig aufzuladen. Du hast {{C|=available=}}. Wie viele willst du verwenden?",
+      "new_value": "Es würde {{C|=needed=}} =bits.bitString= =needed.ifplural:Bits:Bit= kosten, um =object.the.name:single= vollständig aufzuladen. Du hast {{C|=available=}}. Wie viele willst du verwenden?",
+      "note": "bits/bit -> Bits/Bit",
+      "status": "accepted"
+    },
+    {
+      "uid": "2ec7b18a4219a609",
+      "file": "Strings.de.xml",
+      "key": "Default adjunctNoun|=item.isPlural:set:one=",
+      "context": "Default adjunctNoun",
+      "old_value": "=item.isPlural:set:one=",
+      "new_value": "=item.isPlural:Satz:Stück=",
+      "note": "Default adjunctNoun; Verwendungskontext unbekannt",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7d85ff9fadb75bf",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:an engraving:engravings= of =descriptions.andList|ensureEndMark=@#text",
+      "context": null,
+      "old_value": "=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:eine Gravur:Gravuren= von =descriptions.andList|ensureEndMark=",
+      "new_value": "=subject.Their= =part.name= =part.isPlural:tragen:trägt= =descriptions.pluralize:eine Gravur:Gravuren= von =descriptions.andList|ensureEndMark=",
+      "note": "bear/bears -> tragen/trägt",
+      "status": "accepted"
+    },
+    {
+      "uid": "235c822dac3725c1",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:a tattoo:tattoos= of =descriptions.andList|ensureEndMark=@#text",
+      "context": null,
+      "old_value": "=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:eine Tätowierung:Tätowierungen= von =descriptions.andList|ensureEndMark=",
+      "new_value": "=subject.Their= =part.name= =part.isPlural:tragen:trägt= =descriptions.pluralize:eine Tätowierung:Tätowierungen= von =descriptions.andList|ensureEndMark=",
+      "note": "bear/bears -> tragen/trägt",
+      "status": "accepted"
+    },
+    {
+      "uid": "b1163f77bb54521e",
+      "file": "Strings.de.xml",
+      "key": "|Eureka! You may now =fragments.andList=... and were able to work out how without needing to destroy =object.isplural:these:this one=!@#text",
+      "context": null,
+      "old_value": "Eureka! Du kannst nun =fragments.andList=... und hast herausgefunden, wie, ohne =object.isplural:these:this one= zerstören zu müssen!",
+      "new_value": "Eureka! Du kannst nun =fragments.andList=... und hast herausgefunden, wie, ohne =object.isplural:diese:dieses= zerstören zu müssen!",
+      "note": "these/this one -> diese/dieses",
+      "status": "accepted"
+    }
+  ]
+}

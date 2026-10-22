@@ -1,0 +1,228 @@
+{
+  "batch": "fix-terms",
+  "rule": "fix",
+  "note": "fix-terms",
+  "created": "2026-10-22 16:08",
+  "items": [
+    {
+      "uid": "efa6a0638f506c54",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[BaseRecoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{Y|Rekorder}}",
+      "new_value": "{{Y|Rückspuler}}",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b86f3d8dd2618cbd",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Joppa Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "Joppa-Rekorder",
+      "new_value": "Joppa-Rückspuler",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "0d22192210e94474",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Grit Gate Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{c|Grit-Gate}}-Rekorder",
+      "new_value": "{{c|Grit-Gate}}-Rückspuler",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b118705f7d997d37",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Golgotha Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{g|Golgota}}-Rekorder",
+      "new_value": "{{g|Golgota}}-Rückspuler",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "51602ad0ebf918ca",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Gaslight Chisel]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{gaslight|Gaslicht Chisel}}",
+      "new_value": "{{gaslight|Gaslicht-Meißel}}",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6cc0884859169144",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Kyakukya Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{R|Kyakukya-Rekorder}}",
+      "new_value": "{{R|Kyakukya-Rückspuler}}",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d86b40ac4421e97b",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Six Day Stilt Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{Y|Rekorder der Sechs-Tage-Stelzen}}",
+      "new_value": "{{Y|Rückspuler der Sechs-Tage-Stelzen}}",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ba4f7a7ee518ed85",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Bethesda Susa Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{C|Bethesda-Susa-Rekorder}}",
+      "new_value": "{{C|Bethesda-Susa-Rückspuler}}",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "77594e89ddfd4588",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Ezra Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{W|Ezra-Rekorder}}",
+      "new_value": "{{W|Ezra-Rückspuler}}",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "615fe7472d650faf",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Yd Freehold Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "{{W|Yd-Rekorder}}",
+      "new_value": "{{W|Yd-Rückspuler}}",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "328734b280626fae",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Ruin Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "Zufallsort-Rekorder",
+      "new_value": "Zufallsort-Rückspuler",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "abe115a72eb0c8a2",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Programmable Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "Programmierbarer Rekorder",
+      "new_value": "Programmierbarer Rückspuler",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7ffc90b4ecae6cd2",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Reprogrammable Recoiler]/part[Render]@DisplayName",
+      "context": null,
+      "old_value": "Umprogrammierbarer Rekorder",
+      "new_value": "Umprogrammierbarer Rückspuler",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e1f419b54ff77d4a",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[ElectricResistance]/displayTitle#3@#text",
+      "context": null,
+      "old_value": "Elektrische Widerstandsfähigkeit",
+      "new_value": "Elektroresistenz",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "661006f055f04b62",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[ElectricResistance]/displayTitleSingular#4@#text",
+      "context": null,
+      "old_value": "Elektrische Widerstandsfähigkeit",
+      "new_value": "Elektroresistenz",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9961948401a30d36",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuestConversationHelper village zero main quest dialog|=spice:quests.thanks.!random|capitalize=. You've proven =player.reflexive= a friend to our village. Take this recoiler and return whenever your throat is dry.",
+      "context": "DynamicQuestConversationHelper village zero main quest dialog",
+      "old_value": "=spice:quests.thanks.!random|capitalize=. Du hast =player.reflexive= als Freund unseres Dorfes bewiesen. Nimm diesen Rückstoßer und kehre zurück, wenn dein Hals trocken ist.",
+      "new_value": "=spice:quests.thanks.!random|capitalize=. Du hast =player.reflexive= als Freund unseres Dorfes bewiesen. Nimm diesen Rückspuler und kehre zurück, wenn dein Hals trocken ist.",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3f2c1643dd9a615f",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuest village zero quest reward recoiler|Accept Quest - reward: recoiler and disk",
+      "context": "DynamicQuest village zero quest reward recoiler",
+      "old_value": "Quest akzeptieren - Belohnung: Rückstoßgerät und Disk",
+      "new_value": "Quest akzeptieren - Belohnung: Rückspuler und Disk",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3d5f77b188958ec4",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuest village context village recoiler name|=villageName= recoiler",
+      "context": "DynamicQuest village context village recoiler name",
+      "old_value": "=villageName= Rückstoßgerät",
+      "new_value": "=villageName= Rückspuler",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "48159be215102ab6",
+      "file": "Strings.de.xml",
+      "key": "RandomRuinRecoiler GetDisplayName|=locationNameCache= recoiler",
+      "context": "RandomRuinRecoiler GetDisplayName",
+      "old_value": "=locationNameCache= Rückstoßgerät",
+      "new_value": "=locationNameCache= Rückspuler",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2dff508d1e924b15",
+      "file": "Strings.de.xml",
+      "key": "ITeleporter Player Success|You activate the recoiler.",
+      "context": "ITeleporter Player Success",
+      "old_value": "Du aktivierst den Rekorder.",
+      "new_value": "Du aktivierst den Rückspuler.",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7ba46747cf47161c",
+      "file": "ZoneTerrain.de.xml",
+      "key": "/objects#0/object[Plant]/stag[Fiber]@Value",
+      "context": null,
+      "old_value": "ausziehen",
+      "new_value": "Streifen",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa9eb6ea75da9b8d",
+      "file": "ZoneTerrain.de.xml",
+      "key": "/objects#0/object[Fracti]/stag[Fiber]@Value",
+      "context": null,
+      "old_value": "ausziehen",
+      "new_value": "Streifen",
+      "note": "Terminologie (Entscheidung 2026-10-22)",
+      "status": "accepted"
+    }
+  ]
+}

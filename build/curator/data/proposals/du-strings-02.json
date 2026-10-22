@@ -1,0 +1,1498 @@
+{
+  "batch": "du-strings-02",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-strings-02)",
+  "created": "2026-10-22 14:45",
+  "items": [
+    {
+      "uid": "bb33710a8c2cb167",
+      "file": "Strings.de.xml",
+      "key": "Chargen Mutations DataError Overspent|You have spent too many mutation points.",
+      "context": "Chargen Mutations DataError Overspent",
+      "old_value": "Ihr habt zu viele Mutationspunkte ausgegeben.",
+      "new_value": "Du hast zu viele Mutationspunkte ausgegeben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0875d57fb5ea4fc0",
+      "file": "Strings.de.xml",
+      "key": "Chargen Boot Popup|You embark for the caves of Qud.",
+      "context": "Chargen Boot Popup",
+      "old_value": "Ihr begebt Euch zu den Höhlen von Qud.",
+      "new_value": "Du begibst dich zu den Höhlen von Qud.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ccda2c7f7437f9e9",
+      "file": "Strings.de.xml",
+      "key": "GameMain save file corrupt|That save file appears to be corrupt, you can try to restore the backup in your save directory (=path=.sav.gz.bak) by removing the 'bak' file extension.",
+      "context": "GameMain save file corrupt",
+      "old_value": "Diese Speicherdatei scheint beschädigt zu sein. Ihr könnt versuchen, die Sicherung in Eurem Speicherverzeichnis (=path=.sav.gz.bak) wiederherzustellen, indem Ihr die Dateierweiterung 'bak' entfernt.",
+      "new_value": "Diese Speicherdatei scheint beschädigt zu sein. Du kannst versuchen, die Sicherung in deinem Speicherverzeichnis (=path=.sav.gz.bak) wiederherzustellen, indem du die Dateierweiterung 'bak' entfernst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d8a5717220f6ada2",
+      "file": "Strings.de.xml",
+      "key": "GameMain save file older format|That save file looks like it's from an older save format revision (=version=). Sorry!\n\nYou can probably change to a previous branch in your game client and get it to load if you want to finish it off.",
+      "context": "GameMain save file older format",
+      "old_value": "Diese Speicherdatei scheint von einer älteren Speicherformatversion (=version=) zu sein. Entschuldigung!\n\nSie können wahrscheinlich in Ihrem Spielclient zu einem früheren Branch wechseln und die Datei laden, wenn Sie sie fertig spielen möchten.",
+      "new_value": "Diese Speicherdatei scheint von einer älteren Speicherformatversion (=version=) zu sein. Entschuldigung!\n\nDu kannst wahrscheinlich in deinem Spielclient zu einem früheren Branch wechseln und die Datei laden, wenn du sie fertig spielen möchtest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c286d88d9c7d7a10",
+      "file": "Strings.de.xml",
+      "key": "GameMain save file newer format|That save file looks like it's from a newer save format revision (=version=).\n\nYou can probably change to a newer branch in your game client and get it to load if you want to finish it off.",
+      "context": "GameMain save file newer format",
+      "old_value": "Diese Speicherdatei scheint von einer neueren Speicherformatversion (=version=) zu sein.\n\nSie können wahrscheinlich in Ihrem Spielclient zu einem neueren Branch wechseln und die Datei laden, wenn Sie sie fertig spielen möchten.",
+      "new_value": "Diese Speicherdatei scheint von einer neueren Speicherformatversion (=version=) zu sein.\n\nDu kannst wahrscheinlich in deinem Spielclient zu einem neueren Branch wechseln und die Datei laden, wenn du sie fertig spielen möchtest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "290926f7da1b6159",
+      "file": "Strings.de.xml",
+      "key": "GameMain fatal exception while saving|There was a fatal exception attempting to save your game. Caves of Qud attempted to recover your prior save. You probably want to close the game and reload your most recent save. It'd be helpful to send the save and logs to support@freeholdgames.com",
+      "context": "GameMain fatal exception while saving",
+      "old_value": "Es gab einen kritischen Fehler beim Versuch, Euer Spiel zu speichern. Caves of Qud versuchte, Euren vorherigen Spielstand zu wiederherstellen. Ihr wollt das Spiel wahrscheinlich schließen und Euren letzten Spielstand neu laden. Es wäre hilfreich, den Spielstand und Protokolle an support@freeholdgames.com zu senden.",
+      "new_value": "Es gab einen kritischen Fehler beim Versuch, dein Spiel zu speichern. Caves of Qud versuchte, deinen vorherigen Spielstand zu wiederherstellen. Du willst das Spiel wahrscheinlich schließen und deinen letzten Spielstand neu laden. Es wäre hilfreich, den Spielstand und Protokolle an support@freeholdgames.com zu senden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ff46889f94c61aa6",
+      "file": "Strings.de.xml",
+      "key": "direction.description (D)|below",
+      "context": "direction.description (D)",
+      "old_value": "unter Ihnen",
+      "new_value": "unter dir",
+      "note": "'below' -> 'unter dir'",
+      "status": "accepted"
+    },
+    {
+      "uid": "f52787147ab887c2",
+      "file": "Strings.de.xml",
+      "key": "ChavvahSystem - Reveal Popup - attuned|You touch the chiming rock. White noise carries on a distant wind.",
+      "context": "ChavvahSystem - Reveal Popup - attuned",
+      "old_value": "Ihr berührt den klingenden Stein. Weißes Rauschen trägt auf fernem Wind.",
+      "new_value": "Du berührst den klingenden Stein. Weißes Rauschen trägt auf fernem Wind.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a01d79f30c48d435",
+      "file": "Strings.de.xml",
+      "key": "ChavvahSystem - Reveal Popup|You discover =note.text|initLowerIfArticle=!",
+      "context": "ChavvahSystem - Reveal Popup",
+      "old_value": "Ihr entdeckt =note.text|initLowerIfArticle=!",
+      "new_value": "Du entdeckst =note.text|initLowerIfArticle=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d3412a657c710804",
+      "file": "Strings.de.xml",
+      "key": "CheckpointingSystem ReallyWantToDie|DEBUG: Do you really want to die?",
+      "context": "CheckpointingSystem ReallyWantToDie",
+      "old_value": "DEBUG: Wollen Sie wirklich sterben?",
+      "new_value": "DEBUG: Willst du wirklich sterben?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d1c9f94dcb215fdf",
+      "file": "Strings.de.xml",
+      "key": "CheckpointingSystem RetireDisappointmentWarning|If you retire this character, your score will be recorded and your character will be lost. Are you sure you want to RETIRE THIS CHARACTER FOREVER?",
+      "context": "CheckpointingSystem RetireDisappointmentWarning",
+      "old_value": "Wenn Ihr diesen Charakter pensioniert, wird Eure Punktzahl aufgezeichnet und Euer Charakter geht verloren. Seid Ihr sicher, dass Ihr DIESEN CHARAKTER FÜR IMMER PENSIONIEREN möchtet?",
+      "new_value": "Wenn du diesen Charakter pensionierst, wird deine Punktzahl aufgezeichnet und dein Charakter geht verloren. Bist du sicher, dass du DIESEN CHARAKTER FÜR IMMER PENSIONIEREN möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "881a610f8f87c20f",
+      "file": "Strings.de.xml",
+      "key": "HolyPlaceSystem - Entered a holy site|You feel a sense of holiness here.",
+      "context": "HolyPlaceSystem - Entered a holy site",
+      "old_value": "Ihr fühlt hier ein Gefühl der Heiligkeit.",
+      "new_value": "Du fühlst hier ein Gefühl der Heiligkeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f632da02eaa9535",
+      "file": "Strings.de.xml",
+      "key": "NorthSheva - Failure message, only Movers on world map|You can't travel in this environment.",
+      "context": "NorthSheva - Failure message, only Movers on world map",
+      "old_value": "Ihr könnt in dieser Umgebung nicht reisen.",
+      "new_value": "Du kannst in dieser Umgebung nicht reisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "440f9ee9a420828b",
+      "file": "Strings.de.xml",
+      "key": "NorthSheva - Failure message, can't leave world map on this square|You can't land here.",
+      "context": "NorthSheva - Failure message, can't leave world map on this square",
+      "old_value": "Ihr könnt hier nicht landen.",
+      "new_value": "Du kannst hier nicht landen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a6de7d5ccf22c69c",
+      "file": "Strings.de.xml",
+      "key": "NorthSheva - Failure mesasge, can't spiral borer|You cannot do that here.",
+      "context": "NorthSheva - Failure mesasge, can't spiral borer",
+      "old_value": "Ihr könnt das hier nicht tun.",
+      "new_value": "Du kannst das hier nicht tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "10d515c67245d819",
+      "file": "Strings.de.xml",
+      "key": "PsychicHunterSystem Ambush Multi|{{c|You sense the animus of a vast mind. They are near.}}",
+      "context": "PsychicHunterSystem Ambush Multi",
+      "old_value": "{{c|Ihr spürt die Seele eines riesigen Geistes. Sie sind in der Nähe.}}",
+      "new_value": "{{c|Du spürst die Seele eines riesigen Geistes. Sie sind in der Nähe.}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf78c039b4da3c2d",
+      "file": "Strings.de.xml",
+      "key": "PsychicHunterSystem Ambush|{{c|You sense the animus of a vast mind. Someone is near.}}",
+      "context": "PsychicHunterSystem Ambush",
+      "old_value": "{{c|Ihr spürt die Seele eines riesigen Geistes. Jemand ist in der Nähe.}}",
+      "new_value": "{{c|Du spürst die Seele eines riesigen Geistes. Jemand ist in der Nähe.}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "44b7fb246d1bd799",
+      "file": "Strings.de.xml",
+      "key": "PsychicHunterSystem GlimmerDescription (fragment)|Your psychic glimmer represents how noticeable you are in the vast psychic aether. As your mental mutations increase in level, so does your psychic glimmer and the frequency, strength, and number of those who desire to absorb your mind.",
+      "context": "PsychicHunterSystem GlimmerDescription (fragment)",
+      "old_value": "Euer psychisches Flimmern zeigt, wie auffällig Ihr im weiten psychischen Äther seid. Wenn Eure mentalen Mutationen an Stufe steigen, so auch Euer psychisches Flimmern und die Häufigkeit, Stärke und Anzahl derer, die Euren Geist absorbieren möchten.",
+      "new_value": "Dein psychisches Flimmern zeigt, wie auffällig du im weiten psychischen Äther bist. Wenn deine mentalen Mutationen an Stufe steigen, so auch dein psychisches Flimmern und die Häufigkeit, Stärke und Anzahl derer, die deinen Geist absorbieren möchten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e38661b9061121e3",
+      "file": "Strings.de.xml",
+      "key": "Svardym Storm|Your hear a swelling thpthp sound.",
+      "context": "Svardym Storm",
+      "old_value": "Ihr hört einen anschwellenden Thpthp-Laut.",
+      "new_value": "Du hörst einen anschwellenden Thpthp-Laut.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80ffc78ecb5a1d27",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Engaged|=trader.T= =trader.is= engaged in melee combat and =trader.is= too busy to trade with you.",
+      "context": "XRLUITradeUI Engaged",
+      "old_value": "=trader.T= =trader.is= in Nahkampf verwickelt und =trader.is= zu beschäftigt, um mit Euch zu handeln.",
+      "new_value": "=trader.T= =trader.is= in Nahkampf verwickelt und =trader.is= zu beschäftigt, um mit dir zu handeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3b980f5fd481b952",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI IsAflame|=trader.T= =trader.is= on fire and =trader.is= too busy to trade with you.",
+      "context": "XRLUITradeUI IsAflame",
+      "old_value": "=trader.T= =trader.is= in Flammen und =trader.is= zu beschäftigt, um mit Euch zu handeln.",
+      "new_value": "=trader.T= =trader.is= in Flammen und =trader.is= zu beschäftigt, um mit dir zu handeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9236de6c0dd8ccbe",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI WillNot Until Pay None|=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=.",
+      "context": "XRLUITradeUI WillNot Until Pay None",
+      "old_value": "=trader.T= wird nicht mit Euch handeln, bis Ihr =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die Ihr =trader.them= schuldet, bezahlt.",
+      "new_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d075a21ed1e99c7c",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI WillNot Until Pay Some|=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give =trader.them= your {{C|=available=}} =available.pluralize:dram= now?",
+      "context": "XRLUITradeUI WillNot Until Pay Some",
+      "old_value": "=trader.T= wird nicht mit Euch handeln, bis Ihr =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die Ihr =trader.them= schuldet, bezahlt. Möchtet Ihr =trader.them= Eure {{C|=available=}} =available.pluralize:dram= jetzt geben?",
+      "new_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst. Möchtest du =trader.them= deine {{C|=available=}} =available.pluralize:dram= jetzt geben?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a780b09c39b0d0f1",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI WillNot Until Pay All|=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give it to =trader.them= now?",
+      "context": "XRLUITradeUI WillNot Until Pay All",
+      "old_value": "=trader.T= wird nicht mit Euch handeln, bis Ihr =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die Ihr =trader.them= schuldet, bezahlt. Möchtet Ihr es =trader.them= jetzt geben?",
+      "new_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst. Möchtest du es =trader.them= jetzt geben?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "95d20fecfd80dc3e",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Owned| {{G|[owned by you]}}",
+      "context": "XRLUITradeUI Owned",
+      "old_value": " {{G|[Euer Eigentum]}}",
+      "new_value": " {{G|[Dein Eigentum]}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "51700a78700d9ace",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Inventory|[ {{W|Your inventory}} ]",
+      "context": "XRLUITradeUI Inventory",
+      "old_value": "[ {{W|Euer Bestand}} ]",
+      "new_value": "[ {{W|Dein Bestand}} ]",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aaf5041e1606e553",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TraderIdentify Fail Dystechnia|You can't understand =trader.the.name's|strip= explanation.",
+      "context": "XRLUITradeUI TraderIdentify Fail Dystechnia",
+      "old_value": "Ihr könnt =trader.the.name's|strip= Erklärung nicht verstehen.",
+      "new_value": "Du kannst =trader.the.name's|strip= Erklärung nicht verstehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8c5844468611b88f",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TraderIdentify Fail Too Poor|You do not have the required {{C|=cost=}} =cost.pluralize:dram= to identify this item.",
+      "context": "XRLUITradeUI TraderIdentify Fail Too Poor",
+      "old_value": "Ihr habt nicht die erforderlichen {{C|=cost=}} =cost.pluralize:dram=, um diesen Gegenstand zu identifizieren.",
+      "new_value": "Du hast nicht die erforderlichen {{C|=cost=}} =cost.pluralize:dram=, um diesen Gegenstand zu identifizieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a6e2a54abe811460",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TraderIdentify Confirm Cost|You may identify this for =cost= =cost.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI TraderIdentify Confirm Cost",
+      "old_value": "Ihr könnt das für =cost= =cost.pluralize:dram= Süßwasser identifizieren.",
+      "new_value": "Du kannst das für =cost= =cost.pluralize:dram= Süßwasser identifizieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32a39286820b3cd0",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooPoorToRepair|You need {{C|=cost=}} =cost.pluralize:dram= of fresh water to repair =multiple.if:those:that=.",
+      "context": "XRLUITradeUI TooPoorToRepair",
+      "old_value": "Ihr braucht {{C|=cost=}} =cost.pluralize:dram= Süßwasser, um =multiple.if:those:that= zu reparieren.",
+      "new_value": "Du brauchst {{C|=cost=}} =cost.pluralize:dram= Süßwasser, um =multiple.if:those:that= zu reparieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "290c88b94356eac6",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI RepairCost|You may repair =multiple.if:those:this= for {{C|=cost=}} =cost.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI RepairCost",
+      "old_value": "Ihr könnt =multiple.if:those:this= für {{C|=cost=}} =cost.pluralize:dram= frisches Wasser reparieren.",
+      "new_value": "Du kannst =multiple.if:those:this= für {{C|=cost=}} =cost.pluralize:dram= frisches Wasser reparieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "24225846d0bfcb1d",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Pony Up|You pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade",
+      "context": "XRLUITradeUI Pony Up",
+      "old_value": "Ihr zahlt =difference= =difference.pluralize:dram= frisches Wasser, um den Handel auszugleichen",
+      "new_value": "Du zahlst =difference= =difference.pluralize:dram= frisches Wasser, um den Handel auszugleichen",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "64995d82130cbe07",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Have To Pony Up|You'll have to pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade. Agreed?",
+      "context": "XRLUITradeUI Have To Pony Up",
+      "old_value": "Ihr müsst =difference= =difference.pluralize:dram= frisches Wasser zahlen, um den Handel auszugleichen. Einverstanden?",
+      "new_value": "Du musst =difference= =difference.pluralize:dram= frisches Wasser zahlen, um den Handel auszugleichen. Einverstanden?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c626b42da7d5310a",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Pony Up Owe|You pony up =available= =available.pluralize:dram= of fresh water, and now owe =trader.the.name|strip= =owe= =owe.pluralize:dram=.",
+      "context": "XRLUITradeUI Pony Up Owe",
+      "old_value": "Ihr zahlt =available= =available.pluralize:dram= frisches Wasser, und schuldet jetzt =trader.the.name|strip= =owe= =owe.pluralize:dram=.",
+      "new_value": "Du zahlst =available= =available.pluralize:dram= frisches Wasser, und schuldest jetzt =trader.the.name|strip= =owe= =owe.pluralize:dram=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bb33c4861afcf21f",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Owe|You now owe =trader.t= =owe= =owe.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI Owe",
+      "old_value": "Ihr schuldet jetzt =trader.t= =owe= =owe.pluralize:dram= Süßwasser.",
+      "new_value": "Du schuldest jetzt =trader.t= =owe= =owe.pluralize:dram= Süßwasser.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd3b9b7a490a05d1",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Too Poor To Pony Up|You don't have =difference= =difference.pluralize:dram= of fresh water to even up the trade!",
+      "context": "XRLUITradeUI Too Poor To Pony Up",
+      "old_value": "Ihr habt nicht =difference= =difference.pluralize:dram= Süßwasser, um den Handel auszugleichen!",
+      "new_value": "Du hast nicht =difference= =difference.pluralize:dram= Süßwasser, um den Handel auszugleichen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1b5bb9822776bc69",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooMuchWater Force|You don't have enough water containers to carry that many drams! You can store =storable= =storable.pluralize:dram=.",
+      "context": "XRLUITradeUI TooMuchWater Force",
+      "old_value": "Ihr habt nicht genug Wasserbehälter, um so viele Drams zu tragen! Ihr könnt =storable= =storable.pluralize:dram= lagern.",
+      "new_value": "Du hast nicht genug Wasserbehälter, um so viele Drams zu tragen! Du kannst =storable= =storable.pluralize:dram= lagern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "13b77e1990afcbc5",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooMuchWater NoForce|You don't have enough water containers to carry that many drams! Do you want to complete the trade for the =storable= =storable.pluralize:dram= you can store?",
+      "context": "XRLUITradeUI TooMuchWater NoForce",
+      "old_value": "Ihr habt nicht genug Wasserbehälter, um so viele Drams zu tragen! Wollt Ihr den Handel für die =storable= =storable.pluralize:dram=, die Ihr lagern könnt, abschließen?",
+      "new_value": "Du hast nicht genug Wasserbehälter, um so viele Drams zu tragen! Willst du den Handel für die =storable= =storable.pluralize:dram=, die du lagern kannst, abschließen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "013089df350f28da",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooPoor For Recharge|You need {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water to charge =object.isplural:one of :==object.indicativeDistal=.",
+      "context": "XRLUITradeUI TooPoor For Recharge",
+      "old_value": "Ihr benötigt {{C|=cost.cardinal=}} =cost.pluralize:dram= frisches Wasser, um =object.isplural:one of :==object.indicativeDistal= zu laden.",
+      "new_value": "Du benötigst {{C|=cost.cardinal=}} =cost.pluralize:dram= frisches Wasser, um =object.isplural:one of :==object.indicativeDistal= zu laden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dff2c905cd637f75",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Recharge Cost|You may recharge =object.isplural:one of :==object.indicativeDistal= for {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI Recharge Cost",
+      "old_value": "Ihr könnt =object.isplural:one of :==object.indicativeDistal= für {{C|=cost.cardinal=}} =cost.pluralize:dram= frisches Wasser aufladen.",
+      "new_value": "Du kannst =object.isplural:one of :==object.indicativeDistal= für {{C|=cost.cardinal=}} =cost.pluralize:dram= frisches Wasser aufladen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bcee403b6c6d9f6f",
+      "file": "Strings.de.xml",
+      "key": "PickItem OwnedByYou|{{G|[owned by you]}}",
+      "context": "PickItem OwnedByYou",
+      "old_value": "{{G|[Im Besitz von Euch]}}",
+      "new_value": "{{G|[Im Besitz von dir]}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "feb3cc0c99406417",
+      "file": "Strings.de.xml",
+      "key": "PickItem PutsOverWeightLimit|Taking =number.all.these= =number.isplural:objects:object= will put you over your weight limit. Are you sure you want to do it?",
+      "context": "PickItem PutsOverWeightLimit",
+      "old_value": "Das Nehmen von =number.all.these= =number.isplural:objects:object= würde Euer Gewichtslimit überschreiten. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "Das Nehmen von =number.all.these= =number.isplural:objects:object= würde dein Gewichtslimit überschreiten. Bist du sicher, dass du das tun willst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "21b5222157234f2c",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromRecipe Rename|You can't rename a recipe that someone else created.",
+      "context": "Campfire CookFromRecipe Rename",
+      "old_value": "Ihr könnt ein Rezept nicht umbenennen, das jemand anderes erstellt hat.",
+      "new_value": "Du kannst ein Rezept nicht umbenennen, das jemand anderes erstellt hat.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4213a7164a2f1751",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromRecipe Rename Unrename|You rename the recipe to '=originalname='.",
+      "context": "Campfire CookFromRecipe Rename Unrename",
+      "old_value": "Ihr benennt das Rezept in '=originalname=' um.",
+      "new_value": "Du benennst das Rezept in '=originalname=' um.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "58336273de7d2fa1",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromRecipe Rename Success|You rename the recipe to '=newname='.",
+      "context": "Campfire CookFromRecipe Rename Success",
+      "old_value": "Ihr benennt das Rezept in '=newname=' um.",
+      "new_value": "Du benennst das Rezept in '=newname=' um.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "05dbf034939da7b0",
+      "file": "Strings.de.xml",
+      "key": "UI PickTarget Fail Out Of Range|You must select a location within =range.things:tile=!",
+      "context": "UI PickTarget Fail Out Of Range",
+      "old_value": "Ihr müsst einen Ort innerhalb von =range.things:tile= wählen!",
+      "new_value": "Du musst einen Ort innerhalb von =range.things:tile= wählen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a259c5acf611d18d",
+      "file": "Strings.de.xml",
+      "key": "UI PickTarget Fail Not Visible|You may only select a visible square!",
+      "context": "UI PickTarget Fail Not Visible",
+      "old_value": "Ihr könnt nur ein sichtbares Feld wählen!",
+      "new_value": "Du kannst nur ein sichtbares Feld wählen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ececbe035704b2d1",
+      "file": "Strings.de.xml",
+      "key": "UI PickTarget Fail Not Explored|You may only select an explored square!",
+      "context": "UI PickTarget Fail Not Explored",
+      "old_value": "Ihr könnt nur ein erkundetes Feld wählen!",
+      "new_value": "Du kannst nur ein erkundetes Feld wählen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d7ca428f591698e5",
+      "file": "Strings.de.xml",
+      "key": "Skill UI No Skill Popup|You do not have the skill associated with that power. Would you like to purchase the required skill?",
+      "context": "Skill UI No Skill Popup",
+      "old_value": "Ihr habt nicht die mit dieser Kraft verbundene Fähigkeit. Möchtet Ihr die erforderliche Fähigkeit kaufen?",
+      "new_value": "Du hast nicht die mit dieser Kraft verbundene Fähigkeit. Möchtest du die erforderliche Fähigkeit kaufen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0f55ddcabf030e5",
+      "file": "Strings.de.xml",
+      "key": "Skill UI Already Have Skill Popup|You already have that =thing=.",
+      "context": "Skill UI Already Have Skill Popup",
+      "old_value": "Ihr habt diesen =thing= bereits.",
+      "new_value": "Du hast diesen =thing= bereits.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4560450abd492b59",
+      "file": "Strings.de.xml",
+      "key": "Skill UI Not Enough SP Popup|You don't have enough skill points to buy that =thing=!",
+      "context": "Skill UI Not Enough SP Popup",
+      "old_value": "Ihr habt nicht genug Fertigkeitspunkte, um diesen =thing= zu kaufen!",
+      "new_value": "Du hast nicht genug Fertigkeitspunkte, um diesen =thing= zu kaufen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "551895a2548ef21a",
+      "file": "Strings.de.xml",
+      "key": "Popup PickSeveral - Too Many|You cannot select more than =amount.cardinal= options!",
+      "context": "Popup PickSeveral - Too Many",
+      "old_value": "Ihr könnt nicht mehr als =amount.cardinal= Optionen wählen!",
+      "new_value": "Du kannst nicht mehr als =amount.cardinal= Optionen wählen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0bd58dc9806da2fc",
+      "file": "Strings.de.xml",
+      "key": "Tinkering ConsoleUI DontHaveSkill|You don't have the Tinkering skill.",
+      "context": "Tinkering ConsoleUI DontHaveSkill",
+      "old_value": "Ihr habt nicht die Fähigkeit Basteln.",
+      "new_value": "Du hast nicht die Fähigkeit Basteln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2e1de2b281fe0875",
+      "file": "Strings.de.xml",
+      "key": "Tinkering ConsoleUI NoModSchematics|You don't have any modification schematics.",
+      "context": "Tinkering ConsoleUI NoModSchematics",
+      "old_value": "Ihr habt keine Änderungspläne.",
+      "new_value": "Du hast keine Änderungspläne.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "893a126252a95564",
+      "file": "Strings.de.xml",
+      "key": "Tinkering ConsoleUI NoModdableItems|You don't have any moddable items.",
+      "context": "Tinkering ConsoleUI NoModdableItems",
+      "old_value": "Ihr habt keine anpassbaren Gegenstände.",
+      "new_value": "Du hast keine anpassbaren Gegenstände.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0859613736ee7987",
+      "file": "Strings.de.xml",
+      "key": "Tinkering ConsoleUI NoItemSchematics|You don't have any item schematics.",
+      "context": "Tinkering ConsoleUI NoItemSchematics",
+      "old_value": "Ihr habt keine Gegenstands-Pläne.",
+      "new_value": "Du hast keine Gegenstands-Pläne.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0d8a4deb5aa111d",
+      "file": "Strings.de.xml",
+      "key": "Tinkering FakeIngredient|You can't craft with that =subject=.",
+      "context": "Tinkering FakeIngredient",
+      "old_value": "Ihr könnt mit dem =subject= nicht basteln.",
+      "new_value": "Du kannst mit dem =subject= nicht basteln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5742bd092676f482",
+      "file": "Strings.de.xml",
+      "key": "Tinkering MissingIngredient|You don't have the required ingredient: =ingredients.orList=!",
+      "context": "Tinkering MissingIngredient",
+      "old_value": "Ihr habt nicht die erforderliche Zutat: =ingredients.orList=!",
+      "new_value": "Du hast nicht die erforderliche Zutat: =ingredients.orList=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "70f19f999b35a16b",
+      "file": "Strings.de.xml",
+      "key": "DataDisk InventoryActionEvent MissingRequiredBits|You don't have the required <=bitcost=> bits! You have:\n\n=bits=",
+      "context": "DataDisk InventoryActionEvent MissingRequiredBits",
+      "old_value": "Ihr habt nicht die erforderlichen <=bitcost=> Bits! Ihr habt:\n\n=bits=",
+      "new_value": "Du hast nicht die erforderlichen <=bitcost=> Bits! Du hast:\n\n=bits=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "96512cda7cb8d976",
+      "file": "Strings.de.xml",
+      "key": "Tinkering CantTinkerWithHostiles|You can't tinker with hostiles nearby!",
+      "context": "Tinkering CantTinkerWithHostiles",
+      "old_value": "Ihr könnt nicht werkeln, wenn Feindselige in der Nähe sind!",
+      "new_value": "Du kannst nicht werkeln, wenn Feindselige in der Nähe sind!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7e0d6c8c7cbde654",
+      "file": "Strings.de.xml",
+      "key": "Tinkering Can'tUnequip|You can't unequip =subject.the.name=.",
+      "context": "Tinkering Can'tUnequip",
+      "old_value": "Ihr könnt =subject.the.name= nicht ablegen.",
+      "new_value": "Du kannst =subject.the.name= nicht ablegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3c00831fdde14b9",
+      "file": "Strings.de.xml",
+      "key": "Tinkering Can'tUseTheIngredient|You cannot use the ingredient!",
+      "context": "Tinkering Can'tUseTheIngredient",
+      "old_value": "Ihr könnt den Zutat nicht verwenden!",
+      "new_value": "Du kannst den Zutat nicht verwenden!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5735b4c540fc0110",
+      "file": "Strings.de.xml",
+      "key": "Tinkering YouModXToBeY|You mod =oldname= to be =modtype|color:C=.",
+      "context": "Tinkering YouModXToBeY",
+      "old_value": "Ihr ändert =oldname= zu =modtype|color:C=.",
+      "new_value": "Du änderst =oldname= zu =modtype|color:C=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a1152aa2e51dbcf2",
+      "file": "Strings.de.xml",
+      "key": "Tinkering Don'tHaveRequiredSkill|You don't have the required skill: =skill=!",
+      "context": "Tinkering Don'tHaveRequiredSkill",
+      "old_value": "Ihr habt nicht die erforderliche Fähigkeit: =skill=!",
+      "new_value": "Du hast nicht die erforderliche Fähigkeit: =skill=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "76f86631161f9d4f",
+      "file": "Strings.de.xml",
+      "key": "Tinkering YouTinkerUp|You tinker up =num.a.or.x.things#object=!",
+      "context": "Tinkering YouTinkerUp",
+      "old_value": "Ihr bastelt =num.a.or.x.things#object= zusammen!",
+      "new_value": "Du bastelst =num.a.or.x.things#object= zusammen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "95a1836db48c022f",
+      "file": "Strings.de.xml",
+      "key": "ModInfo ErrorList ClipboardKnownModAuthor|Automatically on your clipboard should you wish to forward it to =author=.",
+      "context": "ModInfo ErrorList ClipboardKnownModAuthor",
+      "old_value": "Automatisch in Eurer Zwischenablage, falls Ihr es an =author= weiterleiten möchtet.",
+      "new_value": "Automatisch in deiner Zwischenablage, falls du es an =author= weiterleiten möchtest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "73d868ffaab78833",
+      "file": "Strings.de.xml",
+      "key": "ModInfo ClipboardUnknownModAuthor|Automatically on your clipboard should you wish to forward it to the mod author.",
+      "context": "ModInfo ClipboardUnknownModAuthor",
+      "old_value": "Automatisch in Eurer Zwischenablage, falls Ihr es an den Mod-Autor weiterleiten möchtet.",
+      "new_value": "Automatisch in deiner Zwischenablage, falls du es an den Mod-Autor weiterleiten möchtest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ce8429e680de992",
+      "file": "Strings.de.xml",
+      "key": "TwiddleObject - Error out of range (telekinetic)|=subject.does:are= out of your telekinetic range.",
+      "context": "TwiddleObject - Error out of range (telekinetic)",
+      "old_value": "=subject.konjde:sein= außerhalb Eurer telekinetischen Reichweite.",
+      "new_value": "=subject.konjde:sein= außerhalb deiner telekinetischen Reichweite.",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "00436c508d5ca436",
+      "file": "Strings.de.xml",
+      "key": "TwiddleObject - Error out of range|You cannot do that from here.",
+      "context": "TwiddleObject - Error out of range",
+      "old_value": "Ihr könnt das von hier aus nicht tun.",
+      "new_value": "Du kannst das von hier aus nicht tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ba01f0aa0f651495",
+      "file": "Strings.de.xml",
+      "key": "JournalAPI Accomplishment Modifier Aflame|While on fire, =text|initLower=",
+      "context": "JournalAPI Accomplishment Modifier Aflame",
+      "old_value": "Während Ihr brennt, =text|initLower=",
+      "new_value": "Während du brennst, =text|initLower=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1b9d0d6411d99baa",
+      "file": "Strings.de.xml",
+      "key": "JournalAPI Accomplishment Modifier Frozen|While frozen solid, =text|initLower=",
+      "context": "JournalAPI Accomplishment Modifier Frozen",
+      "old_value": "Während Ihr komplett gefroren seid, =text|initLower=",
+      "new_value": "Während du komplett gefroren bist, =text|initLower=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "31ed88535d7997f1",
+      "file": "Strings.de.xml",
+      "key": "RandomlyMutation gain mutation spentPointsReport fragment|You gain =mutation.name=!",
+      "context": "RandomlyMutation gain mutation spentPointsReport fragment",
+      "old_value": "Ihr erhaltet =mutation.name=!",
+      "new_value": "Du erhältst =mutation.name=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "85a8b0601b1621a1",
+      "file": "Strings.de.xml",
+      "key": "BuyRandomMutation - Not a mutatant|Your type of creature may not buy =subject.mutationTerm|pluralize=.",
+      "context": "BuyRandomMutation - Not a mutatant",
+      "old_value": "Eure Art von Geschöpf darf =subject.mutationTerm|pluralize= nicht kaufen.",
+      "new_value": "Deine Art von Geschöpf darf =subject.mutationTerm|pluralize= nicht kaufen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b3f0be2702a4ffa0",
+      "file": "Strings.de.xml",
+      "key": "BuyRandomMutation - Not enough points|You don't have =cost= mutation points!",
+      "context": "BuyRandomMutation - Not enough points",
+      "old_value": "Ihr habt nicht =cost= Mutationspunkte!",
+      "new_value": "Du hast nicht =cost= Mutationspunkte!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "29acc0c0e2a20fc9",
+      "file": "Strings.de.xml",
+      "key": "QudAPISaves PermissionError|There was a permission error while trying to access your save directory.",
+      "context": "QudAPISaves PermissionError",
+      "old_value": "Es gab einen Berechtigungsfehler beim Versuch, auf Euer Speicherverzeichnis zuzugreifen.",
+      "new_value": "Es gab einen Berechtigungsfehler beim Versuch, auf dein Speicherverzeichnis zuzugreifen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b2956e634ecc0d17",
+      "file": "Strings.de.xml",
+      "key": "QudAPISaves DirectoryError|There was an error while trying to access your save directory.",
+      "context": "QudAPISaves DirectoryError",
+      "old_value": "Es gab einen Fehler beim Versuch, auf Euer Speicherverzeichnis zuzugreifen.",
+      "new_value": "Es gab einen Fehler beim Versuch, auf dein Speicherverzeichnis zuzugreifen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "50e5769c3427a158",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuestConversationHelper reward choice dialog|=spice:quests.thanks.!random|capitalize=. Our village owes you a debt. For now, please choose a reward from our stockpile as payment for your service.",
+      "context": "DynamicQuestConversationHelper reward choice dialog",
+      "old_value": "=spice:quests.thanks.!random|capitalize=. Unser Dorf schuldet Euch eine Schuld. Bitte wählt vorerst eine Belohnung aus unserem Bestand als Bezahlung für euren Dienst.",
+      "new_value": "=spice:quests.thanks.!random|capitalize=. Unser Dorf schuldet dir eine Schuld. Bitte wähle vorerst eine Belohnung aus unserem Bestand als Bezahlung für deinen Dienst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f556cef3d6dfea9",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuestConversationHelper reward choice choice|Live and drink.",
+      "context": "DynamicQuestConversationHelper reward choice choice",
+      "old_value": "Leben Sie und trinken Sie.",
+      "new_value": "Lebe und trinke.",
+      "note": "Sie-Abschiedsformel -> du-Imperativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "be4ea7ba6bb82eb8",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuestConversationHelper village zero main quest restart dialog|Are you seeking more work, =player.formalAddressTerm=? Recently we came into possession of a data disk bearing a peculiar stamp and encoded with a strange signal. The signal means nothing to us, but there's a sect of tinkers called the Barathrumites who might be interested in it. They are friends to our village and often trade for the scrap we tow out of the earth. Would you carry the disk to their enclave at Grit Gate, along the western rim of the jungle? In exchange for the delivery, you might seek an apprenticeship with them.\n\nIf you are interested, take the disk now, and travel safely.",
+      "context": "DynamicQuestConversationHelper village zero main quest restart dialog",
+      "old_value": "Sucht Ihr weitere Arbeit, =player.formalAddressTerm=? Vor kurzem kamen wir in den Besitz einer Datendisk mit einem eigenartigen Siegel, die mit einem seltsamen Signal kodiert ist. Das Signal bedeutet für uns nichts, aber es gibt eine Sekte von Bastlern namens die Barathrumiten, die daran interessiert sein könnten. Sie sind Freunde unseres Dorfes und handeln oft mit dem Schrott, den wir aus der Erde schleppen. Würdet Ihr die Disk zu ihrer Enklave bei Grit Gate tragen, entlang des westlichen Randes des Dschungels? Im Gegenzug für die Lieferung könntet Ihr eine Lehrstelle bei ihnen suchen.\n\nWenn Ihr interessiert seid, nehmt die Disk jetzt und reist sicher.",
+      "new_value": "Suchst du weitere Arbeit, =player.formalAddressTerm=? Vor kurzem kamen wir in den Besitz einer Datendisk mit einem eigenartigen Siegel, die mit einem seltsamen Signal kodiert ist. Das Signal bedeutet für uns nichts, aber es gibt eine Sekte von Bastlern namens die Barathrumiten, die daran interessiert sein könnten. Sie sind Freunde unseres Dorfes und handeln oft mit dem Schrott, den wir aus der Erde schleppen. Würdest du die Disk zu ihrer Enklave bei Grit Gate tragen, entlang des westlichen Randes des Dschungels? Im Gegenzug für die Lieferung könntest du eine Lehrstelle bei ihnen suchen.\n\nWenn du interessiert bist, nimm die Disk jetzt und reise sicher.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9961948401a30d36",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuestConversationHelper village zero main quest dialog|=spice:quests.thanks.!random|capitalize=. You've proven =player.reflexive= a friend to our village. Take this recoiler and return whenever your throat is dry.",
+      "context": "DynamicQuestConversationHelper village zero main quest dialog",
+      "old_value": "=spice:quests.thanks.!random|capitalize=. Ihr habt =player.reflexive= als Freund unseres Dorfes bewiesen. Nehmt diesen Rückstoßer und kehrt zurück, wenn euer Hals trocken ist.",
+      "new_value": "=spice:quests.thanks.!random|capitalize=. Du hast =player.reflexive= als Freund unseres Dorfes bewiesen. Nimm diesen Rückstoßer und kehre zurück, wenn dein Hals trocken ist.",
+      "note": "=player.reflexive= unveraendert",
+      "status": "accepted"
+    },
+    {
+      "uid": "abbcf5017b822045",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuestSignpostConversation choice|Live and drink.",
+      "context": "DynamicQuestSignpostConversation choice",
+      "old_value": "Leben Sie und trinken Sie.",
+      "new_value": "Lebe und trinke.",
+      "note": "Sie-Abschiedsformel -> du-Imperativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "331a024676f6f5db",
+      "file": "Strings.de.xml",
+      "key": "FindASiteDynamicQuestTemplate Completion Accomplishment|You located =sitename=.",
+      "context": "FindASiteDynamicQuestTemplate Completion Accomplishment",
+      "old_value": "Ihr habt =sitename= aufgefunden.",
+      "new_value": "Du hast =sitename= aufgefunden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8622910b965bfa9a",
+      "file": "Strings.de.xml",
+      "key": "FindASpecificItemDynamicQuestTemplate Accomplishment|You recovered =item.refname:withDefiniteArticle=.",
+      "context": "FindASpecificItemDynamicQuestTemplate Accomplishment",
+      "old_value": "Ihr habt =item.refname:withDefiniteArticle= wiederhergestellt.",
+      "new_value": "Du hast =item.refname:withDefiniteArticle= wiederhergestellt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "98757a1bcc52a01f",
+      "file": "Strings.de.xml",
+      "key": "DynamicQuest you recive an item|You receive =item.a.name=.",
+      "context": "DynamicQuest you recive an item",
+      "old_value": "Ihr erhaltet =item.a.name=.",
+      "new_value": "Du erhältst =item.a.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a8bcccfb6bafb007",
+      "file": "Strings.de.xml",
+      "key": "Faction Feeling|{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:despise:despises= you. Even docile =faction.ifPlural:ones:members= will attack you.",
+      "context": "Faction Feeling",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:despise:despises= Euch. Selbst zahme =faction.ifPlural:ones:members= werden Euch angreifen.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:despise:despises= dich. Selbst zahme =faction.ifPlural:ones:members= werden dich angreifen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b5ee9f1020a13354",
+      "file": "Strings.de.xml",
+      "key": "Faction Feeling|{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:dislike:dislikes= you, but docile =faction.ifPlural:ones:members= won't attack you.",
+      "context": "Faction Feeling",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:dislike:dislikes= Euch, aber zahme =faction.ifPlural:ones:members= werden Euch nicht angreifen.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:dislike:dislikes= dich, aber zahme =faction.ifPlural:ones:members= werden dich nicht angreifen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d0c1949fb42d408",
+      "file": "Strings.de.xml",
+      "key": "Faction Feeling|{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:revere:reveres= you and =faction.ifPlural:consider:considers= you one of their own.",
+      "context": "Faction Feeling",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:revere:reveres= Euch und =faction.ifPlural:consider:considers= Euch für einen der Ihren.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} =faction.ifPlural:revere:reveres= dich und =faction.ifPlural:consider:considers= dich für einen der Ihren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "56d1bfe737bc078d",
+      "file": "Strings.de.xml",
+      "key": "Faction Pet Text|{{C|=faction.formattedName|capitalize=}} will usually let you pet them.",
+      "context": "Faction Pet Text",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} werden Euch normalerweise erlauben, sie zu streicheln.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} werden dir normalerweise erlauben, sie zu streicheln.",
+      "note": "erlauben + Dativ -> dir",
+      "status": "accepted"
+    },
+    {
+      "uid": "d59632d483b2780a",
+      "file": "Strings.de.xml",
+      "key": "Faction Pet Text|{{C|=faction.formattedName|capitalize=}} won't usually let you pet them.",
+      "context": "Faction Pet Text",
+      "old_value": "{{C|=faction.formattedName|capitalize=}} werden Euch normalerweise nicht erlauben, sie zu streicheln.",
+      "new_value": "{{C|=faction.formattedName|capitalize=}} werden dir normalerweise nicht erlauben, sie zu streicheln.",
+      "note": "erlauben + Dativ -> dir",
+      "status": "accepted"
+    },
+    {
+      "uid": "69301bd3257d126d",
+      "file": "Strings.de.xml",
+      "key": "Faction Rank Text|You hold the =faction.rankTerm= of =rank= among them.",
+      "context": "Faction Rank Text",
+      "old_value": "Ihr haltet unter ihnen den Rang =faction.rankTerm= von =rank=.",
+      "new_value": "Du hältst unter ihnen den Rang =faction.rankTerm= von =rank=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "64a08acdb37f452d",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Cybernetics Install Message|You installed =cybernetic.isPlural:some:a= cybernetic =cybernetic.basename= and came one step closer to the Grand Unification.",
+      "context": "BodyPart Cybernetics Install Message",
+      "old_value": "Ihr habt =cybernetic.isPlural:some:a= kybernetisches =cybernetic.basename= installiert und seid der Großen Vereinigung einen Schritt näher gekommen.",
+      "new_value": "Du hast =cybernetic.isPlural:some:a= kybernetisches =cybernetic.basename= installiert und bist der Großen Vereinigung einen Schritt näher gekommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fbf2ac8614edf875",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Equip Fail Too Large|This item is too large for you to equip.",
+      "context": "BodyPart Equip Fail Too Large",
+      "old_value": "Dieser Gegenstand ist zu groß, um von Euch angelegt zu werden.",
+      "new_value": "Dieser Gegenstand ist zu groß, um von dir angelegt zu werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d610e0bd30e6698",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Equip Fail Too Small|This item is too small for you to equip.",
+      "context": "BodyPart Equip Fail Too Small",
+      "old_value": "Dieser Gegenstand ist zu klein, um von Euch angelegt zu werden.",
+      "new_value": "Dieser Gegenstand ist zu klein, um von dir angelegt zu werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "749d205493250339",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Equip Need Another Slot|You need =hasAny.if:another:a= free =slotType= slot to equip that!",
+      "context": "BodyPart Equip Need Another Slot",
+      "old_value": "Ihr benötigt =hasAny.if:another:a= freien =slotType=-Platz, um das anzulegen!",
+      "new_value": "Du benötigst =hasAny.if:another:a= freien =slotType=-Platz, um das anzulegen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bebd75d20c1e0344",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Equip Need Slots|You need another =shortBy.cardinal= free =slotType= slots to equip that!",
+      "context": "BodyPart Equip Need Slots",
+      "old_value": "Ihr benötigt =shortBy.cardinal= weitere freie =slotType=-Plätze, um das anzulegen!",
+      "new_value": "Du benötigst =shortBy.cardinal= weitere freie =slotType=-Plätze, um das anzulegen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e8905fd0664e546d",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Equip Need Slot|You need another free =bodyPartType.type= slot to equip that!",
+      "context": "BodyPart Equip Need Slot",
+      "old_value": "Ihr benötigt einen weiteren freien =bodyPartType.type=-Platz, um das anzulegen!",
+      "new_value": "Du benötigst einen weiteren freien =bodyPartType.type=-Platz, um das anzulegen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bb1892267a01b545",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Equip Need Slots|You need another =shortBy.cardinal= free =bodyPartType.type= slots to equip that!",
+      "context": "BodyPart Equip Need Slots",
+      "old_value": "Ihr benötigt =shortBy.cardinal= weitere freie =bodyPartType.type=-Plätze, um das anzulegen!",
+      "new_value": "Du benötigst =shortBy.cardinal= weitere freie =bodyPartType.type=-Plätze, um das anzulegen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1d093c14e3a7ff99",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Preferred Switch in Combat|You can't switch primary limbs in combat.",
+      "context": "BodyPart Preferred Switch in Combat",
+      "old_value": "Ihr könnt die primären Gliedmaßen im Kampf nicht wechseln.",
+      "new_value": "Du kannst die primären Gliedmaßen im Kampf nicht wechseln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d22c71725ce49b49",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Preferred Switch Cannot be Primary|This body part cannot be set as your primary.",
+      "context": "BodyPart Preferred Switch Cannot be Primary",
+      "old_value": "Dieser Körperteil kann nicht als Euer Hauptkörperteil festgelegt werden.",
+      "new_value": "Dieser Körperteil kann nicht als dein Hauptkörperteil festgelegt werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "501e156fd1f87e8c",
+      "file": "Strings.de.xml",
+      "key": "AutoAct Interrupt Message|You stop =autoActDescription= because =because=.",
+      "context": "AutoAct Interrupt Message",
+      "old_value": "Ihr hört auf, =autoActDescription=, weil =because=.",
+      "new_value": "Du hörst auf, =autoActDescription=, weil =because=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7745ca106ba750fe",
+      "file": "Strings.de.xml",
+      "key": "mutationbgone wish - no mutation error|Huh? Get some mutations first if you want me to eat them!",
+      "context": "mutationbgone wish - no mutation error",
+      "old_value": "Huh? Bekommt zuerst ein paar Mutationen, wenn Ihr wollt, dass ich sie esse!",
+      "new_value": "Huh? Bekomm zuerst ein paar Mutationen, wenn du willst, dass ich sie esse!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f865621c1f72e439",
+      "file": "Strings.de.xml",
+      "key": "mutationbgone:mutation wish - not found|Didn't find that one. Try again?",
+      "context": "mutationbgone:mutation wish - not found",
+      "old_value": "Den habe ich nicht gefunden. Versuchen Sie es noch einmal?",
+      "new_value": "Den habe ich nicht gefunden. Versuchst du es noch einmal?",
+      "note": "Sie-Frage -> 'Versuchst du es'",
+      "status": "accepted"
+    },
+    {
+      "uid": "53fa3be2b6e6183b",
+      "file": "Strings.de.xml",
+      "key": "Conversation ChavvahAttune Accomplishment|You touched the chiming rock and attuned to Chavvah, the Tree of Life.",
+      "context": "Conversation ChavvahAttune Accomplishment",
+      "old_value": "Ihr habt den klingenden Stein berührt und habt euch Chavvah, dem Baum des Lebens, abgestimmt.",
+      "new_value": "Du hast den klingenden Stein berührt und hast dich Chavvah, dem Baum des Lebens, abgestimmt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5cbc0e7c3927b31",
+      "file": "Strings.de.xml",
+      "key": "Conversation GiveArtifact - Error Popup|You have no artifacts to give.",
+      "context": "Conversation GiveArtifact - Error Popup",
+      "old_value": "Ihr habt keine Artefakte zu geben.",
+      "new_value": "Du hast keine Artefakte zu geben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b729583a1bd1fc04",
+      "file": "Strings.de.xml",
+      "key": "Conversation GiveArtifact - Error Popup|You can't give that object.",
+      "context": "Conversation GiveArtifact - Error Popup",
+      "old_value": "Ihr könnt diesen Gegenstand nicht geben.",
+      "new_value": "Du kannst diesen Gegenstand nicht geben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "18ac242b799434fb",
+      "file": "Strings.de.xml",
+      "key": "Converstaion GiveReshephSecret No secrets to share popup|You do not have any unshared secrets about the life of Resheph.",
+      "context": "Converstaion GiveReshephSecret No secrets to share popup",
+      "old_value": "Ihr habt keine ungeteilten Geheimnisse über Reshephs Leben.",
+      "new_value": "Du hast keine ungeteilten Geheimnisse über Reshephs Leben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb93fa170dc621a2",
+      "file": "Strings.de.xml",
+      "key": "Converstaion GiveReshephSecret Popup|You muse over the =numShared.pluralize:secret= with =object.name|strip= and gain some insight.",
+      "context": "Converstaion GiveReshephSecret Popup",
+      "old_value": "Ihr sinnt über =numShared.pluralize:secret= mit =object.name|strip= nach und gewinnt Einsicht.",
+      "new_value": "Du sinnst über =numShared.pluralize:secret= mit =object.name|strip= nach und gewinnst Einsicht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e35d7e9a6f3fdf21",
+      "file": "Strings.de.xml",
+      "key": "Converation GiveReshephSecret XP popup|You gain {{C|=xp=}} XP.",
+      "context": "Converation GiveReshephSecret XP popup",
+      "old_value": "Ihr erhaltet {{C|=xp=}} XP.",
+      "new_value": "Du erhältst {{C|=xp=}} XP.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "163973bb5d06db20",
+      "file": "Strings.de.xml",
+      "key": "Conversation HaveItem Failure Message|You do not have =amount.threshold:2:enough ==object.name|strip|amount.pluralize=.",
+      "context": "Conversation HaveItem Failure Message",
+      "old_value": "Ihr habt nicht =amount.threshold:2:enough ==object.name|strip|amount.pluralize=.",
+      "new_value": "Du hast nicht =amount.threshold:2:enough ==object.name|strip|amount.pluralize=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "86e0b111a42770a9",
+      "file": "Strings.de.xml",
+      "key": "Conversation Water Ritual - Failure Popup|You don't have a high enough reputation with =faction.the.name=.",
+      "context": "Conversation Water Ritual - Failure Popup",
+      "old_value": "Ihr habt nicht genug Reputation bei =faction.the.name=.",
+      "new_value": "Du hast nicht genug Reputation bei =faction.the.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec4fc161b9a1f9b3",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect WakeSleeper Fail Message Log|You can't figure out how to wake =object.the.name=.",
+      "context": "Asleep Effect WakeSleeper Fail Message Log",
+      "old_value": "Ihr könnt nicht herausfinden, wie man =object.the.name= aufweckt.",
+      "new_value": "Du kannst nicht herausfinden, wie man =object.the.name= aufweckt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "55a3dca515ab5f43",
+      "file": "Strings.de.xml",
+      "key": "AxonsDeflated Effect Apply Player Message|You start to feel sluggish.",
+      "context": "AxonsDeflated Effect Apply Player Message",
+      "old_value": "Ihr fangt an, euch träge zu fühlen.",
+      "new_value": "Du fängst an, dich träge zu fühlen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1f0cb91cb2a149f7",
+      "file": "Strings.de.xml",
+      "key": "BasiliskPoison Effect Worsen Player Message|You feel stiff as a stone.",
+      "context": "BasiliskPoison Effect Worsen Player Message",
+      "old_value": "Ihr fühlt Euch steif wie ein Stein.",
+      "new_value": "Du fühlst dich steif wie ein Stein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5c4485eca42fc3d6",
+      "file": "Strings.de.xml",
+      "key": "Beguiled Effect Journal Accomplishment|=beguiled.A.name= ogled you lovingly after you employed your charm.",
+      "context": "Beguiled Effect Journal Accomplishment",
+      "old_value": "=beguiled.A.name= betrachtete Euch verliebt an, nachdem Ihr Euren Charme einsetztet.",
+      "new_value": "=beguiled.A.name= betrachtete dich verliebt an, nachdem du deinen Charme einsetztest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "496d6e922e383a2a",
+      "file": "Strings.de.xml",
+      "key": "Berserker Effect Duration Player Message Log|=duration.things:turn remains:turns remain= until your berserker rage ends.",
+      "context": "Berserker Effect Duration Player Message Log",
+      "old_value": "=duration.things:turn remains:turns remain= bis zum Ende Eurer Berserker-Raserei.",
+      "new_value": "=duration.things:turn remains:turns remain= bis zum Ende deiner Berserker-Raserei.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "100fcab3aec35707",
+      "file": "Strings.de.xml",
+      "key": "Blaze_Tonic Effect Remove Player Message Log|The =tonic.description= burns out of your system.",
+      "context": "Blaze_Tonic Effect Remove Player Message Log",
+      "old_value": "Das =tonic.description= brennt aus Eurem Körper.",
+      "new_value": "Das =tonic.description= brennt aus deinem Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aec3b8f73c78497f",
+      "file": "Strings.de.xml",
+      "key": "Blaze_Tonic Effect Expire Player Popup|You start to cool off.",
+      "context": "Blaze_Tonic Effect Expire Player Popup",
+      "old_value": "Ihr fangt an, euch abzukühlen.",
+      "new_value": "Du fängst an, dich abzukühlen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9561e6d6c75595b4",
+      "file": "Strings.de.xml",
+      "key": "Blaze_Tonic Effect Overdose Mutant Player Popup|Your mutant physiology reacts adversely to the tonic. You erupt into flames!",
+      "context": "Blaze_Tonic Effect Overdose Mutant Player Popup",
+      "old_value": "Eure mutierte Physiologie reagiert heftig auf das Tonikum. Ihr geht in Flammen auf!",
+      "new_value": "Deine mutierte Physiologie reagiert heftig auf das Tonikum. Du gehst in Flammen auf!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b88cf713bd5a4c8b",
+      "file": "Strings.de.xml",
+      "key": "Blaze_Tonic Effect Overdose True Kin Player Popup|The tonics you ingested react adversely to each other. You erupt into flames!",
+      "context": "Blaze_Tonic Effect Overdose True Kin Player Popup",
+      "old_value": "Die von Euch eingenommenen Tonika reagieren heftig miteinander. Ihr geht in Flammen auf!",
+      "new_value": "Die von dir eingenommenen Tonika reagieren heftig miteinander. Du gehst in Flammen auf!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6fdea3587f5f9e27",
+      "file": "Strings.de.xml",
+      "key": "BlinkingTicSickness Effect Player Teleport Message Log|You lurch suddenly!",
+      "context": "BlinkingTicSickness Effect Player Teleport Message Log",
+      "old_value": "Ihr taumelt plötzlich!",
+      "new_value": "Du taumelst plötzlich!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e82bb3c1d80e120b",
+      "file": "Strings.de.xml",
+      "key": "BoostStatistic Effect Apply Player Message Log Increase|Your =stat.title= increases.",
+      "context": "BoostStatistic Effect Apply Player Message Log Increase",
+      "old_value": "Euer =stat.title= erhöht sich.",
+      "new_value": "Dein =stat.title= erhöht sich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0e5ef6299eb1f7e8",
+      "file": "Strings.de.xml",
+      "key": "BoostStatistic Effect Apply Player Message Log Decrease|Your =stat.title= decreases.",
+      "context": "BoostStatistic Effect Apply Player Message Log Decrease",
+      "old_value": "Euer =stat.title= sinkt.",
+      "new_value": "Dein =stat.title= sinkt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c41595269d10d552",
+      "file": "Strings.de.xml",
+      "key": "BoostStatistic Effect Remove Player Message Log|Your =stat.title= returns to normal.",
+      "context": "BoostStatistic Effect Remove Player Message Log",
+      "old_value": "Euer =stat.title= kehrt zur Normalität zurück.",
+      "new_value": "Dein =stat.title= kehrt zur Normalität zurück.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "73f7a2e4f76a9c73",
+      "file": "Strings.de.xml",
+      "key": "BrainBrineCurse Effect Gain Skill Player Popup|You learn the skill =skill.name|color:C=!",
+      "context": "BrainBrineCurse Effect Gain Skill Player Popup",
+      "old_value": "Ihr lernt die Fähigkeit =skill.name|color:C=!",
+      "new_value": "Du lernst die Fähigkeit =skill.name|color:C=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a854950f3a359bf8",
+      "file": "Strings.de.xml",
+      "key": "BrainBrineCurse Effect Gain Mutation Player Popup|You gained the mutation =mutation.name|color:G=!",
+      "context": "BrainBrineCurse Effect Gain Mutation Player Popup",
+      "old_value": "Ihr erlangt die Mutation =mutation.name|color:G=!",
+      "new_value": "Du erlangst die Mutation =mutation.name|color:G=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "733a0e30bdcdeb43",
+      "file": "Strings.de.xml",
+      "key": "BrainBrineCurse Effect Gain Mutation Fail Player Popup|Your mind begins to morph but the physiology of your brain restricts it.",
+      "context": "BrainBrineCurse Effect Gain Mutation Fail Player Popup",
+      "old_value": "Euer Geist beginnt sich zu verwandeln, aber die Physiologie eures Gehirns beschränkt dies.",
+      "new_value": "Dein Geist beginnt sich zu verwandeln, aber die Physiologie deines Gehirns beschränkt dies.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "29f5fde505d192d1",
+      "file": "Strings.de.xml",
+      "key": "BrainBrineCurse Effect Gain Defect Player Popup|You gained the defect =mutation.name|color:R=!",
+      "context": "BrainBrineCurse Effect Gain Defect Player Popup",
+      "old_value": "Ihr erlangt den Makel =mutation.name|color:R=!",
+      "new_value": "Du erlangst den Makel =mutation.name|color:R=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d0fd4c2007d091a",
+      "file": "Strings.de.xml",
+      "key": "BrainBrineCurse Effect Gain Defect Fail Player Popup|Your mind begins to morph but the physiology of your brain restricts it.",
+      "context": "BrainBrineCurse Effect Gain Defect Fail Player Popup",
+      "old_value": "Euer Geist beginnt sich zu verwandeln, aber die Physiologie eures Gehirns beschränkt dies.",
+      "new_value": "Dein Geist beginnt sich zu verwandeln, aber die Physiologie deines Gehirns beschränkt dies.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d95221d7753906e0",
+      "file": "Strings.de.xml",
+      "key": "BrainBrineCurse Effect Start Player Popup|You shake the water from your addled brain, but someone else's thoughts have already taken root.",
+      "context": "BrainBrineCurse Effect Start Player Popup",
+      "old_value": "Ihr schüttelt das Wasser aus eurem verworrenen Gehirn, aber die Gedanken eines anderen haben bereits Wurzeln geschlagen.",
+      "new_value": "Du schüttelst das Wasser aus deinem verworrenen Gehirn, aber die Gedanken eines anderen haben bereits Wurzeln geschlagen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "983a0bbcaaef44ef",
+      "file": "Strings.de.xml",
+      "key": "Broken Effect Equip Fail Player Message|You can't equip =object.the.name=, =object.itis= broken!",
+      "context": "Broken Effect Equip Fail Player Message",
+      "old_value": "Ihr könnt =object.the.name= nicht ausrüsten, =object.itis= ist zerbrochen!",
+      "new_value": "Du kannst =object.the.name= nicht ausrüsten, =object.itis= ist zerbrochen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "885b279a75d088be",
+      "file": "Strings.de.xml",
+      "key": "Burning Effect Follower Visible AutoAct Interrupt 'because' (clause)|you see =object.the.name:baseOnly= catch fire",
+      "context": "Burning Effect Follower Visible AutoAct Interrupt 'because' (clause)",
+      "old_value": "Ihr seht =object.the.name:baseOnly= Feuer fangen",
+      "new_value": "du siehst =object.the.name:baseOnly= Feuer fangen",
+      "note": "englisch kleingeschrieben (Satzfragment) -> 'du' klein",
+      "status": "accepted"
+    },
+    {
+      "uid": "66c19066c3d96d30",
+      "file": "Strings.de.xml",
+      "key": "Burning Effect Follower Audible AutoAct Interrupt 'because' (clause)|you hear =object.the.name:baseOnly= catch fire =object.to.the.direction=",
+      "context": "Burning Effect Follower Audible AutoAct Interrupt 'because' (clause)",
+      "old_value": "Ihr hört =object.the.name:baseOnly= Feuer fangen =object.to.the.direction=",
+      "new_value": "du hörst =object.the.name:baseOnly= Feuer fangen =object.to.the.direction=",
+      "note": "englisch kleingeschrieben (Satzfragment) -> 'du' klein",
+      "status": "accepted"
+    },
+    {
+      "uid": "e0003ee20084bb27",
+      "file": "Strings.de.xml",
+      "key": "Burrowed Effect CannotDoWhileBurrowed Fail|You cannot do that while burrowed.",
+      "context": "Burrowed Effect CannotDoWhileBurrowed Fail",
+      "old_value": "Ihr könnt das nicht tun, während Ihr vergraben seid.",
+      "new_value": "Du kannst das nicht tun, während du vergraben bist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "244139175a1421e0",
+      "file": "Strings.de.xml",
+      "key": "Burrowed Effect Travel Fail|You cannot travel long distances while burrowed.",
+      "context": "Burrowed Effect Travel Fail",
+      "old_value": "Ihr könnt nicht lange Strecken zurücklegen, während Ihr vergraben seid.",
+      "new_value": "Du kannst nicht lange Strecken zurücklegen, während du vergraben bist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "924b3065b265fad2",
+      "file": "Strings.de.xml",
+      "key": "BasicCookingEffect WellFedMessage|You eat the meal. It's tastier than usual.",
+      "context": "BasicCookingEffect WellFedMessage",
+      "old_value": "Ihr esst die Mahlzeit. Sie schmeckt besser als üblich.",
+      "new_value": "Du isst die Mahlzeit. Sie schmeckt besser als üblich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "76024d92f39e1038",
+      "file": "Strings.de.xml",
+      "key": "BasicTriggeredCookingEffect WellFedMessage|You eat the meal. It's tastier than usual.",
+      "context": "BasicTriggeredCookingEffect WellFedMessage",
+      "old_value": "Ihr esst die Mahlzeit. Sie schmeckt besser als üblich.",
+      "new_value": "Du isst die Mahlzeit. Sie schmeckt besser als üblich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "45c2318046b5f1e8",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainDissociation_UnitOtherBodyBonus Description|As long as your body isn't your own, you gain =bonus.signed= Quickness.",
+      "context": "CookingDomainDissociation_UnitOtherBodyBonus Description",
+      "old_value": "Solange Euer Körper nicht Euer eigener ist, erlangt Ihr =bonus.signed= Schnelligkeit.",
+      "new_value": "Solange dein Körper nicht dein eigener ist, erlangst du =bonus.signed= Schnelligkeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7449667f42a67407",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitSlogTransform - Failure|Your genome has already undergone this transformation.",
+      "context": "CookingDomainSpecial_UnitSlogTransform - Failure",
+      "old_value": "Euer Genom hat diese Umwandlung bereits durchlaufen.",
+      "new_value": "Dein Genom hat diese Umwandlung bereits durchlaufen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cab1c34f97bb7092",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitSlogTransform Popups|You feel an uncomfortable pressure across the length of your body.",
+      "context": "CookingDomainSpecial_UnitSlogTransform Popups",
+      "old_value": "Ihr fühlt einen unangenehmen Druck über die gesamte Länge Eures Körpers.",
+      "new_value": "Du fühlst einen unangenehmen Druck über die gesamte Länge deines Körpers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "968b377e3718a14b",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitSlogTransform Popups|Feelers rip through your scalp and shudder with curiosity.",
+      "context": "CookingDomainSpecial_UnitSlogTransform Popups",
+      "old_value": "Fühler reißen durch Eure Kopfhaut und zittern vor Neugier.",
+      "new_value": "Fühler reißen durch deine Kopfhaut und zittern vor Neugier.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "22de9137b23917cb",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitSlogTransform Popups|Your arms shrink into your torso.",
+      "context": "CookingDomainSpecial_UnitSlogTransform Popups",
+      "old_value": "Eure Arme schrumpfen in Euren Rumpf.",
+      "new_value": "Deine Arme schrumpfen in deinen Rumpf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b1533ed62b366da4",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitSlogTransform Popups|You gained the mutation {{w|Bilge Sphincter}}!",
+      "context": "CookingDomainSpecial_UnitSlogTransform Popups",
+      "old_value": "Ihr habt die Mutation {{w|Bilge Sphincter}} erworben!",
+      "new_value": "Du hast die Mutation {{w|Bilge Sphincter}} erworben!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "062dfdd29c342ca5",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitSlogTransform Accomplishment|You ate the Cloaca Surprise.",
+      "context": "CookingDomainSpecial_UnitSlogTransform Accomplishment",
+      "old_value": "Ihr habt die Kloakische Überraschung gegessen.",
+      "new_value": "Du hast die Kloakische Überraschung gegessen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1de724c3080b35c1",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitCrystalTransform Failure|Your genome has already undergone this transformation.",
+      "context": "CookingDomainSpecial_UnitCrystalTransform Failure",
+      "old_value": "Euer Genom hat diese Umwandlung bereits durchlaufen.",
+      "new_value": "Dein Genom hat diese Umwandlung bereits durchlaufen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5c018b78d8b720a",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitCrystalTransform Popups|You feel an uncomfortable pressure across the length of your body.",
+      "context": "CookingDomainSpecial_UnitCrystalTransform Popups",
+      "old_value": "Ihr fühlt einen unangenehmen Druck über die gesamte Länge Eures Körpers.",
+      "new_value": "Du fühlst einen unangenehmen Druck über die gesamte Länge deines Körpers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "928b5171a106556a",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitCrystalTransform Popups|Your limbs suddenly feel perversely round and bumpy before they shrink back into your body.",
+      "context": "CookingDomainSpecial_UnitCrystalTransform Popups",
+      "old_value": "Eure Gliedmaßen fühlen sich plötzlich verdreht rund und höckerig an, bevor sie sich in euren Körper zurückziehen.",
+      "new_value": "Deine Gliedmaßen fühlen sich plötzlich verdreht rund und höckerig an, bevor sie sich in deinen Körper zurückziehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "90331260d178d484",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitCrystalTransform Popups|You gained the mutation {{C|Crystallinity}}!",
+      "context": "CookingDomainSpecial_UnitCrystalTransform Popups",
+      "old_value": "Ihr habt die Mutation {{C|Crystallinity}} gewonnen!",
+      "new_value": "Du hast die Mutation {{C|Crystallinity}} gewonnen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "353b0b71fe48da47",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainSpecial_UnitCrystalTransform Accomplishment|You ate some Crystal Delight and became a crystalline being.",
+      "context": "CookingDomainSpecial_UnitCrystalTransform Accomplishment",
+      "old_value": "Ihr habt etwas Kristallfreude gegessen und seid zu einem kristallinen Wesen geworden.",
+      "new_value": "Du hast etwas Kristallfreude gegessen und bist zu einem kristallinen Wesen geworden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "14895eacb81e7858",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainTeleport_UnitBlink Message - Player attacking|Fate intervenes and you deal no damage to =object.the.name=.",
+      "context": "CookingDomainTeleport_UnitBlink Message - Player attacking",
+      "old_value": "Das Schicksal greift ein und Ihr verursacht keinen Schaden bei =object.dativ=.",
+      "new_value": "Das Schicksal greift ein und du verursachst keinen Schaden bei =object.dativ=.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

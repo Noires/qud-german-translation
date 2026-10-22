@@ -1,0 +1,508 @@
+{
+  "batch": "ifplural-conversations-01",
+  "rule": "fix-ifplural",
+  "note": "Weichen-Token-Argumente deutsch (ifplural-conversations-01)",
+  "created": "2026-10-22 16:32",
+  "items": [
+    {
+      "uid": "3c27bab5cadc8519",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation MopangoStranger.Start.Text.Text2|An =ifplayerplural:ye are:thou'rt= ready.",
+      "context": "Conversation MopangoStranger.Start.Text.Text2",
+      "old_value": "Wenn =ifplayerplural:ye are:thou'rt= bereit.",
+      "new_value": "Wenn =ifplayerplural:ihr bereit seid:du bereit bist=.",
+      "note": "Prädikat 'bereit' ins Token gezogen (Verbendstellung im Nebensatz).",
+      "status": "accepted"
+    },
+    {
+      "uid": "a38fc6197067222a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation MopangoStranger.Start.Text.Text3|An =ifplayerplural:ye will:thou wilt=.",
+      "context": "Conversation MopangoStranger.Start.Text.Text3",
+      "old_value": "Und =ifplayerplural:ye will:thou wilt=.",
+      "new_value": "Wenn =ifplayerplural:ihr wollt:du willst=.",
+      "note": "'An' = 'wenn' (wie in Text2), nicht 'und'.",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd1637c2449e87c5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation MopangoStranger.Start.Text.Text7|=ifplayerplural:Have ye:Hast thou= business with me?",
+      "context": "Conversation MopangoStranger.Start.Text.Text7",
+      "old_value": "=ifplayerplural:Have ye:Hast thou= Angelegenheit mit mir?",
+      "new_value": "=ifplayerplural:Habt ihr:Hast du= ein Anliegen an mich?",
+      "note": "Weiche übersetzt; 'Angelegenheit mit mir' zu 'ein Anliegen an mich' korrigiert.",
+      "status": "accepted"
+    },
+    {
+      "uid": "1f44d3b57de0e6bd",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation MopangoStranger.Start.Text.Text9|=ifplayerplural:Will ye:Wilt thou=, =player.formalAddressTerm=?",
+      "context": "Conversation MopangoStranger.Start.Text.Text9",
+      "old_value": "=ifplayerplural:Will ye:Wilt thou=, =player.formalAddressTerm=?",
+      "new_value": "=ifplayerplural:Wollt ihr:Willst du=, =player.formalAddressTerm=?",
+      "note": "Weiche übersetzt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "c2984825912a1e84",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation MopangoStranger.Start.Text.Text10|May Her Light guide =ifplayerplural:your:thy= steps, =player.formalAddressTerm=.",
+      "context": "Conversation MopangoStranger.Start.Text.Text10",
+      "old_value": "Möge Ihr Licht =ifplayerplural:your:thy= Schritte leiten, =player.formalAddressTerm=.",
+      "new_value": "Möge Ihr Licht =ifplayerplural:eure:deine= Schritte leiten, =player.formalAddressTerm=.",
+      "note": "Weiche übersetzt; 'Ihr Licht' (= Her Light) klein geschrieben, damit es nicht als Höflichkeitsform liest. | Nachkorrektur: Möge Ihr Licht",
+      "status": "accepted"
+    },
+    {
+      "uid": "13fbd72a7f84a992",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vivira.Start.Text|{{emote|*BEEP* *crackle*}}\n\nBy Her Light, =player.formalAddressTerm=.\n\nAn =ifplayerplural:ye would:thou wouldst= rest peaceably, =ifplayerplural:ye are:thou'rt= welcome here.",
+      "context": "Conversation Vivira.Start.Text",
+      "old_value": "{{emote|*BEEP* *crackle*}}\n\nVon ihrem Licht, =player.formalAddressTerm=.\n\nWenn =ifplayerplural:ye would:thou wouldst= ruhig rasten, =ifplayerplural:ye are:thou'rt= hier willkommen.",
+      "new_value": "{{emote|*BEEP* *crackle*}}\n\nBei Ihrem Licht, =player.formalAddressTerm=.\n\nWenn =ifplayerplural:ihr ruhig rasten wollt:du ruhig rasten willst=, =ifplayerplural:seid ihr:bist du= hier willkommen.",
+      "note": "Verbendstellung: 'ruhig rasten' ins Token; Hauptsatz mit Inversion. | Nachkorrektur: Bei Ihrem Licht",
+      "status": "accepted"
+    },
+    {
+      "uid": "19a11aa9529efaf1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vivira.ViviQuest.Text|{{emote|*crackle, crackle*}}-othom? My sympathies.\n\n=ifplayerplural:Ye are:Thou art= of course welcome here, wayfarer. Speak to Agyra an =ifplayerplural:ye need:thou needest= aught, as ey delighteth in hospitality.",
+      "context": "Conversation Vivira.ViviQuest.Text",
+      "old_value": "{{emote|*Knistern, Knistern*}}-othom? Mein Beileid.\n\n=ifplayerplural:Ye are:Thou art= natürlich willkommen hier, Wanderer. Sprecht mit Agyra wenn =ifplayerplural:ye need:thou needest= etwas, da ey sich an Gastfreundschaft erfreut.",
+      "new_value": "{{emote|*Knistern, Knistern*}}-othom? Mein Beileid.\n\n=ifplayerplural:Ihr seid:Du bist= natürlich willkommen hier, Wanderer. Sprich mit Agyra, wenn =ifplayerplural:ihr etwas braucht:du etwas brauchst=, da ey sich an Gastfreundschaft erfreut.",
+      "note": "Weichen übersetzt; Imperativ 'Sprecht' im selben Satz auf du-Form 'Sprich' angeglichen, Komma ergänzt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "49e98e2f174bfb52",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vivira.ViviWelcome.Text|=ifplayerplural:Ye know:Thou knowest= surely that this is the Tomb of the Eaters, but behind me lieth nestled a settlement occupied by the watchers of the tomb, a small coterie of mopango.\n\nAn =ifplayerplural:ye would:thou wouldst= know more of the settlement, =ifplayerplural:ye:thou= must ask the watcher named Agyra residing within. Ey loveth the sharing of knowledge.",
+      "context": "Conversation Vivira.ViviWelcome.Text",
+      "old_value": "=ifplayerplural:Ye know:Thou knowest= sicherlich, dass dies das Grab der Esser ist, aber hinter mir liegt eine Siedlung, bewohnt von den Hütern des Grabes, ein kleiner Zirkel von Mopango.\n\nWenn =ifplayerplural:ye would:thou wouldst= mehr von der Siedlung wissen möchtet, müssen =ifplayerplural:ye:thou= den Wächter Agyra darin fragen. Ey liebt die Weitergabe von Wissen.",
+      "new_value": "=ifplayerplural:Ihr wisst:Du weißt= sicherlich, dass dies das Grab der Esser ist, aber hinter mir liegt eine Siedlung, bewohnt von den Hütern des Grabes, ein kleiner Zirkel von Mopango.\n\nWenn =ifplayerplural:ihr mehr von der Siedlung wissen wollt:du mehr von der Siedlung wissen willst=, =ifplayerplural:müsst ihr:musst du= den Wächter Agyra darin fragen. Ey liebt die Weitergabe von Wissen.",
+      "note": "Weichen übersetzt; Nebensatz-Verb ins Token, Hauptsatz-Verb mit ins Token (müsst ihr/musst du).",
+      "status": "accepted"
+    },
+    {
+      "uid": "21c70055ef212d94",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vivira.ViviMopango.Text|Mopango are witnesses of the past and shepherds of the future. We seek peace and harmony through understanding the Kasaphescence and Her many children. We nonetheless eschew conformity, and each of us seeketh a personal credo by which we livest our lives.\n\nBut I am a poor teacher. Speak to Agyra, and =ifplayerplural:ye shall:thou shalt= gain better understanding.",
+      "context": "Conversation Vivira.ViviMopango.Text",
+      "old_value": "Mopango sind Zeugen der Vergangenheit und Hirten der Zukunft. Wir streben nach Frieden und Harmonie durch das Verständnis der Kasaphescence und ihrer vielen Kinder. Wir lehnen Konformität trotzdem ab, und jeder von uns sucht ein persönliches Glaubensbekenntnis, nach dem wir unser Leben leben.\n\nAber ich bin ein schlechter Lehrer. Sprecht mit Agyra, und =ifplayerplural:ye shall:thou shalt= besseres Verständnis gewinnen.",
+      "new_value": "Mopango sind Zeugen der Vergangenheit und Hirten der Zukunft. Wir streben nach Frieden und Harmonie durch das Verständnis der Kasaphescence und ihrer vielen Kinder. Wir lehnen Konformität trotzdem ab, und jeder von uns sucht ein persönliches Glaubensbekenntnis, nach dem wir unser Leben leben.\n\nAber ich bin ein schlechter Lehrer. Sprich mit Agyra, und =ifplayerplural:ihr werdet:du wirst= besseres Verständnis gewinnen.",
+      "note": "Weiche übersetzt; Imperativ im selben Satz auf du-Form angeglichen.",
+      "status": "accepted"
+    },
+    {
+      "uid": "08f56d3931f28a30",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vivira.ViviTaboo.Text|{{emote|*BEEP*}}\n\nCredos hath no inherent meaning that one may so simply define. So =ifplayerplural:ye know:thou knowest=: asking the meaning of a credo is considered impolite among mopango.",
+      "context": "Conversation Vivira.ViviTaboo.Text",
+      "old_value": "{{emote|*PIEP*}}\n\nGlaubensbekenntnisse haben keine innewohnende Bedeutung, die man einfach so definieren kann. So =ifplayerplural:ye know:thou knowest=: das Fragen nach der Bedeutung eines Glaubensbekenntnisses wird unter Mopango als unhöflich angesehen.",
+      "new_value": "{{emote|*PIEP*}}\n\nGlaubensbekenntnisse haben keine innewohnende Bedeutung, die man einfach so definieren kann. Damit =ifplayerplural:ihr es wisst:du es weißt=: das Fragen nach der Bedeutung eines Glaubensbekenntnisses wird unter Mopango als unhöflich angesehen.",
+      "note": "'So ye know' = 'damit du es weißt'.",
+      "status": "accepted"
+    },
+    {
+      "uid": "105c625a8dab6a33",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vivira.ViviRude.Text|{{emote|*BEEP*}}\nBetter ridiculous than rude, which =ifplayerplural:ye plainly are:thou plainly art=.\n\n{{emote|*crackle*}} =ifplayerplural:Speak ye:Speakest thou= to Agyra. Ey hast more patience for rudeness than I.",
+      "context": "Conversation Vivira.ViviRude.Text",
+      "old_value": "{{emote|*PIEP*}}\nBesser lächerlich als unhöflich, was =ifplayerplural:ye plainly are:thou plainly art=.\n\n{{emote|*Knistern*}} =ifplayerplural:Speak ye:Speakest thou= mit Agyra. Ey hat mehr Geduld mit Unverschämtheit als ich.",
+      "new_value": "{{emote|*PIEP*}}\nBesser lächerlich als unhöflich, was =ifplayerplural:ihr offenkundig seid:du offenkundig bist=.\n\n{{emote|*Knistern*}} =ifplayerplural:Sprecht:Sprich= mit Agyra. Ey hat mehr Geduld mit Unverschämtheit als ich.",
+      "note": "Weichen übersetzt (Imperativ ihr/du).",
+      "status": "accepted"
+    },
+    {
+      "uid": "7e7cc578df117df4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vivira.ViviSorry.Text|All is forgiven, =player.formalAddressTerm=. I am not wroth with =ifplayerplural:ye:thee=.",
+      "context": "Conversation Vivira.ViviSorry.Text",
+      "old_value": "Alles ist vergeben, =player.formalAddressTerm=. Ich bin nicht zornig auf =ifplayerplural:ye:thee=.",
+      "new_value": "Alles ist vergeben, =player.formalAddressTerm=. Ich bin nicht zornig auf =ifplayerplural:euch:dich=.",
+      "note": "zornig auf + Akk.",
+      "status": "accepted"
+    },
+    {
+      "uid": "14c2fe3116168b6f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.Start.Text|=ifplayerplural:Ye have:Thou hast= changed the world, =factionaddress:Mopango=. These strange beings have been confined for thousands of years, and =ifplayerplural:ye have:thou hast= given one a voice.\n\nIf Nacham is as wise as Doyoba believes, we stand to learn much very soon. Perhaps our coterie will spread the knowledge we gain, and we become a step closer to the Kasaphescence.\n\n=ifplayerplural:Ye are:Thou'rt= welcome to visit and stay here whenever =ifplayerplural:ye will:thou wilt=.",
+      "context": "Conversation Agyra.Start.Text",
+      "old_value": "=ifplayerplural:Ye have:Thou hast= die Welt verändert, =factionaddress:Mopango=. Diese seltsamen Wesen waren für Tausende von Jahren eingesperrt, und =ifplayerplural:ye have:thou hast= einem eine Stimme gegeben.\n\nWenn Nacham so weise ist, wie Doyoba glaubt, werden wir sehr bald viel lernen. Vielleicht wird unser Zirkel das Wissen, das wir gewinnen, verbreiten, und wir kommen der Kasaphescence einen Schritt näher.\n\n=ifplayerplural:Ye are:Thou'rt= willkommen, um hier zu besuchen und zu bleiben, wann immer =ifplayerplural:ye will:thou wilt=.",
+      "new_value": "=ifplayerplural:Ihr habt:Du hast= die Welt verändert, =factionaddress:Mopango=. Diese seltsamen Wesen waren für Tausende von Jahren eingesperrt, und =ifplayerplural:ihr habt:du hast= einem eine Stimme gegeben.\n\nWenn Nacham so weise ist, wie Doyoba glaubt, werden wir sehr bald viel lernen. Vielleicht wird unser Zirkel das Wissen, das wir gewinnen, verbreiten, und wir kommen der Kasaphescence einen Schritt näher.\n\n=ifplayerplural:Ihr seid:Du bist= willkommen, uns zu besuchen und hier zu bleiben, wann immer =ifplayerplural:ihr wollt:du willst=.",
+      "note": "Weichen übersetzt (du/ihr); 'um hier zu besuchen' zu 'uns zu besuchen und hier zu bleiben' geglättet.",
+      "status": "accepted"
+    },
+    {
+      "uid": "d72a28cbfd1d2233",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.Start2.Text|=ifplayerplural:Ye have:Thou hast= changed the world, =factionaddress:Mopango=. These strange beings have been confined for thousands of years, and =ifplayerplural:ye have:thou hast= given one a voice.\n\nI cannot help but hold some fear toward Dagasha. However, an it means us no harm I am open to allying with it. No doubt the future of this coterie hath changed, mayhap for the better.\n\n=ifplayerplural:Ye are:Thou'rt= welcome to visit and stay here whenever =ifplayerplural:ye will:thou wilt=.",
+      "context": "Conversation Agyra.Start2.Text",
+      "old_value": "=ifplayerplural:Ye have:Thou hast= die Welt verändert, =factionaddress:Mopango=. Diese seltsamen Wesen waren für Tausende von Jahren eingesperrt, und =ifplayerplural:ye have:thou hast= einem eine Stimme gegeben.\n\nIch kann nicht anders, als einige Angst vor Dagasha zu haben. Jedoch, wenn es uns keinen Schaden anrichtet, bin ich offen dafür, mich mit ihm zu verbünden. Zweifelsohne hat sich die Zukunft dieses Zirkels verändert, vielleicht zum Besseren.\n\n=ifplayerplural:Ye are:Thou'rt= willkommen, um hier zu besuchen und zu bleiben, wann immer =ifplayerplural:ye will:thou wilt=.",
+      "new_value": "=ifplayerplural:Ihr habt:Du hast= die Welt verändert, =factionaddress:Mopango=. Diese seltsamen Wesen waren für Tausende von Jahren eingesperrt, und =ifplayerplural:ihr habt:du hast= einem eine Stimme gegeben.\n\nIch kann nicht anders, als einige Angst vor Dagasha zu haben. Jedoch, wenn es uns keinen Schaden anrichtet, bin ich offen dafür, mich mit ihm zu verbünden. Zweifelsohne hat sich die Zukunft dieses Zirkels verändert, vielleicht zum Besseren.\n\n=ifplayerplural:Ihr seid:Du bist= willkommen, uns zu besuchen und hier zu bleiben, wann immer =ifplayerplural:ihr wollt:du willst=.",
+      "note": "Weichen übersetzt (du/ihr); 'um hier zu besuchen' zu 'uns zu besuchen und hier zu bleiben' geglättet.",
+      "status": "accepted"
+    },
+    {
+      "uid": "4e2a9eb5c45cd1a5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.Start3.Text|=ifplayerplural:Ye have:Thou hast= changed the world, =factionaddress:Mopango=. These strange beings have been confined for thousands of years, and =ifplayerplural:ye have:thou hast= given one a voice.\n\nThat said, I am uncertain what changes to expect. Dost the ancient Va'am yet have the capacity to defend, or protect? Can we gift it with a better means for transportation? I'll speak to Dadogom of this, and time shall reveal all.\n\n=ifplayerplural:Ye are:Thou'rt= welcome to visit and stay here whenever =ifplayerplural:ye will:thou wilt=.",
+      "context": "Conversation Agyra.Start3.Text",
+      "old_value": "=ifplayerplural:Ye have:Thou hast= die Welt verändert, =factionaddress:Mopango=. Diese seltsamen Wesen waren für Tausende von Jahren eingesperrt, und =ifplayerplural:ye have:thou hast= einem eine Stimme gegeben.\n\nDas gesagt, bin ich unsicher, welche Veränderungen zu erwarten sind. Hat das uralte Va'am noch die Fähigkeit zu verteidigen oder zu schützen? Können wir es mit besseren Transportmitteln ausstatten? Ich werde mit Dadogom darüber sprechen, und die Zeit wird alles offenbaren.\n\n=ifplayerplural:Ye are:Thou'rt= willkommen, um hier zu besuchen und zu bleiben, wann immer =ifplayerplural:ye will:thou wilt=.",
+      "new_value": "=ifplayerplural:Ihr habt:Du hast= die Welt verändert, =factionaddress:Mopango=. Diese seltsamen Wesen waren für Tausende von Jahren eingesperrt, und =ifplayerplural:ihr habt:du hast= einem eine Stimme gegeben.\n\nDas gesagt, bin ich unsicher, welche Veränderungen zu erwarten sind. Hat das uralte Va'am noch die Fähigkeit zu verteidigen oder zu schützen? Können wir es mit besseren Transportmitteln ausstatten? Ich werde mit Dadogom darüber sprechen, und die Zeit wird alles offenbaren.\n\n=ifplayerplural:Ihr seid:Du bist= willkommen, uns zu besuchen und hier zu bleiben, wann immer =ifplayerplural:ihr wollt:du willst=.",
+      "note": "Weichen übersetzt (du/ihr); 'um hier zu besuchen' zu 'uns zu besuchen und hier zu bleiben' geglättet.",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f25c2ad0ffdd5ec",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.Start4.Text|=ifplayerplural:Ye have:Thou hast= changed the world, =factionaddress:Mopango=. These strange beings have been confined for thousands of years, and =ifplayerplural:ye have:thou hast= given one a voice.\n\nI find myself amused at Kah's 'rest', for it appeareth as active as ever--far more so than I, ever. But running free and running unwillingly are certainly not the same. Perhaps, in time, it can learn a deeper rest from us.\n\n=ifplayerplural:Ye are:Thou'rt= welcome to visit and stay here whenever =ifplayerplural:ye will:thou wilt=.",
+      "context": "Conversation Agyra.Start4.Text",
+      "old_value": "=ifplayerplural:Ye have:Thou hast= die Welt verändert, =factionaddress:Mopango=. Diese seltsamen Wesen waren für Tausende von Jahren eingesperrt, und =ifplayerplural:ye have:thou hast= einem eine Stimme gegeben.\n\nIch finde mich belustigt über Kahs 'Ruhe', denn es erscheint so aktiv wie je--weit mehr als ich, je. Aber frei zu laufen und unwillig zu laufen sind sicherlich nicht das Gleiche. Vielleicht kann es mit der Zeit eine tiefere Ruhe von uns lernen.\n\n=ifplayerplural:Ye are:Thou'rt= willkommen, um hier zu besuchen und zu bleiben, wann immer =ifplayerplural:ye will:thou wilt=.",
+      "new_value": "=ifplayerplural:Ihr habt:Du hast= die Welt verändert, =factionaddress:Mopango=. Diese seltsamen Wesen waren für Tausende von Jahren eingesperrt, und =ifplayerplural:ihr habt:du hast= einem eine Stimme gegeben.\n\nIch finde mich belustigt über Kahs 'Ruhe', denn es erscheint so aktiv wie je--weit mehr als ich, je. Aber frei zu laufen und unwillig zu laufen sind sicherlich nicht das Gleiche. Vielleicht kann es mit der Zeit eine tiefere Ruhe von uns lernen.\n\n=ifplayerplural:Ihr seid:Du bist= willkommen, uns zu besuchen und hier zu bleiben, wann immer =ifplayerplural:ihr wollt:du willst=.",
+      "note": "Weichen übersetzt (du/ihr); 'um hier zu besuchen' zu 'uns zu besuchen und hier zu bleiben' geglättet.",
+      "status": "accepted"
+    },
+    {
+      "uid": "1a60584aa7515660",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.Start5.Text|Greetings, =player.formalAddressTerm=. =ifplayerplural:Ye are:Thou art= welcome here.\n\nAn =ifplayerplural:ye have:thou hast= any questions, I would fain answer them.",
+      "context": "Conversation Agyra.Start5.Text",
+      "old_value": "Grüße, =player.formalAddressTerm=. =ifplayerplural:Ye are:Thou art= hier willkommen.\n\nWenn =ifplayerplural:ye have:thou hast= irgendwelche Fragen, würde ich sie gerne beantworten.",
+      "new_value": "Grüße, =player.formalAddressTerm=. =ifplayerplural:Ihr seid:Du bist= hier willkommen.\n\nWenn =ifplayerplural:ihr irgendwelche Fragen habt:du irgendwelche Fragen hast=, würde ich sie gerne beantworten.",
+      "note": "Weichen übersetzt; Objekt ins Token wegen Verbendstellung.",
+      "status": "accepted"
+    },
+    {
+      "uid": "1fde3d8d60c4d60d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.SlynthRequest.Text|=ifplayerplural:Would ye:Wouldst thou= press these slynth into the fissures of historic stone where we reside, that they may observe what we do?",
+      "context": "Conversation Agyra.SlynthRequest.Text",
+      "old_value": "=ifplayerplural:Would ye:Wouldst thou= diese Slynth in die Risse des historischen Steins, wo wir leben, drücken, damit sie beobachten können, was wir tun?",
+      "new_value": "=ifplayerplural:Würdet ihr:Würdest du= diese Slynth in die Risse des historischen Steins, wo wir leben, drücken, damit sie beobachten können, was wir tun?",
+      "note": "Weiche übersetzt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b1ee9ba711975a1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.SlynthRequestAccept.Text|If these slynth wish to become mopango and =ifplayerplural:ye speak:thou speakest= for them, then we shall accept them. Let them gaze into the schematics that wrote history beside us if they so choose.",
+      "context": "Conversation Agyra.SlynthRequestAccept.Text",
+      "old_value": "Wenn diese Slynth Mopango werden möchten und =ifplayerplural:ye speak:thou speakest= für sie, dann werden wir sie akzeptieren. Lass sie auf die Schemata blicken, die die Geschichte neben uns schrieben, wenn sie so wählen.",
+      "new_value": "Wenn diese Slynth Mopango werden möchten und =ifplayerplural:ihr für sie sprecht:du für sie sprichst=, dann werden wir sie akzeptieren. Lass sie auf die Schemata blicken, die die Geschichte neben uns schrieben, wenn sie so wählen.",
+      "note": "Verbendstellung: 'für sie' ins Token.",
+      "status": "accepted"
+    },
+    {
+      "uid": "4833751c2e872eea",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.SlynthRequestReject.Text|Please understand that we mean no slight to =ifplayerplural:you:thee= in saying so, but what =ifplayerplural:ye ask:thou asketh= of us is too heavy a weight for =ifplayerplural:your names:thy name= to bear.\n\nPerhaps this will change, come deed and time.",
+      "context": "Conversation Agyra.SlynthRequestReject.Text",
+      "old_value": "Bitte versteht, dass wir =ifplayerplural:you:thee= keine Geringschätzung bedeuten, aber das, was =ifplayerplural:ye ask:thou asketh= von uns, ist zu schwer, um es =ifplayerplural:your names:thy name= zu tragen.\n\nVielleicht wird sich das ändern, wenn Zeit und Tat kommen.",
+      "new_value": "Bitte versteh, dass wir =ifplayerplural:euch:dich= damit nicht kränken wollen, aber was =ifplayerplural:ihr von uns verlangt:du von uns verlangst=, ist eine zu schwere Last für =ifplayerplural:eure Namen:deinen Namen=.\n\nVielleicht wird sich das ändern, wenn Zeit und Tat kommen.",
+      "note": "Satz umgebaut (war ungrammatisch); Imperativ auf du-Form.",
+      "status": "accepted"
+    },
+    {
+      "uid": "a2415ccc1b9acab4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.SlynthAbout.Text|How =ifplayerplural:fare ye:farest thou=, then, and what word of the slynth?\n\nWe shine with curiosity to hear it.",
+      "context": "Conversation Agyra.SlynthAbout.Text",
+      "old_value": "Wie =ifplayerplural:fare ye:farest thou=, dann, und welche Nachricht über die Slynth?\n\nWir brennen vor Neugierde, es zu hören.",
+      "new_value": "Wie =ifplayerplural:ergeht es euch:ergeht es dir= also, und welche Nachricht über die Slynth?\n\nWir brennen vor Neugierde, es zu hören.",
+      "note": "'How fare ye' = 'wie ergeht es dir'; 'dann,' zu 'also' geglättet.",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5ae576cf183dd67",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.SlynthArrived.Text|The Kasaphescence shine upon =ifplayerplural:ye:thee=, =name=.\n\nAlthough the welcome of these slynth be not entirely without incident, I am yet hopeful that their curiosity and dedication to tasks will serve them well among us.",
+      "context": "Conversation Agyra.SlynthArrived.Text",
+      "old_value": "Die Kasaphescence leuchtet auf =ifplayerplural:ye:thee=, =name=.\n\nObwohl die Ankunft dieser Slynth nicht ganz ohne Zwischenfälle ist, bin ich dennoch hoffnungsvoll, dass ihre Neugierde und Hingabe an Aufgaben ihnen unter uns gut dienen wird.",
+      "new_value": "Die Kasaphescence leuchte auf =ifplayerplural:euch:dich=, =name=.\n\nObwohl die Ankunft dieser Slynth nicht ganz ohne Zwischenfälle ist, bin ich dennoch hoffnungsvoll, dass ihre Neugierde und Hingabe an Aufgaben ihnen unter uns gut dienen wird.",
+      "note": "Weiche übersetzt; Wunschform 'leuchte' (shine upon = Segen).",
+      "status": "accepted"
+    },
+    {
+      "uid": "11e14f6e48c5118d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.SlynthSettled.Text|These lilypad folk fascinate by their similarities and differences to us alike--we have much to explore, as individuals and together.\n\nThe experiences and beings =ifplayerplural:ye herald:thou heraldest= overwhelm this humble pilgrim, =name=. May =ifplayerplural:ye:thou= bathe ever in Her light.",
+      "context": "Conversation Agyra.SlynthSettled.Text",
+      "old_value": "Diese Seerosenleute faszinieren durch ihre Ähnlichkeiten und Unterschiede zu uns gleichermaßen--wir haben viel zu erforschen, als Einzelne und zusammen.\n\nDie Erfahrungen und Wesen, die =ifplayerplural:ye herald:thou heraldest= überfluten diesen bescheidenen Pilger, =name=. Mögen =ifplayerplural:ye:thou= sich immer in Ihrem Licht baden.",
+      "new_value": "Diese Seerosenleute faszinieren durch ihre Ähnlichkeiten und Unterschiede zu uns gleichermaßen--wir haben viel zu erforschen, als Einzelne und zusammen.\n\nDie Erfahrungen und Wesen, die =ifplayerplural:ihr ankündigt:du ankündigst=, überwältigen diesen bescheidenen Pilger, =name=. =ifplayerplural:Mögt ihr euch:Mögest du dich= immer in Ihrem Licht baden.",
+      "note": "Weichen übersetzt; 'Mögen' ins Token gezogen; Komma ergänzt, 'überfluten' zu 'überwältigen'; 'Ihrem' klein (= Her Light, keine Höflichkeitsform). | Nachkorrektur: in Ihrem Licht",
+      "status": "accepted"
+    },
+    {
+      "uid": "48b3494fe1f235ac",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.AgyraDevice.Text|Oh, so =ifplayerplural:ye have:thou hast=, and what a sight. Please forgive my distance, but I am loath to touch it.\n\nIt appeareth of similar make to the children, and I believe its jaw seeketh them. Lebah claimeth that the device grants freedom, and I wonder what that freedom will look like. Perhaps =ifplayerplural:ye should:thou shouldst= speak to the watchers of the children for further insight.",
+      "context": "Conversation Agyra.AgyraDevice.Text",
+      "old_value": "Oh, so =ifplayerplural:ye have:thou hast=, und welch ein Anblick. Bitte vergebt mir meine Distanz, doch ich scheue mich davor, es zu berühren.\n\nEs erscheint ähnlich wie die Kinder beschaffen zu sein, und ich glaube, sein Kiefer sucht nach ihnen. Lebah behauptet, dass die Vorrichtung Freiheit gewährt, und ich frage mich, wie diese Freiheit aussehen wird. Vielleicht =ifplayerplural:ye should:thou shouldst= sprecht ihr mit den Wächtern der Kinder, um weitere Einsicht zu erlangen.",
+      "new_value": "Oh, =ifplayerplural:ihr habt es also:du hast es also=, und welch ein Anblick. Bitte vergib mir meine Distanz, doch ich scheue mich davor, es zu berühren.\n\nEs erscheint ähnlich wie die Kinder beschaffen zu sein, und ich glaube, sein Kiefer sucht nach ihnen. Lebah behauptet, dass die Vorrichtung Freiheit gewährt, und ich frage mich, wie diese Freiheit aussehen wird. Vielleicht =ifplayerplural:solltet ihr:solltest du= mit den Wächtern der Kinder sprechen, um weitere Einsicht zu erlangen.",
+      "note": "Weichen übersetzt; Doppelung 'sprecht ihr' entfernt. | Nachkorrektur: Bitte vergib mir",
+      "status": "accepted"
+    },
+    {
+      "uid": "da7e0555c4a27670",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.Agoninon.Text|=ifplayerplural:Seek-ye:Seekest-thou= the repulsive device, then?\n\nk-Goninon, ancient and venerated gelatinous cupola, doth patrol the catacombs. Arrived centuries ere we discovered this place, k-Goninon hath hardened and eateth not through the floor, and yet it eateth prodigiously. Safe from the conservators, as k-Goninon long ago consumed the Mark of Death itself.\n\nPlease be careful. k-Goninon hath devoured watchers and wouldst devour =ifplayerplural:ye:thee= as well.",
+      "context": "Conversation Agyra.Agoninon.Text",
+      "old_value": "=ifplayerplural:Seek-ye:Seekest-thou= die abstoßende Vorrichtung dann?\n\nk-Goninon, uralte und verehrte gallertartige Kuppel, patrouilliert durch die Katakomben. Vor Jahrhunderten angekommen, bevor wir diesen Ort entdeckten, hat sich k-Goninon verhärtet und frisst nicht durch den Boden, und doch frisst es verschwenderisch. Sicher vor den Bewahrern, denn k-Goninon hat vor langer Zeit die Mark des Todes selbst verschlungen.\n\nBitte seid vorsichtig. k-Goninon hat Wächter verschlungen und würde =ifplayerplural:ye:thee= auch verschlingen.",
+      "new_value": "=ifplayerplural:Sucht ihr:Suchst du= also die abstoßende Vorrichtung?\n\nk-Goninon, uralte und verehrte gallertartige Kuppel, patrouilliert durch die Katakomben. Vor Jahrhunderten angekommen, bevor wir diesen Ort entdeckten, hat sich k-Goninon verhärtet und frisst nicht durch den Boden, und doch frisst es verschwenderisch. Sicher vor den Bewahrern, denn k-Goninon hat vor langer Zeit die Mark des Todes selbst verschlungen.\n\nBitte sei vorsichtig. k-Goninon hat Wächter verschlungen und würde =ifplayerplural:euch:dich= auch verschlingen.",
+      "note": "Weichen übersetzt. | Nachkorrektur: Bitte sei vorsichtig.",
+      "status": "accepted"
+    },
+    {
+      "uid": "89dc4bda57ab6341",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.AgyraWelcome.Text|I hope it is not overly crowded for =ifplayerplural:ye:thee=. We mopango are most comfortable in close quarters, but I acknowledge that not all creatures adore the close embrace of the depths as we do.\n\nRegardless, =ifplayerplural:ye are:thou'rt= welcome to stay and sup, and ask of me any questions =ifplayerplural:ye may:thou mayest= have.",
+      "context": "Conversation Agyra.AgyraWelcome.Text",
+      "old_value": "Ich hoffe, es ist nicht zu überfüllt für =ifplayerplural:ye:thee=. Wir Mopango sind am wohlsten in engen Verhältnissen, aber ich erkenne an, dass nicht alle Geschöpfe die enge Umarmung der Tiefe so lieben wie wir.\n\nGleichwohlseid =ifplayerplural:ye are:thou'rt= ihr willkommen, hier zu bleiben und zu speisen, und könnt mir alle Fragen stellen, die =ifplayerplural:ye may:thou mayest= ihr haben mögt.",
+      "new_value": "Ich hoffe, es ist nicht zu überfüllt für =ifplayerplural:euch:dich=. Wir Mopango sind am wohlsten in engen Verhältnissen, aber ich erkenne an, dass nicht alle Geschöpfe die enge Umarmung der Tiefe so lieben wie wir.\n\nGleichwohl =ifplayerplural:seid ihr:bist du= willkommen, hier zu bleiben und zu speisen und mir alle Fragen zu stellen, die =ifplayerplural:ihr haben mögt:du haben magst=.",
+      "note": "Doppelungen entfernt, Satz umgebaut (auch 'Gleichwohlseid'-Tippfehler).",
+      "status": "accepted"
+    },
+    {
+      "uid": "fbe44018e7541cb2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.AgyraTomb.Text|The Tomb of the Eaters consisteth of twelve strata, or ten, once =ifplayerplural:ye account:thou accounteth= for transitional levels: the Folk Catacombs (in which =ifplayerplural:ye currently stand:thou currently standeth=), the Crematory and Columbarium, the Two Crypts, and the Six Tombs of Qud's Sultans above.\n\nAn =ifplayerplural:ye seek:thou seekest= fortune here, gird =ifplayerplural:thyselves:thyself= for disappointment. The tomb playeth host to objects wondrous and profane alike, but little of what surface-dwellers considereth treasure.",
+      "context": "Conversation Agyra.AgyraTomb.Text",
+      "old_value": "Das Grab der Fresser besteht aus zwölf Schichten oder zehn, wenn man =ifplayerplural:ye account:thou accounteth= die Übergangsstufen berücksichtigt: die Volkskatakomben (in denen =ifplayerplural:ye currently stand:thou currently standeth= ihr derzeit steht), die Krematorien und das Kolumbarium, die Zwei Grüfte und die Sechs Gräber von Quds Sultanen oben.\n\nWenn =ifplayerplural:ye seek:thou seekest= ihr hier nach Glück sucht, rüstet =ifplayerplural:thyselves:thyself= euch für Enttäuschung. Das Grab beherbergt wunderbare und profane Objekte gleichermaßen, doch wenig, das Oberflächenbewohner als Schatz betrachten würden.",
+      "new_value": "Das Grab der Fresser besteht aus zwölf Schichten oder zehn, wenn =ifplayerplural:ihr die Übergangsstufen mitzählt:du die Übergangsstufen mitzählst=: die Volkskatakomben (in denen =ifplayerplural:ihr derzeit steht:du derzeit stehst=), die Krematorien und das Kolumbarium, die Zwei Grüfte und die Sechs Gräber von Quds Sultanen oben.\n\nWenn =ifplayerplural:ihr hier nach Reichtum sucht:du hier nach Reichtum suchst=, =ifplayerplural:wappnet euch:wappne dich= für Enttäuschung. Das Grab beherbergt wunderbare und profane Objekte gleichermaßen, doch wenig, das Oberflächenbewohner als Schatz betrachten würden.",
+      "note": "Doppelungen entfernt, Verbendstellung im Token; 'Glück' zu 'Reichtum' (fortune).",
+      "status": "accepted"
+    },
+    {
+      "uid": "d3c6ea3faeee6496",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.AgyraCredo.Text|Aye. One's own credo shouldst inspire reflection and thought, with no clear-cut meaning but meaning nonetheless. Some of our coterie yet seeketh theirs, but an experienced watcher no doubt hath one. Any mopango who hath a credo wilt share it with =ifplayerplural:ye:thee=, an =ifplayerplural:ye request:thou requesteth= it.\n\nMy credo is: \"Malice alone staineth the sanctity of questioning.\"",
+      "context": "Conversation Agyra.AgyraCredo.Text",
+      "old_value": "Ja. Die eigene Handlungsmaxime sollte Reflexion und Überlegung fördern, ohne klare Bedeutung, doch mit Bedeutung gleichwohl. Einige unserer Gemeinschaft suchen immer noch die ihre, doch ein erfahrener Wächter hat zweifellos eine. Jeder Mopango, der eine Handlungsmaxime hat, wird sie mit =ifplayerplural:ye:thee= euch teilen, wenn =ifplayerplural:ye request:thou requesteth= ihr sie erbitten.\n\nMeine Handlungsmaxime ist: \"Nur Bosheit befleckt die Heiligkeit des Fragens.\"",
+      "new_value": "Ja. Die eigene Handlungsmaxime sollte Reflexion und Überlegung fördern, ohne klare Bedeutung, doch mit Bedeutung gleichwohl. Einige unserer Gemeinschaft suchen immer noch die ihre, doch ein erfahrener Wächter hat zweifellos eine. Jeder Mopango, der eine Handlungsmaxime hat, wird sie mit =ifplayerplural:euch:dir= teilen, wenn =ifplayerplural:ihr darum bittet:du darum bittest=.\n\nMeine Handlungsmaxime ist: \"Nur Bosheit befleckt die Heiligkeit des Fragens.\"",
+      "note": "Doppelungen entfernt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "044e6ba02cbc2b0a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.AgyraTaboo.Text|I cannot simply explain my credo to =ifplayerplural:ye:thee=. A credo informeth and confoundeth at once, and must be reflected upon by the listener.\n\n=ifplayerplural:Ye are:Thou art= inexperienced in our ways, so please bear my words in the kind spirit they are meant: to ask a mopango to explain eir credo is to commit one of our few taboo acts. Be advised.",
+      "context": "Conversation Agyra.AgyraTaboo.Text",
+      "old_value": "Ich kann meine Handlungsmaxime =ifplayerplural:ye:thee= euch nicht einfach erklären. Eine Handlungsmaxime informiert und verwirrt zugleich und muss vom Zuhörer überdacht werden.\n\n=ifplayerplural:Ye are:Thou art= Ihr seid unerfahren in unseren Wegen, bitte nehmt meine Worte im wohlwollenden Geist, in dem sie gemeint sind: einen Mopango zu bitten, eir Handlungsmaxime zu erklären, ist tabu. Seid gewarnt.",
+      "new_value": "Ich kann =ifplayerplural:euch:dir= meine Handlungsmaxime nicht einfach erklären. Eine Handlungsmaxime informiert und verwirrt zugleich und muss vom Zuhörer überdacht werden.\n\n=ifplayerplural:Ihr seid:Du bist= unerfahren in unseren Wegen, also nimm meine Worte bitte im wohlwollenden Geist, in dem sie gemeint sind: einen Mopango zu bitten, eir Handlungsmaxime zu erklären, ist tabu. Sei gewarnt.",
+      "note": "Doppelungen entfernt; Imperativ im selben Satz auf du-Form ('Seid gewarnt' im Folgesatz unverändert). | Nachkorrektur: Sei gewarnt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "f50d24c6b3b07e6e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.AgyraDialect.Text|Why do we speak strangely? Why =ifplayerplural:do ye:dost thou= speak strangely?\n\nIs not all speech strange?",
+      "context": "Conversation Agyra.AgyraDialect.Text",
+      "old_value": "Warum sprechen wir sonderbar? Warum =ifplayerplural:do ye:dost thou= sprecht ihr sonderbar?\n\nIst nicht alle Rede sonderbar?",
+      "new_value": "Warum sprechen wir sonderbar? Warum =ifplayerplural:sprecht ihr:sprichst du= sonderbar?\n\nIst nicht alle Rede sonderbar?",
+      "note": "Doppelung entfernt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec6c1436328c194b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.AgyraQuestions.Text|Answering =ifplayerplural:your:thy= questions giveth me satisfaction. Asketh an =ifplayerplural:ye will:thou wilt=.",
+      "context": "Conversation Agyra.AgyraQuestions.Text",
+      "old_value": "Die Beantwortung =ifplayerplural:your:thy= eurer Fragen gibt mir Zufriedenheit. Fragt, wenn =ifplayerplural:ye will:thou wilt= ihr wollt.",
+      "new_value": "Die Beantwortung =ifplayerplural:eurer:deiner= Fragen gibt mir Zufriedenheit. Frag, wenn =ifplayerplural:ihr wollt:du willst=.",
+      "note": "Doppelungen entfernt; Imperativ auf du-Form.",
+      "status": "accepted"
+    },
+    {
+      "uid": "f1448441bf737a0c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.WondrousAndProfane.Text|I admire =ifplayerplural:your:thy= curiosity and hope =ifplayerplural:your:thy= prudence informeth it.\n\nI have an example at hand. Mere days ago, one of our coterie named Lebah happened upon a repulsive device. Ey was so shaken after attempting communion with the object that ey hath spent less time away from eir nook than ever.",
+      "context": "Conversation Agyra.WondrousAndProfane.Text",
+      "old_value": "Ich bewundere =ifplayerplural:your:thy= eure Neugier und hoffe, dass =ifplayerplural:your:thy= eure Vorsicht sie leitet.\n\nIch habe ein Beispiel zur Hand. Vor wenigen Tagen stieß einer unserer Gemeinschaft namens Lebah auf eine abstoßende Vorrichtung. Ey war so erschüttert nach dem Versuch, mit dem Objekt zu verkehren, dass ey weniger Zeit außerhalb eir Nische verbracht hat als je zuvor.",
+      "new_value": "Ich bewundere =ifplayerplural:eure:deine= Neugier und hoffe, dass =ifplayerplural:eure:deine= Vorsicht sie leitet.\n\nIch habe ein Beispiel zur Hand. Vor wenigen Tagen stieß einer unserer Gemeinschaft namens Lebah auf eine abstoßende Vorrichtung. Ey war so erschüttert nach dem Versuch, mit dem Objekt zu verkehren, dass ey weniger Zeit außerhalb eir Nische verbracht hat als je zuvor.",
+      "note": "Doppelungen entfernt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "83d620d945fa9baf",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Agyra.AskLebah.Text|Our little sanctuary here hath a fissure in its inner walls. Find that gap and =ifplayerplural:ye will:thou wilt= find Lebah.\n\nPlease be gentle. Ey hath ever been the most insightful reader among us, but beareth the weight of an anxious mind.",
+      "context": "Conversation Agyra.AskLebah.Text",
+      "old_value": "Unser kleine Heiligtum hier hat einen Riss in seinen Innenwänden. Findet diese Spalte und =ifplayerplural:ye will:thou wilt= findet ihr Lebah.\n\nBitte seid sanft. Ey war schon immer der aufschlussreichste Leser unter uns, trägt aber die Last eines besorgten Verstandes.",
+      "new_value": "Unser kleines Heiligtum hier hat einen Riss in seinen Innenwänden. Finde diese Spalte, und =ifplayerplural:ihr werdet:du wirst= Lebah finden.\n\nBitte sei sanft. Ey war schon immer der aufschlussreichste Leser unter uns, trägt aber die Last eines besorgten Verstandes.",
+      "note": "Doppelung entfernt; Imperativ auf du-Form ('Bitte seid sanft' im Folgesatz unverändert). | Nachkorrektur: Unser kleines Heiligtum | Nachkorrektur: Bitte sei sanft.",
+      "status": "accepted"
+    },
+    {
+      "uid": "87fb444a0b5b2bd8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Lebah.LebahMeaning.Text|The meaning is plain: An =ifplayerplural:ye are:thou'rt= swallowed by the Gyre, =ifplayerplural:ye should:thou shouldst= sing to the last.",
+      "context": "Conversation Lebah.LebahMeaning.Text",
+      "old_value": "Die Bedeutung ist klar: Wenn =ifplayerplural:ye are:thou'rt= du vom Gyre verschlungen wirst, =ifplayerplural:ye should:thou shouldst= solltest du bis zum Letzten singen.",
+      "new_value": "Die Bedeutung ist klar: Wenn =ifplayerplural:ihr vom Gyre verschlungen werdet:du vom Gyre verschlungen wirst=, =ifplayerplural:solltet ihr:solltest du= bis zum Letzten singen.",
+      "note": "Doppelungen entfernt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec94d7f1beeca9bc",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Lebah.Repulsive.Text|Not... the device. Repulsive as a key to a prison doth repulse. To know a key is to know of a prison.\n\nOur watched children are bound, and lock swalloweth key. An =ifplayerplural:ye free:thou freest= one, three remaineth forever.\n\nk-Goninon hath it now. An =ifplayerplural:ye seek:thou seekest=.",
+      "context": "Conversation Lebah.Repulsive.Text",
+      "old_value": "Nicht... die Vorrichtung. Abstoßend wie ein Schlüssel zu einem Gefängnis stoßt ab. Einen Schlüssel zu kennen heißt, ein Gefängnis zu kennen.\n\nUnsere beobachteten Kinder sind gefesselt, und das Schloss verschlingt den Schlüssel. Wenn =ifplayerplural:ye free:thou freest= du einen freisetzen, bleiben drei ewig.\n\nk-Goninon hat es jetzt. Wenn =ifplayerplural:ye seek:thou seekest= du suchst.",
+      "new_value": "Nicht... die Vorrichtung. Abstoßend, wie ein Schlüssel zu einem Gefängnis abstößt. Einen Schlüssel zu kennen heißt, ein Gefängnis zu kennen.\n\nUnsere beobachteten Kinder sind gefesselt, und das Schloss verschlingt den Schlüssel. Wenn =ifplayerplural:ihr einen befreit:du einen befreist=, bleiben drei ewig.\n\nk-Goninon hat es jetzt. Wenn =ifplayerplural:ihr es sucht:du es suchst=.",
+      "note": "Doppelungen entfernt. | Nachkorrektur: Abstoßend, wie ein Schlüssel zu einem Gefängnis abstößt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "3dbff74bf562ff2a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Doyoba.Start2.Text|=factionaddress:Mopango|capitalize=, I hear that =ifplayerplural:ye have:thou hast= freed one of the children! I cannot wait to speak to it, but for now I must observe Nacham to see if this event hath affected it. =ifplayerplural:Ye are:Thou art= welcome to watch too.",
+      "context": "Conversation Doyoba.Start2.Text",
+      "old_value": "=factionaddress:Mopango|capitalize=, ich höre, dass =ifplayerplural:ye have:thou hast= du eines der Kinder befreit hast! Ich kann es kaum erwarten, mit ihm zu sprechen, aber vorerst muss ich Nacham beobachten, um zu sehen, ob dieses Ereignis es betroffen hat. =ifplayerplural:Ye are:Thou art= Du bist willkommen, um auch zuzuschauen.",
+      "new_value": "=factionaddress:Mopango|capitalize=, ich höre, dass =ifplayerplural:ihr eines der Kinder befreit habt:du eines der Kinder befreit hast=! Ich kann es kaum erwarten, mit ihm zu sprechen, aber vorerst muss ich Nacham beobachten, um zu sehen, ob dieses Ereignis es betroffen hat. =ifplayerplural:Ihr seid:Du bist= willkommen, auch zuzuschauen.",
+      "note": "Doppelungen entfernt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "610ffc19f35b8ebd",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Doyoba.Start3.Text|Welcome, =factionaddress:Mopango=. Live and drink. =ifplayerplural:Need ye:Needest thou= a place to rest and sup? =ifplayerplural:Would ye:Wouldst= trade?",
+      "context": "Conversation Doyoba.Start3.Text",
+      "old_value": "Willkommen, =factionaddress:Mopango=. Lebe und trinke. =ifplayerplural:Need ye:Needest thou= einen Ort zum Ausruhen und zum Essen? =ifplayerplural:Would ye:Wouldst= handeln?",
+      "new_value": "Willkommen, =factionaddress:Mopango=. Lebe und trinke. =ifplayerplural:Braucht ihr:Brauchst du= einen Ort zum Ausruhen und zum Essen? =ifplayerplural:Wollt ihr:Willst du= handeln?",
+      "note": "Weichen übersetzt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "db0cfe973e962f17",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Doyoba.WhoAreYou.Text|I am Doyoba, proud watcher of the children of the tomb. One child in particular. Of course =ifplayerplural:ye:thou= must comprehend, 'child' is but a fabricated epithet, as they are far older than we. The children are, that is.",
+      "context": "Conversation Doyoba.WhoAreYou.Text",
+      "old_value": "Ich bin Doyoba, stolzer Wächter der Kinder des Grabes. Ein Kind insbesondere. Selbstverständlich müssen =ifplayerplural:ye:thou= verstehen, daß »Kind« nur ein erfundenes Wort ist, da sie viel älter als wir sind. Die Kinder sind, das ist alles.",
+      "new_value": "Ich bin Doyoba, stolzer Wächter der Kinder des Grabes. Ein Kind insbesondere. Selbstverständlich =ifplayerplural:müsst ihr:musst du= verstehen, daß »Kind« nur ein erfundenes Wort ist, da sie viel älter als wir sind. Die Kinder, meine ich.",
+      "note": "Verb ins Token gezogen. | Nachkorrektur: Die Kinder, meine ich.",
+      "status": "accepted"
+    },
+    {
+      "uid": "c795253aec5842f3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Doyoba.Meaning.Text|...?\n\n=ifplayerplural:Ye ask:Thou askest= after the meaning of my credo. Wouldst I shall chew =ifplayerplural:your:thy= food for =ifplayerplural:ye:thee= as well?",
+      "context": "Conversation Doyoba.Meaning.Text",
+      "old_value": "...?\n\n=ifplayerplural:Ye ask:Thou askest= nach der Bedeutung meines Leitspruchs. Soll ich =ifplayerplural:your:thy= Speisen auch für =ifplayerplural:ye:thee= kauen?",
+      "new_value": "...?\n\n=ifplayerplural:Ihr fragt:Du fragst= nach der Bedeutung meines Leitspruchs. Soll ich =ifplayerplural:euer:dein= Essen auch für =ifplayerplural:euch:dich= kauen?",
+      "note": "Weichen übersetzt; 'Speisen' zu 'Essen' (Neutrum, passt zu euer/dein).",
+      "status": "accepted"
+    },
+    {
+      "uid": "5dcd1ab80f8fafc5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Doyoba.Apologize.Text|No, no, =ifplayerplural:ye know:thou knowest= not our ways and I was too harsh. I apologize, and I am not wroth with =ifplayerplural:ye:thee=.",
+      "context": "Conversation Doyoba.Apologize.Text",
+      "old_value": "Nein, nein, =ifplayerplural:ye know:thou knowest= nicht unsere Wege und ich war zu streng. Ich entschuldige mich und ich bin nicht zornig auf =ifplayerplural:ye:thee=.",
+      "new_value": "Nein, nein, =ifplayerplural:ihr kennt:du kennst= unsere Wege nicht, und ich war zu streng. Ich entschuldige mich und ich bin nicht zornig auf =ifplayerplural:euch:dich=.",
+      "note": "Weichen übersetzt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "063e2365ce564c7c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Doyoba.Deny.Text|Oh.\n\nWell then, I suppose I have no insight for =ifplayerplural:ye:thee=.",
+      "context": "Conversation Doyoba.Deny.Text",
+      "old_value": "Oh.\n\nNun dann, ich vermute, ich habe keine Einsicht für =ifplayerplural:ye:thee=.",
+      "new_value": "Oh.\n\nNun dann, ich vermute, ich habe keine Einsicht für =ifplayerplural:euch:dich=.",
+      "note": "Weiche übersetzt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "26a6464c5df99fb9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dadogom.Start.Text|Va'am is released. =ifplayerplural:Ye have:Thou hast= done something great, for good or ill.\n\nI thank =ifplayerplural:ye:thee= for this new future.",
+      "context": "Conversation Dadogom.Start.Text",
+      "old_value": "Va'am ist befreit. =ifplayerplural:Ye have:Thou hast= etwas Großes getan, zum Guten oder zum Schlechten.\n\nIch danke =ifplayerplural:ye:thee= für diese neue Zukunft.",
+      "new_value": "Va'am ist befreit. =ifplayerplural:Ihr habt:Du hast= etwas Großes getan, zum Guten oder zum Schlechten.\n\nIch danke =ifplayerplural:euch:dir= für diese neue Zukunft.",
+      "note": "Weichen übersetzt (danken + Dat.).",
+      "status": "accepted"
+    },
+    {
+      "uid": "639f6abe8542bb8e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dadogom.Start2.Text|=factionaddress:Mopango|capitalize=. =ifplayerplural:Ye did:Thou didst= rouse a child. Well done.",
+      "context": "Conversation Dadogom.Start2.Text",
+      "old_value": "=factionaddress:Mopango|capitalize=. =ifplayerplural:Ye did:Thou didst= ein Kind auf. Gut gemacht.",
+      "new_value": "=factionaddress:Mopango|capitalize=. =ifplayerplural:Ihr habt:Du hast= ein Kind geweckt. Gut gemacht.",
+      "note": "Satz war unvollständig ('ein Kind auf'); zu 'ein Kind geweckt' korrigiert.",
+      "status": "accepted"
+    },
+    {
+      "uid": "d08f121042d603d5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dadogom.WhyAreYouHere.Text|I watch over Va'am. It watcheth over me. Together, we watch.\n\n=ifplayerplural:Ye should:Thou shouldst= as well, =factionaddress:Mopango=. Sit. Watch. Consider how =ifplayerplural:ye would:thou wouldst= fare under a dome of adamant carapace.\n\nSafe, undying, alone.",
+      "context": "Conversation Dadogom.WhyAreYouHere.Text",
+      "old_value": "Ich beobachte Va'am. Es beobachtet mich. Zusammen beobachten wir.\n\n=ifplayerplural:Ye should:Thou shouldst= auch, =factionaddress:Mopango=. Sitzt. Beobachtet. Überlegt, wie =ifplayerplural:ye would:thou wouldst= unter einer Kuppel aus Adamant zurechtkommen würdet.\n\nSicher, unsterblich, allein.",
+      "new_value": "Ich beobachte Va'am. Es beobachtet mich. Zusammen beobachten wir.\n\n=ifplayerplural:Ihr solltet es:Du solltest es= auch tun, =factionaddress:Mopango=. Sitz. Beobachte. Überleg, wie es =ifplayerplural:euch:dir= unter einer Kuppel aus Adamant ergehen würde.\n\nSicher, unsterblich, allein.",
+      "note": "Weichen übersetzt; Imperative des Absatzes auf du-Form angeglichen.",
+      "status": "accepted"
+    },
+    {
+      "uid": "5a7593c3237a8dab",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dadogom.Meaning.Text|I cannot think on =ifplayerplural:your:thy= behalf.",
+      "context": "Conversation Dadogom.Meaning.Text",
+      "old_value": "Ich kann nicht =ifplayerplural:your:thy= Gedanken für dich denken.",
+      "new_value": "Ich kann nicht an =ifplayerplural:eurer:deiner= Stelle denken.",
+      "note": "'on thy behalf' = 'an deiner Stelle'; Doppelung 'für dich' entfernt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ec0504fba692d67",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dadogom.Apologize.Text|Consider =ifplayerplural:your:thy= words ere =ifplayerplural:ye say:thou sayest= them, and =ifplayerplural:ye will:thou wilt= issue fewer apologies.",
+      "context": "Conversation Dadogom.Apologize.Text",
+      "old_value": "Bedenke =ifplayerplural:your:thy= Worte, bevor =ifplayerplural:ye say:thou sayest= sie, und =ifplayerplural:ye will:thou wilt= wirst dich weniger entschuldigen müssen.",
+      "new_value": "Bedenke =ifplayerplural:eure:deine= Worte, bevor =ifplayerplural:ihr sie sagt:du sie sagst=, und =ifplayerplural:ihr werdet euch:du wirst dich= weniger entschuldigen müssen.",
+      "note": "Doppelung entfernt, Verbendstellung im Token.",
+      "status": "accepted"
+    },
+    {
+      "uid": "8cc1a8bb008f7698",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.Start.Text|I hope =ifplayerplural:ye are:thou art= confident in =ifplayerplural:your:thy= choice, =factionaddress:Mopango=. I am happy with it, to be sure.\n\nKah is free. It heals my heart to see it at rest. =ifplayerplural:Ye have:Thou hast= my thanks.",
+      "context": "Conversation Gyamyo.Start.Text",
+      "old_value": "Ich hoffe, =ifplayerplural:ye are:thou art= zuversichtlich in =ifplayerplural:your:thy= Wahl, =factionaddress:Mopango=. Ich bin glücklich darüber, ganz sicher.\n\nKah ist frei. Es heilt mein Herz, es in Ruhe zu sehen. =ifplayerplural:Ye have:Thou hast= Mein Dank.",
+      "new_value": "Ich hoffe, =ifplayerplural:ihr seid euch:du bist dir= =ifplayerplural:eurer:deiner= Wahl sicher, =factionaddress:Mopango=. Ich bin glücklich darüber, ganz sicher.\n\nKah ist frei. Es heilt mein Herz, es in Ruhe zu sehen. =ifplayerplural:Ihr habt:Du hast= meinen Dank.",
+      "note": "Weichen übersetzt; 'zuversichtlich in' zu 'sich ... sicher' umgebaut, 'Mein Dank' zu 'meinen Dank'.",
+      "status": "accepted"
+    },
+    {
+      "uid": "b6beae5a24951bec",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.Start2.Text|=ifplayerplural:Did ye:Didst thou= truly free one of the children? I see =ifplayerplural:ye did:thou didst=. Congratulations.\n\nWouldst fain see Kah free, one day. I shall have to live a while and find a way.",
+      "context": "Conversation Gyamyo.Start2.Text",
+      "old_value": "=ifplayerplural:Did ye:Didst thou= wirklich ein Kind befreit? Ich sehe, =ifplayerplural:ye did:thou didst=. Glückwunsch.\n\nWürde gerne eines Tages Kah frei sehen. Ich muß eine Weile leben und einen Weg finden.",
+      "new_value": "=ifplayerplural:Habt ihr:Hast du= wirklich ein Kind befreit? Ich sehe, =ifplayerplural:das habt ihr:das hast du=. Glückwunsch.\n\nWürde gerne eines Tages Kah frei sehen. Ich muß eine Weile leben und einen Weg finden.",
+      "note": "Weichen übersetzt.",
+      "status": "accepted"
+    },
+    {
+      "uid": "2937a93576e323b4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.Start3.Text|=factionaddress:Mopango|capitalize=, welcome. =ifplayerplural:Ye have:Thou hast= done well to survive so long in this peculiar place.",
+      "context": "Conversation Gyamyo.Start3.Text",
+      "old_value": "=factionaddress:Mopango|capitalize=, willkommen. =ifplayerplural:Ye have:Thou hast= gut getan, so lange an diesem seltsamen Ort zu überleben.",
+      "new_value": "=factionaddress:Mopango|capitalize=, willkommen. =ifplayerplural:Ihr habt:Du hast= gut daran getan, so lange an diesem seltsamen Ort zu überleben.",
+      "note": "Weiche übersetzt; 'gut daran getan'.",
+      "status": "accepted"
+    },
+    {
+      "uid": "c2bf141cacfd65cc",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.WhoAreYou.Text|My name is Gyamyo. I am pleased to meet =ifplayerplural:ye:thee=, =name=. =ifplayerplural:Have ye:Hast thou= spoken to the other watchers? How fare they?\n\nWell, I hope.",
+      "context": "Conversation Gyamyo.WhoAreYou.Text",
+      "old_value": "Mein Name ist Gyamyo. Ich bin erfreut, =ifplayerplural:ye:thee= zu treffen, =name=. =ifplayerplural:Have ye:Hast thou= mit den anderen Wächtern gesprochen? Wie geht es ihnen?\n\nHoffentlich gut.",
+      "new_value": "Mein Name ist Gyamyo. Ich bin erfreut, =ifplayerplural:euch:dich= zu treffen, =name=. =ifplayerplural:Habt ihr:Hast du= mit den anderen Wächtern gesprochen? Wie geht es ihnen?\n\nHoffentlich gut.",
+      "note": "Weichen übersetzt.",
+      "status": "accepted"
+    }
+  ]
+}

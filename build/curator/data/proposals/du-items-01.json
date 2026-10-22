@@ -1,0 +1,1048 @@
+{
+  "batch": "du-items-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-items-01)",
+  "created": "2026-10-22 14:52",
+  "items": [
+    {
+      "uid": "b135ad46d4535454",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Witchwood Bark]/part[Food]@Message",
+      "context": null,
+      "old_value": "Ein warmes Kribbeln überkommt Euch.",
+      "new_value": "Ein warmes Kribbeln überkommt dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fd92c0dbce217885",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Snail Corpse]/part[Food]@Message",
+      "context": null,
+      "old_value": "Ihr zerkaut die Schale zu Stücken, und Euer Mund füllt sich mit heißem Schleim.",
+      "new_value": "Du zerkaust die Schale zu Stücken, und dein Mund füllt sich mit heißem Schleim.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f573130a4bc51b2e",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Human Corpse]/part[Description]@Short",
+      "context": null,
+      "old_value": "Die Kräfte des Gemetzels haben Körperteile umgeordnet. Ihr überlegt, wie Umordnung in jedem ihrer Kontexte etwas Anderes bedeutet: Spielfiguren auf einem Spielbrett, bevorzugte Höflinge in einer Königshalle, und Teile an einem Körper.",
+      "new_value": "Die Kräfte des Gemetzels haben Körperteile umgeordnet. Du überlegst, wie Umordnung in jedem ihrer Kontexte etwas Anderes bedeutet: Spielfiguren auf einem Spielbrett, bevorzugte Höflinge in einer Königshalle, und Teile an einem Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "421abd8306967fba",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Mangled Corpse]/part[Description]@Short",
+      "context": null,
+      "old_value": "Die Kräfte des Gemetzels haben Körperteile umgeordnet. Ihr überlegt, wie Umordnung in jedem ihrer Kontexte etwas Anderes bedeutet: Spielfiguren auf einem Spielbrett, bevorzugte Höflinge in einer Königshalle, und Teile an einem Körper.",
+      "new_value": "Die Kräfte des Gemetzels haben Körperteile umgeordnet. Du überlegst, wie Umordnung in jedem ihrer Kontexte etwas Anderes bedeutet: Spielfiguren auf einem Spielbrett, bevorzugte Höflinge in einer Königshalle, und Teile an einem Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d09b3fcaf2571c4d",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[TarBones]/part[Food]@Message",
+      "context": null,
+      "old_value": "Viel zu klebrig für Euren Geschmack.",
+      "new_value": "Viel zu klebrig für deinen Geschmack.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "da3255b5ba22d9a2",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Hologram Bracelet]/part[Description]@Short",
+      "context": null,
+      "old_value": "Eine Spange zeigt einen glänzenden Kobalt-Knopf.&#xA;&quot;Ihr denkt, das ist der echte =name=? Das ist es.&quot;",
+      "new_value": "Eine Spange zeigt einen glänzenden Kobalt-Knopf.&#xA;&quot;Du denkst, das ist der echte =name=? Das ist es.&quot;",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9d4078e56093ce60",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Wristcalc]/part[Toolbox]@BehaviorDescription",
+      "context": null,
+      "old_value": "Wenn ausgerüstet und mit Energie versorgt, gewährt dieser Gegenstand einen Bonus beim Identifizieren von Artefakten, als wäre Euer Intelligenzwert um 2 erhöht.",
+      "new_value": "Wenn ausgerüstet und mit Energie versorgt, gewährt dieser Gegenstand einen Bonus beim Identifizieren von Artefakten, als wäre dein Intelligenzwert um 2 erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "897e23e1115c3510",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Precision Nanon Fingers]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Die prozentbasierten Effekte Eurer Waffen treten 3-mal so wahrscheinlich auf, einschließlich der Grundchance für kritische Treffer.",
+      "new_value": "Die prozentbasierten Effekte deiner Waffen treten 3-mal so wahrscheinlich auf, einschließlich der Grundchance für kritische Treffer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c06b6c2f824760f8",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Spring Boots]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Solange Ihr diesen Gegenstand mindestens 100 Runden lang getragen habt, sprintet Ihr mit der dreifachen Bewegungsgeschwindigkeit.",
+      "new_value": "Solange du diesen Gegenstand mindestens 100 Runden lang getragen hast, sprintest du mit der dreifachen Bewegungsgeschwindigkeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d8fcdc47dd163765",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Stopsvaalinn]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "+1 Ego\nIhr könnt diesen Gegenstand aktivieren, um ein Kraftfeld vor Euch heraufzubeschwören. Roboter werden oft nicht in der Lage sein, sich Euch zu nähern, solange das Kraftfeld aktiv ist.",
+      "new_value": "+1 Ego\nDu kannst diesen Gegenstand aktivieren, um ein Kraftfeld vor dir heraufzubeschwören. Roboter werden oft nicht in der Lage sein, sich dir zu nähern, solange das Kraftfeld aktiv ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "afaaa5b087653da5",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Stopsvaalinn]/part[TakenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Ihr habt die verlorene Ägide des Hauses Yish geborgen, =this.refname=.",
+      "new_value": "Du hast die verlorene Ägide des Hauses Yish geborgen, =this.refname=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2a866b7c4199943",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Stopsvaalinn]/part[TakenAccomplishment]@Hagiograph",
+      "context": null,
+      "old_value": "Erinnert Euch, wie =name= die legendäre Ägide =this.refname= den Pfoten eines niederen Snapjaws entriss und die Abstammung von den Saads von Yish beteuerte!",
+      "new_value": "Erinnere dich, wie =name= die legendäre Ägide =this.refname= den Pfoten eines niederen Snapjaws entriss und die Abstammung von den Saads von Yish beteuerte!",
+      "note": "Hagiograph-Aufruf an den Leser; Singular gewählt (alternativ Gruppen-Plural 'erinnert euch')",
+      "status": "accepted"
+    },
+    {
+      "uid": "686470ec2582ad0f",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Kindrish]/part[TakenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Ihr habt das Ahnenarmband der Hindren geborgen, =this.refname=.",
+      "new_value": "Du hast das Ahnenarmband der Hindren geborgen, =this.refname=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "989f8870e7f4b2c0",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SlogTrophy]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Ihr erleidet nur halben Schaden durch Gift.",
+      "new_value": "Du erleidest nur halben Schaden durch Gift.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2cc8e7b3957ff09a",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SkybearJetpack]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Ihr könnt diesen Gegenstand aktivieren, um einen Sprint zu beginnen.\n Während Ihr sprintet, stürmt Ihr bei jeder Bewegung in eine Richtung bis zu 20 Felder auf den nächsten Feind oder das nächste Hindernis zu und führt einen Angriff aus.\n Für je drei gestürmte Felder erhaltet Ihr +2 auf Trefferwurf und +2 auf Durchdringungswürfe.",
+      "new_value": "Du kannst diesen Gegenstand aktivieren, um einen Sprint zu beginnen.\n Während du sprintest, stürmst du bei jeder Bewegung in eine Richtung bis zu 20 Felder auf den nächsten Feind oder das nächste Hindernis zu und führst einen Angriff aus.\n Für je drei gestürmte Felder erhältst du +2 auf Trefferwurf und +2 auf Durchdringungswürfe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "320df6966b83a421",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Cyclopean Prism]/part[TakenAccomplishment]@Hagiograph",
+      "context": null,
+      "old_value": "Amaranthiner =name=! Duckt Euch vor dem Gott-Sultan, der aus =player.possessive= eigenem Traumstoff geschmiedet ist, der das schwarze Glas trägt!",
+      "new_value": "Amaranthiner =name=! Duck dich vor dem Gott-Sultan, der aus =player.possessive= eigenem Traumstoff geschmiedet ist, der das schwarze Glas trägt!",
+      "note": "Hagiograph-Aufruf; Singular gewählt (alternativ 'duckt euch')",
+      "status": "accepted"
+    },
+    {
+      "uid": "3a761ef5d989cfb6",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Cyclopean Prism]/part[TakenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Ihr habt das schwarze Glas des =this.refname= in Euren Händen gehalten.",
+      "new_value": "Du hast das schwarze Glas des =this.refname= in deinen Händen gehalten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "89669c53dc116912",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[TauHeadpiece]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Gewährt Euch Geist beschleunigen: Frischt bei Gebrauch eine zufällige Abklingzeit auf.",
+      "new_value": "Gewährt dir Geist beschleunigen: Frischt bei Gebrauch eine zufällige Abklingzeit auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "768b2e784dcc40b0",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Otherpearl]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "+40 psychisches Flimmern\nGegenstände, die Ihr findet, stammen fünfmal häufiger aus anderen Dimensionen.",
+      "new_value": "+40 psychisches Flimmern\nGegenstände, die du findest, stammen fünfmal häufiger aus anderen Dimensionen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2b8b6483fe2e5db6",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Otherpearl]/part[TakenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Ihr habt =this.refname= umklammert und Euch in den Spiegel der Wirklichkeiten gekleidet.",
+      "new_value": "Du hast =this.refname= umklammert und dich in den Spiegel der Wirklichkeiten gekleidet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "06c2aef88f799d48",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[RelicTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Ihr erhaltet zwei Attributpunkte.",
+      "new_value": "Du erhältst zwei Attributpunkte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a88bc3d930852bd9",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[RelicTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Ihr erhaltet entweder einen dauerhaften +2-Bonus auf ein zufälliges Attribut oder zwei Mutationspunkte.",
+      "new_value": "Du erhältst entweder einen dauerhaften +2-Bonus auf ein zufälliges Attribut oder zwei Mutationspunkte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9a13cbf1bb4f34df",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Portable Wall]/part[Description]@Short",
+      "context": null,
+      "old_value": "Kleine Glyphen sind auf jeder Außenseite des tragbaren Kastens eingraviert. Obwohl Kontrariums noch über ihre Bedeutung rätseln, haben sich die meisten Linguistenkults von Qud auf eine einzige Interpretation geeinigt: \"Für wenn sowohl Natur als auch Architekten Sie im Stich gelassen haben\". Ein Messingzugring trennt Sie von dem Versprechen dieser Worte.",
+      "new_value": "Kleine Glyphen sind auf jeder Außenseite des tragbaren Kastens eingraviert. Obwohl Kontrariums noch über ihre Bedeutung rätseln, haben sich die meisten Linguistenkults von Qud auf eine einzige Interpretation geeinigt: \"Für wenn sowohl Natur als auch Architekten dich im Stich gelassen haben\". Ein Messingzugring trennt dich von dem Versprechen dieser Worte.",
+      "note": "Inschrift spricht den Leser an -> dich",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c7f4ad708575b46",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Camel Bladder]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Wenn getragen, zählt die Flüssigkeit in diesem Gegenstand nicht zu Eurer Traglast.",
+      "new_value": "Wenn getragen, zählt die Flüssigkeit in diesem Gegenstand nicht zu deiner Traglast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4cc8778034efe8d0",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Ruin of House Isner]/part[TakenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Ihr habt die Meisterwerk-Pistole und legendäre Ode an die Rache geborgen, die =this.refname=.",
+      "new_value": "Du hast die Meisterwerk-Pistole und legendäre Ode an die Rache geborgen, die =this.refname=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "022647b5e375bf23",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Psychic Meridian]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Fehlgeschlagene psychische Angriffe gegen Euch lassen den Angreifer verbluten.",
+      "new_value": "Fehlgeschlagene psychische Angriffe gegen dich lassen den Angreifer verbluten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f9a26c071095f89",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Telescopic Monocle]/part[Toolbox]@BehaviorDescription",
+      "context": null,
+      "old_value": "Gewährt einen Bonus beim Identifizieren von Artefakten, als wäre Euer Intelligenzwert um 5 erhöht.",
+      "new_value": "Gewährt einen Bonus beim Identifizieren von Artefakten, als wäre dein Intelligenzwert um 5 erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7da848a332ea4a82",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Night-Sight Interpolators]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Gewährt Nachtsicht.\nIhr könnt zwei Felder über das erste Sichthindernis in Eurer Sichtlinie hinaussehen.",
+      "new_value": "Gewährt Nachtsicht.\nDu kannst zwei Felder über das erste Sichthindernis in deiner Sichtlinie hinaussehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6ebadff2d1a2915f",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[BiologicalIndexer]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet Zugriff auf die genauen Werte für Trefferpunkte, Rüstung und Ausweichen biologischer Kreaturen.",
+      "new_value": "Du erhältst Zugriff auf die genauen Werte für Trefferpunkte, Rüstung und Ausweichen biologischer Kreaturen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d917b5b81c1ba799",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[TechnologicalIndexer]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet Zugriff auf die genauen Werte für Trefferpunkte, Rüstung und Ausweichen robotischer Kreaturen, und Ihr identifiziert Artefakte automatisch.",
+      "new_value": "Du erhältst Zugriff auf die genauen Werte für Trefferpunkte, Rüstung und Ausweichen robotischer Kreaturen, und du identifizierst Artefakte automatisch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7307d18c579a06e7",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[ForceModulator]/part[Description]@Short",
+      "context": null,
+      "old_value": "Die abgestrahlten Frequenzen Eurer kleinsten Bestandteile werden mit dem standardisierten Band für Kraftemission synchronisiert.",
+      "new_value": "Die abgestrahlten Frequenzen deiner kleinsten Bestandteile werden mit dem standardisierten Band für Kraftemission synchronisiert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "28438fc2adf91f71",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[ForceModulator]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr könnt durch Kraftfelder hindurchgehen.",
+      "new_value": "Du kannst durch Kraftfelder hindurchgehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0d665180581454fc",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[ElectromagneticSensor]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr spürt nahe Roboter auf, ohne sie sehen zu müssen.",
+      "new_value": "Du spürst nahe Roboter auf, ohne sie sehen zu müssen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a950af9055018776",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[NavigationSystem]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Eure Chance, Euch in Ruinen zu verirren, wird um 30 % verringert.\nEure Chance, Euch in anderem Gelände zu verirren, wird um 10 % verringert.\nDiese Effekte stapeln sich nicht mit den Boni eines Kompassarmbands.",
+      "new_value": "Deine Chance, dich in Ruinen zu verirren, wird um 30 % verringert.\nDeine Chance, dich in anderem Gelände zu verirren, wird um 10 % verringert.\nDiese Effekte stapeln sich nicht mit den Boni eines Kompassarmbands.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f38d6571857fe0d8",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SingleSkillsoft1]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet eine Fertigkeit, deren Kosten zwischen 0 und 50 SP liegen.",
+      "new_value": "Du erhältst eine Fertigkeit, deren Kosten zwischen 0 und 50 SP liegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb4324325ab7f73c",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[NightVision]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet die Fähigkeit, im Dunkeln zu sehen.",
+      "new_value": "Du erhältst die Fähigkeit, im Dunkeln zu sehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c7e69889a43688c3",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[ParabolicMuscularSubroutine]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Eure Wurfreichweite wird um 2 erhöht.\nWenn Ihr etwas auf ein Ziel innerhalb Eurer Wurfreichweite werft, beträgt Eure Wurfgenauigkeit 100%.",
+      "new_value": "Deine Wurfreichweite wird um 2 erhöht.\nWenn du etwas auf ein Ziel innerhalb deiner Wurfreichweite wirfst, beträgt deine Wurfgenauigkeit 100%.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a62326f784f4959d",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[StabilizerArmLocks]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Zur Bestimmung Eurer Genauigkeit mit Fernkampfangriffen wird Eure Beweglichkeit so behandelt, als wäre sie 6 Punkte höher.",
+      "new_value": "Zur Bestimmung deiner Genauigkeit mit Fernkampfangriffen wird deine Beweglichkeit so behandelt, als wäre sie 6 Punkte höher.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ae51ba95fd9bf22",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[RapidReleaseFingerFlexors]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr feuert Pistolen 25% schneller ab.",
+      "new_value": "Du feuerst Pistolen 25% schneller ab.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6938b558e6e0d09b",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[CarbideHandBones]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Eure Fäuste verursachen 2w3 Schaden.",
+      "new_value": "Deine Fäuste verursachen 2w3 Schaden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0e114ccbbc09fe3e",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Pentaceps]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Eure Ansturmreichweite wird um 4 Felder erhöht.",
+      "new_value": "Deine Ansturmreichweite wird um 4 Felder erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ecb78cf5771e82f9",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[CommunicationsInterlock]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr weist Roboter zurecht, als wärt Ihr 5 Stufen höher.",
+      "new_value": "Du weist Roboter zurecht, als wärst du 5 Stufen höher.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ad344c30f7623fd6",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[InflatableAxons]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Aktiviert. Abklingzeit 100.\nIhr erhaltet +40 Schnelligkeit für 10 Runden, dann werdet Ihr für 10 Runden träge (-10 Schnelligkeit).",
+      "new_value": "Aktiviert. Abklingzeit 100.\nDu erhältst +40 Schnelligkeit für 10 Runden, dann wirst du für 10 Runden träge (-10 Schnelligkeit).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f908945d0ac3da99",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[AirCurrentMicrosensor]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Treppen und andere Kartenübergänge nach oben oder unten werden Euch stets aufgedeckt.",
+      "new_value": "Treppen und andere Kartenübergänge nach oben oder unten werden dir stets aufgedeckt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "72a3702c642fa2e0",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[PneumaticPistons]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Eure Sprungreichweite wird um 4 Felder erhöht.",
+      "new_value": "Deine Sprungreichweite wird um 4 Felder erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d717fa6a65ab7484",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[ReactiveCranialPlating]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr könnt nicht durch kinetische Effekte benommen oder betäubt werden.",
+      "new_value": "Du kannst nicht durch kinetische Effekte benommen oder betäubt werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a77a349b5d09897d",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[PhaseHarmonicModulator]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr könnt mit In-Phase- und Out-of-Phase-Objekten und Kreaturen interagieren.",
+      "new_value": "Du kannst mit In-Phase- und Out-of-Phase-Objekten und Kreaturen interagieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c77bda1e15817c8e",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[FireSuppressionSystem]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Setzt jede Runde, in der Ihr brennt, automatisch feuerhemmendes Gel frei.",
+      "new_value": "Setzt jede Runde, in der du brennst, automatisch feuerhemmendes Gel frei.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5a20c45eea693896",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[AnchorSpikes]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr könnt nicht durch physische Mittel zur Bewegung gezwungen werden.",
+      "new_value": "Du kannst nicht durch physische Mittel zur Bewegung gezwungen werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "24072fb3ced5a48f",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SingleSkillsoft2]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet eine Fertigkeit, deren Kosten zwischen 51 und 150 SP liegen.",
+      "new_value": "Du erhältst eine Fertigkeit, deren Kosten zwischen 51 und 150 SP liegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0484ec7c9a059610",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Schemasoft2]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet Zugang zu allen Schemata für eine einzelne Klasse von Artefakten.",
+      "new_value": "Du erhältst Zugang zu allen Schemata für eine einzelne Klasse von Artefakten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ad9eff85252ed9c4",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[GiantHands]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr könnt zweihändige Waffen mit einer Hand führen.",
+      "new_value": "Du kannst zweihändige Waffen mit einer Hand führen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f2227c01745c3c07",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SecurityInterlock]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr könnt jede Tür entsperren.",
+      "new_value": "Du kannst jede Tür entsperren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "04c4d384af21ce83",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[MatterRecompositer]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Aktiviert. Abklingzeit 100.\nIhr teleportiert Euch zu einem zufälligen, erkundeten Feld auf der Karte.",
+      "new_value": "Aktiviert. Abklingzeit 100.\nDu teleportierst dich zu einem zufälligen, erkundeten Feld auf der Karte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b72fe42850ffc27e",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[CustomVisage]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "+300 Ruf bei einer Fraktion Eurer Wahl zum Zeitpunkt des Einbaus",
+      "new_value": "+300 Ruf bei einer Fraktion deiner Wahl zum Zeitpunkt des Einbaus",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32c7def99eed09e1",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[EquipmentRack]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet einen zusätzlichen Rücken-Ausrüstungsplatz.",
+      "new_value": "Du erhältst einen zusätzlichen Rücken-Ausrüstungsplatz.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "73973e3971093e1a",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[AnomalyFumigator]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erzeugt jede Runde Wolken aus Normalitätsgas.",
+      "new_value": "Du erzeugst jede Runde Wolken aus Normalitätsgas.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4dd3867fe83c4a6b",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SingleSkillsoft3]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet eine Fertigkeit, deren Kosten mehr als 151 SP betragen.",
+      "new_value": "Du erhältst eine Fertigkeit, deren Kosten mehr als 151 SP betragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "784185ee53b8a79a",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Schemasoft3]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet Zugang zu allen Schemata für eine einzelne Klasse von Artefakten.",
+      "new_value": "Du erhältst Zugang zu allen Schemata für eine einzelne Klasse von Artefakten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "be8d3fdfcea4c98a",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[FulleriteHandBones]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Eure Fäuste verursachen 2w4+1 Schaden.",
+      "new_value": "Deine Fäuste verursachen 2w4+1 Schaden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec6eb9685976baf3",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[MotorizedTreads]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "+150 Bewegungsgeschwindigkeit\n+4 auf Rettungswürfe gegen erzwungene Bewegung, Niederschlag und Festgehaltenwerden\nIhr könnt keine Schuhe tragen.\nDieses Implantat kann nicht entfernt werden.",
+      "new_value": "+150 Bewegungsgeschwindigkeit\n+4 auf Rettungswürfe gegen erzwungene Bewegung, Niederschlag und Festgehaltenwerden\nDu kannst keine Schuhe tragen.\nDieses Implantat kann nicht entfernt werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c2db0b0f9a5f71f9",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[ReactiveTraumaPlate]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Neutralisiert eine Schadensquelle, die tödlichen Schaden verursachen oder mindestens 50% Eurer maximalen HP betragen würde. Dieses Implantat wird dabei zerstört.",
+      "new_value": "Neutralisiert eine Schadensquelle, die tödlichen Schaden verursachen oder mindestens 50% deiner maximalen HP betragen würde. Dieses Implantat wird dabei zerstört.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cb37a6788b9b2726",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[GunRack]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet einen zusätzlichen linken und rechten Platz für Fernkampfwaffen.\nIhr könnt keine Ausrüstung auf dem Rücken tragen.",
+      "new_value": "Du erhältst einen zusätzlichen linken und rechten Platz für Fernkampfwaffen.\nDu kannst keine Ausrüstung auf dem Rücken tragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9ac8821b36372c42",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[OnboardRecoiler]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr könnt dieses Implantat mit einem Ort prägen (Abklingzeit 100) und dorthin zurückschnellen (Abklingzeit 50).",
+      "new_value": "Du kannst dieses Implantat mit einem Ort prägen (Abklingzeit 100) und dorthin zurückschnellen (Abklingzeit 50).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "24b32a99135c83ee",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[MagneticCore]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet einen zusätzlichen Ausrüstungsplatz 'In der Nähe schwebend'.",
+      "new_value": "Du erhältst einen zusätzlichen Ausrüstungsplatz 'In der Nähe schwebend'.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1b376465efbb7fbb",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Phase-Adaptive Scope]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Wenn Ihr eine Fernkampfwaffe abfeuert oder etwas werft, phasenverschiebt sich Euer Projektil, um Hindernisse zu durchqueren und Euer Ziel zu erreichen.",
+      "new_value": "Wenn du eine Fernkampfwaffe abfeuerst oder etwas wirfst, phasenverschiebt sich dein Projektil, um Hindernisse zu durchqueren und dein Ziel zu erreichen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a3b0da5213def149",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[Schemasoft4]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet Zugriff auf jeden Bauplan für eine einzelne Artefaktklasse.",
+      "new_value": "Du erhältst Zugriff auf jeden Bauplan für eine einzelne Artefaktklasse.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80cd3fb954c42c36",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[PrecisionForceLathe]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr fertigt Kraftmesser in freien Hand- oder Wurfwaffenplätzen.\nWenn Ihr ein Kraftmesser werft, materialisiert sich sofort ein weiteres an Eurem Wurfwaffenplatz.\nKraftmesser verursachen 1d8 Schaden, haben einen Durchschlagswert gleich dem Rüstungswert ihres Ziels und haben +6 Wurfreichweite.\nKraftmesser verschwinden, sobald sie den Kontakt zu Euch verlieren oder abgelegt werden.\nWenn Ihr ein Kraftmodulator-Implantat installiert habt, können Kraftmesser durch Kraftfelder geworfen werden.\n",
+      "new_value": "Du fertigst Kraftmesser in freien Hand- oder Wurfwaffenplätzen.\nWenn du ein Kraftmesser wirfst, materialisiert sich sofort ein weiteres an deinem Wurfwaffenplatz.\nKraftmesser verursachen 1d8 Schaden, haben einen Durchschlagswert gleich dem Rüstungswert ihres Ziels und haben +6 Wurfreichweite.\nKraftmesser verschwinden, sobald sie den Kontakt zu dir verlieren oder abgelegt werden.\nWenn du ein Kraftmodulator-Implantat installiert hast, können Kraftmesser durch Kraftfelder geworfen werden.\n",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eaba67b90d6804f2",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[GraftedMirrorArm]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet einen zusätzlichen Wurfwaffenplatz.\nWenn Ihr einen Wurf ausführt, werft Ihr aus allen Euren Wurfwaffenplätzen gleichzeitig.",
+      "new_value": "Du erhältst einen zusätzlichen Wurfwaffenplatz.\nWenn du einen Wurf ausführst, wirfst du aus allen deinen Wurfwaffenplätzen gleichzeitig.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bdc4482aca6deed4",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[MicromanipulatorArray]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr könnt im Kampf für die Aktionskosten eines Zuges basteln und reparieren.\nVerringert die Aktionskosten anderer Bastelfertigkeiten um 40 %.\nGewährt einen Bonus beim Identifizieren von Artefakten, als wäre Euer Intelligenzwert um 8 erhöht.\n+10 % Chance, beim Zerlegen von Artefakten Bits zu gewinnen.",
+      "new_value": "Du kannst im Kampf für die Aktionskosten eines Zuges basteln und reparieren.\nVerringert die Aktionskosten anderer Bastelfertigkeiten um 40 %.\nGewährt einen Bonus beim Identifizieren von Artefakten, als wäre dein Intelligenzwert um 8 erhöht.\n+10 % Chance, beim Zerlegen von Artefakten Bits zu gewinnen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7d6a6a0716d2dda",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[PenetratingRadar]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet vollständige Sicht in einem Radius von 10 Feldern um Euch herum, die nur durch Kraftfelder und Raumzeitanomalien blockiert wird.",
+      "new_value": "Du erhältst vollständige Sicht in einem Radius von 10 Feldern um dich herum, die nur durch Kraftfelder und Raumzeitanomalien blockiert wird.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e1e0a2a9ef73e2c1",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[HolographicVisage]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "+200 Ruf bei einer Fraktion Eurer Wahl, wenn Ihr dieses Implantat installiert\nIhr könnt dieses Implantat aktivieren, um die gewählte Fraktion zu ändern.",
+      "new_value": "+200 Ruf bei einer Fraktion deiner Wahl, wenn du dieses Implantat installierst\nDu kannst dieses Implantat aktivieren, um die gewählte Fraktion zu ändern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eb3df56cb24ac4fc",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[OpticalMultiscanner]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet Zugriff auf die genauen Trefferpunkte-, Rüstungs- und Ausweichwerte von robotischen Kreaturen, biologischen Kreaturen und Bauwerken.\nIhr identifiziert Artefakte automatisch.\nTreppen und andere Auf-/Abwärts-Kartenübergänge werden Euch stets aufgedeckt.",
+      "new_value": "Du erhältst Zugriff auf die genauen Trefferpunkte-, Rüstungs- und Ausweichwerte von robotischen Kreaturen, biologischen Kreaturen und Bauwerken.\nDu identifizierst Artefakte automatisch.\nTreppen und andere Auf-/Abwärts-Kartenübergänge werden dir stets aufgedeckt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c658157e45dfb619",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SocialCoprocessor]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Wann immer Ihr das Wasserritual mit einer neuen Kreatur vollzieht, erhaltet Ihr zusätzliche 25 Ruf. Wenn Ihr dieses Implantat installiert, nachdem Ihr bereits zum ersten Mal mit einer Kreatur verhandelt habt, erhaltet Ihr 25 Ruf, sobald Ihr das nächste Mal mit ihr verhandelt.\nDie Rufkosten beim Wasserritual werden um 20 % gesenkt.\nIhr könnt eine zusätzliche Kreatur bekehren.\nRechenleistung im lokalen Gitter erhöht die Wirksamkeit dieses Implantats.",
+      "new_value": "Wann immer du das Wasserritual mit einer neuen Kreatur vollziehst, erhältst du zusätzliche 25 Ruf. Wenn du dieses Implantat installierst, nachdem du bereits zum ersten Mal mit einer Kreatur verhandelt hast, erhältst du 25 Ruf, sobald du das nächste Mal mit ihr verhandelst.\nDie Rufkosten beim Wasserritual werden um 20 % gesenkt.\nDu kannst eine zusätzliche Kreatur bekehren.\nRechenleistung im lokalen Gitter erhöht die Wirksamkeit dieses Implantats.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "84f0323a01e8bb27",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[StasisEntangler]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Aktiviert. Abklingzeit 200.\nIhr wählt eine Kreatur in Sichtlinie. Alle anderen Kreaturen werden für 15 Runden in Stasisfelder versetzt.",
+      "new_value": "Aktiviert. Abklingzeit 200.\nDu wählst eine Kreatur in Sichtlinie. Alle anderen Kreaturen werden für 15 Runden in Stasisfelder versetzt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aba5db457598f3d4",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[CrysteelHandBones]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Eure Fäuste verursachen 3d4 Schaden.",
+      "new_value": "Deine Fäuste verursachen 3d4 Schaden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8bf0935f4f3bb033",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[HighFidelityMatterRecompositer]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Aktiviert. Abklingzeit 50.\nIhr teleportiert Euch zu einem beliebigen erkundeten Feld auf der Karte.",
+      "new_value": "Aktiviert. Abklingzeit 50.\nDu teleportierst dich zu einem beliebigen erkundeten Feld auf der Karte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8722cc806de9c64f",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[TreeSkillsoft]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr erhaltet Zugriff auf einen ganzen Fertigkeitenbaum.",
+      "new_value": "Du erhältst Zugriff auf einen ganzen Fertigkeitenbaum.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b94a41f5792845cf",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[CathedraSapphire]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "+100 Bewegungsgeschwindigkeit\n+50 Trefferpunkte\n+100 Tragekapazität\n+3 Ego\nIhr erhaltet die Fähigkeit zu fliegen.\n\nAktiviert. Abklingzeit 100.\nIhr entfesselt eine Druckwelle im umliegenden Bereich, die Feinde zurückschleudert und betäubt.\n\nIhr könnt keine Ausrüstung auf dem Rücken tragen.\nDieses Implantat kann nicht deinstalliert werden.",
+      "new_value": "+100 Bewegungsgeschwindigkeit\n+50 Trefferpunkte\n+100 Tragekapazität\n+3 Ego\nDu erhältst die Fähigkeit zu fliegen.\n\nAktiviert. Abklingzeit 100.\nDu entfesselst eine Druckwelle im umliegenden Bereich, die Feinde zurückschleudert und betäubt.\n\nDu kannst keine Ausrüstung auf dem Rücken tragen.\nDieses Implantat kann nicht deinstalliert werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ca9835cb2b960c59",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[CathedraRuby]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "+100 Bewegungsgeschwindigkeit\n+50 Trefferpunkte\n+100 Tragekapazität\n+3 Ego\nIhr erhaltet die Fähigkeit zu fliegen.\n\nAktiviert. Abklingzeit 100.\nIhr erzeugt ein Pyrokinese-Feld um Eure Person.\n\nIhr könnt keine Ausrüstung auf dem Rücken tragen.\nDieses Implantat kann nicht deinstalliert werden.",
+      "new_value": "+100 Bewegungsgeschwindigkeit\n+50 Trefferpunkte\n+100 Tragekapazität\n+3 Ego\nDu erhältst die Fähigkeit zu fliegen.\n\nAktiviert. Abklingzeit 100.\nDu erzeugst ein Pyrokinese-Feld um deine Person.\n\nDu kannst keine Ausrüstung auf dem Rücken tragen.\nDieses Implantat kann nicht deinstalliert werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "24d158747688a281",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[CathedraWhiteOpal]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "+100 Bewegungsgeschwindigkeit\n+50 Trefferpunkte\n+100 Tragekapazität\n+3 Ego\nIhr erhaltet die Fähigkeit zu fliegen.\n\nAktiviert. Abklingzeit 100.\nIhr setzt einen Schwall Glitzerstaub um Euch herum frei.\n\nIhr könnt keine Ausrüstung auf dem Rücken tragen.\nDieses Implantat kann nicht deinstalliert werden.",
+      "new_value": "+100 Bewegungsgeschwindigkeit\n+50 Trefferpunkte\n+100 Tragekapazität\n+3 Ego\nDu erhältst die Fähigkeit zu fliegen.\n\nAktiviert. Abklingzeit 100.\nDu setzt einen Schwall Glitzerstaub um dich herum frei.\n\nDu kannst keine Ausrüstung auf dem Rücken tragen.\nDieses Implantat kann nicht deinstalliert werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a4440bc131e5c3e1",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[CathedraBlackOpal]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "+100 Bewegungsgeschwindigkeit\n+50 Trefferpunkte\n+100 Tragekapazität\n+3 Ego\nIhr erhaltet die Fähigkeit zu fliegen.\n\nAktiviert. Abklingzeit 100.\nIhr zerreißt die Raumzeit und teleportiert Euch zu einem zufälligen Ort in Qud.\n\nIhr könnt keine Ausrüstung auf dem Rücken tragen.\nDieses Implantat kann nicht deinstalliert werden.",
+      "new_value": "+100 Bewegungsgeschwindigkeit\n+50 Trefferpunkte\n+100 Tragekapazität\n+3 Ego\nDu erhältst die Fähigkeit zu fliegen.\n\nAktiviert. Abklingzeit 100.\nDu zerreißt die Raumzeit und teleportierst dich zu einem zufälligen Ort in Qud.\n\nDu kannst keine Ausrüstung auf dem Rücken tragen.\nDieses Implantat kann nicht deinstalliert werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32569759dca929e4",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[LoveTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Ihr fühlt Euch für etwa einen halben Tag ungewöhnlich verliebt und verliebt Euch dabei in das Erste, das Ihr anseht.\nWenn Ihr einer anderen Person dies injiziert, verliebt sie sich in Euch und folgt Euch 3000-3600 Runden lang. Es gibt eine Fehlschlagchance von 1 % für jede Stufe, die sie höher ist als Ihr.",
+      "new_value": "Du fühlst dich für etwa einen halben Tag ungewöhnlich verliebt und verliebst dich dabei in das Erste, das du ansiehst.\nWenn du einer anderen Person dies injizierst, verliebt sie sich in dich und folgt dir 3000-3600 Runden lang. Es gibt eine Fehlschlagchance von 1 % für jede Stufe, die sie höher ist als du.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a121801ad2ef5964",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[BlazeTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Dauer: 41-50 Runden\n+100 Hitzeresistenz\nIhr könnt nicht eingefroren werden.\nVon Euch verursachter Hitzeschaden wird um 25 % erhöht.\n-50 Kälteresistenz\n+20 Schnelligkeit\nEure Temperatur kann nicht durch externe Hitzequellen erhöht werden.\nIhr müsst Euch bewegen, um nicht in Brand zu geraten und die Wirkung dieses Tonikums zu verlieren.",
+      "new_value": "Dauer: 41-50 Runden\n+100 Hitzeresistenz\nDu kannst nicht eingefroren werden.\nVon dir verursachter Hitzeschaden wird um 25 % erhöht.\n-50 Kälteresistenz\n+20 Schnelligkeit\nDeine Temperatur kann nicht durch externe Hitzequellen erhöht werden.\nDu musst dich bewegen, um nicht in Brand zu geraten und die Wirkung dieses Tonikums zu verlieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "717ce1d9537466d1",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[BlazeTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 41-50 Runden\n+100 Hitzeresistenz\nIhr könnt nicht eingefroren werden.\nVon Euch verursachter Hitzeschaden wird um 25 % erhöht.\n-50 Kälteresistenz\n+10 Schnelligkeit\nEure Temperatur kann nicht durch externe Hitzequellen erhöht werden.\nIhr müsst Euch bewegen, um nicht in Brand zu geraten und die Wirkung dieses Tonikums zu verlieren.",
+      "new_value": "Dauer: 41-50 Runden\n+100 Hitzeresistenz\nDu kannst nicht eingefroren werden.\nVon dir verursachter Hitzeschaden wird um 25 % erhöht.\n-50 Kälteresistenz\n+10 Schnelligkeit\nDeine Temperatur kann nicht durch externe Hitzequellen erhöht werden.\nDu musst dich bewegen, um nicht in Brand zu geraten und die Wirkung dieses Tonikums zu verlieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5cbd5bcd641be555",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[HulkHoneyTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Dauer: 41-50 Runden\n+9 Stärke\n+3 temporäre Trefferpunkte pro Stufe\n-25 Bewegungsgeschwindigkeit\nIhr könnt keinen Schmerz spüren.\nIhr seid immun gegen Furcht.\nIhr erleidet jede Runde 1 % Eurer maximalen Trefferpunkte als Schaden (dieser Schaden kann Euch nicht unter einen Trefferpunkt senken)",
+      "new_value": "Dauer: 41-50 Runden\n+9 Stärke\n+3 temporäre Trefferpunkte pro Stufe\n-25 Bewegungsgeschwindigkeit\nDu kannst keinen Schmerz spüren.\nDu bist immun gegen Furcht.\nDu erleidest jede Runde 1 % deiner maximalen Trefferpunkte als Schaden (dieser Schaden kann dich nicht unter einen Trefferpunkt senken)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a7c6755432e06ce8",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[HulkHoneyTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 41-50 Runden\n+6 Stärke\n+2 temporäre Trefferpunkte pro Stufe\n-25 Bewegungsgeschwindigkeit\nIhr könnt keinen Schmerz spüren.\nIhr seid immun gegen Furcht.\nIhr erleidet jede Runde 1 % Eurer maximalen Trefferpunkte als Schaden (dieser Schaden kann Euch nicht unter einen Trefferpunkt senken)",
+      "new_value": "Dauer: 41-50 Runden\n+6 Stärke\n+2 temporäre Trefferpunkte pro Stufe\n-25 Bewegungsgeschwindigkeit\nDu kannst keinen Schmerz spüren.\nDu bist immun gegen Furcht.\nDu erleidest jede Runde 1 % deiner maximalen Trefferpunkte als Schaden (dieser Schaden kann dich nicht unter einen Trefferpunkt senken)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "16ae15056e977a3b",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SalveTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Dauer: 5 Runden\nIhr erholt Euch jede Runde um 0,9 Trefferpunkte pro Stufe (mindestens 5).",
+      "new_value": "Dauer: 5 Runden\nDu erholst dich jede Runde um 0,9 Trefferpunkte pro Stufe (mindestens 5).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3f419986fec0fe69",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SalveTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 5 Runden\nIhr erholt Euch jede Runde um 0,6 Trefferpunkte pro Stufe (mindestens 3).",
+      "new_value": "Dauer: 5 Runden\nDu erholst dich jede Runde um 0,6 Trefferpunkte pro Stufe (mindestens 3).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b3f29012d3d602d5",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SkulkTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Dauer: 1001-1200 Runden\nEure Bewegungsgeschwindigkeit wird nachts und unter der Erde um 40 % erhöht, bei Tageslicht jedoch um 20 % verringert.\n+4 Geschicklichkeit nachts und unter der Erde, -3 Geschicklichkeit bei Tageslicht\nIhr könnt im Dunkeln sehen (Radius 8).\nIhr erleidet doppelten Schaden durch lichtbasierte Angriffe.",
+      "new_value": "Dauer: 1001-1200 Runden\nDeine Bewegungsgeschwindigkeit wird nachts und unter der Erde um 40 % erhöht, bei Tageslicht jedoch um 20 % verringert.\n+4 Geschicklichkeit nachts und unter der Erde, -3 Geschicklichkeit bei Tageslicht\nDu kannst im Dunkeln sehen (Radius 8).\nDu erleidest doppelten Schaden durch lichtbasierte Angriffe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5e510b1f68309a57",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SkulkTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 1001-1200 Runden\nEure Bewegungsgeschwindigkeit wird nachts und unter der Erde um 25 % erhöht, bei Tageslicht jedoch um 20 % verringert.\n+3 Geschicklichkeit nachts und unter der Erde, -3 Geschicklichkeit bei Tageslicht\nIhr könnt im Dunkeln sehen (Radius 8).\nIhr entwickelt Grabklauen.\nIhr erleidet doppelten Schaden durch lichtbasierte Angriffe.",
+      "new_value": "Dauer: 1001-1200 Runden\nDeine Bewegungsgeschwindigkeit wird nachts und unter der Erde um 25 % erhöht, bei Tageslicht jedoch um 20 % verringert.\n+3 Geschicklichkeit nachts und unter der Erde, -3 Geschicklichkeit bei Tageslicht\nDu kannst im Dunkeln sehen (Radius 8).\nDu entwickelst Grabklauen.\nDu erleidest doppelten Schaden durch lichtbasierte Angriffe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9dc4c5c0cb2d0766",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SphynxSaltTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 18-22 Runden\nIhr seid immun gegen verwirrende Angriffe.\nEure aktivierten mentalen Mutationen kühlen doppelt so schnell ab.",
+      "new_value": "Dauer: 18-22 Runden\nDu bist immun gegen verwirrende Angriffe.\nDeine aktivierten mentalen Mutationen kühlen doppelt so schnell ab.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ca5bdde253e17280",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SphynxSaltTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Dauer: 18-22 Runden\nIhr seid immun gegen verwirrende Angriffe.\nIhr erhascht einen Blick in Eure nahe Zukunft (Ihr könnt am Ende der Wirkungsdauer zu dem Zeitpunkt zurückkehren, an dem Ihr diese Droge zum ersten Mal eingenommen habt).",
+      "new_value": "Dauer: 18-22 Runden\nDu bist immun gegen verwirrende Angriffe.\nDu erhaschst einen Blick in deine nahe Zukunft (du kannst am Ende der Wirkungsdauer zu dem Zeitpunkt zurückkehren, an dem du diese Droge zum ersten Mal eingenommen hast).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc0834630f87d9b7",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[ShadeOilTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 41-50 Runden\n+8 DV\nEs besteht pro Runde eine Chance von 25 %, dass Ihr Euch für 1-3 Runden aus der räumlichen Dimension phasenverschiebt.",
+      "new_value": "Dauer: 41-50 Runden\n+8 DV\nEs besteht pro Runde eine Chance von 25 %, dass du dich für 1-3 Runden aus der räumlichen Dimension phasenverschiebt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "42399c31b9a272a0",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[ShadeOilTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Dauer: 41-50 Runden\n+8 DV\nIhr erhaltet die Fähigkeit, Euch für 7-9 Runden aus der räumlichen Dimension zu phasenverschieben.",
+      "new_value": "Dauer: 41-50 Runden\n+8 DV\nDu erhältst die Fähigkeit, dich für 7-9 Runden aus der räumlichen Dimension zu phasenverschieben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ac697fdf99659838",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[UbernostrumTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 10 Runden\nIhr regeneriert 0,6 Trefferpunkte pro Stufe (mindestens 3) pro Runde.\nAm Ende der zehnten Runde werdet Ihr von allen kurzfristigen, biologischen Schwächungen befreit und regeneriert bis zu ein abgetrenntes Körperteil.",
+      "new_value": "Dauer: 10 Runden\nDu regenerierst 0,6 Trefferpunkte pro Stufe (mindestens 3) pro Runde.\nAm Ende der zehnten Runde wirst du von allen kurzfristigen, biologischen Schwächungen befreit und regenerierst bis zu ein abgetrenntes Körperteil.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e09ade9df2efaa8c",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[UbernostrumTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Dauer: 10 Runden\nIhr regeneriert 0,9 Trefferpunkte pro Stufe (mindestens 5) pro Runde.\nAm Ende der zehnten Runde werdet Ihr von allen kurzfristigen, biologischen Schwächungen befreit und regeneriert bis zu ein abgetrenntes Körperteil.",
+      "new_value": "Dauer: 10 Runden\nDu regenerierst 0,9 Trefferpunkte pro Stufe (mindestens 5) pro Runde.\nAm Ende der zehnten Runde wirst du von allen kurzfristigen, biologischen Schwächungen befreit und regenerierst bis zu ein abgetrenntes Körperteil.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bd719c5258980daa",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[RubbergumTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 41-50 Runden\n+100 Elektroresistenz\n+25 Kälteresistenz\n-1 RW\n+5 auf Rettungswürfe gegen Festhalten.\n-5 auf Rettungswürfe gegen Bluten.\nIhr erleidet nur halben Schaden durch Angriffe mit Wuchtschaden.\nIhr erleidet nur halben Schaden durch Stürze.\nIhr könnt nicht gepackt werden.",
+      "new_value": "Dauer: 41-50 Runden\n+100 Elektroresistenz\n+25 Kälteresistenz\n-1 RW\n+5 auf Rettungswürfe gegen Festhalten.\n-5 auf Rettungswürfe gegen Bluten.\nDu erleidest nur halben Schaden durch Angriffe mit Wuchtschaden.\nDu erleidest nur halben Schaden durch Stürze.\nDu kannst nicht gepackt werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "680c9ded5d0ced1d",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[RubbergumTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Dauer: 41-50 Runden\n+100 Elektroresistenz\n+50 Kälteresistenz\n-1 RW\n+5 auf Rettungswürfe gegen Festhalten.\n-5 auf Rettungswürfe gegen Bluten.\nIhr erleidet nur 25% Schaden durch Angriffe mit Wuchtschaden.\nIhr erleidet nur 25% Schaden durch Stürze.\nIhr könnt nicht gepackt werden.\nDiese Effekte stapeln sich, wenn mehrere Rubbergums eingenommen werden.",
+      "new_value": "Dauer: 41-50 Runden\n+100 Elektroresistenz\n+50 Kälteresistenz\n-1 RW\n+5 auf Rettungswürfe gegen Festhalten.\n-5 auf Rettungswürfe gegen Bluten.\nDu erleidest nur 25% Schaden durch Angriffe mit Wuchtschaden.\nDu erleidest nur 25% Schaden durch Stürze.\nDu kannst nicht gepackt werden.\nDiese Effekte stapeln sich, wenn mehrere Rubbergums eingenommen werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "31d2b3adae0517f2",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[NectarTonic]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Ihr erhaltet entweder einen dauerhaften +1-Bonus auf ein zufälliges Attribut oder einen Mutationspunkt.",
+      "new_value": "Du erhältst entweder einen dauerhaften +1-Bonus auf ein zufälliges Attribut oder einen Mutationspunkt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5bac2e22efd925b",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[NectarTonic]/part[RulesDescription]@GenotypeAlt",
+      "context": null,
+      "old_value": "Ihr erhaltet einen Attributspunkt.",
+      "new_value": "Du erhältst einen Attributspunkt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9bde3f90f60d1006",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[GenericFace]/part[EatenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Ihr habt =this.an= gegessen.",
+      "new_value": "Du hast =this.an= gegessen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "81283b83ec07203e",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[PlantFace]/part[EatenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Ihr habt =this.an= gegessen.",
+      "new_value": "Du hast =this.an= gegessen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ad39e639c2624339",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[FungusFace]/part[EatenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Ihr habt =this.an= gegessen.",
+      "new_value": "Du hast =this.an= gegessen.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

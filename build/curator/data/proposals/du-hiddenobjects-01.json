@@ -1,0 +1,38 @@
+{
+  "batch": "du-hiddenobjects-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-hiddenobjects-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "e496658fe214cd50",
+      "file": "HiddenObjects.de.xml",
+      "key": "/objects#0/object[Eater Globe]/part[Description]@Short",
+      "context": null,
+      "old_value": "In Hochrelief krönen Falten und Knoten sandfarbener Formen die saphirblaue Oberfläche des kugelförmigen Modells. Das Nebeneinander der Maßstäbe, das Verhältnis von Meer zu Land und die kollektive Weisheit, die zur Erschaffung eines solchen Werks nötig war, lassen Euch den Kopf schwindeln.",
+      "new_value": "In Hochrelief krönen Falten und Knoten sandfarbener Formen die saphirblaue Oberfläche des kugelförmigen Modells. Das Nebeneinander der Maßstäbe, das Verhältnis von Meer zu Land und die kollektive Weisheit, die zur Erschaffung eines solchen Werks nötig war, lassen dir den Kopf schwindeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dbce32ea051d5418",
+      "file": "HiddenObjects.de.xml",
+      "key": "/objects#0/object[Circumcestral Eater Monument]/part[Description]@Short",
+      "context": null,
+      "old_value": "Die Form des gemeißelten Megalithen durchfährt wie ein Stromstoß eine vergessene Schar von Neuronen in einem Kriechgang Eures Geistes und stürzt Euch in plötzliche Vertrautheit mit der tiefen Vergangenheit, irgendwo am Rand des ersten Gedankens. Dann stellt sich Unsicherheit ein, in welche Richtung des Zeitgeflechts Ihr Euch da erinnert.",
+      "new_value": "Die Form des gemeißelten Megalithen durchfährt wie ein Stromstoß eine vergessene Schar von Neuronen in einem Kriechgang deines Geistes und stürzt dich in plötzliche Vertrautheit mit der tiefen Vergangenheit, irgendwo am Rand des ersten Gedankens. Dann stellt sich Unsicherheit ein, in welche Richtung des Zeitgeflechts du dich da erinnerst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "95453592ea421990",
+      "file": "HiddenObjects.de.xml",
+      "key": "/objects#0/object[Chiliad Creature Wardens]/part[Description]@Short",
+      "context": null,
+      "old_value": "Angespannte Arme stützen =pronouns.possessive= Waffe, und =pronouns.subjective= =verb:hold:afterpronoun= Euren Blick mit verhaltenem Zweifel.",
+      "new_value": "Angespannte Arme stützen =pronouns.possessive= Waffe, und =pronouns.subjective= =verb:hold:afterpronoun= deinen Blick mit verhaltenem Zweifel.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

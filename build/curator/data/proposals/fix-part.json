@@ -1,0 +1,198 @@
+{
+  "batch": "fix-part",
+  "rule": "fix-part",
+  "note": "fix-part",
+  "created": "2026-10-22 16:08",
+  "items": [
+    {
+      "uid": "0dd72fe4af0bc11e",
+      "file": "Strings.de.xml",
+      "key": "Cybernetics Debug Wish 'implant'|Your =part.ordinalName= =part.isPlural:are:is= implanted with =cybernetic.name=!",
+      "context": "Cybernetics Debug Wish 'implant'",
+      "old_value": "Deine =part.ordinalName= =part.isPlural:are:is= mit =cybernetic.name= implantiert!",
+      "new_value": "=part.Poss:nom= =part.isPlural:sind:ist= mit =cybernetic.name= implantiert!",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "a3f7ae9ba3804cc7",
+      "file": "Strings.de.xml",
+      "key": "Body Lost Use Of Part|You have lost the use of your =part.ordinalName=.",
+      "context": "Body Lost Use Of Part",
+      "old_value": "Du hast die Kontrolle über deinen =part.ordinalName= verloren.",
+      "new_value": "Du hast die Kontrolle über =part.poss:akk= verloren.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "9f442deea994b3f4",
+      "file": "Strings.de.xml",
+      "key": "Body Recover Use Of Part|You have recovered the use of your =part.ordinalName=.",
+      "context": "Body Recover Use Of Part",
+      "old_value": "Du hast die Kontrolle über deinen =part.ordinalName= wiederhergestellt.",
+      "new_value": "Du hast die Kontrolle über =part.poss:akk= wiederhergestellt.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "b1fc60d8ad834ccf",
+      "file": "Strings.de.xml",
+      "key": "Inventory Cannot Equip On Part|You cannot equip =object.the.name= on your =part.ordinalName=.",
+      "context": "Inventory Cannot Equip On Part",
+      "old_value": "Du kannst =object.the.name= an deinem =part.ordinalName= nicht ausrüsten.",
+      "new_value": "Du kannst =object.the.name= an =part.poss:dat= nicht ausrüsten.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "b4e9ced8c6c34b01",
+      "file": "Strings.de.xml",
+      "key": "Engraver Too Many|There are too many engravings on =object.the.name's= =part.ordinalName= to add more.",
+      "context": "Engraver Too Many",
+      "old_value": "Es gibt zu viele Gravierungen auf =object.the.name's= =part.ordinalName=, um mehr hinzuzufügen.",
+      "new_value": "Es gibt zu viele Gravierungen auf =part.dativ= =object.genitiv=, um mehr hinzuzufügen.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "be54b2ad2e658014",
+      "file": "Strings.de.xml",
+      "key": "Engraver Can't Apply|You can't engrave =object.the.name's= =part.ordinalName=.",
+      "context": "Engraver Can't Apply",
+      "old_value": "Du kannst =object.the.name's= =part.ordinalName= nicht gravieren.",
+      "new_value": "Du kannst =part.akkusativ= =object.genitiv= nicht gravieren.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "e438c1bb593e0f7b",
+      "file": "Strings.de.xml",
+      "key": "Engraver Can't Apply Inappropriate Part|=object.The.name's= =part.ordinalName= can't be engraved because =part.ifPlural:they aren't:it isn't= a hard enough body part.",
+      "context": "Engraver Can't Apply Inappropriate Part",
+      "old_value": "=object.The.name's= =part.ordinalName= kann nicht graviert werden, weil =part.ifPlural:they aren't:it isn't= hart genug.",
+      "new_value": "=part.Nominativ= =object.genitiv= kann nicht graviert werden, weil =part.ifPlural:sie sind nicht:es ist nicht= hart genug.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "c09a50a02f0e5721",
+      "file": "Strings.de.xml",
+      "key": "Engraver MarkOfDeath Popup|You engrave the mark of death on =object.the.name's:withTitles= =part.ordinalName=.",
+      "context": "Engraver MarkOfDeath Popup",
+      "old_value": "Du gravierst das Todeszeichen auf =object.the.name's:withTitles= =part.ordinalName=.",
+      "new_value": "Du gravierst das Todeszeichen auf =part.dativ= =object.genitiv=.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "2e766405723b575f",
+      "file": "Strings.de.xml",
+      "key": "Engraver Success Popup|You engrave =description= on =object.the.name's:withTitles= =part.ordinalName=.",
+      "context": "Engraver Success Popup",
+      "old_value": "Du gravierst =description= auf =object.the.name's:withTitles= =part.ordinalName=.",
+      "new_value": "Du gravierst =description= auf =part.dativ= =object.genitiv=.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "f36f99c3472a601f",
+      "file": "Strings.de.xml",
+      "key": "TattooGun Too Many|There are too many tattoos on =object.the.name's= =part.ordinalName= to add more.",
+      "context": "TattooGun Too Many",
+      "old_value": "Zu viele Tätowierungen auf =object.the.name's= =part.ordinalName= zum Hinzufügen.",
+      "new_value": "Zu viele Tätowierungen auf =part.dativ= =object.genitiv= zum Hinzufügen.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "46baba7b1e320a06",
+      "file": "Strings.de.xml",
+      "key": "TattooGun Can't Apply|You can't tattoo =object.the.name's= =part.ordinalName=.",
+      "context": "TattooGun Can't Apply",
+      "old_value": "Du kannst =object.the.name's= =part.ordinalName= nicht tätowieren.",
+      "new_value": "Du kannst =part.akkusativ= =object.genitiv= nicht tätowieren.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "0846c38b3eec75d6",
+      "file": "Strings.de.xml",
+      "key": "TattooGun Can't Apply Inappropriate Part|=object.The.name's= =part.ordinalName= can't be tattooed because =part.ifPlural:they don't:it doesn't= have flesh.",
+      "context": "TattooGun Can't Apply Inappropriate Part",
+      "old_value": "=object.The.name's= =part.ordinalName= kann nicht tätowiert werden, da =part.ifPlural:they don't:it doesn't= Fleisch haben.",
+      "new_value": "=part.Nominativ= =object.genitiv= kann nicht tätowiert werden, da =part.ifPlural:sie haben kein:es hat kein= Fleisch haben.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5eeac9361739398",
+      "file": "Strings.de.xml",
+      "key": "TattooGun MarkOfDeath Popup|You tattoo the mark of death on =object.the.name's:withTitles= =part.ordinalName=.",
+      "context": "TattooGun MarkOfDeath Popup",
+      "old_value": "Du tätowierst das Todeszeichen auf =object.the.name's:withTitles= =part.ordinalName=.",
+      "new_value": "Du tätowierst das Todeszeichen auf =part.dativ= =object.genitiv=.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "3642de2e6293a939",
+      "file": "Strings.de.xml",
+      "key": "TattooGun Success Popup|You tattoo =description= on =object.the.name's:withTitles= =part.ordinalName=.",
+      "context": "TattooGun Success Popup",
+      "old_value": "Du tätowierst =description= auf =object.the.name's:withTitles= =part.ordinalName=.",
+      "new_value": "Du tätowierst =description= auf =part.dativ= =object.genitiv=.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "26e09cff4fc899e7",
+      "file": "Strings.de.xml",
+      "key": "|You contracted =object.name= on your =part.ordinalName=, endearing =subject.reflexive= to fungi across Qud.@#text",
+      "context": null,
+      "old_value": "Du hast dir =object.name= an deinem =part.ordinalName= zugezogen und damit =subject.reflexive= bei den Pilzen in ganz Qud beliebt gemacht.",
+      "new_value": "Du hast dir =object.name= an =part.poss:dat= zugezogen und damit =subject.reflexive= bei den Pilzen in ganz Qud beliebt gemacht.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "8309f4a9a27ebb8e",
+      "file": "Strings.de.xml",
+      "key": "|Bless the =day= of =month=, when =name= cemented a historic alliance with fungi by contracting =object.name= on =player.their= =part.ordinalName=!@#text",
+      "context": null,
+      "old_value": "Gesegnet sei der =day= des =month=, an dem =name= durch die Ansteckung mit =object.name= an =player.their= =part.ordinalName= ein historisches Bündnis mit den Pilzen besiegelte!",
+      "new_value": "Gesegnet sei der =day= des =month=, an dem =name= durch die Ansteckung mit =object.name= an =part.poss:dat= ein historisches Bündnis mit den Pilzen besiegelte!",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "4c6b5596528991c6",
+      "file": "Strings.de.xml",
+      "key": "|While traveling around =player.terrain.t=, =name= discovered =player.landmark.nearest=. There =player.subjective= befriened fungi and contracted =object.name= on =player.their= =part.ordinalName=.@#text",
+      "context": null,
+      "old_value": "Während =name= =player.terrain.t= bereiste, entdeckte =player.subjective= =player.landmark.nearest=. Dort freundete sich =player.subjective= mit Pilzen an und zog sich =object.name= an =player.their= =part.ordinalName= zu.",
+      "new_value": "Während =name= =player.terrain.t= bereiste, entdeckte =player.subjective= =player.landmark.nearest=. Dort freundete sich =player.subjective= mit Pilzen an und zog sich =object.name= an =part.poss:dat= zu.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "127dfb102403bc97",
+      "file": "Strings.de.xml",
+      "key": "|You've contracted =object.name= on your =part.ordinalName=.@#text",
+      "context": null,
+      "old_value": "Du hast dir =object.name= an deinem =part.ordinalName= zugezogen.",
+      "new_value": "Du hast dir =object.name= an =part.poss:dat= zugezogen.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "42e383b7ea3b416a",
+      "file": "Strings.de.xml",
+      "key": "FungalInfection Cure Spice Text|To the dismay of fungi everywhere, you cured the =object.name|strip= infection on your =part.ordinalName=.",
+      "context": "FungalInfection Cure Spice Text",
+      "old_value": "Zum Verdruss aller Pilze hast du die Infektion mit =object.name|strip= an deinem =part.ordinalName= geheilt.",
+      "new_value": "Zum Verdruss aller Pilze hast du die Infektion mit =object.name|strip= an =part.poss:dat= geheilt.",
+      "note": "Körperteil mit Kasus-/Possessiv-Token",
+      "status": "accepted"
+    }
+  ]
+}

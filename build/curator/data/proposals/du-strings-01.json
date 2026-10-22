@@ -1,0 +1,1508 @@
+{
+  "batch": "du-strings-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-strings-01)",
+  "created": "2026-10-22 14:42",
+  "items": [
+    {
+      "uid": "7366e5b806dadb52",
+      "file": "Strings.de.xml",
+      "key": "Redeem Code|Your new pet is ready to love.",
+      "context": "Redeem Code",
+      "old_value": "Euer neues Haustier ist bereit, euch zu lieben.",
+      "new_value": "Dein neues Haustier ist bereit, dich zu lieben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4c451c68b51e52d",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains inventory nudge|You should view the tooltip before equipping the axe.",
+      "context": "Tutorial BattleRemains inventory nudge",
+      "old_value": "Ihr solltet den Tooltip ansehen, bevor Ihr die Axt anlegt.",
+      "new_value": "Du solltest den Tooltip ansehen, bevor du die Axt anlegst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "24155d02a39abd20",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains odd event|Huh, you somehow destroyed the battle axe. Let's move on.",
+      "context": "Tutorial BattleRemains odd event",
+      "old_value": "Huh, Ihr habt irgendwie die Streitaxt zerstört. Lass uns weitermachen.",
+      "new_value": "Huh, du hast irgendwie die Streitaxt zerstört. Lass uns weitermachen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ea19f2b6c3e9b0c8",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains info|The battle axe has better penetration and deals more damage than your dagger.",
+      "context": "Tutorial BattleRemains info",
+      "old_value": "Die Streitaxt hat bessere Durchschlagskraft und verursacht mehr Schaden als Euer Dolch.",
+      "new_value": "Die Streitaxt hat bessere Durchschlagskraft und verursacht mehr Schaden als dein Dolch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a300f8ea3feb5b94",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains info|Let's take another look at weapon stats. Next to the {{c|→}} is 5. That means you'll usually penetrate the armor of a creature with AV equal to 5.\n\nYou can penetrate armor multiple times, though, and each time you penetrate, you deal the weapon's damage.\n\nLet's equip it.",
+      "context": "Tutorial BattleRemains info",
+      "old_value": "Schauen wir uns noch mal die Waffenstatistiken an. Neben dem {{c|→}} steht 5. Das bedeutet, dass Ihr die Rüstung einer Kreatur mit AV 5 normalerweise durchdringen werdet.\n\nIhr könnt eine Rüstung mehrmals durchdringen, und jedes Mal, wenn Ihr das tut, verursacht Ihr den Waffenschaden.\n\nLasst uns sie ausrüsten.",
+      "new_value": "Schauen wir uns noch mal die Waffenstatistiken an. Neben dem {{c|→}} steht 5. Das bedeutet, dass du die Rüstung einer Kreatur mit AV 5 normalerweise durchdringen wirst.\n\nDu kannst eine Rüstung mehrmals durchdringen, und jedes Mal, wenn du das tust, verursachst du den Waffenschaden.\n\nLass uns sie ausrüsten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b0eb22ed3c0abad5",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains instruction|Keep moving forward.",
+      "context": "Tutorial BattleRemains instruction",
+      "old_value": "Bewegt Euch weiter vorwärts.",
+      "new_value": "Beweg dich weiter vorwärts.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4521935ef7c57b1a",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains nudge|Hold on, we want to show you the tooltip compare feature.",
+      "context": "Tutorial BattleRemains nudge",
+      "old_value": "Wartet, wir möchten Euch die Tooltip-Vergleichsfunktion zeigen.",
+      "new_value": "Warte, wir möchten dir die Tooltip-Vergleichsfunktion zeigen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c5e647da8439c95b",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains instruction|A battle axe. Get it.",
+      "context": "Tutorial BattleRemains instruction",
+      "old_value": "Eine Streitaxt. Heben Sie sie auf.",
+      "new_value": "Eine Streitaxt. Heb sie auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd4b7621b0e1d821",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains instruction|Equip the battle axe since it's better than your dagger.",
+      "context": "Tutorial BattleRemains instruction",
+      "old_value": "Rüstet das Streitbeil aus, da es besser als Euer Dolch ist.",
+      "new_value": "Rüste das Streitbeil aus, da es besser als dein Dolch ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "02f9084fa93631d1",
+      "file": "Strings.de.xml",
+      "key": "Tutorial BattleRemains instruction|Select the Inventory && Equipment tab.\n\nYou can use =commandKey:Page Left= and =commandKey:Page Right= to navigate between tabs.",
+      "context": "Tutorial BattleRemains instruction",
+      "old_value": "Wählt den Inventar && Ausrüstung-Reiter aus.\n\nIhr könnt =commandKey:Page Left= und =commandKey:Page Right= verwenden, um zwischen den Reitern zu navigieren.",
+      "new_value": "Wähle den Inventar && Ausrüstung-Reiter aus.\n\nDu kannst =commandKey:Page Left= und =commandKey:Page Right= verwenden, um zwischen den Reitern zu navigieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae416930740000da",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExamineChemcell instruction|You regain hitpoints naturally as turns pass. You can pass a few turns by waiting, or if there are no hostile creatures around, you can {{W|rest until healed}}.\n\nPress =commandKey:CmdWaitUntilHealed=",
+      "context": "Tutorial ExamineChemcell instruction",
+      "old_value": "Ihr regeneriert Trefferpunkte natürlich, wenn Züge vergehen. Ihr könnt ein paar Züge warten, oder falls keine feindselig gesinnten Kreaturen in der Nähe sind, könnt Ihr {{W|ruhen, bis Ihr geheilt seid}}.\n\nDrücke =commandKey:CmdWaitUntilHealed=",
+      "new_value": "Du regenerierst Trefferpunkte natürlich, wenn Züge vergehen. Du kannst ein paar Züge warten, oder falls keine feindselig gesinnten Kreaturen in der Nähe sind, kannst du {{W|ruhen, bis du geheilt bist}}.\n\nDrücke =commandKey:CmdWaitUntilHealed=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2c49858790490575",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExamineChemcell info|It's a chem cell. It can be used later to power other artifacts you find.",
+      "context": "Tutorial ExamineChemcell info",
+      "old_value": "Es ist eine Chemzelle. Sie kann später verwendet werden, um andere Artefakte zu betreiben, die Ihr findet.",
+      "new_value": "Es ist eine Chemzelle. Sie kann später verwendet werden, um andere Artefakte zu betreiben, die du findest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "33cc7fad4636f9c3",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExamineChemcell instruction (gamepad)|You picked up the odd trinket automatically because it is an artifact.\n\nPress =commandKey:CmdCharacter= to investigate it.",
+      "context": "Tutorial ExamineChemcell instruction (gamepad)",
+      "old_value": "Ihr habt die sonderbare Kleinigkeit automatisch aufgehoben, weil sie ein Artefakt ist.\n\nDrücke =commandKey:CmdCharacter=, um sie zu untersuchen.",
+      "new_value": "Du hast die sonderbare Kleinigkeit automatisch aufgehoben, weil sie ein Artefakt ist.\n\nDrücke =commandKey:CmdCharacter=, um sie zu untersuchen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f2b2359f3c5913c",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExamineChemcell instruction (kbm)|You picked up the odd trinket automatically because it is an artifact.\n\nPress =commandKey:CmdInventory= to investigate it.",
+      "context": "Tutorial ExamineChemcell instruction (kbm)",
+      "old_value": "Ihr habt die sonderbare Kleinigkeit automatisch aufgehoben, weil sie ein Artefakt ist.\n\nDrücke =commandKey:CmdInventory=, um sie zu untersuchen.",
+      "new_value": "Du hast die sonderbare Kleinigkeit automatisch aufgehoben, weil sie ein Artefakt ist.\n\nDrücke =commandKey:CmdInventory=, um sie zu untersuchen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "24d42cc31069da63",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExamineChemcell instruction|Select the Inventory && Equipment tab.\n\nYou can use =commandKey:Page Left= and =commandKey:Page Right= to navigate between tabs.",
+      "context": "Tutorial ExamineChemcell instruction",
+      "old_value": "Wählt den Inventar && Ausrüstung-Reiter aus.\n\nIhr könnt =commandKey:Page Left= und =commandKey:Page Right= verwenden, um zwischen den Reitern zu navigieren.",
+      "new_value": "Wähle den Inventar && Ausrüstung-Reiter aus.\n\nDu kannst =commandKey:Page Left= und =commandKey:Page Right= verwenden, um zwischen den Reitern zu navigieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4050f064e1c9133",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreDeeper instruction|Let's move on. Keep exploring.",
+      "context": "Tutorial ExploreDeeper instruction",
+      "old_value": "Machen wir weiter. Erkunden Sie weiter.",
+      "new_value": "Machen wir weiter. Erkunde weiter.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0ca50552e02a72a0",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreJoppa odd event|Oh! it looks like Warden Yrame killed Mehmet. Why, you ask?\n\nWell, named creatures who you can perform the water ritual with, like Mehmet, generate with dynamic faction relationships. In your game, Mehmet must have been hated by the Fellowship of Wardens for some reason.",
+      "context": "Tutorial ExploreJoppa odd event",
+      "old_value": "Oh! Es sieht aus, als hätte Warden Yrame Mehmet getötet. Warum, fragt Ihr?\n\nNun, benannte Kreaturen, mit denen Ihr das Wasserritual durchführen könnt, wie Mehmet, generieren mit dynamischen Fraktionsbeziehungen. In Eurem Spiel muss Mehmet aus irgendeinem Grund vom Orden der Wärter gehasst worden sein.",
+      "new_value": "Oh! Es sieht aus, als hätte Warden Yrame Mehmet getötet. Warum, fragst du?\n\nNun, benannte Kreaturen, mit denen du das Wasserritual durchführen kannst, wie Mehmet, generieren mit dynamischen Fraktionsbeziehungen. In deinem Spiel muss Mehmet aus irgendeinem Grund vom Orden der Wärter gehasst worden sein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9b9fb263cdff39d5",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreJoppa odd event|You have a few options now. You can roll with it and continue in this world where Mehmet's been revenge-slain. The early game will be a bit harder, but the main quest is not impacted.\n\nYou can start over and play the tutorial again, for the \"normal\" ending, which you were about to reach.\n\nOr, since you were near the end anyway, you can start a new game and begin your journey proper!",
+      "context": "Tutorial ExploreJoppa odd event",
+      "old_value": "Ihr habt jetzt mehrere Möglichkeiten. Ihr könnt es akzeptieren und in dieser Welt weitermachen, in der Mehmet als Rache getötet wurde. Das frühe Spiel wird etwas schwerer, aber die Hauptquest wird nicht beeinflusst.\n\nIhr könnt von vorne anfangen und das Tutorial erneut spielen, um das \"normale\" Ende zu erreichen, das Ihr fast erreicht hattet.\n\nOder, da Ihr sowieso schon nahe am Ende wart, könnt Ihr ein neues Spiel starten und Eure Reise richtig beginnen!",
+      "new_value": "Du hast jetzt mehrere Möglichkeiten. Du kannst es akzeptieren und in dieser Welt weitermachen, in der Mehmet als Rache getötet wurde. Das frühe Spiel wird etwas schwerer, aber die Hauptquest wird nicht beeinflusst.\n\nDu kannst von vorne anfangen und das Tutorial erneut spielen, um das \"normale\" Ende zu erreichen, das du fast erreicht hattest.\n\nOder, da du sowieso schon nahe am Ende warst, kannst du ein neues Spiel starten und deine Reise richtig beginnen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6d1bdd372bbd0342",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreJoppa end|Whatever you choose, good luck, and feel free to return here for a refresher.\n\nLive and drink.",
+      "context": "Tutorial ExploreJoppa end",
+      "old_value": "Ganz gleich, was Ihr wählt, viel Glück, und kehrt gerne hierher zurück für eine Auffrischung.\n\nLebt und trinkt.",
+      "new_value": "Ganz gleich, was du wählst, viel Glück, und kehre gerne hierher zurück für eine Auffrischung.\n\nLebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8f0803fa577c8e75",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreJoppa end|Live and drink.",
+      "context": "Tutorial ExploreJoppa end",
+      "old_value": "Leben Sie und trinken Sie.",
+      "new_value": "Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c8e936c5125515a6",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreJoppa instruction (gamepad)|You can see a list of points of interest by pressing =commandKey:CmdMoveToPointOfInterest=.\n\nThe list will grow as you explore more of the map.",
+      "context": "Tutorial ExploreJoppa instruction (gamepad)",
+      "old_value": "Ihr könnt eine Liste von Sehenswürdigkeiten sehen, indem Ihr =commandKey:CmdMoveToPointOfInterest= drückt.\n\nDie Liste wird wachsen, je mehr Ihr die Karte erkundet.",
+      "new_value": "Du kannst eine Liste von Sehenswürdigkeiten sehen, indem du =commandKey:CmdMoveToPointOfInterest= drückst.\n\nDie Liste wird wachsen, je mehr du die Karte erkundest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cde1b57b543c8b7d",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreJoppa instruction (kbm)|You can see a list of points of interest by clicking this button or pressing =commandKey:CmdMoveToPointOfInterest=.\n\nThe list will grow as you explore more of the map.",
+      "context": "Tutorial ExploreJoppa instruction (kbm)",
+      "old_value": "Ihr könnt eine Liste von Sehenswürdigkeiten sehen, indem Ihr diesen Button klickt oder =commandKey:CmdMoveToPointOfInterest= drückt.\n\nDie Liste wird wachsen, je mehr Ihr die Karte erkundet.",
+      "new_value": "Du kannst eine Liste von Sehenswürdigkeiten sehen, indem du diesen Button klickst oder =commandKey:CmdMoveToPointOfInterest= drückst.\n\nDie Liste wird wachsen, je mehr du die Karte erkundest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "315d81055bf3160d",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreStairs instruction (kbm)|Ascend.\n\nYou can click this button or press =commandKey:CmdMoveU=.",
+      "context": "Tutorial ExploreStairs instruction (kbm)",
+      "old_value": "Aufsteigen.\n\nIhr könnt diesen Button klicken oder =commandKey:CmdMoveU= drücken.",
+      "new_value": "Aufsteigen.\n\nDu kannst diesen Button klicken oder =commandKey:CmdMoveU= drücken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "955d915863b19d21",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreStairs nudge|Keep exploring.",
+      "context": "Tutorial ExploreStairs nudge",
+      "old_value": "Erkunden Sie weiter.",
+      "new_value": "Erkunde weiter.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2223c69a13f6c873",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreWorldMap info|You'll be able to explore the world freely after the tutorial.\n\nFor now, let's visit Joppa.",
+      "context": "Tutorial ExploreWorldMap info",
+      "old_value": "Ihr werdet nach dem Tutorial die Welt frei erkunden können.\n\nFür jetzt besuchen wir Joppa.",
+      "new_value": "Du wirst nach dem Tutorial die Welt frei erkunden können.\n\nFür jetzt besuchen wir Joppa.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "db558c320de432c9",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreWorldMap instruction (gamepad)|You can look around here just like on a local map.\n\nUse =commandKey:LookDirection=",
+      "context": "Tutorial ExploreWorldMap instruction (gamepad)",
+      "old_value": "Ihr könnt hier genauso umschauen wie auf einer lokalen Karte.\n\nBenutz =commandKey:LookDirection=",
+      "new_value": "Du kannst hier genauso umschauen wie auf einer lokalen Karte.\n\nBenutz =commandKey:LookDirection=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "919bf413fa828750",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreWorldMap instruction (kbm)|You can look around here just like on a local map.\n\nPress =commandKey:CmdLook=",
+      "context": "Tutorial ExploreWorldMap instruction (kbm)",
+      "old_value": "Ihr könnt hier genauso umschauen wie auf einer lokalen Karte.\n\nDrücke =commandKey:CmdLook=",
+      "new_value": "Du kannst hier genauso umschauen wie auf einer lokalen Karte.\n\nDrücke =commandKey:CmdLook=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "54d359e07646ab6c",
+      "file": "Strings.de.xml",
+      "key": "Tutorial ExploreWorldMap instruction (kbm)|Descend.\n\nYou can click this button or press =commandKey:CmdMoveD=.",
+      "context": "Tutorial ExploreWorldMap instruction (kbm)",
+      "old_value": "Hinabsteigen.\n\nIhr könnt diesen Button klicken oder =commandKey:CmdMoveD= drücken.",
+      "new_value": "Hinabsteigen.\n\nDu kannst diesen Button klicken oder =commandKey:CmdMoveD= drücken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "36aca2ade0f179a9",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear instruction|Wait for the bear to take a step towards you.",
+      "context": "Tutorial FightBear instruction",
+      "old_value": "Wartet, bis der Bär einen Schritt auf Euch zu macht.",
+      "new_value": "Warte, bis der Bär einen Schritt auf dich zu macht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d2d1bb54acc9db2",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear instruction|It's quite dangerous to fight this bear in melee combat! Try backing away and using Freezing Ray.",
+      "context": "Tutorial FightBear instruction",
+      "old_value": "Es ist sehr gefährlich, diesen Bären im Nahkampf zu bekämpfen! Versucht, Euch zurückzuziehen und einen Gefrierstrahl zu verwenden.",
+      "new_value": "Es ist sehr gefährlich, diesen Bären im Nahkampf zu bekämpfen! Versuche, dich zurückzuziehen und einen Gefrierstrahl zu verwenden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "10e8e948f76f1c19",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear nudge|Keep moving down the passage...",
+      "context": "Tutorial FightBear nudge",
+      "old_value": "Gehen Sie den Gang weiter entlang...",
+      "new_value": "Geh den Gang weiter entlang...",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "78032d04f8f3efa9",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear instruction (gamepad)|You can wait a turn for the bear to approach. That way, it won't be in range to attack you when it takes its turn.\n\nTap =commandKey:Take A Step= without choosing a direction with the stick to pass a turn.",
+      "context": "Tutorial FightBear instruction (gamepad)",
+      "old_value": "Ihr könnt einen Zug warten, damit sich der Bär nähert. Auf diese Weise wird er nicht in Reichweite sein, um Euch anzugreifen, wenn er seinen Zug macht.\n\nTippt =commandKey:Take A Step= ohne eine Richtung mit dem Stick zu wählen, um einen Zug zu vergehen.",
+      "new_value": "Du kannst einen Zug warten, damit sich der Bär nähert. Auf diese Weise wird er nicht in Reichweite sein, um dich anzugreifen, wenn er seinen Zug macht.\n\nTippe =commandKey:Take A Step= ohne eine Richtung mit dem Stick zu wählen, um einen Zug zu vergehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fcd4a79a48aca2b4",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear instruction (kbm)|You can wait a turn for the bear to approach. That way, it won't be in range to attack you when it takes its turn.\n\nPress =commandKey:CmdWait:allbinds= or =commandKey:AdventureMouseContextAction= on your character to pass a turn.",
+      "context": "Tutorial FightBear instruction (kbm)",
+      "old_value": "Ihr könnt einen Zug warten, damit sich der Bär nähert. Auf diese Weise wird er nicht in Reichweite sein, um Euch anzugreifen, wenn er seinen Zug macht.\n\nDrücke =commandKey:CmdWait:allbinds= oder =commandKey:AdventureMouseContextAction= auf Eurem Charakter, um einen Zug zu vergehen.",
+      "new_value": "Du kannst einen Zug warten, damit sich der Bär nähert. Auf diese Weise wird er nicht in Reichweite sein, um dich anzugreifen, wenn er seinen Zug macht.\n\nDrücke =commandKey:CmdWait:allbinds= oder =commandKey:AdventureMouseContextAction= auf deinem Charakter, um einen Zug zu vergehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aac5810ea825030c",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear info|You missed, then the bear attacked and missed.\n\nAttack again.",
+      "context": "Tutorial FightBear info",
+      "old_value": "Ihr habt verfehlt, dann griff der Bär an und verfehlte auch.\n\nGreift erneut an.",
+      "new_value": "Du hast verfehlt, dann griff der Bär an und verfehlte auch.\n\nGreif erneut an.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "72f9cdabec24ea80",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear info|This time you hit, but you failed to penetrate the bear's armor.\n\nThen, the bear hit you and DID penetrate your armor. You took 4 damage.",
+      "context": "Tutorial FightBear info",
+      "old_value": "Dieses Mal habt Ihr getroffen, aber Ihr seid gescheitert, die Rüstung des Bären zu durchdringen.\n\nDann traf der Bär Euch und DURCHDRANG Eure Rüstung. Ihr nahmt 4 Schaden.",
+      "new_value": "Dieses Mal hast du getroffen, aber du bist gescheitert, die Rüstung des Bären zu durchdringen.\n\nDann traf der Bär dich und DURCHDRANG deine Rüstung. Du nahmst 4 Schaden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0744f5cdd8b63be6",
+      "file": "Strings.de.xml",
+      "key": "Tutorial instruction (gamepad)|Let's try using an ability. Look at your ability bar. Let's start sprinting. \n\nSelect it with =commandKey:Next Ability= and =commandKey:Previous Ability= then press =commandKey:Use Ability=.",
+      "context": "Tutorial instruction (gamepad)",
+      "old_value": "Lasst uns versuchen, eine Fähigkeit zu nutzen. Schaut auf Eure Fähigkeitenleiste. Lasst uns sprinten starten. \n\nWählt sie mit =commandKey:Next Ability= und =commandKey:Previous Ability= aus und drückt dann =commandKey:Use Ability=.",
+      "new_value": "Lass uns versuchen, eine Fähigkeit zu nutzen. Schau auf deine Fähigkeitenleiste. Lass uns sprinten starten. \n\nWähle sie mit =commandKey:Next Ability= und =commandKey:Previous Ability= aus und drücke dann =commandKey:Use Ability=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dca6f530373b3d60",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear instruction (kbm)|Let's try using an ability. Look at your ability bar. Let's start sprinting. You can click the button or hit the hotkey =commandKey:CmdAbility1=.",
+      "context": "Tutorial FightBear instruction (kbm)",
+      "old_value": "Lasst uns versuchen, eine Fähigkeit zu nutzen. Schaut auf Eure Fähigkeitenleiste. Lasst uns sprinten starten. Ihr könnt den Button klicken oder die Hotkey =commandKey:CmdAbility1= drücken.",
+      "new_value": "Lass uns versuchen, eine Fähigkeit zu nutzen. Schau auf deine Fähigkeitenleiste. Lass uns sprinten starten. Du kannst den Button klicken oder die Hotkey =commandKey:CmdAbility1= drücken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dad1b22dee22021f",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear info|Sprinting doubles your movespeed but ends if you make an attack. Let's sprint back down the corridor to put some distance between us and the bear.",
+      "context": "Tutorial FightBear info",
+      "old_value": "Sprinten verdoppelt Eure Bewegungsgeschwindigkeit, endet aber, wenn Ihr angreift. Lasst uns den Korridor hinunter sprinten, um Abstand zwischen uns und den Bären zu schaffen.",
+      "new_value": "Sprinten verdoppelt deine Bewegungsgeschwindigkeit, endet aber, wenn du angreifst. Lass uns den Korridor hinunter sprinten, um Abstand zwischen uns und den Bären zu schaffen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0b371c698cf34344",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear instruction (gamepad)|Every character has Sprint, but most of your abilities are determined by traits like your mutations. You have Freezing Ray, so you can shoot frost out of your hands.\n\nSelect it with =commandKey:Next Ability= and =commandKey:Previous Ability= then press =commandKey:Use Ability=.",
+      "context": "Tutorial FightBear instruction (gamepad)",
+      "old_value": "Jeder Charakter hat Sprint, aber die meisten Eurer Fähigkeiten werden durch Merkmale wie Eure Mutationen bestimmt. Ihr habt Froststrahlen, daher könnt Ihr Frost aus Euren Händen schießen.\n\nWählt es mit =commandKey:Next Ability= und =commandKey:Previous Ability= aus und drückt dann =commandKey:Use Ability=.",
+      "new_value": "Jeder Charakter hat Sprint, aber die meisten deiner Fähigkeiten werden durch Merkmale wie deine Mutationen bestimmt. Du hast Froststrahlen, daher kannst du Frost aus deinen Händen schießen.\n\nWähle es mit =commandKey:Next Ability= und =commandKey:Previous Ability= aus und drücke dann =commandKey:Use Ability=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f419822ba33bb718",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightBear instruction (kbm)|Every character has Sprint, but most of your abilities are determined by traits like your mutations. You have Freezing Ray, so you can shoot frost out of your hands. Select it.\n\nPress =commandKey:CmdAbility2=",
+      "context": "Tutorial FightBear instruction (kbm)",
+      "old_value": "Jeder Charakter hat Sprint, aber die meisten Eurer Fähigkeiten werden durch Merkmale wie Eure Mutationen bestimmt. Ihr habt Froststrahlen, daher könnt Ihr Frost aus Euren Händen schießen. Wählt es aus.\n\nDrücke =commandKey:CmdAbility2=",
+      "new_value": "Jeder Charakter hat Sprint, aber die meisten deiner Fähigkeiten werden durch Merkmale wie deine Mutationen bestimmt. Du hast Froststrahlen, daher kannst du Frost aus deinen Händen schießen. Wähle es aus.\n\nDrücke =commandKey:CmdAbility2=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae0cca2aa6685d7a",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw nudge|Take a look at the snapjaw before we continue.",
+      "context": "Tutorial FightSnapjaw nudge",
+      "old_value": "Werfen Sie einen Blick auf die Snapjaw, bevor wir fortfahren.",
+      "new_value": "Wirf einen Blick auf die Snapjaw, bevor wir fortfahren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "75713adcedf79b6b",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw odd event|Huh, you somehow destroyed the leather armor. Let's move on.",
+      "context": "Tutorial FightSnapjaw odd event",
+      "old_value": "Huh, Ihr habt irgendwie die Lederrüstung zerstört. Lass uns weitermachen.",
+      "new_value": "Huh, du hast irgendwie die Lederrüstung zerstört. Lass uns weitermachen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "423c06ae75f33d5d",
+      "file": "Strings.de.xml",
+      "key": "Tutorial nudge|Inspect the snapjaw.",
+      "context": "Tutorial nudge",
+      "old_value": "Untersuchen Sie den Snapjaw.",
+      "new_value": "Untersuche den Snapjaw.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd10c188a62eea4b",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw instruction (gamepad)|Use =commandKey:LookDirection= to look at the snapjaw.",
+      "context": "Tutorial FightSnapjaw instruction (gamepad)",
+      "old_value": "Verwenden Sie =commandKey:LookDirection=, um auf den Snapjaw zu schauen.",
+      "new_value": "Verwende =commandKey:LookDirection=, um auf den Snapjaw zu schauen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "564561526f33d8db",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw info|All actions are turn-based, meaning you take a turn, then other creatures take a turn. For the most part, creatures won't act until you do.\n\nIf you ever get panicked, just slow down and consider your next move. There's no rush.",
+      "context": "Tutorial FightSnapjaw info",
+      "old_value": "Alle Aktionen sind rundenbasiert, was bedeutet, dass Ihr einen Zug macht, dann andere Kreaturen einen Zug machen. Größtenteils werden Kreaturen nicht handeln, bis Ihr es tut.\n\nFalls Ihr jemals in Panik geratet, verlangsamt einfach und überlegt Euren nächsten Zug. Es gibt keine Eile.",
+      "new_value": "Alle Aktionen sind rundenbasiert, was bedeutet, dass du einen Zug machst, dann andere Kreaturen einen Zug machen. Größtenteils werden Kreaturen nicht handeln, bis du es tust.\n\nFalls du jemals in Panik gerätst, verlangsame einfach und überlege deinen nächsten Zug. Es gibt keine Eile.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "386e7e36402a220a",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw info|You can attack a hostile creature by moving into its square. This is called {{W|bump attacking}}.",
+      "context": "Tutorial FightSnapjaw info",
+      "old_value": "Ihr könnt eine feindselige Kreatur angreifen, indem Ihr auf ihr Feld zieht. Dies heißt {{W|Rammschlag}}.",
+      "new_value": "Du kannst eine feindselige Kreatur angreifen, indem du auf ihr Feld ziehst. Dies heißt {{W|Rammschlag}}.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "07d2905f0096e89d",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw nudge|Take a step toward the snapjaw.",
+      "context": "Tutorial FightSnapjaw nudge",
+      "old_value": "Machen Sie einen Schritt auf den Snapjaw zu.",
+      "new_value": "Mach einen Schritt auf den Snapjaw zu.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d628aa2be735cd48",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw instruction (gamepad)|You can pick up things that are in the same space as you.\n\nPress =commandKey:CmdUse=",
+      "context": "Tutorial FightSnapjaw instruction (gamepad)",
+      "old_value": "Ihr könnt Dinge aufheben, die im gleichen Raum wie Ihr sind.\n\nDrücke =commandKey:CmdUse=",
+      "new_value": "Du kannst Dinge aufheben, die im gleichen Raum wie du sind.\n\nDrücke =commandKey:CmdUse=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5ba49ba7c08abdd",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw instruction (kbm)|You can pick up things that are in the same space as you.\n\nPress =commandKey:CmdGet=",
+      "context": "Tutorial FightSnapjaw instruction (kbm)",
+      "old_value": "Ihr könnt Dinge aufheben, die im gleichen Raum wie Ihr sind.\n\nDrücke =commandKey:CmdGet=",
+      "new_value": "Du kannst Dinge aufheben, die im gleichen Raum wie du sind.\n\nDrücke =commandKey:CmdGet=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "630ccc2d845bea4e",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw instruction (gamepad)|Whew! You killed the snapjaw and earned some experience. It looks like they dropped a piece of equipment, too.\n\nPress =commandKey:CmdGetFrom= and then choose a direction.",
+      "context": "Tutorial FightSnapjaw instruction (gamepad)",
+      "old_value": "Puh! Ihr habt das Snapjaw getötet und etwas Erfahrung gewonnen. Es sieht aus, als hätten sie auch eine Ausrüstung fallen gelassen.\n\nDrücke =commandKey:CmdGetFrom= und wähle dann eine Richtung.",
+      "new_value": "Puh! Du hast das Snapjaw getötet und etwas Erfahrung gewonnen. Es sieht aus, als hätten sie auch eine Ausrüstung fallen gelassen.\n\nDrücke =commandKey:CmdGetFrom= und wähle dann eine Richtung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "023b61c51b2212e4",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw instruction|Whew! You killed the snapjaw and earned some experience. It looks like they dropped a piece of equipment, too.\n\nPress =commandKey:CmdGetFrom= and then choose a direction or press =commandKey:AdventureMouseInteract=.",
+      "context": "Tutorial FightSnapjaw instruction",
+      "old_value": "Puh! Ihr habt das Snapjaw getötet und etwas Erfahrung gewonnen. Es sieht aus, als hätten sie auch eine Ausrüstung fallen gelassen.\n\nDrücke =commandKey:CmdGetFrom= und wähle dann eine Richtung oder drücke =commandKey:AdventureMouseInteract=.",
+      "new_value": "Puh! Du hast das Snapjaw getötet und etwas Erfahrung gewonnen. Es sieht aus, als hätten sie auch eine Ausrüstung fallen gelassen.\n\nDrücke =commandKey:CmdGetFrom= und wähle dann eine Richtung oder drücke =commandKey:AdventureMouseInteract=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7e5ffa976b6a61fc",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw info|Let's look at the leather armor you picked up.\n\nArmor has an armor value (=av:2=) and a dodge value (=dv:0=)\n\nBoth help you avoid damage.",
+      "context": "Tutorial FightSnapjaw info",
+      "old_value": "Schauen wir uns die Lederrüstung an, die Ihr aufgehoben habt.\n\nRüstung hat einen Rüstungswert (=av:2=) und einen Ausweichswert (=dv:0=)\n\nBeide helfen Euch, Schaden zu vermeiden.",
+      "new_value": "Schauen wir uns die Lederrüstung an, die du aufgehoben hast.\n\nRüstung hat einen Rüstungswert (=av:2=) und einen Ausweichswert (=dv:0=)\n\nBeide helfen dir, Schaden zu vermeiden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6826b88a6aaee776",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw info|This is your equipment and inventory screen. Equipped items on the left, and inventory on the right.",
+      "context": "Tutorial FightSnapjaw info",
+      "old_value": "Dies ist Euer Ausrüstungs- und Inventarbildschirm. Ausgerüstete Gegenstände links und Inventar rechts.",
+      "new_value": "Dies ist dein Ausrüstungs- und Inventarbildschirm. Ausgerüstete Gegenstände links und Inventar rechts.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3b726d946be4c48e",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw info|You can also equip items by dragging them from your inventory to their equipment slot.\n\nBy the way, you have several other tabs in your character sheet. Feel free to explore them later.",
+      "context": "Tutorial FightSnapjaw info",
+      "old_value": "Ihr könnt auch Gegenstände ausrüsten, indem Ihr sie aus eurem Inventar in ihren Ausrüstungsplatz zieht.\n\nÜbrigens habt Ihr mehrere andere Registerkarten in eurem Charakterblatt. Fühlt euch frei, sie später zu erkunden.",
+      "new_value": "Du kannst auch Gegenstände ausrüsten, indem du sie aus deinem Inventar in ihren Ausrüstungsplatz ziehst.\n\nÜbrigens hast du mehrere andere Registerkarten in deinem Charakterblatt. Fühl dich frei, sie später zu erkunden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "daace0e638c4fc16",
+      "file": "Strings.de.xml",
+      "key": "Tutorial FightSnapjaw instruction|Select the Inventory && Equipment tab.\n\nYou can use =commandKey:Page Left= and =commandKey:Page Right= to navigate between tabs.",
+      "context": "Tutorial FightSnapjaw instruction",
+      "old_value": "Wählt den Inventar && Ausrüstung-Reiter aus.\n\nIhr könnt =commandKey:Page Left= und =commandKey:Page Right= verwenden, um zwischen den Reitern zu navigieren.",
+      "new_value": "Wähle den Inventar && Ausrüstung-Reiter aus.\n\nDu kannst =commandKey:Page Left= und =commandKey:Page Right= verwenden, um zwischen den Reitern zu navigieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "822a8cc67fd05dd4",
+      "file": "Strings.de.xml",
+      "key": "IntroTutorial info|Character creation is a deep and sometimes long process. We included some preset builds to help you get started. After the tutorial, you can try another build, or make a character from scratch. (The recommended way! Once you get your footing.) \n\nFor now, pick the marsh taur.",
+      "context": "IntroTutorial info",
+      "old_value": "Die Charaktererstellung ist ein tiefgründiger und manchmal langer Prozess. Wir haben einige voreingestellte Ausrüstungen eingefügt, um Euch den Anfang zu erleichtern. Nach dem Tutorial könnt Ihr eine andere Ausrüstung versuchen oder einen Charakter von Grund auf erstellen. (Die empfohlene Weise! Sobald Ihr Fuß fasst.) \n\nFür jetzt wählt den Sumpf-Taur.",
+      "new_value": "Die Charaktererstellung ist ein tiefgründiger und manchmal langer Prozess. Wir haben einige voreingestellte Ausrüstungen eingefügt, um dir den Anfang zu erleichtern. Nach dem Tutorial kannst du eine andere Ausrüstung versuchen oder einen Charakter von Grund auf erstellen. (Die empfohlene Weise! Sobald du Fuß fasst.) \n\nFür jetzt wähle den Sumpf-Taur.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ccdb745e27c28670",
+      "file": "Strings.de.xml",
+      "key": "IntroTutorial info|Here is a summary of your attributes and mutations, which grant your character unique abilities.",
+      "context": "IntroTutorial info",
+      "old_value": "Hier ist eine Zusammenfassung Eurer Attribute und Mutationen, die Eurem Charakter einzigartige Fähigkeiten verleihen.",
+      "new_value": "Hier ist eine Zusammenfassung deiner Attribute und Mutationen, die deinem Charakter einzigartige Fähigkeiten verleihen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "09442bd6c5f7b0fe",
+      "file": "Strings.de.xml",
+      "key": "IntroTutorial info|You can name your character or choose Next for a random name.",
+      "context": "IntroTutorial info",
+      "old_value": "Ihr könnt eurem Charakter einen Namen geben oder Weiter wählen, um einen zufälligen Namen zu erhalten.",
+      "new_value": "Du kannst deinem Charakter einen Namen geben oder Weiter wählen, um einen zufälligen Namen zu erhalten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "34b884b474641b5b",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MakeCamp info|But first, you just became hungry. You need to eat.",
+      "context": "Tutorial MakeCamp info",
+      "old_value": "Aber zuerst seid Ihr gerade hungrig geworden. Ihr müsst essen.",
+      "new_value": "Aber zuerst bist du gerade hungrig geworden. Du musst essen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d62ab452ebf75c1",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MakeCamp nudge|Use the campfire.",
+      "context": "Tutorial MakeCamp nudge",
+      "old_value": "Nutzen Sie das Lagerfeuer.",
+      "new_value": "Nutze das Lagerfeuer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ca35940fc26c37f",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MakeCamp nudge|Make camp.",
+      "context": "Tutorial MakeCamp nudge",
+      "old_value": "Schlagen Sie ein Lager auf.",
+      "new_value": "Schlag ein Lager auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c215c7884e313083",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MakeCamp info|The beetle's inventory is on the left, and your inventory is on the right.\n\nThe beetle has some witchwood bark. That's useful — it heals you when you eat it. Let's trade for it.",
+      "context": "Tutorial MakeCamp info",
+      "old_value": "Das Inventar des Käfers befindet sich auf der linken Seite, und Euer Inventar auf der rechten Seite.\n\nDer Käfer hat etwas Hexenholzrinde. Das ist nützlich — es heilt Euch, wenn Ihr es esst. Lass uns dafür tauschen.",
+      "new_value": "Das Inventar des Käfers befindet sich auf der linken Seite, und dein Inventar auf der rechten Seite.\n\nDer Käfer hat etwas Hexenholzrinde. Das ist nützlich — es heilt dich, wenn du es isst. Lass uns dafür tauschen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "60eeed7ff59e8966",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MakeCamp instruction (gamepad)|The beetle has some witchwood bark. That's useful — it heals you when you eat it. Let's trade for it.\n\nPress =commandKey:CmdTradeAdd=",
+      "context": "Tutorial MakeCamp instruction (gamepad)",
+      "old_value": "Der Käfer hat etwas Hexenholzrinde. Das ist nützlich — es heilt Euch, wenn Ihr es esst. Lasst uns es handeln.\n\nDrücke =commandKey:CmdTradeAdd=",
+      "new_value": "Der Käfer hat etwas Hexenholzrinde. Das ist nützlich — es heilt dich, wenn du es isst. Lass uns es handeln.\n\nDrücke =commandKey:CmdTradeAdd=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e8ed4b75f2318bdf",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MakeCamp instruction|The beetle has some witchwood bark. That's useful — it heals you when you eat it. Let's trade for it.\n\nPress =commandKey:CmdTradeAdd= or =commandKey:AdventureMouseContextAction=",
+      "context": "Tutorial MakeCamp instruction",
+      "old_value": "Der Käfer hat etwas Hexenholzrinde. Das ist nützlich — es heilt Euch, wenn Ihr es esst. Lasst uns es handeln.\n\nDrücke =commandKey:CmdTradeAdd= oder =commandKey:AdventureMouseContextAction=",
+      "new_value": "Der Käfer hat etwas Hexenholzrinde. Das ist nützlich — es heilt dich, wenn du es isst. Lass uns es handeln.\n\nDrücke =commandKey:CmdTradeAdd= oder =commandKey:AdventureMouseContextAction=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e9d922f6c6eeca4c",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MakeCamp info|The trade is uneven, so we'll have to pony up some money.\n\nIn the salt-stippled ecosystem of Qud, {{B|fresh water}} is currency. You need to drink it, too, so don't spend it all.",
+      "context": "Tutorial MakeCamp info",
+      "old_value": "Der Handel ist unausgeglichen, also müssen wir Geld hinzufügen.\n\nIm salzgetüpfelten Ökosystem von Qud ist {{B|Süßwasser}} eine Währung. Ihr müsst es trinken, also gebt es nicht alle aus.",
+      "new_value": "Der Handel ist unausgeglichen, also müssen wir Geld hinzufügen.\n\nIm salzgetüpfelten Ökosystem von Qud ist {{B|Süßwasser}} eine Währung. Du musst es trinken, also gib es nicht alle aus.",
+      "note": "'gebt' -> 'gib'; 'alle' unveraendert gelassen",
+      "status": "accepted"
+    },
+    {
+      "uid": "176d5ffcb46fe0c7",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MakeCamp instruction (kbm)|Now to go to the world map. Try ascending again.\n\nYou can click this button or press =commandKey:CmdMoveU=.",
+      "context": "Tutorial MakeCamp instruction (kbm)",
+      "old_value": "Jetzt zur Weltkarte. Versucht erneut aufzusteigen.\n\nIhr könnt diesen Button klicken oder =commandKey:CmdMoveU= drücken.",
+      "new_value": "Jetzt zur Weltkarte. Versuche erneut aufzusteigen.\n\nDu kannst diesen Button klicken oder =commandKey:CmdMoveU= drücken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a322c7341fd2b296",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MoveToChest info|This is the main gameplay stage. At the top of the screen are your attributes, HP, and XP.\n\nOn the right are action buttons, minimap, and the message log.\n\nAt the bottom is your ability hotbar.",
+      "context": "Tutorial MoveToChest info",
+      "old_value": "Dies ist der Hauptspielbildschirm. Oben auf dem Bildschirm sind Eure Attribute, HP und XP.\n\nAuf der rechten Seite befinden sich Aktionsschaltflächen, Minimap und das Nachrichtenprotokoll.\n\nUnten ist Eure Fähigkeitshotbar.",
+      "new_value": "Dies ist der Hauptspielbildschirm. Oben auf dem Bildschirm sind deine Attribute, HP und XP.\n\nAuf der rechten Seite befinden sich Aktionsschaltflächen, Minimap und das Nachrichtenprotokoll.\n\nUnten ist deine Fähigkeitshotbar.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "67b17c72340fc07b",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MoveToChest odd event|Huh, you destroyed the tutorial chest we were going to teach you how to use.\n\nGo ahead and pick of the torch and dagger from the floor.",
+      "context": "Tutorial MoveToChest odd event",
+      "old_value": "Huh, Ihr habt die Anleitung-Truhe zerstört, die wir Euch zeigen wollten.\n\nGeht einfach hin und hebt die Fackel und den Dolch vom Boden auf.",
+      "new_value": "Huh, du hast die Anleitung-Truhe zerstört, die wir dir zeigen wollten.\n\nGeh einfach hin und heb die Fackel und den Dolch vom Boden auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "427d753e3408c4f3",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MoveToChest instruction (gamepad)|You can interact with objects you're next to. Open the chest.\n\nPress =commandKey:Accept=",
+      "context": "Tutorial MoveToChest instruction (gamepad)",
+      "old_value": "Ihr könnt mit Objekten interagieren, die neben Euch sind. Öffnet die Kiste.\n\nDrücke =commandKey:Accept=",
+      "new_value": "Du kannst mit Objekten interagieren, die neben dir sind. Öffne die Kiste.\n\nDrücke =commandKey:Accept=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc35faa955370c30",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MoveToChest instruction (kbm)|You can interact with objects you're next to. Open the chest.\n\nPress =commandKey:Accept= or =commandKey:AdventureMouseContextAction=",
+      "context": "Tutorial MoveToChest instruction (kbm)",
+      "old_value": "Ihr könnt mit Objekten interagieren, die neben Euch sind. Öffnet die Kiste.\n\nDrücke =commandKey:Accept= oder =commandKey:AdventureMouseContextAction=",
+      "new_value": "Du kannst mit Objekten interagieren, die neben dir sind. Öffne die Kiste.\n\nDrücke =commandKey:Accept= oder =commandKey:AdventureMouseContextAction=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3610ece2073879c3",
+      "file": "Strings.de.xml",
+      "key": "Tutorial MoveToChest instruction (kbm)|Looks like there's a chest over at the end of the room. Let's walk over to it.\n\nYou can click =commandKey:AdventureNavMouseLeftClick= the square you want to move to, or use the {{hotkey|arrow keys}} or {{hotkey|numpad.}}\n\nWith arrow keys, you can press {{hotkey|shift+arrow keys}} to move diagonally.",
+      "context": "Tutorial MoveToChest instruction (kbm)",
+      "old_value": "Es sieht aus, als gäbe es eine Kiste am Ende des Raums. Lasst uns dorthin gehen.\n\nIhr könnt =commandKey:AdventureNavMouseLeftClick= das Feld klicken, zu dem Ihr gehen wollt, oder die {{hotkey|Pfeiltasten}} oder {{hotkey|Zehnertastatur.}} verwenden.\n\nMit Pfeiltasten könnt Ihr {{hotkey|Umschalt+Pfeiltasten}} drücken, um diagonal zu gehen.",
+      "new_value": "Es sieht aus, als gäbe es eine Kiste am Ende des Raums. Lass uns dorthin gehen.\n\nDu kannst =commandKey:AdventureNavMouseLeftClick= das Feld klicken, zu dem du gehen willst, oder die {{hotkey|Pfeiltasten}} oder {{hotkey|Zehnertastatur.}} verwenden.\n\nMit Pfeiltasten kannst du {{hotkey|Umschalt+Pfeiltasten}} drücken, um diagonal zu gehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5a4847fe4410fd27",
+      "file": "Strings.de.xml",
+      "key": "MouseBlocker - Clicking when mouse disabled popup|Mouse input is disabled but you clicked on the screen several times. Would you like to enable mouse input?",
+      "context": "MouseBlocker - Clicking when mouse disabled popup",
+      "old_value": "Mauseingabe ist deaktiviert, aber Ihr habt mehrmals auf den Bildschirm geklickt. Möchtet Ihr Mauseingabe aktivieren?",
+      "new_value": "Mauseingabe ist deaktiviert, aber du hast mehrmals auf den Bildschirm geklickt. Möchtest du Mauseingabe aktivieren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8ba4e0b0f32e5375",
+      "file": "Strings.de.xml",
+      "key": "AbilityManagerScreen no activated abilities|You have no activated abilities.",
+      "context": "AbilityManagerScreen no activated abilities",
+      "old_value": "Ihr habt keine aktivierten Fähigkeiten.",
+      "new_value": "Du hast keine aktivierten Fähigkeiten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "18296344c73f1154",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Brightsheol|You annulled the plagues of the Gyre.\n\nThen you freed the Spindle for another's ascent and crossed into Brightsheol",
+      "context": "GameSummary Ultimate Brightsheol",
+      "old_value": "Ihr habt die Plagen der Gyre aufgehoben.\n\nDann habt ihr die Spindel für einen anderen Aufstieg befreit und seid in Brightsheol übergetreten",
+      "new_value": "Du hast die Plagen der Gyre aufgehoben.\n\nDann hast du die Spindel für einen anderen Aufstieg befreit und bist in Brightsheol übergetreten",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5cea4b06bb51262f",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Brightsheol|You freed the Spindle for another's ascent and crossed into Brightsheol.",
+      "context": "GameSummary NonUltimate Brightsheol",
+      "old_value": "Ihr habt die Spindel für den Aufstieg eines anderen befreit und seid nach Brightsheol übergetreten.",
+      "new_value": "Du hast die Spindel für den Aufstieg eines anderen befreit und bist nach Brightsheol übergetreten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "65a9515600769f13",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Marooned|You annulled the plagues of the Gyre.\n\nThen you destroyed Resheph to save the burgeoning world but marooned yourself at the North Sheva.",
+      "context": "GameSummary Ultimate Marooned",
+      "old_value": "Ihr habt die Plagen der Gyre aufgehoben.\n\nDann habt ihr Resheph zerstört, um die aufblühende Welt zu retten, aber habt euch selbst am Nördlichen Sheva gestrandet.",
+      "new_value": "Du hast die Plagen der Gyre aufgehoben.\n\nDann hast du Resheph zerstört, um die aufblühende Welt zu retten, aber hast dich selbst am Nördlichen Sheva gestrandet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a6206d2ecf22cd92",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Marooned|You destroyed Resheph to save the burgeoning world but marooned yourself at the North Sheva.",
+      "context": "GameSummary NonUltimate Marooned",
+      "old_value": "Ihr habt Resheph zerstört, um die aufkeimende Welt zu retten, habt Euch aber am North Sheva isoliert.",
+      "new_value": "Du hast Resheph zerstört, um die aufkeimende Welt zu retten, hast dich aber am North Sheva isoliert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "567b5a509d29f921",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Covenant|You annulled the plagues of the Gyre.\n\nThen you entered into a covenant with Resheph to help prepare Qud for the Coven's return.",
+      "context": "GameSummary Ultimate Covenant",
+      "old_value": "Ihr habt die Plagen der Gyre aufgehoben.\n\nDann habt ihr einen Bund mit Resheph geschlossen, um Qud auf die Rückkehr des Zirkels vorzubereiten.",
+      "new_value": "Du hast die Plagen der Gyre aufgehoben.\n\nDann hast du einen Bund mit Resheph geschlossen, um Qud auf die Rückkehr des Zirkels vorzubereiten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5b9f61441cab9362",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Return OpenArk|You annulled the plagues of the Gyre.\n\nThen you destroyed Resheph and returned to Qud to help garden the burgeoning world.",
+      "context": "GameSummary Ultimate Return OpenArk",
+      "old_value": "Ihr habt die Plagen der Gyre aufgehoben.\n\nDann habt ihr Resheph zerstört und seid nach Qud zurückgekehrt, um dabei zu helfen, die aufblühende Welt zu pflegen.",
+      "new_value": "Du hast die Plagen der Gyre aufgehoben.\n\nDann hast du Resheph zerstört und bist nach Qud zurückgekehrt, um dabei zu helfen, die aufblühende Welt zu pflegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7bd88c05589cb895",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Return OpenArk|You destroyed Resheph and returned to Qud to help garden the burgeoning world.",
+      "context": "GameSummary NonUltimate Return OpenArk",
+      "old_value": "Ihr habt Resheph zerstört und seid nach Qud zurückgekehrt, um dabei zu helfen, die aufkeimende Welt zu hegen.",
+      "new_value": "Du hast Resheph zerstört und bist nach Qud zurückgekehrt, um dabei zu helfen, die aufkeimende Welt zu hegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "45cb4312315dc6bf",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Return NotOpenArk|You annulled the plagues of the Gyre.\n\nThen you returned to Qud to help garden the burgeoning world.",
+      "context": "GameSummary Ultimate Return NotOpenArk",
+      "old_value": "Ihr habt die Plagen der Gyre aufgehoben.\n\nDann seid ihr nach Qud zurückgekehrt, um dabei zu helfen, die aufblühende Welt zu pflegen.",
+      "new_value": "Du hast die Plagen der Gyre aufgehoben.\n\nDann bist du nach Qud zurückgekehrt, um dabei zu helfen, die aufblühende Welt zu pflegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e4a373056186a300",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Return NotOpenArk|You rebuked Resheph and returned to Qud to help garden the burgeoning world.",
+      "context": "GameSummary NonUltimate Return NotOpenArk",
+      "old_value": "Ihr habt Resheph zurecht gewiesen und seid nach Qud zurückgekehrt, um die aufblühende Welt zu kultivieren.",
+      "new_value": "Du hast Resheph zurecht gewiesen und bist nach Qud zurückgekehrt, um die aufblühende Welt zu kultivieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7bfe84f149d51be3",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Accede|You annulled the plagues of the Gyre.\n\nThen you reversed course and acceded to Resheph's plan to purge the world of higher life, in preparation for the Coven's return.",
+      "context": "GameSummary Ultimate Accede",
+      "old_value": "Ihr habt die Plagen der Gyre aufgehoben.\n\nDann habt ihr den Kurs umgekehrt und Resephs Plan zugestimmt, die Welt von höherem Leben zu reinigen, um die Rückkehr des Zirkels vorzubereiten.",
+      "new_value": "Du hast die Plagen der Gyre aufgehoben.\n\nDann hast du den Kurs umgekehrt und Resephs Plan zugestimmt, die Welt von höherem Leben zu reinigen, um die Rückkehr des Zirkels vorzubereiten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "03c6547c9b874477",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Accede|You acceded to Resheph's plan to purge the world of higher life in preparation for the Coven's return.",
+      "context": "GameSummary NonUltimate Accede",
+      "old_value": "Ihr habt Resephs Plan zugestimmt, die Welt von höherem Leben zu reinigen, um die Rückkehr des Zirkels vorzubereiten.",
+      "new_value": "Du hast Resephs Plan zugestimmt, die Welt von höherem Leben zu reinigen, um die Rückkehr des Zirkels vorzubereiten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ba12177fb1e6fda",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Launch ArkOpen WithBarathrum|You annulled the plagues of the Gyre.\n\nThen you destroyed Resheph and launched yourself into the dusted cosmos to ply the stars with Barathrum.",
+      "context": "GameSummary Ultimate Launch ArkOpen WithBarathrum",
+      "old_value": "Ihr habt die Plagen des Gyre aufgehoben.\n\nDann habt Ihr Resheph vernichtet und Euch in den staubbedeckten Kosmos geschleudert, um mit Barathrum die Sterne zu bereisen.",
+      "new_value": "Du hast die Plagen des Gyre aufgehoben.\n\nDann hast du Resheph vernichtet und dich in den staubbedeckten Kosmos geschleudert, um mit Barathrum die Sterne zu bereisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "123f4b8695622ab5",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Launch ArkOpen WithBarathrum|You destroyed Resheph and launched yourself into the dusted cosmos to ply the stars with Barathrum.",
+      "context": "GameSummary NonUltimate Launch ArkOpen WithBarathrum",
+      "old_value": "Ihr habt Resheph vernichtet und Euch in den staubbedeckten Kosmos geschleudert, um mit Barathrum die Sterne zu bereisen.",
+      "new_value": "Du hast Resheph vernichtet und dich in den staubbedeckten Kosmos geschleudert, um mit Barathrum die Sterne zu bereisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b357dd6251f87e60",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Launch ArkOpen WithoutBarathrum|You annulled the plagues of the Gyre.\n\nThen you destroyed Resheph and launched yourself into the dusted cosmos to ply the stars.",
+      "context": "GameSummary Ultimate Launch ArkOpen WithoutBarathrum",
+      "old_value": "Ihr habt die Plagen der Gyre aufgehoben.\n\nDann habt ihr Resheph zerstört und euch in den staubigen Kosmos geworfen, um die Sterne zu durchqueren.",
+      "new_value": "Du hast die Plagen der Gyre aufgehoben.\n\nDann hast du Resheph zerstört und dich in den staubigen Kosmos geworfen, um die Sterne zu durchqueren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f05cf94a271650f3",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Launch ArkOpen WithoutBarathrum|You destroyed Resheph and launched yourself into the dusted cosmos to ply the stars.",
+      "context": "GameSummary NonUltimate Launch ArkOpen WithoutBarathrum",
+      "old_value": "Ihr habt Resheph vernichtet und Euch in den staubbedeckten Kosmos geschleudert, um die Sterne zu bereisen.",
+      "new_value": "Du hast Resheph vernichtet und dich in den staubbedeckten Kosmos geschleudert, um die Sterne zu bereisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9b1bf53c9e784de5",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Launch ArkNotOpen WithBarathrum|You annulled the plagues of the Gyre.\n\nThen you launched yourself into the dusted cosmos to ply the stars with Barathrum.",
+      "context": "GameSummary Ultimate Launch ArkNotOpen WithBarathrum",
+      "old_value": "Ihr habt die Plagen des Gyre aufgehoben.\n\nDann habt Ihr Euch in den staubbedeckten Kosmos geschleudert, um mit Barathrum die Sterne zu bereisen.",
+      "new_value": "Du hast die Plagen des Gyre aufgehoben.\n\nDann hast du dich in den staubbedeckten Kosmos geschleudert, um mit Barathrum die Sterne zu bereisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3745dcbb15849c04",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Launch ArkNotOpen WithBarathrum|You launched yourself into the dusted cosmos to ply the stars with Barathrum.",
+      "context": "GameSummary NonUltimate Launch ArkNotOpen WithBarathrum",
+      "old_value": "Ihr habt Euch in den staubbedeckten Kosmos geschleudert, um mit Barathrum die Sterne zu bereisen.",
+      "new_value": "Du hast dich in den staubbedeckten Kosmos geschleudert, um mit Barathrum die Sterne zu bereisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7987e92ca51b67e9",
+      "file": "Strings.de.xml",
+      "key": "GameSummary Ultimate Launch ArkNotOpen WithoutBarathrum|You annulled the plagues of the Gyre.\n\nThen you launched yourself into the dusted cosmos to ply the stars.",
+      "context": "GameSummary Ultimate Launch ArkNotOpen WithoutBarathrum",
+      "old_value": "Ihr habt die Plagen des Gyre aufgehoben.\n\nDann habt Ihr Euch in den staubbedeckten Kosmos geschleudert, um die Sterne zu bereisen.",
+      "new_value": "Du hast die Plagen des Gyre aufgehoben.\n\nDann hast du dich in den staubbedeckten Kosmos geschleudert, um die Sterne zu bereisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "86a1cdfbec7424cb",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Launch ArkNotOpen WithoutBarathrum|You launched yourself into the dusted cosmos to ply the stars.",
+      "context": "GameSummary NonUltimate Launch ArkNotOpen WithoutBarathrum",
+      "old_value": "Ihr habt Euch in den staubbedeckten Kosmos geschleudert, um die Sterne zu bereisen.",
+      "new_value": "Du hast dich in den staubbedeckten Kosmos geschleudert, um die Sterne zu bereisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c2b306cbb9e4101c",
+      "file": "Strings.de.xml",
+      "key": "Tombstone Save Popup|Your tombstone file was saved:\n\n=filename=",
+      "context": "Tombstone Save Popup",
+      "old_value": "Eure Grabsteinendatei wurde gespeichert:\n\n=filename=",
+      "new_value": "Deine Grabsteinendatei wurde gespeichert:\n\n=filename=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "43b940e20b4b89f5",
+      "file": "Strings.de.xml",
+      "key": "KeybindsScreen Exit SaveYourChanges|Would you like to save your changes?",
+      "context": "KeybindsScreen Exit SaveYourChanges",
+      "old_value": "Möchtet Ihr Eure Änderungen speichern?",
+      "new_value": "Möchtest du deine Änderungen speichern?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d6c1497121c6d406",
+      "file": "Strings.de.xml",
+      "key": "KeybindsScreen HandleMenuOption OverwriteYourBindingsWithDefault|Are you sure you want to override your bindings with the default?",
+      "context": "KeybindsScreen HandleMenuOption OverwriteYourBindingsWithDefault",
+      "old_value": "Seid Ihr sicher, dass Ihr Eure Tastenbelegungen durch die Standardwerte ersetzen möchtet?",
+      "new_value": "Bist du sicher, dass du deine Tastenbelegungen durch die Standardwerte ersetzen möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "959f3215ba68af00",
+      "file": "Strings.de.xml",
+      "key": "MainMenu Continue Menu Popup older save|That save file looks like it's from an older save format revision (=gameVersion=). Sorry!\n\nYou can probably change to a previous branch in your game client and get it to load if you want to finish it off.",
+      "context": "MainMenu Continue Menu Popup older save",
+      "old_value": "Diese Speicherdatei scheint aus einer älteren Speicherformatversion (=gameVersion=) zu stammen. Entschuldigung!\n\nIhr könnt wahrscheinlich in Eurem Spielclient zu einem früheren Branch wechseln und sie laden, wenn Ihr sie beenden möchtet.",
+      "new_value": "Diese Speicherdatei scheint aus einer älteren Speicherformatversion (=gameVersion=) zu stammen. Entschuldigung!\n\nDu kannst wahrscheinlich in deinem Spielclient zu einem früheren Branch wechseln und sie laden, wenn du sie beenden möchtest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "01dde8470056f840",
+      "file": "Strings.de.xml",
+      "key": "PickGameObjectLine OwnedByYou|{{G|[owned by you]}}",
+      "context": "PickGameObjectLine OwnedByYou",
+      "old_value": "{{G|[Im Besitz von Euch]}}",
+      "new_value": "{{G|[Im Besitz von dir]}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1adb59d4818b313a",
+      "file": "Strings.de.xml",
+      "key": "SaveManagment - Incompatible Version Update (older version)|That save file looks like it's from an older save format revision (=gameVersion=). Sorry!\n\nYou can probably change to a previous branch in your game client and get it to load if you want to finish it off.",
+      "context": "SaveManagment - Incompatible Version Update (older version)",
+      "old_value": "Diese Speicherdatei scheint aus einer älteren Speicherformatversion (=gameVersion=) zu stammen. Entschuldigung!\n\nIhr könnt wahrscheinlich in Eurem Spielclient zu einem früheren Branch wechseln und sie laden, wenn Ihr sie beenden möchtet.",
+      "new_value": "Diese Speicherdatei scheint aus einer älteren Speicherformatversion (=gameVersion=) zu stammen. Entschuldigung!\n\nDu kannst wahrscheinlich in deinem Spielclient zu einem früheren Branch wechseln und sie laden, wenn du sie beenden möchtest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7a263dc92641fe7b",
+      "file": "Strings.de.xml",
+      "key": "CharacterStatusScreen highlight cp|Your {{W|Compute Power (CP)}} scales the bonuses of certain compute-enabled items and cybernetic implants. Your base compute power is 0.",
+      "context": "CharacterStatusScreen highlight cp",
+      "old_value": "Eure {{W|Rechenleistung (CP)}} skaliert die Boni bestimmter computergestützter Gegenstände und kybernetischer Implantate. Eure Basis-Rechenleistung ist 0.",
+      "new_value": "Deine {{W|Rechenleistung (CP)}} skaliert die Boni bestimmter computergestützter Gegenstände und kybernetischer Implantate. Deine Basis-Rechenleistung ist 0.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "27b5c9637bbfdfc4",
+      "file": "Strings.de.xml",
+      "key": "CharacterStatusScreen Statistic HelpText BaseValue|Your base =statName= is =statValue=.",
+      "context": "CharacterStatusScreen Statistic HelpText BaseValue",
+      "old_value": "Euer Basis-=statName= ist =statValue=.",
+      "new_value": "Dein Basis-=statName= ist =statValue=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7cb1fdca19a44a72",
+      "file": "Strings.de.xml",
+      "key": "Quest UI QuestsLine no active quests|You have no active quests.",
+      "context": "Quest UI QuestsLine no active quests",
+      "old_value": "Ihr habt keine aktiven Quests.",
+      "new_value": "Du hast keine aktiven Quests.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4db66790e14188a9",
+      "file": "Strings.de.xml",
+      "key": "TinkeringLine NoSchematics|{{K|You don't have any schematics.}}",
+      "context": "TinkeringLine NoSchematics",
+      "old_value": "{{K|Ihr habt keine Schaltpläne.}}",
+      "new_value": "{{K|Du hast keine Schaltpläne.}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f2ce4a3399684b9f",
+      "file": "Strings.de.xml",
+      "key": "Missile Weapon Area no weapon equipped|{{K|You have no missile weapons equipped.}}",
+      "context": "Missile Weapon Area no weapon equipped",
+      "old_value": "{{K|Ihr habt keine Fernkampfwaffen ausgerüstet.}}",
+      "new_value": "{{K|Du hast keine Fernkampfwaffen ausgerüstet.}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ea359f06bdee5212",
+      "file": "Strings.de.xml",
+      "key": "ModManagerUI PromptScripting Text|Scripting mods are currently disabled. Do you want to enable them?\n\nScripts may contain malicious code with unfettered access to your computer.\nYou can change this option again later in =options[OptionAllowCSMods].path=.",
+      "context": "ModManagerUI PromptScripting Text",
+      "old_value": "Skript-Mods sind derzeit deaktiviert. Möchtet Ihr sie aktivieren?\n\nSkripte können bösartigen Code mit uneingeschränktem Zugriff auf Euren Computer enthalten.\nIhr könnt diese Option später unter =options[OptionAllowCSMods].path= ändern.",
+      "new_value": "Skript-Mods sind derzeit deaktiviert. Möchtest du sie aktivieren?\n\nSkripte können bösartigen Code mit uneingeschränktem Zugriff auf deinen Computer enthalten.\nDu kannst diese Option später unter =options[OptionAllowCSMods].path= ändern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "453606d38175e135",
+      "file": "Strings.de.xml",
+      "key": "ModManagerUI OnCancel ApplyAndRestart|Your mod configuration has changed, do you want to apply your changes and restart the game?",
+      "context": "ModManagerUI OnCancel ApplyAndRestart",
+      "old_value": "Eure Mod-Konfiguration hat sich geändert, möchtet Ihr eure Änderungen anwenden und das Spiel neu starten?",
+      "new_value": "Deine Mod-Konfiguration hat sich geändert, möchtest du deine Änderungen anwenden und das Spiel neu starten?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a8613d551d5d198",
+      "file": "Strings.de.xml",
+      "key": "Region Discovery Popup|You discover the location of =region=.",
+      "context": "Region Discovery Popup",
+      "old_value": "Ihr entdeckt die Position von =region=.",
+      "new_value": "Du entdeckst die Position von =region=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cc6157600ab144b6",
+      "file": "Strings.de.xml",
+      "key": "Region Discovery Accomplishment|You discovered the location of =region=.",
+      "context": "Region Discovery Accomplishment",
+      "old_value": "Ihr habt die Position von =region= entdeckt.",
+      "new_value": "Du hast die Position von =region= entdeckt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a2c177e31661310c",
+      "file": "Strings.de.xml",
+      "key": "HistoricEvent VillageProverb proverb|Live and drink.",
+      "context": "HistoricEvent VillageProverb proverb",
+      "old_value": "Leben Sie und trinken Sie.",
+      "new_value": "Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "34fbc78165cd75ce",
+      "file": "Strings.de.xml",
+      "key": "AutoAct Pathfind Error|You cannot find a path to =object.the.name=.",
+      "context": "AutoAct Pathfind Error",
+      "old_value": "Ihr könnt keinen Weg zu =object.dativ= finden.",
+      "new_value": "Du kannst keinen Weg zu =object.dativ= finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c8851d6d04e99473",
+      "file": "Strings.de.xml",
+      "key": "AutoAct Pathfind Error|You cannot find a path to your destination.",
+      "context": "AutoAct Pathfind Error",
+      "old_value": "Ihr könnt keinen Weg zu eurem Ziel finden.",
+      "new_value": "Du kannst keinen Weg zu deinem Ziel finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "40b7333c6eaab6d1",
+      "file": "Strings.de.xml",
+      "key": "AutoAct Pathfind Error|You cannot find a path toward the =direction.expandedDirection=.",
+      "context": "AutoAct Pathfind Error",
+      "old_value": "Ihr könnt keinen Weg in Richtung =direction.expandedDirection= finden.",
+      "new_value": "Du kannst keinen Weg in Richtung =direction.expandedDirection= finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8a7bd462e71699c4",
+      "file": "Strings.de.xml",
+      "key": "AutoAct climb interrupt message|You can't figure out how to safely reach the stairs from here.",
+      "context": "AutoAct climb interrupt message",
+      "old_value": "Ihr könnt nicht herausfinden, wie Ihr sicher die Treppen von hier erreicht.",
+      "new_value": "Du kannst nicht herausfinden, wie du sicher die Treppen von hier erreichst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1c8dce22af3a874d",
+      "file": "Strings.de.xml",
+      "key": "AutoAct attack interrupt message|You will not auto-attack =target.the.name= because =target.it.is= not hostile to you.",
+      "context": "AutoAct attack interrupt message",
+      "old_value": "Ihr werdet nicht automatisch =target.the.name= angreifen, da =target.it.is= nicht feindselig zu Euch ist.",
+      "new_value": "Du wirst nicht automatisch =target.the.name= angreifen, da =target.it.is= nicht feindselig zu dir ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "95b65cee548d5afd",
+      "file": "Strings.de.xml",
+      "key": "AutoAct attack interrupt message|You cannot see your target.",
+      "context": "AutoAct attack interrupt message",
+      "old_value": "Ihr könnt euer Ziel nicht sehen.",
+      "new_value": "Du kannst dein Ziel nicht sehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "259ad90f0587cd49",
+      "file": "Strings.de.xml",
+      "key": "AutoAct attack interrupt message|You can't find a way to navigate to =target.the.name=.",
+      "context": "AutoAct attack interrupt message",
+      "old_value": "Ihr könnt keinen Weg zu =target.dativ= finden.",
+      "new_value": "Du kannst keinen Weg zu =target.dativ= finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ceac175f59b042d",
+      "file": "Strings.de.xml",
+      "key": "AutoAct attack interrupt message|You are unable to attack =target.the.name=.",
+      "context": "AutoAct attack interrupt message",
+      "old_value": "Ihr könnt =target.the.name= nicht angreifen.",
+      "new_value": "Du kannst =target.the.name= nicht angreifen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "72f98d74cba11a79",
+      "file": "Strings.de.xml",
+      "key": "AutoAct attack interrupt message|You can't seem to find a way to reach =target.the.name=.",
+      "context": "AutoAct attack interrupt message",
+      "old_value": "Ihr könnt anscheinend keinen Weg zu =target.dativ= finden.",
+      "new_value": "Du kannst anscheinend keinen Weg zu =target.dativ= finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ce64ca57e7bea15",
+      "file": "Strings.de.xml",
+      "key": "Core HP Threshold Warning|Your health has dropped below {{C|=threshold=%}}!",
+      "context": "Core HP Threshold Warning",
+      "old_value": "Eure Gesundheit ist unter {{C|=threshold=%}} gefallen!",
+      "new_value": "Deine Gesundheit ist unter {{C|=threshold=%}} gefallen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1f32250a48bad03b",
+      "file": "Strings.de.xml",
+      "key": "Quit Without Saving No Checkpoint|If you quit without saving, you will lose all your progress and your character will be lost. Are you sure you want to QUIT and LOSE YOUR PROGRESS?\n\nType '=abandonConfirm=' to confirm.",
+      "context": "Quit Without Saving No Checkpoint",
+      "old_value": "Falls Ihr das Spiel beendet, ohne zu speichern, verliert Ihr all Eure Fortschritte und Euer Charakter geht verloren. Seid Ihr sicher, dass Ihr das Spiel BEENDEN und EUREN FORTSCHRITT VERLIEREN möchtet?\n\nGibt '=abandonConfirm=' ein, um zu bestätigen.",
+      "new_value": "Falls du das Spiel beendest, ohne zu speichern, verlierst du all deine Fortschritte und dein Charakter geht verloren. Bist du sicher, dass du das Spiel BEENDEN und DEINEN FORTSCHRITT VERLIEREN möchtest?\n\nGib '=abandonConfirm=' ein, um zu bestätigen.",
+      "note": "'Gibt' (Tippfehler fuer Gebt) -> Imperativ 'Gib'",
+      "status": "accepted"
+    },
+    {
+      "uid": "b5e1cde49c3d4ca6",
+      "file": "Strings.de.xml",
+      "key": "Quit Without Saving With Checkpoint|If you quit without saving, you will lose all your unsaved progress. Are you sure you want to QUIT and LOSE YOUR PROGRESS?\n\nType '=abandonConfirm=' to confirm.",
+      "context": "Quit Without Saving With Checkpoint",
+      "old_value": "Falls Ihr das Spiel beendet, ohne zu speichern, verliert Ihr all Euren ungespeicherten Fortschritt. Seid Ihr sicher, dass Ihr das Spiel BEENDEN und EUREN FORTSCHRITT VERLIEREN möchtet?\n\nGibt '=abandonConfirm=' ein, um zu bestätigen.",
+      "new_value": "Falls du das Spiel beendest, ohne zu speichern, verlierst du all deinen ungespeicherten Fortschritt. Bist du sicher, dass du das Spiel BEENDEN und DEINEN FORTSCHRITT VERLIEREN möchtest?\n\nGib '=abandonConfirm=' ein, um zu bestätigen.",
+      "note": "'Gibt' (Tippfehler fuer Gebt) -> Imperativ 'Gib'",
+      "status": "accepted"
+    },
+    {
+      "uid": "d8005d169ae0feef",
+      "file": "Strings.de.xml",
+      "key": "Core Death Reason Abandon Hope|You abandoned all hope.",
+      "context": "Core Death Reason Abandon Hope",
+      "old_value": "Ihr habt alle Hoffnung aufgegeben.",
+      "new_value": "Du hast alle Hoffnung aufgegeben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b1b5663004e4c473",
+      "file": "Strings.de.xml",
+      "key": "Core Abandon Confirm|If you quit without saving, you will lose all your unsaved progress. Are you sure you want to QUIT and LOSE YOUR PROGRESS?\n\nType 'ABANDON' to confirm.",
+      "context": "Core Abandon Confirm",
+      "old_value": "Wenn Ihr beendet, ohne zu speichern, werdet Ihr alle nicht gespeicherten Fortschritte verlieren. Seid Ihr sicher, dass Ihr BEENDEN und EUREN FORTSCHRITT VERLIEREN möchtet?\n\nGebt 'ABANDON' ein, um zu bestätigen.",
+      "new_value": "Wenn du beendest, ohne zu speichern, wirst du alle nicht gespeicherten Fortschritte verlieren. Bist du sicher, dass du BEENDEN und DEINEN FORTSCHRITT VERLIEREN möchtest?\n\nGib 'ABANDON' ein, um zu bestätigen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "777fb973ae4b27f1",
+      "file": "Strings.de.xml",
+      "key": "Core DeathReason Abandoned Hope|You abandoned all hope.",
+      "context": "Core DeathReason Abandoned Hope",
+      "old_value": "Ihr habt alle Hoffnung aufgegeben.",
+      "new_value": "Du hast alle Hoffnung aufgegeben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c2f36dd658399280",
+      "file": "Strings.de.xml",
+      "key": "Core Load Quick Save|Load your last quick save?",
+      "context": "Core Load Quick Save",
+      "old_value": "Laden Sie Eure letzte schnelle Save?",
+      "new_value": "Lade deine letzte schnelle Save?",
+      "note": "'Laden Sie' -> Imperativ 'Lade'",
+      "status": "accepted"
+    },
+    {
+      "uid": "2324da5b9b759869",
+      "file": "Strings.de.xml",
+      "key": "Core No Missile|You do not have a missile weapon equipped!",
+      "context": "Core No Missile",
+      "old_value": "Ihr habt keine Fernwaffe ausgerüstet!",
+      "new_value": "Du hast keine Fernwaffe ausgerüstet!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dcf6009d9751af26",
+      "file": "Strings.de.xml",
+      "key": "Core Need To Reload|You need to reload! (=commandKey:CmdReload=)",
+      "context": "Core Need To Reload",
+      "old_value": "Ihr müsst neu laden! (=commandKey:CmdReload=)",
+      "new_value": "Du musst neu laden! (=commandKey:CmdReload=)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "95743039455a5998",
+      "file": "Strings.de.xml",
+      "key": "Core No Target|You don't have a target.",
+      "context": "Core No Target",
+      "old_value": "Ihr habt kein Ziel.",
+      "new_value": "Du hast kein Ziel.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a93510793fd80501",
+      "file": "Strings.de.xml",
+      "key": "Core Cannot AutoAttack Confused|You cannot autoattack while you are confused.",
+      "context": "Core Cannot AutoAttack Confused",
+      "old_value": "Ihr könnt nicht automatisch angreifen, während Ihr verwirrt seid.",
+      "new_value": "Du kannst nicht automatisch angreifen, während du verwirrt bist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a91246a3a0f0cf34",
+      "file": "Strings.de.xml",
+      "key": "Core NoAutoattack NonHostile|You do not autoattack =object.the.name= because =object.it.is= not hostile to you.",
+      "context": "Core NoAutoattack NonHostile",
+      "old_value": "Ihr greift =object.the.name= nicht automatisch an, da =object.it.is= nicht feindselig zu Euch ist.",
+      "new_value": "Du greifst =object.the.name= nicht automatisch an, da =object.it.is= nicht feindselig zu dir ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c8ee435ab88337e3",
+      "file": "Strings.de.xml",
+      "key": "Core Cannot See Target|You cannot see your target.",
+      "context": "Core Cannot See Target",
+      "old_value": "Ihr könnt euer Ziel nicht sehen.",
+      "new_value": "Du kannst dein Ziel nicht sehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "47be0466eba48fd6",
+      "file": "Strings.de.xml",
+      "key": "Core Cannot Flee|You can't find a way to flee from =object.the.name=.",
+      "context": "Core Cannot Flee",
+      "old_value": "Ihr könnt keinen Fluchtweg von =object.dativ= finden.",
+      "new_value": "Du kannst keinen Fluchtweg von =object.dativ= finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df48ff6e46f06e30",
+      "file": "Strings.de.xml",
+      "key": "Core Cannot Reach|You can't find a way to reach =object.the.name=.",
+      "context": "Core Cannot Reach",
+      "old_value": "Ihr könnt keinen Weg zu =object.dativ= finden.",
+      "new_value": "Du kannst keinen Weg zu =object.dativ= finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "203c92bd8f817ffa",
+      "file": "Strings.de.xml",
+      "key": "Core NoHostiles|You don't see any hostiles nearby.",
+      "context": "Core NoHostiles",
+      "old_value": "Ihr seht keine Feinde in der Nähe.",
+      "new_value": "Du siehst keine Feinde in der Nähe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "470f6c63ba138bd6",
+      "file": "Strings.de.xml",
+      "key": "Core Cannot Walk Into|You may not {{Y|w}}alk into a hostile creature!",
+      "context": "Core Cannot Walk Into",
+      "old_value": "Ihr dürft nicht {{Y|w}}alk in eine feindselige Kreatur hinein!",
+      "new_value": "Du darfst nicht {{Y|w}}alk in eine feindselige Kreatur hinein!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "34169103286a47c2",
+      "file": "Strings.de.xml",
+      "key": "Core No Companions|You have no companions.",
+      "context": "Core No Companions",
+      "old_value": "Ihr habt keine Gefährten.",
+      "new_value": "Du hast keine Gefährten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "93de38d479d18787",
+      "file": "Strings.de.xml",
+      "key": "Core LostSightOf|You have lost sight of =object.the.name=.",
+      "context": "Core LostSightOf",
+      "old_value": "Ihr habt =object.the.name= aus den Augen verloren.",
+      "new_value": "Du hast =object.the.name= aus den Augen verloren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "af178d4e91f80895",
+      "file": "Strings.de.xml",
+      "key": "Core MarkOfDeathReveal|You recover the Mark of Death of the late sultanate.",
+      "context": "Core MarkOfDeathReveal",
+      "old_value": "Ihr stellt das Zeichen des Todes des verstorbenen Sultanats wieder her.",
+      "new_value": "Du stellst das Zeichen des Todes des verstorbenen Sultanats wieder her.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "81429c166aa9693d",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Level|You were level {{C|=level=}}.",
+      "context": "Core GameEnd Level",
+      "old_value": "Ihr wart Stufe {{C|=level=}}.",
+      "new_value": "Du warst Stufe {{C|=level=}}.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8e4e812ff26971e4",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Score|You scored {{C|=score=}} =score.pluralize:point=.",
+      "context": "Core GameEnd Score",
+      "old_value": "Ihr habt {{C|=score=}} =score.pluralize:point= erworben.",
+      "new_value": "Du hast {{C|=score=}} =score.pluralize:point= erworben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "583e0e2062e3a521",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Turns|You survived for {{C|=turns=}} =turns.pluralize:turn=.",
+      "context": "Core GameEnd Turns",
+      "old_value": "Ihr habt {{C|=turns=}} =turns.pluralize:turn= überlebt.",
+      "new_value": "Du hast {{C|=turns=}} =turns.pluralize:turn= überlebt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7b2b12a6739785bc",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Lairs|You found {{C|=lairs=}} =lairs.pluralize:lair=.",
+      "context": "Core GameEnd Lairs",
+      "old_value": "Ihr habt {{C|=lairs=}} =lairs.pluralize:lair= gefunden.",
+      "new_value": "Du hast {{C|=lairs=}} =lairs.pluralize:lair= gefunden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2fe95f11d3322b8",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Named Items|You named {{C|=items=}} =items.pluralize:item=.",
+      "context": "Core GameEnd Named Items",
+      "old_value": "Ihr habt {{C|=items=}} =items.pluralize:item= benannt.",
+      "new_value": "Du hast {{C|=items=}} =items.pluralize:item= benannt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d1b15f30978555e",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Artifacts|You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.",
+      "context": "Core GameEnd Artifacts",
+      "old_value": "Ihr habt {{C|=artifacts=}} legendäre =artifacts.pluralize:item= erzeugt.",
+      "new_value": "Du hast {{C|=artifacts=}} legendäre =artifacts.pluralize:item= erzeugt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2bf10697915876ed",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Most Advanced Artifact|The most advanced artifact in your possession was =artifact.a.name:asIfKnown:noConfusion=.",
+      "context": "Core GameEnd Most Advanced Artifact",
+      "old_value": "Das fortgeschrittenste Artefakt in Eurem Besitz war =artifact.a.name:asIfKnown:noConfusion=.",
+      "new_value": "Das fortgeschrittenste Artefakt in deinem Besitz war =artifact.a.name:asIfKnown:noConfusion=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7227b23b1ff769c1",
+      "file": "Strings.de.xml",
+      "key": "Core No SavedGame|You have no existing saved games.",
+      "context": "Core No SavedGame",
+      "old_value": "Ihr habt keine vorhandenen gespeicherten Spiele.",
+      "new_value": "Du hast keine vorhandenen gespeicherten Spiele.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dec767cf4752305d",
+      "file": "Strings.de.xml",
+      "key": "Embark Builder - Default No Selection Error Message|You must make a selection before advancing.",
+      "context": "Embark Builder - Default No Selection Error Message",
+      "old_value": "Ihr müsst eine Auswahl treffen, bevor Ihr fortfahrt.",
+      "new_value": "Du musst eine Auswahl treffen, bevor du fortfährst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f967b8ee3b63d55",
+      "file": "Strings.de.xml",
+      "key": "Chargen Attributes DataWarning Unspent|You have unspent attribute points.",
+      "context": "Chargen Attributes DataWarning Unspent",
+      "old_value": "Ihr habt ungenutzte Attributpunkte.",
+      "new_value": "Du hast ungenutzte Attributpunkte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa974c86309ee644",
+      "file": "Strings.de.xml",
+      "key": "Chargen Attributes DataError Overspent|You have spent too many attribute points!",
+      "context": "Chargen Attributes DataError Overspent",
+      "old_value": "Ihr habt zu viele Attributpunkte ausgegeben!",
+      "new_value": "Du hast zu viele Attributpunkte ausgegeben!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "44356af3aa9146a5",
+      "file": "Strings.de.xml",
+      "key": "Chargen BuildLibrary Popup code exists|That code is already in your library. It's named =buildname=.",
+      "context": "Chargen BuildLibrary Popup code exists",
+      "old_value": "Der Code befindet sich bereits in Eurer Bibliothek. Der Name ist =buildname=.",
+      "new_value": "Der Code befindet sich bereits in deiner Bibliothek. Der Name ist =buildname=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b64395b7228f1f75",
+      "file": "Strings.de.xml",
+      "key": "Chargen Mutations DataWarning Unspent|You have unspent mutation points.",
+      "context": "Chargen Mutations DataWarning Unspent",
+      "old_value": "Ihr habt noch nicht ausgegebene Mutationspunkte.",
+      "new_value": "Du hast noch nicht ausgegebene Mutationspunkte.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

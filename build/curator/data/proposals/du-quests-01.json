@@ -1,0 +1,308 @@
+{
+  "batch": "du-quests-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-quests-01)",
+  "created": "2026-10-22 14:52",
+  "items": [
+    {
+      "uid": "4c41790793f68196",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Was frisst die Wasserranke?]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt das Geheimnis der aufgekauten Wasserpflanze gelöst und die Bewohner von Joppa vor dem Girsch gewarnt.",
+      "new_value": "Du hast das Geheimnis der aufgekauten Wasserpflanze gelöst und die Bewohner von Joppa vor dem Girsch gewarnt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd6289492a633609",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Ein Cantica für Barathrum]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt mit den Barathrumiten an ihrem Außenposten in Grit Gate gesprochen.",
+      "new_value": "Du hast mit den Barathrumiten an ihrem Außenposten in Grit Gate gesprochen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1e9f84ad455f3bba",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Ein Signal im Rauschen]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt mit den Barathrumiten an ihrem Außenposten in Grit Gate gesprochen.",
+      "new_value": "Du hast mit den Barathrumiten an ihrem Außenposten in Grit Gate gesprochen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f27d52836798bf2a",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Signal wird dekodiert]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt mit dem Baetyl im Tempel des Felsens gesprochen und das mysteriöse Signal entschlüsselt.",
+      "new_value": "Du hast mit dem Baetyl im Tempel des Felsens gesprochen und das mysteriöse Signal entschlüsselt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "77edc51bb7ac247a",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Der Earl von Omonporch]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt mit Asphodel abgerechnet und die Gegend an der Basis der Spindel gesichert.",
+      "new_value": "Du hast mit Asphodel abgerechnet und die Gegend an der Basis der Spindel gesichert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32005c39c0aea46b",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Ein Ruf zu den Waffen]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt Grit Gate tapfer vor einem Angriff der Putus Templar verteidigt.",
+      "new_value": "Du hast Grit Gate tapfer vor einem Angriff der Putus Templar verteidigt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "17811da0545f3b75",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Die Begrabenen Wächter]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt eine Gruppe von Grabwohner-Mopango besucht.",
+      "new_value": "Du hast eine Gruppe von Grabwohner-Mopango besucht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "35297d31a5312af5",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶What's Eating the Watervine?]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt das Geheimnis der aufgekauten Wasserpflanze gelöst und die Bewohner von Joppa vor dem Girsh gewarnt.",
+      "new_value": "Du hast das Geheimnis der aufgekauten Wasserpflanze gelöst und die Bewohner von Joppa vor dem Girsh gewarnt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3e25e460d11ff2ba",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Fetch Argyve a Knickknack]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt einem alten Mann ein Schmuckstück besorgt.",
+      "new_value": "Du hast einem alten Mann ein Schmuckstück besorgt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7b93674e544c6f31",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Fetch Argyve Another Knickknack]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt einem alten Mann ein weiteres Schmuckstück besorgt.",
+      "new_value": "Du hast einem alten Mann ein weiteres Schmuckstück besorgt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b5916216dbeb3468",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶A Canticle for Barathrum]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt mit den Barathrumiten in ihrer Enklave in Grit Gate gesprochen.",
+      "new_value": "Du hast mit den Barathrumiten in ihrer Enklave in Grit Gate gesprochen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a505a69ff6518388",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶A Signal in the Noise]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt mit den Barathrumiten in ihrer Enklave in Grit Gate gesprochen.",
+      "new_value": "Du hast mit den Barathrumiten in ihrer Enklave in Grit Gate gesprochen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "db4ce9be811deb32",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Decoding the Signal]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt mit dem Baetyl im Tempel des Felsens gesprochen und das mysteriöse Signal entschlüsselt.",
+      "new_value": "Du hast mit dem Baetyl im Tempel des Felsens gesprochen und das mysteriöse Signal entschlüsselt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "07109ec3372ac699",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶A Call to Arms]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt Grit Gate tapfer gegen einen Angriff der Putus-Templer verteidigt.",
+      "new_value": "Du hast Grit Gate tapfer gegen einen Angriff der Putus-Templer verteidigt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b28d26eb4f5aafe4",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Find Eskhind]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt die verstoßene Hindren Eskhind und ihre Schwestern in einem ausgehöhlten Baum gefunden.",
+      "new_value": "Du hast die verstoßene Hindren Eskhind und ihre Schwestern in einem ausgehöhlten Baum gefunden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d05548665825e867",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Love and Fear]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt ein weggeworfenes Liebesgedicht gefunden und zurückgebracht.",
+      "new_value": "Du hast ein weggeworfenes Liebesgedicht gefunden und zurückgebracht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "507213329f4bcfa7",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶The Buried Watchers]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt einen Zirkel grabbewohnender Mopango besucht.",
+      "new_value": "Du hast einen Zirkel grabbewohnender Mopango besucht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "144bfa424145749a",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶If, Then, Else]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt Chavvah, dem Baum des Lebens, geholfen, das Ritual des -elseing zu vollenden und eine seiner Entitäts-Glocken für immer abzutrennen.",
+      "new_value": "Du hast Chavvah, dem Baum des Lebens, geholfen, das Ritual des -elseing zu vollenden und eine seiner Entitäts-Glocken für immer abzutrennen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6e101c90acf29506",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Merkwürdiger Drahtkanal... Heureka!]@Accomplishment",
+      "context": null,
+      "old_value": "Mit Eurer Hilfe entdeckte Argyve ein seltsames Signal.",
+      "new_value": "Mit deiner Hilfe entdeckte Argyve ein seltsames Signal.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e6b49e6fdccf9cac",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Weirdwire Conduit... Eureka!]@Accomplishment",
+      "context": null,
+      "old_value": "Mit Eurer Hilfe entdeckte Argyve ein seltsames Signal.",
+      "new_value": "Mit deiner Hilfe entdeckte Argyve ein seltsames Signal.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aca255afc4f2ac65",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Mehr als nur ein williger Geist]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt Golgotha getrotzt und eure Stärke den Barathrumiten bewiesen.",
+      "new_value": "Du hast Golgotha getrotzt und deine Stärke den Barathrumiten bewiesen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8757722b7f31a2e0",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[O herrliche Shekhinah!]/step[Mache eine Pilgerfahrt zur Sechstage-Stelze]/text#1@#text",
+      "context": null,
+      "old_value": "Durchreist die Große Salzwüste, um den Händlerbazar und die Mechanimisten-Kathedrale zu besuchen, wo ein Proselyt Euch bat, ein Schmuckstück zu opfern.",
+      "new_value": "Durchreise die Große Salzwüste, um den Händlerbazar und die Mechanimisten-Kathedrale zu besuchen, wo ein Proselyt dich bat, ein Schmuckstück zu opfern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4435f52e179c8d1a",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Der Earl von Omonporch]/step[Kehr zu Grit Gate zurück]/text#1@#text",
+      "context": null,
+      "old_value": "Kehr zu Grit Gate zurück, um Euren Erfolg zu berichten.",
+      "new_value": "Kehr zu Grit Gate zurück, um deinen Erfolg zu berichten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a0001f1ce85f2b39",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Tiefe Gedanken]/step[Untersucht das Grollen]/text#1@#text",
+      "context": null,
+      "old_value": "Greifen Sie auf den Hauptrechner zu und scannen Sie das Gestein um die Enklave.",
+      "new_value": "Greife auf den Hauptrechner zu und scanne das Gestein um die Enklave.",
+      "note": "Step-Name im context ('Untersucht das Grollen') ist ebenfalls Ihr-Imperativ, hier nicht editierbar",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d86c030696912c6",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Grab der Eaters of Earth]/step[Das Zeichen eintragen]/text#1@#text",
+      "context": null,
+      "old_value": "Tätowiert die Marke auf Eurem Körper.",
+      "new_value": "Tätowiere die Marke auf deinem Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6ca6e2ac4d1c51c4",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Grab der Eaters of Earth]/step[Spindles Magnetfeld deaktivieren]/text#1@#text",
+      "context": null,
+      "old_value": "Greifen Sie auf die Kontrolltafel der Spindel zu und schalten Sie das Feld aus.",
+      "new_value": "Greife auf die Kontrolltafel der Spindel zu und schalte das Feld aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e597c14430dfe0e9",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Der Golem]/step[Eine Inkanation wählen]/text#1@#text",
+      "context": null,
+      "old_value": "Stellt einen Eintrag aus Eurer Chronologie bereit.",
+      "new_value": "Stelle einen Eintrag aus deiner Chronologie bereit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6dd33a7b3c0d429d",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶More Than a Willing Spirit]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt Euch in Golgatha bewährt und den Barathrumiten Eure Tüchtigkeit bewiesen.",
+      "new_value": "Du hast dich in Golgatha bewährt und den Barathrumiten deine Tüchtigkeit bewiesen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "424b17a1e6773545",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶The Earl of Omonporch]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr habt Euch um Asphodel gekümmert und das Gelände am Fuß der Spindel gesichert.",
+      "new_value": "Du hast dich um Asphodel gekümmert und das Gelände am Fuß der Spindel gesichert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "900a7f5e9027f0e9",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Find Eskhind]@Hagiograph",
+      "context": null,
+      "old_value": "Erinnert Euch! =name= ermahnte die Verstoßene Eskhind dafür, dass sie ihrem Schicksal entflohen war. Fortan war sie als Eskhind die Sanftmütige bekannt.",
+      "new_value": "Erinnere dich! =name= ermahnte die Verstoßene Eskhind dafür, dass sie ihrem Schicksal entflohen war. Fortan war sie als Eskhind die Sanftmütige bekannt.",
+      "note": "Hagiograph-Aufruf; Singular gewählt (alternativ 'Erinnert euch!')",
+      "status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,1278 @@
+{
+  "batch": "du-rest-02",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-rest-02)",
+  "created": "2026-10-22 14:53",
+  "items": [
+    {
+      "uid": "3418e8823e3737ad",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Post Arms.EndChoice.Text|You too. Live and drink.",
+      "context": "Conversation Hortensa.Post Arms.EndChoice.Text",
+      "old_value": "Auch Ihr. Lebt und trinkt.",
+      "new_value": "Auch du. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e62745ad7cbfc771",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Greetings.BethesdaChoice.Text|Do you know anything about Bethesda Susa?",
+      "context": "Conversation Hortensa.Greetings.BethesdaChoice.Text",
+      "old_value": "Wisst Ihr etwas über Bethesda Susa?",
+      "new_value": "Weißt du etwas über Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "018b2c7b15bbb40c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Greetings.OmonporchChoice.Text|What do you know about Omonporch and the self-appointed Earl?",
+      "context": "Conversation Hortensa.Greetings.OmonporchChoice.Text",
+      "old_value": "Was wisst Ihr über Omonporch und den selbsternannten Earl?",
+      "new_value": "Was weißt du über Omonporch und den selbsternannten Earl?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "13a7ecc076149e76",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Greetings.RumblingChoice.Text|Did you feel that rumbling, Hortensa?",
+      "context": "Conversation Hortensa.Greetings.RumblingChoice.Text",
+      "old_value": "Habt Ihr dieses Grollen gespürt, Hortensa?",
+      "new_value": "Hast du dieses Grollen gespürt, Hortensa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf33a8c0ca02ebd2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Greetings.OtherBarathrumitesChoice.Text|Could you tell me about the other Barathrumites?",
+      "context": "Conversation Hortensa.Greetings.OtherBarathrumitesChoice.Text",
+      "old_value": "Könntet Ihr mir von den anderen Barathrumiten erzählen?",
+      "new_value": "Könntest du mir von den anderen Barathrumiten erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a2bebae8541791fd",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Greetings.LiquidTinkerChoice.Text|Are you a liquid-tinker?",
+      "context": "Conversation Hortensa.Greetings.LiquidTinkerChoice.Text",
+      "old_value": "Seid Ihr ein Flüssigkeits-Bastler?",
+      "new_value": "Bist du ein Flüssigkeits-Bastler?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8910875a2056422e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Bethesda.Text|There are pools of convalessence there. You see, when cryogenic mist condenses, it forms a cool, luminous liquid that's restorative if you're able to bathe in it.\n\nOh! And in one of the ruined wards, the Alchemist keeps their shop. Who's the Alchemist, you ask? A sort of enigmatic figure -- amateur liquid-tinker, poet, merchant. Their methods aren't scientific, but they are useful if you're seeking a specific kind of liquid. Just be careful around them, =name=.",
+      "context": "Conversation Hortensa.Bethesda.Text",
+      "old_value": "Dort gibt es Genesungsbecken. Seht Ihr, wenn der kryogene Nebel kondensiert, entsteht eine kühle, leuchtende Flüssigkeit, die erholsam ist, wenn Ihr darin baden könnt.\n\nOh! Und in einem der zerstörten Flügel hat der Alchemist seinen Laden. Wer ist der Alchemist, fragt Ihr? Eine Art rätselhafter Charakter -- ein Amateur als Flüssigkeits-Bastler, Dichter und Kaufmann. Ihre Methoden sind nicht wissenschaftlich, aber sie sind nützlich, wenn Ihr eine bestimmte Art von Flüssigkeit sucht. Seid einfach vorsichtig um sie herum, =name=.",
+      "new_value": "Dort gibt es Genesungsbecken. Siehst du, wenn der kryogene Nebel kondensiert, entsteht eine kühle, leuchtende Flüssigkeit, die erholsam ist, wenn du darin baden kannst.\n\nOh! Und in einem der zerstörten Flügel hat der Alchemist seinen Laden. Wer ist der Alchemist, fragst du? Eine Art rätselhafter Charakter -- ein Amateur als Flüssigkeits-Bastler, Dichter und Kaufmann. Ihre Methoden sind nicht wissenschaftlich, aber sie sind nützlich, wenn du eine bestimmte Art von Flüssigkeit suchst. Sei einfach vorsichtig um sie herum, =name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9637fe1930937aa0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Bethesda.OmonporchChoice.Text|What do you know about Omonporch and the self-appointed Earl?",
+      "context": "Conversation Hortensa.Bethesda.OmonporchChoice.Text",
+      "old_value": "Was wisst Ihr über Omonporch und den selbsternannten Earl?",
+      "new_value": "Was weißt du über Omonporch und den selbsternannten Earl?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "557d89810d42c834",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Bethesda.RumblingChoice.Text|Did you feel that rumbling, Hortensa?",
+      "context": "Conversation Hortensa.Bethesda.RumblingChoice.Text",
+      "old_value": "Habt Ihr dieses Grollen gespürt, Hortensa?",
+      "new_value": "Hast du dieses Grollen gespürt, Hortensa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b174d4e8c4fa3a23",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Bethesda.OtherBarathrumitesChoice.Text|Could you tell me about the other Barathrumites?",
+      "context": "Conversation Hortensa.Bethesda.OtherBarathrumitesChoice.Text",
+      "old_value": "Könntet Ihr mir von den anderen Barathrumiten erzählen?",
+      "new_value": "Könntest du mir von den anderen Barathrumiten erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0b35687212cd2b72",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Bethesda.LiquidTinkerChoice.Text|Are you a liquid-tinker?",
+      "context": "Conversation Hortensa.Bethesda.LiquidTinkerChoice.Text",
+      "old_value": "Seid Ihr ein Flüssigkeits-Bastler?",
+      "new_value": "Bist du ein Flüssigkeits-Bastler?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6bf63af515364b3a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Omonporch.BethesdaChoice.Text|Do you know anything about Bethesda Susa?",
+      "context": "Conversation Hortensa.Omonporch.BethesdaChoice.Text",
+      "old_value": "Wisst Ihr etwas über Bethesda Susa?",
+      "new_value": "Weißt du etwas über Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "10fec2fb1b480806",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Omonporch.RumblingChoice.Text|Did you feel that rumbling, Hortensa?",
+      "context": "Conversation Hortensa.Omonporch.RumblingChoice.Text",
+      "old_value": "Habt Ihr dieses Grollen gespürt, Hortensa?",
+      "new_value": "Hast du dieses Grollen gespürt, Hortensa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "63a5cd477b421396",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Omonporch.OtherBarathrumitesChoice.Text|Could you tell me about the other Barathrumites?",
+      "context": "Conversation Hortensa.Omonporch.OtherBarathrumitesChoice.Text",
+      "old_value": "Könntet Ihr mir von den anderen Barathrumiten erzählen?",
+      "new_value": "Könntest du mir von den anderen Barathrumiten erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e67905a61f9368b0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Omonporch.LiquidTinkerChoice.Text|Are you a liquid-tinker?",
+      "context": "Conversation Hortensa.Omonporch.LiquidTinkerChoice.Text",
+      "old_value": "Seid Ihr ein Flüssigkeits-Bastler?",
+      "new_value": "Bist du ein Flüssigkeits-Bastler?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "67ad7bf37565fa03",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Rumbling.BethesdaChoice.Text|Do you know anything about Bethesda Susa?",
+      "context": "Conversation Hortensa.Rumbling.BethesdaChoice.Text",
+      "old_value": "Wisst Ihr etwas über Bethesda Susa?",
+      "new_value": "Weißt du etwas über Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "28b799598067c006",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Rumbling.OmonporchChoice.Text|What do you know about Omonporch and the self-appointed Earl?",
+      "context": "Conversation Hortensa.Rumbling.OmonporchChoice.Text",
+      "old_value": "Was wisst Ihr über Omonporch und den selbsternannten Earl?",
+      "new_value": "Was weißt du über Omonporch und den selbsternannten Earl?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf4b14a73fff78a6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Rumbling.OtherBarathrumitesChoice.Text|Could you tell me about the other Barathrumites?",
+      "context": "Conversation Hortensa.Rumbling.OtherBarathrumitesChoice.Text",
+      "old_value": "Könntet Ihr mir von den anderen Barathrumiten erzählen?",
+      "new_value": "Könntest du mir von den anderen Barathrumiten erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b8c27cedcb9401d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Rumbling.LiquidTinkerChoice.Text|Are you a liquid-tinker?",
+      "context": "Conversation Hortensa.Rumbling.LiquidTinkerChoice.Text",
+      "old_value": "Seid Ihr ein Flüssigkeits-Bastler?",
+      "new_value": "Bist du ein Flüssigkeits-Bastler?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d8002cbb354d0247",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Klanq.Text|Oh, yes. You see, years and years ago, we were studying optics in the course of our research into laser technology. Barathrum was giving a lecture to some guest attendees, and...\n\nOh, I'd rather not talk about it.",
+      "context": "Conversation Hortensa.Klanq.Text",
+      "old_value": "Oh, ja. Seht Ihr, vor Jahren und Jahren studierten wir Optik im Verlauf unserer Forschung zur Lasertechnologie. Barathrum hielt einen Vortrag vor einigen Gasthörern, und...\n\nOh, ich möchte lieber nicht darüber sprechen.",
+      "new_value": "Oh, ja. Siehst du, vor Jahren und Jahren studierten wir Optik im Verlauf unserer Forschung zur Lasertechnologie. Barathrum hielt einen Vortrag vor einigen Gasthörern, und...\n\nOh, ich möchte lieber nicht darüber sprechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "764f17ce9158a7b6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Klanq.BethesdaChoice.Text|Do you know anything about Bethesda Susa?",
+      "context": "Conversation Hortensa.Klanq.BethesdaChoice.Text",
+      "old_value": "Wisst Ihr etwas über Bethesda Susa?",
+      "new_value": "Weißt du etwas über Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7b0311462ee9244",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Klanq.OmonporchChoice.Text|What do you know about Omonporch and the self-appointed Earl?",
+      "context": "Conversation Hortensa.Klanq.OmonporchChoice.Text",
+      "old_value": "Was wisst Ihr über Omonporch und den selbsternannten Earl?",
+      "new_value": "Was weißt du über Omonporch und den selbsternannten Earl?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a827929d480de6a4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Klanq.RumblingChoice.Text|Did you feel that rumbling, Hortensa?",
+      "context": "Conversation Hortensa.Klanq.RumblingChoice.Text",
+      "old_value": "Habt Ihr dieses Grollen gespürt, Hortensa?",
+      "new_value": "Hast du dieses Grollen gespürt, Hortensa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "49a1e4f349f4bd9c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Klanq.OtherBarathrumitesChoice.Text|Could you tell me about the other Barathrumites?",
+      "context": "Conversation Hortensa.Klanq.OtherBarathrumitesChoice.Text",
+      "old_value": "Könntet Ihr mir von den anderen Barathrumiten erzählen?",
+      "new_value": "Könntest du mir von den anderen Barathrumiten erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7901932c37fe20e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Klanq.LiquidTinkerChoice.Text|Are you a liquid-tinker?",
+      "context": "Conversation Hortensa.Klanq.LiquidTinkerChoice.Text",
+      "old_value": "Seid Ihr ein Flüssigkeits-Bastler?",
+      "new_value": "Bist du ein Flüssigkeits-Bastler?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8cfbad3ef61dd1f1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.HowLong.OtherBarathrumitesChoice.Text|Could you tell me about the other Barathrumites?",
+      "context": "Conversation Hortensa.HowLong.OtherBarathrumitesChoice.Text",
+      "old_value": "Könntet Ihr mir von den anderen Barathrumiten erzählen?",
+      "new_value": "Könntest du mir von den anderen Barathrumiten erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5a5bce1e0d62cf05",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.HowLong.LiquidTinkerChoice.Text|Are you a liquid-tinker?",
+      "context": "Conversation Hortensa.HowLong.LiquidTinkerChoice.Text",
+      "old_value": "Seid Ihr ein Flüssigkeits-Bastler?",
+      "new_value": "Bist du ein Flüssigkeits-Bastler?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e966d54147518ebe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.LiquidTinker.HowLongChoice.Text|How long have you lived in Grit Gate?",
+      "context": "Conversation Hortensa.LiquidTinker.HowLongChoice.Text",
+      "old_value": "Wie lange lebt Ihr schon in Grit Gate?",
+      "new_value": "Wie lange lebst du schon in Grit Gate?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7e3d213871c6fa99",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.LiquidTinker.OtherBarathrumitesChoice.Text|Could you tell me about the other Barathrumites?",
+      "context": "Conversation Hortensa.LiquidTinker.OtherBarathrumitesChoice.Text",
+      "old_value": "Könntet Ihr mir von den anderen Barathrumiten erzählen?",
+      "new_value": "Könntest du mir von den anderen Barathrumiten erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4aad17895c3a00cf",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Shem.Start3.ShemSafe.Text|I'm glad you are safe, Shem.",
+      "context": "Conversation Shem.Start3.ShemSafe.Text",
+      "old_value": "Ich bin froh, dass Ihr sicher seid, Shem.",
+      "new_value": "Ich bin froh, dass du sicher bist, Shem.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5d4b8b4b44266a25",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Shem.Start3.ShemPax.Text|What do you think of Klanq's visit?",
+      "context": "Conversation Shem.Start3.ShemPax.Text",
+      "old_value": "Was haltet Ihr von Klanqs Besuch?",
+      "new_value": "Was hältst du von Klanqs Besuch?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0c4aec6cb22b177",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Shem.YouAreSafe.Text|I am glad you are safe, =name=.",
+      "context": "Conversation Shem.YouAreSafe.Text",
+      "old_value": "Ich bin froh, dass Ihr sicher seid, =name=.",
+      "new_value": "Ich bin froh, dass du sicher bist, =name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3cb45643649a48dc",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Shem.Speak.UnderstandChoice.Text|I just meant to ask if you're able to communicate. It seems so.",
+      "context": "Conversation Shem.Speak.UnderstandChoice.Text",
+      "old_value": "Ich wollte nur fragen, ob Ihr kommunizieren könnt. Das scheint so zu sein.",
+      "new_value": "Ich wollte nur fragen, ob du kommunizieren kannst. Das scheint so zu sein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2518c646eaf50728",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Shem.-1.Text|Would you like to hear? When I was first put together by Father and friends, I was Shem 2, the second iteration of the make-me project.\n\nAs I came along, scampered through the halls, listened to the stories Neek read me, climbed onto Sparafucile's workbench to have my screws replaced, I realized I was not what I could be. And so I downgraded myself to Shem 1.\n\nThat has happened three times.",
+      "context": "Conversation Shem.-1.Text",
+      "old_value": "Mögt Ihr hören? Als man mich zuerst von Vater und Freunden zusammensetzte, war ich Shem 2, die zweite Iteration des Mach-mich-Projekts.\n\nAls ich heranwuchs, durch die Hallen sausten, den Geschichten lauschte, die Neek mir vorlas, auf Sparafuciles Werkbank kletterte, um meine Schrauben austauschen zu lassen, erkannte ich, dass ich nicht das war, was ich sein könnte. Und so stufte ich mich selbst auf Shem 1 herab.\n\nDas ist dreimal passiert.",
+      "new_value": "Magst du hören? Als man mich zuerst von Vater und Freunden zusammensetzte, war ich Shem 2, die zweite Iteration des Mach-mich-Projekts.\n\nAls ich heranwuchs, durch die Hallen sausten, den Geschichten lauschte, die Neek mir vorlas, auf Sparafuciles Werkbank kletterte, um meine Schrauben austauschen zu lassen, erkannte ich, dass ich nicht das war, was ich sein könnte. Und so stufte ich mich selbst auf Shem 1 herab.\n\nDas ist dreimal passiert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0e1a5fdd50c79567",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Start.Text|Who are you? What? Please, do not disturb me.",
+      "context": "Conversation Jacobo.Start.Text",
+      "old_value": "Wer seid Ihr? Was? Bitte, stört mich nicht.",
+      "new_value": "Wer bist du? Was? Bitte, stör mich nicht.",
+      "note": "stoert -> stoer (Imperativ Sg.)",
+      "status": "accepted"
+    },
+    {
+      "uid": "db79df9fb41a91aa",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Recame.GuestKlanqChoice.Text|What do you think of Klanq's presence?",
+      "context": "Conversation Jacobo.Recame.GuestKlanqChoice.Text",
+      "old_value": "Was haltet Ihr von Klanqs Anwesenheit?",
+      "new_value": "Was hältst du von Klanqs Anwesenheit?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3903b873d31a229d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Post Arms.Text|Never before had the Templar broken so far through our defenses. We live a new reality now, one harder to weather.\n\nIs there anything you need, =name=?",
+      "context": "Conversation Jacobo.Post Arms.Text",
+      "old_value": "Noch nie zuvor waren die Templer so weit durch unsere Verteidigungen durchgebrochen. Wir leben jetzt in einer neuen Realität, die schwerer zu ertragen ist.\n\nBraucht Ihr etwas, =name=?",
+      "new_value": "Noch nie zuvor waren die Templer so weit durch unsere Verteidigungen durchgebrochen. Wir leben jetzt in einer neuen Realität, die schwerer zu ertragen ist.\n\nBrauchst du etwas, =name=?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e60454725bd986c6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Greetings.JacoboRumblingChoice.Text|Did you feel that rumbling, Jacobo?",
+      "context": "Conversation Jacobo.Greetings.JacoboRumblingChoice.Text",
+      "old_value": "Habt Ihr das Rumoren gespürt, Jacobo?",
+      "new_value": "Hast du das Rumoren gespürt, Jacobo?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "742171ca67fb7148",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Greetings.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Greetings.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f430c89ff5de60ac",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Greetings.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Greetings.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "723b80bbd32e2f2f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Bethesda.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Bethesda.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e61ed4ff90e85a7f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Music.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Music.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "02bf828f34a250cc",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Music.MechanimistChoice.Text|So you're a Mechanimist?",
+      "context": "Conversation Jacobo.Music.MechanimistChoice.Text",
+      "old_value": "Seid Ihr also ein Mechanimist?",
+      "new_value": "Bist du also ein Mechanimist?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1746e5e8cbf881ea",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Music.SongsChoice.Text|Have you made other songs?",
+      "context": "Conversation Jacobo.Music.SongsChoice.Text",
+      "old_value": "Habt Ihr andere Lieder gemacht?",
+      "new_value": "Hast du andere Lieder gemacht?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "07a044e9d9618f09",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Music.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Music.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "085438399a1a68c9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Sheba.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "49743a2f910095d0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba.MechanimistChoice.Text|So you're a Mechanimist?",
+      "context": "Conversation Jacobo.Sheba.MechanimistChoice.Text",
+      "old_value": "Seid Ihr also ein Mechanimist?",
+      "new_value": "Bist du also ein Mechanimist?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9c53df67e09f7ed9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba.SongsChoice.Text|Have you made other songs?",
+      "context": "Conversation Jacobo.Sheba.SongsChoice.Text",
+      "old_value": "Habt Ihr andere Lieder gemacht?",
+      "new_value": "Hast du andere Lieder gemacht?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4cc75fcc9e18c758",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Sheba.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6fb9ddd9f310bf60",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Kasaphescence.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Kasaphescence.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de31f43107063bf8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Kasaphescence.MechanimistChoice.Text|So you're a Mechanimist?",
+      "context": "Conversation Jacobo.Kasaphescence.MechanimistChoice.Text",
+      "old_value": "Seid Ihr also ein Mechanimist?",
+      "new_value": "Bist du also ein Mechanimist?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9f6ddda0b2cf8d17",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Kasaphescence.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Kasaphescence.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "216dd1c4278177cf",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Mechanimist.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Mechanimist.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7bc3b774a98edda",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Mechanimist.SongsChoice.Text|Have you made other songs?",
+      "context": "Conversation Jacobo.Mechanimist.SongsChoice.Text",
+      "old_value": "Habt Ihr andere Lieder gemacht?",
+      "new_value": "Hast du andere Lieder gemacht?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b9302c1c2c09e5f6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Mechanimist.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Mechanimist.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "012c692ea4b0434a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Songs.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Songs.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9881014a132c2a4e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Songs.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Songs.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cdef2a8ed0c6d3c6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Orb.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Orb.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "68396f670a55d358",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Orb.MechanimistChoice.Text|So you're a Mechanimist?",
+      "context": "Conversation Jacobo.Orb.MechanimistChoice.Text",
+      "old_value": "Seid Ihr also ein Mechanimist?",
+      "new_value": "Bist du also ein Mechanimist?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d8f26156b89d4d85",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Orb.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Orb.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0a6b9804b32b1692",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Machine.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Machine.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4f574b5d3de516c4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Machine.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Machine.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e338e9e9bcd24d59",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.GritGate.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.GritGate.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "af7cc1acdfad9aae",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba2.BethesdaChoice.Text|Jacobo, do you have advice for entering Bethesda Susa?",
+      "context": "Conversation Jacobo.Sheba2.BethesdaChoice.Text",
+      "old_value": "Jacobo, habt Ihr einen Rat für den Eintritt in Bethesda Susa?",
+      "new_value": "Jacobo, hast du einen Rat für den Eintritt in Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "690a449270a42284",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba2.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Sheba2.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "29f5d81b6408c496",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Rumbling.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Jacobo.Rumbling.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "095291be5cb5a013",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Start3.BethesdaChoice.Text|Do you know anything about Bethesda Susa?",
+      "context": "Conversation Neek.Start3.BethesdaChoice.Text",
+      "old_value": "Wisst Ihr etwas über Bethesda Susa?",
+      "new_value": "Weißt du etwas über Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fcab64b9eac39556",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Start3.OmonporchChoice.Text|What do you know about the Earl of Omonporch?",
+      "context": "Conversation Neek.Start3.OmonporchChoice.Text",
+      "old_value": "Was wisst Ihr über den Grafen von Omonporch?",
+      "new_value": "Was weißt du über den Grafen von Omonporch?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "53522342d6dd74af",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Start3.KlanqChoice.Text|What do you know about Pax Klanq?",
+      "context": "Conversation Neek.Start3.KlanqChoice.Text",
+      "old_value": "Was wisst Ihr über Pax Klanq?",
+      "new_value": "Was weißt du über Pax Klanq?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cae19603dc8fed7a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Start3.GoingOnChoice.Text|What do you think about everything going on?",
+      "context": "Conversation Neek.Start3.GoingOnChoice.Text",
+      "old_value": "Was haltet Ihr von allem, das vor sich geht?",
+      "new_value": "Was hältst du von allem, das vor sich geht?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d6416933648d8a4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Start3.GritGateChoice.Text|What can you tell me about Grit Gate?",
+      "context": "Conversation Neek.Start3.GritGateChoice.Text",
+      "old_value": "Was könnt Ihr mir über Grit Gate erzählen?",
+      "new_value": "Was kannst du mir über Grit Gate erzählen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8a55701b10021472",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mafeo.Start2.MafeoBethesda.Text|Do you know anything about Bethesda Susa?",
+      "context": "Conversation Mafeo.Start2.MafeoBethesda.Text",
+      "old_value": "Wisst Ihr etwas über Bethesda Susa?",
+      "new_value": "Weißt du etwas über Bethesda Susa?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0f805ceb8fcfd793",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mafeo.Start2.MafeoOmonporch.Text|What do you know about Omonporch and the self-appointed Earl?",
+      "context": "Conversation Mafeo.Start2.MafeoOmonporch.Text",
+      "old_value": "Was wisst Ihr über Omonporch und den selbsternannten Earl?",
+      "new_value": "Was weißt du über Omonporch und den selbsternannten Earl?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "07beefbca0116ca9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mafeo.Start2.MafeoWhat.Text|What wares do you sell?",
+      "context": "Conversation Mafeo.Start2.MafeoWhat.Text",
+      "old_value": "Welche Waren verkauft Ihr?",
+      "new_value": "Welche Waren verkaufst du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d4f971abd8deeb0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mafeo.WhatWares.Text|Oh, I sell whatever sundries that meet my standards of quality, with some measure of curation. I try to ensure that my shelves carry a bit of many things, but you can count on finding more than enough ammunition and a few recoilers that can lead you back here in difficult times.\n\nIf you have anything in need of identification or repair, I can take care of that for you for a few drams as well.",
+      "context": "Conversation Mafeo.WhatWares.Text",
+      "old_value": "Oh, ich verkaufe was immer für Kleinartikel meine Qualitätsstandards erfüllen, mit etwas Handauswahl. Ich versuche sicherzustellen, dass meine Regale ein wenig von vielem tragen, aber ihr könnt darauf rechnen, reichlich Munition und ein paar Rückkehrgeräte zu finden, die euch in schwierigen Zeiten hierher zurückbringen können.\n\nWenn Ihr etwas braucht, das identifiziert oder repariert werden muss, kann ich das auch für ein paar Dramen für euch übernehmen.",
+      "new_value": "Oh, ich verkaufe was immer für Kleinartikel meine Qualitätsstandards erfüllen, mit etwas Handauswahl. Ich versuche sicherzustellen, dass meine Regale ein wenig von vielem tragen, aber du kannst darauf rechnen, reichlich Munition und ein paar Rückkehrgeräte zu finden, die dich in schwierigen Zeiten hierher zurückbringen können.\n\nWenn du etwas brauchst, das identifiziert oder repariert werden muss, kann ich das auch für ein paar Dramen für dich übernehmen.",
+      "note": "kleines ihr/euch war generisches Singular-you -> du/dich",
+      "status": "accepted"
+    },
+    {
+      "uid": "a42385805333b584",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation OmonporchBarathrumites.Start.SpindleChoice.Text|Why did you come to Omonporch?",
+      "context": "Conversation OmonporchBarathrumites.Start.SpindleChoice.Text",
+      "old_value": "Warum seid Ihr nach Omonporch gekommen?",
+      "new_value": "Warum bist du nach Omonporch gekommen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "146dae42e79f1b9e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yurl.Welcome.AsphodelChoice.Text|You're a member of the Consortium of Phyta, right? What do you know about the Earl of Omonporch?",
+      "context": "Conversation Yurl.Welcome.AsphodelChoice.Text",
+      "old_value": "Ihr seid Mitglied des Konsortiums von Phyta, richtig? Was wisst Ihr über den Earl von Omonporch?",
+      "new_value": "Du bist Mitglied des Konsortiums von Phyta, richtig? Was weißt du über den Earl von Omonporch?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6bbb49ca8ebdbd5c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nuntu.Joppa.Text|As far west as Joppa, you say? Oh, grim! Yes, we found the remains of pale-things in the mouth of Svy. Does the Gyre widen again? Hrmmmm.",
+      "context": "Conversation Nuntu.Joppa.Text",
+      "old_value": "Soweit westlich wie Joppa, sagt Ihr? Oh, düster! Ja, wir fanden die Überreste von Blässe-Dingen im Mund von Svy. Weitet sich die Gyre wieder? Hrmmmm.",
+      "new_value": "Soweit westlich wie Joppa, sagst du? Oh, düster! Ja, wir fanden die Überreste von Blässe-Dingen im Mund von Svy. Weitet sich die Gyre wieder? Hrmmmm.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae93e0a223787cf7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nuntu.SlynthRequest.Text|I don't imagine you brought me this information merely to observe. Are you suggesting that these slynth might take up residence here in my village?",
+      "context": "Conversation Nuntu.SlynthRequest.Text",
+      "old_value": "Ich stelle mir nicht vor, dass Ihr mir diese Information nur zur Beobachtung gebracht habt. Schlagt Ihr vor, dass diese Slynth hier in meinem Dorf Wohnung nehmen könnten?",
+      "new_value": "Ich stelle mir nicht vor, dass du mir diese Information nur zur Beobachtung gebracht hast. Schlägst du vor, dass diese Slynth hier in meinem Dorf Wohnung nehmen könnten?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "14f7dc4f06ba48f8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nuntu.SlynthRequestAccept.Text|Coming from anyone else, =name=, I might refuse outright. Housing recently-sentient refugees is no mean favor, I think you'll agree. My people are slow to trust, as well, so I fear that the slynth may feel unwelcome for some time. But then, grafted branches grow the best starapples, do they not? Yes, your lilypad friends are welcome here if they wish.",
+      "context": "Conversation Nuntu.SlynthRequestAccept.Text",
+      "old_value": "Käme das von sonst jemandem, =name=, könnte ich es rundweg ablehnen. Kürzlich-bewusste Flüchtlinge zu beherbergen ist kein geringes Angebot, wie Ihr mir zustimmen werdet. Mein Volk ist auch langsam im Vertrauen, also fürchte ich, dass sich die Slynth für einige Zeit unwillkommen fühlen könnten. Aber dann wachsen gepfropfte Äste die besten Starapfel, nicht wahr? Ja, eure Seerosenfreunde sind hier willkommen, wenn sie es wünschen.",
+      "new_value": "Käme das von sonst jemandem, =name=, könnte ich es rundweg ablehnen. Kürzlich-bewusste Flüchtlinge zu beherbergen ist kein geringes Angebot, wie du mir zustimmen wirst. Mein Volk ist auch langsam im Vertrauen, also fürchte ich, dass sich die Slynth für einige Zeit unwillkommen fühlen könnten. Aber dann wachsen gepfropfte Äste die besten Starapfel, nicht wahr? Ja, deine Seerosenfreunde sind hier willkommen, wenn sie es wünschen.",
+      "note": "eure Seerosenfreunde = your (Spieler) -> deine",
+      "status": "accepted"
+    },
+    {
+      "uid": "47c78a07e658a586",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nuntu.SlynthRequestReject.Text|Had I no responsibility to represent my people, I might accept out of the goodness of my own heart alone. Sadly, I do not consider my heart, or even my mind, to be more important than my duty. Perhaps if you were a more renowned figure among my people, I would reconsider.",
+      "context": "Conversation Nuntu.SlynthRequestReject.Text",
+      "old_value": "Hätte ich keine Pflicht, mein Volk zu vertreten, könnte ich vielleicht aus reiner Güte meines Herzens zusagen. Leider erachte ich mein Herz oder selbst meinen Verstand nicht für wichtiger als meine Pflicht. Vielleicht würde ich es mir überlegen, wenn Ihr ein Angesehenerer unter meinem Volk wäret.",
+      "new_value": "Hätte ich keine Pflicht, mein Volk zu vertreten, könnte ich vielleicht aus reiner Güte meines Herzens zusagen. Leider erachte ich mein Herz oder selbst meinen Verstand nicht für wichtiger als meine Pflicht. Vielleicht würde ich es mir überlegen, wenn du ein Angesehenerer unter meinem Volk wärst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "48431f8fb59dc278",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Welcome.ChoicePlace.Text|Why are you the color of coral? And why did the brick road outside only appear after I ate the Eater's fleshcap?",
+      "context": "Conversation PaxKlanq.Welcome.ChoicePlace.Text",
+      "old_value": "Warum seid Ihr korallenfarbig? Und warum erschien die Ziegelstraße draußen erst, nachdem ich das Fleischkapsel des Eaters gegessen habe?",
+      "new_value": "Warum bist du korallenfarbig? Und warum erschien die Ziegelstraße draußen erst, nachdem ich das Fleischkapsel des Eaters gegessen habe?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f2363afff672534",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Presume.ChoicePrickles.Text|Why do you owe... \"prickles\"... a debt?",
+      "context": "Conversation PaxKlanq.Presume.ChoicePrickles.Text",
+      "old_value": "Warum schuldet Ihr... \"Stacheln\"... eine Schuld?",
+      "new_value": "Warum schuldest du... \"Stacheln\"... eine Schuld?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "722b7eaf8602617e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq2.Welcome.GolemComponentQuestionsChoice.Text|Can you tell me about the components I must gather?",
+      "context": "Conversation PaxKlanq2.Welcome.GolemComponentQuestionsChoice.Text",
+      "old_value": "Könnt Ihr mir von den Komponenten erzählen, die ich sammeln muss?",
+      "new_value": "Kannst du mir von den Komponenten erzählen, die ich sammeln muss?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3db31a00997e71e6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Indrix.Start2.PariahAChoice.Text|Why are you called \"pariah\"?",
+      "context": "Conversation Indrix.Start2.PariahAChoice.Text",
+      "old_value": "Warum wird Ihr \"Paria\" genannt?",
+      "new_value": "Warum wirst du \"Paria\" genannt?",
+      "note": "Grammatik 'wird Ihr' -> 'wirst du'",
+      "status": "accepted"
+    },
+    {
+      "uid": "88ac1ff357006a65",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Indrix.PariahA.Pariah2Choice.Text|I must insist; why are you called \"pariah\"?",
+      "context": "Conversation Indrix.PariahA.Pariah2Choice.Text",
+      "old_value": "Ich muss darauf bestehen; warum werdet Ihr \"Paria\" genannt?",
+      "new_value": "Ich muss darauf bestehen; warum wirst du \"Paria\" genannt?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e2f23767a5f1824c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Indrix.PariahB.Pariah2Choice.Text|I must insist; why are you called \"pariah\"?",
+      "context": "Conversation Indrix.PariahB.Pariah2Choice.Text",
+      "old_value": "Ich muss darauf bestehen; warum werdet Ihr \"Paria\" genannt?",
+      "new_value": "Ich muss darauf bestehen; warum wirst du \"Paria\" genannt?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "518e084109fe54f7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Wild Water Merchant.Start.WhoChoice.Text|Who are you?",
+      "context": "Conversation Wild Water Merchant.Start.WhoChoice.Text",
+      "old_value": "Wer seid Ihr?",
+      "new_value": "Wer bist du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cfcd2c606c2c79af",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Wild Water Merchant.What.WhoChoice.Text|Who are you?",
+      "context": "Conversation Wild Water Merchant.What.WhoChoice.Text",
+      "old_value": "Wer seid Ihr?",
+      "new_value": "Wer bist du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4c924eb7887c5637",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Wild Water Merchant.Mamon.WhoChoice.Text|Who are you?",
+      "context": "Conversation Wild Water Merchant.Mamon.WhoChoice.Text",
+      "old_value": "Wer seid Ihr?",
+      "new_value": "Wer bist du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "886f866babe629ad",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation SusaAlchemist.Start.LiquidsChoice.Text|Who are you?",
+      "context": "Conversation SusaAlchemist.Start.LiquidsChoice.Text",
+      "old_value": "Wer seid Ihr?",
+      "new_value": "Wer bist du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd798bb9317dde55",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Asphodel.Start.WhyYours.Text|Are you truly the Earl of Omonporch?",
+      "context": "Conversation Asphodel.Start.WhyYours.Text",
+      "old_value": "Seid Ihr wirklich der Graf von Omonporch?",
+      "new_value": "Bist du wirklich der Graf von Omonporch?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a5e517a3c09ee9b7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Asphodel.Lease.Text|Lease control of my Spindle, you say? Well, well... That's a colossal request. There's no simple price I can assign to such a thing. Were I to grant such a request, you would owe me a great debt. You and several of your allies.",
+      "context": "Conversation Asphodel.Lease.Text",
+      "old_value": "Die Kontrolle über meine Spindel pachten, sagt Ihr? Naja, naja... Das ist eine kolosale Anfrage. Es gibt keinen einfachen Preis, den ich einer solchen Sache zuordnen kann. Wenn ich eine solche Anfrage gewähren würde, würdet Ihr mir eine große Schuld schulden. Ihr und mehrere eurer Verbündeten.",
+      "new_value": "Die Kontrolle über meine Spindel pachten, sagst du? Naja, naja... Das ist eine kolosale Anfrage. Es gibt keinen einfachen Preis, den ich einer solchen Sache zuordnen kann. Wenn ich eine solche Anfrage gewähren würde, würdest du mir eine große Schuld schulden. Du und mehrere deiner Verbündeten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4556b082308bec5f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Asphodel.Lease.CouncilChoice.Text|So you say. How can I appease you?",
+      "context": "Conversation Asphodel.Lease.CouncilChoice.Text",
+      "old_value": "Das sagt Ihr. Wie kann ich euch Genüge tun?",
+      "new_value": "Das sagst du. Wie kann ich dir Genüge tun?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2bb365772c573d69",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Asphodel.Council.Text|I will convene a council. The First Council of Omonporch. Send word to four of your allied factions. Have them send delegates. Together, perhaps, you can appease me.",
+      "context": "Conversation Asphodel.Council.Text",
+      "old_value": "Ich werde einen Rat einberufen. Der Erste Rat von Omonporch. Sendet Nachricht an vier eurer verbündeten Fraktionen. Lasset sie Delegierte schicken. Zusammen könnt Ihr mich vielleicht besänftigen.",
+      "new_value": "Ich werde einen Rat einberufen. Der Erste Rat von Omonporch. Sende Nachricht an vier deiner verbündeten Fraktionen. Lass sie Delegierte schicken. Zusammen könnt ihr mich vielleicht besänftigen.",
+      "note": "Zusammen koennt ihr = Spieler+Verbuendete, Gruppen-Plural klein",
+      "status": "accepted"
+    },
+    {
+      "uid": "30619b5ee18785e3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Yes. Go on..Text|Good.\n\nWe hindren are a close-knit and staid people, and our safety depends on our solidarity. In order to preserve our safety and culture, we ask that any of our number who leave us never come back. Recently, one such exile took the treasure of our village, a bracelet named Kindrish, with her when she left. None of our number can leave to get it back, or it will be a violation of the values that I have guarded, and the Hindriarchs before me, for countless generations.\n\nWill you help us recover our treasure? We have a small cache of valuables we can offer as a reward.",
+      "context": "Conversation Keh.Yes. Go on..Text",
+      "old_value": "Gut.\n\nWir Hindren sind ein eng verbundenes und würdevolles Volk, und unsere Sicherheit hängt von unserer Solidarität ab. Um unsere Sicherheit und Kultur zu bewahren, bitten wir darum, daß keine unserer Zahl, die uns verläßt, je zurückkehrt. Vor kurzem nahm ein solcher Exil den Schatz unseres Dorfes, ein Armband namens Kindrish, mit sich, als sie fortging. Keiner von uns kann fortgehen, um es zurückzuholen, oder es wird eine Verletzung der Werte sein, die ich bewacht habe, und die Hindriarchs vor mir, über unzählige Generationen.\n\nWerdet Ihr uns helfen, unseren Schatz zurückzubekommen? Wir haben einen kleinen Vorrat an Wertsachen, die wir als Belohnung anbieten können.",
+      "new_value": "Gut.\n\nWir Hindren sind ein eng verbundenes und würdevolles Volk, und unsere Sicherheit hängt von unserer Solidarität ab. Um unsere Sicherheit und Kultur zu bewahren, bitten wir darum, daß keine unserer Zahl, die uns verläßt, je zurückkehrt. Vor kurzem nahm ein solcher Exil den Schatz unseres Dorfes, ein Armband namens Kindrish, mit sich, als sie fortging. Keiner von uns kann fortgehen, um es zurückzuholen, oder es wird eine Verletzung der Werte sein, die ich bewacht habe, und die Hindriarchs vor mir, über unzählige Generationen.\n\nWirst du uns helfen, unseren Schatz zurückzubekommen? Wir haben einen kleinen Vorrat an Wertsachen, die wir als Belohnung anbieten können.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b8ca46762d15f24f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start2.Text|You're back. Have you found the exile and retrieved our treasure?",
+      "context": "Conversation Keh.Start2.Text",
+      "old_value": "Ihr seid zurück. Habt Ihr den Exil gefunden und unseren Schatz zurückgeholt?",
+      "new_value": "Du bist zurück. Hast du den Exil gefunden und unseren Schatz zurückgeholt?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7712b7c1c7e45ad2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start3.Text|Why is an exile standing in my village? Are you trying to play me for a fool?",
+      "context": "Conversation Keh.Start3.Text",
+      "old_value": "Warum steht ein Exil in meinem Dorf? Versucht Ihr, mich zum Narren zu machen?",
+      "new_value": "Warum steht ein Exil in meinem Dorf? Versuchst du, mich zum Narren zu machen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "31615ab69c6599bc",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Kehstions.No brotherChoice.Text|Why did you tell me Eskhind had a brother?",
+      "context": "Conversation Keh.Kehstions.No brotherChoice.Text",
+      "old_value": "Warum habt Ihr mir gesagt, daß Eskhind einen Bruder hat?",
+      "new_value": "Warum hast du mir gesagt, daß Eskhind einen Bruder hat?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a9bbb70a576922b2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.No brother.Text|If you ask the exile, I'm sure she'll spin some kind of accusation that I believe gender to be an immutable prison, that I impose it on others.\n\nShe's lying. Our people have a long history of two-gender hindren called {{w|hartind}}, respected and consecrated. There is a proper path to gender variance in our society, of which the male exile could have availed himself years ago.\n\nHe never did, so I do not recognize him.",
+      "context": "Conversation Keh.No brother.Text",
+      "old_value": "Wenn Ihr den Exil fragt, bin ich sicher, daß er eine Art Anklage spinnen wird, daß ich glaube, daß Geschlecht ein unveränderliches Gefängnis ist, daß ich es anderen aufzwinge.\n\nEr lügt. Unser Volk hat eine lange Geschichte von zweigeschlechtigen Hindren, die {{w|hartind}} genannt werden, respektiert und geheiligt. Es gibt einen richtigen Weg zur Geschlechtervarianz in unserer Gesellschaft, von dem sich dieser männliche Exil vor Jahren hätte bedienen können.\n\nEr tat es niemals, daher erkenne ich ihn nicht an.",
+      "new_value": "Wenn du den Exil fragst, bin ich sicher, daß er eine Art Anklage spinnen wird, daß ich glaube, daß Geschlecht ein unveränderliches Gefängnis ist, daß ich es anderen aufzwinge.\n\nEr lügt. Unser Volk hat eine lange Geschichte von zweigeschlechtigen Hindren, die {{w|hartind}} genannt werden, respektiert und geheiligt. Es gibt einen richtigen Weg zur Geschlechtervarianz in unserer Gesellschaft, von dem sich dieser männliche Exil vor Jahren hätte bedienen können.\n\nEr tat es niemals, daher erkenne ich ihn nicht an.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bacf446ea0ca34ce",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start6.EndChoice.Text|If you say so. Live and drink.",
+      "context": "Conversation Keh.Start6.EndChoice.Text",
+      "old_value": "Wenn Ihr das sagt. Lebt und trinkt.",
+      "new_value": "Wenn du das sagst. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fdd8e64c56e9ed31",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start11.Text|Some help you are! Now our village lacks a warden.\n\nHow are we to protect ourselves?",
+      "context": "Conversation Keh.Start11.Text",
+      "old_value": "Was für Hilfe Ihr seid! Jetzt hat unser Dorf keine Wächterin.\n\nWie sollen wir uns schützen?",
+      "new_value": "Was für Hilfe du bist! Jetzt hat unser Dorf keine Wächterin.\n\nWie sollen wir uns schützen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9d2b2ce1572a057e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Dead.Text|Kendren, do you... have any news of Eskhind, and Kindrish?",
+      "context": "Conversation Neelahind.Dead.Text",
+      "old_value": "Kendren, habt Ihr... Neuigkeiten von Eskhind und Kindrish?",
+      "new_value": "Kendren, hast du... Neuigkeiten von Eskhind und Kindrish?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "081286630d98b9fe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Warden Neelahind?.Friends with EskhindChoice.Text|Hindriarch Keh told me that you were once friends with Eskhind.",
+      "context": "Conversation Neelahind.Warden Neelahind?.Friends with EskhindChoice.Text",
+      "old_value": "Hindriarch Keh sagte mir, daß Ihr einmal Freunde mit Eskhind wart.",
+      "new_value": "Hindriarch Keh sagte mir, daß du einmal Freunde mit Eskhind warst.",
+      "note": "'du ... Freunde ... warst' minimal belassen (leicht holprig)",
+      "status": "accepted"
+    },
+    {
+      "uid": "08803af3a369e763",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Friends with Eskhind.Where?Choice.Text|Do you know where Eskhind and her siblings might have gone?",
+      "context": "Conversation Neelahind.Friends with Eskhind.Where?Choice.Text",
+      "old_value": "Weißt Ihr, wohin Eskhind und ihre Geschwister gegangen sein könnten?",
+      "new_value": "Weißt du, wohin Eskhind und ihre Geschwister gegangen sein könnten?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8c799f641cb88d11",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Hindriarch is lying?.Where?Choice.Text|Do you know where Eskhind and her siblings might have gone?",
+      "context": "Conversation Neelahind.Hindriarch is lying?.Where?Choice.Text",
+      "old_value": "Weißt Ihr, wohin Eskhind und ihre Geschwister gegangen sein könnten?",
+      "new_value": "Weißt du, wohin Eskhind und ihre Geschwister gegangen sein könnten?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1f77c6f0060df163",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Anyone can lie..Where?Choice.Text|Do you know where Eskhind and her siblings might have gone?",
+      "context": "Conversation Neelahind.Anyone can lie..Where?Choice.Text",
+      "old_value": "Weißt Ihr, wohin Eskhind und ihre Geschwister gegangen sein könnten?",
+      "new_value": "Weißt du, wohin Eskhind und ihre Geschwister gegangen sein könnten?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f831ce1752bc7d0a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Why should I believe you?.What should I do?Choice.Text|What are you suggesting I do?",
+      "context": "Conversation Eskhind.Why should I believe you?.What should I do?Choice.Text",
+      "old_value": "Was schlaget Ihr mir vor zu tun?",
+      "new_value": "Was schlägst du mir vor zu tun?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a969a4138457ee67",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Lies..What should I do?Choice.Text|What are you suggesting I do?",
+      "context": "Conversation Eskhind.Lies..What should I do?Choice.Text",
+      "old_value": "Was schlaget Ihr mir vor zu tun?",
+      "new_value": "Was schlägst du mir vor zu tun?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6080e8f804e060a2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.SonnetPrompt.Text|Oh. Oh no. Yes, that's. That's mine.\n\nI meant to burn it. I probably should have burned it. I wish I had burned it.\n\nMay I please have it back?",
+      "context": "Conversation Eskhind.SonnetPrompt.Text",
+      "old_value": "Oh. Oh nein. Ja, das ist... Das ist meins.\n\nIch wollte es verbrennen. Ich hätte es wahrscheinlich verbrennen sollen. Ich wünsche, ich hätte es verbrannt.\n\nKönntet Ihr mir es bitte zurückgeben?",
+      "new_value": "Oh. Oh nein. Ja, das ist... Das ist meins.\n\nIch wollte es verbrennen. Ich hätte es wahrscheinlich verbrennen sollen. Ich wünsche, ich hätte es verbrannt.\n\nKönntest du mir es bitte zurückgeben?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1935e6fcfad81d26",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.SonnetPrompt.SonnetBurnChoice.Text|So you can burn it?",
+      "context": "Conversation Eskhind.SonnetPrompt.SonnetBurnChoice.Text",
+      "old_value": "Damit Ihr es verbrennen könnt?",
+      "new_value": "Damit du es verbrennen kannst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5fe91d5ad728251a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Start.Text|Bey Lah is gone. I hope you're happy.",
+      "context": "Conversation Meyehind.Start.Text",
+      "old_value": "Bey Lah ist vorbei. Ich hoffe, Ihr seid glücklich.",
+      "new_value": "Bey Lah ist vorbei. Ich hoffe, du bist glücklich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6183a7c18c63eb43",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Start7.Text|Thank you for what you've done for our sister.",
+      "context": "Conversation Meyehind.Start7.Text",
+      "old_value": "Danke für das, was Ihr für unsere Schwester getan habt.",
+      "new_value": "Danke für das, was du für unsere Schwester getan hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80d04b76cbd6601e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Start8.Text|If you've nothing you need of me, kendren, I'd just as soon hold my peace.",
+      "context": "Conversation Meyehind.Start8.Text",
+      "old_value": "Wenn Ihr nichts von mir braucht, Kendren, würde ich lieber schweigen.",
+      "new_value": "Wenn du nichts von mir brauchst, Kendren, würde ich lieber schweigen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3c643a4faa336e81",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Meyequeries.Culprit.Text|Who do you think stole Kindrish?",
+      "context": "Conversation Meyehind.Meyequeries.Culprit.Text",
+      "old_value": "Wer, meint Ihr, hat Kindrish gestohlen?",
+      "new_value": "Wer, meinst du, hat Kindrish gestohlen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d2ecf31d5d80f6f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Culprit.Text|I don't like to speculate on a matter I know so little of, nor one whose outcome so dearly affects my life.\n\nIf what you want is a strongly-worded accusation based on nothing, Liihart is the sister to talk to.",
+      "context": "Conversation Meyehind.Culprit.Text",
+      "old_value": "Ich spekuliere nicht gerne über Dinge, die ich kaum kenne, noch solche, deren Ausgang mein Leben so sehr beeinflusst.\n\nWenn Ihr eine laut gesprochene Anklage auf der Grundlage von nichts wollt, ist Liihart die Schwester, mit der Ihr sprechen solltet.",
+      "new_value": "Ich spekuliere nicht gerne über Dinge, die ich kaum kenne, noch solche, deren Ausgang mein Leben so sehr beeinflusst.\n\nWenn du eine laut gesprochene Anklage auf der Grundlage von nichts willst, ist Liihart die Schwester, mit der du sprechen solltest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3e37d01b86a74614",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.ShowSonnet.Text|Hm! No, Eskhind wrote that, but I thought she burned it.\n\nIf you return it to anyone, you should return it to her.",
+      "context": "Conversation Meyehind.ShowSonnet.Text",
+      "old_value": "Hm! Nein, Eskhind hat das geschrieben, aber ich dachte, sie hätte es verbrannt.\n\nWenn Ihr es jemandem zurückgebt, solltet Ihr es ihr zurückgeben.",
+      "new_value": "Hm! Nein, Eskhind hat das geschrieben, aber ich dachte, sie hätte es verbrannt.\n\nWenn du es jemandem zurückgibst, solltest du es ihr zurückgeben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "62193d04048ccbc4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Liihart.Start4.Text|This sucks.\n\n...but you're not so bad.",
+      "context": "Conversation Liihart.Start4.Text",
+      "old_value": "Das ist zum Kotzen.\n\n...aber Ihr seid nicht so schlecht.",
+      "new_value": "Das ist zum Kotzen.\n\n...aber du bist nicht so schlecht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe2d38e71e4e9b6e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Isahind.Start4.Text|As if a new Hindriarch weren't enough, I hear we might become a Democracy! How thrilling.\n\nThis is a new chapter in Bey Lah's history, kendren. Would you care to trade?",
+      "context": "Conversation Isahind.Start4.Text",
+      "old_value": "Als ob ein neuer Hindriarch nicht genug wäre, höre ich, wir könnten eine Demokratie werden! Wie aufregend.\n\nDies ist ein neues Kapitel in Bey Lahs Geschichte, Kendren. Würdet Ihr gerne handeln?",
+      "new_value": "Als ob ein neuer Hindriarch nicht genug wäre, höre ich, wir könnten eine Demokratie werden! Wie aufregend.\n\nDies ist ein neues Kapitel in Bey Lahs Geschichte, Kendren. Würdest du gerne handeln?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b63085f817fb7de9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Isahind.Start5.Text|Amazing! The youngest hindriarch in Bey Lah's preserved history, if only temporarily so.\n\nCare to buy a souvenir to commemorate this historic occasion?",
+      "context": "Conversation Isahind.Start5.Text",
+      "old_value": "Erstaunlich! Der jüngste Hindriarch in Bey Lahs erhaltener Geschichte, wenn auch nur vorübergehend.\n\nMöchtet Ihr ein Souvenir kaufen, um diesen historischen Anlass zu begehen?",
+      "new_value": "Erstaunlich! Der jüngste Hindriarch in Bey Lahs erhaltener Geschichte, wenn auch nur vorübergehend.\n\nMöchtest du ein Souvenir kaufen, um diesen historischen Anlass zu begehen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0a60ebc4e048b77d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Kesehind.Start2.Who are you?Choice.Text|Who are you?",
+      "context": "Conversation Kesehind.Start2.Who are you?Choice.Text",
+      "old_value": "Wer seid Ihr?",
+      "new_value": "Wer bist du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "588b1032841ff44d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation AgateSeveranceStar.Start.Text|You are either very brave or very foolish, to stop me in my path. Perhaps both. What do you want?",
+      "context": "Conversation AgateSeveranceStar.Start.Text",
+      "old_value": "Ihr seid entweder sehr mutig oder sehr töricht, mich in meinem Weg zu stoppen. Vielleicht beides. Was wollt Ihr?",
+      "new_value": "Du bist entweder sehr mutig oder sehr töricht, mich in meinem Weg zu stoppen. Vielleicht beides. Was willst du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "36ef2ce627817262",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Lulihart.Start2.Text|Hold a moment, =player.formalAddressTerm=. Are you looking for work?",
+      "context": "Conversation Lulihart.Start2.Text",
+      "old_value": "Wartet einen Moment, =player.formalAddressTerm=. Sucht Ihr nach Arbeit?",
+      "new_value": "Warte einen Moment, =player.formalAddressTerm=. Suchst du nach Arbeit?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a9245ee7ad50dd8e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Lulihart.SlynthRequestAccept.Text|What a strange fate, to pass from new sentience to outcast with no steps in between. Regardless, if it is their will and you vouch for them, that is enough for me. Tell the slynth that should they choose to wander, the wind will blow at their backs.",
+      "context": "Conversation Lulihart.SlynthRequestAccept.Text",
+      "old_value": "Was für ein seltsames Schicksal, von neuer Bewusstwerdung zu Ausgestoßenen mit keinen Schritten dazwischen. Aber wenn das ihr Wille ist und Ihr für sie einstehen, ist das genug für mich. Sagt den Slynth, dass der Wind ihnen in den Rücken blasen wird, sollten sie sich zum Wandern entschließen.",
+      "new_value": "Was für ein seltsames Schicksal, von neuer Bewusstwerdung zu Ausgestoßenen mit keinen Schritten dazwischen. Aber wenn das ihr Wille ist und du für sie einstehst, ist das genug für mich. Sag den Slynth, dass der Wind ihnen in den Rücken blasen wird, sollten sie sich zum Wandern entschließen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "00391fdaf4bbb556",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Lulihart.Job seeker.WhoChoice.Text|Who are you?",
+      "context": "Conversation Lulihart.Job seeker.WhoChoice.Text",
+      "old_value": "Wer seid Ihr?",
+      "new_value": "Wer bist du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "17a14f0e7a639135",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Lulihart.Why Not.WhoChoice.Text|Who are you?",
+      "context": "Conversation Lulihart.Why Not.WhoChoice.Text",
+      "old_value": "Wer seid Ihr?",
+      "new_value": "Wer bist du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0317fbbcdd9d00ed",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Angohind.Start.How did you know?Choice.Text|How did you know all that?",
+      "context": "Conversation Angohind.Start.How did you know?Choice.Text",
+      "old_value": "Woher wusstet Ihr das alles?",
+      "new_value": "Woher wusstest du das alles?",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

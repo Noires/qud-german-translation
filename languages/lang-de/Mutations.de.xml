@@ -3,22 +3,22 @@
   <category Name="Morphotypes" DisplayName="{{W|Morphotypen}}">
     <mutation Name="Chimera" DisplayName="Chimäre">
       <description>
-        <p>Ihr manifestiert nur körperliche Mutationen, und alle Eure Mutationsauswahlen beim Manifestieren einer neuen Mutation sind körperlich.</p>
+        <p>Du manifestierst nur körperliche Mutationen, und alle deine Mutationsauswahlen beim Manifestieren einer neuen Mutation sind körperlich.</p>
         <br />
-        <p>Immer wenn Ihr eine neue Mutation manifestiert, lässt eine Eurer Auswahlmöglichkeiten Euch außerdem zufällig ein neues Gliedmaß wachsen.</p>
+        <p>Immer wenn du eine neue Mutation manifestierst, lässt eine deiner Auswahlmöglichkeiten dich außerdem zufällig ein neues Gliedmaß wachsen.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Esper" DisplayName="Esper">
       <description>
-        <p>Ihr manifestiert nur mentale Mutationen, und alle Eure Mutationsauswahlen beim Manifestieren einer neuen Mutation sind mental.</p>
+        <p>Du manifestierst nur mentale Mutationen, und alle deine Mutationsauswahlen beim Manifestieren einer neuen Mutation sind mental.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Unstable Genome" DisplayName="Instabiles Genom">
       <description>
-        <p>Ihr erhaltet jedes Mal, wenn Ihr dies kauft, eine zusätzliche Mutation, doch die Mutationen manifestieren sich nicht sofort.</p>
-        <p>Immer wenn Ihr eine Stufe aufsteigt, besteht eine Chance von 33 %, dass sich Euer Genom destabilisiert und Ihr aus 3 zufälligen Mutationen wählen dürft.</p>
+        <p>Du erhältst jedes Mal, wenn du dies kaufst, eine zusätzliche Mutation, doch die Mutationen manifestieren sich nicht sofort.</p>
+        <p>Immer wenn du eine Stufe aufsteigst, besteht eine Chance von 33 %, dass sich dein Genom destabilisiert und du aus 3 zufälligen Mutationen wählen darfst.</p>
       </description>
       <leveltext />
     </mutation>
@@ -26,7 +26,7 @@
   <category Name="Physical" DisplayName="{{G|Physische Mutationen}}">
     <mutation Name="Adrenal Control" DisplayName="Adrenalin-Kontrolle" BearerDescription="jene mit Kontrolle über ihre Nebennieren">
       <description>
-        <p>Ihr reguliert die Ausschüttung von Adrenalin in Eurem Körper.</p>
+        <p>Du regulierst die Ausschüttung von Adrenalin in deinem Körper.</p>
       </description>
       <leveltext>
         <p>Ihr könnt den Adrenalinfluss Eures Körpers für <stat Name="Duration" /> steigern.</p>
@@ -39,7 +39,7 @@
         <p>Euer Gesicht ziert ein ansehnlicher <stat Name="BeakName" />.</p>
         <br />
         <p>+1 Ego</p>
-        <p>Gelegentlich pickt Ihr nach Euren Gegnern.</p>
+        <p>Gelegentlich pickst du nach deinen Gegnern.</p>
         <p>
           <gametext>+200 Ruf bei {{w|=faction:Birds=}}</gametext>
         </p>
@@ -48,7 +48,7 @@
     </mutation>
     <mutation Name="Burrowing Claws" DisplayName="Grabekrallen" BearerDescription="Gräber">
       <description>
-        <p>Ihr habt spatenartige Krallen, die sich durch die Erde graben können.</p>
+        <p>Du hast spatenartige Krallen, die sich durch die Erde graben können.</p>
       </description>
       <leveltext>
         <p>
@@ -68,7 +68,7 @@
     </mutation>
     <mutation Name="Carapace" DisplayName="Panzer" BearerDescription="die Gepanzerten">
       <description>
-        <p>Ihr seid durch einen widerstandsfähigen Panzer geschützt.</p>
+        <p>Du bist durch einen widerstandsfähigen Panzer geschützt.</p>
       </description>
       <leveltext>
         <p>
@@ -111,7 +111,7 @@
     </mutation>
     <mutation Name="Double-muscled" DisplayName="Doppelmuskelig" BearerDescription="die Doppelmuskulösen">
       <description>
-        <p>Ihr besitzt eine gewaltige Kraft.</p>
+        <p>Du besitzt eine gewaltige Kraft.</p>
       </description>
       <leveltext>
         <p>+<stat Name="Strength" /> Stärke</p>
@@ -121,7 +121,7 @@
     </mutation>
     <mutation Name="Electrical Generation" DisplayName="Stromerzeugung" BearerDescription="jene, die Elektrizität erzeugen">
       <description>
-        <p>Ihr sammelt elektrische Ladung an, die Ihr nutzen und entladen könnt, um Schaden zu verursachen.</p>
+        <p>Du sammelst elektrische Ladung an, die du nutzen und entladen kannst, um Schaden zu verursachen.</p>
       </description>
       <leveltext>
         <p>Maximale Ladung: <stat Name="MaxCharge" />
@@ -132,19 +132,19 @@
         <p>EMP verursacht eine unfreiwillige Entladung (Willenskraft-Rettungswurf Schwierigkeit 18)</p>
         <switch Name="CanDrinkTransient">
           <case Value="true">
-            <p>Ihr könnt Ladung aus elektrischen Energiequellen trinken.</p>
+            <p>Du kannst Ladung aus elektrischen Energiequellen trinken.</p>
           </case>
           <default>
-            <p>Ihr könnt Ladung aus Energiezellen und Kondensatoren trinken.</p>
+            <p>Du kannst Ladung aus Energiezellen und Kondensatoren trinken.</p>
           </default>
         </switch>
         <p>Ihr erhaltet <stat Name="DamageAbsorbFactor" /> Ladung pro Punkt erlittenen elektrischen Schadens.</p>
-        <p>Ihr könnt ausgerüsteten Geräten mit integrierter Energieversorgung Ladung zuführen.</p>
+        <p>Du kannst ausgerüsteten Geräten mit integrierter Energieversorgung Ladung zuführen.</p>
       </leveltext>
     </mutation>
     <mutation Name="Electromagnetic Pulse" DisplayName="Elektromagnetischer Puls" BearerDescription="jene, die elektromagnetische Impulse aussenden">
       <description>
-        <p>Ihr erzeugt einen elektromagnetischen Puls, der Artefakte und Maschinen in der Nähe deaktiviert.</p>
+        <p>Du erzeugst einen elektromagnetischen Puls, der Artefakte und Maschinen in der Nähe deaktiviert.</p>
       </description>
       <leveltext>
         <p>Bereich: <stat Name="Area" /> um Euch herum zentriert</p>
@@ -186,7 +186,7 @@
     </mutation>
     <mutation Name="Heightened Hearing" DisplayName="Erhöhtes Gehör" BearerDescription="jene mit verbessertem Gehör">
       <description>
-        <p>Ihr besitzt ein unnatürlich scharfes Gehör.</p>
+        <p>Du besitzt ein unnatürlich scharfes Gehör.</p>
       </description>
       <leveltext>
         <p>Ihr spürt die Anwesenheit von Kreaturen in einem Radius von <stat Name="Radius" />.</p>
@@ -202,7 +202,7 @@
     </mutation>
     <mutation Name="Heightened Quickness" DisplayName="Erhöhte Schnelligkeit" BearerDescription="die Schnellen">
       <description>
-        <p>Ihr seid mit gewaltiger Geschwindigkeit gesegnet.</p>
+        <p>Du bist mit gewaltiger Geschwindigkeit gesegnet.</p>
       </description>
       <leveltext>
         <p>+<stat Name="SpeedBonus" /> Schnelligkeit</p>
@@ -211,11 +211,11 @@
     <mutation Name="Horns" DisplayName="Hörner" BearerDescription="die Gehörnten">
       <description>
         <p>
-          <gametext>=horns.A.name.or.plural= =horns.verb:jut= aus Eurem Kopf heraus.</gametext>
+          <gametext>=horns.A.name.or.plural= =horns.verb:jut= aus deinem Kopf heraus.</gametext>
         </p>
       </description>
       <leveltext>
-        <p>20% Chance bei einem Nahkampfangriff, Euren Gegner aufzuspießen</p>
+        <p>20% Chance bei einem Nahkampfangriff, deinen Gegner aufzuspießen</p>
         <statline Name="Damage" DisplayName="Schadenserhöhung" />
         <statline Name="ToHitBonus" DisplayName="Trefferbonus" />
         <switch Name="LevelMode">
@@ -241,7 +241,7 @@
     </mutation>
     <mutation Name="Metamorphosis" DisplayName="Metamorphose" BearerDescription="Gestaltwandler">
       <description>
-        <p>Ihr nehmt die Gestalt jeder Kreatur an, die Ihr berührt.</p>
+        <p>Du nimmst die Gestalt jeder Kreatur an, die du berührst.</p>
       </description>
       <leveltext>
         <p>Könnt nur die Gestalt von Kreaturen der Stufe <stat Name="MaxLevel" /> oder niedriger annehmen.</p>
@@ -250,7 +250,7 @@
     </mutation>
     <mutation Name="Multiple Arms" DisplayName="Mehrere Arme" BearerDescription="die Vielarmigen">
       <description>
-        <p>Ihr habt einen zusätzlichen Satz Arme.</p>
+        <p>Du hast einen zusätzlichen Satz Arme.</p>
       </description>
       <leveltext>
         <p>
@@ -259,7 +259,7 @@
     </mutation>
     <mutation Name="Multiple Legs" DisplayName="Mehrere Beine" BearerDescription="die Vielbeinigen">
       <description>
-        <p>Ihr habt einen zusätzlichen Satz Beine.</p>
+        <p>Du hast einen zusätzlichen Satz Beine.</p>
       </description>
       <leveltext>
         <p>+<stat Name="MoveSpeed" /> Bewegungsgeschwindigkeit</p>
@@ -268,13 +268,13 @@
     </mutation>
     <mutation Name="Night Vision" DisplayName="Nachtsicht" BearerDescription="die Dunkelsichtigen">
       <description>
-        <p>Ihr seht im Dunkeln.</p>
+        <p>Du siehst im Dunkeln.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Phasing" DisplayName="Phasenwechsel" BearerDescription="jene, die phasen">
       <description>
-        <p>Ihr könnt für kurze Zeitspannen durch feste Objekte phasen.</p>
+        <p>Du kannst für kurze Zeitspannen durch feste Objekte phasen.</p>
       </description>
       <leveltext>
         <statline Name="Duration" DisplayName="Dauer" />
@@ -283,7 +283,7 @@
     </mutation>
     <mutation Name="Photosynthetic Skin" DisplayName="Photosynthetische Haut" BearerDescription="die Grünhäutigen">
       <description>
-        <p>Ihr regeneriert Euch, indem Ihr durch Eure kräftige grüne Haut Sonnenlicht aufnehmt.</p>
+        <p>Du regenerierst dich, indem du durch deine kräftige grüne Haut Sonnenlicht aufnimmst.</p>
       </description>
       <leveltext>
         <p>Ihr könnt Euch <stat Name="DurationDay" Unit="day" /> lang im Sonnenlicht aalen, anstatt eine Mahlzeit zu essen, um einen besonderen Stoffwechseleffekt zu erhalten: +<stat Name="BonusRegen" /> auf die natürliche Heilungsrate und +<stat Name="BonusQuickness" /> Schnelligkeit</p>
@@ -294,7 +294,7 @@
     </mutation>
     <mutation Name="Quills" DisplayName="Federn" BearerDescription="die Stacheligen">
       <description>
-        <p>Hunderte nadelspitzer Stacheln bedecken Euren Körper.</p>
+        <p>Hunderte nadelspitzer Stacheln bedecken deinen Körper.</p>
       </description>
       <leveltext>
         <switch Name="LevelMatch">
@@ -320,17 +320,17 @@
     </mutation>
     <mutation Name="Regeneration" DisplayName="Regeneration" BearerDescription="jene, die sich regenerieren">
       <description>
-        <p>Eure Wunden heilen sehr schnell.</p>
+        <p>Deine Wunden heilen sehr schnell.</p>
       </description>
       <leveltext>
-        <p>Eure volle natürliche Heilungsrate gilt auch im Kampf.</p>
+        <p>Deine volle natürliche Heilungsrate gilt auch im Kampf.</p>
         <p>+<stat Name="RegenBonus" />% schnellere natürliche Heilungsrate</p>
         <p>
           <stat Name="RegenChance" />% Chance, jede Runde ein fehlendes Gliedmaß nachwachsen zu lassen</p>
         <switch Name="NoDecapitate">
           <case Value="false" />
           <default>
-            <p>{{rules|Ihr könnt nicht enthauptet werden.}}</p>
+            <p>{{rules|Du kannst nicht enthauptet werden.}}</p>
           </default>
         </switch>
         <switch Name="LevelBelow5">
@@ -366,22 +366,22 @@
     </mutation>
     <mutation Name="Slime Glands" DisplayName="Schleimdüsen" BearerDescription="Schleimspucker">
       <description>
-        <p>Ihr erzeugt einen zähflüssigen Schleim, den Ihr auf Dinge spucken könnt.</p>
+        <p>Du erzeugst einen zähflüssigen Schleim, den du auf Dinge spucken kannst.</p>
         <br />
         <p>Bedeckt ein Gebiet mit Schleim</p>
         <statline Name="Range" DisplayName="Reichweite" />
         <statline Name="Area" DisplayName="Bereich" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
-        <p>Ihr könnt über Schleim laufen, ohne auszurutschen.</p>
+        <p>Du kannst über Schleim laufen, ohne auszurutschen.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Spinnerets" DisplayName="Spinndrüsen" BearerDescription="Netzweber">
       <description>
-        <p>Ihr könnt klebrige Seidennetze spinnen.</p>
+        <p>Du kannst klebrige Seidennetze spinnen.</p>
       </description>
       <leveltext>
-        <p>Während Ihr spinnt, hinterlasst Ihr beim Bewegen Netze in Eurer Spur.</p>
+        <p>Während du spinnst, hinterlässt du beim Bewegen Netze in deiner Spur.</p>
         <switch Name="LevelMatch">
           <case Value="true" />
           <default>
@@ -391,7 +391,7 @@
         <statline Name="SpinDuration" DisplayName="Duration" Unit="move action" />
         <saveline Name="MoveSave" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
-        <p>Ihr seid immun dagegen, festzustecken.</p>
+        <p>Du bist immun dagegen, festzustecken.</p>
         <p>+300 Ruf bei {{w|Spinnentieren}}</p>
       </leveltext>
     </mutation>
@@ -404,8 +404,8 @@
           </gametext>)</p>
         <p>Der Stachel ist eine lange Klinge und kann nur einmal durchdringen.</p>
         <p>Sticht immer bei einem Ansturm oder Ausfallschritt.</p>
-        <p>Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel Eure Hauptwaffe ist).</p>
-        <p>Ihr könnt die aktivierte Fähigkeit Stechen benutzen, um mit Eurem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.</p>
+        <p>Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel deine Hauptwaffe ist).</p>
+        <p>Du kannst die aktivierte Fähigkeit Stechen benutzen, um mit deinem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.</p>
         <statline Name="Cooldown" DisplayName="Sting cooldown" />
         <p>Gift verwirrt Gegner für <stat Name="Duration" />
         </p>
@@ -421,8 +421,8 @@
           </gametext>)</p>
         <p>Der Stachel ist eine lange Klinge und kann nur einmal durchdringen.</p>
         <p>Sticht immer bei einem Ansturm oder Ausfallschritt.</p>
-        <p>Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel Eure Hauptwaffe ist).</p>
-        <p>Ihr könnt die aktivierte Fähigkeit Stechen benutzen, um mit Eurem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.</p>
+        <p>Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel deine Hauptwaffe ist).</p>
+        <p>Du kannst die aktivierte Fähigkeit Stechen benutzen, um mit deinem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.</p>
         <statline Name="Cooldown" DisplayName="Sting cooldown" />
         <p>Gift lähmt Gegner für <stat Name="Duration" />
         </p>
@@ -438,8 +438,8 @@
           </gametext>)</p>
         <p>Der Stachel ist eine lange Klinge und kann nur einmal durchdringen.</p>
         <p>Sticht immer bei einem Ansturm oder Ausfallschritt.</p>
-        <p>Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel Eure Hauptwaffe ist).</p>
-        <p>Ihr könnt die aktivierte Fähigkeit Stechen benutzen, um mit Eurem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.</p>
+        <p>Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel deine Hauptwaffe ist).</p>
+        <p>Du kannst die aktivierte Fähigkeit Stechen benutzen, um mit deinem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.</p>
         <statline Name="Cooldown" DisplayName="Sting cooldown" />
         <p>Gift vergiftet Gegner für <stat Name="Duration" /> (Schadensinkrement <stat Name="PoisonDamage" />)</p>
         <p>+200 Ruf bei {{w|Spinnentieren}}</p>
@@ -447,7 +447,7 @@
     </mutation>
     <mutation Name="Thick Fur" DisplayName="Dichtes Fell" BearerDescription="die Dichtbepelzten">
       <description>
-        <p>Ihr seid von einem dicken Pelz bedeckt, der Euch vor den Elementen schützt.</p>
+        <p>Du bist von einem dicken Pelz bedeckt, der dich vor den Elementen schützt.</p>
         <p />
         <p>+5 Hitzeresistenz</p>
         <p>+5 Kälteresistenz</p>
@@ -457,7 +457,7 @@
     </mutation>
     <mutation Name="Triple-jointed" DisplayName="Dreifach gelenkig" BearerDescription="die Dreifachgelenkigen">
       <description>
-        <p>Eure Gelenke dehnen sich viel weiter als gewöhnlich.</p>
+        <p>Deine Gelenke dehnen sich viel weiter als gewöhnlich.</p>
       </description>
       <leveltext>
         <p>+<stat Name="Agility" /> Gewandtheit</p>
@@ -467,7 +467,7 @@
     </mutation>
     <mutation Name="Two-headed" DisplayName="Zweikopfig" BearerDescription="die Zweiköpfigen">
       <description>
-        <p>Ihr habt zwei Köpfe.</p>
+        <p>Du hast zwei Köpfe.</p>
       </description>
       <leveltext>
         <p>Mentale Handlungen haben <stat Name="MentalActionDiscount" />% geringere Aktionskosten</p>
@@ -477,7 +477,7 @@
     </mutation>
     <mutation Name="Two-hearted" DisplayName="Doppelherzig" BearerDescription="die Zweiherzigen">
       <description>
-        <p>Ihr habt zwei Herzen.</p>
+        <p>Du hast zwei Herzen.</p>
       </description>
       <leveltext>
         <p>+<stat Name="Toughness" /> Zähigkeit</p>
@@ -486,13 +486,13 @@
     </mutation>
     <mutation Name="Wings" DisplayName="Flügel" BearerDescription="die Geflügelten">
       <description>
-        <p>Ihr fliegt.</p>
+        <p>Du fliegst.</p>
       </description>
       <leveltext>
         <p>Ihr reist auf der Weltkarte mit <stat Name="WorldMapTravelSpeed" />-facher Geschwindigkeit.</p>
         <p>
           <stat Name="LostSaveBonus" />% geringere Chance, Euch zu verirren</p>
-        <p>Im Freien könnt Ihr fliegen. Während Ihr fliegt, könnt Ihr von bodengebundenen Kreaturen nicht im Nahkampf getroffen werden.</p>
+        <p>Im Freien kannst du fliegen. Während du fliegst, kannst du von bodengebundenen Kreaturen nicht im Nahkampf getroffen werden.</p>
         <p>
           <stat Name="CrashChance" />% Chance, unsanft zu Boden zu stürzen</p>
         <p>
@@ -506,7 +506,7 @@
   <category Name="PhysicalDefects" DisplayName="{{R|Körperliche Mängel}}">
     <mutation Name="Albino" DisplayName="Albino" BearerDescription="Albinos">
       <description>
-        <p>Eurer Haut, Eurem Haar und Euren Augen fehlt jegliches Pigment.</p>
+        <p>Deiner Haut, deinem Haar und deinen Augen fehlt jegliches Pigment.</p>
         <br />
         <p>Bei Tageslicht regeneriert Ihr Trefferpunkte nur mit einem Fünftel der üblichen Rate.</p>
       </description>
@@ -514,57 +514,57 @@
     </mutation>
     <mutation Name="Amphibious" DisplayName="Amphibisch" BearerDescription="die Amphibischen">
       <description>
-        <p>Eure Haut muss mit Süßwasser feucht gehalten werden.</p>
+        <p>Deine Haut muss mit Süßwasser feucht gehalten werden.</p>
         <br />
-        <p>Ihr gießt Euch Wasser über den Kopf, anstatt es zu trinken, um Euren Durst zu stillen.</p>
-        <p>Ihr benötigt etwa zwei Drittel mehr Wasser als gewöhnlich.</p>
+        <p>Du gießt dir Wasser über den Kopf, anstatt es zu trinken, um deinen Durst zu stillen.</p>
+        <p>Du benötigst etwa zwei Drittel mehr Wasser als gewöhnlich.</p>
         <p>+100 Ansehen bei {{w|Fröschen}}</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Brittle Bones" DisplayName="Brüchige Knochen" BearerDescription="die Brüchigknochigen">
       <description>
-        <p>Eure Knochen sind brüchig.</p>
+        <p>Deine Knochen sind brüchig.</p>
         <br />
-        <p>Ihr erleidet 50% mehr Schaden durch stumpfe Angriffe, Stürze und andere Quellen von Wucht-Schaden.</p>
+        <p>Du erleidest 50% mehr Schaden durch stumpfe Angriffe, Stürze und andere Quellen von Wucht-Schaden.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Nerve Poppy" DisplayName="Nerven-Mohn" BearerDescription="jene, die keinen Schmerz empfinden können">
       <description>
-        <p>Euch fehlt ein ausgeprägter Schmerzsinn.</p>
+        <p>Dir fehlt ein ausgeprägter Schmerzsinn.</p>
         <br />
-        <p>Ihr kennt nur Euren allgemeinen Gesundheitszustand, nicht aber Eure genaue Anzahl an Trefferpunkten.</p>
+        <p>Du kennst nur deinen allgemeinen Gesundheitszustand, nicht aber deine genaue Anzahl an Trefferpunkten.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Carnivorous" DisplayName="Fleischfressend" BearerDescription="die Fleischfressenden">
       <description>
-        <p>Ihr esst ausschließlich Fleisch.</p>
+        <p>Du isst ausschließlich Fleisch.</p>
         <br />
-        <p>Ihr erhaltet keine Sättigung von Speisen, die kein Fleisch sind.</p>
-        <p>Wenn Ihr rohe Nahrung esst, die kein Fleisch ist, besteht eine 50%ige Chance, dass Ihr für 2 Stunden krank werdet.</p>
-        <p>Ihr könnt nicht mit pflanzlichen oder pilzlichen Zutaten kochen.</p>
-        <p>Ihr werdet nicht krank, wenn Ihr rohes Fleisch esst.</p>
-        <p>Ihr könnt rohes Fleisch essen, ohne ausgehungert zu sein.</p>
+        <p>Du erhältst keine Sättigung von Speisen, die kein Fleisch sind.</p>
+        <p>Wenn du rohe Nahrung isst, die kein Fleisch ist, besteht eine 50%ige Chance, dass du für 2 Stunden krank wirst.</p>
+        <p>Du kannst nicht mit pflanzlichen oder pilzlichen Zutaten kochen.</p>
+        <p>Du wirst nicht krank, wenn du rohes Fleisch isst.</p>
+        <p>Du kannst rohes Fleisch essen, ohne ausgehungert zu sein.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Cold-Blooded" DisplayName="Kaltblütig" BearerDescription="die Kaltblütigen">
       <description>
-        <p>Eure Vitalität hängt von Eurer Temperatur ab; bei höheren Temperaturen seid Ihr lebendiger. Bei niedrigeren Temperaturen seid Ihr träger.</p>
+        <p>Deine Vitalität hängt von deiner Temperatur ab; bei höheren Temperaturen bist du lebendiger. Bei niedrigeren Temperaturen bist du träger.</p>
         <br />
-        <p>Euer Grundwert für Schnelligkeit ist um 10 verringert.</p>
-        <p>Eure Schnelligkeit steigt, wenn Eure Temperatur steigt, und sinkt, wenn Eure Temperatur sinkt.</p>
+        <p>Dein Grundwert für Schnelligkeit ist um 10 verringert.</p>
+        <p>Deine Schnelligkeit steigt, wenn deine Temperatur steigt, und sinkt, wenn deine Temperatur sinkt.</p>
         <p>+100 Ruf bei {{w|ungeschälten Reptilien}}</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Electromagnetic Impulse" DisplayName="Elektromagnetischer Impuls" BearerDescription="jene, die ihre elektromagnetischen Impulse nicht kontrollieren können">
       <description>
-        <p>Ihr setzt unwillkürlich elektromagnetische Impulse frei, die Roboter und Artefakte in Eurer Umgebung deaktivieren.</p>
+        <p>Du setzt unwillkürlich elektromagnetische Impulse frei, die Roboter und Artefakte in deiner Umgebung deaktivieren.</p>
         <br />
-        <p>Es besteht eine geringe Chance pro Runde im Kampf, dass Ihr einen elektromagnetischen Impuls mit einem Radius von 3 freisetzt, der Roboter und Artefakte (einschließlich der von Euch getragenen) für 11-20 Runden deaktiviert.</p>
+        <p>Es besteht eine geringe Chance pro Runde im Kampf, dass du einen elektromagnetischen Impuls mit einem Radius von 3 freisetzt, der Roboter und Artefakte (einschließlich der von dir getragenen) für 11-20 Runden deaktiviert.</p>
       </description>
       <leveltext />
     </mutation>
@@ -572,41 +572,41 @@
       <description>
         <p>Ihr habt <stat Name="BlueprintName" /> als Füße.</p>
         <br />
-        <p>Ihr könnt keine Schuhe tragen.</p>
+        <p>Du kannst keine Schuhe tragen.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Irritable Genome" DisplayName="Reizbare Genoma" BearerDescription="jene mit reizbaren Genomen">
       <description>
-        <p>Euer Genom ist reizbar und unberechenbar.</p>
+        <p>Dein Genom ist reizbar und unberechenbar.</p>
         <br />
-        <p>Immer wenn Ihr einen Mutationspunkt ausgebt, wird der nächste Mutationspunkt, den Ihr erhaltet, zufällig ausgegeben.</p>
-        <p>Immer wenn Ihr eine neue Mutation kauft, erhaltet Ihr eine zufällige anstelle einer Auswahl von dreien.</p>
+        <p>Immer wenn du einen Mutationspunkt ausgibst, wird der nächste Mutationspunkt, den du erhältst, zufällig ausgegeben.</p>
+        <p>Immer wenn du eine neue Mutation kaufst, erhältst du eine zufällige anstelle einer Auswahl von dreien.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Myopic" DisplayName="Kurzsichtig" BearerDescription="die Kurzsichtigen">
       <description>
-        <p>Ihr seid kurzsichtig.</p>
+        <p>Du bist kurzsichtig.</p>
         <br />
-        <p>Ihr könnt nur bis zu einem Radius von 10 sehen.</p>
+        <p>Du kannst nur bis zu einem Radius von 10 sehen.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Spontaneous Combustion" DisplayName="Spontane Verbrennung" BearerDescription="jene, die spontan in Flammen aufgehen">
       <description>
-        <p>Ihr geratet spontan in Flammen.</p>
+        <p>Du gerätst spontan in Flammen.</p>
         <br />
-        <p>Es besteht eine geringe Chance pro Runde im Kampf, dass Ihr spontan in Flammen geratet.</p>
+        <p>Es besteht eine geringe Chance pro Runde im Kampf, dass du spontan in Flammen gerätst.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Tonic Allergy" DisplayName="Tonik-Allergie" BearerDescription="die Allergischen">
       <description>
-        <p>Ihr seid allergisch gegen Tonika.</p>
+        <p>Du bist allergisch gegen Tonika.</p>
         <br />
-        <p>Die Chance, dass Eure mutierte Physiologie negativ auf ein Tonikum reagiert, erhöht sich auf 33%.</p>
-        <p>Wenn Ihr auf diese Weise negativ auf eine Salbe oder ein Ubernostrum-Tonikum reagiert, wird der negative Reaktionseffekt zufällig aus den anderen Tonikum-Effekten gewählt. Ihr werdet trotzdem heilen.</p>
+        <p>Die Chance, dass deine mutierte Physiologie negativ auf ein Tonikum reagiert, erhöht sich auf 33%.</p>
+        <p>Wenn du auf diese Weise negativ auf eine Salbe oder ein Ubernostrum-Tonikum reagierst, wird der negative Reaktionseffekt zufällig aus den anderen Tonikum-Effekten gewählt. Du wirst trotzdem heilen.</p>
       </description>
       <leveltext />
     </mutation>
@@ -614,7 +614,7 @@
   <category Name="Mental" DisplayName="{{G|Mentale Mutationen}}">
     <mutation Name="Beguiling" DisplayName="Betörend" BearerDescription="Betörer" BiomeEpithet="Lobrede">
       <description>
-        <p>Ihr bezirzt eine nahe Kreatur, sodass sie Euch treu dient.</p>
+        <p>Du bezirzt eine nahe Kreatur, sodass sie dir treu dient.</p>
       </description>
       <leveltext>
         <p>Mentalangriff gegen eine Kreatur mit einem Verstand</p>
@@ -626,7 +626,7 @@
     </mutation>
     <mutation Name="Burgeoning" DisplayName="Gedeihend" BearerDescription="psychische Gärtner" BiomeAdjective="gedeihend">
       <description>
-        <p>Ihr lasst Pflanzen in einem nahen Bereich spontan wachsen und behindert damit Eure Feinde.</p>
+        <p>Du lässt Pflanzen in einem nahen Bereich spontan wachsen und behinderst damit deine Feinde.</p>
       </description>
       <leveltext>
         <statline Name="Range" DisplayName="Reichweite" />
@@ -643,7 +643,7 @@
     </mutation>
     <mutation Name="Clairvoyance" DisplayName="Hellsehen" BearerDescription="die Hellsichtigen" BiomeEpithet="Panoptikum">
       <description>
-        Kurzzeitig erhaltet Ihr Sicht auf einen nahen Bereich.
+        Kurzzeitig erhältst du Sicht auf einen nahen Bereich.
       </description>
       <leveltext>
         <statline Name="VisionRadius" DisplayName="Vision radius" />
@@ -653,7 +653,7 @@
     </mutation>
     <mutation Name="Confusion" DisplayName="Verwirrung" BearerDescription="Rätselsteller" BiomeEpithet="psychisches Labyrinth">
       <description>
-        Ihr verwirrt Feinde in der Nähe.
+        Du verwirrst Feinde in der Nähe.
       </description>
       <leveltext>
         <p>Betroffene Kreaturen handeln halb zufällig und erhalten einen -<stat Name="Penalty" /> Malus auf ihre mentalen Fähigkeiten.</p>
@@ -665,7 +665,7 @@
     </mutation>
     <mutation Name="Cryokinesis" DisplayName="Kryokinese" BearerDescription="Kryomanten" BiomeEpithet="Frostwiese">
       <description>
-        Ihr kühlt mit Eurem Verstand ein Gebiet in der Nähe ab.
+        Du kühlst mit deinem Verstand ein Gebiet in der Nähe ab.
       </description>
       <leveltext>
         <switch Name="LevelMatch">
@@ -689,19 +689,19 @@
     </mutation>
     <mutation Name="Disintegration" DisplayName="Desintegration" BearerDescription="Desintegratoren" BiomeAdjective="schnell resonierend">
       <description>
-        Ihr desintegriert Materie in der Nähe.
+        Du desintegrierst Materie in der Nähe.
       </description>
       <leveltext>
         <statline Name="Area" DisplayName="Fläche" />
         <statline Name="DamageNonStructural" DisplayName="Schaden an nicht-strukturellen Objekten" />
         <statline Name="DamageStructural" DisplayName="Schaden an strukturellen Objekten" />
-        <p>Ihr seid nach dem Einsatz dieser Kraft für 3 Runden erschöpft.</p>
+        <p>Du bist nach dem Einsatz dieser Kraft für 3 Runden erschöpft.</p>
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
     </mutation>
     <mutation Name="Domination" DisplayName="Beherrschung" BearerDescription="jene, die den Willen anderer beherrschen" BiomeEpithet="Theater der Willen">
       <description>
-        <p>Ihr garottiert den Verstand einer angrenzenden Kreatur und kontrolliert ihre Handlungen, während Euer eigener Körper ruht.</p>
+        <p>Du garottierst den Verstand einer angrenzenden Kreatur und kontrollierst ihre Handlungen, während dein eigener Körper ruht.</p>
       </description>
       <leveltext>
         <p>Mentaler Angriff gegen eine Kreatur mit einem Verstand</p>
@@ -713,39 +713,39 @@
     </mutation>
     <mutation Name="Ego Projection" DisplayName="Ego-Projektion" BearerDescription="jene, die ihr Ego in die physische Welt projizieren" BiomeAdjective="psychisch lichtbrechend">
       <description>
-        Durch pure Willenskraft vollbringt Ihr unheimliche körperliche Meisterleistungen.
+        Durch pure Willenskraft vollbringst du unheimliche körperliche Meisterleistungen.
       </description>
       <leveltext>
-        <p>Erhöht ein körperliches Attribut um einen Betrag, der doppelt so hoch ist wie Euer Ego-Bonus</p>
+        <p>Erhöht ein körperliches Attribut um einen Betrag, der doppelt so hoch ist wie dein Ego-Bonus</p>
         <statline Name="Duration" DisplayName="Dauer" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
     </mutation>
     <mutation Name="Force Bubble" DisplayName="Kraftblase" BearerDescription="Blasenvolk" BiomeAdjective="blasig">
       <description>
-        Ihr erzeugt ein Kraftfeld um Euch herum.
+        Du erzeugst ein Kraftfeld um dich herum.
       </description>
       <leveltext>
-        <p>Erzeugt ein 3x3 großes Kraftfeld, das auf Euch zentriert ist</p>
+        <p>Erzeugt ein 3x3 großes Kraftfeld, das auf dich zentriert ist</p>
         <statline Name="Duration" DisplayName="Dauer" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
-        <p>Ihr könnt Fernkampfwaffen durch das Kraftfeld abfeuern.</p>
+        <p>Du kannst Fernkampfwaffen durch das Kraftfeld abfeuern.</p>
       </leveltext>
     </mutation>
     <mutation Name="Force Wall" DisplayName="Kraftwand" BearerDescription="Architekten der Kraftwände" BiomeEpithet="Kraftbastion">
       <description>
-        Ihr erzeugt eine Kraftmauer, die Euch vor Euren Feinden schützt.
+        Du erzeugst eine Kraftmauer, die dich vor deinen Feinden schützt.
       </description>
       <leveltext>
         <p>Erzeugt 9 zusammenhängende Felder aus unbeweglichem Kraftfeld.</p>
         <statline Name="Duration" DisplayName="Dauer" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
-        <p>Ihr könnt Fernkampfwaffen durch das Kraftfeld abfeuern.</p>
+        <p>Du kannst Fernkampfwaffen durch das Kraftfeld abfeuern.</p>
       </leveltext>
     </mutation>
     <mutation Name="Kindle" DisplayName="Kindle" BearerDescription="Entzünder" BiomeAdjective="entzündend">
       <description>
-        <p>Ihr entfacht mit Eurem Verstand ein kleines Feuer.</p>
+        <p>Du entfachst mit deinem Verstand ein kleines Feuer.</p>
         <br />
         <statline Name="Range" DisplayName="Reichweite" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -754,11 +754,11 @@
     </mutation>
     <mutation Name="Light Manipulation" DisplayName="Lichtmanipulation" BearerDescription="Manipulatoren des Lichts" BiomeAdjective="erleuchtet">
       <description>
-        <p>Ihr manipuliert Licht zu Eurem Vorteil.</p>
+        <p>Du manipulierst Licht zu deinem Vorteil.</p>
       </description>
       <leveltext>
         <p>Ihr erzeugt Umgebungslicht im Umkreis von <stat Name="Radius" />.</p>
-        <p>Ihr könnt das Licht in einen Laserstrahl bündeln und dabei den Radius Eures Umgebungslichts vorübergehend um 1 verringern.</p>
+        <p>Du kannst das Licht in einen Laserstrahl bündeln und dabei den Radius deines Umgebungslichts vorübergehend um 1 verringern.</p>
         <statline Name="LaserDamageInc" DisplayName="Laser-Schadensinkrement" />
         <statline Name="LaserPen" DisplayName="Laser-Durchdringung" />
         <p>Umgebungslicht lädt sich mit einer Rate von 1 Einheit pro <stat Name="AmbientRegrowthDuration" Unit="Runde" /> auf, bis es seinen Maximalwert erreicht.</p>
@@ -768,7 +768,7 @@
     </mutation>
     <mutation Name="Mass Mind" DisplayName="Massenhirn" BearerDescription="jene, die den Massengeist anzapfen" BiomeEpithet="Geistversammlung">
       <description>
-        <p>Ihr zapft den kollektiven Verstand an und stehlt Kraft von anderen Espern.</p>
+        <p>Du zapfst den kollektiven Verstand an und stiehlst Kraft von anderen Espern.</p>
       </description>
       <leveltext>
         <p>Aktualisiert alle mentalen Mutationen</p>
@@ -777,10 +777,10 @@
         <p>Jede Verwendung zieht etwas mehr Aufmerksamkeit von psychischen Eindringlingen an.</p>
         <switch Name="LevelMatch">
           <case Value="true">
-            <p>Geringe Chance pro Runde, dass ein anderer Esper Eure Kräfte stiehlt</p>
+            <p>Geringe Chance pro Runde, dass ein anderer Esper deine Kräfte stiehlt</p>
           </case>
           <default>
-            <p>{{rules|Verringerte Chance, dass ein anderer Esper Eure Kräfte stiehlt}}</p>
+            <p>{{rules|Verringerte Chance, dass ein anderer Esper deine Kräfte stiehlt}}</p>
           </default>
         </switch>
         <p>-200 Ruf bei {{w|den Suchern des Sichtlosen Weges}}</p>
@@ -788,20 +788,20 @@
     </mutation>
     <mutation Name="Mental Mirror" DisplayName="Geistiger Spiegel" BearerDescription="die mental Reflektierenden" BiomeEpithet="Spiegelsteppe">
       <description>
-        <p>Ihr reflektiert mentale Angriffe zurück auf Eure Angreifer.</p>
+        <p>Du reflektierst mentale Angriffe zurück auf deine Angreifer.</p>
       </description>
       <leveltext>
         <p>Wenn Ihr einen mentalen Angriff erleidet, während Mentaler Spiegel nicht abklingt, erhaltet Ihr +<stat Name="BonusMA" /> mentale Rüstung (MA).</p>
-        <p>Wenn der Angriff daraufhin Eure MA nicht durchdringt, wird er auf Euren Angreifer zurückreflektiert.</p>
+        <p>Wenn der Angriff daraufhin deine MA nicht durchdringt, wird er auf deinen Angreifer zurückreflektiert.</p>
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
     </mutation>
     <mutation Name="Precognition" DisplayName="Präkognition" BearerDescription="die Hellsichtigen" BiomeEpithet="Zukunftsstätte">
       <description>
-        <p>Ihr blickt in Eure nahe Zukunft.</p>
+        <p>Du blickst in deine nahe Zukunft.</p>
       </description>
       <leveltext>
-        <p>Ihr könnt diese Kraft aktivieren und später zu dem Zeitpunkt zurückkehren, an dem Ihr sie aktiviert habt.</p>
+        <p>Du kannst diese Kraft aktivieren und später zu dem Zeitpunkt zurückkehren, an dem du sie aktiviert hast.</p>
         <p>Dauer zwischen Nutzung und Rückkehr: <stat Name="Duration" />
         </p>
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -809,17 +809,17 @@
     </mutation>
     <mutation Name="Psychometry" DisplayName="Psychometrie" BearerDescription="die psychometrisch Empfindsamen" BiomeAdjective="retrokognitiv">
       <description>
-        <p>Ihr lest die Geschichte von Artefakten, indem Ihr sie berührt, und erfahrt dabei, was sie bewirken und wie sie hergestellt wurden.</p>
+        <p>Du liest die Geschichte von Artefakten, indem du sie berührst, und erfährst dabei, was sie bewirken und wie sie hergestellt wurden.</p>
       </description>
       <leveltext>
         <p>Identifiziert Artefakte bis Komplexitätsstufe <stat Name="IdentifyComplexity" /> unfehlbar.</p>
         <p>Lernt, wie identifizierte Artefakte bis Komplexitätsstufe <stat Name="ConstructComplexity" /> gebaut werden (die passende Tüftler-Fertigkeit ist erforderlich).</p>
-        <p>Ihr könnt Sicherheitstüren öffnen und manche gesicherten Geräte durch Berührung benutzen.</p>
+        <p>Du kannst Sicherheitstüren öffnen und manche gesicherten Geräte durch Berührung benutzen.</p>
       </leveltext>
     </mutation>
     <mutation Name="Pyrokinesis" DisplayName="Pyrokinese" BearerDescription="Pyromanten" BiomeEpithet="Flammenwiese">
       <description>
-        <p>Ihr erhitzt ein nahes Gebiet mit Eurem Geist.</p>
+        <p>Du erhitzt ein nahes Gebiet mit deinem Geist.</p>
       </description>
       <leveltext>
         <switch Name="LevelMatch">
@@ -843,28 +843,28 @@
     </mutation>
     <mutation Name="Sense Psychic" DisplayName="Psychische Wahrnehmung" BearerDescription="die psychisch Empfindsamen" BiomeAdjective="nackt">
       <description>
-        <p>Ihr könnt andere mentale Mutanten durch den psychischen Äther spüren.</p>
+        <p>Du kannst andere mentale Mutanten durch den psychischen Äther spüren.</p>
         <br />
         <p>Ihr erkennt die Anwesenheit psychischer Feinde in einem Radius von <stat Name="Radius" />.</p>
-        <p>Es besteht eine Chance, dass Ihr erkannte Feinde identifiziert.</p>
+        <p>Es besteht eine Chance, dass du erkannte Feinde identifizierst.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Spacetime Vortex" DisplayName="Raumzeit-Wirbel" BearerDescription="Raumfalter" BiomeAdjective="verzerrt">
       <description>
-        <p>Ihr zerreißt die Raumzeit und schleudert nahe Dinge durch einen Riss im kosmischen Gefüge.</p>
+        <p>Du zerreißt die Raumzeit und schleuderst nahe Dinge durch einen Riss im kosmischen Gefüge.</p>
       </description>
       <leveltext>
         <p>Beschwört einen Vortex herauf, der alles in seinem Pfad verschlingt.</p>
         <statline Name="BonusDuration" DisplayName="Bonus duration" Unit="round" HideValue="0" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
-        <p>Ihr könnt den Vortex betreten, um an einen zufälligen Ort in Qud teleportiert zu werden.</p>
+        <p>Du kannst den Vortex betreten, um an einen zufälligen Ort in Qud teleportiert zu werden.</p>
         <p>+200 Ruf bei {{w|hochgradig entropischen Wesen}}</p>
       </leveltext>
     </mutation>
     <mutation Name="Stunning Force" DisplayName="Betäubende Kraft" BearerDescription="der Telekinetische" BiomeAdjective="telekinetisch">
       <description>
-        <p>Ihr entfesselt eine erschütternde Kraft in einem nahen Gebiet, die Feinde zurückwirft und betäubt.</p>
+        <p>Du entfesselst eine erschütternde Kraft in einem nahen Gebiet, die Feinde zurückwirft und betäubt.</p>
       </description>
       <leveltext>
         <statline Name="Range" DisplayName="Reichweite" />
@@ -883,12 +883,12 @@
     </mutation>
     <mutation Name="Sunder Mind" DisplayName="Geist spalten" BearerDescription="Geistzerstörer" BiomeEpithet="psychischer Friedhof">
       <description>
-        <p>Ihr zerreißt den Geist eines Feindes und lasst ihn taumelnd vor Schmerz zurück.</p>
+        <p>Du zerreißt den Geist eines Feindes und lässt ihn taumelnd vor Schmerz zurück.</p>
       </description>
       <leveltext>
-        <p>Für bis zu 10 Runden führt Ihr einen psychischen Kampf mit einem Gegner, wobei Ihr jede Runde Schaden zufügt.</p>
+        <p>Für bis zu 10 Runden führst du einen psychischen Kampf mit einem Gegner, wobei du jede Runde Schaden zufügst.</p>
         <p>Jede Handlung außer dem Aussetzen der Runde beendet die Verbindung.</p>
-        <p>Jede Runde führt Ihr einen mentalen Angriff gegen die mentale Rüstung (MA) aus.</p>
+        <p>Jede Runde führst du einen mentalen Angriff gegen die mentale Rüstung (MA) aus.</p>
         <statline Name="DamageIncrement" DisplayName="Damage increment" />
         <p>Nach der zehnten Runde fügt Ihr Bonusschaden in Höhe des bisher insgesamt verursachten Schadens zu.</p>
         <statline Name="Range" DisplayName="Reichweite" />
@@ -897,7 +897,7 @@
     </mutation>
     <mutation Name="Syphon Vim" DisplayName="Vitalität absaugen" BearerDescription="Lebenssauger" BiomeEpithet="Schlachtfeld">
       <description>
-        <p>Ihr verbindet Euch mit einer nahen organischen Kreatur und saugt ihre Lebenskraft aus.</p>
+        <p>Du verbindest dich mit einer nahen organischen Kreatur und saugst ihre Lebenskraft aus.</p>
       </description>
       <leveltext>
         <p>Mentaler Angriff gegen eine organische Kreatur</p>
@@ -910,26 +910,26 @@
     </mutation>
     <mutation Name="Telepathy" DisplayName="Telepathie" BearerDescription="der Telepathische" BiomeAdjective="telepathisch">
       <description>
-        <p>Ihr könnt mit anderen durch den psychischen Äther kommunizieren.</p>
+        <p>Du kannst mit anderen durch den psychischen Äther kommunizieren.</p>
         <br />
-        <p>Unterhaltet Euch mit jedem in Sichtweite</p>
-        <p>Ihr benötigt deutlich weniger Zeit, um Begleitern Befehle zu erteilen</p>
+        <p>Unterhalte dich mit jedem in Sichtweite</p>
+        <p>Du benötigst deutlich weniger Zeit, um Begleitern Befehle zu erteilen</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Teleportation" DisplayName="Teleportation" BearerDescription="Teleporteure" BiomeEpithet="Raumzeit-Karst">
       <description>
-        <p>Ihr teleportiert Euch an einen nahegelegenen Ort.</p>
+        <p>Du teleportierst dich an einen nahegelegenen Ort.</p>
       </description>
       <leveltext>
-        <p>Teleportiert Euch an einen zufälligen Ort innerhalb eines bestimmten Bereichs.</p>
+        <p>Teleportiert dich an einen zufälligen Ort innerhalb eines bestimmten Bereichs.</p>
         <statline Name="UncertaintyRadius" DisplayName="Unsicherheitsradius" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
     </mutation>
     <mutation Name="Teleport Other" DisplayName="Anderen teleportieren" BearerDescription="jene, die andere teleportieren" BiomeEpithet="Einsiedelei">
       <description>
-        <p>Ihr teleportiert eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.</p>
+        <p>Du teleportierst eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.</p>
       </description>
       <leveltext>
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -937,7 +937,7 @@
     </mutation>
     <mutation Name="Time Dilation" DisplayName="Zeitdilatation" BearerDescription="Zeitdehner" BiomeEpithet="Zeitprisma">
       <description>
-        <p>Ihr verzerrt die Zeit um Eure Person, um Eure Feinde zu verlangsamen.</p>
+        <p>Du verzerrst die Zeit um deine Person, um deine Feinde zu verlangsamen.</p>
       </description>
       <leveltext>
         <p>Kreaturen innerhalb von <stat Name="Range" /> Feldern werden verlangsamt, je näher sie bei Euch sind.</p>
@@ -950,7 +950,7 @@
     </mutation>
     <mutation Name="Temporal Fugue" DisplayName="Zeitliche Flucht" BearerDescription="Zeitflüchtige" BiomeEpithet="Raumzeit-Knotenpunkt">
       <description>
-        <p>Ihr bewegt Euch schnell vor und zurück durch die Zeit und erstellt mehrere Kopien von Euch selbst.</p>
+        <p>Du bewegst dich schnell vor und zurück durch die Zeit und erstellst mehrere Kopien von dir selbst.</p>
       </description>
       <leveltext>
         <statline Name="Duration" DisplayName="Dauer" />
@@ -962,66 +962,66 @@
   <category Name="MentalDefects" DisplayName="{{R|Geistige Mängel}}">
     <mutation Name="Amnesia" DisplayName="Amnesie" BearerDescription="jene, die sich nicht erinnern können" BiomeAdjective="vergangenheitslos">
       <description>
-        <p>Ihr vergesst Dinge und Orte.</p>
+        <p>Du vergisst Dinge und Orte.</p>
         <br />
-        <p>Immer wenn Ihr ein neues Geheimnis erfahrt, besteht eine geringe Chance, dass Ihr ein Geheimnis vergesst.</p>
-        <p>Immer wenn Ihr zu einer Karte zurückkehrt, die Ihr zuvor besucht habt, besteht eine geringe Chance, dass Ihr Euch nicht mehr an das Layout erinnert.</p>
+        <p>Immer wenn du ein neues Geheimnis erfährst, besteht eine geringe Chance, dass du ein Geheimnis vergisst.</p>
+        <p>Immer wenn du zu einer Karte zurückkehrst, die du zuvor besucht hast, besteht eine geringe Chance, dass du dich nicht mehr an das Layout erinnerst.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Blinking Tic" DisplayName="Zuckender Zuck" BearerDescription="zwanghafte Teleporteure" BiomeAdjective="blinkend">
       <description>
-        <p>Ihr teleportiert Euch unkontrollierbar hin und her.</p>
+        <p>Du teleportierst dich unkontrollierbar hin und her.</p>
         <br />
-        <p>Es besteht eine geringe Chance pro Runde im Kampf, dass Ihr Euch zufällig zu einem nahen Ort teleportiert.</p>
+        <p>Es besteht eine geringe Chance pro Runde im Kampf, dass du dich zufällig zu einem nahen Ort teleportierst.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Dystechnia" DisplayName="Dystechnia" BearerDescription="jene, die von technologischer Komplexität überfordert sind" BiomeAdjective="regressiv">
       <description>
-        <p>Ihr seid von technologischer Komplexität verwirrt.</p>
+        <p>Du bist von technologischer Komplexität verwirrt.</p>
         <br />
-        <p>Ihr seid deutlich schlechter darin, Artefakte zu untersuchen.</p>
-        <p>Ihr könnt Artefakte nicht für Euch identifizieren lassen, weil Ihr deren Erklärungen nicht versteht.</p>
-        <p>Wenn Ihr bei der Artefaktuntersuchung schwer scheitert, explodiert das Artefakt.</p>
+        <p>Du bist deutlich schlechter darin, Artefakte zu untersuchen.</p>
+        <p>Du kannst Artefakte nicht für dich identifizieren lassen, weil du deren Erklärungen nicht verstehst.</p>
+        <p>Wenn du bei der Artefaktuntersuchung schwer scheiterst, explodiert das Artefakt.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Evil Twin" DisplayName="Böser Zwilling" BearerDescription="jene mit Doppelgängern" BiomeEpithet="Selbstmoot">
       <description>
-        <p>Getrieben von einem undurchschaubaren Drang reist eine parallele Version von Euch selbst durch Raum und Zeit, um Euch zu vernichten.</p>
+        <p>Getrieben von einem undurchschaubaren Drang reist eine parallele Version von dir selbst durch Raum und Zeit, um dich zu vernichten.</p>
         <br />
-        <p>Jedes Mal, wenn Ihr Euch zu einem neuen Ort aufmacht, besteht eine geringe Chance, dass Euer böser Zwilling Euch dorthin verfolgt hat und versucht, Euch zu töten.</p>
+        <p>Jedes Mal, wenn du dich zu einem neuen Ort aufmachst, besteht eine geringe Chance, dass dein böser Zwilling dich dorthin verfolgt hat und versucht, dich zu töten.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Narcolepsy" DisplayName="Narkolepsie" BearerDescription="der Narkoleptische" BiomeAdjective="schläfrig">
       <description>
-        <p>Ihr schlaft von Zeit zu Zeit unfreiwillig ein.</p>
+        <p>Du schläfst von Zeit zu Zeit unfreiwillig ein.</p>
         <br />
-        <p>Es besteht eine geringe Chance pro Runde im Kampf, dass Ihr für 20-29 Runden einschlaft.</p>
+        <p>Es besteht eine geringe Chance pro Runde im Kampf, dass du für 20-29 Runden einschläfst.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Psionic Migraines" DisplayName="Psionische Migränen" BearerDescription="jene, die unter psionischen Migränen leiden" BiomeAdjective="dröhnend">
       <description>
-        <p>Ihr leidet unter starken psionischen Migränen, die Euren Kopf extrem empfindlich machen.</p>
+        <p>Du leidest unter starken psionischen Migränen, die deinen Kopf extrem empfindlich machen.</p>
         <br />
-        <p>Ihr könnt keine Hüte oder Helme tragen.</p>
+        <p>Du kannst keine Hüte oder Helme tragen.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Quantum Jitters" DisplayName="Quantenzittern" BearerDescription="jene, die quantenhaft ungewiss sind" BiomeAdjective="zittrig">
       <description>
-        <p>Eure willentlichen Handlungen verbeulen manchmal die Raumzeit.</p>
+        <p>Deine willentlichen Handlungen verbeulen manchmal die Raumzeit.</p>
         <br />
-        <p>Immer wenn Ihr eine aktivierte Fähigkeit einsetzt, besteht eine geringe Chance, dass Eure Konzentration abgleitet und Ihr die Raumzeit in der näheren Umgebung verbeult, wodurch 1-2 Raumzeit-Vortices entstehen. Diese Chance steigt, je länger Ihr keine aktivierte Fähigkeit einsetzt.</p>
+        <p>Immer wenn du eine aktivierte Fähigkeit einsetzt, besteht eine geringe Chance, dass deine Konzentration abgleitet und du die Raumzeit in der näheren Umgebung verbeulst, wodurch 1-2 Raumzeit-Vortices entstehen. Diese Chance steigt, je länger du keine aktivierte Fähigkeit einsetzt.</p>
       </description>
       <leveltext />
     </mutation>
     <mutation Name="Socially Repugnant" DisplayName="Sozial widerwärtig" BearerDescription="der gesellschaftlich Verabscheute" BiomeEpithet="Elendsmoot">
       <description>
-        <p>Andere finden es schwierig, Euch in gesellschaftlichen Situationen zu ertragen.</p>
+        <p>Andere finden es schwierig, dich in gesellschaftlichen Situationen zu ertragen.</p>
         <br />
         <p>-50 Ansehen bei jeder Fraktion</p>
       </description>

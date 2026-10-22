@@ -2,7 +2,7 @@
 <objects Lang="de" Encoding="utf-8">
   <object Name="Plant" Load="Merge">
     <stag Name="Plank" Value="Planke" />
-    <stag Name="Fiber" Value="ausziehen" />
+    <stag Name="Fiber" Value="Streifen" />
     <stag Name="FiberMaterial" Value="Rinde" />
   </object>
   <object Name="Shimscale Mangrove Tree_blue" Load="Merge">
@@ -29,7 +29,7 @@
     <part Name="Render" DisplayName="Fractus" />
     <part Name="Description" Short="Ein besonders stachliges Peano-Fleckchen." />
     <stag Name="Plank" Value="ausziehen" />
-    <stag Name="Fiber" Value="ausziehen" />
+    <stag Name="Fiber" Value="Streifen" />
     <stag Name="FiberMaterial" Value="Faser" />
   </object>
   <object Name="Starapple Tree" Load="Merge">
@@ -65,6 +65,7 @@
     <part Name="Render" DisplayName="yuckwheat" />
     <part Name="Description" Short="Korallenblüten sprießen von der Spitze eines dünnen Stengels. Ein metallischer oder knöcherner Huf hat seine Geschwister zerquetscht und ihre Säurefasern in den Boden verteilt." />
     <stag Name="FiberMaterial" Value="Strohdach" />
+    <stag Name="Fiber" Value="Schnur" />
   </object>
   <object Name="Watervine" Load="Merge">
     <part Name="Render" DisplayName="Wasserwinde" />
@@ -164,7 +165,7 @@
   </object>
   <object Name="Godshroom" Load="Merge">
     <part Name="Render" DisplayName="{{o|elcatl}}" />
-    <part Name="Description" Short="Sein Aspekt erfüllt mit leuchtendem Korallenton, fesselt dieser Pilz Euer Auge wie kein anderer. Qud kennt keinen solchen Farbton, und so fragt Ihr =player.reflexive=: Welch strahlender Regen könnte sein Fleisch gefärbt haben? Könnte es ein Hauch der Fresser selbst sein, mumifiziert in der Erde des Regenbogen-Waldes?" />
+    <part Name="Description" Short="Sein Aspekt erfüllt mit leuchtendem Korallenton, fesselt dieser Pilz dein Auge wie kein anderer. Qud kennt keinen solchen Farbton, und so fragst du =player.reflexive=: Welch strahlender Regen könnte sein Fleisch gefärbt haben? Könnte es ein Hauch der Fresser selbst sein, mumifiziert in der Erde des Regenbogen-Waldes?" />
   </object>
   <object Name="Brightshroom" Load="Merge">
     <part Name="Render" DisplayName="Brightshroom" />
@@ -406,14 +407,14 @@
   </object>
   <object Name="Air" Load="Merge">
     <part Name="Render" DisplayName="offene Luft" />
-    <part Name="StairsDown" PullMessage="Sie fallen hinunter!" JumpPrompt="Es sieht nach einem furchtbar langen Fall aus. Seid Ihr sicher, dass Ihr springen wollt?" />
+    <part Name="StairsDown" PullMessage="Sie fallen hinunter!" JumpPrompt="Es sieht nach einem furchtbar langen Fall aus. Bist du sicher, dass du springen willst?" />
     <part Name="Description" Short="Der Raum ist von festen Hindernissen geleert." />
     <tag Name="FallPreposition" Value="durch" />
     <xtagGrammar massNoun="wahr" />
   </object>
   <object Name="Pit" Load="Merge">
     <part Name="Render" DisplayName="offene Luft" />
-    <part Name="StairsDown" PullMessage="Ihr klettert eilig von einem felsigen Vorsprung hinab." JumpPrompt="Es sieht nach einem furchtbar langen Fall aus. Seid Ihr sicher, dass Ihr springen wollt?" />
+    <part Name="StairsDown" PullMessage="Du kletterst eilig von einem felsigen Vorsprung hinab." JumpPrompt="Es sieht nach einem furchtbar langen Fall aus. Bist du sicher, dass du springen willst?" />
     <part Name="Description" Short="Der Raum ist von festen Hindernissen geleert." />
     <xtagGrammar massNoun="wahr" />
   </object>

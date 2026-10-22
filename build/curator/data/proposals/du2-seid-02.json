@@ -1,0 +1,378 @@
+{
+  "batch": "du2-seid-02",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du2-seid-02)",
+  "created": "2026-10-22 16:39",
+  "items": [
+    {
+      "uid": "eeab3bc196abce81",
+      "file": "Strings.de.xml",
+      "key": "Crayons Nanocrayon Fail|You're not talented enough to draw that.",
+      "context": "Crayons Nanocrayon Fail",
+      "old_value": "Ihr seid nicht talentiert genug, um das zu zeichnen.",
+      "new_value": "Du bist nicht talentiert genug, um das zu zeichnen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3a3537be25ff460d",
+      "file": "Strings.de.xml",
+      "key": "QuickenMind AllCooldowns Success|You are quickened with creative energy! All cooldowns are refreshed.",
+      "context": "QuickenMind AllCooldowns Success",
+      "old_value": "Ihr seid von kreativer Energie erfüllt! Alle Abklingzeiten werden aufgefrischt.",
+      "new_value": "Du bist von kreativer Energie erfüllt! Alle Abklingzeiten werden aufgefrischt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "77aadd8cb1df49a5",
+      "file": "Strings.de.xml",
+      "key": "QuickenMind SomeCooldowns Success|You are quickened with creative energy! The =cooldowns.pluralize:cooldown= on =cooldowns.andList= =cooldowns.pluralize:is= refreshed.",
+      "context": "QuickenMind SomeCooldowns Success",
+      "old_value": "Ihr seid von kreativer Energie erfüllt! Die =cooldowns.pluralize:Abklingzeit:Abklingzeiten= auf =cooldowns.andList= =cooldowns.pluralize:ist:sind= werden aufgefrischt.",
+      "new_value": "Du bist von kreativer Energie erfüllt! Die =cooldowns.pluralize:Abklingzeit:Abklingzeiten= auf =cooldowns.andList= =cooldowns.pluralize:ist:sind= werden aufgefrischt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a1e2fbdaee31e42b",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - drinking message, update on stomach|You are now =updates.andList=.",
+      "context": "Liquid Volume - drinking message, update on stomach",
+      "old_value": "Ihr seid nun =updates.andList=.",
+      "new_value": "Du bist nun =updates.andList=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b98a28171057ee4a",
+      "file": "Strings.de.xml",
+      "key": "ModDisguise Not Familiar|You aren't familiar enough with any creatures to make a disguise.",
+      "context": "ModDisguise Not Familiar",
+      "old_value": "Ihr seid nicht vertraut genug mit Kreaturen, um eine Verkleidung zu machen.",
+      "new_value": "Du bist nicht vertraut genug mit Kreaturen, um eine Verkleidung zu machen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "191aa26148a14db7",
+      "file": "Strings.de.xml",
+      "key": "ModDisplacer Examine Failure Popup|You are suddenly elsewhere!",
+      "context": "ModDisplacer Examine Failure Popup",
+      "old_value": "Ihr seid plötzlich anderswo!",
+      "new_value": "Du bist plötzlich anderswo!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "687e40a3406c158f",
+      "file": "Strings.de.xml",
+      "key": "Precognition Fail Already Using|You are already within a precognitive vision.",
+      "context": "Precognition Fail Already Using",
+      "old_value": "Ihr seid bereits in einer präkognitiven Vision.",
+      "new_value": "Du bist bereits in einer präkognitiven Vision.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0d1ec8826b73a9d2",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|You are not poisoned.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Ihr seid nicht vergiftet.",
+      "new_value": "Du bist nicht vergiftet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "edf549bdac184e3a",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatIllness|You are not ill.",
+      "context": "Campfire NostrumsTreatIllness",
+      "old_value": "Ihr seid nicht krank.",
+      "new_value": "Du bist nicht krank.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32a84c5723790bfd",
+      "file": "Strings.de.xml",
+      "key": "DoubleContainer BeforeDeath|You broke apart.",
+      "context": "DoubleContainer BeforeDeath",
+      "old_value": "Ihr seid auseinandergefallen.",
+      "new_value": "Du bist auseinandergefallen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "19adc508ffa9f9b4",
+      "file": "Strings.de.xml",
+      "key": "Tzimtzlum WorldZoneFactory SpecialUpMessage|You're in a pocket dimension with no worldmap.",
+      "context": "Tzimtzlum WorldZoneFactory SpecialUpMessage",
+      "old_value": "Ihr seid in einer Taschenebene ohne Weltkarte.",
+      "new_value": "Du bist in einer Taschenebene ohne Weltkarte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e482694d4fe0cf67",
+      "file": "Strings.de.xml",
+      "key": "|You are cured of ironshank.@#text",
+      "context": null,
+      "old_value": "Ihr seid vom Eisenschenkel geheilt.",
+      "new_value": "Du bist vom Eisenschenkel geheilt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e861f7624ef87eab",
+      "file": "Strings.de.xml",
+      "key": "|You are cured of monochrome.@#text",
+      "context": null,
+      "old_value": "Ihr seid von der Monochromie geheilt.",
+      "new_value": "Du bist von der Monochromie geheilt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "26c556f27c5be6e6",
+      "file": "Strings.de.xml",
+      "key": "|You are out of phase with =object.the.name= and cannot repair =object.them=.@#text",
+      "context": null,
+      "old_value": "Ihr seid nicht in Phase mit =object.dativ= und könnt =object.them= nicht reparieren.",
+      "new_value": "Du bist nicht in Phase mit =object.dativ= und kannst =object.them= nicht reparieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b0a64e42c663a167",
+      "file": "Strings.de.xml",
+      "key": "|You are paralyzed!",
+      "context": "",
+      "old_value": "Ihr seid gelähmt!",
+      "new_value": "Du bist gelähmt!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5ecf79a94dedecf0",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandQuickenMind]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seid von schöpferischer Energie erfüllt.",
+      "new_value": "Du bist von schöpferischer Energie erfüllt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5428ec1c4e3eebba",
+      "file": "Books.de.xml",
+      "key": "/books#0/book[CyberIntro]/page#1@#text",
+      "context": null,
+      "old_value": "Willkommen, Aristokrat, in einer Lernecke für Kybernetik. Ihr seid einen\nSchritt näher zur Großen Vereinigung. Stellt eine Frage.\n[[A.]] Was sind kybernetische Implantate?\n[[B.]] Was sind die Vorteile der Kybernetik?\n[[C.]] Was sind die Risiken der Kybernetik?\n[[D.]] Wie installiere ich ein kybernetisches Implantat?\n[[E.]] Auf Wiedersehen.",
+      "new_value": "Willkommen, Aristokrat, in einer Lernecke für Kybernetik. Du bist einen\nSchritt näher zur Großen Vereinigung. Stelle eine Frage.\n[[A.]] Was sind kybernetische Implantate?\n[[B.]] Was sind die Vorteile der Kybernetik?\n[[C.]] Was sind die Risiken der Kybernetik?\n[[D.]] Wie installiere ich ein kybernetisches Implantat?\n[[E.]] Auf Wiedersehen.",
+      "note": "Imperativ Stellt->Stelle",
+      "status": "accepted"
+    },
+    {
+      "uid": "0ed411c7199400d7",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[BionicLiver]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "Ihr seid immun gegen Gift und Krankheit.",
+      "new_value": "Du bist immun gegen Gift und Krankheit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0cc14cb2d6093d4",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Carapace]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seid durch einen widerstandsfähigen Panzer geschützt.",
+      "new_value": "Du bist durch einen widerstandsfähigen Panzer geschützt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4be3662efc4289d9",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Heightened Quickness]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seid mit gewaltiger Geschwindigkeit gesegnet.",
+      "new_value": "Du bist mit gewaltiger Geschwindigkeit gesegnet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4d33b713090294e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Spinnerets]/leveltext#2/p#6@#text",
+      "context": null,
+      "old_value": "Ihr seid immun dagegen, festzustecken.",
+      "new_value": "Du bist immun dagegen, festzustecken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6099201977fa880e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Myopic]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seid kurzsichtig.",
+      "new_value": "Du bist kurzsichtig.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "46e12e328375df04",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Tonic Allergy]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seid allergisch gegen Tonika.",
+      "new_value": "Du bist allergisch gegen Tonika.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe6c06e7cd1cc958",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Disintegration]/leveltext#2/p#4@#text",
+      "context": null,
+      "old_value": "Ihr seid nach dem Einsatz dieser Kraft für 3 Runden erschöpft.",
+      "new_value": "Du bist nach dem Einsatz dieser Kraft für 3 Runden erschöpft.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f6ba4bad2f1ac9b",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Dystechnia]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seid von technologischer Komplexität verwirrt.",
+      "new_value": "Du bist von technologischer Komplexität verwirrt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f3afdc646d95d04",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Dystechnia]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr seid deutlich schlechter darin, Artefakte zu untersuchen.",
+      "new_value": "Du bist deutlich schlechter darin, Artefakte zu untersuchen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "82fedd150421ee3c",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Pax Klanq, nehme ich an?]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr seid den Korallenpfad gegangen und habt Pax Klanq, das Pilz-Wunderkind, überredet, einen Akku nach Q Girls Design zu fertigen.",
+      "new_value": "Du bist den Korallenpfad gegangen und hast Pax Klanq, das Pilz-Wunderkind, überredet, einen Akku nach Q Girls Design zu fertigen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "787e62016f211a5b",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Pax Klanq, I Presume?]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr seid den Korallenpfad gewandelt und habt Pax Klanq, das Pilz-Wunderkind, überzeugt, eine Batterie nach Q Girls Entwurf herzustellen.",
+      "new_value": "Du bist den Korallenpfad gewandelt und hast Pax Klanq, das Pilz-Wunderkind, überzeugt, eine Batterie nach Q Girls Entwurf herzustellen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "34d35afeb73e0459",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Acrobatics]@Description",
+      "context": null,
+      "old_value": "Ihr seid in Akrobatik geschickt.",
+      "new_value": "Du bist in Akrobatik geschickt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b99541129b92a468",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cooking and Gathering]@Description",
+      "context": null,
+      "old_value": "Ihr seid darin geschickt, zu kochen und Mahlzeitenzutaten zu sammeln.",
+      "new_value": "Du bist darin geschickt, zu kochen und Mahlzeitenzutaten zu sammeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "49f6ac2cc8ed327e",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Customs and Folklore]@Description",
+      "context": null,
+      "old_value": "Ihr seid mit den Bräuchen und Folklore von Qud vertraut.",
+      "new_value": "Du bist mit den Bräuchen und Folklore von Qud vertraut.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3882ef491ea4be94",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Endurance]@Description",
+      "context": null,
+      "old_value": "Ihr seid darin geschickt, harte Bedingungen und Situationen zu ertragen.",
+      "new_value": "Du bist darin geschickt, harte Bedingungen und Situationen zu ertragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3cfdcb38b3c58cbe",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Persuasion]@Description",
+      "context": null,
+      "old_value": "Ihr seid darin geschickt, andere zu überzeugen.",
+      "new_value": "Du bist darin geschickt, andere zu überzeugen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4bf648813c7c9650",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Pistol]/power[Weak Spotter]@Description",
+      "context": null,
+      "old_value": "Ihr seid 5% wahrscheinlicher, kritische Treffer mit Pistolen zu erzielen (Standardchance beträgt 5%).",
+      "new_value": "Du bist 5% wahrscheinlicher, kritische Treffer mit Pistolen zu erzielen (Standardchance beträgt 5%).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "28456679fb0eaf48",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tactics]@Description",
+      "context": null,
+      "old_value": "Ihr seid mit grundlegenden Kampftaktiken vertraut.",
+      "new_value": "Du bist mit grundlegenden Kampftaktiken vertraut.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "05863310c2afd6fe",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]@Description",
+      "context": null,
+      "old_value": "Ihr seid darin geschickt, Artefakte zu untersuchen, zu bauen, zu reparieren und zu modifizieren.",
+      "new_value": "Du bist darin geschickt, Artefakte zu untersuchen, zu bauen, zu reparieren und zu modifizieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb055362868ce20d",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Gadget Inspector]@Description",
+      "context": null,
+      "old_value": "Ihr seid viel erfolgreicher beim Untersuchen von Artefakten und könnt Verkabelung verlegen.",
+      "new_value": "Du bist viel erfolgreicher beim Untersuchen von Artefakten und kannst Verkabelung verlegen.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

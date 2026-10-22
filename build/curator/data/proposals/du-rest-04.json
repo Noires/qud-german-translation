@@ -1,0 +1,1268 @@
+{
+  "batch": "du-rest-04",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-rest-04)",
+  "created": "2026-10-22 14:55",
+  "items": [
+    {
+      "uid": "b637909120e61160",
+      "file": "Strings.de.xml",
+      "key": "GivesRep Description Suffix|Disliked by {{C|=faction.factionName=}}=repDebugOption= for =reason=",
+      "context": "GivesRep Description Suffix",
+      "old_value": "Abgelehnt von {{C|=faction.factionName=}}=repDebugOption=, weil Ihr =reason=",
+      "new_value": "Abgelehnt von {{C|=faction.factionName=}}=repDebugOption=, weil du =reason=",
+      "note": "=reason=-Klauseln muessen ebenfalls in du-Form stehen",
+      "status": "accepted"
+    },
+    {
+      "uid": "f4786838c216f6c4",
+      "file": "Strings.de.xml",
+      "key": "GivesRep Description Suffix|Hated by {{C|=faction.factionName=}}=repDebugOption= for =reason=",
+      "context": "GivesRep Description Suffix",
+      "old_value": "Gehasst von {{C|=faction.factionName=}}=repDebugOption=, weil Ihr =reason=",
+      "new_value": "Gehasst von {{C|=faction.factionName=}}=repDebugOption=, weil du =reason=",
+      "note": "=reason=-Klauseln muessen ebenfalls in du-Form stehen",
+      "status": "accepted"
+    },
+    {
+      "uid": "df39c0967674043b",
+      "file": "Strings.de.xml",
+      "key": "Opening Story Dialog - Alternate|On the =day= of =month=, you arrive at the village of {{g|=state.string:villageZeroName=}}.\n\nOn the horizon, {{r|Qud's}} jungles strangle chrome steeples and rusted archways to the earth. Further and beyond, the fabled {{C|Spindle}} rises above the fray and pierces the cloud-ribboned sky.",
+      "context": "Opening Story Dialog - Alternate",
+      "old_value": "Am =day=. =month= kommt Ihr in das Dorf {{g|=state.string:villageZeroName=}} an.\n\nAm Horizont würgen {{r|Quds}} Dschungel chrombeschichtete Spitzen und verrostete Bögen in die Erde. Weiter hinaus erhebt sich die legendäre {{C|Spindel}} über dem Kampfgetümmel und durchbricht den wolkenumwobenen Himmel.",
+      "new_value": "Am =day=. =month= kommst du in das Dorf {{g|=state.string:villageZeroName=}} an.\n\nAm Horizont würgen {{r|Quds}} Dschungel chrombeschichtete Spitzen und verrostete Bögen in die Erde. Weiter hinaus erhebt sich die legendäre {{C|Spindel}} über dem Kampfgetümmel und durchbricht den wolkenumwobenen Himmel.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "98a645574a84a732",
+      "file": "Strings.de.xml",
+      "key": "OpeningStory Accomplishment|On the =day= of =month=, you arrived at =villageName=.",
+      "context": "OpeningStory Accomplishment",
+      "old_value": "Am =day=. =month= seid Ihr in =villageName= angekommen.",
+      "new_value": "Am =day=. =month= bist du in =villageName= angekommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ee1486a165025aab",
+      "file": "Strings.de.xml",
+      "key": "Inventory Nothing To Interact|There's nothing you can interact with.",
+      "context": "Inventory Nothing To Interact",
+      "old_value": "Es gibt nichts, mit dem Ihr interagieren könnt.",
+      "new_value": "Es gibt nichts, mit dem du interagieren kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b9ef0669e4d50fdd",
+      "file": "Strings.de.xml",
+      "key": "Inventory Drop Count|How many do you want to drop?",
+      "context": "Inventory Drop Count",
+      "old_value": "Wie viele wollt Ihr fallen lassen?",
+      "new_value": "Wie viele willst du fallen lassen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f99b8bc4a5852c4",
+      "file": "Strings.de.xml",
+      "key": "AnimateObject Mural|While traveling in =zone.prosaic=, =name= performed a sacred ritual with =object.a.name=, imbuing =object.them= with life and arranging =object.them= =spice:elements.$domain.babeTrait.!random=. Many of the local denizens declared it a miracle. Some weren't so sure.",
+      "context": "AnimateObject Mural",
+      "old_value": "Während Ihr in =zone.prosaic= unterwegs wart, führte =name= ein heiliges Ritual mit =object.a.dativ= durch und erfüllte =object.them= mit Leben, arrangierte =object.them= =spice:elements.$domain.babeTrait.!random=. Viele der lokalen Bewohner erklärten es für ein Wunder. Einige waren sich nicht so sicher.",
+      "new_value": "Während du in =zone.prosaic= unterwegs warst, führte =name= ein heiliges Ritual mit =object.a.dativ= durch und erfüllte =object.them= mit Leben, arrangierte =object.them= =spice:elements.$domain.babeTrait.!random=. Viele der lokalen Bewohner erklärten es für ein Wunder. Einige waren sich nicht so sicher.",
+      "note": "Englisch: =name= reist (3. Person); 'Während Ihr' war schon Fehluebersetzung - nur Anrede umgestellt",
+      "status": "accepted"
+    },
+    {
+      "uid": "8695b0edeae0e9b8",
+      "file": "Strings.de.xml",
+      "key": "AnimateObject Gospel|While traveling in =zone.prosaic=, =name= performed a sacred ritual with =object.a.name=, imbuing =object.them= with life and arranging =object.them= =spice:elements.$domain.babeTrait.!random=. Many of the local denizens declared it a miracle.",
+      "context": "AnimateObject Gospel",
+      "old_value": "Während Ihr in =zone.prosaic= unterwegs wart, führte =name= ein heiliges Ritual mit =object.a.dativ= durch und erfüllte =object.them= mit Leben, arrangierte =object.them= =spice:elements.$domain.babeTrait.!random=. Viele der lokalen Bewohner erklärten es für ein Wunder.",
+      "new_value": "Während du in =zone.prosaic= unterwegs warst, führte =name= ein heiliges Ritual mit =object.a.dativ= durch und erfüllte =object.them= mit Leben, arrangierte =object.them= =spice:elements.$domain.babeTrait.!random=. Viele der lokalen Bewohner erklärten es für ein Wunder.",
+      "note": "Englisch: =name= reist (3. Person); 'Während Ihr' war schon Fehluebersetzung - nur Anrede umgestellt",
+      "status": "accepted"
+    },
+    {
+      "uid": "3cc527f9cdacbbb2",
+      "file": "Strings.de.xml",
+      "key": "Crayons WhatToDraw Prompt|What do you want to draw?",
+      "context": "Crayons WhatToDraw Prompt",
+      "old_value": "Was willst Ihr zeichnen?",
+      "new_value": "Was willst du zeichnen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6cfbdce1004f0789",
+      "file": "Strings.de.xml",
+      "key": "DestroyOnUnEquipMessage Popup Message|=subject.The.name= will be destroyed if =subject.itis= unequipped. Do you want to continue?",
+      "context": "DestroyOnUnEquipMessage Popup Message",
+      "old_value": "=subject.The.name= wird zerstört, wenn =subject.itis= abgelegt wird. Möchtet Ihr fortfahren?",
+      "new_value": "=subject.The.name= wird zerstört, wenn =subject.itis= abgelegt wird. Möchtest du fortfahren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c8d37053f7a25842",
+      "file": "Strings.de.xml",
+      "key": "Engraver No One To Engrave|There is nobody there you can engrave.",
+      "context": "Engraver No One To Engrave",
+      "old_value": "Es gibt niemanden dort, den Ihr gravieren könnt.",
+      "new_value": "Es gibt niemanden dort, den du gravieren kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5b828b6d3e5d55ca",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector Activate NoBrain|There seems to be no digital mind in =object.the.name= to dominate.",
+      "context": "Teleprojector Activate NoBrain",
+      "old_value": "Es scheint keinen digitalen Verstand in =object.dativ= zu geben, den Ihr dominieren könnt.",
+      "new_value": "Es scheint keinen digitalen Verstand in =object.dativ= zu geben, den du dominieren kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c1faf5e7d5fd1db",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector Activate CannotApplyRoboDomination|=subject.Does:do= not have a digital mind you can make electronic contact with.",
+      "context": "Teleprojector Activate CannotApplyRoboDomination",
+      "old_value": "=subject.Konjde:tun= keinen digitalen Verstand haben, mit dem Ihr elektronischen Kontakt aufnehmen könnt.",
+      "new_value": "=subject.Konjde:tun= keinen digitalen Verstand haben, mit dem du elektronischen Kontakt aufnehmen kannst.",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "17c0adc986354e77",
+      "file": "Strings.de.xml",
+      "key": "Toolbox WarnTinkeringBonus UnpoweredBonusAvailable|=subject.The.name= =subject.is= unpowered. Do you want to continue, using =subject.them= without power?",
+      "context": "Toolbox WarnTinkeringBonus UnpoweredBonusAvailable",
+      "old_value": "=subject.The.name= =subject.is= stromlos. Möchtet Ihr fortfahren und =subject.them= ohne Stromversorgung nutzen?",
+      "new_value": "=subject.The.name= =subject.is= stromlos. Möchtest du fortfahren und =subject.them= ohne Stromversorgung nutzen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7ed4a9dc0654e845",
+      "file": "Strings.de.xml",
+      "key": "Toolbox WarnTinkeringBonus UnpoweredBonusNotAvailable|=subject.The.name= =subject.is= unpowered. Do you want to continue without =subject.its= benefits?",
+      "context": "Toolbox WarnTinkeringBonus UnpoweredBonusNotAvailable",
+      "old_value": "=subject.The.name= =subject.is= stromlos. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= Vorteile?",
+      "new_value": "=subject.The.name= =subject.is= stromlos. Möchtest du fortfahren ohne =subject.its:akk:pl= Vorteile?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "162b54f40605417c",
+      "file": "Strings.de.xml",
+      "key": "Toolbox WarnTinkeringBonus BootingBonusAvailable|=subject.The.name= =subject.is= still starting up. Do you want to continue without =subject.its= full benefits?",
+      "context": "Toolbox WarnTinkeringBonus BootingBonusAvailable",
+      "old_value": "=subject.The.name= =subject.is= wird noch gestartet. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= vollständigen Vorteile?",
+      "new_value": "=subject.The.name= =subject.is= wird noch gestartet. Möchtest du fortfahren ohne =subject.its:akk:pl= vollständigen Vorteile?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ede0844f892d41a4",
+      "file": "Strings.de.xml",
+      "key": "Toolbox WarnTinkeringBonus BootingBonusNotAvailable|=subject.The.name= =subject.is= still starting up. Do you want to continue without =subject.its= benefits?",
+      "context": "Toolbox WarnTinkeringBonus BootingBonusNotAvailable",
+      "old_value": "=subject.The.name= =subject.is= wird noch gestartet. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= Vorteile?",
+      "new_value": "=subject.The.name= =subject.is= wird noch gestartet. Möchtest du fortfahren ohne =subject.its:akk:pl= Vorteile?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "07292bd3b136f023",
+      "file": "Strings.de.xml",
+      "key": "Toolbox WarnTinkeringBonus InoperativeBonusAvailable|=subject.The.name= =subject.is= inoperative. Do you want to continue, without =subject.its= full benefits?",
+      "context": "Toolbox WarnTinkeringBonus InoperativeBonusAvailable",
+      "old_value": "=subject.The.name= =subject.is= ist nicht funktionsfähig. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= vollständigen Vorteile?",
+      "new_value": "=subject.The.name= =subject.is= ist nicht funktionsfähig. Möchtest du fortfahren ohne =subject.its:akk:pl= vollständigen Vorteile?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "035451151e67407c",
+      "file": "Strings.de.xml",
+      "key": "Toolbox WarnTinkeringBonus InoperativeBonusNotAvailable|=subject.The.name= =subject.is= inoperative. Do you want to continue, without =subject.its= benefits?",
+      "context": "Toolbox WarnTinkeringBonus InoperativeBonusNotAvailable",
+      "old_value": "=subject.The.name= =subject.is= ist nicht funktionsfähig. Möchtet Ihr fortfahren ohne =subject.its:akk:pl= Vorteile?",
+      "new_value": "=subject.The.name= =subject.is= ist nicht funktionsfähig. Möchtest du fortfahren ohne =subject.its:akk:pl= Vorteile?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1a4e77e4fe783dad",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn drain|Are you sure you want to drain =subject.the.name=?",
+      "context": "Liquid Volume - Warn drain",
+      "old_value": "Seid Ihr sicher, dass Ihr =subject.the.name= ablassen möchtet?",
+      "new_value": "Bist du sicher, dass du =subject.the.name= ablassen möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f287f9010fa4f032",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - pour menu title|Where do you want to pour =object.the.name=?",
+      "context": "Liquid Volume - pour menu title",
+      "old_value": "Wohin möchtet Ihr =object.the.name= gießen?",
+      "new_value": "Wohin möchtest du =object.the.name= gießen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa025beb0c110ab1",
+      "file": "Strings.de.xml",
+      "key": "ModBlinkEscape Description|Whenever you're about to take avoidable damage, there's =chance.a.number=% chance you blink away instead.",
+      "context": "ModBlinkEscape Description",
+      "old_value": "Wann immer Ihr vermeidbaren Schaden erleiden würdet, gibt es eine =chance.a.number=%-Chance, dass Ihr stattdessen fortblinkt.",
+      "new_value": "Wann immer du vermeidbaren Schaden erleiden würdest, gibt es eine =chance.a.number=%-Chance, dass du stattdessen fortblinkst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ce575f229c7be496",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled Ask Amount Popup|Supply =host.the.name= with how many drams of your =liquid.name|strip=? (max=equals==amount=)",
+      "context": "ModLiquidCooled Ask Amount Popup",
+      "old_value": "Mit wie vielen Dram eures =liquid.name|strip= versorgt Ihr =host.the.name=? (max=equals==amount=)",
+      "new_value": "Mit wie vielen Dram deines =liquid.name|strip= versorgst du =host.the.name=? (max=equals==amount=)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d7c3fa892a38ba21",
+      "file": "Strings.de.xml",
+      "key": "EvilTwin Short Description|It's evil you.",
+      "context": "EvilTwin Short Description",
+      "old_value": "Es ist Ihr böses Ich.",
+      "new_value": "Es ist dein böses Ich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d6886aa2f084625",
+      "file": "Strings.de.xml",
+      "key": "Dominate Failure|=object.Does:do= not have a consciousness you can make psychic contact with.",
+      "context": "Dominate Failure",
+      "old_value": "=object.Konjde:tun= hat kein Bewusstsein, mit dem Ihr psychischen Kontakt aufnehmen könnt.",
+      "new_value": "=object.Konjde:tun= hat kein Bewusstsein, mit dem du psychischen Kontakt aufnehmen kannst.",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "6f9bd5f47f3b0b7b",
+      "file": "Strings.de.xml",
+      "key": "Psychometry Failure Examine|Do you want to continue despite being unable to use Psychometry?",
+      "context": "Psychometry Failure Examine",
+      "old_value": "Möchtet Ihr fortfahren, obwohl Ihr Psychometrie nicht nutzen könnt?",
+      "new_value": "Möchtest du fortfahren, obwohl du Psychometrie nicht nutzen kannst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "79dc95064faa781c",
+      "file": "Strings.de.xml",
+      "key": "Psychometry Failure Repair|Do you want to continue despite being unable to use Psychometry?",
+      "context": "Psychometry Failure Repair",
+      "old_value": "Möchtet Ihr fortfahren, obwohl Ihr Psychometrie nicht nutzen könnt?",
+      "new_value": "Möchtest du fortfahren, obwohl du Psychometrie nicht nutzen kannst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0f56a8fa11fd0a54",
+      "file": "Strings.de.xml",
+      "key": "Dismember Fail Cannot|There's nothing there you can dismember.",
+      "context": "Dismember Fail Cannot",
+      "old_value": "Es gibt dort nichts, das Ihr zerlegen könnt.",
+      "new_value": "Es gibt dort nichts, das du zerlegen kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "170e52d88590be5f",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookPreseMeal error|You aren't hungry. Instead, you relax by the warmth of the fire.",
+      "context": "Campfire CookPreseMeal error",
+      "old_value": "Ihr seid nicht hungrig. Stattdessen entspannt Ihr euch in der Wärme des Feuers.",
+      "new_value": "Du bist nicht hungrig. Stattdessen entspannst du dich in der Wärme des Feuers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ac528fe7997aa2bf",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromIngredients error|You aren't hungry. Instead, you relax by the warmth of the fire.",
+      "context": "Campfire CookFromIngredients error",
+      "old_value": "Ihr seid nicht hungrig. Stattdessen entspannt Ihr euch in der Wärme des Feuers.",
+      "new_value": "Du bist nicht hungrig. Stattdessen entspannst du dich in der Wärme des Feuers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4dbde1f23da0f1fe",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromRecipe Error|You aren't hungry. Instead, you relax by the warmth of the fire.",
+      "context": "Campfire CookFromRecipe Error",
+      "old_value": "Ihr seid nicht hungrig. Stattdessen entspannt Ihr euch in der Wärme des Feuers.",
+      "new_value": "Du bist nicht hungrig. Stattdessen entspannst du dich in der Wärme des Feuers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b9562745670906b4",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|Neither you nor =object.the.name= are bleeding.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Weder Ihr noch =object.the.name= bluten.",
+      "new_value": "Weder du noch =object.the.name= bluten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c3b0743c18744153",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|Neither you nor =object.the.name= are poisoned.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Weder Ihr noch =object.the.name= seid vergiftet.",
+      "new_value": "Weder du noch =object.the.name= seid vergiftet.",
+      "note": "'Weder du noch X seid' - Verb belassen",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d67d155c500a3ba",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatIllness|Neither you nor =object.the.name= are ill.",
+      "context": "Campfire NostrumsTreatIllness",
+      "old_value": "Weder Ihr noch =object.the.name= seid krank.",
+      "new_value": "Weder du noch =object.the.name= seid krank.",
+      "note": "'Weder du noch X seid' - Verb belassen",
+      "status": "accepted"
+    },
+    {
+      "uid": "4978cc70664d18d6",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatDiseaseOnset|Neither you nor =object.the.name= are suffering from the onset of a disease.",
+      "context": "Campfire NostrumsTreatDiseaseOnset",
+      "old_value": "Weder Ihr noch =object.the.name= leidet unter dem Ausbruch einer Krankheit.",
+      "new_value": "Weder du noch =object.the.name= leidet unter dem Ausbruch einer Krankheit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "00db8ce6ce70aac7",
+      "file": "Strings.de.xml",
+      "key": "Proselytize Select Target|Who would you like to proselytize?",
+      "context": "Proselytize Select Target",
+      "old_value": "Wen würdet Ihr gerne bekehren?",
+      "new_value": "Wen würdest du gerne bekehren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "50c499ce594290a9",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail No Target|There is no one there for you to amputate their limb.",
+      "context": "AmputateLimb Fail No Target",
+      "old_value": "Es gibt dort niemanden, dem Ihr ein Glied amputieren könntet.",
+      "new_value": "Es gibt dort niemanden, dem du ein Glied amputieren könntest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "987ef39a9eb17e9c",
+      "file": "Strings.de.xml",
+      "key": "Camp Already Exists Prompt|There =campfire.is= already =campfire.a.name= =subject.to.its.direction#campfire=. Do you want to go to =campfire.them=?",
+      "context": "Camp Already Exists Prompt",
+      "old_value": "Es =campfire.is= bereits =campfire.a.name= =subject.to.its.direction#campfire=. Wollt Ihr zu =campfire.them= gehen?",
+      "new_value": "Es =campfire.is= bereits =campfire.a.name= =subject.to.its.direction#campfire=. Willst du zu =campfire.them= gehen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "29dea1d86105ab00",
+      "file": "Strings.de.xml",
+      "key": "Camp Fail NoPlace|There is nothing there you can build a campfire on.",
+      "context": "Camp Fail NoPlace",
+      "old_value": "Es gibt dort nichts, auf dem Ihr ein Lagerfeuer bauen könntet.",
+      "new_value": "Es gibt dort nichts, auf dem du ein Lagerfeuer bauen könntest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b7b0fd817395314f",
+      "file": "Strings.de.xml",
+      "key": "StairsDown JumpPrompt Default|It looks like an awfully long fall. Are you sure you want to jump into the shaft?",
+      "context": "StairsDown JumpPrompt Default",
+      "old_value": "Das sieht nach einem furchtbar langen Sturz aus. Seid Ihr sicher, dass Ihr in den Schacht springen wollt?",
+      "new_value": "Das sieht nach einem furchtbar langen Sturz aus. Bist du sicher, dass du in den Schacht springen willst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "77fd6e1b51ef0828",
+      "file": "Strings.de.xml",
+      "key": "Container Nothing Preposition That|There's nothing =preposition= that. Would you like to store an item?",
+      "context": "Container Nothing Preposition That",
+      "old_value": "Es gibt nichts =preposition= davon. Wollt Ihr einen Gegenstand lagern?",
+      "new_value": "Es gibt nichts =preposition= davon. Willst du einen Gegenstand lagern?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd06c94dd782b83d",
+      "file": "Strings.de.xml",
+      "key": "|With the help of Pax Klanq and the Barathrumites, you constructed =golem.a.name= to climb the Spindle.",
+      "context": "",
+      "old_value": "Mit Hilfe von Pax Klanq und den Barathrumiten habt Ihr =golem.a.name= erschaffen, um die Spindel zu erklimmen.",
+      "new_value": "Mit Hilfe von Pax Klanq und den Barathrumiten hast du =golem.a.name= erschaffen, um die Spindel zu erklimmen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "07b4d29145254122",
+      "file": "Strings.de.xml",
+      "key": "|Do you want to stop travelling?@#text",
+      "context": null,
+      "old_value": "Möchtet Ihr aufhören zu reisen?",
+      "new_value": "Möchtest du aufhören zu reisen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "860584a8966269f9",
+      "file": "Strings.de.xml",
+      "key": "|=subject.The.name= =subject.is= unpowered. Do you want to continue without =subject.its= full benefits?@#text",
+      "context": null,
+      "old_value": "=subject.The.name= =subject.is= ohne Energie. Möchtet Ihr ohne =subject.its= vollen Nutzen fortfahren?",
+      "new_value": "=subject.The.name= =subject.is= ohne Energie. Möchtest du ohne =subject.its= vollen Nutzen fortfahren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "48e6422f6e45a0f8",
+      "file": "Strings.de.xml",
+      "key": "|=subject.The.name= =subject.is= inoperative. Do you want to continue without =subject.its= full benefits?@#text",
+      "context": null,
+      "old_value": "=subject.The.name= =subject.is= funktionsunfähig. Möchtet Ihr ohne =subject.its= vollen Nutzen fortfahren?",
+      "new_value": "=subject.The.name= =subject.is= funktionsunfähig. Möchtest du ohne =subject.its= vollen Nutzen fortfahren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "242dc1f0d2b839f3",
+      "file": "Strings.de.xml",
+      "key": "|=subject.The.name= =subject.is= inoperative. Do you want to continue without =subject.its= benefits?@#text",
+      "context": null,
+      "old_value": "=subject.The.name= =subject.is= funktionsunfähig. Möchtet Ihr ohne =subject.its= Nutzen fortfahren?",
+      "new_value": "=subject.The.name= =subject.is= funktionsunfähig. Möchtest du ohne =subject.its= Nutzen fortfahren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "14f77785cd476f71",
+      "file": "Strings.de.xml",
+      "key": "|=item.DisplayNameOnlyDirect=: how many do you want to preserve? (max =equals= =item.count=)@#text",
+      "context": null,
+      "old_value": "=item.DisplayNameOnlyDirect=: wie viele wollt Ihr bewahren? (max =equals= =item.count=)",
+      "new_value": "=item.DisplayNameOnlyDirect=: wie viele willst du bewahren? (max =equals= =item.count=)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ad6b83b7e05096ff",
+      "file": "Strings.de.xml",
+      "key": "|Would you like to walk to the nearest stairway down?",
+      "context": "",
+      "old_value": "Möchtet Ihr zur nächsten Treppe nach unten gehen?",
+      "new_value": "Möchtest du zur nächsten Treppe nach unten gehen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3da029c8c93ac0ed",
+      "file": "Strings.de.xml",
+      "key": "|Would you like to walk to the nearest stairway up?",
+      "context": "",
+      "old_value": "Möchtet Ihr zur nächsten Treppe nach oben gehen?",
+      "new_value": "Möchtest du zur nächsten Treppe nach oben gehen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ef225afd789755c3",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ActivateSkyshroud]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Während des Stürmens stürmt Ihr bei jeder Bewegung in eine Richtung zum nächsten Feind oder Hindernis und führt einen Angriff aus.",
+      "new_value": "Während des Stürmens stürmst du bei jeder Bewegung in eine Richtung zum nächsten Feind oder Hindernis und führst einen Angriff aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4a7f3f860714225",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[ActivateSkyshroud]/description#1/p#7@#text",
+      "context": null,
+      "old_value": "Wenn Ihr nach zwanzig Feldern keinen Feind oder Hindernis antrefft, stoppt Ihr die Bewegung.",
+      "new_value": "Wenn du nach zwanzig Feldern keinen Feind oder Hindernis antriffst, stoppst du die Bewegung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0d00ca35d024ba43",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandDisintegration]/description#1/p#6@#text",
+      "context": null,
+      "old_value": "Ihr seid 3 Runden lang erschöpft, nachdem Ihr diese Kraft verwendet habt.",
+      "new_value": "Du bist 3 Runden lang erschöpft, nachdem du diese Kraft verwendet hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f78c3939cbce1b14",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandDominateCreature]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Sie würgen den Verstand einer benachbarten Kreatur und kontrollieren ihre Handlungen, während Ihr eigener Körper untätig liegt.",
+      "new_value": "Du würgst den Verstand einer benachbarten Kreatur und kontrollierst ihre Handlungen, während dein eigener Körper untätig liegt.",
+      "note": "Sie-Form -> du; 'ihre Handlungen' = der Kreatur, unveraendert",
+      "status": "accepted"
+    },
+    {
+      "uid": "c76a1d7ce3c32e45",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandSunderMind]/description#1/p#5@#text",
+      "context": null,
+      "old_value": "Jede Runde führt Ihr einen mentalen Angriff gegen MA durch.",
+      "new_value": "Jede Runde führst du einen mentalen Angriff gegen MA durch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5be015af4b3d9bfb",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandWillForceStrength]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Durch reine Willenskraft führt Ihr unheimliche physische Meisterleistungen auf.",
+      "new_value": "Durch reine Willenskraft führst du unheimliche physische Meisterleistungen auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "590fca8effeff10a",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandWillForceAgility]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Durch reine Willenskraft führt Ihr unheimliche physische Meisterleistungen auf.",
+      "new_value": "Durch reine Willenskraft führst du unheimliche physische Meisterleistungen auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "29613f254d98d010",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandWillForceToughness]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Durch reine Willenskraft führt Ihr unheimliche physische Meisterleistungen auf.",
+      "new_value": "Durch reine Willenskraft führst du unheimliche physische Meisterleistungen auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "54aa9fbe403a573f",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandToggleRunning]/description#1/p#3/switch[PowerSkate]/case#1@#text",
+      "context": null,
+      "old_value": "bis Ihr keinen Treibstoff mehr habt",
+      "new_value": "bis du keinen Treibstoff mehr hast",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c4fbc329a0baf999",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandToggleRunning]/description#1/p#7@#text",
+      "context": null,
+      "old_value": "Sprinten endet früh, wenn Ihr eine physische Aktion außer Bewegung oder Verharren durchführt.",
+      "new_value": "Sprinten endet früh, wenn du eine physische Aktion außer Bewegung oder Verharren durchführst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a6c473ba8a998554",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandToggleDecapitate]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Köpfe werden der Liste möglicher Gliedmaßen hinzugefügt, die Ihr abhacken könnt.",
+      "new_value": "Köpfe werden der Liste möglicher Gliedmaßen hinzugefügt, die du abhacken kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3ddb192f62e9e18",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandToggleAkimbo]/description#1@#text",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Fernkampfangriff macht, während Ihr mehrere Waffen führt, feuert Ihr einen Schuss mit jeder von ihnen ab.",
+      "new_value": "Jedes Mal, wenn du einen Fernkampfangriff machst, während du mehrere Waffen führst, feuerst du einen Schuss mit jeder von ihnen ab.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1d7e27c8dc838ad6",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandMarkTarget]/description#1/p#7@#text",
+      "context": null,
+      "old_value": "Ziele werden nicht mehr markiert, wenn Ihr sie nicht mehr sehen könnt.",
+      "new_value": "Ziele werden nicht mehr markiert, wenn du sie nicht mehr sehen kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "73864c705a8e5a42",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandDisciplineMeditate]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Während der Meditation regeneriert Ihr dreimal so schnell, und negative Statuseffekte verschwinden dreimal so schnell.",
+      "new_value": "Während der Meditation regenerierst du dreimal so schnell, und negative Statuseffekte verschwinden dreimal so schnell.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "77e9776dd3fd6d28",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandDisciplineMeditate]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Die einzige Aktion, die Ihr während der Meditation ausführen könnt, ist Warten.",
+      "new_value": "Die einzige Aktion, die du während der Meditation ausführen kannst, ist Warten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d9ffd95e58ba8172",
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandDisciplineMeditate]/description#1/p#7@#text",
+      "context": null,
+      "old_value": "Wenn Ihr 10 oder mehr Runden rastet, beginnt Ihr automatisch zu meditieren.",
+      "new_value": "Wenn du 10 oder mehr Runden rastest, beginnst du automatisch zu meditieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6ef158a529489fe2",
+      "file": "Books.de.xml",
+      "key": "/books#0/book[Preacher2]/page#1@#text",
+      "context": null,
+      "old_value": "Habt Ihr schon von den gesegneten Baetylene gehört, Kinder?",
+      "new_value": "Habt ihr schon von den gesegneten Baetylene gehört, Kinder?",
+      "note": "Predigt an 'Kinder' (Gruppe) -> kleines Plural 'ihr'",
+      "status": "accepted"
+    },
+    {
+      "uid": "a70a827443d8c6f6",
+      "file": "Books.de.xml",
+      "key": "/books#0/book[HighSermon]/page#2@#text",
+      "context": null,
+      "old_value": "Habt Ihr das Wort von Shekhinah gehört?",
+      "new_value": "Habt ihr das Wort von Shekhinah gehört?",
+      "note": "Predigt an Gemeinde (Gruppe) -> kleines Plural 'ihr'; unsicher",
+      "status": "accepted"
+    },
+    {
+      "uid": "82839fde5f21166e",
+      "file": "Books.de.xml",
+      "key": "/books#0/book[MimicandMadpole]/page#2@#text",
+      "context": null,
+      "old_value": "\nFür den Rest des Tages folgte das Mimik dem Bach, während er sich in den Wald schlängelte. Als die letzte des wachsenen Lichts aus der Luft zu sickern begann, bemerkte das Mimik mehrere merkwürdige Stapel von schlammigerem Holz und Baumstämmen voraus in der Mitte des plappernden Stroms. Ein Musker, dessen braunes Fell durchnässt und an seinen kleinen Körper gepresst war, ordnete Zweige um die Basis eines der Stapel. Das Mimik verstand sofort; dies waren die Lodges des Muskers, jede einzelne sorgfältig errichtet Zweig für Zweig. So beeindruckt war das Mimik von diesen gut gebauten Behausungen und vom Fleiß des Muskers, dass es den Nagetier fragte, ob es sein Heim mit ihm teilen, das Mimik sein Handwerk lehren und das Mimik erdulden würde, während es seine eigene Lodge baute. \"Eine Lodge zu errichten ist keine geringfügige Aufgabe,\" sagte der Musker. \"Beinahe all mein Tag wird damit verbracht, Holz zu hacken und zu stapeln, und obwohl Ihr die Lodge selbst bewundert, könntet Ihr auf die Arbeit finstern, die sie hervorbringt.\"\n\nAber das Mimik blieb dennoch beim Musker. Und am nächsten Morgen wachte es mit dem Musker im Morgengrauen auf, und gemeinsam schlugen sie Äste von den Weinzypressen mit ihren Zähnen ab, bis der Schleier des Abends geworfen wurde, und dann sammelten sie all das gerissene Holz und packten es mit Schlamm zusammen, den sie aus dem Bett des Bachs zogen. Am Anbruch eines jeden Tages begannen sie von neuem, und sie hörten nicht auf, bis lange nach Sonnenuntergang, wenn das Mimik den Musker in den verdunkelnden Dickicht nicht mehr erkennen konnte. Bis eines Morgens, während der Musker seine Zähne an einem faulen Baumstamm nutzte, das Mimik, das",
+      "new_value": "\nFür den Rest des Tages folgte das Mimik dem Bach, während er sich in den Wald schlängelte. Als die letzte des wachsenen Lichts aus der Luft zu sickern begann, bemerkte das Mimik mehrere merkwürdige Stapel von schlammigerem Holz und Baumstämmen voraus in der Mitte des plappernden Stroms. Ein Musker, dessen braunes Fell durchnässt und an seinen kleinen Körper gepresst war, ordnete Zweige um die Basis eines der Stapel. Das Mimik verstand sofort; dies waren die Lodges des Muskers, jede einzelne sorgfältig errichtet Zweig für Zweig. So beeindruckt war das Mimik von diesen gut gebauten Behausungen und vom Fleiß des Muskers, dass es den Nagetier fragte, ob es sein Heim mit ihm teilen, das Mimik sein Handwerk lehren und das Mimik erdulden würde, während es seine eigene Lodge baute. \"Eine Lodge zu errichten ist keine geringfügige Aufgabe,\" sagte der Musker. \"Beinahe all mein Tag wird damit verbracht, Holz zu hacken und zu stapeln, und obwohl du die Lodge selbst bewunderst, könntest du auf die Arbeit finstern, die sie hervorbringt.\"\n\nAber das Mimik blieb dennoch beim Musker. Und am nächsten Morgen wachte es mit dem Musker im Morgengrauen auf, und gemeinsam schlugen sie Äste von den Weinzypressen mit ihren Zähnen ab, bis der Schleier des Abends geworfen wurde, und dann sammelten sie all das gerissene Holz und packten es mit Schlamm zusammen, den sie aus dem Bett des Bachs zogen. Am Anbruch eines jeden Tages begannen sie von neuem, und sie hörten nicht auf, bis lange nach Sonnenuntergang, wenn das Mimik den Musker in den verdunkelnden Dickicht nicht mehr erkennen konnte. Bis eines Morgens, während der Musker seine Zähne an einem faulen Baumstamm nutzte, das Mimik, das",
+      "note": "Fabel: Musker spricht Mimik an (nicht der Spieler); trotzdem du",
+      "status": "accepted"
+    },
+    {
+      "uid": "6523e851fc645400",
+      "file": "EffectsDetails.de.xml",
+      "key": "/templates#0/template[Effect.BlinkingTicSickness.Details]/p#1@#text",
+      "context": null,
+      "old_value": "Es gibt jede Runde, während Ihr im Kampf seid, eine kleine Chance, dass Ihr zufällig an einen nahegelegenen Ort teleportiert werdet.",
+      "new_value": "Es gibt jede Runde, während du im Kampf bist, eine kleine Chance, dass du zufällig an einen nahegelegenen Ort teleportiert wirst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bb409eff2309ca1b",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Bop Cheek]/part[Food]@Message",
+      "context": null,
+      "old_value": "Es ist zäher als alles, was Ihr je gegessen habt.",
+      "new_value": "Es ist zäher als alles, was du je gegessen hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4f05db98153929a",
+      "file": "HiddenObjects.de.xml",
+      "key": "/objects#0/object[Spoken Ionic]/part[Description]@Short",
+      "context": null,
+      "old_value": "Aus der Wölbung der Zweige und des Stamms des Baumes schließt Ihr auf eine stellare Anordnung seiner Heimat, zu geometrisch komplex für natürliche Sternentstehung. =pronouns.Possessive= Bänder werfen das Licht wie Glas und tanzen in der abgestandenen Luft, seltsame Wimpel einer Zivilisation, der jede Vertrautheit entzogen wurde. Hier, am Rand =pronouns.possessive= fremden Teichs, trinkt das wurzelnde Besucherwesen in verwirrender Darbietung kühles Wasser.",
+      "new_value": "Aus der Wölbung der Zweige und des Stamms des Baumes schließt du auf eine stellare Anordnung seiner Heimat, zu geometrisch komplex für natürliche Sternentstehung. =pronouns.Possessive= Bänder werfen das Licht wie Glas und tanzen in der abgestandenen Luft, seltsame Wimpel einer Zivilisation, der jede Vertrautheit entzogen wurde. Hier, am Rand =pronouns.possessive= fremden Teichs, trinkt das wurzelnde Besucherwesen in verwirrender Darbietung kühles Wasser.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "949c66fdd09cb31b",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/haveYouHeardOf=/0",
+      "context": "spice.instancesOf.haveYouHeardOf",
+      "old_value": "habt Ihr schon gehört von",
+      "new_value": "hast du schon gehört von",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1f0babba1acb447c",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/haveYouHeardOf=/1",
+      "context": "spice.instancesOf.haveYouHeardOf",
+      "old_value": "wisst Ihr um",
+      "new_value": "weißt du um",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "14371a9c7f8be4ba",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/haveYouHeardOf=/3",
+      "context": "spice.instancesOf.haveYouHeardOf",
+      "old_value": "seid Ihr bereits bekannt mit",
+      "new_value": "bist du bereits bekannt mit",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "edb0c79f7b3e53bc",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/ifYouWouldDoTheSame=/0",
+      "context": "spice.instancesOf.ifYouWouldDoTheSame",
+      "old_value": "wenn Ihr dasselbe tätet",
+      "new_value": "wenn du dasselbe tätest",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9946cfeea05bbf81",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/ifYouWouldDoTheSame=/1",
+      "context": "spice.instancesOf.ifYouWouldDoTheSame",
+      "old_value": "wenn Ihr es auch tätet",
+      "new_value": "wenn du es auch tätest",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e485f99b1bc777ab",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/ifYouWouldDoTheSame=/2",
+      "context": "spice.instancesOf.ifYouWouldDoTheSame",
+      "old_value": "wenn Ihr es selbst tätet",
+      "new_value": "wenn du es selbst tätest",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3b8c29c90ae38b4f",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/willYou=/0",
+      "context": "spice.instancesOf.willYou",
+      "old_value": "wollt Ihr",
+      "new_value": "willst du",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b5f85c321e1c71d",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/willYou=/1",
+      "context": "spice.instancesOf.willYou",
+      "old_value": "würdet Ihr",
+      "new_value": "würdest du",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6d051203939370c3",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/willYou=/2",
+      "context": "spice.instancesOf.willYou",
+      "old_value": "was sagt Ihr",
+      "new_value": "was sagst du",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc3c200d7bb363db",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/aboveAllElse=/2",
+      "context": "spice.instancesOf.aboveAllElse",
+      "old_value": "solange Ihr respektvoll seid",
+      "new_value": "solange du respektvoll bist",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "351cb303121009c1",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/lovesick=/5",
+      "context": "spice.lovesick",
+      "old_value": "=text|removeLastPeriod=, und die ganze Zeit weintet Ihr.",
+      "new_value": "=text|removeLastPeriod=, und die ganze Zeit weintest du.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b57aa220afde142a",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/sacred/willingToRecover=/1",
+      "context": "spice.quests.FindaSpecificItem.sacred.willingToRecover",
+      "old_value": "würdet Ihr =item.them= aufspüren und =item.them= uns zurückbringen?",
+      "new_value": "würdest du =item.them= aufspüren und =item.them= uns zurückbringen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "21b8b0efe755139f",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/sacred/willingToRecover=/2",
+      "context": "spice.quests.FindaSpecificItem.sacred.willingToRecover",
+      "old_value": "wir brauchen jemanden, der =item.them= zurückholt, =spice:commonPhrases.greetingFriend.!random=. Wollt Ihr es tun?",
+      "new_value": "wir brauchen jemanden, der =item.them= zurückholt, =spice:commonPhrases.greetingFriend.!random=. Willst du es tun?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9c1b96cb93abffff",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/intro=/1",
+      "context": "spice.quests.FindaSpecificItem.personal.intro",
+      "old_value": "=spice:instancesOf.thank.!random= die =spice:adjectives.!random= =spice:nouns.!random=, dass Ihr hier seid, =spice:commonPhrases.greetingFriend.!random=.",
+      "new_value": "=spice:instancesOf.thank.!random= die =spice:adjectives.!random= =spice:nouns.!random=, dass du hier bist, =spice:commonPhrases.greetingFriend.!random=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "879425a3612e5b29",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/iHaveATask=/3",
+      "context": "spice.quests.FindaSpecificItem.personal.iHaveATask",
+      "old_value": "es gibt eine =spice:commonPhrases.task.!random=, die Ihr für mich erledigen könntet",
+      "new_value": "es gibt eine =spice:commonPhrases.task.!random=, die du für mich erledigen könntest",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7c4722aa240fc6ec",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/willYouDoIt=/0",
+      "context": "spice.quests.FindaSpecificItem.personal.willYouDoIt",
+      "old_value": "wollt Ihr es tun?",
+      "new_value": "willst du es tun?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8ceb96714b24db0a",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/willYouDoIt=/1",
+      "context": "spice.quests.FindaSpecificItem.personal.willYouDoIt",
+      "old_value": "wollt Ihr?",
+      "new_value": "willst du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5249ecefcf7893ce",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/willYouDoIt=/2",
+      "context": "spice.quests.FindaSpecificItem.personal.willYouDoIt",
+      "old_value": "was sagt Ihr?",
+      "new_value": "was sagst du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd20386369d8f406",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/willYouDoIt=/3",
+      "context": "spice.quests.FindaSpecificItem.personal.willYouDoIt",
+      "old_value": "was denkt Ihr?",
+      "new_value": "was denkst du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6dfc12c6fe359d45",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSite/travelers/wouldYouFindIt=/0",
+      "context": "spice.quests.FindaSite.travelers.wouldYouFindIt",
+      "old_value": "wollt Ihr es für uns finden?",
+      "new_value": "willst du es für uns finden?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "76151c5f0a3fee11",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSite/records/ifYouFindIt=/0",
+      "context": "spice.quests.FindaSite.records.ifYouFindIt",
+      "old_value": "wenn Ihr es für uns =spice:commonPhrases.find.!random=, =spice:quests.FindaSpecificItem.sacred.rewardYou.!random=",
+      "new_value": "wenn du es für uns =spice:commonPhrases.find.!random=, =spice:quests.FindaSpecificItem.sacred.rewardYou.!random=",
+      "note": "Spice-Verb =spice:commonPhrases.find= muss 2. Sg. liefern",
+      "status": "accepted"
+    },
+    {
+      "uid": "487133915664c297",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/InteractWithAnObject/holyitem/honorUsDesecrate=/0",
+      "context": "spice.quests.InteractWithAnObject.holyitem.honorUsDesecrate",
+      "old_value": "es würde uns =spice:commonPhrases.greatly.!random= ehren, wenn Ihr =verb= =item.them=",
+      "new_value": "es würde uns =spice:commonPhrases.greatly.!random= ehren, wenn du =verb= =item.them=",
+      "note": "=verb= muss 2. Sg. liefern",
+      "status": "accepted"
+    },
+    {
+      "uid": "0a5efc66d5996e51",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/InteractWithAnObject/holyitem/honorUsDesecrate=/1",
+      "context": "spice.quests.InteractWithAnObject.holyitem.honorUsDesecrate",
+      "old_value": "es wäre ein =spice:commonPhrases.blessing.!random=, wenn Ihr =verb= =item.them=",
+      "new_value": "es wäre ein =spice:commonPhrases.blessing.!random=, wenn du =verb= =item.them=",
+      "note": "=verb= muss 2. Sg. liefern",
+      "status": "accepted"
+    },
+    {
+      "uid": "f2a140773054de69",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[SkybearJetpack]/part[TakenAccomplishment]@Text",
+      "context": null,
+      "old_value": "Der Himmelsbär fliegt aufs Neue! Aus den Klauen der eisigen Vergangenheit habt Ihr =this.refname= geborgen.",
+      "new_value": "Der Himmelsbär fliegt aufs Neue! Aus den Klauen der eisigen Vergangenheit hast du =this.refname= geborgen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0421901f6119796",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[PlasticTree]/part[Description]@Short",
+      "context": null,
+      "old_value": "Blätter sind in einer wachsartigen Nachahmung des Lebens ausgebreitet. Es sieht aus der Nähe hart und ölig aus, aber wenn Ihr euch zurückzieht, verbrennen seine Kanten in Sanftheit und es erfüllt die Baumfunktion.",
+      "new_value": "Blätter sind in einer wachsartigen Nachahmung des Lebens ausgebreitet. Es sieht aus der Nähe hart und ölig aus, aber wenn du dich zurückziehst, verbrennen seine Kanten in Sanftheit und es erfüllt die Baumfunktion.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fdc8def479d26311",
+      "file": "Items.de.xml",
+      "key": "/objects#0/object[NocturnalApex]/part[CyberneticsBaseItem]@BehaviorDescription",
+      "context": null,
+      "old_value": "+10% zur natürlichen Heilungsrate während des Tages.\nEinmal pro Nacht könnt Ihr pirschen und erhaltet dabei für 100 Runden +6 Beweglichkeit und +10 Bewegungsgeschwindigkeit.",
+      "new_value": "+10% zur natürlichen Heilungsrate während des Tages.\nEinmal pro Nacht kannst du pirschen und erhältst dabei für 100 Runden +6 Beweglichkeit und +10 Bewegungsgeschwindigkeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df83e7e0c1e83e2b",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Carnivorous]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Wenn Ihr rohe Nahrung esst, die kein Fleisch ist, besteht eine 50%ige Chance, dass Ihr für 2 Stunden krank werdet.",
+      "new_value": "Wenn du rohe Nahrung isst, die kein Fleisch ist, besteht eine 50%ige Chance, dass du für 2 Stunden krank wirst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3b86dcb221444342",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Irritable Genome]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Immer wenn Ihr eine neue Mutation kauft, erhaltet Ihr eine zufällige anstelle einer Auswahl von dreien.",
+      "new_value": "Immer wenn du eine neue Mutation kaufst, erhältst du eine zufällige anstelle einer Auswahl von dreien.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "83122bc3ae00db06",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Spontaneous Combustion]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Es besteht eine geringe Chance pro Runde im Kampf, dass Ihr spontan in Flammen geratet.",
+      "new_value": "Es besteht eine geringe Chance pro Runde im Kampf, dass du spontan in Flammen gerätst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c5dff6e849606129",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Ego Projection]/description#1@#text",
+      "context": null,
+      "old_value": "\n        Durch pure Willenskraft vollbringt Ihr unheimliche körperliche Meisterleistungen.\n      ",
+      "new_value": "\n        Durch pure Willenskraft vollbringst du unheimliche körperliche Meisterleistungen.\n      ",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e6c9034bdd102eca",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Sense Psychic]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Es besteht eine Chance, dass Ihr erkannte Feinde identifiziert.",
+      "new_value": "Es besteht eine Chance, dass du erkannte Feinde identifizierst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "08f0e52fe0e3bd08",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Sunder Mind]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "Für bis zu 10 Runden führt Ihr einen psychischen Kampf mit einem Gegner, wobei Ihr jede Runde Schaden zufügt.",
+      "new_value": "Für bis zu 10 Runden führst du einen psychischen Kampf mit einem Gegner, wobei du jede Runde Schaden zufügst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bd39d21988789ac7",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Sunder Mind]/leveltext#2/p#3@#text",
+      "context": null,
+      "old_value": "Jede Runde führt Ihr einen mentalen Angriff gegen die mentale Rüstung (MA) aus.",
+      "new_value": "Jede Runde führst du einen mentalen Angriff gegen die mentale Rüstung (MA) aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df665ef34ecdfac3",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Amnesia]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Immer wenn Ihr ein neues Geheimnis erfahrt, besteht eine geringe Chance, dass Ihr ein Geheimnis vergesst.",
+      "new_value": "Immer wenn du ein neues Geheimnis erfährst, besteht eine geringe Chance, dass du ein Geheimnis vergisst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4fce6b3f9dcb187f",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Dystechnia]/description#1/p#5@#text",
+      "context": null,
+      "old_value": "Wenn Ihr bei der Artefaktuntersuchung schwer scheitert, explodiert das Artefakt.",
+      "new_value": "Wenn du bei der Artefaktuntersuchung schwer scheiterst, explodiert das Artefakt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "60d311d2db8a5c4d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Narcolepsy]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Es besteht eine geringe Chance pro Runde im Kampf, dass Ihr für 20-29 Runden einschlaft.",
+      "new_value": "Es besteht eine geringe Chance pro Runde im Kampf, dass du für 20-29 Runden einschläfst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c15f88dec5d04986",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionPressingRightInInventoryEquips]@DisplayText",
+      "context": null,
+      "old_value": "Rüstet den markierten Gegenstand aus/ab, wenn Ihr auf dem Ausrüstungsbildschirm rechts oder links drückt",
+      "new_value": "Rüstet den markierten Gegenstand aus/ab, wenn du auf dem Ausrüstungsbildschirm rechts oder links drückst",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a7945040a95d4592",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionDismemberAsPopup]@DisplayText",
+      "context": null,
+      "old_value": "Zeige Popups, wenn Ihr jemanden zerstückelt oder enthauptet",
+      "new_value": "Zeige Popups, wenn du jemanden zerstückelst oder enthauptest",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe584a62e6a7d1e1",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionGivesRepShowsCurrentRep]@DisplayText",
+      "context": null,
+      "old_value": "Zeige Ansehen mit den Fraktionen einer Kreatur, wenn Ihr sie anschaut",
+      "new_value": "Zeige Ansehen mit den Fraktionen einer Kreatur, wenn du sie anschaust",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9381b7bfd95e37f7",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Freunde und Familie]@Accomplishment",
+      "context": null,
+      "old_value": "Zum Guten oder Bösen für das Schicksal von Bey Lah habt Ihr das Mysterium um Kindrish' Verschwinden gelöst und Warden Neelahind geholfen, Gerechtigkeit zu verwalten.",
+      "new_value": "Zum Guten oder Bösen für das Schicksal von Bey Lah hast du das Mysterium um Kindrish' Verschwinden gelöst und Warden Neelahind geholfen, Gerechtigkeit zu verwalten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "67681186609ff6b1",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Zerfasernde Favoriten]/step[Verwende das Abstoßungsgerät]/text#1@#text",
+      "context": null,
+      "old_value": "Wähle, wie Ihr das abstoßende Gerät am besten einsetzt.",
+      "new_value": "Wähle, wie du das abstoßende Gerät am besten einsetzt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eea8d59edef30e8c",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[Grab der Eaters of Earth]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr seid aus dem Grab der Eater zurückgekehrt, nachdem Ihr das Magnetfeld der Spindel erfolgreich deaktiviert habt.",
+      "new_value": "Du bist aus dem Grab der Eater zurückgekehrt, nachdem du das Magnetfeld der Spindel erfolgreich deaktiviert hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ea86de6c660b8208",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶O Glorious Shekhinah!]@Accomplishment",
+      "context": null,
+      "old_value": "Auf Empfehlung eines Proselyten habt Ihr den Handelsbasar und die große Kathedrale am Six Day Stilt besucht.",
+      "new_value": "Auf Empfehlung eines Proselyten hast du den Handelsbasar und die große Kathedrale am Six Day Stilt besucht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd2cd84e92128dbf",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Petals on the Wind]@Accomplishment",
+      "context": null,
+      "old_value": "Auf Geheiß einer verstoßenen Hindren seid Ihr zum verborgenen Dorf Bey Lah gereist, um einem Geheimnis nachzugehen.",
+      "new_value": "Auf Geheiß einer verstoßenen Hindren bist du zum verborgenen Dorf Bey Lah gereist, um einem Geheimnis nachzugehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "62d70b0c9001d3e9",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Kith and Kin]@Accomplishment",
+      "context": null,
+      "old_value": "Zum Guten oder Schlechten für das Schicksal von Bey Lah habt Ihr das Geheimnis von Kindrishs Verschwinden gelöst und dem Wächter Neelahind geholfen, Gerechtigkeit walten zu lassen.",
+      "new_value": "Zum Guten oder Schlechten für das Schicksal von Bey Lah hast du das Geheimnis von Kindrishs Verschwinden gelöst und dem Wächter Neelahind geholfen, Gerechtigkeit walten zu lassen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4a1796425a5a8cb9",
+      "file": "Quests.de.xml",
+      "key": "/quests#0/quest[▶Tomb of the Eaters]@Accomplishment",
+      "context": null,
+      "old_value": "Ihr seid aus dem Grab der Fresser zurückgekehrt, nachdem Ihr das Magnetfeld der Spindel erfolgreich deaktiviert habt.",
+      "new_value": "Du bist aus dem Grab der Fresser zurückgekehrt, nachdem du das Magnetfeld der Spindel erfolgreich deaktiviert hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "044a5341e4ec0207",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Axe]/power[Decapitate]@Description",
+      "context": null,
+      "old_value": "Köpfe werden der Liste möglicher Gliedmaßen hinzugefügt, die Ihr abhacken könnt. Das Abhacken des einzigen Kopfes eines Wesens tötet es sofort. Hat das Wesen mehrere Köpfe, beginnen sie heftig zu bluten (2-3 Schaden pro Runde; Zähigkeitswurf; Schwierigkeit 35).",
+      "new_value": "Köpfe werden der Liste möglicher Gliedmaßen hinzugefügt, die du abhacken kannst. Das Abhacken des einzigen Kopfes eines Wesens tötet es sofort. Hat das Wesen mehrere Köpfe, beginnen sie heftig zu bluten (2-3 Schaden pro Runde; Zähigkeitswurf; Schwierigkeit 35).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a6e9a03aa3dc53dc",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cooking and Gathering]/power[Meal Preparation]@Description",
+      "context": null,
+      "old_value": "Während Ihr an einem Lagerfeuer sitzt, könnt Ihr nach Rezepten kochen, bis zu zwei Zutaten zum Kochen auswählen und frische Lebensmittel konservieren.\nAus Rezepten zubereitete Mahlzeiten verleihen besondere Statuseffekte. Mit ausgewählten Zutaten zubereitete Mahlzeiten verleihen dynamisch generierte Statuseffekte.\nKonservierte Lebensmittel werden als Mahlzeitenzutaten verwendet.",
+      "new_value": "Während du an einem Lagerfeuer sitzt, kannst du nach Rezepten kochen, bis zu zwei Zutaten zum Kochen auswählen und frische Lebensmittel konservieren.\nAus Rezepten zubereitete Mahlzeiten verleihen besondere Statuseffekte. Mit ausgewählten Zutaten zubereitete Mahlzeiten verleihen dynamisch generierte Statuseffekte.\nKonservierte Lebensmittel werden als Mahlzeitenzutaten verwendet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3f6577621bea6c4f",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Single Weapon Fighting]/power[Opportune Attacks]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen kritischen Treffer mit einer Nahkampfwaffe im Einzelwaffenkampf erzielt, werden die Abkühlungen von bis zu zwei zufälligen Waffen- oder Schildfähigkeiten sofort aktualisiert.",
+      "new_value": "Jedes Mal, wenn du einen kritischen Treffer mit einer Nahkampfwaffe im Einzelwaffenkampf erzielst, werden die Abkühlungen von bis zu zwei zufälligen Waffen- oder Schildfähigkeiten sofort aktualisiert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "77103bbf1c3aac1b",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Pistol]/power[Akimbo]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Fernkampfangriff macht, während Ihr mehrere Waffen führt, feuert Ihr einen Schuss mit jeder von ihnen ab.",
+      "new_value": "Jedes Mal, wenn du einen Fernkampfangriff machst, während du mehrere Waffen führst, feuerst du einen Schuss mit jeder von ihnen ab.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4009bcc0a6c73564",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Shield]/power[Shield Wall]@Description",
+      "context": null,
+      "old_value": "Für die nächsten drei Runden blockt Ihr automatisch alle eingehenden Nahkampfangriffe (kann nicht mit Buckler verwendet werden).",
+      "new_value": "Für die nächsten drei Runden blockst du automatisch alle eingehenden Nahkampfangriffe (kann nicht mit Buckler verwendet werden).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5c924378a9594090",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tactics]/power[Kickback]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr eine Fernwaffe auf ein Ziel in Nahkampfreichweite abfeuert, versucht Ihr, das Ziel rückwärts zu treten.",
+      "new_value": "Jedes Mal, wenn du eine Fernwaffe auf ein Ziel in Nahkampfreichweite abfeuerst, versuchst du, das Ziel rückwärts zu treten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e923d012319fcdcb",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Reverse Engineer]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Gegenstand zerlegt, habt Ihr eine 25%-Chance, zu erfahren, wie man den Gegenstand baut. Wenn der Gegenstand modifiziert wurde, habt Ihr auch eine 15%-Chance pro Mod, die Mod zu erlernen.",
+      "new_value": "Jedes Mal, wenn du einen Gegenstand zerlegst, hast du eine 25%-Chance, zu erfahren, wie man den Gegenstand baut. Wenn der Gegenstand modifiziert wurde, hast du auch eine 15%-Chance pro Mod, die Mod zu erlernen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d135113895df2043",
+      "file": "ZoneTerrain.de.xml",
+      "key": "/objects#0/object[Air]/part[StairsDown]@JumpPrompt",
+      "context": null,
+      "old_value": "Es sieht nach einem furchtbar langen Fall aus. Seid Ihr sicher, dass Ihr springen wollt?",
+      "new_value": "Es sieht nach einem furchtbar langen Fall aus. Bist du sicher, dass du springen willst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "becc88aedb6d18ab",
+      "file": "ZoneTerrain.de.xml",
+      "key": "/objects#0/object[Pit]/part[StairsDown]@JumpPrompt",
+      "context": null,
+      "old_value": "Es sieht nach einem furchtbar langen Fall aus. Seid Ihr sicher, dass Ihr springen wollt?",
+      "new_value": "Es sieht nach einem furchtbar langen Fall aus. Bist du sicher, dass du springen willst?",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

@@ -35,7 +35,7 @@
     <smearedAdjective>{{g|Algen-}}</smearedAdjective>
     <smearedName>{{g|algenbedeckt}}</smearedName>
     <stainedName>{{g|Alge}}</stainedName>
-    <part Name="SnackOnDrink" Message="Die Salzlake sticht in Eurem Mund und erfüllt Euren Atem mit Seeluft." />
+    <part Name="SnackOnDrink" Message="Die Salzlake sticht in deinem Mund und erfüllt deinen Atem mit Seeluft." />
   </liquid>
   <liquid Name="Blood">
     <circulatoryLossTerm>Blutung</circulatoryLossTerm>
@@ -115,8 +115,8 @@
     <smearedAdjective>{{G|schleirig}}</smearedAdjective>
     <smearedName>{{G|schleirig}}</smearedName>
     <stainedName>{{G|Schleim}}</stainedName>
-    <part Name="PoisonOnGoingProne" Message="Giftiger Schleim brennt Eure Augen." />
-    <part Name="PoisonOnDrink" Message="Sie spüren Gift durch Ihre Adern fließen!" />
+    <part Name="PoisonOnGoingProne" Message="Giftiger Schleim brennt deine Augen." />
+    <part Name="PoisonOnDrink" Message="Du spürst Gift durch deine Adern fließen!" />
     <part Name="MessageOnDrink" Message="Es ist furchtbar!" />
   </liquid>
   <liquid Name="Honey">
@@ -200,7 +200,7 @@
     <smearedName>{{K|schleimend}}</smearedName>
     <stainedName>{{K|Schleim}}</stainedName>
     <part Name="MessageOnDrink" Message="Es ist abstoßend!" />
-    <part Name="DiseaseOnGoingProne" Message="Fauliger Schleim spritzt Euch in den Mund. Ihr würgt bei dem schrecklichen Geschmack." />
+    <part Name="DiseaseOnGoingProne" Message="Fauliger Schleim spritzt dir in den Mund. Du würgst bei dem schrecklichen Geschmack." />
     <part Name="DiseaseOnDrink" Message="Sie fühlen sich krank!" />
   </liquid>
   <liquid Name="PrimordialSoup">
@@ -217,7 +217,7 @@
       <stopMessage>Die Flüssigkeiten hören auf zu reagieren.</stopMessage>
       <startMessage>Die ursprüngliche Suppe =subject.to.the.direction= beginnt mit dem =liquid.name= zu reagieren.</startMessage>
     </part>
-    <part Name="HydrateOnDrink" Message="Sie spüren, wie die Suppe in Ihrem Magen herumschwappt." />
+    <part Name="HydrateOnDrink" Message="Du spürst, wie die Suppe in deinem Magen herumschwappt." />
   </liquid>
   <liquid Name="Putrescence">
     <circulatoryLossTerm>undicht</circulatoryLossTerm>
@@ -277,7 +277,7 @@
     <smearedAdjective>{{w|schlammig}}</smearedAdjective>
     <smearedName>{{w|schlammig}}</smearedName>
     <stainedName>{{w|Schlamm}}</stainedName>
-    <part Name="RustOnGoingProne" Message="Brauner Schlamm spritzt in Euren Mund. Ihr zuckt bei dem metallischen Geschmack zusammen." />
+    <part Name="RustOnGoingProne" Message="Brauner Schlamm spritzt in deinen Mund. Du zuckst bei dem metallischen Geschmack zusammen." />
     <part Name="PoisonOnDrink" Message="Sie fühlen sich krank!" />
     <part Name="MessageOnDrink" Message="Es ist entsetzlich!" />
   </liquid>
@@ -291,8 +291,8 @@
     <smearedName>{{radiant|strahlend}}</smearedName>
     <stainedName>{{sunslag|Sonnenslag}}</stainedName>
     <part Name="SunSlagOnDrink">
-      <tooMuchMessage>Helligkeit brennt Euch im Mund, aber Ihr könnt nicht höher geweckt werden.</tooMuchMessage>
-      <noStatMessage>Helligkeit brennt Euch im Mund.</noStatMessage>
+      <tooMuchMessage>Helligkeit brennt dir im Mund, aber du kannst nicht höher geweckt werden.</tooMuchMessage>
+      <noStatMessage>Helligkeit brennt dir im Mund.</noStatMessage>
       <boostedMessage>
         Brightness burns your mouth and inspirits you.
 
@@ -360,9 +360,9 @@
     <stainedName>{{Y|warmes Rauschen}}</stainedName>
     <part Name="GlitchOnPour">
       <messageObject>=subject.T= =verb:glitch= in =object.an=.</messageObject>
-      <messageZone>Der Raum um Euch herum beginnt zu glitchern.</messageZone>
-      <accomplishmentObject>Ihr habt die rohe Entropie des Universums auf Dinge gegossen und habt sie in andere Dinge umgewandelt.</accomplishmentObject>
-      <accomplishmentZone>Ihr habt die rohe Entropie des Universums auf den Boden gegossen und einen Fehler im Raum um euch herum verursacht.</accomplishmentZone>
+      <messageZone>Der Raum um dich herum beginnt zu glitchern.</messageZone>
+      <accomplishmentObject>Du hast die rohe Entropie des Universums auf Dinge gegossen und hast sie in andere Dinge umgewandelt.</accomplishmentObject>
+      <accomplishmentZone>Du hast die rohe Entropie des Universums auf den Boden gegossen und einen Fehler im Raum um dich herum verursacht.</accomplishmentZone>
     </part>
   </liquid>
 </liquids>

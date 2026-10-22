@@ -1,0 +1,68 @@
+{
+  "batch": "du-hiddenmutations-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-hiddenmutations-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "2bbe49b3f478b5b6",
+      "file": "HiddenMutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Dark Vision]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seht im Dunkeln.",
+      "new_value": "Du siehst im Dunkeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1dcef1023d966aeb",
+      "file": "HiddenMutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Heightened Smell]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr besitzt außergewöhnlich scharfen Geruchssinn.",
+      "new_value": "Du besitzt außergewöhnlich scharfen Geruchssinn.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e91e20704ce65ad4",
+      "file": "HiddenMutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Infiltrate]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert und nehmt Kreaturen mit Euch.",
+      "new_value": "Du teleportierst und nimmst Kreaturen mit dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0fcacd14d27effda",
+      "file": "HiddenMutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Heat Absorption]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr regeneriert durch Wärmeaufnahme.",
+      "new_value": "Du regenerierst durch Wärmeaufnahme.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d950c0e096112899",
+      "file": "HiddenMutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Reflect Shame]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr spiegelt das schmachvolle Antlitz nahegelegener Kreaturen wider.",
+      "new_value": "Du spiegelst das schmachvolle Antlitz nahegelegener Kreaturen wider.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe0b786004584893",
+      "file": "HiddenMutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Repelling Force]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr beschwört eine abstoßende Kraft im umgebenden Bereich und wirft Feinde zurück.",
+      "new_value": "Du beschwörst eine abstoßende Kraft im umgebenden Bereich und wirft Feinde zurück.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

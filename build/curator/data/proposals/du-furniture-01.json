@@ -1,0 +1,58 @@
+{
+  "batch": "du-furniture-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-furniture-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "d532fa036fda88b7",
+      "file": "Furniture.de.xml",
+      "key": "/objects#0/object[Electrothing]/part[Description]@Short",
+      "context": null,
+      "old_value": "Zwei kupferne Glühbirnen bilden eine Funkenlücke, die den Strom entlang eines ionisierten Gasbahn erleichtert. Das Ding reißt und funkelt bei Euch.",
+      "new_value": "Zwei kupferne Glühbirnen bilden eine Funkenlücke, die den Strom entlang eines ionisierten Gasbahn erleichtert. Das Ding reißt und funkelt bei dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "57ea5c00b34af6af",
+      "file": "Furniture.de.xml",
+      "key": "/objects#0/object[Eater Hologram]/part[Description]@Short",
+      "context": null,
+      "old_value": "Gebranntes Licht bricht auf der Chromiumplatte hervor und zersplittert in eine Figur aus der fernen Vergangenheit. Haare, Haut, Stirn, Oberschenkel: die Merkmale schlüpfen eine neue Emotion in Euch aus, das Gefühl des Fremden-Vertrauten. Während Ihr Euch bewegt, bewegt sich die Figur in Parallaxe; Ihr wundert Euch, wie dieser Esser es schaffte, sich selbst in Euren Raumzeit-Zopf zu ritzen.",
+      "new_value": "Gebranntes Licht bricht auf der Chromiumplatte hervor und zersplittert in eine Figur aus der fernen Vergangenheit. Haare, Haut, Stirn, Oberschenkel: die Merkmale schlüpfen eine neue Emotion in dir aus, das Gefühl des Fremden-Vertrauten. Während du dich bewegst, bewegt sich die Figur in Parallaxe; du wunderst dich, wie dieser Esser es schaffte, sich selbst in deinen Raumzeit-Zopf zu ritzen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "51be4837f1434abf",
+      "file": "Furniture.de.xml",
+      "key": "/objects#0/object[hologram of Shekhinah]/part[Chat]@Says",
+      "context": null,
+      "old_value": "[Shekhinah wendet sich Euch zu, Seine Arme weit geöffnet.]",
+      "new_value": "[Shekhinah wendet sich dir zu, Seine Arme weit geöffnet.]",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a4f646eca886d6e8",
+      "file": "Furniture.de.xml",
+      "key": "/objects#0/object[HatSign2]/part[Chat]@Says",
+      "context": null,
+      "old_value": "Bedeckt Eure zerbrechlichen Häupter",
+      "new_value": "Bedeckt eure zerbrechlichen Häupter",
+      "note": "Schild an die Allgemeinheit (Plural 'Häupter') -> Gruppen-Anrede ihr-Plural, Imperativ 'Bedeckt' bleibt",
+      "status": "accepted"
+    },
+    {
+      "uid": "39f55fb124f0fc61",
+      "file": "Furniture.de.xml",
+      "key": "/objects#0/object[DiscSign3]/part[Chat]@Says",
+      "context": null,
+      "old_value": "Baut Eure eigenen Artefakte",
+      "new_value": "Baue deine eigenen Artefakte",
+      "note": "Werbeschild; als du-Anrede gewertet (alternativ Gruppen-Plural 'Baut eure')",
+      "status": "accepted"
+    }
+  ]
+}

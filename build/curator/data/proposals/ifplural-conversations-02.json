@@ -1,0 +1,258 @@
+{
+  "batch": "ifplural-conversations-02",
+  "rule": "fix-ifplural",
+  "note": "Weichen-Token-Argumente deutsch (ifplural-conversations-02)",
+  "created": "2026-10-22 16:32",
+  "items": [
+    {
+      "uid": "7107c2f6492b3fb8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.WhyAreYouHere.Text|I have volunteered to monitor an ancient machine-creature called Kah. Perhaps =ifplayerplural:ye have:thou hast= seen it, skipping hither and yon on strange limbs.\n\nOften I wonder if Kah knoweth aught else but fear.",
+      "context": "Conversation Gyamyo.WhyAreYouHere.Text",
+      "old_value": "Ich habe mich bereit erklärt, eine alte Maschinenkreatur namens Kah zu überwachen. Vielleicht =ifplayerplural:ye have:thou hast= sie gesehen, wie sie auf seltsamen Gliedmaßen hin und her hüpft.\n\nOft frage ich mich, ob Kah etwas anderes als Angst kennt.",
+      "new_value": "Ich habe mich bereit erklärt, eine alte Maschinenkreatur namens Kah zu überwachen. Vielleicht =ifplayerplural:habt ihr:hast du= sie gesehen, wie sie auf seltsamen Gliedmaßen hin und her hüpft.\n\nOft frage ich mich, ob Kah etwas anderes als Angst kennt.",
+      "note": "Weiche übersetzt, Verb-zweit-Stellung im Token",
+      "status": "accepted"
+    },
+    {
+      "uid": "f049101e8a8040ee",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.YourCredo.Text|I do, and I thank =ifplayerplural:ye:thee= for asking after it.\n\nMy credo is \"Reconciliation without understanding is a salt poultice.\"",
+      "context": "Conversation Gyamyo.YourCredo.Text",
+      "old_value": "Ja, und ich danke =ifplayerplural:ye:thee=, daß du danach fragst.\n\nMein Leitspruch ist \"Versöhnung ohne Verständnis ist ein Salzumschlag.\"",
+      "new_value": "Ja, und ich danke =ifplayerplural:euch:dir= für die Nachfrage.\n\nMein Leitspruch ist \"Versöhnung ohne Verständnis ist ein Salzumschlag.\"",
+      "note": "Doppelung 'daß du danach fragst' entfernt (wäre im Plural falsch)",
+      "status": "accepted"
+    },
+    {
+      "uid": "dcd7a37fbbf9f48f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.Meaning.Text|Oh dear.\n\nThis is the credo by which I live my life, and =ifplayerplural:ye ask:thou asketh= \"what does that mean?\"\n\nI cannot summarize such a thing for =ifplayerplural:ye:thee=. It is too great, too multifaceted.",
+      "context": "Conversation Gyamyo.Meaning.Text",
+      "old_value": "Oh je.\n\nDies ist der Leitspruch, nach dem ich mein Leben lebe, und =ifplayerplural:ye ask:thou asketh= \"was bedeutet das?\"\n\nIch kann so etwas nicht für =ifplayerplural:ye:thee= zusammenfassen. Es ist zu groß, zu vielfältig.",
+      "new_value": "Oh je.\n\nDies ist der Leitspruch, nach dem ich mein Leben lebe, und =ifplayerplural:ihr fragt:du fragst= \"was bedeutet das?\"\n\nIch kann so etwas nicht für =ifplayerplural:euch:dich= zusammenfassen. Es ist zu groß, zu vielfältig.",
+      "note": "Weichen übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "1e2943d50059e7c9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.Apologize.Text|May the future bear out =ifplayerplural:your:thy= promises.",
+      "context": "Conversation Gyamyo.Apologize.Text",
+      "old_value": "Möge die Zukunft =ifplayerplural:your:thy= Versprechungen bestätigen.",
+      "new_value": "Möge die Zukunft =ifplayerplural:eure:deine= Versprechungen bestätigen.",
+      "note": "Weiche übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "897e68030ccd2d92",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.Device.Text|=ifplayerplural:Ye have:Thou hast= an object of great interest.\n\nAn =ifplayerplural:ye would:thou wouldst= allow, I'd fain commune with it.",
+      "context": "Conversation Gyamyo.Device.Text",
+      "old_value": "=ifplayerplural:Ye have:Thou hast= ein Objekt von großem Interesse.\n\nWenn =ifplayerplural:ye would:thou wouldst= erlauben, würde ich gerne damit kommunizieren.",
+      "new_value": "=ifplayerplural:Ihr habt:Du hast= ein Objekt von großem Interesse.\n\nWenn =ifplayerplural:ihr es erlaubt:du es erlaubst=, würde ich gerne damit kommunizieren.",
+      "note": "Verb 'erlauben' ins Token genommen",
+      "status": "accepted"
+    },
+    {
+      "uid": "3d82f441ca5cdf90",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gyamyo.Deny.Text|Hm. I wonder at =ifplayerplural:your:thy= decision.",
+      "context": "Conversation Gyamyo.Deny.Text",
+      "old_value": "Hm. Ich wundere mich über =ifplayerplural:your:thy= Entscheidung.",
+      "new_value": "Hm. Ich wundere mich über =ifplayerplural:eure:deine= Entscheidung.",
+      "note": "Weiche übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "82cb7a297e177132",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yona.Start.Text|=factionaddress:Mopango|capitalize=, =ifplayerplural:ye have:thou hast= done a momentous thing.\n\nI feel the stored energy of Her Light. Dagasha shall shepherd us to our uplifting. =ifplayerplural:Ye should:Thou shouldst= be proud.",
+      "context": "Conversation Yona.Start.Text",
+      "old_value": "=factionaddress:Mopango|capitalize=, =ifplayerplural:ye have:thou hast= etwas Bedeutungsvolles getan.\n\nIch fühle die gespeicherte Energie von Ihrem Licht. Dagasha wird uns zu unserer Erhebung führen. =ifplayerplural:Ye should:Thou shouldst= stolz sein.",
+      "new_value": "=factionaddress:Mopango|capitalize=, =ifplayerplural:ihr habt:du hast= etwas Bedeutungsvolles getan.\n\nIch fühle die gespeicherte Energie von Ihrem Licht. Dagasha wird uns zu unserer Erhebung führen. =ifplayerplural:Ihr solltet:Du solltest= stolz sein.",
+      "note": "Weichen übersetzt; 'Ihrem Licht' = Her Light (bewusst groß, keine Anrede)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f37fbed5ae462649",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yona.Start2.Text|Ah, =factionaddress:Mopango=, =ifplayerplural:ye are:thou'rt= a bittersweet sight. Would fain =ifplayerplural:ye had:thou hadst= chosen Dagasha, but my Light shineth elsewhere.\n\nStill, I hope to see more of =ifplayerplural:ye:thee= in my future. =ifplayerplural:Ye are:Thou'rt= welcome back, an =ifplayerplural:ye survive:thou surviveth=.",
+      "context": "Conversation Yona.Start2.Text",
+      "old_value": "Ach, =factionaddress:Mopango=, =ifplayerplural:ye are:thou'rt= ein bittersüßer Anblick. Würde gerne =ifplayerplural:ye had:thou hadst= Dagasha gewählt, aber mein Licht scheint anderswo hin.\n\nTrotzdem hoffe ich, =ifplayerplural:ye:thee= in meiner Zukunft öfter zu sehen. =ifplayerplural:Ye are:Thou'rt= willkommen zurück, falls =ifplayerplural:ye survive:thou surviveth=.",
+      "new_value": "Ach, =factionaddress:Mopango=, =ifplayerplural:ihr seid:du bist= ein bittersüßer Anblick. Ich wünschte, =ifplayerplural:ihr hättet:du hättest= Dagasha gewählt, aber mein Licht scheint anderswo hin.\n\nTrotzdem hoffe ich, =ifplayerplural:euch:dich= in meiner Zukunft öfter zu sehen. =ifplayerplural:Ihr seid:Du bist= willkommen zurück, falls =ifplayerplural:ihr überlebt:du überlebst=.",
+      "note": "Weichen übersetzt; 'Würde gerne' -> 'Ich wünschte' (grammatisch)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a401f86bb1c5500d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yona.WhoAreYou.Text|=name=. Greetings. I am called Yona. =ifplayerplural:Ye seem:Thou seemest= unlike most other climbers. I wonder why.",
+      "context": "Conversation Yona.WhoAreYou.Text",
+      "old_value": "=name=. Grüße. Ich bin Yona. =ifplayerplural:Ye seem:Thou seemest= nicht wie die meisten anderen Kletterer. Ich frage mich, warum.",
+      "new_value": "=name=. Grüße. Ich bin Yona. =ifplayerplural:Ihr scheint:Du scheinst= anders als die meisten anderen Kletterer zu sein. Ich frage mich, warum.",
+      "note": "Weiche übersetzt; 'scheinst nicht wie' -> 'scheinst anders als ... zu sein'",
+      "status": "accepted"
+    },
+    {
+      "uid": "8e843ee9d6905586",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yona.WhyAreYouHere.Text|=ifplayerplural:Have ye:Hast thou= seen it, out there? The spiny, eel-like creature. That is Dagasha, angry one, lost child. =ifplayerplural:Ye can:Thou canst= feel the hostility pour from it in waves.\n\nYet, it attacketh not.",
+      "context": "Conversation Yona.WhyAreYouHere.Text",
+      "old_value": "=ifplayerplural:Have ye:Hast thou= es gesehen, da draußen? Die stachelige, aalförmige Kreatur. Das ist Dagasha, das zornige, verlorene Kind. =ifplayerplural:Ye can:Thou canst= fühlen, wie Feindseligkeit in Wellen von ihm ausströmt.\n\nUnd doch greift es nicht an.",
+      "new_value": "=ifplayerplural:Habt ihr:Hast du= es gesehen, da draußen? Die stachelige, aalförmige Kreatur. Das ist Dagasha, das zornige, verlorene Kind. =ifplayerplural:Ihr könnt:Du kannst= fühlen, wie Feindseligkeit in Wellen von ihm ausströmt.\n\nUnd doch greift es nicht an.",
+      "note": "Weichen übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "90ff07975d46ec12",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yona.Apologize.Text|I am not offended, simply making =ifplayerplural:ye:thee= aware of =ifplayerplural:your:thy= foolishness.",
+      "context": "Conversation Yona.Apologize.Text",
+      "old_value": "Ich bin nicht beleidigt, sondern mache =ifplayerplural:ye:thee= nur bewußt von =ifplayerplural:your:thy= Torheit.",
+      "new_value": "Ich bin nicht beleidigt, sondern mache =ifplayerplural:euch:dir= nur =ifplayerplural:eure:deine= Torheit bewußt.",
+      "note": "Weichen übersetzt; 'bewußt von' -> Dativ+Akkusativ-Konstruktion",
+      "status": "accepted"
+    },
+    {
+      "uid": "97a1a0b6ff7ec755",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yona.Deny.Text|Ahh.\n\nStranger, =ifplayerplural:ye are:thou art= cruel to withhold this experience, but I shall abide.",
+      "context": "Conversation Yona.Deny.Text",
+      "old_value": "Ahh.\n\nFremdling, =ifplayerplural:ye are:thou art= grausam, diese Erfahrung zu verweigern, aber ich werde mich danach richten.",
+      "new_value": "Ahh.\n\nFremdling, =ifplayerplural:ihr seid:du bist= grausam, diese Erfahrung zu verweigern, aber ich werde mich danach richten.",
+      "note": "Weiche übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "46626967a8b631c1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yona.Commune.Text|{{emote|*Yona gasps upon touching the repulsive device, and eir eyes go wide. Ey is silent and still for nearly a minute, until the repulsive device tumbles from eir claws and you catch it.*}}\n\nWhat was that? I need to know more. I know I cannot. Key to a lock of self? I feel great intellect and charisma bound up in Dagasha's prison-body, the mind of a leader, or a tyrant. Too much to know, too much unknown.\n\n=ifplayerplural:Your:Thy= will hath great weight, wanderer. =ifplayerplural:Will ye:Wilt thou= free Dagasha?",
+      "context": "Conversation Yona.Commune.Text",
+      "old_value": "{{emote|*Yona schnappt nach Luft beim Berühren des abstoßenden Geräts, und es öffnet die Augen weit. Es bleibt fast eine Minute stumm und reglos, bis das abstoßende Gerät aus seinen Klauen fällt und du es fängst.*}}\n\nWas war das? Ich muß mehr wissen. Ich weiß, ich kann nicht. Ein Schlüssel für das Schloß des Selbst? Ich fühle großen Verstand und Charisma in Dagashas Gefängniskörper gebunden, den Verstand eines Anführers oder eines Tyrannen. Zu viel zu wissen, zu viel Unbekanntes.\n\n=ifplayerplural:Your:Thy= Wille hat großes Gewicht, Wanderer. =ifplayerplural:Will ye:Wilt thou= Dagasha befreien?",
+      "new_value": "{{emote|*Yona schnappt nach Luft beim Berühren des abstoßenden Geräts, und es öffnet die Augen weit. Es bleibt fast eine Minute stumm und reglos, bis das abstoßende Gerät aus seinen Klauen fällt und du es fängst.*}}\n\nWas war das? Ich muß mehr wissen. Ich weiß, ich kann nicht. Ein Schlüssel für das Schloß des Selbst? Ich fühle großen Verstand und Charisma in Dagashas Gefängniskörper gebunden, den Verstand eines Anführers oder eines Tyrannen. Zu viel zu wissen, zu viel Unbekanntes.\n\nGroßes Gewicht hat =ifplayerplural:euer:dein= Wille, Wanderer. =ifplayerplural:Werdet ihr:Wirst du= Dagasha befreien?",
+      "note": "Satz umgestellt, damit 'euer' nicht satzinitial groß steht",
+      "status": "accepted"
+    },
+    {
+      "uid": "2815547d4028d466",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nacham.Start.Text|Learn well, =factionaddress:Mopango=. I would fain see =ifplayerplural:ye:thee= succeed in =ifplayerplural:your:thine= task.",
+      "context": "Conversation Nacham.Start.Text",
+      "old_value": "Lernt wohl, =factionaddress:Mopango=. Ich würde gerne sehen, daß =ifplayerplural:ye:thee= in =ifplayerplural:your:thine= Aufgabe Erfolg habt.",
+      "new_value": "Lerne wohl, =factionaddress:Mopango=. Ich sähe =ifplayerplural:euch:dich= gern in =ifplayerplural:eurer:deiner= Aufgabe erfolgreich.",
+      "note": "Satz verblos umgebaut (vorher 'Erfolg habt' fix Plural). Unsicher: 'Lernt wohl' ist ihr-Imperativ, nicht angefasst | Nachkorrektur: Lerne wohl,",
+      "status": "accepted"
+    },
+    {
+      "uid": "75d8218e3e61d877",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nacham.NachamResponds.Text|Yes. =ifplayerplural:Ye have:Thou hast= quelled the mania.\n\nI can focus. I can render sensible the things I have seen and heard now, though I remember little of my time before the mania. Was I artisan? Teacher? I possessed great knowledge that this shell twisted into a prison. I thank =ifplayerplural:ye:thee= for the gift of =ifplayerplural:your:thy= untwisting.",
+      "context": "Conversation Nacham.NachamResponds.Text",
+      "old_value": "Ja. =ifplayerplural:Ye have:Thou hast= den Wahnsinn besänftigt.\n\nIch kann mich konzentrieren. Ich kann die Dinge, die ich jetzt gesehen und gehört habe, verstehen, obwohl ich mich kaum an meine Zeit vor dem Wahnsinn erinnere. War ich ein Handwerker? Lehrer? Ich hatte großes Wissen, das diese Schale in ein Gefängnis verdrehte. Ich danke =ifplayerplural:ye:thee= für =ifplayerplural:your:thy= Befreiung.",
+      "new_value": "Ja. =ifplayerplural:Ihr habt:Du hast= den Wahnsinn besänftigt.\n\nIch kann mich konzentrieren. Ich kann die Dinge, die ich jetzt gesehen und gehört habe, verstehen, obwohl ich mich kaum an meine Zeit vor dem Wahnsinn erinnere. War ich ein Handwerker? Lehrer? Ich hatte großes Wissen, das diese Schale in ein Gefängnis verdrehte. Ich danke =ifplayerplural:euch:dir= für das Geschenk =ifplayerplural:eurer:deiner= Entwirrung.",
+      "note": "Weichen übersetzt; 'gift of untwisting' wiederhergestellt",
+      "status": "accepted"
+    },
+    {
+      "uid": "8dc39e122cb67e82",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nacham.NachamFuture.Text|The mopango have cared for me whilst I could not care for myself, giving me the only name I now know. I will stay to help them. This chassis is a prison no longer, and perhaps deeper truths may yet be found within it.\n\nTo =ifplayerplural:ye:thee=, new friend, I offer a piece of this former prison that =ifplayerplural:ye may:thou mayest= find useful, along with my thanks.",
+      "context": "Conversation Nacham.NachamFuture.Text",
+      "old_value": "Die Mopango haben mich gepflegt, während ich mich nicht selbst pflegen konnte, und gaben mir den einzigen Namen, den ich jetzt kenne. Ich werde bleiben, um ihnen zu helfen. Dieses Chassis ist kein Gefängnis mehr, und vielleicht können noch tiefere Wahrheiten darin gefunden werden.\n\nFür =ifplayerplural:ye:thee=, neuer Freund, biete ich ein Stück aus diesem ehemaligen Gefängnis an, das =ifplayerplural:ye may:thou mayest= nützlich finden werdet, zusammen mit meinem Dank.",
+      "new_value": "Die Mopango haben mich gepflegt, während ich mich nicht selbst pflegen konnte, und gaben mir den einzigen Namen, den ich jetzt kenne. Ich werde bleiben, um ihnen zu helfen. Dieses Chassis ist kein Gefängnis mehr, und vielleicht können noch tiefere Wahrheiten darin gefunden werden.\n\nFür =ifplayerplural:euch:dich=, neuer Freund, habe ich ein Stück aus diesem ehemaligen Gefängnis, das =ifplayerplural:euch:dir= vielleicht nützlich ist, zusammen mit meinem Dank.",
+      "note": "Relativsatz umgebaut ('nützlich finden werdet' war fix Plural)",
+      "status": "accepted"
+    },
+    {
+      "uid": "33a47961ff988831",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dagasha.Start.Text|Take care, =factionaddress:Mopango=. Let not complacency end =ifplayerplural:ye:thee=, and I shall anticipate further news of =ifplayerplural:your:thy= exploits.",
+      "context": "Conversation Dagasha.Start.Text",
+      "old_value": "Seid vorsichtig, =factionaddress:Mopango=. Laßt nicht zu, daß =ifplayerplural:ye:thee= von Trägheit bezwungen werdet, und ich erwarte mit Spannung weitere Nachrichten von =ifplayerplural:your:thy= Taten.",
+      "new_value": "Sei vorsichtig, =factionaddress:Mopango=. Möge Trägheit =ifplayerplural:euch:dich= nicht bezwingen, und ich erwarte mit Spannung weitere Nachrichten von =ifplayerplural:euren:deinen= Taten.",
+      "note": "Satz ohne Plural-Verb umgebaut. Unsicher: 'Seid vorsichtig' ist ihr-Imperativ, nicht angefasst | Nachkorrektur: Sei vorsichtig,",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ebd8c3bfbf12c49",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dagasha.DagashaResponds.Text|Though I be a pale shadow of the self I once was, yes. My condition and outlook are both substantially improved.\n\nI recall few details of my life before. I was influential, one whose words stirred hearts to action. For so long I had no means to speak, trapped in my own moods. =ifplayerplural:Ye have:Thou hast= freed me from a dire fate.",
+      "context": "Conversation Dagasha.DagashaResponds.Text",
+      "old_value": "Obwohl ich nur ein blasser Schatten meines früheren Ichs bin, ja. Mein Zustand und meine Aussichten haben sich deutlich verbessert.\n\nIch erinnere mich an wenig Details aus meinem früheren Leben. Ich war einflußreich, einer, dessen Worte Herzen in Bewegung setzten. So lange hatte ich keine Möglichkeit zu sprechen, gefangen in meinen eigenen Stimmungen. =ifplayerplural:Ye have:Thou hast= mich von einem schrecklichen Schicksal befreit.",
+      "new_value": "Obwohl ich nur ein blasser Schatten meines früheren Ichs bin, ja. Mein Zustand und meine Aussichten haben sich deutlich verbessert.\n\nIch erinnere mich an wenig Details aus meinem früheren Leben. Ich war einflußreich, einer, dessen Worte Herzen in Bewegung setzten. So lange hatte ich keine Möglichkeit zu sprechen, gefangen in meinen eigenen Stimmungen. =ifplayerplural:Ihr habt:Du hast= mich von einem schrecklichen Schicksal befreit.",
+      "note": "Weiche übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "222aba57a764a4e5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dagasha.DagashaFuture.Text|I know not. Perhaps I can lead again. These creatures that looked after me, named me, kept me safe. The mopango.\n\nThey are kind, but weak. Perhaps I can teach them. Spur them to be greater.\n\nBut for =ifplayerplural:ye:thee=, I must even our score. Take this piece of my chassis. Wear it with confidence. Command in my name.",
+      "context": "Conversation Dagasha.DagashaFuture.Text",
+      "old_value": "Ich weiß nicht. Vielleicht kann ich wieder anführen. Die Kreaturen, die sich um mich kümmerten, mich benannten, mich beschützten - die Mopango.\n\nSie sind gütig, aber schwach. Vielleicht kann ich sie unterrichten. Sie antreiben, größer zu werden.\n\nAber mit dir, =ifplayerplural:ye:thee=, muß ich unsere Rechnung begleichen. Nimm diesen Teil meines Chassis. Trag ihn mit Zuversicht. Befiehl in meinem Namen.",
+      "new_value": "Ich weiß nicht. Vielleicht kann ich wieder anführen. Die Kreaturen, die sich um mich kümmerten, mich benannten, mich beschützten - die Mopango.\n\nSie sind gütig, aber schwach. Vielleicht kann ich sie unterrichten. Sie antreiben, größer zu werden.\n\nAber mit =ifplayerplural:euch:dir= muß ich unsere Rechnung begleichen. Nimm diesen Teil meines Chassis. Trag ihn mit Zuversicht. Befiehl in meinem Namen.",
+      "note": "Doppelung 'mit dir, ...' entfernt",
+      "status": "accepted"
+    },
+    {
+      "uid": "e33914fe4cd8ec9b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vaam.VaamResponds.Text|Yes. I thank =ifplayerplural:ye:thee=.\n\n=ifplayerplural:Ye have:Thou hast= freed me from a deep stupor. Once I was a protector, before being sentenced to protect nothing and no one.\n\nI remember little of that time.",
+      "context": "Conversation Vaam.VaamResponds.Text",
+      "old_value": "Ja. Ich danke =ifplayerplural:ye:thee=.\n\n=ifplayerplural:Ye have:Thou hast= mich aus tiefem Schlaf befreit. Einst war ich ein Beschützer, bevor mir befohlen wurde, nichts und niemanden zu schützen.\n\nIch erinnere mich wenig an jene Zeit.",
+      "new_value": "Ja. Ich danke =ifplayerplural:euch:dir=.\n\n=ifplayerplural:Ihr habt:Du hast= mich aus tiefem Schlaf befreit. Einst war ich ein Beschützer, bevor mir befohlen wurde, nichts und niemanden zu schützen.\n\nIch erinnere mich wenig an jene Zeit.",
+      "note": "Weichen übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "662db1ce66a202fc",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Vaam.VaamFuture.Text|I have yet to find my purpose. I can think and speak, and so this shell is nearly comfortable.\n\nOne piece, however, doth yet chafe me. =ifplayerplural:Would ye:Wouldst thou= take it? Perhaps =ifplayerplural:ye can:thou canst= grant it some use.",
+      "context": "Conversation Vaam.VaamFuture.Text",
+      "old_value": "Ich habe meine Bestimmung noch nicht gefunden. Ich kann denken und sprechen, daher ist diese Schale nahezu angenehm.\n\nEin Teil jedoch reizt mich noch immer. =ifplayerplural:Would ye:Wouldst thou= ihn nehmen? Vielleicht =ifplayerplural:ye can:thou canst= ihm einen Nutzen gewähren.",
+      "new_value": "Ich habe meine Bestimmung noch nicht gefunden. Ich kann denken und sprechen, daher ist diese Schale nahezu angenehm.\n\nEin Teil jedoch reizt mich noch immer. =ifplayerplural:Würdet ihr:Würdest du= ihn nehmen? Vielleicht =ifplayerplural:könnt ihr:kannst du= ihm einen Nutzen gewähren.",
+      "note": "Weichen übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "ddbeed52f81dab7d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Kah.Start.Text|=ifplayerplural:May ye:Mayst thou= loose the bonds that keep =ifplayerplural:ye:thee= from =ifplayerplural:your:thy= goals, =factionaddress:Mopango=. Be free.",
+      "context": "Conversation Kah.Start.Text",
+      "old_value": "=ifplayerplural:May ye:Mayst thou= die Fesseln lösen, die =ifplayerplural:ye:thee= von =ifplayerplural:your:thy= Zielen abhalten, =factionaddress:Mopango=. Seid frei.",
+      "new_value": "=ifplayerplural:Möget ihr:Mögest du= die Fesseln lösen, die =ifplayerplural:euch:dich= von =ifplayerplural:euren:deinen= Zielen abhalten, =factionaddress:Mopango=. Sei frei.",
+      "note": "Weichen übersetzt. Unsicher: 'Seid frei' ist ihr-Imperativ, nicht angefasst | Nachkorrektur: Sei frei.",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d11fccab69cb4a4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Kah.KahResponds.Text|I am weary to my core, but at last this once-hateful body obeyeth me. I thank =ifplayerplural:ye:thee= for restoring my autonomy.\n\nMemory of my once-self doth elude me, but I recognize the irony of my punishment. Once a strider, then sentenced to stride without restraint, forever. I knew only fear and flight. No more.",
+      "context": "Conversation Kah.KahResponds.Text",
+      "old_value": "Ich bin bis zum Kern ermattet, aber endlich gehorcht mir dieser einst verhasste Körper. Ich danke =ifplayerplural:ye:thee= für die Wiederherstellung meiner Autonomie.\n\nDie Erinnerung an mein einstiges Selbst entzieht sich mir, aber ich erkenne die Ironie meiner Strafe. Einst ein Wanderer, dann verurteilt, für immer ohne Beschränkung zu wandern. Ich kannte nur Angst und Flucht. Nicht mehr.",
+      "new_value": "Ich bin bis zum Kern ermattet, aber endlich gehorcht mir dieser einst verhasste Körper. Ich danke =ifplayerplural:euch:dir= für die Wiederherstellung meiner Autonomie.\n\nDie Erinnerung an mein einstiges Selbst entzieht sich mir, aber ich erkenne die Ironie meiner Strafe. Einst ein Wanderer, dann verurteilt, für immer ohne Beschränkung zu wandern. Ich kannte nur Angst und Flucht. Nicht mehr.",
+      "note": "Weiche übersetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "84a3dad7f19c4b5c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Kah.KahFuture.Text|I shall enjoy my free mobility freely, for a time. After that, I know not. I may speak to these mopango creatures that named me, and find a purpose with them. I cannot ever repay their care, but perhaps I may repay =ifplayerplural:yours:thine=.\n\nI wouldst fain offer =ifplayerplural:ye:thee= a fragment of this form come loose. =ifplayerplural:May ye:Mayst thou= ever run free.",
+      "context": "Conversation Kah.KahFuture.Text",
+      "old_value": "Ich werde meine Freiheit der Bewegung für eine Zeit lang genießen. Danach weiß ich nicht. Ich könnte mit diesen Mopango-Kreaturen sprechen, die mich benannt haben, und einen Zweck bei ihnen finden. Ich kann ihre Fürsorge nie zurückzahlen, aber vielleicht kann ich =ifplayerplural:yours:thine= erstatten.\n\nIch möchte gerne =ifplayerplural:ye:thee= ein Fragment dieses Körpers anbieten, das sich gelöst hat. =ifplayerplural:May ye:Mayst thou= immer frei rennen.",
+      "new_value": "Ich werde meine Freiheit der Bewegung für eine Zeit lang genießen. Danach weiß ich nicht. Ich könnte mit diesen Mopango-Kreaturen sprechen, die mich benannt haben, und einen Zweck bei ihnen finden. Ich kann ihre Fürsorge nie zurückzahlen, aber vielleicht kann ich =ifplayerplural:eure:deine= vergelten.\n\nIch möchte =ifplayerplural:euch:dir= gerne ein Fragment dieses Körpers anbieten, das sich gelöst hat. =ifplayerplural:Möget ihr:Mögest du= immer frei rennen.",
+      "note": "Weichen übersetzt; 'erstatten' -> 'vergelten'",
+      "status": "accepted"
+    },
+    {
+      "uid": "8c6fd1db2c63fe9f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation ImperialBiographer.EntombMeResheph.Text|Moloch! Allow me to explain the deification procedure, as it is clearly beneath your station to know!\n\nFirst, I must image the great Moloch's head, read your self's narrative from the folds of =ifplayerplural:your:thy= Holiest Brain, cross-check it against the Thin World's ambient log of His Eminence's life's deeds...\n\n{{emote|*Herododicus whispers*}} I'm sure your version is the better one, Moloch...",
+      "context": "Conversation ImperialBiographer.EntombMeResheph.Text",
+      "old_value": "Moloch! Erlaube mir, das Vergötterungsverfahren zu erklären, da es offensichtlich unter deinem Rang ist, es zu kennen!\n\nZuerst muss ich den großen Moloch's Kopf abbilden, dein Selbst aus den Falten =ifplayerplural:your:thy= Heiligsten Gehirns lesen, es mit dem Umgebungsprotokoll der Dünnen Welt deiner Taten vergleichen...\n\n{{emote|*Herododicus flüstert*}} Ich bin sicher, deine Version ist die bessere, Moloch...",
+      "new_value": "Moloch! Erlaube mir, das Vergötterungsverfahren zu erklären, da es offensichtlich unter deinem Rang ist, es zu kennen!\n\nZuerst muss ich den Kopf des großen Moloch abbilden, dein Selbst aus den Falten =ifplayerplural:eures:deines= Heiligsten Gehirns lesen, es mit dem Umgebungsprotokoll der Dünnen Welt deiner Taten vergleichen...\n\n{{emote|*Herododicus flüstert*}} Ich bin sicher, deine Version ist die bessere, Moloch...",
+      "note": "Weiche übersetzt (Genitiv); 'den großen Moloch's Kopf' -> 'den Kopf des großen Moloch'",
+      "status": "accepted"
+    }
+  ]
+}

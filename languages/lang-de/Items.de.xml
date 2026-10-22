@@ -84,17 +84,17 @@
     <part Name="Description" Short="Innerhalb der isolierten Batteriefaß spaltet der elektromotorische Apparat die Energie aus Blut und wandelt sie in elektrische Ladung um." />
   </object>
   <object Name="BaseRecoiler" Load="Merge">
-    <part Name="Render" DisplayName="{{Y|Rekorder}}" />
+    <part Name="Render" DisplayName="{{Y|Rückspuler}}" />
     <part Name="Description" Short="Eine Kassette ist mit sechseckigen Nuten geschnitten und in die richtige Menge magnetischer Ladung getaucht, um eine Raumzeit-Leine zu spulen (und ihren charakteristischen heißen Gummigeruch zu erzeugen). Oben einen eingesenkten Knopf drücken, um das Potential einzuschnappen und den Rückstoß einzuleiten." />
   </object>
   <object Name="Joppa Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="Joppa-Rekorder" />
+    <part Name="Render" DisplayName="Joppa-Rückspuler" />
   </object>
   <object Name="Grit Gate Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="{{c|Grit-Gate}}-Rekorder" />
+    <part Name="Render" DisplayName="{{c|Grit-Gate}}-Rückspuler" />
   </object>
   <object Name="Golgotha Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="{{g|Golgota}}-Rekorder" />
+    <part Name="Render" DisplayName="{{g|Golgota}}-Rückspuler" />
   </object>
   <object Name="Copper Nugget" Load="Merge">
     <part Name="Render" DisplayName="{{w|Kupfernugget}}" />
@@ -138,7 +138,7 @@
   <object Name="Witchwood Bark" Load="Merge">
     <part Name="Render" DisplayName="{{W|Hexenholzrinde}}" />
     <part Name="Description" Short="Flechten kleben in den gewundenen Rillen des Holzschuppens, schimmernd und würzig riechend." />
-    <part Name="Food" Message="Ein warmes Kribbeln überkommt Euch." />
+    <part Name="Food" Message="Ein warmes Kribbeln überkommt dich." />
     <part Name="RulesDescription" Text="Heilt und verwirrt beim Verzehr." />
     <xtagGrammar adjunctNoun="Portion" massNoun="wahr" />
   </object>
@@ -288,7 +288,7 @@
   </object>
   <object Name="Snail Corpse" Load="Merge">
     <part Name="Description" Short="Eine leere Schale liegt über ihrer Spirale gerissen und in getrockneter Schleimschicht gefärbt." />
-    <part Name="Food" Message="Ihr zerkaut die Schale zu Stücken, und Euer Mund füllt sich mit heißem Schleim." />
+    <part Name="Food" Message="Du zerkaust die Schale zu Stücken, und dein Mund füllt sich mit heißem Schleim." />
   </object>
   <object Name="Robot Corpse" Load="Merge">
     <part Name="Render" DisplayName="[]" />
@@ -309,7 +309,7 @@
   </object>
   <object Name="Human Corpse" Load="Merge">
     <part Name="Render" DisplayName="Menschenleichnam" />
-    <part Name="Description" Short="Die Kräfte des Gemetzels haben Körperteile umgeordnet. Ihr überlegt, wie Umordnung in jedem ihrer Kontexte etwas Anderes bedeutet: Spielfiguren auf einem Spielbrett, bevorzugte Höflinge in einer Königshalle, und Teile an einem Körper." />
+    <part Name="Description" Short="Die Kräfte des Gemetzels haben Körperteile umgeordnet. Du überlegst, wie Umordnung in jedem ihrer Kontexte etwas Anderes bedeutet: Spielfiguren auf einem Spielbrett, bevorzugte Höflinge in einer Königshalle, und Teile an einem Körper." />
     <part Name="Food" Message="Eine widerliche Mahlzeit aus Sehnen." />
   </object>
   <object Name="Charred Corpse" Load="Merge">
@@ -319,7 +319,7 @@
   </object>
   <object Name="Mangled Corpse" Load="Merge">
     <part Name="Render" DisplayName="Zerfetzter Leichnam" />
-    <part Name="Description" Short="Die Kräfte des Gemetzels haben Körperteile umgeordnet. Ihr überlegt, wie Umordnung in jedem ihrer Kontexte etwas Anderes bedeutet: Spielfiguren auf einem Spielbrett, bevorzugte Höflinge in einer Königshalle, und Teile an einem Körper." />
+    <part Name="Description" Short="Die Kräfte des Gemetzels haben Körperteile umgeordnet. Du überlegst, wie Umordnung in jedem ihrer Kontexte etwas Anderes bedeutet: Spielfiguren auf einem Spielbrett, bevorzugte Höflinge in einer Königshalle, und Teile an einem Körper." />
     <part Name="Food" Message="Es ist faulig." />
   </object>
   <object Name="Ancient Corpse" Load="Merge">
@@ -340,7 +340,7 @@
   <object Name="TarBones" Load="Merge">
     <part Name="Render" DisplayName="{{K|Teerknochen}}" />
     <part Name="Description" Short="Gewebe wurde mineralisiert, während es wuchs, und dann vom Baum der lebenden Dinge abgerissen, um ein Artefakt des Lebens zu werden. Es wurde dann in verbranntem Torf gekocht und in eine harte Paste verwandelt." />
-    <part Name="Food" Message="Viel zu klebrig für Euren Geschmack." />
+    <part Name="Food" Message="Viel zu klebrig für deinen Geschmack." />
   </object>
   <object Name="Ashes" Load="Merge">
     <part Name="Render" DisplayName="Asche" />
@@ -880,14 +880,17 @@
   <object Name="Gaslight Dagger" Load="Merge">
     <part Name="Render" DisplayName="{{gaslight|Gaslicht Dolch}}" />
     <part Name="Description" Short="Durch eine Bohrung im Holzgriff zieht sich ein gekräuselter Lichtstrahl. In Bewegung erhitzt er sich auf stahlschmelzende Temperatur und wirkt Materie weg." />
+    <part Name="Gaslight" ChargedName="{{gaslight|Gaslicht}}-Kris" UnchargedName="Gaslicht-Kris" />
   </object>
   <object Name="Gaslight Sword" Load="Merge">
     <part Name="Render" DisplayName="{{gaslight|Gaslicht Schwert}}" />
     <part Name="Description" Short="Durch eine Bohrung im Holzgriff zieht sich ein langer und spitzer Lichtstrahl. In Bewegung erhitzt er sich auf stahlschmelzende Temperatur und wirkt Materie weg." />
+    <part Name="Gaslight" ChargedName="{{gaslight|Gaslicht}}-Flyssa" UnchargedName="Gaslicht-Flyssa" />
   </object>
   <object Name="Gaslight Chisel" Load="Merge">
-    <part Name="Render" DisplayName="{{gaslight|Gaslicht Chisel}}" />
+    <part Name="Render" DisplayName="{{gaslight|Gaslicht-Meißel}}" />
     <part Name="Description" Short="Durch eine Bohrung im Holzgriff zieht sich ein kräftiger Lichtstrahl. In Bewegung erhitzt er sich auf stahlschmelzende Temperatur und wirkt Materie weg." />
+    <part Name="Gaslight" ChargedName="{{gaslight|Gaslicht}}-Meißel" UnchargedName="Gaslicht-Meißel" />
   </object>
   <object Name="Battle Axe" Load="Merge">
     <part Name="Render" DisplayName="{{w|Kampfaxt}}" />
@@ -1476,7 +1479,7 @@
   </object>
   <object Name="Hologram Bracelet" Load="Merge">
     <part Name="Render" DisplayName="{{hologram|Hologramm-Armband}} Hologramm-Armband" />
-    <part Name="Description" Short="Eine Spange zeigt einen glänzenden Kobalt-Knopf.&amp;#xA;&amp;quot;Ihr denkt, das ist der echte =name=? Das ist es.&amp;quot;" />
+    <part Name="Description" Short="Eine Spange zeigt einen glänzenden Kobalt-Knopf.&amp;#xA;&amp;quot;Du denkst, das ist der echte =name=? Das ist es.&amp;quot;" />
   </object>
   <object Name="Force Bracelet" Load="Merge">
     <part Name="Render" DisplayName="Kraft-Armband" />
@@ -1485,7 +1488,7 @@
   <object Name="Wristcalc" Load="Merge">
     <part Name="Render" DisplayName="Handgelenk-Rechner" />
     <part Name="Description" Short="Dioden brennen ihr Cyan-Licht durch eine um eine Metallverbindung gekrümmte Glasatmosphäre." />
-    <part Name="Toolbox" BehaviorDescription="Wenn ausgerüstet und mit Energie versorgt, gewährt dieser Gegenstand einen Bonus beim Identifizieren von Artefakten, als wäre Euer Intelligenzwert um 2 erhöht." NameForStatus="Datenbank" />
+    <part Name="Toolbox" BehaviorDescription="Wenn ausgerüstet und mit Energie versorgt, gewährt dieser Gegenstand einen Bonus beim Identifizieren von Artefakten, als wäre dein Intelligenzwert um 2 erhöht." NameForStatus="Datenbank" />
     <part Name="ActiveLightSource" NameForStatus="Bildschirm" />
   </object>
   <object Name="Precinct Navigator" Load="Merge">
@@ -1576,7 +1579,7 @@
   <object Name="Precision Nanon Fingers" Load="Merge">
     <part Name="Render" DisplayName="präzise {{Y|nanon}} Finger" />
     <part Name="Description" Short="Fullerene-Fingerverlängerungen spreizen sich wie modische Hoflänger. Ihre Durchmesser werden durch winzige Servos in der Membran nach Anforderungen verkleinert oder vergrößert." />
-    <part Name="RulesDescription" Text="Die prozentbasierten Effekte Eurer Waffen treten 3-mal so wahrscheinlich auf, einschließlich der Grundchance für kritische Treffer." />
+    <part Name="RulesDescription" Text="Die prozentbasierten Effekte deiner Waffen treten 3-mal so wahrscheinlich auf, einschließlich der Grundchance für kritische Treffer." />
     <part Name="AdjustSpecialEffectChances" NameForStatus="Nanonenoptimierung" />
   </object>
   <object Name="Zetachrome Gloves" Load="Merge">
@@ -1626,7 +1629,7 @@
   <object Name="Spring Boots" Load="Merge">
     <part Name="Render" DisplayName="Sprungstiefel" />
     <part Name="Description" Short="Ein geschickter Bastler hat eine federbelastete Sehne um jeden Stiefel verschmolzen, um den Gang eines großen, sprintenden Vogels nachzuahmen." />
-    <part Name="RulesDescription" Text="Solange Ihr diesen Gegenstand mindestens 100 Runden lang getragen habt, sprintet Ihr mit der dreifachen Bewegungsgeschwindigkeit." />
+    <part Name="RulesDescription" Text="Solange du diesen Gegenstand mindestens 100 Runden lang getragen hast, sprintest du mit der dreifachen Bewegungsgeschwindigkeit." />
   </object>
   <object Name="Grease Boots" Load="Merge">
     <part Name="Render" DisplayName="Fettstahlstiefel" />
@@ -1717,14 +1720,14 @@
   <object Name="Stopsvaalinn" Load="Merge">
     <part Name="Render" DisplayName="{{R-r-w-W-Y-y sequence|Stopsvalinn}}" />
     <part Name="Description" Short="Ein Schichtenkuchen aus breitaltrigem Rost verleiht Dimension dem alten und flachgesichtigen Astagon. Seine Vorderseite ist mit dem Wappenschild eines archaischen Hauses bemalt -- weiße Runenschrift auf einem Feld von Karminrot." />
-    <part Name="RulesDescription" Text="+1 Ego&#10;Ihr könnt diesen Gegenstand aktivieren, um ein Kraftfeld vor Euch heraufzubeschwören. Roboter werden oft nicht in der Lage sein, sich Euch zu nähern, solange das Kraftfeld aktiv ist." />
-    <part Name="TakenAccomplishment" Text="Ihr habt die verlorene Ägide des Hauses Yish geborgen, =this.refname=." Hagiograph="Erinnert Euch, wie =name= die legendäre Ägide =this.refname= den Pfoten eines niederen Snapjaws entriss und die Abstammung von den Saads von Yish beteuerte!" Gospel="In der Schlacht von =landmark.nearest|title= kämpfte =name= dafür, Snapjaws zu unterwerfen. =player.Subjective= führte einen Buckler mit solcher =spice:commonPhrases.finesse.!random=, dass er für immer als =this.refname= bekannt wurde." />
+    <part Name="RulesDescription" Text="+1 Ego&#10;Du kannst diesen Gegenstand aktivieren, um ein Kraftfeld vor dir heraufzubeschwören. Roboter werden oft nicht in der Lage sein, sich dir zu nähern, solange das Kraftfeld aktiv ist." />
+    <part Name="TakenAccomplishment" Text="Du hast die verlorene Ägide des Hauses Yish geborgen, =this.refname=." Hagiograph="Erinnere dich, wie =name= die legendäre Ägide =this.refname= den Pfoten eines niederen Snapjaws entriss und die Abstammung von den Saads von Yish beteuerte!" Gospel="In der Schlacht von =landmark.nearest|title= kämpfte =name= dafür, Snapjaws zu unterwerfen. =player.Subjective= führte einen Buckler mit solcher =spice:commonPhrases.finesse.!random=, dass er für immer als =this.refname= bekannt wurde." />
     <xtagGrammar Proper="true" />
   </object>
   <object Name="Kindrish" Load="Merge">
     <part Name="Render" DisplayName="{{g-G-y-Y-Y-y-G-g alternation|Kindrish}}" />
     <part Name="Description" Short="Eberzahnperlen am antiken Amulett sind vom Knorpel der Zeit zu Stummeln abgenutzt, aber das flexible Seil, das sie zusammenhält, ist so stark wie am Tag seiner Verflechtung. Von dem Armband hängt eine Rehfigurine, geschnitzt aus einer rätselhaften Substanz, die das Licht wie Kristall bricht, aber wie Metall wiegt, und eine getönte Lebensähnlichkeit, sonst unsichtbar, hervorbringt." />
-    <part Name="TakenAccomplishment" Text="Ihr habt das Ahnenarmband der Hindren geborgen, =this.refname=." Hagiograph="Durch die Zurschaustellung =player.possessive= außergewöhnlichen Gerissenheit gelang es =name=, =this.refname=, das Ahnenarmband der Hindren, zu bergen, und =name= wurde daraufhin mit dem Titel Grand-Doe geehrt." Gospel="In einer Taverne tief in der Wildnis von =terrain.t= verlor =name= =player.possessive= kostbares Armband Kindrish an einen ortsansässigen Dieb. =name= ermordete den Dieb =spice:elements.entity@elements[random].murdermethods.!random= und barg sofort =player.possessive= geliebtes Erbstück." />
+    <part Name="TakenAccomplishment" Text="Du hast das Ahnenarmband der Hindren geborgen, =this.refname=." Hagiograph="Durch die Zurschaustellung =player.possessive= außergewöhnlichen Gerissenheit gelang es =name=, =this.refname=, das Ahnenarmband der Hindren, zu bergen, und =name= wurde daraufhin mit dem Titel Grand-Doe geehrt." Gospel="In einer Taverne tief in der Wildnis von =terrain.t= verlor =name= =player.possessive= kostbares Armband Kindrish an einen ortsansässigen Dieb. =name= ermordete den Dieb =spice:elements.entity@elements[random].murdermethods.!random= und barg sofort =player.possessive= geliebtes Erbstück." />
     <xtagGrammar Proper="true" />
   </object>
   <object Name="BarathrumiteSafetyBand" Load="Merge">
@@ -1734,16 +1737,16 @@
   <object Name="SlogTrophy" Load="Merge">
     <part Name="Render" DisplayName="{{g-w-w-g-g sequence|Slogs Annunkel}}" />
     <part Name="Description" Short="Ein Gürtel aus Bandmuskulatur quetscht das Handgelenk und benetzt es mit einem brennenden Fett." />
-    <part Name="RulesDescription" Text="Ihr erleidet nur halben Schaden durch Gift." />
+    <part Name="RulesDescription" Text="Du erleidest nur halben Schaden durch Gift." />
   </object>
   <object Name="SkybearJetpack" Load="Merge">
     <part Name="Render" DisplayName="{{R-r-w-W-Y-y sequence|Flume-Flier}} des {{b-B-C-c sequence|Sky-Bear}}" />
     <part Name="Description" Short="Zwei Türme aus sonnenleitendem Chrom krönen Zylinder aus brennendem Gas, die über einem Metallgitter aus Schaufeln sitzen, das ein Zunftzeichen umgürtet. Eine 6-Helix aus Rauch, Unterschrift des Sternmotors, wodurch dieser Flieger geformt wird, wirbelt zum Himmel." />
-    <part Name="RulesDescription" Text="Ihr könnt diesen Gegenstand aktivieren, um einen Sprint zu beginnen.&#10; Während Ihr sprintet, stürmt Ihr bei jeder Bewegung in eine Richtung bis zu 20 Felder auf den nächsten Feind oder das nächste Hindernis zu und führt einen Angriff aus.&#10; Für je drei gestürmte Felder erhaltet Ihr +2 auf Trefferwurf und +2 auf Durchdringungswürfe." />
+    <part Name="RulesDescription" Text="Du kannst diesen Gegenstand aktivieren, um einen Sprint zu beginnen.&#10; Während du sprintest, stürmst du bei jeder Bewegung in eine Richtung bis zu 20 Felder auf den nächsten Feind oder das nächste Hindernis zu und führst einen Angriff aus.&#10; Für je drei gestürmte Felder erhältst du +2 auf Trefferwurf und +2 auf Durchdringungswürfe." />
     <xtagGrammar Proper="true" />
     <tag Name="IndefiniteArticle" Value="der" />
     <tag Name="DefiniteArticle" Value="der" />
-    <part Name="TakenAccomplishment" Text="Der Himmelsbär fliegt aufs Neue! Aus den Klauen der eisigen Vergangenheit habt Ihr =this.refname= geborgen." Hagiograph="Der heiße, feuchte Atem der Untererde befreite den Himmelsbären von seiner Versteinerung und offenbarte uns diese Wahrheit: =name= ist Saad Amus, Saad Amus ist =name=." Gospel="Den ganzen =month= hindurch =spice:commonPhrases.ravaged.!random= =name= die Provinz Bethesda Susa auf =player.possessive= Jetpack, =spice:elements.entity@elements[random].ravaging.!random= von =mostHatedFaction.t= und =secondMostHatedFaction.t=. =player.Subjective= wurde bekannt als =spice:commonPhrases.scourge.!random.capitalize= von Bethesda." />
+    <part Name="TakenAccomplishment" Text="Der Himmelsbär fliegt aufs Neue! Aus den Klauen der eisigen Vergangenheit hast du =this.refname= geborgen." Hagiograph="Der heiße, feuchte Atem der Untererde befreite den Himmelsbären von seiner Versteinerung und offenbarte uns diese Wahrheit: =name= ist Saad Amus, Saad Amus ist =name=." Gospel="Den ganzen =month= hindurch =spice:commonPhrases.ravaged.!random= =name= die Provinz Bethesda Susa auf =player.possessive= Jetpack, =spice:elements.entity@elements[random].ravaging.!random= von =mostHatedFaction.t= und =secondMostHatedFaction.t=. =player.Subjective= wurde bekannt als =spice:commonPhrases.scourge.!random.capitalize= von Bethesda." />
   </object>
   <object Name="MurmurMask" Load="Merge">
     <part Name="Render" DisplayName="{{K-C-K sequence|Gemurmel}} {{Y-y-y-Y sequence|Maske}}" />
@@ -1769,7 +1772,7 @@
     <xtagGrammar Proper="true" />
     <tag Name="IndefiniteArticle" Value="das" />
     <tag Name="DefiniteArticle" Value="das" />
-    <part Name="TakenAccomplishment" Text="Ihr habt das schwarze Glas des =this.refname= in Euren Händen gehalten." Hagiograph="Amaranthiner =name=! Duckt Euch vor dem Gott-Sultan, der aus =player.possessive= eigenem Traumstoff geschmiedet ist, der das schwarze Glas trägt!" Gospel="Während =name= im Dschungel nahe Kyakukya umherwanderte, träumte =player.subjective= davon, einen dunklen Stern zu umkreisen und in dessen gewaltiger Akkretionsscheibe die Bausteine des Selbst aufzutürmen. Von da an trug =name= ein sternenloses, dreieckiges Prisma bei sich." />
+    <part Name="TakenAccomplishment" Text="Du hast das schwarze Glas des =this.refname= in deinen Händen gehalten." Hagiograph="Amaranthiner =name=! Duck dich vor dem Gott-Sultan, der aus =player.possessive= eigenem Traumstoff geschmiedet ist, der das schwarze Glas trägt!" Gospel="Während =name= im Dschungel nahe Kyakukya umherwanderte, träumte =player.subjective= davon, einen dunklen Stern zu umkreisen und in dessen gewaltiger Akkretionsscheibe die Bausteine des Selbst aufzutürmen. Von da an trug =name= ein sternenloses, dreieckiges Prisma bei sich." />
   </object>
   <object Name="TauChime" Load="Merge">
     <part Name="Render" DisplayName="Glockenspiel aus ruhendem Kristall" />
@@ -1778,7 +1781,7 @@
   <object Name="TauHeadpiece" Load="Merge">
     <part Name="Render" DisplayName="{{crystalline|Kristallener Heiligenschein}} Kristallener Heiligenschein" />
     <part Name="Description" Short="Byzantinisches Violett glimmt bei mittlerem Farbton auf den scharfen und verbundenen Prismen des Kristalls. Es summt vor neuem Leben und Erfindungsreichtum." />
-    <part Name="RulesDescription" Text="Gewährt Euch Geist beschleunigen: Frischt bei Gebrauch eine zufällige Abklingzeit auf." />
+    <part Name="RulesDescription" Text="Gewährt dir Geist beschleunigen: Frischt bei Gebrauch eine zufällige Abklingzeit auf." />
     <part Name="BootSequence" VerbOnBootInitialized="Vibrieren" VerbOnBootDone="Erklingen" VerbOnBootAborted="Verstummen" />
   </object>
   <object Name="TauDagger" Load="Merge">
@@ -1847,8 +1850,8 @@
   <object Name="Otherpearl" Load="Merge">
     <part Name="Render" DisplayName="{{otherpearl|Andere Perle}}" />
     <part Name="Description" Short="Farbperlmutt wird zu einer ontologisch perfekten Form gehärtet; die Mathematik von Sphären sind nur Annäherungen. Drinnen sind Bänder von Äther in Stase eingefroren und kohärieren als eine mondbeschienene Aussicht, eine Szene irgendwie an den Raumzeitpunkt gebunden, von dem du sie beobachtet hast. Die Bedeutung dieser Paarung ist unbekannt und nicht erkennbar." />
-    <part Name="RulesDescription" Text="+40 psychisches Flimmern&#10;Gegenstände, die Ihr findet, stammen fünfmal häufiger aus anderen Dimensionen." />
-    <part Name="TakenAccomplishment" Text="Ihr habt =this.refname= umklammert und Euch in den Spiegel der Wirklichkeiten gekleidet." Hagiograph="Oh! Unsere Herzen wurden zu stellaren Überresten, als =name= eine Elegie für das unbekannte Mädchenkind Eudoxia rezitierte!" Gospel="Im Monat =month= des Jahres =year= wurde ein korrupter Verwalter zum Minister einer glänzenden Stadt mit Straßen aus Gold und Glas ernannt. =spice:pronouns.subject.!random.capitalize= verbot das Verfassen von Elegien, und =name= musste fliehen." />
+    <part Name="RulesDescription" Text="+40 psychisches Flimmern&#10;Gegenstände, die du findest, stammen fünfmal häufiger aus anderen Dimensionen." />
+    <part Name="TakenAccomplishment" Text="Du hast =this.refname= umklammert und dich in den Spiegel der Wirklichkeiten gekleidet." Hagiograph="Oh! Unsere Herzen wurden zu stellaren Überresten, als =name= eine Elegie für das unbekannte Mädchenkind Eudoxia rezitierte!" Gospel="Im Monat =month= des Jahres =year= wurde ein korrupter Verwalter zum Minister einer glänzenden Stadt mit Straßen aus Gold und Glas ernannt. =spice:pronouns.subject.!random.capitalize= verbot das Verfassen von Elegien, und =name= musste fliehen." />
     <xtagGrammar Proper="true" />
     <tag Name="IndefiniteArticle" Value="die" />
     <tag Name="DefiniteArticle" Value="die" />
@@ -1877,7 +1880,7 @@
   </object>
   <object Name="RelicTonic" Load="Merge">
     <part Name="Description" Short="Ein Rohr aus Tetraxenonglas funkelt innen mit opalinem Sirup." />
-    <part Name="RulesDescription" Text="Ihr erhaltet entweder einen dauerhaften +2-Bonus auf ein zufälliges Attribut oder zwei Mutationspunkte." GenotypeAlt="Ihr erhaltet zwei Attributpunkte." />
+    <part Name="RulesDescription" Text="Du erhältst entweder einen dauerhaften +2-Bonus auf ein zufälliges Attribut oder zwei Mutationspunkte." GenotypeAlt="Du erhältst zwei Attributpunkte." />
   </object>
   <object Name="RelicBook" Load="Merge">
     <part Name="Description" Short="Licht fängt sich auf vier opalhaften Eckstücken und einer erhobenen Medaille im Zentrum von tesselliertem Uuflax. Wunder sind über den zyklopsischen Wälzer gewoben." />
@@ -2235,7 +2238,7 @@
   </object>
   <object Name="Portable Wall" Load="Merge">
     <part Name="Render" DisplayName="Tragbare Wand" />
-    <part Name="Description" Short="Kleine Glyphen sind auf jeder Außenseite des tragbaren Kastens eingraviert. Obwohl Kontrariums noch über ihre Bedeutung rätseln, haben sich die meisten Linguistenkults von Qud auf eine einzige Interpretation geeinigt: &quot;Für wenn sowohl Natur als auch Architekten Sie im Stich gelassen haben&quot;. Ein Messingzugring trennt Sie von dem Versprechen dieser Worte." />
+    <part Name="Description" Short="Kleine Glyphen sind auf jeder Außenseite des tragbaren Kastens eingraviert. Obwohl Kontrariums noch über ihre Bedeutung rätseln, haben sich die meisten Linguistenkults von Qud auf eine einzige Interpretation geeinigt: &quot;Für wenn sowohl Natur als auch Architekten dich im Stich gelassen haben&quot;. Ein Messingzugring trennt dich von dem Versprechen dieser Worte." />
   </object>
   <object Name="Spiral Borer" Load="Merge">
     <part Name="Render" DisplayName="Spiralbohrer" />
@@ -2258,28 +2261,28 @@
     <part Name="Description" Short="Ein Sender-Diskoid piept staccato-Geräusche aus, um Störungen über kurzwellige Frequenzbänder zu erzeugen." />
   </object>
   <object Name="Kyakukya Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="{{R|Kyakukya-Rekorder}}" />
+    <part Name="Render" DisplayName="{{R|Kyakukya-Rückspuler}}" />
   </object>
   <object Name="Six Day Stilt Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="{{Y|Rekorder der Sechs-Tage-Stelzen}}" />
+    <part Name="Render" DisplayName="{{Y|Rückspuler der Sechs-Tage-Stelzen}}" />
   </object>
   <object Name="Bethesda Susa Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="{{C|Bethesda-Susa-Rekorder}}" />
+    <part Name="Render" DisplayName="{{C|Bethesda-Susa-Rückspuler}}" />
   </object>
   <object Name="Ezra Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="{{W|Ezra-Rekorder}}" />
+    <part Name="Render" DisplayName="{{W|Ezra-Rückspuler}}" />
   </object>
   <object Name="Yd Freehold Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="{{W|Yd-Rekorder}}" />
+    <part Name="Render" DisplayName="{{W|Yd-Rückspuler}}" />
   </object>
   <object Name="Ruin Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="Zufallsort-Rekorder" />
+    <part Name="Render" DisplayName="Zufallsort-Rückspuler" />
   </object>
   <object Name="Programmable Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="Programmierbarer Rekorder" />
+    <part Name="Render" DisplayName="Programmierbarer Rückspuler" />
   </object>
   <object Name="Reprogrammable Recoiler" Load="Merge">
-    <part Name="Render" DisplayName="Umprogrammierbarer Rekorder" />
+    <part Name="Render" DisplayName="Umprogrammierbarer Rückspuler" />
   </object>
   <object Name="Spraybottle" Load="Merge">
     <part Name="Render" DisplayName="Sprühflasche" />
@@ -2444,7 +2447,7 @@
   </object>
   <object Name="PlasticTree" Load="Merge">
     <part Name="Render" DisplayName="Plastikbaum" />
-    <part Name="Description" Short="Blätter sind in einer wachsartigen Nachahmung des Lebens ausgebreitet. Es sieht aus der Nähe hart und ölig aus, aber wenn Ihr euch zurückzieht, verbrennen seine Kanten in Sanftheit und es erfüllt die Baumfunktion." />
+    <part Name="Description" Short="Blätter sind in einer wachsartigen Nachahmung des Lebens ausgebreitet. Es sieht aus der Nähe hart und ölig aus, aber wenn du dich zurückziehst, verbrennen seine Kanten in Sanftheit und es erfüllt die Baumfunktion." />
   </object>
   <object Name="Small Sphere of Negative Weight" Load="Merge">
     <part Name="Render" DisplayName="Kleine Kugel mit negativem Gewicht" />
@@ -2457,7 +2460,7 @@
   <object Name="Camel Bladder" Load="Merge">
     <part Name="Render" DisplayName="Kamelblase" />
     <part Name="Description" Short="Eine große Kamelbindehaut ist unten geknotet und mit einem Darmstreifen aufgehängt." />
-    <part Name="RulesDescription" Text="Wenn getragen, zählt die Flüssigkeit in diesem Gegenstand nicht zu Eurer Traglast." />
+    <part Name="RulesDescription" Text="Wenn getragen, zählt die Flüssigkeit in diesem Gegenstand nicht zu deiner Traglast." />
   </object>
   <object Name="Random Rare Phial" Load="Merge">
     <part Name="Render" DisplayName="Flaeschchen mit seltener Fluessigkeit" />
@@ -2626,7 +2629,7 @@
   <object Name="Anti-Gravity Boots" Load="Merge">
     <part Name="Render" DisplayName="{{K|Anti-Gravity Stiefel}}" />
     <part Name="Description" Short="Ur-Metall-Streifen auf den Sohlen werden von Boson-Spulen magnetisiert, die ein kontinuierliches Band aus Negativmasse-Blasen erzeugen, die den Träger aufwärts abstoßen." />
-    <part Name="MechanicalWings" NameForStatus="Antigravitationssystem" />
+    <part Name="MechanicalWings" NameForStatus="Antigravitationssystem" FlightSourceDescription="Antigravitationsstiefel" />
   </object>
   <object Name="Kaleidocera Krakows" Load="Merge">
     <part Name="Render" DisplayName="{{kaleidoslug|Kaleidocera Krakows}}" />
@@ -2696,7 +2699,7 @@
     <part Name="Render" DisplayName="Verderben des Hauses Isner" />
     <part Name="Description" Short="Die Kunstfertigkeit dieser in Messing und Chrom gefertigten Pistole ist atemberaubend: Griffe aus Königsholz laden die Handfläche zu einer luftdichten Wickelung ein, der Hahn ist bis zum Mikrozoll auf den Daumen konturiert, und das Visier leitet das Auge wie das Gleiten von Seide den Lauf hinunter. Sie ist ringsum mit verwittertem Efeu graviert, und die Mündung ist mit Blut geküsst." />
     <part Name="RulesDescription" Text="+1 Ego&#10;Kritische Treffer mit dieser Waffe erhalten einen zusätzlichen Bonus von +4 auf Durchdringungswürfe.&#10;Wenn diese Waffe mit ihrer letzten Munitionsrunde feuert, hat der Schuss perfekte Zielgenauigkeit und erzielt garantiert einen kritischen Treffer." />
-    <part Name="TakenAccomplishment" Text="Ihr habt die Meisterwerk-Pistole und legendäre Ode an die Rache geborgen, die =this.refname=." Hagiograph="Der Revolverheld-Sultan =name= erschlug jeden der sieben Lords des Hauses Isner mit einem Meisterwerk-Revolver und speiste über ihren aufgetürmten Leichen." Gospel="Tief in der Wildnis nahe =landmark.nearest= stieß =name= auf einen Klan von Wasserbaronen, die ein geheimes Ritual vollzogen. Wegen ihrer verräterischen Augen erschlug =name= jeden der sieben Lords mit einem Meisterwerk-Revolver und speiste über ihren aufgetürmten Leichen." />
+    <part Name="TakenAccomplishment" Text="Du hast die Meisterwerk-Pistole und legendäre Ode an die Rache geborgen, die =this.refname=." Hagiograph="Der Revolverheld-Sultan =name= erschlug jeden der sieben Lords des Hauses Isner mit einem Meisterwerk-Revolver und speiste über ihren aufgetürmten Leichen." Gospel="Tief in der Wildnis nahe =landmark.nearest= stieß =name= auf einen Klan von Wasserbaronen, die ein geheimes Ritual vollzogen. Wegen ihrer verräterischen Augen erschlug =name= jeden der sieben Lords mit einem Meisterwerk-Revolver und speiste über ihren aufgetürmten Leichen." />
     <xtagGrammar Proper="wahr" />
     <tag Name="IndefiniteArticle" Value="die" />
     <tag Name="DefiniteArticle" Value="die" />
@@ -3217,7 +3220,7 @@
     <part Name="Render" DisplayName="{{b-B-Y-Y-Y-Y-Y-Y-B-b alternation|Gyrokopter-Rucksack}}Rucksack" />
     <part Name="Description" Short="Artikulierte Klingen entfalten sich zu einer Luftschraube, die durch einen darunter montierten Luftantrieb nach oben geblasen wird. Bei Aktivierung erhebt sich der Träger in die Luft." />
     <part Name="BootSequence" VerbOnBootInitialized="husten" VerbOnBootDone="surren" VerbOnBootAborted="stottern" />
-    <part Name="MechanicalWings" NameForStatus="Antriebsstrang" />
+    <part Name="MechanicalWings" NameForStatus="Antriebsstrang" FlightSourceDescription="Gyrokopter-Rucksack" />
   </object>
   <object Name="Helping Hands" Load="Merge">
     <part Name="Render" DisplayName="{{Y|{{R|h}}ilfreich {{R|h}}ände}}" />
@@ -3357,7 +3360,7 @@
   <object Name="Psychic Meridian" Load="Merge">
     <part Name="Render" DisplayName="{{psymeridian|Psychischer Meridian}}" />
     <part Name="Description" Short="Luftiges Gedankengut wurde durch den Druck des materiellen Reiches in eine Gallertsubstanz abgelagert und zu einem Diadem aufgerollt. Es ist mit kristallinem Mikroleben geschmückt, Symbionten, die in der Tiefe des psychischen Meeres ausgebrütet wurden." />
-    <part Name="RulesDescription" Text="Fehlgeschlagene psychische Angriffe gegen Euch lassen den Angreifer verbluten." />
+    <part Name="RulesDescription" Text="Fehlgeschlagene psychische Angriffe gegen dich lassen den Angreifer verbluten." />
   </object>
   <object Name="Enigma Cap" Load="Merge">
     <part Name="Render" DisplayName="{{B|Enigma}}-Kappe" />
@@ -3422,7 +3425,7 @@
   <object Name="Telescopic Monocle" Load="Merge">
     <part Name="Render" DisplayName="Teleskopmonokel" />
     <part Name="Description" Short="Gekrümmtes Glas krönt den schmalsten in einer Reihe konzentrischer Messingrohre. Das breiteste ist mit einem Lederriemen für den Kopf ausgestattet." />
-    <part Name="Toolbox" BehaviorDescription="Gewährt einen Bonus beim Identifizieren von Artefakten, als wäre Euer Intelligenzwert um 5 erhöht." NameForStatus="Vergrößerung" />
+    <part Name="Toolbox" BehaviorDescription="Gewährt einen Bonus beim Identifizieren von Artefakten, als wäre dein Intelligenzwert um 5 erhöht." NameForStatus="Vergrößerung" />
   </object>
   <object Name="Spectacles" Load="Merge">
     <part Name="Render" DisplayName="Brille" />
@@ -3449,7 +3452,7 @@
   <object Name="Night-Sight Interpolators" Load="Merge">
     <part Name="Render" DisplayName="{{K|Nachtsicht-Interpolator}}Interpolator" />
     <part Name="Description" Short="Ringformen auf dem laminierten Metallrahmen sammeln Umgebungssensorendaten und verwenden sie, um das Sichtvolumen zu vergrößern." />
-    <part Name="RulesDescription" Text="Gewährt Nachtsicht.&#10;Ihr könnt zwei Felder über das erste Sichthindernis in Eurer Sichtlinie hinaussehen." />
+    <part Name="RulesDescription" Text="Gewährt Nachtsicht.&#10;Du kannst zwei Felder über das erste Sichthindernis in deiner Sichtlinie hinaussehen." />
     <xtagGrammar adjunctNoun="Paar" />
   </object>
   <object Name="Dream Rondure" Load="Merge">
@@ -3509,17 +3512,17 @@
   <object Name="BiologicalIndexer" Load="Merge">
     <part Name="Render" DisplayName="{{Y|optischer Bioscanner}}" />
     <part Name="Description" Short="Ein winziges Graphen-Array, das optische Daten mit einem Verzeichnis organischer Lebensformen abgleicht." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet Zugriff auf die genauen Werte für Trefferpunkte, Rüstung und Ausweichen biologischer Kreaturen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst Zugriff auf die genauen Werte für Trefferpunkte, Rüstung und Ausweichen biologischer Kreaturen." />
   </object>
   <object Name="TechnologicalIndexer" Load="Merge">
     <part Name="Render" DisplayName="{{Y|optischer Technoscanner}}" />
     <part Name="Description" Short="Ein winziges Graphen-Array, das optische Daten mit einem Verzeichnis robotischer Lebensformen und Artefakte abgleicht." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet Zugriff auf die genauen Werte für Trefferpunkte, Rüstung und Ausweichen robotischer Kreaturen, und Ihr identifiziert Artefakte automatisch." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst Zugriff auf die genauen Werte für Trefferpunkte, Rüstung und Ausweichen robotischer Kreaturen, und du identifizierst Artefakte automatisch." />
   </object>
   <object Name="ForceModulator" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Kraftmodulator}}" />
-    <part Name="Description" Short="Die abgestrahlten Frequenzen Eurer kleinsten Bestandteile werden mit dem standardisierten Band für Kraftemission synchronisiert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr könnt durch Kraftfelder hindurchgehen." />
+    <part Name="Description" Short="Die abgestrahlten Frequenzen deiner kleinsten Bestandteile werden mit dem standardisierten Band für Kraftemission synchronisiert." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du kannst durch Kraftfelder hindurchgehen." />
   </object>
   <object Name="CherubicVisage" Load="Merge">
     <part Name="Render" DisplayName="{{Y|cherubisches Antlitz}}" />
@@ -3529,13 +3532,13 @@
   <object Name="ElectromagneticSensor" Load="Merge">
     <part Name="Render" DisplayName="{{Y|elektromagnetischer Sensor}}" />
     <part Name="Description" Short="Kleine Verzerrungen im elektromagnetischen Feld, verursacht durch Maschinenwesen, sind für diesen Sensor sichtbar." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr spürt nahe Roboter auf, ohne sie sehen zu müssen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du spürst nahe Roboter auf, ohne sie sehen zu müssen." />
   </object>
   <object Name="NavigationSystem" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Navigationssystem}}" />
     <part Name="Description" Short="Geosoziale Standortdaten werden über die gläserne Mondsichel projiziert und mit Darstellungen des lebendigen Lehms unterlegt, der sich über die Erde verschoben hat, um ihren Platz einzunehmen." />
     <part Name="MultiNavigationBonus" NameForStatus="Navigationsmodul" />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Eure Chance, Euch in Ruinen zu verirren, wird um 30 % verringert.&#10;Eure Chance, Euch in anderem Gelände zu verirren, wird um 10 % verringert.&#10;Diese Effekte stapeln sich nicht mit den Boni eines Kompassarmbands." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Deine Chance, dich in Ruinen zu verirren, wird um 30 % verringert.&#10;Deine Chance, dich in anderem Gelände zu verirren, wird um 10 % verringert.&#10;Diese Effekte stapeln sich nicht mit den Boni eines Kompassarmbands." />
   </object>
   <object Name="TibularHydrojets" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Tibia-Hydrojets}}" />
@@ -3551,7 +3554,7 @@
   <object Name="SingleSkillsoft1" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Skillsoft}}" />
     <part Name="Description" Short="Auf diesem Chip sind die neuronalen Muster einer bestimmten Fertigkeit codiert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet eine Fertigkeit, deren Kosten zwischen 0 und 50 SP liegen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst eine Fertigkeit, deren Kosten zwischen 0 und 50 SP liegen." />
   </object>
   <object Name="DermalInsulation" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Dermalisolierung}}" />
@@ -3561,7 +3564,7 @@
   <object Name="NightVision" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Nachtsicht}}" />
     <part Name="Description" Short="Die nervengesättigte Netzhaut streut einfallende Strahlung und bricht das Licht, sodass sich die Iris jadegrün färbt." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet die Fähigkeit, im Dunkeln zu sehen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst die Fähigkeit, im Dunkeln zu sehen." />
   </object>
   <object Name="HyperElasticAnkleTendons" Load="Merge">
     <part Name="Render" DisplayName="{{Y|hyperelastische Knöchelsehnen}}" />
@@ -3571,7 +3574,7 @@
   <object Name="ParabolicMuscularSubroutine" Load="Merge">
     <part Name="Render" DisplayName="{{Y|parabolische Muskel-Subroutine}}" />
     <part Name="Description" Short="Nervenbündel sind so angeordnet, dass sie die Armmuskulatur entlang eines parabolischen Rechenschiebers stimulieren." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Eure Wurfreichweite wird um 2 erhöht.&#10;Wenn Ihr etwas auf ein Ziel innerhalb Eurer Wurfreichweite werft, beträgt Eure Wurfgenauigkeit 100%." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Deine Wurfreichweite wird um 2 erhöht.&#10;Wenn du etwas auf ein Ziel innerhalb deiner Wurfreichweite wirfst, beträgt deine Wurfgenauigkeit 100%." />
   </object>
   <object Name="TranslucentSkin" Load="Merge">
     <part Name="Render" DisplayName="{{Y|durchscheinende Haut}}" />
@@ -3581,17 +3584,17 @@
   <object Name="StabilizerArmLocks" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Stabilisator-Armverriegelungen}}" />
     <part Name="Description" Short="Chromklammern fixieren die Armgelenke, um die Reglosigkeit des Unlebens nachzuahmen." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Zur Bestimmung Eurer Genauigkeit mit Fernkampfangriffen wird Eure Beweglichkeit so behandelt, als wäre sie 6 Punkte höher." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Zur Bestimmung deiner Genauigkeit mit Fernkampfangriffen wird deine Beweglichkeit so behandelt, als wäre sie 6 Punkte höher." />
   </object>
   <object Name="RapidReleaseFingerFlexors" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Schnellauslöse-Fingerbeuger}}" />
     <part Name="Description" Short="Neuronal geladene Gewebehüllen übertragen den Willen schneller, als es die Zellbiologie je vermochte." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr feuert Pistolen 25% schneller ab." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du feuerst Pistolen 25% schneller ab." />
   </object>
   <object Name="CarbideHandBones" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Karbid-Handknochen}}" />
     <part Name="Description" Short="Blaues Karbid verbeult lediglich, wo schwaches Kollagen in Stücke zerschmettert würde." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Eure Fäuste verursachen 2w3 Schaden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Deine Fäuste verursachen 2w3 Schaden." />
   </object>
   <object Name="CarbideFist" Load="Merge">
     <part Name="Render" DisplayName="{{K|Karbidfaust}}" />
@@ -3600,52 +3603,52 @@
   <object Name="Pentaceps" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Pentaceps}}" />
     <part Name="Description" Short="Das Quartett der Kniestrecker erhält Unterstützung durch einen synthetischen fünften." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Eure Ansturmreichweite wird um 4 Felder erhöht." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Deine Ansturmreichweite wird um 4 Felder erhöht." />
   </object>
   <object Name="CommunicationsInterlock" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Kommunikations-Interlock}}" />
     <part Name="Description" Short="Zwischen dem mehrzinkigen Stecktool und der Chiffrierbox lässt sich eine Schnittstelle zu allen verfügbaren robotischen Anschlüssen herstellen." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr weist Roboter zurecht, als wärt Ihr 5 Stufen höher." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du weist Roboter zurecht, als wärst du 5 Stufen höher." />
   </object>
   <object Name="InflatableAxons" Load="Merge">
     <part Name="Render" DisplayName="{{Y|aufblasbare Axone}}" />
     <part Name="Description" Short="Nanoskopische Stents blähen die hauchdünnen Gehirnfäden auf, die die Weiterleitung des Willens einschränken." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Aktiviert. Abklingzeit 100.&#10;Ihr erhaltet +40 Schnelligkeit für 10 Runden, dann werdet Ihr für 10 Runden träge (-10 Schnelligkeit)." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Aktiviert. Abklingzeit 100.&#10;Du erhältst +40 Schnelligkeit für 10 Runden, dann wirst du für 10 Runden träge (-10 Schnelligkeit)." />
   </object>
   <object Name="NocturnalApex" Load="Merge">
     <part Name="Render" DisplayName="{{Y|nächtlicher Apex}}" />
     <part Name="Description" Short="Die Stoffwechselrhythmen der Bewohner der Heiligen Stadt sind auf ihre tageszeitlichen Rituale abgestimmt: tagsüber ruhen sie im Gebet im Schatten einer kannelierten Zikkurat; nachts durchstreifen sie die giftigen Arboreten auf der Suche nach Opfern." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="+10% zur natürlichen Heilungsrate während des Tages.&#10;Einmal pro Nacht könnt Ihr pirschen und erhaltet dabei für 100 Runden +6 Beweglichkeit und +10 Bewegungsgeschwindigkeit." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+10% zur natürlichen Heilungsrate während des Tages.&#10;Einmal pro Nacht kannst du pirschen und erhältst dabei für 100 Runden +6 Beweglichkeit und +10 Bewegungsgeschwindigkeit." />
   </object>
   <object Name="AirCurrentMicrosensor" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Luftströmungs-Mikrosensor}}" />
     <part Name="Description" Short="Nahe dem Rauchenden Gottmeer, wo Meerwasser auf Sonnenstein prallt und in stinkenden Dampf aufbricht, bildet ein Labyrinth vulkanischer Grotten einen dimensionslosen Raum, in dem der Nutzen des Sehens schwindet. Für die Kinder der Tiefe erwachen an seiner Stelle neue Sinne." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Treppen und andere Kartenübergänge nach oben oder unten werden Euch stets aufgedeckt." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Treppen und andere Kartenübergänge nach oben oder unten werden dir stets aufgedeckt." />
   </object>
   <object Name="PneumaticPistons" Load="Merge">
     <part Name="Render" DisplayName="{{Y|pneumatische Kolben}}" />
     <part Name="Description" Short="Komprimiertes Gas treibt Kolbenstangen in mit Graphitstaub durchsetzte Muskulatur und lässt den Springer emporschnellen." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Eure Sprungreichweite wird um 4 Felder erhöht." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Deine Sprungreichweite wird um 4 Felder erhöht." />
   </object>
   <object Name="ReactiveCranialPlating" Load="Merge">
     <part Name="Render" DisplayName="{{Y|reaktive Schädelplattierung}}" />
     <part Name="Description" Short="Karbidplatten werden in Schädelform gegossen und mit einem Schaum legiert, der sich bei Aufprall aufbläht." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr könnt nicht durch kinetische Effekte benommen oder betäubt werden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du kannst nicht durch kinetische Effekte benommen oder betäubt werden." />
   </object>
   <object Name="PhaseHarmonicModulator" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Phasenharmonik-Modulator}}" />
     <part Name="Description" Short="Invertierte Kreisel balancieren die Mikrostruktur einer Steuereinheit, die in einer bionischen Scheibe untergebracht ist. Im Inneren werden die Phasen der Realität überlagert und nach außen projiziert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr könnt mit In-Phase- und Out-of-Phase-Objekten und Kreaturen interagieren." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du kannst mit In-Phase- und Out-of-Phase-Objekten und Kreaturen interagieren." />
   </object>
   <object Name="FireSuppressionSystem" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Feuerlöschsystem}}" />
     <part Name="Description" Short="Hitzeaktiviertes Gel wird in einer bionischen Kapsel gespeichert und über subkutane Gummischläuche abgegeben." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Setzt jede Runde, in der Ihr brennt, automatisch feuerhemmendes Gel frei." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Setzt jede Runde, in der du brennst, automatisch feuerhemmendes Gel frei." />
   </object>
   <object Name="AnchorSpikes" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Ankerspieße}}" />
     <part Name="Description" Short="Mit Crysteel bewehrte Spieße werden an das Skelett genäht und schießen bei Anspannung durch die Haut und in den Boden." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr könnt nicht durch physische Mittel zur Bewegung gezwungen werden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du kannst nicht durch physische Mittel zur Bewegung gezwungen werden." />
   </object>
   <object Name="SkinGlitter2" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Hautglitzer}}" />
@@ -3656,12 +3659,12 @@
   <object Name="SingleSkillsoft2" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Skillsoft}}" />
     <part Name="Description" Short="Auf diesem Chip sind die neuronalen Muster einer bestimmten Fertigkeit codiert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet eine Fertigkeit, deren Kosten zwischen 51 und 150 SP liegen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst eine Fertigkeit, deren Kosten zwischen 51 und 150 SP liegen." />
   </object>
   <object Name="Schemasoft2" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Schemasoft}}" />
     <part Name="Description" Short="Auf diesem Chip sind die Schaltpläne für eine ganze Klasse von Artefakten niedriger Stufe codiert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet Zugang zu allen Schemata für eine einzelne Klasse von Artefakten." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst Zugang zu allen Schemata für eine einzelne Klasse von Artefakten." />
   </object>
   <object Name="GroundingShunts" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Erdungsshunts}}" />
@@ -3711,7 +3714,7 @@
   <object Name="GiantHands" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Riesenhände}}" />
     <part Name="Description" Short="Seit Ewigkeiten träumten sie: „Die Hände müssen wachsen.“ Im sanften Schimmer eines Labors wurde der Traum wahr." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr könnt zweihändige Waffen mit einer Hand führen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du kannst zweihändige Waffen mit einer Hand führen." />
   </object>
   <object Name="MedassistModule" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Medassist-Modul}}" />
@@ -3727,7 +3730,7 @@
   <object Name="SecurityInterlock" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Sicherheitsverriegelung}}" />
     <part Name="Description" Short="Gerillte Schlüssel für jede Wellenlänge in jedem Spektrum gewähren Zutritt durch jedes Portal." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr könnt jede Tür entsperren." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du kannst jede Tür entsperren." />
   </object>
   <object Name="IntravenousPort" Load="Merge">
     <part Name="Render" DisplayName="{{Y|intravenöser Port}}" />
@@ -3742,42 +3745,42 @@
   <object Name="MatterRecompositer" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Materie-Rekompositor}}" />
     <part Name="Description" Short="Der Fluss im Inneren dieses milliskopischen Fasses kann den Raum genau in dem Maßstab falten, der nötig ist, um ein menschliches Chassis in die Nähe zu versetzen." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Aktiviert. Abklingzeit 100.&#10;Ihr teleportiert Euch zu einem zufälligen, erkundeten Feld auf der Karte." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Aktiviert. Abklingzeit 100.&#10;Du teleportierst dich zu einem zufälligen, erkundeten Feld auf der Karte." />
   </object>
   <object Name="CustomVisage" Load="Merge">
     <part Name="Render" DisplayName="{{Y|maßgeschneidertes Antlitz}}" />
     <part Name="Description" Short="Akribisch detaillierte Modellierungssoftware und Anweisungen zur Gesichtsumformung erlauben es dem Wirt, das Antlitz seiner Wahl anzunehmen, wodurch Masken für immer überflüssig werden." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="+300 Ruf bei einer Fraktion Eurer Wahl zum Zeitpunkt des Einbaus" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+300 Ruf bei einer Fraktion deiner Wahl zum Zeitpunkt des Einbaus" />
   </object>
   <object Name="EquipmentRack" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Ausrüstungsgestell}}" />
     <part Name="Description" Short="Karbid-Montagestangen stützen ein gyroskopisches Regal, das für zusätzliches Gepäck ausgelegt ist." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet einen zusätzlichen Rücken-Ausrüstungsplatz." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst einen zusätzlichen Rücken-Ausrüstungsplatz." />
   </object>
   <object Name="BionicLiver" Load="Merge">
     <part Name="Render" DisplayName="{{Y|bionische Leber}}" />
     <part Name="Description" Short="Verdauungsgalle und Lauge wirbeln in gläsernen Kammern, während synthetisches Gewebe Bio-Toxine heraussiebt." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr seid immun gegen Gift und Krankheit." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du bist immun gegen Gift und Krankheit." />
   </object>
   <object Name="AnomalyFumigator" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Anomalie-Begaser}}" />
     <part Name="Description" Short="Parakausale Schaltkreise regen die Struktur der Raumzeit zu einem normotropen Partikulat an." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erzeugt jede Runde Wolken aus Normalitätsgas." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erzeugst jede Runde Wolken aus Normalitätsgas." />
   </object>
   <object Name="SingleSkillsoft3" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Skillsoft}}" />
     <part Name="Description" Short="Auf diesem Chip sind die neuronalen Muster einer bestimmten Fertigkeit codiert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet eine Fertigkeit, deren Kosten mehr als 151 SP betragen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst eine Fertigkeit, deren Kosten mehr als 151 SP betragen." />
   </object>
   <object Name="Schemasoft3" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Schemasoft}}" />
     <part Name="Description" Short="Auf diesem Chip sind die Schemata für eine ganze Klasse von Artefakten mittlerer Stufe codiert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet Zugang zu allen Schemata für eine einzelne Klasse von Artefakten." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst Zugang zu allen Schemata für eine einzelne Klasse von Artefakten." />
   </object>
   <object Name="FulleriteHandBones" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Fulleritknochen der Hand}}" />
     <part Name="Description" Short="Schwarzes Fullerit verbeult sich nur, wo schwaches Kollagen in Stücke zerschmettert würde." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Eure Fäuste verursachen 2w4+1 Schaden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Deine Fäuste verursachen 2w4+1 Schaden." />
   </object>
   <object Name="FulleriteFist" Load="Merge">
     <part Name="Render" DisplayName="{{K|Fulleritfaust}}" />
@@ -3786,44 +3789,44 @@
   <object Name="MotorizedTreads" Load="Merge">
     <part Name="Render" DisplayName="{{Y|motorisierte Ketten}}" />
     <part Name="Description" Short="Dreieckige Ketten umhüllen die Zähne riesiger Zahnräder, die sich drehen, um Fortbewegung zu erzeugen. Ihr Mensch ist den Grenzen der zweibeinigen Bewegung entkommen." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="+150 Bewegungsgeschwindigkeit&#10;+4 auf Rettungswürfe gegen erzwungene Bewegung, Niederschlag und Festgehaltenwerden&#10;Ihr könnt keine Schuhe tragen.&#10;Dieses Implantat kann nicht entfernt werden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+150 Bewegungsgeschwindigkeit&#10;+4 auf Rettungswürfe gegen erzwungene Bewegung, Niederschlag und Festgehaltenwerden&#10;Du kannst keine Schuhe tragen.&#10;Dieses Implantat kann nicht entfernt werden." />
     <part Name="SaveModifier" NameForStatus="Antriebsstrang" />
   </object>
   <object Name="ReactiveTraumaPlate" Load="Merge">
     <part Name="Render" DisplayName="{{Y|reaktive Traumaplatte}}" />
     <part Name="Description" Short="Eine konturierte Körperplatte aus Plastahl absorbiert Aufprallschocks und löst sich in den Blutkreislauf auf." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Neutralisiert eine Schadensquelle, die tödlichen Schaden verursachen oder mindestens 50% Eurer maximalen HP betragen würde. Dieses Implantat wird dabei zerstört." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Neutralisiert eine Schadensquelle, die tödlichen Schaden verursachen oder mindestens 50% deiner maximalen HP betragen würde. Dieses Implantat wird dabei zerstört." />
     <part Name="LifeSaver" LethalMessage="=subject.Name's= =object.name= =object.verb:burst= nach außen und zerstört dabei =objpronouns.reflexive=, um möglicherweise tödlichen Schaden zu verhindern." MaxHitpointsThresholdMessage="=subject.Name's= =object.name= =object.verb:burst= nach außen und zerstört dabei =objpronouns.reflexive=, um katastrophalen Schaden zu verhindern." NameForStatus="Traumainterventionssystem" />
   </object>
   <object Name="GunRack" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Waffenhalter}}" />
     <part Name="Description" Short="Der auf dem Rücken montierte Waffenhalter aus poliertem Chrom hat zwei Schlitze, in denen Pistolen über jeder Schulter sitzen können, oder für ein einzelnes Gewehr über der Schulter der Wahl." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet einen zusätzlichen linken und rechten Platz für Fernkampfwaffen.&#10;Ihr könnt keine Ausrüstung auf dem Rücken tragen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst einen zusätzlichen linken und rechten Platz für Fernkampfwaffen.&#10;Du kannst keine Ausrüstung auf dem Rücken tragen." />
   </object>
   <object Name="OnboardRecoiler" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Bordrückholer}}" />
     <part Name="Description" Short="Ein georäumlicher Kern ist mit einer bionischen Leine ausgestattet." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr könnt dieses Implantat mit einem Ort prägen (Abklingzeit 100) und dorthin zurückschnellen (Abklingzeit 50)." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du kannst dieses Implantat mit einem Ort prägen (Abklingzeit 100) und dorthin zurückschnellen (Abklingzeit 50)." />
   </object>
   <object Name="MagneticCore" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Magnetkern}}" />
     <part Name="Description" Short="Laminiertes Metall ist zu konzentrischen Kugeln gebunden, dämpft magnetische Wirbel und treibt Nahfeldumlaufbahnen an." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet einen zusätzlichen Ausrüstungsplatz 'In der Nähe schwebend'." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst einen zusätzlichen Ausrüstungsplatz 'In der Nähe schwebend'." />
   </object>
   <object Name="Phase-Adaptive Scope" Load="Merge">
     <part Name="Render" DisplayName="{{Y|phasenadaptives Zielfernrohr}}" />
     <part Name="Description" Short="Eine kleine Mondsichel aus Tetraxenonoglas ist im Q-Radius gekrümmt, um interdimensionale Parallaxe auszugleichen." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Wenn Ihr eine Fernkampfwaffe abfeuert oder etwas werft, phasenverschiebt sich Euer Projektil, um Hindernisse zu durchqueren und Euer Ziel zu erreichen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Wenn du eine Fernkampfwaffe abfeuerst oder etwas wirfst, phasenverschiebt sich dein Projektil, um Hindernisse zu durchqueren und dein Ziel zu erreichen." />
   </object>
   <object Name="Schemasoft4" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Schemasoft}}" />
     <part Name="Description" Short="Auf diesem Chip sind die Schemata für eine ganze Klasse von Artefakten hoher Stufe codiert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet Zugriff auf jeden Bauplan für eine einzelne Artefaktklasse." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst Zugriff auf jeden Bauplan für eine einzelne Artefaktklasse." />
   </object>
   <object Name="PrecisionForceLathe" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Präzisions-Kraftdrehbank}}" />
     <part Name="Description" Short="Ein magnetisch abgeschirmter Spindelstock hält den Raum in kinetischer Schwebe, während eine Kraftspindel sich dreht und ihn zu einer Spitze schärft." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr fertigt Kraftmesser in freien Hand- oder Wurfwaffenplätzen.&#10;Wenn Ihr ein Kraftmesser werft, materialisiert sich sofort ein weiteres an Eurem Wurfwaffenplatz.&#10;Kraftmesser verursachen 1d8 Schaden, haben einen Durchschlagswert gleich dem Rüstungswert ihres Ziels und haben +6 Wurfreichweite.&#10;Kraftmesser verschwinden, sobald sie den Kontakt zu Euch verlieren oder abgelegt werden.&#10;Wenn Ihr ein Kraftmodulator-Implantat installiert habt, können Kraftmesser durch Kraftfelder geworfen werden.&#10;" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du fertigst Kraftmesser in freien Hand- oder Wurfwaffenplätzen.&#10;Wenn du ein Kraftmesser wirfst, materialisiert sich sofort ein weiteres an deinem Wurfwaffenplatz.&#10;Kraftmesser verursachen 1d8 Schaden, haben einen Durchschlagswert gleich dem Rüstungswert ihres Ziels und haben +6 Wurfreichweite.&#10;Kraftmesser verschwinden, sobald sie den Kontakt zu dir verlieren oder abgelegt werden.&#10;Wenn du ein Kraftmodulator-Implantat installiert hast, können Kraftmesser durch Kraftfelder geworfen werden.&#10;" />
   </object>
   <object Name="ForceKnife" Load="Merge">
     <part Name="Render" DisplayName="{{C|Kraft}}messer" />
@@ -3833,18 +3836,18 @@
   <object Name="GraftedMirrorArm" Load="Merge">
     <part Name="Render" DisplayName="{{Y|transplantierter Spiegelarm}}" />
     <part Name="Description" Short="Ein Plastifer-Arm zweigt vom Schulterblatt ab und kopiert die Befehle, die von Nerv zu Muskel in seinem natürlich gewachsenen Zwilling übermittelt werden." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet einen zusätzlichen Wurfwaffenplatz.&#10;Wenn Ihr einen Wurf ausführt, werft Ihr aus allen Euren Wurfwaffenplätzen gleichzeitig." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst einen zusätzlichen Wurfwaffenplatz.&#10;Wenn du einen Wurf ausführst, wirfst du aus allen deinen Wurfwaffenplätzen gleichzeitig." />
   </object>
   <object Name="MicromanipulatorArray" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Mikromanipulator-Array}}" />
     <part Name="Description" Short="Ein Dutzend Armaturen und Manipulatoren spreizen sich von einer Metallschiene aus, die mit den Mittelhandknochen verschmilzt." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr könnt im Kampf für die Aktionskosten eines Zuges basteln und reparieren.&#10;Verringert die Aktionskosten anderer Bastelfertigkeiten um 40 %.&#10;Gewährt einen Bonus beim Identifizieren von Artefakten, als wäre Euer Intelligenzwert um 8 erhöht.&#10;+10 % Chance, beim Zerlegen von Artefakten Bits zu gewinnen." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du kannst im Kampf für die Aktionskosten eines Zuges basteln und reparieren.&#10;Verringert die Aktionskosten anderer Bastelfertigkeiten um 40 %.&#10;Gewährt einen Bonus beim Identifizieren von Artefakten, als wäre dein Intelligenzwert um 8 erhöht.&#10;+10 % Chance, beim Zerlegen von Artefakten Bits zu gewinnen." />
     <part Name="Toolbox" NameForStatus="DiagnosticSensors" />
   </object>
   <object Name="PenetratingRadar" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Durchdringungsradar}}" />
     <part Name="Description" Short="Picophasen-Sendeempfänger-Arrays erstellen ein exquisit detailliertes Modell der Umgebung." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet vollständige Sicht in einem Radius von 10 Feldern um Euch herum, die nur durch Kraftfelder und Raumzeitanomalien blockiert wird." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst vollständige Sicht in einem Radius von 10 Feldern um dich herum, die nur durch Kraftfelder und Raumzeitanomalien blockiert wird." />
   </object>
   <object Name="BiodynamicPowerPlant" Load="Merge">
     <part Name="Render" DisplayName="{{Y|biodynamisches Kraftwerk}}" />
@@ -3859,27 +3862,27 @@
   <object Name="HolographicVisage" Load="Merge">
     <part Name="Render" DisplayName="{{Y|holographisches Antlitz}}" />
     <part Name="Description" Short="Emulsion legt sich glänzend auf die Wange, und Laserlicht erzeugt pareidolische Wärme." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="+200 Ruf bei einer Fraktion Eurer Wahl, wenn Ihr dieses Implantat installiert&#10;Ihr könnt dieses Implantat aktivieren, um die gewählte Fraktion zu ändern." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+200 Ruf bei einer Fraktion deiner Wahl, wenn du dieses Implantat installierst&#10;Du kannst dieses Implantat aktivieren, um die gewählte Fraktion zu ändern." />
   </object>
   <object Name="OpticalMultiscanner" Load="Merge">
     <part Name="Render" DisplayName="{{Y|optischer Multiscanner}}" />
     <part Name="Description" Short="Ein winziges Graphen-Array, das optische Daten gegen das endgültige ontologische und phänomenologische Register abgleicht." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet Zugriff auf die genauen Trefferpunkte-, Rüstungs- und Ausweichwerte von robotischen Kreaturen, biologischen Kreaturen und Bauwerken.&#10;Ihr identifiziert Artefakte automatisch.&#10;Treppen und andere Auf-/Abwärts-Kartenübergänge werden Euch stets aufgedeckt." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst Zugriff auf die genauen Trefferpunkte-, Rüstungs- und Ausweichwerte von robotischen Kreaturen, biologischen Kreaturen und Bauwerken.&#10;Du identifizierst Artefakte automatisch.&#10;Treppen und andere Auf-/Abwärts-Kartenübergänge werden dir stets aufgedeckt." />
   </object>
   <object Name="SocialCoprocessor" Load="Merge">
     <part Name="Render" DisplayName="{{Y|sozialer Coprozessor}}" />
     <part Name="Description" Short="Um einen zentralen Prozessor herum setzen neuronale Transplantate an den Hirnlappen an, die für das Gefühl sozialer Wärme verantwortlich sind." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Wann immer Ihr das Wasserritual mit einer neuen Kreatur vollzieht, erhaltet Ihr zusätzliche 25 Ruf. Wenn Ihr dieses Implantat installiert, nachdem Ihr bereits zum ersten Mal mit einer Kreatur verhandelt habt, erhaltet Ihr 25 Ruf, sobald Ihr das nächste Mal mit ihr verhandelt.&#10;Die Rufkosten beim Wasserritual werden um 20 % gesenkt.&#10;Ihr könnt eine zusätzliche Kreatur bekehren.&#10;Rechenleistung im lokalen Gitter erhöht die Wirksamkeit dieses Implantats." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Wann immer du das Wasserritual mit einer neuen Kreatur vollziehst, erhältst du zusätzliche 25 Ruf. Wenn du dieses Implantat installierst, nachdem du bereits zum ersten Mal mit einer Kreatur verhandelt hast, erhältst du 25 Ruf, sobald du das nächste Mal mit ihr verhandelst.&#10;Die Rufkosten beim Wasserritual werden um 20 % gesenkt.&#10;Du kannst eine zusätzliche Kreatur bekehren.&#10;Rechenleistung im lokalen Gitter erhöht die Wirksamkeit dieses Implantats." />
   </object>
   <object Name="StasisEntangler" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Stasis-Verschränker}}" />
     <part Name="Description" Short="Geschliffene Kristallflächen sind matrixartig angeordnet und ausgerichtet, um Stille über ein Netz lebendiger Knotenpunkte zu leiten." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Aktiviert. Abklingzeit 200.&#10;Ihr wählt eine Kreatur in Sichtlinie. Alle anderen Kreaturen werden für 15 Runden in Stasisfelder versetzt." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Aktiviert. Abklingzeit 200.&#10;Du wählst eine Kreatur in Sichtlinie. Alle anderen Kreaturen werden für 15 Runden in Stasisfelder versetzt." />
   </object>
   <object Name="CrysteelHandBones" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Kristallstahlknochen der Hand}}" />
     <part Name="Description" Short="Geschecktes Kristallstahl verbeult sich nur, wo schwaches Kollagen in Stücke zerschmettert würde." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Eure Fäuste verursachen 3d4 Schaden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Deine Fäuste verursachen 3d4 Schaden." />
   </object>
   <object Name="CrysteelFist" Load="Merge">
     <part Name="Render" DisplayName="{{G|Kristallstahlfaust}}" />
@@ -3888,12 +3891,12 @@
   <object Name="HighFidelityMatterRecompositer" Load="Merge">
     <part Name="Render" DisplayName="{{Y|hochpräziser Materie-Rekompositor}}" />
     <part Name="Description" Short="Der Fluss im Inneren dieses milliskopischen Fasses kann den Raum genau in dem Maßstab falten, der nötig ist, um ein menschliches Chassis in die Nähe zu versetzen. Nichtlineare Schaltkreise berechnen alle möglichen Ergebnisse und verwerfen jene, die den Wirt außerhalb des Zielbereichs absetzen würden." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Aktiviert. Abklingzeit 50.&#10;Ihr teleportiert Euch zu einem beliebigen erkundeten Feld auf der Karte." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Aktiviert. Abklingzeit 50.&#10;Du teleportierst dich zu einem beliebigen erkundeten Feld auf der Karte." />
   </object>
   <object Name="TreeSkillsoft" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Skillsoft}}" />
     <part Name="Description" Short="Auf diesem Chip sind die neuronalen Muster eines bestimmten Fertigkeitsbaums codiert." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="Ihr erhaltet Zugriff auf einen ganzen Fertigkeitenbaum." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="Du erhältst Zugriff auf einen ganzen Fertigkeitenbaum." />
   </object>
   <object Name="BaseCathedra" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Kathedra}}" />
@@ -3901,22 +3904,22 @@
   <object Name="CathedraSapphire" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Kathedra mit Saphir-Maßwerk}}" />
     <part Name="Description" Short="Um das Vierpass eines elefantösen Splats netzartig angeordnet sind die eingefeilten Glyphen der Blindheit, Botschaften des verbündeten Mysteriums jenseits des Golfs. Flügel und Geländer sind in den perfekten Maßen einer Art seltsamer Hierarchie geordnet." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 Bewegungsgeschwindigkeit&#10;+50 Trefferpunkte&#10;+100 Tragekapazität&#10;+3 Ego&#10;Ihr erhaltet die Fähigkeit zu fliegen.&#10;&#10;Aktiviert. Abklingzeit 100.&#10;Ihr entfesselt eine Druckwelle im umliegenden Bereich, die Feinde zurückschleudert und betäubt.&#10;&#10;Ihr könnt keine Ausrüstung auf dem Rücken tragen.&#10;Dieses Implantat kann nicht deinstalliert werden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 Bewegungsgeschwindigkeit&#10;+50 Trefferpunkte&#10;+100 Tragekapazität&#10;+3 Ego&#10;Du erhältst die Fähigkeit zu fliegen.&#10;&#10;Aktiviert. Abklingzeit 100.&#10;Du entfesselst eine Druckwelle im umliegenden Bereich, die Feinde zurückschleudert und betäubt.&#10;&#10;Du kannst keine Ausrüstung auf dem Rücken tragen.&#10;Dieses Implantat kann nicht deinstalliert werden." />
   </object>
   <object Name="CathedraRuby" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Cathedra mit Rubinranken}}" />
     <part Name="Description" Short="Wellenkämme aus Schlacke durchbrechen die ebene Geometrie des gigantischen Sitzes, Narben als Hinweis auf den Moment, da die Mystai den Rubinfelsen, aus dem er geschlagen wurde, aus der wilden Erde wälzten. Rückenlehne und Klauenfüße sind versengt und durcheinandergeraten; das Ritual der Verwandlung endet nie." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 Bewegungsgeschwindigkeit&#10;+50 Trefferpunkte&#10;+100 Tragekapazität&#10;+3 Ego&#10;Ihr erhaltet die Fähigkeit zu fliegen.&#10;&#10;Aktiviert. Abklingzeit 100.&#10;Ihr erzeugt ein Pyrokinese-Feld um Eure Person.&#10;&#10;Ihr könnt keine Ausrüstung auf dem Rücken tragen.&#10;Dieses Implantat kann nicht deinstalliert werden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 Bewegungsgeschwindigkeit&#10;+50 Trefferpunkte&#10;+100 Tragekapazität&#10;+3 Ego&#10;Du erhältst die Fähigkeit zu fliegen.&#10;&#10;Aktiviert. Abklingzeit 100.&#10;Du erzeugst ein Pyrokinese-Feld um deine Person.&#10;&#10;Du kannst keine Ausrüstung auf dem Rücken tragen.&#10;Dieses Implantat kann nicht deinstalliert werden." />
   </object>
   <object Name="CathedraWhiteOpal" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Cathedra mit Weißopalranken}}" />
     <part Name="Description" Short="Jahrtausende von Glitzer haften an den nackten Gestalten, die ins Relief des goldenen Sitzes geschnitzt sind. Sie bevölkern jenen vergoldeten Hügel, ihre Leiber auf jede Weise verbunden, die die Geometrie erlaubt, und ergießen sich von der oberen Querleiste herab über die geschwungenen Armlehnen, die einst die bebenden Glieder eines der Wollust verfallenen Hohepriesters stützten." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 Bewegungsgeschwindigkeit&#10;+50 Trefferpunkte&#10;+100 Tragekapazität&#10;+3 Ego&#10;Ihr erhaltet die Fähigkeit zu fliegen.&#10;&#10;Aktiviert. Abklingzeit 100.&#10;Ihr setzt einen Schwall Glitzerstaub um Euch herum frei.&#10;&#10;Ihr könnt keine Ausrüstung auf dem Rücken tragen.&#10;Dieses Implantat kann nicht deinstalliert werden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 Bewegungsgeschwindigkeit&#10;+50 Trefferpunkte&#10;+100 Tragekapazität&#10;+3 Ego&#10;Du erhältst die Fähigkeit zu fliegen.&#10;&#10;Aktiviert. Abklingzeit 100.&#10;Du setzt einen Schwall Glitzerstaub um dich herum frei.&#10;&#10;Du kannst keine Ausrüstung auf dem Rücken tragen.&#10;Dieses Implantat kann nicht deinstalliert werden." />
   </object>
   <object Name="CathedraBlackOpal" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Cathedra mit Schwarzopalranken}}" />
     <part Name="Description" Short="Über die gesamte Breite seiner Rückenlehne und die ebenen Armlehnen hinweg unterteilen feine Risslinien den Stuhl und seine leuchtenden Steine in Ansammlungen von Galaxien. Ihre fraktalen Muster im Mikromaßstab übersteigen die Kunstfertigkeit längst versteinerter Tischler; es müssen die Narben von Leylinien sein." />
-    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 Bewegungsgeschwindigkeit&#10;+50 Trefferpunkte&#10;+100 Tragekapazität&#10;+3 Ego&#10;Ihr erhaltet die Fähigkeit zu fliegen.&#10;&#10;Aktiviert. Abklingzeit 100.&#10;Ihr zerreißt die Raumzeit und teleportiert Euch zu einem zufälligen Ort in Qud.&#10;&#10;Ihr könnt keine Ausrüstung auf dem Rücken tragen.&#10;Dieses Implantat kann nicht deinstalliert werden." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 Bewegungsgeschwindigkeit&#10;+50 Trefferpunkte&#10;+100 Tragekapazität&#10;+3 Ego&#10;Du erhältst die Fähigkeit zu fliegen.&#10;&#10;Aktiviert. Abklingzeit 100.&#10;Du zerreißt die Raumzeit und teleportierst dich zu einem zufälligen Ort in Qud.&#10;&#10;Du kannst keine Ausrüstung auf dem Rücken tragen.&#10;Dieses Implantat kann nicht deinstalliert werden." />
   </object>
   <object Name="BaseCyberneticsCreditWedge" Load="Merge">
     <part Name="Render" DisplayName="{{C|Kybernetik-Kreditkeil}}" />
@@ -4010,43 +4013,43 @@
   </object>
   <object Name="LoveTonic" Load="Merge">
     <part Name="Render" DisplayName="{{love|love}} Injektor" />
-    <part Name="RulesDescription" Text="Ihr fühlt Euch für etwa einen halben Tag ungewöhnlich verliebt und verliebt Euch dabei in das Erste, das Ihr anseht.&#10;Wenn Ihr einer anderen Person dies injiziert, verliebt sie sich in Euch und folgt Euch 3000-3600 Runden lang. Es gibt eine Fehlschlagchance von 1 % für jede Stufe, die sie höher ist als Ihr." />
+    <part Name="RulesDescription" Text="Du fühlst dich für etwa einen halben Tag ungewöhnlich verliebt und verliebst dich dabei in das Erste, das du ansiehst.&#10;Wenn du einer anderen Person dies injizierst, verliebt sie sich in dich und folgt dir 3000-3600 Runden lang. Es gibt eine Fehlschlagchance von 1 % für jede Stufe, die sie höher ist als du." />
   </object>
   <object Name="BlazeTonic" Load="Merge">
     <part Name="Render" DisplayName="{{blaze|blaze}} Injektor" />
-    <part Name="RulesDescription" Text="Dauer: 41-50 Runden&#10;+100 Hitzeresistenz&#10;Ihr könnt nicht eingefroren werden.&#10;Von Euch verursachter Hitzeschaden wird um 25 % erhöht.&#10;-50 Kälteresistenz&#10;+10 Schnelligkeit&#10;Eure Temperatur kann nicht durch externe Hitzequellen erhöht werden.&#10;Ihr müsst Euch bewegen, um nicht in Brand zu geraten und die Wirkung dieses Tonikums zu verlieren." GenotypeAlt="Dauer: 41-50 Runden&#10;+100 Hitzeresistenz&#10;Ihr könnt nicht eingefroren werden.&#10;Von Euch verursachter Hitzeschaden wird um 25 % erhöht.&#10;-50 Kälteresistenz&#10;+20 Schnelligkeit&#10;Eure Temperatur kann nicht durch externe Hitzequellen erhöht werden.&#10;Ihr müsst Euch bewegen, um nicht in Brand zu geraten und die Wirkung dieses Tonikums zu verlieren." />
+    <part Name="RulesDescription" Text="Dauer: 41-50 Runden&#10;+100 Hitzeresistenz&#10;Du kannst nicht eingefroren werden.&#10;Von dir verursachter Hitzeschaden wird um 25 % erhöht.&#10;-50 Kälteresistenz&#10;+10 Schnelligkeit&#10;Deine Temperatur kann nicht durch externe Hitzequellen erhöht werden.&#10;Du musst dich bewegen, um nicht in Brand zu geraten und die Wirkung dieses Tonikums zu verlieren." GenotypeAlt="Dauer: 41-50 Runden&#10;+100 Hitzeresistenz&#10;Du kannst nicht eingefroren werden.&#10;Von dir verursachter Hitzeschaden wird um 25 % erhöht.&#10;-50 Kälteresistenz&#10;+20 Schnelligkeit&#10;Deine Temperatur kann nicht durch externe Hitzequellen erhöht werden.&#10;Du musst dich bewegen, um nicht in Brand zu geraten und die Wirkung dieses Tonikums zu verlieren." />
   </object>
   <object Name="HulkHoneyTonic" Load="Merge">
     <part Name="Render" DisplayName="{{G|hulk}} {{w|Honig}} Injektor" />
-    <part Name="RulesDescription" Text="Dauer: 41-50 Runden&#10;+6 Stärke&#10;+2 temporäre Trefferpunkte pro Stufe&#10;-25 Bewegungsgeschwindigkeit&#10;Ihr könnt keinen Schmerz spüren.&#10;Ihr seid immun gegen Furcht.&#10;Ihr erleidet jede Runde 1 % Eurer maximalen Trefferpunkte als Schaden (dieser Schaden kann Euch nicht unter einen Trefferpunkt senken)" GenotypeAlt="Dauer: 41-50 Runden&#10;+9 Stärke&#10;+3 temporäre Trefferpunkte pro Stufe&#10;-25 Bewegungsgeschwindigkeit&#10;Ihr könnt keinen Schmerz spüren.&#10;Ihr seid immun gegen Furcht.&#10;Ihr erleidet jede Runde 1 % Eurer maximalen Trefferpunkte als Schaden (dieser Schaden kann Euch nicht unter einen Trefferpunkt senken)" />
+    <part Name="RulesDescription" Text="Dauer: 41-50 Runden&#10;+6 Stärke&#10;+2 temporäre Trefferpunkte pro Stufe&#10;-25 Bewegungsgeschwindigkeit&#10;Du kannst keinen Schmerz spüren.&#10;Du bist immun gegen Furcht.&#10;Du erleidest jede Runde 1 % deiner maximalen Trefferpunkte als Schaden (dieser Schaden kann dich nicht unter einen Trefferpunkt senken)" GenotypeAlt="Dauer: 41-50 Runden&#10;+9 Stärke&#10;+3 temporäre Trefferpunkte pro Stufe&#10;-25 Bewegungsgeschwindigkeit&#10;Du kannst keinen Schmerz spüren.&#10;Du bist immun gegen Furcht.&#10;Du erleidest jede Runde 1 % deiner maximalen Trefferpunkte als Schaden (dieser Schaden kann dich nicht unter einen Trefferpunkt senken)" />
   </object>
   <object Name="SalveTonic" Load="Merge">
     <part Name="Render" DisplayName="{{Y|salve}} Injektor" />
-    <part Name="RulesDescription" Text="Dauer: 5 Runden&#10;Ihr erholt Euch jede Runde um 0,6 Trefferpunkte pro Stufe (mindestens 3)." GenotypeAlt="Dauer: 5 Runden&#10;Ihr erholt Euch jede Runde um 0,9 Trefferpunkte pro Stufe (mindestens 5)." />
+    <part Name="RulesDescription" Text="Dauer: 5 Runden&#10;Du erholst dich jede Runde um 0,6 Trefferpunkte pro Stufe (mindestens 3)." GenotypeAlt="Dauer: 5 Runden&#10;Du erholst dich jede Runde um 0,9 Trefferpunkte pro Stufe (mindestens 5)." />
   </object>
   <object Name="SkulkTonic" Load="Merge">
     <part Name="Render" DisplayName="{{skulk|skulk}} Injektor" />
-    <part Name="RulesDescription" Text="Dauer: 1001-1200 Runden&#10;Eure Bewegungsgeschwindigkeit wird nachts und unter der Erde um 25 % erhöht, bei Tageslicht jedoch um 20 % verringert.&#10;+3 Geschicklichkeit nachts und unter der Erde, -3 Geschicklichkeit bei Tageslicht&#10;Ihr könnt im Dunkeln sehen (Radius 8).&#10;Ihr entwickelt Grabklauen.&#10;Ihr erleidet doppelten Schaden durch lichtbasierte Angriffe." GenotypeAlt="Dauer: 1001-1200 Runden&#10;Eure Bewegungsgeschwindigkeit wird nachts und unter der Erde um 40 % erhöht, bei Tageslicht jedoch um 20 % verringert.&#10;+4 Geschicklichkeit nachts und unter der Erde, -3 Geschicklichkeit bei Tageslicht&#10;Ihr könnt im Dunkeln sehen (Radius 8).&#10;Ihr erleidet doppelten Schaden durch lichtbasierte Angriffe." />
+    <part Name="RulesDescription" Text="Dauer: 1001-1200 Runden&#10;Deine Bewegungsgeschwindigkeit wird nachts und unter der Erde um 25 % erhöht, bei Tageslicht jedoch um 20 % verringert.&#10;+3 Geschicklichkeit nachts und unter der Erde, -3 Geschicklichkeit bei Tageslicht&#10;Du kannst im Dunkeln sehen (Radius 8).&#10;Du entwickelst Grabklauen.&#10;Du erleidest doppelten Schaden durch lichtbasierte Angriffe." GenotypeAlt="Dauer: 1001-1200 Runden&#10;Deine Bewegungsgeschwindigkeit wird nachts und unter der Erde um 40 % erhöht, bei Tageslicht jedoch um 20 % verringert.&#10;+4 Geschicklichkeit nachts und unter der Erde, -3 Geschicklichkeit bei Tageslicht&#10;Du kannst im Dunkeln sehen (Radius 8).&#10;Du erleidest doppelten Schaden durch lichtbasierte Angriffe." />
   </object>
   <object Name="SphynxSaltTonic" Load="Merge">
     <part Name="Render" DisplayName="{{sphynx|sphynx}} {{Y|Salz}} Injektor" />
-    <part Name="RulesDescription" Text="Dauer: 18-22 Runden&#10;Ihr seid immun gegen verwirrende Angriffe.&#10;Eure aktivierten mentalen Mutationen kühlen doppelt so schnell ab." GenotypeAlt="Dauer: 18-22 Runden&#10;Ihr seid immun gegen verwirrende Angriffe.&#10;Ihr erhascht einen Blick in Eure nahe Zukunft (Ihr könnt am Ende der Wirkungsdauer zu dem Zeitpunkt zurückkehren, an dem Ihr diese Droge zum ersten Mal eingenommen habt)." />
+    <part Name="RulesDescription" Text="Dauer: 18-22 Runden&#10;Du bist immun gegen verwirrende Angriffe.&#10;Deine aktivierten mentalen Mutationen kühlen doppelt so schnell ab." GenotypeAlt="Dauer: 18-22 Runden&#10;Du bist immun gegen verwirrende Angriffe.&#10;Du erhaschst einen Blick in deine nahe Zukunft (du kannst am Ende der Wirkungsdauer zu dem Zeitpunkt zurückkehren, an dem du diese Droge zum ersten Mal eingenommen hast)." />
   </object>
   <object Name="ShadeOilTonic" Load="Merge">
     <part Name="Render" DisplayName="{{shade|Shade-Öl}} Injektor" />
-    <part Name="RulesDescription" Text="Dauer: 41-50 Runden&#10;+8 DV&#10;Es besteht pro Runde eine Chance von 25 %, dass Ihr Euch für 1-3 Runden aus der räumlichen Dimension phasenverschiebt." GenotypeAlt="Dauer: 41-50 Runden&#10;+8 DV&#10;Ihr erhaltet die Fähigkeit, Euch für 7-9 Runden aus der räumlichen Dimension zu phasenverschieben." />
+    <part Name="RulesDescription" Text="Dauer: 41-50 Runden&#10;+8 DV&#10;Es besteht pro Runde eine Chance von 25 %, dass du dich für 1-3 Runden aus der räumlichen Dimension phasenverschiebt." GenotypeAlt="Dauer: 41-50 Runden&#10;+8 DV&#10;Du erhältst die Fähigkeit, dich für 7-9 Runden aus der räumlichen Dimension zu phasenverschieben." />
   </object>
   <object Name="UbernostrumTonic" Load="Merge">
     <part Name="Render" DisplayName="{{ubernostrum|ubernostrum}} Injektor" />
-    <part Name="RulesDescription" Text="Dauer: 10 Runden&#10;Ihr regeneriert 0,6 Trefferpunkte pro Stufe (mindestens 3) pro Runde.&#10;Am Ende der zehnten Runde werdet Ihr von allen kurzfristigen, biologischen Schwächungen befreit und regeneriert bis zu ein abgetrenntes Körperteil." GenotypeAlt="Dauer: 10 Runden&#10;Ihr regeneriert 0,9 Trefferpunkte pro Stufe (mindestens 5) pro Runde.&#10;Am Ende der zehnten Runde werdet Ihr von allen kurzfristigen, biologischen Schwächungen befreit und regeneriert bis zu ein abgetrenntes Körperteil." />
+    <part Name="RulesDescription" Text="Dauer: 10 Runden&#10;Du regenerierst 0,6 Trefferpunkte pro Stufe (mindestens 3) pro Runde.&#10;Am Ende der zehnten Runde wirst du von allen kurzfristigen, biologischen Schwächungen befreit und regenerierst bis zu ein abgetrenntes Körperteil." GenotypeAlt="Dauer: 10 Runden&#10;Du regenerierst 0,9 Trefferpunkte pro Stufe (mindestens 5) pro Runde.&#10;Am Ende der zehnten Runde wirst du von allen kurzfristigen, biologischen Schwächungen befreit und regenerierst bis zu ein abgetrenntes Körperteil." />
   </object>
   <object Name="RubbergumTonic" Load="Merge">
     <part Name="Render" DisplayName="{{rubbergum|rubbergum}} Injektor" />
-    <part Name="RulesDescription" Text="Dauer: 41-50 Runden&#10;+100 Elektroresistenz&#10;+25 Kälteresistenz&#10;-1 RW&#10;+5 auf Rettungswürfe gegen Festhalten.&#10;-5 auf Rettungswürfe gegen Bluten.&#10;Ihr erleidet nur halben Schaden durch Angriffe mit Wuchtschaden.&#10;Ihr erleidet nur halben Schaden durch Stürze.&#10;Ihr könnt nicht gepackt werden." GenotypeAlt="Dauer: 41-50 Runden&#10;+100 Elektroresistenz&#10;+50 Kälteresistenz&#10;-1 RW&#10;+5 auf Rettungswürfe gegen Festhalten.&#10;-5 auf Rettungswürfe gegen Bluten.&#10;Ihr erleidet nur 25% Schaden durch Angriffe mit Wuchtschaden.&#10;Ihr erleidet nur 25% Schaden durch Stürze.&#10;Ihr könnt nicht gepackt werden.&#10;Diese Effekte stapeln sich, wenn mehrere Rubbergums eingenommen werden." />
+    <part Name="RulesDescription" Text="Dauer: 41-50 Runden&#10;+100 Elektroresistenz&#10;+25 Kälteresistenz&#10;-1 RW&#10;+5 auf Rettungswürfe gegen Festhalten.&#10;-5 auf Rettungswürfe gegen Bluten.&#10;Du erleidest nur halben Schaden durch Angriffe mit Wuchtschaden.&#10;Du erleidest nur halben Schaden durch Stürze.&#10;Du kannst nicht gepackt werden." GenotypeAlt="Dauer: 41-50 Runden&#10;+100 Elektroresistenz&#10;+50 Kälteresistenz&#10;-1 RW&#10;+5 auf Rettungswürfe gegen Festhalten.&#10;-5 auf Rettungswürfe gegen Bluten.&#10;Du erleidest nur 25% Schaden durch Angriffe mit Wuchtschaden.&#10;Du erleidest nur 25% Schaden durch Stürze.&#10;Du kannst nicht gepackt werden.&#10;Diese Effekte stapeln sich, wenn mehrere Rubbergums eingenommen werden." />
   </object>
   <object Name="NectarTonic" Load="Merge">
     <part Name="Render" DisplayName="{{eater|Eaters'}} {{nectar|Nektar}} Injektor" />
-    <part Name="RulesDescription" Text="Ihr erhaltet entweder einen dauerhaften +1-Bonus auf ein zufälliges Attribut oder einen Mutationspunkt." GenotypeAlt="Ihr erhaltet einen Attributspunkt." />
+    <part Name="RulesDescription" Text="Du erhältst entweder einen dauerhaften +1-Bonus auf ein zufälliges Attribut oder einen Mutationspunkt." GenotypeAlt="Du erhältst einen Attributspunkt." />
   </object>
   <object Name="Tool" Load="Merge">
     <part Name="Render" DisplayName="{{c|[Tool]}}" />
@@ -4073,12 +4076,12 @@
     <xtagGrammar adjunctNoun="Paar" />
   </object>
   <object Name="GenericFace" Load="Merge">
-    <part Name="EatenAccomplishment" Text="Ihr habt =this.an= gegessen." Hagiograph="Wehe den Besiegten! =name= verspeiste =this.an= im Licht des Käfermondes." Gospel="Am =day= des =month=, in einer Taverne nahe =landmark.nearest=, traf sich =name= mit einer Gruppe Kipper und kochte und verspeiste, göttlich inspiriert von =spice:elements.entity@elements[random].practices.!random=, =this.refname=." />
+    <part Name="EatenAccomplishment" Text="Du hast =this.an= gegessen." Hagiograph="Wehe den Besiegten! =name= verspeiste =this.an= im Licht des Käfermondes." Gospel="Am =day= des =month=, in einer Taverne nahe =landmark.nearest=, traf sich =name= mit einer Gruppe Kipper und kochte und verspeiste, göttlich inspiriert von =spice:elements.entity@elements[random].practices.!random=, =this.refname=." />
   </object>
   <object Name="PlantFace" Load="Merge">
-    <part Name="EatenAccomplishment" Text="Ihr habt =this.an= gegessen." Hagiograph="Wehe den Besiegten! =name= verspeiste =this.an= im Licht des Käfermondes." Gospel="Am =day= des =month=, in einer Taverne nahe =landmark.nearest=, traf sich =name= mit einer Gruppe Kipper und kochte und verspeiste, göttlich inspiriert von =spice:elements.entity@elements[random].practices.!random=, =this.refname=." />
+    <part Name="EatenAccomplishment" Text="Du hast =this.an= gegessen." Hagiograph="Wehe den Besiegten! =name= verspeiste =this.an= im Licht des Käfermondes." Gospel="Am =day= des =month=, in einer Taverne nahe =landmark.nearest=, traf sich =name= mit einer Gruppe Kipper und kochte und verspeiste, göttlich inspiriert von =spice:elements.entity@elements[random].practices.!random=, =this.refname=." />
   </object>
   <object Name="FungusFace" Load="Merge">
-    <part Name="EatenAccomplishment" Text="Ihr habt =this.an= gegessen." Hagiograph="Wehe den Besiegten! =name= verspeiste =this.an= im Licht des Käfermondes." Gospel="Am =day= des =month=, in einer Taverne nahe =landmark.nearest=, traf sich =name= mit einer Gruppe Kipper und kochte und verspeiste, göttlich inspiriert von =spice:elements.entity@elements[random].practices.!random=, =this.refname=." />
+    <part Name="EatenAccomplishment" Text="Du hast =this.an= gegessen." Hagiograph="Wehe den Besiegten! =name= verspeiste =this.an= im Licht des Käfermondes." Gospel="Am =day= des =month=, in einer Taverne nahe =landmark.nearest=, traf sich =name= mit einer Gruppe Kipper und kochte und verspeiste, göttlich inspiriert von =spice:elements.entity@elements[random].practices.!random=, =this.refname=." />
   </object>
 </objects>

@@ -1,0 +1,108 @@
+{
+  "batch": "du-foods-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-foods-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "f7805f729a66fd20",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Hoarshroom]/part[RulesDescription]@Text",
+      "context": null,
+      "old_value": "Dauer: 180-220 Runden\nIhr strahlt Licht im Radius 2 aus.\nIn den ersten 5 Runden nach dem Einnehmen erhaltet Ihr jede Runde 0,6 Trefferpunkte pro Stufe (mindestens 3).\n+20 Kälteresistenz\nIhr könnt nicht vergiftet werden.",
+      "new_value": "Dauer: 180-220 Runden\nDu strahlst Licht im Radius 2 aus.\nIn den ersten 5 Runden nach dem Einnehmen erhältst du jede Runde 0,6 Trefferpunkte pro Stufe (mindestens 3).\n+20 Kälteresistenz\nDu kannst nicht vergiftet werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ff1ce0ada47e7b32",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Tongue Twist]/part[Food]@Message",
+      "context": null,
+      "old_value": "Der Geschmack kommt Euch auf der Zunge bekannt vor.",
+      "new_value": "Der Geschmack kommt dir auf der Zunge bekannt vor.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "af8f572289876265",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Spark Tick Scutum]/part[Food]@Message",
+      "context": null,
+      "old_value": "Es knistert auf Euren Geschmacksknospen.",
+      "new_value": "Es knistert auf deinen Geschmacksknospen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b93b56cd008a7896",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Voider Gland]/part[Food]@Message",
+      "context": null,
+      "old_value": "Es zergeht in Eurem Mund.",
+      "new_value": "Es zergeht in deinem Mund.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b3d972ce77201be1",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Psychal Gland]/part[Food]@Message",
+      "context": null,
+      "old_value": "Die Drüse platzt mit einem Knall und füllt Euren Mund mit einer kalten Flüssigkeit. Die Erinnerungen eines anderen sickern in Eure eigenen",
+      "new_value": "Die Drüse platzt mit einem Knall und füllt deinen Mund mit einer kalten Flüssigkeit. Die Erinnerungen eines anderen sickern in deine eigenen",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "964ad8626640c86c",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Clump of Grave Moss]/part[Food]@Message",
+      "context": null,
+      "old_value": "Es zerbröselt zu Flocken in Eurem Mund.",
+      "new_value": "Es zerbröselt zu Flocken in deinem Mund.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9ed99a69d6d092d2",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Arsplice Seed]/part[Food]@Message",
+      "context": null,
+      "old_value": "Strahlen behaglicher Wärme sprießen wie Fraktale in Eurem Körper.",
+      "new_value": "Strahlen behaglicher Wärme sprießen wie Fraktale in deinem Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5b9beb5cc566e61",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Humble Pie]/part[Food]@Message",
+      "context": null,
+      "old_value": "Es schmeckt bitter.\nEuer {{Y|Ego}} wird um {{C|1}} verringert",
+      "new_value": "Es schmeckt bitter.\nDein {{Y|Ego}} wird um {{C|1}} verringert",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0e813850c6be12fe",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Crystal of Eve]/part[Food]@Message",
+      "context": null,
+      "old_value": "Der Kristall zerspringt, und konzentrierter Gedankenstoff schwillt wie eine Flut an und durchtränkt Euren Geist.",
+      "new_value": "Der Kristall zerspringt, und konzentrierter Gedankenstoff schwillt wie eine Flut an und durchtränkt deinen Geist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3c37ae6731043504",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[BaseBreatherGland]/part[Food]@Message",
+      "context": null,
+      "old_value": "Die Drüse platzt mit einem Knall und füllt Euren Mund mit ihrer widerlichen Flüssigkeit.",
+      "new_value": "Die Drüse platzt mit einem Knall und füllt deinen Mund mit ihrer widerlichen Flüssigkeit.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

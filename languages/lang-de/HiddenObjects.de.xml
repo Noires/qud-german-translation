@@ -60,7 +60,7 @@
   </object>
   <object Name="Eater Globe" Load="Merge">
     <part Name="Render" DisplayName="schwebender Globus" />
-    <part Name="Description" Short="In Hochrelief krönen Falten und Knoten sandfarbener Formen die saphirblaue Oberfläche des kugelförmigen Modells. Das Nebeneinander der Maßstäbe, das Verhältnis von Meer zu Land und die kollektive Weisheit, die zur Erschaffung eines solchen Werks nötig war, lassen Euch den Kopf schwindeln." />
+    <part Name="Description" Short="In Hochrelief krönen Falten und Knoten sandfarbener Formen die saphirblaue Oberfläche des kugelförmigen Modells. Das Nebeneinander der Maßstäbe, das Verhältnis von Meer zu Land und die kollektive Weisheit, die zur Erschaffung eines solchen Werks nötig war, lassen dir den Kopf schwindeln." />
   </object>
   <object Name="BaseSpindleSupport" Load="Merge">
     <part Name="Render" DisplayName="Verankerungsarm" />
@@ -356,7 +356,7 @@
   </object>
   <object Name="Circumcestral Eater Monument" Load="Merge">
     <part Name="Render" DisplayName="zirkumzestrales Monument" />
-    <part Name="Description" Short="Die Form des gemeißelten Megalithen durchfährt wie ein Stromstoß eine vergessene Schar von Neuronen in einem Kriechgang Eures Geistes und stürzt Euch in plötzliche Vertrautheit mit der tiefen Vergangenheit, irgendwo am Rand des ersten Gedankens. Dann stellt sich Unsicherheit ein, in welche Richtung des Zeitgeflechts Ihr Euch da erinnert." />
+    <part Name="Description" Short="Die Form des gemeißelten Megalithen durchfährt wie ein Stromstoß eine vergessene Schar von Neuronen in einem Kriechgang deines Geistes und stürzt dich in plötzliche Vertrautheit mit der tiefen Vergangenheit, irgendwo am Rand des ersten Gedankens. Dann stellt sich Unsicherheit ein, in welche Richtung des Zeitgeflechts du dich da erinnerst." />
   </object>
   <object Name="Eater Mounted Monument" Load="Merge">
     <part Name="Render" DisplayName="heiliges Traggestell" />
@@ -870,7 +870,7 @@
   </object>
   <object Name="Spoken Ionic" Load="Merge">
     <part Name="Render" DisplayName="{{zetachrome|Gesprochenes Ionisch im Herzen der Kovalenz}}" />
-    <part Name="Description" Short="Aus der Wölbung der Zweige und des Stamms des Baumes schließt Ihr auf eine stellare Anordnung seiner Heimat, zu geometrisch komplex für natürliche Sternentstehung. =pronouns.Possessive= Bänder werfen das Licht wie Glas und tanzen in der abgestandenen Luft, seltsame Wimpel einer Zivilisation, der jede Vertrautheit entzogen wurde. Hier, am Rand =pronouns.possessive= fremden Teichs, trinkt das wurzelnde Besucherwesen in verwirrender Darbietung kühles Wasser." />
+    <part Name="Description" Short="Aus der Wölbung der Zweige und des Stamms des Baumes schließt du auf eine stellare Anordnung seiner Heimat, zu geometrisch komplex für natürliche Sternentstehung. =pronouns.Possessive= Bänder werfen das Licht wie Glas und tanzen in der abgestandenen Luft, seltsame Wimpel einer Zivilisation, der jede Vertrautheit entzogen wurde. Hier, am Rand =pronouns.possessive= fremden Teichs, trinkt das wurzelnde Besucherwesen in verwirrender Darbietung kühles Wasser." />
   </object>
   <object Name="Chiliad Village Monument Post" Load="Merge">
     <part Name="Render" DisplayName="Stein-Anch" />
@@ -1067,7 +1067,7 @@
   </object>
   <object Name="Chiliad Creature Wardens" Load="Merge">
     <part Name="Render" DisplayName="=creatureRegionAdjective= Wächter" />
-    <part Name="Description" Short="Angespannte Arme stützen =pronouns.possessive= Waffe, und =pronouns.subjective= =verb:hold:afterpronoun= Euren Blick mit verhaltenem Zweifel." />
+    <part Name="Description" Short="Angespannte Arme stützen =pronouns.possessive= Waffe, und =pronouns.subjective= =verb:hold:afterpronoun= deinen Blick mit verhaltenem Zweifel." />
   </object>
   <object Name="Chiliad Creature Fish" Load="Merge">
     <part Name="Render" DisplayName="=creatureRegionAdjective= Fisch" />

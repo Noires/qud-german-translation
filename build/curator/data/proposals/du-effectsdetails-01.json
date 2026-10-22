@@ -1,0 +1,18 @@
+{
+  "batch": "du-effectsdetails-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-effectsdetails-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "2fae13b32cbfed2d",
+      "file": "EffectsDetails.de.xml",
+      "key": "/templates#0/template[Effect.Inspired.Details]/p#1@#text",
+      "context": null,
+      "old_value": "Das nächste Mal, wenn Ihr eine Mahlzeit durch die Auswahl von Zutaten kocht, erhaltet Ihr die Auswahl aus drei dynamisch generierten Effekten zum Anwenden. Ihr erstellt ein Rezept für den gewählten Effekt.",
+      "new_value": "Das nächste Mal, wenn du eine Mahlzeit durch die Auswahl von Zutaten kochst, erhältst du die Auswahl aus drei dynamisch generierten Effekten zum Anwenden. Du erstellst ein Rezept für den gewählten Effekt.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

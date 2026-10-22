@@ -1,0 +1,338 @@
+{
+  "batch": "du-strings-06",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-strings-06)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "4a7ffbad72384b72",
+      "file": "Strings.de.xml",
+      "key": "|Your legs bones are nearly fused at the joints.@#text",
+      "context": null,
+      "old_value": "Eure Beinknochen sind an den Gelenken beinahe verwachsen.",
+      "new_value": "Deine Beinknochen sind an den Gelenken beinahe verwachsen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2fd70c79cb7e1e37",
+      "file": "Strings.de.xml",
+      "key": "|You feel the cartilage stretch as your leg bones grind together at the joints.@#text",
+      "context": null,
+      "old_value": "Ihr spürt, wie sich der Knorpel dehnt, während Eure Beinknochen an den Gelenken aneinander reiben.",
+      "new_value": "Du spürst, wie sich der Knorpel dehnt, während deine Beinknochen an den Gelenken aneinander reiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6e60ff33bb7178de",
+      "file": "Strings.de.xml",
+      "key": "|You have contracted monochrome! Color starts to seep out of the world.@#text",
+      "context": null,
+      "old_value": "Ihr habt Euch die Monochromie zugezogen! Die Farbe beginnt aus der Welt zu sickern.",
+      "new_value": "Du hast dir die Monochromie zugezogen! Die Farbe beginnt aus der Welt zu sickern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0f32ea56e5bf0aa0",
+      "file": "Strings.de.xml",
+      "key": "|You contracted monochrome.@#text",
+      "context": null,
+      "old_value": "Ihr habt Euch die Monochromie zugezogen.",
+      "new_value": "Du hast dir die Monochromie zugezogen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "652071aec2259505",
+      "file": "Strings.de.xml",
+      "key": "|You were cured of monochrome and your vision returned to color.@#text",
+      "context": null,
+      "old_value": "Ihr wurdet von der Monochromie geheilt, und Eure Sicht gewann wieder Farbe.",
+      "new_value": "Du wurdest von der Monochromie geheilt, und deine Sicht gewann wieder Farbe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "54352a87c7d9e8cd",
+      "file": "Strings.de.xml",
+      "key": "|Access your =subject.name:single=@#text",
+      "context": null,
+      "old_value": "Zugriff auf Euer =subject.name:single=",
+      "new_value": "Zugriff auf dein =subject.name:single=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "90a79fc08e9f379b",
+      "file": "Strings.de.xml",
+      "key": "|You are too confused to remember what =item.a.name= =item.is=.@#text",
+      "context": null,
+      "old_value": "Ihr seid zu verwirrt, um Euch zu erinnern, was =item.a.name= =item.is=.",
+      "new_value": "Du bist zu verwirrt, um dich zu erinnern, was =item.a.name= =item.is=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d033d63e1c1bc180",
+      "file": "Strings.de.xml",
+      "key": "|Grants you =mutationName= at level =level=.@#text",
+      "context": null,
+      "old_value": "Gewährt Euch =mutationName= auf Stufe =level=.",
+      "new_value": "Gewährt dir =mutationName= auf Stufe =level=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e02b828c00ce55e7",
+      "file": "Strings.de.xml",
+      "key": "|You cannot reach =object.the.name= to repair =object.them=.@#text",
+      "context": null,
+      "old_value": "Ihr könnt =object.the.name= nicht erreichen, um =object.them= zu reparieren.",
+      "new_value": "Du kannst =object.the.name= nicht erreichen, um =object.them= zu reparieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4e90eccfe040da7e",
+      "file": "Strings.de.xml",
+      "key": "|You forget something.@#text",
+      "context": null,
+      "old_value": "Ihr vergesst etwas.",
+      "new_value": "Du vergisst etwas.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "da87fcd92f8500ad",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:try= to eat your memories, but =subject.itDoes:starve=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:versuchen=, Eure Erinnerungen zu essen, aber =subject.itKonjde:verhungern=.",
+      "new_value": "=subject.Konjde:versuchen=, deine Erinnerungen zu essen, aber =subject.itKonjde:verhungern=.",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "89d66fdf72c54444",
+      "file": "Strings.de.xml",
+      "key": "|Since =subject.does:are= still latched onto you, =object.the.name= releasing =subject.them= leaves =subject.them= in your possession!@#text",
+      "context": null,
+      "old_value": "Da =subject.konjde:sein= noch immer an Euch festgeklammert, lässt =object.the.name= es beim Loslassen von =subject.them= in Eurem Besitz zurück!",
+      "new_value": "Da =subject.konjde:sein= noch immer an dir festgeklammert, lässt =object.the.name= es beim Loslassen von =subject.them= in deinem Besitz zurück!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6c912aa2feadf0af",
+      "file": "Strings.de.xml",
+      "key": "|Since =subject.does:are= still latched onto you, =object.their= releasing =subject.them= leaves =subject.them= in your possession!@#text",
+      "context": null,
+      "old_value": "Da =subject.konjde:sein= noch immer an Euch festgeklammert, lässt =object.their= Loslassen von =subject.them= es in Eurem Besitz zurück!",
+      "new_value": "Da =subject.konjde:sein= noch immer an dir festgeklammert, lässt =object.their= Loslassen von =subject.them= es in deinem Besitz zurück!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bac3228feed3a294",
+      "file": "Strings.de.xml",
+      "key": "|You =partial.if:partially= fill =object.the.name= with =volume.liquid.name=.@#text",
+      "context": null,
+      "old_value": "Ihr =partial.if:partially= befüllt =object.the.name= mit =volume.liquid.name=.",
+      "new_value": "Du =partial.if:partially= befüllst =object.the.name= mit =volume.liquid.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9e3464a2a0ec041f",
+      "file": "Strings.de.xml",
+      "key": "|Supply =object.the.name= with how many drams of your =liquid.name|strip=? (max=equals==amount=)@#text",
+      "context": null,
+      "old_value": "Mit wie vielen Dram Eures =liquid.name|strip= versorgt Ihr =object.the.name=? (max=equals==amount=)",
+      "new_value": "Mit wie vielen Dram deines =liquid.name|strip= versorgst du =object.the.name=? (max=equals==amount=)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ab7d7f3e91620f17",
+      "file": "Strings.de.xml",
+      "key": "|You have no =liquid.name|strip= to supply =object.the.name= with.@#text",
+      "context": null,
+      "old_value": "Ihr habt kein =liquid.name|strip=, um damit =object.the.name= zu versorgen.",
+      "new_value": "Du hast kein =liquid.name|strip=, um damit =object.the.name= zu versorgen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c2c0a25d8005a29",
+      "file": "Strings.de.xml",
+      "key": "|You reload =object.the.name= with =ammo.a.or.stack.name=.@#text",
+      "context": null,
+      "old_value": "Ihr ladet =object.the.name= mit =ammo.a.or.stack.name= nach.",
+      "new_value": "Du lädst =object.the.name= mit =ammo.a.or.stack.name= nach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2866144a11338d10",
+      "file": "Strings.de.xml",
+      "key": "|A weird=analgesic.if::, painful= shock reverberates through you.@#text",
+      "context": null,
+      "old_value": "Ein seltsamer=analgesic.if::, painful= Schock durchfährt Euch.",
+      "new_value": "Ein seltsamer=analgesic.if::, painful= Schock durchfährt dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d04570d5c462850",
+      "file": "Strings.de.xml",
+      "key": "|You tighten your =carapace.name=. Your AV increases by {{G|=tightFactor=}}.@#text",
+      "context": null,
+      "old_value": "Ihr strafft Euren =carapace.name=. Eure AV nimmt um {{G|=tightFactor=}} zu.",
+      "new_value": "Du straffst deinen =carapace.name=. Deine AV nimmt um {{G|=tightFactor=}} zu.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8a78e9ca51c6e80e",
+      "file": "Strings.de.xml",
+      "key": "|Your =carapace.name= =carapace.verb:loosen=. =subject.The.name's= AV decreases by {{R|=tightFactor=}}.@#text",
+      "context": null,
+      "old_value": "Euer =carapace.name= =carapace.konjde:lockern=. =subject.The.name's= AV nimmt um {{R|=tightFactor=}} ab.",
+      "new_value": "Dein =carapace.name= =carapace.konjde:lockern=. =subject.The.name's= AV nimmt um {{R|=tightFactor=}} ab.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b524b904835ad3e0",
+      "file": "Strings.de.xml",
+      "key": "|You don't have enough =quillsName=! You need at least =minimumQuills= =quillsName= to =abilityName=.@#text",
+      "context": null,
+      "old_value": "Ihr habt nicht genug =quillsName=! Ihr benötigt mindestens =minimumQuills= =quillsName=, um =abilityName=.",
+      "new_value": "Du hast nicht genug =quillsName=! Du benötigst mindestens =minimumQuills= =quillsName=, um =abilityName=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e68dcf8d55a2dffc",
+      "file": "Strings.de.xml",
+      "key": "|You have =partial.if:partially =recharged =object.the.name:single=.@#text",
+      "context": null,
+      "old_value": "Ihr habt =partial.if:partially =aufgeladen =object.the.name:single=.",
+      "new_value": "Du hast =partial.if:partially =aufgeladen =object.the.name:single=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b1163f77bb54521e",
+      "file": "Strings.de.xml",
+      "key": "|Eureka! You may now =fragments.andList=... and were able to work out how without needing to destroy =object.isplural:these:this one=!@#text",
+      "context": null,
+      "old_value": "Eureka! Ihr könnt nun =fragments.andList=... und habt herausgefunden, wie, ohne =object.isplural:these:this one= zerstören zu müssen!",
+      "new_value": "Eureka! Du kannst nun =fragments.andList=... und hast herausgefunden, wie, ohne =object.isplural:these:this one= zerstören zu müssen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a3b08f5e97cbd665",
+      "file": "Strings.de.xml",
+      "key": "|You add the following entry into the {{K|Annals of Qud}}.\n\n\"On the =date.day= of =date.month=, {{Y|=subject.basename|strip=}} became =positive.if:admired:despised= by =faction.formattedName= for =reason=.\"@#text",
+      "context": null,
+      "old_value": "Ihr fügt den folgenden Eintrag in die {{K|Annalen von Qud}} ein.\n\n\"Am =date.day=. =date.month= wurde {{Y|=subject.basename|strip=}} von =faction.formattedName= für =reason= =positive.if:bewundert:verachtet=.\"",
+      "new_value": "Du fügst den folgenden Eintrag in die {{K|Annalen von Qud}} ein.\n\n\"Am =date.day=. =date.month= wurde {{Y|=subject.basename|strip=}} von =faction.formattedName= für =reason= =positive.if:bewundert:verachtet=.\"",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "695c7bc66201bcd1",
+      "file": "Strings.de.xml",
+      "key": "|You die!",
+      "context": "",
+      "old_value": "Ihr sterbt!",
+      "new_value": "Du stirbst!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eca9d2ba0e3f458d",
+      "file": "Strings.de.xml",
+      "key": "|You begin bleeding!",
+      "context": "",
+      "old_value": "Ihr fangt an zu bluten!",
+      "new_value": "Du fängst an zu bluten!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9d362d1f01bdad6d",
+      "file": "Strings.de.xml",
+      "key": "|You regain your bearings.",
+      "context": "",
+      "old_value": "Ihr habt eure Orientierung wiedergefunden.",
+      "new_value": "Du hast deine Orientierung wiedergefunden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "764232fa31daafbc",
+      "file": "Strings.de.xml",
+      "key": "|Your regenerative metabolism cures you of paralyzed.",
+      "context": "",
+      "old_value": "Euer regenerativer Stoffwechsel heilt euch von der Lähmung.",
+      "new_value": "Dein regenerativer Stoffwechsel heilt dich von der Lähmung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9eee23e138ea8c29",
+      "file": "Strings.de.xml",
+      "key": "|You are stuck!",
+      "context": "",
+      "old_value": "Ihr steckt fest!",
+      "new_value": "Du steckst fest!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "63f8539a03577541",
+      "file": "Strings.de.xml",
+      "key": "|You break free!",
+      "context": "",
+      "old_value": "Ihr befreit Euch!",
+      "new_value": "Du befreist dich!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4e89a68004e164e4",
+      "file": "Strings.de.xml",
+      "key": "|You are overwhelmed with terror!",
+      "context": "",
+      "old_value": "Ihr werdet von Entsetzen überwältigt!",
+      "new_value": "Du wirst von Entsetzen überwältigt!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b2aae7bfb69fad75",
+      "file": "Strings.de.xml",
+      "key": "|You don't have anything to use in that slot.",
+      "context": "",
+      "old_value": "Ihr habt nichts, was Ihr in diesem Platz verwenden könnt.",
+      "new_value": "Du hast nichts, was du in diesem Platz verwenden kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9a79877b01da48d7",
+      "file": "Strings.de.xml",
+      "key": "|You must charge at least two spaces.",
+      "context": "",
+      "old_value": "Ihr müsst mindestens zwei Felder stürmen.",
+      "new_value": "Du musst mindestens zwei Felder stürmen.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

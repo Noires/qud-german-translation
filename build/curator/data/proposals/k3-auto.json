@@ -1,0 +1,3138 @@
+{
+  "batch": "k3-auto",
+  "rule": "k3",
+  "note": "K3: Subjekt-Token vor konjde ergänzt (Does → Name + Verb)",
+  "created": "2026-10-22 14:34",
+  "items": [
+    {
+      "uid": "8d581c5f2cca18d9",
+      "file": "Strings.de.xml",
+      "key": "PsychicHunterSystem Sense Presence Message|=subject.Does:sense= =number.pluralize:a psychic presence:psychic presences= foreign to this place and time.",
+      "context": "PsychicHunterSystem Sense Presence Message",
+      "old_value": "=subject.Konjde:spüren= =number.pluralize:a psychic presence:psychic presences= fremd zu diesem Ort und dieser Zeit.",
+      "new_value": "=subject.The.name= =subject.konjde:spüren= =number.pluralize:a psychic presence:psychic presences= fremd zu diesem Ort und dieser Zeit.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7aa06ff2c0362b54",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TraderIdentify Success|=trader.Does:identify= =object.the.name:long:notAsPossessed= as =object.a.name:asIfKnown=.",
+      "context": "XRLUITradeUI TraderIdentify Success",
+      "old_value": "=trader.Konjde:identifizieren= =object.the.name:long:notAsPossessed= als =object.a.name:asIfKnown=.",
+      "new_value": "=trader.The.name= =trader.konjde:identifizieren= =object.the.name:long:notAsPossessed= als =object.a.name:asIfKnown=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "61b4123fa41bf58a",
+      "file": "Strings.de.xml",
+      "key": "Tinkering TookOnNewQualities|=subject.Does:seem= to have taken on new qualities.",
+      "context": "Tinkering TookOnNewQualities",
+      "old_value": "=subject.Konjde:scheinen= neue Eigenschaften angenommen zu haben.",
+      "new_value": "=subject.The.name= =subject.konjde:scheinen= neue Eigenschaften angenommen zu haben.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ce8429e680de992",
+      "file": "Strings.de.xml",
+      "key": "TwiddleObject - Error out of range (telekinetic)|=subject.does:are= out of your telekinetic range.",
+      "context": "TwiddleObject - Error out of range (telekinetic)",
+      "old_value": "=subject.konjde:sein= außerhalb Eurer telekinetischen Reichweite.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= außerhalb Eurer telekinetischen Reichweite.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2ae9fefd519cff1c",
+      "file": "Strings.de.xml",
+      "key": "AutoAct interrupt 'because' (clause)|=blocker.does:are= in the way",
+      "context": "AutoAct interrupt 'because' (clause)",
+      "old_value": "=blocker.konjde:sein= im Weg",
+      "new_value": "=blocker.The.name= =blocker.konjde:sein= im Weg",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "5824793a98bd988d",
+      "file": "Strings.de.xml",
+      "key": "Disarm Message Log|=subject.Does:disarm= =object.the.name= of =object.its.item#weapon=!",
+      "context": "Disarm Message Log",
+      "old_value": "=subject.Konjde:schlagen= =object.dativ= =object.its.item:akk#weapon= aus der Hand!",
+      "new_value": "=subject.The.name= =subject.konjde:schlagen= =object.dativ= =object.its.item:akk#weapon= aus der Hand!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "cdf6f4130c6caf20",
+      "file": "Strings.de.xml",
+      "key": "Firefighting On Self|=subject.Does:beat= at the flames with =subject.its= =hands.name=!",
+      "context": "Firefighting On Self",
+      "old_value": "=subject.Konjde:schlagen= auf die Flammen mit =subject.its= =hands.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:schlagen= auf die Flammen mit =subject.its= =hands.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1375374d63d134d7",
+      "file": "Strings.de.xml",
+      "key": "Firefighting On Other|=subject.Does:beat= at the flames on =object.the.name= with =subject.its= =hands.name=!",
+      "context": "Firefighting On Other",
+      "old_value": "=subject.Konjde:schlagen= auf die Flammen auf =object.the.name= mit =subject.its= =hands.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:schlagen= auf die Flammen auf =object.the.name= mit =subject.its= =hands.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3ffca7e8ec2fb924",
+      "file": "Strings.de.xml",
+      "key": "ConversationDelegate gain XP message log popup|=subject.Does:gain= =xp|rules= XP!",
+      "context": "ConversationDelegate gain XP message log popup",
+      "old_value": "=subject.Konjde:gewinnen= =xp|rules= XP!",
+      "new_value": "=subject.The.name= =subject.konjde:gewinnen= =xp|rules= XP!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "5d19f65fa988b666",
+      "file": "Strings.de.xml",
+      "key": "AshPoison Effect Recuperating|=subject.Does:are= no longer choking!",
+      "context": "AshPoison Effect Recuperating",
+      "old_value": "=subject.Konjde:sein= erstickt nicht mehr!",
+      "new_value": "=subject.The.name= =subject.konjde:sein= erstickt nicht mehr!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7f3ec014e25cf34",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect Apply SleepMode Message Log|=subject.Does:enter= {{C|sleep mode}}.",
+      "context": "Asleep Effect Apply SleepMode Message Log",
+      "old_value": "=subject.Konjde:betreten= {{C|Schlafmodus}}.",
+      "new_value": "=subject.The.name= =subject.konjde:betreten= {{C|Schlafmodus}}.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d42d3ad49e54fca",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect Apply Message Log|=subject.Does:fall= {{C|asleep}}.",
+      "context": "Asleep Effect Apply Message Log",
+      "old_value": "=subject.Konjde:fallen= {{C|eingeschlafen}}.",
+      "new_value": "=subject.The.name= =subject.konjde:fallen= {{C|eingeschlafen}}.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "38f7667028a5b565",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect Remove SleepMode Message Log|=subject.Does:exit= sleep mode.",
+      "context": "Asleep Effect Remove SleepMode Message Log",
+      "old_value": "=subject.Konjde:verlassen= Schlafmodus.",
+      "new_value": "=subject.The.name= =subject.konjde:verlassen= Schlafmodus.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "aa24bb31edb9c8d1",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect Remove Message Log|=subject.Does:wake= up.",
+      "context": "Asleep Effect Remove Message Log",
+      "old_value": "=subject.Konjde:erwachen= auf.",
+      "new_value": "=subject.The.name= =subject.konjde:erwachen= auf.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3460348a0cb5515d",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect WakeSleeper SleepMode Message Log|=subject.Does:press= =object.poss:activation panel=.",
+      "context": "Asleep Effect WakeSleeper SleepMode Message Log",
+      "old_value": "=subject.Konjde:drücken= =object.poss:activation panel=.",
+      "new_value": "=subject.The.name= =subject.konjde:drücken= =object.poss:activation panel=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a4fcd0ba3cce6700",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect Woken SleepMode Message Log|=subject.Does:exit= sleep mode by emergency interrupt.",
+      "context": "Asleep Effect Woken SleepMode Message Log",
+      "old_value": "=subject.Konjde:verlassen= Schlafmodus durch Notfallunterbrechung.",
+      "new_value": "=subject.The.name= =subject.konjde:verlassen= Schlafmodus durch Notfallunterbrechung.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a57fef65fc0430da",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect Woken Message Log|=subject.Does:wake= up in a daze.",
+      "context": "Asleep Effect Woken Message Log",
+      "old_value": "=subject.Konjde:erwachen= verwirrt auf.",
+      "new_value": "=subject.The.name= =subject.konjde:erwachen= verwirrt auf.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "88ae4d66e1a8def4",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect GetSleepMessage SleepMode|=subject.Does:are= utterly unresponsive.",
+      "context": "Asleep Effect GetSleepMessage SleepMode",
+      "old_value": "=subject.Konjde:sein= völlig nicht reagierend.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= völlig nicht reagierend.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "648e92caab3379ea",
+      "file": "Strings.de.xml",
+      "key": "Asleep Effect GetSleepMessage|=subject.Does:snore= loudly.",
+      "context": "Asleep Effect GetSleepMessage",
+      "old_value": "=subject.Konjde:schnarchen= laut.",
+      "new_value": "=subject.The.name= =subject.konjde:schnarchen= laut.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "369be601661eb5ff",
+      "file": "Strings.de.xml",
+      "key": "BasiliskPoison Effect Recuperating|=subject.Does:feel= less stiff.",
+      "context": "BasiliskPoison Effect Recuperating",
+      "old_value": "=subject.Konjde:fühlen= weniger steif.",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= weniger steif.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6ba83a2c51d232a9",
+      "file": "Strings.de.xml",
+      "key": "Beguiled Effect Apply Message Log|=subject.Does:ogle= =object.the.name= lovingly.",
+      "context": "Beguiled Effect Apply Message Log",
+      "old_value": "=subject.Konjde:begaffen= =object.the.name= liebevoll an.",
+      "new_value": "=subject.The.name= =subject.konjde:begaffen= =object.the.name= liebevoll an.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d8d41f7d2dfaa20",
+      "file": "Strings.de.xml",
+      "key": "Beguiled Effect Remove Message Log|=subject.Does:lose= interest in =object.the.name=.",
+      "context": "Beguiled Effect Remove Message Log",
+      "old_value": "=subject.Konjde:verlieren= das Interesse an =object.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:verlieren= das Interesse an =object.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "420d90f9987b28f3",
+      "file": "Strings.de.xml",
+      "key": "Burrowed Effect Apply|=subject.Does:burrow= into the ground.",
+      "context": "Burrowed Effect Apply",
+      "old_value": "=subject.Konjde:wühlen= in den Boden.",
+      "new_value": "=subject.The.name= =subject.konjde:wühlen= in den Boden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2bbf6edecd34175",
+      "file": "Strings.de.xml",
+      "key": "Burrowed Effect Remove Damaged|=subject.Does:are= forced to the surface.",
+      "context": "Burrowed Effect Remove Damaged",
+      "old_value": "=subject.Konjde:sein= zur Oberfläche gezwungen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= zur Oberfläche gezwungen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "bff462017a91aa76",
+      "file": "Strings.de.xml",
+      "key": "Burrowed Effect Emerge|=subject.Does:emerge= from the ground.",
+      "context": "Burrowed Effect Emerge",
+      "old_value": "=subject.Konjde:erscheinen= aus dem Boden.",
+      "new_value": "=subject.The.name= =subject.konjde:erscheinen= aus dem Boden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f904b0badd27501",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainAgility_Shank_ProceduralCookingTriggeredAction Notification|=subject.does:perform= an act of nimble violence.",
+      "context": "CookingDomainAgility_Shank_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:vollführen= einen Akt wendiger Gewalt.",
+      "new_value": "=subject.The.name= =subject.konjde:vollführen= einen Akt wendiger Gewalt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "762757e5f91b70e1",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainArmor_LargeAVBuff_ProceduralCookingTriggeredAction Notification|=subject.does:stiffen=.",
+      "context": "CookingDomainArmor_LargeAVBuff_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:versteifen=.",
+      "new_value": "=subject.The.name= =subject.konjde:versteifen=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "124bba8c1125cea2",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainArtifact_IdentifyAllInZone_ProceduralCookingTriggeredAction Message log|=subject.Does:flush= with understanding of =object.a.name=.",
+      "context": "CookingDomainArtifact_IdentifyAllInZone_ProceduralCookingTriggeredAction Message log",
+      "old_value": "=subject.Konjde:spülen= mit Verständnis von =object.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:spülen= mit Verständnis von =object.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "446e31b7650c0c31",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainCold_FreezingHandsCharge_ProceduralCookingTriggeredAction Notification|=subject.does:emit= a powerful ray of frost.",
+      "context": "CookingDomainCold_FreezingHandsCharge_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:verströmen= einen mächtigen Froststrahl.",
+      "new_value": "=subject.The.name= =subject.konjde:verströmen= einen mächtigen Froststrahl.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3f2a280d1c34cd37",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainCold_ColdResist_ProceduralCookingTriggeredAction Notification|=subject.does:become= fortified against the cold.",
+      "context": "CookingDomainCold_ColdResist_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= gegen die Kälte gestärkt.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= gegen die Kälte gestärkt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "98fdce8ce3beb4f8",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainCold_LargeColdResist_ProceduralCookingTriggeredAction Notification|=subject.does:become= impervious to cold.",
+      "context": "CookingDomainCold_LargeColdResist_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= wird undurchdringlich für Kälte.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= wird undurchdringlich für Kälte.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a16cc64861bbceb2",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainElectric_SmallElectricResist_ProceduralCookingTriggeredAction Notification|=subject.does:become= fortified against electrical damage.",
+      "context": "CookingDomainElectric_SmallElectricResist_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= gegen Elektroschaden geschützt.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= gegen Elektroschaden geschützt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "383e8a9a6f7a742e",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainElectric_LargeElectricResist_ProceduralCookingTriggeredAction Notification|=subject.does:become= impervious to electrical damage.",
+      "context": "CookingDomainElectric_LargeElectricResist_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= immun gegen Pilzsporen.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= immun gegen Pilzsporen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6163bff63d8f93fb",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainFear_FearImmunity_ProceduralCookingTriggeredAction Notification|=subject.does:become= immune to fear.",
+      "context": "CookingDomainFear_FearImmunity_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= immun gegen Krankheit.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= immun gegen Krankheit.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "326ac9f5745ae957",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainHeat_FlamingHandsCharge_ProceduralCookingTriggeredAction Notification|=subject.does:emit= a powerful ray of flame.",
+      "context": "CookingDomainHeat_FlamingHandsCharge_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:verströmen= einen kraftvollen Flammenstrahl.",
+      "new_value": "=subject.The.name= =subject.konjde:verströmen= einen kraftvollen Flammenstrahl.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fbdf75801b5347f8",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainHeat_PyrokinesisCharge_ProceduralCookingTriggeredAction Notification|=subject.does:toast= an area with pyrokinesis.",
+      "context": "CookingDomainHeat_PyrokinesisCharge_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:rösten= eine Fläche mit Pyrokinese.",
+      "new_value": "=subject.The.name= =subject.konjde:rösten= eine Fläche mit Pyrokinese.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe6918c2e5fc13e9",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainHeat_HeatResist_ProceduralCookingTriggeredAction Notification|=subject.does:become= fortified against the heat.",
+      "context": "CookingDomainHeat_HeatResist_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= gegen Hitze geschützt.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= gegen Hitze geschützt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "237b22096acf6b7d",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainHeat_LargeHeatResist_ProceduralCookingTriggeredAction Notification|=subject.does:become= impervious to the heat.",
+      "context": "CookingDomainHeat_LargeHeatResist_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= unempfindlich gegen Hitze.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= unempfindlich gegen Hitze.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd78aab74605b7a5",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainFungus_SporeImmunity_ProceduralCookingTriggeredAction Notification|=subject.does:become= impervious to fungal spores.",
+      "context": "CookingDomainFungus_SporeImmunity_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= immun gegen Pilzsporen.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= immun gegen Pilzsporen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ea40dd109feb219a",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainHP_HealToFull_ProceduralCookingTriggeredAction Notification|=subject.does:heal= to full.",
+      "context": "CookingDomainHP_HealToFull_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:heilen= sich vollständig.",
+      "new_value": "=subject.The.name= =subject.konjde:heilen= sich vollständig.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe860e3cead9957a",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Notification|=subject.does:become= heartier.",
+      "context": "CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= immun gegen Angst.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= immun gegen Angst.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ddc2a7f21f3cfa54",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainLove_BeguilingCharge_ProceduralCookingTriggeredAction Notification|=subject.does:feel= the swell of love inside.",
+      "context": "CookingDomainLove_BeguilingCharge_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:fühlen= das Anschwellen der Liebe im Inneren.",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= das Anschwellen der Liebe im Inneren.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6677ee14b8366bea",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainMedicinal_RemoveIll_ProceduralCookingTriggeredAction Notification|=subject.does:feel= better.",
+      "context": "CookingDomainMedicinal_RemoveIll_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:fühlen= besser.",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= besser.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1c4dbf60f02b9acb",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainMedicinal_DiseaseImmunity_ProceduralCookingTriggeredAction Notification|=subject.does:become= impervious to disease.",
+      "context": "CookingDomainMedicinal_DiseaseImmunity_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= immun gegen elektrische Schäden.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= immun gegen elektrische Schäden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b09bb8f17cf8318a",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Notification|=subject.does:phase= out.",
+      "context": "CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:phasen= aus.",
+      "new_value": "=subject.The.name= =subject.konjde:phasen= aus.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "557c5e96ba9e5268",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Notification|=subject.does:become= phase-anchored.",
+      "context": "CookingDomainPhase_Phase_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:werden= phasenverankert.",
+      "new_value": "=subject.The.name= =subject.konjde:werden= phasenverankert.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "aa0fa0c402dcb594",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction Notification|=subject.does:grow= tiny spines all over =subject.their= body.",
+      "context": "CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:wachsen= überall winzige Dornen auf =subject.their= Körper.",
+      "new_value": "=subject.The.name= =subject.konjde:wachsen= überall winzige Dornen auf =subject.their= Körper.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9bc091e89e0c13a3",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainReflect_Reflect100HighTier_ProceduralCookingTriggeredAction Notification|=subject.does:grow= spines all over =subject.their= body.",
+      "context": "CookingDomainReflect_Reflect100HighTier_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:wachsen= überall Dornen auf =subject.their= Körper.",
+      "new_value": "=subject.The.name= =subject.konjde:wachsen= überall Dornen auf =subject.their= Körper.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "71dadc8a283ce838",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Message|=subject.Does:reflect= =amount= damage back at =object.the.name=",
+      "context": "CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction_Effect Message",
+      "old_value": "=subject.Konjde:reflektieren= =amount= Schaden zurück zu =object.dativ=",
+      "new_value": "=subject.The.name= =subject.konjde:reflektieren= =amount= Schaden zurück zu =object.dativ=",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f2627a0c475db8f",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainLowtierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Notification|=subject.does:feel= less afflicted.",
+      "context": "CookingDomainLowtierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:fühlen= weniger geplagt.",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= weniger geplagt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "02df6192c4721244",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainHightierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Notification|=subject.does:feel= less afflicted.",
+      "context": "CookingDomainHightierRegen_RemoveDebuff_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:fühlen= weniger geplagt.",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= weniger geplagt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "66f603826db673a0",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainRubber_JumpTwice_ProceduralCookingTriggeredAction Notification|=subject.does:feel= a springiness inside.",
+      "context": "CookingDomainRubber_JumpTwice_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:fühlen= eine Federung im Inneren.",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= eine Federung im Inneren.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9f2fcdd9f359af65",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainRubber_JumpThrice_ProceduralCookingTriggeredAction Notification|=subject.does:feel= a overwhelming springiness inside.",
+      "context": "CookingDomainRubber_JumpThrice_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:fühlen= eine überwältigende Federigkeit im Inneren.",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= eine überwältigende Federigkeit im Inneren.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf130599ee91e3e7",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainStrength_DismemberOrSlam_ProceduralCookingTriggeredAction Notification|=subject.does:perform= an act of brutal violence.",
+      "context": "CookingDomainStrength_DismemberOrSlam_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:vollführen= einen Akt brutaler Gewalt.",
+      "new_value": "=subject.The.name= =subject.konjde:vollführen= einen Akt brutaler Gewalt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d62bfcf585e70c0a",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Notification|=subject.does:shoot= out a trio of sticky tongues.",
+      "context": "CookingDomainTongue_ThreeTongues_ProceduralCookingTriggeredAction Notification",
+      "old_value": "=subject.konjde:schießen= drei klebrige Zungen aus.",
+      "new_value": "=subject.The.name= =subject.konjde:schießen= drei klebrige Zungen aus.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "55026190804172cd",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:begin= =effect.name|strip= from another wound!",
+      "context": "",
+      "old_value": "=subject.Konjde:beginnen= =effect.name|strip= von einer anderen Wunde!",
+      "new_value": "=subject.The.name= =subject.konjde:beginnen= =effect.name|strip= von einer anderen Wunde!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b08116f648b9b11e",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:begin= =effect.name|strip=!",
+      "context": "",
+      "old_value": "=subject.Konjde:beginnen= =effect.name|strip=!",
+      "new_value": "=subject.The.name= =subject.konjde:beginnen= =effect.name|strip=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "5e68bd4027e9791d",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:begin= acting like =subject.it.is= =effect.name|strip= from another wound.",
+      "context": "",
+      "old_value": "=subject.Konjde:beginnen= sich zu verhalten wie =subject.it.is= =effect.name|strip= von einer anderen Wunde.",
+      "new_value": "=subject.The.name= =subject.konjde:beginnen= sich zu verhalten wie =subject.it.is= =effect.name|strip= von einer anderen Wunde.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec86c5bd7651704f",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:begin= acting like =subject.it.is= =effect.name|strip=.",
+      "context": "",
+      "old_value": "=subject.Konjde:beginnen= sich zu verhalten wie =subject.it.is= =effect.name|strip=.",
+      "new_value": "=subject.The.name= =subject.konjde:beginnen= sich zu verhalten wie =subject.it.is= =effect.name|strip=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3a7ff69f3d5c1ee",
+      "file": "Strings.de.xml",
+      "key": "Lovesick message log|=subject.Does:fall= in love with =object.the.name=!",
+      "context": "Lovesick message log",
+      "old_value": "=subject.Konjde:fallen= verliebt in =object.the.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:fallen= verliebt in =object.the.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c895a5f491995214",
+      "file": "Strings.de.xml",
+      "key": "Phasing phase out|=subject.Does:phase= out.",
+      "context": "Phasing phase out",
+      "old_value": "=subject.Konjde:phasen= hinaus.",
+      "new_value": "=subject.The.name= =subject.konjde:phasen= hinaus.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "408b11b91f8555d1",
+      "file": "Strings.de.xml",
+      "key": "Phasing phase in|=subject.Does:phase= back in.",
+      "context": "Phasing phase in",
+      "old_value": "=subject.Konjde:phasen= wieder herein.",
+      "new_value": "=subject.The.name= =subject.konjde:phasen= wieder herein.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "03bd45f1ec260a43",
+      "file": "Strings.de.xml",
+      "key": "Rebuked Dismiss|=subject.Does:dismiss= =object.the.name= from =subject.its= service.",
+      "context": "Rebuked Dismiss",
+      "old_value": "=subject.Konjde:entlassen= =object.the.name= aus =subject.its:dat:m= Dienst.",
+      "new_value": "=subject.The.name= =subject.konjde:entlassen= =object.the.name= aus =subject.its:dat:m= Dienst.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a8e3d8ba666a4940",
+      "file": "Strings.de.xml",
+      "key": "Rebuked Applied|=subject.Does:rebuke= =object.the.name= into submission.",
+      "context": "Rebuked Applied",
+      "old_value": "=subject.Konjde:tadeln= =object.the.name= zur Unterwerfung.",
+      "new_value": "=subject.The.name= =subject.konjde:tadeln= =object.the.name= zur Unterwerfung.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "520ecefba1904c02",
+      "file": "Strings.de.xml",
+      "key": "Rebuke Removed|=subject.Does:wander= away disinterestedly.",
+      "context": "Rebuke Removed",
+      "old_value": "=subject.Konjde:wandern= gleichgültig davon.",
+      "new_value": "=subject.The.name= =subject.konjde:wandern= gleichgültig davon.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e981b42049210312",
+      "file": "Strings.de.xml",
+      "key": "Start Running|=subject.Does:begin= =message=!",
+      "context": "Start Running",
+      "old_value": "=subject.Konjde:beginnen= =message=!",
+      "new_value": "=subject.The.name= =subject.konjde:beginnen= =message=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3acda1cb1e861d6",
+      "file": "Strings.de.xml",
+      "key": "Stop Running|=subject.Does:stop= =message=.",
+      "context": "Stop Running",
+      "old_value": "=subject.Konjde:stoppen= =message=.",
+      "new_value": "=subject.The.name= =subject.konjde:stoppen= =message=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "af593b39bb2eeadd",
+      "file": "Strings.de.xml",
+      "key": "Body Regenerate Limb|=subject.Does:regenerate= =subject.their= =limb.ordinalName=!",
+      "context": "Body Regenerate Limb",
+      "old_value": "=subject.Konjde:regenerieren= =subject.their= =limb.ordinalName=!",
+      "new_value": "=subject.The.name= =subject.konjde:regenerieren= =subject.their= =limb.ordinalName=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ca1cd20bdbaea748",
+      "file": "Strings.de.xml",
+      "key": "AIUrnDuster Dusting Message Log|=subject.Does:dust= =object.a.name=.",
+      "context": "AIUrnDuster Dusting Message Log",
+      "old_value": "=subject.Konjde:bestäuben= =object.a.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:bestäuben= =object.a.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8fc9fcac826d8d2c",
+      "file": "Strings.de.xml",
+      "key": "AIWiring - Ignore Conversation Message|=subject.Does:ignore= =object.the.name=.",
+      "context": "AIWiring - Ignore Conversation Message",
+      "old_value": "=subject.Konjde:ignorieren= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:ignorieren= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3115ab7f26e27b3a",
+      "file": "Strings.de.xml",
+      "key": "ConversationScript Fail In Melee|=subject.Does:are= engaged in hand-to-hand combat and =subject.is= too busy to have a conversation with you.",
+      "context": "ConversationScript Fail In Melee",
+      "old_value": "=subject.Konjde:sein= in hand-to-hand Kampf verwickelt und =subject.is= zu beschäftigt, um mit Euch zu sprechen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= in hand-to-hand Kampf verwickelt und =subject.is= zu beschäftigt, um mit Euch zu sprechen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7ccc8bd2950289b7",
+      "file": "Strings.de.xml",
+      "key": "ConversationScript Fail Aflame|=subject.Does:are= on fire and =subject.is= too busy to have a conversation with you.",
+      "context": "ConversationScript Fail Aflame",
+      "old_value": "=subject.Konjde:sein= in Flammen und =subject.is= zu beschäftigt, um mit Euch zu sprechen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= in Flammen und =subject.is= zu beschäftigt, um mit Euch zu sprechen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e6b04ade9b6bdd2b",
+      "file": "Strings.de.xml",
+      "key": "ConversationScript Fail Nothing To Say|=subject.Does:have= nothing to say.",
+      "context": "ConversationScript Fail Nothing To Say",
+      "old_value": "=subject.Konjde:haben= nichts zu sagen.",
+      "new_value": "=subject.The.name= =subject.konjde:haben= nichts zu sagen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9e75613d3133c3a1",
+      "file": "Strings.de.xml",
+      "key": "BlinkOnDamage Message Log|=subject.Does:blink= away from the danger.",
+      "context": "BlinkOnDamage Message Log",
+      "old_value": "=subject.Konjde:blinzeln= weg von der Gefahr.",
+      "new_value": "=subject.The.name= =subject.konjde:blinzeln= weg von der Gefahr.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8e51d07802361313",
+      "file": "Strings.de.xml",
+      "key": "BurnOffGas Message Log|=subject.Does:burn= off =object.a.name=.",
+      "context": "BurnOffGas Message Log",
+      "old_value": "=subject.Konjde:brennen= =object.a.name= ab.",
+      "new_value": "=subject.The.name= =subject.konjde:brennen= =object.a.name= ab.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ff9c2c5f718cafd6",
+      "file": "Strings.de.xml",
+      "key": "Combat Attacker Miss Message (terse)|=subject.Does:miss= you!",
+      "context": "Combat Attacker Miss Message (terse)",
+      "old_value": "=subject.Konjde:verfehlen= Euch!",
+      "new_value": "=subject.The.name= =subject.konjde:verfehlen= Euch!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "456d266043bfe62f",
+      "file": "Strings.de.xml",
+      "key": "Combat Attacker Miss Message (no weapon)|=subject.Does:miss= you! [=hitResult= vs. =dv=]",
+      "context": "Combat Attacker Miss Message (no weapon)",
+      "old_value": "=subject.Konjde:verfehlen= Euch! [=hitResult= vs. =dv=]",
+      "new_value": "=subject.The.name= =subject.konjde:verfehlen= Euch! [=hitResult= vs. =dv=]",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6e64d83ef522f40d",
+      "file": "Strings.de.xml",
+      "key": "Slumberling sleepy|=subject.Does:lapse= back into hibernation.",
+      "context": "Slumberling sleepy",
+      "old_value": "=subject.Konjde:verfallen= wieder in den Winterschlaf zurück.",
+      "new_value": "=subject.The.name= =subject.konjde:verfallen= wieder in den Winterschlaf zurück.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "99d3abc4aefaba32",
+      "file": "Strings.de.xml",
+      "key": "LevelGain|=subject.Does:gain= a level!",
+      "context": "LevelGain",
+      "old_value": "=subject.Konjde:gewinnen= eine Stufe!",
+      "new_value": "=subject.The.name= =subject.konjde:gewinnen= eine Stufe!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "33a6e9fc9098e686",
+      "file": "Strings.de.xml",
+      "key": "Stomach Vomit Everywhere|=subject.Does:vomit= everywhere!",
+      "context": "Stomach Vomit Everywhere",
+      "old_value": "=subject.Konjde:erbrechen= überall!",
+      "new_value": "=subject.The.name= =subject.konjde:erbrechen= überall!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e55f62b487e4de3d",
+      "file": "Strings.de.xml",
+      "key": "Stomach pour over message no source|=subject.Does:pour= fresh water over =subject.itself=.",
+      "context": "Stomach pour over message no source",
+      "old_value": "=subject.Konjde:strömen= Süßwasser über =subject.itself= aus.",
+      "new_value": "=subject.The.name= =subject.konjde:strömen= Süßwasser über =subject.itself= aus.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae09eeebc4c37f21",
+      "file": "Strings.de.xml",
+      "key": "Stomach pour over message with source|=subject.Does:pour= fresh water from =object.the.name:itsPossessor= over =subject.itself=.",
+      "context": "Stomach pour over message with source",
+      "old_value": "=subject.Konjde:strömen= Süßwasser aus =object.dativ:itsPossessor= über =subject.itself=.",
+      "new_value": "=subject.The.name= =subject.konjde:strömen= Süßwasser aus =object.dativ:itsPossessor= über =subject.itself=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "26f5d679cd1f5167",
+      "file": "Strings.de.xml",
+      "key": "Stomach sip message no source|=subject.Does:take= a sip of fresh water.",
+      "context": "Stomach sip message no source",
+      "old_value": "=subject.Konjde:nehmen= einen Schluck Süßwasser.",
+      "new_value": "=subject.The.name= =subject.konjde:nehmen= einen Schluck Süßwasser.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "4059740c7abf5a8f",
+      "file": "Strings.de.xml",
+      "key": "Examiner damage risk warning|=object.Does:are= not owned by you, and examining =object.them= risks damaging =object.them=. Are you sure you want to do so?",
+      "context": "Examiner damage risk warning",
+      "old_value": "=object.Konjde:sein= gehört nicht Euch, und das Untersuchen von =object.them= risikiert Schäden an =object.them=. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "=object.The.name= =object.konjde:sein= gehört nicht Euch, und das Untersuchen von =object.them= risikiert Schäden an =object.them=. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "184c43871f3ca084",
+      "file": "Strings.de.xml",
+      "key": "Examiner damage contained risk warning|=container.Does:are= not owned by you, and examining =object.a.name:single= inside =container.them= risks causing damage. Are you sure you want to do so?",
+      "context": "Examiner damage contained risk warning",
+      "old_value": "=container.Konjde:sein= gehört nicht Euch, und das Untersuchen von =object.a.dativ:single= in =container.them= risikiert Schäden. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "=container.The.name= =container.konjde:sein= gehört nicht Euch, und das Untersuchen von =object.a.dativ:single= in =container.them= risikiert Schäden. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "556c19f6dd11dad1",
+      "file": "Strings.de.xml",
+      "key": "Forcefield CollapseUnderPressureOfNormality|=subject.Does:collapse= under the pressure of normality.",
+      "context": "Forcefield CollapseUnderPressureOfNormality",
+      "old_value": "=subject.Konjde:kollabieren= unter dem Druck von Normalität.",
+      "new_value": "=subject.The.name= =subject.konjde:kollabieren= unter dem Druck von Normalität.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "0066f607283831f2",
+      "file": "Strings.de.xml",
+      "key": "Shrine prayer message log|=subject.Does:voice= a short prayer beneath =object.the.name=.",
+      "context": "Shrine prayer message log",
+      "old_value": "=subject.Konjde:ertönen= ein kurzes Gebet unter =object.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:ertönen= ein kurzes Gebet unter =object.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "4f5546f2ac397c32",
+      "file": "Strings.de.xml",
+      "key": "Shrine desecrate message log|=subject.Does:desecrate= =object.the.name=.",
+      "context": "Shrine desecrate message log",
+      "old_value": "=subject.Konjde:entweihen= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:entweihen= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "78855b2d57f36000",
+      "file": "Strings.de.xml",
+      "key": "EMPGrenade Detonate Message Log|=subject.Does:detonate=!",
+      "context": "EMPGrenade Detonate Message Log",
+      "old_value": "=subject.Konjde:detonieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:detonieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "12b056ab086a12e8",
+      "file": "Strings.de.xml",
+      "key": "FlashbangGrenade explode message log|=subject.Does:explode= with a flash!",
+      "context": "FlashbangGrenade explode message log",
+      "old_value": "=subject.Konjde:explodieren= mit einem Blitz!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren= mit einem Blitz!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d048fb51b0d74b5c",
+      "file": "Strings.de.xml",
+      "key": "EMPGrenade Detonate Message Log|=subject.Does:explode=!",
+      "context": "EMPGrenade Detonate Message Log",
+      "old_value": "=subject.Konjde:explodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ca496d53dff76fa0",
+      "file": "Strings.de.xml",
+      "key": "GravityGrenade Detonate Message Log|=subject.Does:implode=!",
+      "context": "GravityGrenade Detonate Message Log",
+      "old_value": "=subject.Konjde:implodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:implodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "99e008fac192fc06",
+      "file": "Strings.de.xml",
+      "key": "HEGrenade Detonate Message Log|=subject.Does:explode=!",
+      "context": "HEGrenade Detonate Message Log",
+      "old_value": "=subject.Konjde:explodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "47d0242a4164fe0c",
+      "file": "Strings.de.xml",
+      "key": "PhaseGrenade Detonate Message Log|=subject.Does:explode=!",
+      "context": "PhaseGrenade Detonate Message Log",
+      "old_value": "=subject.Konjde:explodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5c8188d65444b4e",
+      "file": "Strings.de.xml",
+      "key": "SunderGrenade Detonate Message Log|=subject.Does:detonate=!",
+      "context": "SunderGrenade Detonate Message Log",
+      "old_value": "=subject.Konjde:detonieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:detonieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc5458cbdd107d7b",
+      "file": "Strings.de.xml",
+      "key": "ThermalGrenade Detonate Message Log|=subject.Does:explode=!",
+      "context": "ThermalGrenade Detonate Message Log",
+      "old_value": "=subject.Konjde:explodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "60f719f222434060",
+      "file": "Strings.de.xml",
+      "key": "Inventory take from container|=subject.Does:take= =object.the.name= from =container.the.name==subject.to.its.direction#container|before: =.",
+      "context": "Inventory take from container",
+      "old_value": "=subject.Konjde:nehmen= =object.the.name= aus =container.dativ==subject.to.its.direction#container|before: =.",
+      "new_value": "=subject.The.name= =subject.konjde:nehmen= =object.the.name= aus =container.dativ==subject.to.its.direction#container|before: =.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "31ef422281b30391",
+      "file": "Strings.de.xml",
+      "key": "Inventory take from direction|=subject.Does:take= =object.the.name==subject.from.its.direction#direction|spaceBefore=.",
+      "context": "Inventory take from direction",
+      "old_value": "=subject.Konjde:nehmen= =object.the.name==subject.from.its.direction#direction|spaceBefore=.",
+      "new_value": "=subject.The.name= =subject.konjde:nehmen= =object.the.name==subject.from.its.direction#direction|spaceBefore=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "10f02473228b0197",
+      "file": "Strings.de.xml",
+      "key": "Inventory take|=subject.Does:take= =object.the.name=.",
+      "context": "Inventory take",
+      "old_value": "=subject.Konjde:nehmen= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:nehmen= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "cc108cc411a1ad1d",
+      "file": "Strings.de.xml",
+      "key": "AjiConch Blow Message|=subject.Does:blow= into the conch of the Aji =subject.to.the.direction:noHere=.",
+      "context": "AjiConch Blow Message",
+      "old_value": "=subject.Konjde:blasen= in die Muschel des Aji =subject.to.the.direction:noHere=.",
+      "new_value": "=subject.The.name= =subject.konjde:blasen= in die Muschel des Aji =subject.to.the.direction:noHere=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "0995ad300eea59c0",
+      "file": "Strings.de.xml",
+      "key": "AnimateObject Unresponsive Fail|=subject.Does:are= unresponsive.",
+      "context": "AnimateObject Unresponsive Fail",
+      "old_value": "=subject.Konjde:sein= nicht reaktionsfähig.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= nicht reaktionsfähig.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f396aeccd1c75f63",
+      "file": "Strings.de.xml",
+      "key": "Banner Raise Message|=subject.Does:raise= =object.the.name=.",
+      "context": "Banner Raise Message",
+      "old_value": "=subject.Konjde:erheben= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:erheben= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1a0c7222bb6c477a",
+      "file": "Strings.de.xml",
+      "key": "BubbleLevel Sound Message|=subject.Does:plop=.",
+      "context": "BubbleLevel Sound Message",
+      "old_value": "=subject.Konjde:plumpsen=.",
+      "new_value": "=subject.The.name= =subject.konjde:plumpsen=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7ee0016e9b267308",
+      "file": "Strings.de.xml",
+      "key": "BubbleLevel No Sound Message|=subject.Does:make= no sound.",
+      "context": "BubbleLevel No Sound Message",
+      "old_value": "=subject.Konjde:machen= keinen Ton.",
+      "new_value": "=subject.The.name= =subject.konjde:machen= keinen Ton.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ddf4d49fa15c0dad",
+      "file": "Strings.de.xml",
+      "key": "Butcherable Fail Message|=subject.Does:fail= to =verb= anything useful from =object.the.name= =subject.formatDirection:ifAny#direction=.",
+      "context": "Butcherable Fail Message",
+      "old_value": "=subject.Konjde:scheitern= etwas Nützliches von =object.dativ= =subject.formatDirection:ifAny#direction= zu =verb=.",
+      "new_value": "=subject.The.name= =subject.konjde:scheitern= etwas Nützliches von =object.dativ= =subject.formatDirection:ifAny#direction= zu =verb=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8a4bccfe5d2fecc9",
+      "file": "Strings.de.xml",
+      "key": "CampfireRemains AttemptLight AnnounceSuccess|=subject.Does:light= =object.the.name=.",
+      "context": "CampfireRemains AttemptLight AnnounceSuccess",
+      "old_value": "=subject.Konjde:entzünden= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:entzünden= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c02ae92d96b72e21",
+      "file": "Strings.de.xml",
+      "key": "DataDisk You tinker up...|=subject.Does:tinker= up =number.a.or.cardinal.names#object=!",
+      "context": "DataDisk You tinker up...",
+      "old_value": "=subject.Konjde:basteln= =number.a.or.cardinal.names#object= zusammen!",
+      "new_value": "=subject.The.name= =subject.konjde:basteln= =number.a.or.cardinal.names#object= zusammen!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "46e2b61cb91096a9",
+      "file": "Strings.de.xml",
+      "key": "DecoyHologramEmitter Starting Up|=subject.Does:are= still starting up.",
+      "context": "DecoyHologramEmitter Starting Up",
+      "old_value": "=subject.Konjde:sein= fährt immer noch hoch.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= fährt immer noch hoch.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d06ba33075056865",
+      "file": "Strings.de.xml",
+      "key": "DecoyHologramEmitter Not Enough Charge|=subject.Does:do= not have enough charge to sustain the hologram.",
+      "context": "DecoyHologramEmitter Not Enough Charge",
+      "old_value": "=subject.Konjde:tun= nicht genug Ladung um das Hologramm aufrechtzuerhalten.",
+      "new_value": "=subject.The.name= =subject.konjde:tun= nicht genug Ladung um das Hologramm aufrechtzuerhalten.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ac3ed904721098e",
+      "file": "Strings.de.xml",
+      "key": "DecoyHologramEmitter Unresponsive|=subject.Does:are= unresponsive.",
+      "context": "DecoyHologramEmitter Unresponsive",
+      "old_value": "=subject.Konjde:sein= nicht reaktionsfähig.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= nicht reaktionsfähig.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a29471756fcdc755",
+      "file": "Strings.de.xml",
+      "key": "Engraver Status Not Operational|=subject.Does:are= =engraver.statusSummary=.",
+      "context": "Engraver Status Not Operational",
+      "old_value": "=subject.Konjde:sein= =engraver.statusSummary=.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= =engraver.statusSummary=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "dad67f6fdd2a43d6",
+      "file": "Strings.de.xml",
+      "key": "FactionDeed Owner Confirm|=object.Does:are= not owned by you, and using =object.them= will consume =object.them=. Are you sure you want to do so?",
+      "context": "FactionDeed Owner Confirm",
+      "old_value": "=object.Konjde:sein= gehört nicht Euch, und =object.them= zu verwenden, wird =object.them= verbrauchen. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "=object.The.name= =object.konjde:sein= gehört nicht Euch, und =object.them= zu verwenden, wird =object.them= verbrauchen. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "465ce5e983c9728a",
+      "file": "Strings.de.xml",
+      "key": "FactionDeed Owner Confirm From Container|=container.Does:are= not owned by you, and using =object.the.name= will consume =object.them=. Are you sure you want to do so?",
+      "context": "FactionDeed Owner Confirm From Container",
+      "old_value": "=container.Konjde:sein= gehört nicht Euch, und =object.the.name= zu verwenden, wird =object.them= verbrauchen. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "=container.The.name= =container.konjde:sein= gehört nicht Euch, und =object.the.name= zu verwenden, wird =object.them= verbrauchen. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2691f78e3ff55c18",
+      "file": "Strings.de.xml",
+      "key": "FactionDeed Temporary message|=object.Does:seem= to be behaving as nothing more than an ordinary piece of paper.",
+      "context": "FactionDeed Temporary message",
+      "old_value": "=object.Konjde:scheinen= sich wie nichts mehr als ein gewöhnliches Stück Papier zu verhalten.",
+      "new_value": "=object.The.name= =object.konjde:scheinen= sich wie nichts mehr als ein gewöhnliches Stück Papier zu verhalten.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "edb9e0f41f89d95a",
+      "file": "Strings.de.xml",
+      "key": "FeelingOnTarget FireEvent CreatureMollified|=subject.Does:decide= =subject.it= =subject.verb:aren't:afterpronoun= angry at =object.the.name=.",
+      "context": "FeelingOnTarget FireEvent CreatureMollified",
+      "old_value": "=subject.Konjde:entscheiden= =subject.it= =subject.verb:aren't:afterpronoun= böse auf =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:entscheiden= =subject.it= =subject.verb:aren't:afterpronoun= böse auf =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "bd96ca2f0dfe2417",
+      "file": "Strings.de.xml",
+      "key": "ForceEmitter Deactivate Suspended|=subject.Does:vibrate= slightly.",
+      "context": "ForceEmitter Deactivate Suspended",
+      "old_value": "=subject.Konjde:vibrieren= leicht.",
+      "new_value": "=subject.The.name= =subject.konjde:vibrieren= leicht.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9bd79a1df3936a7b",
+      "file": "Strings.de.xml",
+      "key": "GeomagneticDisc DoThrow PassThrough|=subject.Does:pass= through =object.the.name=!",
+      "context": "GeomagneticDisc DoThrow PassThrough",
+      "old_value": "=subject.Konjde:passieren= durch =object.the.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:passieren= durch =object.the.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ecffd37568037f95",
+      "file": "Strings.de.xml",
+      "key": "GeomagneticDisc DoThrow Flinch|=subject.Does:flinch= out of the way of =object.the.name=!",
+      "context": "GeomagneticDisc DoThrow Flinch",
+      "old_value": "=subject.Konjde:zucken= aus dem Weg von =object.dativ=!",
+      "new_value": "=subject.The.name= =subject.konjde:zucken= aus dem Weg von =object.dativ=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "43e3a3d8d798ea0b",
+      "file": "Strings.de.xml",
+      "key": "Hookah Fail NoWater|=subject.Does:need= water in =subject.them=.",
+      "context": "Hookah Fail NoWater",
+      "old_value": "=subject.Konjde:brauchen= Wasser in =subject.them=.",
+      "new_value": "=subject.The.name= =subject.konjde:brauchen= Wasser in =subject.them=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "371246cef9709fa9",
+      "file": "Strings.de.xml",
+      "key": "Hookah Puffs|=subject.Does:take= a puff on =object.the.name=.",
+      "context": "Hookah Puffs",
+      "old_value": "=subject.Konjde:nehmen= einen Zug an =object.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:nehmen= einen Zug an =object.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec1b214db19dd018",
+      "file": "Strings.de.xml",
+      "key": "LeakWhenBroken AnnounceLeakAmount|=subject.Does:leak= =volume.drams.of.liquid:noRules=.",
+      "context": "LeakWhenBroken AnnounceLeakAmount",
+      "old_value": "=subject.Konjde:sickern= =volume.drams.of.liquid:noRules=.",
+      "new_value": "=subject.The.name= =subject.konjde:sickern= =volume.drams.of.liquid:noRules=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "782693ab83d5718e",
+      "file": "Strings.de.xml",
+      "key": "MapReveal NotOwned Warning|=subject.Does:are= not owned by you, and using =subject.them= will consume =subject.them=. Are you sure you want to do so?",
+      "context": "MapReveal NotOwned Warning",
+      "old_value": "=subject.Konjde:sein= nicht von dir besessen, und die Benutzung von =subject.them= wird =subject.them= verbrauchen. Bist du sicher, dass du das tun willst?",
+      "new_value": "=subject.The.name= =subject.konjde:sein= nicht von dir besessen, und die Benutzung von =subject.them= wird =subject.them= verbrauchen. Bist du sicher, dass du das tun willst?",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8404baaf0a3113b4",
+      "file": "Strings.de.xml",
+      "key": "MapReveal NotOwned InInventory Warning|=subject.Does:are= not owned by you, and using =object.the.name= will consume =object.them=. Are you sure you want to do so?",
+      "context": "MapReveal NotOwned InInventory Warning",
+      "old_value": "=subject.Konjde:sein= nicht euer Eigentum, und das Verwenden von =object.dativ= wird =object.them= verbrauchen. Seid ihr sicher?",
+      "new_value": "=subject.The.name= =subject.konjde:sein= nicht euer Eigentum, und das Verwenden von =object.dativ= wird =object.them= verbrauchen. Seid ihr sicher?",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6ca76c42346cac46",
+      "file": "Strings.de.xml",
+      "key": "MapReveal Ordinary|=subject.Does:seem= to be behaving as nothing more than an ordinary piece of paper.",
+      "context": "MapReveal Ordinary",
+      "old_value": "=subject.Konjde:scheinen= sich wie nichts anderes als ein gewöhnliches Stück Papier zu verhalten.",
+      "new_value": "=subject.The.name= =subject.konjde:scheinen= sich wie nichts anderes als ein gewöhnliches Stück Papier zu verhalten.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "0fdc3b3005a8a6ac",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:dissipate=.",
+      "context": "",
+      "old_value": "=subject.Konjde:verfliegen=.",
+      "new_value": "=subject.The.name= =subject.konjde:verfliegen=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "61cdbd10ab1e37e7",
+      "file": "Strings.de.xml",
+      "key": "PetPhylactery Despawn Announce|=subject.Does:disappear= =subject.to.the.direction=.",
+      "context": "PetPhylactery Despawn Announce",
+      "old_value": "=subject.Konjde:verschwinden= =subject.to.the.direction=.",
+      "new_value": "=subject.The.name= =subject.konjde:verschwinden= =subject.to.the.direction=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "51e3ba3d270a7b88",
+      "file": "Strings.de.xml",
+      "key": "PetPhylactery Spawn Activate|=subject.Does:activate= =object.the.name=.",
+      "context": "PetPhylactery Spawn Activate",
+      "old_value": "=subject.Konjde:aktivieren= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:aktivieren= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7310e6a93d25e6b",
+      "file": "Strings.de.xml",
+      "key": "PetPhylactery Spawn Appear|=subject.Does:appear=.",
+      "context": "PetPhylactery Spawn Appear",
+      "old_value": "=subject.Konjde:erscheinen=.",
+      "new_value": "=subject.The.name= =subject.konjde:erscheinen=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f8acebb222327f1b",
+      "file": "Strings.de.xml",
+      "key": "PoweredFloating FailureMessage|=subject.Does:do= not seem to be able to float at this time.",
+      "context": "PoweredFloating FailureMessage",
+      "old_value": "=subject.Konjde:tun= scheint momentan nicht schweben zu können.",
+      "new_value": "=subject.The.name= =subject.konjde:tun= scheint momentan nicht schweben zu können.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "0f5cbb5518fbe13e",
+      "file": "Strings.de.xml",
+      "key": "PoweredFloating CheckFloating Cease Announce|=subject.Does:cease= floating near you.",
+      "context": "PoweredFloating CheckFloating Cease Announce",
+      "old_value": "=subject.Konjde:enden= schwebt nicht mehr in der Nähe.",
+      "new_value": "=subject.The.name= =subject.konjde:enden= schwebt nicht mehr in der Nähe.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7c614fcf4b6c110f",
+      "file": "Strings.de.xml",
+      "key": "PoweredFloating CheckFloating FallScoop Announce|=subject.Does:fall= to the ground; you scoop =subject.them= up.",
+      "context": "PoweredFloating CheckFloating FallScoop Announce",
+      "old_value": "=subject.Konjde:fallen= zu Boden; du schaufelst =subject.them= auf.",
+      "new_value": "=subject.The.name= =subject.konjde:fallen= zu Boden; du schaufelst =subject.them= auf.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "695342c62bda4606",
+      "file": "Strings.de.xml",
+      "key": "PoweredFloating CheckFloating Fall Announce|=subject.Does:fall= to the ground.",
+      "context": "PoweredFloating CheckFloating Fall Announce",
+      "old_value": "=subject.Konjde:fallen= zu Boden.",
+      "new_value": "=subject.The.name= =subject.konjde:fallen= zu Boden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c85e2546e0fb89f7",
+      "file": "Strings.de.xml",
+      "key": "QuickenMind Booting Fail|=subject.Does:are= still attuning.",
+      "context": "QuickenMind Booting Fail",
+      "old_value": "=subject.Konjde:sein= stimmt sich immer noch ab.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= stimmt sich immer noch ab.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7f7017a383acb44",
+      "file": "Strings.de.xml",
+      "key": "QuickenMind Not Operational Fail|=subject.Does:are= dead still.",
+      "context": "QuickenMind Not Operational Fail",
+      "old_value": "=subject.Konjde:sein= völlig regungslos.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= völlig regungslos.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "097e21de2c2e1001",
+      "file": "Strings.de.xml",
+      "key": "ReflectProjectiles Check activates|=subject.Does:activate= =subject.its= reflective shield.",
+      "context": "ReflectProjectiles Check activates",
+      "old_value": "=subject.Konjde:aktivieren= =subject.its:akk:m= reflektierenden Schild.",
+      "new_value": "=subject.The.name= =subject.konjde:aktivieren= =subject.its:akk:m= reflektierenden Schild.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf532c771de734e3",
+      "file": "Strings.de.xml",
+      "key": "ReflectProjectiles Check deactivated|=subject.Does:have= =subject.its= reflective shield deactivated.",
+      "context": "ReflectProjectiles Check deactivated",
+      "old_value": "=subject.Konjde:haben= =subject.its:akk:m= reflektierenden Schild deaktiviert.",
+      "new_value": "=subject.The.name= =subject.konjde:haben= =subject.its:akk:m= reflektierenden Schild deaktiviert.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0850fcd983edc8d",
+      "file": "Strings.de.xml",
+      "key": "RestoreOnDeath OtherRestored|=subject.Does:shimmer= before your eyes!",
+      "context": "RestoreOnDeath OtherRestored",
+      "old_value": "=subject.Konjde:schimmern= vor Euren Augen!",
+      "new_value": "=subject.The.name= =subject.konjde:schimmern= vor Euren Augen!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ce1a993ff7e66af5",
+      "file": "Strings.de.xml",
+      "key": "RocketSkates EmitFlamePlume|=subject.Does:emit= a {{fiery|plume of flame}}!",
+      "context": "RocketSkates EmitFlamePlume",
+      "old_value": "=subject.Konjde:verströmen= eine {{fiery|Flammensäule}}!",
+      "new_value": "=subject.The.name= =subject.konjde:verströmen= eine {{fiery|Flammensäule}}!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "01b938c549a8c0d4",
+      "file": "Strings.de.xml",
+      "key": "SpiralIronPart PressSpiralIron|=subject.Does:hiss=.",
+      "context": "SpiralIronPart PressSpiralIron",
+      "old_value": "=subject.Konjde:zischen=.",
+      "new_value": "=subject.The.name= =subject.konjde:zischen=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e2c0d231cedcbedd",
+      "file": "Strings.de.xml",
+      "key": "Stopsvaalinn Suspended Message|=subject.Does:vibrate= slightly.",
+      "context": "Stopsvaalinn Suspended Message",
+      "old_value": "=subject.Konjde:vibrieren= leicht.",
+      "new_value": "=subject.The.name= =subject.konjde:vibrieren= leicht.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d395e571ccd056c",
+      "file": "Strings.de.xml",
+      "key": "StrideMason (Step Sowers) Extrude|=subject.Does:extrude= =object.a.name=!",
+      "context": "StrideMason (Step Sowers) Extrude",
+      "old_value": "=subject.Konjde:extrudieren= =object.a.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:extrudieren= =object.a.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c13f126e0ab06ff7",
+      "file": "Strings.de.xml",
+      "key": "SwapOnHit AnnounceSwapMessage|=subject.Does:swap= positions with =object.the.name=.",
+      "context": "SwapOnHit AnnounceSwapMessage",
+      "old_value": "=subject.Konjde:tauschen= Positionen mit =object.dativ= aus.",
+      "new_value": "=subject.The.name= =subject.konjde:tauschen= Positionen mit =object.dativ= aus.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c51f84f9c3ac17b4",
+      "file": "Strings.de.xml",
+      "key": "TattooGun Out Of Liquid|=subject.Does:are= out of =liquid.name|colorSafe=.",
+      "context": "TattooGun Out Of Liquid",
+      "old_value": "=subject.Konjde:sein= leer an =liquid.name|colorSafe=.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= leer an =liquid.name|colorSafe=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "81898b6de98d0b8a",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector Activate CoolingDown|=subject.Does:are= still cooling down.",
+      "context": "Teleprojector Activate CoolingDown",
+      "old_value": "=subject.Konjde:sein= kühlen noch ab.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= kühlen noch ab.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c1faf5e7d5fd1db",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector Activate CannotApplyRoboDomination|=subject.Does:do= not have a digital mind you can make electronic contact with.",
+      "context": "Teleprojector Activate CannotApplyRoboDomination",
+      "old_value": "=subject.Konjde:tun= keinen digitalen Verstand haben, mit dem Ihr elektronischen Kontakt aufnehmen könnt.",
+      "new_value": "=subject.The.name= =subject.konjde:tun= keinen digitalen Verstand haben, mit dem Ihr elektronischen Kontakt aufnehmen könnt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc43d560c7a1f770",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector RoboDom Resisted|=subject.Does:resist= =object.the.name's= domination!",
+      "context": "Teleprojector RoboDom Resisted",
+      "old_value": "=subject.Konjde:widerstehen= =object.the.name's= Herrschaft!",
+      "new_value": "=subject.The.name= =subject.konjde:widerstehen= =object.the.name's= Herrschaft!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8004c5e1b20b956c",
+      "file": "Strings.de.xml",
+      "key": "TemplarPhylactery InventoryAction NotReadyFail|=subject.Does:are= unresponsive.",
+      "context": "TemplarPhylactery InventoryAction NotReadyFail",
+      "old_value": "=subject.Konjde:sein= nicht reaktionsfähig.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= nicht reaktionsfähig.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "aa90733486bad019",
+      "file": "Strings.de.xml",
+      "key": "Templar Phylactery Despawn|=subject.Does:disappear=.",
+      "context": "Templar Phylactery Despawn",
+      "old_value": "=subject.Konjde:verschwinden=.",
+      "new_value": "=subject.The.name= =subject.konjde:verschwinden=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d0209d9498fb398",
+      "file": "Strings.de.xml",
+      "key": "TemplarPhylactery Spawn Activates|=subject.Does:activate= =object.the.name=.",
+      "context": "TemplarPhylactery Spawn Activates",
+      "old_value": "=subject.Konjde:aktivieren= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:aktivieren= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2f5e4206bb7cb969",
+      "file": "Strings.de.xml",
+      "key": "TemplarPhylactery Spawn Appears|=subject.Does:appear=.",
+      "context": "TemplarPhylactery Spawn Appears",
+      "old_value": "=subject.Konjde:erscheinen=.",
+      "new_value": "=subject.The.name= =subject.konjde:erscheinen=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e317f7e9d6e510a1",
+      "file": "Strings.de.xml",
+      "key": "Thurible SmokeThurible Announce|=subject.Does:incense= =object.the.name=.",
+      "context": "Thurible SmokeThurible Announce",
+      "old_value": "=subject.Konjde:erzürnen= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:erzürnen= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d3ea35ff4ecd75ed",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:swim= through =object.a.name=.",
+      "context": "",
+      "old_value": "=subject.Konjde:schwimmen= durch =object.a.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:schwimmen= durch =object.a.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b718e55948261c8b",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:wade= through =object.a.name=.",
+      "context": "",
+      "old_value": "=subject.Konjde:waten= durch =object.a.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:waten= durch =object.a.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e54f4553f99b1271",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - has no drain error|=object.Does:have= no drain.",
+      "context": "Liquid Volume - has no drain error",
+      "old_value": "=object.Konjde:haben= keinen Abfluss.",
+      "new_value": "=object.The.name= =object.konjde:haben= keinen Abfluss.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a7f7219270943939",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - sealed error|=object.Does:are= sealed.",
+      "context": "Liquid Volume - sealed error",
+      "old_value": "=object.Konjde:sein= versiegelt.",
+      "new_value": "=object.The.name= =object.konjde:sein= versiegelt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "92c2c1ea95d826d3",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - empty error|=object.Does:are= empty.",
+      "context": "Liquid Volume - empty error",
+      "old_value": "=object.Konjde:sein= leer.",
+      "new_value": "=object.The.name= =object.konjde:sein= leer.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "98c40c4294a20f68",
+      "file": "Strings.de.xml",
+      "key": "LiquidVolume Collect|=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir==containers.ifAny: in ==containers.properAndList=.",
+      "context": "LiquidVolume Collect",
+      "old_value": "=subject.Konjde:sammeln= =transfer.things:dram= von =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir==containers.ifAny: in ==containers.properAndList=.",
+      "new_value": "=subject.The.name= =subject.konjde:sammeln= =transfer.things:dram= von =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir==containers.ifAny: in ==containers.properAndList=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "579693104bc64d0e",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - seal message|=subject.Does:seal= =object.the.name=.",
+      "context": "Liquid Volume - seal message",
+      "old_value": "=subject.Konjde:versiegeln= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:versiegeln= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d8e56e2181e2aa21",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - unseal message|=subject.Does:unseal= =object.the.name=.",
+      "context": "Liquid Volume - unseal message",
+      "old_value": "=subject.Konjde:entsiegeln= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:entsiegeln= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6e0f1d03dac23c9c",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - clean message (with volume)|=subject.Does:clean= the =messTerms.andList= from =items.andList= with a dram of =volume.liquid.name= =subject.from.container.direction#volume=.",
+      "context": "Liquid Volume - clean message (with volume)",
+      "old_value": "=subject.Konjde:reinigen= die =messTerms.andList= von =items.andList= mit einem Dram =volume.liquid.name= =subject.from.container.direction#volume=.",
+      "new_value": "=subject.The.name= =subject.konjde:reinigen= die =messTerms.andList= von =items.andList= mit einem Dram =volume.liquid.name= =subject.from.container.direction#volume=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c601a2391156ae8",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - clean message (with object)|=subject.Does:clean= the =messTerms.andList= from =items.andList= with =object.a.name:asPossessed:secondPerson=.",
+      "context": "Liquid Volume - clean message (with object)",
+      "old_value": "=subject.Konjde:reinigen= die =messTerms.andList= von =items.andList= mit =object.dativ:asPossessed:secondPerson=.",
+      "new_value": "=subject.The.name= =subject.konjde:reinigen= die =messTerms.andList= von =items.andList= mit =object.dativ:asPossessed:secondPerson=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "61b0ea1ed7620305",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - clean message no known source|=subject.Does:clean= the =messTerms.andList= from =items.andList=.",
+      "context": "Liquid Volume - clean message no known source",
+      "old_value": "=subject.Konjde:reinigen= die =messTerms.andList= von =items.andList=.",
+      "new_value": "=subject.The.name= =subject.konjde:reinigen= die =messTerms.andList= von =items.andList=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1621dacd3dc5e545",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - poured out message|=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out.",
+      "context": "Liquid Volume - poured out message",
+      "old_value": "=subject.Konjde:strömen= =amount.things:dram= von =volume.liquid.name= aus.",
+      "new_value": "=subject.The.name= =subject.konjde:strömen= =amount.things:dram= von =volume.liquid.name= aus.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b79965264835599",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging NotBleeding|=object.Does:are= not bleeding.",
+      "context": "BandageMedication PerformBandaging NotBleeding",
+      "old_value": "=object.Konjde:sein= blutet nicht.",
+      "new_value": "=object.The.name= =object.konjde:sein= blutet nicht.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f65bad1ceab4cf17",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging MessageAsBandage OutofPhase|=subject.Does:try= to bandage =object.the.name's= wounds, but =item.it.does:pass= through =object.them=.",
+      "context": "BandageMedication PerformBandaging MessageAsBandage OutofPhase",
+      "old_value": "=subject.Konjde:versuchen= =object.the.name's= Wunden zu verbinden, aber =item.it.konjde:passieren= durch =object.them= hindurch.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen= =object.the.name's= Wunden zu verbinden, aber =item.it.konjde:passieren= durch =object.them= hindurch.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f2c5e5a88fd3b8e9",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging MessageAsBandage InStasis|=subject.Does:try= to bandage =object.the.name's= wounds, but cannot affect =object.them=.",
+      "context": "BandageMedication PerformBandaging MessageAsBandage InStasis",
+      "old_value": "=subject.Konjde:versuchen= =object.the.name's= Wunden zu verbinden, aber kann =object.them= nicht beeinflussen.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen= =object.the.name's= Wunden zu verbinden, aber kann =object.them= nicht beeinflussen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8ba83cdd2d9c71b5",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging MessageAsBandage Standard|=subject.Does:bandage= =object.the.name's= wounds",
+      "context": "BandageMedication PerformBandaging MessageAsBandage Standard",
+      "old_value": "=subject.Konjde:verbinden= =object.the.name's= Wunden",
+      "new_value": "=subject.The.name= =subject.konjde:verbinden= =object.the.name's= Wunden",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "456fd4eb0b3cd839",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging Staunch OutofPhase|=subject.Does:try= to staunch =object.the.name's= wounds with =item.a.name=, but =item.it.does:pass= through =object.them=.",
+      "context": "BandageMedication PerformBandaging Staunch OutofPhase",
+      "old_value": "=subject.Konjde:versuchen= =object.the.name's= Wunden mit =item.a.dativ= zu stillen, aber =item.it.konjde:passieren= durch =object.them= hindurch.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen= =object.the.name's= Wunden mit =item.a.dativ= zu stillen, aber =item.it.konjde:passieren= durch =object.them= hindurch.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "86057ab12b90503c",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging StaunchInStasis|=subject.Does:try= to staunch =object.the.name's= wounds with =item.a.name=, but cannot affect =object.them=.",
+      "context": "BandageMedication PerformBandaging StaunchInStasis",
+      "old_value": "=subject.Konjde:versuchen= =object.the.name's= Wunden mit =item.a.dativ= zu stillen, aber kann =object.them= nicht beeinflussen.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen= =object.the.name's= Wunden mit =item.a.dativ= zu stillen, aber kann =object.them= nicht beeinflussen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2a5f8bf678716d6f",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging Staunch Standard|=subject.Does:staunch= =object.the.name's= wounds with =item.a.name=.",
+      "context": "BandageMedication PerformBandaging Staunch Standard",
+      "old_value": "=subject.Konjde:stillen= =object.the.name's= Wunden mit =item.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:stillen= =object.the.name's= Wunden mit =item.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a1007ba5a630c081",
+      "file": "Strings.de.xml",
+      "key": "CrumblesOnHit Message Log|=subject.Does:crumble= to dust!",
+      "context": "CrumblesOnHit Message Log",
+      "old_value": "=subject.Konjde:zerbröckeln= zu Staub!",
+      "new_value": "=subject.The.name= =subject.konjde:zerbröckeln= zu Staub!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "96f2e7ba53c73646",
+      "file": "Strings.de.xml",
+      "key": "BioAmmoLoader ExhaustedMessage|=subject.Does:are= exhausted!",
+      "context": "BioAmmoLoader ExhaustedMessage",
+      "old_value": "=subject.Konjde:sein= erschöpft!",
+      "new_value": "=subject.The.name= =subject.konjde:sein= erschöpft!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e722f4292aad400a",
+      "file": "Strings.de.xml",
+      "key": "BioAmmoLoader Reload AlreadyFull|=subject.Does:are= already full.",
+      "context": "BioAmmoLoader Reload AlreadyFull",
+      "old_value": "=subject.Konjde:sein= bereits voll.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= bereits voll.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a81a807e3c1cbc8c",
+      "file": "Strings.de.xml",
+      "key": "BioammoLoader SupplyIntegratedHostWithAmmo NoRoom|=subject.Does:have= no room for more =liquid.name=.",
+      "context": "BioammoLoader SupplyIntegratedHostWithAmmo NoRoom",
+      "old_value": "=subject.Konjde:haben= keinen Platz für mehr =liquid.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:haben= keinen Platz für mehr =liquid.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "374a0abbee4b7a13",
+      "file": "Strings.de.xml",
+      "key": "BioammoLoader SupplyIntegratedHostWithAmmo SuccessfulTransfer|=subject.Does:transfer= =liquid.cardinal.drams.of.liquid#amount= to =object.a.name=.",
+      "context": "BioammoLoader SupplyIntegratedHostWithAmmo SuccessfulTransfer",
+      "old_value": "=subject.Konjde:übertragen= =liquid.cardinal.drams.of.liquid#amount= zu =object.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =liquid.cardinal.drams.of.liquid#amount= zu =object.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "50a8795d33a1f61b",
+      "file": "Strings.de.xml",
+      "key": "CooldownAmmoLoader GetCoolingdownMessage NoReadout|=subject.Does:are= unresponsive as =subject.does:cool= down.",
+      "context": "CooldownAmmoLoader GetCoolingdownMessage NoReadout",
+      "old_value": "=subject.Konjde:sein= unresponsiv, während =subject.konjde:kühlen= abkühlt.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= unresponsiv, während =subject.konjde:kühlen= abkühlt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a7d8c98825b0aa9",
+      "file": "Strings.de.xml",
+      "key": "ElectricalDischargeLoader GetStatusMessage|=subject.Does:are= =statusphrase=.",
+      "context": "ElectricalDischargeLoader GetStatusMessage",
+      "old_value": "=subject.Konjde:sein= =statusphrase=.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= =statusphrase=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "78da08ee49b39d5d",
+      "file": "Strings.de.xml",
+      "key": "ElectricalDischargeLoader FireEvent TransferCellSuccess|=subject.Does:transfer= =object.a.name= to =host.a.name=.",
+      "context": "ElectricalDischargeLoader FireEvent TransferCellSuccess",
+      "old_value": "=subject.Konjde:übertragen= =object.a.name= zu =host.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =object.a.name= zu =host.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "31f8468aab96e7c7",
+      "file": "Strings.de.xml",
+      "key": "ElectricalDischargeLoader AmmoMagazineTransfer Announce|=subject.Does:transfer= =object.a.name= to =host.a.name=.",
+      "context": "ElectricalDischargeLoader AmmoMagazineTransfer Announce",
+      "old_value": "=subject.Konjde:übertragen= =object.a.name= zu =host.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =object.a.name= zu =host.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "40b0bb349c4dd3fe",
+      "file": "Strings.de.xml",
+      "key": "EnergyAmmoLoader GetStatusMessage|=subject.Does:are= =statusphrase=.",
+      "context": "EnergyAmmoLoader GetStatusMessage",
+      "old_value": "=subject.Konjde:sein= =statusphrase=.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= =statusphrase=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb80414c5eef496d",
+      "file": "Strings.de.xml",
+      "key": "EnergyAmmoLoader FireEvent TransferCellSuccess|=subject.Does:transfer= =object.a.name= to =host.a.name=.",
+      "context": "EnergyAmmoLoader FireEvent TransferCellSuccess",
+      "old_value": "=subject.Konjde:übertragen= =object.a.name= zu =host.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =object.a.name= zu =host.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f12a26e1fea814f1",
+      "file": "Strings.de.xml",
+      "key": "EnergyAmmoLoader AmmoMagazineTransfer Announce|=subject.Does:transfer= =object.a.name= to =host.a.name=.",
+      "context": "EnergyAmmoLoader AmmoMagazineTransfer Announce",
+      "old_value": "=subject.Konjde:übertragen= =object.a.name= zu =host.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =object.a.name= zu =host.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "289fa2aabf927f20",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader Reload AlreadyFull|=subject.Does:are= already full of =volume.name=.",
+      "context": "LiquidAmmoLoader Reload AlreadyFull",
+      "old_value": "=subject.Konjde:sein= bereits voll mit =volume.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= bereits voll mit =volume.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3a983dfd2ed6cd0c",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader Status Empty|=subject.Does:are= empty.",
+      "context": "LiquidAmmoLoader Status Empty",
+      "old_value": "=subject.Konjde:sein= leer.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= leer.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c9769e97cca2185c",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader Status WrongLiquid|=subject.Does:are= not loaded with the correct liquid.",
+      "context": "LiquidAmmoLoader Status WrongLiquid",
+      "old_value": "=subject.Konjde:sein= ist nicht mit der richtigen Flüssigkeit geladen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= ist nicht mit der richtigen Flüssigkeit geladen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "5d6af367ab88420c",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader Status Phrase|=subject.Does:are= =status=.",
+      "context": "LiquidAmmoLoader Status Phrase",
+      "old_value": "=subject.Konjde:sein= =status=.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= =status=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7c4a79bdc13337fb",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader FireEvent TransferSuccess|=subject.Does:transfer= =liquid.cardinal.drams.of.liquid#amount= to =object.a.name=.",
+      "context": "LiquidAmmoLoader FireEvent TransferSuccess",
+      "old_value": "=subject.Konjde:übertragen= =liquid.cardinal.drams.of.liquid#amount= zu =object.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =liquid.cardinal.drams.of.liquid#amount= zu =object.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "873e9e4ba7ca6492",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader CheckLoadAmmoEvent NoMoreAmmo|=subject.Does:have= no more ammo!",
+      "context": "MagazineAmmoLoader CheckLoadAmmoEvent NoMoreAmmo",
+      "old_value": "=subject.Konjde:haben= keine Munition mehr!",
+      "new_value": "=subject.The.name= =subject.konjde:haben= keine Munition mehr!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1d166a7896e67ef8",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader CheckLoadAmmoEvent Jammed|=subject.Does:are= jammed!",
+      "context": "MagazineAmmoLoader CheckLoadAmmoEvent Jammed",
+      "old_value": "=subject.Konjde:sein= verkeilt!",
+      "new_value": "=subject.The.name= =subject.konjde:sein= verkeilt!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "521f415409645fc0",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader LoadAmmoEvent NoMoreAmmo|=subject.Does:have= no more ammo!",
+      "context": "MagazineAmmoLoader LoadAmmoEvent NoMoreAmmo",
+      "old_value": "=subject.Konjde:haben= keine Munition mehr!",
+      "new_value": "=subject.The.name= =subject.konjde:haben= keine Munition mehr!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2a645bd574540131",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader LoadAmmoEvent Jammed|=subject.Does:are= jammed!",
+      "context": "MagazineAmmoLoader LoadAmmoEvent Jammed",
+      "old_value": "=subject.Konjde:sein= verkeilt!",
+      "new_value": "=subject.The.name= =subject.konjde:sein= verkeilt!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ab2e81d356dce83b",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader ReloadEvent AlreadyFull|=subject.Does:are= already fully loaded.",
+      "context": "MagazineAmmoLoader ReloadEvent AlreadyFull",
+      "old_value": "=subject.Konjde:sein= ist bereits vollständig geladen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= ist bereits vollständig geladen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d5665355dc413bf",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader FireEvent SupplyAmmoSuccess ProperName|=subject.Does:transfer= =object.name= to =host.a.name=.",
+      "context": "MagazineAmmoLoader FireEvent SupplyAmmoSuccess ProperName",
+      "old_value": "=subject.Konjde:übertragen= =object.name= zu =host.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =object.name= zu =host.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "25695634c9f67d90",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader FireEvent SupplyAmmoSuccess|=subject.Does:transfer= =amount.a.or.cardinal.names#object= to =host.a.name=.",
+      "context": "MagazineAmmoLoader FireEvent SupplyAmmoSuccess",
+      "old_value": "=subject.Konjde:übertragen= =amount.a.or.cardinal.names#object= zu =host.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =amount.a.or.cardinal.names#object= zu =host.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8776a8e623a6dec0",
+      "file": "Strings.de.xml",
+      "key": "BlastOnHit Message Log|=subject.Does:explode=!",
+      "context": "BlastOnHit Message Log",
+      "old_value": "=subject.Konjde:explodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "216afad5e47fb422",
+      "file": "Strings.de.xml",
+      "key": "ExplodeAfterTurns Message Log|=subject.Does:explode=!",
+      "context": "ExplodeAfterTurns Message Log",
+      "old_value": "=subject.Konjde:explodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "49fda0e04a148c89",
+      "file": "Strings.de.xml",
+      "key": "ExplodeOnHit Message Log|=subject.Does:explode=!",
+      "context": "ExplodeOnHit Message Log",
+      "old_value": "=subject.Konjde:explodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6035f4b8294e702d",
+      "file": "Strings.de.xml",
+      "key": "ShatterOnHit Message Log|=subject.Does:shatter=.",
+      "context": "ShatterOnHit Message Log",
+      "old_value": "=subject.Konjde:zerspringen=.",
+      "new_value": "=subject.The.name= =subject.konjde:zerspringen=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "470eb2699205a925",
+      "file": "Strings.de.xml",
+      "key": "StickyOnHit Message Log|=subject.Does:get= entangled in =object.the.name=!",
+      "context": "StickyOnHit Message Log",
+      "old_value": "=subject.Konjde:bekommen= verwickelt in =object.the.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:bekommen= verwickelt in =object.the.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3499cd3c6735545e",
+      "file": "Strings.de.xml",
+      "key": "HookOnMissileHit DraggedToward|=subject.Does:are= dragged toward =object.the.name=.",
+      "context": "HookOnMissileHit DraggedToward",
+      "old_value": "=subject.Konjde:sein= zu =object.dativ= gezogen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= zu =object.dativ= gezogen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8f85b6166b560199",
+      "file": "Strings.de.xml",
+      "key": "ModDisplacer Examine Failure|=subject.Does:bump= into =object.the.name=.",
+      "context": "ModDisplacer Examine Failure",
+      "old_value": "=subject.Konjde:rempeln= in =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:rempeln= in =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b0df55845fd0a2ff",
+      "file": "Strings.de.xml",
+      "key": "ModGlassArmor Reflect|=subject.Does:reflect= =amount= damage back at =object.the.name=.",
+      "context": "ModGlassArmor Reflect",
+      "old_value": "=subject.Konjde:reflektieren= =amount= Schaden auf =object.the.name= zurück.",
+      "new_value": "=subject.The.name= =subject.konjde:reflektieren= =amount= Schaden auf =object.the.name= zurück.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ee0fdc2d8bafa47a",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled Already Full|=subject.Does:are= already full of =volume.liquid.name=.",
+      "context": "ModLiquidCooled Already Full",
+      "old_value": "=subject.Konjde:sein= bereits voll mit =volume.liquid.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= bereits voll mit =volume.liquid.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b66db1d92d6bd62",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled Host Full|=host.Does:have= no room for more =liquid.name|strip=.",
+      "context": "ModLiquidCooled Host Full",
+      "old_value": "=host.Konjde:haben= keinen Platz für mehr =liquid.name|strip=.",
+      "new_value": "=host.The.name= =host.konjde:haben= keinen Platz für mehr =liquid.name|strip=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "43ea75fa007a2e4b",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled Transfer Message|=owner.Does:transfer= =amount.things:dram= of =liquid.name|strip= to =host.aForNPCSubject.name#owner=.",
+      "context": "ModLiquidCooled Transfer Message",
+      "old_value": "=owner.Konjde:übertragen= =amount.things:dram= von =liquid.name|strip= zu =host.aForNPCSubject.name#owner=.",
+      "new_value": "=owner.The.name= =owner.konjde:übertragen= =amount.things:dram= von =liquid.name|strip= zu =host.aForNPCSubject.name#owner=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f695c59d8be73ef8",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled Status Message Input Missing|=subject.Does:emit= a grinding noise.",
+      "context": "ModLiquidCooled Status Message Input Missing",
+      "old_value": "=subject.Konjde:verströmen= ein Schleifgeräusch.",
+      "new_value": "=subject.The.name= =subject.konjde:verströmen= ein Schleifgeräusch.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "43cbcd331821467e",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled Status Message|=subject.Does:are= =statusPhrase=.",
+      "context": "ModLiquidCooled Status Message",
+      "old_value": "=subject.Konjde:sein= =statusPhrase=.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= =statusPhrase=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "00db7feeb37e4066",
+      "file": "Strings.de.xml",
+      "key": "ModMagnetized Cant Float|=subject.Does:are= not able to float right now.",
+      "context": "ModMagnetized Cant Float",
+      "old_value": "=subject.Konjde:sein= nicht in der Lage zu schweben.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= nicht in der Lage zu schweben.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "99fd9d2932d1925b",
+      "file": "Strings.de.xml",
+      "key": "ModMagnetic Falls Down Picked Up|=subject.Does:fall= to the ground; you pick =subject.them= up.",
+      "context": "ModMagnetic Falls Down Picked Up",
+      "old_value": "=subject.Konjde:fallen= zu Boden; du hebst =subject.them= auf.",
+      "new_value": "=subject.The.name= =subject.konjde:fallen= zu Boden; du hebst =subject.them= auf.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7bdb57b28c35fbc0",
+      "file": "Strings.de.xml",
+      "key": "ModMagnetic Falls Down|=subject.Does:fall= to the ground.",
+      "context": "ModMagnetic Falls Down",
+      "old_value": "=subject.Konjde:fallen= zu Boden.",
+      "new_value": "=subject.The.name= =subject.konjde:fallen= zu Boden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "08d5c9331bcfe9ab",
+      "file": "Strings.de.xml",
+      "key": "ModPsionic Disappear Message|=subject.Does:disappear=.",
+      "context": "ModPsionic Disappear Message",
+      "old_value": "=subject.Konjde:verschwinden=.",
+      "new_value": "=subject.The.name= =subject.konjde:verschwinden=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "cb916010c5b651d4",
+      "file": "Strings.de.xml",
+      "key": "ModTransmuteOnHit Message|=subject.Does:were= transmuted into =object.a.name=.",
+      "context": "ModTransmuteOnHit Message",
+      "old_value": "=subject.Konjde:sein= in =object.a.name= umgewandelt.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= in =object.a.name= umgewandelt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6910bca577d44872",
+      "file": "Strings.de.xml",
+      "key": "Dystechnia Thing Explodes|=subject.Does:explode=!",
+      "context": "Dystechnia Thing Explodes",
+      "old_value": "=subject.Konjde:explodieren=!",
+      "new_value": "=subject.The.name= =subject.konjde:explodieren=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d7a5be3482e65759",
+      "file": "Strings.de.xml",
+      "key": "Narcolepsy Doze Message|=subject.Does:fall= asleep!",
+      "context": "Narcolepsy Doze Message",
+      "old_value": "=subject.Konjde:fallen= eingeschlafen!",
+      "new_value": "=subject.The.name= =subject.konjde:fallen= eingeschlafen!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a612964f63f3b29b",
+      "file": "Strings.de.xml",
+      "key": "Beguiling failure immune|=object.Does:seem= utterly impervious to your charms.",
+      "context": "Beguiling failure immune",
+      "old_value": "=object.Konjde:scheinen= völlig immun gegen deine Reize.",
+      "new_value": "=object.The.name= =object.konjde:scheinen= völlig immun gegen deine Reize.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "436a5e8f7df3533c",
+      "file": "Strings.de.xml",
+      "key": "Burgeoning summon message log|=subject.Does:impel= plants to burgeon from the ground!",
+      "context": "Burgeoning summon message log",
+      "old_value": "=subject.Konjde:drängen= Pflanzen, aus dem Boden zu wachsen!",
+      "new_value": "=subject.The.name= =subject.konjde:drängen= Pflanzen, aus dem Boden zu wachsen!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6702b4f4d882cac6",
+      "file": "Strings.de.xml",
+      "key": "Clairvoyance activated message log|=subject.Does:peer= into another space.",
+      "context": "Clairvoyance activated message log",
+      "old_value": "=subject.Konjde:spähen= in einen anderen Raum.",
+      "new_value": "=subject.The.name= =subject.konjde:spähen= in einen anderen Raum.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d6be30332c56b91",
+      "file": "Strings.de.xml",
+      "key": "Confusion Resist MessageLog|=subject.Does:resist= being confused.",
+      "context": "Confusion Resist MessageLog",
+      "old_value": "=subject.Konjde:widerstehen= verwirrt zu werden.",
+      "new_value": "=subject.The.name= =subject.konjde:widerstehen= verwirrt zu werden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c22a7090879615b",
+      "file": "Strings.de.xml",
+      "key": "Dominate Dominate|=subject.Does:take= control of =object.the.name=!",
+      "context": "Dominate Dominate",
+      "old_value": "=subject.Konjde:nehmen= die Kontrolle über =object.the.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:nehmen= die Kontrolle über =object.the.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "4a08325af005857f",
+      "file": "Strings.de.xml",
+      "key": "Dominate Fail|=subject.Does:resist= =object.name's= domination!",
+      "context": "Dominate Fail",
+      "old_value": "=subject.Konjde:widerstehen= =object.name's= Herrschaft!",
+      "new_value": "=subject.The.name= =subject.konjde:widerstehen= =object.name's= Herrschaft!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d6886aa2f084625",
+      "file": "Strings.de.xml",
+      "key": "Dominate Failure|=object.Does:do= not have a consciousness you can make psychic contact with.",
+      "context": "Dominate Failure",
+      "old_value": "=object.Konjde:tun= hat kein Bewusstsein, mit dem Ihr psychischen Kontakt aufnehmen könnt.",
+      "new_value": "=object.The.name= =object.konjde:tun= hat kein Bewusstsein, mit dem Ihr psychischen Kontakt aufnehmen könnt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc4829597ece8663",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:swim= before your eyes!",
+      "context": "",
+      "old_value": "=subject.Konjde:schwimmen= vor Euren Augen!",
+      "new_value": "=subject.The.name= =subject.konjde:schwimmen= vor Euren Augen!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c874897a01de6017",
+      "file": "Strings.de.xml",
+      "key": "StunningForce Use Message Player Nearby|=subject.Does:invoke= a concussive blast around =subject.them=!",
+      "context": "StunningForce Use Message Player Nearby",
+      "old_value": "=subject.Konjde:beschwören= einen Druckimpuls um =subject.them= herum!",
+      "new_value": "=subject.The.name= =subject.konjde:beschwören= einen Druckimpuls um =subject.them= herum!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "54f394cc96c370b2",
+      "file": "Strings.de.xml",
+      "key": "StunningForce Use Message Player Away|=subject.Does:invoke= a concussive blast =dir.to.the.direction=!",
+      "context": "StunningForce Use Message Player Away",
+      "old_value": "=subject.Konjde:beschwören= einen Druckimpuls =dir.to.the.direction=!",
+      "new_value": "=subject.The.name= =subject.konjde:beschwören= einen Druckimpuls =dir.to.the.direction=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c6520e5d9015ed92",
+      "file": "Strings.de.xml",
+      "key": "StunningForce Use Message Other Nearby|=subject.Does:feel= a concussive blast around =subject.them=!",
+      "context": "StunningForce Use Message Other Nearby",
+      "old_value": "=subject.Konjde:fühlen= einen Schlag um =subject.them=!",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= einen Schlag um =subject.them=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9fa1cf66dc998782",
+      "file": "Strings.de.xml",
+      "key": "StunningForce Use Message Other Away|=subject.Does:feel= a concussive blast =dir.from.the.direction=!",
+      "context": "StunningForce Use Message Other Away",
+      "old_value": "=subject.Konjde:fühlen= einen Schlag =dir.from.the.direction=!",
+      "new_value": "=subject.The.name= =subject.konjde:fühlen= einen Schlag =dir.from.the.direction=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b7cf43209e90ed74",
+      "file": "Strings.de.xml",
+      "key": "SunderMind Blast Damage Message|=subject.Does:sunder= =object.the.name's:withTitles= mind=pens.pens= for %d damage!",
+      "context": "SunderMind Blast Damage Message",
+      "old_value": "=subject.Konjde:zerbersten= =object.the.name's:withTitles= mind=pens.pens= für %d Schaden!",
+      "new_value": "=subject.The.name= =subject.konjde:zerbersten= =object.the.name's:withTitles= mind=pens.pens= für %d Schaden!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f6d5f99074386b9b",
+      "file": "Strings.de.xml",
+      "key": "SunderMind Blast attempt but 0|=subject.Does:attempt= to burrow a channel through the psychic aether and sunder =object.the.name's= mind, but the attack has no effect.",
+      "context": "SunderMind Blast attempt but 0",
+      "old_value": "=subject.Konjde:versuchen= einen Kanal durch die psychische Äther zu graben und =object.the.name's= Verstand zu spalten, aber der Angriff hat keine Wirkung.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen= einen Kanal durch die psychische Äther zu graben und =object.the.name's= Verstand zu spalten, aber der Angriff hat keine Wirkung.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d984898823c8e60b",
+      "file": "Strings.de.xml",
+      "key": "TeleportOther Success Message|=subject.Does:teleport= =object.the.name= away.",
+      "context": "TeleportOther Success Message",
+      "old_value": "=subject.Konjde:teleportieren= =object.the.name= weg.",
+      "new_value": "=subject.The.name= =subject.konjde:teleportieren= =object.the.name= weg.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "037d20a37f07635e",
+      "file": "Strings.de.xml",
+      "key": "TemporalFugue Fail IsCopy|=subject.Does:are= too tenuously anchored in this time to be temporally duplicated in it.",
+      "context": "TemporalFugue Fail IsCopy",
+      "old_value": "=subject.Konjde:sein= zu schwach in dieser Zeit verankert, um zeitlich darin dupliziert zu werden.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= zu schwach in dieser Zeit verankert, um zeitlich darin dupliziert zu werden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8dc8dac989eb2ea7",
+      "file": "Strings.de.xml",
+      "key": "TemporalFugue blur message|=subject.Does:blur= through spacetime.",
+      "context": "TemporalFugue blur message",
+      "old_value": "=subject.Konjde:verschwimmen= durch die Raumzeit.",
+      "new_value": "=subject.The.name= =subject.konjde:verschwimmen= durch die Raumzeit.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa2a1fbc6ca81b7b",
+      "file": "Strings.de.xml",
+      "key": "TemporalFugue multiply message|=subject.Does:multiply=.",
+      "context": "TemporalFugue multiply message",
+      "old_value": "=subject.Konjde:vermehren=.",
+      "new_value": "=subject.The.name= =subject.konjde:vermehren=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "25288ee02136d083",
+      "file": "Strings.de.xml",
+      "key": "Infiltrate targeting|=subject.Does:focus= =subject.its= sensor somewhere else.",
+      "context": "Infiltrate targeting",
+      "old_value": "=subject.Konjde:fokussieren= =subject.its:akk:m= Sensor irgendwo anders.",
+      "new_value": "=subject.The.name= =subject.konjde:fokussieren= =subject.its:akk:m= Sensor irgendwo anders.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "5dc0b77959d990e4",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:dig= a passage down.",
+      "context": "",
+      "old_value": "=subject.Konjde:graben= einen Gang hinunter.",
+      "new_value": "=subject.The.name= =subject.konjde:graben= einen Gang hinunter.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3b3d020bf1b7bcee",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:dig= a passage up.",
+      "context": "",
+      "old_value": "=subject.Konjde:graben= einen Gang hinauf.",
+      "new_value": "=subject.The.name= =subject.konjde:graben= einen Gang hinauf.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ccc4f811817e035",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:fail= to tighten =subject.possessive= =carapace.name=",
+      "context": "",
+      "old_value": "=subject.Konjde:scheitern= festzuziehen =subject.possessive= =carapace.name=",
+      "new_value": "=subject.The.name= =subject.konjde:scheitern= festzuziehen =subject.possessive= =carapace.name=",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "234a5246a5360296",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:tighten= =subject.possessive= =carapace.name=",
+      "context": "",
+      "old_value": "=subject.Konjde:straffen= =subject.possessive= =carapace.name=",
+      "new_value": "=subject.The.name= =subject.konjde:straffen= =subject.possessive= =carapace.name=",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "4c480b293a6a86bb",
+      "file": "Strings.de.xml",
+      "key": "|=carapace.Does:loosen=. =subject.Name's= AV decreases by {{R|=tightFactor.name=}}.",
+      "context": "",
+      "old_value": "=carapace.Konjde:lockern=. =subject.Name's= AV nimmt um {{R|=tightFactor.name=}} ab.",
+      "new_value": "=carapace.The.name= =carapace.konjde:lockern=. =subject.Name's= AV nimmt um {{R|=tightFactor.name=}} ab.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7bac2875ed059c9a",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen Discharge Message|=subject.Does:discharge= =amount.things:unit= of electrical charge!",
+      "context": "Elec Gen Discharge Message",
+      "old_value": "=subject.Konjde:entladen= =amount.things:unit= elektrischer Ladung!",
+      "new_value": "=subject.The.name= =subject.konjde:entladen= =amount.things:unit= elektrischer Ladung!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "66fc0f20d9491ed2",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen Discharge Message|=subject.Does:discharge= an electrical arc!",
+      "context": "Elec Gen Discharge Message",
+      "old_value": "=subject.Konjde:entladen= einen elektrischen Bogen!",
+      "new_value": "=subject.The.name= =subject.konjde:entladen= einen elektrischen Bogen!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a6b12c07fac204f",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen DrinkCharge Fail Evaded|=subject.Does:try= to touch =object.the.name=, but =object.it.does:evade= =subject.them=.",
+      "context": "Elec Gen DrinkCharge Fail Evaded",
+      "old_value": "=subject.Konjde:versuchen= =object.the.name= zu berühren, aber =object.it= =object.konjde:weichen= =subject.them= aus.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen= =object.the.name= zu berühren, aber =object.it= =object.konjde:weichen= =subject.them= aus.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c4fdf1928ef7bcfa",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen DrinkCharge|=subject.Does:drink= the juice from =object.the.name= and recharge =amount.things:unit= of electrical charge.",
+      "context": "Elec Gen DrinkCharge",
+      "old_value": "=subject.Konjde:trinken= den Saft von =object.dativ= und lädt =amount.things:unit= elektrischer Ladung auf.",
+      "new_value": "=subject.The.name= =subject.konjde:trinken= den Saft von =object.dativ= und lädt =amount.things:unit= elektrischer Ladung auf.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec6a962a1a6c0628",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen DrinkCharge Unretained|=subject.Does:drink= the juice from =object.the.name= but don't seem to retain any of it.",
+      "context": "Elec Gen DrinkCharge Unretained",
+      "old_value": "=subject.Konjde:trinken= den Saft von =object.dativ=, aber scheinen nichts davon zu behalten.",
+      "new_value": "=subject.The.name= =subject.konjde:trinken= den Saft von =object.dativ=, aber scheinen nichts davon zu behalten.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8742d456256eeb73",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen DrinkCharge Unknown Amount|=subject.Does:touch= =object.the.name=.",
+      "context": "Elec Gen DrinkCharge Unknown Amount",
+      "old_value": "=subject.Konjde:berühren= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:berühren= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "53ac9be35604c1cc",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen DrinkCharge None|=subject.Does:touch= =object.a.name=.",
+      "context": "Elec Gen DrinkCharge None",
+      "old_value": "=subject.Konjde:berühren= =object.a.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:berühren= =object.a.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "c39a79b77f1e893e",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen Damage Recharge Unknown|=subject.Does:seem= to have absorbed some of the electrical charge.",
+      "context": "Elec Gen Damage Recharge Unknown",
+      "old_value": "=subject.Konjde:scheinen= etwas von der elektrischen Ladung aufgenommen zu haben.",
+      "new_value": "=subject.The.name= =subject.konjde:scheinen= etwas von der elektrischen Ladung aufgenommen zu haben.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1289d827dcf9bc6c",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:emit= an electromagnetic pulse.",
+      "context": "",
+      "old_value": "=subject.Konjde:verströmen= einen elektromagnetischen Impuls.",
+      "new_value": "=subject.The.name= =subject.konjde:verströmen= einen elektromagnetischen Impuls.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2ed94cf2402f1305",
+      "file": "Strings.de.xml",
+      "key": "FlamingRay emit no part|=subject.Does:emit= a flaming ray!",
+      "context": "FlamingRay emit no part",
+      "old_value": "=subject.Konjde:verströmen= einen flammenden Strahl!",
+      "new_value": "=subject.The.name= =subject.konjde:verströmen= einen flammenden Strahl!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1be51644301138bf",
+      "file": "Strings.de.xml",
+      "key": "FreezingRay emit|=subject.Does:emit= a freezing ray from =subject.its= =part.ordinalName=!",
+      "context": "FreezingRay emit",
+      "old_value": "=subject.Konjde:verströmen= einen gefrierenden Strahl von =subject.its.part:dat#part=!",
+      "new_value": "=subject.The.name= =subject.konjde:verströmen= einen gefrierenden Strahl von =subject.its.part:dat#part=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b2c2f4ec897cb180",
+      "file": "Strings.de.xml",
+      "key": "FreezingRay emit no part|=subject.Does:emit= a freezing ray!",
+      "context": "FreezingRay emit no part",
+      "old_value": "=subject.Konjde:verströmen= einen gefrierenden Strahl!",
+      "new_value": "=subject.The.name= =subject.konjde:verströmen= einen gefrierenden Strahl!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2c35093bd5b27a29",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:stop= releasing =gasdisplayname=.",
+      "context": "",
+      "old_value": "=subject.Konjde:stoppen= =gasdisplayname= freizusetzen.",
+      "new_value": "=subject.The.name= =subject.konjde:stoppen= =gasdisplayname= freizusetzen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "103cb598a63ba0f7",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:start= releasing =gasdisplayname=.",
+      "context": "",
+      "old_value": "=subject.Konjde:starten= =gasdisplayname= freizusetzen.",
+      "new_value": "=subject.The.name= =subject.konjde:starten= =gasdisplayname= freizusetzen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d2ba8b649c06e58",
+      "file": "Strings.de.xml",
+      "key": "Quills fling (while engulfed)|=subject.Does:fling= =subject.its= =quills.name=!",
+      "context": "Quills fling (while engulfed)",
+      "old_value": "=subject.Konjde:schleudern= =subject.its= =quills.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:schleudern= =subject.its= =quills.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9bee4fcfd8c6c4d6",
+      "file": "Strings.de.xml",
+      "key": "Quills fling|=subject.Does:fling= =subject.its= =quills.name= everywhere!",
+      "context": "Quills fling",
+      "old_value": "=subject.Konjde:schleudern= überall =subject.its= =quills.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:schleudern= überall =subject.its= =quills.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1243a001382d5c44",
+      "file": "Strings.de.xml",
+      "key": "Slime Glands spit|=subject.Does:spit= a pool of slime!",
+      "context": "Slime Glands spit",
+      "old_value": "=subject.Konjde:spucken= einen Schleimpool!",
+      "new_value": "=subject.The.name= =subject.konjde:spucken= einen Schleimpool!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d08df3027bccc1f",
+      "file": "Strings.de.xml",
+      "key": "Stinger strike message log|=subject.Does:strike= =object.aForNPCSubject.name= with =subject.their= =stinger.name=!",
+      "context": "Stinger strike message log",
+      "old_value": "=subject.Konjde:schlagen= =object.aForNPCSubject.name= mit =subject.their= =stinger.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:schlagen= =object.aForNPCSubject.name= mit =subject.their= =stinger.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f1fc08791de41ea",
+      "file": "Strings.de.xml",
+      "key": "Stinger Resist Venom|=subject.Does:resist= the effects of =object.the.name's:withTitles= venom!",
+      "context": "Stinger Resist Venom",
+      "old_value": "=subject.Konjde:widerstehen= die Auswirkungen von =object.the.name's:withTitles= Gift!",
+      "new_value": "=subject.The.name= =subject.konjde:widerstehen= die Auswirkungen von =object.the.name's:withTitles= Gift!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e594b3c1cc5a91b7",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:are= shamed by =subject.possessive= reflection!",
+      "context": "",
+      "old_value": "=subject.Konjde:sein= von =subject.possessive= Spiegelung beschämt!",
+      "new_value": "=subject.The.name= =subject.konjde:sein= von =subject.possessive= Spiegelung beschämt!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d546d8495a89901f",
+      "file": "Strings.de.xml",
+      "key": "Physics AccelerateInternal knocked message|=subject.Does:are= knocked =dir.to.the.direction=.",
+      "context": "Physics AccelerateInternal knocked message",
+      "old_value": "=subject.Konjde:sein= werden =dir.to.the.direction= gestoßen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= werden =dir.to.the.direction= gestoßen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "50f5fd559813c57b",
+      "file": "Strings.de.xml",
+      "key": "Physics AccelerateInternal collide message|=subject.Does:collide= with =object.a.name=.",
+      "context": "Physics AccelerateInternal collide message",
+      "old_value": "=subject.Konjde:kollidieren= mit =object.a.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:kollidieren= mit =object.a.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3be9292b26e6ae03",
+      "file": "Strings.de.xml",
+      "key": "EnergyCellSocket Remove Cell From Device|=subject.Does:pop= =object.the.name:notAsPossessed= out of =device.the.name:itsSubjectPossessor=.",
+      "context": "EnergyCellSocket Remove Cell From Device",
+      "old_value": "=subject.Konjde:platzen= =object.the.name:notAsPossessed= aus =device.dativ:itsSubjectPossessor=.",
+      "new_value": "=subject.The.name= =subject.konjde:platzen= =object.the.name:notAsPossessed= aus =device.dativ:itsSubjectPossessor=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "38e20eb921afb13f",
+      "file": "Strings.de.xml",
+      "key": "AIBarathrumShuttle|=subject.Does:start= interfacing with =object.the.name=.",
+      "context": "AIBarathrumShuttle",
+      "old_value": "=subject.Konjde:starten= sich mit =object.dativ= zu verbinden.",
+      "new_value": "=subject.The.name= =subject.konjde:starten= sich mit =object.dativ= zu verbinden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc8304b2cfc35a81",
+      "file": "Strings.de.xml",
+      "key": "ReflectDamage Message Log|=subject.Does:reflect= =amount= damage back at =object.the.name=.",
+      "context": "ReflectDamage Message Log",
+      "old_value": "=subject.Konjde:reflektieren= =amount= Schaden auf =object.the.name= zurück.",
+      "new_value": "=subject.The.name= =subject.konjde:reflektieren= =amount= Schaden auf =object.the.name= zurück.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "48e74099c0905c48",
+      "file": "Strings.de.xml",
+      "key": "Cleave PerformCleave|=subject.Does:cleave= through =object.the.name's:withTitles= =cleaveTarget=.",
+      "context": "Cleave PerformCleave",
+      "old_value": "=subject.Konjde:spalten= durch =object.the.name's:withTitles= =cleaveTarget=.",
+      "new_value": "=subject.The.name= =subject.konjde:spalten= durch =object.the.name's:withTitles= =cleaveTarget=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "881f7ed644921f09",
+      "file": "Strings.de.xml",
+      "key": "Dismember By Self|=subject.Does:chop= off =subject.their= own =limb.ordinalName=!",
+      "context": "Dismember By Self",
+      "old_value": "=subject.Konjde:hacken= =subject.their= eigenes =limb.ordinalName= ab!",
+      "new_value": "=subject.The.name= =subject.konjde:hacken= =subject.their= eigenes =limb.ordinalName= ab!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "482ff3592fe277be",
+      "file": "Strings.de.xml",
+      "key": "Dismember By Attacker|=subject.Does:chop= off =object.the.name's= =limb.ordinalName=!",
+      "context": "Dismember By Attacker",
+      "old_value": "=subject.Konjde:hacken= =object.the.name's= =limb.ordinalName= ab!",
+      "new_value": "=subject.The.name= =subject.konjde:hacken= =object.the.name's= =limb.ordinalName= ab!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "66d7ffc17fb89975",
+      "file": "Strings.de.xml",
+      "key": "HookAndDrag Target Stands Its Ground|=subject.Does:stand= =subject.its= ground!",
+      "context": "HookAndDrag Target Stands Its Ground",
+      "old_value": "=subject.Konjde:behaupten= =subject.its:akk:m= Boden!",
+      "new_value": "=subject.The.name= =subject.konjde:behaupten= =subject.its:akk:m= Boden!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "2284241d7d65a2ca",
+      "file": "Strings.de.xml",
+      "key": "Campfire Cook Error|=subject.Does:are= turned off.",
+      "context": "Campfire Cook Error",
+      "old_value": "=subject.Konjde:sein= ausgeschaltet.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= ausgeschaltet.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e9e07403a1f8da41",
+      "file": "Strings.de.xml",
+      "key": "Campfire Cook Error|=subject.Does:do= not have enough charge to operate.",
+      "context": "Campfire Cook Error",
+      "old_value": "=subject.Konjde:tun= nicht genug Ladung zum Betreiben haben.",
+      "new_value": "=subject.The.name= =subject.konjde:tun= nicht genug Ladung zum Betreiben haben.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "90058f5eeb11acbf",
+      "file": "Strings.de.xml",
+      "key": "Campfire Cook Error|=subject.Does:need= to be hung up first.",
+      "context": "Campfire Cook Error",
+      "old_value": "=subject.Konjde:brauchen= zuerst aufgehängt zu werden.",
+      "new_value": "=subject.The.name= =subject.konjde:brauchen= zuerst aufgehängt zu werden.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "303746e607d0fd3b",
+      "file": "Strings.de.xml",
+      "key": "Campfire Cook Error|=subject.Does:do= not seem to be working.",
+      "context": "Campfire Cook Error",
+      "old_value": "=subject.Konjde:tun= nicht zu funktionieren scheinen.",
+      "new_value": "=subject.The.name= =subject.konjde:tun= nicht zu funktionieren scheinen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a12dddceb5cfbd5b",
+      "file": "Strings.de.xml",
+      "key": "Campfire Extinguish|=subject.Does:extinguish= =object.the.name=.",
+      "context": "Campfire Extinguish",
+      "old_value": "=subject.Konjde:löschen= =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:löschen= =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7d420247cf039be",
+      "file": "Strings.de.xml",
+      "key": "Campfire Extinguish (no actor)|=subject.Does:are= extinguished by =object.the.name=.",
+      "context": "Campfire Extinguish (no actor)",
+      "old_value": "=subject.Konjde:sein= von =object.dativ= ausgelöscht.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= von =object.dativ= ausgelöscht.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "624923e97c248d67",
+      "file": "Strings.de.xml",
+      "key": "ShakeItOff Stun|=subject.Does:shake= off the stun.",
+      "context": "ShakeItOff Stun",
+      "old_value": "=subject.Konjde:zittern= die Betäubung ab.",
+      "new_value": "=subject.The.name= =subject.konjde:zittern= die Betäubung ab.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "624b7fd1a7ca186c",
+      "file": "Strings.de.xml",
+      "key": "ShakeItOff Daze|=subject.Does:shake= off the dazing.",
+      "context": "ShakeItOff Daze",
+      "old_value": "=subject.Konjde:zittern= die Benommenheit ab.",
+      "new_value": "=subject.The.name= =subject.konjde:zittern= die Benommenheit ab.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e9bdb4b533804109",
+      "file": "Strings.de.xml",
+      "key": "ShakeItOff TryToShakeItOff Daze Success|=subject.Does:shake= off =subject.its= daze.",
+      "context": "ShakeItOff TryToShakeItOff Daze Success",
+      "old_value": "=subject.Konjde:schütteln= =subject.its:akk:f= Benommenheit ab.",
+      "new_value": "=subject.The.name= =subject.konjde:schütteln= =subject.its:akk:f= Benommenheit ab.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9da397b35a491031",
+      "file": "Strings.de.xml",
+      "key": "ShakeItOff TryToShakeItOff Stun Success|=subject.Does:shake= off the stun.",
+      "context": "ShakeItOff TryToShakeItOff Stun Success",
+      "old_value": "=subject.Konjde:zittern= die Betäubung ab.",
+      "new_value": "=subject.The.name= =subject.konjde:zittern= die Betäubung ab.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "519a9791770740c5",
+      "file": "Strings.de.xml",
+      "key": "Proselytize confirm proselytize follower|=object.Does:are= already your follower. Do you want to proselytize =object.them= anyway?",
+      "context": "Proselytize confirm proselytize follower",
+      "old_value": "=object.Konjde:sein= bereits Euer Anhänger. Wollt Ihr =object.them= trotzdem bekehren?",
+      "new_value": "=object.The.name= =object.konjde:sein= bereits Euer Anhänger. Wollt Ihr =object.them= trotzdem bekehren?",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "a9d6995731478ff8",
+      "file": "Strings.de.xml",
+      "key": "Proselytize Fail Message|=object.Does:are= unconvinced by your pleas.",
+      "context": "Proselytize Fail Message",
+      "old_value": "=object.Konjde:sein= von Euren Bitten nicht überzeugt.",
+      "new_value": "=object.The.name= =object.konjde:sein= von Euren Bitten nicht überzeugt.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "bf043ac3a2ea09d0",
+      "file": "Strings.de.xml",
+      "key": "Rebuke Robot neutralize|=subject.Does:wander= away disinterestedly.",
+      "context": "Rebuke Robot neutralize",
+      "old_value": "=subject.Konjde:wandern= gleichgültig davon.",
+      "new_value": "=subject.The.name= =subject.konjde:wandern= gleichgültig davon.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "71590611319bccab",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail No Limbs|=subject.Does:have= no limbs.",
+      "context": "AmputateLimb Fail No Limbs",
+      "old_value": "=subject.Konjde:haben= keine Gliedmaßen.",
+      "new_value": "=subject.The.name= =subject.konjde:haben= keine Gliedmaßen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "92057ee0871e8891",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail No Limbs Amputatable|=subject.Does:have= no limbs that can be amputated.",
+      "context": "AmputateLimb Fail No Limbs Amputatable",
+      "old_value": "=subject.Konjde:haben= keine Gliedmaßen, die amputiert werden können.",
+      "new_value": "=subject.The.name= =subject.konjde:haben= keine Gliedmaßen, die amputiert werden können.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "55bd4cfe9e57ba26",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Cannot Amputate Limb Holding Amputating Weapon|=subject.Does:cannot= amputate the =limb.type.name= holding =subject.its.item#weapon=.",
+      "context": "AmputateLimb Fail Cannot Amputate Limb Holding Amputating Weapon",
+      "old_value": "=subject.Konjde:können= das =limb.type.name= nicht amputieren, das =subject.its.item#weapon= hält.",
+      "new_value": "=subject.The.name= =subject.konjde:können= das =limb.type.name= nicht amputieren, das =subject.its.item#weapon= hält.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4ca28e7d8d2791d",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Sees No Reason|=subject.Does:see= no reason for you to amputate =subject.its= =limb.ordinalName=.",
+      "context": "AmputateLimb Fail Sees No Reason",
+      "old_value": "=subject.Konjde:sehen= keinen Grund für Euch, =subject.its.part:akk#limb= zu amputieren.",
+      "new_value": "=subject.The.name= =subject.konjde:sehen= keinen Grund für Euch, =subject.its.part:akk#limb= zu amputieren.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "94da6dc58fae3f18",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb MessageLog OutofPhase|=subject.Does:try= to amputate =object.the.name's= =limb.ordinalName= with =weapon.the.name=, but =weapon.it.does:pass= through =object.them=.",
+      "context": "AmputateLimb MessageLog OutofPhase",
+      "old_value": "=subject.Konjde:versuchen= =object.the.name's= =limb.ordinalName= mit =weapon.dativ= zu amputieren, aber =weapon.it.konjde:passieren= durch =object.them= hindurch.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen= =object.the.name's= =limb.ordinalName= mit =weapon.dativ= zu amputieren, aber =weapon.it.konjde:passieren= durch =object.them= hindurch.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "be8ad61dc09e8e02",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb MessageLog InStasis|=subject.Does:try= to amputate =object.the.name's= =limb.ordinalName= with =weapon.the.name=, but =weapon.it.does:have= no effect.",
+      "context": "AmputateLimb MessageLog InStasis",
+      "old_value": "=subject.Konjde:versuchen= =object.the.name's= =limb.ordinalName= mit =weapon.dativ= zu amputieren, aber =weapon.it.konjde:haben= keine Wirkung.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen= =object.the.name's= =limb.ordinalName= mit =weapon.dativ= zu amputieren, aber =weapon.it.konjde:haben= keine Wirkung.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "b4268df6fa84d19c",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Popup Standard|=subject.Does:amputate= =object.the.name's= =limb.ordinalName= with =weapon.the.name=.",
+      "context": "AmputateLimb Popup Standard",
+      "old_value": "=subject.Konjde:amputieren= =object.the.name's= =limb.ordinalName= mit =weapon.dativ=.",
+      "new_value": "=subject.The.name= =subject.konjde:amputieren= =object.the.name's= =limb.ordinalName= mit =weapon.dativ=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "07cb61fccc0918ac",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:take= advantage of =subject.their= opponent's reaction to =subject.their= attack! =skills.andList|capitalize= =skills.pluralize:is:are= refreshed.",
+      "context": "",
+      "old_value": "=subject.Konjde:nehmen= Vorteil aus =subject.their= Gegners Reaktion auf =subject.their= Angriff! =skills.andList|capitalize= =skills.pluralize:is:are= erneuert.",
+      "new_value": "=subject.The.name= =subject.konjde:nehmen= Vorteil aus =subject.their= Gegners Reaktion auf =subject.their= Angriff! =skills.andList|capitalize= =skills.pluralize:is:are= erneuert.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fc430fc43df7445a",
+      "file": "Strings.de.xml",
+      "key": "Camp Success|=subject.Does:make= camp.",
+      "context": "Camp Success",
+      "old_value": "=subject.Konjde:machen= Lager auf.",
+      "new_value": "=subject.The.name= =subject.konjde:machen= Lager auf.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e712902c06a43393",
+      "file": "Strings.de.xml",
+      "key": "StairsDown LockedNoKey|=subject.Does:are= locked, and you don't have the key.",
+      "context": "StairsDown LockedNoKey",
+      "old_value": "=subject.Konjde:sein= verschlossen, und Ihr habt keinen Schlüssel.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= verschlossen, und Ihr habt keinen Schlüssel.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9fe4eddcd2ed173f",
+      "file": "Strings.de.xml",
+      "key": "StairsDown FallDown|=subject.Does:fall= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite=.",
+      "context": "StairsDown FallDown",
+      "old_value": "=subject.Konjde:fallen= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite=.",
+      "new_value": "=subject.The.name= =subject.konjde:fallen= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa946d9bfde6db2a",
+      "file": "Strings.de.xml",
+      "key": "StairsUp LockedNoKey|=object.Does:are= locked, and you don't have the key.",
+      "context": "StairsUp LockedNoKey",
+      "old_value": "=object.Konjde:sein= verschlossen, und Ihr habt keinen Schlüssel.",
+      "new_value": "=object.The.name= =object.konjde:sein= verschlossen, und Ihr habt keinen Schlüssel.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa976f615005d59d",
+      "file": "Strings.de.xml",
+      "key": "Disassembly InterruptBecause|=object.does:are= no longer within your reach",
+      "context": "Disassembly InterruptBecause",
+      "old_value": "=object.konjde:sein= nicht mehr in Eurer Reichweite",
+      "new_value": "=object.The.name= =object.konjde:sein= nicht mehr in Eurer Reichweite",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "00f07a378a6ebfde",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:break=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:brechen=.",
+      "new_value": "=subject.The.name= =subject.konjde:brechen=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0c78435b99d5f67",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:decide= =subject.it.does:are= no longer angry at =object.the.name=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:entscheiden= =subject.it.konjde:sein= nicht mehr wütend auf =object.the.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:entscheiden= =subject.it.konjde:sein= nicht mehr wütend auf =object.the.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ac41b8087485432a",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:start= dashing in a plume of flame and smoke!@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:starten= in einer Wolke aus Flammen und Rauch loszustürmen!",
+      "new_value": "=subject.The.name= =subject.konjde:starten= in einer Wolke aus Flammen und Rauch loszustürmen!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "01e3a0c55d0cb0f0",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:sammeln= =transfer.things:dram= von =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.",
+      "new_value": "=subject.The.name= =subject.konjde:sammeln= =transfer.things:dram= von =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5eb88cf805d9121",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:bandage= =object.the.name's= wounds.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:verbinden= die Wunden von =object.the.name's=.",
+      "new_value": "=subject.The.name= =subject.konjde:verbinden= die Wunden von =object.the.name's=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "62eddbc76cb5692f",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:cause= several plants to germinate with the force of =subject.its.item#object=!@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:verursachen= mehrere Pflanzen dazu, mit der Kraft von =subject.its.item#object= zu keimen!",
+      "new_value": "=subject.The.name= =subject.konjde:verursachen= mehrere Pflanzen dazu, mit der Kraft von =subject.its.item#object= zu keimen!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "66f39a26979a4535",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:destabilize=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:destabilisieren=.",
+      "new_value": "=subject.The.name= =subject.konjde:destabilisieren=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "da87fcd92f8500ad",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:try= to eat your memories, but =subject.itDoes:starve=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:versuchen=, Eure Erinnerungen zu essen, aber =subject.itKonjde:verhungern=.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen=, Eure Erinnerungen zu essen, aber =subject.itKonjde:verhungern=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "47b92dfe76bbb9de",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:latch= onto =object.the.name=!@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:umklammern= sich an =object.the.name=!",
+      "new_value": "=subject.The.name= =subject.konjde:umklammern= sich an =object.the.name=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6e51ad32d0a4494d",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:have= no room for more =liquid.name|strip=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:haben= keinen Platz für mehr =liquid.name|strip=.",
+      "new_value": "=subject.The.name= =subject.konjde:haben= keinen Platz für mehr =liquid.name|strip=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d6de1e4465b4098",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:transfer= =liquid.cardinal.drams.of.liquid#amount|strip= to =object.aForNPCSubject.name=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:übertragen= =liquid.cardinal.drams.of.liquid#amount|strip= zu =object.aForNPCSubject.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =liquid.cardinal.drams.of.liquid#amount|strip= zu =object.aForNPCSubject.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "6738ecc7de646140",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:transfer= =cell.a.name= to =host.aForNPCSubject.name=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:übertragen= =cell.a.name= zu =host.aForNPCSubject.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =cell.a.name= zu =host.aForNPCSubject.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "5a672039bdbf8284",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:transfer= =ammo.name:single= to =host.aForNPCSubject.name=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:übertragen= =ammo.name:single= zu =host.aForNPCSubject.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =ammo.name:single= zu =host.aForNPCSubject.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "933a704ad4ba534d",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:transfer= =amount.a.or.cardinal.names#ammo= to =host.aForNPCSubject.name=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:übertragen= =amount.a.or.cardinal.names#ammo= zu =host.aForNPCSubject.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:übertragen= =amount.a.or.cardinal.names#ammo= zu =host.aForNPCSubject.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "46b04d3e54e47941",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:fail= to tighten =subject.possessive= =carapace.name=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:scheitern= festzuziehen =subject.possessive= =carapace.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:scheitern= festzuziehen =subject.possessive= =carapace.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "08733300c9c22c55",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:tighten= =subject.possessive= =carapace.name=.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:straffen= =subject.possessive= =carapace.name=.",
+      "new_value": "=subject.The.name= =subject.konjde:straffen= =subject.possessive= =carapace.name=.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "5940bafcabd91d1a",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:bask= in the sunlight and =subject.verb:absorb= the nourishing rays.@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:sonnen= im Sonnenlicht und =subject.konjde:absorbieren= die nährenden Strahlen.",
+      "new_value": "=subject.The.name= =subject.konjde:sonnen= im Sonnenlicht und =subject.konjde:absorbieren= die nährenden Strahlen.",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "850e82fdfd5046c1",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:fling= =subject.its= =quillsName=!@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:schleudern= =subject.its= =quillsName=!",
+      "new_value": "=subject.The.name= =subject.konjde:schleudern= =subject.its= =quillsName=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "26a70241ca4283e9",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:fling= =subject.its= =quillsName= everywhere!@#text",
+      "context": null,
+      "old_value": "=subject.Konjde:schleudern= überall =subject.its= =quillsName=!",
+      "new_value": "=subject.The.name= =subject.konjde:schleudern= überall =subject.its= =quillsName=!",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1f177c03d57abab7",
+      "file": "Strings.de.xml",
+      "key": "Combat Player Miss Message (with weapon)|{{r|=subject.Does:miss= with =subject.its.item#weapon=!}} [=hitResult= vs. =dv=]",
+      "context": "Combat Player Miss Message (with weapon)",
+      "old_value": "{{r|=subject.Konjde:verfehlen= mit =subject.its.item:dat#weapon=!}} [=hitResult= vs. =dv=]",
+      "new_value": "{{r|=subject.The.name= =subject.konjde:verfehlen= mit =subject.its.item:dat#weapon=!}} [=hitResult= vs. =dv=]",
+      "note": "Subjekt-Token ergänzt (Does → Name + konjde)",
+      "status": "accepted"
+    }
+  ]
+}

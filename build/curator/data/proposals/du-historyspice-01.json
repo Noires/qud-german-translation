@@ -1,0 +1,378 @@
+{
+  "batch": "du-historyspice-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-historyspice-01)",
+  "created": "2026-10-22 14:50",
+  "items": [
+    {
+      "uid": "754ec1b24be1ca7b",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/gossip/leadIns=/0",
+      "context": "spice.gossip.leadIns",
+      "old_value": "Habt Ihr gehört?",
+      "new_value": "Hast du gehört?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "29ee086a12e904b9",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/reward=/1",
+      "context": "spice.instancesOf.reward",
+      "old_value": "Euch bezahlen für",
+      "new_value": "dich bezahlen für",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "459bd1a5c5053050",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/reward=/2",
+      "context": "spice.instancesOf.reward",
+      "old_value": "Euch entschädigen für",
+      "new_value": "dich entschädigen für",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "57ea93074dd32fed",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/haveYouHeardOf=/2",
+      "context": "spice.instancesOf.haveYouHeardOf",
+      "old_value": "seid Ihr vertraut mit",
+      "new_value": "bist du vertraut mit",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4c7427600f0a8881",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/proverbs=/20",
+      "context": "spice.proverbs",
+      "old_value": "Behaltet Euer =spice:nouns.!random= im Auge",
+      "new_value": "Behalte dein =spice:nouns.!random= im Auge",
+      "note": "Sprichwort, generisches you -> du",
+      "status": "accepted"
+    },
+    {
+      "uid": "598c854dffc44b7b",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/lovesick=/1",
+      "context": "spice.lovesick",
+      "old_value": "=text= Aber =lover.refname:withDefiniteArticle:long:withTitles= liebte Euch nicht, also was spielte das schon für eine Rolle?",
+      "new_value": "=text= Aber =lover.refname:withDefiniteArticle:long:withTitles= liebte dich nicht, also was spielte das schon für eine Rolle?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de414d33cb523fb8",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/lovesick=/2",
+      "context": "spice.lovesick",
+      "old_value": "Während Euer Herz verwelkte, =text|initLower=",
+      "new_value": "Während dein Herz verwelkte, =text|initLower=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "68c9efa5826fccf0",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/lovesick=/3",
+      "context": "spice.lovesick",
+      "old_value": "=text= Ihr tatet es für =lover.refname:withDefiniteArticle:long:withTitles=. Ihr tatet alles für =lover.refname:withDefiniteArticle=.",
+      "new_value": "=text= Du tatest es für =lover.refname:withDefiniteArticle:long:withTitles=. Du tatest alles für =lover.refname:withDefiniteArticle=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b77577d490136f0",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/villages/mayor/hereYoullFind=/0",
+      "context": "spice.villages.mayor.hereYoullFind",
+      "old_value": "Hier findet Ihr Schatten und Proviant, sowie weitere Vorräte, die Euch helfen, die Rosthöhlen besser nach Schätzen zu durchsuchen",
+      "new_value": "Hier findest du Schatten und Proviant, sowie weitere Vorräte, die dir helfen, die Rosthöhlen besser nach Schätzen zu durchsuchen",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "12c62763adc20e6d",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/villages/mayor/youMayDrink=/0",
+      "context": "spice.villages.mayor.youMayDrink",
+      "old_value": "=spice:instancesOf.aboveAllElse.!random=, Ihr dürft von unserem Süßwasser trinken und Euren Durst stillen",
+      "new_value": "=spice:instancesOf.aboveAllElse.!random=, du darfst von unserem Süßwasser trinken und deinen Durst stillen",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "85b04171320508e1",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/villages/warden/introDialog=/0",
+      "context": "spice.villages.warden.introDialog",
+      "old_value": "Nehmt Euch in Acht, =spice:commonPhrases.adventurer.!random=.",
+      "new_value": "Nimm dich in Acht, =spice:commonPhrases.adventurer.!random=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f8f6fafb72db3df",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/villages/warden/introDialog=/2",
+      "context": "spice.villages.warden.introDialog",
+      "old_value": "Haltet Euch aus Schwierigkeiten heraus, =spice:commonPhrases.adventurer.!random=.",
+      "new_value": "Halte dich aus Schwierigkeiten heraus, =spice:commonPhrases.adventurer.!random=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f661f4ddadf5065",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/villages/warden/introDialog=/3",
+      "context": "spice.villages.warden.introDialog",
+      "old_value": "Ich beobachte Euch, =spice:commonPhrases.adventurer.!random=.",
+      "new_value": "Ich beobachte dich, =spice:commonPhrases.adventurer.!random=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fc1d58f430bbd5ad",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/intro=/1",
+      "context": "spice.quests.intro",
+      "old_value": "Habt Ihr Arbeit, die erledigt werden muss?",
+      "new_value": "Hast du Arbeit, die erledigt werden muss?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa4e202fe4d05649",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/intro=/2",
+      "context": "spice.quests.intro",
+      "old_value": "Meine Dienste stehen zur Verfügung, wenn Ihr Arbeit anzubieten habt.",
+      "new_value": "Meine Dienste stehen zur Verfügung, wenn du Arbeit anzubieten hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ac36e9d31eaccfa",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/thanks=/1",
+      "context": "spice.quests.thanks",
+      "old_value": "danke für Euren Dienst, =spice:commonPhrases.adventurer.!random=",
+      "new_value": "danke für deinen Dienst, =spice:commonPhrases.adventurer.!random=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d03a0032c033168",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/thanks=/2",
+      "context": "spice.quests.thanks",
+      "old_value": "=spice:commonPhrases.adventurer.!random=, Ihr habt unseren Dank",
+      "new_value": "=spice:commonPhrases.adventurer.!random=, du hast unseren Dank",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c08ef2a99e741e85",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/sacred/willingToRecover=/0",
+      "context": "spice.quests.FindaSpecificItem.sacred.willingToRecover",
+      "old_value": "wärt Ihr bereit, =item.them= für uns zu bergen?",
+      "new_value": "wärst du bereit, =item.them= für uns zu bergen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "497954dc8dd89e90",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/sacred/rewardYou=/0",
+      "context": "spice.quests.FindaSpecificItem.sacred.rewardYou",
+      "old_value": "wir werden Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "new_value": "wir werden deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1df7c9805b5524ae",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/iHaveATask=/0",
+      "context": "spice.quests.FindaSpecificItem.personal.iHaveATask",
+      "old_value": "Ich habe eine =spice:commonPhrases.task.!random= für Euch",
+      "new_value": "Ich habe eine =spice:commonPhrases.task.!random= für dich",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c67791e780f6180a",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/iHaveATask=/2",
+      "context": "spice.quests.FindaSpecificItem.personal.iHaveATask",
+      "old_value": "Ich könnte Euch für eine =spice:commonPhrases.task.!random= gebrauchen",
+      "new_value": "Ich könnte dich für eine =spice:commonPhrases.task.!random= gebrauchen",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc1ad54ad86be932",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/ifYouRetrieveIt=/0",
+      "context": "spice.quests.FindaSpecificItem.personal.ifYouRetrieveIt",
+      "old_value": "wenn Ihr =item.them= für mich =spice:commonPhrases.retrieve.!random=, werde ich Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "new_value": "wenn du =item.them= für mich =spice:commonPhrases.retrieve.!random=, werde ich deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "note": "=retrieve= liefert Infinitiv (bergen/holen) - Verbform schon vorher defekt, nur Pronomen umgestellt",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7a23c33a95c4529",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/ifYouRetrieveIt=/1",
+      "context": "spice.quests.FindaSpecificItem.personal.ifYouRetrieveIt",
+      "old_value": "=spice:commonPhrases.retrieve.!random= =item.them= und ich werde =spice:instancesOf.reward.!random= Eure =spice:commonPhrases.services.!random=",
+      "new_value": "=spice:commonPhrases.retrieve.!random= =item.them= und ich werde =spice:instancesOf.reward.!random= deine =spice:commonPhrases.services.!random=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "78152290afc294d2",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/ifYouRetrieveIt=/2",
+      "context": "spice.quests.FindaSpecificItem.personal.ifYouRetrieveIt",
+      "old_value": "Ich bin bereit, Eure =spice:commonPhrases.services.!random= zu =spice:instancesOf.reward.!random=, wenn Ihr =item.them= für mich =spice:commonPhrases.retrieve.!random=",
+      "new_value": "Ich bin bereit, deine =spice:commonPhrases.services.!random= zu =spice:instancesOf.reward.!random=, wenn du =item.them= für mich =spice:commonPhrases.retrieve.!random=",
+      "note": "=retrieve= liefert Infinitiv - Verbform schon vorher defekt, nur Pronomen umgestellt",
+      "status": "accepted"
+    },
+    {
+      "uid": "3c05808e1870275b",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSite/travelers/wouldYouFindIt=/1",
+      "context": "spice.quests.FindaSite.travelers.wouldYouFindIt",
+      "old_value": "wärt Ihr bereit, es zu finden?",
+      "new_value": "wärst du bereit, es zu finden?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6583de249744d69c",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSite/travelers/rewardYou=/0",
+      "context": "spice.quests.FindaSite.travelers.rewardYou",
+      "old_value": "wir werden Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "new_value": "wir werden deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "72a25c06e9e73be2",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSite/typeOfDirections/path/intro=/0",
+      "context": "spice.quests.FindaSite.typeOfDirections.path.intro",
+      "old_value": "wir hören, Ihr könnt es finden, indem Ihr =path= folgt, der durch =landmark.text= =direction.expandedDirection= verläuft",
+      "new_value": "wir hören, du kannst es finden, indem du =path= folgst, der durch =landmark.text= =direction.expandedDirection= verläuft",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "73bd1c66def3bfca",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/InteractWithAnObject/holyitem/rewardYou=/0",
+      "context": "spice.quests.InteractWithAnObject.holyitem.rewardYou",
+      "old_value": "wir werden Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "new_value": "wir werden deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "40a0c7b9371015e8",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/InteractWithAnObject/strangeplan/IRewardYou=/0",
+      "context": "spice.quests.InteractWithAnObject.strangeplan.IRewardYou",
+      "old_value": "Ich werde Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "new_value": "Ich werde deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cea6c030e4170705",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/cooking/ate=/0",
+      "context": "spice.cooking.ate",
+      "old_value": "Ihr esst die Mahlzeit.",
+      "new_value": "Du isst die Mahlzeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1a7479b0cc8055e5",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/cooking/cookTemplate=/0",
+      "context": "spice.cooking.cookTemplate",
+      "old_value": "Ihr werft =ingredients.andList= in einen Topf und rührt um.",
+      "new_value": "Du wirfst =ingredients.andList= in einen Topf und rührst um.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8ea723e101953b79",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/cooking/cookTemplate=/1",
+      "context": "spice.cooking.cookTemplate",
+      "old_value": "Ihr sammelt, was immer Ihr für Eure Mahlzeit finden könnt: =ingredients.andList=.\n\nIhr werft sie in einen Topf und rührt um.",
+      "new_value": "Du sammelst, was immer du für deine Mahlzeit finden kannst: =ingredients.andList=.\n\nDu wirfst sie in einen Topf und rührst um.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "22de73559200af33",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/cooking/cookTemplate=/2",
+      "context": "spice.cooking.cookTemplate",
+      "old_value": "Beim Durchsuchen Eurer Umgebung findet Ihr diese Zutaten: =ingredients.andList=.\n\nIhr werft sie in einen Topf und rührt um.",
+      "new_value": "Beim Durchsuchen deiner Umgebung findest du diese Zutaten: =ingredients.andList=.\n\nDu wirfst sie in einen Topf und rührst um.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0773d17bb28d98ff",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/cooking/cookTemplate=/3",
+      "context": "spice.cooking.cookTemplate",
+      "old_value": "Ihr sammelt einige Zutaten: =ingredients.andList=.\n\nIhr werft sie in einen Topf und rührt um.",
+      "new_value": "Du sammelst einige Zutaten: =ingredients.andList=.\n\nDu wirfst sie in einen Topf und rührst um.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d27410f4782efacb",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/friendOrFoe/default/hateReasons=/15",
+      "context": "spice.friendOrFoe.default.hateReasons",
+      "old_value": "Euch als einer ihrer Anführer ausgegeben habt",
+      "new_value": "dich als einer ihrer Anführer ausgegeben hast",
+      "note": "Subjekt kommt aus Rahmen 'weil Ihr' (hateReasons) - Rahmen muss ebenfalls auf 'weil du' umgestellt sein",
+      "status": "accepted"
+    },
+    {
+      "uid": "8aa94984adb3cf33",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/friendOrFoe/default/hateReasons=/27",
+      "context": "spice.friendOrFoe.default.hateReasons",
+      "old_value": "einem der Ihren ein ungünstiges Horoskop gelegt habt",
+      "new_value": "einem der Ihren ein ungünstiges Horoskop gelegt hast",
+      "note": "'der Ihren' = their kind, bleibt; habt->hast setzt 'weil du'-Rahmen voraus",
+      "status": "accepted"
+    },
+    {
+      "uid": "15a955e3d5c2e954",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/friendOrFoe/default/likeReasons=/12",
+      "context": "spice.friendOrFoe.default.likeReasons",
+      "old_value": "einem der Ihren ein günstiges Horoskop gelegt habt",
+      "new_value": "einem der Ihren ein günstiges Horoskop gelegt hast",
+      "note": "'der Ihren' = their kind, bleibt; habt->hast setzt 'weil du'-Rahmen voraus",
+      "status": "accepted"
+    }
+  ]
+}

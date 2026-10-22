@@ -1,0 +1,1508 @@
+{
+  "batch": "du-conversations-03",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-conversations-03)",
+  "created": "2026-10-22 14:39",
+  "items": [
+    {
+      "uid": "5ee40dd36968aa10",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Kasaphescence.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Kasaphescence.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fed8f810a4d97dda",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Mechanimist.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Mechanimist.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d408ef3e34f6fea9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Songs.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Songs.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "78cb30d1b6f5ea4f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Machine.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Machine.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7dddb25f4f20f9c4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.GritGate.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.GritGate.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9849dc37e77b4436",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba2.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Sheba2.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de7b335bedd59cfe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Rumbling.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Rumbling.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "394d17a4d001f0d0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Kasaphescence.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Kasaphescence.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3d6bd6bcd61a3766",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Mechanimist.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Mechanimist.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f0c729b51d3975fc",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Songs.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Songs.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f782a44db1c5cd0e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Orb.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Orb.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cc8f49b442b3593f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.GritGate.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.GritGate.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6b5f3c28b9423028",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba2.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Sheba2.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "667f5646012b3592",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Rumbling.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Rumbling.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d3c29e7aee8cf937",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Orb.MusicChoice.Text|Is that... music... coming from your loudspeaker?\nIt sounds like a bell echoing in the void backward through time.",
+      "context": "Conversation Jacobo.Orb.MusicChoice.Text",
+      "old_value": "Ist das... Musik... von Eurem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "new_value": "Ist das... Musik... von deinem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a2b6d37a393fc081",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Machine.MusicChoice.Text|Is that... music... coming from your loudspeaker?\nIt sounds like a bell echoing in the void backward through time.",
+      "context": "Conversation Jacobo.Machine.MusicChoice.Text",
+      "old_value": "Ist das... Musik... von Eurem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "new_value": "Ist das... Musik... von deinem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5555b6df56f0eb3b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.GritGate.MusicChoice.Text|Is that... music... coming from your loudspeaker?\nIt sounds like a bell echoing in the void backward through time.",
+      "context": "Conversation Jacobo.GritGate.MusicChoice.Text",
+      "old_value": "Ist das... Musik... von Eurem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "new_value": "Ist das... Musik... von deinem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf876c5713dc5b97",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba2.MusicChoice.Text|Is that... music... coming from your loudspeaker?\nIt sounds like a bell echoing in the void backward through time.",
+      "context": "Conversation Jacobo.Sheba2.MusicChoice.Text",
+      "old_value": "Ist das... Musik... von Eurem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "new_value": "Ist das... Musik... von deinem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd990ec98da038f3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Rumbling.MusicChoice.Text|Is that... music... coming from your loudspeaker?\nIt sounds like a bell echoing in the void backward through time.",
+      "context": "Conversation Jacobo.Rumbling.MusicChoice.Text",
+      "old_value": "Ist das... Musik... von Eurem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "new_value": "Ist das... Musik... von deinem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4807563b873f1f6e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Machine.Text|Don't I know it. I've had to invent eight separate systems of organization to manage them all. At the moment I'm trying out a new one, Harmonices Spiralis. Spiral towers with heights increasing according to the harmonic series of numbers. It's... fine.\n\nThe problem is I'm always inscribing more disks. New contraptions. Reverse-engineered artifacts. It's a good problem to have, I suppose.\n\nTake a look. See if any interest you.",
+      "context": "Conversation Jacobo.Machine.Text",
+      "old_value": "Das kann ich mir denken. Ich musste acht separate Organisationssysteme erfinden, um sie alle zu verwalten. Zur Zeit versuche ich ein neues, Harmonices Spiralis. Spiraltürme mit Höhen, die nach der harmonischen Zahlenreihe zunehmen. Es ist... gut.\n\nDas Problem ist, dass ich immer mehr Scheiben einschreibe. Neue Vorrichtungen. Reverse-engineerte Artefakte. Das ist ein gutes Problem zu haben, nehme ich an.\n\nSchaut Euch um. Seht, ob etwas Euch interessiert.",
+      "new_value": "Das kann ich mir denken. Ich musste acht separate Organisationssysteme erfinden, um sie alle zu verwalten. Zur Zeit versuche ich ein neues, Harmonices Spiralis. Spiraltürme mit Höhen, die nach der harmonischen Zahlenreihe zunehmen. Es ist... gut.\n\nDas Problem ist, dass ich immer mehr Scheiben einschreibe. Neue Vorrichtungen. Reverse-engineerte Artefakte. Das ist ein gutes Problem zu haben, nehme ich an.\n\nSchau dich um. Sieh, ob etwas dich interessiert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc5a28020693d0f3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Start.Text|{{emote|*Neek stares at you awkwardly.*}}",
+      "context": "Conversation Neek.Start.Text",
+      "old_value": "{{emote|*Neek starrt Euch verlegen an.*}}",
+      "new_value": "{{emote|*Neek starrt dich verlegen an.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b84a74baa35254ce",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Jidding.Text|{{emote|*Neek stares at you awkwardly.*}}",
+      "context": "Conversation Neek.Jidding.Text",
+      "old_value": "{{emote|*Neek starrt Euch verlegen an.*}}",
+      "new_value": "{{emote|*Neek starrt dich verlegen an.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "95a483bb9a85ec98",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Joke.Text|It's sort of like \"Neek stares at you awkwardly\" no but I'm just kidding, heh. I'm just 'jidding'.",
+      "context": "Conversation Neek.Joke.Text",
+      "old_value": "Es ist irgendwie wie \"Neek starrt Euch verlegen an\", nein, aber ich scherze nur, heh. Ich 'jidde' einfach.",
+      "new_value": "Es ist irgendwie wie \"Neek starrt dich verlegen an\", nein, aber ich scherze nur, heh. Ich 'jidde' einfach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fd090ccc363ec493",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Start3.HairChoice.Text|Your hair is so... rectangular.",
+      "context": "Conversation Neek.Start3.HairChoice.Text",
+      "old_value": "Euer Haar ist so... rechteckig.",
+      "new_value": "Dein Haar ist so... rechteckig.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fba50b4f5e4f1017",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Bethesda.Text|It's sort of like this. You go to the baetyl. You talk to it and you say, \"Look, where is every beaded bracelet in the jungle? Where is every beaded bracelet in the watervine marsh? Where is every beaded bracelet in the River Svy?\"\n\nThen it tells you and you go get the bracelets.",
+      "context": "Conversation Neek.Bethesda.Text",
+      "old_value": "Es ist so. Ihr geht zum Baetyl. Ihr sprecht mit ihm und sagt: \"Schaut, wo ist jedes Perlarmband im Dschungel? Wo ist jedes Perlarmband im Wasserweinensumpf? Wo ist jedes Perlarmband im Fluss Svy?\"\n\nDann sagt es Euch, und Ihr geht und holt die Armbänder.",
+      "new_value": "Es ist so. Du gehst zum Baetyl. Du sprichst mit ihm und sagst: \"Schau, wo ist jedes Perlarmband im Dschungel? Wo ist jedes Perlarmband im Wasserweinensumpf? Wo ist jedes Perlarmband im Fluss Svy?\"\n\nDann sagt es dir, und du gehst und holst die Armbänder.",
+      "note": "generisches 'you' -> du; 'Schaut' im Zitat = Anrede an den Baetyl (Singular) -> Schau",
+      "status": "accepted"
+    },
+    {
+      "uid": "0a0e476bc771c454",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Omonporch.Text|Asphodel!! I like xem. I get it. It's sort of like you don't want to be here, you don't want to there, you want to be somewhere else. Your own earldom, maybe.",
+      "context": "Conversation Neek.Omonporch.Text",
+      "old_value": "Asphodel!! Ich mag xem. Ich verstehe es. Es ist irgendwie so, als ob Ihr nicht hier sein wollt, nicht dort sein wollt, sondern irgendwo anders sein wollt. Vielleicht in Eurem eigenen Grafschaftsgebiet.",
+      "new_value": "Asphodel!! Ich mag xem. Ich verstehe es. Es ist irgendwie so, als ob du nicht hier sein willst, nicht dort sein willst, sondern irgendwo anders sein willst. Vielleicht in deinem eigenen Grafschaftsgebiet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "480baa8071c75953",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Rumbling.Text|You felt it too! Every. rock. moved. Wooooooow! It's sort of like a community dance we all performed together. Mafeo. Sparafucile. The chromelings. The rocks. Everyone else.",
+      "context": "Conversation Neek.Rumbling.Text",
+      "old_value": "Ihr habt es auch gespürt! Jeder. Stein. bewegte sich. Wooooooow! Es ist irgendwie wie ein Gemeinschaftstanz, den wir alle zusammen aufgeführt haben. Mafeo. Sparafucile. Die Chromelinge. Die Steine. Alle anderen.",
+      "new_value": "Du hast es auch gespürt! Jeder. Stein. bewegte sich. Wooooooow! Es ist irgendwie wie ein Gemeinschaftstanz, den wir alle zusammen aufgeführt haben. Mafeo. Sparafucile. Die Chromelinge. Die Steine. Alle anderen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f1b20b2d762540f9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Do.Text|It's like what I *don't* do is drink Hortensa's sludge soup samples. I drank them once and she saw me and just sort of smiled tactfully but I could tell on the inside she was like \"WOOOOOOOOW\" so I don't do it.\n\nNeek winks at you! Ha ha ha. She knows I still do it.",
+      "context": "Conversation Neek.Do.Text",
+      "old_value": "Es ist so, dass ich *nicht* Hortensas Schlammsuppe-Proben trinke. Ich trank sie einmal und sie sah mich und lächelte einfach taktvoll, aber ich konnte sehen, dass sie innen so dachte \"WOOOOOOOOW\", also mache ich das nicht.\n\nNeek zwinkert Euch zu! Ha ha ha. Sie weiß, dass ich es immer noch tue.",
+      "new_value": "Es ist so, dass ich *nicht* Hortensas Schlammsuppe-Proben trinke. Ich trank sie einmal und sie sah mich und lächelte einfach taktvoll, aber ich konnte sehen, dass sie innen so dachte \"WOOOOOOOOW\", also mache ich das nicht.\n\nNeek zwinkert dir zu! Ha ha ha. Sie weiß, dass ich es immer noch tue.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f30063fee54fedbe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.Hair.Text|Neek, chanting: \"RECTANGLE HAIR! RECTANGLE HAIR! RECTANGLE HAIR!\"\n\nIt's sort of like when prehistoric lizards would grow big sails to regulate their body temperatures and you'd say, \"I like it, but it looks so organically generated. What if you filed it into a sharp rectangle?\"",
+      "context": "Conversation Neek.Hair.Text",
+      "old_value": "Neek, skandierend: \"RECHTECK-HAAR! RECHTECK-HAAR! RECHTECK-HAAR!\"\n\nEs ist irgendwie so, wie wenn prähistorische Echsen große Segel wachsen ließen, um ihre Körpertemperatur zu regulieren, und Ihr würdet sagen, \"Mir gefällt es, aber es sieht so organisch erzeugt aus. Was wäre, wenn Ihr es in ein scharfes Rechteck feilen würdet?\"",
+      "new_value": "Neek, skandierend: \"RECHTECK-HAAR! RECHTECK-HAAR! RECHTECK-HAAR!\"\n\nEs ist irgendwie so, wie wenn prähistorische Echsen große Segel wachsen ließen, um ihre Körpertemperatur zu regulieren, und du würdest sagen, \"Mir gefällt es, aber es sieht so organisch erzeugt aus. Was wäre, wenn du es in ein scharfes Rechteck feilen würdest?\"",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7523271c34290c01",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.GritGate.Text|It's a big bear city with a lot of books and scratched brass and strange noises. But if you start chanting in sync with the noises Otho will hush you. It's sort of like this, let me explain.\n\nIseppa is napping so you peek into her room and rearrange her papers.\nThen you walk down the hall and say \"ding ding\" so Mafeo shakes his head and dings back.\nThen you foaminate by Hortensa. You foaminate right on by. You hug her too.\nThen you scoot over and hug Spara.\nThen you scoot over to Jacobo and look over his shoulder and nod like this.\n\n{{emote|*Neek nods thoughtfully.*}}",
+      "context": "Conversation Neek.GritGate.Text",
+      "old_value": "Es ist eine große Bärenstadt mit vielen Büchern und zerkratztem Messing und seltsamen Geräuschen. Aber wenn Ihr anfangt, mit den Geräuschen im Einklang zu skandieren, wird Otho Euch zum Schweigen bringen. Es ist irgendwie so, lasst mich erklären.\n\nIseppa schläft, also schaut Ihr in ihr Zimmer und räumt ihre Papiere um.\nDann geht Ihr den Flur hinunter und sagt \"ding ding\", also schüttelt Mafeo seinen Kopf und macht ding zurück.\nDann gleitet Ihr vorbei an Hortensa. Ihr gleitet einfach vorbei. Ihr umarmt sie auch.\nDann rutscht Ihr hinüber und umarmt Spara.\nDann rutscht Ihr hinüber zu Jacobo und schaut über seine Schulter und nickt so.\n\n{{emote|*Neek nickt nachdenklich.*}}",
+      "new_value": "Es ist eine große Bärenstadt mit vielen Büchern und zerkratztem Messing und seltsamen Geräuschen. Aber wenn du anfängst, mit den Geräuschen im Einklang zu skandieren, wird Otho dich zum Schweigen bringen. Es ist irgendwie so, lass mich erklären.\n\nIseppa schläft, also schaust du in ihr Zimmer und räumst ihre Papiere um.\nDann gehst du den Flur hinunter und sagst \"ding ding\", also schüttelt Mafeo seinen Kopf und macht ding zurück.\nDann gleitest du vorbei an Hortensa. Du gleitest einfach vorbei. Du umarmst sie auch.\nDann rutschst du hinüber und umarmst Spara.\nDann rutschst du hinüber zu Jacobo und schaust über seine Schulter und nickst so.\n\n{{emote|*Neek nickt nachdenklich.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "014ad6d3cb0fb6cb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neek.GritGate2.Text|You go and run at Q Girl and tap all the gadgets and tap her on the head.\nThen you sneak by Otho's office.\nThen you hug Shem -1 and you drag them to the library and read to them. Sometimes Barathrum and Hortensa are in there, and they smile at you.\nThen you get hungry and you roll toward the kitchen. You slurp honey from the vase and Dardi glares at you. You say, \"I'm just 'jidding'.\"\nThen you climb the pipes and whisper to Aloysius, \"Live and drink, live and drink, live and drink.\"\nThen you pat the chromelings on their heads. You say to Ereshkigal, \"boom boom boom boom boom I love you.\"\nThen you sneak into storage and pat all the chromelings on their heads.\nYou take a nap in the peptic chair.\nThen you get a bright idea and go back to your room to write it in your notebook.",
+      "context": "Conversation Neek.GritGate2.Text",
+      "old_value": "Ihr geht und rennt zu Q Girl und tippt auf alle Gadgets und tippt sie auf den Kopf.\nDann schleicht Ihr an Othos Büro vorbei.\nDann umarmt Ihr Shem -1 und zieht sie zur Bibliothek und lest ihnen vor. Manchmal sind Barathrum und Hortensa dort, und sie lächeln Euch an.\nDann habt Ihr Hunger und rollt zur Küche. Ihr schlürft Honig aus der Vase und Dardi starrt Euch wütend an. Ihr sagt: \"Ich 'jidde' einfach.\"\nDann klettert Ihr die Rohre hinauf und flüstert Aloysius zu: \"Lebe und trinke, lebe und trinke, lebe und trinke.\"\nDann streichelt Ihr die Chromelinge auf ihren Köpfen. Ihr sagt zu Ereshkigal: \"boom boom boom boom boom Ich liebe dich.\"\nDann schleicht Ihr in den Lagerraum und streichelt alle Chromelinge auf ihren Köpfen.\nIhr macht ein Nickerchen im Peptic-Stuhl.\nDann bekommt Ihr eine brillante Idee und geht zu Eurem Zimmer zurück, um sie in Eurem Notizbuch zu schreiben.",
+      "new_value": "Du gehst und rennst zu Q Girl und tippst auf alle Gadgets und tippst sie auf den Kopf.\nDann schleichst du an Othos Büro vorbei.\nDann umarmst du Shem -1 und ziehst sie zur Bibliothek und liest ihnen vor. Manchmal sind Barathrum und Hortensa dort, und sie lächeln dich an.\nDann hast du Hunger und rollst zur Küche. Du schlürfst Honig aus der Vase und Dardi starrt dich wütend an. Du sagst: \"Ich 'jidde' einfach.\"\nDann kletterst du die Rohre hinauf und flüsterst Aloysius zu: \"Lebe und trinke, lebe und trinke, lebe und trinke.\"\nDann streichelst du die Chromelinge auf ihren Köpfen. Du sagst zu Ereshkigal: \"boom boom boom boom boom Ich liebe dich.\"\nDann schleichst du in den Lagerraum und streichelst alle Chromelinge auf ihren Köpfen.\nDu machst ein Nickerchen im Peptic-Stuhl.\nDann bekommst du eine brillante Idee und gehst zu deinem Zimmer zurück, um sie in deinem Notizbuch zu schreiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4aacd26df9cb737a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Intercom.Start.Text|{{B|[{{C|Voice transmitting through panel}}]}}\n\nBe gone, wayfarer. This is no place for you.",
+      "context": "Conversation Gritgate Intercom.Start.Text",
+      "old_value": "{{B|[{{C|Stimme wird durch Panel übertragen}}]}}\n\nGeht fort, Wanderer. Das ist kein Platz für Euch.",
+      "new_value": "{{B|[{{C|Stimme wird durch Panel übertragen}}]}}\n\nGeh fort, Wanderer. Das ist kein Platz für dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5284ed48a7ee099",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Intercom.Start.GiveDiskChoice.Text|Wait! My name is =name=. I've come into possession of a data disk stamped with a peculiar sigil. Does this have meaning to your order of tinkers? Might you examine it?",
+      "context": "Conversation Gritgate Intercom.Start.GiveDiskChoice.Text",
+      "old_value": "Wartet! Mein Name ist =name=. Ich bin in den Besitz einer Datenscheibe gekommen, die mit einem seltsamen Siegel gestempelt ist. Hat dies für Eure Tinker-Gemeinschaft eine Bedeutung? Könnt Ihr sie untersuchen?",
+      "new_value": "Warte! Mein Name ist =name=. Ich bin in den Besitz einer Datenscheibe gekommen, die mit einem seltsamen Siegel gestempelt ist. Hat dies für deine Tinker-Gemeinschaft eine Bedeutung? Kannst du sie untersuchen?",
+      "note": "Intercom-Stimme als Einzelperson behandelt; 'your order' koennte auch Plural-Anrede (ihr/eure) sein",
+      "status": "accepted"
+    },
+    {
+      "uid": "bf10390897f890c6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Intercom.Start.GiveDiskChoice2.Text|Wait! My name is =name=. I've come into possession of a data disk stamped with a peculiar sigil. Does this have meaning to your order of tinkers? Might you examine it?",
+      "context": "Conversation Gritgate Intercom.Start.GiveDiskChoice2.Text",
+      "old_value": "Wartet! Mein Name ist =name=. Ich bin in den Besitz einer Datenscheibe gekommen, die mit einem seltsamen Siegel gestempelt ist. Hat dies für Eure Tinker-Gemeinschaft eine Bedeutung? Könnt Ihr sie untersuchen?",
+      "new_value": "Warte! Mein Name ist =name=. Ich bin in den Besitz einer Datenscheibe gekommen, die mit einem seltsamen Siegel gestempelt ist. Hat dies für deine Tinker-Gemeinschaft eine Bedeutung? Kannst du sie untersuchen?",
+      "note": "Intercom-Stimme als Einzelperson behandelt; 'your order' koennte auch Plural-Anrede (ihr/eure) sein",
+      "status": "accepted"
+    },
+    {
+      "uid": "47ad60ea0359586c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Intercom.Start.GiveDiskChoice4.Text|Wait! My name is =name=. The people of =villageZeroName= recently came into possession of a data disk, onto which a strange signal was recorded. At their behest I carry the disk with me. They say your tutelage is to be my reward.",
+      "context": "Conversation Gritgate Intercom.Start.GiveDiskChoice4.Text",
+      "old_value": "Wartet! Mein Name ist =name=. Das Volk von =villageZeroName= ist kürzlich in den Besitz einer Datenscheibe gekommen, auf die ein seltsames Signal aufgezeichnet wurde. Auf ihren Befehl hin trage ich die Scheibe mit mir. Sie sagen, Eure Anleitung ist meine Belohnung.",
+      "new_value": "Warte! Mein Name ist =name=. Das Volk von =villageZeroName= ist kürzlich in den Besitz einer Datenscheibe gekommen, auf die ein seltsames Signal aufgezeichnet wurde. Auf ihren Befehl hin trage ich die Scheibe mit mir. Sie sagen, deine Anleitung ist meine Belohnung.",
+      "note": "Intercom-Stimme als Einzelperson behandelt",
+      "status": "accepted"
+    },
+    {
+      "uid": "0b0fb9c10917a9d9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Intercom.GaveDiskFromVillage.Text|[several minutes pass]\n\nSo you wish to study with us. Unfortunately, we require more than a willing spirit.\n\nQud is not =villageZeroName=. You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.\n\nRecover one, repair it, and return here. If we are satisfied with your work, you will be admitted to our order. Otherwise, you will not be.\n\nDo you accept this arrangement?",
+      "context": "Conversation Gritgate Intercom.GaveDiskFromVillage.Text",
+      "old_value": "[mehrere Minuten vergehen]\n\nAlso wollt Ihr mit uns studieren. Leider brauchen wir mehr als einen willigen Geist.\n\nQud ist nicht =villageZeroName=. Ihr werdet Eure Würdigkeit beweisen müssen, damit Ihr nicht unsere Zeit und Mühe verschwendet. Reist zur großen Höhle Golgotha im Norden. In ihren Hallen werdet Ihr ein Lager dysfunktionaler Waydroids finden.\n\nBesorgt einen, repariert ihn, und kehrt hier zurück. Wenn wir mit Eurer Arbeit zufrieden sind, werdet Ihr in unseren Orden aufgenommen. Ansonsten nicht.\n\nAkzeptiert Ihr diese Vereinbarung?",
+      "new_value": "[mehrere Minuten vergehen]\n\nAlso willst du mit uns studieren. Leider brauchen wir mehr als einen willigen Geist.\n\nQud ist nicht =villageZeroName=. Du wirst deine Würdigkeit beweisen müssen, damit du nicht unsere Zeit und Mühe verschwendest. Reise zur großen Höhle Golgotha im Norden. In ihren Hallen wirst du ein Lager dysfunktionaler Waydroids finden.\n\nBesorge einen, repariere ihn, und kehre hier zurück. Wenn wir mit deiner Arbeit zufrieden sind, wirst du in unseren Orden aufgenommen. Ansonsten nicht.\n\nAkzeptierst du diese Vereinbarung?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ba248523cdc54793",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Intercom.GaveDiskSolo.Text|[several minutes pass]\n\nThe disk you bring is encoded with an important signal. To discuss it further, we must admit you to our order. Unfortunately, we require more than a willing spirit.\n\nYou will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.\n\nRecover one, repair it, and return here. If we are satisfied with your work, you will be admitted as an apprentice. Otherwise, you will be turned away.\n\nDo you accept this arrangement?",
+      "context": "Conversation Gritgate Intercom.GaveDiskSolo.Text",
+      "old_value": "[mehrere Minuten vergehen]\n\nDie Scheibe, die Ihr bringt, ist mit einem wichtigen Signal codiert. Um sie weiter zu besprechen, müssen wir Euch in unseren Orden aufnehmen. Leider brauchen wir mehr als einen willigen Geist.\n\nIhr werdet Eure Würdigkeit beweisen müssen, damit Ihr nicht unsere Zeit und Mühe verschwendet. Reist zur großen Höhle Golgotha im Norden. In ihren Hallen werdet Ihr ein Lager dysfunktionaler Waydroids finden.\n\nBesorgt einen, repariert ihn, und kehrt hier zurück. Wenn wir mit Eurer Arbeit zufrieden sind, werdet Ihr als Lehrling aufgenommen. Ansonsten werdet Ihr fortgeschickt.\n\nAkzeptiert Ihr diese Vereinbarung?",
+      "new_value": "[mehrere Minuten vergehen]\n\nDie Scheibe, die du bringst, ist mit einem wichtigen Signal codiert. Um sie weiter zu besprechen, müssen wir dich in unseren Orden aufnehmen. Leider brauchen wir mehr als einen willigen Geist.\n\nDu wirst deine Würdigkeit beweisen müssen, damit du nicht unsere Zeit und Mühe verschwendest. Reise zur großen Höhle Golgotha im Norden. In ihren Hallen wirst du ein Lager dysfunktionaler Waydroids finden.\n\nBesorge einen, repariere ihn, und kehre hier zurück. Wenn wir mit deiner Arbeit zufrieden sind, wirst du als Lehrling aufgenommen. Ansonsten wirst du fortgeschickt.\n\nAkzeptierst du diese Vereinbarung?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c2eee246080327c8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Intercom.GaveDisk.Text|[several minutes pass]\n\nSo it seems that you are indeed Argyve's apprentice. He wishes you to study with us. Unfortunately, we require more than a willing spirit.\n\nQud is not Joppa. You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.\n\nRecover one, repair it, and return here. If we are satisfied with your work, you will be admitted to our order. Otherwise, you will not be.\n\nDo you accept this arrangement?",
+      "context": "Conversation Gritgate Intercom.GaveDisk.Text",
+      "old_value": "[mehrere Minuten vergehen]\n\nSo scheint es, Ihr seid wirklich Argyves Lehrling. Er wünscht, dass Ihr mit uns studiert. Leider brauchen wir mehr als einen willigen Geist.\n\nQud ist nicht Joppa. Ihr werdet Eure Würdigkeit beweisen müssen, damit Ihr nicht unsere Zeit und Mühe verschwendet. Reist zur großen Höhle Golgotha im Norden. In ihren Hallen werdet Ihr ein Lager dysfunktionaler Waydroids finden.\n\nBesorgt einen, repariert ihn, und kehrt hier zurück. Wenn wir mit Eurer Arbeit zufrieden sind, werdet Ihr in unseren Orden aufgenommen. Ansonsten nicht.\n\nAkzeptiert Ihr diese Vereinbarung?",
+      "new_value": "[mehrere Minuten vergehen]\n\nSo scheint es, du bist wirklich Argyves Lehrling. Er wünscht, dass du mit uns studierst. Leider brauchen wir mehr als einen willigen Geist.\n\nQud ist nicht Joppa. Du wirst deine Würdigkeit beweisen müssen, damit du nicht unsere Zeit und Mühe verschwendest. Reise zur großen Höhle Golgotha im Norden. In ihren Hallen wirst du ein Lager dysfunktionaler Waydroids finden.\n\nBesorge einen, repariere ihn, und kehre hier zurück. Wenn wir mit deiner Arbeit zufrieden sind, wirst du in unseren Orden aufgenommen. Ansonsten nicht.\n\nAkzeptierst du diese Vereinbarung?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80e03c820a56d211",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Intercom.RepairedWaydroid.Text|[The slot opens from the center of the door. A bright red light shines through.]\n\n[Several minutes pass.]\n\nYou may enter. Simply walk through the force barrier. Make your first two lefts and speak to Steward Otho in his office.",
+      "context": "Conversation Gritgate Intercom.RepairedWaydroid.Text",
+      "old_value": "[Der Spalt öffnet sich von der Mitte der Tür. Ein helles rotes Licht scheint hindurch.]\n\n[Mehrere Minuten vergehen.]\n\nIhr könnt eintreten. Geht einfach durch die Kraftbarriere. Macht eure ersten zwei Linksdrehungen und sprecht mit Verwalter Otho in seinem Büro.",
+      "new_value": "[Der Spalt öffnet sich von der Mitte der Tür. Ein helles rotes Licht scheint hindurch.]\n\n[Mehrere Minuten vergehen.]\n\nDu kannst eintreten. Geh einfach durch die Kraftbarriere. Mach deine ersten zwei Linksdrehungen und sprich mit Verwalter Otho in seinem Büro.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3d84e26e434c5319",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mafeo.Post Arms.Text|Such interesting times we inhabit, =name=!\n\nGood to see you well. Is there anything you need?",
+      "context": "Conversation Mafeo.Post Arms.Text",
+      "old_value": "Solch interessante Zeiten, in denen wir wohnen, =name=!\n\nSchön, Euch wohlauf zu sehen. Braucht Ihr etwas?",
+      "new_value": "Solch interessante Zeiten, in denen wir wohnen, =name=!\n\nSchön, dich wohlauf zu sehen. Brauchst du etwas?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ad07ac0e29c493ce",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mafeo.TombQuest.EndChoice.Text|I thank you. Live and drink.",
+      "context": "Conversation Mafeo.TombQuest.EndChoice.Text",
+      "old_value": "Ich danke Euch. Lebe und trinke.",
+      "new_value": "Ich danke dir. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bb105a30e52b22d2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nuntu.SlynthRequestAccept.EndChoice.Text|You have my thanks, mayor.",
+      "context": "Conversation Nuntu.SlynthRequestAccept.EndChoice.Text",
+      "old_value": "Ich danke Euch, Bürgermeister.",
+      "new_value": "Ich danke dir, Bürgermeister.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0e69e61b9b5f06f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mafeo.Start2.Text|Welcome to Grit Gate, =factionaddress:Barathrumites=. Care to enhance the quality of your stay with a wise purchase?",
+      "context": "Conversation Mafeo.Start2.Text",
+      "old_value": "Willkommen in Grit Gate, =factionaddress:Barathrumites=. Möchtet Ihr die Qualität Eures Aufenthalts mit einem weisen Kauf verbessern?",
+      "new_value": "Willkommen in Grit Gate, =factionaddress:Barathrumites=. Möchtest du die Qualität deines Aufenthalts mit einem weisen Kauf verbessern?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d918f0b7b207445",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mafeo.Bethesda.Text|Bethesda Susa? Lovely, but a bit dangerous for a holiday destination. You'll want to bring bandages and warm clothing. Why not take a look at my stock in case something suits you?",
+      "context": "Conversation Mafeo.Bethesda.Text",
+      "old_value": "Bethesda Susa? Entzückend, aber etwas gefährlich als Urlaubsziel. Ihr werdet Verbandsmaterial und warme Kleidung mitbringen wollen. Warum schaut Ihr nicht mein Angebot durch, falls etwas für euch geeignet ist?",
+      "new_value": "Bethesda Susa? Entzückend, aber etwas gefährlich als Urlaubsziel. Du wirst Verbandsmaterial und warme Kleidung mitbringen wollen. Warum schaust du nicht mein Angebot durch, falls etwas für dich geeignet ist?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fd3bf96d382c1c30",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Crowsong.Welcome.SwordsChoice.Text|Your twinblades are works of art. Where did you get them?",
+      "context": "Conversation Crowsong.Welcome.SwordsChoice.Text",
+      "old_value": "Eure Zwillingsklingen sind Kunstwerke. Woher habt Ihr sie?",
+      "new_value": "Deine Zwillingsklingen sind Kunstwerke. Woher hast du sie?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc812b3e8dd20dac",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Yurl.Asphodel.Text|Asphodel the socialite? Asphodel the scoundrel? You can hate xym -- and I do -- but you have to admire xym (I don't).\n\nThe truth of it is that Plysago had the idea first, to lay claim to the Spindle per some precedent of law established in Abram's time. Of course, Plysago isn't around to make their case, are they?",
+      "context": "Conversation Yurl.Asphodel.Text",
+      "old_value": "Asphodel der Gesellschafter? Asphodel der Schuft? Ihr könnt xym hassen -- und ich tue es -- aber ihr müsst xym bewundern (ich nicht).\n\nDie Wahrheit ist, dass Plysago die Idee zuerst hatte, einen Anspruch auf die Spindel geltend zu machen nach einem Präzedenzfall des Rechts, das zu Abrams Zeit etabliert wurde. Natürlich ist Plysago nicht mehr da, um ihren Fall zu vertreten, nicht wahr?",
+      "new_value": "Asphodel der Gesellschafter? Asphodel der Schuft? Du kannst xym hassen -- und ich tue es -- aber du musst xym bewundern (ich nicht).\n\nDie Wahrheit ist, dass Plysago die Idee zuerst hatte, einen Anspruch auf die Spindel geltend zu machen nach einem Präzedenzfall des Rechts, das zu Abrams Zeit etabliert wurde. Natürlich ist Plysago nicht mehr da, um ihren Fall zu vertreten, nicht wahr?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2a4757fb605cfdac",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nuntu.SlynthArrived.Text|Never has Kyakukya seen such bustle. These slynth are seem to be as good citizens as any, but I am at my limit with the stress of keeping track of everything.\n\nPlease check in again after some time, when I have my wits about me once again.",
+      "context": "Conversation Nuntu.SlynthArrived.Text",
+      "old_value": "Kyakukya hat noch nie so viel Geschäftigkeit gesehen. Diese Slynth scheinen gute Bürger wie jede andere zu sein, aber ich bin am Ende meiner Kräfte angesichts des Stresses, den Überblick zu behalten.\n\nBitte erkundigt Euch später nochmal, wenn ich wieder meine Sinne beisammen habe.",
+      "new_value": "Kyakukya hat noch nie so viel Geschäftigkeit gesehen. Diese Slynth scheinen gute Bürger wie jede andere zu sein, aber ich bin am Ende meiner Kräfte angesichts des Stresses, den Überblick zu behalten.\n\nBitte erkundige dich später nochmal, wenn ich wieder meine Sinne beisammen habe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "318010ad5b8143d5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Erah.Introduce.Text|I am called Erah. Branches part for you, =name=.",
+      "context": "Conversation Erah.Introduce.Text",
+      "old_value": "Ich heiße Erah. Äste weichen für Euch, =name=.",
+      "new_value": "Ich heiße Erah. Äste weichen für dich, =name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0bc278b2aaa044c5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Erah.Subject.Text|Mmm. Have cider?",
+      "context": "Conversation Erah.Subject.Text",
+      "old_value": "Mmm. Habt Ihr Most?",
+      "new_value": "Mmm. Hast du Most?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1a44dcac0b3b144b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Erah.Naphtaali.GodhedChoice.Text|What became of your Godhed?",
+      "context": "Conversation Erah.Naphtaali.GodhedChoice.Text",
+      "old_value": "Was wurde aus Eurer Gottheit?",
+      "new_value": "Was wurde aus deiner Gottheit?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c542a5b7727a609b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Erah.Naphtaali.MemoriesChoice.Text|May their memories bless you.",
+      "context": "Conversation Erah.Naphtaali.MemoriesChoice.Text",
+      "old_value": "Mögen ihre Erinnerungen Euch segnen.",
+      "new_value": "Mögen ihre Erinnerungen dich segnen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5c94dd6aec02b0de",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation TextPax.Start.Text|Klanq puff at you. =MARKOVSENTENCE=",
+      "context": "Conversation TextPax.Start.Text",
+      "old_value": "Klanq puff auf Euch. =MARKOVSENTENCE=",
+      "new_value": "Klanq puff auf dich. =MARKOVSENTENCE=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e91567bb4fb1f482",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Welcome.Text|Klanq puff at you?",
+      "context": "Conversation PaxKlanq.Welcome.Text",
+      "old_value": "Klanq puff auf Euch?",
+      "new_value": "Klanq puff auf dich?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c12e1f0dcbc702a6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.What.Text|Klanq puff at you.",
+      "context": "Conversation PaxKlanq.What.Text",
+      "old_value": "Klanq puff auf Euch.",
+      "new_value": "Klanq puff auf dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2585496038dcf86",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Quest4.Text|Klanq got it! Klanq puff on you.",
+      "context": "Conversation PaxKlanq.Quest4.Text",
+      "old_value": "Klanq habe es! Klanq puff auf Euch.",
+      "new_value": "Klanq habe es! Klanq puff auf dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "715633a1f23811ee",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq2.Welcome.Text|Klanq puff on you...\n\n\n..later. Now, Klanq pause puff for prickles favor.",
+      "context": "Conversation PaxKlanq2.Welcome.Text",
+      "old_value": "Klanq puff auf Euch...\n\n\n..später. Jetzt pausiert Klanq puff für Stacheln-Gunst.",
+      "new_value": "Klanq puff auf dich...\n\n\n..später. Jetzt pausiert Klanq puff für Stacheln-Gunst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a168a7ffeadbe45c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Welcome.DieChoice.Text|Didn't you die?",
+      "context": "Conversation PaxKlanq.Welcome.DieChoice.Text",
+      "old_value": "Seid Ihr nicht gestorben?",
+      "new_value": "Bist du nicht gestorben?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6913b41426f03893",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq2.Welcome.DieChoice.Text|Didn't you die?",
+      "context": "Conversation PaxKlanq2.Welcome.DieChoice.Text",
+      "old_value": "Seid Ihr nicht gestorben?",
+      "new_value": "Bist du nicht gestorben?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "17d558ef2f76b593",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Welcome.BarathrumStudyChoice.Text|Aren't you supposed to be helping Barathrum in his study?",
+      "context": "Conversation PaxKlanq.Welcome.BarathrumStudyChoice.Text",
+      "old_value": "Solltet Ihr nicht Barathrum in seinem Studium helfen?",
+      "new_value": "Solltest du nicht Barathrum in seinem Studium helfen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9dc6139f660faab5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Presume.ChoiceQuest.Text|Well, you can repay the debt now. Barathrum wants you to build something. A climber. He says only you can do it.",
+      "context": "Conversation PaxKlanq.Presume.ChoiceQuest.Text",
+      "old_value": "Nun, Ihr könnt die Schuld jetzt begleichen. Barathrum möchte, dass Ihr etwas baut. Einen Kletterer. Er sagt, nur Ihr könnt es tun.",
+      "new_value": "Nun, du kannst die Schuld jetzt begleichen. Barathrum möchte, dass du etwas baust. Einen Kletterer. Er sagt, nur du kannst es tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec4492d272446352",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Quest.Quest2Choice.Text|But you owe Barathrum. He needs your help.",
+      "context": "Conversation PaxKlanq.Quest.Quest2Choice.Text",
+      "old_value": "Aber Ihr schuldet Barathrum etwas. Er braucht Eure Hilfe.",
+      "new_value": "Aber du schuldest Barathrum etwas. Er braucht deine Hilfe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9fdaed423e2f50ca",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Quest2.Quest3Choice.Text|Is there anything I can do change your mind?",
+      "context": "Conversation PaxKlanq.Quest2.Quest3Choice.Text",
+      "old_value": "Gibt es etwas, das ich tun kann, um Eure Meinung zu ändern?",
+      "new_value": "Gibt es etwas, das ich tun kann, um deine Meinung zu ändern?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ebafb8c6e8cb9e9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq.Quest5.Text|Klanq puff on you. You host Klanq. You spread Klanq for Klanq. Then your Klanq shrivels away.\n\nKlanq puff on you, then Klanq build jalopy.",
+      "context": "Conversation PaxKlanq.Quest5.Text",
+      "old_value": "Klanq puff auf Euch. Ihr beherbergt Klanq. Ihr verbreitet Klanq für Klanq. Dann schrumpft Euer Klanq dahin.\n\nKlanq puff auf Euch, dann Klanq baue Klapperkiste.",
+      "new_value": "Klanq puff auf dich. Du beherbergst Klanq. Du verbreitest Klanq für Klanq. Dann schrumpft dein Klanq dahin.\n\nKlanq puff auf dich, dann Klanq baue Klapperkiste.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d550535dd05b9b1d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq2.Welcome.BarathrumsStudyChoice.Text|Do you live in Grit Gate now?",
+      "context": "Conversation PaxKlanq2.Welcome.BarathrumsStudyChoice.Text",
+      "old_value": "Lebt Ihr jetzt im Grit Gate?",
+      "new_value": "Lebst du jetzt im Grit Gate?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7188799805201f97",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq2.BuildGolem.GolemThreeDaysChoice.BuildGolem|You haven't provided the mound with all the necessary materials.",
+      "context": "Conversation PaxKlanq2.BuildGolem.GolemThreeDaysChoice.BuildGolem",
+      "old_value": "Ihr habt dem Hügel nicht alle notwendigen Materialien gegeben.",
+      "new_value": "Du hast dem Hügel nicht alle notwendigen Materialien gegeben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4e5843f93789a83e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation PaxKlanq2.BuildGolem.GolemThreeDaysChoice.TakeLiquid|You don't have enough primordial soup.",
+      "context": "Conversation PaxKlanq2.BuildGolem.GolemThreeDaysChoice.TakeLiquid",
+      "old_value": "Ihr habt nicht genug Ursuppe.",
+      "new_value": "Du hast nicht genug Ursuppe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1745f391ca8c7b61",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Indrix.Raising2.Text|There is a river just south of the village that runs an eastwardly course into the jungle. Along its bank lies a goatfolk village. There resides a mighty shaman, Mamon Souldrinker. He is in possession of a talisman of great power, an amaranthine prism that refracts the psyche of its handler in much the same way, as Mayor Nuntu has explained to me, a common prism refracts light. The thing is cursed, traveler. No man or goat may safely wield it for long. You must travel to the village and retrieve the prism from Mamon by any means necessary. Do you understand?",
+      "context": "Conversation Indrix.Raising2.Text",
+      "old_value": "Es gibt einen Fluss südlich des Dorfes, der einen östlichen Kurs in den Dschungel nimmt. An seinem Ufer liegt ein Ziegenvolk-Dorf. Dort residiert ein mächtiger Schamane, Mamon Seelentrinker. Er besitzt ein Talisman von großer Kraft, ein amaranthines Prisma, das die Psyche seines Trägers auf die gleiche Weise bricht, wie mir Bürgermeister Nuntu erklärt hat, wie ein gewöhnliches Prisma das Licht bricht. Die Sache ist verflucht, Reisender. Kein Mensch und keine Ziege können sie sicher lange Zeit nutzen. Ihr müsst zum Dorf reisen und das Prisma mit allen notwendigen Mitteln von Mamon zurückholen. Versteht ihr das?",
+      "new_value": "Es gibt einen Fluss südlich des Dorfes, der einen östlichen Kurs in den Dschungel nimmt. An seinem Ufer liegt ein Ziegenvolk-Dorf. Dort residiert ein mächtiger Schamane, Mamon Seelentrinker. Er besitzt ein Talisman von großer Kraft, ein amaranthines Prisma, das die Psyche seines Trägers auf die gleiche Weise bricht, wie mir Bürgermeister Nuntu erklärt hat, wie ein gewöhnliches Prisma das Licht bricht. Die Sache ist verflucht, Reisender. Kein Mensch und keine Ziege können sie sicher lange Zeit nutzen. Du musst zum Dorf reisen und das Prisma mit allen notwendigen Mitteln von Mamon zurückholen. Verstehst du das?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7c1f715f289a817b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Indrix.HasPrism.Text|Is it so? Only a ferocious warrior could have slain Mamon. You must be such a warrior. Now hand over the prism and choose your reward.",
+      "context": "Conversation Indrix.HasPrism.Text",
+      "old_value": "Ist das so? Nur ein wilder Krieger konnte Mamon getötet haben. Ihr müsst ein solcher Krieger sein. Nun gebt das Prisma ab und wählt eure Belohnung.",
+      "new_value": "Ist das so? Nur ein wilder Krieger konnte Mamon getötet haben. Du musst ein solcher Krieger sein. Nun gib das Prisma ab und wähle deine Belohnung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b195a88d80789c8f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Asphodel.Viceroy.Text|That's right. I've leased your friends the Spindlegrounds and appointed you viceroy to oversee their operation.\n\nWelcome to court, asphodelyte. You serve at my pleasure.",
+      "context": "Conversation Asphodel.Viceroy.Text",
+      "old_value": "Das stimmt. Ich habe eure Freunde die Spindelgründe gepachtet und euch zum Vizestatthalter ernannt, um ihre Operation zu überwachen.\n\nWillkommen bei Hof, Asphodelyt. Ihr dient nach meinem Belieben.",
+      "new_value": "Das stimmt. Ich habe deine Freunde die Spindelgründe gepachtet und dich zum Vizestatthalter ernannt, um ihre Operation zu überwachen.\n\nWillkommen bei Hof, Asphodelyt. Du dienst nach meinem Belieben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2197704bd53992e1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation AsphodelArrived.Start.Text|Are you ready to begin negotiations?",
+      "context": "Conversation AsphodelArrived.Start.Text",
+      "old_value": "Seid Ihr bereit, Verhandlungen zu beginnen?",
+      "new_value": "Bist du bereit, Verhandlungen zu beginnen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae07a76f2d4441ef",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation AsphodelDone.Start.Text|Your friends may lease the Spindle, as we agreed.",
+      "context": "Conversation AsphodelDone.Start.Text",
+      "old_value": "Eure Freunde dürfen die Spindel pachten, wie vereinbart.",
+      "new_value": "Deine Freunde dürfen die Spindel pachten, wie vereinbart.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "26ca5341633a0126",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Woodsprog.Start.Text.Text3|You wandering? Be nimble.",
+      "context": "Conversation Woodsprog.Start.Text.Text3",
+      "old_value": "Ihr wandert? Seid behend.",
+      "new_value": "Du wanderst? Sei behend.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec2746962f2f038d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation JoppaFarmer.Start.Text.Text10|You harvest it, you keep it.",
+      "context": "Conversation JoppaFarmer.Start.Text.Text10",
+      "old_value": "Ihr erntet es, ihr behaltet es.",
+      "new_value": "Du erntest es, du behältst es.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6c9aa133c9a2b76b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tortoises.Start.EndChoice.Text|Your home is on your back, =pronouns.formalAddressTerm=.",
+      "context": "Conversation Tortoises.Start.EndChoice.Text",
+      "old_value": "Euer Heim ist auf eurem Rücken, =pronouns.formalAddressTerm=.",
+      "new_value": "Dein Heim ist auf deinem Rücken, =pronouns.formalAddressTerm=.",
+      "note": "Anrede an die Schildkroete; =pronouns.formalAddressTerm= unveraendert",
+      "status": "accepted"
+    },
+    {
+      "uid": "87ed0eab1553d33a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Goatfolk.Start.Text.Text9|May you gorge upon the flesh of beasts by starlight.",
+      "context": "Conversation Goatfolk.Start.Text.Text9",
+      "old_value": "Möget Ihr Euch am Fleisch der Bestien unter Sternenlicht sättigen.",
+      "new_value": "Mögest du dich am Fleisch der Bestien unter Sternenlicht sättigen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "552fb9c100ff8ebf",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.SlynthRequest.Text|Don't be coy, =name=. Emboldened by your incursions into our village, you wish to fill it with your indigent foundlings on the weight of your reputation alone. Am I correct?",
+      "context": "Conversation Keh.SlynthRequest.Text",
+      "old_value": "Seid nicht verstellt, =name=. Ermutigt durch Eure Eindringlinge in unser Dorf, wünscht Ihr es mit Euren armen Findlingen auf dem Gewicht Eures Rufs allein zu füllen. Habe ich recht?",
+      "new_value": "Sei nicht verstellt, =name=. Ermutigt durch deine Eindringlinge in unser Dorf, wünschst du es mit deinen armen Findlingen auf dem Gewicht deines Rufs allein zu füllen. Habe ich recht?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dfbfea48f9683a7a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.SlynthRequestReject.Text|Then I overestimated your intellect further than I realized. Get out.",
+      "context": "Conversation Keh.SlynthRequestReject.Text",
+      "old_value": "Dann habe ich Euer Verstand noch mehr überschätzt, als ich dachte. Raus.",
+      "new_value": "Dann habe ich deinen Verstand noch mehr überschätzt, als ich dachte. Raus.",
+      "note": "Akkusativ korrigiert (vorher 'Euer Verstand')",
+      "status": "accepted"
+    },
+    {
+      "uid": "6510d34fa8b10b2c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start.Text|Live and drink, kendren. I am Hindriarch Keh; welcome to Bey Lah.\n\nIt's nearly unprecedented for one such as you to pass by our scouts unaccosted, but these are unprecedented circumstances. I have a task for you. Are you interested?",
+      "context": "Conversation Keh.Start.Text",
+      "old_value": "Lebt und trinkt, Kendren. Ich bin Hindriarch Keh; willkommen in Bey Lah.\n\nEs ist fast beispiellos, daß einer wie Ihr an unseren Kundschaftern vorbeikommt ohne angegriffen zu werden, aber dies sind beispiellose Umstände. Ich habe eine Aufgabe für Euch. Interessiert Euch das?",
+      "new_value": "Lebe und trinke, Kendren. Ich bin Hindriarch Keh; willkommen in Bey Lah.\n\nEs ist fast beispiellos, daß einer wie du an unseren Kundschaftern vorbeikommt ohne angegriffen zu werden, aber dies sind beispiellose Umstände. Ich habe eine Aufgabe für dich. Interessiert dich das?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "223c834ebb898b69",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Yes. Go on..AcceptChoice.Text|All right. I'll find your treasure.",
+      "context": "Conversation Keh.Yes. Go on..AcceptChoice.Text",
+      "old_value": "Einverstanden. Ich werde Euren Schatz finden.",
+      "new_value": "Einverstanden. Ich werde deinen Schatz finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e97937f58aa50332",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Accept.Text|Excellent. I will do my best to reward you to your satisfaction.\n\nThough her name is sand in my mouth now, the exile who stole Kindrish is called Eskhind. She left a few weeks ago, and took her sister and brother with her. I don't know where she's gone, but Warden Neelahind might, as they were close friends as children.\n\nFind the exile called Eskhind and retrieve Kindrish from her, even... even if the cost is the life of her and her siblings. Kindrish has been handed down over countless generations, and it belongs to my people, not any individual. Go, kendren. Speak to Warden Neelahind, and find out where Eskhind is hidden.",
+      "context": "Conversation Keh.Accept.Text",
+      "old_value": "Ausgezeichnet. Ich werde mein Bestes geben, Euch zu Eurer Zufriedenheit zu belohnen.\n\nObwohl ihr Name mir jetzt Sand im Mund ist, der Exil, der Kindrish stahl, wird Eskhind genannt. Sie verließ vor ein paar Wochen und nahm ihre Schwester und ihren Bruder mit sich. Ich weiß nicht, wo sie hingegangen ist, aber Wächterin Neelahind könnte es wissen, da sie als Kinder enge Freunde waren.\n\nFindet den Exil namens Eskhind und holt Kindrish von ihr zurück, sogar... sogar wenn der Preis das Leben von ihr und ihren Geschwistern ist. Kindrish ist über unzählige Generationen weitergegeben worden, und es gehört meinem Volk, nicht einem Einzelnen. Geht, Kendren. Sprecht mit Wächterin Neelahind und findet heraus, wo Eskhind versteckt ist.",
+      "new_value": "Ausgezeichnet. Ich werde mein Bestes geben, dich zu deiner Zufriedenheit zu belohnen.\n\nObwohl ihr Name mir jetzt Sand im Mund ist, der Exil, der Kindrish stahl, wird Eskhind genannt. Sie verließ vor ein paar Wochen und nahm ihre Schwester und ihren Bruder mit sich. Ich weiß nicht, wo sie hingegangen ist, aber Wächterin Neelahind könnte es wissen, da sie als Kinder enge Freunde waren.\n\nFinde den Exil namens Eskhind und hol Kindrish von ihr zurück, sogar... sogar wenn der Preis das Leben von ihr und ihren Geschwistern ist. Kindrish ist über unzählige Generationen weitergegeben worden, und es gehört meinem Volk, nicht einem Einzelnen. Geh, Kendren. Sprich mit Wächterin Neelahind und finde heraus, wo Eskhind versteckt ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "54736b3c5e35527c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Accept.EndChoice.Text|As you say.",
+      "context": "Conversation Keh.Accept.EndChoice.Text",
+      "old_value": "Wie Ihr sagt.",
+      "new_value": "Wie du sagst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ccaa291b1f818e9f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.No..Text|Then I will thank you to leave as quickly as possible. I don't want the faundren to become used to our borders being permeable.",
+      "context": "Conversation Keh.No..Text",
+      "old_value": "Dann werde ich Euch bitten, so schnell wie möglich zu gehen. Ich möchte nicht, daß die Faundren sich daran gewöhnen, daß unsere Grenzen durchlässig sind.",
+      "new_value": "Dann werde ich dich bitten, so schnell wie möglich zu gehen. Ich möchte nicht, daß die Faundren sich daran gewöhnen, daß unsere Grenzen durchlässig sind.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2db168aa0ba08011",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.No..EndChoice.Text|As you say. Live and drink.",
+      "context": "Conversation Keh.No..EndChoice.Text",
+      "old_value": "Wie Ihr sagt. Lebt und trinkt.",
+      "new_value": "Wie du sagst. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd2b9766d8caf9c8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.I have not..EndChoice.Text|As you say. Live and drink.",
+      "context": "Conversation Keh.I have not..EndChoice.Text",
+      "old_value": "Wie Ihr sagt. Lebt und trinkt.",
+      "new_value": "Wie du sagst. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f95b9b28a9aab8c2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.KindrishReturnBefore.Text|You've found our treasure? I'll admit, kendren, I'm very impressed. Take this as thanks.\n\nThat said, the exile must answer for her crimes. There is further reward for you if you see this case through to the end.",
+      "context": "Conversation Keh.KindrishReturnBefore.Text",
+      "old_value": "Ihr habt unseren Schatz gefunden? Ich gebe zu, Kendren, ich bin sehr beeindruckt. Nehmt dies als Dank.\n\nDas gesagt, der Exil muß für seine Verbrechen antworten. Es gibt weitere Belohnungen für Euch, wenn Ihr diesen Fall bis zum Ende durchseht.",
+      "new_value": "Du hast unseren Schatz gefunden? Ich gebe zu, Kendren, ich bin sehr beeindruckt. Nimm dies als Dank.\n\nDas gesagt, der Exil muß für seine Verbrechen antworten. Es gibt weitere Belohnungen für dich, wenn du diesen Fall bis zum Ende durchsiehst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "094401df597fff0b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.KindrishReturnAfter.Text|You've found our treasure? I'll admit, kendren, I'm very impressed.\n\nTake this as thanks, and... well. I suppose you've earned your stay for a while. Just try not to give the faundren any ideas.",
+      "context": "Conversation Keh.KindrishReturnAfter.Text",
+      "old_value": "Ihr habt unseren Schatz gefunden? Ich gebe zu, Kendren, ich bin sehr beeindruckt.\n\nNehmt dies als Dank, und... nun ja. Ich vermute, Ihr habt Euren Aufenthalt für eine Weile verdient. Versucht nur, den Faundren keine Ideen zu geben.",
+      "new_value": "Du hast unseren Schatz gefunden? Ich gebe zu, Kendren, ich bin sehr beeindruckt.\n\nNimm dies als Dank, und... nun ja. Ich vermute, du hast deinen Aufenthalt für eine Weile verdient. Versuch nur, den Faundren keine Ideen zu geben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "650dd56a3146aa08",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.I have not..Text|Perhaps you should get back to it rather than hanging around my village. Warden Neelahind may be able to help you.",
+      "context": "Conversation Keh.I have not..Text",
+      "old_value": "Vielleicht solltet Ihr Euch lieber daranmachen, anstatt in meinem Dorf herumzuhängen. Wächterin Neelahind könnte Euch helfen.",
+      "new_value": "Vielleicht solltest du dich lieber daranmachen, anstatt in meinem Dorf herumzuhängen. Wächterin Neelahind könnte dir helfen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a92a5d12a352c870",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Dead.Text|Ayvah. She must have sold it. Tell no one about this. Please understand that I cannot reward you, as you did not complete the task I asked of you.",
+      "context": "Conversation Keh.Dead.Text",
+      "old_value": "Ayvah. Sie muß es verkauft haben. Sagt niemandes davon. Bitte versteht, daß ich Euch nicht belohnen kann, da Ihr die Aufgabe, die ich Euch gestellt habe, nicht erfüllt habt.",
+      "new_value": "Ayvah. Sie muß es verkauft haben. Sag niemandes davon. Bitte versteh, daß ich dich nicht belohnen kann, da du die Aufgabe, die ich dir gestellt habe, nicht erfüllt hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9f387e926d837282",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Dead.EndChoice2.Text|Unacceptable. Prepare to die.",
+      "context": "Conversation Keh.Dead.EndChoice2.Text",
+      "old_value": "Inakzeptabel. Bereitet Euch auf den Tod vor.",
+      "new_value": "Inakzeptabel. Bereite dich auf den Tod vor.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e6f2a1dda4fdd416",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Lies..EndChoice.Text|You've wasted enough of my time. Prepare to die.",
+      "context": "Conversation Eskhind.Lies..EndChoice.Text",
+      "old_value": "Ihr habt genug meiner Zeit verschwendet. Bereitet Euch auf den Tod vor.",
+      "new_value": "Du hast genug meiner Zeit verschwendet. Bereite dich auf den Tod vor.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "99988a7c1ac90e8a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Accused.Text|The pariah claims to be wrongfully accused, and you believe her?\n\nShe is obviously lying. Are all kendren so gullible?",
+      "context": "Conversation Keh.Accused.Text",
+      "old_value": "Der Ausgestoßene behauptet, zu Unrecht beschuldigt zu werden, und Ihr glaubt ihr?\n\nSie lügt offensichtlich. Sind alle Kendren so leichtgläubig?",
+      "new_value": "Der Ausgestoßene behauptet, zu Unrecht beschuldigt zu werden, und du glaubst ihr?\n\nSie lügt offensichtlich. Sind alle Kendren so leichtgläubig?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9e209a07dc4db647",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Proof.Text|Fine! Go to the Warden, then, and have her solve this mystery.\n\nBut know this: until a thief is found and Kindrish is recovered, I cannot reward you. You get nothing. Live and drink, =player.formalAddressTerm=.",
+      "context": "Conversation Keh.Proof.Text",
+      "old_value": "Schön! Geht dann zur Wächterin und laßt sie dieses Geheimnis lösen.\n\nAber wißt dies: Bis ein Dieb gefunden und Kindrish zurückgewonnen ist, kann ich Euch nicht belohnen. Ihr bekommt nichts. Lebt und trinkt, =player.formalAddressTerm=.",
+      "new_value": "Schön! Geh dann zur Wächterin und laß sie dieses Geheimnis lösen.\n\nAber wisse dies: Bis ein Dieb gefunden und Kindrish zurückgewonnen ist, kann ich dich nicht belohnen. Du bekommst nichts. Lebe und trinke, =player.formalAddressTerm=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1820c2e710448e47",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start4.Text|Why are you speaking to me? You have work to do.",
+      "context": "Conversation Keh.Start4.Text",
+      "old_value": "Warum sprecht Ihr mit mir? Ihr habt Arbeit zu tun.",
+      "new_value": "Warum sprichst du mit mir? Du hast Arbeit zu tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4c47b7f0636c0165",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start4.ShowSonnetChoice.Text|Does this poem belong to you?",
+      "context": "Conversation Keh.Start4.ShowSonnetChoice.Text",
+      "old_value": "Gehört dieses Gedicht Euch?",
+      "new_value": "Gehört dieses Gedicht dir?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a957ba58505cfc8a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Kehstions.ShowSonnetChoice.Text|Does this poem belong to you?",
+      "context": "Conversation Keh.Kehstions.ShowSonnetChoice.Text",
+      "old_value": "Gehört dieses Gedicht Euch?",
+      "new_value": "Gehört dieses Gedicht dir?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cc64ddd82496883f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Start5.LateSonnetChoice.Text|Does this poem belong to you?",
+      "context": "Conversation Neelahind.Start5.LateSonnetChoice.Text",
+      "old_value": "Gehört dieses Gedicht Euch?",
+      "new_value": "Gehört dieses Gedicht dir?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd43aba906631f68",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Start12.LateSonnetChoice.Text|Does this poem belong to you?",
+      "context": "Conversation Neelahind.Start12.LateSonnetChoice.Text",
+      "old_value": "Gehört dieses Gedicht Euch?",
+      "new_value": "Gehört dieses Gedicht dir?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c36c5b80cb709baa",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Start13.LateSonnetChoice.Text|Does this poem belong to you?",
+      "context": "Conversation Neelahind.Start13.LateSonnetChoice.Text",
+      "old_value": "Gehört dieses Gedicht Euch?",
+      "new_value": "Gehört dieses Gedicht dir?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d323ff87f1f4af47",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Start8.ShowSonnetChoice.Text|Does this poem belong to you?",
+      "context": "Conversation Meyehind.Start8.ShowSonnetChoice.Text",
+      "old_value": "Gehört dieses Gedicht Euch?",
+      "new_value": "Gehört dieses Gedicht dir?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd246822cff3cd72",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Liihart.Start9.ShowSonnetChoice.Text|Does this poem belong to you?",
+      "context": "Conversation Liihart.Start9.ShowSonnetChoice.Text",
+      "old_value": "Gehört dieses Gedicht Euch?",
+      "new_value": "Gehört dieses Gedicht dir?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0b205588e04f8c6c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start4.KehstionsChoice.Text|I have questions for you.",
+      "context": "Conversation Keh.Start4.KehstionsChoice.Text",
+      "old_value": "Ich habe Fragen für Euch.",
+      "new_value": "Ich habe Fragen für dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6731b83bfe7fc8e6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Start4.QuestionsChoice.Text|I have questions for you.",
+      "context": "Conversation Eskhind.Start4.QuestionsChoice.Text",
+      "old_value": "Ich habe Fragen für Euch.",
+      "new_value": "Ich habe Fragen für dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ddf3e4f55b557213",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Start5.QuestionsChoice.Text|I have questions for you.",
+      "context": "Conversation Eskhind.Start5.QuestionsChoice.Text",
+      "old_value": "Ich habe Fragen für Euch.",
+      "new_value": "Ich habe Fragen für dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b541ffd5d6e6967f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Kehstions.Kesehind youChoice.Text|Who is your bodyguard?",
+      "context": "Conversation Keh.Kehstions.Kesehind youChoice.Text",
+      "old_value": "Wer ist Euer Leibwächter?",
+      "new_value": "Wer ist dein Leibwächter?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "304bc56175db6584",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start6.Text|I have a terrible feeling that I've brought ill fortune to my village.\n\nPerhaps it was a mistake to have hired you.",
+      "context": "Conversation Keh.Start6.Text",
+      "old_value": "Ich habe ein schreckliches Gefühl, daß ich meinem Dorf Unglück gebracht habe.\n\nVielleicht war es ein Fehler, Euch zu mieten.",
+      "new_value": "Ich habe ein schreckliches Gefühl, daß ich meinem Dorf Unglück gebracht habe.\n\nVielleicht war es ein Fehler, dich zu mieten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b52e48b0bc7ea98b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start7.EndChoice.Text|You will find a way. Live and drink.",
+      "context": "Conversation Keh.Start7.EndChoice.Text",
+      "old_value": "Ihr werdet einen Weg finden. Lebt und trinkt.",
+      "new_value": "Du wirst einen Weg finden. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc77436313681c5f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start8.EndChoice.Text|You will find a way. Live and drink.",
+      "context": "Conversation Keh.Start8.EndChoice.Text",
+      "old_value": "Ihr werdet einen Weg finden. Lebt und trinkt.",
+      "new_value": "Du wirst einen Weg finden. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c8eed7af95728265",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.MocksFate.EndChoice.Text|You will find a way. Live and drink.",
+      "context": "Conversation Keh.MocksFate.EndChoice.Text",
+      "old_value": "Ihr werdet einen Weg finden. Lebt und trinkt.",
+      "new_value": "Du wirst einen Weg finden. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "98f1d5f363ab590c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start11.EndChoice.Text|You will find a way. Live and drink.",
+      "context": "Conversation Keh.Start11.EndChoice.Text",
+      "old_value": "Ihr werdet einen Weg finden. Lebt und trinkt.",
+      "new_value": "Du wirst einen Weg finden. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0bcef51e60feabcb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start9.Text|Ah, you again. I'd been doing so well at forgetting your countenance.\n\nLeave me be.",
+      "context": "Conversation Keh.Start9.Text",
+      "old_value": "Ah, Ihr schon wieder. Ich hätte Euer Aussehen so gut zu vergessen vermocht.\n\nLaßt mich in Ruhe.",
+      "new_value": "Ah, du schon wieder. Ich hätte dein Aussehen so gut zu vergessen vermocht.\n\nLaß mich in Ruhe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "af7f1387de39067e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start10.Text|You have a great deal of nerve to speak to me after what you've done.",
+      "context": "Conversation Keh.Start10.Text",
+      "old_value": "Ihr habt großen Nerv, mich anzusprechen nach dem, was Ihr getan habt.",
+      "new_value": "Du hast großen Nerv, mich anzusprechen nach dem, was du getan hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0611266828e8cff5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.MocksFate.Text|You again?\n\nIt is only a matter of time until we are overtaken by hostile kendren. Your presence mocks our fate.",
+      "context": "Conversation Keh.MocksFate.Text",
+      "old_value": "Ihr schon wieder?\n\nEs ist nur eine Frage der Zeit, bis wir von feindseligen Kendren übernommen werden. Eure Anwesenheit verspottet unser Schicksal.",
+      "new_value": "Du schon wieder?\n\nEs ist nur eine Frage der Zeit, bis wir von feindseligen Kendren übernommen werden. Deine Anwesenheit verspottet unser Schicksal.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d9d13b37ad7b490c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start12.Text|Ah, welcome back to the village, =name=. You won't be staying long, will you?",
+      "context": "Conversation Keh.Start12.Text",
+      "old_value": "Ah, willkommen zurück im Dorf, =name=. Ihr werdet nicht lange bleiben, nicht wahr?",
+      "new_value": "Ah, willkommen zurück im Dorf, =name=. Du wirst nicht lange bleiben, nicht wahr?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "31303664f8495ed1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Keh.Start13.Text|While I appreciate your help, kendren, I would prefer that you not stay longer than you must.\n\nThe faundren might get ideas.",
+      "context": "Conversation Keh.Start13.Text",
+      "old_value": "Während ich Eure Hilfe schätze, Kendren, würde ich bevorzugen, daß Ihr nicht länger bleibt, als Ihr müßt.\n\nDie Faundren könnten auf Ideen kommen.",
+      "new_value": "Während ich deine Hilfe schätze, Kendren, würde ich bevorzugen, daß du nicht länger bleibst, als du mußt.\n\nDie Faundren könnten auf Ideen kommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "60de878169562e37",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Warden Neelahind?.Text|Ah! Yes. My apologies, kendren. Live and drink. I am Neelahind, Warden of Bey Lah. How... may I help you?",
+      "context": "Conversation Neelahind.Warden Neelahind?.Text",
+      "old_value": "Ah! Ja. Meine Entschuldigungen, Kendren. Lebt und trinkt. Ich bin Neelahind, Wächterin von Bey Lah. Wie... kann ich Euch helfen?",
+      "new_value": "Ah! Ja. Meine Entschuldigungen, Kendren. Lebe und trinke. Ich bin Neelahind, Wächterin von Bey Lah. Wie... kann ich dir helfen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2b14bb535a4c1c7f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Anyone can lie..EndChoice.Text|Forget it. I don't need your help.",
+      "context": "Conversation Neelahind.Anyone can lie..EndChoice.Text",
+      "old_value": "Vergessen Sie es. Ich brauche Eure Hilfe nicht.",
+      "new_value": "Vergiss es. Ich brauche deine Hilfe nicht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "522b4c3d37e80da2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.No. I'm sorry..EndChoice.Text|I will leave you to your grief. Live and drink.",
+      "context": "Conversation Neelahind.No. I'm sorry..EndChoice.Text",
+      "old_value": "Ich werde Euch Eurer Trauer überlassen. Lebt und trinkt.",
+      "new_value": "Ich werde dich deiner Trauer überlassen. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4a022a5aee387289",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.KindrishReturnAfter.Text|You've found our treasure? Thank you, kendren!\n\nPlease take this reward, we set it aside for just this purpose. I apologize if it's too little. Thank you so much, again.",
+      "context": "Conversation Neelahind.KindrishReturnAfter.Text",
+      "old_value": "Ihr habt unseren Schatz gefunden? Danke dir, Kendren!\n\nBitte nehmt diese Belohnung, wir haben sie für genau diesen Zweck beiseite gelegt. Entschuldigung, wenn sie zu wenig ist. Vielen Dank, nochmal.",
+      "new_value": "Du hast unseren Schatz gefunden? Danke dir, Kendren!\n\nBitte nimm diese Belohnung, wir haben sie für genau diesen Zweck beiseite gelegt. Entschuldigung, wenn sie zu wenig ist. Vielen Dank, nochmal.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "66cd88808cd76c79",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Neelahind.Start6.Text|Kendren! I mean, =name=! My heart sings to see you.\n\nThank you for clearing Esk's name. Thank you for bringing us together. You are always welcome here.",
+      "context": "Conversation Neelahind.Start6.Text",
+      "old_value": "Kendren! Ich meine, =name=! Mein Herz singt bei Eurem Anblick.\n\nDanke, dass Ihr Esks Namen gereinigt habt. Danke, dass Ihr uns zusammengebracht habt. Ihr seid hier immer willkommen.",
+      "new_value": "Kendren! Ich meine, =name=! Mein Herz singt bei deinem Anblick.\n\nDanke, dass du Esks Namen gereinigt hast. Danke, dass du uns zusammengebracht hast. Du bist hier immer willkommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "22c1a04f61ae91b0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.You think Keh stole the treasure?.Text|Ay, you kendren are just as thick as the elders. I'd hoped otherwise.\n\nYes, I am suggesting that old Grand-Doe is trying to fool you, and the village as well. I'm not certain that she stole it herself, but an investigation might undermine her authority, and she cannot have that.",
+      "context": "Conversation Eskhind.You think Keh stole the treasure?.Text",
+      "old_value": "Ach, Ihr Kendren seid ebenso beschränkt wie die Ältesten. Ich hätte mir etwas anderes erhofft.\n\nJa, ich behaupte, dass die alte Grand-Doe Euch zu täuschen versucht, und auch das Dorf. Ich bin mir nicht sicher, ob sie es selbst gestohlen hat, aber eine Untersuchung könnte ihre Autorität untergraben, und das kann sie nicht zulassen.",
+      "new_value": "Ach, ihr Kendren seid ebenso beschränkt wie die Ältesten. Ich hätte mir etwas anderes erhofft.\n\nJa, ich behaupte, dass die alte Grand-Doe dich zu täuschen versucht, und auch das Dorf. Ich bin mir nicht sicher, ob sie es selbst gestohlen hat, aber eine Untersuchung könnte ihre Autorität untergraben, und das kann sie nicht zulassen.",
+      "note": "'you kendren' = Plural an die Kendren -> 'ihr' (klein) belassen; Taeuschung betrifft Spieler -> dich",
+      "status": "accepted"
+    },
+    {
+      "uid": "6750567e6733ea6a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Why should I believe you?.Text|Why should you believe me? Well, why should you believe Keh? Ayvah, think about this!\n\nI'm not asking you to give me your unconditional trust, understand? Only to extend to me the same level of trust you give Keh. Is that not reasonable? Is that not just?",
+      "context": "Conversation Eskhind.Why should I believe you?.Text",
+      "old_value": "Warum solltet Ihr mir glauben? Nun, warum solltet Ihr Keh glauben? Ayvah, denkt darüber nach!\n\nIch bitte Euch nicht um bedingungsloses Vertrauen, versteht Ihr? Nur, dass Ihr mir das gleiche Vertrauen entgegenbringt wie Keh. Ist das nicht vernünftig? Ist das nicht gerecht?",
+      "new_value": "Warum solltest du mir glauben? Nun, warum solltest du Keh glauben? Ayvah, denk darüber nach!\n\nIch bitte dich nicht um bedingungsloses Vertrauen, verstehst du? Nur, dass du mir das gleiche Vertrauen entgegenbringst wie Keh. Ist das nicht vernünftig? Ist das nicht gerecht?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d88203f8167dce27",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Lies..Text|Ayvah. I'd wanted Grand-Doe to be wrong about you kendren, but perhaps you are all violent fools after all.\n\nI'm not asking you to trust me, only to extend to me the same level of trust you give Keh. Is that not reasonable?",
+      "context": "Conversation Eskhind.Lies..Text",
+      "old_value": "Ayvah. Ich hätte gehofft, dass Grand-Doe sich bei Euch Kendren täuscht, doch vielleicht seid Ihr alle doch nur gewalttätige Narren.\n\nIch bitte Euch nicht um Vertrauen, nur um das gleiche Vertrauen, das Ihr Keh gebt. Ist das nicht vernünftig?",
+      "new_value": "Ayvah. Ich hätte gehofft, dass Grand-Doe sich bei euch Kendren täuscht, doch vielleicht seid ihr alle doch nur gewalttätige Narren.\n\nIch bitte dich nicht um Vertrauen, nur um das gleiche Vertrauen, das du Keh gibst. Ist das nicht vernünftig?",
+      "note": "'you kendren'/'you are all' als Plural (euch/ihr klein); zweiter Absatz Einzelanrede -> du",
+      "status": "accepted"
+    },
+    {
+      "uid": "65ad2440f595d1e5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Eskhind is rude.Text|Rude? How dare--\n\nNo, I... I apologize for my rudeness. Please understand that we have lost so much by leaving Bey Lah. My mind is not in a gentle place, and being revisited by the tyranny I left behind is causing newly-closed wounds to open.\n\nForgive my tone, but please understand: I did not steal Kindrish. You are being used.",
+      "context": "Conversation Eskhind.Eskhind is rude.Text",
+      "old_value": "Unhöflich? Wie könnt Ihr--\n\nNein, ich... Ich entschuldige mich für meine Unhöflichkeit. Bitte versteht, dass wir so viel verloren haben, indem wir Bey Lah verließen. Mein Geist ist nicht an einem sanften Ort, und die Wiederbegegnung mit der Tyrannei, die ich hinter mir ließ, öffnet neulich geschlossene Wunden.\n\nVergebt meinen Ton, aber bitte versteht: Ich habe Kindrish nicht gestohlen. Ihr werdet benutzt.",
+      "new_value": "Unhöflich? Wie kannst du--\n\nNein, ich... Ich entschuldige mich für meine Unhöflichkeit. Bitte versteh, dass wir so viel verloren haben, indem wir Bey Lah verließen. Mein Geist ist nicht an einem sanften Ort, und die Wiederbegegnung mit der Tyrannei, die ich hinter mir ließ, öffnet neulich geschlossene Wunden.\n\nVergib meinen Ton, aber bitte versteh: Ich habe Kindrish nicht gestohlen. Du wirst benutzt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "98b9d913f9110f90",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.What should I do?.Text|The proof is in the petals, kendren. You want justice? Find out what really happened.\n\nIf you find evidence, Warden Neelahind will support you. Speak to her. She is loyal to Grand-Doe, but more loyal to the truth.\n\nI will return to the village and we will sort this out. The Hindriarch will have to tolerate my presence until my name is cleared.",
+      "context": "Conversation Eskhind.What should I do?.Text",
+      "old_value": "Der Beweis liegt in den Blütenblättern, Kendren. Ihr wollt Gerechtigkeit? Findet heraus, was wirklich geschah.\n\nWenn Ihr Beweise findet, wird sich Wächterin Neelahind Euch anschließen. Sprecht mit ihr. Sie ist loyal zu Grand-Doe, aber noch treuer der Wahrheit.\n\nIch werde ins Dorf zurückkehren und wir werden dies klären. Die Hindriarch wird meine Anwesenheit dulden müssen, bis mein Name geklärt ist.",
+      "new_value": "Der Beweis liegt in den Blütenblättern, Kendren. Du willst Gerechtigkeit? Finde heraus, was wirklich geschah.\n\nWenn du Beweise findest, wird sich Wächterin Neelahind dir anschließen. Sprich mit ihr. Sie ist loyal zu Grand-Doe, aber noch treuer der Wahrheit.\n\nIch werde ins Dorf zurückkehren und wir werden dies klären. Die Hindriarch wird meine Anwesenheit dulden müssen, bis mein Name geklärt ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "89ef28c386f649eb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.What should I do?.EndChoice.Text|I'll look into this, but you'd better not go missing.",
+      "context": "Conversation Eskhind.What should I do?.EndChoice.Text",
+      "old_value": "Ich schaue mir das an, aber Ihr solltet besser nicht verschwinden.",
+      "new_value": "Ich schaue mir das an, aber du solltest besser nicht verschwinden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b2ee7b61e1fc1d5d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Who.Text|The Hindriarch is the most likely suspect, in my opinion. She might have kept it for herself or sold it. I've been suspicious of her pet bodyguard, Kesehind, for years--I wouldn't put it past him to steal the treasure himself.\n\nThat said, it might have been an outsider like you. I doubt any of the villagers had the nerve to steal such a valuable object, but I suppose it's faintly possible.\n\nBut it wasn't Neelahind. You won't find a purer heart in all of Qud than hers.",
+      "context": "Conversation Eskhind.Who.Text",
+      "old_value": "Die Hindriarch ist meiner Meinung nach der wahrscheinlichste Verdächtige. Sie hätte es für sich behalten oder verkauft haben können. Ich bin seit Jahren misstrauisch gegenüber ihrem Leibwächter Kesehind - ich würde es ihm zutrauen, den Schatz selbst zu stehlen.\n\nZum anderen könnte es ein Außenseiter wie Ihr gewesen sein. Ich bezweifle, dass einer der Dorfbewohner den Mut hätte, einen so wertvollen Gegenstand zu stehlen, aber ich nehme an, es ist schwach möglich.\n\nAber es war nicht Neelahind. Ihr werdet kein reineres Herz in ganz Qud finden als ihres.",
+      "new_value": "Die Hindriarch ist meiner Meinung nach der wahrscheinlichste Verdächtige. Sie hätte es für sich behalten oder verkauft haben können. Ich bin seit Jahren misstrauisch gegenüber ihrem Leibwächter Kesehind - ich würde es ihm zutrauen, den Schatz selbst zu stehlen.\n\nZum anderen könnte es ein Außenseiter wie du gewesen sein. Ich bezweifle, dass einer der Dorfbewohner den Mut hätte, einen so wertvollen Gegenstand zu stehlen, aber ich nehme an, es ist schwach möglich.\n\nAber es war nicht Neelahind. Du wirst kein reineres Herz in ganz Qud finden als ihres.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9e0fbcdb549cf1d0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.What.Text|Objects out of place, certainly. Bey Lah produces little and sees almost no violence, so signs of the outside world should be easy to find.\n\nYou may wish to talk to the villagers, too. My people are starved for entertainment, gossip travels fast, and we are all notoriously poor liars.",
+      "context": "Conversation Eskhind.What.Text",
+      "old_value": "Gegenstände, die fehl am Platz sind, gewiss. Bey Lah produziert wenig und sieht fast keine Gewalt, also sollten Zeichen der Außenwelt leicht zu finden sein.\n\nIhr möchtet vielleicht auch mit den Dorfbewohnern sprechen. Mein Volk hungert nach Unterhaltung, Klatsch verbreitet sich schnell, und wir sind alle notorisch schlechte Lügner.",
+      "new_value": "Gegenstände, die fehl am Platz sind, gewiss. Bey Lah produziert wenig und sieht fast keine Gewalt, also sollten Zeichen der Außenwelt leicht zu finden sein.\n\nDu möchtest vielleicht auch mit den Dorfbewohnern sprechen. Mein Volk hungert nach Unterhaltung, Klatsch verbreitet sich schnell, und wir sind alle notorisch schlechte Lügner.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e2a75a2f09f491fe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.SonnetNo.Text|You have me helpless. That poem is my clumsy expression of a deep truth that frightens me. It is a risk that I lacked the strength to take or leave.\n\nMy heart quails in your hands, kendren.",
+      "context": "Conversation Eskhind.SonnetNo.Text",
+      "old_value": "Ihr habt mich hilflos. Dieses Gedicht ist mein unbeholfener Ausdruck einer tiefen Wahrheit, die mich erschreckt. Es ist ein Risiko, das ich nicht die Kraft hatte zu nehmen oder zu lassen.\n\nMein Herz bebt in Euren Händen, Kendren.",
+      "new_value": "Du hast mich hilflos. Dieses Gedicht ist mein unbeholfener Ausdruck einer tiefen Wahrheit, die mich erschreckt. Es ist ein Risiko, das ich nicht die Kraft hatte zu nehmen oder zu lassen.\n\nMein Herz bebt in deinen Händen, Kendren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "55e1414cafdf7296",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.SonnetNo.SonnetBurnChoice.Text|You wish you had burned such a vital truth?",
+      "context": "Conversation Eskhind.SonnetNo.SonnetBurnChoice.Text",
+      "old_value": "Ihr wünscht, Ihr hättet solch eine lebensnotwendige Wahrheit verbrannt?",
+      "new_value": "Du wünschst, du hättest solch eine lebensnotwendige Wahrheit verbrannt?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "60fba1b7f6c194e5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.SonnetBurn.Text|No! Yes? I don't know.\n\nYes, I wish I burned it, but I wish I had given it. I wish I had never written it, or I had written it better, or I had simply confessed in person. I wish I had a harder heart.\n\nI wish you would give it back, or burn it, or give it to her.",
+      "context": "Conversation Eskhind.SonnetBurn.Text",
+      "old_value": "Nein! Ja? Ich weiß nicht.\n\nJa, ich wünschte, ich hätte es verbrannt, aber ich wünschte, ich hätte es gegeben. Ich wünschte, ich hätte es nie geschrieben, oder ich hätte es besser geschrieben, oder ich hätte einfach persönlich gestanden. Ich wünschte, ich hätte ein härteres Herz.\n\nIch wünschte, Ihr würdet es mir zurückgeben, oder es verbrennen, oder es ihr geben.",
+      "new_value": "Nein! Ja? Ich weiß nicht.\n\nJa, ich wünschte, ich hätte es verbrannt, aber ich wünschte, ich hätte es gegeben. Ich wünschte, ich hätte es nie geschrieben, oder ich hätte es besser geschrieben, oder ich hätte einfach persönlich gestanden. Ich wünschte, ich hätte ein härteres Herz.\n\nIch wünschte, du würdest es mir zurückgeben, oder es verbrennen, oder es ihr geben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9d2fd78cbc4179f8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.StayLong.Text|If it isn't the hero kendren, =name=.\n\nWelcome back to Bey Lah! Stay as long as you like.",
+      "context": "Conversation Eskhind.StayLong.Text",
+      "old_value": "Wenn da nicht der Helden-Kendren, =name=, ist.\n\nWillkommen zurück in Bey Lah! Bleibt so lange wie Ihr wollt.",
+      "new_value": "Wenn da nicht der Helden-Kendren, =name=, ist.\n\nWillkommen zurück in Bey Lah! Bleib so lange wie du willst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "62b5c2d42f201cff",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Start9.Text|Welcome back to Bey Lah, =name=. Stay as long as you like.",
+      "context": "Conversation Eskhind.Start9.Text",
+      "old_value": "Willkommen zurück in Bey Lah, =name=. Bleibt so lange wie Ihr wollt.",
+      "new_value": "Willkommen zurück in Bey Lah, =name=. Bleib so lange wie du willst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "26067a9e478746b1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Start10.Text|You have my gratitude for this exoneration, kendren. This worked out better than I expected thanks to you.\n\nI'll admit, I would have preferred to avoid becoming Hindriarch, but I'm hoping to bring my people to a more Democratic form of governance. Then I can vote myself out.",
+      "context": "Conversation Eskhind.Start10.Text",
+      "old_value": "Ihr habt meinen Dank für diese Freisprechung, Kendren. Das lief dank dir besser ab als erwartet.\n\nIch muss zugeben, ich hätte es vorgezogen, nicht Hindriarch zu werden, aber ich hoffe, mein Volk zu einer demokratischeren Form der Herrschaft zu bringen. Dann kann ich mich selbst abwählen.",
+      "new_value": "Du hast meinen Dank für diese Freisprechung, Kendren. Das lief dank dir besser ab als erwartet.\n\nIch muss zugeben, ich hätte es vorgezogen, nicht Hindriarch zu werden, aber ich hoffe, mein Volk zu einer demokratischeren Form der Herrschaft zu bringen. Dann kann ich mich selbst abwählen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3ff0e8e670b3fb77",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.SlynthRequestAccept.EndChoice.Text|You have my thanks, Hindriarch.",
+      "context": "Conversation Eskhind.SlynthRequestAccept.EndChoice.Text",
+      "old_value": "Ihr habt meinen Dank, Hindriarch.",
+      "new_value": "Du hast meinen Dank, Hindriarch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aca2e88cd710320b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.SlynthRequest.Text|You're just trying to keep dear Esk informed, then? Or could it be that you're wondering if that home may be Bey Lah?",
+      "context": "Conversation Eskhind.SlynthRequest.Text",
+      "old_value": "Ihr versucht nur, den lieben Esk informiert zu halten, dann? Oder könnte es sein, dass Ihr Euch fragt, ob dieses Zuhause Bey Lah sein könnte?",
+      "new_value": "Du versuchst nur, den lieben Esk informiert zu halten, dann? Oder könnte es sein, dass du dich fragst, ob dieses Zuhause Bey Lah sein könnte?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "04dc76ad52f465cb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.SlynthRequestReject.Text|I am afeared to even mention this notion to the villagers. Can you imagine my epitaph?\n\n\"Here lies the youngest Hindriarch in Bey Lah's history, trampled to death because she suggested we invite in a people most readily described as 'lah with legs'.\"\n\nIf they trusted you more, maybe we could put it to a vote. But as it is? No. Sorry, =name=.",
+      "context": "Conversation Eskhind.SlynthRequestReject.Text",
+      "old_value": "Ich fürchte mich davor, auch nur diese Idee den Dorfbewohnern zu erwähnen. Könnt Ihr Euch meinen Grabstein vorstellen?\n\n\"Hier liegt die jüngste Hindriarch in Bey Lahs Geschichte, zertrampelt zu Tode, weil sie vorschlug, ein Volk einzuladen, das sich am besten als 'Lah mit Beinen' beschreiben lässt.\"\n\nWenn sie Euch mehr vertrauten, könnten wir es vielleicht zur Abstimmung bringen. Aber so wie es ist? Nein. Entschuldigung, =name=.",
+      "new_value": "Ich fürchte mich davor, auch nur diese Idee den Dorfbewohnern zu erwähnen. Kannst du dir meinen Grabstein vorstellen?\n\n\"Hier liegt die jüngste Hindriarch in Bey Lahs Geschichte, zertrampelt zu Tode, weil sie vorschlug, ein Volk einzuladen, das sich am besten als 'Lah mit Beinen' beschreiben lässt.\"\n\nWenn sie dir mehr vertrauten, könnten wir es vielleicht zur Abstimmung bringen. Aber so wie es ist? Nein. Entschuldigung, =name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb7bbbaea65a3e50",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Insult.Text|{{emote|*Eskhind looks at the crumpled sheet of paper for several long seconds, then looks at you for several even longer seconds.*}}\n\nWhy can't you just shoot me like the other kendren? Those wounds heal better, and death would be preferable to what you have done to me.\n\n{{emote|*crumpling the paper up once again, Eskhind lights it aflame and tosses it away as it burns.*}}\n\nGo sit on a tumbling pod. I've had enough of you.",
+      "context": "Conversation Eskhind.Insult.Text",
+      "old_value": "{{emote|*Eskhind starrt mehrere lange Sekunden auf das zerknitterte Blatt Papier, dann starrt Eskhind Euch mehrere noch längere Sekunden an.*}}\n\nWarum könnt Ihr mich nicht einfach wie die anderen Kendren erschießen? Diese Wunden heilen besser, und der Tod wäre vorzuziehen gegenüber dem, was Ihr mir angetan habt.\n\n{{emote|*Eskhind knüllt das Papier erneut zusammen, entzündet es und wirft es weg, während es brennt.*}}\n\nGeht und setzt Euch auf eine rollende Schote. Ich habe genug von Euch.",
+      "new_value": "{{emote|*Eskhind starrt mehrere lange Sekunden auf das zerknitterte Blatt Papier, dann starrt Eskhind dich mehrere noch längere Sekunden an.*}}\n\nWarum kannst du mich nicht einfach wie die anderen Kendren erschießen? Diese Wunden heilen besser, und der Tod wäre vorzuziehen gegenüber dem, was du mir angetan hast.\n\n{{emote|*Eskhind knüllt das Papier erneut zusammen, entzündet es und wirft es weg, während es brennt.*}}\n\nGeh und setz dich auf eine rollende Schote. Ich habe genug von dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a36f755f94caac7f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.EmptyApology.Text|{{emote|*The hindren pariah ignores you.*}}",
+      "context": "Conversation Eskhind.EmptyApology.Text",
+      "old_value": "{{emote|*Der verachtete Hindren ignoriert Euch.*}}",
+      "new_value": "{{emote|*Der verachtete Hindren ignoriert dich.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "804fc99ff1e1243d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.Start14.Text|Don't you have someone else to bother?\n\nLive and drink piss.",
+      "context": "Conversation Eskhind.Start14.Text",
+      "old_value": "Habt Ihr nicht jemand anderen, den Ihr belästigen könnt?\n\nLebt und trinkt Pisse.",
+      "new_value": "Hast du nicht jemand anderen, den du belästigen kannst?\n\nLebe und trinke Pisse.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3a1f4e0bc199b8d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.KindrishReturn.Text|Oh, so you have! Amazing work, kendren. We owe you more than we can give, but here is what we can give nonetheless.\n\nYou are more than welcome here in Bey Lah any time.",
+      "context": "Conversation Eskhind.KindrishReturn.Text",
+      "old_value": "Oh, das habt Ihr! Erstaunliche Arbeit, Kendren. Wir schulden Euch mehr, als wir geben können, aber hier ist, was wir geben können.\n\nIhr seid jederzeit mehr als willkommen hier in Bey Lah.",
+      "new_value": "Oh, das hast du! Erstaunliche Arbeit, Kendren. Wir schulden dir mehr, als wir geben können, aber hier ist, was wir geben können.\n\nDu bist jederzeit mehr als willkommen hier in Bey Lah.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2eff1708cd69b9fd",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Eskhind.EskHindriarch.EndChoice.Text|May fortune favor you. Live and drink.",
+      "context": "Conversation Eskhind.EskHindriarch.EndChoice.Text",
+      "old_value": "Möge das Glück Euch begünstigen. Lebt und trinkt.",
+      "new_value": "Möge das Glück dich begünstigen. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f82ea0d09a9b9711",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Start5.Text|I can't imagine why you would think we want your company, kendren.",
+      "context": "Conversation Meyehind.Start5.Text",
+      "old_value": "Ich kann mir nicht vorstellen, warum Ihr denkt, dass wir Eure Gesellschaft wollen, Kendren.",
+      "new_value": "Ich kann mir nicht vorstellen, warum du denkst, dass wir deine Gesellschaft wollen, Kendren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0ce65ac65560392",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Start8.MeyequeriesChoice.Text|May I ask you some questions?",
+      "context": "Conversation Meyehind.Start8.MeyequeriesChoice.Text",
+      "old_value": "Darf ich Euch ein paar Fragen stellen?",
+      "new_value": "Darf ich dir ein paar Fragen stellen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3b756fffa0aa9c7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Liihart.Start9.StoneQueryChoice.Text|May I ask you some questions?",
+      "context": "Conversation Liihart.Start9.StoneQueryChoice.Text",
+      "old_value": "Darf ich Euch ein paar Fragen stellen?",
+      "new_value": "Darf ich dir ein paar Fragen stellen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4f3e6fb8c25b97b1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Liihart.StoneQuery.StonePushChoice.Text|I said, may I ask you some questions?",
+      "context": "Conversation Liihart.StoneQuery.StonePushChoice.Text",
+      "old_value": "Ich sagte, darf ich Euch ein paar Fragen stellen?",
+      "new_value": "Ich sagte, darf ich dir ein paar Fragen stellen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a3ba8b5bc2524198",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Meyequeries.Family.Text|Tell me about your family.",
+      "context": "Conversation Meyehind.Meyequeries.Family.Text",
+      "old_value": "Erzählt mir von Eurer Familie.",
+      "new_value": "Erzähl mir von deiner Familie.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c16133223f3ed0fb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Correct.Text|{{emote|*You see Meyehind's body relax a bit.*}}\n\nThat's right, kendren.\n\nIt's naught to do with the case anyway. Only cold tradition and the cold heart that keeps it.",
+      "context": "Conversation Meyehind.Correct.Text",
+      "old_value": "{{emote|*Ihr seht, wie sich Meyehinds Körper etwas entspannt.*}}\n\nDas stimmt, Kendren.\n\nEs hat sowieso nichts mit dem Fall zu tun. Nur kalte Tradition und das kalte Herz, das sie aufrechterhält.",
+      "new_value": "{{emote|*Du siehst, wie sich Meyehinds Körper etwas entspannt.*}}\n\nDas stimmt, Kendren.\n\nEs hat sowieso nichts mit dem Fall zu tun. Nur kalte Tradition und das kalte Herz, das sie aufrechterhält.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6c97166cbe0727a0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Meyehind.Demand.Text|{{emote|*Meyehind's glare turns withering for the few seconds it takes before she turns her face and body away from you.*}}",
+      "context": "Conversation Meyehind.Demand.Text",
+      "old_value": "{{emote|*Meyehinds Blick wird zerstörerisch für die wenigen Sekunden, bevor sie Gesicht und Körper von Euch abwendet.*}}",
+      "new_value": "{{emote|*Meyehinds Blick wird zerstörerisch für die wenigen Sekunden, bevor sie Gesicht und Körper von dir abwendet.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4f96f9ec3231a622",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Liihart.Start7.Text|Oh! =name=.\n\nIt makes me happy to see you.",
+      "context": "Conversation Liihart.Start7.Text",
+      "old_value": "Oh! =name=.\n\nEs macht mich glücklich, Euch zu sehen.",
+      "new_value": "Oh! =name=.\n\nEs macht mich glücklich, dich zu sehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "19da140e38a81c95",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Liihart.Start9.Text|{{emote|*Liihart stares at you for several quiet seconds.*}}\n\nLive and drink.",
+      "context": "Conversation Liihart.Start9.Text",
+      "old_value": "{{emote|*Liihart starrt Euch mehrere ruhige Sekunden lang an.*}}\n\nLebt und trinkt.",
+      "new_value": "{{emote|*Liihart starrt dich mehrere ruhige Sekunden lang an.*}}\n\nLebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

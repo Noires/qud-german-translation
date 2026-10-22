@@ -1,0 +1,378 @@
+{
+  "batch": "du2-seid-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du2-seid-01)",
+  "created": "2026-10-22 16:39",
+  "items": [
+    {
+      "uid": "5d79d03d1b363be2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation WardenEsthers.Praise.Text|You are among friends here, pilgrim. Stay peaceful.",
+      "context": "Conversation WardenEsthers.Praise.Text",
+      "old_value": "Ihr seid hier unter Freunden, Pilger. Bleibt friedlich.",
+      "new_value": "Du bist hier unter Freunden, Pilger. Bleib friedlich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "85cdcc4fc0432b46",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Hair.Text|Quetzal! Thank you, thank you. What a poetic metaphor! You're a regular Shakesprig, aren't you?",
+      "context": "Conversation Q Girl.Hair.Text",
+      "old_value": "Quetzal! Danke, danke. Was für eine poetische Metapher! Ihr seid ein ordentlicher Shakesprig, nicht wahr?",
+      "new_value": "Quetzal! Danke, danke. Was für eine poetische Metapher! Du bist ein ordentlicher Shakesprig, nicht wahr?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d736cac202f6124",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.SilentGreeting.FewWordsSpara.Text|You are a bear of few words.",
+      "context": "Conversation Sparafucile.SilentGreeting.FewWordsSpara.Text",
+      "old_value": "Ihr seid einer von wenigen Worten.",
+      "new_value": "Du bist einer von wenigen Worten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a64cef8992bb8c4e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.PraiseCarbine.WelcomeSpara.Text|You are welcome.",
+      "context": "Conversation Sparafucile.PraiseCarbine.WelcomeSpara.Text",
+      "old_value": "Ihr seid willkommen.",
+      "new_value": "Du bist willkommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b37fbaf15a1c42a6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Aloysius.Recame.Text|Ah. It's you again, returning from ever more unreturnable locales. Alive and come to bother the disagreeable urshiib.",
+      "context": "Conversation Aloysius.Recame.Text",
+      "old_value": "Ah. Ihr seid wieder da und kehrt aus immer unwiederkehrbareren Orten zurück. Lebt und kommt, um den unangenehmem Urshiib zu ärgern.",
+      "new_value": "Ah. Du bist wieder da und kehrst aus immer unwiederkehrbareren Orten zurück. Lebe und komm, um den unangenehmem Urshiib zu ärgern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5c708b7468804a62",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.LiquidTinker.Text|{{emote|*Hortensa chuckles.*}}\n\nYou are sharp, =name=. In a way that's what I am. But liquids are more willful than scrap. I can't solder them together; they would run away, hide in the shale cracks, slowly come apart and disappear. I moreso think of myself as a wisewoman in dialogue with them -- I manage their moods and phases. My notebooks are full of their quirks and caprices. It's a wonder, isn't it, how at just the right temperature and pressure the continuity of matter is smashed apart? How the gaseous butterfly flits out of the dense worm?",
+      "context": "Conversation Hortensa.LiquidTinker.Text",
+      "old_value": "{{emote|*Hortensa lacht leise.*}}\n\nIhr seid scharfsinnig, =name=. In gewisser Weise bin ich das auch. Aber Flüssigkeiten sind eigenwilliger als Schrott. Ich kann sie nicht zusammenlöten; sie würden weglaufen, sich in den Schieferspalten verstecken, langsam auseinanderfallen und verschwinden. Ich denke von mir selbst eher als eine weise Frau im Dialog mit ihnen -- ich verwalte ihre Launen und Phasen. Meine Notizbücher sind voll ihrer Eigenheiten und Launen. Es ist ein Wunder, nicht wahr, wie bei genau der richtigen Temperatur und dem richtigen Druck die Kontinuität der Materie zerbrochen wird? Wie der gasförmige Schmetterling aus dem dichten Wurm flattert?",
+      "new_value": "{{emote|*Hortensa lacht leise.*}}\n\nDu bist scharfsinnig, =name=. In gewisser Weise bin ich das auch. Aber Flüssigkeiten sind eigenwilliger als Schrott. Ich kann sie nicht zusammenlöten; sie würden weglaufen, sich in den Schieferspalten verstecken, langsam auseinanderfallen und verschwinden. Ich denke von mir selbst eher als eine weise Frau im Dialog mit ihnen -- ich verwalte ihre Launen und Phasen. Meine Notizbücher sind voll ihrer Eigenheiten und Launen. Es ist ein Wunder, nicht wahr, wie bei genau der richtigen Temperatur und dem richtigen Druck die Kontinuität der Materie zerbrochen wird? Wie der gasförmige Schmetterling aus dem dichten Wurm flattert?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3eabf2795497cf1a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Indrix.PariahA.Text|Speak nothing of that name to me. You are warned.",
+      "context": "Conversation Indrix.PariahA.Text",
+      "old_value": "Nennet mir diesen Namen nicht. Ihr seid gewarnt.",
+      "new_value": "Nenne mir diesen Namen nicht. Du bist gewarnt.",
+      "note": "archaisches Imperativ-Plural Nennet -> Nenne",
+      "status": "accepted"
+    },
+    {
+      "uid": "67b75a079b3dd3aa",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Indrix.PariahB.Text|Speak nothing of that name to me. You are warned.",
+      "context": "Conversation Indrix.PariahB.Text",
+      "old_value": "Nennet mir diesen Namen nicht. Ihr seid gewarnt.",
+      "new_value": "Nenne mir diesen Namen nicht. Du bist gewarnt.",
+      "note": "archaisches Imperativ-Plural Nennet -> Nenne",
+      "status": "accepted"
+    },
+    {
+      "uid": "30dc90c8f84e101f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Haddas.Start.Text|You are welcome in the village of Ezra, seedling. Sit with me and watch the sun breathe shadows over the day.",
+      "context": "Conversation Haddas.Start.Text",
+      "old_value": "Ihr seid willkommen im Dorf Ezra, Sämling. Sitzt mit mir und beobachtet, wie die Sonne Schatten über den Tag atmet.",
+      "new_value": "Du bist willkommen im Dorf Ezra, Sämling. Sitz mit mir und beobachte, wie die Sonne Schatten über den Tag atmet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "515d0185b35910e8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Haddas.Start.TreeChoice.Text|You're a tree.",
+      "context": "Conversation Haddas.Start.TreeChoice.Text",
+      "old_value": "Ihr seid ein Baum.",
+      "new_value": "Du bist ein Baum.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a0263ec2c01ce5bb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sixshrew.Start.Rude.Text|You're being a bit rude.",
+      "context": "Conversation Sixshrew.Start.Rude.Text",
+      "old_value": "Ihr seid etwas unhöflich.",
+      "new_value": "Du bist etwas unhöflich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0f19150c2e2a70c9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Mak.Start.FounderChoice.Text|You're one of the founders of this freehold, aren't you?",
+      "context": "Conversation Mak.Start.FounderChoice.Text",
+      "old_value": "Ihr seid einer der Gründer dieses Freilands, nicht wahr?",
+      "new_value": "Du bist einer der Gründer dieses Freilands, nicht wahr?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bdceb6ee69518b76",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Geeub.Start.FounderChoice.Text|You're one of the founders of this freehold, aren't you?",
+      "context": "Conversation Geeub.Start.FounderChoice.Text",
+      "old_value": "Ihr seid einer der Gründer dieses Freilands, nicht wahr?",
+      "new_value": "Du bist einer der Gründer dieses Freilands, nicht wahr?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3ce031b03615875d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation ChavvahPrime.SlynthSettled.Text|You are well-found, =name=. Though several have chosen their -else, the first of the slynth have joined to us like our Sant, mobile and apart but shared and together. This is a strange -then, but what branches may spill forth from it? I anticipate the witnessing.",
+      "context": "Conversation ChavvahPrime.SlynthSettled.Text",
+      "old_value": "Ihr seid wohlgefunden, =name=. Obwohl mehrere ihr -else gewählt haben, haben sich die ersten der slynth zu uns wie unser Sant beigesellt, mobil und abseits, aber geteilt und zusammen. Dies ist ein seltsames -then, aber welche Äste könnten davon aufsprießen? Ich freue mich auf das Zeugnis.",
+      "new_value": "Du bist wohlgefunden, =name=. Obwohl mehrere ihr -else gewählt haben, haben sich die ersten der slynth zu uns wie unser Sant beigesellt, mobil und abseits, aber geteilt und zusammen. Dies ist ein seltsames -then, aber welche Äste könnten davon aufsprießen? Ich freue mich auf das Zeugnis.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4cc18c7c143dd00a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Companion2.PostQuestionsChoice.Text|You are welcome. I yet have questions.",
+      "context": "Conversation Miryam.Companion2.PostQuestionsChoice.Text",
+      "old_value": "Ihr seid willkommen. Ich habe noch Fragen.",
+      "new_value": "Du bist willkommen. Ich habe noch Fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1b49aee91b4f197e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Else2.PostQuestionsChoice.Text|You are welcome. I yet have questions.",
+      "context": "Conversation Miryam.Else2.PostQuestionsChoice.Text",
+      "old_value": "Ihr seid willkommen. Ich habe noch Fragen.",
+      "new_value": "Du bist willkommen. Ich habe noch Fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9756bd1b914f4fbe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation ChavvahFrontChime.AlreadyAttuned.Text|{{emote|*You are already attuned.*}}",
+      "context": "Conversation ChavvahFrontChime.AlreadyAttuned.Text",
+      "old_value": "{{emote|*Ihr seid bereits abgestimmt.*}}",
+      "new_value": "{{emote|*Du bist bereits abgestimmt.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "56d5fae379e935b1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Else2.PostQuestionsChoice.Text|You are welcome. I yet have questions.",
+      "context": "Conversation Tzedech.Else2.PostQuestionsChoice.Text",
+      "old_value": "Ihr seid willkommen. Ich habe noch Fragen.",
+      "new_value": "Du bist willkommen. Ich habe noch Fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d622351527e9e0e9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.Companion2.PostQuestionsChoice.Text|You are welcome. I yet have questions.",
+      "context": "Conversation Tikva.Companion2.PostQuestionsChoice.Text",
+      "old_value": "Ihr seid willkommen. Ich habe noch Fragen.",
+      "new_value": "Du bist willkommen. Ich habe noch Fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a00ec7a69d6e48f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.Else2.PostQuestionsChoice.Text|You are welcome. I yet have questions.",
+      "context": "Conversation Tikva.Else2.PostQuestionsChoice.Text",
+      "old_value": "Ihr seid willkommen. Ich habe noch Fragen.",
+      "new_value": "Du bist willkommen. Ich habe noch Fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9cac4e4f308e68c4",
+      "file": "Strings.de.xml",
+      "key": "GameSummary NonUltimate Covenant|You entered into a covenant with Resheph to help prepare Qud for the Coven's return.",
+      "context": "GameSummary NonUltimate Covenant",
+      "old_value": "Ihr seid einen Pakt mit Resheph eingegangen, um Qud auf die Rückkehr des Covens vorzubereiten.",
+      "new_value": "Du bist einen Pakt mit Resheph eingegangen, um Qud auf die Rückkehr des Covens vorzubereiten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eed7de1e9676bc66",
+      "file": "Strings.de.xml",
+      "key": "Chargen GameBoot Player Short Description|It's you.",
+      "context": "Chargen GameBoot Player Short Description",
+      "old_value": "Ihr seid es.",
+      "new_value": "Du bist es.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a98a6c4be072a93d",
+      "file": "Strings.de.xml",
+      "key": "GameMain default death reason|You quit.",
+      "context": "GameMain default death reason",
+      "old_value": "Ihr seid gegangen.",
+      "new_value": "Du bist gegangen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f9d338c1986383b7",
+      "file": "Strings.de.xml",
+      "key": "ChavvahSystem - Hide Popup|Chavvah roams out of feeling range. You are no longer attuned.",
+      "context": "ChavvahSystem - Hide Popup",
+      "old_value": "Chavvah schweift aus dem Gefühlsbereich ab. Ihr seid nicht mehr abgestimmt.",
+      "new_value": "Chavvah schweift aus dem Gefühlsbereich ab. Du bist nicht mehr abgestimmt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bd89dceb7709259a",
+      "file": "Strings.de.xml",
+      "key": "PsychicHunterSystem GlimmerDescription (fragment)|You are also visible to psychic beings from other dimensions.",
+      "context": "PsychicHunterSystem GlimmerDescription (fragment)",
+      "old_value": "Ihr seid auch für psychische Wesen aus anderen Dimensionen sichtbar.",
+      "new_value": "Du bist auch für psychische Wesen aus anderen Dimensionen sichtbar.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1fc5e94441f4410c",
+      "file": "Strings.de.xml",
+      "key": "Faction Holy Place Text|You are welcome in their holy places.",
+      "context": "Faction Holy Place Text",
+      "old_value": "Ihr seid an ihren heiligen Orten willkommen.",
+      "new_value": "Du bist an ihren heiligen Orten willkommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bb4cc3c79fa8ae04",
+      "file": "Strings.de.xml",
+      "key": "Faction Holy Place Text|You aren't welcome in their holy places.",
+      "context": "Faction Holy Place Text",
+      "old_value": "Ihr seid an ihren heiligen Orten nicht willkommen.",
+      "new_value": "Du bist an ihren heiligen Orten nicht willkommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e77a67e4badde9db",
+      "file": "Strings.de.xml",
+      "key": "Burning Effect Player AutoAct Interrupt 'because' (clause)|you caught fire",
+      "context": "Burning Effect Player AutoAct Interrupt 'because' (clause)",
+      "old_value": "Ihr seid in Brand geraten",
+      "new_value": "Du bist in Brand geraten",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8483e26653b3fa5b",
+      "file": "Strings.de.xml",
+      "key": "GameObject Fail Popup Frozen|You are frozen solid!",
+      "context": "GameObject Fail Popup Frozen",
+      "old_value": "Ihr seid gefroren fest!",
+      "new_value": "Du bist gefroren fest!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cfb5e895f3a8b875",
+      "file": "Strings.de.xml",
+      "key": "ConversationScript Fail You Are Incapable|You are in no shape to start a conversation.",
+      "context": "ConversationScript Fail You Are Incapable",
+      "old_value": "Ihr seid nicht in der Verfassung, um ein Gespräch zu beginnen.",
+      "new_value": "Du bist nicht in der Verfassung, um ein Gespräch zu beginnen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "68a6972550df6b64",
+      "file": "Strings.de.xml",
+      "key": "GivesRep Water-sib Description Postfix|You are water-bonded with =object.objective=.",
+      "context": "GivesRep Water-sib Description Postfix",
+      "old_value": "Ihr seid wasserggebunden mit =object.objective=.",
+      "new_value": "Du bist wasserggebunden mit =object.objective=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "324d7790d12016bc",
+      "file": "Strings.de.xml",
+      "key": "Stomach TooFamishedToTravel|You're too famished to travel long distances.",
+      "context": "Stomach TooFamishedToTravel",
+      "old_value": "Ihr seid zu schwach vom Hunger für lange Reisen.",
+      "new_value": "Du bist zu schwach vom Hunger für lange Reisen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cafa277c51ba9dfa",
+      "file": "Strings.de.xml",
+      "key": "SkrefCorpseLoot Achievement Message|You stumbled upon some flattened remains.",
+      "context": "SkrefCorpseLoot Achievement Message",
+      "old_value": "Ihr seid auf einige zerfetzte Überreste gestoßen.",
+      "new_value": "Du bist auf einige zerfetzte Überreste gestoßen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7481ce3774210d36",
+      "file": "Strings.de.xml",
+      "key": "Examiner Failure|You are puzzled by =object.the.name:long=.",
+      "context": "Examiner Failure",
+      "old_value": "Ihr seid verwirrt von =object.dativ:long=.",
+      "new_value": "Du bist verwirrt von =object.dativ:long=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e1e08532b78175e3",
+      "file": "Strings.de.xml",
+      "key": "Examiner CriticalFail puzzled|You are puzzled by =object.the.name:long=.",
+      "context": "Examiner CriticalFail puzzled",
+      "old_value": "Ihr seid verwirrt von =object.dativ:long=.",
+      "new_value": "Du bist verwirrt von =object.dativ:long=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "30752090d129fe86",
+      "file": "Strings.de.xml",
+      "key": "|You are out of phase with =object.t=.",
+      "context": "",
+      "old_value": "Ihr seid außer Phase mit =object.dativ=.",
+      "new_value": "Du bist außer Phase mit =object.dativ=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a70d95b0ef271a1",
+      "file": "Strings.de.xml",
+      "key": "Inventory Remove Fail Frozen|You are frozen solid!",
+      "context": "Inventory Remove Fail Frozen",
+      "old_value": "Ihr seid gefroren fest!",
+      "new_value": "Du bist gefroren fest!",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

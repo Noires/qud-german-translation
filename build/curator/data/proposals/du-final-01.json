@@ -1,0 +1,218 @@
+{
+  "batch": "du-final-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-final-01)",
+  "created": "2026-10-22 16:09",
+  "items": [
+    {
+      "uid": "1ce8429e680de992",
+      "file": "Strings.de.xml",
+      "key": "TwiddleObject - Error out of range (telekinetic)|=subject.does:are= out of your telekinetic range.",
+      "context": "TwiddleObject - Error out of range (telekinetic)",
+      "old_value": "=subject.The.name= =subject.konjde:sein= außerhalb Eurer telekinetischen Reichweite.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= außerhalb deiner telekinetischen Reichweite.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "960c5cbca9bae5a2",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainFear_UnitIntimidate Description - Roll unknown|Can use =skillName=. If =subject.they= =subject.verb:already:have= =skillName=, gain a =bonus.signed= bonus on the Ego roll when using =skillName=.",
+      "context": "CookingDomainFear_UnitIntimidate Description - Roll unknown",
+      "old_value": "Kann =skillName= verwenden. Wenn =subject.they= =skillName= =subject.verb:already:have=, erhalten Sie einen =bonus.signed= Bonus auf den Ego-Wurf bei Verwendung von =skillName=.",
+      "new_value": "Kann =skillName= verwenden. Wenn =subject.they= =skillName= =subject.verb:already:have=, erhältst du einen =bonus.signed= Bonus auf den Ego-Wurf bei Verwendung von =skillName=.",
+      "note": "Spieler-Effektbeschreibung; 'Sie'-Anrede -> du (subject.they meist Spieler)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3115ab7f26e27b3a",
+      "file": "Strings.de.xml",
+      "key": "ConversationScript Fail In Melee|=subject.Does:are= engaged in hand-to-hand combat and =subject.is= too busy to have a conversation with you.",
+      "context": "ConversationScript Fail In Melee",
+      "old_value": "=subject.The.name= =subject.konjde:sein= in hand-to-hand Kampf verwickelt und =subject.is= zu beschäftigt, um mit Euch zu sprechen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= in hand-to-hand Kampf verwickelt und =subject.is= zu beschäftigt, um mit dir zu sprechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7ccc8bd2950289b7",
+      "file": "Strings.de.xml",
+      "key": "ConversationScript Fail Aflame|=subject.Does:are= on fire and =subject.is= too busy to have a conversation with you.",
+      "context": "ConversationScript Fail Aflame",
+      "old_value": "=subject.The.name= =subject.konjde:sein= in Flammen und =subject.is= zu beschäftigt, um mit Euch zu sprechen.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= in Flammen und =subject.is= zu beschäftigt, um mit dir zu sprechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ff9c2c5f718cafd6",
+      "file": "Strings.de.xml",
+      "key": "Combat Attacker Miss Message (terse)|=subject.Does:miss= you!",
+      "context": "Combat Attacker Miss Message (terse)",
+      "old_value": "=subject.The.name= =subject.konjde:verfehlen= Euch!",
+      "new_value": "=subject.The.name= =subject.konjde:verfehlen= dich!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "456d266043bfe62f",
+      "file": "Strings.de.xml",
+      "key": "Combat Attacker Miss Message (no weapon)|=subject.Does:miss= you! [=hitResult= vs. =dv=]",
+      "context": "Combat Attacker Miss Message (no weapon)",
+      "old_value": "=subject.The.name= =subject.konjde:verfehlen= Euch! [=hitResult= vs. =dv=]",
+      "new_value": "=subject.The.name= =subject.konjde:verfehlen= dich! [=hitResult= vs. =dv=]",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4059740c7abf5a8f",
+      "file": "Strings.de.xml",
+      "key": "Examiner damage risk warning|=object.Does:are= not owned by you, and examining =object.them= risks damaging =object.them=. Are you sure you want to do so?",
+      "context": "Examiner damage risk warning",
+      "old_value": "=object.The.name= =object.konjde:sein= gehört nicht Euch, und das Untersuchen von =object.them= risikiert Schäden an =object.them=. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "=object.The.name= =object.konjde:sein= gehört nicht dir, und das Untersuchen von =object.them= risikiert Schäden an =object.them=. Bist du sicher, dass du das tun willst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "184c43871f3ca084",
+      "file": "Strings.de.xml",
+      "key": "Examiner damage contained risk warning|=container.Does:are= not owned by you, and examining =object.a.name:single= inside =container.them= risks causing damage. Are you sure you want to do so?",
+      "context": "Examiner damage contained risk warning",
+      "old_value": "=container.The.name= =container.konjde:sein= gehört nicht Euch, und das Untersuchen von =object.a.dativ:single= in =container.them= risikiert Schäden. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "=container.The.name= =container.konjde:sein= gehört nicht dir, und das Untersuchen von =object.a.dativ:single= in =container.them= risikiert Schäden. Bist du sicher, dass du das tun willst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dad67f6fdd2a43d6",
+      "file": "Strings.de.xml",
+      "key": "FactionDeed Owner Confirm|=object.Does:are= not owned by you, and using =object.them= will consume =object.them=. Are you sure you want to do so?",
+      "context": "FactionDeed Owner Confirm",
+      "old_value": "=object.The.name= =object.konjde:sein= gehört nicht Euch, und =object.them= zu verwenden, wird =object.them= verbrauchen. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "=object.The.name= =object.konjde:sein= gehört nicht dir, und =object.them= zu verwenden, wird =object.them= verbrauchen. Bist du sicher, dass du das tun willst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "465ce5e983c9728a",
+      "file": "Strings.de.xml",
+      "key": "FactionDeed Owner Confirm From Container|=container.Does:are= not owned by you, and using =object.the.name= will consume =object.them=. Are you sure you want to do so?",
+      "context": "FactionDeed Owner Confirm From Container",
+      "old_value": "=container.The.name= =container.konjde:sein= gehört nicht Euch, und =object.the.name= zu verwenden, wird =object.them= verbrauchen. Seid Ihr sicher, dass Ihr das tun wollt?",
+      "new_value": "=container.The.name= =container.konjde:sein= gehört nicht dir, und =object.the.name= zu verwenden, wird =object.them= verbrauchen. Bist du sicher, dass du das tun willst?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0850fcd983edc8d",
+      "file": "Strings.de.xml",
+      "key": "RestoreOnDeath OtherRestored|=subject.Does:shimmer= before your eyes!",
+      "context": "RestoreOnDeath OtherRestored",
+      "old_value": "=subject.The.name= =subject.konjde:schimmern= vor Euren Augen!",
+      "new_value": "=subject.The.name= =subject.konjde:schimmern= vor deinen Augen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc4829597ece8663",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:swim= before your eyes!",
+      "context": "",
+      "old_value": "=subject.The.name= =subject.konjde:schwimmen= vor Euren Augen!",
+      "new_value": "=subject.The.name= =subject.konjde:schwimmen= vor deinen Augen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c1faf5e7d5fd1db",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector Activate CannotApplyRoboDomination|=subject.Does:do= not have a digital mind you can make electronic contact with.",
+      "context": "Teleprojector Activate CannotApplyRoboDomination",
+      "old_value": "=subject.The.name= =subject.konjde:tun= keinen digitalen Verstand haben, mit dem Ihr elektronischen Kontakt aufnehmen könnt.",
+      "new_value": "=subject.The.name= =subject.konjde:tun= keinen digitalen Verstand haben, mit dem du elektronischen Kontakt aufnehmen kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d6886aa2f084625",
+      "file": "Strings.de.xml",
+      "key": "Dominate Failure|=object.Does:do= not have a consciousness you can make psychic contact with.",
+      "context": "Dominate Failure",
+      "old_value": "=object.The.name= =object.konjde:tun= hat kein Bewusstsein, mit dem Ihr psychischen Kontakt aufnehmen könnt.",
+      "new_value": "=object.The.name= =object.konjde:tun= hat kein Bewusstsein, mit dem du psychischen Kontakt aufnehmen kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "519a9791770740c5",
+      "file": "Strings.de.xml",
+      "key": "Proselytize confirm proselytize follower|=object.Does:are= already your follower. Do you want to proselytize =object.them= anyway?",
+      "context": "Proselytize confirm proselytize follower",
+      "old_value": "=object.The.name= =object.konjde:sein= bereits Euer Anhänger. Wollt Ihr =object.them= trotzdem bekehren?",
+      "new_value": "=object.The.name= =object.konjde:sein= bereits dein Anhänger. Willst du =object.them= trotzdem bekehren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a9d6995731478ff8",
+      "file": "Strings.de.xml",
+      "key": "Proselytize Fail Message|=object.Does:are= unconvinced by your pleas.",
+      "context": "Proselytize Fail Message",
+      "old_value": "=object.The.name= =object.konjde:sein= von Euren Bitten nicht überzeugt.",
+      "new_value": "=object.The.name= =object.konjde:sein= von deinen Bitten nicht überzeugt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4ca28e7d8d2791d",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Sees No Reason|=subject.Does:see= no reason for you to amputate =subject.its= =limb.ordinalName=.",
+      "context": "AmputateLimb Fail Sees No Reason",
+      "old_value": "=subject.The.name= =subject.konjde:sehen= keinen Grund für Euch, =subject.its.part:akk#limb= zu amputieren.",
+      "new_value": "=subject.The.name= =subject.konjde:sehen= keinen Grund für dich, =subject.its.part:akk#limb= zu amputieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e712902c06a43393",
+      "file": "Strings.de.xml",
+      "key": "StairsDown LockedNoKey|=subject.Does:are= locked, and you don't have the key.",
+      "context": "StairsDown LockedNoKey",
+      "old_value": "=subject.The.name= =subject.konjde:sein= verschlossen, und Ihr habt keinen Schlüssel.",
+      "new_value": "=subject.The.name= =subject.konjde:sein= verschlossen, und du hast keinen Schlüssel.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa946d9bfde6db2a",
+      "file": "Strings.de.xml",
+      "key": "StairsUp LockedNoKey|=object.Does:are= locked, and you don't have the key.",
+      "context": "StairsUp LockedNoKey",
+      "old_value": "=object.The.name= =object.konjde:sein= verschlossen, und Ihr habt keinen Schlüssel.",
+      "new_value": "=object.The.name= =object.konjde:sein= verschlossen, und du hast keinen Schlüssel.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa976f615005d59d",
+      "file": "Strings.de.xml",
+      "key": "Disassembly InterruptBecause|=object.does:are= no longer within your reach",
+      "context": "Disassembly InterruptBecause",
+      "old_value": "=object.The.name= =object.konjde:sein= nicht mehr in Eurer Reichweite",
+      "new_value": "=object.The.name= =object.konjde:sein= nicht mehr in deiner Reichweite",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "da87fcd92f8500ad",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:try= to eat your memories, but =subject.itDoes:starve=.@#text",
+      "context": null,
+      "old_value": "=subject.The.name= =subject.konjde:versuchen=, Eure Erinnerungen zu essen, aber =subject.itKonjde:verhungern=.",
+      "new_value": "=subject.The.name= =subject.konjde:versuchen=, deine Erinnerungen zu essen, aber =subject.itKonjde:verhungern=.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

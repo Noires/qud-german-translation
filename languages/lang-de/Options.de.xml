@@ -74,20 +74,20 @@
   <option ID="OptionFloatingKeyboard" DisplayText="Überlagerte Tastatur für Eingaben auf unterstützten Geräten anzeigen" Category="Benutzeroberfläche" />
   <option ID="OptionZoomSensitivity" DisplayText="Zoomempfindlichkeit" Category="Benutzeroberfläche" />
   <option ID="OptionTooltipDelay" DisplayText="Tooltip-Verzögerung (ms)" Category="Benutzeroberfläche" />
-  <option ID="Option@HPColor" DisplayText="Färbe die Glyphe Eures Charakters nach Eurem Gesundheitszustand" Category="Benutzeroberfläche" />
-  <option ID="Option@AlwaysHPColor" DisplayText="Ignoriert alle Effekte, die Euer Charakterglyphen umfärben, außer dem Gesundheitsstatus" Category="Benutzeroberfläche" />
-  <option ID="Option@MutationColor" DisplayText="Erlaube Mutationen, das Glyphe Ihres Charakters umzufärben" Category="Benutzeroberfläche" />
+  <option ID="Option@HPColor" DisplayText="Färbe die Glyphe deines Charakters nach deinem Gesundheitszustand" Category="Benutzeroberfläche" />
+  <option ID="Option@AlwaysHPColor" DisplayText="Ignoriert alle Effekte, die dein Charakterglyphen umfärben, außer dem Gesundheitsstatus" Category="Benutzeroberfläche" />
+  <option ID="Option@MutationColor" DisplayText="Erlaube Mutationen, das Glyphe deines Charakters umzufärben" Category="Benutzeroberfläche" />
   <option ID="OptionDisplayMousableZoneTransitionBorder" DisplayText="Mit der Maus anklickbare Zonenwechselpfeile anzeigen" Category="Benutzeroberfläche" />
   <option ID="OptionShiftHidesSidebar" DisplayText="Shift drücken versteckt die Seitenleiste" Category="Benutzeroberfläche" />
   <option ID="OptionAllowFramelessZoomOut" DisplayText="Wenn maximal herausgezoomt, entferne den UI-Rahmen vom Hauptspielbildschirm" Category="Benutzeroberfläche" />
-  <option ID="OptionHighlightStairs" DisplayText="Markieren Sie immer Treppen" Category="Benutzeroberfläche" />
-  <option ID="OptionLogTurnSeparator" DisplayText="Fügen Sie am Ende jeder Runde während des Kampfes ein Zeilentrennung hinzu" Category="Benutzeroberfläche" />
+  <option ID="OptionHighlightStairs" DisplayText="Markiere immer Treppen" Category="Benutzeroberfläche" />
+  <option ID="OptionLogTurnSeparator" DisplayText="Füge am Ende jeder Runde während des Kampfes ein Zeilentrennung hinzu" Category="Benutzeroberfläche" />
   <option ID="OptionIndentBodyParts" DisplayText="Körperteile nach Befestigung auf dem Ausrüstungsbildschirm einrücken" Category="Benutzeroberfläche" />
   <option ID="OptionShowDetailedWeaponStats" DisplayText="Detaillierte Waffenpenetration und Schaden in Waffennamen anzeigen" Category="Benutzeroberfläche" />
   <option ID="OptionTakeallCorpses" DisplayText="Nehmt Leichen bei Verwendung des Befehls 'Alles nehmen' auf" Category="Benutzeroberfläche" />
-  <option ID="OptionDropAll" DisplayText="Aktiviere eine 'Alles fallen lassen'-Interaktion für Gegenstände in Eurem Inventar" Category="Benutzeroberfläche" />
+  <option ID="OptionDropAll" DisplayText="Aktiviere eine 'Alles fallen lassen'-Interaktion für Gegenstände in deinem Inventar" Category="Benutzeroberfläche" />
   <option ID="OptionNavigateInventoryAndEquipmentWithPagination" DisplayText="Navigiere durch Inventar- und Ausrüstungsfenster mit Links-/Rechts-Paginierung statt Bewegungstasten" Category="Benutzeroberfläche" />
-  <option ID="OptionPressingRightInInventoryEquips" DisplayText="Rüstet den markierten Gegenstand aus/ab, wenn Ihr auf dem Ausrüstungsbildschirm rechts oder links drückt" Category="Benutzeroberfläche" />
+  <option ID="OptionPressingRightInInventoryEquips" DisplayText="Rüstet den markierten Gegenstand aus/ab, wenn du auf dem Ausrüstungsbildschirm rechts oder links drückst" Category="Benutzeroberfläche" />
   <option ID="OptionExpandHighlightedInventoryAndEquipmentPane" DisplayText="Erweitert den Ausrüstungs- oder Inventarbereich bei Fokus" Category="Benutzeroberfläche" />
   <option ID="OptionStatusScreenSize" DisplayText="Größe des Charakterblatts" Category="Benutzeroberfläche" Values="Standard|Standard,Full Height|Full Height,Full|Full" />
   <option ID="OptionTutorialComplete" DisplayText="Verschiebe das Tutorial ans Ende der Spielmodelliste" Category="Benutzeroberfläche" />
@@ -97,9 +97,9 @@
   <option ID="OptionShowMonsterHPHearts" DisplayText="Färbe die Treffer-Herzen nach den verbleibenden TP des Ziels" Category="Legacy-UI" />
   <option ID="OptionShowNumberOfItems" DisplayText="Zeige Anzahl der Gegenstände in jeder Inventarkategorie" Category="Legacy-UI" />
   <option ID="OptionLocationIntseadOfName" DisplayText="Ort statt Name in der Seitenleiste anzeigen" Category="Legacy-UI" />
-  <option ID="OptionMapDirectionsToKeypad" DisplayText="Ordnen Sie Richtungen immer dem Ziffernblock zu" Category="Legacy-UI" />
+  <option ID="OptionMapDirectionsToKeypad" DisplayText="Ordne Richtungen immer dem Ziffernblock zu" Category="Legacy-UI" />
   <option ID="OptionMapShiftDirectionToPage" DisplayText="Ordne Shift+Richtungen den Menünavigationstasten zu (funktioniert nicht mit Nummernpad-Tasten)" Category="Legacy-UI" />
-  <option ID="OptionPushAZHotkeys" DisplayText="Leiten Sie A-Z-Tastenkombinationen immer an die ältere Benutzeroberfläche weiter" Category="Legacy-UI" />
+  <option ID="OptionPushAZHotkeys" DisplayText="Leite A-Z-Tastenkombinationen immer an die ältere Benutzeroberfläche weiter" Category="Legacy-UI" />
   <option ID="OptionAutoSip" DisplayText="Trinke automatisch Süßwasser, wenn du durstig bist" Category="Automatisierung" />
   <option ID="OptionAutoSipLevel" DisplayText="Durstgrenzwert für automatisches Trinken" Category="Automatisierung" Values="Dehydrated|Dehydrated,Parched|Parched,Thirsty|Thirsty,Quenched|Quenched,Tumescent|Tumescent" />
   <option ID="OptionAutoTorch" DisplayText="Zünde und lösche Fackeln automatisch" Category="Automatisierung" />
@@ -136,10 +136,10 @@
   <option ID="OptionAskForOneItem" DisplayText="Beim Aufnehmen vom Boden eine Itemliste anfordern, auch wenn nur eines vorhanden ist" Category="Anfragen" />
   <option ID="OptionPromptFavoriteRecipe" DisplayText="Nach neuen Rezepten zu Favoriten hinzufügen fragen" Category="Anfragen" />
   <option ID="OptionDisplayHPWarning" DisplayText="Grenzwert für Warnung bei niedrigen Lebenspunkten" Category="Anfragen" Values="20%|20%,40%|40%,60%|60%,80%|80%,100%|100%,No Warning|No Warning" />
-  <option ID="OptionDismemberAsPopup" DisplayText="Zeige Popups, wenn Ihr jemanden zerstückelt oder enthauptet" Category="Anfragen" />
+  <option ID="OptionDismemberAsPopup" DisplayText="Zeige Popups, wenn du jemanden zerstückelst oder enthauptest" Category="Anfragen" />
   <option ID="OptionAbilityCooldownWarningAsMessage" DisplayText="Zeige Meldungen für Fertigkeiten in Abklingzeit als Nachrichteneinträge statt als Popups" Category="Anfragen" />
   <option ID="OptionShowScavengeItemAsMessage" DisplayText="Zeige Plündergegenstände als Nachrichteneinträge statt als Popups" Category="Anfragen" />
-  <option ID="OptionPopupJournalNote" DisplayText="Popups anzeigen, wenn Sie Informationen in Ihr Tagebuch eintragen" Category="Anfragen" />
+  <option ID="OptionPopupJournalNote" DisplayText="Popups anzeigen, wenn du Informationen in dein Tagebuch einträgst" Category="Anfragen" />
   <option ID="OptionDisplayLedLevelUp" DisplayText="Ausführliche Stufenaufstiegsmeldungen für Begleiter anzeigen" Category="Anfragen" />
   <option ID="OptionDefaultDeathToViewFinalMessages" DisplayText="Die Standardauswahl bei Todesmeldungen in Roleplay-Modus auf 'Letzte Nachrichten anzeigen' statt 'Checkpoint erneut laden' setzen" Category="Anfragen" />
   <option ID="OptionEnableMods" DisplayText="Aktiviere Mods" Category="Mods" />
@@ -180,7 +180,7 @@
   <option ID="OptionDisableZoneCaching2" DisplayText="Zone-Caching deaktivieren" Category="Fehlersuche" />
   <option ID="OptionDisableTryLimit" DisplayText="Limit für Zonenaufbauversuche deaktivieren" Category="Fehlersuche" />
   <option ID="OptionEnableWishRegionNames" DisplayText="Zonennamen vorab generieren für Wunsch-Unterstützung" Category="Fehlersuche" />
-  <option ID="OptionGivesRepShowsCurrentRep" DisplayText="Zeige Ansehen mit den Fraktionen einer Kreatur, wenn Ihr sie anschaut" Category="Fehlersuche" />
+  <option ID="OptionGivesRepShowsCurrentRep" DisplayText="Zeige Ansehen mit den Fraktionen einer Kreatur, wenn du sie anschaust" Category="Fehlersuche" />
   <option ID="OptionDebugShowConversationNode" DisplayText="Zeige XML-Gesprächs- und Knotennamen während des Gesprächs" Category="Fehlersuche" />
   <option ID="OptionDebugShowFullZoneDuringBuild" DisplayText="Zeige die vollständige Zone-ID während der Zonenerstellung" Category="Fehlersuche" />
   <option ID="OptionDebugDamagePenetrations" DisplayText="Zeige Debug-Text für Schadendurchdringung" Category="Fehlersuche" />
@@ -227,4 +227,7 @@
   <option ID="OptionDebugExampleLanguage" DisplayText="Aktiviere Beispielsprachauswahl" Category="Fehlersuche (Übersetzung)">
     <helptext>Ermöglicht die Auswahl der Beispielsprachdateien im Sprachauswähler.</helptext>
   </option>
+  <option ID="OptionBrighterGreyWeights" Category="Barrierefreiheit" DisplayText="Gewichte in hellerem Grau anzeigen" />
+  <option ID="OptionDisableZoneThawRestrict" Category="Fehlersuche" DisplayText="Beschränkungen beim Auftauen von Zonen deaktivieren" />
+  <option ID="OptionDrawFloodExplore" Category="Fehlersuche" DisplayText="Flutfüllung der automatischen Erkundung zeichnen" />
 </options>

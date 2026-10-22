@@ -2,39 +2,39 @@
 
 <activatedabilities Lang="de" Encoding="utf-8">
   <ability Command="CommandAmputateLimb">
-    <description>Ihr amputiert eine Eurer eigenen Gliedmaßen oder die Gliedmaße eines infizierten Begleiters.</description>
+    <description>Du amputierst eine deiner eigenen Gliedmaßen oder die Gliedmaße eines infizierten Begleiters.</description>
   </ability>
   <ability Command="CommandFlyToggle">
     <description>
-              <p>Ihr überquert Bodengelände und könnt von Bodenkreaturen nicht im Nahkampf angegriffen werden.</p>
+              <p>Du überquerst Bodengelände und kannst von Bodenkreaturen nicht im Nahkampf angegriffen werden.</p>
               <br />
               <p>Jede Runde besteht eine <stat Name="CrashChance" />% Chance, dass Ihr auf den Boden stürzt.</p>
               <br />
-              <p>Ihr könnt nur über dem Boden fliegen.</p>
+              <p>Du kannst nur über dem Boden fliegen.</p>
           </description>
   </ability>
   <ability Command="CommandSwoopAttack">
     <description>
-              <p>Ihr stoßt herab, um ein Ziel auf dem Boden anzugreifen, wobei Ihr einen Zug für den Angriff und einen für die Rückkehr in die Luft aufwendet.</p>
+              <p>Du stößt herab, um ein Ziel auf dem Boden anzugreifen, wobei du einen Zug für den Angriff und einen für die Rückkehr in die Luft aufwendest.</p>
               <br />
               <p>Es gibt eine <stat Name="SwoopCrashChance" />%ige Chance, dass Ihr zu Boden stürzt (verdoppelt, wenn Euer Angriff von einem Schild blockiert wird).</p>
           </description>
   </ability>
   <ability Command="CommandEndBurrowing">
-    <description>Sie verlassen Ihren Bau.</description>
+    <description>Du verlässt deinen Bau.</description>
   </ability>
   <ability Command="CommandEndDomination">
-    <description>Ihr hört auf, diese Kreatur zu beherrschen.</description>
+    <description>Du hörst auf, diese Kreatur zu beherrschen.</description>
   </ability>
   <ability Command="ShadeOilPhase">
     <description>
-              <p>Ihr könnt für kurze Zeit durch feste Objekte hindurchgehen.</p>
+              <p>Du kannst für kurze Zeit durch feste Objekte hindurchgehen.</p>
               <br />
               <statline Name="Duration" DisplayName="Dauer" />
           </description>
   </ability>
   <ability Command="CommandEndSubmerged">
-    <description>Sie verlassen Ihren Unterschlupf.</description>
+    <description>Du verlässt deinen Unterschlupf.</description>
   </ability>
   <ability Command="ActivateFabricateFromSelf">
     <description>
@@ -58,7 +58,7 @@
   </ability>
   <ability Command="CommandRunOver">
     <description>
-              <p>Ihr stürmt in einer Linie vor und rammt Kreaturen in Eurem Weg.</p>
+              <p>Du stürmst in einer Linie vor und rammst Kreaturen in deinem Weg.</p>
               <br />
               <statline Name="Damage" DisplayName="Schaden" />
               <statline Name="Range" DisplayName="Reichweite" />
@@ -67,7 +67,7 @@
           </description>
   </ability>
   <ability Command="CommandClone">
-    <description>Ihr klont eine organische Kreatur.</description>
+    <description>Du klonst eine organische Kreatur.</description>
   </ability>
   <ability Command="CommandTinkerTurret">
     <description>
@@ -80,14 +80,14 @@
     <description>Sie verschlingen eine benachbarte Kreatur lebend und möglicherweise mehr.</description>
   </ability>
   <ability Command="CommandToggleAnchorSpikes">
-    <description>Ihr könnt nicht gezwungen werden, Euch durch physische Mittel zu bewegen.</description>
+    <description>Du kannst nicht gezwungen werden, dich durch physische Mittel zu bewegen.</description>
   </ability>
   <ability Command="CommandToggleAnomalyFumigator">
     <description>Sie erzeugen jede Runde Wolken aus Normalitätsgas.</description>
   </ability>
   <ability Command="CommandCathedraBlackOpal">
     <description>
-              <p>Ihr zerreißt die Raumzeit und teleportiert Euch an einen zufälligen Ort in Qud.</p>
+              <p>Du zerreißt die Raumzeit und teleportierst dich an einen zufälligen Ort in Qud.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -105,7 +105,7 @@
   </ability>
   <ability Command="CommandCathedraSapphire">
     <description>
-              <p>Ihr beschwört eine Druckwelle um euch selbst. Kreaturen werden vom Zentrum der Explosion weg gestoßen, betäubt und erleiden quetschenden Schaden in bis zu 3 Etappen.</p>
+              <p>Du beschwörst eine Druckwelle um dich selbst. Kreaturen werden vom Zentrum der Explosion weg gestoßen, betäubt und erleiden quetschenden Schaden in bis zu 3 Etappen.</p>
               <br />
               <statline Name="Area" DisplayName="Bereich" />
               <statline Name="DamageIncrement" DisplayName="Schadenserhöhung" />
@@ -114,7 +114,7 @@
   </ability>
   <ability Command="CommandCathedraWhiteOpal">
     <description>
-              <p>Ihr setzt einen Stoß Glitter um Euch herum frei.</p>
+              <p>Du setzt einen Stoß Glitter um dich herum frei.</p>
               <br />
               <statline Name="Duration" Unit="Zug" DisplayName="Dauer" />
               <statline Name="Cooldown" Unit="Runde" DisplayName="Abklingzeit" />
@@ -125,7 +125,7 @@
   </ability>
   <ability Command="CommandRecomposite">
     <description>
-              <p>Ihr teleportiert Euch zu einem beliebigen erforschten Ort auf der Karte.</p>
+              <p>Du teleportierst dich zu einem beliebigen erforschten Ort auf der Karte.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -139,7 +139,7 @@
   </ability>
   <ability Command="CommandEmergencyRecomposite">
     <description>
-              <p>Ihr teleportiert Euch zu einem zufälligen, erforschten Ort auf der Karte.</p>
+              <p>Du teleportierst dich zu einem zufälligen, erforschten Ort auf der Karte.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -152,7 +152,7 @@
           </description>
   </ability>
   <ability Command="CommandToggleCyberNightVision">
-    <description>Ihr seht im Dunkeln.</description>
+    <description>Du siehst im Dunkeln.</description>
   </ability>
   <ability Command="CommandToggleNocturnalApex">
     <description>
@@ -171,7 +171,7 @@
   </ability>
   <ability Command="CommandActivateOnboardRecoilerTeleporter">
     <description>
-              <p>Ihr teleportiert Euch zum programmierten Ort zurück.</p>
+              <p>Du teleportierst dich zum programmierten Ort zurück.</p>
               <br />
               <statline Name="Location" DisplayName="Aktueller Standort" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -184,10 +184,10 @@
           </description>
   </ability>
   <ability Command="CommandTogglePhaseHarmonicModulator">
-    <description>Ihr könnt mit In-Phase- und Out-of-Phase-Objekten und Kreaturen interagieren.</description>
+    <description>Du kannst mit In-Phase- und Out-of-Phase-Objekten und Kreaturen interagieren.</description>
   </ability>
   <ability Command="AlterHolographicVisage">
-    <description>Ihr ändert Euer Aussehen und gewinnt +200 Ruf bei der ausgewählten Fraktion.</description>
+    <description>Du änderst dein Aussehen und gewinnst +200 Ruf bei der ausgewählten Fraktion.</description>
   </ability>
   <ability Command="CommandStasisEntangler">
     <description>
@@ -197,7 +197,7 @@
           </description>
   </ability>
   <ability Command="CommandTogglePhaseAdaptiveScope">
-    <description>Wenn Ihr eine Fernwaffe abfeuert oder etwas wirft, wechselt Euer Projektil die Phase, um Hindernisse zu durchqueren und Euer Ziel zu erreichen.</description>
+    <description>Wenn du eine Fernwaffe abfeuerst oder etwas wirfst, wechselt dein Projektil die Phase, um Hindernisse zu durchqueren und dein Ziel zu erreichen.</description>
   </ability>
   <ability Command="CommandFabricateForceKnife">
     <description>Sie fertigen ein Kraftmesser an, das 1W8 Schaden verursacht, einen Durchdringungswert gleich dem Rüstungswert des Ziels hat und +6 Wurfreichweite besitzt.</description>
@@ -211,7 +211,7 @@
   </ability>
   <ability Command="CommandActivateTetheredRecoilerTeleporter">
     <description>
-              <p>Ihr teleportiert Euch zum verbundenen Ort.</p>
+              <p>Du teleportierst dich zum verbundenen Ort.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
               <statline Name="Destination" DisplayName="Ziel" />
@@ -220,13 +220,13 @@
   </ability>
   <ability Command="ActivateAjiConch">
     <description>
-              <p>Ihr blasst in die Muschel und erzeugt einen Gaskegel.</p>
+              <p>Du bläst in die Muschel und erzeugst einen Gaskegel.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandRecoil">
-    <description>Ihr teleportiert Euch zu einem programmierten Ort zurück.</description>
+    <description>Du teleportierst dich zu einem programmierten Ort zurück.</description>
   </ability>
   <ability Command="ToggleHologramEmitter">
     <description>
@@ -241,14 +241,14 @@
     <description>
               <p>Sie erzeugen ein Kraftfeld um sich selbst.</p>
               <br />
-              <p>Erschafft um Euch herum ein 3x3-Kraftfeld.</p>
-              <p>Ihr könnt Geschosswaffen durch das Kraftfeld abfeuern.</p>
+              <p>Erschafft um dich herum ein 3x3-Kraftfeld.</p>
+              <p>Du kannst Geschosswaffen durch das Kraftfeld abfeuern.</p>
               <p>Hoher Energieverbrauch pro Runde.</p>
           </description>
   </ability>
   <ability Command="CommandQuickenMind">
     <description>
-              <p>Ihr seid von schöpferischer Energie erfüllt.</p>
+              <p>Du bist von schöpferischer Energie erfüllt.</p>
               <br />
               <switch Name="AbilityAmount">
                   <case Value="1"><p>Aktualisiert eine zufällige Abklingzeit.</p></case>
@@ -259,7 +259,7 @@
   </ability>
   <ability Command="ActivateTeleprojector">
     <description>
-              <p>Ihr projiziert euren Geist in einen benachbarten Roboter und kontrolliert seine Handlungen, während euer Körper ruht.</p>
+              <p>Du projizierst deinen Geist in einen benachbarten Roboter und kontrollierst seine Handlungen, während dein Körper ruht.</p>
               <br />
               <p>Technologischer Angriff gegen einen Roboter.</p>
               <p>Angriffswurf: <stat Name="Attack" /> gegen Verteidigers MA + Stufe</p>
@@ -271,7 +271,7 @@
   </ability>
   <ability Command="ConfigureTemperatureController">
     <description>
-              <p>Ihr setzt eine Zieltemperatur und werdet jede Runde geheizt oder gekühlt, bis diese erreicht ist.</p>
+              <p>Du setzt eine Zieltemperatur und wirst jede Runde geheizt oder gekühlt, bis diese erreicht ist.</p>
               <br />
               <p>Temperaturänderung pro Runde: etwa <stat Name="TemperatureChange" />%</p>
               <p>Ladungsverbrauch pro Runde: Temperaturänderung x<gametext>=chargeuse:0.??=</gametext></p>
@@ -279,20 +279,20 @@
   </ability>
   <ability Command="ActivatePaxInfection">
     <description>
-              <p>Ihr bläst Sporen aus und verbreitet Klanq.</p>
+              <p>Du bläst Sporen aus und verbreitest Klanq.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="ActivateSkyshroud">
     <description>
-              <p>Ihr eilt los in einer Flammen- und Rauchsäule.</p>
+              <p>Du eilst los in einer Flammen- und Rauchsäule.</p>
               <br />
-              <p>Während des Stürmens stürmt Ihr bei jeder Bewegung in eine Richtung zum nächsten Feind oder Hindernis und führt einen Angriff aus.</p>
+              <p>Während des Stürmens stürmst du bei jeder Bewegung in eine Richtung zum nächsten Feind oder Hindernis und führst einen Angriff aus.</p>
               <br />
-              <p>Für je drei Felder, die Ihr sprintet, erhaltet Ihr +2 auf Treffer und +2 auf Durchschlag bei Eurem Sprintangriff.</p>
+              <p>Für je drei Felder, die du sprintest, erhältst du +2 auf Treffer und +2 auf Durchschlag bei deinem Sprintangriff.</p>
               <br />
-              <p>Wenn Ihr nach zwanzig Feldern keinen Feind oder Hindernis antrefft, stoppt Ihr die Bewegung.</p>
+              <p>Wenn du nach zwanzig Feldern keinen Feind oder Hindernis antriffst, stoppst du die Bewegung.</p>
               <br />
               <statline Name="Duration" DisplayName="Dauer" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -309,12 +309,12 @@
   </ability>
   <ability Command="CommandChangeGrip">
     <description>
-              <p>Ihr ändert den Griffstil auf Eurer Waffe und führt sie als einen anderen Waffentyp.</p>
+              <p>Du änderst den Griffstil auf deiner Waffe und führst sie als einen anderen Waffentyp.</p>
           </description>
   </ability>
   <ability Command="CommandBeguileCreature">
     <description>
-              <p>Ihr verführt eine benachbarte Kreatur dazu, Euch treu zu dienen.</p>
+              <p>Du verführst eine benachbarte Kreatur dazu, dir treu zu dienen.</p>
               <br />
               <p>Psychischer Angriff gegen eine Kreatur mit Verstand.</p>
               <p>Angriffswurf: <stat Name="Attack" /> gegen Verteidigers MA + Stufe</p>
@@ -324,7 +324,7 @@
   </ability>
   <ability Command="CommandBurgeoning">
     <description>
-              <p>Ihr veranlasst Pflanzen, spontan in einer nahen Gegend zu wachsen und Eure Feinde zu behindern.</p>
+              <p>Du veranlasst Pflanzen, spontan in einer nahen Gegend zu wachsen und deine Feinde zu behindern.</p>
               <br />
               <p>Pflanzen variieren je nach Mutationsrang.</p>
               <statline Name="Area" DisplayName="Bereich" />
@@ -334,7 +334,7 @@
   </ability>
   <ability Command="CommandClairvoyance">
     <description>
-              <p>Ihr erhaltet kurzzeitig Sicht auf eine nahe Gegend.</p>
+              <p>Du erhältst kurzzeitig Sicht auf eine nahe Gegend.</p>
               <br />
               <statline Name="VisionRadius" DisplayName="Sichtradius" />
               <statline Name="VisionDuration" DisplayName="Sichtdauer" Unit="Runde" />
@@ -343,7 +343,7 @@
   </ability>
   <ability Command="CommandConfuse">
     <description>
-              <p>Ihr verwirrt nahe Feinde.</p>
+              <p>Du verwirrst nahe Feinde.</p>
               <br />
               <p>Betroffene Kreaturen handeln halbzufällig und erhalten eine <stat Name="Penalty" /> Strafe für ihre geistigen Fähigkeiten.</p>
               <statline Name="ConeAngle" DisplayName="Kegelwinkel" />
@@ -354,7 +354,7 @@
   </ability>
   <ability Command="CommandCryokinesis">
     <description>
-              <p>Ihr kühlt mit Eurer Gedankenkraft eine nahe Gegend ab, verursacht Schaden und friert Dinge für 3 Runden ein.</p>
+              <p>Du kühlst mit deiner Gedankenkraft eine nahe Gegend ab, verursachst Schaden und frierst Dinge für 3 Runden ein.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Area" DisplayName="Bereich" />
@@ -371,13 +371,13 @@
               <statline Name="Area" DisplayName="Bereich" />
               <statline Name="DamageNonStructural" DisplayName="Schaden an nicht-strukturellen Objekten" />
               <statline Name="DamageStructural" DisplayName="Schaden an strukturellen Objekten" />
-              <p>Ihr seid 3 Runden lang erschöpft, nachdem Ihr diese Kraft verwendet habt.</p>
+              <p>Du bist 3 Runden lang erschöpft, nachdem du diese Kraft verwendet hast.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandDominateCreature">
     <description>
-              <p>Sie würgen den Verstand einer benachbarten Kreatur und kontrollieren ihre Handlungen, während Ihr eigener Körper untätig liegt.</p>
+              <p>Du würgst den Verstand einer benachbarten Kreatur und kontrollierst ihre Handlungen, während dein eigener Körper untätig liegt.</p>
               <br />
               <p>Psychischer Angriff gegen eine Kreatur mit Verstand.</p>
               <p>Angriffswurf: <stat Name="Attack" /> gegen Verteidigers MA + Stufe</p>
@@ -389,25 +389,25 @@
     <description>
               <p>Sie erzeugen ein Kraftfeld um sich selbst.</p>
               <br />
-              <p>Erschafft um Euch herum ein 3x3-Kraftfeld.</p>
-              <p>Ihr könnt Geschosswaffen durch das Kraftfeld abfeuern.</p>
+              <p>Erschafft um dich herum ein 3x3-Kraftfeld.</p>
+              <p>Du kannst Geschosswaffen durch das Kraftfeld abfeuern.</p>
               <statline Name="Duration" DisplayName="Dauer" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandForceWall">
     <description>
-              <p>Sie erzeugen eine Kraftwand, die Sie vor Ihren Feinden schützt.</p>
+              <p>Du erzeugst eine Kraftwand, die dich vor deinen Feinden schützt.</p>
               <br />
               <p>Erschafft 9 zusammenhängende Felder mit unbeweglichem Kraftfeld.</p>
-              <p>Ihr könnt Geschosswaffen durch das Kraftfeld abfeuern.</p>
+              <p>Du kannst Geschosswaffen durch das Kraftfeld abfeuern.</p>
               <statline Name="Duration" DisplayName="Dauer" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandKindle">
     <description>
-              <p>Ihr entzündet ein kleines Feuer mit eurem Geist.</p>
+              <p>Du entzündest ein kleines Feuer mit deinem Geist.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -415,14 +415,14 @@
   </ability>
   <ability Command="CommandLeyShift">
     <description>
-              <p>Ihr verschiebt die Raumzeit in der lokalen Region.</p>
+              <p>Du verschiebst die Raumzeit in der lokalen Region.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandLifeDrain">
     <description>
-              <p>Ihr verbindet Euch mit einer nahen organischen Kreatur und saugt ihre Lebenskraft aus.</p>
+              <p>Du verbindest dich mit einer nahen organischen Kreatur und saugst ihre Lebenskraft aus.</p>
               <br />
               <p>Psychischer Angriff gegen eine Kreatur mit Verstand.</p>
               <p>Entleert <stat Name="HP" /> pro Runde.</p>
@@ -434,8 +434,8 @@
   </ability>
   <ability Command="CommandLase">
     <description>
-              <p>Sie konzentrieren Ihr Umgebungslicht zu einem Laserstrahl.</p>
-              <p>Reduziert vorübergehend den Radius Eures Umgebungslichts um 1.</p>
+              <p>Du konzentrierst dein Umgebungslicht zu einem Laserstrahl.</p>
+              <p>Reduziert vorübergehend den Radius deines Umgebungslichts um 1.</p>
               <br />
               <statline Name="LaserDamageInc" DisplayName="Laser-Schadensinkrement" />
               <statline Name="LaserPen" DisplayName="Laser-Durchdringung" />
@@ -444,7 +444,7 @@
   <ability Command="CommandAmbientLight">
     <description>
               <p>Ihr erzeugt Umgebungslicht im Umkreis von <stat Name="Radius" />.</p>
-              <p>Ihr könnt das Licht in einen Laserstrahl konzentrieren und den Radius vorübergehend um 1 verringern.</p>
+              <p>Du kannst das Licht in einen Laserstrahl konzentrieren und den Radius vorübergehend um 1 verringern.</p>
               <br />
               <p>Aufladungsrate für Umgebungslicht: 1 pro <stat Name="AmbientRegrowthDuration" Unit="Runde" /></p>
           </description>
@@ -467,9 +467,9 @@
   </ability>
   <ability Command="CommandPrecognition">
     <description>
-              <p>Ihr blickt in eure nahe Zukunft.</p>
+              <p>Du blickst in deine nahe Zukunft.</p>
               <br />
-              <p>Ihr könnt diese Kraft aktivieren und später zu dem Zeitpunkt zurückgehen, als ihr sie aktiviert habt.</p>
+              <p>Du kannst diese Kraft aktivieren und später zu dem Zeitpunkt zurückgehen, als du sie aktiviert hast.</p>
               <br />
               <statline Name="Duration" DisplayName="Dauer zwischen Verwendung und Rückkehr" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -482,7 +482,7 @@
   </ability>
   <ability Command="CommandPsychometryMenu">
     <description>
-              <p>Ihr lest die Geschichte von Artefakten, indem ihr sie berührt, und lernt, was sie tun und wie sie hergestellt wurden.</p>
+              <p>Du liest die Geschichte von Artefakten, indem du sie berührst, und lernst, was sie tun und wie sie hergestellt wurden.</p>
               <br />
               <p>Identifiziert Artefakte bis Komplexitätsstufe <stat Name="IdentifyComplexity" /> fehlerlos.</p>
               <p>Lernt, wie man identifizierte Artefakte bis zur Komplexitätsstufe <stat Name="ConstructComplexity" /> konstruiert.</p>
@@ -492,7 +492,7 @@
   </ability>
   <ability Command="CommandPyrokinesis">
     <description>
-              <p>Sie heizen eine nahegelegene Fläche mit Ihrem Verstand auf, richten Schaden an und setzen Dinge 3 Runden lang in Brand.</p>
+              <p>Du heizt eine nahegelegene Fläche mit deinem Verstand auf, richtest Schaden an und setzt Dinge 3 Runden lang in Brand.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Area" DisplayName="Bereich" />
@@ -504,10 +504,10 @@
   </ability>
   <ability Command="CommandSpaceTimeVortex">
     <description>
-              <p>Ihr zerreißt die Raumzeit und schleudert nahegelegene Dinge durch einen Riss im kosmischen Gefüge.</p>
+              <p>Du zerreißt die Raumzeit und schleuderst nahegelegene Dinge durch einen Riss im kosmischen Gefüge.</p>
               <br />
               <p>Beschwört einen Wirbel, der alles in seinem Weg verschlingt.</p>
-              <p>Ihr könnt den Wirbel betreten, um euch zu einem zufälligen Ort in Qud zu teleportieren.</p>
+              <p>Du kannst den Wirbel betreten, um dich zu einem zufälligen Ort in Qud zu teleportieren.</p>
               <switch Name="BonusDuration">
                   <case Value="0" />
                   <default><br /><statline Name="BonusDuration" DisplayName="Bonusdauer" Unit="Runde" /></default>
@@ -518,7 +518,7 @@
   </ability>
   <ability Command="CommandStunningForce">
     <description>
-              <p>Ihr beschwört eine Druckwelle in einem nahen Bereich. Kreaturen werden vom Zentrum der Explosion weg gestoßen, betäubt und erleiden quetschenden Schaden in bis zu 3 Etappen.</p>
+              <p>Du beschwörst eine Druckwelle in einem nahen Bereich. Kreaturen werden vom Zentrum der Explosion weg gestoßen, betäubt und erleiden quetschenden Schaden in bis zu 3 Etappen.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Area" DisplayName="Bereich" />
@@ -528,12 +528,12 @@
   </ability>
   <ability Command="CommandSunderMind">
     <description>
-              <p>Ihr zerreißt den Verstand eines Feindes und lässt ihn vor Schmerz taumeln.</p>
+              <p>Du zerreißt den Verstand eines Feindes und lässt ihn vor Schmerz taumeln.</p>
               <br />
               <p>Für bis zu 10 Runden engagierst du dich in psychischem Kampf mit einem Gegner und verursachst jede Runde Schaden.</p>
               <p>Jede Aktion außer Zugübergabe bricht die Verbindung.</p>
-              <p>Jede Runde führt Ihr einen mentalen Angriff gegen MA durch.</p>
-              <p>Nach der zehnten Runde verursachen Sie Bonusschaden gleich dem Gesamtschaden, den Sie bisher verursacht haben.</p>
+              <p>Jede Runde führst du einen mentalen Angriff gegen MA durch.</p>
+              <p>Nach der zehnten Runde verursachst du Bonusschaden gleich dem Gesamtschaden, den du bisher verursacht hast.</p>
               <br />
               <statline Name="DamageIncrement" DisplayName="Schadenserhöhung" />
               <statline Name="Range" DisplayName="Reichweite" />
@@ -542,38 +542,38 @@
   </ability>
   <ability Command="CommandTelepathy">
     <description>
-              <p>Ihr könnt durch den psychischen Äther mit anderen kommunizieren.</p>
+              <p>Du kannst durch den psychischen Äther mit anderen kommunizieren.</p>
               <br />
               <p>Unterhalte dich mit jedem in Sicht.</p>
-              <p>Es kostet Euch viel weniger Zeit, Euren Gefährten Befehle zu erteilen.</p>
+              <p>Es kostet dich viel weniger Zeit, deinen Gefährten Befehle zu erteilen.</p>
           </description>
   </ability>
   <ability Command="CommandTeleport">
     <description>
-              <p>Ihr teleportiert Euch an einen nahegelegenen Ort.</p>
+              <p>Du teleportierst dich an einen nahegelegenen Ort.</p>
               <br />
-              <p>Teleportiert Euch an einen zufälligen Ort innerhalb eines bestimmten Bereichs.</p>
+              <p>Teleportiert dich an einen zufälligen Ort innerhalb eines bestimmten Bereichs.</p>
               <statline Name="UncertaintyRadius" DisplayName="Unsicherheitsradius" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandLeaderTeleport">
     <description>
-              <p>Ihr teleportiert Euch an einen nahegelegenen Ort in der Nähe eures Anführers.</p>
+              <p>Du teleportierst dich an einen nahegelegenen Ort in der Nähe deines Anführers.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandTeleportOther">
     <description>
-              <p>Ihr teleportiert eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.</p>
+              <p>Du teleportierst eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandTemporalFugue">
     <description>
-              <p>Ihr bewegt euch schnell vor und zurück durch die Zeit und erstellt mehrere Kopien eurer selbst.</p>
+              <p>Du bewegst dich schnell vor und zurück durch die Zeit und erstellst mehrere Kopien deiner selbst.</p>
               <br />
               <statline Name="Copies" DisplayName="Kopien" />
               <statline Name="Duration" DisplayName="Dauer" />
@@ -582,7 +582,7 @@
   </ability>
   <ability Command="CommandQuantumFugue">
     <description>
-              <p>Ihr bewegt euch schnell vor und zurück durch die Zeit und erstellt mehrere Kopien eurer selbst.</p>
+              <p>Du bewegst dich schnell vor und zurück durch die Zeit und erstellst mehrere Kopien deiner selbst.</p>
               <br />
               <p>Bewohnt den Körper der gesündesten Kopie, wenn der Effekt abläuft.</p>
               <statline Name="Copies" DisplayName="Kopien" />
@@ -592,7 +592,7 @@
   </ability>
   <ability Command="CommandTimeDilation">
     <description>
-              <p>Sie verzerren die Zeit um Ihre Person, um Ihre Feinde zu verlangsamen.</p>
+              <p>Du verzerrst die Zeit um deine Person, um deine Feinde zu verlangsamen.</p>
               <br />
               <p>Kreaturen innerhalb von <stat Name="Range" /> Feldern werden verlangsamt, je näher sie bei Euch sind.</p>
               <p>Abstand 1: Kreaturen erhalten eine <stat Name="QuicknessPenalty1" />% Schnelligkeitsstrafe</p>
@@ -604,7 +604,7 @@
   </ability>
   <ability Command="CommandWillForceStrength">
     <description>
-              <p>Durch reine Willenskraft führt Ihr unheimliche physische Meisterleistungen auf.</p>
+              <p>Durch reine Willenskraft führst du unheimliche physische Meisterleistungen auf.</p>
               <br />
               <p>Erhöht euer Stärke-Attribut um einen Betrag, der dem Doppelten eures Ego-Bonus entspricht.</p>
               <br />
@@ -615,7 +615,7 @@
   </ability>
   <ability Command="CommandWillForceAgility">
     <description>
-              <p>Durch reine Willenskraft führt Ihr unheimliche physische Meisterleistungen auf.</p>
+              <p>Durch reine Willenskraft führst du unheimliche physische Meisterleistungen auf.</p>
               <br />
               <p>Erhöht euer Agilität-Attribut um einen Betrag, der dem Doppelten eures Ego-Bonus entspricht.</p>
               <br />
@@ -626,7 +626,7 @@
   </ability>
   <ability Command="CommandWillForceToughness">
     <description>
-              <p>Durch reine Willenskraft führt Ihr unheimliche physische Meisterleistungen auf.</p>
+              <p>Durch reine Willenskraft führst du unheimliche physische Meisterleistungen auf.</p>
               <br />
               <p>Erhöht euer Zähigkeit-Attribut um einen Betrag, der dem Doppelten eures Ego-Bonus entspricht.</p>
               <br />
@@ -637,7 +637,7 @@
   </ability>
   <ability Command="CommandSpitAcid">
     <description>
-              <p>Ihr speiet eine Pfütze ätzender Säure.</p>
+              <p>Du speist eine Pfütze ätzender Säure.</p>
               <br />
               <p>Bedeckt das Gebiet mit Säureschleim.</p>
               <statline Name="Area" DisplayName="Bereich" />
@@ -647,7 +647,7 @@
   </ability>
   <ability Command="CommandBelchUrchins">
     <description>
-              <p>Ihr stoßt verschiedene Stacheltiere in einer nahen Gegend aus.</p>
+              <p>Du stößt verschiedene Stacheltiere in einer nahen Gegend aus.</p>
               <br />
               <statline Name="Amount" DisplayName="Anzahl der Seeigel" />
               <statline Name="Range" DisplayName="Reichweite" />
@@ -657,7 +657,7 @@
   </ability>
   <ability Command="CommandBurrow">
     <description>
-              <p>Ihr könnt durch Graben unter der Erde reisen.</p>
+              <p>Du kannst durch Graben unter der Erde reisen.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -676,7 +676,7 @@
     <description>
               <p>Ihr verwirrt nahe feindselige Kreaturen pro Verwirrungsrang <stat Name="ConfusionRank" />.</p>
               <br />
-              <p>Ihr könnt nicht handeln, während Ihr funkelt.</p>
+              <p>Du kannst nicht handeln, während du funkelst.</p>
               <br />
               <statline Name="ConfusionRank" DisplayName="Verwirrstufe" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -684,18 +684,18 @@
   </ability>
   <ability Command="CommandFearAura">
     <description>
-              <p>Ihr macht Kreaturen um Euch herum Angst.</p>
+              <p>Du machst Kreaturen um dich herum Angst.</p>
               <br />
-              <p>Ihr veranlasst benachbarte Kreaturen, in Angst zu fliehen.</p>
+              <p>Du veranlasst benachbarte Kreaturen, in Angst zu fliehen.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandStoneGaze">
     <description>
-              <p>Ihr verwandelt Dinge mit eurem Blick in Stein.</p>
+              <p>Du verwandelst Dinge mit deinem Blick in Stein.</p>
               <br />
-              <p>Schießt nach einer 3-Runden-Aufladung einen Strahl ab, der Euer Ziel zu Stein verwandelt.</p>
+              <p>Schießt nach einer 3-Runden-Aufladung einen Strahl ab, der dein Ziel zu Stein verwandelt.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -703,9 +703,9 @@
   </ability>
   <ability Command="CommandCrungleGaze">
     <description>
-              <p>Ihr provoziert Wachträume mit eurem Blick.</p>
+              <p>Du provozierst Wachträume mit deinem Blick.</p>
               <br />
-              <p>Schießt nach einer 3-Runden-Aufladung einen Strahl ab, der Euer Ziel in einen Wachtraum sendet.</p>
+              <p>Schießt nach einer 3-Runden-Aufladung einen Strahl ab, der dein Ziel in einen Wachtraum sendet.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -713,7 +713,7 @@
   </ability>
   <ability Command="CommandIrisdualBeam">
     <description>
-              <p>Ihr werft Kraftstrahlen über das Spektrum von Licht und Materie aus.</p>
+              <p>Du wirfst Kraftstrahlen über das Spektrum von Licht und Materie aus.</p>
               <br />
               <p>Feuert <stat Name="Beams" /> Strahlen jede Runde für <stat Name="Duration" /> auf zufällige Gegner ab.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -735,7 +735,7 @@
   </ability>
   <ability Command="CommandMassiveCharge">
     <description>
-              <p>Nach einer Runde Aufwärmung beginnen Sie einen zerstörerischen Angriff, zerstören Wände und stoßen Kreaturen aus Ihrem Weg.</p>
+              <p>Nach einer Runde Aufwärmung beginnst du einen zerstörerischen Angriff, zerstörst Wände und stößt Kreaturen aus deinem Weg.</p>
               <br />
               <statline Name="Distance" DisplayName="Ladungsentfernung" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -743,7 +743,7 @@
   </ability>
   <ability Command="CommandSlog">
     <description>
-              <p>Ihr speiet eine Lache Flüssigkeit aus eurem Raum in einen benachbarten Bereich.</p>
+              <p>Du speist eine Lache Flüssigkeit aus deinem Raum in einen benachbarten Bereich.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Area" DisplayName="Bereich" />
@@ -753,9 +753,9 @@
   </ability>
   <ability Command="CommandSpinWeb">
     <description>
-              <p>Ihr spinnt klebrige Seidennetze.</p>
+              <p>Du spinnst klebrige Seidennetze.</p>
               <br />
-              <p>Während des Drehens hinterlasst Ihr Spinnweben in Eurer Spur.</p>
+              <p>Während des Drehens hinterlässt du Spinnweben in deiner Spur.</p>
               <br />
               <statline Name="SpinDuration" Unit="Bewegungsaktion" DisplayName="SpinDuration" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -763,9 +763,9 @@
   </ability>
   <ability Command="CommandSpinSimpleWeb">
     <description>
-              <p>Ihr spinnt klebrige Seidennetze.</p>
+              <p>Du spinnst klebrige Seidennetze.</p>
               <br />
-              <p>Während des Drehens hinterlasst Ihr Spinnweben in Eurer Spur.</p>
+              <p>Während des Drehens hinterlässt du Spinnweben in deiner Spur.</p>
               <br />
               <statline Name="SpinDuration" Unit="Bewegungsaktion" DisplayName="SpinDuration" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -773,7 +773,7 @@
   </ability>
   <ability Command="CommandStickyTongue">
     <description>
-              <p>Nach einer Runde Aufwärmung ziehen Sie die nächste Kreatur mit Ihrer Zunge zu Ihnen.</p>
+              <p>Nach einer Runde Aufwärmung ziehst du die nächste Kreatur mit deiner Zunge zu dir.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -781,7 +781,7 @@
   </ability>
   <ability Command="CommandWaveformWorm">
     <description>
-              <p>Ihr spurtet in eine Richtung, verursacht Schaden an Kreaturen, durch die Ihr geht.</p>
+              <p>Du spurtest in eine Richtung, verursachst Schaden an Kreaturen, durch die du gehst.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Damage" DisplayName="Schaden" />
@@ -790,7 +790,7 @@
   </ability>
   <ability Command="CommandBreathe_ConfusionBreather">
     <description>
-              <p>Ihr atmet Verwirrungsgas aus.</p>
+              <p>Du atmest Verwirrungsgas aus.</p>
               <br />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
               <statline Name="ConeAngle" DisplayName="Kegelwinkel" Unit="Grad" />
@@ -799,7 +799,7 @@
   </ability>
   <ability Command="CommandBreathe_CorrosiveBreather">
     <description>
-              <p>Ihr atmet Ätzgas aus.</p>
+              <p>Du atmest Ätzgas aus.</p>
               <br />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
               <statline Name="ConeAngle" DisplayName="Kegelwinkel" Unit="Grad" />
@@ -808,7 +808,7 @@
   </ability>
   <ability Command="CommandBreathe_FireBreather">
     <description>
-              <p>Ihr atmet Feuer aus.</p>
+              <p>Du atmest Feuer aus.</p>
               <br />
               <statline Name="Damage" DisplayName="Schaden" />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
@@ -818,7 +818,7 @@
   </ability>
   <ability Command="CommandBreathe_IceBreather">
     <description>
-              <p>Ihr atmet Eis aus.</p>
+              <p>Du atmest Eis aus.</p>
               <br />
               <statline Name="Damage" DisplayName="Schaden" />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
@@ -828,7 +828,7 @@
   </ability>
   <ability Command="CommandBreathe_NormalityBreather">
     <description>
-              <p>Ihr atmet Normalitätsgas aus.</p>
+              <p>Du atmest Normalitätsgas aus.</p>
               <br />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
               <statline Name="ConeAngle" DisplayName="Kegelwinkel" Unit="Grad" />
@@ -837,7 +837,7 @@
   </ability>
   <ability Command="CommandBreathe_PoisonBreather">
     <description>
-              <p>Ihr atmet Giftgas aus.</p>
+              <p>Du atmest Giftgas aus.</p>
               <br />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
               <statline Name="ConeAngle" DisplayName="Kegelwinkel" Unit="Grad" />
@@ -846,7 +846,7 @@
   </ability>
   <ability Command="CommandBreathe_ShameBreather">
     <description>
-              <p>Ihr atmet Schandegas aus.</p>
+              <p>Du atmest Schandegas aus.</p>
               <br />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
               <statline Name="ConeAngle" DisplayName="Kegelwinkel" Unit="Grad" />
@@ -855,7 +855,7 @@
   </ability>
   <ability Command="CommandBreathe_SleepBreather">
     <description>
-              <p>Ihr atmet Schlafgas aus.</p>
+              <p>Du atmest Schlafgas aus.</p>
               <br />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
               <statline Name="ConeAngle" DisplayName="Kegelwinkel" Unit="Grad" />
@@ -864,7 +864,7 @@
   </ability>
   <ability Command="CommandBreathe_StunBreather">
     <description>
-              <p>Ihr atmet Lähmungsgas aus.</p>
+              <p>Du atmest Lähmungsgas aus.</p>
               <br />
               <statline Name="ConeLength" DisplayName="Kegellänge" Unit="Kachel" />
               <statline Name="ConeAngle" DisplayName="Kegelwinkel" Unit="Grad" />
@@ -887,7 +887,7 @@
   </ability>
   <ability Command="CommandToggleBurrowingClaws">
     <description>
-              <p>Ihr besitzt schaufelähnliche Klauen, mit denen Ihr Euch durch die Erde graben könnt.</p>
+              <p>Du besitzt schaufelähnliche Klauen, mit denen du dich durch die Erde graben kannst.</p>
               <br />
               <statline Name="WallPenetration" DisplayName="Krallenpenetration gegen Wände" />
               <p>Krallen zerstören Wände nach 4 durchdringenden Treffern.</p>
@@ -905,7 +905,7 @@
           </description>
   </ability>
   <ability Command="CommandToggleProvideCharge">
-    <description>Ihr aktiviert ausgerüstete Geräte mit integrierter Energie.</description>
+    <description>Du aktivierst ausgerüstete Geräte mit integrierter Energie.</description>
   </ability>
   <ability Command="CommandElectromagneticPulse">
     <description>
@@ -936,7 +936,7 @@
   </ability>
   <ability Command="GasGenerationCommandSleepGas">
     <description>
-              <p>Ihr setzt einen Stoß Schlafgas um Euch herum frei</p>
+              <p>Du setzt einen Stoß Schlafgas um dich herum frei</p>
               <br />
               <p>Setzt Schlafgas für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -944,7 +944,7 @@
   </ability>
   <ability Command="GasGenerationCommandNormalityGas">
     <description>
-              <p>Ihr setzt einen Stoß Normalitätsgas um Euch herum frei</p>
+              <p>Du setzt einen Stoß Normalitätsgas um dich herum frei</p>
               <br />
               <p>Setzt Normalitätsgas für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -952,7 +952,7 @@
   </ability>
   <ability Command="GasGenerationCommandAcidGas">
     <description>
-              <p>Ihr setzt einen Stoß ätzenden Gases um Euch herum frei</p>
+              <p>Du setzt einen Stoß ätzenden Gases um dich herum frei</p>
               <br />
               <p>Setzt Säuregas für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -960,7 +960,7 @@
   </ability>
   <ability Command="GasGenerationCommandPlasma">
     <description>
-              <p>Ihr setzt einen Stoß Plasma um Euch herum frei</p>
+              <p>Du setzt einen Stoß Plasma um dich herum frei</p>
               <br />
               <p>Setzt Plasma für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -968,7 +968,7 @@
   </ability>
   <ability Command="GasGenerationCommandDefoliantGas">
     <description>
-              <p>Ihr setzt einen Stoß Entlaubungsmittel um Euch herum frei</p>
+              <p>Du setzt einen Stoß Entlaubungsmittel um dich herum frei</p>
               <br />
               <p>Setzt Entlaubungsmittel für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -976,7 +976,7 @@
   </ability>
   <ability Command="GasGenerationCommandPoisonGas">
     <description>
-              <p>Ihr setzt einen Stoß Giftgas um Euch herum frei</p>
+              <p>Du setzt einen Stoß Giftgas um dich herum frei</p>
               <br />
               <p>Setzt Giftgas für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -984,7 +984,7 @@
   </ability>
   <ability Command="GasGenerationCommandFungicideGas">
     <description>
-              <p>Ihr setzt einen Stoß Fungizid um Euch herum frei</p>
+              <p>Du setzt einen Stoß Fungizid um dich herum frei</p>
               <br />
               <p>Setzt Fungizid für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -992,7 +992,7 @@
   </ability>
   <ability Command="GasGenerationCommandConfusionGas">
     <description>
-              <p>Ihr setzt einen Ausbruch von Verwirrungsgas um euch herum frei</p>
+              <p>Du setzt einen Ausbruch von Verwirrungsgas um dich herum frei</p>
               <br />
               <p>Setzt Verwirrungsgas für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -1000,7 +1000,7 @@
   </ability>
   <ability Command="GasGenerationCommandGlitterGas">
     <description>
-              <p>Ihr setzt einen Stoß Glitter um Euch herum frei</p>
+              <p>Du setzt einen Stoß Glitter um dich herum frei</p>
               <br />
               <p>Setzt Glitter für <stat Name="Duration" /> frei.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -1017,18 +1017,18 @@
   </ability>
   <ability Command="CommandMetamorphosis">
     <description>
-              <p>Ihr nehmt die Form jeder Kreatur an, die Ihr berührt.</p>
+              <p>Du nimmst die Form jeder Kreatur an, die du berührst.</p>
               <br />
               <p>Kann nur die Form von Kreaturen mit Stufe <stat Name="MaxLevel" /> oder niedriger annehmen.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandEndMetamorphosis">
-    <description>Ihr hört auf, die Form dieser Kreatur anzunehmen.</description>
+    <description>Du hörst auf, die Form dieser Kreatur anzunehmen.</description>
   </ability>
   <ability Command="CommandTogglePhase">
     <description>
-              <p>Ihr könnt für kurze Zeit durch feste Objekte hindurchgehen.</p>
+              <p>Du kannst für kurze Zeit durch feste Objekte hindurchgehen.</p>
               <br />
               <statline Name="Duration" DisplayName="Dauer" ></statline>
               <statline Name="Cooldown" DisplayName="Abklingzeit" ></statline>
@@ -1036,7 +1036,7 @@
   </ability>
   <ability Command="CommandBask">
     <description>
-              <p>Ihr badet im Sonnenlicht und absorbiert die nährenden Strahlen der Sonne statt eine Mahlzeit zu essen.</p>
+              <p>Du badest im Sonnenlicht und absorbierst die nährenden Strahlen der Sonne statt eine Mahlzeit zu essen.</p>
               <br />
               <p>Sie erhalten einen speziellen Stoffwechseleffekt für <stat Name="DurationDay" Unit="Tag" />.</p>
               <br />
@@ -1056,7 +1056,7 @@
   </ability>
   <ability Command="CommandSpitSlime">
     <description>
-              <p>Ihr produziert einen zähen Schleim, den ihr auf Dinge spucken könnt.</p>
+              <p>Du produzierst einen zähen Schleim, den du auf Dinge spucken kannst.</p>
               <br />
               <p>Bedeckt ein Gebiet mit Schleim.</p>
               <statline Name="Range" DisplayName="Reichweite" />
@@ -1081,7 +1081,7 @@
   </ability>
   <ability Command="CommandRepellingForce">
     <description>
-              <p>Ihr beschwört eine abstoßende Kraft im umgebenden Bereich und wirft Feinde zurück.</p>
+              <p>Du beschwörst eine abstoßende Kraft im umgebenden Bereich und wirfst Feinde zurück.</p>
               <br />
               <p>Kreaturen werden vom Zentrum der Explosion weggestoßen.</p>
               <statline Name="Area" DisplayName="Bereich" />
@@ -1118,14 +1118,14 @@
     <description>
               <p>Ihr bewegt euch schnell <switch Name="PowerSkate"><case Value="true">und hinterlasst eine feurige Abgaswolke</case><default>für kurze Zeit</default></switch>.</p>
               <br />
-              <p><switch Name="Multipler"><case Value="100">Verdoppelt</case><case Value="200">Verdreifacht</case><default>+<stat Name="Multiplier" />%</default></switch> Eure Bewegungsgeschwindigkeit für <switch Name="PowerSkate"><case Value="true">bis Ihr keinen Treibstoff mehr habt</case><default><stat Name="Duration" /></default></switch>.</p>
+              <p><switch Name="Multipler"><case Value="100">Verdoppelt</case><case Value="200">Verdreifacht</case><default>+<stat Name="Multiplier" />%</default></switch> Eure Bewegungsgeschwindigkeit für <switch Name="PowerSkate"><case Value="true">bis du keinen Treibstoff mehr hast</case><default><stat Name="Duration" /></default></switch>.</p>
               <switch Name="DV"><case Value="0" /><default><p><stat Name="DV" /> DV</p></default></switch>
               <p>-10 zum Treffer im Nahkampf.</p>
               <switch Name="MissileAccuracy">
                   <case Value="Pistol"><p>Reduzierte Genauigkeit mit Fernwaffen, außer Pistolen.</p></case>
                   <case Value=""><p>Reduzierte Genauigkeit mit Fernwaffen.</p></case>
               </switch>
-              <p>Sprinten endet früh, wenn Ihr eine physische Aktion außer Bewegung oder Verharren durchführt.</p>
+              <p>Sprinten endet früh, wenn du eine physische Aktion außer Bewegung oder Verharren durchführst.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -1146,8 +1146,8 @@
                   <default><p>Ihr <switch Name="Rocket"><case Value="true">Raketen </case></switch>springt in einen unbesiedelten Raum <stat Name="Range" /> Räume entfernt.</p></default>
               </switch>
               <switch Name="CanJumpOverCreatures">
-                  <case Value="true"><p>Ihr könnt über Kreaturen springen.</p></case>
-                  <default><p>Ihr könnt nicht über Kreaturen springen.</p></default>
+                  <case Value="true"><p>Du kannst über Kreaturen springen.</p></case>
+                  <default><p>Du kannst nicht über Kreaturen springen.</p></default>
               </switch>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -1164,14 +1164,14 @@
   </ability>
   <ability Command="CommandToggleDecapitate">
     <description>
-              <p>Köpfe werden der Liste möglicher Gliedmaßen hinzugefügt, die Ihr abhacken könnt.</p>
+              <p>Köpfe werden der Liste möglicher Gliedmaßen hinzugefügt, die du abhacken kannst.</p>
               <p>Den einzigen Kopf einer Kreatur abzuschlagen tötet sie sofort.</p>
               <p>Hat das Wesen mehrere Köpfe, beginnen sie heftig zu bluten (2-3 Schaden pro Runde; Zähigkeitswurf 35).</p>
           </description>
   </ability>
   <ability Command="CommandDismember">
     <description>
-              <p>Ihr führt einen Axtenangriff gegen einen Gegner aus. Wenn ihr trefft und durchdringt, trennt ihr eines ihrer Glieder zufällig ab und sie fangen an zu bluten.</p>
+              <p>Du führst einen Axtenangriff gegen einen Gegner aus. Wenn du triffst und durchdringst, trennst du eines ihrer Glieder zufällig ab und sie fangen an zu bluten.</p>
               <br />
               <statline Name="BleedDamage" DisplayName="Blutungsschaden" Unit="pro Runde" />
               <p>Blutungsrettung: <gametext>=statistics[Toughness].title=</gametext> <stat Name="BleedSave" /></p>
@@ -1180,9 +1180,9 @@
   </ability>
   <ability Command="CommandAxeHookAndDrag">
     <description>
-              <p>Sie fassen das Glied eines Gegners mit dem Schaft Ihrer Axt.</p>
-              <p>Wenn erfolgreich, zieht Ihr Euren Gegner mit Euch mit, wenn Ihr Euch bewegt, und Ihr macht einen kostenlosen Angriff mit Eurer Axt.</p>
-              <p>Euer Gegner bekommt eine Chance, die Aktion zu widerstehen und sich zu Beginn seines Zuges zu befreien.</p>
+              <p>Du fasst das Glied eines Gegners mit dem Schaft deiner Axt.</p>
+              <p>Wenn erfolgreich, ziehst du deinen Gegner mit dir mit, wenn du dich bewegst, und du machst einen kostenlosen Angriff mit deiner Axt.</p>
+              <p>Dein Gegner bekommt eine Chance, die Aktion zu widerstehen und sich zu Beginn seines Zuges zu befreien.</p>
               <br />
               <p>Dauer: 9 Runden oder bis der Gegner zerstückelt ist</p>
               <p>Bewegung widerstehen/Befreiungswurf: <gametext>=statistics[Strength].title=</gametext> <stat Name="ResistSave" /></p>
@@ -1190,14 +1190,14 @@
           </description>
   </ability>
   <ability Command="CommandButcherToggle">
-    <description>Ihr zerlegt Leichen, über die Ihr geht.</description>
+    <description>Du zerlegst Leichen, über die du gehst.</description>
   </ability>
   <ability Command="CommandHarvestToggle">
-    <description>Sie ernten Pflanzen, über die Sie gehen.</description>
+    <description>Du erntest Pflanzen, über die du gehst.</description>
   </ability>
   <ability Command="CommandFloorSmash">
     <description>
-              <p>Nach einer 3-Runden-Aufwärmung starten Sie eine Fulkritplatte auf den Boden, was Schaden verursacht und eine Grube im Zielfeld erstellt, mit einer Chance für zusätzliche Gruben in benachbarten Feldern.</p>
+              <p>Nach einer 3-Runden-Aufwärmung startest du eine Fulkritplatte auf den Boden, was Schaden verursacht und eine Grube im Zielfeld erstellt, mit einer Chance für zusätzliche Gruben in benachbarten Feldern.</p>
               <br />
               <statline Name="Range" DisplayName="Reichweite" />
               <statline Name="Damage" DisplayName="Schaden" />
@@ -1207,7 +1207,7 @@
   </ability>
   <ability Command="CommandSnapjawHowl">
     <description>
-              <p>Ihr heult auf und versetzt nahegelegene Snapjaws in Raserei.</p>
+              <p>Du heulst auf und versetzt nahegelegene Snapjaws in Raserei.</p>
               <br />
               <statline Name="Radius" DisplayName="Wirkungsradius" />
               <statline Name="Duration" DisplayName="Dauer" />
@@ -1215,11 +1215,11 @@
           </description>
   </ability>
   <ability Command="CommandSubmerge">
-    <description>Ihr taucht euch in einen Wasserkörper ein.</description>
+    <description>Du tauchst dich in einen Wasserkörper ein.</description>
   </ability>
   <ability Command="CommandConk">
     <description>
-              <p>Ihr führt einen Angriff mit einem Knüppel gegen einen benachbarten Gegner aus. Wenn ihr trefft, betäubt ihr sie automatisch für 3-4 Runden.</p>
+              <p>Du führst einen Angriff mit einem Knüppel gegen einen benachbarten Gegner aus. Wenn du triffst, betäubst du sie automatisch für 3-4 Runden.</p>
               <p>Das Benommenmachen eines benommenen Gegners betäubt ihn.</p>
               <p>Das Anschlagen eines betäubten Gegners schlägt ihn stattdessen für 30-40 Runden bewusstlos (bewusstlose Gegner wachen benommen auf, wenn sie Schaden nehmen).</p>
               <br />
@@ -1228,7 +1228,7 @@
   </ability>
   <ability Command="CommandCudgelSlam">
     <description>
-              <p>Ihr führt einen Angriff mit einem Knüppel gegen einen benachbarten Gegner mit +1 auf eurem Penetrationswurf aus.</p>
+              <p>Du führst einen Angriff mit einem Knüppel gegen einen benachbarten Gegner mit +1 auf deinem Penetrationswurf aus.</p>
               <p>Wenn Ihr trefft, werft Ihr Euren Gegner bis zu <stat Name="Distance" /> Felder zurück, drängt andere Wesen beiseite und durchbrecht Wände, wenn deren RW weniger als das 5-fache Eures Stärkebonus ist.</p>
               <p>Gegner, die gestoßen werden, sind betäubt für 1 Runde plus eine zusätzliche Runde für jeden Platz, um den sie gestoßen werden.</p>
               <p>Gegner, die durch oder gegen Wände gestoßen werden, erleiden extra Waffenschaden für jede Wand.</p>
@@ -1249,7 +1249,7 @@
   </ability>
   <ability Command="CommandFlurry">
     <description>
-              <p>Ihr führt einen Angriff mit jedem waffentragenden Glied aus, einschließlich zusätzlicher Glieder, die durch Mutation oder Technologie gewährt werden.</p>
+              <p>Du führst einen Angriff mit jedem waffentragenden Glied aus, einschließlich zusätzlicher Glieder, die durch Mutation oder Technologie gewährt werden.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -1294,7 +1294,7 @@
   </ability>
   <ability Command="CommandLunge">
     <description>
-              <p>{{W|Aggressive Haltung}}: Stößt durch einen leeren Raum auf einen Gegner und greift mit +2 auf euren Durchdringungsgewurf an. Ihr müsst durch den leeren Raum stoßen.</p>
+              <p>{{W|Aggressive Haltung}}: Stößt durch einen leeren Raum auf einen Gegner und greift mit +2 auf deinen Durchdringungsgewurf an. Du musst durch den leeren Raum stoßen.</p>
               <br />
               <p>{{W|Defensive Haltung}}: Greift einen Gegner an und lungt dann 2 Felder rückwärts.</p>
               <br />
@@ -1320,7 +1320,7 @@
   </ability>
   <ability Command="CommandPersuasionBerate">
     <description>
-              <p>Ihr beschämt eine nahegelegene Kreatur und senkt ihre DV, Zielgenauigkeit, Ego und Willenskraft um 4 sowie ihre Beweglichkeit um 10%.</p>
+              <p>Du beschämst eine nahegelegene Kreatur und senkst ihre DV, Zielgenauigkeit, Ego und Willenskraft um 4 sowie ihre Beweglichkeit um 10%.</p>
               <br />
               <statline Name="Duration" DisplayName="Dauer" />
               <statline Name="Range" DisplayName="Reichweite" />
@@ -1338,7 +1338,7 @@
   </ability>
   <ability Command="CommandPersuasionMenacingStare">
     <description>
-              <p>Ihr starrt einen Gegner an und treibt ihn in Angst zur Flucht.</p>
+              <p>Du starrst einen Gegner an und treibst ihn in Angst zur Flucht.</p>
               <br />
               <p>Psychischer Angriff gegen Kreaturen mit Verstand.</p>
               <br />
@@ -1348,7 +1348,7 @@
   </ability>
   <ability Command="CommandProselytize">
     <description>
-              <p>Ihr überredet eine intelligente Kreatur, euch zu folgen.</p>
+              <p>Du überredest eine intelligente Kreatur, dir zu folgen.</p>
               <br />
               <p>Ego + Charakterstufe Angriff gegen MA + Charakterstufe</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -1356,14 +1356,14 @@
   </ability>
   <ability Command="CommandRebukeRobot">
     <description>
-              <p>Ihr belehrt einen Roboter, damit er weggeht oder dir folgt.</p>
+              <p>Du belehrst einen Roboter, damit er weggeht oder dir folgt.</p>
               <br />
               <p>Ego-basierter Angriff gegen einen Roboter.</p>
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
   </ability>
   <ability Command="CommandToggleAkimbo">
-    <description>Jedes Mal, wenn Ihr einen Fernkampfangriff macht, während Ihr mehrere Waffen führt, feuert Ihr einen Schuss mit jeder von ihnen ab.</description>
+    <description>Jedes Mal, wenn du einen Fernkampfangriff machst, während du mehrere Waffen führst, feuerst du einen Schuss mit jeder von ihnen ab.</description>
   </ability>
   <ability Command="CommandPistolEmptyTheClips">
     <description>
@@ -1375,24 +1375,24 @@
   </ability>
   <ability Command="CommandMarkTarget">
     <description>
-              <p>Ihr verbringt einen Zug damit, ein Ziel anzuvisieren und zu markieren.</p>
+              <p>Du verbringst einen Zug damit, ein Ziel anzuvisieren und zu markieren.</p>
               <br />
-              <p>Jedes Mal, wenn Ihr auf ein markiertes Ziel mit einem Bogen oder Gewehr schießt, wird Eure Wendigkeit für die Genauigkeitsbestimmung so behandelt, als wäre sie 2 Punkte höher.</p>
+              <p>Jedes Mal, wenn du auf ein markiertes Ziel mit einem Bogen oder Gewehr schießt, wird deine Wendigkeit für die Genauigkeitsbestimmung so behandelt, als wäre sie 2 Punkte höher.</p>
               <br />
-              <p>Ihr könnt jeweils nur ein Ziel markieren.</p>
+              <p>Du kannst jeweils nur ein Ziel markieren.</p>
               <br />
-              <p>Ziele werden nicht mehr markiert, wenn Ihr sie nicht mehr sehen könnt.</p>
+              <p>Ziele werden nicht mehr markiert, wenn du sie nicht mehr sehen kannst.</p>
           </description>
   </ability>
   <ability Command="CommandDisciplineMeditate">
     <description>
-              <p>Während der Meditation regeneriert Ihr dreimal so schnell, und negative Statuseffekte verschwinden dreimal so schnell.</p>
+              <p>Während der Meditation regenerierst du dreimal so schnell, und negative Statuseffekte verschwinden dreimal so schnell.</p>
               <br />
-              <p>Die einzige Aktion, die Ihr während der Meditation ausführen könnt, ist Warten.</p>
+              <p>Die einzige Aktion, die du während der Meditation ausführen kannst, ist Warten.</p>
               <br />
               <p>Ihr stoppt die Meditation, wenn Ihr in einer Runde Schaden erleidet, der <stat Name="DamageThreshold" /> überschreitet.</p>
               <br />
-              <p>Wenn Ihr 10 oder mehr Runden rastet, beginnt Ihr automatisch zu meditieren.</p>
+              <p>Wenn du 10 oder mehr Runden rastest, beginnst du automatisch zu meditieren.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -1407,9 +1407,9 @@
   </ability>
   <ability Command="CommandShieldSlam">
     <description>
-              <p>Ihr schlagt einen Gegner mit eurem Schild nieder und verursacht ihm Schaden.</p>
+              <p>Du schlägst einen Gegner mit deinem Schild nieder und verursachst ihm Schaden.</p>
               <br />
-              <p>Jedes Mal, wenn Ihr mit ausgerüstetem Schild einen Gegner angreift, erhaltet Ihr einen kostenlosen Schildhieb gegen ihn.</p>
+              <p>Jedes Mal, wenn du mit ausgerüstetem Schild einen Gegner angreifst, erhältst du einen kostenlosen Schildhieb gegen ihn.</p>
               <br />
               <statline Name="Damage" DisplayName="Schaden" />
               <statline Name="KnockdownSave" DisplayName="Knockdown-Rettungswurf" />
@@ -1418,7 +1418,7 @@
   </ability>
   <ability Command="CommandHobble">
     <description>
-              <p>Ihr führt einen Angriff mit einer kurzen Klinge in eurer dominanten Hand aus und sucht nach einer schwachen Stelle in der Rüstung eures Gegners. Wenn ihr trefft, dringt ihr genau einmal durch und lahmt sie.</p>
+              <p>Du führst einen Angriff mit einer kurzen Klinge in deiner dominanten Hand aus und suchst nach einer schwachen Stelle in der Rüstung deines Gegners. Wenn du triffst, dringst du genau einmal durch und lahmst sie.</p>
               <br />
               <statline Name="HobbleEffect" DisplayName="Lahmeffekt" />
               <statline Name="HobbleDuration" DisplayName="Lahmdauer" Unit="Runde" />
@@ -1430,7 +1430,7 @@
   </ability>
   <ability Command="CommandShank">
     <description>
-              <p>Ihr führt einen Nahkampfangriff mit einer kurzen Klinge in eurer dominanten Hand (bevorzugt) oder Nebenhand aus. Wenn ihr trefft, erhält der Angriff +2 auf Penetrationswürfe für jeden negativen Statuseffekt, an dem euer Gegner leidet.</p>
+              <p>Du führst einen Nahkampfangriff mit einer kurzen Klinge in deiner dominanten Hand (bevorzugt) oder Nebenhand aus. Wenn du triffst, erhält der Angriff +2 auf Penetrationswürfe für jeden negativen Statuseffekt, an dem dein Gegner leidet.</p>
               <br />
               <statline Name="PrimaryHandCooldown" DisplayName="Cooldown der Haupthand" Unit="Runde" />
               <statline Name="OffhandCooldown" DisplayName="Nebenhand-Abklingzeit" Unit="Runde" />
@@ -1438,14 +1438,14 @@
   </ability>
   <ability Command="CommandSurvivalCamp">
     <description>
-              <p>Ihr entzündet ein Lagerfeuer zum Kochen von Mahlzeiten und zur Konservierung von Lebensmitteln.</p>
+              <p>Du entzündest ein Lagerfeuer zum Kochen von Mahlzeiten und zur Konservierung von Lebensmitteln.</p>
               <br />
-              <p>Ihr könnt kein Lager aufschlagen, während Ihr im Kampf seid.</p>
+              <p>Du kannst kein Lager aufschlagen, während du im Kampf bist.</p>
           </description>
   </ability>
   <ability Command="CommandMeleeCharge">
     <description>
-              <p>Ihr stürmt vor und führt einen Nahkampfangriff mit +1 zum Durchdringungswurf aus.</p>
+              <p>Du stürmst vor und führst einen Nahkampfangriff mit +1 zum Durchdringungswurf aus.</p>
               <br />
               <statline Name="Range" Unit="Räume" DisplayName="Reichweite" />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
@@ -1453,9 +1453,9 @@
   </ability>
   <ability Command="CommandTacticsJuke">
     <description>
-              <p>Ihr bewegt euch ein Feld ohne Aktionskosten und tauscht Plätze, wenn sich eine Kreatur im Zielfeld befindet.</p>
+              <p>Du bewegst dich ein Feld ohne Aktionskosten und tauschst Plätze, wenn sich eine Kreatur im Zielfeld befindet.</p>
               <br />
-              <p>Ihr könnt Plätze mit feindlichen Kreaturen tauschen.</p>
+              <p>Du kannst Plätze mit feindlichen Kreaturen tauschen.</p>
               <br />
               <statline Name="Cooldown" DisplayName="Abklingzeit" />
           </description>
@@ -1464,18 +1464,18 @@
     <description>Sie setzen eine Raketenwaffe als statisches Geschütz ein und versorgen es mit Munition.</description>
   </ability>
   <ability Command="CommandLayMine">
-    <description>Ihr setzt eine Granate als Mine ein.</description>
+    <description>Du setzt eine Granate als Mine ein.</description>
   </ability>
   <ability Command="CommandLayMineTimed">
     <description>Sie setzen eine Granate als Zeitzünder ein.</description>
   </ability>
   <ability Command="CommandRechargeObject">
-    <description>Ihr ladet eine Energiezelle oder einen Kondensator mit Bastel-Bits auf.</description>
+    <description>Du lädst eine Energiezelle oder einen Kondensator mit Bastel-Bits auf.</description>
   </ability>
   <ability Command="CommandReleaseVehicle">
-    <description>Sie verlassen den Pilotensitz des Fahrzeugs, in dem Sie sind.</description>
+    <description>Du verlässt den Pilotensitz des Fahrzeugs, in dem du bist.</description>
   </ability>
   <ability Command="CommandSeatEject">
-    <description>Ihr und Eure sitzenden Begleiter werdet gewaltsam aus dem Fahrzeug hinausgestoßen, in dem Ihr sitzt.</description>
+    <description>Du und deine sitzenden Begleiter werdet gewaltsam aus dem Fahrzeug hinausgestoßen, in dem ihr sitzt.</description>
   </ability>
 </activatedabilities>

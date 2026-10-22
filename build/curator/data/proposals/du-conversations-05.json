@@ -1,0 +1,978 @@
+{
+  "batch": "du-conversations-05",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-conversations-05)",
+  "created": "2026-10-22 14:42",
+  "items": [
+    {
+      "uid": "df6db9f5320c5b92",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthDecision.SlynthResolutionChoice.4|May the Eaters protect you.",
+      "context": "Conversation Thah.SlynthDecision.SlynthResolutionChoice.4",
+      "old_value": "Mögen die Esser Euch schützen.",
+      "new_value": "Mögen die Esser dich schützen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3c6f39f02549ffb7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthDecision.SlynthResolutionChoice.6|May the winds favor you.",
+      "context": "Conversation Thah.SlynthDecision.SlynthResolutionChoice.6",
+      "old_value": "Mögen die Winde Euch wohlwollen.",
+      "new_value": "Mögen die Winde dir wohlwollen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eafd74da355a125b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthDecision.SlynthResolutionChoice.8|May the Fates favor you.",
+      "context": "Conversation Thah.SlynthDecision.SlynthResolutionChoice.8",
+      "old_value": "Mögen die Schicksale Euch wohlwollen.",
+      "new_value": "Mögen die Schicksale dir wohlwollen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3c8038edcb81b822",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthResolution.Text|Ah, one last little thing, =name=. About your reward... it's not quite finished, but now I know just what it needs.\n\nPlease return to the hydropon after my kin have safely reached their new home and I will give it to you. I will not leave the cradle.",
+      "context": "Conversation Thah.SlynthResolution.Text",
+      "old_value": "Ah, eine letzte kleine Sache, =name=. Über Eure Belohnung... sie ist noch nicht ganz fertig, aber jetzt weiß ich, was sie braucht.\n\nBitte kehrt zum Hydropon zurück, nachdem mein Volk sicher sein neues Zuhause erreicht hat, und ich werde es Euch geben. Ich werde die Wiege nicht verlassen.",
+      "new_value": "Ah, eine letzte kleine Sache, =name=. Über deine Belohnung... sie ist noch nicht ganz fertig, aber jetzt weiß ich, was sie braucht.\n\nBitte kehre zum Hydropon zurück, nachdem mein Volk sicher sein neues Zuhause erreicht hat, und ich werde es dir geben. Ich werde die Wiege nicht verlassen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5ea18a337053fe8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthLeave.5|Yes, I've stayed. As fascinated as I would be to examine the statuary and bas-reliefs, my favorite mode of, ah, interaction with history is through the written word. Someone must watch over the cradle, besides.\n\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.",
+      "context": "Conversation Thah.SlynthLeave.5",
+      "old_value": "Ja, ich bin geblieben. So fasziniert ich wäre, die Statuen und Reliefs zu untersuchen, mein liebstes Mittel, ah, mit der Geschichte zu interagieren, ist durch das geschriebene Wort. Außerdem muss jemand die Wiege bewachen.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber Ihr seid willkommen, Euch hier auszuruhen, wann immer Ihr es wünscht.",
+      "new_value": "Ja, ich bin geblieben. So fasziniert ich wäre, die Statuen und Reliefs zu untersuchen, mein liebstes Mittel, ah, mit der Geschichte zu interagieren, ist durch das geschriebene Wort. Außerdem muss jemand die Wiege bewachen.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber du bist willkommen, dich hier auszuruhen, wann immer du es wünschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "66f831bd9b9075ae",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthLeave.6|Yes, I've decided to stay. The Tomb sounds, ah, cozy, but I cannot fathom making such a macabre place my home. Someone must look over the cradle, besides.\n\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.",
+      "context": "Conversation Thah.SlynthLeave.6",
+      "old_value": "Ja, ich habe beschlossen zu bleiben. Das Grab klingt, ah, behaglich, aber ich kann mir nicht vorstellen, einen so makabren Ort zu meinem Zuhause zu machen. Außerdem muss jemand die Wiege bewachen.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber Ihr seid willkommen, Euch hier auszuruhen, wann immer Ihr es wünscht.",
+      "new_value": "Ja, ich habe beschlossen zu bleiben. Das Grab klingt, ah, behaglich, aber ich kann mir nicht vorstellen, einen so makabren Ort zu meinem Zuhause zu machen. Außerdem muss jemand die Wiege bewachen.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber du bist willkommen, dich hier auszuruhen, wann immer du es wünschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a2790bdb4c2ddfe7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthLeave.7|Yes, I've stayed. If I am entirely honest, the idea of a life on the road sounds, ah... unpleasant. To me, personally. I have grown accustomed to a life of collection, curation, and study that I don't care to abandon for adventure. Someone must stay to watch over the cradle, besides.\n\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.",
+      "context": "Conversation Thah.SlynthLeave.7",
+      "old_value": "Ja, ich bin geblieben. Um ganz ehrlich zu sein, klingt die Idee eines Lebens auf der Straße für mich, ah... unangenehm. Für mich persönlich. Ich habe mich an ein Leben der Sammlung, Kuration und des Studiums gewöhnt, das ich nicht für ein Abenteuer aufgeben möchte. Außerdem muss jemand bleiben und die Wiege bewachen.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber Ihr seid willkommen, Euch hier auszuruhen, wann immer Ihr es wünscht.",
+      "new_value": "Ja, ich bin geblieben. Um ganz ehrlich zu sein, klingt die Idee eines Lebens auf der Straße für mich, ah... unangenehm. Für mich persönlich. Ich habe mich an ein Leben der Sammlung, Kuration und des Studiums gewöhnt, das ich nicht für ein Abenteuer aufgeben möchte. Außerdem muss jemand bleiben und die Wiege bewachen.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber du bist willkommen, dich hier auszuruhen, wann immer du es wünschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4bbf9937cda6862a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthLeave.9|Yes, I've decided to stay. The flower fields sound beautiful, and no doubt there is much to learn from the hindren. But the thought of leaving the cradle after decades of watching it... I couldn't.\n\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.",
+      "context": "Conversation Thah.SlynthLeave.9",
+      "old_value": "Ja, ich habe beschlossen zu bleiben. Die Blütenfelder klingen wunderbar, und es gibt sicherlich viel von den Hindren zu lernen. Aber der Gedanke, die Wiege nach Jahrzehnten des Beobachtens zu verlassen... ich könnte nicht.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber Ihr seid willkommen, Euch hier auszuruhen, wann immer Ihr es wünscht.",
+      "new_value": "Ja, ich habe beschlossen zu bleiben. Die Blütenfelder klingen wunderbar, und es gibt sicherlich viel von den Hindren zu lernen. Aber der Gedanke, die Wiege nach Jahrzehnten des Beobachtens zu verlassen... ich könnte nicht.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber du bist willkommen, dich hier auszuruhen, wann immer du es wünschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e4fc2b57ebb9e3a4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthLeave.10|Yes, I, ah, I remain.\n\nI badly wish to taste of Chavvah's secrets, but the wonder I feel for such an entity is eclipsed only by the terror of such an experience. I cling to an excuse that the hydropon must be watched and wait. Perhaps someday I will shed that excuse's film and step free.\n\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.",
+      "context": "Conversation Thah.SlynthLeave.10",
+      "old_value": "Ja, ich, ah, ich bleibe.\n\nIch sehne mich danach, von Chavvahs Geheimnissen zu kosten, aber das Wunder, das ich für solch eine Entität empfinde, wird nur von der Furcht vor solch einer Erfahrung übertroffen. Ich halte mich an eine Ausrede fest, dass die Hydropon bewacht werden muss, und warte. Vielleicht werde ich eines Tages die Folie dieser Ausrede abwerfen und mich befreien.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber Ihr seid willkommen, Euch hier auszuruhen, wann immer Ihr es wünscht.",
+      "new_value": "Ja, ich, ah, ich bleibe.\n\nIch sehne mich danach, von Chavvahs Geheimnissen zu kosten, aber das Wunder, das ich für solch eine Entität empfinde, wird nur von der Furcht vor solch einer Erfahrung übertroffen. Ich halte mich an eine Ausrede fest, dass die Hydropon bewacht werden muss, und warte. Vielleicht werde ich eines Tages die Folie dieser Ausrede abwerfen und mich befreien.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber du bist willkommen, dich hier auszuruhen, wann immer du es wünschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3234e51f01bb80a7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthLeave.11|Yes, I've decided to stay. I'm sure =village.name= is a good home for my kin, but I have no particular loathing for =village.profane= and even less reverence for =village.sacred=. Someone must look over the cradle, besides.\n\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.",
+      "context": "Conversation Thah.SlynthLeave.11",
+      "old_value": "Ja, ich habe beschlossen zu bleiben. Ich bin sicher, =village.name= ist ein gutes Zuhause für meine Verwandten, aber ich habe keine besondere Verachtung für =village.profane= und noch weniger Ehrfurcht vor =village.sacred=. Außerdem muss jemand die Wiege bewachen.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber Ihr seid willkommen, Euch hier auszuruhen, wann immer Ihr es wünscht.",
+      "new_value": "Ja, ich habe beschlossen zu bleiben. Ich bin sicher, =village.name= ist ein gutes Zuhause für meine Verwandten, aber ich habe keine besondere Verachtung für =village.profane= und noch weniger Ehrfurcht vor =village.sacred=. Außerdem muss jemand die Wiege bewachen.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber du bist willkommen, dich hier auszuruhen, wann immer du es wünschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "71af73d6f6ba20b6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thah.SlynthLeave.8|Yes, I've decided to stay. I don't disbelieve that the Yd Freehold is as safe as you say, but the fears instilled in me when I first learned to read as a fresh sprout haunt me even now. Perhaps in time I will visit, but in the meantime I can look after the cradle, as someone ought to do.\n\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.",
+      "context": "Conversation Thah.SlynthLeave.8",
+      "old_value": "Ja, ich habe beschlossen zu bleiben. Ich glaube nicht, dass das Yd Freehold so sicher ist, wie Ihr sagt, aber die Ängste, die in mir eingeflößt wurden, als ich als frischer Spross zum ersten Mal lesen lernte, verfolgen mich auch jetzt noch. Vielleicht werde ich es eines Tages besuchen, aber inzwischen kann ich mich um die Wiege kümmern, wie es jemand tun sollte.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber Ihr seid willkommen, Euch hier auszuruhen, wann immer Ihr es wünscht.",
+      "new_value": "Ja, ich habe beschlossen zu bleiben. Ich glaube nicht, dass das Yd Freehold so sicher ist, wie du sagst, aber die Ängste, die in mir eingeflößt wurden, als ich als frischer Spross zum ersten Mal lesen lernte, verfolgen mich auch jetzt noch. Vielleicht werde ich es eines Tages besuchen, aber inzwischen kann ich mich um die Wiege kümmern, wie es jemand tun sollte.\n\nDie Hydropon ist jetzt noch weniger ein Dorf, aber du bist willkommen, dich hier auszuruhen, wann immer du es wünschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1718d47ed16c964e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation SlynthWanderer.Start.Text.Text8|=player.FormalAddressTerm=, I greet in peace.",
+      "context": "Conversation SlynthWanderer.Start.Text.Text8",
+      "old_value": "=player.FormalAddressTerm=, ich grüße Euch friedlich.",
+      "new_value": "=player.FormalAddressTerm=, ich grüße dich friedlich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "623fcc13f1e5606d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation DynamicVillageMayor.SlynthRequest.Text|Is that so? I imagine you are wondering whether =village.name= will host these slynth, to partake in =village.activity= alongside us.",
+      "context": "Conversation DynamicVillageMayor.SlynthRequest.Text",
+      "old_value": "Ist das so? Ich stelle mir vor, Ihr fragt Euch, ob =village.name= diese Slynth beherbergen wird, damit sie an =village.activity= neben uns teilnehmen.",
+      "new_value": "Ist das so? Ich stelle mir vor, du fragst dich, ob =village.name= diese Slynth beherbergen wird, damit sie an =village.activity= neben uns teilnehmen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b2015725b634edd0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation DynamicVillageMayor.SlynthRequestAccept.Text|You have done much for =village.name=, =name=, and your request befits your stature. If these slynth will join us in =village.activity= and if they can come to cherish =village.sacred= as we do, then they are welcome here.",
+      "context": "Conversation DynamicVillageMayor.SlynthRequestAccept.Text",
+      "old_value": "Ihr habt viel für =village.name= getan, =name=, und Eure Bitte entspricht Eurem Ruf. Wenn diese Slynth an =village.activity= teilnehmen werden und wenn sie lernen können, =village.sacred= so zu verehren wie wir, dann sind sie hier willkommen.",
+      "new_value": "Du hast viel für =village.name= getan, =name=, und deine Bitte entspricht deinem Ruf. Wenn diese Slynth an =village.activity= teilnehmen werden und wenn sie lernen können, =village.sacred= so zu verehren wie wir, dann sind sie hier willkommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "63be3f07707e478b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation DynamicVillageMayor.SlynthRequestAccept.EndChoice.Text|You have my thanks, friend.",
+      "context": "Conversation DynamicVillageMayor.SlynthRequestAccept.EndChoice.Text",
+      "old_value": "Ihr habt meinen Dank, Freund.",
+      "new_value": "Du hast meinen Dank, Freund.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4818b2c436c4198b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation DynamicVillageMayor.SlynthRequestReject.Text|We have not come so far from the founding of =village.name= to allow these strangers in. What if they worship =village.profane=? No, we simply cannot do such a great favor for you.",
+      "context": "Conversation DynamicVillageMayor.SlynthRequestReject.Text",
+      "old_value": "Wir sind nicht so weit gekommen seit der Gründung von =village.name=, um diese Fremden jetzt hereinzulassen. Was ist, wenn sie =village.profane= verehren? Nein, wir können solch einen großen Gefallen einfach nicht für Euch tun.",
+      "new_value": "Wir sind nicht so weit gekommen seit der Gründung von =village.name=, um diese Fremden jetzt hereinzulassen. Was ist, wenn sie =village.profane= verehren? Nein, wir können solch einen großen Gefallen einfach nicht für dich tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0612e11fe6ee445a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation ChavvahPrime.ManySelves.Text|As Chavvah I am many. As dyvvrach I am one. I am one and many. One-selves have called me tree city, the sentient place. You may think of the Selves this way, sprouted in keter from Twofirm.",
+      "context": "Conversation ChavvahPrime.ManySelves.Text",
+      "old_value": "Als Chavvah bin ich viele. Als dyvvrach bin ich eins. Ich bin eins und viele. Ein-Selbst haben mich Baumstadt, den bewussten Ort, genannt. Ihr könnt die Selbst so betrachten, in keter aus Twofirm entsprungen.",
+      "new_value": "Als Chavvah bin ich viele. Als dyvvrach bin ich eins. Ich bin eins und viele. Ein-Selbst haben mich Baumstadt, den bewussten Ort, genannt. Du kannst die Selbst so betrachten, in keter aus Twofirm entsprungen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e312be6581dc0d5b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation ChavvahPrime.BarathrumChavvahDone2.Text|You have completed the ritual of -elseing. You have set bright Tau free.\n\nYes, =name=. I will turn my chimes Spindleward to tune, then vibrate at our verve frequency. I will power your starclimb.\n\nBe vested to tell whoever you must that Chavvah has made this commitment.",
+      "context": "Conversation ChavvahPrime.BarathrumChavvahDone2.Text",
+      "old_value": "Ihr habt das Ritual des -elseing vollzogen. Ihr habt das helle Tau befreit.\n\nJa, =name=. Ich werde meine Klänge Spindleward drehen zum Abstimmen, dann bei unserer Verve-Frequenz vibrieren. Ich werde Eure Sternenergie liefern.\n\nSeid beauftragt, jedem zu sagen, der es wissen muss, dass Chavvah diese Verpflichtung eingegangen ist.",
+      "new_value": "Du hast das Ritual des -elseing vollzogen. Du hast das helle Tau befreit.\n\nJa, =name=. Ich werde meine Klänge Spindleward drehen zum Abstimmen, dann bei unserer Verve-Frequenz vibrieren. Ich werde deine Sternenergie liefern.\n\nSei beauftragt, jedem zu sagen, der es wissen muss, dass Chavvah diese Verpflichtung eingegangen ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "465c94420a185de9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation ChavvahPrime.Barathrum.Text|I start at this but Tikva settles me. I remember now: from a cub I've known Barathrum to be weak in telling but bold in asking. A starclimb? You mean, an ascent to the long chiming rock?",
+      "context": "Conversation ChavvahPrime.Barathrum.Text",
+      "old_value": "Ich schrecke davor auf, aber Tikva beruhigt mich. Ich erinnere mich jetzt: Seit ich ein Junges bin, weiß ich, dass Barathrum schwach im Erzählen ist, aber kühn im Fragen. Eine Sternenergie? Ihr meint einen Aufstieg zum langen Klingerstein?",
+      "new_value": "Ich schrecke davor auf, aber Tikva beruhigt mich. Ich erinnere mich jetzt: Seit ich ein Junges bin, weiß ich, dass Barathrum schwach im Erzählen ist, aber kühn im Fragen. Eine Sternenergie? Du meinst einen Aufstieg zum langen Klingerstein?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e10c060f739d2e09",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation ChavvahPrime.Ascent.Text|oh. This. Was this felt in gyredream? Your coming to keter? I ask, do not answer.",
+      "context": "Conversation ChavvahPrime.Ascent.Text",
+      "old_value": "Oh. Das. Wurde das in gyredream gefühlt? Euer Kommen zum keter? Ich frage, beantwortet nicht.",
+      "new_value": "Oh. Das. Wurde das in gyredream gefühlt? Dein Kommen zum keter? Ich frage, beantworte nicht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e29c81b9a8ac22d6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Killed2.Text|{{emote|*Miryam chimes low.*}}\n\nI cannot properly remember her with you here.\n\nLeave, I beg you.",
+      "context": "Conversation Miryam.Killed2.Text",
+      "old_value": "{{emote|*Miryam erklingt tief.*}}\n\nIch kann sie nicht richtig in Erinnerung behalten, wenn Ihr hier seid.\n\nGeht, bitte ich Euch.",
+      "new_value": "{{emote|*Miryam erklingt tief.*}}\n\nIch kann sie nicht richtig in Erinnerung behalten, wenn du hier bist.\n\nGeh, bitte ich dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2a1f3cff2171ecb3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.LostInSoft.Text|I see you.",
+      "context": "Conversation Miryam.LostInSoft.Text",
+      "old_value": "Ich sehe Euch.",
+      "new_value": "Ich sehe dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ac091dbe42ee5408",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.KilledCompanion.Text|No parting is simple. I see you, -elser.",
+      "context": "Conversation Miryam.KilledCompanion.Text",
+      "old_value": "Kein Abschied ist einfach. Ich sehe Euch, -elser.",
+      "new_value": "Kein Abschied ist einfach. Ich sehe dich, -elser.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9b06ac30162d751c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Companion2.Text|And the sole tether she reached for severed. I mourn for the future she built for herself, now, and worry for Tau herself.\n\nThank you, all the same, for taking part in this. May you find your comfort.",
+      "context": "Conversation Miryam.Companion2.Text",
+      "old_value": "Und die einzige Fessel, nach der sie griff, zerriss. Ich trauere um die Zukunft, die sie sich selbst aufgebaut hat, jetzt, und mache mir Sorgen um Tau selbst.\n\nDanke dir in jedem Fall dafür, dass du daran teilgenommen hast. Möget Ihr Euren Trost finden.",
+      "new_value": "Und die einzige Fessel, nach der sie griff, zerriss. Ich trauere um die Zukunft, die sie sich selbst aufgebaut hat, jetzt, und mache mir Sorgen um Tau selbst.\n\nDanke dir in jedem Fall dafür, dass du daran teilgenommen hast. Mögest du deinen Trost finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a5e4dae10a2f230f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.ElseWelcome.Text|No parting is simple. I see you, fair -elser.",
+      "context": "Conversation Miryam.ElseWelcome.Text",
+      "old_value": "Kein Abschied ist einfach. Ich sehe Euch, schöner -elser.",
+      "new_value": "Kein Abschied ist einfach. Ich sehe dich, schöner -elser.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de395f30ad6cc39a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Else2.Text|{{emote|*Miryam tolls.*}}\n\nAnd the gyre tide carries her a darkling way, perhaps never for us to see again. I will carry with me memory of her -then.\n\nThank you for taking part in this. May you find your comfort.",
+      "context": "Conversation Miryam.Else2.Text",
+      "old_value": "{{emote|*Miryam läutet.*}}\n\nUnd die Gyrus-Flut trägt sie auf dunklem Weg, vielleicht nie für uns zum Sehen. Ich werde mit mir die Erinnerung an ihr -then tragen.\n\nDanke dafür, dass du daran teilgenommen hast. Möget Ihr Euren Trost finden.",
+      "new_value": "{{emote|*Miryam läutet.*}}\n\nUnd die Gyrus-Flut trägt sie auf dunklem Weg, vielleicht nie für uns zum Sehen. Ich werde mit mir die Erinnerung an ihr -then tragen.\n\nDanke dafür, dass du daran teilgenommen hast. Mögest du deinen Trost finden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "12243181b2173596",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Welcome.Text|Oh? A traveler? I see you, then. Live... and drink.",
+      "context": "Conversation Miryam.Welcome.Text",
+      "old_value": "Oh? Ein Reisender? Ich sehe Euch dann. Lebt... und trinkt.",
+      "new_value": "Oh? Ein Reisender? Ich sehe dich dann. Lebe... und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "200b93c25f9f7f4d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Welcome.BlackChoice.Text|Your chime is cracked and ribboned on inside with starless clouds. Why?",
+      "context": "Conversation Miryam.Welcome.BlackChoice.Text",
+      "old_value": "Euer Glockenklang ist gerissen und innen mit sternenlosem Himmel durchflochten. Warum?",
+      "new_value": "Dein Glockenklang ist gerissen und innen mit sternenlosem Himmel durchflochten. Warum?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1039fe01d280214f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Loss.Text|{{emote|*Miryam chimes in deep tones.*}}\n\nI swim in cool and dark waters, traveler. For me, it is Shiva, the lament of seven thousand years.\n\nI mourn the passing of all life, and all the necessity of death life must bring. For you, traveler, to come here, how many had to die? I mourn them.\n\nOr are you the rarest one, who walks below the bright arches and claims no such cost? Even then, what losses did {{M|you}} suffer to come, traveler? What selves of yours had you to shed? Those are -else to us, and I mourn them as well.",
+      "context": "Conversation Miryam.Loss.Text",
+      "old_value": "{{emote|*Miryam erklingt in tiefen Tönen.*}}\n\nIch schwimme in kühlen und dunklen Wassern, Reisender. Für mich ist es Shiva, die Klage von siebentausend Jahren.\n\nIch trauere um das Vergehen allen Lebens und aller Notwendigkeit des Todes, den das Leben mit sich bringt. Dass Ihr, Reisender, hier herkommt, wie viele mussten sterben? Ich trauere um sie.\n\nOder seid Ihr der Seltenste, der unter den hellen Bögen wandelt und keinen solchen Preis fordert? Selbst dann, welche Verluste habt {{M|Ihr}} gelitten, um hierher zu kommen, Reisender? Welche Selbst von Euch musste Ihr ablegen? Diese sind -else für uns, und ich trauere um sie auch.",
+      "new_value": "{{emote|*Miryam erklingt in tiefen Tönen.*}}\n\nIch schwimme in kühlen und dunklen Wassern, Reisender. Für mich ist es Shiva, die Klage von siebentausend Jahren.\n\nIch trauere um das Vergehen allen Lebens und aller Notwendigkeit des Todes, den das Leben mit sich bringt. Dass du, Reisender, hier herkommt, wie viele mussten sterben? Ich trauere um sie.\n\nOder bist du der Seltenste, der unter den hellen Bögen wandelt und keinen solchen Preis fordert? Selbst dann, welche Verluste hast {{M|du}} gelitten, um hierher zu kommen, Reisender? Welche Selbst von dir musstest du ablegen? Diese sind -else für uns, und ich trauere um sie auch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a5568da968e1e2d0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.Gyredream.Text|{{emote|*Miryam chimes in woeful tones.*}}\n\nOh? You know of our pain. Our felt dream?\n\nThe aching, traveler. =name=, I feel the slump of a Great Dying, the spinning out of all life on Earth, and I, drowning in grief. Or... do I? Is it but a new spring flowering, the slump having landed us in a meadow, and they, the gods, who are dead?",
+      "context": "Conversation Miryam.Gyredream.Text",
+      "old_value": "{{emote|*Miryam erklingt in trauervollen Tönen.*}}\n\nOh? Ihr kennt unseren Schmerz. Unseren gefühlten Traum?\n\nDer Schmerz, Reisender. =name=, ich fühle den Rückgang eines Großen Sterbens, das Auseinanderfall alles Lebens auf der Erde, und ich, ertrinkend in Trauer. Oder... tue ich das? Ist es bloß eine neue Frühjahrsblüte, der Rückgang hat uns in einer Wiese gelandet, und sie, die Götter, sind tot?",
+      "new_value": "{{emote|*Miryam erklingt in trauervollen Tönen.*}}\n\nOh? Du kennst unseren Schmerz. Unseren gefühlten Traum?\n\nDer Schmerz, Reisender. =name=, ich fühle den Rückgang eines Großen Sterbens, das Auseinanderfall alles Lebens auf der Erde, und ich, ertrinkend in Trauer. Oder... tue ich das? Ist es bloß eine neue Frühjahrsblüte, der Rückgang hat uns in einer Wiese gelandet, und sie, die Götter, sind tot?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0d78a38f2f61f3c1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Miryam.TauChime.Text|{{emote|*Miryam chimes in melodic tones.*}}\n\nOh? You would finish the -elseing act?\n\nI am your debtor, =name=. The ritual is how we organize the anguished practice of being. Now my grieving can begin.\n\nBright Tau shines always, here or there.",
+      "context": "Conversation Miryam.TauChime.Text",
+      "old_value": "{{emote|*Miryam erklingt in melodischen Tönen.*}}\n\nOh? Würdet Ihr die -elseing-Tat beenden?\n\nIch bin Euch ein Schuldner, =name=. Das Ritual ist, wie wir die qualvolle Praxis des Seins organisieren. Jetzt kann meine Trauer beginnen.\n\nHelles Tau scheint immer, hier oder dort.",
+      "new_value": "{{emote|*Miryam erklingt in melodischen Tönen.*}}\n\nOh? Würdest du die -elseing-Tat beenden?\n\nIch bin dir ein Schuldner, =name=. Das Ritual ist, wie wir die qualvolle Praxis des Seins organisieren. Jetzt kann meine Trauer beginnen.\n\nHelles Tau scheint immer, hier oder dort.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "40b98ebb386b9204",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.KilledTau.Text|{{emote|*The chime rings a bone-shaking alarm.*}}\n\nIs this a taunt? A challenge? What cruelty drives you to attempt communication after what you have done?",
+      "context": "Conversation Tzedech.KilledTau.Text",
+      "old_value": "{{emote|*Der Klang erklingt in knochenschütterndem Alarm.*}}\n\nIst dies ein Hohn? Eine Herausforderung? Welche Grausamkeit treibt Euch dazu, nach allem, was Ihr getan habt, eine Kommunikation zu versuchen?",
+      "new_value": "{{emote|*Der Klang erklingt in knochenschütterndem Alarm.*}}\n\nIst dies ein Hohn? Eine Herausforderung? Welche Grausamkeit treibt dich dazu, nach allem, was du getan hast, eine Kommunikation zu versuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ca5635bc5de1b933",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Killed2.Text|Your mockery disgusts me. You disgust me. I will not be calmed, Tikva!",
+      "context": "Conversation Tzedech.Killed2.Text",
+      "old_value": "Euer Spott erfüllt mich mit Ekel. Ihr erfüllt mich mit Ekel. Ich werde nicht beruhigt, Tikva!",
+      "new_value": "Dein Spott erfüllt mich mit Ekel. Du erfüllst mich mit Ekel. Ich werde nicht beruhigt, Tikva!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b588705a5f12c800",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Lost2.Text|We are adrift now. I will seek signs of her, or whatever she becomes. What do you care?\n\nDo not answer.",
+      "context": "Conversation Tzedech.Lost2.Text",
+      "old_value": "Wir sind jetzt abhängig. Ich werde nach Zeichen von ihr suchen oder was auch immer sie wird. Was kümmert es Euch?\n\nBeantwortet nicht.",
+      "new_value": "Wir sind jetzt abhängig. Ich werde nach Zeichen von ihr suchen oder was auch immer sie wird. Was kümmert es dich?\n\nBeantworte nicht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf830ac38ddb8ec4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Companion2.Text|I wonder how it must feel to be =name=, so loath to see the pen of fate in another's grasp that you see fit to wrench it away. Does it bring exultation of control, or relief from a gnawing insecurity?\n\nDo not answer. I will not be calmed. Ask if asking.",
+      "context": "Conversation Tzedech.Companion2.Text",
+      "old_value": "Ich frage mich, wie es sich anfühlen muss, =name= zu sein, so abgeneigt, den Stift des Schicksals in einer anderen Hand zu sehen, dass Ihr ihn zu entreißen trachtet. Bringt es Ekstase der Kontrolle oder Erleichterung von einer nagenden Unsicherheit?\n\nBeantwortet nicht. Ich werde nicht beruhigt. Fragt, wenn Ihr fragt.",
+      "new_value": "Ich frage mich, wie es sich anfühlen muss, =name= zu sein, so abgeneigt, den Stift des Schicksals in einer anderen Hand zu sehen, dass du ihn zu entreißen trachtest. Bringt es Ekstase der Kontrolle oder Erleichterung von einer nagenden Unsicherheit?\n\nBeantworte nicht. Ich werde nicht beruhigt. Frag, wenn du fragst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1834848b830f59f3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.ElseWelcome.Text|You. I roil to see you. I welcome you. I churn.\n\nDo you know this weight, I wonder? Can you?",
+      "context": "Conversation Tzedech.ElseWelcome.Text",
+      "old_value": "Ihr. Ich wühle, Euch zu sehen. Ich willkomm Euch. Ich gäre.\n\nKennt Ihr dieses Gewicht, frage ich mich? Könnt Ihr?",
+      "new_value": "Du. Ich wühle, dich zu sehen. Ich willkomm dich. Ich gäre.\n\nKennst du dieses Gewicht, frage ich mich? Kannst du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "39c06828c92f15cb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Else2.Text|I am torn asunder! This outcome, this outcome, the shear splits me. Why Ptoh? How? Has this always been us? Which of us yet carry this -else to reify under pressure to our extancy?\n\nDo not answer. There is no word-answer, and perhaps none at all. You have done us a service and I thank you for this -elseing.",
+      "context": "Conversation Tzedech.Else2.Text",
+      "old_value": "Ich bin zerrissen! Dieses Ergebnis, dieses Ergebnis, die Scherung spaltet mich. Warum Ptoh? Wie? War dies immer schon wir? Welche von uns tragen noch dieses -else, um unter Druck zu unserer Existenz versteift zu werden?\n\nBeantwortet nicht. Es gibt keine Wort-Antwort, vielleicht auch gar keine. Ihr habt uns einen Dienst getan und ich danke Euch für dieses -elseing.",
+      "new_value": "Ich bin zerrissen! Dieses Ergebnis, dieses Ergebnis, die Scherung spaltet mich. Warum Ptoh? Wie? War dies immer schon wir? Welche von uns tragen noch dieses -else, um unter Druck zu unserer Existenz versteift zu werden?\n\nBeantworte nicht. Es gibt keine Wort-Antwort, vielleicht auch gar keine. Du hast uns einen Dienst getan und ich danke dir für dieses -elseing.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "86de21b705430e5e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Declaration.Text|{{emote|*the chime rings a sharp, urgent gonging tone*}}\n\nEntity! You are given persistent will and agency, twice-hewn architecture of body and strong fiber that pulls. You bolt upright and damp-haired into fullness, your grasp abrading the threads of existence. Your responsibility remains whether acknowledged or not. Have strength, the time is now.",
+      "context": "Conversation Tzedech.Declaration.Text",
+      "old_value": "{{emote|*der Klang erklingt scharf und dringlich in Schlagtönen*}}\n\nWesen! Euch ist ein beständiger Wille und Handlungsfähigkeit gegeben, zweifach gehauene Architektur aus Körper und starker Faser, die zieht. Ihr fahrt aufrecht und feuchthaarig in die Vollheit auf, Euer Griff schleift an den Fäden der Existenz. Eure Verantwortung bleibt, ob anerkannt oder nicht. Habt Kraft, die Zeit ist jetzt.",
+      "new_value": "{{emote|*der Klang erklingt scharf und dringlich in Schlagtönen*}}\n\nWesen! Dir ist ein beständiger Wille und Handlungsfähigkeit gegeben, zweifach gehauene Architektur aus Körper und starker Faser, die zieht. Du fährst aufrecht und feuchthaarig in die Vollheit auf, dein Griff schleift an den Fäden der Existenz. Deine Verantwortung bleibt, ob anerkannt oder nicht. Hab Kraft, die Zeit ist jetzt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1f2e1a43a9b1ef6f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.PostQuestions.Text|I accept. Ask if asking.",
+      "context": "Conversation Tzedech.PostQuestions.Text",
+      "old_value": "Ich akzeptiere. Fragt, wenn Ihr fragt.",
+      "new_value": "Ich akzeptiere. Frag, wenn du fragst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6118a972cba1271f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.What.Text|{{emote|*the chime rings again, echoing louder in the walls of your mind*}}\n\nHear me! It is more important than ever to know that you are a driver, reforged and honed. You tool yourself to apply selective atrocity. It cannot be helped. You shape this, your path bloody and blooming. You start in sleep and shake the ground.\n\nAll must, but you most of all. The weight may have been negligent once, but it is terribly heavy now.\n\nDo you accept responsibilty?",
+      "context": "Conversation Tzedech.What.Text",
+      "old_value": "{{emote|*der Klang erklingt wieder, lauter in den Mauern Eures Geistes hallen*}}\n\nHört mich! Es ist wichtiger als je zuvor zu wissen, dass Ihr ein Treiber seid, neu geschmiedet und geschärft. Ihr formt Euch selbst, um selektive Gräuel anzuwenden. Es kann nicht geholfen werden. Ihr formt dies, Euer Weg blutig und blühend. Ihr beginnt im Schlaf und erschüttert die Erde.\n\nAlle müssen, aber Ihr vor allen. Das Gewicht mag einst nachlässig gewesen sein, aber es ist jetzt furchtbar schwer.\n\nAkzeptiert Ihr Verantwortung?",
+      "new_value": "{{emote|*der Klang erklingt wieder, lauter in den Mauern deines Geistes hallen*}}\n\nHör mich! Es ist wichtiger als je zuvor zu wissen, dass du ein Treiber bist, neu geschmiedet und geschärft. Du formst dich selbst, um selektive Gräuel anzuwenden. Es kann nicht geholfen werden. Du formst dies, dein Weg blutig und blühend. Du beginnst im Schlaf und erschüttert die Erde.\n\nAlle müssen, aber du vor allen. Das Gewicht mag einst nachlässig gewesen sein, aber es ist jetzt furchtbar schwer.\n\nAkzeptierst du Verantwortung?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "67c25e2fc152b8f7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Deny.Text|Yet, what you break is broken. -else is not -then regardless of will. This way split me again from Tikva, sundered early the love I knew, the denial. Our cowardice.\n\nIgnore this digression. Ask, if asking.",
+      "context": "Conversation Tzedech.Deny.Text",
+      "old_value": "Doch was Ihr zerbrecht ist zerbrochen. -else ist nicht -then unabhängig vom Willen. Dieser Weg spaltet mich wieder von Tikva, trennte früh die Liebe, die ich kannte, die Verleugnung. Unsere Feigheit.\n\nIgnoriert diese Abschweifung. Fragt, wenn Ihr fragt.",
+      "new_value": "Doch was du zerbrichst ist zerbrochen. -else ist nicht -then unabhängig vom Willen. Dieser Weg spaltet mich wieder von Tikva, trennte früh die Liebe, die ich kannte, die Verleugnung. Unsere Feigheit.\n\nIgnoriere diese Abschweifung. Frag, wenn du fragst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cfcd8efc0642ed3c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Deny.LoverChoice.Text|You loved another chime?",
+      "context": "Conversation Tzedech.Deny.LoverChoice.Text",
+      "old_value": "Ihr habt einen anderen Klang geliebt?",
+      "new_value": "Du hast einen anderen Klang geliebt?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7cd91f4642e4b01b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.What2.Text|You are encysted as Tikva, just as they! Milky white keratinous thoughts melt to a sick mass, wrapped in a protective membrane. I tremble. So it is.\n\nAsk, if asking.",
+      "context": "Conversation Tzedech.What2.Text",
+      "old_value": "Ihr seid encysted wie Tikva, genau wie sie! Milchweiße keratinöse Gedanken schmelzen zu einer kränklichen Masse, umhüllt von einer Schutzschicht. Ich zittere. So ist es.\n\nFragt, wenn Ihr fragt.",
+      "new_value": "Du bist encysted wie Tikva, genau wie sie! Milchweiße keratinöse Gedanken schmelzen zu einer kränklichen Masse, umhüllt von einer Schutzschicht. Ich zittere. So ist es.\n\nFrag, wenn du fragst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5cdbe285edc8b96c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Cyst.Text|Just as Tikva, you turn away from your self-disgust. Yet, it is you and within you. You contain that you cannot tolerate.",
+      "context": "Conversation Tzedech.Cyst.Text",
+      "old_value": "Genau wie Tikva wendet Ihr Euch von Eurem Selbstekel ab. Doch es ist Ihr und in Euch. Ihr enthaltet das, das Ihr nicht ertragen könnt.",
+      "new_value": "Genau wie Tikva wendest du dich von deinem Selbstekel ab. Doch es bist du und in dir. Du enthältst das, das du nicht ertragen kannst.",
+      "note": "'es ist Ihr' -> 'es bist du'",
+      "status": "accepted"
+    },
+    {
+      "uid": "f430ae3dc4d36fe8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Accept.Text|{{emote|*Tzedech emits a powerful, body-thrumming chime*}}\n\nYes. You understand destroying. You know the weight. We are past time of querulous inquisition, of confessions on lined parchment. Was the whole of this in your weight? It no longer matters. Scale the firmament, smite or soothe what rouses there.",
+      "context": "Conversation Tzedech.Accept.Text",
+      "old_value": "{{emote|*Tzedech sendet einen kräftigen, körperschwingende Klang aus*}}\n\nJa. Ihr versteht Zerstörung. Ihr kennt das Gewicht. Wir sind vorbei an der Zeit der jammerig Befragung, der Bekenntnisse auf liniertem Pergament. War das Ganze davon in Eurem Gewicht? Es spielt keine Rolle mehr. Erklimmt das Firmament, schlägt nieder oder besänftigt, was da aufgeregt wird.",
+      "new_value": "{{emote|*Tzedech sendet einen kräftigen, körperschwingende Klang aus*}}\n\nJa. Du verstehst Zerstörung. Du kennst das Gewicht. Wir sind vorbei an der Zeit der jammerig Befragung, der Bekenntnisse auf liniertem Pergament. War das Ganze davon in deinem Gewicht? Es spielt keine Rolle mehr. Erklimm das Firmament, schlag nieder oder besänftige, was da aufgeregt wird.",
+      "note": "Imperativ singular (schlägt->schlag)",
+      "status": "accepted"
+    },
+    {
+      "uid": "4784d45511070cb9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Gyredream.Text|It consumes me. I witnessed so little from the weave of outcomes. If I could remember them all, could I influence the course? Would I know what safe means? Too many questions with no conceivable answer. Was your rekindling the spark that caught fire? I do not know.\n\nWe are adrift.",
+      "context": "Conversation Tzedech.Gyredream.Text",
+      "old_value": "Es verzehrt mich. Ich habe so wenig aus dem Gewebe der Ergebnisse bezeugt. Wenn ich mich an sie alle erinnern könnte, könnte ich den Kurs beeinflussen? Würde ich wissen, was sicher bedeutet? Zu viele Fragen ohne erdenkliche Antwort. War Eure Entzündung der Funke, der Feuer fing? Ich weiß es nicht.\n\nWir treiben ab.",
+      "new_value": "Es verzehrt mich. Ich habe so wenig aus dem Gewebe der Ergebnisse bezeugt. Wenn ich mich an sie alle erinnern könnte, könnte ich den Kurs beeinflussen? Würde ich wissen, was sicher bedeutet? Zu viele Fragen ohne erdenkliche Antwort. War deine Entzündung der Funke, der Feuer fing? Ich weiß es nicht.\n\nWir treiben ab.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ef244e5f1c247a2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Lovers.Text|You are terribly small. Your love, small. Confined.\n\nI cannot will not uplift your little concept. Do it yourself.",
+      "context": "Conversation Tzedech.Lovers.Text",
+      "old_value": "Ihr seid entsetzlich klein. Eure Liebe, klein. Eingegrenzt.\n\nIch kann nicht will nicht euer kleines Konzept erheben. Tut es selbst.",
+      "new_value": "Du bist entsetzlich klein. Deine Liebe, klein. Eingegrenzt.\n\nIch kann nicht will nicht dein kleines Konzept erheben. Tu es selbst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9e898017eace3314",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tzedech.Cycle.Text|As seasons cycle, so Chavvah cycles. We are not as you, our love is not as you. But it is come early, this winter. Gyredream shakes us.\n\nThis is insufficient and I cannot bridge understanding. Consider questions of greater utility.",
+      "context": "Conversation Tzedech.Cycle.Text",
+      "old_value": "Wie die Jahreszeiten sich drehen, dreht sich Chavvah. Wir sind nicht wie Ihr, unsere Liebe ist nicht wie die Eure. Aber dieser Winter ist früh gekommen. Gyredream schüttelt uns.\n\nDies ist unzureichend und ich kann das Verständnis nicht überbrücken. Erwägt Fragen von größerem Nutzen.",
+      "new_value": "Wie die Jahreszeiten sich drehen, dreht sich Chavvah. Wir sind nicht wie du, unsere Liebe ist nicht wie die deine. Aber dieser Winter ist früh gekommen. Gyredream schüttelt uns.\n\nDies ist unzureichend und ich kann das Verständnis nicht überbrücken. Erwäge Fragen von größerem Nutzen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2b18895108d9dbe5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.LostInSoft.Text|{{emote|*the sound of the chime rings querulous.*}}\n\nThe light shines upon you but illuminates nothing. It quails.",
+      "context": "Conversation Tikva.LostInSoft.Text",
+      "old_value": "{{emote|*der Klang des Chimes klingt fragwürdig.*}}\n\nDas Licht scheint auf Euch, aber erhellt nichts. Es erbebt.",
+      "new_value": "{{emote|*der Klang des Chimes klingt fragwürdig.*}}\n\nDas Licht scheint auf dich, aber erhellt nichts. Es erbebt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae995667a25039c4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.Else2.Text|It wills this troubled feeling away. It looks to the light with something in its eyes. It tries to blink the something away, but it cannot. The light is dim through the something in its eyes.\n\nBut the light yet shines. It will blink and it will see the light in searing glory. I thank you, I thank you, I thank you.",
+      "context": "Conversation Tikva.Else2.Text",
+      "old_value": "Es wünscht dieses beunruhigte Gefühl fort. Es schaut zum Licht mit etwas in seinen Augen. Es versucht, das Etwas fortzublinzeln, aber es kann nicht. Das Licht ist dunkel durch das Etwas in seinen Augen.\n\nAber das Licht scheint noch. Es wird blinzeln und es wird das Licht in brennender Pracht sehen. Ich danke Euch, ich danke Euch, ich danke Euch.",
+      "new_value": "Es wünscht dieses beunruhigte Gefühl fort. Es schaut zum Licht mit etwas in seinen Augen. Es versucht, das Etwas fortzublinzeln, aber es kann nicht. Das Licht ist dunkel durch das Etwas in seinen Augen.\n\nAber das Licht scheint noch. Es wird blinzeln und es wird das Licht in brennender Pracht sehen. Ich danke dir, ich danke dir, ich danke dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aed860eeda35b502",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.Welcome.Text|{{emote|*the chime rings a long, clarion tone.*}}\n\nYou are as beautiful as imagined. You ring with a shining purpose. This chime is awed to bask in your presence.",
+      "context": "Conversation Tikva.Welcome.Text",
+      "old_value": "{{emote|*der Chime klingt in einem langen, hellen Ton.*}}\n\nIhr seid so schön wie vorgestellt. Ihr klingt mit leuchtender Absicht. Dieser Chime ist in Ehrfurcht, in Eurer Gegenwart zu ruhen.",
+      "new_value": "{{emote|*der Chime klingt in einem langen, hellen Ton.*}}\n\nDu bist so schön wie vorgestellt. Du klingst mit leuchtender Absicht. Dieser Chime ist in Ehrfurcht, in deiner Gegenwart zu ruhen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e6f4cddce0d08516",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.Welcome.LightChoice.Text|Your chime shines with such painful light.",
+      "context": "Conversation Tikva.Welcome.LightChoice.Text",
+      "old_value": "Euer Glockenklang strahlt mit so schmerzhaftem Licht.",
+      "new_value": "Dein Glockenklang strahlt mit so schmerzhaftem Licht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "448187d817a27521",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.PostQuestions.Text|Yes. It looks into the light with you.",
+      "context": "Conversation Tikva.PostQuestions.Text",
+      "old_value": "Ja. Es schaut mit Euch ins Licht.",
+      "new_value": "Ja. Es schaut mit dir ins Licht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "81270777db072c05",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.Light.Text|It channels the breathtaking things seen and heard and known. Bathe your senses in it until they grow accustomed. You will see nothing else.",
+      "context": "Conversation Tikva.Light.Text",
+      "old_value": "Es kanalisiert die atemberaubenden Dinge, die gesehen und gehört und bekannt sind. Badet Eure Sinne darin, bis sie sich gewöhnen. Ihr werdet nichts anderes sehen.",
+      "new_value": "Es kanalisiert die atemberaubenden Dinge, die gesehen und gehört und bekannt sind. Bade deine Sinne darin, bis sie sich gewöhnen. Du wirst nichts anderes sehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae2317b2f37404b1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.TauChime.Text|{{emote|*the chime goes silent, and its voice in your mind is small and subdued*}}\n\nIt begs. Speak not of Tau. She shone so bright, with none of the heat from my -- from Tzedech.\n\nTo remember her departure harms it. This and gyredream are too much for it to bear.",
+      "context": "Conversation Tikva.TauChime.Text",
+      "old_value": "{{emote|*der Chime verstummt, und seine Stimme in Eurem Sinn ist klein und unterdrückt*}}\n\nEs bittet. Sprecht nicht von Tau. Sie schimmerte so hell, ohne die Hitze von meinem -- von Tzedech.\n\nSich ihrer Abreise zu erinnern, schadet ihm. Das und Gyredream sind zu viel für es zu ertragen.",
+      "new_value": "{{emote|*der Chime verstummt, und seine Stimme in deinem Sinn ist klein und unterdrückt*}}\n\nEs bittet. Sprich nicht von Tau. Sie schimmerte so hell, ohne die Hitze von meinem -- von Tzedech.\n\nSich ihrer Abreise zu erinnern, schadet ihm. Das und Gyredream sind zu viel für es zu ertragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d65c87ac6066ba6e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tikva.TauChime.LoverChoice.Text|'Your' Tzedech?",
+      "context": "Conversation Tikva.TauChime.LoverChoice.Text",
+      "old_value": "\"Euer\" Tzedech?",
+      "new_value": "\"Dein\" Tzedech?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b8e45c88488077c2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Killed2.Text|{{emote|*You tumble from the jar, your sinewy body twisting against the electric emptiness in your belly, the weight of eggs. You discover a morsel and consume it soft and delicious. You will spawn here. You will eat the morsels. Your babies will eat all of the morsels.}}",
+      "context": "Conversation Dreamer.Killed2.Text",
+      "old_value": "{{emote|*Ihr stürzt aus dem Glas, Euer sehniger Körper dreht sich gegen die elektrische Leere in Eurem Bauch, das Gewicht der Eier. Ihr entdeckt einen Bissen und konsumiert ihn weich und köstlich. Ihr werdet hier laichen. Ihr werdet die Bissen essen. Eure Babys werden alle Bissen essen.*}}",
+      "new_value": "{{emote|*Du stürzt aus dem Glas, dein sehniger Körper dreht sich gegen die elektrische Leere in deinem Bauch, das Gewicht der Eier. Du entdeckst einen Bissen und konsumierst ihn weich und köstlich. Du wirst hier laichen. Du wirst die Bissen essen. Deine Babys werden alle Bissen essen.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "14ee7f0b95afa651",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Killed2.WelcomeChoice.Text|I... have more to ask you.",
+      "context": "Conversation Dreamer.Killed2.WelcomeChoice.Text",
+      "old_value": "Ich... habe noch mehr, um Euch zu fragen.",
+      "new_value": "Ich... habe noch mehr, um dich zu fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "27bd2122d649f5c0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Lost2.WelcomeChoice.Text|I... have more to ask you.",
+      "context": "Conversation Dreamer.Lost2.WelcomeChoice.Text",
+      "old_value": "Ich... habe noch mehr, um Euch zu fragen.",
+      "new_value": "Ich... habe noch mehr, um dich zu fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d706c39f433c70fd",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Companion2.WelcomeChoice.Text|I... have more to ask you.",
+      "context": "Conversation Dreamer.Companion2.WelcomeChoice.Text",
+      "old_value": "Ich... habe noch mehr, um Euch zu fragen.",
+      "new_value": "Ich... habe noch mehr, um dich zu fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3b4e0f7b5ed62d7b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Else2.WelcomeChoice.Text|I... have more to ask you.",
+      "context": "Conversation Dreamer.Else2.WelcomeChoice.Text",
+      "old_value": "Ich... habe noch mehr, um Euch zu fragen.",
+      "new_value": "Ich... habe noch mehr, um dich zu fragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7fabb4a6a871e66d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Companion2.Text|{{emote|*From the banks of a shallow creek, you watch a toad floating on the water, belly up. It flails, helpless against even the gentle current of the water in which you placed it seconds ago. You watch it float away, toward the rushing currents ahead.\n\nHelpless to myriad unknowable fates, the toad disappears from view into the rapids, sent there by your hand.*}}",
+      "context": "Conversation Dreamer.Companion2.Text",
+      "old_value": "{{emote|*Von den Ufern eines flachen Baches aus beobachtet Ihr einen Frosch, der mit dem Bauch oben auf dem Wasser treibt. Er zappelt, hilflos gegen die sanfte Strömung des Wassers, in das Ihr ihn vor Sekunden gelegt habt. Ihr beobachtet ihn forttreiben, zur stürmischen Strömung voraus.\n\nHilflos gegen unzählige unerkennbare Schicksale, verschwindet der Frosch aus dem Blick in die Stromschnellen, von Eurer Hand dorthin gesandt.*}}",
+      "new_value": "{{emote|*Von den Ufern eines flachen Baches aus beobachtest du einen Frosch, der mit dem Bauch oben auf dem Wasser treibt. Er zappelt, hilflos gegen die sanfte Strömung des Wassers, in das du ihn vor Sekunden gelegt hast. Du beobachtest ihn forttreiben, zur stürmischen Strömung voraus.\n\nHilflos gegen unzählige unerkennbare Schicksale, verschwindet der Frosch aus dem Blick in die Stromschnellen, von deiner Hand dorthin gesandt.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "287dc7a95e93122e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Else2.Text|{{emote|*From the mouth of the jar in your little hands, you watch a frog leap into the water of a softly burbling creek. The gentle current sweeps the frog's little body away to an unknown fate as curious crayfish peek out from their hiding places. The jar in your hands is empty.*}}",
+      "context": "Conversation Dreamer.Else2.Text",
+      "old_value": "{{emote|*Aus dem Mund des Glases in Euren kleinen Händen beobachtet Ihr einen Frosch, der in das Wasser eines sanft gluckernden Baches springt. Die sanfte Strömung fegt den kleinen Körper des Froschs fort zu einem unbekannten Schicksal, während neugierige Flusskrebse aus ihren Verstecken linsen. Das Glas in Euren Händen ist leer.*}}",
+      "new_value": "{{emote|*Aus dem Mund des Glases in deinen kleinen Händen beobachtest du einen Frosch, der in das Wasser eines sanft gluckernden Baches springt. Die sanfte Strömung fegt den kleinen Körper des Froschs fort zu einem unbekannten Schicksal, während neugierige Flusskrebse aus ihren Verstecken linsen. Das Glas in deinen Händen ist leer.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "801295231d2bac4e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Welcome.Text|{{emote|*the chime rings*}}\n\n{{emote|*In your mind's eye, you see yourself touching a mirror. You tap the glass and it ripples like the surface of a placid lake.*}}",
+      "context": "Conversation Dreamer.Welcome.Text",
+      "old_value": "{{emote|*der Chime ertönt*}}\n\n{{emote|*In Eurem Geistesauge seht Ihr Euch selbst, einen Spiegel berührend. Ihr tippt auf das Glas und es kräuselt sich wie die Oberfläche eines ruhigen Sees.*}}",
+      "new_value": "{{emote|*der Chime ertönt*}}\n\n{{emote|*In deinem Geistesauge siehst du dich selbst, einen Spiegel berührend. Du tippst auf das Glas und es kräuselt sich wie die Oberfläche eines ruhigen Sees.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2b651fb6fd82621e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Welcome.NameChoice.Text|Your name is pronounced as the pause between two words, friend. How do I know this?",
+      "context": "Conversation Dreamer.Welcome.NameChoice.Text",
+      "old_value": "Euer Name wird als die Pause zwischen zwei Worten ausgesprochen, Freund. Wie weiß ich das?",
+      "new_value": "Dein Name wird als die Pause zwischen zwei Worten ausgesprochen, Freund. Wie weiß ich das?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f476811455177914",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Silent.Text|{{emote|*The moment stretches on into a steep asymptote, the peaks and valleys of possible outcomes speeding by in an imaginary blur. You imagine the sound of a tiny metal thread brushing across the bottom of a dusty valley, amplified a thousand times.*}}",
+      "context": "Conversation Dreamer.Silent.Text",
+      "old_value": "{{emote|*Der Moment dehnt sich zu einer steilen Asymptote, die Gipfel und Täler möglicher Ergebnisse sausen in unscharfem Rausch vorbei. Ihr stellt Euch den Klang eines winzigen Metallfadens vor, der über den Grund eines staubigen Tales streicht, tausendfach verstärkt.*}}",
+      "new_value": "{{emote|*Der Moment dehnt sich zu einer steilen Asymptote, die Gipfel und Täler möglicher Ergebnisse sausen in unscharfem Rausch vorbei. Du stellst dir den Klang eines winzigen Metallfadens vor, der über den Grund eines staubigen Tales streicht, tausendfach verstärkt.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d3b9567c1c06886f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Name.Text|{{emote|*the entity chimes, and you witness water lapping at the long edge of a pebble beach. Slowly, the tide brushes clean the surface of each rock, etching time's passage onto millions of tiny canvases. Somewhere, something dies.*}}",
+      "context": "Conversation Dreamer.Name.Text",
+      "old_value": "{{emote|*die Entität ertönt im Chime, und Ihr bezeugt Wasser, das an der langen Kante eines Kieselstrandes leckt. Langsam putzt die Flut die Oberfläche jedes Steins sauber und ritzt den Lauf der Zeit in Millionen winziger Leinwände. Irgendwo stirbt etwas.*}}",
+      "new_value": "{{emote|*die Entität ertönt im Chime, und du bezeugst Wasser, das an der langen Kante eines Kieselstrandes leckt. Langsam putzt die Flut die Oberfläche jedes Steins sauber und ritzt den Lauf der Zeit in Millionen winziger Leinwände. Irgendwo stirbt etwas.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e4a0c9c52f6e99ca",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Gyredream.Text|{{emote|*Your entire self buzzes at the sound of _'s chime, a shock from the center and radiating outward. Sensation bubbles up to the surface, a tightening of the self. It is as if cresting a great hill atop a cathedra or an oncoming witchwood overdose; the void yawns under you. Something terrible is born.*}}",
+      "context": "Conversation Dreamer.Gyredream.Text",
+      "old_value": "{{emote|*Euer ganzes Selbst summt beim Klang von _s Chime, ein Schock von der Mitte ausstrahlend. Empfindung sprudelt an die Oberfläche, eine Anspannung des Selbst. Es ist, als würde man die Spitze eines großen Hügels auf einer Kathedra oder eine kommende Witchwood-Überdosis erklimmen; die Leere gähnt unter Euch. Etwas Schreckliches wird geboren.*}}",
+      "new_value": "{{emote|*Dein ganzes Selbst summt beim Klang von _s Chime, ein Schock von der Mitte ausstrahlend. Empfindung sprudelt an die Oberfläche, eine Anspannung des Selbst. Es ist, als würde man die Spitze eines großen Hügels auf einer Kathedra oder eine kommende Witchwood-Überdosis erklimmen; die Leere gähnt unter dir. Etwas Schreckliches wird geboren.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "36fe5eebf266b5b2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.Meaning.Text|{{emote|*You are a little sapfly resting in the crook of a swarmshade tree. The boughs stretch in great barkish deserts before exploding into a tangle of branches. Your brethren buzz in an agitated cloud, feeling fear or excitement or hunger. Something buzzes beyond the leafy reaches of your sight, all-consuming but unclear.*}}",
+      "context": "Conversation Dreamer.Meaning.Text",
+      "old_value": "{{emote|*Ihr seid eine kleine Sapfliege, die in der Krümmung eines Schwarmschatten-Baumes ruht. Die Äste strecken sich durch große rindige Wüsten, bevor sie in ein Getümmel von Zweigen explodieren. Eure Brüder summen in einer aufgeregten Wolke, Angst oder Aufregung oder Hunger fühlend. Etwas summt jenseits der belaubten Reichweite Eurer Sicht, allumfassend aber unklar.*}}",
+      "new_value": "{{emote|*Du bist eine kleine Sapfliege, die in der Krümmung eines Schwarmschatten-Baumes ruht. Die Äste strecken sich durch große rindige Wüsten, bevor sie in ein Getümmel von Zweigen explodieren. Deine Brüder summen in einer aufgeregten Wolke, Angst oder Aufregung oder Hunger fühlend. Etwas summt jenseits der belaubten Reichweite deiner Sicht, allumfassend aber unklar.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "074496bd74e4c0d5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dreamer.TauChime.Text|{{emote|*Just as you activate an artifact listening device that ceased to exist centuries ago, you hear the end of an emotional song. The space between relief and sorrow throbs with uncomfortable tension. You ache with it.*}}",
+      "context": "Conversation Dreamer.TauChime.Text",
+      "old_value": "{{emote|*Gerade als Ihr ein Artefakt-Abhörgerät aktiviert, das vor Jahrhunderten aufgehört hat zu existieren, hört Ihr das Ende eines emotionalen Liedes. Der Raum zwischen Erleichterung und Trauer pulsiert mit unbequemer Spannung. Ihr schmerzt damit.*}}",
+      "new_value": "{{emote|*Gerade als du ein Artefakt-Abhörgerät aktivierst, das vor Jahrhunderten aufgehört hat zu existieren, hörst du das Ende eines emotionalen Liedes. Der Raum zwischen Erleichterung und Trauer pulsiert mit unbequemer Spannung. Du schmerzt damit.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "01356ebf398269d7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.Killed2.Text|Can you feel the stillness? The drycrackle of space between as you thump my crystal arms.\n\nLife flees you. Motion flees you.",
+      "context": "Conversation Thicksalt.Killed2.Text",
+      "old_value": "Könnt Ihr die Stille fühlen? Das Trockenknacken des Raums dazwischen, wenn Ihr meine Kristallarme schlagt.\n\nLeben flieht vor Euch. Bewegung flieht vor Euch.",
+      "new_value": "Kannst du die Stille fühlen? Das Trockenknacken des Raums dazwischen, wenn du meine Kristallarme schlägst.\n\nLeben flieht vor dir. Bewegung flieht vor dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de06b9a98e420f33",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.KilledCompanion.Text|{{emote|*through the chime you hear an echoing cacophony, muted by distance and matter.*}}\n\nHow we ring with it. Your kicksoft drowns under the beat of our selfcries.",
+      "context": "Conversation Thicksalt.KilledCompanion.Text",
+      "old_value": "{{emote|*durch den Chime hört Ihr ein echoierendes Durcheinander, gedämpft durch Entfernung und Materie.*}}\n\nWie wir mit ihm ertönen. Euer Kicksoft ertrinkt unter dem Schlag unserer Selbstschreie.",
+      "new_value": "{{emote|*durch den Chime hörst du ein echoierendes Durcheinander, gedämpft durch Entfernung und Materie.*}}\n\nWie wir mit ihm ertönen. Dein Kicksoft ertrinkt unter dem Schlag unserer Selbstschreie.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "36c9a2169116a400",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.ElseWelcome.Text|{{emote|*through the chime you hear an echoing cacophony, muted by distance and matter.*}}\n\nHow we ring with it. Your kicksoft drowns under the beat of our selfcries.",
+      "context": "Conversation Thicksalt.ElseWelcome.Text",
+      "old_value": "{{emote|*durch den Chime hört Ihr ein echoierendes Durcheinander, gedämpft durch Entfernung und Materie.*}}\n\nWie wir mit ihm ertönen. Euer Kicksoft ertrinkt unter dem Schlag unserer Selbstschreie.",
+      "new_value": "{{emote|*durch den Chime hörst du ein echoierendes Durcheinander, gedämpft durch Entfernung und Materie.*}}\n\nWie wir mit ihm ertönen. Dein Kicksoft ertrinkt unter dem Schlag unserer Selbstschreie.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b6804c5d1ecb5b72",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.ElseWelcome.Else2Choice.Text|How does Tau's departure find you?",
+      "context": "Conversation Thicksalt.ElseWelcome.Else2Choice.Text",
+      "old_value": "Wie findet Taus Abreise Euch?",
+      "new_value": "Wie findet Taus Abreise dich?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8f54146b1a7c6ed8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tammuz.KilledCompanion.Companion2Choice.Text|How does Tau's departure find you?",
+      "context": "Conversation Tammuz.KilledCompanion.Companion2Choice.Text",
+      "old_value": "Wie findet Taus Abreise Euch?",
+      "new_value": "Wie findet Taus Abreise dich?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "987b6b930b9435cb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tammuz.ElseWelcome.Else2Choice.Text|How does Tau's departure find you?",
+      "context": "Conversation Tammuz.ElseWelcome.Else2Choice.Text",
+      "old_value": "Wie findet Taus Abreise Euch?",
+      "new_value": "Wie findet Taus Abreise dich?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5308130a51c009df",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.Welcome.Text|Who thumps my crystal arms, and kicksofts me at windfall? I feel you here, friend.",
+      "context": "Conversation Thicksalt.Welcome.Text",
+      "old_value": "Wer schlägt meine Kristallarme und kicksoftet mich bei Windfall? Ich fühle Euch hier, Freund.",
+      "new_value": "Wer schlägt meine Kristallarme und kicksoftet mich bei Windfall? Ich fühle dich hier, Freund.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "99153e9e8e553f96",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.PostQuestions.Text|{{emote|*there is an agitation in Thicksalt's accepting chime.*}}\n\nPluck the air, then, with your mouth sounds.",
+      "context": "Conversation Thicksalt.PostQuestions.Text",
+      "old_value": "{{emote|*es gibt eine Aufregung in Thicksalts akzeptierendem Chime.*}}\n\nZupft dann die Luft mit Euren Mundlauten.",
+      "new_value": "{{emote|*es gibt eine Aufregung in Thicksalts akzeptierendem Chime.*}}\n\nZupf dann die Luft mit deinen Mundlauten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e4ba688f8279c771",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.Feel.Text|{{emote|*Thicksalt chimes in bright tones.*}}\n\nAll presence is gesture, and all gesture is felt. Bat the air with your wildlimbs, press on the hardflats of my crystal arms... I feel it.\n\nYou must feel it, too. Or are you touchlost? When Dyvvrach is touchlost, when Dyvvrach speaks the millionth word and forgets all speech is gesture, a cord flicked somewhere. Then I feel the bending rush of grass on my crystal fingers, and Dyvvrach is touchkept again.",
+      "context": "Conversation Thicksalt.Feel.Text",
+      "old_value": "{{emote|*Thicksalt ertönt in hellen Tönen.*}}\n\nAlle Gegenwart ist Geste, und alle Geste wird gefühlt. Schlagt die Luft mit Euren wilden Gliedern, drückt auf die Hartflächen meiner Kristallarme... Ich fühle es.\n\nIhr müßt es auch fühlen. Oder seid Ihr berührungsverloren? Wenn Dyvvrach berührungsverloren ist, wenn Dyvvrach das millionste Wort spricht und vergißt, daß alle Rede Geste ist, zuckte irgendwo eine Schnur. Dann fühle ich den biegenden Ansturm von Gras auf meinen Kristallfingern, und Dyvvrach ist wieder berührungserhalten.",
+      "new_value": "{{emote|*Thicksalt ertönt in hellen Tönen.*}}\n\nAlle Gegenwart ist Geste, und alle Geste wird gefühlt. Schlag die Luft mit deinen wilden Gliedern, drück auf die Hartflächen meiner Kristallarme... Ich fühle es.\n\nDu mußt es auch fühlen. Oder bist du berührungsverloren? Wenn Dyvvrach berührungsverloren ist, wenn Dyvvrach das millionste Wort spricht und vergißt, daß alle Rede Geste ist, zuckte irgendwo eine Schnur. Dann fühle ich den biegenden Ansturm von Gras auf meinen Kristallfingern, und Dyvvrach ist wieder berührungserhalten.",
+      "note": "alte Schreibung müßt -> mußt beibehalten",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5a5b72c5c0a7860",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.Gyredream.Text|{{emote|*Thicksalt chimes in sharpened tones, then stills.*}}\n\nYou thump my crystal arms, you kicksoft me at windfall. Our feltdream did not end. I feel you here, now.\n\nBefore, when Soft flushed so suddenly, I felt the stones of war smash against my western roots, and the kicksoft of air unthicken into stillness. In the quiet black, I felt the so-hot burning of star exhaust and thrum of roaring vessel. Then... too much was felt. Threadcount too high for my edgesense.",
+      "context": "Conversation Thicksalt.Gyredream.Text",
+      "old_value": "{{emote|*Thicksalt ertönt in verschärften Tönen, dann verstummt.*}}\n\nIhr schlägt meine Kristallarme, Ihr kicksoftet mich bei Windfall. Unser Gefühltraum endete nicht. Ich fühle Euch hier, jetzt.\n\nVorher, als Soft so plötzlich spülte, fühlte ich die Kriegssteine gegen meine westlichen Wurzeln schmettern, und das Kicksoft der Luft verdickte sich zu Stille. In der stillen Schwärze fühlte ich das so-heiße Brennen von Sternenabgas und das Hämmern eines brüllenden Gefäßes. Dann... zu viel wurde gefühlt. Fadenzahl zu hoch für meinen Kantsinn.",
+      "new_value": "{{emote|*Thicksalt ertönt in verschärften Tönen, dann verstummt.*}}\n\nDu schlägst meine Kristallarme, du kicksoftest mich bei Windfall. Unser Gefühltraum endete nicht. Ich fühle dich hier, jetzt.\n\nVorher, als Soft so plötzlich spülte, fühlte ich die Kriegssteine gegen meine westlichen Wurzeln schmettern, und das Kicksoft der Luft verdickte sich zu Stille. In der stillen Schwärze fühlte ich das so-heiße Brennen von Sternenabgas und das Hämmern eines brüllenden Gefäßes. Dann... zu viel wurde gefühlt. Fadenzahl zu hoch für meinen Kantsinn.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "68ade8b03d2551f4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Thicksalt.TauChime.Text|{{emote|*Thicksalt chimes in soft and rhythmic tones.*}}\n\nI stir now, windwept.\n\nSafesight at your passage, =name=. Thump my crystal arms, hardlift and backbear the chime of bright Tau. The downroot will tickle, but I am blessed in allway.",
+      "context": "Conversation Thicksalt.TauChime.Text",
+      "old_value": "{{emote|*Thicksalt ertönt in weichen und rhythmischen Tönen.*}}\n\nIch rege mich jetzt, windgepeitscht.\n\nSicherer Blick bei Eurer Passage, =name=. Schlägt meine Kristallarme, Hartlift und Rückentragen des Chimes des hellen Tau. Die Wurzel nach unten wird kitzeln, aber ich bin in jeder Hinsicht gesegnet.",
+      "new_value": "{{emote|*Thicksalt ertönt in weichen und rhythmischen Tönen.*}}\n\nIch rege mich jetzt, windgepeitscht.\n\nSicherer Blick bei deiner Passage, =name=. Schlag meine Kristallarme, Hartlift und Rückentragen des Chimes des hellen Tau. Die Wurzel nach unten wird kitzeln, aber ich bin in jeder Hinsicht gesegnet.",
+      "note": "'Schlägt' als Imperativ gelesen -> 'Schlag'",
+      "status": "accepted"
+    },
+    {
+      "uid": "640d0a0c64204d3e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tammuz.Killed2.Lost2.Text|Wh-what will Tau b-be after soft? You, did, did you mean... wh-what c-could you say? Tau spins within, the g-gyre spins without.",
+      "context": "Conversation Tammuz.Killed2.Lost2.Text",
+      "old_value": "Was-was wird Tau s-sein nach Soft? Ihr, habt, habt Ihr gemeint... was-was k-könntet Ihr sagen? Tau dreht sich innen, die G-Gyre dreht sich außen.",
+      "new_value": "Was-was wird Tau s-sein nach Soft? Du, hast, hast du gemeint... was-was k-könntest du sagen? Tau dreht sich innen, die G-Gyre dreht sich außen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "876ee906f367b58b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Tammuz.Welcome.Text|{{emote|*Tammuz chimes a broad and booming tone.*}}\n\nYou! Purpose-driven mad... madhand. You've come here, right? Then you must know power is our... the domain of being is one of power, wouldn't you say? W-Would you please agree with that?",
+      "context": "Conversation Tammuz.Welcome.Text",
+      "old_value": "{{emote|*Tammuz ertönt einen breiten und dröhnenden Ton.*}}\n\nIhr! Zweckgetriebener Verrückter... Verrückter. Ihr seid hier gekommen, ja? Dann müßt Ihr wissen, daß Macht unsere ist... die Domäne des Seins ist eine der Macht, würdet Ihr nicht sagen? W-Würdet Ihr mir bitte zustimmen?",
+      "new_value": "{{emote|*Tammuz ertönt einen breiten und dröhnenden Ton.*}}\n\nDu! Zweckgetriebener Verrückter... Verrückter. Du bist hier gekommen, ja? Dann mußt du wissen, daß Macht unsere ist... die Domäne des Seins ist eine der Macht, würdest du nicht sagen? W-Würdest du mir bitte zustimmen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "faf7c1ebe211c980",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation TauNoLonger.Welcome.LiaisonChoice.Text|It seems that someone is waiting for you.",
+      "context": "Conversation TauNoLonger.Welcome.LiaisonChoice.Text",
+      "old_value": "Es scheint, dass jemand auf Euch wartet.",
+      "new_value": "Es scheint, dass jemand auf dich wartet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2447a9ab8ce17b81",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation TauCompanion.WelcomeHub.SeekerChoice.Text|You're a seeker of the Sightless Way?",
+      "context": "Conversation TauCompanion.WelcomeHub.SeekerChoice.Text",
+      "old_value": "Ihr sucht nach dem Weg der Blinden?",
+      "new_value": "Du suchst nach dem Weg der Blinden?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4776b4e28b5b549e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Nephilim.WaterRitual.NephilimPacifyChoice.Text|Will you resign your charge and swear to unvex the beings of this world?",
+      "context": "Conversation Nephilim.WaterRitual.NephilimPacifyChoice.Text",
+      "old_value": "Werdet Ihr auf Eure Aufgabe verzichten und schwören, die Wesen dieser Welt zu befreien?",
+      "new_value": "Wirst du auf deine Aufgabe verzichten und schwören, die Wesen dieser Welt zu befreien?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d2269e484ed9ea3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightAgolgot.Start.Text.Text|O! O! A new life obtains? You musn't shudder at old Death!",
+      "context": "Conversation GyreWightAgolgot.Start.Text.Text",
+      "old_value": "O! O! Ein neues Leben erblüht? Ihr dürft nicht vor dem alten Tod schaudern!",
+      "new_value": "O! O! Ein neues Leben erblüht? Du darfst nicht vor dem alten Tod schaudern!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df88c2e871d27b31",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightBethsaida.Start.Text.Text|O! O! A new life obtains? You musn't shudder at old Death!",
+      "context": "Conversation GyreWightBethsaida.Start.Text.Text",
+      "old_value": "O! O! Ein neues Leben erblüht? Ihr dürft nicht vor dem alten Tod schaudern!",
+      "new_value": "O! O! Ein neues Leben erblüht? Du darfst nicht vor dem alten Tod schaudern!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8dd6f8bfc9a84750",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightShug'ruith.Start.Text.Text|O! O! A new life obtains? You musn't shudder at old Death!",
+      "context": "Conversation GyreWightShug'ruith.Start.Text.Text",
+      "old_value": "O! O! Ein neues Leben erblüht? Ihr dürft nicht vor dem alten Tod schaudern!",
+      "new_value": "O! O! Ein neues Leben erblüht? Du darfst nicht vor dem alten Tod schaudern!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "366b65e8c3877ee5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightRermadon.Start.Text.Text|O! O! A new life obtains? You musn't shudder at old Death!",
+      "context": "Conversation GyreWightRermadon.Start.Text.Text",
+      "old_value": "O! O! Ein neues Leben erblüht? Ihr dürft nicht vor dem alten Tod schaudern!",
+      "new_value": "O! O! Ein neues Leben erblüht? Du darfst nicht vor dem alten Tod schaudern!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "01a6a62ba08961bd",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightQas.Start.Text.Text|O! O! A new life obtains? You musn't shudder at old Death!",
+      "context": "Conversation GyreWightQas.Start.Text.Text",
+      "old_value": "O! O! Ein neues Leben erblüht? Ihr dürft nicht vor dem alten Tod schaudern!",
+      "new_value": "O! O! Ein neues Leben erblüht? Du darfst nicht vor dem alten Tod schaudern!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "42ffcd7e29987b83",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightQon.Start.Text.Text|O! O! A new life obtains? You musn't shudder at old Death!",
+      "context": "Conversation GyreWightQon.Start.Text.Text",
+      "old_value": "O! O! Ein neues Leben erblüht? Ihr dürft nicht vor dem alten Tod schaudern!",
+      "new_value": "O! O! Ein neues Leben erblüht? Du darfst nicht vor dem alten Tod schaudern!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7ff849dcd11f145",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightBethsaida.Start.Text.Text7|Do you wish for a gleaming bath, and fractal veins that pump the continuity of life?",
+      "context": "Conversation GyreWightBethsaida.Start.Text.Text7",
+      "old_value": "Wünscht Ihr Euch ein glänzendes Bad und fraktale Adern, die die Kontinuität des Lebens pumpen?",
+      "new_value": "Wünschst du dir ein glänzendes Bad und fraktale Adern, die die Kontinuität des Lebens pumpen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a3dbcb3b00fba588",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightBethsaida.Start.Text.Text8|You've a twin across the boundary of the future, where new life blooms in rot. Are you with them?",
+      "context": "Conversation GyreWightBethsaida.Start.Text.Text8",
+      "old_value": "Ihr habt einen Zwilling jenseits der Grenze der Zukunft, wo neues Leben in der Verwesung erblüht. Seid Ihr mit ihnen?",
+      "new_value": "Du hast einen Zwilling jenseits der Grenze der Zukunft, wo neues Leben in der Verwesung erblüht. Bist du mit ihnen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "13ddeb868a2e4508",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightBethsaida.Start.Text.Text9|Would you kill your double? Would you let it kill you?",
+      "context": "Conversation GyreWightBethsaida.Start.Text.Text9",
+      "old_value": "Würdet Ihr Euren Doppelgänger töten? Würdet Ihr es Euch töten lassen?",
+      "new_value": "Würdest du deinen Doppelgänger töten? Würdest du es dich töten lassen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5e79cf98ae3ffff8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation GyreWightQon.Start.Text.Text10|You can be it. We can all be it! Behold Nephilim!",
+      "context": "Conversation GyreWightQon.Start.Text.Text10",
+      "old_value": "Ihr könnt es sein. Wir können alle es sein! Schaut, Nephilim!",
+      "new_value": "Du kannst es sein. Wir können alle es sein! Schaut, Nephilim!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "063744e0c777cd90",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation BaseConversation.WaterRitual.RandomMentalMutationChoice.WaterRitualRandomMutation|=subject.T= =verb:grab= your hand and you close your eyes. You find =player.reflexive= in a darkling thicket. =subject.T= =verb:tug= you over roots of braided nether, until finally you stumble into a glade. Others are here. You take their hands as =subject.t= took yours.\n\nAfter a moment or an eon, you awaken knowing =mutation.name=.",
+      "context": "Conversation BaseConversation.WaterRitual.RandomMentalMutationChoice.WaterRitualRandomMutation",
+      "old_value": "=subject.T= =subject.konjde:greifen= nach eurer Hand und ihr schließt die Augen. Ihr findet =player.reflexive= in einem düsteren Dickicht wieder. =subject.T= =subject.konjde:ziehen= euch über Wurzeln aus geflochtenem Äther, bis ihr schließlich auf eine Lichtung stolpert. Andere sind hier. Ihr nehmt ihre Hände, so wie =subject.t= eure nahm.&#10;&#10;Nach einem Augenblick oder einer Ewigkeit erwacht ihr und kennt =mutation.name=.",
+      "new_value": "=subject.T= =subject.konjde:greifen= nach deiner Hand und du schließt die Augen. Du findest =player.reflexive= in einem düsteren Dickicht wieder. =subject.T= =subject.konjde:ziehen= dich über Wurzeln aus geflochtenem Äther, bis du schließlich auf eine Lichtung stolperst. Andere sind hier. Du nimmst ihre Hände, so wie =subject.t= deine nahm.&#10;&#10;Nach einem Augenblick oder einer Ewigkeit erwachst du und kennst =mutation.name=.",
+      "note": "kleingeschriebenes ihr/euch adressierte Spieler -> du",
+      "status": "accepted"
+    }
+  ]
+}

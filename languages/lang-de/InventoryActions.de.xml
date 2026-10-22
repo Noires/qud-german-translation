@@ -661,11 +661,11 @@
     <key>r</key>
   </inventoryAction>
   <inventoryAction Name="CookPreserve">
-    <display>Bewahrt Eure frischen Lebensmittel auf.</display>
+    <display>Bewahre deine frischen Lebensmittel auf.</display>
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="CookPreserveExotic">
-    <display>Bewahrt Eure exotischen Lebensmittel auf.</display>
+    <display>Bewahre deine exotischen Lebensmittel auf.</display>
     <key>x</key>
   </inventoryAction>
   <inventoryAction Name="CookStopBleeding">

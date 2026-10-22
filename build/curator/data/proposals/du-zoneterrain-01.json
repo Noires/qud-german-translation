@@ -1,0 +1,28 @@
+{
+  "batch": "du-zoneterrain-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-zoneterrain-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "ec7a1fda43a9d2b8",
+      "file": "ZoneTerrain.de.xml",
+      "key": "/objects#0/object[Godshroom]/part[Description]@Short",
+      "context": null,
+      "old_value": "Sein Aspekt erfüllt mit leuchtendem Korallenton, fesselt dieser Pilz Euer Auge wie kein anderer. Qud kennt keinen solchen Farbton, und so fragt Ihr =player.reflexive=: Welch strahlender Regen könnte sein Fleisch gefärbt haben? Könnte es ein Hauch der Fresser selbst sein, mumifiziert in der Erde des Regenbogen-Waldes?",
+      "new_value": "Sein Aspekt erfüllt mit leuchtendem Korallenton, fesselt dieser Pilz dein Auge wie kein anderer. Qud kennt keinen solchen Farbton, und so fragst du =player.reflexive=: Welch strahlender Regen könnte sein Fleisch gefärbt haben? Könnte es ein Hauch der Fresser selbst sein, mumifiziert in der Erde des Regenbogen-Waldes?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3fcee3e7f2a04312",
+      "file": "ZoneTerrain.de.xml",
+      "key": "/objects#0/object[Pit]/part[StairsDown]@PullMessage",
+      "context": null,
+      "old_value": "Ihr klettert eilig von einem felsigen Vorsprung hinab.",
+      "new_value": "Du kletterst eilig von einem felsigen Vorsprung hinab.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

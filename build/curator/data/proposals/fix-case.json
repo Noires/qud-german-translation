@@ -1,0 +1,348 @@
+{
+  "batch": "fix-case",
+  "rule": "fix-case",
+  "note": "Objektpronomen-Dativ (K6)",
+  "created": "2026-10-22 16:39",
+  "items": [
+    {
+      "uid": "c1d7142170143b5c",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Gyre Wight of Agolgot]/part[Description]@Short",
+      "context": null,
+      "old_value": "Eine Figur ist durch stern-orkidee Robe als Verehrer des Gyre und Frohlocken in der metamorphen Gottheit gekennzeichnet. Nägel schmutzschwarz blitzen aus =pronouns.possessive= Ärmel in einem Gestengedicht heraus, um zu sagen, dass Seuche nur Transmutation ist, der Tod die Leiter zum Leben ist, und die Existenz von Kindern die Vorherrschaft des rohen Wachstums beweist. Ein ekliger und beißender Geruch haftet an =pronouns.objective=.",
+      "new_value": "Eine Figur ist durch stern-orkidee Robe als Verehrer des Gyre und Frohlocken in der metamorphen Gottheit gekennzeichnet. Nägel schmutzschwarz blitzen aus =pronouns.possessive= Ärmel in einem Gestengedicht heraus, um zu sagen, dass Seuche nur Transmutation ist, der Tod die Leiter zum Leben ist, und die Existenz von Kindern die Vorherrschaft des rohen Wachstums beweist. Ein ekliger und beißender Geruch haftet an =pronouns.objective:dat=.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "b91e93aaeee3ee84",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Herding Dog]/part[Description]@Short",
+      "context": null,
+      "old_value": "Weißes und schwarzes Fell fällt von =pronouns.objective= ab, und =pronouns.possessive= Pfoten tippen mit arbeiterischem Juckreiz auf den Boden.",
+      "new_value": "Weißes und schwarzes Fell fällt von =pronouns.objective:dat= ab, und =pronouns.possessive= Pfoten tippen mit arbeiterischem Juckreiz auf den Boden.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "ef23b2810224639d",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Gyre Wight of Bethsaida]/part[Description]@Short",
+      "context": null,
+      "old_value": "Eine Figur ist durch stern-orkidee Robe als Verehrer des Gyre und Frohlocken in der metamorphen Gottheit gekennzeichnet. Nägel schmutzschwarz blitzen aus =pronouns.possessive= Ärmel in einem Gestengedicht heraus, um zu sagen, dass Seuche nur Transmutation ist, der Tod die Leiter zum Leben ist, und die Existenz von Kindern die Vorherrschaft des rohen Wachstums beweist. Kühle und leuchtende Feuchtigkeit haftet an =pronouns.objective=.",
+      "new_value": "Eine Figur ist durch stern-orkidee Robe als Verehrer des Gyre und Frohlocken in der metamorphen Gottheit gekennzeichnet. Nägel schmutzschwarz blitzen aus =pronouns.possessive= Ärmel in einem Gestengedicht heraus, um zu sagen, dass Seuche nur Transmutation ist, der Tod die Leiter zum Leben ist, und die Existenz von Kindern die Vorherrschaft des rohen Wachstums beweist. Kühle und leuchtende Feuchtigkeit haftet an =pronouns.objective:dat=.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "c9744faac5bad384",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[ElderBob]/part[Description]@Short",
+      "context": null,
+      "old_value": "Ein warmes Lächeln breitet sich über ein altes, von Zeit und einer Million Salzkörnchen sommersprossenreiches Gesicht aus. =pronouns.Subjective= =verb:shrink:afterpronoun= unter einem gekrümmten Rücken und =verb:drum:afterpronoun= den Boden unter =pronouns.objective= mit einem kurzen, stachelgekrönten Schwanz. Ein zweites Armpaar erhebt sich über die Krümmung von =pronouns.possessive= Schultern, wo sich Hände treffen und Finger verflechten, um ein anderes Gesicht zu bilden, dieses leere und prähistorisch, kein Mund und Augen wüstenweiß.",
+      "new_value": "Ein warmes Lächeln breitet sich über ein altes, von Zeit und einer Million Salzkörnchen sommersprossenreiches Gesicht aus. =pronouns.Subjective= =verb:shrink:afterpronoun= unter einem gekrümmten Rücken und =verb:drum:afterpronoun= den Boden unter =pronouns.objective:dat= mit einem kurzen, stachelgekrönten Schwanz. Ein zweites Armpaar erhebt sich über die Krümmung von =pronouns.possessive= Schultern, wo sich Hände treffen und Finger verflechten, um ein anderes Gesicht zu bilden, dieses leere und prähistorisch, kein Mund und Augen wüstenweiß.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "b8421d8f768ede3d",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Lithofex]/part[Description]@Short",
+      "context": null,
+      "old_value": "Spalten in =pronouns.possessive= Schuppen verbreitern sich, während =pronouns.subjective= =verb:flex:afterpronoun= =pronouns.possessive= versteinerte Gelenke, und Staub pulvert den Boden unter =pronouns.objective=. Unter =pronouns.possessive= Stalaktiten-Augenlidern wird ein lithifizierendes Bündel in den Fokus gezogen.",
+      "new_value": "Spalten in =pronouns.possessive= Schuppen verbreitern sich, während =pronouns.subjective= =verb:flex:afterpronoun= =pronouns.possessive= versteinerte Gelenke, und Staub pulvert den Boden unter =pronouns.objective:dat=. Unter =pronouns.possessive= Stalaktiten-Augenlidern wird ein lithifizierendes Bündel in den Fokus gezogen.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "e67b19a5161250f3",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Grand Newfather]/part[Description]@Short",
+      "context": null,
+      "old_value": "Großartig weiße Lippen hängen herab von =pronouns.possessive= kapuzenartigen und zu sehr bekieferten Gesicht in der Asymmetrie der Enttäuschung. =pronouns.Possessive= Stirn drückt die Weichheit aus =pronouns.possessive= alten, farblosgesogenen Augen. =pronouns.Subjective= schaut auf =pronouns.possessive= großartige Neumenschen mit einer Mischung aus scharfer Zuneigung und Ekel. Zu =pronouns.objective= sind sie kleine Puppen; ihre Gliedmaßen müssen mit liebevoller Präzision um ihre Gelenke gerollt werden, oder sie werden durch ihre eigenen Willenszüge ausgebreitet, unnütz und gebrochen.",
+      "new_value": "Großartig weiße Lippen hängen herab von =pronouns.possessive= kapuzenartigen und zu sehr bekieferten Gesicht in der Asymmetrie der Enttäuschung. =pronouns.Possessive= Stirn drückt die Weichheit aus =pronouns.possessive= alten, farblosgesogenen Augen. =pronouns.Subjective= schaut auf =pronouns.possessive= großartige Neumenschen mit einer Mischung aus scharfer Zuneigung und Ekel. Zu =pronouns.objective:dat= sind sie kleine Puppen; ihre Gliedmaßen müssen mit liebevoller Präzision um ihre Gelenke gerollt werden, oder sie werden durch ihre eigenen Willenszüge ausgebreitet, unnütz und gebrochen.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "8fcf8f76952702d8",
+      "file": "Strings.de.xml",
+      "key": "direction.description.actor (D)|below =subject.them=",
+      "context": "direction.description.actor (D)",
+      "old_value": "unter =subject.them=",
+      "new_value": "unter =subject.them:dat=",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "7a278c8dabb6ca24",
+      "file": "Strings.de.xml",
+      "key": "direction.description.actor (U)|above =subject.them=",
+      "context": "direction.description.actor (U)",
+      "old_value": "über =subject.them=",
+      "new_value": "über =subject.them:dat=",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3fe24271df7d544",
+      "file": "Strings.de.xml",
+      "key": "direction.description.actor (.)|near =subject.them=",
+      "context": "direction.description.actor (.)",
+      "old_value": "nahe =subject.them=",
+      "new_value": "nahe =subject.them:dat=",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "76a0f89450af7a55",
+      "file": "Strings.de.xml",
+      "key": "direction.description.incoming.actor (D)|from below =subject.them=",
+      "context": "direction.description.incoming.actor (D)",
+      "old_value": "von unter =subject.them=",
+      "new_value": "von unter =subject.them:dat=",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "bbf0e3a468e276f6",
+      "file": "Strings.de.xml",
+      "key": "direction.description.incoming.actor (U)|from above =subject.them=",
+      "context": "direction.description.incoming.actor (U)",
+      "old_value": "von über =subject.them=",
+      "new_value": "von über =subject.them:dat=",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "974572b8ed797240",
+      "file": "Strings.de.xml",
+      "key": "direction.description.incoming.actor (.)|from near =subject.them=",
+      "context": "direction.description.incoming.actor (.)",
+      "old_value": "von nahe =subject.them=",
+      "new_value": "von nahe =subject.them:dat=",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "3912931b098e12d0",
+      "file": "Strings.de.xml",
+      "key": "BodyPart Cybernetics Install Gospel|While wandering around =player.terrain.t=, =name= stumbled upon a clan of machine folk. Because of =player.name's|strip= =spice:elements.$element.quality.!random=, they accepted =player.objective= into their fold and helped =player.objective= Become by installing =cybernetic.a.name|strip=.",
+      "context": "BodyPart Cybernetics Install Gospel",
+      "old_value": "Während des Umherwanderns um =player.terrain.t= stieß =name= auf einen Clan von Maschinenvolk. Wegen der =player.name's|strip= =spice:elements.$element.quality.!random= akzeptierten sie =player.objective= in ihre Gemeinschaft auf und halfen =player.objective=, indem sie =cybernetic.a.name|strip= einbauten.",
+      "new_value": "Während des Umherwanderns um =player.terrain.t= stieß =name= auf einen Clan von Maschinenvolk. Wegen der =player.name's|strip= =spice:elements.$element.quality.!random= akzeptierten sie =player.objective= in ihre Gemeinschaft auf und halfen =player.objective:dat=, indem sie =cybernetic.a.name|strip= einbauten.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "69fc042713bef788",
+      "file": "Strings.de.xml",
+      "key": "CookingDomainFear_Intimidate_ProceduralCookingTriggeredAction Description|=subject.it.does:intimidate= creatures around =subject.them=.",
+      "context": "CookingDomainFear_Intimidate_ProceduralCookingTriggeredAction Description",
+      "old_value": "=subject.it= schüchtert Kreaturen in der Nähe von =subject.them= ein.",
+      "new_value": "=subject.it= schüchtert Kreaturen in der Nähe von =subject.them:dat= ein.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "68a6972550df6b64",
+      "file": "Strings.de.xml",
+      "key": "GivesRep Water-sib Description Postfix|You are water-bonded with =object.objective=.",
+      "context": "GivesRep Water-sib Description Postfix",
+      "old_value": "Du bist wasserggebunden mit =object.objective=.",
+      "new_value": "Du bist wasserggebunden mit =object.objective:dat=.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "4059740c7abf5a8f",
+      "file": "Strings.de.xml",
+      "key": "Examiner damage risk warning|=object.Does:are= not owned by you, and examining =object.them= risks damaging =object.them=. Are you sure you want to do so?",
+      "context": "Examiner damage risk warning",
+      "old_value": "=object.The.name= =object.konjde:sein= gehört nicht dir, und das Untersuchen von =object.them= risikiert Schäden an =object.them=. Bist du sicher, dass du das tun willst?",
+      "new_value": "=object.The.name= =object.konjde:sein= gehört nicht dir, und das Untersuchen von =object.them:dat= risikiert Schäden an =object.them:dat=. Bist du sicher, dass du das tun willst?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "184c43871f3ca084",
+      "file": "Strings.de.xml",
+      "key": "Examiner damage contained risk warning|=container.Does:are= not owned by you, and examining =object.a.name:single= inside =container.them= risks causing damage. Are you sure you want to do so?",
+      "context": "Examiner damage contained risk warning",
+      "old_value": "=container.The.name= =container.konjde:sein= gehört nicht dir, und das Untersuchen von =object.a.dativ:single= in =container.them= risikiert Schäden. Bist du sicher, dass du das tun willst?",
+      "new_value": "=container.The.name= =container.konjde:sein= gehört nicht dir, und das Untersuchen von =object.a.dativ:single= in =container.them:dat= risikiert Schäden. Bist du sicher, dass du das tun willst?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "43e3a3d8d798ea0b",
+      "file": "Strings.de.xml",
+      "key": "Hookah Fail NoWater|=subject.Does:need= water in =subject.them=.",
+      "context": "Hookah Fail NoWater",
+      "old_value": "=subject.The.name= =subject.konjde:brauchen= Wasser in =subject.them=.",
+      "new_value": "=subject.The.name= =subject.konjde:brauchen= Wasser in =subject.them:dat=.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "782693ab83d5718e",
+      "file": "Strings.de.xml",
+      "key": "MapReveal NotOwned Warning|=subject.Does:are= not owned by you, and using =subject.them= will consume =subject.them=. Are you sure you want to do so?",
+      "context": "MapReveal NotOwned Warning",
+      "old_value": "=subject.The.name= =subject.konjde:sein= nicht von dir besessen, und die Benutzung von =subject.them= wird =subject.them= verbrauchen. Bist du sicher, dass du das tun willst?",
+      "new_value": "=subject.The.name= =subject.konjde:sein= nicht von dir besessen, und die Benutzung von =subject.them:dat= wird =subject.them= verbrauchen. Bist du sicher, dass du das tun willst?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "90fad77550cb0254",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn drink unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to drink from =subject.them=?",
+      "context": "Liquid Volume - Warn drink unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them= trinken möchtest?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them:dat= trinken möchtest?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "0e0afdad743232f2",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn collect unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to collect from =subject.them=?",
+      "context": "Liquid Volume - Warn collect unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them= sammeln möchtest?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them:dat= sammeln möchtest?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "f295627728d4b981",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn clean unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to use =subject.liquid.name= from =subject.them=?",
+      "context": "Liquid Volume - Warn clean unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du =subject.liquid.name= von =subject.them= verwenden möchtest?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du =subject.liquid.name= von =subject.them:dat= verwenden möchtest?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "504f939687d128f1",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn clean unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to pour from =subject.them=?",
+      "context": "Liquid Volume - Warn clean unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them= gießen möchtest?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them:dat= gießen möchtest?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "f565578878f5386c",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn fill unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to take from =subject.them=?",
+      "context": "Liquid Volume - Warn fill unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du von =subject.them= nehmen möchtest?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du von =subject.them:dat= nehmen möchtest?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "5d25d3291ff487fe",
+      "file": "Strings.de.xml",
+      "key": "TwoHeaded shake off effect message log|=subject.Poss#head= =head.isPlural:help:helps= =subject.them= shake off =effect.being.effected#definite=!",
+      "context": "TwoHeaded shake off effect message log",
+      "old_value": "=subject.Poss#head= =head.isPlural:helfen:hilft= =subject.them=, =effect.being.effected#definite= abzuschütteln!",
+      "new_value": "=subject.Poss#head= =head.isPlural:helfen:hilft= =subject.them:dat=, =effect.being.effected#definite= abzuschütteln!",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "56cd6bc7d24dc6f7",
+      "file": "Strings.de.xml",
+      "key": "Physics AccelerateInternal my damage message|from =subject.a.name= colliding with =object.them=.",
+      "context": "Physics AccelerateInternal my damage message",
+      "old_value": "von =subject.a.dativ=, das mit =object.them= kollidiert.",
+      "new_value": "von =subject.a.dativ=, das mit =object.them:dat= kollidiert.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "f3e20c9ee042941e",
+      "file": "Strings.de.xml",
+      "key": "Physics AccelerateInternal my damage message w/ pens|=pens.pens= from =subject.a.name= colliding with =object.them=.",
+      "context": "Physics AccelerateInternal my damage message w/ pens",
+      "old_value": "=pens.pens= von =subject.a.dativ=, das mit =object.them= kollidiert.",
+      "new_value": "=pens.pens= von =subject.a.dativ=, das mit =object.them:dat= kollidiert.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "061285a90316876b",
+      "file": "Strings.de.xml",
+      "key": "Proselytize Fail no tongue, telepathy failed|Without a tongue, you cannot proselytize =object.t=, as you cannot make telepathic contact with =object.them=.",
+      "context": "Proselytize Fail no tongue, telepathy failed",
+      "old_value": "Ohne eine Zunge könnt ihr nicht =object.t= missionieren, da ihr keinen telepathischen Kontakt mit =object.them= herstellen könnt.",
+      "new_value": "Ohne eine Zunge könnt ihr nicht =object.t= missionieren, da du keinen telepathischen Kontakt mit =object.them:dat= herstellen kannst.",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "987ef39a9eb17e9c",
+      "file": "Strings.de.xml",
+      "key": "Camp Already Exists Prompt|There =campfire.is= already =campfire.a.name= =subject.to.its.direction#campfire=. Do you want to go to =campfire.them=?",
+      "context": "Camp Already Exists Prompt",
+      "old_value": "Es =campfire.is= bereits =campfire.a.name= =subject.to.its.direction#campfire=. Willst du zu =campfire.them= gehen?",
+      "new_value": "Es =campfire.is= bereits =campfire.a.name= =subject.to.its.direction#campfire=. Willst du zu =campfire.them:dat= gehen?",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "330ffdd0f8d7e45d",
+      "file": "Strings.de.xml",
+      "key": "ModGigantic Description Replacer - Cudgel|=optionalIt==subject.verb:are= twice as effective when you Slam with =subject.them=",
+      "context": "ModGigantic Description Replacer - Cudgel",
+      "old_value": "=optionalIt==subject.konjde:sein= doppelt so wirksam, wenn ihr mit =subject.them= Stoß anwendet",
+      "new_value": "=optionalIt==subject.konjde:sein= doppelt so wirksam, wenn du mit =subject.them:dat= Stoß anwendest",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "c9c8948730acb33d",
+      "file": "Strings.de.xml",
+      "key": "ActivePart OperationalScope - overallItem (WorksOnEnclosed)|someone enclosed within =subject.them=",
+      "context": "ActivePart OperationalScope - overallItem (WorksOnEnclosed)",
+      "old_value": "jemand eingeschlossen in =subject.them=",
+      "new_value": "jemand eingeschlossen in =subject.them:dat=",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "89d66fdf72c54444",
+      "file": "Strings.de.xml",
+      "key": "|Since =subject.does:are= still latched onto you, =object.the.name= releasing =subject.them= leaves =subject.them= in your possession!@#text",
+      "context": null,
+      "old_value": "Da =subject.konjde:sein= noch immer an dir festgeklammert, lässt =object.the.name= es beim Loslassen von =subject.them= in deinem Besitz zurück!",
+      "new_value": "Da =subject.konjde:sein= noch immer an dir festgeklammert, lässt =object.the.name= es beim Loslassen von =subject.them:dat= in deinem Besitz zurück!",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "6c912aa2feadf0af",
+      "file": "Strings.de.xml",
+      "key": "|Since =subject.does:are= still latched onto you, =object.their= releasing =subject.them= leaves =subject.them= in your possession!@#text",
+      "context": null,
+      "old_value": "Da =subject.konjde:sein= noch immer an dir festgeklammert, lässt =object.their= Loslassen von =subject.them= es in deinem Besitz zurück!",
+      "new_value": "Da =subject.konjde:sein= noch immer an dir festgeklammert, lässt =object.their= Loslassen von =subject.them:dat= es in deinem Besitz zurück!",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    },
+    {
+      "uid": "4eded0b77bedad9c",
+      "file": "Strings.de.xml",
+      "key": "|Since =subject.does:are= still latched onto =object.the.name=, =actor.the.name= releasing =subject.them= leaves =subject.them= in =object.the.name's:withTitles= possession!@#text",
+      "context": null,
+      "old_value": "Da =subject.konjde:sein= noch immer an =object.the.name= festgeklammert, lässt =actor.the.name= beim Loslassen von =subject.them= es in =object.the.name's:withTitles= Besitz zurück!",
+      "new_value": "Da =subject.konjde:sein= noch immer an =object.the.name= festgeklammert, lässt =actor.the.name= beim Loslassen von =subject.them:dat= es in =object.the.name's:withTitles= Besitz zurück!",
+      "note": "Objektpronomen im Dativ",
+      "status": "accepted"
+    }
+  ]
+}

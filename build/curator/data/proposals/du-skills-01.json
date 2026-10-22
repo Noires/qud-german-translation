@@ -1,0 +1,988 @@
+{
+  "batch": "du-skills-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-skills-01)",
+  "created": "2026-10-22 14:52",
+  "items": [
+    {
+      "uid": "9fac3157165343f3",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Acrobatics]/power[Swift Reflexes]@Description",
+      "context": null,
+      "old_value": "Sie erhalten einen +5-Bonus auf Ihre VB, wenn Sie vor Raketenangriffen zurückzucken.",
+      "new_value": "Du erhältst einen +5-Bonus auf deine VB, wenn du vor Raketenangriffen zurückzuckst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7b2f3ff3b5585c2a",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Acrobatics]/power[Spry]@Description",
+      "context": null,
+      "old_value": "Sie erhalten einen +2-Bonus auf Ihre VB.",
+      "new_value": "Du erhältst einen +2-Bonus auf deine VB.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "13d9557dda4c6cb2",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Acrobatics]/power[Jump]@Description",
+      "context": null,
+      "old_value": "Ihr springt auf ein unbesetztes Feld im Umkreis 2. Ihr könnt nicht über ein von einer Kreatur besetztes Feld springen, es sei denn, ihr habt eine Fähigkeit (wie Fliegen), die euren Sprung verstärkt.",
+      "new_value": "Du springst auf ein unbesetztes Feld im Umkreis 2. Du kannst nicht über ein von einer Kreatur besetztes Feld springen, es sei denn, du hast eine Fähigkeit (wie Fliegen), die deinen Sprung verstärkt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1cedb63aef60b457",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Acrobatics]/power[Tumble]@Description",
+      "context": null,
+      "old_value": "Sie erhalten einen +1-Bonus auf Ihre VB. Zusätzlich wird Jukes Abklingzeit auf 20 reduziert.",
+      "new_value": "Du erhältst einen +1-Bonus auf deine VB. Zusätzlich wird Jukes Abklingzeit auf 20 reduziert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2a351077fb36edf2",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Axe]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Äxte.",
+      "new_value": "Du beherrschst Äxte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "045e714a4085630e",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Axe]/power[Cleave]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Gegner mit einer Axt trefft, besteht eine 75%-Chance, dass Ihr seine Rüstung spaltet und ihm eine -1-Strafe auf seine AV gebt. Diese Strafe kann sich bis zur Hälfte Eures Str-Modifikators stapeln, gerundet, +1 bei einem kritischen Treffer.",
+      "new_value": "Jedes Mal, wenn du einen Gegner mit einer Axt triffst, besteht eine 75%-Chance, dass du seine Rüstung spaltet und ihm eine -1-Strafe auf seine AV gebt. Diese Strafe kann sich bis zur Hälfte deines Str-Modifikators stapeln, gerundet, +1 bei einem kritischen Treffer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6c8cf4cd90716d72",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Axe]/power[Charging Strike]@Description",
+      "context": null,
+      "old_value": "Wenn Ihr mit einer Axt angreift und trefft und ihre Rüstung spaltet, erhalten sie eine zusätzliche -1-Strafe auf ihre AV. Wenn Ihr Zerstückeln habt, verdoppelt sich Eure Chance zu zerstückeln, wenn Ihr mit einer Axt angreift. Wenn Ihr mit einer Keule angreift und trefft, benebelt Ihr Euren Gegner automatisch.",
+      "new_value": "Wenn du mit einer Axt angreifst und triffst und ihre Rüstung spaltet, erhalten sie eine zusätzliche -1-Strafe auf ihre AV. Wenn du Zerstückeln hast, verdoppelt sich deine Chance zu zerstückeln, wenn du mit einer Axt angreifst. Wenn du mit einer Keule angreifst und triffst, benebelst du deinen Gegner automatisch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8cbeaf2704849d8f",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Axe]/power[Dismember]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 30. Axtangriff. Wenn Sie treffen und durchdringen, zerstückeln Sie eines ihrer Glieder zufällig und sie beginnen zu bluten (1-2 Schaden pro Runde. Zähigkeitssicherung; Schwierigkeit 35). Darüber hinaus haben Ihre Axtangriffe, die durchdringen, eine prozentuale Chance zu zerstückeln: 3% für einhändige Äxte und 6% für zweihändige Äxte.",
+      "new_value": "Aktiviert; Abklingzeit 30. Axtangriff. Wenn du triffst und durchdringst, zerstückelst du eines ihrer Glieder zufällig und sie beginnen zu bluten (1-2 Schaden pro Runde. Zähigkeitssicherung; Schwierigkeit 35). Darüber hinaus haben deine Axtangriffe, die durchdringen, eine prozentuale Chance zu zerstückeln: 3% für einhändige Äxte und 6% für zweihändige Äxte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "10f63b4aba837d61",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Axe]/power[Hook and Drag]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 50. Sie packen das Glied eines Gegners mit der Ferse Ihrer Axt. Wenn erfolgreich, ziehen Sie Ihren Gegner mit sich, wenn Sie sich bewegen, und führen einen kostenlosen Angriff mit Ihrer Axt durch. Ihr Gegner hat eine Chance zu widerstehen der Bewegung (Kraftsicherung; Schwierigkeit 20 + Ihr Kraft-Modifikator) und eine Chance sich am Anfang seines Zuges freizumachen (gleiche Sicherung). Dauert 9 Runden oder bis Sie den Gegner zerstückeln.",
+      "new_value": "Aktiviert; Abklingzeit 50. Du packst das Glied eines Gegners mit der Ferse deiner Axt. Wenn erfolgreich, ziehst du deinen Gegner mit dir, wenn du dich bewegst, und führst einen kostenlosen Angriff mit deiner Axt durch. Dein Gegner hat eine Chance zu widerstehen der Bewegung (Kraftsicherung; Schwierigkeit 20 + dein Kraft-Modifikator) und eine Chance sich am Anfang seines Zuges freizumachen (gleiche Sicherung). Dauert 9 Runden oder bis du den Gegner zerstückelst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "66e8e31cc561798b",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Axe]/power[Berserk!]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 100.\nSie treten in Blutrausch ein, und für 5 Runden beträgt Ihre Chance zum Zerstückeln mit Axtangreffen 100%. Um Berserker zu verwenden, muss Zerstückeln abgelaufen sein, und die Verwendung von Berserker setzt Zerstückeln in die Abklingzeit.",
+      "new_value": "Aktiviert; Abklingzeit 100.\nDu trittst in Blutrausch ein, und für 5 Runden beträgt deine Chance zum Zerstückeln mit Axtangreffen 100%. Um Berserker zu verwenden, muss Zerstückeln abgelaufen sein, und die Verwendung von Berserker setzt Zerstückeln in die Abklingzeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ab466c7807688c64",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Bow and Rifle]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Bögen und Gewehre.",
+      "new_value": "Du beherrschst Bögen und Gewehre.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8617d38cc63dd353",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Bow and Rifle]/power[Draw a Bead]@Description",
+      "context": null,
+      "old_value": "Ihr verbringt einen Zug damit, ein Ziel anzuvisieren und zu markieren. Wenn Ihr auf ein markiertes Ziel mit einem Bogen oder Gewehr schießt, wird eure Beweglichkeit für die Berechnung eurer Genauigkeit so behandelt, als wäre sie um 2 Punkte höher. Ihr könnt nur ein Ziel gleichzeitig markieren. Ziele werden abmarkiert, wenn Ihr die Sicht zu ihnen verliert.",
+      "new_value": "Du verbringst einen Zug damit, ein Ziel anzuvisieren und zu markieren. Wenn du auf ein markiertes Ziel mit einem Bogen oder Gewehr schießt, wird deine Beweglichkeit für die Berechnung deiner Genauigkeit so behandelt, als wäre sie um 2 Punkte höher. Du kannst nur ein Ziel gleichzeitig markieren. Ziele werden abmarkiert, wenn du die Sicht zu ihnen verlierst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d81df7383e04dd9c",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Bow and Rifle]/power[Sure Fire]@Description",
+      "context": null,
+      "old_value": "Sie feuern auf ein gekennzeichnetes Ziel ohne Genauigkeitsmalus ab (die Genauigkeit Ihrer Waffe spielt immer noch eine Rolle). Dann wird Ihr Ziel nicht gekennzeichnet.",
+      "new_value": "Du feuerst auf ein gekennzeichnetes Ziel ohne Genauigkeitsmalus ab (die Genauigkeit deiner Waffe spielt immer noch eine Rolle). Dann wird dein Ziel nicht gekennzeichnet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "780bc1e45c798b74",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Bow and Rifle]/power[Ultra Fire]@Description",
+      "context": null,
+      "old_value": "Abklingzeit 100. Ihr schießt auf ein markiertes Ziel. Euer Schuss kombiniert die Effekte aller anderen Feuer-Kräfte, die Ihr habt.",
+      "new_value": "Abklingzeit 100. Du schießt auf ein markiertes Ziel. Dein Schuss kombiniert die Effekte aller anderen Feuer-Kräfte, die du hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f96977ecc64f68d",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cooking and Gathering]/power[Harvestry]@Description",
+      "context": null,
+      "old_value": "Ihr könnt frische Zutaten und andere nutzbare Teile aus Pflanzen ernten.",
+      "new_value": "Du kannst frische Zutaten und andere nutzbare Teile aus Pflanzen ernten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0402ccfd80cc24f",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cooking and Gathering]/power[Butchery]@Description",
+      "context": null,
+      "old_value": "Ihr könnt frische Zutaten und andere nutzbare Teile aus Tierkadavern zerlegen.",
+      "new_value": "Du kannst frische Zutaten und andere nutzbare Teile aus Tierkadavern zerlegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3838c10019ee21dc",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cooking and Gathering]/power[Spicer]@Description",
+      "context": null,
+      "old_value": "Wenn Ihr Zutaten zum Kochen auswählt, könnt Ihr statt zwei bis zu drei auswählen. Mahlzeiten, die mit drei Zutaten gekocht werden, gewähren stärkere Statuseffekte.",
+      "new_value": "Wenn du Zutaten zum Kochen auswählst, kannst du statt zwei bis zu drei auswählen. Mahlzeiten, die mit drei Zutaten gekocht werden, gewähren stärkere Statuseffekte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5c79f8be1396bcfd",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cooking and Gathering]/power[Carbide Chef]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr ein Level aufsteigt, und 5% der Zeit, wenn Ihr eine neue Karte erforscht, werdet Ihr für zwei Tage inspiriert. Während Ihr inspiriert seid, habt Ihr das nächste Mal, wenn Ihr eine Mahlzeit durch Auswahl von Zutaten zubereitet, die Wahl zwischen drei dynamisch generierten Effekten. Ihr erstellt ein Rezept für den gewählten Effekt.",
+      "new_value": "Jedes Mal, wenn du ein Level aufsteigst, und 5% der Zeit, wenn du eine neue Karte erforschst, wirst du für zwei Tage inspiriert. Während du inspiriert bist, hast du das nächste Mal, wenn du eine Mahlzeit durch Auswahl von Zutaten zubereitest, die Wahl zwischen drei dynamisch generierten Effekten. Du erstellst ein Rezept für den gewählten Effekt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "59ef67be5caafc51",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cudgel]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Zermalm- und Schlag-Waffen.",
+      "new_value": "Du beherrschst Zermalm- und Schlag-Waffen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ea42c6b02cb1f5f0",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cudgel]/power[Bludgeon]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr mit einer Keule trefft, besteht eine 50%-Chance, Euren Gegner zu benebeln (-4 int, -4 agi, -10 Bewegungsgeschwindigkeit) für 3-4 Runden. Wenn Ihr einen benebelt Gegner erneut benebelt, werden sie stattdessen für 1 Runde betäubt (können keine Aktionen durchführen und 0 DV).",
+      "new_value": "Jedes Mal, wenn du mit einer Keule triffst, besteht eine 50%-Chance, deinen Gegner zu benebeln (-4 int, -4 agi, -10 Bewegungsgeschwindigkeit) für 3-4 Runden. Wenn du einen benebelt Gegner erneut benebelst, werden sie stattdessen für 1 Runde betäubt (können keine Aktionen durchführen und 0 DV).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "31b02f07cd4015ce",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cudgel]/power[Charging Strike]@Description",
+      "context": null,
+      "old_value": "Wenn Ihr mit einer Keule angreift und trefft, benebelt Ihr Euren Gegner automatisch. Wenn Ihr mit einer Axt angreift und trefft und ihre Rüstung spaltet, erhalten sie eine zusätzliche -1-Strafe auf ihre AV. Wenn Ihr Zerstückeln habt, verdoppelt sich Eure Chance zu zerstückeln, wenn Ihr mit einer Axt angreift.",
+      "new_value": "Wenn du mit einer Keule angreifst und triffst, benebelst du deinen Gegner automatisch. Wenn du mit einer Axt angreifst und triffst und ihre Rüstung spaltet, erhalten sie eine zusätzliche -1-Strafe auf ihre AV. Wenn du Zerstückeln hast, verdoppelt sich deine Chance zu zerstückeln, wenn du mit einer Axt angreifst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2a27d5320cf7d6a4",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cudgel]/power[Conk]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 10.\nSie führen einen Angriff mit einem Knüppel gegen einen benachbarten Gegner durch. Wenn Sie treffen, schwindeln Sie ihnen automatisch 3-4 Runden lang. Das Schwindeln eines bereits schwindligen Gegners betäubt ihn. Das Schlagen eines betäubten Gegners kann ihn stattdessen 30-40 Runden lang bewusstlos machen (bewusslosen Gegnern wird schwindlig, wenn sie Schaden erleiden).",
+      "new_value": "Aktiviert; Abklingzeit 10.\nDu führst einen Angriff mit einem Knüppel gegen einen benachbarten Gegner durch. Wenn du triffst, schwindelst du ihnen automatisch 3-4 Runden lang. Das Schwindeln eines bereits schwindligen Gegners betäubt ihn. Das Schlagen eines betäubten Gegners kann ihn stattdessen 30-40 Runden lang bewusstlos machen (bewusslosen Gegnern wird schwindlig, wenn sie Schaden erleiden).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c483927f6af0bebc",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cudgel]/power[Backswing]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Keulenangriff mit Eurer Haupthand macht, besteht eine 25%-Chance, dass Ihr einen zusätzlichen kostenlosen Angriff mit derselben Hand macht.",
+      "new_value": "Jedes Mal, wenn du einen Keulenangriff mit deiner Haupthand machst, besteht eine 25%-Chance, dass du einen zusätzlichen kostenlosen Angriff mit derselben Hand machst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8c6d1c7a1e9ff37a",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cudgel]/power[Slam]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 50. Sie führen einen Angriff mit einem Knüppel gegen einen benachbarten Gegner mit +1 zu Ihrem Durchdringungswurf durch. Wenn Sie treffen, schmeißen Sie Ihren Gegner rückwärts bis zu 3 Felder zurück, drängen andere Kreaturen und durchbrechen Wände, wenn ihre AVs weniger als das 5-fache Ihres Kraft-Modifikators sind. Gegner, die weggestoßen werden, sind 1 Runde lang betäubt plus eine zusätzliche Runde für jeden Bereich, der weggestoßen wird. Gegner, die durch oder gegen Wände gestoßen werden, nehmen zusätzlichen Waffenschaden für jede Wand. Gigantische Gegner werden nicht weggestoßen, sind aber trotzdem 1 Runde lang betäubt. Zerstört eine Wand oder Tür, wenn ihre AV unter dem 5-fachen Ihres Kraft-Modifikators liegt.",
+      "new_value": "Aktiviert; Abklingzeit 50. Du führst einen Angriff mit einem Knüppel gegen einen benachbarten Gegner mit +1 zu deinem Durchdringungswurf durch. Wenn du triffst, schmeißt du deinen Gegner rückwärts bis zu 3 Felder zurück, drängst andere Kreaturen und durchbrichst Wände, wenn ihre AVs weniger als das 5-fache deines Kraft-Modifikators sind. Gegner, die weggestoßen werden, sind 1 Runde lang betäubt plus eine zusätzliche Runde für jeden Bereich, der weggestoßen wird. Gegner, die durch oder gegen Wände gestoßen werden, nehmen zusätzlichen Waffenschaden für jede Wand. Gigantische Gegner werden nicht weggestoßen, sind aber trotzdem 1 Runde lang betäubt. Zerstört eine Wand oder Tür, wenn ihre AV unter dem 5-fachen deines Kraft-Modifikators liegt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d061d0302c54495c",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Cudgel]/power[Demolish]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 100.\nIn den nächsten 5 Runden beträgt Ihre Chance, mit Knüppelangreffen zu schwindeln, 100% und Schlag hat keine Abklingzeit. Um Abriss zu verwenden, muss Schlag abgelaufen sein, und die Verwendung von Abriss setzt Schlag in die Abklingzeit.",
+      "new_value": "Aktiviert; Abklingzeit 100.\nIn den nächsten 5 Runden beträgt deine Chance, mit Knüppelangreffen zu schwindeln, 100% und Schlag hat keine Abklingzeit. Um Abriss zu verwenden, muss Schlag abgelaufen sein, und die Verwendung von Abriss setzt Schlag in die Abklingzeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c1a80aa05e26fa88",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Customs and Folklore]/power[Tactful]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr das Wasserritual mit einer neuen Kreatur beginnt, erhaltet Ihr 25 Bonus-Ruf. Wenn Ihr diese Fähigkeit kauft, nachdem Ihr mit einer Kreatur behandelt habt, erhaltet Ihr 25 Bonus-Ruf das nächste Mal, wenn Ihr mit ihr behandelt.",
+      "new_value": "Jedes Mal, wenn du das Wasserritual mit einer neuen Kreatur beginnst, erhältst du 25 Bonus-Ruf. Wenn du diese Fähigkeit kaufst, nachdem du mit einer Kreatur behandelt hast, erhältst du 25 Bonus-Ruf das nächste Mal, wenn du mit ihr behandelst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2ec76375ffa9c850",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Single Weapon Fighting]@Description",
+      "context": null,
+      "old_value": "Ihr könnt wählen, keine Nebenhandangriffe auszuführen, um stattdessen die Beherrschung einer einzelnen Waffe zu erreichen.",
+      "new_value": "Du kannst wählen, keine Nebenhandangriffe auszuführen, um stattdessen die Beherrschung einer einzelnen Waffe zu erreichen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5e7b1db6c74891c0",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Single Weapon Fighting]/power[Weapon Expertise]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Nahkampfangriff im Einzelwaffenkampf macht, besteht eine 50%-Chance, dass Ihr sofort einen zweiten Angriff kostenlos macht.",
+      "new_value": "Jedes Mal, wenn du einen Nahkampfangriff im Einzelwaffenkampf machst, besteht eine 50%-Chance, dass du sofort einen zweiten Angriff kostenlos machst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b0ac2ee37cb6382e",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Single Weapon Fighting]/power[Penetrating Strikes]@Description",
+      "context": null,
+      "old_value": "Bei Einsatz einer einzelnen Waffe durchdringen Eure Nahkampfangriffe immer ein weiteres Mal.",
+      "new_value": "Bei Einsatz einer einzelnen Waffe durchdringen deine Nahkampfangriffe immer ein weiteres Mal.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd09194ad8666012",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Single Weapon Fighting]/power[Weapon Mastery]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Nahkampfangriff im Einzelwaffenkampf macht, macht Ihr sofort einen zweiten Angriff kostenlos.",
+      "new_value": "Jedes Mal, wenn du einen Nahkampfangriff im Einzelwaffenkampf machst, machst du sofort einen zweiten Angriff kostenlos.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "89561bf3f4183a68",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Multiweapon Fighting]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Mehrwaffenkampf. Eure Chance, mit Offhand-Waffen anzugreifen, ist erhöht.",
+      "new_value": "Du beherrschst Mehrwaffenkampf. Deine Chance, mit Offhand-Waffen anzugreifen, ist erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3174d67855e21c28",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Multiweapon Fighting]/power[Multiweapon Proficiency]@Description",
+      "context": null,
+      "old_value": "Eure Chance, mit jeder Eurer Nebenhand-Waffen zu treffen, wird um 20% erhöht.",
+      "new_value": "Deine Chance, mit jeder deiner Nebenhand-Waffen zu treffen, wird um 20% erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a7dc1c494ca14d4a",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Multiweapon Fighting]/power[Multiweapon Expertise]@Description",
+      "context": null,
+      "old_value": "Eure Chance, mit jeder Eurer Nebenhand-Waffen zu treffen, wird um 35% erhöht.",
+      "new_value": "Deine Chance, mit jeder deiner Nebenhand-Waffen zu treffen, wird um 35% erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "61fd2d18a9bc0902",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Multiweapon Fighting]/power[Multiweapon Mastery]@Description",
+      "context": null,
+      "old_value": "Eure Chance, mit jeder Eurer Nebenhand-Waffen zu treffen, wird um 50% erhöht.",
+      "new_value": "Deine Chance, mit jeder deiner Nebenhand-Waffen zu treffen, wird um 50% erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "01bb0ecfaaab1575",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Endurance]/power[Shake It Off]@Description",
+      "context": null,
+      "old_value": "Jede Runde, wenn Ihr benommen oder betäubt seid, habt Ihr eine (Toughness-10)% Chance, den Effekt abzuschütteln. Ihr nehmt auch 25% weniger Schaden aus Gift.",
+      "new_value": "Jede Runde, wenn du benommen oder betäubt bist, hast du eine (Toughness-10)% Chance, den Effekt abzuschütteln. Du nimmst auch 25% weniger Schaden aus Gift.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bf9f99e5e3c8d10b",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Endurance]/power[Poison Tolerance]@Description",
+      "context": null,
+      "old_value": "Ihr nehmt 25% weniger Schaden durch Gift.",
+      "new_value": "Du nimmst 25% weniger Schaden durch Gift.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2ec15aa7e42849a6",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Endurance]/power[Weathered]@Description",
+      "context": null,
+      "old_value": "Ihr nehmt 15% weniger Schaden von Wärme- und Kühlungseffekten. Darüber hinaus werden die Intensitäten von Effekten, die eure Temperatur verändern, um 15% reduziert.",
+      "new_value": "Du nimmst 15% weniger Schaden von Wärme- und Kühlungseffekten. Darüber hinaus werden die Intensitäten von Effekten, die deine Temperatur verändern, um 15% reduziert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c3a1e5c14fa3bf86",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Endurance]/power[Juicer]@Description",
+      "context": null,
+      "old_value": "Ihr könnt einen zusätzlichen Trank trinken, ohne dass er negativ mit dem bereits eingenommenen Trank reagiert.",
+      "new_value": "Du kannst einen zusätzlichen Trank trinken, ohne dass er negativ mit dem bereits eingenommenen Trank reagiert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f81a9b3f32c541b2",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Endurance]/power[Calloused]@Description",
+      "context": null,
+      "old_value": "Euer natürlicher AV verbessert sich auf 1.",
+      "new_value": "Dein natürlicher AV verbessert sich auf 1.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f0fa024a3d49d589",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Endurance]/power[Longstrider]@Description",
+      "context": null,
+      "old_value": "Ihr könnt für zusätzliche 10 Runden sprinten.",
+      "new_value": "Du kannst für zusätzliche 10 Runden sprinten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b92862f19b1cbf33",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Physic]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Heilkunst.",
+      "new_value": "Du beherrschst Heilkunst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "192570ba91cb4236",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Physic]/power[Nostrums]@Description",
+      "context": null,
+      "old_value": "Ihr könnt Blutungen, Vergiftung, Krankheit und Krankheitsausbruch für Euch und Eure Begleiter am Lagerfeuer behandeln.",
+      "new_value": "Du kannst Blutungen, Vergiftung, Krankheit und Krankheitsausbruch für dich und deine Begleiter am Lagerfeuer behandeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "285bf8177ff3acc6",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Physic]/power[Amputate Limb]@Description",
+      "context": null,
+      "old_value": "Ihr könnt freiwillig Eure eigenen Gliedmaßen und die Gliedmaßen infizierter Begleiter amputieren.",
+      "new_value": "Du kannst freiwillig deine eigenen Gliedmaßen und die Gliedmaßen infizierter Begleiter amputieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "17c837353a11b970",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Physic]/power[Apothecary]@Description",
+      "context": null,
+      "old_value": "Heiltränke, die Ihr einnehmt, wirken eine zusätzliche Runde.",
+      "new_value": "Heiltränke, die du einnimmst, wirken eine zusätzliche Runde.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c5b77fe479a6ffc6",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Heavy Weapon]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht schwere Waffen.",
+      "new_value": "Du beherrschst schwere Waffen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e984ed54d9af516c",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Heavy Weapon]/power[Strapping Shoulders]@Description",
+      "context": null,
+      "old_value": "Ihr tragt eure Waffen effektiver. Schwere Waffen zählen nur mit der Hälfte ihres Gewichts zur Belastung.",
+      "new_value": "Du trägst deine Waffen effektiver. Schwere Waffen zählen nur mit der Hälfte ihres Gewichts zur Belastung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a9ef4cb51485461",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Heavy Weapon]/power[Tank]@Description",
+      "context": null,
+      "old_value": "Ihr erleidet keine Bewegungsstrafe, während ihr eine schwere Waffe führt.",
+      "new_value": "Du erleidest keine Bewegungsstrafe, während du eine schwere Waffe führst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e430ccbbc4068c65",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Heavy Weapon]/power[Sweep]@Description",
+      "context": null,
+      "old_value": "Sie feuern 5 Schüsse mit Ihrer schweren Waffe ab und fegen über einen 90-Grad-Kegel. Ihre schwere Waffe wird vor jedem Schuss nachgeladen.",
+      "new_value": "Du feuerst 5 Schüsse mit deiner schweren Waffe ab und fegst über einen 90-Grad-Kegel. Deine schwere Waffe wird vor jedem Schuss nachgeladen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e93af02ad718aaf1",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Long Blade]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht lange Stoß- und Hiebklingen.",
+      "new_value": "Du beherrschst lange Stoß- und Hiebklingen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d331e1b6b86a26a",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Long Blade]/power[Long Blade Proficiency]@Description",
+      "context": null,
+      "old_value": "Sie erhalten Zugang zu zwei Stellungen.\nAggressive Stellung: Mit einem langen Messer in Ihrer primären Hand gewinnen Ihre Angriffe mit langen Messern und kurzen Messern +1 auf Ihren Durchdringungswurf, aber -2 Treffer.\nDefensive Stellung: Während Sie ein langes Messer in Ihrer primären Hand führen, erhalten Sie +2 VB.",
+      "new_value": "Du erhältst Zugang zu zwei Stellungen.\nAggressive Stellung: Mit einem langen Messer in deiner primären Hand gewinnen deine Angriffe mit langen Messern und kurzen Messern +1 auf deinen Durchdringungswurf, aber -2 Treffer.\nDefensive Stellung: Während du ein langes Messer in deiner primären Hand führst, erhältst du +2 VB.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ed8c124bbc18e247",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Long Blade]/power[Lunge]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 15.\nAggressiver Stand: Machen Sie einen Ausfallschritt durch einen leeren Raum zu einem Gegner und greifen Sie mit +2 zu Ihrem Durchdringungswurf an. Sie müssen durch den leeren Raum gehen.\nDefensiver Stand: Greifen Sie einen Gegner an und machen Sie dann einen Ausfallschritt rückwärts um 2 Felder.\nDuellstand: Greifen Sie einen Gegner mit +1 zu Ihrem Durchdringungswurf an. Der Angriff ist garantiert Treffer und durchdringt mindestens einmal.",
+      "new_value": "Aktiviert; Abklingzeit 15.\nAggressiver Stand: Mache einen Ausfallschritt durch einen leeren Raum zu einem Gegner und greife mit +2 zu deinem Durchdringungswurf an. Du musst durch den leeren Raum gehen.\nDefensiver Stand: Greife einen Gegner an und mache dann einen Ausfallschritt rückwärts um 2 Felder.\nDuellstand: Greife einen Gegner mit +1 zu deinem Durchdringungswurf an. Der Angriff ist garantiert Treffer und durchdringt mindestens einmal.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "18523801e649a797",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Long Blade]/power[Swipe]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 15.\nAggressiver Stand: Führen Sie einen Angriff gegen alle benachbarten Gegner durch.\nDefensiver Stand: Drängen Sie alle benachbarten Kreaturen um 1 Feld zurück und versuchen Sie, Gegner zu stolpern (Kraft-/Geschicklichkeitssicherung; Schwierigkeit 30).\nDuellstand: Greifen Sie einen Gegner an und versuchen Sie, ihn zu entwaffnen (Kraftsicherung; Schwierigkeit 25 + Ihr Agi-Modifikator). Der Angriff ist garantiert Treffer und durchdringt mindestens einmal.",
+      "new_value": "Aktiviert; Abklingzeit 15.\nAggressiver Stand: Führe einen Angriff gegen alle benachbarten Gegner durch.\nDefensiver Stand: Dränge alle benachbarten Kreaturen um 1 Feld zurück und versuche, Gegner zu stolpern (Kraft-/Geschicklichkeitssicherung; Schwierigkeit 30).\nDuellstand: Greife einen Gegner an und versuche, ihn zu entwaffnen (Kraftsicherung; Schwierigkeit 25 + dein Agi-Modifikator). Der Angriff ist garantiert Treffer und durchdringt mindestens einmal.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e4b497162e5b5d58",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Long Blade]/power[Dueling Stance]@Description",
+      "context": null,
+      "old_value": "Sie erhalten Zugang zu Duellstellung. Während Sie ein langes Messer in Ihrer primären Hand führen, erhalten Sie +2 Treffer mit langen Messern und kurzen Messern.",
+      "new_value": "Du erhältst Zugang zu Duellstellung. Während du ein langes Messer in deiner primären Hand führst, erhältst du +2 Treffer mit langen Messern und kurzen Messern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e5cae8afee429b23",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Long Blade]/power[Improved Aggressive Stance]@Description",
+      "context": null,
+      "old_value": "Euer Penetrationsbonus in aggressiver Haltung wird auf +2 erhöht, aber Euer Treffer-Malus wird auf -3 erhöht.",
+      "new_value": "Dein Penetrationsbonus in aggressiver Haltung wird auf +2 erhöht, aber dein Treffer-Malus wird auf -3 erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7a4e67ee08fadde5",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Long Blade]/power[Improved Defensive Stance]@Description",
+      "context": null,
+      "old_value": "Euer DV-Bonus in defensiver Haltung wird auf +3 erhöht.",
+      "new_value": "Dein DV-Bonus in defensiver Haltung wird auf +3 erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "24f4185473593dd9",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Long Blade]/power[Improved Dueling Stance]@Description",
+      "context": null,
+      "old_value": "Euer Treffer-Bonus in Duellierhaltung wird auf +3 erhöht.",
+      "new_value": "Dein Treffer-Bonus in Duellierhaltung wird auf +3 erhöht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6dc0cae95f13264b",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Persuasion]/power[Menacing Stare]@Description",
+      "context": null,
+      "old_value": "Ihr starrt einen nahegelegenen Gegner an und treibt ihn in Angst zur Flucht.",
+      "new_value": "Du starrst einen nahegelegenen Gegner an und treibt ihn in Angst zur Flucht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1fa4fb9d1d22a393",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Persuasion]/power[Intimidate]@Description",
+      "context": null,
+      "old_value": "Abklingzeit 50. Ihr versucht, benachbarte, feindselige Kreaturen zu erschrecken (1d8 + [Ego-Modifikator] Penetrationswurf gegen MA). Bei Erfolg flieht eine erschreckte Kreatur 6d4 Runden vor Euch.",
+      "new_value": "Abklingzeit 50. Du versuchst, benachbarte, feindselige Kreaturen zu erschrecken (1d8 + [Ego-Modifikator] Penetrationswurf gegen MA). Bei Erfolg flieht eine erschreckte Kreatur 6d4 Runden vor dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "506c8c72638133d0",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Persuasion]/power[Berate]@Description",
+      "context": null,
+      "old_value": "Abklingzeit 50. Ihr beschämt eine nahegelegene Kreatur für 6d6 Runden und gebt ihr eine -4-Strafe auf Ausweichfähigkeit, Trefferhäufigkeit, Ego, Willenskraft und eine -10%-Strafe auf Schnelligkeit.",
+      "new_value": "Abklingzeit 50. Du beschämst eine nahegelegene Kreatur für 6d6 Runden und gibst ihr eine -4-Strafe auf Ausweichfähigkeit, Trefferhäufigkeit, Ego, Willenskraft und eine -10%-Strafe auf Schnelligkeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8a623cd1b1c2d68f",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Persuasion]/power[Proselytize]@Description",
+      "context": null,
+      "old_value": "Ihr überredet eine intelligente Kreatur, euch zu folgen.",
+      "new_value": "Du überredest eine intelligente Kreatur, dir zu folgen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c8ff87f589d64ed2",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Persuasion]/power[Inspiring Presence]@Description",
+      "context": null,
+      "old_value": "Eure Worte stärken Eure Gefährten.",
+      "new_value": "Deine Worte stärken deine Gefährten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c747b59377b26ad7",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Pistol]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Pistolen aller Art.",
+      "new_value": "Du beherrschst Pistolen aller Art.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "857dcf3a8165288d",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Pistol]/power[Sling and Run]@Description",
+      "context": null,
+      "old_value": "Ihr erhaltet keine Genauigkeitsstrafen für das Abfeuern von Pistolen während des Rennens.",
+      "new_value": "Du erhältst keine Genauigkeitsstrafen für das Abfeuern von Pistolen während des Rennens.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "250678a2b58af440",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Pistol]/power[Disarming Shot]@Description",
+      "context": null,
+      "old_value": "Sie haben eine geschicklichkeitsbasierte Chance, Ihren Gegner zu entwaffnen, wenn Sie mit einer Pistole treffen.",
+      "new_value": "Du hast eine geschicklichkeitsbasierte Chance, deinen Gegner zu entwaffnen, wenn du mit einer Pistole triffst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "547f1a23fb623ae5",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Pistol]/power[Dead Shot]@Description",
+      "context": null,
+      "old_value": "Kritische Treffer, die Ihr mit Pistolen macht, sind tödlicher.",
+      "new_value": "Kritische Treffer, die du mit Pistolen machst, sind tödlicher.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "40b437587e9fec42",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Self-discipline]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Selbstdisziplin.",
+      "new_value": "Du beherrschst Selbstdisziplin.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eda64ce7b539917e",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Self-discipline]/power[Meditate]@Description",
+      "context": null,
+      "old_value": "Während der Meditation regeneriert Ihr dreimal so schnell, und negative Statuseffekte verschwinden dreimal so schnell. Die einzige Aktion, die Ihr während der Meditation ausführen könnt, ist Warten. Ihr stoppt die Meditation, wenn Ihr in einer einzelnen Runde Schaden erleidet, der (Wille*3)-60 übersteigt. Wenn Ihr Euch 10 oder mehr Runden ausruht, beginnt Ihr automatisch zu meditieren.",
+      "new_value": "Während der Meditation regenerierst du dreimal so schnell, und negative Statuseffekte verschwinden dreimal so schnell. Die einzige Aktion, die du während der Meditation ausführen kannst, ist Warten. Du stoppst die Meditation, wenn du in einer einzelnen Runde Schaden erleidest, der (Wille*3)-60 übersteigt. Wenn du dich 10 oder mehr Runden ausruhst, beginnst du automatisch zu meditieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e3a40219b39ace6c",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Self-discipline]/power[Fasting Way]@Description",
+      "context": null,
+      "old_value": "Ihr hungert und durstet mit der halben normalen Rate.\nMetabolische Effekte von Mahlzeiten halten doppelt so lange.",
+      "new_value": "Du hungerst und durstest mit der halben normalen Rate.\nMetabolische Effekte von Mahlzeiten halten doppelt so lange.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c5229d4c558369c5",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Self-discipline]/power[Iron Mind]@Description",
+      "context": null,
+      "old_value": "Jede Runde, wenn Ihr verwirrt seid, habt Ihr eine (Willpower-10)% Chance, den Effekt abzuschütteln.",
+      "new_value": "Jede Runde, wenn du verwirrt bist, hast du eine (Willpower-10)% Chance, den Effekt abzuschütteln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "addfa314b6c92898",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Self-discipline]/power[Lionheart]@Description",
+      "context": null,
+      "old_value": "Jede Runde, wenn Ihr verängstigt seid, habt Ihr eine (Willpower-10)% Chance, den Effekt abzuschütteln.",
+      "new_value": "Jede Runde, wenn du verängstigt bist, hast du eine (Willpower-10)% Chance, den Effekt abzuschütteln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0bd82523e72ae9b",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Self-discipline]/power[Conatus]@Description",
+      "context": null,
+      "old_value": "Ihr könnt für zusätzliche 10 Runden sprinten.",
+      "new_value": "Du kannst für zusätzliche 10 Runden sprinten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "22ce356c643160b9",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Self-discipline]/power[Mind over Body]@Description",
+      "context": null,
+      "old_value": "Ihr hungert und durstet mit einem Sechstel der normalen Rate.\nMetabolische Effekte von Mahlzeiten halten sechsmal so lange.\nIhr erleidet keine Strafe für Verhungern.",
+      "new_value": "Du hungerst und durstest mit einem Sechstel der normalen Rate.\nMetabolische Effekte von Mahlzeiten halten sechsmal so lange.\nDu erleidest keine Strafe für Verhungern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a40dac81896a23f",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Shield]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Schildkampf.",
+      "new_value": "Du beherrschst Schildkampf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e84aabb4eb27cc81",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Shield]/power[Shield Slam]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 40. Sie versuchen, einen Gegner umzuhauen und (Kraft-Modifikator)d2 + Ihres Schildes AV-Bonus Schaden zu verursachen. Ihr Gegner hat eine Chance zu widerstehen (Kraftsicherung; Schwierigkeit 20 + Ihr Kraft-Modifikator). Wenn Sie mit einem ausgerüsteten Schild auf einen Gegner losgehen, erhalten Sie einen kostenlosen Schildschlag gegen ihn.",
+      "new_value": "Aktiviert; Abklingzeit 40. Du versuchst, einen Gegner umzuhauen und (Kraft-Modifikator)d2 + deines Schildes AV-Bonus Schaden zu verursachen. Dein Gegner hat eine Chance zu widerstehen (Kraftsicherung; Schwierigkeit 20 + dein Kraft-Modifikator). Wenn du mit einem ausgerüsteten Schild auf einen Gegner losgehst, erhältst du einen kostenlosen Schildschlag gegen ihn.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e8c9dbe6a37bd16f",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Shield]/power[Deft Blocking]@Description",
+      "context": null,
+      "old_value": "Eure Chance, mit einem Schild zu blocken, verbessert sich auf 75%.",
+      "new_value": "Deine Chance, mit einem Schild zu blocken, verbessert sich auf 75%.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cfa1d6d4114766a6",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Shield]/power[Swift Blocking]@Description",
+      "context": null,
+      "old_value": "Ihr könnt einen zusätzlichen Angriff pro Runde pro Schild blocken.",
+      "new_value": "Du kannst einen zusätzlichen Angriff pro Runde pro Schild blocken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "124014f74b4d276f",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Shield]/power[Staggering Block]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen gegnerischen Angriff blockiert, besteht eine (Stärke*2)-35%-Chance, dass Euer Gegner für 1d2 Runden betäubt wird.",
+      "new_value": "Jedes Mal, wenn du einen gegnerischen Angriff blockierst, besteht eine (Stärke*2)-35%-Chance, dass dein Gegner für 1d2 Runden betäubt wird.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "152934f9749f0db1",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Shield]/power[Shield Wall]@Snippet",
+      "context": null,
+      "old_value": "Eine Wand mit Ihrem Schild bilden",
+      "new_value": "Eine Wand mit deinem Schild bilden",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d61ca3d7fbfce8ac",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Short Blade]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht kleine einhändige Messer und Klingen.",
+      "new_value": "Du beherrschst kleine einhändige Messer und Klingen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "88c04757397b9cdd",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Short Blade]/power[Short Blade Expertise]@Description",
+      "context": null,
+      "old_value": "Sie erhalten +1 Treffer mit kurzen Messern. Auch werden die Aktionskosten des Angriffs mit einem kurzen Messer in Ihrer primären Hand um 25% reduziert.",
+      "new_value": "Du erhältst +1 Treffer mit kurzen Messern. Auch werden die Aktionskosten des Angriffs mit einem kurzen Messer in deiner primären Hand um 25% reduziert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6b00497da0a63878",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Short Blade]/power[Bloodletter]@Description",
+      "context": null,
+      "old_value": "Eure Kurzschwerter-Angriffe, die eindringen, haben eine 75%-Chance, Euren Gegner zum Bluten zu bringen (0-1 Schaden pro Runde. Zähigkeitssicherung; Schwierigkeit 20 + Euer Agi-Modifikator). Der Gegner wirkt eine Rettung ab, um das Bluten jede Runde zu beenden, und die Rettungsschwierigkeit sinkt jede Runde um 1. Dieser Effekt kann sich so oft stapeln, wie 1 plus Euer Agi-Modifikator.",
+      "new_value": "Deine Kurzschwerter-Angriffe, die eindringen, haben eine 75%-Chance, deinen Gegner zum Bluten zu bringen (0-1 Schaden pro Runde. Zähigkeitssicherung; Schwierigkeit 20 + dein Agi-Modifikator). Der Gegner wirkt eine Rettung ab, um das Bluten jede Runde zu beenden, und die Rettungsschwierigkeit sinkt jede Runde um 1. Dieser Effekt kann sich so oft stapeln, wie 1 plus dein Agi-Modifikator.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0af8807b7cb9e289",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Short Blade]/power[Jab]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Angriff mit einer kurzen Klinge mit der Nebenhand macht, macht Ihr sofort einen weiteren Angriff mit derselben Waffe. Wirbelschlag-Angriffe lösen dies nicht aus.",
+      "new_value": "Jedes Mal, wenn du einen Angriff mit einer kurzen Klinge mit der Nebenhand machst, machst du sofort einen weiteren Angriff mit derselben Waffe. Wirbelschlag-Angriffe lösen dies nicht aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c6164ac2527684cc",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Short Blade]/power[Hobble]@Description",
+      "context": null,
+      "old_value": "Ihr führt einen Angriff mit einer kurzen Klinge in eurer dominanten Hand aus und sucht nach einer schwachen Stelle in der Rüstung eures Gegners. Wenn ihr trefft, dringt ihr genau einmal durch und lahmt sie (-50% Bewegungsgeschwindigkeit für 16-20 Runden).",
+      "new_value": "Du führst einen Angriff mit einer kurzen Klinge in deiner dominanten Hand aus und suchst nach einer schwachen Stelle in der Rüstung deines Gegners. Wenn du triffst, dringst du genau einmal durch und lahmst sie (-50% Bewegungsgeschwindigkeit für 16-20 Runden).",
+      "note": "lahmt->lahmst (Original-Schreibung beibehalten)",
+      "status": "accepted"
+    },
+    {
+      "uid": "57f7bb98e2a3de40",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Short Blade]/power[Pointed Circle]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr einen Gegner ausmanövriert, während Ihr eine kurze Klinge in Eurer Haupthand führt, macht Ihr einen kostenlosen Angriff. Wenn Ihr Blutletter habt, beträgt die Chance des Angriffs, Blutungen zu verursachen, 100%.",
+      "new_value": "Jedes Mal, wenn du einen Gegner ausmanövrierst, während du eine kurze Klinge in deiner Haupthand führst, machst du einen kostenlosen Angriff. Wenn du Blutletter hast, beträgt die Chance des Angriffs, Blutungen zu verursachen, 100%.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a37432bc8f5abe81",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Short Blade]/power[Shank]@Description",
+      "context": null,
+      "old_value": "Aktiviert; Abklingzeit 10 (Haupthand) oder 20 (Nebenhand). Sie führen einen Nahkampfangriff mit einem Kurzschwert in Ihrer Haupthand (bevorzugt) oder Nebenhand durch. Wenn Sie treffen, erhält der Angriff +2 zu den Durchdringungswürfen für jeden negativen Statuseffekt, unter dem Ihr Gegner leidet.",
+      "new_value": "Aktiviert; Abklingzeit 10 (Haupthand) oder 20 (Nebenhand). Du führst einen Nahkampfangriff mit einem Kurzschwert in deiner Haupthand (bevorzugt) oder Nebenhand durch. Wenn du triffst, erhält der Angriff +2 zu den Durchdringungswürfen für jeden negativen Statuseffekt, unter dem dein Gegner leidet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f81f3ab640e05d8d",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tactics]/power[Hurdle]@Description",
+      "context": null,
+      "old_value": "Ihr erhaltet keine Strafe auf euer DV beim Sprinten und könnt springen, ohne euer Sprinten zu unterbrechen.",
+      "new_value": "Du erhältst keine Strafe auf dein DV beim Sprinten und kannst springen, ohne dein Sprinten zu unterbrechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc9928b26f6bd041",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tactics]/power[Deft Throwing]@Description",
+      "context": null,
+      "old_value": "Eure Wurfreichweite wird um 3 erhöht und Eure Wurfvarianz wird halbiert, wenn Ihr auf ein Ziel innerhalb Eurer Wurfreichweite werft.",
+      "new_value": "Deine Wurfreichweite wird um 3 erhöht und deine Wurfvarianz wird halbiert, wenn du auf ein Ziel innerhalb deiner Wurfreichweite wirfst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c73a7a25f947ad2e",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tactics]/power[Charge]@Description",
+      "context": null,
+      "old_value": "Ihr stürmt zwei oder drei Felder vor und führt einen Nahkampfangriff mit +1 zum Durchdringungswurf aus.",
+      "new_value": "Du stürmst zwei oder drei Felder vor und führst einen Nahkampfangriff mit +1 zum Durchdringungswurf aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "512005ba4b193ad7",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Disassemble]@Description",
+      "context": null,
+      "old_value": "Ihr könnt Schrott und Artefakte in Bits zerlegen. Ihr erhaltet das wichtigste Bit aus dem Artikelschema plus eine 50%-Chance, jeden verbleibenden Bit zu erhalten.",
+      "new_value": "Du kannst Schrott und Artefakte in Bits zerlegen. Du erhältst das wichtigste Bit aus dem Artikelschema plus eine 50%-Chance, jeden verbleibenden Bit zu erhalten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f110d63309b5a09c",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Scavenger]@Description",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr über Müll tretet, durchsucht Ihr ihn scharfsinnig und entdeckt gelegentlich Schrott. Zusätzlich erntet Ihr zusätzlichen Schrott von Robotern, die Ihr zerstört.",
+      "new_value": "Jedes Mal, wenn du über Müll trittst, durchsuchst du ihn scharfsinnig und entdeckst gelegentlich Schrott. Zusätzlich erntest du zusätzlichen Schrott von Robotern, die du zerstörst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "420164c0882dd1f2",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Repair]@Description",
+      "context": null,
+      "old_value": "Ihr könnt beschädigte Gegenstände mit Bits reparieren.",
+      "new_value": "Du kannst beschädigte Gegenstände mit Bits reparieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0badab6673a3f698",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Deploy Turret]@Description",
+      "context": null,
+      "old_value": "Ihr könnt Geschosswaffen als statische Türme einsetzen.",
+      "new_value": "Du kannst Geschosswaffen als statische Türme einsetzen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5fcd7bc744face8",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Lay Mine / Set Bomb]@Description",
+      "context": null,
+      "old_value": "Ihr könnt Granaten als Minen ablegen oder sie als Bomben setzen.",
+      "new_value": "Du kannst Granaten als Minen ablegen oder sie als Bomben setzen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc035df04f3259d0",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Tinker I]@Description",
+      "context": null,
+      "old_value": "Ihr könnt Gegenstände aus niedriggradigen Schaltplänen bauen und ihr erhaltet 1 kostenlosen Schaltplan. Ihr könnt auch Energiezellen und Kondensatoren aufladen.",
+      "new_value": "Du kannst Gegenstände aus niedriggradigen Schaltplänen bauen und du erhältst 1 kostenlosen Schaltplan. Du kannst auch Energiezellen und Kondensatoren aufladen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "168f7936ed04b7f0",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Tinker II]@Description",
+      "context": null,
+      "old_value": "Ihr könnt Gegenstände aus mittlergradigen Schaltplänen bauen und ihr erhaltet 1 kostenlosen Schaltplan.",
+      "new_value": "Du kannst Gegenstände aus mittlergradigen Schaltplänen bauen und du erhältst 1 kostenlosen Schaltplan.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32a03f7eb2127d50",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Tinkering]/power[Tinker III]@Description",
+      "context": null,
+      "old_value": "Ihr könnt Gegenstände aus hochwertigen Schaltplänen bauen und ihr erhaltet 1 kostenlosen Schaltplan.",
+      "new_value": "Du kannst Gegenstände aus hochwertigen Schaltplänen bauen und du erhältst 1 kostenlosen Schaltplan.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "754ee94e98f61df0",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Wayfaring]@Description",
+      "context": null,
+      "old_value": "Ihr beherrscht Wildnisüberlebung.",
+      "new_value": "Du beherrschst Wildnisüberlebung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4bdd634298b6c09b",
+      "file": "Skills.de.xml",
+      "key": "/skills#0/skill[Nonlinearity]/power[Tomorrowful]@Description",
+      "context": null,
+      "old_value": "Eure präkognitiven Visionen halten doppelt so lange.",
+      "new_value": "Deine präkognitiven Visionen halten doppelt so lange.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

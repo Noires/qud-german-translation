@@ -1,0 +1,1508 @@
+{
+  "batch": "du-strings-05",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-strings-05)",
+  "created": "2026-10-22 14:50",
+  "items": [
+    {
+      "uid": "47e014281b8e7c8b",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromIngredients Inspired Picker Title|You let inspiration guide you toward a mouthwatering dish.",
+      "context": "Campfire CookFromIngredients Inspired Picker Title",
+      "old_value": "Ihr lasst Euch von der Inspiration zu einem verlockenden Gericht leiten.",
+      "new_value": "Du lässt dich von der Inspiration zu einem verlockenden Gericht leiten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "db8fc8439c1524a7",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromIngredients Inspired Recipe|You create a new recipe for {{|=recipe.name=}}!",
+      "context": "Campfire CookFromIngredients Inspired Recipe",
+      "old_value": "Ihr erstellt ein neues Rezept für {{|=recipe.name=}}!",
+      "new_value": "Du erstellst ein neues Rezept für {{|=recipe.name=}}!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e4a0cf87846c1c60",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromIngredients Inspired Recipe AskFavorite|You create a new recipe for {{|=recipe.name=}}!",
+      "context": "Campfire CookFromIngredients Inspired Recipe AskFavorite",
+      "old_value": "Ihr erstellt ein neues Rezept für {{|=recipe.name=}}!",
+      "new_value": "Du erstellst ein neues Rezept für {{|=recipe.name=}}!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "35ceaec1342e3749",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromIngredients Inspired Recipe Accomplishment|You invented a mouthwatering dish called {{|=recipe.name=}}!",
+      "context": "Campfire CookFromIngredients Inspired Recipe Accomplishment",
+      "old_value": "Ihr habt ein köstliches Gericht namens {{|=recipe.name=}} erfunden!",
+      "new_value": "Du hast ein köstliches Gericht namens {{|=recipe.name=}} erfunden!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5152545b0b026359",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromIngredients final message|You start to metabolize the meal, gaining the following effect for the rest of the day:\n\n{{W|=effect=}}",
+      "context": "Campfire CookFromIngredients final message",
+      "old_value": "Ihr fangt an, die Mahlzeit zu verstoffwechseln und gewinnt den folgenden Effekt für den Rest des Tages:\n\n{{W|=effect=}}",
+      "new_value": "Du fängst an, die Mahlzeit zu verstoffwechseln und gewinnst den folgenden Effekt für den Rest des Tages:\n\n{{W|=effect=}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "167c088c3928734d",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromRecipe Error|You don't have the Cooking and Gathering skill.",
+      "context": "Campfire CookFromRecipe Error",
+      "old_value": "Ihr habt nicht die Fähigkeit Kochen und Sammeln.",
+      "new_value": "Du hast nicht die Fähigkeit Kochen und Sammeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ba5c579a9dab2a7b",
+      "file": "Strings.de.xml",
+      "key": "Campfire Cook Error|You can't cook with hostile creatures nearby.",
+      "context": "Campfire Cook Error",
+      "old_value": "Ihr könnt nicht kochen, wenn Feindselige in der Nähe sind.",
+      "new_value": "Du kannst nicht kochen, wenn Feindselige in der Nähe sind.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a26194d4cf45331e",
+      "file": "Strings.de.xml",
+      "key": "Campfire RollTasty|You eat the meal. It's tastier than usual.",
+      "context": "Campfire RollTasty",
+      "old_value": "Ihr esst die Mahlzeit. Sie schmeckt besser als üblich.",
+      "new_value": "Du isst die Mahlzeit. Sie schmeckt besser als üblich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3cd1f3a60399fe04",
+      "file": "Strings.de.xml",
+      "key": "Campfire RollTasty|You gorge on the succulent meat. It's tastier than usual.",
+      "context": "Campfire RollTasty",
+      "old_value": "Ihr verschlingt das saftige Fleisch. Es schmeckt köstlicher als gewöhnlich.",
+      "new_value": "Du verschlingst das saftige Fleisch. Es schmeckt köstlicher als gewöhnlich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b21b4954274124f4",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|You try to staunch the wounds of =object.the.name=, but your limbs pass through =object.them=.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Ihr versucht, die Wunden von =object.dativ= zu stillen, aber eure Gliedmaßen gehen durch =object.them= hindurch.",
+      "new_value": "Du versuchst, die Wunden von =object.dativ= zu stillen, aber deine Gliedmaßen gehen durch =object.them= hindurch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b271fe8ddf2ca467",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|You try to staunch the wounds of =object.the.name=, but cannot affect =object.them=.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Ihr versucht, die Wunden von =object.dativ= zu stillen, könnt aber =object.them= nicht beeinflussen.",
+      "new_value": "Du versuchst, die Wunden von =object.dativ= zu stillen, kannst aber =object.them= nicht beeinflussen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f2a938ef8cf179b9",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|You staunch your wounds, though some are too deep to treat.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Ihr stehst Eure Wunden, obwohl einige zu tief sind, um sie zu behandeln.",
+      "new_value": "Du stehst deine Wunden, obwohl einige zu tief sind, um sie zu behandeln.",
+      "note": "'stehst' (vermutl. Fehler fuer 'stillst') laut Regel 5 nicht korrigiert",
+      "status": "accepted"
+    },
+    {
+      "uid": "949c89854ab68180",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|You staunch the wounds of =object.the.name=, though some are too deep to treat.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Ihr stillt die Wunden von =object.dativ=, obwohl einige zu tief sind, um sie zu behandeln.",
+      "new_value": "Du stillst die Wunden von =object.dativ=, obwohl einige zu tief sind, um sie zu behandeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0312880f0a83aa41",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|You staunch your wounds.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Ihr stehst Eure Wunden.",
+      "new_value": "Du stehst deine Wunden.",
+      "note": "'stehst' (vermutl. Fehler fuer 'stillst') laut Regel 5 nicht korrigiert",
+      "status": "accepted"
+    },
+    {
+      "uid": "4202364fb5ae1301",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|You staunch the wounds of =object.the.name=.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Ihr stillt die Wunden von =object.dativ=.",
+      "new_value": "Du stillst die Wunden von =object.dativ=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "66b95eed723913a8",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|You are not bleeding.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Ihr blutest nicht.",
+      "new_value": "Du blutest nicht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a496ef93c2ff3079",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsStopBleeding|Neither you nor any of your nearby companions are bleeding.",
+      "context": "Campfire NostrumsStopBleeding",
+      "old_value": "Weder Ihr noch Eure Gefährten in der Nähe bluten.",
+      "new_value": "Weder du noch deine Gefährten in der Nähe bluten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2fb20864599daf19",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|You have no medicinal ingredients with which to treat the poison coursing through =object.the.name=.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Ihr habt keine Heilzutaten, um das Gift in =object.dativ= zu behandeln.",
+      "new_value": "Du hast keine Heilzutaten, um das Gift in =object.dativ= zu behandeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d6ea9d13e3f8a326",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|You try to cure the poison coursing through =object.the.name=, but your limbs pass through =object.them=.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Ihr versucht, das Gift in =object.the.name= zu heilen, aber Eure Gliedmaßen gehen durch =object.them= hindurch.",
+      "new_value": "Du versuchst, das Gift in =object.the.name= zu heilen, aber deine Gliedmaßen gehen durch =object.them= hindurch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "38deff786cf2088e",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|You try to cure the poison coursing through =object.the.name=, but cannot affect =object.them=.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Ihr versucht, das Gift in =object.the.name= zu heilen, könnt =object.them= aber nicht beeinflussen.",
+      "new_value": "Du versuchst, das Gift in =object.the.name= zu heilen, kannst =object.them= aber nicht beeinflussen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "85db343d26329437",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|You cure the =result.pluralize:poison= coursing through =object.the.name= with a balm made from =cure.a.name:single=.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Ihr heilt das =result.pluralize:poison= in =object.the.name= mit einer Salbe aus =cure.a.dativ:single=.",
+      "new_value": "Du heilst das =result.pluralize:poison= in =object.the.name= mit einer Salbe aus =cure.a.dativ:single=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b279ab3aeddd0c6a",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|You try to cure the poison coursing through =object.the.name=, but your cures are ineffective.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Ihr versucht, das Gift in =object.the.name= zu heilen, aber Eure Heilmittel sind unwirksam.",
+      "new_value": "Du versuchst, das Gift in =object.the.name= zu heilen, aber deine Heilmittel sind unwirksam.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "76c952a270070a59",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|The poison affecting you is too strong to be cured by your nostrums.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Das Gift, das Euch betrifft, ist zu stark, um von Euren Nostrums geheilt zu werden.",
+      "new_value": "Das Gift, das dich betrifft, ist zu stark, um von deinen Nostrums geheilt zu werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f41dfac8ff1f787",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|The poison affecting you and =object.the.name= is too strong to be cured by your nostrums.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Das Gift, das Euch und =object.the.name= beeinflusst, ist zu stark, um von Euren Heilmitteln geheilt zu werden.",
+      "new_value": "Das Gift, das dich und =object.the.name= beeinflusst, ist zu stark, um von deinen Heilmitteln geheilt zu werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b5667ebc8bb3d2ea",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|The poison affecting you and your companions is too strong to be cured by your nostrums.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Das Gift, das Euch und Eure Begleiter beeinflusst, ist zu stark, um von Euren Heilmitteln geheilt zu werden.",
+      "new_value": "Das Gift, das dich und deine Begleiter beeinflusst, ist zu stark, um von deinen Heilmitteln geheilt zu werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "85b3a70bc1ba2adc",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|The poison affecting =list.andList= is too strong to be cured by your nostrums.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Das Gift, das =list.andList= beeinflusst, ist zu stark, um von Euren Heilmitteln geheilt zu werden.",
+      "new_value": "Das Gift, das =list.andList= beeinflusst, ist zu stark, um von deinen Heilmitteln geheilt zu werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0f5a156a1f843fc6",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|Neither you nor any of your nearby companions are poisoned.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Weder Ihr noch Eure Gefährten in der Nähe seid vergiftet.",
+      "new_value": "Weder du noch deine Gefährten in der Nähe sind vergiftet.",
+      "note": "Kongruenz seid->sind (naechstes Subjekt 'Gefaehrten')",
+      "status": "accepted"
+    },
+    {
+      "uid": "bbb21cd973510434",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatIllness|You have no medicinal ingredients with which to treat =object.name's= illness.",
+      "context": "Campfire NostrumsTreatIllness",
+      "old_value": "Ihr habt keine Heilzutaten, um =object.name's= Krankheit zu behandeln.",
+      "new_value": "Du hast keine Heilzutaten, um =object.name's= Krankheit zu behandeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fc5797fcb33fc8be",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatIllness|You try to cure =object.name's= illness, but your limbs pass through =object.them=.",
+      "context": "Campfire NostrumsTreatIllness",
+      "old_value": "Ihr versucht, =object.name's= Krankheit zu heilen, aber Eure Gliedmaßen gehen durch =object.them= hindurch.",
+      "new_value": "Du versuchst, =object.name's= Krankheit zu heilen, aber deine Gliedmaßen gehen durch =object.them= hindurch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b406ad4e983bc723",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatIllness|You try to cure =object.name's= illness, but cannot affect =object.them=.",
+      "context": "Campfire NostrumsTreatIllness",
+      "old_value": "Ihr versucht, =object.name's= Krankheit zu heilen, könnt =object.them= aber nicht beeinflussen.",
+      "new_value": "Du versuchst, =object.name's= Krankheit zu heilen, kannst =object.them= aber nicht beeinflussen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "12baedecec194749",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatIllness|You cure =object.name's= illness with a balm made from =cure.a.name:single=.",
+      "context": "Campfire NostrumsTreatIllness",
+      "old_value": "Ihr heilt =object.name's= Krankheit mit einer Salbe aus =cure.a.dativ:single=.",
+      "new_value": "Du heilst =object.name's= Krankheit mit einer Salbe aus =cure.a.dativ:single=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9944467b5b55988f",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatIllness|Neither you nor any of your nearby companions are ill.",
+      "context": "Campfire NostrumsTreatIllness",
+      "old_value": "Weder Ihr noch Eure Gefährten in der Nähe seid krank.",
+      "new_value": "Weder du noch deine Gefährten in der Nähe sind krank.",
+      "note": "Kongruenz seid->sind (naechstes Subjekt 'Gefaehrten')",
+      "status": "accepted"
+    },
+    {
+      "uid": "6fe52f237ebea1e3",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreadDiseaseOnset|You have no medicinal ingredients with which to treat =object.name's= =effect.description=.",
+      "context": "Campfire NostrumsTreadDiseaseOnset",
+      "old_value": "Ihr habt keine Heilzutaten, um =object.name's= =effect.description= zu behandeln.",
+      "new_value": "Du hast keine Heilzutaten, um =object.name's= =effect.description= zu behandeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0434f0306263d9a0",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatDiseaseOnset|You try to cure =object.name's= disease onset, but your limbs pass through =object.them=.",
+      "context": "Campfire NostrumsTreatDiseaseOnset",
+      "old_value": "Ihr versucht, den Ausbruch von =object.name's= Krankheit zu heilen, aber Eure Gliedmaßen gehen durch =object.them= hindurch.",
+      "new_value": "Du versuchst, den Ausbruch von =object.name's= Krankheit zu heilen, aber deine Gliedmaßen gehen durch =object.them= hindurch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "59c5fe9bdf7d69d6",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatDiseaseOnset|You try to cure =object.name's= disease onset, but cannot affect =object.them=.",
+      "context": "Campfire NostrumsTreatDiseaseOnset",
+      "old_value": "Ihr versucht, den Ausbruch von =object.name's= Krankheit zu heilen, könnt =object.them= aber nicht beeinflussen.",
+      "new_value": "Du versuchst, den Ausbruch von =object.name's= Krankheit zu heilen, kannst =object.them= aber nicht beeinflussen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c8ebda36527a2938",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatDiseaseOnset|You cure =object.name's= =effect.description= with a balm made from =cure.a.name:single=.",
+      "context": "Campfire NostrumsTreatDiseaseOnset",
+      "old_value": "Ihr heilt =object.name's= =effect.description= mit einer Salbe aus =cure.a.dativ:single=.",
+      "new_value": "Du heilst =object.name's= =effect.description= mit einer Salbe aus =cure.a.dativ:single=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2c5bdbe4ee9723c3",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatDiseaseOnset|You boost =object.name's= immunity with a balm made from =cure.a.name:single=.",
+      "context": "Campfire NostrumsTreatDiseaseOnset",
+      "old_value": "Ihr stärkt =object.name's= Immunität mit einer Salbe aus =cure.a.dativ:single=.",
+      "new_value": "Du stärkst =object.name's= Immunität mit einer Salbe aus =cure.a.dativ:single=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2eb61aa7be42a3f7",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatDiseaseOnset|You try to boost =object.name's= immunity with a balm made from =cure.a.name:single=, but it is ineffective.",
+      "context": "Campfire NostrumsTreatDiseaseOnset",
+      "old_value": "Ihr versucht, =object.name's= Immunität mit einer Salbe aus =cure.a.dativ:single= zu stärken, aber sie ist unwirksam.",
+      "new_value": "Du versuchst, =object.name's= Immunität mit einer Salbe aus =cure.a.dativ:single= zu stärken, aber sie ist unwirksam.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3edbc2773844ff54",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatDiseaseOnset|Neither you nor any of your nearby companions are suffering from the onset of a disease.",
+      "context": "Campfire NostrumsTreatDiseaseOnset",
+      "old_value": "Weder Ihr noch Eure Gefährten in der Nähe leiden unter dem Ausbruch einer Krankheit.",
+      "new_value": "Weder du noch deine Gefährten in der Nähe leiden unter dem Ausbruch einer Krankheit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "09f05d5b5658eeca",
+      "file": "Strings.de.xml",
+      "key": "Cookbook Accomplishment|You read =object.refname=.",
+      "context": "Cookbook Accomplishment",
+      "old_value": "Ihr lest =object.refname=.",
+      "new_value": "Du liest =object.refname=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "98c78c43bcf66dce",
+      "file": "Strings.de.xml",
+      "key": "CarbideChef Inspired applied|You swell with inspiration to cook a mouthwatering meal.",
+      "context": "CarbideChef Inspired applied",
+      "old_value": "Ihr werdet von Inspiration erfüllt, um eine köstliche Mahlzeit zu kochen.",
+      "new_value": "Du wirst von Inspiration erfüllt, um eine köstliche Mahlzeit zu kochen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c70b4d1a6e5b08e6",
+      "file": "Strings.de.xml",
+      "key": "CookingRecipe ApplyEffects Popup|You start to metabolize the meal, gaining the following effect for the rest of the day:\n\n{{W|=messages.join:\n=}}",
+      "context": "CookingRecipe ApplyEffects Popup",
+      "old_value": "Ihr fangt an, die Mahlzeit zu verstoffwechseln und erhaltet für den Rest des Tages folgenden Effekt:\n\n{{W|=messages.join:\n=}}",
+      "new_value": "Du fängst an, die Mahlzeit zu verstoffwechseln und erhältst für den Rest des Tages folgenden Effekt:\n\n{{W|=messages.join:\n=}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5b29692db77e9cd5",
+      "file": "Strings.de.xml",
+      "key": "CookingRecipeComponents Domain player tries to cook but doesn't have enough|You don't have enough =ingredientType=.",
+      "context": "CookingRecipeComponents Domain player tries to cook but doesn't have enough",
+      "old_value": "Ihr habt nicht genug =ingredientType=.",
+      "new_value": "Du hast nicht genug =ingredientType=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "929ff1d3b5ab2441",
+      "file": "Strings.de.xml",
+      "key": "CookingRecipeComponents Blueprint player tries to cook but doesn't have enough|You don't have enough servings of =ingredientDisplayName=.",
+      "context": "CookingRecipeComponents Blueprint player tries to cook but doesn't have enough",
+      "old_value": "Ihr habt nicht genug Portionen von =ingredientDisplayName=.",
+      "new_value": "Du hast nicht genug Portionen von =ingredientDisplayName=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cfb16e38ea4900eb",
+      "file": "Strings.de.xml",
+      "key": "CookingRecipeComponents UnusualBlueprint player tries to cook but doesn't have enough|You don't have enough servings of =ingredientDisplayName=.",
+      "context": "CookingRecipeComponents UnusualBlueprint player tries to cook but doesn't have enough",
+      "old_value": "Ihr habt nicht genug Portionen von =ingredientDisplayName=.",
+      "new_value": "Du hast nicht genug Portionen von =ingredientDisplayName=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "88b47c2d074039d3",
+      "file": "Strings.de.xml",
+      "key": "CookingRecipeComponents Liquid player tries to cook but doesn't have enough|You don't have enough =liquid.name=.",
+      "context": "CookingRecipeComponents Liquid player tries to cook but doesn't have enough",
+      "old_value": "Ihr habt nicht genug =liquid.name=.",
+      "new_value": "Du hast nicht genug =liquid.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a480a78bf515614c",
+      "file": "Strings.de.xml",
+      "key": "Sweep PerformSweep Not Equipped|You do not have a heavy missile weapon equipped.",
+      "context": "Sweep PerformSweep Not Equipped",
+      "old_value": "Ihr habt keine schwere Fernwaffe ausgerüstet.",
+      "new_value": "Du hast keine schwere Fernwaffe ausgerüstet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "633d399b066afea3",
+      "file": "Strings.de.xml",
+      "key": "Sweep PerformSweep Need Reload|You need to reload! (=commandKey:CmdReload=)",
+      "context": "Sweep PerformSweep Need Reload",
+      "old_value": "Ihr müsst neu laden! (=commandKey:CmdReload=)",
+      "new_value": "Du musst neu laden! (=commandKey:CmdReload=)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "464c76e7250092d8",
+      "file": "Strings.de.xml",
+      "key": "Multiweapon_Flurry Cannot Reach|You cannot reach =object.the.name= to attack =object.them=.",
+      "context": "Multiweapon_Flurry Cannot Reach",
+      "old_value": "Ihr könnt =object.the.name= nicht erreichen, um =object.them= anzugreifen.",
+      "new_value": "Du kannst =object.the.name= nicht erreichen, um =object.them= anzugreifen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df915e26acbdab3d",
+      "file": "Strings.de.xml",
+      "key": "Proselytize Fail Glotrot|You cannot proselytize without a tongue.",
+      "context": "Proselytize Fail Glotrot",
+      "old_value": "Ihr könnt ohne eine Zunge nicht missionieren.",
+      "new_value": "Du kannst ohne eine Zunge nicht missionieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e980e34219103d9d",
+      "file": "Strings.de.xml",
+      "key": "Proselytize Fail Target Self|You can't proselytize =subject.itself=!",
+      "context": "Proselytize Fail Target Self",
+      "old_value": "Ihr könnt nicht =subject.itself= missionieren!",
+      "new_value": "Du kannst nicht =subject.itself= missionieren!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6988f7864f1348ad",
+      "file": "Strings.de.xml",
+      "key": "Proselytize Fail Frozen|Frozen solid, you cannot proselytize =object.t=.",
+      "context": "Proselytize Fail Frozen",
+      "old_value": "Vollständig gefroren, Ihr könnt =object.t= nicht bekehren.",
+      "new_value": "Vollständig gefroren, du kannst =object.t= nicht bekehren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "519a9791770740c5",
+      "file": "Strings.de.xml",
+      "key": "Proselytize confirm proselytize follower|=object.Does:are= already your follower. Do you want to proselytize =object.them= anyway?",
+      "context": "Proselytize confirm proselytize follower",
+      "old_value": "=object.Konjde:sein= bereits Euer Anhänger. Wollt Ihr =object.them= trotzdem bekehren?",
+      "new_value": "=object.Konjde:sein= bereits dein Anhänger. Willst du =object.them= trotzdem bekehren?",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "a9d6995731478ff8",
+      "file": "Strings.de.xml",
+      "key": "Proselytize Fail Message|=object.Does:are= unconvinced by your pleas.",
+      "context": "Proselytize Fail Message",
+      "old_value": "=object.Konjde:sein= von Euren Bitten nicht überzeugt.",
+      "new_value": "=object.Konjde:sein= von deinen Bitten nicht überzeugt.",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "e1a877977cc97ed4",
+      "file": "Strings.de.xml",
+      "key": "Rebuke Robot Fail|You cannot rebuke without a tongue.",
+      "context": "Rebuke Robot Fail",
+      "old_value": "Ihr könnt nicht tadeln, ohne eine Zunge zu haben.",
+      "new_value": "Du kannst nicht tadeln, ohne eine Zunge zu haben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e5a4c258ad2d8d93",
+      "file": "Strings.de.xml",
+      "key": "Rebuke Robot failure|Your argument does not compute.",
+      "context": "Rebuke Robot failure",
+      "old_value": "Euer Argument ergibt keinen Sinn.",
+      "new_value": "Dein Argument ergibt keinen Sinn.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aba99c0b8832a9e2",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Hostiles Nearby|You can't perform field amputations with hostiles nearby!",
+      "context": "AmputateLimb Fail Hostiles Nearby",
+      "old_value": "Ihr könnt keine Amputationen vor Ort durchführen, wenn Gegner in der Nähe sind!",
+      "new_value": "Du kannst keine Amputationen vor Ort durchführen, wenn Gegner in der Nähe sind!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5cd8d56624d6f8b2",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Axe Equipped|You must have an axe or a weapon capable of dismemberment equipped in order to perform a field amputation.",
+      "context": "AmputateLimb Fail Axe Equipped",
+      "old_value": "Ihr müsst eine Axt oder eine Waffe, die zu Verstümmelungen fähig ist, ausgerüstet haben, um eine Amputation vor Ort durchzuführen.",
+      "new_value": "Du musst eine Axt oder eine Waffe, die zu Verstümmelungen fähig ist, ausgerüstet haben, um eine Amputation vor Ort durchzuführen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c36dd5c8d925d079",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Cannot Reach Target|You cannot reach =object.the.name= to amputate =object.its= limb.",
+      "context": "AmputateLimb Fail Cannot Reach Target",
+      "old_value": "Ihr könnt =object.the.name= nicht erreichen, um =object.its:akk:f= Gliedmaße zu amputieren.",
+      "new_value": "Du kannst =object.the.name= nicht erreichen, um =object.its:akk:f= Gliedmaße zu amputieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7c8150c92ddcdff8",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail No Permission|=subject.Does:won't= let you do that.",
+      "context": "AmputateLimb Fail No Permission",
+      "old_value": "=subject.Does:won't= lässt Euch das nicht tun.",
+      "new_value": "=subject.Does:won't= lässt dich das nicht tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc67e8804db3d299",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Cannot Move|You cannot amputate =object.the.name's:withTitles= limbs.",
+      "context": "AmputateLimb Fail Cannot Move",
+      "old_value": "Ihr könnt die Gliedmaßen von =object.the.name's:withTitles= nicht amputieren.",
+      "new_value": "Du kannst die Gliedmaßen von =object.the.name's:withTitles= nicht amputieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b24ee0add0d73956",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Cannot Bring Self|You cannot bring yourself to amputate your =limb.ordinalName=.",
+      "context": "AmputateLimb Fail Cannot Bring Self",
+      "old_value": "Ihr könnt Euch nicht dazu durchringen, Euer =limb.ordinalName= zu amputieren.",
+      "new_value": "Du kannst dich nicht dazu durchringen, dein =limb.ordinalName= zu amputieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4ca28e7d8d2791d",
+      "file": "Strings.de.xml",
+      "key": "AmputateLimb Fail Sees No Reason|=subject.Does:see= no reason for you to amputate =subject.its= =limb.ordinalName=.",
+      "context": "AmputateLimb Fail Sees No Reason",
+      "old_value": "=subject.Konjde:sehen= keinen Grund für Euch, =subject.its.part:akk#limb= zu amputieren.",
+      "new_value": "=subject.Konjde:sehen= keinen Grund für dich, =subject.its.part:akk#limb= zu amputieren.",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "8ce9588b8c7bdec6",
+      "file": "Strings.de.xml",
+      "key": "IronMind message log (partial confusion shake)|You muster your will and shake off some of your confusion.",
+      "context": "IronMind message log (partial confusion shake)",
+      "old_value": "Ihr rafft Euren Willen auf und schüttelt etwas Eure Verwirrung ab.",
+      "new_value": "Du raffst deinen Willen auf und schüttelst etwas deine Verwirrung ab.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e9ba8534c6fbcef1",
+      "file": "Strings.de.xml",
+      "key": "IronMind message log|You muster your will and shake off your confusion.",
+      "context": "IronMind message log",
+      "old_value": "Ihr rafft Euren Willen auf und schüttelt Eure Verwirrung ab.",
+      "new_value": "Du raffst deinen Willen auf und schüttelst deine Verwirrung ab.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "229e2fcc14ed5178",
+      "file": "Strings.de.xml",
+      "key": "ShieldWall Fail - No Shield|You have no shield to raise.",
+      "context": "ShieldWall Fail - No Shield",
+      "old_value": "Ihr habt keinen Schild zum Hochheben.",
+      "new_value": "Du hast keinen Schild zum Hochheben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df52cc5663a10ed9",
+      "file": "Strings.de.xml",
+      "key": "Camp Fail Hostiles|You can't cook with hostiles nearby.",
+      "context": "Camp Fail Hostiles",
+      "old_value": "Ihr könnt nicht kochen, wenn Gegner in der Nähe sind.",
+      "new_value": "Du kannst nicht kochen, wenn Gegner in der Nähe sind.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b226d49d3d3720b0",
+      "file": "Strings.de.xml",
+      "key": "Camp Fail Other Zone|You can only build a campfire in the same zone you are in.",
+      "context": "Camp Fail Other Zone",
+      "old_value": "Ihr könnt ein Lagerfeuer nur in derselben Zone bauen, in der Ihr seid.",
+      "new_value": "Du kannst ein Lagerfeuer nur in derselben Zone bauen, in der du bist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32faba9096cb94af",
+      "file": "Strings.de.xml",
+      "key": "Camp Fail In Pool|You cannot start a campfire in =pool.the.name=.",
+      "context": "Camp Fail In Pool",
+      "old_value": "Ihr könnt kein Lagerfeuer in =pool.the.name= anzünden.",
+      "new_value": "Du kannst kein Lagerfeuer in =pool.the.name= anzünden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d60722bd453dabaf",
+      "file": "Strings.de.xml",
+      "key": "Tinker Recharge|You don't have any =bits.bitString= bits, which are required for recharging.",
+      "context": "Tinker Recharge",
+      "old_value": "Ihr habt keine =bits.bitString=-Bits, die zum Aufladen erforderlich sind.",
+      "new_value": "Du hast keine =bits.bitString=-Bits, die zum Aufladen erforderlich sind.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bd49b23245734919",
+      "file": "Strings.de.xml",
+      "key": "Tinker Recharge|It would take {{C|=needed=}} =bits.bitString= =needed.ifplural:bits:bit= to fully recharge =object.the.name:single=. You have {{C|=available=}}. How many do you want to use?",
+      "context": "Tinker Recharge",
+      "old_value": "Es würde {{C|=needed=}} =bits.bitString= =needed.ifplural:bits:bit= kosten, um =object.the.name:single= vollständig aufzuladen. Ihr habt {{C|=available=}}. Wie viele wollt Ihr verwenden?",
+      "new_value": "Es würde {{C|=needed=}} =bits.bitString= =needed.ifplural:bits:bit= kosten, um =object.the.name:single= vollständig aufzuladen. Du hast {{C|=available=}}. Wie viele willst du verwenden?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "672d12ff94115a11",
+      "file": "Strings.de.xml",
+      "key": "Tinker Recharge|You have no items that require charging.",
+      "context": "Tinker Recharge",
+      "old_value": "Ihr habt keine Gegenstände, die Aufladung benötigen.",
+      "new_value": "Du hast keine Gegenstände, die Aufladung benötigen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "852219c67d68db25",
+      "file": "Strings.de.xml",
+      "key": "Tinker Recharge pick item title|Select an item to charge.",
+      "context": "Tinker Recharge pick item title",
+      "old_value": "Wählen Sie einen Gegenstand zum Aufladen.",
+      "new_value": "Wähle einen Gegenstand zum Aufladen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc698ddfeee5dafd",
+      "file": "Strings.de.xml",
+      "key": "Tinkering Learn FlashOfInsight|You have a flash of insight and scribe =object.a.name:long=.",
+      "context": "Tinkering Learn FlashOfInsight",
+      "old_value": "Euch durchzuckt ein Geistesblitz und Ihr schreibt =object.a.name:long= auf.",
+      "new_value": "Dich durchzuckt ein Geistesblitz und du schreibst =object.a.name:long= auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "853930af738282d3",
+      "file": "Strings.de.xml",
+      "key": "StairsDown PullMessage Default|You fall down a deep shaft!",
+      "context": "StairsDown PullMessage Default",
+      "old_value": "Ihr fallt in einen tiefen Schacht hinunter!",
+      "new_value": "Du fällst in einen tiefen Schacht hinunter!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e712902c06a43393",
+      "file": "Strings.de.xml",
+      "key": "StairsDown LockedNoKey|=subject.Does:are= locked, and you don't have the key.",
+      "context": "StairsDown LockedNoKey",
+      "old_value": "=subject.Konjde:sein= verschlossen, und Ihr habt keinen Schlüssel.",
+      "new_value": "=subject.Konjde:sein= verschlossen, und du hast keinen Schlüssel.",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "cd456c8ddbdec48d",
+      "file": "Strings.de.xml",
+      "key": "Companion fell down a hole message log|Your =subject.pluralize.word:companion=, =subject.a.name:withTitles=, =subject.verb:have= fallen =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite= =object.to.the.direction=!",
+      "context": "Companion fell down a hole message log",
+      "old_value": "Euer =subject.pluralize.word:companion=, =subject.a.name:withTitles=, =subject.konjde:haben= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite= =object.to.the.direction= gefallen!",
+      "new_value": "Dein =subject.pluralize.word:companion=, =subject.a.name:withTitles=, =subject.konjde:haben= =object.tag:FallPreposition:down= =object.the.or.a.name#useDefinite= =object.to.the.direction= gefallen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b367134252e62162",
+      "file": "Strings.de.xml",
+      "key": "StairsDown You fall downward|You fall downward!",
+      "context": "StairsDown You fall downward",
+      "old_value": "Ihr fallt hinunter!",
+      "new_value": "Du fällst hinunter!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa946d9bfde6db2a",
+      "file": "Strings.de.xml",
+      "key": "StairsUp LockedNoKey|=object.Does:are= locked, and you don't have the key.",
+      "context": "StairsUp LockedNoKey",
+      "old_value": "=object.Konjde:sein= verschlossen, und Ihr habt keinen Schlüssel.",
+      "new_value": "=object.Konjde:sein= verschlossen, und du hast keinen Schlüssel.",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "46f0d4521e2badd2",
+      "file": "Strings.de.xml",
+      "key": "Container Cannot Trade|You cannot trade with =object.the.name=.",
+      "context": "Container Cannot Trade",
+      "old_value": "Ihr könnt nicht mit =object.dativ= handeln.",
+      "new_value": "Du kannst nicht mit =object.dativ= handeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d4f887f08d99157",
+      "file": "Strings.de.xml",
+      "key": "Container Not Owned|That is not owned by you. Are you sure you want to open it?",
+      "context": "Container Not Owned",
+      "old_value": "Das gehört Euch nicht. Seid Ihr sicher, dass Ihr es öffnen möchtet?",
+      "new_value": "Das gehört dir nicht. Bist du sicher, dass du es öffnen möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c2e0a2afaedd80b6",
+      "file": "Strings.de.xml",
+      "key": "Switch Enable Nearby|You hear a loud click from across the room.",
+      "context": "Switch Enable Nearby",
+      "old_value": "Ihr hört ein lautes Klicken von der anderen Seite des Zimmers.",
+      "new_value": "Du hörst ein lautes Klicken von der anderen Seite des Zimmers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ef444fafd3a8f687",
+      "file": "Strings.de.xml",
+      "key": "Switch Enable Distant|You hear a distant click.",
+      "context": "Switch Enable Distant",
+      "old_value": "Ihr hört ein fernes Klicken.",
+      "new_value": "Du hörst ein fernes Klicken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "22ac7bc98ed184e9",
+      "file": "Strings.de.xml",
+      "key": "Switch Disable Nearby|You hear a loud click from across the room.",
+      "context": "Switch Disable Nearby",
+      "old_value": "Ihr hört ein lautes Klicken von der anderen Seite des Zimmers.",
+      "new_value": "Du hörst ein lautes Klicken von der anderen Seite des Zimmers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "36fa1b6ace7ef73a",
+      "file": "Strings.de.xml",
+      "key": "Switch Disable Distant|You hear a distant click.",
+      "context": "Switch Disable Distant",
+      "old_value": "Ihr hört ein fernes Klicken.",
+      "new_value": "Du hörst ein fernes Klicken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "50d71cd4a7541ac0",
+      "file": "Strings.de.xml",
+      "key": "WorldTeleporter Message|You are sucked through the surface of the sphere!",
+      "context": "WorldTeleporter Message",
+      "old_value": "Ihr werdet durch die Oberfläche der Kugel gesaugt!",
+      "new_value": "Du wirst durch die Oberfläche der Kugel gesaugt!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f2f6d5421dd6bcf2",
+      "file": "Strings.de.xml",
+      "key": "|You now have =total= feet of copper wire.",
+      "context": "",
+      "old_value": "Ihr habt nun =total= Fuß Kupferdraht.",
+      "new_value": "Du hast nun =total= Fuß Kupferdraht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7cbb22e7d281dcd8",
+      "file": "Strings.de.xml",
+      "key": "Skill UI PowerEntry Skill Exclusion Popup|You may not learn this skill if you already have =skill.name=.",
+      "context": "Skill UI PowerEntry Skill Exclusion Popup",
+      "old_value": "Ihr könnt diese Fähigkeit nicht erlernen, wenn Ihr bereits =skill.name= habt.",
+      "new_value": "Du kannst diese Fähigkeit nicht erlernen, wenn du bereits =skill.name= hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ce2ceb2bd55c899",
+      "file": "Strings.de.xml",
+      "key": "Skill UI PowerEntry Mutation Exclusion Popup|You may not learn this skill if you have =mutation.name=.",
+      "context": "Skill UI PowerEntry Mutation Exclusion Popup",
+      "old_value": "Ihr könnt diese Fähigkeit nicht erlernen, wenn Ihr =mutation.name= habt.",
+      "new_value": "Du kannst diese Fähigkeit nicht erlernen, wenn du =mutation.name= hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7b20f5d23fb22c3b",
+      "file": "Strings.de.xml",
+      "key": "Skill UI PowerEntry Skill Requirement Popup|You may not learn this skill until you have =skillname=.",
+      "context": "Skill UI PowerEntry Skill Requirement Popup",
+      "old_value": "Ihr könnt diese Fähigkeit nicht erlernen, bis Ihr =skillname= habt.",
+      "new_value": "Du kannst diese Fähigkeit nicht erlernen, bis du =skillname= hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f0023916a43d60ee",
+      "file": "Strings.de.xml",
+      "key": "Skill UI PowerEntry Mutation Mutation Requirement Popup|You may not learn this skill until you have =mutation.name=.",
+      "context": "Skill UI PowerEntry Mutation Mutation Requirement Popup",
+      "old_value": "Ihr könnt diese Fähigkeit nicht erlernen, bis Ihr =mutation.name= habt.",
+      "new_value": "Du kannst diese Fähigkeit nicht erlernen, bis du =mutation.name= hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0ffba699c8894ed",
+      "file": "Strings.de.xml",
+      "key": "Skill UI PowerEntryRequirements Attribute Too Low Popup|Your =attribute.statCapDisplayName= isn't high enough to buy =powerEntry.name=!",
+      "context": "Skill UI PowerEntryRequirements Attribute Too Low Popup",
+      "old_value": "Euer =attribute.statCapDisplayName= ist nicht hoch genug, um =powerEntry.name= zu kaufen!",
+      "new_value": "Dein =attribute.statCapDisplayName= ist nicht hoch genug, um =powerEntry.name= zu kaufen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4f4f285f92072521",
+      "file": "Strings.de.xml",
+      "key": "Disassembly InterruptBecause|the item you were working on disappeared",
+      "context": "Disassembly InterruptBecause",
+      "old_value": "der Gegenstand, mit dem Ihr arbeitet, ist verschwunden",
+      "new_value": "der Gegenstand, mit dem du arbeitest, ist verschwunden",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e558d8558cdfc3db",
+      "file": "Strings.de.xml",
+      "key": "Disassembly InterruptBecause|the item you were working on was destroyed",
+      "context": "Disassembly InterruptBecause",
+      "old_value": "der Gegenstand, mit dem Ihr arbeitet, wurde zerstört",
+      "new_value": "der Gegenstand, mit dem du arbeitest, wurde zerstört",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fa976f615005d59d",
+      "file": "Strings.de.xml",
+      "key": "Disassembly InterruptBecause|=object.does:are= no longer within your reach",
+      "context": "Disassembly InterruptBecause",
+      "old_value": "=object.konjde:sein= nicht mehr in Eurer Reichweite",
+      "new_value": "=object.konjde:sein= nicht mehr in deiner Reichweite",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "33cf08875374d0da",
+      "file": "Strings.de.xml",
+      "key": "Disassembly InterruptBecause|you can no longer interact with =object.the.name=",
+      "context": "Disassembly InterruptBecause",
+      "old_value": "Ihr könnt nicht länger mit =object.dativ= interagieren",
+      "new_value": "du kannst nicht länger mit =object.dativ= interagieren",
+      "note": "Satzfragment (engl. klein 'you') -> 'du' klein",
+      "status": "accepted"
+    },
+    {
+      "uid": "0327cdd376d4e774",
+      "file": "Strings.de.xml",
+      "key": "Disassembly InterruptBecause|you no longer know how to disassemble things",
+      "context": "Disassembly InterruptBecause",
+      "old_value": "Ihr habt verlernt, wie man Gegenstände zerlegt",
+      "new_value": "du hast verlernt, wie man Gegenstände zerlegt",
+      "note": "Satzfragment (engl. klein 'you') -> 'du' klein",
+      "status": "accepted"
+    },
+    {
+      "uid": "c622251c9555d4a1",
+      "file": "Strings.de.xml",
+      "key": "Disassembly InterruptBecause|you can no longer move your extremities",
+      "context": "Disassembly InterruptBecause",
+      "old_value": "Ihr könnt Eure Gliedmaßen nicht länger bewegen",
+      "new_value": "du kannst deine Gliedmaßen nicht länger bewegen",
+      "note": "Satzfragment (engl. klein 'you') -> 'du' klein",
+      "status": "accepted"
+    },
+    {
+      "uid": "74edf457dfd45d7c",
+      "file": "Strings.de.xml",
+      "key": "Disassembly|You start disassembling =object.the.name=.",
+      "context": "Disassembly",
+      "old_value": "Ihr beginnt, =object.the.name= zu zerlegen.",
+      "new_value": "Du beginnst, =object.the.name= zu zerlegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9b5fb7b45eb16076",
+      "file": "Strings.de.xml",
+      "key": "Disassembly learned message|Eureka! You may now =fragments.andList=.",
+      "context": "Disassembly learned message",
+      "old_value": "Heureka! Ihr könnt jetzt =fragments.andList=.",
+      "new_value": "Heureka! Du kannst jetzt =fragments.andList=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f00ec77f2568007b",
+      "file": "Strings.de.xml",
+      "key": "Disassembly learned message|Eureka! You may now =fragments.andList=... and were able to work out how without needing to destroy =object.the.name=!",
+      "context": "Disassembly learned message",
+      "old_value": "Heureka! Ihr könnt jetzt =fragments.andList=... und habt herausgefunden, wie es geht, ohne =object.the.name= zerstören zu müssen!",
+      "new_value": "Heureka! Du kannst jetzt =fragments.andList=... und hast herausgefunden, wie es geht, ohne =object.the.name= zerstören zu müssen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d22744318e7929a",
+      "file": "Strings.de.xml",
+      "key": "Disassembly Report Items (fragment)|You disassemble =items.andList=.",
+      "context": "Disassembly Report Items (fragment)",
+      "old_value": "Ihr zerlegt =items.andList=.",
+      "new_value": "Du zerlegst =items.andList=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7bab218c3f90d665",
+      "file": "Strings.de.xml",
+      "key": "Disassembly BitMessage (fragment)|You receive tinkering bits <=bits.bits=>.",
+      "context": "Disassembly BitMessage (fragment)",
+      "old_value": "Ihr erhaltet Bastelbits <=bits.bits=>.",
+      "new_value": "Du erhältst Bastelbits <=bits.bits=>.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e292c129dccee586",
+      "file": "Strings.de.xml",
+      "key": "Golem Quest Selection No Match|You have nothing that meets the requirement of the =selection=.",
+      "context": "Golem Quest Selection No Match",
+      "old_value": "Ihr habt nichts, das die Anforderungen von =selection= erfüllt.",
+      "new_value": "Du hast nichts, das die Anforderungen von =selection= erfüllt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d14d1f99d9ebeda1",
+      "file": "Strings.de.xml",
+      "key": "Golem Quest Mound Hostiles|You can't do that with hostile creatures nearby.",
+      "context": "Golem Quest Mound Hostiles",
+      "old_value": "Das könnt Ihr nicht mit feindseligen Wesen in der Nähe tun.",
+      "new_value": "Das kannst du nicht mit feindseligen Wesen in der Nähe tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8bb5afd813c009b8",
+      "file": "Strings.de.xml",
+      "key": "Children of the Tomb Accomplishment - Text|You restored functionality to one of the four strange entities in the Tomb.",
+      "context": "Children of the Tomb Accomplishment - Text",
+      "old_value": "Ihr habt die Funktionalität einer der vier seltsamen Wesenheiten in der Gruft wiederhergestellt.",
+      "new_value": "Du hast die Funktionalität einer der vier seltsamen Wesenheiten in der Gruft wiederhergestellt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "95602114139ca858",
+      "file": "Strings.de.xml",
+      "key": "Village Warden Conversation response|Live and drink.",
+      "context": "Village Warden Conversation response",
+      "old_value": "Leben Sie und trinken Sie.",
+      "new_value": "Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7e247b539b857bb",
+      "file": "Strings.de.xml",
+      "key": "Village apothecary conversation prompt|Live and drink.",
+      "context": "Village apothecary conversation prompt",
+      "old_value": "Leben Sie und trinken Sie.",
+      "new_value": "Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "56a3d2eaa4221fc9",
+      "file": "Strings.de.xml",
+      "key": "Village tinker conversation prompt|Live and drink, tinker.",
+      "context": "Village tinker conversation prompt",
+      "old_value": "Leben Sie und trinken Sie, Bastler.",
+      "new_value": "Lebe und trinke, Bastler.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6b13d0f94ad769db",
+      "file": "Strings.de.xml",
+      "key": "Village pet conversation prompt|Live and drink.",
+      "context": "Village pet conversation prompt",
+      "old_value": "Leben Sie und trinken Sie.",
+      "new_value": "Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eccae6b58ae2f1e9",
+      "file": "Strings.de.xml",
+      "key": "VillageBase AddVillagerConversation default response|Live and drink.",
+      "context": "VillageBase AddVillagerConversation default response",
+      "old_value": "Leben Sie und trinken Sie.",
+      "new_value": "Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3004abe68e86cecd",
+      "file": "Strings.de.xml",
+      "key": "Village merchant conversation intro|Welcome, =player.species=. What do you desire?",
+      "context": "Village merchant conversation intro",
+      "old_value": "Willkommen, =player.species=. Was begehren Sie?",
+      "new_value": "Willkommen, =player.species=. Was begehrst du?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "87876dead4449d17",
+      "file": "Strings.de.xml",
+      "key": "Village apothecary conversation intro low tier|I've the cure for what ails you.~You don't look so good. You need more yuckwheat and honey in your diet.~Cook your meals with yuckwheat if you feel sick. Catch a disease early enough and you can kill it.~\"Ease the pain, addle the brain.\" Be careful when you chew witchwood bark.",
+      "context": "Village apothecary conversation intro low tier",
+      "old_value": "Ich habe das Heilmittel für das, was Euch plagt.~Ihr seht nicht so gut aus. Ihr braucht mehr Juckweizen und Honig in Eurer Ernährung.~Kocht Eure Mahlzeiten mit Juckweizen, wenn Ihr Euch krank fühlt. Fangt eine Krankheit früh genug ein und Ihr könnt sie töten.~\"Lindert den Schmerz, verwirrt den Verstand.\" Seid vorsichtig, wenn Ihr Hexenholzrinde kaut.",
+      "new_value": "Ich habe das Heilmittel für das, was dich plagt.~Du siehst nicht so gut aus. Du brauchst mehr Juckweizen und Honig in deiner Ernährung.~Koche deine Mahlzeiten mit Juckweizen, wenn du dich krank fühlst. Fange eine Krankheit früh genug ein und du kannst sie töten.~\"Lindert den Schmerz, verwirrt den Verstand.\" Sei vorsichtig, wenn du Hexenholzrinde kaust.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "41f735f9620b3d6e",
+      "file": "Strings.de.xml",
+      "key": "Village apothecary conversation intro|I've the cure for what ails you.~You don't look so good. You need more yuckwheat and honey in your diet.~Cook your meals with yuckwheat if you feel sick. Catch a disease early enough and you can kill it.~\"Ease the pain, addle the brain.\" Be careful when you chew witchwood bark.~In the market for a tonic, =player.formalAddressTerm=? Spend water now or blood later, your choice.~Prickly-boons and yuckwheat for trade.~If you came for the humble pie, you had best not have led any mind-hunters here.~Have you got enough tonics?",
+      "context": "Village apothecary conversation intro",
+      "old_value": "Ich habe das Heilmittel für das, was Euch plagt.~Ihr seht nicht so gut aus. Ihr braucht mehr Juckweizen und Honig in Eurer Ernährung.~Kocht Eure Mahlzeiten mit Juckweizen, wenn Ihr Euch krank fühlt. Fangt eine Krankheit früh genug ein und Ihr könnt sie töten.~\"Lindert den Schmerz, verwirrt den Verstand.\" Seid vorsichtig, wenn Ihr Hexenholzrinde kaut.~Habt Ihr Lust auf ein Tonikum, =player.formalAddressTerm=? Bezahlt jetzt mit Wasser oder später mit Blut, Eure Wahl.~Stachelige Segnungen und Juckweizen zum Tausch.~Wenn Ihr für die bescheidene Torte gekommen seid, hättet Ihr besser keine Gedankenjäger hierher geführt.~Habt Ihr genug Tonika?",
+      "new_value": "Ich habe das Heilmittel für das, was dich plagt.~Du siehst nicht so gut aus. Du brauchst mehr Juckweizen und Honig in deiner Ernährung.~Koche deine Mahlzeiten mit Juckweizen, wenn du dich krank fühlst. Fange eine Krankheit früh genug ein und du kannst sie töten.~\"Lindert den Schmerz, verwirrt den Verstand.\" Sei vorsichtig, wenn du Hexenholzrinde kaust.~Hast du Lust auf ein Tonikum, =player.formalAddressTerm=? Bezahle jetzt mit Wasser oder später mit Blut, deine Wahl.~Stachelige Segnungen und Juckweizen zum Tausch.~Wenn du für die bescheidene Torte gekommen bist, hättest du besser keine Gedankenjäger hierher geführt.~Hast du genug Tonika?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "976972f3f95c2f66",
+      "file": "Strings.de.xml",
+      "key": "Village tinker conversation intro|Need a gadget repaired or identified, =player.formalAddressTerm=? Or if you're a tinker =player.reflexive=, perhaps you'd like to peruse my schematics?",
+      "context": "Village tinker conversation intro",
+      "old_value": "Benötigt Ihr einen Apparat repariert oder identifiziert, =player.formalAddressTerm=? Oder wenn Ihr ein Bastler =player.reflexive= seid, möchtet Ihr vielleicht meine Schaltpläne durchsehen?",
+      "new_value": "Benötigst du einen Apparat repariert oder identifiziert, =player.formalAddressTerm=? Oder wenn du ein Bastler =player.reflexive= bist, möchtest du vielleicht meine Schaltpläne durchsehen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c1c087d3d4d7138b",
+      "file": "Strings.de.xml",
+      "key": "Village reveal string|You discover the abandoned village of =villageName=.",
+      "context": "Village reveal string",
+      "old_value": "Ihr entdeckt das verlassene Dorf =villageName=.",
+      "new_value": "Du entdeckst das verlassene Dorf =villageName=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0d114351f296c377",
+      "file": "Strings.de.xml",
+      "key": "Village reveal string|You discover the village of =villageName=.",
+      "context": "Village reveal string",
+      "old_value": "Ihr entdeckt das Dorf des =villageName=.",
+      "new_value": "Du entdeckst das Dorf des =villageName=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f3ad99b848db9a9",
+      "file": "Strings.de.xml",
+      "key": "AmbientStabilization ZonePart - Popup message|You feel some ambient astral friction here.",
+      "context": "AmbientStabilization ZonePart - Popup message",
+      "old_value": "Ihr fühlt hier etwas astrale Reibung.",
+      "new_value": "Du fühlst hier etwas astrale Reibung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e0d1e5826798df7c",
+      "file": "Strings.de.xml",
+      "key": "|You notice some ruins nearby. Would you like to investigate?",
+      "context": "",
+      "old_value": "Ihr bemerkt Ruinen in der Nähe. Möchtet Ihr sie untersuchen?",
+      "new_value": "Du bemerkst Ruinen in der Nähe. Möchtest du sie untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3b76fabca2c81273",
+      "file": "Strings.de.xml",
+      "key": "|You smell roasted boar nearby. Would you like to investigate?",
+      "context": "",
+      "old_value": "Ihr riecht gebratenes Wildschwein in der Nähe. Möchtet Ihr es untersuchen?",
+      "new_value": "Du riechst gebratenes Wildschwein in der Nähe. Möchtest du es untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f70c5bd8fac8218",
+      "file": "Strings.de.xml",
+      "key": "|You experience a sense memory of roasted boar smell. Would you like to investigate?",
+      "context": "",
+      "old_value": "Euch kommt eine Sinneserinnerung an Wildschweinbraten in den Sinn. Möchtet Ihr untersuchen?",
+      "new_value": "Dir kommt eine Sinneserinnerung an Wildschweinbraten in den Sinn. Möchtest du untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bdacb3af6abb149c",
+      "file": "Strings.de.xml",
+      "key": "|You discover an abandoned village. Would you like to investigate?",
+      "context": "",
+      "old_value": "Ihr entdeckt ein verlassenes Dorf. Möchtet Ihr es untersuchen?",
+      "new_value": "Du entdeckst ein verlassenes Dorf. Möchtest du es untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0d939852e826b73",
+      "file": "Strings.de.xml",
+      "key": "|You discover a village. Would you like to investigate?",
+      "context": "",
+      "old_value": "Ihr entdeckt ein Dorf. Möchtet Ihr es untersuchen?",
+      "new_value": "Du entdeckst ein Dorf. Möchtest du es untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e8d1419dbe538dad",
+      "file": "Strings.de.xml",
+      "key": "|You discover some historic ruins. Would you like to investigate?",
+      "context": "",
+      "old_value": "Ihr entdeckt einige historische Ruinen. Möchtet Ihr sie untersuchen?",
+      "new_value": "Du entdeckst einige historische Ruinen. Möchtest du sie untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "70283aa78e111a14",
+      "file": "Strings.de.xml",
+      "key": "|You discover a lair. Would you like to investigate?",
+      "context": "",
+      "old_value": "Ihr entdeckt ein Lager. Möchtet Ihr es untersuchen?",
+      "new_value": "Du entdeckst ein Lager. Möchtest du es untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e273e9f6700bcf9d",
+      "file": "Strings.de.xml",
+      "key": "|You discover =regionName=.",
+      "context": "",
+      "old_value": "Ihr entdeckt =regionName=.",
+      "new_value": "Du entdeckst =regionName=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2f978e46903f561",
+      "file": "Strings.de.xml",
+      "key": "|You come upon a yawning pit. Would you like to investigate?",
+      "context": "",
+      "old_value": "Ihr stoßt auf eine klaffende Grube. Möchtet Ihr sie untersuchen?",
+      "new_value": "Du stößt auf eine klaffende Grube. Möchtest du sie untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7d16a53ef835a494",
+      "file": "Strings.de.xml",
+      "key": "ZoneManager message log warning for debug mode|{{R|WARNING: You have the Disable Zone Caching option enabled, this will cause massive memory use over time.}}",
+      "context": "ZoneManager message log warning for debug mode",
+      "old_value": "{{R|WARNUNG: Ihr habt die Option zum Deaktivieren des Zone-Cachings aktiviert, dies führt zu massivem Speicherverbrauch im Laufe der Zeit.}}",
+      "new_value": "{{R|WARNUNG: Du hast die Option zum Deaktivieren des Zone-Cachings aktiviert, dies führt zu massivem Speicherverbrauch im Laufe der Zeit.}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4aa7b02be9265ed1",
+      "file": "Strings.de.xml",
+      "key": "ZoneManager zone build error retry message|This zone isn't building properly. Do you want to force it to stop and build immediately?",
+      "context": "ZoneManager zone build error retry message",
+      "old_value": "Diese Zone wird nicht ordnungsgemäß erstellt. Möchten Sie sie zum Stoppen und sofortigen Erstellen erzwingen?",
+      "new_value": "Diese Zone wird nicht ordnungsgemäß erstellt. Möchtest du sie zum Stoppen und sofortigen Erstellen erzwingen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c3c6445374543789",
+      "file": "Strings.de.xml",
+      "key": "|You can't craft with that =object=.@#text",
+      "context": null,
+      "old_value": "Ihr könnt mit diesem =object= nicht basteln.",
+      "new_value": "Du kannst mit diesem =object= nicht basteln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "164c1824be6bc0b8",
+      "file": "Strings.de.xml",
+      "key": "|You can't unequip =object.the.name=.@#text",
+      "context": null,
+      "old_value": "Ihr könnt =object.the.name= nicht ablegen.",
+      "new_value": "Du kannst =object.the.name= nicht ablegen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4004b9498061b79",
+      "file": "Strings.de.xml",
+      "key": "|You have no infectable body parts.@#text",
+      "context": null,
+      "old_value": "Ihr habt keine infizierbaren Körperteile.",
+      "new_value": "Du hast keine infizierbaren Körperteile.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "26e09cff4fc899e7",
+      "file": "Strings.de.xml",
+      "key": "|You contracted =object.name= on your =part.ordinalName=, endearing =subject.reflexive= to fungi across Qud.@#text",
+      "context": null,
+      "old_value": "Ihr habt Euch =object.name= an Eurem =part.ordinalName= zugezogen und damit =subject.reflexive= bei den Pilzen in ganz Qud beliebt gemacht.",
+      "new_value": "Du hast dir =object.name= an deinem =part.ordinalName= zugezogen und damit =subject.reflexive= bei den Pilzen in ganz Qud beliebt gemacht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "127dfb102403bc97",
+      "file": "Strings.de.xml",
+      "key": "|You've contracted =object.name= on your =part.ordinalName=.@#text",
+      "context": null,
+      "old_value": "Ihr habt Euch =object.name= an Eurem =part.ordinalName= zugezogen.",
+      "new_value": "Du hast dir =object.name= an deinem =part.ordinalName= zugezogen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "27014dac481ad66e",
+      "file": "Strings.de.xml",
+      "key": "|You have contracted glotrot! Your tongue begins to bleed as the muscle rots away.@#text",
+      "context": null,
+      "old_value": "Ihr habt Euch Glotrot zugezogen! Eure Zunge beginnt zu bluten, während der Muskel verfault.",
+      "new_value": "Du hast dir Glotrot zugezogen! Deine Zunge beginnt zu bluten, während der Muskel verfault.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f054150a6673a506",
+      "file": "Strings.de.xml",
+      "key": "|You contracted glotrot.@#text",
+      "context": null,
+      "old_value": "Ihr habt Euch Glotrot zugezogen.",
+      "new_value": "Du hast dir Glotrot zugezogen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4b4354c6bf9e59a8",
+      "file": "Strings.de.xml",
+      "key": "|You tear open the tender muscle fibers of your tongue.@#text",
+      "context": null,
+      "old_value": "Ihr reißt die zarten Muskelfasern Eurer Zunge auf.",
+      "new_value": "Du reißt die zarten Muskelfasern deiner Zunge auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "47339a2622a65bcd",
+      "file": "Strings.de.xml",
+      "key": "|You are cured of glotrot. Your tongue regrows.@#text",
+      "context": null,
+      "old_value": "Ihr seid von Glotrot geheilt. Eure Zunge wächst nach.",
+      "new_value": "Du bist von Glotrot geheilt. Deine Zunge wächst nach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3e2c12225393bd25",
+      "file": "Strings.de.xml",
+      "key": "|You were cured of glotrot and your tongue regrew.@#text",
+      "context": null,
+      "old_value": "Ihr wurdet von Glotrot geheilt und Eure Zunge wuchs nach.",
+      "new_value": "Du wurdest von Glotrot geheilt und deine Zunge wuchs nach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5fd1d3225e78571c",
+      "file": "Strings.de.xml",
+      "key": "|Your tongue regrows.@#text",
+      "context": null,
+      "old_value": "Eure Zunge wächst nach.",
+      "new_value": "Deine Zunge wächst nach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "792f68252b20f268",
+      "file": "Strings.de.xml",
+      "key": "|Your tongue regrew.@#text",
+      "context": null,
+      "old_value": "Eure Zunge wuchs nach.",
+      "new_value": "Deine Zunge wuchs nach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b3d42d244e3a624d",
+      "file": "Strings.de.xml",
+      "key": "|Your tongue begins to bleed as the muscle rots away.@#text",
+      "context": null,
+      "old_value": "Eure Zunge beginnt zu bluten, während der Muskel verfault.",
+      "new_value": "Deine Zunge beginnt zu bluten, während der Muskel verfault.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "89581594ccae96d5",
+      "file": "Strings.de.xml",
+      "key": "|Your tongue has rotted away.@#text",
+      "context": null,
+      "old_value": "Eure Zunge ist verfault.",
+      "new_value": "Deine Zunge ist verfault.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1017f24771759270",
+      "file": "Strings.de.xml",
+      "key": "|Your tongue rotted away.@#text",
+      "context": null,
+      "old_value": "Eure Zunge verfaulte.",
+      "new_value": "Deine Zunge verfaulte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dacd588b1dd2f10e",
+      "file": "Strings.de.xml",
+      "key": "|Remember the =day= of =month=, in the year of =year=, when through shere strength of will =name= regrew =player.their= tongue.@#text",
+      "context": null,
+      "old_value": "Erinnert Euch an den =day= des =month= im Jahr =year=, als =name= durch reine Willenskraft =player.their= Zunge nachwachsen ließ.",
+      "new_value": "Erinnere dich an den =day= des =month= im Jahr =year=, als =name= durch reine Willenskraft =player.their= Zunge nachwachsen ließ.",
+      "note": "Chronik-Imperativ; als Spieler-Anrede behandelt (Sg.)",
+      "status": "accepted"
+    },
+    {
+      "uid": "541f5e95708e6df4",
+      "file": "Strings.de.xml",
+      "key": "|It tastes even worse than you had imagined -- like a dead turtle boiled in phlegm.@#text",
+      "context": null,
+      "old_value": "Es schmeckt noch schlimmer, als Ihr es Euch vorgestellt habt -- wie eine tote Schildkröte, gekocht in Schleim.",
+      "new_value": "Es schmeckt noch schlimmer, als du es dir vorgestellt hast -- wie eine tote Schildkröte, gekocht in Schleim.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "811436538402ca20",
+      "file": "Strings.de.xml",
+      "key": "|You have contracted Ironshank! You feel the cartilage stretch as your leg bones grind together at the joints.@#text",
+      "context": null,
+      "old_value": "Ihr habt Euch den Eisenschenkel zugezogen! Ihr spürt, wie der Knorpel sich dehnt, während Eure Beinknochen an den Gelenken aneinander reiben.",
+      "new_value": "Du hast dir den Eisenschenkel zugezogen! Du spürst, wie der Knorpel sich dehnt, während deine Beinknochen an den Gelenken aneinander reiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4a7eff3dbaf1efed",
+      "file": "Strings.de.xml",
+      "key": "|You contracted ironshank.@#text",
+      "context": null,
+      "old_value": "Ihr habt Euch den Eisenschenkel zugezogen.",
+      "new_value": "Du hast dir den Eisenschenkel zugezogen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "67dd18e8cd894a00",
+      "file": "Strings.de.xml",
+      "key": "|The pain in your joints subsides.@#text",
+      "context": null,
+      "old_value": "Der Schmerz in Euren Gelenken lässt nach.",
+      "new_value": "Der Schmerz in deinen Gelenken lässt nach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ac2e14c474a51e37",
+      "file": "Strings.de.xml",
+      "key": "|You were cured of ironshank and your leg bones softened.@#text",
+      "context": null,
+      "old_value": "Ihr wurdet vom Eisenschenkel geheilt, und Eure Beinknochen wurden wieder weich.",
+      "new_value": "Du wurdest vom Eisenschenkel geheilt, und deine Beinknochen wurden wieder weich.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

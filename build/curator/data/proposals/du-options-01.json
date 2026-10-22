@@ -1,0 +1,98 @@
+{
+  "batch": "du-options-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-options-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "1e1892256b6ab294",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[Option@HPColor]@DisplayText",
+      "context": null,
+      "old_value": "Färbe die Glyphe Eures Charakters nach Eurem Gesundheitszustand",
+      "new_value": "Färbe die Glyphe deines Charakters nach deinem Gesundheitszustand",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2a39d777c3e73d59",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[Option@AlwaysHPColor]@DisplayText",
+      "context": null,
+      "old_value": "Ignoriert alle Effekte, die Euer Charakterglyphen umfärben, außer dem Gesundheitsstatus",
+      "new_value": "Ignoriert alle Effekte, die dein Charakterglyphen umfärben, außer dem Gesundheitsstatus",
+      "note": "Euer->dein; vorhandener Kongruenzfehler 'Charakterglyphen' nicht korrigiert",
+      "status": "accepted"
+    },
+    {
+      "uid": "31fd688a63fbcf88",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[Option@MutationColor]@DisplayText",
+      "context": null,
+      "old_value": "Erlaube Mutationen, das Glyphe Ihres Charakters umzufärben",
+      "new_value": "Erlaube Mutationen, das Glyphe deines Charakters umzufärben",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ccc6c97c78f1cb01",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionHighlightStairs]@DisplayText",
+      "context": null,
+      "old_value": "Markieren Sie immer Treppen",
+      "new_value": "Markiere immer Treppen",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e5f289c6c56b74ed",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionLogTurnSeparator]@DisplayText",
+      "context": null,
+      "old_value": "Fügen Sie am Ende jeder Runde während des Kampfes ein Zeilentrennung hinzu",
+      "new_value": "Füge am Ende jeder Runde während des Kampfes ein Zeilentrennung hinzu",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bffadf14168ab205",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionDropAll]@DisplayText",
+      "context": null,
+      "old_value": "Aktiviere eine 'Alles fallen lassen'-Interaktion für Gegenstände in Eurem Inventar",
+      "new_value": "Aktiviere eine 'Alles fallen lassen'-Interaktion für Gegenstände in deinem Inventar",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a7b4f964b23e1698",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionMapDirectionsToKeypad]@DisplayText",
+      "context": null,
+      "old_value": "Ordnen Sie Richtungen immer dem Ziffernblock zu",
+      "new_value": "Ordne Richtungen immer dem Ziffernblock zu",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9c57f938e7773b4a",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionPushAZHotkeys]@DisplayText",
+      "context": null,
+      "old_value": "Leiten Sie A-Z-Tastenkombinationen immer an die ältere Benutzeroberfläche weiter",
+      "new_value": "Leite A-Z-Tastenkombinationen immer an die ältere Benutzeroberfläche weiter",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "175b321d00b5c466",
+      "file": "Options.de.xml",
+      "key": "/options#0/option[OptionPopupJournalNote]@DisplayText",
+      "context": null,
+      "old_value": "Popups anzeigen, wenn Sie Informationen in Ihr Tagebuch eintragen",
+      "new_value": "Popups anzeigen, wenn du Informationen in dein Tagebuch einträgst",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

@@ -412,7 +412,7 @@
     <part Name="Description" Short="Eine Schnecke ist zu groß geworden für =pronouns.possessive= Anatomie, um zu wissen, was zu tun ist. Blasen stinkender Brühe platzen über Atemöffnungen in Ellbogengröße, und eine fünfte Phase von müllartiger Materie leckt aus =pronouns.possessive= krustiger Mantel und hinunter den scharfen Kiel von =pronouns.possessive= Rücken. Wo Natur die Anständigkeit hatte, den Körper der gewöhnlichen Schnecke in einem muskulären Fuß zu beenden, ist Slogs Schwanz stattdessen ein Schließmuskel-verengter Abwasserrohr, das =pronouns.subjective= =verb:use:afterpronoun= um üblen Wasserfunk über =pronouns.possessive= Umgebung zu spritzen." />
     <part Name="Epithets" Primary="der Kloake" />
     <xtagGrammar Proper="true" />
-    <tag Name="SharesRecipeText" Value="Ihr wisst, warum ich hier bin, Slog." />
+    <tag Name="SharesRecipeText" Value="Du weißt, warum ich hier bin, Slog." />
   </object>
   <object Name="Slog Bands" Load="Merge">
     <part Name="Render" DisplayName="{{Y|zermalmende Bänder}}" />
@@ -977,11 +977,11 @@
   </object>
   <object Name="Gyre Wight of Agolgot" Load="Merge">
     <part Name="Render" DisplayName="Wirbel-Untoter von Agolgot" />
-    <part Name="Description" Short="Eine Figur ist durch stern-orkidee Robe als Verehrer des Gyre und Frohlocken in der metamorphen Gottheit gekennzeichnet. Nägel schmutzschwarz blitzen aus =pronouns.possessive= Ärmel in einem Gestengedicht heraus, um zu sagen, dass Seuche nur Transmutation ist, der Tod die Leiter zum Leben ist, und die Existenz von Kindern die Vorherrschaft des rohen Wachstums beweist. Ein ekliger und beißender Geruch haftet an =pronouns.objective=." />
+    <part Name="Description" Short="Eine Figur ist durch stern-orkidee Robe als Verehrer des Gyre und Frohlocken in der metamorphen Gottheit gekennzeichnet. Nägel schmutzschwarz blitzen aus =pronouns.possessive= Ärmel in einem Gestengedicht heraus, um zu sagen, dass Seuche nur Transmutation ist, der Tod die Leiter zum Leben ist, und die Existenz von Kindern die Vorherrschaft des rohen Wachstums beweist. Ein ekliger und beißender Geruch haftet an =pronouns.objective:dat=." />
   </object>
   <object Name="Herding Dog" Load="Merge">
     <part Name="Render" DisplayName="Hirtenhund" />
-    <part Name="Description" Short="Weißes und schwarzes Fell fällt von =pronouns.objective= ab, und =pronouns.possessive= Pfoten tippen mit arbeiterischem Juckreiz auf den Boden." />
+    <part Name="Description" Short="Weißes und schwarzes Fell fällt von =pronouns.objective:dat= ab, und =pronouns.possessive= Pfoten tippen mit arbeiterischem Juckreiz auf den Boden." />
   </object>
   <object Name="Ice frog" Load="Merge">
     <part Name="Render" DisplayName="Eisfrosch" />
@@ -1068,7 +1068,7 @@
   </object>
   <object Name="Voider Corpse" Load="Merge">
     <part Name="Render" DisplayName="Leiche eines Leeren" />
-    <part Name="Food" Message="Euer Mund beginnt zu prickeln." />
+    <part Name="Food" Message="Dein Mund beginnt zu prickeln." />
   </object>
   <object Name="Yonderbrush" Load="Merge">
     <part Name="Render" DisplayName="{{B|Yonderbusch}}" />
@@ -1216,7 +1216,7 @@
   </object>
   <object Name="Electric Snail Corpse" Load="Merge">
     <part Name="Render" DisplayName="Elektroschnecken-Leiche" />
-    <part Name="Food" Message="Ihr zerkaut die Schale zu Stücken, und Euer Mund füllt sich mit knisterndem Schleim." />
+    <part Name="Food" Message="Du zerkaust die Schale zu Stücken, und dein Mund füllt sich mit knisterndem Schleim." />
   </object>
   <object Name="Eyeless King Crab" Load="Merge">
     <part Name="Render" DisplayName="Augenlose Königskrabbe" />
@@ -1246,7 +1246,7 @@
   </object>
   <object Name="Gyre Wight of Bethsaida" Load="Merge">
     <part Name="Render" DisplayName="Wirbel-Wight von Bethsaida" />
-    <part Name="Description" Short="Eine Figur ist durch stern-orkidee Robe als Verehrer des Gyre und Frohlocken in der metamorphen Gottheit gekennzeichnet. Nägel schmutzschwarz blitzen aus =pronouns.possessive= Ärmel in einem Gestengedicht heraus, um zu sagen, dass Seuche nur Transmutation ist, der Tod die Leiter zum Leben ist, und die Existenz von Kindern die Vorherrschaft des rohen Wachstums beweist. Kühle und leuchtende Feuchtigkeit haftet an =pronouns.objective=." />
+    <part Name="Description" Short="Eine Figur ist durch stern-orkidee Robe als Verehrer des Gyre und Frohlocken in der metamorphen Gottheit gekennzeichnet. Nägel schmutzschwarz blitzen aus =pronouns.possessive= Ärmel in einem Gestengedicht heraus, um zu sagen, dass Seuche nur Transmutation ist, der Tod die Leiter zum Leben ist, und die Existenz von Kindern die Vorherrschaft des rohen Wachstums beweist. Kühle und leuchtende Feuchtigkeit haftet an =pronouns.objective:dat=." />
   </object>
   <object Name="Gyre Wight of Shug'ruith" Load="Merge">
     <part Name="Render" DisplayName="Wirbel-Wight von Shug'ruith" />
@@ -1352,7 +1352,7 @@
   <object Name="BaseBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="[Atembart-Leichnam]" />
     <part Name="Description" Short="Dunst dampft aus den Rissen zwischen seinen austrocknenden Schuppen." />
-    <part Name="Food" Message="Es knackt und füllt Euren Mund mit Nebel." />
+    <part Name="Food" Message="Es knackt und füllt deinen Mund mit Nebel." />
   </object>
   <object Name="FireBreather" Load="Merge">
     <part Name="Render" DisplayName="Flammenbart" />
@@ -1491,7 +1491,7 @@
   </object>
   <object Name="ElderBob" Load="Merge">
     <part Name="Render" DisplayName="Irudad" />
-    <part Name="Description" Short="Ein warmes Lächeln breitet sich über ein altes, von Zeit und einer Million Salzkörnchen sommersprossenreiches Gesicht aus. =pronouns.Subjective= =verb:shrink:afterpronoun= unter einem gekrümmten Rücken und =verb:drum:afterpronoun= den Boden unter =pronouns.objective= mit einem kurzen, stachelgekrönten Schwanz. Ein zweites Armpaar erhebt sich über die Krümmung von =pronouns.possessive= Schultern, wo sich Hände treffen und Finger verflechten, um ein anderes Gesicht zu bilden, dieses leere und prähistorisch, kein Mund und Augen wüstenweiß." />
+    <part Name="Description" Short="Ein warmes Lächeln breitet sich über ein altes, von Zeit und einer Million Salzkörnchen sommersprossenreiches Gesicht aus. =pronouns.Subjective= =verb:shrink:afterpronoun= unter einem gekrümmten Rücken und =verb:drum:afterpronoun= den Boden unter =pronouns.objective:dat= mit einem kurzen, stachelgekrönten Schwanz. Ein zweites Armpaar erhebt sich über die Krümmung von =pronouns.possessive= Schultern, wo sich Hände treffen und Finger verflechten, um ein anderes Gesicht zu bilden, dieses leere und prähistorisch, kein Mund und Augen wüstenweiß." />
     <part Name="Honorifics" Primary="Ältester" />
     <xtagGrammar Proper="true" />
   </object>
@@ -1602,7 +1602,7 @@
   </object>
   <object Name="Great Saltback" Load="Merge">
     <part Name="Render" DisplayName="Großer Salzrücken" />
-    <part Name="Description" Short="Worte können das Paradoxon von =pronouns.possessive= gezähmter Unermeßlichkeit nicht fassen.&amp;#xA;&amp;#xA;Strömungen auf den Kulturmeeren haben eine besondere Fabel zu Eurer Aufmerksamkeit getrieben. Lange her, weit weg, vermuteten die Leute, daß alles auf dem Rücken einer Weltschildkröte ruhte. Gewiß kam diese Gedankenflucht jemandem, der auf einen Großen Salzback starrte... oder echot Eure eigene Vision durch die Vergangenheit, um an ihrer Schöpfung teilzunehmen?" />
+    <part Name="Description" Short="Worte können das Paradoxon von =pronouns.possessive= gezähmter Unermeßlichkeit nicht fassen.&amp;#xA;&amp;#xA;Strömungen auf den Kulturmeeren haben eine besondere Fabel zu deiner Aufmerksamkeit getrieben. Lange her, weit weg, vermuteten die Leute, daß alles auf dem Rücken einer Weltschildkröte ruhte. Gewiß kam diese Gedankenflucht jemandem, der auf einen Großen Salzback starrte... oder echot deine eigene Vision durch die Vergangenheit, um an ihrer Schöpfung teilzunehmen?" />
   </object>
   <object Name="Saltback_Stomp" Load="Merge">
     <part Name="Render" DisplayName="Großer Stampfer" />
@@ -1630,7 +1630,7 @@
   </object>
   <object Name="Lithofex" Load="Merge">
     <part Name="Render" DisplayName="Lithofex" />
-    <part Name="Description" Short="Spalten in =pronouns.possessive= Schuppen verbreitern sich, während =pronouns.subjective= =verb:flex:afterpronoun= =pronouns.possessive= versteinerte Gelenke, und Staub pulvert den Boden unter =pronouns.objective=. Unter =pronouns.possessive= Stalaktiten-Augenlidern wird ein lithifizierendes Bündel in den Fokus gezogen." />
+    <part Name="Description" Short="Spalten in =pronouns.possessive= Schuppen verbreitern sich, während =pronouns.subjective= =verb:flex:afterpronoun= =pronouns.possessive= versteinerte Gelenke, und Staub pulvert den Boden unter =pronouns.objective:dat=. Unter =pronouns.possessive= Stalaktiten-Augenlidern wird ein lithifizierendes Bündel in den Fokus gezogen." />
   </object>
   <object Name="ProjectileStoneGaze" Load="Merge">
     <part Name="Render" DisplayName="{{K|Steinblick}}" />
@@ -1643,7 +1643,7 @@
   </object>
   <object Name="Memory Eater Corpse" Load="Merge">
     <part Name="Render" DisplayName="Gedächtnisfresser-Leichnam" />
-    <part Name="Food" Message="Ihr erinnert Euch nicht, wie es schmeckt." />
+    <part Name="Food" Message="Du erinnerst dich nicht, wie es schmeckt." />
   </object>
   <object Name="Mirror Bug" Load="Merge">
     <part Name="Render" DisplayName="Spiegelbug" />
@@ -1769,7 +1769,7 @@
   </object>
   <object Name="Chrome Pyramid" Load="Merge">
     <part Name="Render" DisplayName="{{c|Chrompyramide}}" />
-    <part Name="Description" Short="Raum und Zeit rattern aus ihren Angeln und zerreißen Eure Wahrnehmung. Durch das neue Gittermuster des Bewusstseins kommt Schall nur in Wellen durch, der Glanz von Chrome explodiert in einer Supernova, und Ihr werdet langsam des gefurchten Luftvolumens um die Form einer monströsen Pyramide bewusst." />
+    <part Name="Description" Short="Raum und Zeit rattern aus ihren Angeln und zerreißen deine Wahrnehmung. Durch das neue Gittermuster des Bewusstseins kommt Schall nur in Wellen durch, der Glanz von Chrome explodiert in einer Supernova, und du wirst langsam des gefurchten Luftvolumens um die Form einer monströsen Pyramide bewusst." />
     <part Name="FabricateFromSelf" NameForStatus="Munitionsfabrik" />
   </object>
   <object Name="ChromePyramid_SpacetimeDistortion" Load="Merge">
@@ -1831,7 +1831,7 @@
   </object>
   <object Name="Grand Newfather" Load="Merge">
     <part Name="Render" DisplayName="Großer Neuvater" />
-    <part Name="Description" Short="Großartig weiße Lippen hängen herab von =pronouns.possessive= kapuzenartigen und zu sehr bekieferten Gesicht in der Asymmetrie der Enttäuschung. =pronouns.Possessive= Stirn drückt die Weichheit aus =pronouns.possessive= alten, farblosgesogenen Augen. =pronouns.Subjective= schaut auf =pronouns.possessive= großartige Neumenschen mit einer Mischung aus scharfer Zuneigung und Ekel. Zu =pronouns.objective= sind sie kleine Puppen; ihre Gliedmaßen müssen mit liebevoller Präzision um ihre Gelenke gerollt werden, oder sie werden durch ihre eigenen Willenszüge ausgebreitet, unnütz und gebrochen." />
+    <part Name="Description" Short="Großartig weiße Lippen hängen herab von =pronouns.possessive= kapuzenartigen und zu sehr bekieferten Gesicht in der Asymmetrie der Enttäuschung. =pronouns.Possessive= Stirn drückt die Weichheit aus =pronouns.possessive= alten, farblosgesogenen Augen. =pronouns.Subjective= schaut auf =pronouns.possessive= großartige Neumenschen mit einer Mischung aus scharfer Zuneigung und Ekel. Zu =pronouns.objective:dat= sind sie kleine Puppen; ihre Gliedmaßen müssen mit liebevoller Präzision um ihre Gelenke gerollt werden, oder sie werden durch ihre eigenen Willenszüge ausgebreitet, unnütz und gebrochen." />
   </object>
   <object Name="Gyre Wight Apotheote" Load="Merge">
     <part Name="Render" DisplayName="Wirbel-Wight-Apotheot" />
@@ -1877,7 +1877,7 @@
   </object>
   <object Name="Saltwurm" Load="Merge">
     <part Name="Render" DisplayName="Salzwurm" />
-    <part Name="SlowDangerousMovement" PrepMessageSelf="Ihr weitet Euer Maul, um Euch =dirward= zu bewegen." PrepMessageOther="Das Maul =subject.genitiv= weitet sich!" />
+    <part Name="SlowDangerousMovement" PrepMessageSelf="Du weitest dein Maul, um dich =dirward= zu bewegen." PrepMessageOther="Das Maul =subject.genitiv= weitet sich!" />
     <part Name="Description" Short="Eine Salzkaskade von einer Betrügerdüne offenbart etwas aus dem schmerzenden Traum der späten Welt: eine lebende Iod-Grotte, genährt zur =pronouns.possessive= unwahrscheinlichen Größe durch die riesige und auftriebsfähige Wellenbahn von Moghra'yi. Ein Regenvorhang aus Glas strömt über dem Zufluss von =pronouns.possessive= Filterfutter, und dahinter liegt der aufgenommene Planet in zermalmte Landstriche." />
   </object>
   <object Name="Saltwurm_Crush" Load="Merge">
@@ -1890,7 +1890,7 @@
   </object>
   <object Name="Star Kraken" Load="Merge">
     <part Name="Render" DisplayName="Sternkrake" />
-    <part Name="SlowDangerousMovement" PrepMessageSelf="Ihr weitet Euer Maul, um Euch =dirward= zu bewegen." PrepMessageOther="Das Maul =subject.genitiv= weitet sich, und ein Gebirge aus Magen quillt hervor!" />
+    <part Name="SlowDangerousMovement" PrepMessageSelf="Du weitest dein Maul, um dich =dirward= zu bewegen." PrepMessageOther="Das Maul =subject.genitiv= weitet sich, und ein Gebirge aus Magen quillt hervor!" />
     <part Name="Description" Short="Ein vollständiger Kontinentalschelf aus halbversteinerter, stern-orkidee Körpermasse kriecht über die Erde, sendend Stein, Chrom, Holz und Messing in Köcher. Hunderttausende von Unterstacheln leiten =pronouns.possessive= Quincunx zyklopen Armen in Bewegung, und ein Delta subduktierender Bauchmuskulatur haftet an und subsumiert Materie in =pronouns.possessive= somatische Sterngrenzen. In =pronouns.possessive= Kielwasser wird eine Arcologie disarrangierter Weltfragmente erhoben." />
   </object>
   <object Name="StarKraken_Arm" Load="Merge">
@@ -2040,115 +2040,115 @@
   </object>
   <object Name="honeyLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{w|Honig}}-Träne" />
-    <part Name="SecretObject" text="Ein riesiger {{w|Honig}}triefer" message="Ihr entdeckt einen riesigen {{w|Honig}}triefer." />
+    <part Name="SecretObject" text="Ein riesiger {{w|Honig}}triefer" message="Du entdeckst einen riesigen {{w|Honig}}triefer." />
   </object>
   <object Name="honeyLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{w|Honig}} Träne" />
-    <part Name="SecretObject" text="Ein {{w|Honig}}triefer" message="Ihr entdeckt einen {{w|Honig}}triefer." />
+    <part Name="SecretObject" text="Ein {{w|Honig}}triefer" message="Du entdeckst einen {{w|Honig}}triefer." />
   </object>
   <object Name="waxLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{Y|Wachs}}-Träne" />
-    <part Name="SecretObject" text="Ein riesiger {{Y|Wachs}}triefer" message="Ihr entdeckt einen riesigen {{Y|Wachs}}triefer." />
+    <part Name="SecretObject" text="Ein riesiger {{Y|Wachs}}triefer" message="Du entdeckst einen riesigen {{Y|Wachs}}triefer." />
   </object>
   <object Name="waxLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Wachs}} Rinne" />
-    <part Name="SecretObject" text="Ein {{Y|Wachs}}triefer" message="Ihr entdeckt einen {{Y|Wachs}}triefer." />
+    <part Name="SecretObject" text="Ein {{Y|Wachs}}triefer" message="Du entdeckst einen {{Y|Wachs}}triefer." />
   </object>
   <object Name="inkLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{K|Tinte}}-Träne" />
-    <part Name="SecretObject" text="Ein riesiger {{K|Tinten}}triefer" message="Ihr entdeckt einen riesigen {{K|Tinten}}triefer." />
+    <part Name="SecretObject" text="Ein riesiger {{K|Tinten}}triefer" message="Du entdeckst einen riesigen {{K|Tinten}}triefer." />
   </object>
   <object Name="inkLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{K|Tinte}} Träne" />
-    <part Name="SecretObject" text="Ein {{K|Tinten}}triefer" message="Ihr entdeckt einen {{K|Tinten}}triefer." />
+    <part Name="SecretObject" text="Ein {{K|Tinten}}triefer" message="Du entdeckst einen {{K|Tinten}}triefer." />
   </object>
   <object Name="sapLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{W|Baumsaft}}-Träne" />
-    <part Name="SecretObject" text="Ein riesiger {{W|Harz}}triefer" message="Ihr entdeckt einen riesigen {{W|Harz}}triefer." />
+    <part Name="SecretObject" text="Ein riesiger {{W|Harz}}triefer" message="Du entdeckst einen riesigen {{W|Harz}}triefer." />
   </object>
   <object Name="sapLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{W|Saft}} Rinne" />
-    <part Name="SecretObject" text="Ein {{W|Harz}}triefer" message="Ihr entdeckt einen {{W|Harz}}triefer." />
+    <part Name="SecretObject" text="Ein {{W|Harz}}triefer" message="Du entdeckst einen {{W|Harz}}triefer." />
   </object>
   <object Name="lavaLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{lava|Lava}}-Träne" />
-    <part Name="SecretObject" text="Ein riesiger {{lava|Lava}}triefer" message="Ihr entdeckt einen riesigen {{lava|Lava}}triefer." />
+    <part Name="SecretObject" text="Ein riesiger {{lava|Lava}}triefer" message="Du entdeckst einen riesigen {{lava|Lava}}triefer." />
   </object>
   <object Name="lavaLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{lava|Lava}} Träne" />
-    <part Name="SecretObject" text="Ein {{lava|Lava}}triefer" message="Ihr entdeckt einen riesigen {{lava|Lava}}triefer." />
+    <part Name="SecretObject" text="Ein {{lava|Lava}}triefer" message="Du entdeckst einen riesigen {{lava|Lava}}triefer." />
   </object>
   <object Name="acidLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{G|Säure}}-Träne" />
-    <part Name="SecretObject" text="Ein riesiger {{G|Säure}}triefer" message="Ihr entdeckt einen riesigen {{G|Säure}}triefer." />
+    <part Name="SecretObject" text="Ein riesiger {{G|Säure}}triefer" message="Du entdeckst einen riesigen {{G|Säure}}triefer." />
   </object>
   <object Name="acidLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{G|Säure}} Träne" />
-    <part Name="SecretObject" text="Ein {{G|Säure}}triefer" message="Ihr entdeckt einen {{G|Säure}}triefer." />
+    <part Name="SecretObject" text="Ein {{G|Säure}}triefer" message="Du entdeckst einen {{G|Säure}}triefer." />
   </object>
   <object Name="wineLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{m|Wein}}-Träne" />
-    <part Name="SecretObject" text="Ein riesiger {{m|Wein}}triefer" message="Ihr entdeckt einen riesigen {{m|Wein}}triefer." />
+    <part Name="SecretObject" text="Ein riesiger {{m|Wein}}triefer" message="Du entdeckst einen riesigen {{m|Wein}}triefer." />
   </object>
   <object Name="wineLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{m|Wein}} Träne" />
-    <part Name="SecretObject" text="Ein {{m|Wein}}triefer" message="Ihr entdeckt einen {{m|Wein}}triefer." />
+    <part Name="SecretObject" text="Ein {{m|Wein}}triefer" message="Du entdeckst einen {{m|Wein}}triefer." />
   </object>
   <object Name="slimeLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{g|Schleim}}-Träne" />
-    <part Name="SecretObject" text="Ein riesiger {{g|Schleim}}triefer" message="Ihr entdeckt einen riesigen {{g|Schleim}}triefer." />
+    <part Name="SecretObject" text="Ein riesiger {{g|Schleim}}triefer" message="Du entdeckst einen riesigen {{g|Schleim}}triefer." />
   </object>
   <object Name="slimeLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{g|Schleim}} Träne" />
-    <part Name="SecretObject" text="Ein {{g|Schleim}}triefer" message="Ihr entdeckt eine {{g|Schleim}}-Sickerstelle." />
+    <part Name="SecretObject" text="Ein {{g|Schleim}}triefer" message="Du entdeckst eine {{g|Schleim}}-Sickerstelle." />
   </object>
   <object Name="ciderLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{R|Apfelwein}}-Träne" />
-    <part Name="SecretObject" text="Eine riesige {{R|Apfelwein}}-Sickerstelle" message="Ihr entdeckt eine riesige {{R|Apfelwein}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine riesige {{R|Apfelwein}}-Sickerstelle" message="Du entdeckst eine riesige {{R|Apfelwein}}-Sickerstelle." />
   </object>
   <object Name="ciderLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{R|Most}} Träne" />
-    <part Name="SecretObject" text="Eine {{R|Apfelwein}}-Sickerstelle" message="Ihr entdeckt eine {{R|Apfelwein}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine {{R|Apfelwein}}-Sickerstelle" message="Du entdeckst eine {{R|Apfelwein}}-Sickerstelle." />
   </object>
   <object Name="waterLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{B|Wasser}}-Träne" />
-    <part Name="SecretObject" text="Eine riesige {{B|Wasser}}-Sickerstelle" message="Ihr entdeckt eine riesige {{B|Wasser}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine riesige {{B|Wasser}}-Sickerstelle" message="Du entdeckst eine riesige {{B|Wasser}}-Sickerstelle." />
   </object>
   <object Name="waterLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{B|Wasser}} Weinen" />
-    <part Name="SecretObject" text="Eine {{B|Wasser}}-Sickerstelle" message="Ihr entdeckt eine {{B|Wasser}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine {{B|Wasser}}-Sickerstelle" message="Du entdeckst eine {{B|Wasser}}-Sickerstelle." />
   </object>
   <object Name="gelLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{Y|Gel}}-Träne" />
-    <part Name="SecretObject" text="Eine riesige {{Y|Gel}}-Sickerstelle" message="Ihr entdeckt eine riesige {{Y|Gel}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine riesige {{Y|Gel}}-Sickerstelle" message="Du entdeckst eine riesige {{Y|Gel}}-Sickerstelle." />
   </object>
   <object Name="gelLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Gel}} Rinne" />
-    <part Name="SecretObject" text="Eine {{Y|Gel}}-Sickerstelle" message="Ihr entdeckt eine {{Y|Gel}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine {{Y|Gel}}-Sickerstelle" message="Du entdeckst eine {{Y|Gel}}-Sickerstelle." />
   </object>
   <object Name="asphaltLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{K|Asphalt}}-Träne" />
-    <part Name="SecretObject" text="Eine riesige {{K|Asphalt}}-Sickerstelle" message="Ihr entdeckt eine riesige {{K|Asphalt}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine riesige {{K|Asphalt}}-Sickerstelle" message="Du entdeckst eine riesige {{K|Asphalt}}-Sickerstelle." />
   </object>
   <object Name="asphaltLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{K|asphalt}} Weinen" />
-    <part Name="SecretObject" text="Eine {{K|Asphalt}}-Sickerstelle" message="Ihr entdeckt eine {{K|Asphalt}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine {{K|Asphalt}}-Sickerstelle" message="Du entdeckst eine {{K|Asphalt}}-Sickerstelle." />
   </object>
   <object Name="saltLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{Y|Salz}}-Träne" />
-    <part Name="SecretObject" text="Eine riesige {{Y|Salz}}-Sickerstelle" message="Ihr entdeckt eine riesige {{Y|Salz}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine riesige {{Y|Salz}}-Sickerstelle" message="Du entdeckst eine riesige {{Y|Salz}}-Sickerstelle." />
   </object>
   <object Name="saltLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{Y|Salz}} Rinne" />
-    <part Name="SecretObject" text="Eine {{Y|Salz}}-Sickerstelle" message="Ihr entdeckt eine {{Y|Salz}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine {{Y|Salz}}-Sickerstelle" message="Du entdeckst eine {{Y|Salz}}-Sickerstelle." />
   </object>
   <object Name="oilLichen" Load="Merge">
     <part Name="Render" DisplayName="Riesen {{K|Öl}}-Träne" />
-    <part Name="SecretObject" text="Eine riesige {{K|Öl}}-Sickerstelle" message="Ihr entdeckt eine riesige {{K|Öl}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine riesige {{K|Öl}}-Sickerstelle" message="Du entdeckst eine riesige {{K|Öl}}-Sickerstelle." />
   </object>
   <object Name="oilLichen Minor" Load="Merge">
     <part Name="Render" DisplayName="{{K|Öl}} Träne" />
-    <part Name="SecretObject" text="Eine {{K|Öl}}-Sickerstelle" message="Ihr entdeckt eine {{K|Öl}}-Sickerstelle." />
+    <part Name="SecretObject" text="Eine {{K|Öl}}-Sickerstelle" message="Du entdeckst eine {{K|Öl}}-Sickerstelle." />
   </object>
   <object Name="SoupSludge" Load="Merge">
     <part Name="Render" DisplayName="{{c|Suppenartiger}} Schlamm" />
@@ -2302,8 +2302,8 @@
     <tag Name="StaticHateReason" Value="die Weigerung, ihre Manuskripte zu illuminieren" />
     <tag Name="LairName" Value="Skriptorium" />
     <tag Name="LairNameContext" Value="das Skriptorium von =subject.refname:long:withTitles:LairName|strip=" />
-    <tag Name="LairPulldownMessage" Value="Ihr entdeckt ein abgelegenes Skriptorium. Wollt Ihr es untersuchen?" />
-    <tag Name="LairDiscoveredMessage" Value="Ihr entdeckt das Skriptorium von =subject.refname:long:withTitles:LairName|strip=." />
+    <tag Name="LairPulldownMessage" Value="Du entdeckst ein abgelegenes Skriptorium. Willst du es untersuchen?" />
+    <tag Name="LairDiscoveredMessage" Value="Du entdeckst das Skriptorium von =subject.refname:long:withTitles:LairName|strip=." />
   </object>
   <object Name="Beekeeper" Load="Merge">
     <part Name="Render" DisplayName="Imker" />
@@ -2346,8 +2346,8 @@
     <tag Name="StaticHateReason" Value="sich zu weigern, für sie zu kochen" />
     <tag Name="LairName" Value="Küche" />
     <tag Name="LairNameContext" Value="die Küche von =subject.refname:long:withTitles:LairName|strip=" />
-    <tag Name="LairPulldownMessage" Value="Ihr entdeckt eine abgelegene Behausung. Süße und würzige Luftschwaden dringen von drinnen heraus. Wollt Ihr sie untersuchen?" />
-    <tag Name="LairDiscoveredMessage" Value="Ihr entdeckt die Küche von =subject.refname:long:withTitles:LairName|strip=." />
+    <tag Name="LairPulldownMessage" Value="Du entdeckst eine abgelegene Behausung. Süße und würzige Luftschwaden dringen von drinnen heraus. Willst du sie untersuchen?" />
+    <tag Name="LairDiscoveredMessage" Value="Du entdeckst die Küche von =subject.refname:long:withTitles:LairName|strip=." />
   </object>
   <object Name="Haberdasher" Load="Merge">
     <part Name="Render" DisplayName="Kurzwarenhändler" />
@@ -2376,8 +2376,8 @@
     <part Name="Description" Short="=pronouns.Possessive= Schürze ist feucht vom Saft tausender Bäume. =pronouns.Possessive= Lippen sind mit Wasserfarbe bemalt. =pronouns.Subjective= =verb:wring:afterpronoun= Essenz aus =pronouns.possessive= Haaren." />
     <tag Name="LairName" Value="Brennerei" />
     <tag Name="LairNameContext" Value="die Brennerei von =subject.refname:long:withTitles:LairName|strip=" />
-    <tag Name="LairPulldownMessage" Value="Ihr entdeckt eine abgelegene Brennerei. Wollt Ihr sie untersuchen?" />
-    <tag Name="LairDiscoveredMessage" Value="Ihr entdeckt die Brennerei von =subject.refname:long:withTitles:LairName|strip=." />
+    <tag Name="LairPulldownMessage" Value="Du entdeckst eine abgelegene Brennerei. Willst du sie untersuchen?" />
+    <tag Name="LairDiscoveredMessage" Value="Du entdeckst die Brennerei von =subject.refname:long:withTitles:LairName|strip=." />
     <tag Name="StaticLikeReason" Value="eine seltene Flüssigkeit zu brennen" />
     <tag Name="StaticHateReason" Value="sich zu weigern, eine seltene Flüssigkeit zu brennen" />
   </object>
@@ -2400,8 +2400,8 @@
     <part Name="Description" Short="Kugelige Goggle, mit Blut verschmiert, verleihen =pronouns.possessive= Gesicht einen insektoiden Aspekt. =pronouns.Possessive= Schürze ist mit einem Regenbogen aus Rosa, Braun und Nickel befleckt - die Farbpalette von Maschinen- und Volksgefühl - und Ersatzdraht schießt aus =pronouns.possessive= Ärmeln wie Manschetten." />
     <tag Name="LairName" Value="Organmarkt" />
     <tag Name="LairNameContext" Value="der Organmarkt von =subject.refname:long:withTitles:LairName|strip=" />
-    <tag Name="LairPulldownMessage" Value="Ihr entdeckt einen abgelegenen Organmarkt. Wollt Ihr ihn untersuchen?" />
-    <tag Name="LairDiscoveredMessage" Value="Ihr entdeckt den Organmarkt von =subject.refname:long:withTitles:LairName|strip=." />
+    <tag Name="LairPulldownMessage" Value="Du entdeckst einen abgelegenen Organmarkt. Willst du ihn untersuchen?" />
+    <tag Name="LairDiscoveredMessage" Value="Du entdeckst den Organmarkt von =subject.refname:long:withTitles:LairName|strip=." />
     <tag Name="StaticLikeReason" Value="ein seltenes Implantat vorrätig zu haben" />
     <tag Name="StaticHateReason" Value="sich zu weigern, ein seltenes Implantat zu verkaufen" />
   </object>
@@ -2463,7 +2463,7 @@
   <object Name="OasisGlowpad" Load="Merge">
     <part Name="Render" DisplayName="sonderbar gefärbtes Glowpad" />
     <part Name="Description" Short="Eine Blattscheibe glänzt durch leuchtende Adern, blitzt Neon in der Werbung auf. Über =pronouns.possessive= feuchtem Polster ist ein Schatz von Waren ausgebreitet." />
-    <part Name="SecretObjectTalk" text="Ein {{C|sonderbar gefärbtes}} Glowpad" message="Ihr kennt nun den Standort eines {{C|sonderbar gefärbten}} Glowpad-Händlers." />
+    <part Name="SecretObjectTalk" text="Ein {{C|sonderbar gefärbtes}} Glowpad" message="Du kennst nun den Standort eines {{C|sonderbar gefärbten}} Glowpad-Händlers." />
   </object>
   <object Name="High Priest Eschelstadt" Load="Merge">
     <part Name="Render" DisplayName="Hohepriester Eschelstadt II" />
@@ -2526,7 +2526,7 @@
   </object>
   <object Name="Sparafucile" Load="Merge">
     <part Name="Render" DisplayName="Sparafucile" />
-    <part Name="Description" Short="Außerordentlich lange und schlanke Finger greifen die mikroskopischen Längen, die notwendig sind, um eine Visierlinse anzupassen oder den Oszillator auf einem Vibrohilt einzustellen. =pronouns.Subjective= =verb:turn:afterpronoun= =pronouns.possessive= Aufmerksamkeit auf Euch, während Ihr naht, um Eure Rede zu beobachten und zu lesen." />
+    <part Name="Description" Short="Außerordentlich lange und schlanke Finger greifen die mikroskopischen Längen, die notwendig sind, um eine Visierlinse anzupassen oder den Oszillator auf einem Vibrohilt einzustellen. =pronouns.Subjective= =verb:turn:afterpronoun= =pronouns.possessive= Aufmerksamkeit auf dich, während du nahst, um deine Rede zu beobachten und zu lesen." />
     <xtagGrammar Proper="true" />
   </object>
   <object Name="Jacobo" Load="Merge">
@@ -2640,7 +2640,7 @@
   </object>
   <object Name="Yurl" Load="Merge">
     <part Name="Render" DisplayName="Yurl" />
-    <part Name="Description" Short="Yurl, eine empfindungsfähige Gurkenpflanze, schlägt =pronouns.possessive= Wurzeln in einen gedrungenen Tonkrug auf dem Boden von =pronouns.possessive= Hütte. Unzählige Waren ruhen auf eichenen Regalen im ganzen Raum, und mit =pronouns.possessive= Ranken =verb:exhibit= Yurl sie interessierten Kunden, indem sie entlang eines eisernen Spaliers kriechen. Ihr bemerkt, dass Yurl =verb:creep= zu den Produkten, fast bevor ihr sie denkt; das Geschenk der Telepathie gibt der munteren Pflanze einen deutlichen Vorteil als Händler." />
+    <part Name="Description" Short="Yurl, eine empfindungsfähige Gurkenpflanze, schlägt =pronouns.possessive= Wurzeln in einen gedrungenen Tonkrug auf dem Boden von =pronouns.possessive= Hütte. Unzählige Waren ruhen auf eichenen Regalen im ganzen Raum, und mit =pronouns.possessive= Ranken =verb:exhibit= Yurl sie interessierten Kunden, indem sie entlang eines eisernen Spaliers kriechen. Du bemerkst, dass Yurl =verb:creep= zu den Produkten, fast bevor du sie denkst; das Geschenk der Telepathie gibt der munteren Pflanze einen deutlichen Vorteil als Händler." />
     <xtagGrammar Proper="true" />
   </object>
   <object Name="Erah" Load="Merge">
@@ -2651,7 +2651,7 @@
   </object>
   <object Name="Wild Water Merchant" Load="Merge">
     <part Name="Render" DisplayName="wildäugiger Wasserhändler" />
-    <part Name="Description" Short="Helle Glints in den ekstasegeklammerten Augen eines blutarmen Wasserhändlers geben Euch plötzlich Pause. =pronouns.Subjective= =verb:are:afterpronoun= in einem Flickwerk aus Umhangfetzen gekleidet, und trotz des Sees aus Schweiß, der auf dem öligen Sediment von =pronouns.possessive= Haut sitzt, ist =pronouns.possessive= Mund nach Tagen des Weigerens, das sehr Lebenswasser zu trinken, das =pronouns.subjective= =verb:peddle:afterpronoun=, zu Spalten ausgedörrt. Unwahrscheinlicherweise schafft es =pronouns.possessive= Gesicht trotzdem einen Hauch von Vergnügen, glitzernd im Feuer eines ungeteilten Geheimnisses." />
+    <part Name="Description" Short="Helle Glints in den ekstasegeklammerten Augen eines blutarmen Wasserhändlers geben dir plötzlich Pause. =pronouns.Subjective= =verb:are:afterpronoun= in einem Flickwerk aus Umhangfetzen gekleidet, und trotz des Sees aus Schweiß, der auf dem öligen Sediment von =pronouns.possessive= Haut sitzt, ist =pronouns.possessive= Mund nach Tagen des Weigerens, das sehr Lebenswasser zu trinken, das =pronouns.subjective= =verb:peddle:afterpronoun=, zu Spalten ausgedörrt. Unwahrscheinlicherweise schafft es =pronouns.possessive= Gesicht trotzdem einen Hauch von Vergnügen, glitzernd im Feuer eines ungeteilten Geheimnisses." />
   </object>
   <object Name="Mamon" Load="Merge">
     <part Name="Render" DisplayName="Mamon" />
@@ -2661,7 +2661,7 @@
   </object>
   <object Name="Oboroqoru" Load="Merge">
     <part Name="Render" DisplayName="Oboroqoru" />
-    <part Name="Description" Short="Ihr steht nicht am Fuße eines winterlichen Hügels, sondern unter einem Berg aus Muskeln, gehüllt in bleichweißes Fell, das zweifelsohne Natur's Kronjuwel ist. Nach dem Muster der großen Affen geschaffen (oder vielleicht das Urbild, nach dem jene Affen geformt wurden), unterscheidet sich der lebende Gott nur darin, dass =pronouns.subjective= =verb:bear:afterpronoun= nicht zwei, sondern sechs Arme trägt, von denen jeder dem behaarten Stamm eines uralten Eibenbaumes gleichen könnte. =pronouns.Possessive= Fäuste sind von Ausmaßen, die jene Kraft offenbaren, mit der ehrwürdige Götter einst die Berge in Form schlugen, als die Erde noch jung war. Doch =pronouns.possessive= Aussehen zeigt nicht die Spur dieser göttlichen Wut; =pronouns.subjective= =verb:don't:afterpronoun= Zorn, sondern =verb:sit:afterpronoun= stattdessen in Versenkung durch Äonen." />
+    <part Name="Description" Short="Du stehst nicht am Fuße eines winterlichen Hügels, sondern unter einem Berg aus Muskeln, gehüllt in bleichweißes Fell, das zweifelsohne Natur's Kronjuwel ist. Nach dem Muster der großen Affen geschaffen (oder vielleicht das Urbild, nach dem jene Affen geformt wurden), unterscheidet sich der lebende Gott nur darin, dass =pronouns.subjective= =verb:bear:afterpronoun= nicht zwei, sondern sechs Arme trägt, von denen jeder dem behaarten Stamm eines uralten Eibenbaumes gleichen könnte. =pronouns.Possessive= Fäuste sind von Ausmaßen, die jene Kraft offenbaren, mit der ehrwürdige Götter einst die Berge in Form schlugen, als die Erde noch jung war. Doch =pronouns.possessive= Aussehen zeigt nicht die Spur dieser göttlichen Wut; =pronouns.subjective= =verb:don't:afterpronoun= Zorn, sondern =verb:sit:afterpronoun= stattdessen in Versenkung durch Äonen." />
     <part Name="Titles" Primary="Affengott" />
     <tag Name="PronounSet" Value="He/Him/His/His/Himself/god/godling/lord/Son/Brother/Father" />
     <xtagGrammar Proper="true" />
@@ -2702,7 +2702,7 @@
   </object>
   <object Name="Haddas" Load="Merge">
     <part Name="Render" DisplayName="Haddas" />
-    <part Name="Description" Short="Blütenknospen häufen sich zu sechsen über =pronouns.possessive= zeitgeschädigter Topasrinde und sind von glänzenden grünen Blättern umringt. =pronouns.Subjective= =verb:shoot:afterpronoun= hoch auf in Trotz von Jahrtausenden Wandschatten, aber =pronouns.possessive= Krone hängt mit müder Sanftheit, und =pronouns.possessive= freiliegende Wurzeln zeichnen die Kontur eines grasbewachsenen Salons. Der älteste Baum des Hains, Haddas genannt, heißt Euch in =pronouns.possessive= Schatten willkommen." />
+    <part Name="Description" Short="Blütenknospen häufen sich zu sechsen über =pronouns.possessive= zeitgeschädigter Topasrinde und sind von glänzenden grünen Blättern umringt. =pronouns.Subjective= =verb:shoot:afterpronoun= hoch auf in Trotz von Jahrtausenden Wandschatten, aber =pronouns.possessive= Krone hängt mit müder Sanftheit, und =pronouns.possessive= freiliegende Wurzeln zeichnen die Kontur eines grasbewachsenen Salons. Der älteste Baum des Hains, Haddas genannt, heißt dich in =pronouns.possessive= Schatten willkommen." />
     <part Name="Honorifics" Primary="Bürgermeister" />
     <xtagGrammar Proper="true" />
   </object>
@@ -2733,13 +2733,13 @@
   </object>
   <object Name="BasePaxKlanq" Load="Merge">
     <part Name="Render" DisplayName="BasePaxKlanq" />
-    <part Name="Description" Short="Ist es ein Zufall, daß die verknotete, ausbrechende Organhorde, die Pax Klanq ist, in der vagen Form eines Humanoiden geformt ist, oder begrüßt der wunderbare Pilz =pronouns.possessive= außerdimensionale anthropoide Besucher mit einer warmen Geste? In beiden Fällen sieht =pronouns.possessive= herrliche orangefarbene Kappe wie ein schicker Hut aus. Die Ähnlichkeit endet jedoch dort; anstelle eines Gesichts gibt es nur ein Trio von wellenförmigen Tentakeln.&amp;#xA;&amp;#xA;An den Rändern eures Sichtfeldes winden sich weitere Tentakel über Werkzeuge, Bücher, Schaltkreisbretter, Froschleichen und Salzwasserperlen. Ihr realisiert, wie viele Dinge Klanq auf einmal macht, und ihr wundert euch über die Entscheidung der Natur, einem Pilz höchsten organischen Verstand zu schenken." />
+    <part Name="Description" Short="Ist es ein Zufall, daß die verknotete, ausbrechende Organhorde, die Pax Klanq ist, in der vagen Form eines Humanoiden geformt ist, oder begrüßt der wunderbare Pilz =pronouns.possessive= außerdimensionale anthropoide Besucher mit einer warmen Geste? In beiden Fällen sieht =pronouns.possessive= herrliche orangefarbene Kappe wie ein schicker Hut aus. Die Ähnlichkeit endet jedoch dort; anstelle eines Gesichts gibt es nur ein Trio von wellenförmigen Tentakeln.&amp;#xA;&amp;#xA;An den Rändern deines Sichtfeldes winden sich weitere Tentakel über Werkzeuge, Bücher, Schaltkreisbretter, Froschleichen und Salzwasserperlen. Du realisierst, wie viele Dinge Klanq auf einmal macht, und du wunderst dich über die Entscheidung der Natur, einem Pilz höchsten organischen Verstand zu schenken." />
     <xtagGrammar Proper="true" />
   </object>
   <object Name="Hamilcrab" Load="Merge">
     <part Name="Render" DisplayName="Hamilcrab" />
     <part Name="Titles" Ordinary="zyklopischer Händler" />
-    <part Name="SecretObjectTalk" text="Hamilcrabs Laden" message="Ihr kennt nun die Lage von {{M|Hamilcrabs Laden}}." />
+    <part Name="SecretObjectTalk" text="Hamilcrabs Laden" message="Du kennst nun die Lage von {{M|Hamilcrabs Laden}}." />
     <xtagGrammar Proper="true" />
   </object>
   <object Name="k-Goninon" Load="Merge">
@@ -2749,7 +2749,7 @@
   </object>
   <object Name="Biographer" Load="Merge">
     <part Name="Render" DisplayName="Biographer" />
-    <part Name="Description" Short="Chrombündel lagern sich in tuchatigen Furchen über eine Metalltünika, die sich über =pronouns.possessive= lange, ängstliche, flügelartige Glieder breitet. Ein großes Metallfass -- =pronouns.possessive= Kopf -- sitzt auf =pronouns.possessive= zu zerbrechlichem Fahrwerk auf, und ein glänzendes Glaszauge leuchtet in mehreren Farbtönen getönten Lichts zu Euch. =pronouns.Subjective= =verb:seem:afterpronoun= am Rande einer Entschuldigung." />
+    <part Name="Description" Short="Chrombündel lagern sich in tuchatigen Furchen über eine Metalltünika, die sich über =pronouns.possessive= lange, ängstliche, flügelartige Glieder breitet. Ein großes Metallfass -- =pronouns.possessive= Kopf -- sitzt auf =pronouns.possessive= zu zerbrechlichem Fahrwerk auf, und ein glänzendes Glaszauge leuchtet in mehreren Farbtönen getönten Lichts zu dir. =pronouns.Subjective= =verb:seem:afterpronoun= am Rande einer Entschuldigung." />
     <xtagGrammar Proper="true" />
   </object>
   <object Name="BaseBiomech" Load="Merge">
@@ -3094,7 +3094,7 @@
   </object>
   <object Name="Slumberling" Load="Merge">
     <part Name="Render" DisplayName="Schlummerling" />
-    <part Name="Description" Short="Ihr haltet es fast für einen Felsen, und dann seht Ihr einen Riss in =pronouns.possessive= Fell, während =pronouns.subjective= =verb:draw:afterpronoun= einen langsamen, Winterschlaf-ähnlichen Atem. Plötzlich versteht Ihr das Sprichwort unter Schweinebauern: Habt immer Angst vor großen Felsen." />
+    <part Name="Description" Short="Du hältst es fast für einen Felsen, und dann siehst du einen Riss in =pronouns.possessive= Fell, während =pronouns.subjective= =verb:draw:afterpronoun= einen langsamen, Winterschlaf-ähnlichen Atem. Plötzlich verstehst du das Sprichwort unter Schweinebauern: Hab immer Angst vor großen Felsen." />
   </object>
   <object Name="Slumberling Claw" Load="Merge">
     <part Name="Render" DisplayName="Kralle" />
@@ -3365,7 +3365,7 @@
   </object>
   <object Name="Greater Voider Corpse" Load="Merge">
     <part Name="Render" DisplayName="Leiche des Größeren Leereren" />
-    <part Name="Food" Message="Euer Mund beginnt zu prickeln." />
+    <part Name="Food" Message="Dein Mund beginnt zu prickeln." />
   </object>
   <object Name="High Dervish of the Sightless Way" Load="Merge">
     <part Name="Render" DisplayName="Hochderwisch des Weges der Blinden" />
@@ -3386,7 +3386,7 @@
   </object>
   <object Name="Madpole" Load="Merge">
     <part Name="Render" DisplayName="Tollkaulquappe" />
-    <part Name="Description" Short="Der aufgeblasene Kiefer dieses großen aureolinen Fisches ist mit bösen, messerartigen Zähnen gesäumt. Ihr schaudert bei der Vorstellung, zu welch schrecklichem amphibischen Ungeheuer die Madpole eines Tages werden könnte." />
+    <part Name="Description" Short="Der aufgeblasene Kiefer dieses großen aureolinen Fisches ist mit bösen, messerartigen Zähnen gesäumt. Du schauderst bei der Vorstellung, zu welch schrecklichem amphibischen Ungeheuer die Madpole eines Tages werden könnte." />
   </object>
   <object Name="Madpole_Jaws" Load="Merge">
     <part Name="Render" DisplayName="Kiefer" />
@@ -4308,7 +4308,7 @@
   <object Name="BaseMerchant" Load="Merge">
     <tag Name="LairName" Value="Werkstatt" />
     <tag Name="LairNameContext" Value="die Werkstatt von =subject.refname:long:withTitles:LairName|strip=" />
-    <tag Name="LairPulldownMessage" Value="Ihr entdeckt eine abgelegene Werkstatt. Wollt Ihr sie untersuchen?" />
-    <tag Name="LairDiscoveredMessage" Value="Ihr entdeckt die Werkstatt von =subject.refname:long:withTitles:LairName|strip=." />
+    <tag Name="LairPulldownMessage" Value="Du entdeckst eine abgelegene Werkstatt. Willst du sie untersuchen?" />
+    <tag Name="LairDiscoveredMessage" Value="Du entdeckst die Werkstatt von =subject.refname:long:withTitles:LairName|strip=." />
   </object>
 </objects>

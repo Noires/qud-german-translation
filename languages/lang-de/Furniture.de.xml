@@ -296,7 +296,7 @@
   </object>
   <object Name="Electrothing" Load="Merge">
     <part Name="Render" DisplayName="Elektrodikus" />
-    <part Name="Description" Short="Zwei kupferne Glühbirnen bilden eine Funkenlücke, die den Strom entlang eines ionisierten Gasbahn erleichtert. Das Ding reißt und funkelt bei Euch." />
+    <part Name="Description" Short="Zwei kupferne Glühbirnen bilden eine Funkenlücke, die den Strom entlang eines ionisierten Gasbahn erleichtert. Das Ding reißt und funkelt bei dir." />
     <part Name="ChargeSink" NameForStatus="Lichtbogengenerator" />
   </object>
   <object Name="Unicomputer" Load="Merge">
@@ -1135,12 +1135,12 @@
   </object>
   <object Name="Eater Hologram" Load="Merge">
     <part Name="Render" DisplayName="Hologramm eines Essers" />
-    <part Name="Description" Short="Gebranntes Licht bricht auf der Chromiumplatte hervor und zersplittert in eine Figur aus der fernen Vergangenheit. Haare, Haut, Stirn, Oberschenkel: die Merkmale schlüpfen eine neue Emotion in Euch aus, das Gefühl des Fremden-Vertrauten. Während Ihr Euch bewegt, bewegt sich die Figur in Parallaxe; Ihr wundert Euch, wie dieser Esser es schaffte, sich selbst in Euren Raumzeit-Zopf zu ritzen." />
+    <part Name="Description" Short="Gebranntes Licht bricht auf der Chromiumplatte hervor und zersplittert in eine Figur aus der fernen Vergangenheit. Haare, Haut, Stirn, Oberschenkel: die Merkmale schlüpfen eine neue Emotion in dir aus, das Gefühl des Fremden-Vertrauten. Während du dich bewegst, bewegt sich die Figur in Parallaxe; du wunderst dich, wie dieser Esser es schaffte, sich selbst in deinen Raumzeit-Zopf zu ritzen." />
   </object>
   <object Name="hologram of Shekhinah" Load="Merge">
     <part Name="Render" DisplayName="Hologramm von Shekhinah" />
     <part Name="Description" Short="Der herrliche Shekhinah, Silberner Adonis und Erstvater, posiert in leuchtender Mumienkunst. Mit der Statur zeitloser Sterne, fest und dauerhaft, betrachtet Er den zu Seiner Ehre errichteten Tempel und nickt zustimmend. Passend zur Erinnerung an Seine Vereinigung mit der Kasapheszenz, kleidet Er Seine Manifestation in kobaltblauen Tönen und verzichtet auf die Grüntöne und Rotbraun der niederen Pflanzen und Lehmerde." />
-    <part Name="Chat" Says="[Shekhinah wendet sich Euch zu, Seine Arme weit geöffnet.]" />
+    <part Name="Chat" Says="[Shekhinah wendet sich dir zu, Seine Arme weit geöffnet.]" />
     <tag Name="WorshippedAs" Value="Shekhinah" />
   </object>
   <object Name="Village Monument Obelisk" Load="Merge">
@@ -1532,7 +1532,7 @@
   </object>
   <object Name="HatSign2" Load="Merge">
     <part Name="Render" DisplayName="Schild" />
-    <part Name="Chat" Says="Bedeckt Eure zerbrechlichen Häupter" />
+    <part Name="Chat" Says="Bedeckt eure zerbrechlichen Häupter" />
   </object>
   <object Name="HatSign3" Load="Merge">
     <part Name="Render" DisplayName="Schild" />
@@ -1596,7 +1596,7 @@
   </object>
   <object Name="DiscSign3" Load="Merge">
     <part Name="Render" DisplayName="Schild" />
-    <part Name="Chat" Says="Baut Eure eigenen Artefakte" />
+    <part Name="Chat" Says="Baue deine eigenen Artefakte" />
   </object>
   <object Name="LiquidSign1" Load="Merge">
     <part Name="Render" DisplayName="Schild" />

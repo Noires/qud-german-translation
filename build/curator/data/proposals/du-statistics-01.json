@@ -1,0 +1,168 @@
+{
+  "batch": "du-statistics-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-statistics-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "97aae665702088a1",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[Strength]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Stärke}} bestimmt, wie viel Nahkampfschaden Ihr verursacht (durch Verbesserung Eurer Rüstungsdurchschlagskraft), Eure Fähigkeit, erzwungene Bewegung zu widerstehen, und Eure Tragekapazität.",
+      "new_value": "Deine {{W|Stärke}} bestimmt, wie viel Nahkampfschaden du verursachst (durch Verbesserung deiner Rüstungsdurchschlagskraft), deine Fähigkeit, erzwungene Bewegung zu widerstehen, und deine Tragekapazität.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "271e787829c8d83f",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[Agility]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Gewandtheit}} bestimmt Eure Genauigkeit mit Nahkampf- und Fernkampfwaffen sowie Eure Chance, Angriffen auszuweichen.",
+      "new_value": "Deine {{W|Gewandtheit}} bestimmt deine Genauigkeit mit Nahkampf- und Fernkampfwaffen sowie deine Chance, Angriffen auszuweichen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0da60caef516edc2",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[Toughness]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Zähigkeit}} bestimmt Eure Anzahl von Trefferpunkten, Eure Trefferpunkt-Regenerationsrate und Eure Fähigkeit, Gifte und Krankheiten zu widerstehen.",
+      "new_value": "Deine {{W|Zähigkeit}} bestimmt deine Anzahl von Trefferpunkten, deine Trefferpunkt-Regenerationsrate und deine Fähigkeit, Gifte und Krankheiten zu widerstehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "04a2db5ce2213187",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[Intelligence]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Intelligenz}} bestimmt Eure Anzahl von Fertigkeitspunkten und Eure Fähigkeit, Artefakte zu untersuchen.",
+      "new_value": "Deine {{W|Intelligenz}} bestimmt deine Anzahl von Fertigkeitspunkten und deine Fähigkeit, Artefakte zu untersuchen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "351910da7d0f5649",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[Willpower]/helpText#8@#text",
+      "context": null,
+      "old_value": "Euer {{W|Wille}} verändert die Abklingzeiten Eurer aktivierten Fähigkeiten, bestimmt Eure Fähigkeit, mentale Angriffe zu widerstehen, und verändert Eure Trefferpunkt-Regenerationsrate.",
+      "new_value": "Dein {{W|Wille}} verändert die Abklingzeiten deiner aktivierten Fähigkeiten, bestimmt deine Fähigkeit, mentale Angriffe zu widerstehen, und verändert deine Trefferpunkt-Regenerationsrate.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "54b032d6127845d9",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[Ego]/helpText#8@#text",
+      "context": null,
+      "old_value": "Euer {{W|Ego}} bestimmt die Potenz Eurer mentalen Mutationen, Eure Fähigkeit, mit Händlern zu feilschen, und Eure Fähigkeit, den Willen anderer lebender Kreaturen zu dominieren.",
+      "new_value": "Dein {{W|Ego}} bestimmt die Potenz deiner mentalen Mutationen, deine Fähigkeit, mit Händlern zu feilschen, und deine Fähigkeit, den Willen anderer lebender Kreaturen zu dominieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ee2b6dc7a9ffa2a8",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[AV]/helpText#8@#text",
+      "context": null,
+      "old_value": "Euer {{W|Rüstungswert (AV)}} misst, wie gut Ihr gegen physische Angriffe geschützt seid. Je höher Euer Wert, desto weniger oft wird der Angriff eines Gegners Eure Rüstung durchdringen und Schaden verursachen.",
+      "new_value": "Dein {{W|Rüstungswert (AV)}} misst, wie gut du gegen physische Angriffe geschützt bist. Je höher dein Wert, desto weniger oft wird der Angriff eines Gegners deine Rüstung durchdringen und Schaden verursachen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "743af703b114ba0f",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[DV]/helpText#8@#text",
+      "context": null,
+      "old_value": "Euer {{W|Ausweichswert (DV)}} misst, wie wahrscheinlich es ist, dass Ihr von physischen Angriffen getroffen werdet. Je höher Euer Wert, desto unwahrscheinlicher wird ein Angriff eines Gegners Euch treffen. Euer DV wird durch Euren Gewandtheits-Modifikator verändert.",
+      "new_value": "Dein {{W|Ausweichswert (DV)}} misst, wie wahrscheinlich es ist, dass du von physischen Angriffen getroffen wirst. Je höher dein Wert, desto unwahrscheinlicher wird ein Angriff eines Gegners dich treffen. Dein DV wird durch deinen Gewandtheits-Modifikator verändert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "66958dd6ff04f8f3",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[MA]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Geistige Rüstung (MA)}} misst, wie gut Ihr gegen mentale Angriffe geschützt seid. Je höher Euer Wert, desto unwahrscheinlicher wird der mentale Angriff eines Gegners Eure Verteidigungen durchdringen und Euch schaden. Eure MA wird durch Euren Willen-Modifikator verändert.",
+      "new_value": "Deine {{W|Geistige Rüstung (MA)}} misst, wie gut du gegen mentale Angriffe geschützt bist. Je höher dein Wert, desto unwahrscheinlicher wird der mentale Angriff eines Gegners deine Verteidigungen durchdringen und dir schaden. Deine MA wird durch deinen Willen-Modifikator verändert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "53c7e367e580b379",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[Speed]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Schnelligkeit}} misst die Geschwindigkeit, mit der Ihr jede Aktion durchführt.",
+      "new_value": "Deine {{W|Schnelligkeit}} misst die Geschwindigkeit, mit der du jede Aktion durchführst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "65de856ecb57b351",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[MoveSpeed]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Bewegungsgeschwindigkeit}} misst, wie schnell Ihr gehen oder fliegen könnt.",
+      "new_value": "Deine {{W|Bewegungsgeschwindigkeit}} misst, wie schnell du gehen oder fliegen kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c9470e53be6b58e0",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[Temperature]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Temperatur}} misst, wie heiß oder kalt Ihr seid. Zu kalt zu sein kann Eure Schnelligkeit senken und verhindern, dass Ihr physische Aktionen durchführt. Zu heiß zu sein kann Euch in Brand setzen und jeden Runde Schaden verursachen.",
+      "new_value": "Deine {{W|Temperatur}} misst, wie heiß oder kalt du bist. Zu kalt zu sein kann deine Schnelligkeit senken und verhindern, dass du physische Aktionen durchführst. Zu heiß zu sein kann dich in Brand setzen und jeden Runde Schaden verursachen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "96dbfe8b27c78bba",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[AcidResistance]/helpText#8@#text",
+      "context": null,
+      "old_value": "Euer {{W|Säureresistenz}} bestimmt, wie viel Säureschaden Ihr ablehrt. Bei 100 seid Ihr immun gegen Säureschaden.",
+      "new_value": "Dein {{W|Säureresistenz}} bestimmt, wie viel Säureschaden du ablehrst. Bei 100 bist du immun gegen Säureschaden.",
+      "note": "'ablehrt'(Tippfehler) mechanisch zu 'ablehrst' konjugiert; Genusfehler 'Euer Säureresistenz'->'Dein' belassen",
+      "status": "accepted"
+    },
+    {
+      "uid": "daf25ec72dda697f",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[ColdResistance]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Kälteresistenz}} bestimmt, wie viel Kälteschaden Ihr ablehrt, und wie isoliert Ihr gegen Effekte seid, die Eure Temperatur senken. Bei 100 seid Ihr immun gegen Kälteschaden und Eure Temperatur kann nicht gesenkt werden.",
+      "new_value": "Deine {{W|Kälteresistenz}} bestimmt, wie viel Kälteschaden du ablehrst, und wie isoliert du gegen Effekte bist, die deine Temperatur senken. Bei 100 bist du immun gegen Kälteschaden und deine Temperatur kann nicht gesenkt werden.",
+      "note": "'ablehrt'(Tippfehler) mechanisch zu 'ablehrst'",
+      "status": "accepted"
+    },
+    {
+      "uid": "cbff8d2ce0bf0821",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[ElectricResistance]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Elektrische Resistenz}} bestimmt, wie viel Blitzschaden Ihr ablehrt, und wie widerstandsfähig Ihr gegen elektrischen Strom seid. Bei 100 seid Ihr immun gegen Blitzschaden und leitet keinen Strom.",
+      "new_value": "Deine {{W|Elektrische Resistenz}} bestimmt, wie viel Blitzschaden du ablehrst, und wie widerstandsfähig du gegen elektrischen Strom bist. Bei 100 bist du immun gegen Blitzschaden und leitest keinen Strom.",
+      "note": "'ablehrt'(Tippfehler) mechanisch zu 'ablehrst'",
+      "status": "accepted"
+    },
+    {
+      "uid": "f1ddcde8d5a4a281",
+      "file": "Statistics.de.xml",
+      "key": "/statistics#0/statistic[HeatResistance]/helpText#8@#text",
+      "context": null,
+      "old_value": "Eure {{W|Hitzeresistenz}} bestimmt, wie viel Hitzeschaden Ihr ablehrt, und wie isoliert Ihr gegen Effekte seid, die Eure Temperatur erhöhen. Bei 100 seid Ihr immun gegen Hitzeschaden und Eure Temperatur kann nicht erhöht werden.",
+      "new_value": "Deine {{W|Hitzeresistenz}} bestimmt, wie viel Hitzeschaden du ablehrst, und wie isoliert du gegen Effekte bist, die deine Temperatur erhöhen. Bei 100 bist du immun gegen Hitzeschaden und deine Temperatur kann nicht erhöht werden.",
+      "note": "'ablehrt'(Tippfehler) mechanisch zu 'ablehrst'",
+      "status": "accepted"
+    }
+  ]
+}

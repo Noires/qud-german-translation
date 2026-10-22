@@ -1,0 +1,598 @@
+{
+  "batch": "du-creatures-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-creatures-01)",
+  "created": "2026-10-22 14:52",
+  "items": [
+    {
+      "uid": "b63157455c869450",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[honeyLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{w|Honig}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{w|Honig}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "89bb3dae7b27cc94",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[honeyLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen {{w|Honig}}triefer.",
+      "new_value": "Du entdeckst einen {{w|Honig}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6e9b6e78336c99ab",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[waxLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{Y|Wachs}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{Y|Wachs}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "847e7a9974da7a93",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[waxLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen {{Y|Wachs}}triefer.",
+      "new_value": "Du entdeckst einen {{Y|Wachs}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "15a1ef0d4b6d8bc9",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[inkLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{K|Tinten}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{K|Tinten}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "036970d0958ee7d4",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[inkLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen {{K|Tinten}}triefer.",
+      "new_value": "Du entdeckst einen {{K|Tinten}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c9a779f43dbb48f",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[sapLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{W|Harz}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{W|Harz}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "73dcbc31fa5b9154",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[sapLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen {{W|Harz}}triefer.",
+      "new_value": "Du entdeckst einen {{W|Harz}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2ce93f2d7e54a621",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[lavaLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{lava|Lava}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{lava|Lava}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fc7c12b2ff4fc45d",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[lavaLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{lava|Lava}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{lava|Lava}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9ab19c5c283a9e31",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[acidLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{G|Säure}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{G|Säure}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7464e9e362b69296",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[acidLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen {{G|Säure}}triefer.",
+      "new_value": "Du entdeckst einen {{G|Säure}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "04d116b1f74c2a1b",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[wineLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{m|Wein}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{m|Wein}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "84181879a20e4122",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[wineLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen {{m|Wein}}triefer.",
+      "new_value": "Du entdeckst einen {{m|Wein}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "05c3d27f277275c5",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[slimeLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt einen riesigen {{g|Schleim}}triefer.",
+      "new_value": "Du entdeckst einen riesigen {{g|Schleim}}triefer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8868b7295bbf8fd0",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[slimeLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine {{g|Schleim}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine {{g|Schleim}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3dd3960c41db5d3e",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[ciderLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine riesige {{R|Apfelwein}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine riesige {{R|Apfelwein}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6b509d6738aaf554",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[ciderLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine {{R|Apfelwein}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine {{R|Apfelwein}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2c7a6c365d3f4094",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[waterLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine riesige {{B|Wasser}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine riesige {{B|Wasser}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae241c5e536dc749",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[waterLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine {{B|Wasser}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine {{B|Wasser}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8c23a917bc1fb90c",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[gelLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine riesige {{Y|Gel}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine riesige {{Y|Gel}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c733253aa7239345",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[gelLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine {{Y|Gel}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine {{Y|Gel}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de24e2b0e2215007",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[asphaltLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine riesige {{K|Asphalt}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine riesige {{K|Asphalt}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "255521b0a10a13ed",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[asphaltLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine {{K|Asphalt}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine {{K|Asphalt}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc11523b9973aa6f",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[saltLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine riesige {{Y|Salz}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine riesige {{Y|Salz}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "456b7f492ee1760d",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[saltLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine {{Y|Salz}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine {{Y|Salz}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6abd96ec00086378",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[oilLichen]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine riesige {{K|Öl}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine riesige {{K|Öl}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f27046533f53b9b",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[oilLichen Minor]/part[SecretObject]@message",
+      "context": null,
+      "old_value": "Ihr entdeckt eine {{K|Öl}}-Sickerstelle.",
+      "new_value": "Du entdeckst eine {{K|Öl}}-Sickerstelle.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe79ca963e25f211",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Scribe]/tag[LairDiscoveredMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt das Skriptorium von =subject.refname:long:withTitles:LairName|strip=.",
+      "new_value": "Du entdeckst das Skriptorium von =subject.refname:long:withTitles:LairName|strip=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e73bcf586a8e71ad",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Chef]/tag[LairDiscoveredMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt die Küche von =subject.refname:long:withTitles:LairName|strip=.",
+      "new_value": "Du entdeckst die Küche von =subject.refname:long:withTitles:LairName|strip=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a1d5d0806b972edd",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[IchorMerchant]/tag[LairDiscoveredMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt die Brennerei von =subject.refname:long:withTitles:LairName|strip=.",
+      "new_value": "Du entdeckst die Brennerei von =subject.refname:long:withTitles:LairName|strip=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5148fddba4e175e",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Gutsmonger]/tag[LairDiscoveredMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt den Organmarkt von =subject.refname:long:withTitles:LairName|strip=.",
+      "new_value": "Du entdeckst den Organmarkt von =subject.refname:long:withTitles:LairName|strip=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec82e0c495e30005",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[BaseMerchant]/tag[LairDiscoveredMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt die Werkstatt von =subject.refname:long:withTitles:LairName|strip=.",
+      "new_value": "Du entdeckst die Werkstatt von =subject.refname:long:withTitles:LairName|strip=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e4022f130b90f80c",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[GolgothaSlog]/tag[SharesRecipeText]@Value",
+      "context": null,
+      "old_value": "Ihr wisst, warum ich hier bin, Slog.",
+      "new_value": "Du weißt, warum ich hier bin, Slog.",
+      "note": "Spieler spricht den Slog an (Spieler duzt NPCs)",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd3fe48628361f42",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Voider Corpse]/part[Food]@Message",
+      "context": null,
+      "old_value": "Euer Mund beginnt zu prickeln.",
+      "new_value": "Dein Mund beginnt zu prickeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2fc10f8b7e4ea81e",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Greater Voider Corpse]/part[Food]@Message",
+      "context": null,
+      "old_value": "Euer Mund beginnt zu prickeln.",
+      "new_value": "Dein Mund beginnt zu prickeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a88ab2b6b55b1ed4",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Electric Snail Corpse]/part[Food]@Message",
+      "context": null,
+      "old_value": "Ihr zerkaut die Schale zu Stücken, und Euer Mund füllt sich mit knisterndem Schleim.",
+      "new_value": "Du zerkaust die Schale zu Stücken, und dein Mund füllt sich mit knisterndem Schleim.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "40b006b9a053a7a5",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[BaseBreatherCorpse]/part[Food]@Message",
+      "context": null,
+      "old_value": "Es knackt und füllt Euren Mund mit Nebel.",
+      "new_value": "Es knackt und füllt deinen Mund mit Nebel.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "06ab2ad840194445",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Great Saltback]/part[Description]@Short",
+      "context": null,
+      "old_value": "Worte können das Paradoxon von =pronouns.possessive= gezähmter Unermeßlichkeit nicht fassen.&#xA;&#xA;Strömungen auf den Kulturmeeren haben eine besondere Fabel zu Eurer Aufmerksamkeit getrieben. Lange her, weit weg, vermuteten die Leute, daß alles auf dem Rücken einer Weltschildkröte ruhte. Gewiß kam diese Gedankenflucht jemandem, der auf einen Großen Salzback starrte... oder echot Eure eigene Vision durch die Vergangenheit, um an ihrer Schöpfung teilzunehmen?",
+      "new_value": "Worte können das Paradoxon von =pronouns.possessive= gezähmter Unermeßlichkeit nicht fassen.&#xA;&#xA;Strömungen auf den Kulturmeeren haben eine besondere Fabel zu deiner Aufmerksamkeit getrieben. Lange her, weit weg, vermuteten die Leute, daß alles auf dem Rücken einer Weltschildkröte ruhte. Gewiß kam diese Gedankenflucht jemandem, der auf einen Großen Salzback starrte... oder echot deine eigene Vision durch die Vergangenheit, um an ihrer Schöpfung teilzunehmen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a6c292d754194e19",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Memory Eater Corpse]/part[Food]@Message",
+      "context": null,
+      "old_value": "Ihr erinnert Euch nicht, wie es schmeckt.",
+      "new_value": "Du erinnerst dich nicht, wie es schmeckt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0f05d2fec63b9569",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Chrome Pyramid]/part[Description]@Short",
+      "context": null,
+      "old_value": "Raum und Zeit rattern aus ihren Angeln und zerreißen Eure Wahrnehmung. Durch das neue Gittermuster des Bewusstseins kommt Schall nur in Wellen durch, der Glanz von Chrome explodiert in einer Supernova, und Ihr werdet langsam des gefurchten Luftvolumens um die Form einer monströsen Pyramide bewusst.",
+      "new_value": "Raum und Zeit rattern aus ihren Angeln und zerreißen deine Wahrnehmung. Durch das neue Gittermuster des Bewusstseins kommt Schall nur in Wellen durch, der Glanz von Chrome explodiert in einer Supernova, und du wirst langsam des gefurchten Luftvolumens um die Form einer monströsen Pyramide bewusst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bdc9bbe5dcb37725",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Saltwurm]/part[SlowDangerousMovement]@PrepMessageSelf",
+      "context": null,
+      "old_value": "Ihr weitet Euer Maul, um Euch =dirward= zu bewegen.",
+      "new_value": "Du weitest dein Maul, um dich =dirward= zu bewegen.",
+      "note": "PrepMessageSelf = Spieler als Saltwurm",
+      "status": "accepted"
+    },
+    {
+      "uid": "c348d567f2e6a84b",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Star Kraken]/part[SlowDangerousMovement]@PrepMessageSelf",
+      "context": null,
+      "old_value": "Ihr weitet Euer Maul, um Euch =dirward= zu bewegen.",
+      "new_value": "Du weitest dein Maul, um dich =dirward= zu bewegen.",
+      "note": "PrepMessageSelf = Spieler als Sternkrake",
+      "status": "accepted"
+    },
+    {
+      "uid": "6ea38b0dc8d142f0",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Scribe]/tag[LairPulldownMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt ein abgelegenes Skriptorium. Wollt Ihr es untersuchen?",
+      "new_value": "Du entdeckst ein abgelegenes Skriptorium. Willst du es untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "33cfa7be3a3a66e0",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Chef]/tag[LairPulldownMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt eine abgelegene Behausung. Süße und würzige Luftschwaden dringen von drinnen heraus. Wollt Ihr sie untersuchen?",
+      "new_value": "Du entdeckst eine abgelegene Behausung. Süße und würzige Luftschwaden dringen von drinnen heraus. Willst du sie untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "840aacbf2c3097d2",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[IchorMerchant]/tag[LairPulldownMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt eine abgelegene Brennerei. Wollt Ihr sie untersuchen?",
+      "new_value": "Du entdeckst eine abgelegene Brennerei. Willst du sie untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "937c08a011df6fe5",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Gutsmonger]/tag[LairPulldownMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt einen abgelegenen Organmarkt. Wollt Ihr ihn untersuchen?",
+      "new_value": "Du entdeckst einen abgelegenen Organmarkt. Willst du ihn untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd80315b4ba95982",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[BaseMerchant]/tag[LairPulldownMessage]@Value",
+      "context": null,
+      "old_value": "Ihr entdeckt eine abgelegene Werkstatt. Wollt Ihr sie untersuchen?",
+      "new_value": "Du entdeckst eine abgelegene Werkstatt. Willst du sie untersuchen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3bc1918667d8dfa0",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[OasisGlowpad]/part[SecretObjectTalk]@message",
+      "context": null,
+      "old_value": "Ihr kennt nun den Standort eines {{C|sonderbar gefärbten}} Glowpad-Händlers.",
+      "new_value": "Du kennst nun den Standort eines {{C|sonderbar gefärbten}} Glowpad-Händlers.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4db41632bf6501a4",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Hamilcrab]/part[SecretObjectTalk]@message",
+      "context": null,
+      "old_value": "Ihr kennt nun die Lage von {{M|Hamilcrabs Laden}}.",
+      "new_value": "Du kennst nun die Lage von {{M|Hamilcrabs Laden}}.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d29a1e657429933b",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Sparafucile]/part[Description]@Short",
+      "context": null,
+      "old_value": "Außerordentlich lange und schlanke Finger greifen die mikroskopischen Längen, die notwendig sind, um eine Visierlinse anzupassen oder den Oszillator auf einem Vibrohilt einzustellen. =pronouns.Subjective= =verb:turn:afterpronoun= =pronouns.possessive= Aufmerksamkeit auf Euch, während Ihr naht, um Eure Rede zu beobachten und zu lesen.",
+      "new_value": "Außerordentlich lange und schlanke Finger greifen die mikroskopischen Längen, die notwendig sind, um eine Visierlinse anzupassen oder den Oszillator auf einem Vibrohilt einzustellen. =pronouns.Subjective= =verb:turn:afterpronoun= =pronouns.possessive= Aufmerksamkeit auf dich, während du nahst, um deine Rede zu beobachten und zu lesen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "03b3d64ad0d23a36",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Yurl]/part[Description]@Short",
+      "context": null,
+      "old_value": "Yurl, eine empfindungsfähige Gurkenpflanze, schlägt =pronouns.possessive= Wurzeln in einen gedrungenen Tonkrug auf dem Boden von =pronouns.possessive= Hütte. Unzählige Waren ruhen auf eichenen Regalen im ganzen Raum, und mit =pronouns.possessive= Ranken =verb:exhibit= Yurl sie interessierten Kunden, indem sie entlang eines eisernen Spaliers kriechen. Ihr bemerkt, dass Yurl =verb:creep= zu den Produkten, fast bevor ihr sie denkt; das Geschenk der Telepathie gibt der munteren Pflanze einen deutlichen Vorteil als Händler.",
+      "new_value": "Yurl, eine empfindungsfähige Gurkenpflanze, schlägt =pronouns.possessive= Wurzeln in einen gedrungenen Tonkrug auf dem Boden von =pronouns.possessive= Hütte. Unzählige Waren ruhen auf eichenen Regalen im ganzen Raum, und mit =pronouns.possessive= Ranken =verb:exhibit= Yurl sie interessierten Kunden, indem sie entlang eines eisernen Spaliers kriechen. Du bemerkst, dass Yurl =verb:creep= zu den Produkten, fast bevor du sie denkst; das Geschenk der Telepathie gibt der munteren Pflanze einen deutlichen Vorteil als Händler.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1c20a43e23a84bdb",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Wild Water Merchant]/part[Description]@Short",
+      "context": null,
+      "old_value": "Helle Glints in den ekstasegeklammerten Augen eines blutarmen Wasserhändlers geben Euch plötzlich Pause. =pronouns.Subjective= =verb:are:afterpronoun= in einem Flickwerk aus Umhangfetzen gekleidet, und trotz des Sees aus Schweiß, der auf dem öligen Sediment von =pronouns.possessive= Haut sitzt, ist =pronouns.possessive= Mund nach Tagen des Weigerens, das sehr Lebenswasser zu trinken, das =pronouns.subjective= =verb:peddle:afterpronoun=, zu Spalten ausgedörrt. Unwahrscheinlicherweise schafft es =pronouns.possessive= Gesicht trotzdem einen Hauch von Vergnügen, glitzernd im Feuer eines ungeteilten Geheimnisses.",
+      "new_value": "Helle Glints in den ekstasegeklammerten Augen eines blutarmen Wasserhändlers geben dir plötzlich Pause. =pronouns.Subjective= =verb:are:afterpronoun= in einem Flickwerk aus Umhangfetzen gekleidet, und trotz des Sees aus Schweiß, der auf dem öligen Sediment von =pronouns.possessive= Haut sitzt, ist =pronouns.possessive= Mund nach Tagen des Weigerens, das sehr Lebenswasser zu trinken, das =pronouns.subjective= =verb:peddle:afterpronoun=, zu Spalten ausgedörrt. Unwahrscheinlicherweise schafft es =pronouns.possessive= Gesicht trotzdem einen Hauch von Vergnügen, glitzernd im Feuer eines ungeteilten Geheimnisses.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9d3c75d922eb5f1c",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Oboroqoru]/part[Description]@Short",
+      "context": null,
+      "old_value": "Ihr steht nicht am Fuße eines winterlichen Hügels, sondern unter einem Berg aus Muskeln, gehüllt in bleichweißes Fell, das zweifelsohne Natur's Kronjuwel ist. Nach dem Muster der großen Affen geschaffen (oder vielleicht das Urbild, nach dem jene Affen geformt wurden), unterscheidet sich der lebende Gott nur darin, dass =pronouns.subjective= =verb:bear:afterpronoun= nicht zwei, sondern sechs Arme trägt, von denen jeder dem behaarten Stamm eines uralten Eibenbaumes gleichen könnte. =pronouns.Possessive= Fäuste sind von Ausmaßen, die jene Kraft offenbaren, mit der ehrwürdige Götter einst die Berge in Form schlugen, als die Erde noch jung war. Doch =pronouns.possessive= Aussehen zeigt nicht die Spur dieser göttlichen Wut; =pronouns.subjective= =verb:don't:afterpronoun= Zorn, sondern =verb:sit:afterpronoun= stattdessen in Versenkung durch Äonen.",
+      "new_value": "Du stehst nicht am Fuße eines winterlichen Hügels, sondern unter einem Berg aus Muskeln, gehüllt in bleichweißes Fell, das zweifelsohne Natur's Kronjuwel ist. Nach dem Muster der großen Affen geschaffen (oder vielleicht das Urbild, nach dem jene Affen geformt wurden), unterscheidet sich der lebende Gott nur darin, dass =pronouns.subjective= =verb:bear:afterpronoun= nicht zwei, sondern sechs Arme trägt, von denen jeder dem behaarten Stamm eines uralten Eibenbaumes gleichen könnte. =pronouns.Possessive= Fäuste sind von Ausmaßen, die jene Kraft offenbaren, mit der ehrwürdige Götter einst die Berge in Form schlugen, als die Erde noch jung war. Doch =pronouns.possessive= Aussehen zeigt nicht die Spur dieser göttlichen Wut; =pronouns.subjective= =verb:don't:afterpronoun= Zorn, sondern =verb:sit:afterpronoun= stattdessen in Versenkung durch Äonen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b822b0f55b14d50f",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Haddas]/part[Description]@Short",
+      "context": null,
+      "old_value": "Blütenknospen häufen sich zu sechsen über =pronouns.possessive= zeitgeschädigter Topasrinde und sind von glänzenden grünen Blättern umringt. =pronouns.Subjective= =verb:shoot:afterpronoun= hoch auf in Trotz von Jahrtausenden Wandschatten, aber =pronouns.possessive= Krone hängt mit müder Sanftheit, und =pronouns.possessive= freiliegende Wurzeln zeichnen die Kontur eines grasbewachsenen Salons. Der älteste Baum des Hains, Haddas genannt, heißt Euch in =pronouns.possessive= Schatten willkommen.",
+      "new_value": "Blütenknospen häufen sich zu sechsen über =pronouns.possessive= zeitgeschädigter Topasrinde und sind von glänzenden grünen Blättern umringt. =pronouns.Subjective= =verb:shoot:afterpronoun= hoch auf in Trotz von Jahrtausenden Wandschatten, aber =pronouns.possessive= Krone hängt mit müder Sanftheit, und =pronouns.possessive= freiliegende Wurzeln zeichnen die Kontur eines grasbewachsenen Salons. Der älteste Baum des Hains, Haddas genannt, heißt dich in =pronouns.possessive= Schatten willkommen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f1b7ff26e5c0b28",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[BasePaxKlanq]/part[Description]@Short",
+      "context": null,
+      "old_value": "Ist es ein Zufall, daß die verknotete, ausbrechende Organhorde, die Pax Klanq ist, in der vagen Form eines Humanoiden geformt ist, oder begrüßt der wunderbare Pilz =pronouns.possessive= außerdimensionale anthropoide Besucher mit einer warmen Geste? In beiden Fällen sieht =pronouns.possessive= herrliche orangefarbene Kappe wie ein schicker Hut aus. Die Ähnlichkeit endet jedoch dort; anstelle eines Gesichts gibt es nur ein Trio von wellenförmigen Tentakeln.&#xA;&#xA;An den Rändern eures Sichtfeldes winden sich weitere Tentakel über Werkzeuge, Bücher, Schaltkreisbretter, Froschleichen und Salzwasserperlen. Ihr realisiert, wie viele Dinge Klanq auf einmal macht, und ihr wundert euch über die Entscheidung der Natur, einem Pilz höchsten organischen Verstand zu schenken.",
+      "new_value": "Ist es ein Zufall, daß die verknotete, ausbrechende Organhorde, die Pax Klanq ist, in der vagen Form eines Humanoiden geformt ist, oder begrüßt der wunderbare Pilz =pronouns.possessive= außerdimensionale anthropoide Besucher mit einer warmen Geste? In beiden Fällen sieht =pronouns.possessive= herrliche orangefarbene Kappe wie ein schicker Hut aus. Die Ähnlichkeit endet jedoch dort; anstelle eines Gesichts gibt es nur ein Trio von wellenförmigen Tentakeln.&#xA;&#xA;An den Rändern deines Sichtfeldes winden sich weitere Tentakel über Werkzeuge, Bücher, Schaltkreisbretter, Froschleichen und Salzwasserperlen. Du realisierst, wie viele Dinge Klanq auf einmal macht, und du wunderst dich über die Entscheidung der Natur, einem Pilz höchsten organischen Verstand zu schenken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f78e9727bf8fbc07",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Biographer]/part[Description]@Short",
+      "context": null,
+      "old_value": "Chrombündel lagern sich in tuchatigen Furchen über eine Metalltünika, die sich über =pronouns.possessive= lange, ängstliche, flügelartige Glieder breitet. Ein großes Metallfass -- =pronouns.possessive= Kopf -- sitzt auf =pronouns.possessive= zu zerbrechlichem Fahrwerk auf, und ein glänzendes Glaszauge leuchtet in mehreren Farbtönen getönten Lichts zu Euch. =pronouns.Subjective= =verb:seem:afterpronoun= am Rande einer Entschuldigung.",
+      "new_value": "Chrombündel lagern sich in tuchatigen Furchen über eine Metalltünika, die sich über =pronouns.possessive= lange, ängstliche, flügelartige Glieder breitet. Ein großes Metallfass -- =pronouns.possessive= Kopf -- sitzt auf =pronouns.possessive= zu zerbrechlichem Fahrwerk auf, und ein glänzendes Glaszauge leuchtet in mehreren Farbtönen getönten Lichts zu dir. =pronouns.Subjective= =verb:seem:afterpronoun= am Rande einer Entschuldigung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6ea5f01397a82610",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Slumberling]/part[Description]@Short",
+      "context": null,
+      "old_value": "Ihr haltet es fast für einen Felsen, und dann seht Ihr einen Riss in =pronouns.possessive= Fell, während =pronouns.subjective= =verb:draw:afterpronoun= einen langsamen, Winterschlaf-ähnlichen Atem. Plötzlich versteht Ihr das Sprichwort unter Schweinebauern: Habt immer Angst vor großen Felsen.",
+      "new_value": "Du hältst es fast für einen Felsen, und dann siehst du einen Riss in =pronouns.possessive= Fell, während =pronouns.subjective= =verb:draw:afterpronoun= einen langsamen, Winterschlaf-ähnlichen Atem. Plötzlich verstehst du das Sprichwort unter Schweinebauern: Hab immer Angst vor großen Felsen.",
+      "note": "Sprichwort-Imperativ -> Singular 'Hab'",
+      "status": "accepted"
+    },
+    {
+      "uid": "4bcc62399b521886",
+      "file": "Creatures.de.xml",
+      "key": "/objects#0/object[Madpole]/part[Description]@Short",
+      "context": null,
+      "old_value": "Der aufgeblasene Kiefer dieses großen aureolinen Fisches ist mit bösen, messerartigen Zähnen gesäumt. Ihr schaudert bei der Vorstellung, zu welch schrecklichem amphibischen Ungeheuer die Madpole eines Tages werden könnte.",
+      "new_value": "Der aufgeblasene Kiefer dieses großen aureolinen Fisches ist mit bösen, messerartigen Zähnen gesäumt. Du schauderst bei der Vorstellung, zu welch schrecklichem amphibischen Ungeheuer die Madpole eines Tages werden könnte.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

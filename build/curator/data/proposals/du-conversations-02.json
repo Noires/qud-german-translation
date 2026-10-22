@@ -1,0 +1,1498 @@
+{
+  "batch": "du-conversations-02",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-conversations-02)",
+  "created": "2026-10-22 14:38",
+  "items": [
+    {
+      "uid": "68105b08c9846931",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gutsmonger.Start.Text.Text|Hold, aristocrat! I have wares to claim your interest.",
+      "context": "Conversation gutsmonger.Start.Text.Text",
+      "old_value": "Haltet ein, Aristokrat! Ich habe Waren, die Eure Aufmerksamkeit verdienen.",
+      "new_value": "Halt ein, Aristokrat! Ich habe Waren, die deine Aufmerksamkeit verdienen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7796d10dff1dee46",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gutsmonger.Start.Text.Text3|How becoming you look, Aristocrat! But you could be more becoming.",
+      "context": "Conversation gutsmonger.Start.Text.Text3",
+      "old_value": "Wie stattlich Ihr aussieht, Aristokrat! Aber Ihr könntet stattlicher aussehen.",
+      "new_value": "Wie stattlich du aussiehst, Aristokrat! Aber du könntest stattlicher aussehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ca169659c0ca99be",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gutsmonger.Start.Text.Text8|You strike me as an Aristocrat who knows the value of artisanal organs.",
+      "context": "Conversation gutsmonger.Start.Text.Text8",
+      "old_value": "Ihr wirkt auf mich wie ein Aristokrat, der den Wert handwerklich gefertigter Organe kennt.",
+      "new_value": "Du wirkst auf mich wie ein Aristokrat, der den Wert handwerklich gefertigter Organe kennt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e561e2907bbe9917",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gutsmonger.Start.Text.Text10|Hope you'll \"becoming\" back, ha ha.",
+      "context": "Conversation gutsmonger.Start.Text.Text10",
+      "old_value": "Hoffe, Ihr kommt bald wieder, ha ha.",
+      "new_value": "Hoffe, du kommst bald wieder, ha ha.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e887b56aaa253830",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gutsmonger.Start2.Text.Text2|You look dangerous. Ever go hunting for parts?",
+      "context": "Conversation gutsmonger.Start2.Text.Text2",
+      "old_value": "Ihr seht gefährlich aus. Seid Ihr schon mal auf Teilejagd gegangen?",
+      "new_value": "Du siehst gefährlich aus. Bist du schon mal auf Teilejagd gegangen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6fd7dbe759f97438",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gutsmonger.Start2.Text.Text7|Y'ain't peeled open any Sons or Daughters, have you?",
+      "context": "Conversation gutsmonger.Start2.Text.Text7",
+      "old_value": "Ihr habt noch keinen Sohn oder keine Tochter aufgebrochen, oder?",
+      "new_value": "Du hast noch keinen Sohn oder keine Tochter aufgebrochen, oder?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bae0769d4af16308",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gutsmonger.Start2.Text.Text9|I'll still take parts you ain't washed off, it's fine.",
+      "context": "Conversation gutsmonger.Start2.Text.Text9",
+      "old_value": "Ich nehme immer noch Teile, die Ihr nicht abgewaschen habt, kein Problem.",
+      "new_value": "Ich nehme immer noch Teile, die du nicht abgewaschen hast, kein Problem.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3a1ca460dc0836df",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gutsmonger.Start2.Text.Text10|If you can butcher a boar, you can do the same to a man. Just ain't meat you're looking for.",
+      "context": "Conversation gutsmonger.Start2.Text.Text10",
+      "old_value": "Wenn Ihr einen Eber zerlegen könnt, könnt Ihr dasselbe bei einem Menschen tun. Nur dass Ihr nicht nach Fleisch sucht.",
+      "new_value": "Wenn du einen Eber zerlegen kannst, kannst du dasselbe bei einem Menschen tun. Nur dass du nicht nach Fleisch suchst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "73102272b34f197c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation hatter.Start.Text.Text5|You need a new hat, =player.formalAddressTerm=. Or a helmet, if that's the life you lead.",
+      "context": "Conversation hatter.Start.Text.Text5",
+      "old_value": "Ihr braucht einen neuen Hut, =player.formalAddressTerm=. Oder einen Helm, wenn das das Leben ist, das Ihr führt.",
+      "new_value": "Du brauchst einen neuen Hut, =player.formalAddressTerm=. Oder einen Helm, wenn das das Leben ist, das du führst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5aeece9ff1207d82",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation shoemaker.Start.Text.Text4|Even as high-quality as my products are, =player.formalAddressTerm=, I don't suggest you go walking in the fracti to test them out.",
+      "context": "Conversation shoemaker.Start.Text.Text4",
+      "old_value": "Aber so hochwertig meine Produkte auch sind, =player.formalAddressTerm=, empfehle ich Euch nicht, in der Frakti spazieren zu gehen, um sie zu testen.",
+      "new_value": "Aber so hochwertig meine Produkte auch sind, =player.formalAddressTerm=, empfehle ich dir nicht, in der Frakti spazieren zu gehen, um sie zu testen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c11487749796b337",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation shoemaker.Start.Text.Text8|Walk a few parasangs in my shoes, =player.formalAddressTerm=, and you'll wonder how you ever did otherwise.",
+      "context": "Conversation shoemaker.Start.Text.Text8",
+      "old_value": "Geht ein paar Parasangen in meinen Schuhen, =player.formalAddressTerm=, und Ihr werdet euch fragen, wie Ihr je anders gehandelt habt.",
+      "new_value": "Geh ein paar Parasangen in meinen Schuhen, =player.formalAddressTerm=, und du wirst dich fragen, wie du je anders gehandelt hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6dd0d0e8dc5f1da7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation haberdasher.Start.Text.Text5|How may I clothe you, =player.formalAddressTerm=?",
+      "context": "Conversation haberdasher.Start.Text.Text5",
+      "old_value": "Wie darf ich Euch kleiden, =player.formalAddressTerm=?",
+      "new_value": "Wie darf ich dich kleiden, =player.formalAddressTerm=?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4ab2da7cb1580753",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation haberdasher.Start.Text.Text6|Now, =player.formalAddressTerm=, I know you must have an eye for fashion, if you're here.",
+      "context": "Conversation haberdasher.Start.Text.Text6",
+      "old_value": "Nun, =player.formalAddressTerm=, ich weiß, Ihr müsst einen Sinn für Mode haben, wenn Ihr hier seid.",
+      "new_value": "Nun, =player.formalAddressTerm=, ich weiß, du musst einen Sinn für Mode haben, wenn du hier bist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f577aefb2655dcd4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation glover.Start.Text.Text2|Best protect your hands, =player.formalAddressTerm=. You don't know how much you need them until a madpole takes one.",
+      "context": "Conversation glover.Start.Text.Text2",
+      "old_value": "Schützt am besten eure Hände, =player.formalAddressTerm=. Ihr wisst nicht, wie sehr Ihr sie braucht, bis ein Madpole einen nimmt.",
+      "new_value": "Schütze am besten deine Hände, =player.formalAddressTerm=. Du weißt nicht, wie sehr du sie brauchst, bis ein Madpole einen nimmt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c4141b9fa00e2ae",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gunsmith.Start.Text.Text3|=player.FormalAddressTerm=, I tell you: there is no defense like a good, and distant, offense.",
+      "context": "Conversation gunsmith.Start.Text.Text3",
+      "old_value": "=player.FormalAddressTerm=, ich sage Euch: Es gibt keine bessere Verteidigung als einen guten und weit entfernten Angriff.",
+      "new_value": "=player.FormalAddressTerm=, ich sage dir: Es gibt keine bessere Verteidigung als einen guten und weit entfernten Angriff.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b8b17aa2926eda50",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gunsmith.Start.Text.Text4|Ahh, I love the smell of cordite. You know, that sulfury smell? Accelerants make a fine perfume, if you ask me.",
+      "context": "Conversation gunsmith.Start.Text.Text4",
+      "old_value": "Ah, ich liebe den Geruch von Kordit. Ihr wisst, dieser Schwefelgeruch? Beschleuniger machen ein feines Parfüm, wenn Ihr mich fragt.",
+      "new_value": "Ah, ich liebe den Geruch von Kordit. Du weißt, dieser Schwefelgeruch? Beschleuniger machen ein feines Parfüm, wenn du mich fragst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "345e12bdaa83fc66",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gunsmith.Start.Text.Text8|I wish I could allow you to test my wares in the shop, =player.formalAddressTerm=, but walk a parasang in any direction and you'll find a target.",
+      "context": "Conversation gunsmith.Start.Text.Text8",
+      "old_value": "Ich wünschte, ich könnte euch erlauben, meine Waren im Geschäft zu testen, =player.formalAddressTerm=, aber geht einen Farsang in jede Richtung und Ihr findet ein Ziel.",
+      "new_value": "Ich wünschte, ich könnte dir erlauben, meine Waren im Geschäft zu testen, =player.formalAddressTerm=, aber geh einen Farsang in jede Richtung und du findest ein Ziel.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b2e0e0e332da14b9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gunsmith.Start.Text.Text9|Might not want to touch anything on the workbenches, =player.formalAddressTerm=.",
+      "context": "Conversation gunsmith.Start.Text.Text9",
+      "old_value": "Ihr wollt vielleicht nichts auf den Werkbänken anfassen, =player.formalAddressTerm=.",
+      "new_value": "Du willst vielleicht nichts auf den Werkbänken anfassen, =player.formalAddressTerm=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5920c34a7edfb1b5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation gunsmith.Start.Text.Text10|Live, drink, and shoot, =player.formalAddressTerm=, in whichever order you like.",
+      "context": "Conversation gunsmith.Start.Text.Text10",
+      "old_value": "Leben, trinken und schießen, =player.formalAddressTerm=, in welcher Reihenfolge Ihr mögt.",
+      "new_value": "Leben, trinken und schießen, =player.formalAddressTerm=, in welcher Reihenfolge du magst.",
+      "note": "'Leben, trinken und schießen' ist Infinitiv, unverändert",
+      "status": "accepted"
+    },
+    {
+      "uid": "4095df0e0db0bd42",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation grenadier.Start.Text.Text3|=player.FormalAddressTerm=, there is little you can't solve with a well-thrown grenade... as long as you don't stand too close.",
+      "context": "Conversation grenadier.Start.Text.Text3",
+      "old_value": "=player.FormalAddressTerm=, es gibt wenig, das Ihr nicht mit einer gut geworfenen Granate lösen könnt... solange Ihr nicht zu nah dran steht.",
+      "new_value": "=player.FormalAddressTerm=, es gibt wenig, das du nicht mit einer gut geworfenen Granate lösen kannst... solange du nicht zu nah dran stehst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b4d7742ab06ef672",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation grenadier.Start.Text.Text4|Defoliant and fungicide are perfectly safe, but you may wish to avoid breathing too deeply all the same.",
+      "context": "Conversation grenadier.Start.Text.Text4",
+      "old_value": "Entlaubungsmittel und Fungizid sind völlig sicher, aber Ihr möchtet vielleicht trotzdem nicht zu tief einatmen.",
+      "new_value": "Entlaubungsmittel und Fungizid sind völlig sicher, aber du möchtest vielleicht trotzdem nicht zu tief einatmen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb53a1f7ba9dc949",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation grenadier.Start.Text.Text5|Can I serve you something explosive, =player.formalAddressTerm=?",
+      "context": "Conversation grenadier.Start.Text.Text5",
+      "old_value": "Kann ich Euch etwas Explosives servieren, =player.formalAddressTerm=?",
+      "new_value": "Kann ich dir etwas Explosives servieren, =player.formalAddressTerm=?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9becfe92a0687cee",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation grenadier.Start.Text.Text6|You'll be back, =player.formalAddressTerm=, provided you don't blow =player.reflexive= up.",
+      "context": "Conversation grenadier.Start.Text.Text6",
+      "old_value": "Ihr werdet zurückkommen, =player.formalAddressTerm=, vorausgesetzt, Ihr sprengt =player.reflexive= nicht in die Luft.",
+      "new_value": "Du wirst zurückkommen, =player.formalAddressTerm=, vorausgesetzt, du sprengst =player.reflexive= nicht in die Luft.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d7cf312509cea88d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation grenadier.Start.Text.Text8|How is your throwing arm, =player.formalAddressTerm=? Barring that, do you feel lucky?",
+      "context": "Conversation grenadier.Start.Text.Text8",
+      "old_value": "Wie steht es mit Eurem Wurfarm, =player.formalAddressTerm=? Falls nicht, fühlt Ihr Euch glücklich?",
+      "new_value": "Wie steht es mit deinem Wurfarm, =player.formalAddressTerm=? Falls nicht, fühlst du dich glücklich?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2503dba867aea9ca",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation grenadier.Start.Text.Text10|The vintners say that 'one rose is fair, but five is death'. I can sell you blossoms that mean death no matter the number.",
+      "context": "Conversation grenadier.Start.Text.Text10",
+      "old_value": "Die Winzer sagen, dass 'eine Rose schön ist, aber fünf sind der Tod'. Ich kann Euch Blüten verkaufen, die egal in welcher Zahl den Tod bedeuten.",
+      "new_value": "Die Winzer sagen, dass 'eine Rose schön ist, aber fünf sind der Tod'. Ich kann dir Blüten verkaufen, die egal in welcher Zahl den Tod bedeuten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "52aa1d36829d74cb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation jeweler.Start.Text.Text2|Lean in close to see the detail. No, don't touch.",
+      "context": "Conversation jeweler.Start.Text.Text2",
+      "old_value": "Lehnt Euch nah heran, um das Detail zu sehen. Nein, berührt es nicht.",
+      "new_value": "Lehne dich nah heran, um das Detail zu sehen. Nein, berühre es nicht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e8c29b6830363550",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Bethesda1.Text|Good, =factionaddress:Barathrumites=. Speak to {{m|Q Girl}} in the workshop. She'll encode her instructions for the baetyl onto a copy of the disk.\n\nThere's one more thing. The baetyl is located beneath the ancient cryobarrios of the Eaters. Time has worked to erode the mechanisms that contain their cryogenic mist. That freezing vapor billows out of the chambers freely now, cooling the entire cavern. You will want to procure warm clothing to protect =player.reflexive=.\n\nThe spoils of the Mechanimists are yours to keep. Remember, =factionaddress:Barathrumites=, Barathrum will look kindly upon your service.",
+      "context": "Conversation Otho.Bethesda1.Text",
+      "old_value": "Gut, =factionaddress:Barathrumites=. Sprecht mit {{m|Q Girl}} in der Werkstatt. Sie wird ihre Anweisungen für die Baetyl auf eine Kopie der Festplatte codieren.\n\nEs gibt noch eine weitere Sache. Die Baetyl befindet sich unter den alten Cryobarrios der Eater. Mit der Zeit haben sich die Mechanismen, die ihre kryogene Nebelschicht enthalten, abgenutzt. Dieser gefrierende Dampf quillt jetzt frei aus den Kammern heraus und kühlt die gesamte Höhle. Ihr werdet warme Kleidung besorgen wollen, um =player.reflexive= zu schützen.\n\nDie Beute der Mechanimisten gehört Euch. Denkt daran, =factionaddress:Barathrumites=, Barathrum wird Euer Handeln wohlwollend betrachten.",
+      "new_value": "Gut, =factionaddress:Barathrumites=. Sprich mit {{m|Q Girl}} in der Werkstatt. Sie wird ihre Anweisungen für die Baetyl auf eine Kopie der Festplatte codieren.\n\nEs gibt noch eine weitere Sache. Die Baetyl befindet sich unter den alten Cryobarrios der Eater. Mit der Zeit haben sich die Mechanismen, die ihre kryogene Nebelschicht enthalten, abgenutzt. Dieser gefrierende Dampf quillt jetzt frei aus den Kammern heraus und kühlt die gesamte Höhle. Du wirst warme Kleidung besorgen wollen, um =player.reflexive= zu schützen.\n\nDie Beute der Mechanimisten gehört dir. Denk daran, =factionaddress:Barathrumites=, Barathrum wird dein Handeln wohlwollend betrachten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b9f4fbe2a7a07ddb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start7.Text|You return. Have you succeeded in decoding the signal?",
+      "context": "Conversation Otho.Start7.Text",
+      "old_value": "Ihr kehrt zurück. Habt Ihr die Dekodierung des Signals geschafft?",
+      "new_value": "Du kehrst zurück. Hast du die Dekodierung des Signals geschafft?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2c9ef84fc6b70b7a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.InterpretSignal.Text|I must bring the decoded signal to Barathrum immediately. Return in a few hours. By then I'll have discussed our next course of action with Barathrum and will have further instructions for you.",
+      "context": "Conversation Otho.InterpretSignal.Text",
+      "old_value": "Ich muß das dekodierte Signal sofort zu Barathrum bringen. Kehrt in wenigen Stunden zurück. Bis dahin werde ich unseren nächsten Handlungsgang mit Barathrum besprochen haben und werde weitere Anweisungen für Euch haben.",
+      "new_value": "Ich muß das dekodierte Signal sofort zu Barathrum bringen. Kehre in wenigen Stunden zurück. Bis dahin werde ich unseren nächsten Handlungsgang mit Barathrum besprochen haben und werde weitere Anweisungen für dich haben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "852ef07ee3bed9ad",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.InterpretSignal.EndChoice.Text|As you say, steward.",
+      "context": "Conversation Otho.InterpretSignal.EndChoice.Text",
+      "old_value": "Wie Ihr sagt, Verwalter.",
+      "new_value": "Wie du sagst, Verwalter.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c7d3e680ecc1d6ca",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start8.Text|=factionaddress:Barathrumites|capitalize=, I have no further instructions for you yet. Return soon.",
+      "context": "Conversation Otho.Start8.Text",
+      "old_value": "=factionaddress:Barathrumites|capitalize=, ich habe noch keine weiteren Anweisungen für Euch. Kehrt bald zurück.",
+      "new_value": "=factionaddress:Barathrumites|capitalize=, ich habe noch keine weiteren Anweisungen für dich. Kehre bald zurück.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0ed08b731228de78",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start8.EndChoice.Text|As you say, steward.",
+      "context": "Conversation Otho.Start8.EndChoice.Text",
+      "old_value": "Wie Ihr sagt, Verwalter.",
+      "new_value": "Wie du sagst, Verwalter.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9190b9f9b6b9dfb8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start9.Text|=name=, I've brought the decoded signal to Barathrum, and he's finished musing on it. We have fresh instructions for you, =factionaddress:Barathrumites=. Are you ready to hear them?",
+      "context": "Conversation Otho.Start9.Text",
+      "old_value": "=name=, ich habe das dekodierte Signal zu Barathrum gebracht, und er hat seine Überlegungen dazu abgeschlossen. Wir haben frische Anweisungen für Euch, =factionaddress:Barathrumites=. Seid Ihr bereit, sie zu hören?",
+      "new_value": "=name=, ich habe das dekodierte Signal zu Barathrum gebracht, und er hat seine Überlegungen dazu abgeschlossen. Wir haben frische Anweisungen für dich, =factionaddress:Barathrumites=. Bist du bereit, sie zu hören?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0bb340e9d8f51886",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Overripe.Text|Barathrum needs you for an undertaking of great importance. You must journey to {{C|Omonporch}} far to the north. There the Spindle stretches from earth to sky. Unfortunately, a troublesome merchant from the Consortium of Phyta has relocated there and declared xerself Earl of Omonporch. We need you to broker a deal so that we may lease control of the Spindle. Failing that, you'll need to dispose of the self-appointed Earl.\n\nBe careful on your approach to Omonporch, =factionaddress:Barathrumites=. So far east into the reaches of Qud, the Putus Templar lie in wait.",
+      "context": "Conversation Otho.Overripe.Text",
+      "old_value": "Barathrum braucht Euch für ein Unternehmen von großer Bedeutung. Ihr müsst nach {{C|Omonporch}} weit im Norden reisen. Dort erstreckt sich die Spindel von der Erde bis zum Himmel. Unglücklicherweise hat sich ein lästiger Kaufmann aus dem Konsortium der Phyta dorthin begeben und sich selbst zum Earl von Omonporch ernannt. Wir brauchen Euch, um einen Deal zu vermitteln, damit wir die Kontrolle über die Spindel pachten können. Falls das nicht funktioniert, werdet Ihr den selbsternannten Earl beseitigen müssen.\n\nSeid vorsichtig bei Eurem Weg nach Omonporch, =factionaddress:Barathrumites=. So weit östlich in den Ausläufern von Qud warten die Putus Templar.",
+      "new_value": "Barathrum braucht dich für ein Unternehmen von großer Bedeutung. Du musst nach {{C|Omonporch}} weit im Norden reisen. Dort erstreckt sich die Spindel von der Erde bis zum Himmel. Unglücklicherweise hat sich ein lästiger Kaufmann aus dem Konsortium der Phyta dorthin begeben und sich selbst zum Earl von Omonporch ernannt. Wir brauchen dich, um einen Deal zu vermitteln, damit wir die Kontrolle über die Spindel pachten können. Falls das nicht funktioniert, wirst du den selbsternannten Earl beseitigen müssen.\n\nSei vorsichtig bei deinem Weg nach Omonporch, =factionaddress:Barathrumites=. So weit östlich in den Ausläufern von Qud warten die Putus Templar.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cc685900302108d2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Ripe1.Text|The Putus Templar, or the Sons and Daughters, as they call themselves, are an order of knights who claim descendancy from the Eaters, the ancient folk who wrought the chrome halls of Qud. Beware them, for while they despise all mutants, they harbor a special malice for Barathrum.\n\nTake care that you do not find =player.reflexive= inside one of their slave pens.",
+      "context": "Conversation Otho.Ripe1.Text",
+      "old_value": "Die Putus Templar, oder die Söhne und Töchter, wie sie sich selbst nennen, sind ein Orden von Rittern, die ihre Abstammung von den Eatern beanspruchen, dem alten Volk, das die Chromhallen von Qud erschuf. Hütet Euch vor ihnen, denn während sie alle Mutanten verachten, hegen sie einen besonderen Haß gegen Barathrum.\n\nAchtet darauf, daß Ihr Euch nicht in einem ihrer Sklavenpferche =player.reflexive= findet.",
+      "new_value": "Die Putus Templar, oder die Söhne und Töchter, wie sie sich selbst nennen, sind ein Orden von Rittern, die ihre Abstammung von den Eatern beanspruchen, dem alten Volk, das die Chromhallen von Qud erschuf. Hüte dich vor ihnen, denn während sie alle Mutanten verachten, hegen sie einen besonderen Haß gegen Barathrum.\n\nAchte darauf, daß du dich nicht in einem ihrer Sklavenpferche =player.reflexive= findet.",
+      "note": "'dich ... =player.reflexive=' doppelt reflexiv (schon im Original)",
+      "status": "accepted"
+    },
+    {
+      "uid": "14646fe999a987cb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Ripe2.Text|That will be revealed to you in due time.\n\nDo not forget your place, =factionaddress:Barathrumites=.",
+      "context": "Conversation Otho.Ripe2.Text",
+      "old_value": "Das wird Euch zur gegebenen Zeit offenbart.\n\nVergesst nicht Euren Platz, =factionaddress:Barathrumites=.",
+      "new_value": "Das wird dir zur gegebenen Zeit offenbart.\n\nVergiss nicht deinen Platz, =factionaddress:Barathrumites=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f29bd92a06411d9d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start10.Text|It's as I feared, =name=. Grit Gate is being assailed. The Putus Templar must have followed you back from Omonporch.\n\nLet us use the precious little time we have before they arrive to prepare our defenses.",
+      "context": "Conversation Otho.Start10.Text",
+      "old_value": "Es ist wie ich befürchtete, =name=. Grit Gate wird angegriffen. Die Putus Templar müssen Euch von Omonporch aus gefolgt sein.\n\nLaßt uns die kostbare kurze Zeit nutzen, die wir haben, bevor sie ankommen, um unsere Verteidigungen vorzubereiten.",
+      "new_value": "Es ist wie ich befürchtete, =name=. Grit Gate wird angegriffen. Die Putus Templar müssen dir von Omonporch aus gefolgt sein.\n\nLaßt uns die kostbare kurze Zeit nutzen, die wir haben, bevor sie ankommen, um unsere Verteidigungen vorzubereiten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ed62b1ac48790bd6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.BeginCallToArms.Text|With the chrome key card I gave you, you now have access to our power grid. There are chain laser emplacements and force projectors across the enclave. Use Ereshkigal's reconnaissance to decide which defenses to enable. You can also broadcast an overclock command or activate Rodanis Y by interfacing with Ereshkigal.\n\nBe mindful of the amperage draw, though. If you overdraw the grid, you could cause brownouts.\n\nAct quickly, =name=! The Templar near us even as we speak.",
+      "context": "Conversation Otho.BeginCallToArms.Text",
+      "old_value": "Mit der Chromschlüsselkarte, die ich Euch gegeben habe, habt Ihr nun Zugriff auf unser Stromnetz. Es gibt Kettenlaseremplacements und Kraftprojektoren in der gesamten Enklave. Nutzt Ereshkigals Aufklärung, um zu entscheiden, welche Verteidigungen aktiviert werden sollen. Ihr könnt auch einen Übertaktungsbefehl ausstrahlen oder Rodanis Y aktivieren, indem Ihr mit Ereshkigal interagiert.\n\nSeid aber vorsichtig mit dem Stromverbrauch. Wenn Ihr das Stromnetz überladet, könnt Ihr Brownouts verursachen.\n\nHandelt schnell, =name=! Die Templar sind uns nahe, sogar während wir sprechen.",
+      "new_value": "Mit der Chromschlüsselkarte, die ich dir gegeben habe, hast du nun Zugriff auf unser Stromnetz. Es gibt Kettenlaseremplacements und Kraftprojektoren in der gesamten Enklave. Nutze Ereshkigals Aufklärung, um zu entscheiden, welche Verteidigungen aktiviert werden sollen. Du kannst auch einen Übertaktungsbefehl ausstrahlen oder Rodanis Y aktivieren, indem du mit Ereshkigal interagierst.\n\nSei aber vorsichtig mit dem Stromverbrauch. Wenn du das Stromnetz überlädst, kannst du Brownouts verursachen.\n\nHandle schnell, =name=! Die Templar sind uns nahe, sogar während wir sprechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eeb5cf4e665e13f5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.BeginGraveTidings.Text|Grave thoughts, =name=. Listen to me now. Take this key card, go to Ereshkigal's room, and-- oh, that's the mainframe. It's what she prefers to be called.\n\nGo to her room, access Ereshkigal, and scan the shale surrounding the enclave for anomalies. I've asked her to ready her sensors.\n\nUpdate me with what you learn. You may use the intercom in the northeast corner of Ereshkigal's room to deliver your update.\n\nGo, quickly! I'd soon be disabused of my fears.",
+      "context": "Conversation Otho.BeginGraveTidings.Text",
+      "old_value": "Schwerwiegende Gedanken, =name=. Hört mir jetzt zu. Nehmt diese Schlüsselkarte, geht in Ereshkigals Zimmer, und-- oh, das ist der Mainframe. Das ist, wie sie genannt werden möchte.\n\nGeht in ihr Zimmer, greift auf Ereshkigal zu und scannt den Schiefer um die Enklave herum auf Anomalien. Ich habe sie gebeten, ihre Sensoren einsatzbereit zu machen.\n\nAktualisiert mich mit dem, was Ihr erfahrt. Ihr könnt die Gegensprechanlage in der Nordostecke von Ereshkigals Zimmer benutzen, um Euer Update zu liefern.\n\nGeht, schnell! Ich möchte meine Befürchtungen bald widerlegt sehen.",
+      "new_value": "Schwerwiegende Gedanken, =name=. Hör mir jetzt zu. Nimm diese Schlüsselkarte, geh in Ereshkigals Zimmer, und-- oh, das ist der Mainframe. Das ist, wie sie genannt werden möchte.\n\nGeh in ihr Zimmer, greif auf Ereshkigal zu und scanne den Schiefer um die Enklave herum auf Anomalien. Ich habe sie gebeten, ihre Sensoren einsatzbereit zu machen.\n\nAktualisiere mich mit dem, was du erfährst. Du kannst die Gegensprechanlage in der Nordostecke von Ereshkigals Zimmer benutzen, um dein Update zu liefern.\n\nGeh, schnell! Ich möchte meine Befürchtungen bald widerlegt sehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4591b237b38655e5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start13.Text|You can still activate our defenses, =name=. There are chain laser emplacements and force projectors across the enclave. Use Ereshkigal's reconnaissance to decide which defenses to enable. You can also broadcast an overclock command or activate Rodanis Y by interfacing with Ereshkigal.\n\nBe mindful of the amperage draw, though. If you overdraw the grid, you could cause brownouts.",
+      "context": "Conversation Otho.Start13.Text",
+      "old_value": "Ihr könnt immer noch unsere Verteidigungen aktivieren, =name=. Es gibt Kettenlaseremplacements und Kraftprojektoren in der gesamten Enklave. Nutzt Ereshkigals Aufklärung, um zu entscheiden, welche Verteidigungen aktiviert werden sollen. Ihr könnt auch einen Übertaktungsbefehl ausstrahlen oder Rodanis Y aktivieren, indem Ihr mit Ereshkigal interagiert.\n\nSeid aber vorsichtig mit dem Stromverbrauch. Wenn Ihr das Stromnetz überladet, könnt Ihr Brownouts verursachen.",
+      "new_value": "Du kannst immer noch unsere Verteidigungen aktivieren, =name=. Es gibt Kettenlaseremplacements und Kraftprojektoren in der gesamten Enklave. Nutze Ereshkigals Aufklärung, um zu entscheiden, welche Verteidigungen aktiviert werden sollen. Du kannst auch einen Übertaktungsbefehl ausstrahlen oder Rodanis Y aktivieren, indem du mit Ereshkigal interagierst.\n\nSei aber vorsichtig mit dem Stromverbrauch. Wenn du das Stromnetz überlädst, kannst du Brownouts verursachen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2677a8f43c7f09a0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.IntroduceBarathrum.Text|Furthermore, I spoke with Barathrum. He praised your handling of the Earl of Omonporch, and he thanks you for the bravery you exhibited in defending Grit Gate.\n\nThe attack today reminds us: for too long have we put our faith in the isolation of our guild and the preoccupations of the Putus Templar. The looming threat of another attack impels Barathrum to accelerate his plans, and with them, your position in our guild.\n\nYou are raised to Disciple, =player.formalAddressTerm=. Barathrum wishes to speak with you immediately.",
+      "context": "Conversation Otho.IntroduceBarathrum.Text",
+      "old_value": "Darüber hinaus habe ich mit Barathrum gesprochen. Er lobte Euer Handeln gegenüber dem Earl von Omonporch und dankt Euch für den Mut, den Ihr bei der Verteidigung von Grit Gate gezeigt habt.\n\nDer heutige Angriff erinnert uns: viel zu lange haben wir unser Vertrauen auf die Isolation unserer Gilde und die Besorgnis der Putus Templar gelegt. Die drohende Gefahr eines weiteren Angriffs treibt Barathrum an, seine Pläne zu beschleunigen, und mit ihnen Eure Position in unserer Gilde.\n\nIhr werdet zum Disciple erhoben, =player.formalAddressTerm=. Barathrum wünscht, sofort mit Euch zu sprechen.",
+      "new_value": "Darüber hinaus habe ich mit Barathrum gesprochen. Er lobte dein Handeln gegenüber dem Earl von Omonporch und dankt dir für den Mut, den du bei der Verteidigung von Grit Gate gezeigt hast.\n\nDer heutige Angriff erinnert uns: viel zu lange haben wir unser Vertrauen auf die Isolation unserer Gilde und die Besorgnis der Putus Templar gelegt. Die drohende Gefahr eines weiteren Angriffs treibt Barathrum an, seine Pläne zu beschleunigen, und mit ihnen deine Position in unserer Gilde.\n\nDu wirst zum Disciple erhoben, =player.formalAddressTerm=. Barathrum wünscht, sofort mit dir zu sprechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ffd2692dd6a7d0e9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start16.Text|I spoke with Barathrum. He praised your handling of the Earl of Omonporch, and he thanks you for the bravery you exhibited in defending Grit Gate.\n\nThe attack today reminds us: for too long have we put our faith in the isolation of our guild and the preoccupations of the Putus Templar. The looming threat of another attack impels Barathrum to accelerate his plans, and with them, your position in our guild.\n\nYou are raised to Disciple, =player.formalAddressTerm=. Barathrum wishes to speak with you immediately.",
+      "context": "Conversation Otho.Start16.Text",
+      "old_value": "Darüber hinaus habe ich mit Barathrum gesprochen. Er lobte Euer Handeln gegenüber dem Earl von Omonporch und dankt Euch für den Mut, den Ihr bei der Verteidigung von Grit Gate gezeigt habt.\n\nDer heutige Angriff erinnert uns: viel zu lange haben wir unser Vertrauen auf die Isolation unserer Gilde und die Besorgnis der Putus Templar gelegt. Die drohende Gefahr eines weiteren Angriffs treibt Barathrum an, seine Pläne zu beschleunigen, und mit ihnen Eure Position in unserer Gilde.\n\nIhr werdet zum Disciple erhoben, =player.formalAddressTerm=. Barathrum wünscht, sofort mit Euch zu sprechen.",
+      "new_value": "Darüber hinaus habe ich mit Barathrum gesprochen. Er lobte dein Handeln gegenüber dem Earl von Omonporch und dankt dir für den Mut, den du bei der Verteidigung von Grit Gate gezeigt hast.\n\nDer heutige Angriff erinnert uns: viel zu lange haben wir unser Vertrauen auf die Isolation unserer Gilde und die Besorgnis der Putus Templar gelegt. Die drohende Gefahr eines weiteren Angriffs treibt Barathrum an, seine Pläne zu beschleunigen, und mit ihnen deine Position in unserer Gilde.\n\nDu wirst zum Disciple erhoben, =player.formalAddressTerm=. Barathrum wünscht, sofort mit dir zu sprechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "03231c6444bb09c9",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Barathrum.Text|Yes, =factionaddress:Barathrumites=. Take this key and follow the stairs down to his study. He awaits.",
+      "context": "Conversation Otho.Barathrum.Text",
+      "old_value": "Ja, =factionaddress:Barathrumites=. Nehmt diesen Schlüssel und folgt der Treppe hinunter zu seinem Arbeitszimmer. Er erwartet Euch.",
+      "new_value": "Ja, =factionaddress:Barathrumites=. Nimm diesen Schlüssel und folge der Treppe hinunter zu seinem Arbeitszimmer. Er erwartet dich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "63053111f235e7a7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start18.Text|=factionaddress:Barathrumites|capitalize=! You have my deepest gratitude. Few =player.personTerm|pluralize= could have defended Grit Gate so deftly.\n\nNow, give me time to assess our losses and consult with Barathrum. Return soon.",
+      "context": "Conversation Otho.Start18.Text",
+      "old_value": "=factionaddress:Barathrumites|capitalize=! Ihr habt meine tiefste Dankbarkeit. Wenige =player.personTerm|pluralize= hätten Grit Gate so geschickt verteidigen können.\n\nGebt mir jetzt Zeit, unsere Verluste zu bewerten und mich mit Barathrum zu beraten. Kehrt bald zurück.",
+      "new_value": "=factionaddress:Barathrumites|capitalize=! Du hast meine tiefste Dankbarkeit. Wenige =player.personTerm|pluralize= hätten Grit Gate so geschickt verteidigen können.\n\nGib mir jetzt Zeit, unsere Verluste zu bewerten und mich mit Barathrum zu beraten. Kehre bald zurück.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7b91d469b6d6ba0e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start19.Text|Given the circumstances, this is a remarkable lack of destruction. Your defense of Grit Gate was first-class, =name=.",
+      "context": "Conversation Otho.Start19.Text",
+      "old_value": "Angesichts der Umstände ist dies eine bemerkenswert geringe Zerstörung. Eure Verteidigung von Grit Gate war erstklassig, =name=.",
+      "new_value": "Angesichts der Umstände ist dies eine bemerkenswert geringe Zerstörung. Deine Verteidigung von Grit Gate war erstklassig, =name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "51759cb0e55947fe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.Start20.Text|Much was lost, but such is what I expected. Once again, thank you for efforts, =name=.",
+      "context": "Conversation Otho.Start20.Text",
+      "old_value": "Viel wurde verloren, aber das habe ich erwartet. Nochmals danke für Eure Bemühungen, =name=.",
+      "new_value": "Viel wurde verloren, aber das habe ich erwartet. Nochmals danke für deine Bemühungen, =name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c4763254576d8ad2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.SlynthRequest.Text|Be straightforward, disciple. You mean to ask if we will house them.",
+      "context": "Conversation Otho.SlynthRequest.Text",
+      "old_value": "Seid direkt, Disciple. Ihr fragt, ob wir sie aufnehmen werden.",
+      "new_value": "Sei direkt, Disciple. Du fragst, ob wir sie aufnehmen werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5301d8b77841f242",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.SlynthRequestAccept.Text|I am uncertain that you know the enormity of what you ask me, =name=. Nonetheless, I cannot deny what you have done for our order. These slynth must be tested as you were, but should they show the mettle and drive set by your example, we will accept them as apprentices.",
+      "context": "Conversation Otho.SlynthRequestAccept.Text",
+      "old_value": "Ich bin unsicher, ob Ihr das Ausmaß dessen, das Ihr mich fragt, kennt, =name=. Nichtsdestotrotz kann ich nicht leugnen, was Ihr für unsere Orden getan habt. Diese Slynth müssen wie Ihr getestet werden, aber falls sie die Standhaftigkeit und den Antrieb zeigen, die Euer Beispiel setzt, werden wir sie als Lehrlinge akzeptieren.",
+      "new_value": "Ich bin unsicher, ob du das Ausmaß dessen, das du mich fragst, kennst, =name=. Nichtsdestotrotz kann ich nicht leugnen, was du für unsere Orden getan hast. Diese Slynth müssen wie du getestet werden, aber falls sie die Standhaftigkeit und den Antrieb zeigen, die dein Beispiel setzt, werden wir sie als Lehrlinge akzeptieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8145e8d885adc704",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.SlynthRequestAccept.EndChoice.Text|You have my thanks, Otho.",
+      "context": "Conversation Otho.SlynthRequestAccept.EndChoice.Text",
+      "old_value": "Ihr habt meinen Dank, Otho.",
+      "new_value": "Du hast meinen Dank, Otho.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cc1739f4897ec299",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.SlynthRequestReject.Text|You have grown bold beyond your station. What you have asked of us you have not earned. If you must ask again, become worthier first.",
+      "context": "Conversation Otho.SlynthRequestReject.Text",
+      "old_value": "Ihr seid über Eure Station hinaus kühn geworden. Das, was Ihr uns gefragt habt, habt Ihr nicht verdient. Wenn Ihr wieder fragen müsst, werdet zuerst würdiger.",
+      "new_value": "Du bist über deine Station hinaus kühn geworden. Das, was du uns gefragt hast, hast du nicht verdient. Wenn du wieder fragen musst, werde zuerst würdiger.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "376fcfd6d6c1265c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.SlynthArrived.Text|I did not expect to admit this, disciple, but the refugees have met my expectations. Like you, they have shown more than a willing spirit in work and curiosity both.\n\nThe slynth have promise, and you may have been right to bring them to us.",
+      "context": "Conversation Otho.SlynthArrived.Text",
+      "old_value": "Ich hätte nicht erwartet, das zuzugeben, Disciple, aber die Flüchtlinge haben meine Erwartungen erfüllt. Wie Ihr haben sie mehr als nur einen willigen Geist in Arbeit und Neugier gezeigt.\n\nDie Slynth haben Potenzial, und Ihr könntet recht gehabt haben, sie zu uns zu bringen.",
+      "new_value": "Ich hätte nicht erwartet, das zuzugeben, Disciple, aber die Flüchtlinge haben meine Erwartungen erfüllt. Wie du haben sie mehr als nur einen willigen Geist in Arbeit und Neugier gezeigt.\n\nDie Slynth haben Potenzial, und du könntest recht gehabt haben, sie zu uns zu bringen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "97bc35fb15153658",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Otho.SlynthSettled.Text|Live and drink, disciple.\n\nYou will be pleased to know that the slynth have proven themselves worthy of apprentice status. They will reside here for as long as they uphold and serve the tenets of our order.",
+      "context": "Conversation Otho.SlynthSettled.Text",
+      "old_value": "Leben und trinken, Disciple.\n\nIhr werdet erfreut sein zu erfahren, daß die Slynth sich würdig für den Lehrlingsstatus erwiesen haben. Sie werden hier wohnen, solange sie die Grundsätze unserer Orden einhalten und dienen.",
+      "new_value": "Leben und trinken, Disciple.\n\nDu wirst erfreut sein zu erfahren, daß die Slynth sich würdig für den Lehrlingsstatus erwiesen haben. Sie werden hier wohnen, solange sie die Grundsätze unserer Orden einhalten und dienen.",
+      "note": "'Leben und trinken' Infinitiv, unverändert",
+      "status": "accepted"
+    },
+    {
+      "uid": "877d01ca5b841c8a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Mainframe Intercom.Start.Text|It's as I feared, =name=. Grit Gate is being assailed. The Putus Templar must have followed you back from Omonporch.\n\nLet us use the precious little time we have before they arrive to prepare our defenses.",
+      "context": "Conversation Gritgate Mainframe Intercom.Start.Text",
+      "old_value": "Es ist wie ich befürchtete, =name=. Grit Gate wird angegriffen. Die Putus Templar müssen Euch von Omonporch aus gefolgt sein.\n\nLaßt uns die kostbare kurze Zeit nutzen, die wir haben, bevor sie ankommen, um unsere Verteidigungen vorzubereiten.",
+      "new_value": "Es ist wie ich befürchtete, =name=. Grit Gate wird angegriffen. Die Putus Templar müssen dir von Omonporch aus gefolgt sein.\n\nLaßt uns die kostbare kurze Zeit nutzen, die wir haben, bevor sie ankommen, um unsere Verteidigungen vorzubereiten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "03a599237e78f15d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Gritgate Mainframe Intercom.BeginCallToArms.Text|With the chrome key card I gave you, you now have access to our power grid. There are chain laser emplacements and force projectors across the enclave. Use Ereshkigal's reconnaissance to decide which defenses to enable. You can also broadcast an overclock command or activate Rodanis Y by interfacing with Ereshkigal.\n\nBe mindful of the amperage draw, though. If you overdraw the grid, you could cause brownouts.\n\nAct quickly, =name=! The Templar near us even as we speak.",
+      "context": "Conversation Gritgate Mainframe Intercom.BeginCallToArms.Text",
+      "old_value": "Mit der Chromschlüsselkarte, die ich Euch gegeben habe, habt Ihr nun Zugriff auf unser Stromnetz. Es gibt Kettenlaseremplacements und Kraftprojektoren in der gesamten Enklave. Nutzt Ereshkigals Aufklärung, um zu entscheiden, welche Verteidigungen aktiviert werden sollen. Ihr könnt auch einen Übertaktungsbefehl ausstrahlen oder Rodanis Y aktivieren, indem Ihr mit Ereshkigal interagiert.\n\nSeid aber vorsichtig mit dem Stromverbrauch. Wenn Ihr das Stromnetz überladet, könnt Ihr Brownouts verursachen.\n\nHandelt schnell, =name=! Die Templar sind uns nahe, sogar während wir sprechen.",
+      "new_value": "Mit der Chromschlüsselkarte, die ich dir gegeben habe, hast du nun Zugriff auf unser Stromnetz. Es gibt Kettenlaseremplacements und Kraftprojektoren in der gesamten Enklave. Nutze Ereshkigals Aufklärung, um zu entscheiden, welche Verteidigungen aktiviert werden sollen. Du kannst auch einen Übertaktungsbefehl ausstrahlen oder Rodanis Y aktivieren, indem du mit Ereshkigal interagierst.\n\nSei aber vorsichtig mit dem Stromverbrauch. Wenn du das Stromnetz überlädst, kannst du Brownouts verursachen.\n\nHandle schnell, =name=! Die Templar sind uns nahe, sogar während wir sprechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1de016f2bccce454",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Start3.ClimberChoice.Text|Barathrum asked me to deliver your blueprints to Pax Klanq.",
+      "context": "Conversation Q Girl.Start3.ClimberChoice.Text",
+      "old_value": "Barathrum bat mich, Eure Baupläne zu Pax Klanq zu bringen.",
+      "new_value": "Barathrum bat mich, deine Baupläne zu Pax Klanq zu bringen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c1b96355790a0dc0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Start3.HairChoice.Text|Your hair is a quasar of red ochre and indigo.",
+      "context": "Conversation Q Girl.Start3.HairChoice.Text",
+      "old_value": "Euer Haar ist ein Quasar aus rotem Ocker und Indigo.",
+      "new_value": "Dein Haar ist ein Quasar aus rotem Ocker und Indigo.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "89ffe541c9aec164",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Start3.DiskChoice.Text|Otho informs me that you have a method for decoding the signal. Can you encode your instructions for the baetyl onto this disk?",
+      "context": "Conversation Q Girl.Start3.DiskChoice.Text",
+      "old_value": "Otho informiert mich, daß Ihr eine Methode zum Dekodieren des Signals habt. Könnt Ihr Eure Anweisungen für die Baetyl auf diese Festplatte codieren?",
+      "new_value": "Otho informiert mich, daß du eine Methode zum Dekodieren des Signals hast. Kannst du deine Anweisungen für die Baetyl auf diese Festplatte codieren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b04d8322bcb0af66",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Start3.EndChoice.Text|Live and drink, tinker.",
+      "context": "Conversation Q Girl.Start3.EndChoice.Text",
+      "old_value": "Leben Sie und trinken Sie, Bastler.",
+      "new_value": "Lebe und trinke, Bastler.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "81fefd3cc5db01f7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Rumbling.EndChoice.Text|Live and drink, tinker.",
+      "context": "Conversation Q Girl.Rumbling.EndChoice.Text",
+      "old_value": "Leben Sie und trinken Sie, Bastler.",
+      "new_value": "Lebe und trinke, Bastler.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6fce1115564867ff",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Quetzal.EndChoice.Text|Live and drink, tinker.",
+      "context": "Conversation Q Girl.Quetzal.EndChoice.Text",
+      "old_value": "Leben Sie und trinken Sie, Bastler.",
+      "new_value": "Lebe und trinke, Bastler.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b27b56f4ed0eae23",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Hair.EndChoice.Text|Live and drink, tinker.",
+      "context": "Conversation Q Girl.Hair.EndChoice.Text",
+      "old_value": "Leben Sie und trinken Sie, Bastler.",
+      "new_value": "Lebe und trinke, Bastler.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cacd555a1f525f31",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Goggles.EndChoice.Text|Live and drink, tinker.",
+      "context": "Conversation Q Girl.Goggles.EndChoice.Text",
+      "old_value": "Leben Sie und trinken Sie, Bastler.",
+      "new_value": "Lebe und trinke, Bastler.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "190d34fda0bfb7c4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Q Girl.Tinker.EndChoice.Text|Live and drink, tinker.",
+      "context": "Conversation Q Girl.Tinker.EndChoice.Text",
+      "old_value": "Leben Sie und trinken Sie, Bastler.",
+      "new_value": "Lebe und trinke, Bastler.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6abee4afc9c4bcbe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.Start2.Text|{{emote|*Sparafucile gives =pronouns.possessive= carbine a once-over and gives you a resolute nod.*}}",
+      "context": "Conversation Sparafucile.Start2.Text",
+      "old_value": "{{emote|*Sparafucile wirft =pronouns.possessive= Karabiner einen prüfenden Blick zu und nickt Euch entschlossen zu.*}}",
+      "new_value": "{{emote|*Sparafucile wirft =pronouns.possessive= Karabiner einen prüfenden Blick zu und nickt dir entschlossen zu.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a209d9e5f712a84e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.SilentGreeting.CarbineSpara.Text|Your carbine is as fine an instrument as I have ever wielded.",
+      "context": "Conversation Sparafucile.SilentGreeting.CarbineSpara.Text",
+      "old_value": "Eure Karabine ist ein so feines Werkzeug, wie ich es je geführt habe.",
+      "new_value": "Deine Karabine ist ein so feines Werkzeug, wie ich es je geführt habe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf6cb2946b8cf023",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.SilentGreeting.PistolSpara.Text|Your pistol is as fine an instrument as I have ever wielded.",
+      "context": "Conversation Sparafucile.SilentGreeting.PistolSpara.Text",
+      "old_value": "Eure Pistole ist ein so feines Werkzeug wie jedes, das ich je geschwungen habe.",
+      "new_value": "Deine Pistole ist ein so feines Werkzeug wie jedes, das ich je geschwungen habe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "92c7d540e2dffd32",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.Sparagon.Text|{{emote|*Sparafucile frowns. After several moments of paper-shuffling, he presents you with a charcoal drawing depicting a gelatinous creature in the shape of a gumdrop. Sketches below depict the ooze enveloping a bipedal figure, then falling through the floor.*}}",
+      "context": "Conversation Sparafucile.Sparagon.Text",
+      "old_value": "{{emote|*Sparafucile runzelt die Stirn. Nach mehreren Momenten des Papierkratzens präsentiert er Euch eine Holzkohleskizze, die eine gallertartige Kreatur in Form eines Gummidrops zeigt. Skizzen darunter zeigen den Schleim, der eine zweibeini Figur umhüllt, dann durch den Boden fällt.*}}",
+      "new_value": "{{emote|*Sparafucile runzelt die Stirn. Nach mehreren Momenten des Papierkratzens präsentiert er dir eine Holzkohleskizze, die eine gallertartige Kreatur in Form eines Gummidrops zeigt. Skizzen darunter zeigen den Schleim, der eine zweibeini Figur umhüllt, dann durch den Boden fällt.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "253fbdbd33f7357b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.SparaStumped.Text|{{emote|*Sparafucile furrows his brow for a few moments, then shakes his head, sighs, and offers you a shrug. He puts a paw on your shoulder and squeezes.*}}",
+      "context": "Conversation Sparafucile.SparaStumped.Text",
+      "old_value": "{{emote|*Sparafucile runzelt die Stirn für einen Moment, schüttelt dann den Kopf, seufzt und zuckt mit den Schultern. Er legt eine Pranke auf Eure Schulter und drückt zu.*}}",
+      "new_value": "{{emote|*Sparafucile runzelt die Stirn für einen Moment, schüttelt dann den Kopf, seufzt und zuckt mit den Schultern. Er legt eine Pranke auf deine Schulter und drückt zu.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5cd35a5f8f22da3f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.SparaFam.Text|{{emote|*Sparafucile gives you a warm smile and a firm nod. Pressing both pointers to their respective thumbs, =pronouns.subjective= taps these finger-circles together before =pronouns.possessive= chest and rotates both hands in place until the smallest of =pronouns.possessive= long fingers touch. Finally, =pronouns.subjective= gestures toward the other Barathrumites working at their stations.*}}",
+      "context": "Conversation Sparafucile.SparaFam.Text",
+      "old_value": "{{emote|*Sparafucile schenkt Euch ein warmes Lächeln und ein festes Nicken. Beide Zeigefinger gegen die jeweiligen Daumen gedrückt, tippt =pronouns.subjective= diese Fingerkreise vor =pronouns.possessive= Brust zusammen und dreht beide Hände an Ort und Stelle, bis sich die kleinsten von =pronouns.possessive= langen Fingern berühren. Abschließend deutet =pronouns.subjective= auf die anderen Barathrumiten, die an ihren Stationen arbeiten.*}}",
+      "new_value": "{{emote|*Sparafucile schenkt dir ein warmes Lächeln und ein festes Nicken. Beide Zeigefinger gegen die jeweiligen Daumen gedrückt, tippt =pronouns.subjective= diese Fingerkreise vor =pronouns.possessive= Brust zusammen und dreht beide Hände an Ort und Stelle, bis sich die kleinsten von =pronouns.possessive= langen Fingern berühren. Abschließend deutet =pronouns.subjective= auf die anderen Barathrumiten, die an ihren Stationen arbeiten.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "668ac9b9886c3ef0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.SparaFam.FamilySpara.Text|You are happy because you are with your family?",
+      "context": "Conversation Sparafucile.SparaFam.FamilySpara.Text",
+      "old_value": "Seid Ihr glücklich, weil Ihr bei Eurer Familie seid?",
+      "new_value": "Bist du glücklich, weil du bei deiner Familie bist?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f228e9ed76aded6b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.PraiseCarbine.Text|{{emote|*Sparafucile smiles. =pronouns.Subjective= raises a flat hand to =pronouns.possessive= chin and lowers it in your direction.*}}",
+      "context": "Conversation Sparafucile.PraiseCarbine.Text",
+      "old_value": "{{emote|*Sparafucile lächelt. =pronouns.Subjective= erhebt eine flache Hand zu =pronouns.possessive= Kinn und senkt sie in Eure Richtung.*}}",
+      "new_value": "{{emote|*Sparafucile lächelt. =pronouns.Subjective= erhebt eine flache Hand zu =pronouns.possessive= Kinn und senkt sie in deine Richtung.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb8803fbb3bddab2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.Sparatopics.Text|{{emote|*With a nod, Sparafucile waits for you to continue, keeping =pronouns.possessive= eyes focused on your lips.*}}",
+      "context": "Conversation Sparafucile.Sparatopics.Text",
+      "old_value": "{{emote|*Mit einem Nicken wartet Sparafucile darauf, dass Ihr weitermacht, und behält =pronouns.possessive= Augen auf Euren Lippen fokussiert.*}}",
+      "new_value": "{{emote|*Mit einem Nicken wartet Sparafucile darauf, dass du weitermachst, und behält =pronouns.possessive= Augen auf deinen Lippen fokussiert.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1e75fa2b7aab504b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.QuietBear.oicSpara.Text|You are... unable to hear or speak.",
+      "context": "Conversation Sparafucile.QuietBear.oicSpara.Text",
+      "old_value": "Ihr könnt... nicht hören oder sprechen.",
+      "new_value": "Du kannst... nicht hören oder sprechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6c6ff2653d4e5ad2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.Disabearlity.PatronizeSpara.Text|Yet you are an expert in your field? How inspiring!",
+      "context": "Conversation Sparafucile.Disabearlity.PatronizeSpara.Text",
+      "old_value": "Dennoch seid Ihr ein Experte in Eurem Bereich? Wie inspirierend!",
+      "new_value": "Dennoch bist du ein Experte in deinem Bereich? Wie inspirierend!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f4e4d919a00870b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.Miscongenitality.ConfirmSpara.Text|Your condition is lifelong?",
+      "context": "Conversation Sparafucile.Miscongenitality.ConfirmSpara.Text",
+      "old_value": "Euer Zustand ist lebenslang?",
+      "new_value": "Dein Zustand ist lebenslang?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b04624653191b704",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.Miscongenitality.ThankSpara.Text|Thank you for your clarity and patience, tinkerfriend.",
+      "context": "Conversation Sparafucile.Miscongenitality.ThankSpara.Text",
+      "old_value": "Danke für Eure Klarheit und Geduld, Bastlerfreund.",
+      "new_value": "Danke für deine Klarheit und Geduld, Bastlerfreund.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bfa1cb98ec7bb5b3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.SparaThank.Text|{{emote|*With a small smile of gratitude, Sparafucile taps his chin with a flat hand and lowers it toward you like a drawbridge.*}}",
+      "context": "Conversation Sparafucile.SparaThank.Text",
+      "old_value": "{{emote|*Mit einem kleinen, dankbaren Lächeln tippt Sparafucile sein Kinn mit einer flachen Hand an und senkt es wie eine Zugbrücke zu Euch herab.*}}",
+      "new_value": "{{emote|*Mit einem kleinen, dankbaren Lächeln tippt Sparafucile sein Kinn mit einer flachen Hand an und senkt es wie eine Zugbrücke zu dir herab.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "37aafb4e0646a6a5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.BearySorry.Text|{{emote|*Sparafucile gives you a wan smile and a thumbs-up.*}}",
+      "context": "Conversation Sparafucile.BearySorry.Text",
+      "old_value": "{{emote|*Sparafucile schenkt Euch ein fahles Lächeln und zeigt Daumen hoch.*}}",
+      "new_value": "{{emote|*Sparafucile schenkt dir ein fahles Lächeln und zeigt Daumen hoch.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d90af404aec40e9d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Sparafucile.SparaStare.Text|{{emote|*Sparafucile stares at you as if you have grown an additional, substantially uglier head, which you have not.*}}",
+      "context": "Conversation Sparafucile.SparaStare.Text",
+      "old_value": "{{emote|*Sparafucile starrt Euch an, als ob Ihr einen zusätzlichen, wesentlich hässlicheren Kopf gewachsen wäre, was Ihr nicht habt.*}}",
+      "new_value": "{{emote|*Sparafucile starrt dich an, als ob du einen zusätzlichen, wesentlich hässlicheren Kopf gewachsen wärst, was du nicht hast.*}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de76c500ac7c3fc7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Recame.GreetingsChoice.Text|Good to see you, Iseppa. Let's chat.",
+      "context": "Conversation Iseppa.Recame.GreetingsChoice.Text",
+      "old_value": "Es ist schön, Euch zu sehen, Iseppa. Lasst uns plaudern.",
+      "new_value": "Es ist schön, dich zu sehen, Iseppa. Lass uns plaudern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d55030195bb8ec31",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.TombQuest.Text|You're going to the Thin World? I confess to some measure of envy.\n\nI have dreamt many times of disappearing into a cool ocean of information, shaking the cruft of my physical form from newly-freed quills. If that came of my waking life, would I then dream as chore-doing Iseppa in her chambers? Perhaps it's best I don't know.",
+      "context": "Conversation Iseppa.TombQuest.Text",
+      "old_value": "Ihr geht in die Dünne Welt? Ich gestehe, dass ich einen gewissen Neid verspüre.\n\nIch habe viele Male davon geträumt, in einem kühlen Meer von Informationen zu versinken, den Ballast meiner physischen Form mit meinen neu befreiten Federn abzuschütteln. Wenn das aus meinem wachen Leben käme, würde ich dann als die pflichterfüllende Iseppa in meinen Kammern träumen? Vielleicht ist es besser, dass ich es nicht weiß.",
+      "new_value": "Du gehst in die Dünne Welt? Ich gestehe, dass ich einen gewissen Neid verspüre.\n\nIch habe viele Male davon geträumt, in einem kühlen Meer von Informationen zu versinken, den Ballast meiner physischen Form mit meinen neu befreiten Federn abzuschütteln. Wenn das aus meinem wachen Leben käme, würde ich dann als die pflichterfüllende Iseppa in meinen Kammern träumen? Vielleicht ist es besser, dass ich es nicht weiß.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aba3ec42b951b3e1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Greetings.Text|Ah, it is our new short-fingered friend. Set a spell, if you like setting.\n\n{{emote|*Iseppa yawns*}}\n\nOr spells. Or Iseppa. If you like Iseppa, this is a very good place to be.",
+      "context": "Conversation Iseppa.Greetings.Text",
+      "old_value": "Ah, es ist unser neuer kurzfingriger Freund. Verweilt eine Weile, wenn das Eurem Sinne entspricht.\n\n{{emote|*Iseppa gähnt*}}\n\nOder Zauber. Oder Iseppa. Wenn Euch Iseppa gefällt, ist dies ein wunderbar guter Ort zum Verweilen.",
+      "new_value": "Ah, es ist unser neuer kurzfingriger Freund. Verweile eine Weile, wenn das deinem Sinne entspricht.\n\n{{emote|*Iseppa gähnt*}}\n\nOder Zauber. Oder Iseppa. Wenn dir Iseppa gefällt, ist dies ein wunderbar guter Ort zum Verweilen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c2257ab8d2e04f6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Greetings.Bioseppa.Text|I wish to know more about you.",
+      "context": "Conversation Iseppa.Greetings.Bioseppa.Text",
+      "old_value": "Ich wünsche mir, mehr über Euch zu erfahren.",
+      "new_value": "Ich wünsche mir, mehr über dich zu erfahren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "35cb2b1177fc55e3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Greetings.LikeChoice.Text|I do like you, Iseppa.",
+      "context": "Conversation Iseppa.Greetings.LikeChoice.Text",
+      "old_value": "Ihr gefällt mir, Iseppa.",
+      "new_value": "Du gefällst mir, Iseppa.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ff3352fa133a48bb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Like.Text|Thank you, =name=. I like you too.",
+      "context": "Conversation Iseppa.Like.Text",
+      "old_value": "Danke, =name=. Ihr gefällt mir auch.",
+      "new_value": "Danke, =name=. Du gefällst mir auch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d2d21cc68fa4c21",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Bethesda.Text|Bethesda Susa is an antipodal place, a gallery of life and death and the stages between. Its depths prolong life and end it early, remove life from the flow of days or return it.\n\nIt will seek to make you late. Take care you come back on time.",
+      "context": "Conversation Iseppa.Bethesda.Text",
+      "old_value": "Bethesda Susa ist ein gegensätzlicher Ort, eine Galerie von Leben und Tod und den Stadien dazwischen. Seine Tiefen verlängern das Leben und beenden es früh, entfernen das Leben aus dem Fluss der Tage oder bringen es zurück.\n\nEs wird versuchen, Euch zu verspäten. Passt auf, dass Ihr rechtzeitig zurückkommt.",
+      "new_value": "Bethesda Susa ist ein gegensätzlicher Ort, eine Galerie von Leben und Tod und den Stadien dazwischen. Seine Tiefen verlängern das Leben und beenden es früh, entfernen das Leben aus dem Fluss der Tage oder bringen es zurück.\n\nEs wird versuchen, dich zu verspäten. Pass auf, dass du rechtzeitig zurückkommst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "47a96f96ded7f2bc",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Klanq.SludgesChoice.Text|You fear sludge?",
+      "context": "Conversation Iseppa.Klanq.SludgesChoice.Text",
+      "old_value": "Ihr fürchtet Schlick?",
+      "new_value": "Du fürchtest Schlick?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d3ae658ef13f43c2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Sludges.Text|I fear sludges, the kind you may no longer describe with 'some'. Born of the ancient stuff of existence, possessed of malice and wanting nothing more than to eat whatever they can, and they can eat whatever. It is even worse when they drink.\n\nTake care with them.",
+      "context": "Conversation Iseppa.Sludges.Text",
+      "old_value": "Ich fürchte mich vor Schlämmen, der Art, die Ihr vielleicht nicht länger mit 'einige' beschreiben könnt. Aus dem alten Stoff der Existenz geboren, voller Bosheit und sehnlich danach, alles zu fressen, was sie können, und sie können alles fressen. Es wird noch schlimmer, wenn sie trinken.\n\nSeid vorsichtig mit ihnen.",
+      "new_value": "Ich fürchte mich vor Schlämmen, der Art, die du vielleicht nicht länger mit 'einige' beschreiben kannst. Aus dem alten Stoff der Existenz geboren, voller Bosheit und sehnlich danach, alles zu fressen, was sie können, und sie können alles fressen. Es wird noch schlimmer, wenn sie trinken.\n\nSei vorsichtig mit ihnen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2c830a5da2790179",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Tired.DreamsChoice.Text|You have prophetic visions in your sleep?",
+      "context": "Conversation Iseppa.Tired.DreamsChoice.Text",
+      "old_value": "Habt Ihr prophetische Visionen in Eurem Schlaf?",
+      "new_value": "Hast du prophetische Visionen in deinem Schlaf?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "10e1a27d3846a284",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Gossip.Text|I would never think to steal from you the delight of forming opinions of my enclave on your own.\n\n{{emote|*Iseppa yawns.*}}\n\nBesides, that sounds like rather a lot of talking.",
+      "context": "Conversation Iseppa.Gossip.Text",
+      "old_value": "Ich würde Euch niemals die Freude stehlen, mir selbst eine Meinung über meine Enklave zu bilden.\n\n{{emote|*Iseppa gähnt.*}}\n\nAußerdem klingt das nach ziemlich viel Gerede.",
+      "new_value": "Ich würde dir niemals die Freude stehlen, mir selbst eine Meinung über meine Enklave zu bilden.\n\n{{emote|*Iseppa gähnt.*}}\n\nAußerdem klingt das nach ziemlich viel Gerede.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c97abd3da6990f93",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Project.EndChoice.Text|I shall leave you to it. Live and drink, contemplatrix.",
+      "context": "Conversation Iseppa.Project.EndChoice.Text",
+      "old_value": "Ich werde Euch allein lassen. Lebt und trinkt, Kontemplatorin.",
+      "new_value": "Ich werde dich allein lassen. Lebe und trinke, Kontemplatorin.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5b2a9ec928cf0af7",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Project2.MmHmmChoice.Text|But you're also doing the other thing.",
+      "context": "Conversation Iseppa.Project2.MmHmmChoice.Text",
+      "old_value": "Aber Ihr macht auch die andere Sache.",
+      "new_value": "Aber du machst auch die andere Sache.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "69c768eeb1f2d023",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Project2.EndChoice.Text|I'll leave you to it.",
+      "context": "Conversation Iseppa.Project2.EndChoice.Text",
+      "old_value": "Ich werde Euch allein lassen.",
+      "new_value": "Ich werde dich allein lassen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "70ec86a4c64d1533",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Iseppa.Project3.EndChoice.Text|I'll leave you to it, then.",
+      "context": "Conversation Iseppa.Project3.EndChoice.Text",
+      "old_value": "Ich werde Euch dann allein lassen.",
+      "new_value": "Ich werde dich dann allein lassen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "93372e78a76d7291",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Start2.EndChoice.Text|Take care.",
+      "context": "Conversation Dardi.Start2.EndChoice.Text",
+      "old_value": "Passt auf Euch auf.",
+      "new_value": "Pass auf dich auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "af923e12b8157b37",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Recame.GuestKlanqChoice.Text|You seem more irritated than usual.",
+      "context": "Conversation Dardi.Recame.GuestKlanqChoice.Text",
+      "old_value": "Ihr wirkt gereizter als üblich.",
+      "new_value": "Du wirkst gereizter als üblich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4dfbcf3bb4ae00a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Recame.GreetingsChoice.Text|About your workshop...",
+      "context": "Conversation Dardi.Recame.GreetingsChoice.Text",
+      "old_value": "Wegen Eurer Werkstatt...",
+      "new_value": "Wegen deiner Werkstatt...",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0b2e4d2578244eff",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Post Arms.GreetingsChoice.Text|About your workshop...",
+      "context": "Conversation Dardi.Post Arms.GreetingsChoice.Text",
+      "old_value": "Wegen Eurer Werkstatt...",
+      "new_value": "Wegen deiner Werkstatt...",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "82cf8da50090bcc6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.TombQuest.Text|Oh? Oh! Do pick up the mopango recipe for bone babka while you're there, won't you? I must know how they make it so dense.",
+      "context": "Conversation Dardi.TombQuest.Text",
+      "old_value": "Oh? Oh! Besorgt mir das Mopango-Rezept für Knochenbabka, während Ihr dort seid, ja? Ich muss wissen, wie sie es so dicht machen.",
+      "new_value": "Oh? Oh! Besorg mir das Mopango-Rezept für Knochenbabka, während du dort bist, ja? Ich muss wissen, wie sie es so dicht machen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aa5ae27b84d072cb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Greetings.Text|{{emote|*Dardi addresses you without looking up from =pronouns.possessive= many workspaces, many of which billow smoke, steam, or some unknown miasma.*}}\n\nWelcome to my laboratory, =name=. Rest and sustain =player.reflexive= before returning to your travels.",
+      "context": "Conversation Dardi.Greetings.Text",
+      "old_value": "{{emote|*Dardi spricht zu Euch, ohne von =pronouns.possessive= vielen Arbeitsbereichen aufzuschauen, viele davon Rauch, Dampf oder eine unbekannte Miasma ausstoßend.*}}\n\nWillkommen in meinem Labor, =name=. Ruht aus und stärkt =player.reflexive=, bevor Ihr eure Reisen fortsetzt.",
+      "new_value": "{{emote|*Dardi spricht zu dir, ohne von =pronouns.possessive= vielen Arbeitsbereichen aufzuschauen, viele davon Rauch, Dampf oder eine unbekannte Miasma ausstoßend.*}}\n\nWillkommen in meinem Labor, =name=. Ruhe aus und stärke =player.reflexive=, bevor du deine Reisen fortsetzt.",
+      "note": "'Ruht aus' -> 'Ruhe aus'",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d99ac740298ec9c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Greetings.KitchenChoice.Text|Laboratory? You work in a kitchen.",
+      "context": "Conversation Dardi.Greetings.KitchenChoice.Text",
+      "old_value": "Labor? Ihr arbeitet in einer Küche.",
+      "new_value": "Labor? Du arbeitest in einer Küche.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "07c2ab4f7f3fc3f0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Bethesda.Text|Yes! I have braved its wharf in the past, to gather precious convalessence for my experiments.\n\nAre you going? Dress warmly and mind the trolls.",
+      "context": "Conversation Dardi.Bethesda.Text",
+      "old_value": "Ja! Ich habe früher sein Ufer gewagt, um kostbare Genesung für meine Experimente zu sammeln.\n\nGeht Ihr hin? Kleidet Euch warm und passt auf die Trolle auf.",
+      "new_value": "Ja! Ich habe früher sein Ufer gewagt, um kostbare Genesung für meine Experimente zu sammeln.\n\nGehst du hin? Kleide dich warm und pass auf die Trolle auf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1e2473f8d8dafad3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Bethesda.KitchenNightmare.Text|Did you call this kitchen your laboratory?",
+      "context": "Conversation Dardi.Bethesda.KitchenNightmare.Text",
+      "old_value": "Habt Ihr diese Küche Euer Labor genannt?",
+      "new_value": "Hast du diese Küche dein Labor genannt?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7e1e19ff018a1027",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Porridge.Text|What you smell is Grit Gate's signature dish. The Porridge is a recipe passed down through generations of Barathrumites, and it is the food that inspired me to pursue my craft. Yes, outsiders quail at the intensity of the scent, for its flavor is as bold as its effects!\n\nWe use cuisine to channel lightning from our bodies! Other recipes may let us breathe fire, or learn the secrets of the Eaters. The Porridge is as precious a part of our legacy as the Barathrum Clock or the foaminator.",
+      "context": "Conversation Dardi.Porridge.Text",
+      "old_value": "Das, was Ihr riecht, ist Grit Gates Spezialität. Der Brei ist ein Rezept, das über Generationen von Barathrumiten weitergegeben wurde, und es ist die Speise, die mich inspirierte, mein Handwerk zu verfolgen. Ja, Außenseiter erblassen vor der Intensität des Geruchs, denn sein Geschmack ist so gewagt wie seine Wirkungen!\n\nWir nutzen Küche, um Blitze aus unseren Körpern zu leiten! Andere Rezepte können uns Feuer atmen lassen oder die Geheimnisse der Esser lernen. Der Brei ist ein so kostbarer Teil unseres Erbes wie die Barathrum-Uhr oder der Schaumerzeuger.",
+      "new_value": "Das, was du riechst, ist Grit Gates Spezialität. Der Brei ist ein Rezept, das über Generationen von Barathrumiten weitergegeben wurde, und es ist die Speise, die mich inspirierte, mein Handwerk zu verfolgen. Ja, Außenseiter erblassen vor der Intensität des Geruchs, denn sein Geschmack ist so gewagt wie seine Wirkungen!\n\nWir nutzen Küche, um Blitze aus unseren Körpern zu leiten! Andere Rezepte können uns Feuer atmen lassen oder die Geheimnisse der Esser lernen. Der Brei ist ein so kostbarer Teil unseres Erbes wie die Barathrum-Uhr oder der Schaumerzeuger.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ba4c55dfea159a0",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.FoodNetwork.Text|Oh, it changes by the hour, sometimes the minute. Preserve this, observe that, add anything, taste everything.\n\nBut the starapple of my eye, the Spindle up which I cast my ambitious gaze... is edible vapor. Food that you eat, food that you breathe. Sadly, to date the most I have managed is an herbed saline suspension. Salty air, if you will.",
+      "context": "Conversation Dardi.FoodNetwork.Text",
+      "old_value": "Oh, es ändert sich stündlich, manchmal von Minute zu Minute. Bewahrt dies auf, beobachtet das, fügt alles hinzu, probiert alles.\n\nAber der Apfel meines Auges, die Spindel, auf die ich meinen ehrgeizigen Blick werfe... ist verdampfte Speise. Nahrung, die Ihr esst, Nahrung, die Ihr atmet. Leider habe ich es bisher nur zu einer kräuterhaltigen Salzwassersuspension gebracht. Salzige Luft, wenn Ihr wollt.",
+      "new_value": "Oh, es ändert sich stündlich, manchmal von Minute zu Minute. Bewahre dies auf, beobachte das, füge alles hinzu, probiere alles.\n\nAber der Apfel meines Auges, die Spindel, auf die ich meinen ehrgeizigen Blick werfe... ist verdampfte Speise. Nahrung, die du isst, Nahrung, die du atmest. Leider habe ich es bisher nur zu einer kräuterhaltigen Salzwassersuspension gebracht. Salzige Luft, wenn du willst.",
+      "note": "generische Imperative (Bewahrt/beobachtet...) in du-Imperativ gesetzt",
+      "status": "accepted"
+    },
+    {
+      "uid": "d953aaf41e86c60b",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.FoodNetwork.LuckyPlateChoice.Text|Good luck with your experiments, then.",
+      "context": "Conversation Dardi.FoodNetwork.LuckyPlateChoice.Text",
+      "old_value": "Viel Glück bei Euren Experimenten dann.",
+      "new_value": "Viel Glück bei deinen Experimenten dann.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "35afc46577df8ff2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.VaporAndSalt.EndChoice.Text|I will leave you to it. Live and drink.",
+      "context": "Conversation Dardi.VaporAndSalt.EndChoice.Text",
+      "old_value": "Ich werde Euch allein lassen. Lebt und trinkt.",
+      "new_value": "Ich werde dich allein lassen. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7ff0dce95fda2bc4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.LuckyPlate.Text|I have no need for luck, but I appreciate your well-wishes nonetheless.\n\nMay your own endeavors drive you as mine drive me. Did you wish to speak of anything else?",
+      "context": "Conversation Dardi.LuckyPlate.Text",
+      "old_value": "Ich habe keine Notwendigkeit für Glück, aber ich schätze Eure guten Wünsche dennoch.\n\nMögen Eure eigenen Bestrebungen Euch antreiben wie meine mich antreiben. Wolltet Ihr noch über etwas anderes sprechen?",
+      "new_value": "Ich habe keine Notwendigkeit für Glück, aber ich schätze deine guten Wünsche dennoch.\n\nMögen deine eigenen Bestrebungen dich antreiben wie meine mich antreiben. Wolltest du noch über etwas anderes sprechen?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d6ab716b928416d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Kitchen.Text|Kitchen? You think this a mere kitchen?",
+      "context": "Conversation Dardi.Kitchen.Text",
+      "old_value": "Küche? Ihr denkt, das ist nur eine Küche?",
+      "new_value": "Küche? Du denkst, das ist nur eine Küche?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df624ffb835ad3a4",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Kitchen2.Text|And I suppose the Stilt is a modest church, its great bazaar a junk sale?\n\nLook about you. Every instrument you see is precision-calibrated, every tool handcrafted and built to last. In this room, sustenance and ingenuity come together to evolve cuisine itself, to shape not this culture alone but, over time, every culture. Is that kind of influence the product of a kitchen? Can a simple clay oven in the flower fields do what we do here? Has every kitchen an indelible influence over Qud?\n\n{{emote|*He frowns.*}}\n\nShould they? Should we not all?",
+      "context": "Conversation Dardi.Kitchen2.Text",
+      "old_value": "Und ich nehme an, der Stilt ist eine bescheidene Kirche, ihr großer Basar ein Flohmarkt?\n\nSchaut um Euch herum. Jedes Instrument, das Ihr seht, ist präzisionskalibriert, jedes Werkzeug handgefertigt und gebaut, um zu halten. In diesem Raum kommen Nahrung und Scharfsinn zusammen, um die Küche selbst weiterzuentwickeln, um nicht nur diese Kultur zu prägen, sondern im Laufe der Zeit jede Kultur. Ist diese Art von Einfluss das Produkt einer Küche? Kann ein einfacher Lehmofen in den Blumenfeldern das tun, was wir hier tun? Hat jede Küche einen unauslöschlichen Einfluss auf Qud?\n\n{{emote|*Er runzelt die Stirn.*}}\n\nSollten sie? Sollten wir nicht alle?",
+      "new_value": "Und ich nehme an, der Stilt ist eine bescheidene Kirche, ihr großer Basar ein Flohmarkt?\n\nSchau um dich herum. Jedes Instrument, das du siehst, ist präzisionskalibriert, jedes Werkzeug handgefertigt und gebaut, um zu halten. In diesem Raum kommen Nahrung und Scharfsinn zusammen, um die Küche selbst weiterzuentwickeln, um nicht nur diese Kultur zu prägen, sondern im Laufe der Zeit jede Kultur. Ist diese Art von Einfluss das Produkt einer Küche? Kann ein einfacher Lehmofen in den Blumenfeldern das tun, was wir hier tun? Hat jede Küche einen unauslöschlichen Einfluss auf Qud?\n\n{{emote|*Er runzelt die Stirn.*}}\n\nSollten sie? Sollten wir nicht alle?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8cfc65a2ffdaa155",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Kitchen2.EndChoice.Text|*mutter 'live and drink' while backing away*",
+      "context": "Conversation Dardi.Kitchen2.EndChoice.Text",
+      "old_value": "*murrt \"lebt und trinkt\", während Ihr zurückweicht*",
+      "new_value": "*murrt \"lebe und trinke\", während du zurückweichst*",
+      "note": "Spieler-Regieanweisung: 'während Ihr' -> 'während du'",
+      "status": "accepted"
+    },
+    {
+      "uid": "9c1ff203087c086c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Dardi.Kitchen3.Text|But perhaps you are right, =player.formalAddressTerm=. Think for a moment.\n\nEvery ingredient in the soup of collective knowledge is a valuable one, and who am I to elevate myself over more humble pioneers? But! All the more reason for us to regard cuisine (and by extension, culture itself) to be a scientific endeavor, an ongoing trial-and-error, a blending of what we know and what we don't know, calling upon reality itself to be our guide.\n\nYou are more insightful than I realized, =name=. Thank you for this discussion. Did you need aught else?",
+      "context": "Conversation Dardi.Kitchen3.Text",
+      "old_value": "Aber vielleicht habt Ihr recht, =player.formalAddressTerm=. Denkt einen Moment nach.\n\nJeder Bestandteil in der Suppe des kollektiven Wissens ist ein wertvoller, und wer bin ich, um mich über bescheidenere Pioniere zu erheben? Aber! All das mehr Grund für uns, Küche (und durch Erweiterung Kultur selbst) als wissenschaftliches Unterfangen zu betrachten, ein fortlaufendes Probieren und Irren, eine Vermischung von dem, was wir wissen, und dem, was wir nicht wissen, wobei wir die Realität selbst zu unserem Führer rufen.\n\nIhr seid einsichtsvoller, als ich dachte, =name=. Danke für diese Diskussion. Braucht Ihr noch etwas anderes?",
+      "new_value": "Aber vielleicht hast du recht, =player.formalAddressTerm=. Denk einen Moment nach.\n\nJeder Bestandteil in der Suppe des kollektiven Wissens ist ein wertvoller, und wer bin ich, um mich über bescheidenere Pioniere zu erheben? Aber! All das mehr Grund für uns, Küche (und durch Erweiterung Kultur selbst) als wissenschaftliches Unterfangen zu betrachten, ein fortlaufendes Probieren und Irren, eine Vermischung von dem, was wir wissen, und dem, was wir nicht wissen, wobei wir die Realität selbst zu unserem Führer rufen.\n\nDu bist einsichtsvoller, als ich dachte, =name=. Danke für diese Diskussion. Brauchst du noch etwas anderes?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c4190b5ad8573ffe",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Aloysius.Start.Text|I propose an accord, =factionaddress:Barathrumites=: You remove =player.reflexive= from my sight immediately, and I will refrain from asking that Ereshkigal reduce you to your component atoms.",
+      "context": "Conversation Aloysius.Start.Text",
+      "old_value": "Ich schlage einen Vertrag vor, =factionaddress:Barathrumites=: Ihr entfernt =player.reflexive= sofort aus meinem Anblick, und ich werde Ereshkigal nicht bitten, Euch auf Eure Grundbestandteile zu reduzieren.",
+      "new_value": "Ich schlage einen Vertrag vor, =factionaddress:Barathrumites=: Du entfernst =player.reflexive= sofort aus meinem Anblick, und ich werde Ereshkigal nicht bitten, dich auf deine Grundbestandteile zu reduzieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df17f4ab6826bbd5",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Aloysius.GuestKlanq.Text|I did not consider that my life could be further upturned. Truly, I have learned much and I hate it all.\n\nOnce you lot reach the spindle's apex, perhaps you could be convinced to stay there? Or perhaps I could go in your stead.",
+      "context": "Conversation Aloysius.GuestKlanq.Text",
+      "old_value": "Ich habe nicht in Betracht gezogen, dass mein Leben weiter umgekrempelt werden könnte. Wirklich, ich habe viel gelernt und ich hasse es alles.\n\nSobald Ihr die Spitze der Spindel erreicht, könntet Ihr vielleicht überredet werden, dort zu bleiben? Oder vielleicht könnte ich an Eurer Stelle gehen.",
+      "new_value": "Ich habe nicht in Betracht gezogen, dass mein Leben weiter umgekrempelt werden könnte. Wirklich, ich habe viel gelernt und ich hasse es alles.\n\nSobald ihr die Spitze der Spindel erreicht, könntet ihr vielleicht überredet werden, dort zu bleiben? Oder vielleicht könnte ich an eurer Stelle gehen.",
+      "note": "Englisch 'you lot' = Gruppe -> kleingeschriebenes Plural-ihr/eurer",
+      "status": "accepted"
+    },
+    {
+      "uid": "9702e80187643d9e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Aloysius.TombQuest.Text|Good. Shut the sarcophagus door behind you.",
+      "context": "Conversation Aloysius.TombQuest.Text",
+      "old_value": "Gut. Schließt die Sarkophagtür hinter Euch.",
+      "new_value": "Gut. Schließe die Sarkophagtür hinter dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f6e58b12673ef3a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Aloysius.Greetings.Text|Of course it was only a matter of time before you came to speak to me.\n\nI don't suppose I can convince you to let me tend to my duties in peace? I know nothing of interest to a wayfarer. Each of my days is like the others; I maintain and protect my children, and this is enough. If I desire conversation, there is Ereshkigal.",
+      "context": "Conversation Aloysius.Greetings.Text",
+      "old_value": "Natürlich war es nur eine Frage der Zeit, bis Ihr zu mir kamtet, um zu sprechen.\n\nIch nehme an, ich kann Euch nicht überzeugkraft, mich meine Pflichten in Frieden erfüllen zu lassen? Ich weiß nichts, das für einen Wanderer interessant wäre. Jeder meiner Tage ist wie die anderen; Ich halte und schütze meine Kinder, und das ist genug. Wenn ich Unterhaltung wünsche, gibt es Ereshkigal.",
+      "new_value": "Natürlich war es nur eine Frage der Zeit, bis du zu mir kamst, um zu sprechen.\n\nIch nehme an, ich kann dich nicht überzeugkraft, mich meine Pflichten in Frieden erfüllen zu lassen? Ich weiß nichts, das für einen Wanderer interessant wäre. Jeder meiner Tage ist wie die anderen; Ich halte und schütze meine Kinder, und das ist genug. Wenn ich Unterhaltung wünsche, gibt es Ereshkigal.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3d7717f4e1a5e6e8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Aloysius.Bethesda.Text|Bethesda Susa is a vibrant and thriving ecosystem in which we have no place. That said, I certainly would not complain if someone were to clear out its Mechanimist infestation.\n\nShould you travel there, watch your step. The fronds of a lurking beth can rapidly exsanguinate fleshy creatures such as we.",
+      "context": "Conversation Aloysius.Bethesda.Text",
+      "old_value": "Bethesda Susa ist ein lebendiges und gedeihendes Ökosystem, in dem wir keinen Platz haben. Das gesagt, würde ich mich sicherlich nicht beschweren, wenn jemand seinen Mechanimisten-Befall ausräumen würde.\n\nSolltet Ihr dorthin reisen, passt auf Eure Schritte auf. Die Fronden einer lauernden Beth können fleischige Kreaturen wie wir schnell ausbluten lassen.",
+      "new_value": "Bethesda Susa ist ein lebendiges und gedeihendes Ökosystem, in dem wir keinen Platz haben. Das gesagt, würde ich mich sicherlich nicht beschweren, wenn jemand seinen Mechanimisten-Befall ausräumen würde.\n\nSolltest du dorthin reisen, pass auf deine Schritte auf. Die Fronden einer lauernden Beth können fleischige Kreaturen wie wir schnell ausbluten lassen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d3dfe51d630a9fc2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Recame.Text|=name=, you are back! I feared we would lose you in the Tomb, but you look better than well. Perhaps I should have had greater faith, or at least less worry.\n\nHave you visited Barathrum's workshop, by the by? Klanq and Q Girl await you there.",
+      "context": "Conversation Hortensa.Recame.Text",
+      "old_value": "=name=, Ihr seid zurück! Ich fürchtete, wir würden Euch im Grab verlieren, aber Ihr seht besser als gut aus. Vielleicht hätte ich mehr Glauben haben sollen, oder zumindest weniger Sorgen.\n\nHabt Ihr Barathrums Werkstatt besucht, übrigens? Klanq und Q Girl erwarten Euch dort.",
+      "new_value": "=name=, du bist zurück! Ich fürchtete, wir würden dich im Grab verlieren, aber du siehst besser als gut aus. Vielleicht hätte ich mehr Glauben haben sollen, oder zumindest weniger Sorgen.\n\nHast du Barathrums Werkstatt besucht, übrigens? Klanq und Q Girl erwarten dich dort.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5fc8ebfb75677677",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Post Arms.Text|I drink in the sight of you, cub. Thank you for keeping safe.",
+      "context": "Conversation Hortensa.Post Arms.Text",
+      "old_value": "Ich trinke Euren Anblick, Jungtier. Danke, dass Ihr sicher geblieben seid.",
+      "new_value": "Ich trinke deinen Anblick, Jungtier. Danke, dass du sicher geblieben bist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "374becd1a807e224",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.TombQuest.Text|...  I do not like this.\n\nI know you will go. Please take care where you dig; mopango wanderers say the hot blood of Eater artifice yet runs in the guts of that place.",
+      "context": "Conversation Hortensa.TombQuest.Text",
+      "old_value": "... Mir gefällt das nicht.\n\nIch weiß, Ihr werdet gehen. Bitte passt auf, wo Ihr grabt; Mopango-Wanderer sagen, dass das heiße Blut der Eater-Artefakte noch in den Eingeweiden dieses Ortes fließt.",
+      "new_value": "... Mir gefällt das nicht.\n\nIch weiß, du wirst gehen. Bitte pass auf, wo du gräbst; Mopango-Wanderer sagen, dass das heiße Blut der Eater-Artefakte noch in den Eingeweiden dieses Ortes fließt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b1aa5366e7a9d612",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.TombQuest.EndChoice.Text|I thank you.",
+      "context": "Conversation Hortensa.TombQuest.EndChoice.Text",
+      "old_value": "Ich danke Euch.",
+      "new_value": "Ich danke dir.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ad2ef805bf962808",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Greetings.Text|Drink deeply of life, =player.offspringTerm=. Are you finding your way?",
+      "context": "Conversation Hortensa.Greetings.Text",
+      "old_value": "Trinkt tief aus dem Leben, =player.offspringTerm=. Findet Ihr Euren Weg?",
+      "new_value": "Trinke tief aus dem Leben, =player.offspringTerm=. Findest du deinen Weg?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "40f85b4a845389f1",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Greetings.HowLongChoice.Text|Your hair is so gray! How long have you lived in Grit Gate?",
+      "context": "Conversation Hortensa.Greetings.HowLongChoice.Text",
+      "old_value": "Euer Haar ist so grau! Wie lange lebt Ihr in Grit Gate?",
+      "new_value": "Dein Haar ist so grau! Wie lange lebst du in Grit Gate?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c49b16027f63315c",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Bethesda.HowLongChoice.Text|Your hair is so gray! How long have you lived in Grit Gate?",
+      "context": "Conversation Hortensa.Bethesda.HowLongChoice.Text",
+      "old_value": "Euer Haar ist so grau! Wie lange lebt Ihr in Grit Gate?",
+      "new_value": "Dein Haar ist so grau! Wie lange lebst du in Grit Gate?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1343ee10878fb335",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Omonporch.HowLongChoice.Text|Your hair is so gray! How long have you lived in Grit Gate?",
+      "context": "Conversation Hortensa.Omonporch.HowLongChoice.Text",
+      "old_value": "Euer Haar ist so grau! Wie lange lebt Ihr in Grit Gate?",
+      "new_value": "Dein Haar ist so grau! Wie lange lebst du in Grit Gate?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ff11080ec573207a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Rumbling.HowLongChoice.Text|Your hair is so gray! How long have you lived in Grit Gate?",
+      "context": "Conversation Hortensa.Rumbling.HowLongChoice.Text",
+      "old_value": "Euer Haar ist so grau! Wie lange lebt Ihr in Grit Gate?",
+      "new_value": "Dein Haar ist so grau! Wie lange lebst du in Grit Gate?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b9b86688b46f9a52",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Klanq.HowLongChoice.Text|Your hair is so gray! How long have you lived in Grit Gate?",
+      "context": "Conversation Hortensa.Klanq.HowLongChoice.Text",
+      "old_value": "Euer Haar ist so grau! Wie lange lebt Ihr in Grit Gate?",
+      "new_value": "Dein Haar ist so grau! Wie lange lebst du in Grit Gate?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cf4164c4642ea4b3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.OtherBarathrumites.Text|I won't denigrate them, =name=, or presume to speak for what's in their hearts. But I can direct you around the contours of the impressions they've left on me.\n\nWho would you like to hear about, =player.offspringTerm=?",
+      "context": "Conversation Hortensa.OtherBarathrumites.Text",
+      "old_value": "Ich werde sie nicht herabwürdigen, =name=, oder vorgeben zu wissen, was in ihren Herzen ist. Aber ich kann Euch durch die Konturen der Eindrücke führen, die sie auf mir hinterlassen haben.\n\nWen möchtet Ihr gerne hören, =player.offspringTerm=?",
+      "new_value": "Ich werde sie nicht herabwürdigen, =name=, oder vorgeben zu wissen, was in ihren Herzen ist. Aber ich kann dich durch die Konturen der Eindrücke führen, die sie auf mir hinterlassen haben.\n\nWen möchtest du gerne hören, =player.offspringTerm=?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7cbbff8ef327bb95",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Hortensa.Dardi.Text|Fiery. Blustery. Like the stews he cooks. If you're going to chat with him, make sure you have your schedule cleared and a ewer of honeyed wine.",
+      "context": "Conversation Hortensa.Dardi.Text",
+      "old_value": "Feurig. Ungezügelt. Wie die Eintöpfe, die er kocht. Wenn Ihr mit ihm sprechen wollt, stellt sicher, dass Ihr Zeit habt und einen Krug Honigwein dabei.",
+      "new_value": "Feurig. Ungezügelt. Wie die Eintöpfe, die er kocht. Wenn du mit ihm sprechen willst, stell sicher, dass du Zeit hast und einen Krug Honigwein dabei.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6cbb514813627a31",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Shem.Start.Text|{{emote|*Shem whispers*}}\n\nYou're not supposed to be here. But I won't tell.",
+      "context": "Conversation Shem.Start.Text",
+      "old_value": "{{emote|*Shem flüstert.*}}\n\nIhr sollt nicht hier sein. Aber ich sage es nicht.",
+      "new_value": "{{emote|*Shem flüstert.*}}\n\nDu sollst nicht hier sein. Aber ich sage es nicht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cbd38d7fdeed074f",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Shem.Understand.Text|What kind words. It seems so with you, too.",
+      "context": "Conversation Shem.Understand.Text",
+      "old_value": "Welch freundliche Worte. Bei Euch scheint es auch so zu sein.",
+      "new_value": "Welch freundliche Worte. Bei dir scheint es auch so zu sein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9f4c2737421290c3",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Shem.Friend.Text|I am your friend, =name=.",
+      "context": "Conversation Shem.Friend.Text",
+      "old_value": "Ich bin Euer Freund, =name=.",
+      "new_value": "Ich bin dein Freund, =name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9070c1a395f29105",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Recame.Text|Why, =name=, Brightsheol treated you well. There is a new gravity about you; your proverbial boots ring louder in the Annals with each step.\n\nI imagine you're off to Teach's study? They're already at work down there.",
+      "context": "Conversation Jacobo.Recame.Text",
+      "old_value": "Warum, =name=, Brightsheol hat Euch gut behandelt. Es gibt eine neue Ernsthaftigkeit bei Euch; Eure sprichwörtlichen Stiefel erklingen lauter in den Annalen mit jedem Schritt.\n\nIch vermute, Ihr geht zum Studierzimmer des Lehrers? Sie arbeiten bereits dort unten.",
+      "new_value": "Warum, =name=, Brightsheol hat dich gut behandelt. Es gibt eine neue Ernsthaftigkeit bei dir; deine sprichwörtlichen Stiefel erklingen lauter in den Annalen mit jedem Schritt.\n\nIch vermute, du gehst zum Studierzimmer des Lehrers? Sie arbeiten bereits dort unten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "40d0234db15a8a01",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.GuestKlanq.Text|I admit a burning curiosity to see the joined imagination of our Q Girl and Pax Klanq, and no doubt yours as well. Watching such a creation burgeon from empty space to fullness of being would be a joyful entry in the chronicles of my life, but...\n\nToo many fingers tangle in the honeypot, as my cubhood mentor would tell me.",
+      "context": "Conversation Jacobo.GuestKlanq.Text",
+      "old_value": "Ich gebe zu, ich bin brennend neugierig, die verbundene Phantasie unseres Q Girl und Pax Klanq zu sehen, und zweifellos auch Eure. Zuzusehen, wie eine solche Schöpfung aus leerer Leere zur Fülle des Seins aufblüht, wäre ein freudiger Eintrag in den Chroniken meines Lebens, aber...\n\nZu viele Finger verwickeln sich im Honigtopf, wie mir mein Mentor aus meiner Kindheit sagen würde.",
+      "new_value": "Ich gebe zu, ich bin brennend neugierig, die verbundene Phantasie unseres Q Girl und Pax Klanq zu sehen, und zweifellos auch deine. Zuzusehen, wie eine solche Schöpfung aus leerer Leere zur Fülle des Seins aufblüht, wäre ein freudiger Eintrag in den Chroniken meines Lebens, aber...\n\nZu viele Finger verwickeln sich im Honigtopf, wie mir mein Mentor aus meiner Kindheit sagen würde.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5664f5a2cf1aa93",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.TombQuest.Text|My quills prickle with unease to hear you say such things.\n\nBe certain to visit the village of Ezra. The Daughter of Exile who lives there is as good a tinker as any I know, and she always has surplus she's willing to sell.",
+      "context": "Conversation Jacobo.TombQuest.Text",
+      "old_value": "Meine Stacheln prickeln vor Unbehagen, Euch solche Dinge sagen zu hören.\n\nBesucht unbedingt das Dorf Ezra. Die Tochter der Verbannung, die dort lebt, ist eine ebenso gute Mechanikerin wie jede andere, die ich kenne, und sie hat immer Überschuss, den sie verkaufen will.",
+      "new_value": "Meine Stacheln prickeln vor Unbehagen, dich solche Dinge sagen zu hören.\n\nBesuche unbedingt das Dorf Ezra. Die Tochter der Verbannung, die dort lebt, ist eine ebenso gute Mechanikerin wie jede andere, die ich kenne, und sie hat immer Überschuss, den sie verkaufen will.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9afe6edf0d54bceb",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.TombQuest.EndChoice.Text|I thank you. Live and drink.",
+      "context": "Conversation Jacobo.TombQuest.EndChoice.Text",
+      "old_value": "Ich danke Euch. Lebe und trinke.",
+      "new_value": "Ich danke dir. Lebe und trinke.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "13dead3714fc9fb6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Greetings.Text|Light shine through you, friend.",
+      "context": "Conversation Jacobo.Greetings.Text",
+      "old_value": "Das Licht scheint durch Euch, Freund.",
+      "new_value": "Das Licht scheint durch dich, Freund.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c71e1393b199bc08",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Greetings.MusicChoice.Text|Is that... music... coming from your loudspeaker?\nIt sounds like a bell echoing in the void backward through time.",
+      "context": "Conversation Jacobo.Greetings.MusicChoice.Text",
+      "old_value": "Ist das... Musik... von Eurem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "new_value": "Ist das... Musik... von deinem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aad6442e9814b8b6",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Greetings.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Greetings.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9a314692ffae4bed",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Greetings.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Greetings.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ef212e70f2882248",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Bethesda.Text|The Temple of the Rock is cut off from the wider world, and I hear the Mechanimist colonists no longer recognize High Priest Eschelstadt. That said, if you are favored by the Mechanimists, if you are welcome in their holy places, then I've no doubt that Phinae Hoshaiah will grant you peaceful entry.",
+      "context": "Conversation Jacobo.Bethesda.Text",
+      "old_value": "Der Tempel des Felsens ist von der übrigen Welt abgeschnitten, und ich höre, die Mechanimisten-Kolonisten erkennen Hohepriester Eschelstadt nicht mehr an. Allerdings, wenn Ihr von den Mechanimisten begünstigt werdet, wenn Ihr in ihren heiligen Stätten willkommen seid, dann zweifle ich nicht daran, dass Phinae Hoshaiah Euch friedlichen Eintritt gewährt.",
+      "new_value": "Der Tempel des Felsens ist von der übrigen Welt abgeschnitten, und ich höre, die Mechanimisten-Kolonisten erkennen Hohepriester Eschelstadt nicht mehr an. Allerdings, wenn du von den Mechanimisten begünstigt wirst, wenn du in ihren heiligen Stätten willkommen bist, dann zweifle ich nicht daran, dass Phinae Hoshaiah dir friedlichen Eintritt gewährt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "004e3f71ee4fde87",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Bethesda.MusicChoice.Text|Is that... music... coming from your loudspeaker?\nIt sounds like a bell echoing in the void backward through time.",
+      "context": "Conversation Jacobo.Bethesda.MusicChoice.Text",
+      "old_value": "Ist das... Musik... von Eurem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "new_value": "Ist das... Musik... von deinem Lautsprecher?\nEs klingt wie eine Glocke, die im Nichts rückwärts durch die Zeit widerhallet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c6cb2838fb206d0a",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Bethesda.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Bethesda.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "be37b40dcdfdfeb2",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Bethesda.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Bethesda.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e82be088d37b6e4d",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Music.Text|Yea! So you like it? Sheba Hag and I composed it on a wavelathe. We made a series of songs about the birth and life of the Kasaphescence. Together we call them \"Spun on the Cosmic Loom\".",
+      "context": "Conversation Jacobo.Music.Text",
+      "old_value": "Ja! Gefällt es Euch? Sheba Hag und ich haben es auf einer Wellendrehmaschine komponiert. Wir haben eine Reihe von Liedern über die Geburt und das Leben der Kasaphescence gemacht. Zusammen nennen wir sie \"Auf dem kosmischen Webstuhl gesponnen\".",
+      "new_value": "Ja! Gefällt es dir? Sheba Hag und ich haben es auf einer Wellendrehmaschine komponiert. Wir haben eine Reihe von Liedern über die Geburt und das Leben der Kasaphescence gemacht. Zusammen nennen wir sie \"Auf dem kosmischen Webstuhl gesponnen\".",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c95b53a17ce84411",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Music.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Music.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4c09d14f09a29e0e",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Music.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Music.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eef4adbb81796640",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba.OrbChoice.Text|That chrome orb earring you're wearing. What's the meaning of it?",
+      "context": "Conversation Jacobo.Sheba.OrbChoice.Text",
+      "old_value": "Der verchromte Kugel-Ohrring, den Ihr tragt. Was ist die Bedeutung davon?",
+      "new_value": "Der verchromte Kugel-Ohrring, den du trägst. Was ist die Bedeutung davon?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "58c53de23d7756e8",
+      "file": "Strings.Conversations.de.xml",
+      "key": "Conversation Jacobo.Sheba.MachineChoice.Text|You have so many data disks.",
+      "context": "Conversation Jacobo.Sheba.MachineChoice.Text",
+      "old_value": "Ihr habt so viele Datenscheiben.",
+      "new_value": "Du hast so viele Datenscheiben.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,1568 @@
+{
+  "batch": "fix-plural",
+  "rule": "fix-plural",
+  "note": "fix-plural",
+  "created": "2026-10-22 16:08",
+  "items": [
+    {
+      "uid": "ab86e509998d402a",
+      "file": "Foods.de.xml",
+      "key": "/objects#0/object[Preservable]/tag[CustomStackerDisplay]@Value",
+      "context": null,
+      "old_value": "{{y|[{{C|=number=}} =number.pluralize:Portion=]}}",
+      "new_value": "{{y|[{{C|=number=}} =number.pluralize:Portion:Portionen=]}}",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "8e4e812ff26971e4",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Score|You scored {{C|=score=}} =score.pluralize:point=.",
+      "context": "Core GameEnd Score",
+      "old_value": "Du hast {{C|=score=}} =score.pluralize:point= erworben.",
+      "new_value": "Du hast {{C|=score=}} =score.pluralize:Punkt:Punkte= erworben.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "583e0e2062e3a521",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Turns|You survived for {{C|=turns=}} =turns.pluralize:turn=.",
+      "context": "Core GameEnd Turns",
+      "old_value": "Du hast {{C|=turns=}} =turns.pluralize:turn= überlebt.",
+      "new_value": "Du hast {{C|=turns=}} =turns.pluralize:Zug:Züge= überlebt.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "7b2b12a6739785bc",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Lairs|You found {{C|=lairs=}} =lairs.pluralize:lair=.",
+      "context": "Core GameEnd Lairs",
+      "old_value": "Du hast {{C|=lairs=}} =lairs.pluralize:lair= gefunden.",
+      "new_value": "Du hast {{C|=lairs=}} =lairs.pluralize:Versteck:Verstecke= gefunden.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2fe95f11d3322b8",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Named Items|You named {{C|=items=}} =items.pluralize:item=.",
+      "context": "Core GameEnd Named Items",
+      "old_value": "Du hast {{C|=items=}} =items.pluralize:item= benannt.",
+      "new_value": "Du hast {{C|=items=}} =items.pluralize:Gegenstand:Gegenstände= benannt.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "2d1b15f30978555e",
+      "file": "Strings.de.xml",
+      "key": "Core GameEnd Artifacts|You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.",
+      "context": "Core GameEnd Artifacts",
+      "old_value": "Du hast {{C|=artifacts=}} legendäre =artifacts.pluralize:item= erzeugt.",
+      "new_value": "Du hast {{C|=artifacts=}} legendäre =artifacts.pluralize:Gegenstand:Gegenstände= erzeugt.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "8d581c5f2cca18d9",
+      "file": "Strings.de.xml",
+      "key": "PsychicHunterSystem Sense Presence Message|=subject.Does:sense= =number.pluralize:a psychic presence:psychic presences= foreign to this place and time.",
+      "context": "PsychicHunterSystem Sense Presence Message",
+      "old_value": "=subject.The.name= =subject.konjde:spüren= =number.pluralize:a psychic presence:psychic presences= fremd zu diesem Ort und dieser Zeit.",
+      "new_value": "=subject.The.name= =subject.konjde:spüren= =number.pluralize:eine psychische Präsenz:psychische Präsenzen= fremd zu diesem Ort und dieser Zeit.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "9236de6c0dd8ccbe",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI WillNot Until Pay None|=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=.",
+      "context": "XRLUITradeUI WillNot Until Pay None",
+      "old_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst.",
+      "new_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:Dram:Dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d075a21ed1e99c7c",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI WillNot Until Pay Some|=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give =trader.them= your {{C|=available=}} =available.pluralize:dram= now?",
+      "context": "XRLUITradeUI WillNot Until Pay Some",
+      "old_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst. Möchtest du =trader.them= deine {{C|=available=}} =available.pluralize:dram= jetzt geben?",
+      "new_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:Dram:Dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst. Möchtest du =trader.them= deine {{C|=available=}} =available.pluralize:Dram:Dram= jetzt geben?",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "a780b09c39b0d0f1",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI WillNot Until Pay All|=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give it to =trader.them= now?",
+      "context": "XRLUITradeUI WillNot Until Pay All",
+      "old_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst. Möchtest du es =trader.them= jetzt geben?",
+      "new_value": "=trader.T= wird nicht mit dir handeln, bis du =trader.them= die {{C|=owed=}} =owed.pluralize:Dram:Dram= von {{B|Süßwasser}}, die du =trader.them= schuldest, bezahlst. Möchtest du es =trader.them= jetzt geben?",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "8c5844468611b88f",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TraderIdentify Fail Too Poor|You do not have the required {{C|=cost=}} =cost.pluralize:dram= to identify this item.",
+      "context": "XRLUITradeUI TraderIdentify Fail Too Poor",
+      "old_value": "Du hast nicht die erforderlichen {{C|=cost=}} =cost.pluralize:dram=, um diesen Gegenstand zu identifizieren.",
+      "new_value": "Du hast nicht die erforderlichen {{C|=cost=}} =cost.pluralize:Dram:Dram=, um diesen Gegenstand zu identifizieren.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "a6e2a54abe811460",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TraderIdentify Confirm Cost|You may identify this for =cost= =cost.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI TraderIdentify Confirm Cost",
+      "old_value": "Du kannst das für =cost= =cost.pluralize:dram= Süßwasser identifizieren.",
+      "new_value": "Du kannst das für =cost= =cost.pluralize:Dram:Dram= Süßwasser identifizieren.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "32a39286820b3cd0",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooPoorToRepair|You need {{C|=cost=}} =cost.pluralize:dram= of fresh water to repair =multiple.if:those:that=.",
+      "context": "XRLUITradeUI TooPoorToRepair",
+      "old_value": "Du brauchst {{C|=cost=}} =cost.pluralize:dram= Süßwasser, um =multiple.if:those:that= zu reparieren.",
+      "new_value": "Du brauchst {{C|=cost=}} =cost.pluralize:Dram:Dram= Süßwasser, um =multiple.if:those:that= zu reparieren.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "290c88b94356eac6",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI RepairCost|You may repair =multiple.if:those:this= for {{C|=cost=}} =cost.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI RepairCost",
+      "old_value": "Du kannst =multiple.if:those:this= für {{C|=cost=}} =cost.pluralize:dram= frisches Wasser reparieren.",
+      "new_value": "Du kannst =multiple.if:those:this= für {{C|=cost=}} =cost.pluralize:Dram:Dram= frisches Wasser reparieren.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "24225846d0bfcb1d",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Pony Up|You pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade",
+      "context": "XRLUITradeUI Pony Up",
+      "old_value": "Du zahlst =difference= =difference.pluralize:dram= frisches Wasser, um den Handel auszugleichen",
+      "new_value": "Du zahlst =difference= =difference.pluralize:Dram:Dram= frisches Wasser, um den Handel auszugleichen",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "64995d82130cbe07",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Have To Pony Up|You'll have to pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade. Agreed?",
+      "context": "XRLUITradeUI Have To Pony Up",
+      "old_value": "Du musst =difference= =difference.pluralize:dram= frisches Wasser zahlen, um den Handel auszugleichen. Einverstanden?",
+      "new_value": "Du musst =difference= =difference.pluralize:Dram:Dram= frisches Wasser zahlen, um den Handel auszugleichen. Einverstanden?",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c626b42da7d5310a",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Pony Up Owe|You pony up =available= =available.pluralize:dram= of fresh water, and now owe =trader.the.name|strip= =owe= =owe.pluralize:dram=.",
+      "context": "XRLUITradeUI Pony Up Owe",
+      "old_value": "Du zahlst =available= =available.pluralize:dram= frisches Wasser, und schuldest jetzt =trader.the.name|strip= =owe= =owe.pluralize:dram=.",
+      "new_value": "Du zahlst =available= =available.pluralize:Dram:Dram= frisches Wasser, und schuldest jetzt =trader.the.name|strip= =owe= =owe.pluralize:Dram:Dram=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "bb33c4861afcf21f",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Owe|You now owe =trader.t= =owe= =owe.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI Owe",
+      "old_value": "Du schuldest jetzt =trader.t= =owe= =owe.pluralize:dram= Süßwasser.",
+      "new_value": "Du schuldest jetzt =trader.t= =owe= =owe.pluralize:Dram:Dram= Süßwasser.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd3b9b7a490a05d1",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Too Poor To Pony Up|You don't have =difference= =difference.pluralize:dram= of fresh water to even up the trade!",
+      "context": "XRLUITradeUI Too Poor To Pony Up",
+      "old_value": "Du hast nicht =difference= =difference.pluralize:dram= Süßwasser, um den Handel auszugleichen!",
+      "new_value": "Du hast nicht =difference= =difference.pluralize:Dram:Dram= Süßwasser, um den Handel auszugleichen!",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "223936dcf9392576",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Trader Pony Up|=trader.t.name|capitalize= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.=",
+      "context": "XRLUITradeUI Trader Pony Up",
+      "old_value": "=trader.t.name|capitalize= =trader.konjde:blechen= =give= =give.pluralize:dram= frisches Wasser auf, um den Handel auszugleichen.=",
+      "new_value": "=trader.t.name|capitalize= =trader.konjde:blechen= =give= =give.pluralize:Dram:Dram= frisches Wasser auf, um den Handel auszugleichen.=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "f6f0a840b87449ce",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Trader Pony Up Agreed|=trader.T= will have to pony up =give= =give.pluralize:dram= of fresh water to even up the trade. Agreed?",
+      "context": "XRLUITradeUI Trader Pony Up Agreed",
+      "old_value": "=trader.T= wird =give= =give.pluralize:dram= frisches Wasser aufbringen müssen, um den Handel auszugleichen. Einverstanden?",
+      "new_value": "=trader.T= wird =give= =give.pluralize:Dram:Dram= frisches Wasser aufbringen müssen, um den Handel auszugleichen. Einverstanden?",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "1fb21915df27886b",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Trader Force|=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade!",
+      "context": "XRLUITradeUI Trader Force",
+      "old_value": "=trader.T= =trader.verb:don't= haben =give= =give.pluralize:dram= frisches Wasser, um den Handel auszugleichen!",
+      "new_value": "=trader.T= =trader.verb:don't= haben =give= =give.pluralize:Dram:Dram= frisches Wasser, um den Handel auszugleichen!",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "cb93406363dae5f9",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI PoorTrader|=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade! Do you want to complete the trade anyway?",
+      "context": "XRLUITradeUI PoorTrader",
+      "old_value": "=trader.T= =trader.verb:don't= =give= =give.pluralize:dram= frisches Wasser, um den Handel auszugleichen! Willst du den Handel trotzdem abschließen?",
+      "new_value": "=trader.T= =trader.verb:don't= =give= =give.pluralize:Dram:Dram= frisches Wasser, um den Handel auszugleichen! Willst du den Handel trotzdem abschließen?",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "1b5bb9822776bc69",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooMuchWater Force|You don't have enough water containers to carry that many drams! You can store =storable= =storable.pluralize:dram=.",
+      "context": "XRLUITradeUI TooMuchWater Force",
+      "old_value": "Du hast nicht genug Wasserbehälter, um so viele Drams zu tragen! Du kannst =storable= =storable.pluralize:dram= lagern.",
+      "new_value": "Du hast nicht genug Wasserbehälter, um so viele Drams zu tragen! Du kannst =storable= =storable.pluralize:Dram:Dram= lagern.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "13b77e1990afcbc5",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooMuchWater NoForce|You don't have enough water containers to carry that many drams! Do you want to complete the trade for the =storable= =storable.pluralize:dram= you can store?",
+      "context": "XRLUITradeUI TooMuchWater NoForce",
+      "old_value": "Du hast nicht genug Wasserbehälter, um so viele Drams zu tragen! Willst du den Handel für die =storable= =storable.pluralize:dram=, die du lagern kannst, abschließen?",
+      "new_value": "Du hast nicht genug Wasserbehälter, um so viele Drams zu tragen! Willst du den Handel für die =storable= =storable.pluralize:Dram:Dram=, die du lagern kannst, abschließen?",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "013089df350f28da",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI TooPoor For Recharge|You need {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water to charge =object.isplural:one of :==object.indicativeDistal=.",
+      "context": "XRLUITradeUI TooPoor For Recharge",
+      "old_value": "Du benötigst {{C|=cost.cardinal=}} =cost.pluralize:dram= frisches Wasser, um =object.isplural:one of :==object.indicativeDistal= zu laden.",
+      "new_value": "Du benötigst {{C|=cost.cardinal=}} =cost.pluralize:Dram:Dram= frisches Wasser, um =object.isplural:one of :==object.indicativeDistal= zu laden.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "dff2c905cd637f75",
+      "file": "Strings.de.xml",
+      "key": "XRLUITradeUI Recharge Cost|You may recharge =object.isplural:one of :==object.indicativeDistal= for {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water.",
+      "context": "XRLUITradeUI Recharge Cost",
+      "old_value": "Du kannst =object.isplural:one of :==object.indicativeDistal= für {{C|=cost.cardinal=}} =cost.pluralize:dram= frisches Wasser aufladen.",
+      "new_value": "Du kannst =object.isplural:one of :==object.indicativeDistal= für {{C|=cost.cardinal=}} =cost.pluralize:Dram:Dram= frisches Wasser aufladen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "feb3cc0c99406417",
+      "file": "Strings.de.xml",
+      "key": "PickItem PutsOverWeightLimit|Taking =number.all.these= =number.isplural:objects:object= will put you over your weight limit. Are you sure you want to do it?",
+      "context": "PickItem PutsOverWeightLimit",
+      "old_value": "Das Nehmen von =number.all.these= =number.isplural:objects:object= würde dein Gewichtslimit überschreiten. Bist du sicher, dass du das tun willst?",
+      "new_value": "Das Nehmen von =number.all.these= =number.isplural:Objekte:Objekt= würde dein Gewichtslimit überschreiten. Bist du sicher, dass du das tun willst?",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c3c1979121d96cd7",
+      "file": "Strings.de.xml",
+      "key": "PickTarget Pick Line Top Bar Cant Start|{{K|[Space]/[5]}} Start =what= - =number= =number.pluralize:square= left - {{W|Escape}}-Cancel",
+      "context": "PickTarget Pick Line Top Bar Cant Start",
+      "old_value": "{{K|[Space]/[5]}} Anfang =what= - =number= =number.pluralize:square= übrig - {{W|Escape}}-Abbrechen",
+      "new_value": "{{K|[Space]/[5]}} Anfang =what= - =number= =number.pluralize:Feld:Felder= übrig - {{W|Escape}}-Abbrechen",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "3f3077819b19f472",
+      "file": "Strings.de.xml",
+      "key": "PickTarget Pick Line Top Bar Can Start|{{W|[Space]/[5]}} Start =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Cancel",
+      "context": "PickTarget Pick Line Top Bar Can Start",
+      "old_value": "{{W|[Space]/[5]}} Anfang =what= - =number|color:C= =number.pluralize:square= übrig - {{W|Escape}}-Abbrechen",
+      "new_value": "{{W|[Space]/[5]}} Anfang =what= - =number|color:C= =number.pluralize:Feld:Felder= übrig - {{W|Escape}}-Abbrechen",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "898f343827287604",
+      "file": "Strings.de.xml",
+      "key": "PickTarget Pick Line Top Bar Started|{{W|[Space]/[5]}} End =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Clear",
+      "context": "PickTarget Pick Line Top Bar Started",
+      "old_value": "{{W|[Space]/[5]}} Ende =what= - =number|color:C= =number.pluralize:square= übrig - {{W|Escape}}-Löschen",
+      "new_value": "{{W|[Space]/[5]}} Ende =what= - =number|color:C= =number.pluralize:Feld:Felder= übrig - {{W|Escape}}-Löschen",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "5bdfe65dfd47c244",
+      "file": "Strings.de.xml",
+      "key": "Popup DisplayLoadError OneError|There =errorCount.ifPlural:were:was= =errorCount.things:error= while loading this =loadable=.",
+      "context": "Popup DisplayLoadError OneError",
+      "old_value": "Es =errorCount.ifPlural:were:was= =errorCount.things:error= beim Laden dieses =loadable=.",
+      "new_value": "Es =errorCount.ifPlural:waren:war= =errorCount.things:error= beim Laden dieses =loadable=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "b0f1d8fb18ebf41a",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in trading secrets about =both.andList=.",
+      "context": "Faction Secret Description (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, Geheimnisse über =both.andList= auszutauschen.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, Geheimnisse über =both.andList= auszutauschen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "717412ff15ec100a",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= =bothDescription= =both.andList=.",
+      "context": "Faction Secret Description (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= =bothDescription= =both.andList=.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= =bothDescription= =both.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7c428fbbc63be01",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in sharing secrets about =sell.andList=.",
+      "context": "Faction Secret Description (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, Geheimnisse über =sell.andList= zu teilen.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, Geheimnisse über =sell.andList= zu teilen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "b8b5d10790f850d4",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= =sellDescription= =sell.andList=.",
+      "context": "Faction Secret Description (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= =sellDescription= =sell.andList=.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= =sellDescription= =sell.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae646042330404ed",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in learning about =buy.andList=.",
+      "context": "Faction Secret Description (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, etwas über =buy.andList= zu erfahren.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, etwas über =buy.andList= zu erfahren.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "8a1a1d4610276f83",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= =buyDescription= =buy.andList=.",
+      "context": "Faction Secret Description (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= =buyDescription= =buy.andList=.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= =buyDescription= =buy.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e0159d53ce6d1d3b",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description Extra (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in trading secrets about =sultanTerm|plural= they admire or despise and hearing gossip that's about them.",
+      "context": "Faction Secret Description Extra (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, auszutauschen, und Klatsch über sie zu hören.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, auszutauschen, und Klatsch über sie zu hören.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "1de0f740471df0b0",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description Extra (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in learning about =sultanTerm|plural= they admire or despise and hearing gossip that's about them.",
+      "context": "Faction Secret Description Extra (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, etwas über =sultanTerm|plural= zu erfahren, die sie bewundern oder verachten, und Klatsch über sie zu hören.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, etwas über =sultanTerm|plural= zu erfahren, die sie bewundern oder verachten, und Klatsch über sie zu hören.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "6ca362e4c15cb288",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description Extra (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in sharing secrets about =sultanTerm|plural= they admire or despise and hearing gossip that's about them.",
+      "context": "Faction Secret Description Extra (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, zu teilen, und Klatsch über sie zu hören.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, zu teilen, und Klatsch über sie zu hören.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e4f7e493f744be34",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description Extra (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in hearing gossip that's about them.",
+      "context": "Faction Secret Description Extra (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, Klatsch über sie zu hören.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, Klatsch über sie zu hören.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "8ed18368d247f7fa",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description Extra (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in trading secrets about =sultanTerm|plural= they admire or despise.",
+      "context": "Faction Secret Description Extra (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, auszutauschen.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, auszutauschen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "50a9c4195f18ba13",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description Extra (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in learning about =sultanTerm|plural= they admire or despise.",
+      "context": "Faction Secret Description Extra (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, etwas über =sultanTerm|plural= zu erfahren, die sie bewundern oder verachten.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, etwas über =sultanTerm|plural= zu erfahren, die sie bewundern oder verachten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "4828274ebb4feed7",
+      "file": "Strings.de.xml",
+      "key": "Faction Secret Description Extra (fragment)|=faction.FormattedName|rules= =faction.ifPlural:are:is= interested in sharing secrets about =sultanTerm|plural= they admire or despise.",
+      "context": "Faction Secret Description Extra (fragment)",
+      "old_value": "=faction.FormattedName|rules= =faction.ifPlural:are:is= daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, zu teilen.",
+      "new_value": "=faction.FormattedName|rules= =faction.ifPlural:sind:ist= daran interessiert, Geheimnisse über =sultanTerm|plural=, die sie bewundern oder verachten, zu teilen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb93fa170dc621a2",
+      "file": "Strings.de.xml",
+      "key": "Converstaion GiveReshephSecret Popup|You muse over the =numShared.pluralize:secret= with =object.name|strip= and gain some insight.",
+      "context": "Converstaion GiveReshephSecret Popup",
+      "old_value": "Du sinnst über =numShared.pluralize:secret= mit =object.name|strip= nach und gewinnst Einsicht.",
+      "new_value": "Du sinnst über =numShared.pluralize:Geheimnis:Geheimnisse= mit =object.name|strip= nach und gewinnst Einsicht.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "5ff50e67c6acaefe",
+      "file": "Strings.de.xml",
+      "key": "BasicCookingEffect_Hitpoints Details Amount Known|=amount.signed= =amount.pluralize:hit point=",
+      "context": "BasicCookingEffect_Hitpoints Details Amount Known",
+      "old_value": "=amount.signed= =amount.pluralize:hit point=",
+      "new_value": "=amount.signed= =amount.pluralize:Trefferpunkt:Trefferpunkte=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c721f91f6880ac1b",
+      "file": "Strings.de.xml",
+      "key": "BasicCookingEffect_Hitpoints Popup|=message=\n\n{{W|=amount.signed= =amount.pluralize:hit point= for the rest of the day}}",
+      "context": "BasicCookingEffect_Hitpoints Popup",
+      "old_value": "=message=\n\n{{W|=amount.signed= =amount.pluralize:hit point= für den Rest des Tages}}",
+      "new_value": "=message=\n\n{{W|=amount.signed= =amount.pluralize:Trefferpunkt:Trefferpunkte= für den Rest des Tages}}",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "26a9d217b79bdeda",
+      "file": "Strings.de.xml",
+      "key": "ProceduralCookingEffectUnitMutation Description - Mutation bonus levels|=tier.signed= =tier.pluralize:level= to =mutationName=.",
+      "context": "ProceduralCookingEffectUnitMutation Description - Mutation bonus levels",
+      "old_value": "=tier.signed= =tier.pluralize:level= zu =mutationName=.",
+      "new_value": "=tier.signed= =tier.pluralize:Stufe:Stufen= zu =mutationName=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7aee6246456b1c3",
+      "file": "Strings.de.xml",
+      "key": "Run Duration Left|=duration= =duration.pluralize:round= left.",
+      "context": "Run Duration Left",
+      "old_value": "=duration= =duration.pluralize:round= verbleibend.",
+      "new_value": "=duration= =duration.pluralize:Runde:Runden= verbleibend.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d7265c19ec3dbad1",
+      "file": "Strings.de.xml",
+      "key": "Describe Unequip Message|=items.AndList:definiteArticles:asPossessed= =items.pluralize:was:were= unequipped.",
+      "context": "Describe Unequip Message",
+      "old_value": "=items.AndList:definiteArticles:asPossessed= =items.pluralize:was:were= abgelegt.",
+      "new_value": "=items.AndList:definiteArticles:asPossessed= =items.pluralize:war:waren= abgelegt.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "417f2710e8b4bbf1",
+      "file": "Strings.de.xml",
+      "key": "RandomAltarBaetyl Mod Demand Prefix Name|=number.cardinal= =mod.name= =number.pluralize:item=",
+      "context": "RandomAltarBaetyl Mod Demand Prefix Name",
+      "old_value": "=number.cardinal= =mod.name= =number.pluralize:item=",
+      "new_value": "=number.cardinal= =mod.name= =number.pluralize:Gegenstand:Gegenstände=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "7efcf631b767b65d",
+      "file": "Strings.de.xml",
+      "key": "RandomAltarBaetyl Mod Demand Suffix Name|=number.cardinal= =number.pluralize:item= =mod.name=",
+      "context": "RandomAltarBaetyl Mod Demand Suffix Name",
+      "old_value": "=number.cardinal= =number.pluralize:item= =mod.name=",
+      "new_value": "=number.cardinal= =number.pluralize:Gegenstand:Gegenstände= =mod.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "f11b44f09053f638",
+      "file": "Strings.de.xml",
+      "key": "RandomAltarBaetyl Reward List|=points= attribute =points.pluralize:point=",
+      "context": "RandomAltarBaetyl Reward List",
+      "old_value": "=points= Attribut =points.pluralize:point=",
+      "new_value": "=points= Attribut =points.pluralize:Punkt:Punkte=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "7245193cb169b5d0",
+      "file": "Strings.de.xml",
+      "key": "RandomAltarBaetyl Reward List|=points= mutation =points.pluralize:point=",
+      "context": "RandomAltarBaetyl Reward List",
+      "old_value": "=points= Mutation =points.pluralize:point=",
+      "new_value": "=points= Mutation =points.pluralize:Punkt:Punkte=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "ca9c3795414877a9",
+      "file": "Strings.de.xml",
+      "key": "RandomAltarBaetyl Reward List|=points= skill =points.pluralize:point=",
+      "context": "RandomAltarBaetyl Reward List",
+      "old_value": "=points= Fähigkeit =points.pluralize:point=",
+      "new_value": "=points= Fähigkeit =points.pluralize:Punkt:Punkte=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "06891fa344c9804b",
+      "file": "Strings.de.xml",
+      "key": "RandomAltarBaetyl Reward List|=points= experience =points.pluralize:point=",
+      "context": "RandomAltarBaetyl Reward List",
+      "old_value": "=points= Erfahrung =points.pluralize:point=",
+      "new_value": "=points= Erfahrung =points.pluralize:Punkt:Punkte=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "6b5bdfc12e40c362",
+      "file": "Strings.de.xml",
+      "key": "RandomAltarBaetyl Reward List|=points= cybernetics license =points.pluralize:point=",
+      "context": "RandomAltarBaetyl Reward List",
+      "old_value": "=points= Kybernetik-Lizenz =points.pluralize:point=",
+      "new_value": "=points= Kybernetik-Lizenz =points.pluralize:Punkt:Punkte=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ece99a73a4a7ba5",
+      "file": "Strings.de.xml",
+      "key": "Body Limb Dismember Message|Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!",
+      "context": "Body Limb Dismember Message",
+      "old_value": "Dein =limb.ordinalName= =limb.ifPlural:are:is= verstümmelt!",
+      "new_value": "Dein =limb.ordinalName= =limb.ifPlural:sind:ist= verstümmelt!",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "63b35cde402ad1c0",
+      "file": "Strings.de.xml",
+      "key": "Body Limb Dismember Accomplishment|Your =limb.ordinalName= =limb.ifPlural:were:was= dismembered.",
+      "context": "Body Limb Dismember Accomplishment",
+      "old_value": "Dein =limb.ordinalName= =limb.ifPlural:were:was= verstümmelt.",
+      "new_value": "Dein =limb.ordinalName= =limb.ifPlural:waren:war= verstümmelt.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0a1e5a0ec97714f",
+      "file": "Strings.de.xml",
+      "key": "LevelAPGain|=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attribute Point=",
+      "context": "LevelAPGain",
+      "old_value": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attribute Point=",
+      "new_value": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attributpunkt:Attributpunkte=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "1067e37e5a6271f9",
+      "file": "Strings.de.xml",
+      "key": "MakersMark - Description message|=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= the =names.pluralize:mark= of =names.andList=.",
+      "context": "MakersMark - Description message",
+      "old_value": "=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.konjde:tragen= die =names.pluralize:mark= von =names.andList=.",
+      "new_value": "=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.konjde:tragen= die =names.pluralize:Zeichen:Zeichen= von =names.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "82c44853712ddf0d",
+      "file": "Strings.de.xml",
+      "key": "Bootsequence Description|=subject.Its= readout indicates that =subject.its= startup sequence will take an estimated =timeLeft.cardinal= more =timeLeft.pluralize:round=.",
+      "context": "Bootsequence Description",
+      "old_value": "=subject.Its:nom:f= Anzeige zeigt an, dass =subject.its:nom:f= Startsequenz noch geschätzt =timeLeft.cardinal= weitere =timeLeft.pluralize:round= benötigt.",
+      "new_value": "=subject.Its:nom:f= Anzeige zeigt an, dass =subject.its:nom:f= Startsequenz noch geschätzt =timeLeft.cardinal= weitere =timeLeft.pluralize:Runde:Runden= benötigt.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "13dfdf46e729d9b4",
+      "file": "Strings.de.xml",
+      "key": "CompanionCapacity RulesPostfix Proselytized Fewer|You may Proselytize =amount.cardinal= fewer =amount.pluralize:follower=.",
+      "context": "CompanionCapacity RulesPostfix Proselytized Fewer",
+      "old_value": "Du kannst =amount.cardinal= weniger =amount.pluralize:follower= bekehren.",
+      "new_value": "Du kannst =amount.cardinal= weniger =amount.pluralize:Anhänger:Anhänger= bekehren.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c48778a5b0d7033a",
+      "file": "Strings.de.xml",
+      "key": "CompanionCapacity RulesPostfix Proselytized Additional|You may Proselytize =amount.cardinal= additional =amount.pluralize:follower=.",
+      "context": "CompanionCapacity RulesPostfix Proselytized Additional",
+      "old_value": "Du kannst =amount.cardinal= zusätzliche =amount.pluralize:follower= bekehren.",
+      "new_value": "Du kannst =amount.cardinal= zusätzliche =amount.pluralize:Anhänger:Anhänger= bekehren.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c54095a9c29d1198",
+      "file": "Strings.de.xml",
+      "key": "CompanionCapacity RulesPostfix Beguiled Fewer|You may Beguile =amount.cardinal= fewer =amount.pluralize:follower=.",
+      "context": "CompanionCapacity RulesPostfix Beguiled Fewer",
+      "old_value": "Du kannst =amount.cardinal= weniger =amount.pluralize:follower= verführen.",
+      "new_value": "Du kannst =amount.cardinal= weniger =amount.pluralize:Anhänger:Anhänger= verführen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "78b55c0e503ed217",
+      "file": "Strings.de.xml",
+      "key": "CompanionCapacity RulesPostfix Beguiled Additional|You may Beguile =amount.cardinal= additional =amount.pluralize:follower=.",
+      "context": "CompanionCapacity RulesPostfix Beguiled Additional",
+      "old_value": "Du kannst =amount.cardinal= zusätzliche =amount.pluralize:follower= verführen.",
+      "new_value": "Du kannst =amount.cardinal= zusätzliche =amount.pluralize:Anhänger:Anhänger= verführen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "3d368a0c06ef7940",
+      "file": "Strings.de.xml",
+      "key": "FollowersGetTeleport GetDetails MutationImproved|=tier.signed= =tier.pluralize:level= to =mutation=.",
+      "context": "FollowersGetTeleport GetDetails MutationImproved",
+      "old_value": "=tier.signed= =tier.pluralize:level= für =mutation=.",
+      "new_value": "=tier.signed= =tier.pluralize:Stufe:Stufen= für =mutation=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "8493cc13fef5e8ac",
+      "file": "Strings.de.xml",
+      "key": "HighBitBonus RulesPostfix|=chance=% chance when disassembling an artifact that you receive =amount= extra =amount.pluralize:bit= of the highest tier",
+      "context": "HighBitBonus RulesPostfix",
+      "old_value": "=chance=% Chance, beim Zerlegen eines Artefakts =amount= zusätzliche =amount.pluralize:bit= der höchsten Stufe zu erhalten",
+      "new_value": "=chance=% Chance, beim Zerlegen eines Artefakts =amount= zusätzliche =amount.pluralize:Bit:Bits= der höchsten Stufe zu erhalten",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "4e7bba57fde78cb4",
+      "file": "Strings.de.xml",
+      "key": "MovespeedInLiquid RulesPostfix|=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of =liquid=",
+      "context": "MovespeedInLiquid RulesPostfix",
+      "old_value": "=amount.signed= =statistics[MoveSpeed].name= beim Bewegen durch mindestens =minamount= =minamount.pluralize:dram= von =liquid=",
+      "new_value": "=amount.signed= =statistics[MoveSpeed].name= beim Bewegen durch mindestens =minamount= =minamount.pluralize:Dram:Dram= von =liquid=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "393d103e1daa8e23",
+      "file": "Strings.de.xml",
+      "key": "MovespeedInLiquid RulesPostfix|=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of liquid",
+      "context": "MovespeedInLiquid RulesPostfix",
+      "old_value": "=amount.signed= =statistics[MoveSpeed].name= beim Bewegen durch mindestens =minamount= =minamount.pluralize:dram= Flüssigkeit",
+      "new_value": "=amount.signed= =statistics[MoveSpeed].name= beim Bewegen durch mindestens =minamount= =minamount.pluralize:Dram:Dram= Flüssigkeit",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "77aadd8cb1df49a5",
+      "file": "Strings.de.xml",
+      "key": "QuickenMind SomeCooldowns Success|You are quickened with creative energy! The =cooldowns.pluralize:cooldown= on =cooldowns.andList= =cooldowns.pluralize:is= refreshed.",
+      "context": "QuickenMind SomeCooldowns Success",
+      "old_value": "Ihr seid von kreativer Energie erfüllt! Die =cooldowns.pluralize:cooldown= auf =cooldowns.andList= =cooldowns.pluralize:is= werden aufgefrischt.",
+      "new_value": "Ihr seid von kreativer Energie erfüllt! Die =cooldowns.pluralize:Abklingzeit:Abklingzeiten= auf =cooldowns.andList= =cooldowns.pluralize:ist:sind= werden aufgefrischt.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "fd2d2227a57a003c",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix LinearReduction All|Provides =min.range#max= =number.isplural:points:point= of reduction in the cooldowns of activated abilities.",
+      "context": "ReduceCooldowns RulesPostfix LinearReduction All",
+      "old_value": "Bietet =min.range#max= =number.isplural:points:point= Verringerung der Abklingzeiten aktivierter Fähigkeiten.",
+      "new_value": "Bietet =min.range#max= =number.isplural:Punkte:Punkt= Verringerung der Abklingzeiten aktivierter Fähigkeiten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe85f0162bacd6ee",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix Powered LinearPenalty Inclusive|When powered, causes =min.range#max= =number.isplural:points:point= of increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "context": "ReduceCooldowns RulesPostfix Powered LinearPenalty Inclusive",
+      "old_value": "Wenn aktiviert, verursacht =min.range#max= =number.isplural:points:point= Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, verursacht =min.range#max= =number.isplural:Punkte:Punkt= Erhöhung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "7f3cd4839a3e1a55",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix Powered LinearPenalty Exclusive|When powered, causes =min.range#max= =number.isplural:points:point= of increase in the cooldowns of activated abilities other than =abilities.andList|strip=.",
+      "context": "ReduceCooldowns RulesPostfix Powered LinearPenalty Exclusive",
+      "old_value": "Wenn aktiviert, verursacht =min.range#max= =number.isplural:points:point= Erhöhung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, verursacht =min.range#max= =number.isplural:Punkte:Punkt= Erhöhung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4ea83e8e4d44477",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix Powered LinearPenalty All|When powered, causes =min.range#max= =number.isplural:points:point= of increase in the cooldowns of activated abilities.",
+      "context": "ReduceCooldowns RulesPostfix Powered LinearPenalty All",
+      "old_value": "Wenn aktiviert, verursacht =min.range#max= =number.isplural:points:point= Erhöhung der Abklingzeiten aktivierter Fähigkeiten.",
+      "new_value": "Wenn aktiviert, verursacht =min.range#max= =number.isplural:Punkte:Punkt= Erhöhung der Abklingzeiten aktivierter Fähigkeiten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "0255469317ba5e6a",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix LinearPenalty Inclusive|Causes =min.range#max= =number.isplural:points:point= of increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "context": "ReduceCooldowns RulesPostfix LinearPenalty Inclusive",
+      "old_value": "Verursacht =min.range#max= =number.isplural:points:point= Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Verursacht =min.range#max= =number.isplural:Punkte:Punkt= Erhöhung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "000218ad285bbaab",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix LinearPenalty Exclusive|Causes =min.range#max= =number.isplural:points:point= of increase in the cooldowns of activated abilities other than =abilities.andList|strip=.",
+      "context": "ReduceCooldowns RulesPostfix LinearPenalty Exclusive",
+      "old_value": "Verursacht =min.range#max= =number.isplural:points:point= Erhöhung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "new_value": "Verursacht =min.range#max= =number.isplural:Punkte:Punkt= Erhöhung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "cd1ea2456379560f",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix LinearPenalty All|Causes =min.range#max= =number.isplural:points:point= of increase in the cooldowns of activated abilities.",
+      "context": "ReduceCooldowns RulesPostfix LinearPenalty All",
+      "old_value": "Verursacht =min.range#max= =number.isplural:points:point= Erhöhung der Abklingzeiten aktivierter Fähigkeiten.",
+      "new_value": "Verursacht =min.range#max= =number.isplural:Punkte:Punkt= Erhöhung der Abklingzeiten aktivierter Fähigkeiten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "760cff4d5562ba9b",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix Powered LinearRandom Inclusive|When powered, confers =min.range#max= =number.isplural:points:point= of reduction/increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "context": "ReduceCooldowns RulesPostfix Powered LinearRandom Inclusive",
+      "old_value": "Wenn aktiviert, gewährt =min.range#max= =number.isplural:points:point= Verringerung/Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, gewährt =min.range#max= =number.isplural:Punkte:Punkt= Verringerung/Erhöhung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "53feb87083756af7",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix Powered LinearRandom Exclusive|When powered, confers =min.range#max= =number.isplural:points:point= of reduction/increase in the cooldowns of activated abilities other than =abilities.andList|strip=.",
+      "context": "ReduceCooldowns RulesPostfix Powered LinearRandom Exclusive",
+      "old_value": "Wenn aktiviert, gewährt =min.range#max= =number.isplural:points:point= Verringerung/Erhöhung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, gewährt =min.range#max= =number.isplural:Punkte:Punkt= Verringerung/Erhöhung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "9ea9779e220ff1c1",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix Powered LinearRandom All|When powered, confers =min.range#max= =number.isplural:points:point= of reduction/increase in the cooldowns of activated abilities.",
+      "context": "ReduceCooldowns RulesPostfix Powered LinearRandom All",
+      "old_value": "Wenn aktiviert, gewährt =min.range#max= =number.isplural:points:point= Verringerung/Erhöhung der Abklingzeiten aktivierter Fähigkeiten.",
+      "new_value": "Wenn aktiviert, gewährt =min.range#max= =number.isplural:Punkte:Punkt= Verringerung/Erhöhung der Abklingzeiten aktivierter Fähigkeiten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "ac6c061f518287dd",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix LinearRandom Inclusive|Confers =min.range#max= =number.isplural:points:point= of reduction/increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "context": "ReduceCooldowns RulesPostfix LinearRandom Inclusive",
+      "old_value": "Gewährt =min.range#max= =number.isplural:points:point= Verringerung/Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Gewährt =min.range#max= =number.isplural:Punkte:Punkt= Verringerung/Erhöhung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "01f94574185fa525",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix LinearRandom Exclusive|Confers =min.range#max= =number.isplural:points:point= of reduction/increase in the cooldowns of activated abilities other than =abilities.andList|strip=.",
+      "context": "ReduceCooldowns RulesPostfix LinearRandom Exclusive",
+      "old_value": "Gewährt =min.range#max= =number.isplural:points:point= Verringerung/Erhöhung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "new_value": "Gewährt =min.range#max= =number.isplural:Punkte:Punkt= Verringerung/Erhöhung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e65a5304f8f76b5c",
+      "file": "Strings.de.xml",
+      "key": "ReduceCooldowns RulesPostfix LinearRandom All|Confers =min.range#max= =number.isplural:points:point= of reduction/increase in the cooldowns of activated abilities.",
+      "context": "ReduceCooldowns RulesPostfix LinearRandom All",
+      "old_value": "Gewährt =min.range#max= =number.isplural:points:point= Verringerung/Erhöhung der Abklingzeiten aktivierter Fähigkeiten.",
+      "new_value": "Gewährt =min.range#max= =number.isplural:Punkte:Punkt= Verringerung/Erhöhung der Abklingzeiten aktivierter Fähigkeiten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "2c3ba610561a1989",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearReduction ExplicitScope|When powered, provides =min.range#max= =number.ifPlural:points:point= of reduction =scopedescription=.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearReduction ExplicitScope",
+      "old_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung =scopedescription=.",
+      "new_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung =scopedescription=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "2bfeb1b53b8261e5",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearReduction IncludedAndExcluded|When powered, provides =min.range#max= =number.ifPlural:points:point= of reduction in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearReduction IncludedAndExcluded",
+      "old_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "new_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "1180ed9c59e30229",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearReduction Included|When powered, provides =min.range#max= =number.ifPlural:points:point= of reduction in the action costs of =included.andList= actions.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearReduction Included",
+      "old_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung der Handlungskosten von =included.andList= Handlungen.",
+      "new_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung der Handlungskosten von =included.andList= Handlungen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "2860af2de28973d2",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearReduction Excluded|When powered, provides =min.range#max= =number.ifPlural:points:point= of reduction in the action costs of actions other than =excluded.andList=.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearReduction Excluded",
+      "old_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "new_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7454865a9938ba5",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearReduction All|When powered, provides =min.range#max= =number.ifPlural:points:point= of reduction in action costs.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearReduction All",
+      "old_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung der Handlungskosten.",
+      "new_value": "Bei Aktivierung gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung der Handlungskosten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "fceeda40443e6857",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearReduction ExplicitScope|Provides =min.range#max= =number.ifPlural:points:point= of reduction =scopedescription=.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearReduction ExplicitScope",
+      "old_value": "Gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung =scopedescription=.",
+      "new_value": "Gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung =scopedescription=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "aec937a374cc50d4",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearReduction IncludedAndExcluded|Provides =min.range#max= =number.ifPlural:points:point= of reduction in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearReduction IncludedAndExcluded",
+      "old_value": "Gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "new_value": "Gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "f19866986c2420e9",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearReduction Included|Provides =min.range#max= =number.ifPlural:points:point= of reduction in the action costs of =included.andList= actions.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearReduction Included",
+      "old_value": "Gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung der Handlungskosten von =included.andList= Handlungen.",
+      "new_value": "Gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung der Handlungskosten von =included.andList= Handlungen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "3943f17029cb31fd",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearReduction Excluded|Provides =min.range#max= =number.ifPlural:points:point= of reduction in the action costs of actions other than =excluded.andList=.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearReduction Excluded",
+      "old_value": "Gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "new_value": "Gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "dec3644bb14f7679",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearReduction All|Provides =min.range#max= =number.ifPlural:points:point= of reduction in action costs.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearReduction All",
+      "old_value": "Gewährt =min.range#max= =number.ifPlural:points:point= Reduzierung der Handlungskosten.",
+      "new_value": "Gewährt =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung der Handlungskosten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "55f066afb519c5c8",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease ExplicitScope|When powered, causes =min.range#max= =number.ifPlural:points:point= of increase =scopedescription=.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease ExplicitScope",
+      "old_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung =scopedescription=.",
+      "new_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung =scopedescription=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2ef7ecc1efa81fc",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease IncludedAndExcluded|When powered, causes =min.range#max= =number.ifPlural:points:point= of increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease IncludedAndExcluded",
+      "old_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "new_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c5379d0dc1f7d0a3",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease Included|When powered, causes =min.range#max= =number.ifPlural:points:point= of increase in the action costs of =included.andList= actions.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease Included",
+      "old_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung der Handlungskosten von =included.andList= Handlungen.",
+      "new_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung der Handlungskosten von =included.andList= Handlungen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c7e6f87eaeb52cfc",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease Excluded|When powered, causes =min.range#max= =number.ifPlural:points:point= of increase in the action costs of actions other than =excluded.andList=.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease Excluded",
+      "old_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "new_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2acc920df72d588",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease All|When powered, causes =min.range#max= =number.ifPlural:points:point= of increase in action costs.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearIncrease All",
+      "old_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung der Handlungskosten.",
+      "new_value": "Bei Aktivierung verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung der Handlungskosten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd0a4a394a2405ef",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearIncrease ExplicitScope|Causes =min.range#max= =number.ifPlural:points:point= of increase =scopedescription=.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearIncrease ExplicitScope",
+      "old_value": "Verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung =scopedescription=.",
+      "new_value": "Verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung =scopedescription=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "b5b2da685ed39217",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearIncrease IncludedAndExcluded|Causes =min.range#max= =number.ifPlural:points:point= of increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearIncrease IncludedAndExcluded",
+      "old_value": "Verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "new_value": "Verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "1baa1c46216e600f",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearIncrease Included|Causes =min.range#max= =number.ifPlural:points:point= of increase in the action costs of =included.andList= actions.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearIncrease Included",
+      "old_value": "Verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung der Handlungskosten von =included.andList= Handlungen.",
+      "new_value": "Verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung der Handlungskosten von =included.andList= Handlungen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "dffe07667ab54ab5",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearIncrease Excluded|Causes =min.range#max= =number.ifPlural:points:point= of increase in the action costs of actions other than =excluded.andList=.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearIncrease Excluded",
+      "old_value": "Verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "new_value": "Verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "90b18c498b09b78c",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearIncrease All|Causes =min.range#max= =number.ifPlural:points:point= of increase in action costs.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearIncrease All",
+      "old_value": "Verursacht =min.range#max= =number.ifPlural:points:point= Erhöhung der Handlungskosten.",
+      "new_value": "Verursacht =min.range#max= =number.ifPlural:Punkte:Punkt= Erhöhung der Handlungskosten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a4bb9c603989566",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearRandom ExplicitScope|When powered, confers =min.range#max= =number.ifPlural:points:point= of reduction/increase =scopedescription=.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearRandom ExplicitScope",
+      "old_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung =scopedescription=.",
+      "new_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung =scopedescription=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "2dc3ef0c01d9aca2",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearRandom IncludedAndExcluded|When powered, confers =min.range#max= =number.ifPlural:points:point= of reduction/increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearRandom IncludedAndExcluded",
+      "old_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "new_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "db216e5aa1b4dcc1",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearRandom Included|When powered, confers =min.range#max= =number.ifPlural:points:point= of reduction/increase in the action costs of =included.andList= actions.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearRandom Included",
+      "old_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung der Handlungskosten von =included.andList= Handlungen.",
+      "new_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung der Handlungskosten von =included.andList= Handlungen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "38e6ff9279d6834f",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearRandom Excluded|When powered, confers =min.range#max= =number.ifPlural:points:point= of reduction/increase in the action costs of actions other than =excluded.andList=.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearRandom Excluded",
+      "old_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "new_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "102302496969795a",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix Powered LinearRandom All|When powered, confers =min.range#max= =number.ifPlural:points:point= of reduction/increase in action costs.",
+      "context": "ReduceEnergyCosts RulesPostfix Powered LinearRandom All",
+      "old_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung der Handlungskosten.",
+      "new_value": "Bei Aktivierung verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung der Handlungskosten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d8c0c40503ad9676",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearRandom ExplicitScope|Confers =min.range#max= =number.ifPlural:points:point= of reduction/increase =scopedescription=.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearRandom ExplicitScope",
+      "old_value": "Verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung =scopedescription=.",
+      "new_value": "Verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung =scopedescription=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c1a76d97cd5ab6f9",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearRandom IncludedAndExcluded|Confers =min.range#max= =number.ifPlural:points:point= of reduction/increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearRandom IncludedAndExcluded",
+      "old_value": "Verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "new_value": "Verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung der Handlungskosten von =included.andList= Handlungen, außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "348724276addb229",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearRandom Included|Confers =min.range#max= =number.ifPlural:points:point= of reduction/increase in the action costs of =included.andList= actions.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearRandom Included",
+      "old_value": "Verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung der Handlungskosten von =included.andList= Handlungen.",
+      "new_value": "Verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung der Handlungskosten von =included.andList= Handlungen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "43b344e3deb0b116",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearRandom Excluded|Confers =min.range#max= =number.ifPlural:points:point= of reduction/increase in the action costs of actions other than =excluded.andList=.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearRandom Excluded",
+      "old_value": "Verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "new_value": "Verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung der Handlungskosten von Handlungen außer =excluded.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "3f85673019c4bc6b",
+      "file": "Strings.de.xml",
+      "key": "ReduceEnergyCosts RulesPostfix LinearRandom All|Confers =min.range#max= =number.ifPlural:points:point= of reduction/increase in action costs.",
+      "context": "ReduceEnergyCosts RulesPostfix LinearRandom All",
+      "old_value": "Verleiht =min.range#max= =number.ifPlural:points:point= Reduzierung/Erhöhung der Handlungskosten.",
+      "new_value": "Verleiht =min.range#max= =number.ifPlural:Punkte:Punkt= Reduzierung/Erhöhung der Handlungskosten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "741cce163b96b083",
+      "file": "Strings.de.xml",
+      "key": "Psychometry Fail Identify|=object.This= =object.isplural:artifacts:artifact= =object.is= too complex for you to decipher =object.its= function.",
+      "context": "Psychometry Fail Identify",
+      "old_value": "=object.This= =object.isplural:artifacts:artifact= =object.is= zu komplex, um =object.its:akk:f= Funktion zu entschlüsseln.",
+      "new_value": "=object.This= =object.isplural:Artefakte:Artefakt= =object.is= zu komplex, um =object.its:akk:f= Funktion zu entschlüsseln.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "b43381ad5a71efde",
+      "file": "Strings.de.xml",
+      "key": "Psychometry can't identify|=object.This:single= =object.isplural:artifacts:artifact= =object.is= too complex for you to decipher =object.its= method of construction.",
+      "context": "Psychometry can't identify",
+      "old_value": "=object.This:single= =object.isplural:artifacts:artifact= =object.is= zu komplex, um =object.its:akk:f= Konstruktionsmethode zu entschlüsseln.",
+      "new_value": "=object.This:single= =object.isplural:Artefakte:Artefakt= =object.is= zu komplex, um =object.its:akk:f= Konstruktionsmethode zu entschlüsseln.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "85db343d26329437",
+      "file": "Strings.de.xml",
+      "key": "Campfire NostrumsTreatPoison|You cure the =result.pluralize:poison= coursing through =object.the.name= with a balm made from =cure.a.name:single=.",
+      "context": "Campfire NostrumsTreatPoison",
+      "old_value": "Du heilst das =result.pluralize:poison= in =object.the.name= mit einer Salbe aus =cure.a.dativ:single=.",
+      "new_value": "Du heilst das =result.pluralize:Gift:Gifte= in =object.the.name= mit einer Salbe aus =cure.a.dativ:single=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "4e7aaeb678400f0e",
+      "file": "Strings.de.xml",
+      "key": "CookingRecipeComponents Domain ingredientType display name|=amount|color#amountColor= =amount.pluralize:serving= of =ingredientType=",
+      "context": "CookingRecipeComponents Domain ingredientType display name",
+      "old_value": "=amount|color#amountColor= =amount.pluralize:serving= von =ingredientType=",
+      "new_value": "=amount|color#amountColor= =amount.pluralize:Portion:Portionen= von =ingredientType=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "512b3dea8663922c",
+      "file": "Strings.de.xml",
+      "key": "CookingRecipeComponents Blueprint ingredient display name|=amount|color#amountColor= =amount.pluralize:serving= of =ingredientDisplayName=",
+      "context": "CookingRecipeComponents Blueprint ingredient display name",
+      "old_value": "=amount|color#amountColor= =amount.pluralize:serving= von =ingredientDisplayName=",
+      "new_value": "=amount|color#amountColor= =amount.pluralize:Portion:Portionen= von =ingredientDisplayName=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d7210f666fbe6f71",
+      "file": "Strings.de.xml",
+      "key": "PreparedCookingIngredient DisplayName Tag Serving Count|[=charges|color:C=] cooking =charges.pluralize:serving:servings=]",
+      "context": "PreparedCookingIngredient DisplayName Tag Serving Count",
+      "old_value": "[=charges|color:C=] Kochen =charges.pluralize:serving:servings=]",
+      "new_value": "[=charges|color:C=] Kochen =charges.pluralize:Portion:Portionen=]",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c49f3d02ca8424df",
+      "file": "Strings.de.xml",
+      "key": "PreparedCookingIngredient Servings|[{{C|=servings=}} =servings.pluralize:serving=]]",
+      "context": "PreparedCookingIngredient Servings",
+      "old_value": "[{{C|=servings=}} =servings.pluralize:serving=]]",
+      "new_value": "[{{C|=servings=}} =servings.pluralize:Portion:Portionen=]]",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "85eda703c21fb3b8",
+      "file": "Strings.de.xml",
+      "key": "PreparedCookingIngredient Servings times number Stacker Display|[{{C|=servings=}} =servings.pluralize:serving=]] x=times=",
+      "context": "PreparedCookingIngredient Servings times number Stacker Display",
+      "old_value": "[{{C|=servings=}} =servings.pluralize:serving=]] x=times=",
+      "new_value": "[{{C|=servings=}} =servings.pluralize:Portion:Portionen=]] x=times=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "07cb61fccc0918ac",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:take= advantage of =subject.their= opponent's reaction to =subject.their= attack! =skills.andList|capitalize= =skills.pluralize:is:are= refreshed.",
+      "context": "",
+      "old_value": "=subject.The.name= =subject.konjde:nehmen= Vorteil aus =subject.their= Gegners Reaktion auf =subject.their= Angriff! =skills.andList|capitalize= =skills.pluralize:is:are= erneuert.",
+      "new_value": "=subject.The.name= =subject.konjde:nehmen= Vorteil aus =subject.their= Gegners Reaktion auf =subject.their= Angriff! =skills.andList|capitalize= =skills.pluralize:ist:sind= erneuert.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "972b6450426a47a0",
+      "file": "Strings.de.xml",
+      "key": "Disassembly learn to build (fragment)|mod items with the =mods.andList= =mods.pluralize:mod=",
+      "context": "Disassembly learn to build (fragment)",
+      "old_value": "Gegenstände mit =mods.andList= =mods.pluralize:mod= modifizieren",
+      "new_value": "Gegenstände mit =mods.andList= =mods.pluralize:Modifikation:Modifikationen= modifizieren",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "ccb29ff545b7f2eb",
+      "file": "Strings.de.xml",
+      "key": "Unit Gain Level|=amount.signed= =amount.pluralize:level=",
+      "context": "Unit Gain Level",
+      "old_value": "=amount.signed= =amount.pluralize:level=",
+      "new_value": "=amount.signed= =amount.pluralize:Stufe:Stufen=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "dbd3335643cb47c1",
+      "file": "Strings.de.xml",
+      "key": "Golem Quest Catalyst Liquid|=volume|rules= =volume.pluralize:dram= of =liquid.name=",
+      "context": "Golem Quest Catalyst Liquid",
+      "old_value": "=volume|rules= =volume.pluralize:dram= von =liquid.name=",
+      "new_value": "=volume|rules= =volume.pluralize:Dram:Dram= von =liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc30eb9b16be375d",
+      "file": "Strings.de.xml",
+      "key": "Golem Quest Power Liquid|=volume|rules= =volume.pluralize:dram= of =liquid.name=",
+      "context": "Golem Quest Power Liquid",
+      "old_value": "=volume|rules= =volume.pluralize:dram= von =liquid.name=",
+      "new_value": "=volume|rules= =volume.pluralize:Dram:Dram= von =liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "6fbd377de99fff80",
+      "file": "Strings.de.xml",
+      "key": "Golem Quest Shaping Duration Days|It will be finished in =duration.cardinal= =duration.pluralize:day=.",
+      "context": "Golem Quest Shaping Duration Days",
+      "old_value": "Es wird in =duration.cardinal= =duration.pluralize:day= fertig.",
+      "new_value": "Es wird in =duration.cardinal= =duration.pluralize:Tag:Tage= fertig.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "eaa6f17dd4347eda",
+      "file": "Strings.de.xml",
+      "key": "Replacer =mound.complete.days=|=days.cardinal= =days.pluralize:day=",
+      "context": "Replacer =mound.complete.days=",
+      "old_value": "=days.cardinal= =days.pluralize:day=",
+      "new_value": "=days.cardinal= =days.pluralize:Tag:Tage=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e0ac900f422ab515",
+      "file": "Strings.de.xml",
+      "key": "Base Liquid - drams of liquid template with color|=amount|color#shade= =amount.pluralize:dram= of =liquid.name=",
+      "context": "Base Liquid - drams of liquid template with color",
+      "old_value": "=amount|color#shade= =amount.pluralize:dram= von =liquid.name=",
+      "new_value": "=amount|color#shade= =amount.pluralize:Dram:Dram= von =liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "39f1e1a3029ed7e2",
+      "file": "Strings.de.xml",
+      "key": "Base Liquid - drams of liquid template no color|=amount= =amount.pluralize:dram= of =liquid.name=",
+      "context": "Base Liquid - drams of liquid template no color",
+      "old_value": "=amount= =amount.pluralize:dram= von =liquid.name=",
+      "new_value": "=amount= =amount.pluralize:Dram:Dram= von =liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "5e1c8f010f0f88c7",
+      "file": "Strings.de.xml",
+      "key": "Base Liquid - cardinal drams of liquid template with color|=amount.cardinal|color#shade= =amount.pluralize:dram= of =liquid.name=",
+      "context": "Base Liquid - cardinal drams of liquid template with color",
+      "old_value": "=amount.cardinal|color#shade= =amount.pluralize:dram= von =liquid.name=",
+      "new_value": "=amount.cardinal|color#shade= =amount.pluralize:Dram:Dram= von =liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "7aa637387a121025",
+      "file": "Strings.de.xml",
+      "key": "Base Liquid - cardinal drams of liquid template no color|=amount.cardinal= =amount.pluralize:dram= of =liquid.name=",
+      "context": "Base Liquid - cardinal drams of liquid template no color",
+      "old_value": "=amount.cardinal= =amount.pluralize:dram= von =liquid.name=",
+      "new_value": "=amount.cardinal= =amount.pluralize:Dram:Dram= von =liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "aac9fbf5fc181c7d",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - drams of liquid template (for sorting)|=amount:D6= =amount.pluralize:dram= of =container.liquid.name=",
+      "context": "Liquid Volume - drams of liquid template (for sorting)",
+      "old_value": "=amount:D6= =amount.pluralize:dram= von =container.liquid.name=",
+      "new_value": "=amount:D6= =amount.pluralize:Dram:Dram= von =container.liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0f56014f04c1b87",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - drams of liquid template|=amount|rules= =amount.pluralize:dram= of =container.liquid.name=",
+      "context": "Liquid Volume - drams of liquid template",
+      "old_value": "=amount|rules= =amount.pluralize:dram= von =container.liquid.name=",
+      "new_value": "=amount|rules= =amount.pluralize:Dram:Dram= von =container.liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2c8faaecb6ceef2",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - drams of liquid template (no rules)|=amount= =amount.pluralize:dram= of =container.liquid.name=",
+      "context": "Liquid Volume - drams of liquid template (no rules)",
+      "old_value": "=amount= =amount.pluralize:dram= von =container.liquid.name=",
+      "new_value": "=amount= =amount.pluralize:Dram:Dram= von =container.liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "c40db844cc6f293d",
+      "file": "Strings.de.xml",
+      "key": "|=trader.The.name= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.@#text",
+      "context": null,
+      "old_value": "=trader.The.name= =trader.konjde:blechen= =give= =give.pluralize:dram= frisches Wasser oben drauf, um den Handel auszugleichen.",
+      "new_value": "=trader.The.name= =trader.konjde:blechen= =give= =give.pluralize:Dram:Dram= frisches Wasser oben drauf, um den Handel auszugleichen.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "5e2e2c6172091f48",
+      "file": "Strings.de.xml",
+      "key": "|=tier.signed= =tier.pluralize:rank= to =mutationName=.@#text",
+      "context": null,
+      "old_value": "=tier.signed= =tier.pluralize:rank= zu =mutationName=.",
+      "new_value": "=tier.signed= =tier.pluralize:Rang:Ränge= zu =mutationName=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7d85ff9fadb75bf",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:an engraving:engravings= of =descriptions.andList|ensureEndMark=@#text",
+      "context": null,
+      "old_value": "=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:an engraving:engravings= von =descriptions.andList|ensureEndMark=",
+      "new_value": "=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:eine Gravur:Gravuren= von =descriptions.andList|ensureEndMark=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "235c822dac3725c1",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:a tattoo:tattoos= of =descriptions.andList|ensureEndMark=@#text",
+      "context": null,
+      "old_value": "=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:a tattoo:tattoos= von =descriptions.andList|ensureEndMark=",
+      "new_value": "=subject.Their= =part.name= =part.isPlural:bear:bears= =descriptions.pluralize:eine Tätowierung:Tätowierungen= von =descriptions.andList|ensureEndMark=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "3a220bd6185192eb",
+      "file": "Strings.de.xml",
+      "key": "|When powered, provides =min.range#max=% reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Wenn aktiviert, bietet =min.range#max=% Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, bietet =min.range#max=% Verringerung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "8f57ed54905f9f75",
+      "file": "Strings.de.xml",
+      "key": "|Provides =min.range#max=% reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Bietet =min.range#max=% Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Bietet =min.range#max=% Verringerung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "35c69dc8f0ab4d4b",
+      "file": "Strings.de.xml",
+      "key": "|When powered, causes =min.range: to #max=% increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Wenn aktiviert, verursacht =min.range: to #max=% Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, verursacht =min.range: to #max=% Erhöhung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "828c4c93c31795e9",
+      "file": "Strings.de.xml",
+      "key": "|Causes =min.range#max=% increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Verursacht =min.range#max=% Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Verursacht =min.range#max=% Erhöhung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "69d7776fe9cd1f8b",
+      "file": "Strings.de.xml",
+      "key": "|When powered, confers =min.range#max=% reduction/increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Wenn aktiviert, gewährt =min.range#max=% Verringerung/Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, gewährt =min.range#max=% Verringerung/Erhöhung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "003c285726f40c67",
+      "file": "Strings.de.xml",
+      "key": "|Confers =min.range#max=% reduction/increase in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Gewährt =min.range#max=% Verringerung/Erhöhung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Gewährt =min.range#max=% Verringerung/Erhöhung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "958b0f735655a7f5",
+      "file": "Strings.de.xml",
+      "key": "|When powered, provides =min.range#max= =number.isplural:points:point= of reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Wenn aktiviert, bietet =min.range#max= =number.isplural:points:point= Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, bietet =min.range#max= =number.isplural:Punkte:Punkt= Verringerung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "e8a8b1ed69a57dd8",
+      "file": "Strings.de.xml",
+      "key": "|When powered, provides =min.range#max= =number.isplural:points:point= of reduction in the cooldowns of activated abilities other than =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Wenn aktiviert, bietet =min.range#max= =number.isplural:points:point= Verringerung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "new_value": "Wenn aktiviert, bietet =min.range#max= =number.isplural:Punkte:Punkt= Verringerung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "9fee36444a96903f",
+      "file": "Strings.de.xml",
+      "key": "|When powered, provides =min.range#max= =number.isplural:points:point= of reduction in the cooldowns of activated abilities.@#text",
+      "context": null,
+      "old_value": "Wenn aktiviert, bietet =min.range#max= =number.isplural:points:point= Verringerung der Abklingzeiten aktivierter Fähigkeiten.",
+      "new_value": "Wenn aktiviert, bietet =min.range#max= =number.isplural:Punkte:Punkt= Verringerung der Abklingzeiten aktivierter Fähigkeiten.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "165bf31cb628665f",
+      "file": "Strings.de.xml",
+      "key": "|Provides =min.range#max= =number.isplural:points:point= of reduction in the =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Bietet =min.range#max= =number.isplural:points:point= Verringerung der =count.isplural:cooldowns of the abilities:cooldown of the ability= =abilities.andList|strip=.",
+      "new_value": "Bietet =min.range#max= =number.isplural:Punkte:Punkt= Verringerung der =count.isplural:Abklingzeiten der Fähigkeiten:Abklingzeit der Fähigkeit= =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "a88ee0dc94e6b1c7",
+      "file": "Strings.de.xml",
+      "key": "|Provides =min.range#max= =number.isplural:points:point= of reduction in the cooldowns of activated abilities other than =abilities.andList|strip=.@#text",
+      "context": null,
+      "old_value": "Bietet =min.range#max= =number.isplural:points:point= Verringerung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "new_value": "Bietet =min.range#max= =number.isplural:Punkte:Punkt= Verringerung der Abklingzeiten aktivierter Fähigkeiten außer =abilities.andList|strip=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "3423a8478a726a84",
+      "file": "Strings.de.xml",
+      "key": "|=subject.isPlural:These:This= =subject.pluralize#what= =otherProps.andList=.@#text",
+      "context": null,
+      "old_value": "=subject.isPlural:These:This= =subject.pluralize#what= =otherProps.andList=.",
+      "new_value": "=subject.isPlural:Diese:Dies= =subject.pluralize#what= =otherProps.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "88b994a26c95c735",
+      "file": "Strings.de.xml",
+      "key": "|=subject.isPlural:These:This= =subject.pluralize#what= =weaponProps.andList=. =otherProps.andList=.@#text",
+      "context": null,
+      "old_value": "=subject.isPlural:These:This= =subject.pluralize#what= =weaponProps.andList=. =otherProps.andList=.",
+      "new_value": "=subject.isPlural:Diese:Dies= =subject.pluralize#what= =weaponProps.andList=. =otherProps.andList=.",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "0d18b7eebf21b8be",
+      "file": "Strings.de.xml",
+      "key": "|=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name=@#text",
+      "context": null,
+      "old_value": "=amount|color#amountColor= =amount.pluralize:dram= von =liquid.name=",
+      "new_value": "=amount|color#amountColor= =amount.pluralize:Dram:Dram= von =liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    },
+    {
+      "uid": "0c3c597bfad72ebb",
+      "file": "Strings.de.xml",
+      "key": "|=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name=@#text",
+      "context": null,
+      "old_value": "=amount.cardinal|color#amountColor= =amount.pluralize:dram= von =liquid.name=",
+      "new_value": "=amount.cardinal|color#amountColor= =amount.pluralize:Dram:Dram= von =liquid.name=",
+      "note": "Zahl-Pluralisierung mit deutschem Singular:Plural",
+      "status": "accepted"
+    }
+  ]
+}

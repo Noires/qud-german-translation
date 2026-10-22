@@ -1,0 +1,28 @@
+{
+  "batch": "du-inventoryactions-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-inventoryactions-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "fd0a5dc5c2c932b9",
+      "file": "InventoryActions.de.xml",
+      "key": "/inventoryActions#0/inventoryAction[CookPreserve]/display#1@#text",
+      "context": null,
+      "old_value": "Bewahrt Eure frischen Lebensmittel auf.",
+      "new_value": "Bewahre deine frischen Lebensmittel auf.",
+      "note": "Menü-Aktion als Imperativ gewertet",
+      "status": "accepted"
+    },
+    {
+      "uid": "5b625ed77114f62b",
+      "file": "InventoryActions.de.xml",
+      "key": "/inventoryActions#0/inventoryAction[CookPreserveExotic]/display#1@#text",
+      "context": null,
+      "old_value": "Bewahrt Eure exotischen Lebensmittel auf.",
+      "new_value": "Bewahre deine exotischen Lebensmittel auf.",
+      "note": "Menü-Aktion als Imperativ gewertet",
+      "status": "accepted"
+    }
+  ]
+}

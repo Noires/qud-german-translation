@@ -1,0 +1,58 @@
+{
+  "batch": "spice-rest",
+  "rule": "du",
+  "note": "HistorySpice: letzte unübersetzte Satzfragmente",
+  "created": "2026-10-22 15:37",
+  "items": [
+    {
+      "uid": "acf041e17e611fea",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/professions/astrologist/studying",
+      "context": "spice.professions.astrologist.studying",
+      "old_value": "mapping stars to the shapes of",
+      "new_value": "Sterne den Formen zuordnend von",
+      "note": "Stil der Nachbarn: Partizip + „von“ (vgl. „Maße nehmend von“)",
+      "status": "accepted"
+    },
+    {
+      "uid": "04d417a437431d31",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/professions/astronomer/studying",
+      "context": "spice.professions.astronomer.studying",
+      "old_value": "mapping stars to the shapes of",
+      "new_value": "Sterne den Formen zuordnend von",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6925ad5bc89e2c2d",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/sacred/weUsedTo=/1",
+      "context": "spice.quests.FindaSpecificItem.sacred.weUsedTo",
+      "old_value": "you know, once my =spice:commonPhrases.kin.!random= =^:spentOurDays.!random=",
+      "new_value": "weißt du, meine =spice:commonPhrases.kin.!random= =^:spentOurDays.!random=",
+      "note": "Satzbau wie Variante 0 („meine … verbrachten …“), damit das Verb aus spentOurDays an zweiter Stelle bleibt",
+      "status": "accepted"
+    },
+    {
+      "uid": "37263fee5568d4c8",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/loveToHave=/0",
+      "context": "spice.quests.FindaSpecificItem.personal.loveToHave",
+      "old_value": "=subject.fragment:NeedsItemFor=, I =spice:instancesOf.desire.!random= =item.them=",
+      "new_value": "=subject.fragment:NeedsItemFor=, ich =spice:instancesOf.desire.!random= =item.them=",
+      "note": "ACHTUNG: Liste instancesOf.desire= mischt Nomen („Verlangen“) und Infinitive („brauchen“) — ergibt z. B. „ich brauchen es“; Liste separat auf 1. Person (brauche/begehre …) umstellen",
+      "status": "accepted"
+    },
+    {
+      "uid": "4f0cb4dbc2dc589a",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/quests/FindaSpecificItem/personal/loveToHave=/1",
+      "context": "spice.quests.FindaSpecificItem.personal.loveToHave",
+      "old_value": "=subject.fragment:NeedsItemFor=, I =spice:instancesOf.wouldLikeTo.!random= =spice:instancesOf.have.!random= =item.them=",
+      "new_value": "=subject.fragment:NeedsItemFor=, ich =spice:instancesOf.wouldLikeTo.!random= =spice:instancesOf.have.!random= =item.them=",
+      "note": "„ich würde gerne … haben“ passt; Variante „brauchen zu“ der Liste wouldLikeTo= ergibt „ich brauchen zu“ — Liste prüfen",
+      "status": "accepted"
+    }
+  ]
+}

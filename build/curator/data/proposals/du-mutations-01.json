@@ -1,0 +1,1218 @@
+{
+  "batch": "du-mutations-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-mutations-01)",
+  "created": "2026-10-22 14:50",
+  "items": [
+    {
+      "uid": "355b739cb3321d68",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Morphotypes]/mutation[Chimera]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr manifestiert nur körperliche Mutationen, und alle Eure Mutationsauswahlen beim Manifestieren einer neuen Mutation sind körperlich.",
+      "new_value": "Du manifestierst nur körperliche Mutationen, und alle deine Mutationsauswahlen beim Manifestieren einer neuen Mutation sind körperlich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e32ec0c0457c34ee",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Morphotypes]/mutation[Chimera]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Immer wenn Ihr eine neue Mutation manifestiert, lässt eine Eurer Auswahlmöglichkeiten Euch außerdem zufällig ein neues Gliedmaß wachsen.",
+      "new_value": "Immer wenn du eine neue Mutation manifestierst, lässt eine deiner Auswahlmöglichkeiten dich außerdem zufällig ein neues Gliedmaß wachsen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "86e9808b581ba9aa",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Morphotypes]/mutation[Esper]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr manifestiert nur mentale Mutationen, und alle Eure Mutationsauswahlen beim Manifestieren einer neuen Mutation sind mental.",
+      "new_value": "Du manifestierst nur mentale Mutationen, und alle deine Mutationsauswahlen beim Manifestieren einer neuen Mutation sind mental.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "77c8531b02df17eb",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Morphotypes]/mutation[Unstable Genome]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr erhaltet jedes Mal, wenn Ihr dies kauft, eine zusätzliche Mutation, doch die Mutationen manifestieren sich nicht sofort.",
+      "new_value": "Du erhältst jedes Mal, wenn du dies kaufst, eine zusätzliche Mutation, doch die Mutationen manifestieren sich nicht sofort.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "54f2209c110ec90e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Morphotypes]/mutation[Unstable Genome]/description#1/p#2@#text",
+      "context": null,
+      "old_value": "Immer wenn Ihr eine Stufe aufsteigt, besteht eine Chance von 33 %, dass sich Euer Genom destabilisiert und Ihr aus 3 zufälligen Mutationen wählen dürft.",
+      "new_value": "Immer wenn du eine Stufe aufsteigst, besteht eine Chance von 33 %, dass sich dein Genom destabilisiert und du aus 3 zufälligen Mutationen wählen darfst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "41bcd452cbd6d137",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Adrenal Control]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr reguliert die Ausschüttung von Adrenalin in Eurem Körper.",
+      "new_value": "Du regulierst die Ausschüttung von Adrenalin in deinem Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0ed051ea6944e03d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Beak]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Gelegentlich pickt Ihr nach Euren Gegnern.",
+      "new_value": "Gelegentlich pickst du nach deinen Gegnern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2343e570274b7bbc",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Burrowing Claws]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr habt spatenartige Krallen, die sich durch die Erde graben können.",
+      "new_value": "Du hast spatenartige Krallen, die sich durch die Erde graben können.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9fd53d39c83a6c91",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Double-muscled]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr besitzt eine gewaltige Kraft.",
+      "new_value": "Du besitzt eine gewaltige Kraft.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1483eed4616a5ee4",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Electrical Generation]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr sammelt elektrische Ladung an, die Ihr nutzen und entladen könnt, um Schaden zu verursachen.",
+      "new_value": "Du sammelst elektrische Ladung an, die du nutzen und entladen kannst, um Schaden zu verursachen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7fbe341eafaf9a0d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Electrical Generation]/leveltext#2/switch[CanDrinkTransient]/case#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt Ladung aus elektrischen Energiequellen trinken.",
+      "new_value": "Du kannst Ladung aus elektrischen Energiequellen trinken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5008070f1ff891b",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Electrical Generation]/leveltext#2/switch[CanDrinkTransient]/default#2/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt Ladung aus Energiezellen und Kondensatoren trinken.",
+      "new_value": "Du kannst Ladung aus Energiezellen und Kondensatoren trinken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "069c5d693f6f9935",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Electrical Generation]/leveltext#2/p#8@#text",
+      "context": null,
+      "old_value": "Ihr könnt ausgerüsteten Geräten mit integrierter Energieversorgung Ladung zuführen.",
+      "new_value": "Du kannst ausgerüsteten Geräten mit integrierter Energieversorgung Ladung zuführen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5facfa023e6e8aca",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Electromagnetic Pulse]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr erzeugt einen elektromagnetischen Puls, der Artefakte und Maschinen in der Nähe deaktiviert.",
+      "new_value": "Du erzeugst einen elektromagnetischen Puls, der Artefakte und Maschinen in der Nähe deaktiviert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5847fb33d2bfe8a6",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Heightened Hearing]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr besitzt ein unnatürlich scharfes Gehör.",
+      "new_value": "Du besitzt ein unnatürlich scharfes Gehör.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a41429cd0e675b96",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Horns]/description#1/p#1/gametext#1@#text",
+      "context": null,
+      "old_value": "=horns.A.name.or.plural= =horns.verb:jut= aus Eurem Kopf heraus.",
+      "new_value": "=horns.A.name.or.plural= =horns.verb:jut= aus deinem Kopf heraus.",
+      "note": "nur Eurem->deinem, Tokens unverändert",
+      "status": "accepted"
+    },
+    {
+      "uid": "3ef8e17cbc24afe0",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Horns]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "20% Chance bei einem Nahkampfangriff, Euren Gegner aufzuspießen",
+      "new_value": "20% Chance bei einem Nahkampfangriff, deinen Gegner aufzuspießen",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "52e8c117bb3c879b",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Metamorphosis]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr nehmt die Gestalt jeder Kreatur an, die Ihr berührt.",
+      "new_value": "Du nimmst die Gestalt jeder Kreatur an, die du berührst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "73eba787349ad594",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Multiple Arms]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr habt einen zusätzlichen Satz Arme.",
+      "new_value": "Du hast einen zusätzlichen Satz Arme.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "12283acc8a63ed3c",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Multiple Legs]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr habt einen zusätzlichen Satz Beine.",
+      "new_value": "Du hast einen zusätzlichen Satz Beine.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0b969f2e8f823b6",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Night Vision]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seht im Dunkeln.",
+      "new_value": "Du siehst im Dunkeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a2ccacdc767003a8",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Phasing]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt für kurze Zeitspannen durch feste Objekte phasen.",
+      "new_value": "Du kannst für kurze Zeitspannen durch feste Objekte phasen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "aca046d082ee5150",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Photosynthetic Skin]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr regeneriert Euch, indem Ihr durch Eure kräftige grüne Haut Sonnenlicht aufnehmt.",
+      "new_value": "Du regenerierst dich, indem du durch deine kräftige grüne Haut Sonnenlicht aufnimmst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "28e2c458222baccd",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Quills]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Hunderte nadelspitzer Stacheln bedecken Euren Körper.",
+      "new_value": "Hunderte nadelspitzer Stacheln bedecken deinen Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f7badcb8b5cf91a1",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Regeneration]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Eure Wunden heilen sehr schnell.",
+      "new_value": "Deine Wunden heilen sehr schnell.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f0d2c03c727c28f6",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Regeneration]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "Eure volle natürliche Heilungsrate gilt auch im Kampf.",
+      "new_value": "Deine volle natürliche Heilungsrate gilt auch im Kampf.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c78ae91ac95f89a5",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Regeneration]/leveltext#2/switch[NoDecapitate]/default#2/p#1@#text",
+      "context": null,
+      "old_value": "{{rules|Ihr könnt nicht enthauptet werden.}}",
+      "new_value": "{{rules|Du kannst nicht enthauptet werden.}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9d81259960734119",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Slime Glands]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr erzeugt einen zähflüssigen Schleim, den Ihr auf Dinge spucken könnt.",
+      "new_value": "Du erzeugst einen zähflüssigen Schleim, den du auf Dinge spucken kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "19004a76d90cb792",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Slime Glands]/description#1/p#7@#text",
+      "context": null,
+      "old_value": "Ihr könnt über Schleim laufen, ohne auszurutschen.",
+      "new_value": "Du kannst über Schleim laufen, ohne auszurutschen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ba31e48c94027ad8",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Spinnerets]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt klebrige Seidennetze spinnen.",
+      "new_value": "Du kannst klebrige Seidennetze spinnen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3afc45e967669d35",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Spinnerets]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "Während Ihr spinnt, hinterlasst Ihr beim Bewegen Netze in Eurer Spur.",
+      "new_value": "Während du spinnst, hinterlässt du beim Bewegen Netze in deiner Spur.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "13dc5b99a8bd77b1",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Stinger (Confusing Venom)]/leveltext#2/p#4@#text",
+      "context": null,
+      "old_value": "Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel Eure Hauptwaffe ist).",
+      "new_value": "Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel deine Hauptwaffe ist).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b3853d747a5cf8e0",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Stinger (Confusing Venom)]/leveltext#2/p#5@#text",
+      "context": null,
+      "old_value": "Ihr könnt die aktivierte Fähigkeit Stechen benutzen, um mit Eurem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.",
+      "new_value": "Du kannst die aktivierte Fähigkeit Stechen benutzen, um mit deinem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "64667530c9cd016e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Stinger (Paralyzing Venom)]/leveltext#2/p#4@#text",
+      "context": null,
+      "old_value": "Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel Eure Hauptwaffe ist).",
+      "new_value": "Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel deine Hauptwaffe ist).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a213c08ec6a244a8",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Stinger (Paralyzing Venom)]/leveltext#2/p#5@#text",
+      "context": null,
+      "old_value": "Ihr könnt die aktivierte Fähigkeit Stechen benutzen, um mit Eurem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.",
+      "new_value": "Du kannst die aktivierte Fähigkeit Stechen benutzen, um mit deinem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eb239644d896ca49",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Stinger (Poisoning Venom)]/leveltext#2/p#4@#text",
+      "context": null,
+      "old_value": "Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel Eure Hauptwaffe ist).",
+      "new_value": "Der Stachel verabreicht bei Schaden Gift (nur 20 % Chance, wenn der Stachel deine Hauptwaffe ist).",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ea38152c10330c42",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Stinger (Poisoning Venom)]/leveltext#2/p#5@#text",
+      "context": null,
+      "old_value": "Ihr könnt die aktivierte Fähigkeit Stechen benutzen, um mit Eurem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.",
+      "new_value": "Du kannst die aktivierte Fähigkeit Stechen benutzen, um mit deinem Stachel zuzuschlagen und automatisch zu treffen und zu durchdringen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7caaddd896027c32",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Thick Fur]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr seid von einem dicken Pelz bedeckt, der Euch vor den Elementen schützt.",
+      "new_value": "Du bist von einem dicken Pelz bedeckt, der dich vor den Elementen schützt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b0e14dd227d6a8a6",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Triple-jointed]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Eure Gelenke dehnen sich viel weiter als gewöhnlich.",
+      "new_value": "Deine Gelenke dehnen sich viel weiter als gewöhnlich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ef9eb50f6d3e139e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Two-headed]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr habt zwei Köpfe.",
+      "new_value": "Du hast zwei Köpfe.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "11283ae1086a67fe",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Two-hearted]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr habt zwei Herzen.",
+      "new_value": "Du hast zwei Herzen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e00630c7becbd704",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Wings]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr fliegt.",
+      "new_value": "Du fliegst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "37e55c57ae648d16",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Physical]/mutation[Wings]/leveltext#2/p#3@#text",
+      "context": null,
+      "old_value": "Im Freien könnt Ihr fliegen. Während Ihr fliegt, könnt Ihr von bodengebundenen Kreaturen nicht im Nahkampf getroffen werden.",
+      "new_value": "Im Freien kannst du fliegen. Während du fliegst, kannst du von bodengebundenen Kreaturen nicht im Nahkampf getroffen werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a02db4bf7ff6ea82",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Albino]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Eurer Haut, Eurem Haar und Euren Augen fehlt jegliches Pigment.",
+      "new_value": "Deiner Haut, deinem Haar und deinen Augen fehlt jegliches Pigment.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b937ee8aceb37b6d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Amphibious]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Eure Haut muss mit Süßwasser feucht gehalten werden.",
+      "new_value": "Deine Haut muss mit Süßwasser feucht gehalten werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9b623a9338d1bf93",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Amphibious]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr gießt Euch Wasser über den Kopf, anstatt es zu trinken, um Euren Durst zu stillen.",
+      "new_value": "Du gießt dir Wasser über den Kopf, anstatt es zu trinken, um deinen Durst zu stillen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0b298da1bae54031",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Amphibious]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Ihr benötigt etwa zwei Drittel mehr Wasser als gewöhnlich.",
+      "new_value": "Du benötigst etwa zwei Drittel mehr Wasser als gewöhnlich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2a575706f9b0f951",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Brittle Bones]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Eure Knochen sind brüchig.",
+      "new_value": "Deine Knochen sind brüchig.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d2ae66fc3edca998",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Brittle Bones]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr erleidet 50% mehr Schaden durch stumpfe Angriffe, Stürze und andere Quellen von Wucht-Schaden.",
+      "new_value": "Du erleidest 50% mehr Schaden durch stumpfe Angriffe, Stürze und andere Quellen von Wucht-Schaden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e993f19530bcac37",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Nerve Poppy]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Euch fehlt ein ausgeprägter Schmerzsinn.",
+      "new_value": "Dir fehlt ein ausgeprägter Schmerzsinn.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd2b99ac78e3aea2",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Nerve Poppy]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr kennt nur Euren allgemeinen Gesundheitszustand, nicht aber Eure genaue Anzahl an Trefferpunkten.",
+      "new_value": "Du kennst nur deinen allgemeinen Gesundheitszustand, nicht aber deine genaue Anzahl an Trefferpunkten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "452f3d594f4287fb",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Carnivorous]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr esst ausschließlich Fleisch.",
+      "new_value": "Du isst ausschließlich Fleisch.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3905dc3e44d3fe3f",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Carnivorous]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr erhaltet keine Sättigung von Speisen, die kein Fleisch sind.",
+      "new_value": "Du erhältst keine Sättigung von Speisen, die kein Fleisch sind.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "48b07cdd3337c7e5",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Carnivorous]/description#1/p#5@#text",
+      "context": null,
+      "old_value": "Ihr könnt nicht mit pflanzlichen oder pilzlichen Zutaten kochen.",
+      "new_value": "Du kannst nicht mit pflanzlichen oder pilzlichen Zutaten kochen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9727acbc8c6532a4",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Carnivorous]/description#1/p#6@#text",
+      "context": null,
+      "old_value": "Ihr werdet nicht krank, wenn Ihr rohes Fleisch esst.",
+      "new_value": "Du wirst nicht krank, wenn du rohes Fleisch isst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b5b51751b25f336",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Carnivorous]/description#1/p#7@#text",
+      "context": null,
+      "old_value": "Ihr könnt rohes Fleisch essen, ohne ausgehungert zu sein.",
+      "new_value": "Du kannst rohes Fleisch essen, ohne ausgehungert zu sein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d40fd73ccb73bd57",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Cold-Blooded]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Eure Vitalität hängt von Eurer Temperatur ab; bei höheren Temperaturen seid Ihr lebendiger. Bei niedrigeren Temperaturen seid Ihr träger.",
+      "new_value": "Deine Vitalität hängt von deiner Temperatur ab; bei höheren Temperaturen bist du lebendiger. Bei niedrigeren Temperaturen bist du träger.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3771239eb22a338c",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Cold-Blooded]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Euer Grundwert für Schnelligkeit ist um 10 verringert.",
+      "new_value": "Dein Grundwert für Schnelligkeit ist um 10 verringert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0a4451091d3f518",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Cold-Blooded]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Eure Schnelligkeit steigt, wenn Eure Temperatur steigt, und sinkt, wenn Eure Temperatur sinkt.",
+      "new_value": "Deine Schnelligkeit steigt, wenn deine Temperatur steigt, und sinkt, wenn deine Temperatur sinkt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "553a124e3cb8a1de",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Electromagnetic Impulse]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr setzt unwillkürlich elektromagnetische Impulse frei, die Roboter und Artefakte in Eurer Umgebung deaktivieren.",
+      "new_value": "Du setzt unwillkürlich elektromagnetische Impulse frei, die Roboter und Artefakte in deiner Umgebung deaktivieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "70447c8439e3a613",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Electromagnetic Impulse]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Es besteht eine geringe Chance pro Runde im Kampf, dass Ihr einen elektromagnetischen Impuls mit einem Radius von 3 freisetzt, der Roboter und Artefakte (einschließlich der von Euch getragenen) für 11-20 Runden deaktiviert.",
+      "new_value": "Es besteht eine geringe Chance pro Runde im Kampf, dass du einen elektromagnetischen Impuls mit einem Radius von 3 freisetzt, der Roboter und Artefakte (einschließlich der von dir getragenen) für 11-20 Runden deaktiviert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1b44cce947e15e6d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Hooks for Feet]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr könnt keine Schuhe tragen.",
+      "new_value": "Du kannst keine Schuhe tragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a8141b5585f3ab88",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Irritable Genome]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Euer Genom ist reizbar und unberechenbar.",
+      "new_value": "Dein Genom ist reizbar und unberechenbar.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1ae8e9c0e843bb0c",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Irritable Genome]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Immer wenn Ihr einen Mutationspunkt ausgebt, wird der nächste Mutationspunkt, den Ihr erhaltet, zufällig ausgegeben.",
+      "new_value": "Immer wenn du einen Mutationspunkt ausgibst, wird der nächste Mutationspunkt, den du erhältst, zufällig ausgegeben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c59f3c4fe90b2d9d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Myopic]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr könnt nur bis zu einem Radius von 10 sehen.",
+      "new_value": "Du kannst nur bis zu einem Radius von 10 sehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f00807291986e67f",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Spontaneous Combustion]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr geratet spontan in Flammen.",
+      "new_value": "Du gerätst spontan in Flammen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a4dd033a2521965b",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Tonic Allergy]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Die Chance, dass Eure mutierte Physiologie negativ auf ein Tonikum reagiert, erhöht sich auf 33%.",
+      "new_value": "Die Chance, dass deine mutierte Physiologie negativ auf ein Tonikum reagiert, erhöht sich auf 33%.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b29ad9dd904ab5a8",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[PhysicalDefects]/mutation[Tonic Allergy]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Wenn Ihr auf diese Weise negativ auf eine Salbe oder ein Ubernostrum-Tonikum reagiert, wird der negative Reaktionseffekt zufällig aus den anderen Tonikum-Effekten gewählt. Ihr werdet trotzdem heilen.",
+      "new_value": "Wenn du auf diese Weise negativ auf eine Salbe oder ein Ubernostrum-Tonikum reagierst, wird der negative Reaktionseffekt zufällig aus den anderen Tonikum-Effekten gewählt. Du wirst trotzdem heilen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "670759957322bd71",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Beguiling]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr bezirzt eine nahe Kreatur, sodass sie Euch treu dient.",
+      "new_value": "Du bezirzt eine nahe Kreatur, sodass sie dir treu dient.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9e644352ff6ca9f3",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Burgeoning]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr lasst Pflanzen in einem nahen Bereich spontan wachsen und behindert damit Eure Feinde.",
+      "new_value": "Du lässt Pflanzen in einem nahen Bereich spontan wachsen und behinderst damit deine Feinde.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c91342220b2f2b0d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Clairvoyance]/description#1@#text",
+      "context": null,
+      "old_value": "\n        Kurzzeitig erhaltet Ihr Sicht auf einen nahen Bereich.\n      ",
+      "new_value": "\n        Kurzzeitig erhältst du Sicht auf einen nahen Bereich.\n      ",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae4c31cc76f46131",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Confusion]/description#1@#text",
+      "context": null,
+      "old_value": "\n        Ihr verwirrt Feinde in der Nähe.\n      ",
+      "new_value": "\n        Du verwirrst Feinde in der Nähe.\n      ",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f5768e5a8c719093",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Cryokinesis]/description#1@#text",
+      "context": null,
+      "old_value": "\n        Ihr kühlt mit Eurem Verstand ein Gebiet in der Nähe ab.\n      ",
+      "new_value": "\n        Du kühlst mit deinem Verstand ein Gebiet in der Nähe ab.\n      ",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb221900633839f0",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Disintegration]/description#1@#text",
+      "context": null,
+      "old_value": "\n        Ihr desintegriert Materie in der Nähe.\n      ",
+      "new_value": "\n        Du desintegrierst Materie in der Nähe.\n      ",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a0696585d4354e7f",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Domination]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr garottiert den Verstand einer angrenzenden Kreatur und kontrolliert ihre Handlungen, während Euer eigener Körper ruht.",
+      "new_value": "Du garottierst den Verstand einer angrenzenden Kreatur und kontrollierst ihre Handlungen, während dein eigener Körper ruht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "837838a6f37cc43d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Ego Projection]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "Erhöht ein körperliches Attribut um einen Betrag, der doppelt so hoch ist wie Euer Ego-Bonus",
+      "new_value": "Erhöht ein körperliches Attribut um einen Betrag, der doppelt so hoch ist wie dein Ego-Bonus",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "504634f929538266",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Force Bubble]/description#1@#text",
+      "context": null,
+      "old_value": "\n        Ihr erzeugt ein Kraftfeld um Euch herum.\n      ",
+      "new_value": "\n        Du erzeugst ein Kraftfeld um dich herum.\n      ",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b3db456b63c3fc0",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Force Bubble]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "Erzeugt ein 3x3 großes Kraftfeld, das auf Euch zentriert ist",
+      "new_value": "Erzeugt ein 3x3 großes Kraftfeld, das auf dich zentriert ist",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9573e2325acd53db",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Force Bubble]/leveltext#2/p#4@#text",
+      "context": null,
+      "old_value": "Ihr könnt Fernkampfwaffen durch das Kraftfeld abfeuern.",
+      "new_value": "Du kannst Fernkampfwaffen durch das Kraftfeld abfeuern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "43e70da3eadc120b",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Force Wall]/description#1@#text",
+      "context": null,
+      "old_value": "\n        Ihr erzeugt eine Kraftmauer, die Euch vor Euren Feinden schützt.\n      ",
+      "new_value": "\n        Du erzeugst eine Kraftmauer, die dich vor deinen Feinden schützt.\n      ",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e45f8cd1810a4b36",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Force Wall]/leveltext#2/p#4@#text",
+      "context": null,
+      "old_value": "Ihr könnt Fernkampfwaffen durch das Kraftfeld abfeuern.",
+      "new_value": "Du kannst Fernkampfwaffen durch das Kraftfeld abfeuern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec9626e211697e15",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Kindle]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr entfacht mit Eurem Verstand ein kleines Feuer.",
+      "new_value": "Du entfachst mit deinem Verstand ein kleines Feuer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1d942d1742fec87e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Light Manipulation]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr manipuliert Licht zu Eurem Vorteil.",
+      "new_value": "Du manipulierst Licht zu deinem Vorteil.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4b819bef7af0ddb",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Light Manipulation]/leveltext#2/p#2@#text",
+      "context": null,
+      "old_value": "Ihr könnt das Licht in einen Laserstrahl bündeln und dabei den Radius Eures Umgebungslichts vorübergehend um 1 verringern.",
+      "new_value": "Du kannst das Licht in einen Laserstrahl bündeln und dabei den Radius deines Umgebungslichts vorübergehend um 1 verringern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e1db93ed3b4d8e1e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Mass Mind]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr zapft den kollektiven Verstand an und stehlt Kraft von anderen Espern.",
+      "new_value": "Du zapfst den kollektiven Verstand an und stiehlst Kraft von anderen Espern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e5320af2f7faa53e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Mass Mind]/leveltext#2/switch[LevelMatch]/case#1/p#1@#text",
+      "context": null,
+      "old_value": "Geringe Chance pro Runde, dass ein anderer Esper Eure Kräfte stiehlt",
+      "new_value": "Geringe Chance pro Runde, dass ein anderer Esper deine Kräfte stiehlt",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a311aa3a3a43fd47",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Mass Mind]/leveltext#2/switch[LevelMatch]/default#2/p#1@#text",
+      "context": null,
+      "old_value": "{{rules|Verringerte Chance, dass ein anderer Esper Eure Kräfte stiehlt}}",
+      "new_value": "{{rules|Verringerte Chance, dass ein anderer Esper deine Kräfte stiehlt}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "796647bf29f1f93f",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Mental Mirror]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr reflektiert mentale Angriffe zurück auf Eure Angreifer.",
+      "new_value": "Du reflektierst mentale Angriffe zurück auf deine Angreifer.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5d3b778b0e67366c",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Mental Mirror]/leveltext#2/p#2@#text",
+      "context": null,
+      "old_value": "Wenn der Angriff daraufhin Eure MA nicht durchdringt, wird er auf Euren Angreifer zurückreflektiert.",
+      "new_value": "Wenn der Angriff daraufhin deine MA nicht durchdringt, wird er auf deinen Angreifer zurückreflektiert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e80a3afc4017fe26",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Precognition]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr blickt in Eure nahe Zukunft.",
+      "new_value": "Du blickst in deine nahe Zukunft.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "49c00ebd2fb155e4",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Precognition]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt diese Kraft aktivieren und später zu dem Zeitpunkt zurückkehren, an dem Ihr sie aktiviert habt.",
+      "new_value": "Du kannst diese Kraft aktivieren und später zu dem Zeitpunkt zurückkehren, an dem du sie aktiviert hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "325ee1a33afb0bbf",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Psychometry]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr lest die Geschichte von Artefakten, indem Ihr sie berührt, und erfahrt dabei, was sie bewirken und wie sie hergestellt wurden.",
+      "new_value": "Du liest die Geschichte von Artefakten, indem du sie berührst, und erfährst dabei, was sie bewirken und wie sie hergestellt wurden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80bdf77c98144e2e",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Psychometry]/leveltext#2/p#3@#text",
+      "context": null,
+      "old_value": "Ihr könnt Sicherheitstüren öffnen und manche gesicherten Geräte durch Berührung benutzen.",
+      "new_value": "Du kannst Sicherheitstüren öffnen und manche gesicherten Geräte durch Berührung benutzen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a185c943d34c4d31",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Pyrokinesis]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr erhitzt ein nahes Gebiet mit Eurem Geist.",
+      "new_value": "Du erhitzt ein nahes Gebiet mit deinem Geist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8b96039282bf6643",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Sense Psychic]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt andere mentale Mutanten durch den psychischen Äther spüren.",
+      "new_value": "Du kannst andere mentale Mutanten durch den psychischen Äther spüren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "57e46e66dae086ca",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Spacetime Vortex]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr zerreißt die Raumzeit und schleudert nahe Dinge durch einen Riss im kosmischen Gefüge.",
+      "new_value": "Du zerreißt die Raumzeit und schleuderst nahe Dinge durch einen Riss im kosmischen Gefüge.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dff2ded4b052828c",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Spacetime Vortex]/leveltext#2/p#4@#text",
+      "context": null,
+      "old_value": "Ihr könnt den Vortex betreten, um an einen zufälligen Ort in Qud teleportiert zu werden.",
+      "new_value": "Du kannst den Vortex betreten, um an einen zufälligen Ort in Qud teleportiert zu werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7e75027c032a50d2",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Stunning Force]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr entfesselt eine erschütternde Kraft in einem nahen Gebiet, die Feinde zurückwirft und betäubt.",
+      "new_value": "Du entfesselst eine erschütternde Kraft in einem nahen Gebiet, die Feinde zurückwirft und betäubt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "133551031541e564",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Sunder Mind]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr zerreißt den Geist eines Feindes und lasst ihn taumelnd vor Schmerz zurück.",
+      "new_value": "Du zerreißt den Geist eines Feindes und lässt ihn taumelnd vor Schmerz zurück.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "754c554d2b1c12a1",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Syphon Vim]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr verbindet Euch mit einer nahen organischen Kreatur und saugt ihre Lebenskraft aus.",
+      "new_value": "Du verbindest dich mit einer nahen organischen Kreatur und saugst ihre Lebenskraft aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f0a70126bd88edf5",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Telepathy]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr könnt mit anderen durch den psychischen Äther kommunizieren.",
+      "new_value": "Du kannst mit anderen durch den psychischen Äther kommunizieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "18be0538e06424ef",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Telepathy]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Unterhaltet Euch mit jedem in Sichtweite",
+      "new_value": "Unterhalte dich mit jedem in Sichtweite",
+      "note": "Imperativ 'Unterhaltet Euch' -> 'Unterhalte dich'",
+      "status": "accepted"
+    },
+    {
+      "uid": "1a96997c40e4fef7",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Telepathy]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Ihr benötigt deutlich weniger Zeit, um Begleitern Befehle zu erteilen",
+      "new_value": "Du benötigst deutlich weniger Zeit, um Begleitern Befehle zu erteilen",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ab44eae33d338d6d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Teleportation]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch an einen nahegelegenen Ort.",
+      "new_value": "Du teleportierst dich an einen nahegelegenen Ort.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "783b3d554f66f8a3",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Teleportation]/leveltext#2/p#1@#text",
+      "context": null,
+      "old_value": "Teleportiert Euch an einen zufälligen Ort innerhalb eines bestimmten Bereichs.",
+      "new_value": "Teleportiert dich an einen zufälligen Ort innerhalb eines bestimmten Bereichs.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "eae52759c5530a82",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Teleport Other]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.",
+      "new_value": "Du teleportierst eine angrenzende Kreatur an einen zufälligen nahegelegenen Ort.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "50201eae9c54416a",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Time Dilation]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr verzerrt die Zeit um Eure Person, um Eure Feinde zu verlangsamen.",
+      "new_value": "Du verzerrst die Zeit um deine Person, um deine Feinde zu verlangsamen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "72894eb36c352e5c",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[Mental]/mutation[Temporal Fugue]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr bewegt Euch schnell vor und zurück durch die Zeit und erstellt mehrere Kopien von Euch selbst.",
+      "new_value": "Du bewegst dich schnell vor und zurück durch die Zeit und erstellst mehrere Kopien von dir selbst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3e10d7a0337f9e7a",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Amnesia]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr vergesst Dinge und Orte.",
+      "new_value": "Du vergisst Dinge und Orte.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7379666485814997",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Amnesia]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Immer wenn Ihr zu einer Karte zurückkehrt, die Ihr zuvor besucht habt, besteht eine geringe Chance, dass Ihr Euch nicht mehr an das Layout erinnert.",
+      "new_value": "Immer wenn du zu einer Karte zurückkehrst, die du zuvor besucht hast, besteht eine geringe Chance, dass du dich nicht mehr an das Layout erinnerst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "29d8a1680fe20b42",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Blinking Tic]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr teleportiert Euch unkontrollierbar hin und her.",
+      "new_value": "Du teleportierst dich unkontrollierbar hin und her.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "93fe56a94d46dfc5",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Blinking Tic]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Es besteht eine geringe Chance pro Runde im Kampf, dass Ihr Euch zufällig zu einem nahen Ort teleportiert.",
+      "new_value": "Es besteht eine geringe Chance pro Runde im Kampf, dass du dich zufällig zu einem nahen Ort teleportierst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bf0bc018372a6dc5",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Dystechnia]/description#1/p#4@#text",
+      "context": null,
+      "old_value": "Ihr könnt Artefakte nicht für Euch identifizieren lassen, weil Ihr deren Erklärungen nicht versteht.",
+      "new_value": "Du kannst Artefakte nicht für dich identifizieren lassen, weil du deren Erklärungen nicht verstehst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "67faf0901cedc0c0",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Evil Twin]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Getrieben von einem undurchschaubaren Drang reist eine parallele Version von Euch selbst durch Raum und Zeit, um Euch zu vernichten.",
+      "new_value": "Getrieben von einem undurchschaubaren Drang reist eine parallele Version von dir selbst durch Raum und Zeit, um dich zu vernichten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b63bdd923b0f6e3d",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Evil Twin]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Jedes Mal, wenn Ihr Euch zu einem neuen Ort aufmacht, besteht eine geringe Chance, dass Euer böser Zwilling Euch dorthin verfolgt hat und versucht, Euch zu töten.",
+      "new_value": "Jedes Mal, wenn du dich zu einem neuen Ort aufmachst, besteht eine geringe Chance, dass dein böser Zwilling dich dorthin verfolgt hat und versucht, dich zu töten.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4058bcdffc2fc186",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Narcolepsy]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr schlaft von Zeit zu Zeit unfreiwillig ein.",
+      "new_value": "Du schläfst von Zeit zu Zeit unfreiwillig ein.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8c394712f882e106",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Psionic Migraines]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Ihr leidet unter starken psionischen Migränen, die Euren Kopf extrem empfindlich machen.",
+      "new_value": "Du leidest unter starken psionischen Migränen, die deinen Kopf extrem empfindlich machen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "243e4be5e5b76185",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Psionic Migraines]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Ihr könnt keine Hüte oder Helme tragen.",
+      "new_value": "Du kannst keine Hüte oder Helme tragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cac5b58fde7fe363",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Quantum Jitters]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Eure willentlichen Handlungen verbeulen manchmal die Raumzeit.",
+      "new_value": "Deine willentlichen Handlungen verbeulen manchmal die Raumzeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "75d2b1f0447f87d1",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Quantum Jitters]/description#1/p#3@#text",
+      "context": null,
+      "old_value": "Immer wenn Ihr eine aktivierte Fähigkeit einsetzt, besteht eine geringe Chance, dass Eure Konzentration abgleitet und Ihr die Raumzeit in der näheren Umgebung verbeult, wodurch 1-2 Raumzeit-Vortices entstehen. Diese Chance steigt, je länger Ihr keine aktivierte Fähigkeit einsetzt.",
+      "new_value": "Immer wenn du eine aktivierte Fähigkeit einsetzt, besteht eine geringe Chance, dass deine Konzentration abgleitet und du die Raumzeit in der näheren Umgebung verbeulst, wodurch 1-2 Raumzeit-Vortices entstehen. Diese Chance steigt, je länger du keine aktivierte Fähigkeit einsetzt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a44b798cabef92d3",
+      "file": "Mutations.de.xml",
+      "key": "/mutations#0/category[MentalDefects]/mutation[Socially Repugnant]/description#1/p#1@#text",
+      "context": null,
+      "old_value": "Andere finden es schwierig, Euch in gesellschaftlichen Situationen zu ertragen.",
+      "new_value": "Andere finden es schwierig, dich in gesellschaftlichen Situationen zu ertragen.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

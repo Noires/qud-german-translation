@@ -5,12 +5,12 @@
     <mutation Name="Dark Vision" DisplayName="Nachtsicht" BearerDescription="der Dunkelseher">
       <description></description>
       <leveltext>
-                    <p>Ihr seht im Dunkeln.</p>
+                    <p>Du siehst im Dunkeln.</p>
                 </leveltext>
     </mutation>
     <mutation Name="Heightened Smell" DisplayName="Erhöhter Geruchssinn" BearerDescription="jene mit verbessertem Geruchssinn">
       <description>
-                    <p>Ihr besitzt außergewöhnlich scharfen Geruchssinn.</p>
+                    <p>Du besitzt außergewöhnlich scharfen Geruchssinn.</p>
                 </description>
       <leveltext>
                     <p>Sie erkennen das Vorhandensein von Kreaturen in einem Bereich von typischerweise <stat Name="Radius" Unit="Platz" /> abhängig vom Gelände</p>
@@ -23,7 +23,7 @@
     <mutation Name="Gills" DisplayName="Kiemen" BearerDescription="jene mit Kiemen" />
     <mutation Name="Infiltrate" DisplayName="Infiltrieren" BearerDescription="jene, die eindringen">
       <description>
-                    <p>Ihr teleportiert und nehmt Kreaturen mit Euch.</p>
+                    <p>Du teleportierst und nimmst Kreaturen mit dir.</p>
                 </description>
       <leveltext>
                     <p>Ihr teleportiert Euch an einen nahegelegenen Ort und nehmt alle innerhalb des Radius <stat Name="TeleportRadius" /> mit Euch.</p>
@@ -32,7 +32,7 @@
     </mutation>
     <mutation Name="Heat Absorption" DisplayName="Wärmeaufnahme" BearerDescription="jene, die Wärme absorbieren">
       <description>
-                    <p>Ihr regeneriert durch Wärmeaufnahme.</p>
+                    <p>Du regenerierst durch Wärmeaufnahme.</p>
                 </description>
       <leveltext>
                     <p>Immun gegen Wärmeschaden</p>
@@ -173,13 +173,13 @@
     <mutation Name="Quantum Fugue" DisplayName="Quantenfuge" BearerDescription="Quantenfüchtlinge" />
     <mutation Name="Reflect Shame" DisplayName="Schande zurückwerfen" BearerDescription="jene, die Schande reflektieren">
       <description>
-                    <p>Ihr spiegelt das schmachvolle Antlitz nahegelegener Kreaturen wider.</p>
+                    <p>Du spiegelst das schmachvolle Antlitz nahegelegener Kreaturen wider.</p>
                 </description>
       <leveltext></leveltext>
     </mutation>
     <mutation Name="Repelling Force" DisplayName="Abstoßende Kraft" BearerDescription="die Abstoßung">
       <description>
-                    <p>Ihr beschwört eine abstoßende Kraft im umgebenden Bereich und wirft Feinde zurück.</p>
+                    <p>Du beschwörst eine abstoßende Kraft im umgebenden Bereich und wirft Feinde zurück.</p>
                 </description>
       <leveltext>
                     <statline Name="Area" DisplayName="Bereich" />

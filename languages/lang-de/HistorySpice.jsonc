@@ -1077,7 +1077,7 @@
         "items=": [
           "Horoskoplesung"
         ],
-        "studying": "mapping stars to the shapes of",
+        "studying": "Sterne den Formen zuordnend von",
         "foundingVerbTombInscription=": [
           "=var= verwenden, um zu erahnen, wie wir =activity= angehen könnten"
         ]
@@ -1095,7 +1095,7 @@
         "items=": [
           "Sternwerkzeug"
         ],
-        "studying": "mapping stars to the shapes of",
+        "studying": "Sterne den Formen zuordnend von",
         "foundingVerbTombInscription=": [
           "=var= verwenden, um herauszufinden, wie wir =activity= vom Weltraum aus angehen könnten"
         ]
@@ -1715,7 +1715,7 @@
         "=f1= lobte ein hochentropisches Wesen und beleidigte damit =f2=."
       ],
       "leadIns=": [
-        "Habt Ihr gehört?",
+        "Hast du gehört?",
         "Ich habe gehört, dass",
         "Jemand erzählte mir, dass",
         "Gerüchten zufolge",
@@ -3574,8 +3574,8 @@
       ],
       "reward=": [
         "Belohnung",
-        "Euch bezahlen für",
-        "Euch entschädigen für"
+        "dich bezahlen für",
+        "dich entschädigen für"
       ],
       "thank=": [
         "danken",
@@ -3593,22 +3593,22 @@
         "neulich"
       ],
       "desire=": [
-        "Verlangen",
-        "Verlangen",
-        "brauchen",
-        "begehren",
-        "erfordern",
-        "sich sehnen nach",
         "brauche",
-        "Verwendung haben für",
+        "brauche dringend",
+        "begehre",
+        "verlange nach",
+        "sehne mich nach",
+        "benötige",
+        "brauche",
+        "könnte gebrauchen",
         "muss haben",
         "muss sich beschaffen"
       ],
       "wouldLikeTo=": [
         "würde gerne",
         "würde nur allzu gerne",
-        "brauchen zu",
-        "muss"
+        "müsste",
+        "möchte"
       ],
       "have=": [
         "haben",
@@ -3631,20 +3631,20 @@
         "technologisch"
       ],
       "haveYouHeardOf=": [
-        "habt Ihr schon gehört von",
-        "wisst Ihr um",
-        "seid Ihr vertraut mit",
-        "seid Ihr bereits bekannt mit"
+        "hast du schon gehört von",
+        "weißt du um",
+        "bist du vertraut mit",
+        "bist du bereits bekannt mit"
       ],
       "ifYouWouldDoTheSame=": [
-        "wenn Ihr dasselbe tätet",
-        "wenn Ihr es auch tätet",
-        "wenn Ihr es selbst tätet"
+        "wenn du dasselbe tätest",
+        "wenn du es auch tätest",
+        "wenn du es selbst tätest"
       ],
       "willYou=": [
-        "wollt Ihr",
-        "würdet Ihr",
-        "was sagt Ihr"
+        "willst du",
+        "würdest du",
+        "was sagst du"
       ],
       "holdDear=": [
         "in Ehren halten",
@@ -3678,7 +3678,7 @@
       "aboveAllElse=": [
         "über alles andere",
         "komme, was wolle",
-        "solange Ihr respektvoll seid",
+        "solange du respektvoll bist",
         "unserem Brauch entsprechend"
       ],
       "letItAlwaysBeSo=": [
@@ -3984,7 +3984,7 @@
       "wie =spice:nouns.!random= für =spice:personNouns.!random=, so =sacredThing= für uns",
       "=sacredThing= wohnt im =spice:commonPhrases.hearth.!random=",
       "bittet den =spice:personNouns.!random= nicht, =spice:commonPhrases.sanctity.!random= zu lehren",
-      "Behaltet Euer =spice:nouns.!random= im Auge",
+      "Behalte dein =spice:nouns.!random= im Auge",
       "besser =spice:adjectives.!random= zu sein als =spice:adjectives.!random= zu sein",
       "Findet =spice:commonPhrases.sanctity.!random= in jedem =spice:nouns.!random="
     ],
@@ -4017,11 +4017,11 @@
     ],
     "lovesick=": [
       "=text|removeLastPeriod=, aber was hat das gebracht?",
-      "=text= Aber =lover.refname:withDefiniteArticle:long:withTitles= liebte Euch nicht, also was spielte das schon für eine Rolle?",
-      "Während Euer Herz verwelkte, =text|initLower=",
-      "=text= Ihr tatet es für =lover.refname:withDefiniteArticle:long:withTitles=. Ihr tatet alles für =lover.refname:withDefiniteArticle=.",
+      "=text= Aber =lover.refname:withDefiniteArticle:long:withTitles= liebte dich nicht, also was spielte das schon für eine Rolle?",
+      "Während dein Herz verwelkte, =text|initLower=",
+      "=text= Du tatest es für =lover.refname:withDefiniteArticle:long:withTitles=. Du tatest alles für =lover.refname:withDefiniteArticle=.",
       "=text.stutterize:{{emote|*sob*}}=",
-      "=text|removeLastPeriod=, und die ganze Zeit weintet Ihr."
+      "=text|removeLastPeriod=, und die ganze Zeit weintest du."
     ],
     "textFilters": {
       "angry=": [
@@ -4891,11 +4891,11 @@
           "=spice:commonPhrases.adventurer.!random=, willkommen im Dorf =spice.entity:name="
         ],
         "hereYoullFind=": [
-          "Hier findet Ihr Schatten und Proviant, sowie weitere Vorräte, die Euch helfen, die Rosthöhlen besser nach Schätzen zu durchsuchen",
+          "Hier findest du Schatten und Proviant, sowie weitere Vorräte, die dir helfen, die Rosthöhlen besser nach Schätzen zu durchsuchen",
           "wir sind ein =spice:commonPhrases.clan.!random=, der =spice.entity:sacredThing= =spice:commonPhrases.love.!random= und =spice.entity:profaneThing= =spice:commonPhrases.abhor.!random="
         ],
         "youMayDrink=": [
-          "=spice:instancesOf.aboveAllElse.!random=, Ihr dürft von unserem Süßwasser trinken und Euren Durst stillen"
+          "=spice:instancesOf.aboveAllElse.!random=, du darfst von unserem Süßwasser trinken und deinen Durst stillen"
         ]
       },
       "warden": {
@@ -4909,10 +4909,10 @@
           "meine kriegerischen Fähigkeiten einsetzen und das Dorf beschützen"
         ],
         "introDialog=": [
-          "Nehmt Euch in Acht, =spice:commonPhrases.adventurer.!random=.",
+          "Nimm dich in Acht, =spice:commonPhrases.adventurer.!random=.",
           "Lebt und trinkt, =spice:commonPhrases.adventurer.!random=.",
-          "Haltet Euch aus Schwierigkeiten heraus, =spice:commonPhrases.adventurer.!random=.",
-          "Ich beobachte Euch, =spice:commonPhrases.adventurer.!random=."
+          "Halte dich aus Schwierigkeiten heraus, =spice:commonPhrases.adventurer.!random=.",
+          "Ich beobachte dich, =spice:commonPhrases.adventurer.!random=."
         ]
       },
       "merchant": {
@@ -4993,14 +4993,14 @@
       },
       "intro=": [
         "Ich suche nach Arbeit.",
-        "Habt Ihr Arbeit, die erledigt werden muss?",
-        "Meine Dienste stehen zur Verfügung, wenn Ihr Arbeit anzubieten habt.",
+        "Hast du Arbeit, die erledigt werden muss?",
+        "Meine Dienste stehen zur Verfügung, wenn du Arbeit anzubieten hast.",
         "Gibt es hier Arbeit?"
       ],
       "thanks=": [
         "unser Dank, =spice:commonPhrases.adventurer.!random=",
-        "danke für Euren Dienst, =spice:commonPhrases.adventurer.!random=",
-        "=spice:commonPhrases.adventurer.!random=, Ihr habt unseren Dank"
+        "danke für deinen Dienst, =spice:commonPhrases.adventurer.!random=",
+        "=spice:commonPhrases.adventurer.!random=, du hast unseren Dank"
       ],
       "FindaSpecificItem": {
         "sacred": {
@@ -5013,7 +5013,7 @@
           ],
           "weUsedTo=": [
             "meine =spice:commonPhrases.kin.!random= =^:spentOurDays.!random=",
-            "you know, once my =spice:commonPhrases.kin.!random= =^:spentOurDays.!random=",
+            "weißt du, meine =spice:commonPhrases.kin.!random= =^:spentOurDays.!random=",
             "es gab eine Zeit, in der meine =spice:commonPhrases.kin.!random= =^:spentOurDays.!random="
           ],
           "heyWeUsedTo=": [
@@ -5040,9 +5040,9 @@
             "=spice:instancesOf.fate.!random= hat uns von unserem =item.name= getrennt"
           ],
           "willingToRecover=": [
-            "wärt Ihr bereit, =item.them= für uns zu bergen?",
-            "würdet Ihr =item.them= aufspüren und =item.them= uns zurückbringen?",
-            "wir brauchen jemanden, der =item.them= zurückholt, =spice:commonPhrases.greetingFriend.!random=. Wollt Ihr es tun?"
+            "wärst du bereit, =item.them= für uns zu bergen?",
+            "würdest du =item.them= aufspüren und =item.them= uns zurückbringen?",
+            "wir brauchen jemanden, der =item.them= zurückholt, =spice:commonPhrases.greetingFriend.!random=. Willst du es tun?"
           ],
           "takenTo=": [
             "meine =spice:commonPhrases.kin.!random= sagen mir, =item.them= =item.verb:have= nach =deliveryTarget= gebracht worden",
@@ -5050,19 +5050,19 @@
             "Ich höre, =item.them= =item.verb:have= nach =deliveryTarget= gebracht worden"
           ],
           "rewardYou=": [
-            "wir werden Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random="
+            "wir werden deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random="
           ]
         },
         "personal": {
           "intro=": [
             "=spice:instancesOf.comeClose.!random=",
-            "=spice:instancesOf.thank.!random= die =spice:adjectives.!random= =spice:nouns.!random=, dass Ihr hier seid, =spice:commonPhrases.greetingFriend.!random=."
+            "=spice:instancesOf.thank.!random= die =spice:adjectives.!random= =spice:nouns.!random=, dass du hier bist, =spice:commonPhrases.greetingFriend.!random=."
           ],
           "iHaveATask=": [
-            "Ich habe eine =spice:commonPhrases.task.!random= für Euch",
+            "Ich habe eine =spice:commonPhrases.task.!random= für dich",
             "Ich habe eine =spice:commonPhrases.task.!random=, die erledigt werden muss",
-            "Ich könnte Euch für eine =spice:commonPhrases.task.!random= gebrauchen",
-            "es gibt eine =spice:commonPhrases.task.!random=, die Ihr für mich erledigen könntet"
+            "Ich könnte dich für eine =spice:commonPhrases.task.!random= gebrauchen",
+            "es gibt eine =spice:commonPhrases.task.!random=, die du für mich erledigen könntest"
           ],
           "rumor=": [
             "=spice:instancesOf.recently.!random= =^:someoneLearned.!random=",
@@ -5087,19 +5087,19 @@
             "Ich habe meinen =item.name= bei =deliveryTarget|colorSafe= verloren"
           ],
           "loveToHave=": [
-            "=subject.fragment:NeedsItemFor=, I =spice:instancesOf.desire.!random= =item.them=",
-            "=subject.fragment:NeedsItemFor=, I =spice:instancesOf.wouldLikeTo.!random= =spice:instancesOf.have.!random= =item.them="
+            "=subject.fragment:NeedsItemFor=, ich =spice:instancesOf.desire.!random= =item.them=",
+            "=subject.fragment:NeedsItemFor=, ich =spice:instancesOf.wouldLikeTo.!random= =spice:instancesOf.have.!random= =item.them="
           ],
           "ifYouRetrieveIt=": [
-            "wenn Ihr =item.them= für mich =spice:commonPhrases.retrieve.!random=, werde ich Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
-            "=spice:commonPhrases.retrieve.!random= =item.them= und ich werde =spice:instancesOf.reward.!random= Eure =spice:commonPhrases.services.!random=",
-            "Ich bin bereit, Eure =spice:commonPhrases.services.!random= zu =spice:instancesOf.reward.!random=, wenn Ihr =item.them= für mich =spice:commonPhrases.retrieve.!random="
+            "wenn du =item.them= für mich =spice:commonPhrases.retrieve.!random=, werde ich deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random=",
+            "=spice:commonPhrases.retrieve.!random= =item.them= und ich werde =spice:instancesOf.reward.!random= deine =spice:commonPhrases.services.!random=",
+            "Ich bin bereit, deine =spice:commonPhrases.services.!random= zu =spice:instancesOf.reward.!random=, wenn du =item.them= für mich =spice:commonPhrases.retrieve.!random="
           ],
           "willYouDoIt=": [
-            "wollt Ihr es tun?",
-            "wollt Ihr?",
-            "was sagt Ihr?",
-            "was denkt Ihr?"
+            "willst du es tun?",
+            "willst du?",
+            "was sagst du?",
+            "was denkst du?"
           ]
         }
       },
@@ -5115,14 +5115,14 @@
             "während =sample.fragment:GuestActivity:breaking bread=, sprachen sie von einem =spice:commonPhrases.interesting.!random= Ort, =siteName="
           ],
           "wouldYouFindIt=": [
-            "wollt Ihr es für uns finden?",
-            "wärt Ihr bereit, es zu finden?"
+            "willst du es für uns finden?",
+            "wärst du bereit, es zu finden?"
           ],
           "greatBoon=": [
             "es wäre ein großartiges =spice:commonPhrases.gift.!random= für die =spice:instancesOf.villageActivityAdj.!random= Aussichten unseres Dorfes"
           ],
           "rewardYou=": [
-            "wir werden Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random="
+            "wir werden deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random="
           ]
         },
         "records": {
@@ -5133,7 +5133,7 @@
             "welche =spice:commonPhrases.treasures.!random= mag dieser Ort =spice:commonPhrases.hold.!random="
           ],
           "ifYouFindIt=": [
-            "wenn Ihr es für uns =spice:commonPhrases.find.!random=, =spice:quests.FindaSpecificItem.sacred.rewardYou.!random="
+            "wenn du es für uns =spice:commonPhrases.find.!random=, =spice:quests.FindaSpecificItem.sacred.rewardYou.!random="
           ],
           "poringOver=": [
             "das Studieren unserer Aufzeichnungen",
@@ -5158,7 +5158,7 @@
           },
           "path": {
             "intro=": [
-              "wir hören, Ihr könnt es finden, indem Ihr =path= folgt, der durch =landmark.text= =direction.expandedDirection= verläuft"
+              "wir hören, du kannst es finden, indem du =path= folgst, der durch =landmark.text= =direction.expandedDirection= verläuft"
             ]
           }
         }
@@ -5182,14 +5182,14 @@
             "es wäre ein =spice:commonPhrases.blessing.!random= =spice:instancesOf.ifYouWouldDoTheSame.!random="
           ],
           "honorUsDesecrate=": [
-            "es würde uns =spice:commonPhrases.greatly.!random= ehren, wenn Ihr =verb= =item.them=",
-            "es wäre ein =spice:commonPhrases.blessing.!random=, wenn Ihr =verb= =item.them="
+            "es würde uns =spice:commonPhrases.greatly.!random= ehren, wenn du =verb= =item.them=",
+            "es wäre ein =spice:commonPhrases.blessing.!random=, wenn du =verb= =item.them="
           ],
           "willYou=": [
             "=spice:instancesOf.willYou.!random="
           ],
           "rewardYou=": [
-            "wir werden Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random="
+            "wir werden deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random="
           ]
         },
         "strangeplan": {
@@ -5214,7 +5214,7 @@
             "Ich brauche jemanden, der nach =deliveryTarget= geht und dort =verb= =item.the.name|strip="
           ],
           "IRewardYou=": [
-            "Ich werde Eure =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random="
+            "Ich werde deine =spice:commonPhrases.services.!random= =spice:instancesOf.reward.!random="
           ],
           "byThe_TellNoOne=": [
             "bei =sacredThing=, =^:tellNoOne.!random=",
@@ -5240,13 +5240,13 @@
     },
     "cooking": {
       "ate=": [
-        "Ihr esst die Mahlzeit."
+        "Du isst die Mahlzeit."
       ],
       "cookTemplate=": [
-        "Ihr werft =ingredients.andList= in einen Topf und rührt um.",
-        "Ihr sammelt, was immer Ihr für Eure Mahlzeit finden könnt: =ingredients.andList=.\n\nIhr werft sie in einen Topf und rührt um.",
-        "Beim Durchsuchen Eurer Umgebung findet Ihr diese Zutaten: =ingredients.andList=.\n\nIhr werft sie in einen Topf und rührt um.",
-        "Ihr sammelt einige Zutaten: =ingredients.andList=.\n\nIhr werft sie in einen Topf und rührt um."
+        "Du wirfst =ingredients.andList= in einen Topf und rührst um.",
+        "Du sammelst, was immer du für deine Mahlzeit finden kannst: =ingredients.andList=.\n\nDu wirfst sie in einen Topf und rührst um.",
+        "Beim Durchsuchen deiner Umgebung findest du diese Zutaten: =ingredients.andList=.\n\nDu wirfst sie in einen Topf und rührst um.",
+        "Du sammelst einige Zutaten: =ingredients.andList=.\n\nDu wirfst sie in einen Topf und rührst um."
       ],
       "ingredient=": [
         "=^:pinchOf.!random= =^:terrain.$terrain.someIngredients.!random=",
@@ -8975,7 +8975,7 @@
           "Schlangen in einem ihrer Lager freigelassen habt",
           "einen berühmten Dichter verunglimpft habt",
           "ihr Süßwasser vergiftet habt",
-          "Euch als einer ihrer Anführer ausgegeben habt",
+          "dich als einer ihrer Anführer ausgegeben hast",
           "einen Überfallstrupp gegen eines ihrer Lager angeführt habt",
           "ihnen eine verdorbene Mahlzeit gekocht habt",
           "anzügliche Witze erzählt habt",
@@ -8987,7 +8987,7 @@
           "ihren Lieblingsroboter umprogrammiert habt",
           "das Fest von Ut yara Ux ruiniert habt",
           "einen ihrer Anführer im Bildnis verbrannt habt",
-          "einem der Ihren ein ungünstiges Horoskop gelegt habt",
+          "einem der Ihren ein ungünstiges Horoskop gelegt hast",
           "die Herkunft des Mondes hinterfragt habt",
           "ein hochentropisches Wesen verehrt habt"
         ],
@@ -9004,7 +9004,7 @@
           "ein bewegendes Gedicht verfasst habt",
           "anzügliche Witze erzählt habt",
           "ihnen eine herrliche Mahlzeit gekocht habt",
-          "einem der Ihren ein günstiges Horoskop gelegt habt",
+          "einem der Ihren ein günstiges Horoskop gelegt hast",
           "eines ihrer Theaterstücke originalgetreu adaptiert habt",
           "einen ihrer Feinde mit Asphalt übergossen habt",
           "die Bedeutung der Canticles Chromaic erklärt habt",

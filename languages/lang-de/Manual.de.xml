@@ -2,48 +2,48 @@
 
 <help Lang="de" Encoding="utf-8">
   <topic name="Quickstart" DisplayName="Schnellstart">
-Dies sind neun Dinge, die Ihr tun solltet, wenn Ihr Euer Spiel startet.
-Nachher, nutzt den Rest dieser Hilfe als Referenzhandbuch.
+Dies sind neun Dinge, die du tun solltest, wenn du dein Spiel startest.
+Nachher, nutze den Rest dieser Hilfe als Referenzhandbuch.
 
 {{W|1. Herumlaufen}}
 
-{{?KB|Bewegt Euch durch Drücken von Richtungstasten (~CmdMoveN, ~CmdMoveE, usw.) oder durch Klicken auf die Karte.}}{{?Gamepad|Gebt Richtung mit ~UI:Navigate an und drückt ~Take A Step, um Euch zu bewegen oder haltet ~Take A Step, um kontinuierlich zu bewegen.}}{{?Gamepad|
-Ihr könnt auch die Karte mit ~CmdAutoExplore auto-erkunden.}}
+{{?KB|Bewege dich durch Drücken von Richtungstasten (~CmdMoveN, ~CmdMoveE, usw.) oder durch Klicken auf die Karte.}}{{?Gamepad|Gib Richtung mit ~UI:Navigate an und drück ~Take A Step, um dich zu bewegen oder halte ~Take A Step, um kontinuierlich zu bewegen.}}{{?Gamepad|
+Du kannst auch die Karte mit ~CmdAutoExplore auto-erkunden.}}
 
 {{W|2. Mit Dingen interagieren}}
 
-Wandelt neben einen NPC oder ein anderes Objekt und drückt ~CmdUse.
+Wandle neben einen NPC oder ein anderes Objekt und drück ~CmdUse.
 
 {{W|3. Dinge ansehen}}
 
-{{?KB|Drückt }}~CmdLook, um in den Look-Modus zu gehen und dann den Cursor um die Karte zu bewegen.{{?KB|
+{{?KB|Drück }}~CmdLook, um in den Look-Modus zu gehen und dann den Cursor um die Karte zu bewegen.{{?KB|
 Oder {{hotkey|Rechtsklick}} zum schnellen Blick.}}
 
-{{W|4. Eure Fähigkeiten nutzen}}
+{{W|4. Deine Fähigkeiten nutzen}}
 
-{{?KB|Klickt auf einen Button in der Fähigkeitsleiste am unteren Rand Eures Bildschirms oder drückt seinen Hotkey.}}{{?Gamepad|Navigiert die Hotbar am unteren Rand Eures Bildschirms mit ~UI:Navigate/left und ~UI:Navigate/right
-und drückt dann ~Use Ability, um eine Fähigkeit zu nutzen.}}
+{{?KB|Klick auf einen Button in der Fähigkeitsleiste am unteren Rand deines Bildschirms oder drück seinen Hotkey.}}{{?Gamepad|Navigiere die Hotbar am unteren Rand deines Bildschirms mit ~UI:Navigate/left und ~UI:Navigate/right
+und drück dann ~Use Ability, um eine Fähigkeit zu nutzen.}}
 
-{{W|5. Euer Charakterblatt ansehen}}
+{{W|5. Dein Charakterblatt ansehen}}
 
-{{?KB|Drückt ~CmdCharacter, um Eure Kerncharakterinformationen anzusehen.
-Drückt ~CmdEquipment, um Eure Ausrüstung anzusehen.
-Drückt ~CmdInventory, um Euer Inventar anzusehen.
-Drückt ~CmdJournal, um Euer Tagebuch anzusehen.
-Drückt ~CmdQuests, um Eure Quests anzusehen.
-Drückt ~CmdSkillsPowers, um Eure Fähigkeiten anzusehen.
-Drückt ~CmdFactions, um Eure Fraktionsbeziehungen anzusehen.
+{{?KB|Drück ~CmdCharacter, um deine Kerncharakterinformationen anzusehen.
+Drück ~CmdEquipment, um deine Ausrüstung anzusehen.
+Drück ~CmdInventory, um dein Inventar anzusehen.
+Drück ~CmdJournal, um dein Tagebuch anzusehen.
+Drück ~CmdQuests, um deine Quests anzusehen.
+Drück ~CmdSkillsPowers, um deine Fähigkeiten anzusehen.
+Drück ~CmdFactions, um deine Fraktionsbeziehungen anzusehen.
 
-Ihr könnt durch diese Seiten mit ~Page Left und ~Page Right blättern.}}{{?Gamepad|Drückt ~CmdCharacter, um Eure Kerncharakterinformationen anzusehen.
-Navigiert zu anderen Seiten in Eurem Charakterblatt mit ~Page Left und ~Page Right.}}
+Du kannst durch diese Seiten mit ~Page Left und ~Page Right blättern.}}{{?Gamepad|Drück ~CmdCharacter, um deine Kerncharakterinformationen anzusehen.
+Navigiere zu anderen Seiten in deinem Charakterblatt mit ~Page Left und ~Page Right.}}
 
 {{W|6. Eine Liste von Orten von Interesse aufbringen}}
 
-Drückt ~CmdMoveToPointOfInterest.
+Drück ~CmdMoveToPointOfInterest.
 
 {{W|7. Zusätzliche Informationen über Objekte auf der Karte aufbringen}}
 
-Drückt ~Highlight für ein Overlay mit zusätzlichen Informationen wie Kreaturen-Feindseligkeiten 
+Drück ~Highlight für ein Overlay mit zusätzlichen Informationen wie Kreaturen-Feindseligkeiten 
 (rot = feindselig, gelb = neutral, grün = freundlich) und eine klare Ansicht von 
 interessanten Gegenständen.
 
@@ -53,79 +53,79 @@ Einfach vom Bildschirm gehen, oder gehe zur Weltkarte mit ~CmdMoveU.
 
 {{W|9. Einen Feind angreifen}}
 
-Um einen Grundangriff durchzuführen, lauft einfach in eine feindselige Kreatur hinein.
-Oder Ihr könnt eine Angriffsangriff-Fähigkeit nutzen.
+Um einen Grundangriff durchzuführen, lauf einfach in eine feindselige Kreatur hinein.
+Oder du kannst eine Angriffsangriff-Fähigkeit nutzen.
 </topic>
   <topic name="Attributes" DisplayName="Attribute">
 [[{{C|Strength}}]]
-Euer Stärkenwert bestimmt, wie viel Nahkampf-Schaden Ihr (durch Verbesserung Eures Rüstungs-Durchdringung), Eure Fähigkeit, erzwungene Bewegung zu widerstehen, und Eure Tragekapazität tut.
+Dein Stärkenwert bestimmt, wie viel Nahkampf-Schaden du (durch Verbesserung deines Rüstungs-Durchdringung), deine Fähigkeit, erzwungene Bewegung zu widerstehen, und deine Tragekapazität tust.
 
 [[{{C|Agility}}]]
-Euer Agilität-Wert bestimmt Eure Genauigkeit mit Nahkampf- und Fernkampf-Waffen und Eure Fähigkeit, Angriffen auszuweichen.
+Dein Agilität-Wert bestimmt deine Genauigkeit mit Nahkampf- und Fernkampf-Waffen und deine Fähigkeit, Angriffen auszuweichen.
 
 [[{{C|Toughness}}]]
-Euer Robustheit-Wert bestimmt Eure Anzahl von Lebenspunkten, Eure Lebenspunkt-Regenerations-Rate und Eure Fähigkeit, Gift und Krankheit zu widerstehen.
+Dein Robustheit-Wert bestimmt deine Anzahl von Lebenspunkten, deine Lebenspunkt-Regenerations-Rate und deine Fähigkeit, Gift und Krankheit zu widerstehen.
 
 [[{{C|Intelligence}}]]
-Euer Intelligenz-Wert bestimmt Eure Anzahl von Fähigkeitspunkten und Eure Fähigkeit, Artefakte zu untersuchen.
+Dein Intelligenz-Wert bestimmt deine Anzahl von Fähigkeitspunkten und deine Fähigkeit, Artefakte zu untersuchen.
 
 [[{{C|Willpower}}]]
-Euer Willpower-Wert modifiziert die Abklingzeiten Eurer aktivierten Fähigkeiten, bestimmt Eure Fähigkeit, mentale Angriffe zu widerstehen, und modifiziert Eure Lebenspunkt-Regenerations-Rate.
+Dein Willpower-Wert modifiziert die Abklingzeiten deiner aktivierten Fähigkeiten, bestimmt deine Fähigkeit, mentale Angriffe zu widerstehen, und modifiziert deine Lebenspunkt-Regenerations-Rate.
 
 [[{{C|Ego}}]]
-Euer Ego-Wert bestimmt die Wirksamkeit Eurer mentalen Mutationen, Eure Fähigkeit, mit Kaufleuten zu handeln, und Eure Fähigkeit, die Willen anderer lebender Kreaturen zu dominieren.
+Dein Ego-Wert bestimmt die Wirksamkeit deiner mentalen Mutationen, deine Fähigkeit, mit Kaufleuten zu handeln, und deine Fähigkeit, die Willen anderer lebender Kreaturen zu dominieren.
 
 [[{{C|Armor Value and Dodge Value (AV / DV)}}]]
-Euer Rüstungs-Wert (AV) ist eine Messung, wie gut Ihr gegen physische Angriffe geschützt seid, die Euch treffen. Je höher Euer Score, desto weniger wahrscheinlich wird der Angriff eines Gegners schweren Schaden auf Euch ausrichten. Die meisten Charaktere beginnen mit einem Basis-AV-Wert von 0.
+Dein Rüstungs-Wert (AV) ist eine Messung, wie gut du gegen physische Angriffe geschützt bist, die dich treffen. Je höher dein Score, desto weniger wahrscheinlich wird der Angriff eines Gegners schweren Schaden auf dich ausrichten. Die meisten Charaktere beginnen mit einem Basis-AV-Wert von 0.
 
-Euer Ausweichwert (DV) ist eine Messung, wie wahrscheinlich es ist, dass Ihr von physischen Angriffen getroffen werdet. Je höher Euer Score, desto weniger wahrscheinlich wird der Angriff eines Gegners Euch treffen. Euer DV wird durch Euren Agilität-Modifikator modifiziert. Die meisten Charaktere beginnen mit einem Basis-DV von 6.
+Dein Ausweichwert (DV) ist eine Messung, wie wahrscheinlich es ist, dass du von physischen Angriffen getroffen wirst. Je höher dein Score, desto weniger wahrscheinlich wird der Angriff eines Gegners dich treffen. Dein DV wird durch deinen Agilität-Modifikator modifiziert. Die meisten Charaktere beginnen mit einem Basis-DV von 6.
 
 [[{{C|Mental Armor (MA)}}]]
-Euer mentale Rüstung (MA) ist eine Messung, wie gut Ihr gegen mentale Angriffe geschützt seid, ebenso wie Euer Rüstungs-Wert eine Messung ist, wie gut Ihr gegen physische Angriffe geschützt seid. Je höher Euer Score, desto weniger wahrscheinlich wird der mentale Angriff eines Gegners schweren Auswirkungen auf Euch haben. Euer MA wird durch Euren Willpower-Modifikator modifiziert. Die meisten Charaktere beginnen mit einer Basis-MA von 4.
+Dein mentale Rüstung (MA) ist eine Messung, wie gut du gegen mentale Angriffe geschützt bist, ebenso wie dein Rüstungs-Wert eine Messung ist, wie gut du gegen physische Angriffe geschützt bist. Je höher dein Score, desto weniger wahrscheinlich wird der mentale Angriff eines Gegners schweren Auswirkungen auf dich haben. Dein MA wird durch deinen Willpower-Modifikator modifiziert. Die meisten Charaktere beginnen mit einer Basis-MA von 4.
 
 [[{{C|Quickness (QN)}}]]
-Euer Quickness-Wert ist eine Messung, wie schnell Ihr jede und alle Aktionen durchführt, die Ihr ergreifen. Euer Basis-Quickness-Wert ist 100. Beachtet, dass es sehr wenige Wege gibt, diesen Score zu vergrößern.
+Dein Quickness-Wert ist eine Messung, wie schnell du jede und alle Aktionen durchführst, die du ergreifst. Dein Basis-Quickness-Wert ist 100. Beachte, dass es sehr wenige Wege gibt, diesen Score zu vergrößern.
 
 [[{{C|Movement Speed (MS)}}]]
-Euer Bewegungs-Geschwindigkeit ist eine Messung, wie schnell Ihr geht oder fliegt. Eure Basis-Bewegungs-Geschwindigkeit ist 100.
+Dein Bewegungs-Geschwindigkeit ist eine Messung, wie schnell du gehst oder fliegst. Deine Basis-Bewegungs-Geschwindigkeit ist 100.
 
 [[{{C|Temperature (T)}}]]
-Eure Temperatur ist eine Messung, wie heiß oder kalt Ihr seid. Falls Ihr Cold seid, wird Euer Quickness-Wert um die Hälfte reduziert. Falls Ihr Frozen seid, seid Ihr nicht in der Lage, physische Aktionen zu ergreifen. Falls Ihr Flaming seid, erleidet Ihr jeden Umschwung Wärmeschaden, bis Ihr Eure Temperatur reduziert.
+Deine Temperatur ist eine Messung, wie heiß oder kalt du bist. Falls du Cold bist, wird dein Quickness-Wert um die Hälfte reduziert. Falls du Frozen bist, bist du nicht in der Lage, physische Aktionen zu ergreifen. Falls du Flaming bist, erleidest du jeden Umschwung Wärmeschaden, bis du deine Temperatur reduzierst.
 
 [[{{C|Acid Resist}}]]
-Euer Säure-Widerstand ist eine Messung, wie viel Säurenschaden Ihr ablatet. Euer Basis-Säure-Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen Säurenschaden.
+Dein Säure-Widerstand ist eine Messung, wie viel Säurenschaden du ablatest. Dein Basis-Säure-Widerstands-Wert ist 0. Bei 100, bist du immun gegen Säurenschaden.
 
 [[{{C|Cold Resist}}]]
-Euer Kälte-Widerstand ist eine Messung, wie viel Kälteschaden Ihr ablatet und wie isoliert Ihr von Auswirkungen seid, die Eure Temperatur reduzieren. Euer Basis-Kälte-Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen Kälteschaden und Eure Temperatur kann nicht reduziert werden.
+Dein Kälte-Widerstand ist eine Messung, wie viel Kälteschaden du ablatest und wie isoliert du von Auswirkungen bist, die deine Temperatur reduzieren. Dein Basis-Kälte-Widerstands-Wert ist 0. Bei 100, bist du immun gegen Kälteschaden und deine Temperatur kann nicht reduziert werden.
 
 [[{{C|Electrical Resist}}]]
-Euer elektrischer Widerstand ist eine Messung, wie viel elektrischen Schaden Ihr ablatet und wie widerstand Ihr zum elektrischen Strom seid. Euer Basis-elektrischer Widerstands-Wert ist 0. Bei 100, seid Ihr immun gegen elektrischen Schaden und Ihr führt keinen Strom.
+Dein elektrischer Widerstand ist eine Messung, wie viel elektrischen Schaden du ablatest und wie widerstand du zum elektrischen Strom bist. Dein Basis-elektrischer Widerstands-Wert ist 0. Bei 100, bist du immun gegen elektrischen Schaden und du führst keinen Strom.
 
 [[{{C|Heat Resist}}]]
-Euer Wärmewiderstand ist eine Messung, wie viel Wärmeschaden Ihr ablatet und wie isoliert Ihr von Auswirkungen seid, die Eure Temperatur erhöhen. Euer Basis-Wärmewiderstandswert ist 0. Bei 100, seid Ihr immun gegen Wärmeschaden und Eure Temperatur kann nicht erhöht werden.
+Dein Wärmewiderstand ist eine Messung, wie viel Wärmeschaden du ablatest und wie isoliert du von Auswirkungen bist, die deine Temperatur erhöhen. Dein Basis-Wärmewiderstandswert ist 0. Bei 100, bist du immun gegen Wärmeschaden und deine Temperatur kann nicht erhöht werden.
 
 </topic>
   <topic name="Skills" DisplayName="Fertigkeiten">
-Eure Fähigkeiten repräsentieren die Fähigkeiten, die Ihr in Eurem Leben gelernt habt. Jeder Fähigkeitsbaum hat mehrere damit verbundene Fähigkeiten. Ihr beginnt mit mehreren Fähigkeiten, die von Eurer Kaste oder Berufung bestimmt werden. Ihr könnt andere Fähigkeiten kaufen, indem Ihr Fähigkeitspunkte ausgeben, die Ihr verdient, wenn Ihr einen Level gewinnen (je höher Euer Intelligenzwert ist, desto mehr Fähigkeitspunkte verdient Ihr).
+Deine Fähigkeiten repräsentieren die Fähigkeiten, die du in deinem Leben gelernt hast. Jeder Fähigkeitsbaum hat mehrere damit verbundene Fähigkeiten. Du beginnst mit mehreren Fähigkeiten, die von deiner Kaste oder Berufung bestimmt werden. Du kannst andere Fähigkeiten kaufen, indem du Fähigkeitspunkte ausgibst, die du verdienst, wenn du einen Level gewinnst (je höher dein Intelligenzwert ist, desto mehr Fähigkeitspunkte verdienst du).
 
-Um eine neue Fähigkeit zu kaufen, müsst Ihr zuerst die Einstiegsfähigkeit in ihrem Fähigkeitsbaum kaufen. Ihr müsst alle Attribut- oder Energieanforderungen der Fähigkeit erfüllen, die Ihr zu kaufen versucht. Es ist möglich, mit bestimmten Fähigkeiten zu beginnen, ohne seine Einstiegsfähigkeit zu haben, wenn Eure Kaste oder Berufung es Euch gewährt hat.
+Um eine neue Fähigkeit zu kaufen, musst du zuerst die Einstiegsfähigkeit in ihrem Fähigkeitsbaum kaufen. Du musst alle Attribut- oder Energieanforderungen der Fähigkeit erfüllen, die du zu kaufen versuchst. Es ist möglich, mit bestimmten Fähigkeiten zu beginnen, ohne seine Einstiegsfähigkeit zu haben, wenn deine Kaste oder Berufung es dir gewährt hat.
 
-Fähigkeiten gewähren oft aktivierte Fähigkeiten. Sobald Ihr eine Fähigkeit kauft, könnt Ihr Eure neue aktivierte Fähigkeit aus dem Manage Abilities-Menü zugreifen ('~CmdAbilities').
+Fähigkeiten gewähren oft aktivierte Fähigkeiten. Sobald du eine Fähigkeit kaufst, kannst du deine neue aktivierte Fähigkeit aus dem Manage Abilities-Menü zugreifen ('~CmdAbilities').
 </topic>
   <topic name="Mutations and Defects" DisplayName="Mutationen und Mängel">
-Mutationen sind spezielle biologische Kräfte, die den Bewohnern von Qud geschenkt werden -- echte Kin aus den äußeren Arcologien besitzen keine Mutationen. Es gibt zwei Arten von Mutationen: physische und mentale. Jede Mutation hat einen damit verbundenen Mutationsscore. Die Scores Eurer physischen Mutationen und die Abklingzeiten von aktivierten Fähigkeiten, die von Euren physischen Mutationen gewährt werden, sind statisch. Andererseits werden die Scores Eurer mentalen Mutationen durch Euren Ego-Modifikator modifiziert und die Abklingzeiten von Fähigkeiten, die von Euren mentalen Mutationen gewährt werden, werden um 5% für jeden Punkt von Willpower moduliert, den Ihr über 16 habt.
+Mutationen sind spezielle biologische Kräfte, die den Bewohnern von Qud geschenkt werden -- echte Kin aus den äußeren Arcologien besitzen keine Mutationen. Es gibt zwei Arten von Mutationen: physische und mentale. Jede Mutation hat einen damit verbundenen Mutationsscore. Die Scores deiner physischen Mutationen und die Abklingzeiten von aktivierten Fähigkeiten, die von deinen physischen Mutationen gewährt werden, sind statisch. Andererseits werden die Scores deiner mentalen Mutationen durch deinen Ego-Modifikator modifiziert und die Abklingzeiten von Fähigkeiten, die von deinen mentalen Mutationen gewährt werden, werden um 5% für jeden Punkt von Willpower moduliert, den du über 16 hast.
 
-Die meisten Charaktere beginnen mit Mutationscores von 1. Ihr verdient einen Mutationspunkt, wenn Ihr eine neue Stufe gewinnt, die Ihr ausgeben könnt, um den Score einer Eurer Mutationen um 1 zu erhöhen. Der Mutationsscore von keiner Eurer Mutationen darf 1 plus Eure Charakterstufe geteilt durch 2 überschreiten. Zusätzlich können Mutationen nur durch Mutationspunkte bis zu einem maximalen Score von 10 erhöht werden, obwohl Eure mentalen Mutationen diesen Score überschreiten können, wenn Euer Ego sie über 10 hinaus erhöht.
+Die meisten Charaktere beginnen mit Mutationscores von 1. Du verdienst einen Mutationspunkt, wenn du eine neue Stufe gewinnst, die du ausgeben kannst, um den Score einer deiner Mutationen um 1 zu erhöhen. Der Mutationsscore von keiner deiner Mutationen darf 1 plus deine Charakterstufe geteilt durch 2 überschreiten. Zusätzlich können Mutationen nur durch Mutationspunkte bis zu einem maximalen Score von 10 erhöht werden, obwohl deine mentalen Mutationen diesen Score überschreiten können, wenn dein Ego sie über 10 hinaus erhöht.
 
-Alternativ könnt Ihr 4 Mutationspunkte ausgeben, um eine neue Mutation aus drei zufällig ausgewählten Mutationen zu wählen. Die Mutation, die Ihr wählt, beginnt mit einem Score von 1. Falls Ihr ein Chimera seid, wird Euch eine Wahl von physischen Mutationen angeboten, falls Ihr ein Esper seid, wird Euch mentale Mutationen angeboten, ansonsten werden Euch drei völlig zufällige Mutationen angeboten. Mutationen gewähren oft aktivierte Fähigkeiten. Sobald Ihr eine Mutation gewinnt, könnt Ihr Eure neue aktivierte Fähigkeit aus dem Manage Abilities-Menü zugreifen ('~CmdAbilities').
+Alternativ kannst du 4 Mutationspunkte ausgeben, um eine neue Mutation aus drei zufällig ausgewählten Mutationen zu wählen. Die Mutation, die du wählst, beginnt mit einem Score von 1. Falls du ein Chimera bist, wird dir eine Wahl von physischen Mutationen angeboten, falls du ein Esper bist, wird dir mentale Mutationen angeboten, ansonsten werden dir drei völlig zufällige Mutationen angeboten. Mutationen gewähren oft aktivierte Fähigkeiten. Sobald du eine Mutation gewinnst, kannst du deine neue aktivierte Fähigkeit aus dem Manage Abilities-Menü zugreifen ('~CmdAbilities').
 
 Defekte sind Mutationen mit primär negativen Auswirkungen. Bestimmte Mutanten beginnen mit einem einzelnen Defekt. Es gibt keinen Score für Defekte.
 </topic>
   <topic name="Artifacts" DisplayName="Artefakte">
-Artefakte sind Gegenstände, die technologisch so komplex sind, dass nur wenige der Bewohner von Qud sie verstehen. Ein unidentifiziertes Artefakt wird Euch als "Seltsames Artefakt" erscheinen. Ihr könnt ein Artefakt untersuchen, um zu versuchen, es zu identifizieren. Falls Ihr erfolgreich seid, könnt Ihr die Möglichkeiten der Funktion dieses Artefakts eingrenzen (was einst ein "Knüppel" war, könnt Ihr nun beispielsweise als "Gewehr" identifizieren). Eventuell könntet Ihr das Artefakt vollständig identifizieren. Jedes Mal, wenn Ihr versucht, etwas zu identifizieren, und fehlschlagt, besteht jedoch eine kleine Chance, dass Ihr es beschädigt. Eure Chance, ein Artefakt erfolgreich zu identifizieren, basiert auf Eurem Intelligenzwert.
+Artefakte sind Gegenstände, die technologisch so komplex sind, dass nur wenige der Bewohner von Qud sie verstehen. Ein unidentifiziertes Artefakt wird dir als "Seltsames Artefakt" erscheinen. Du kannst ein Artefakt untersuchen, um zu versuchen, es zu identifizieren. Falls du erfolgreich bist, kannst du die Möglichkeiten der Funktion dieses Artefakts eingrenzen (was einst ein "Knüppel" war, kannst du nun beispielsweise als "Gewehr" identifizieren). Eventuell könntest du das Artefakt vollständig identifizieren. Jedes Mal, wenn du versuchst, etwas zu identifizieren, und fehlschlägst, besteht jedoch eine kleine Chance, dass du es beschädigst. Deine Chance, ein Artefakt erfolgreich zu identifizieren, basiert auf deinem Intelligenzwert.
 </topic>
   <topic name="Tonics" DisplayName="Toniken">
-Toniken sind chemische Mixturen, die Eure mentalen und physischen Statistiken auf verschiedene Weise verbessern. Sie sind Artefakte, und daher müsst Ihr sie erfolgreich identifizieren, um zu verstehen, was sie tun. Das Einnahme eines Tonikums während der Auswirkungen eines anderen zu trinken ist gefährlich; für jeden neuen Tonikum, das Ihr einnehmt, gibt es eine größere und größere Chance, dass die Tonikume schlecht aufeinander reagieren. Je höher Euer Robustheitsscore ist, desto größer ist die Chance, dass Ihr mehrere Tonikume einnehmen könnt, ohne unerwünschte Auswirkungen zu erleiden.
+Toniken sind chemische Mixturen, die deine mentalen und physischen Statistiken auf verschiedene Weise verbessern. Sie sind Artefakte, und daher musst du sie erfolgreich identifizieren, um zu verstehen, was sie tun. Das Einnahme eines Tonikums während der Auswirkungen eines anderen zu trinken ist gefährlich; für jeden neuen Tonikum, das du einnimmst, gibt es eine größere und größere Chance, dass die Tonikume schlecht aufeinander reagieren. Je höher dein Robustheitsscore ist, desto größer ist die Chance, dass du mehrere Tonikume einnehmen kannst, ohne unerwünschte Auswirkungen zu erleiden.
 
 Tonikume erzeugen stärkere Auswirkungen bei echtem Kin als bei mutierten Menschen. Außerdem, da die Körperchemie von Mutanten inhärent instabil ist, gibt es eine 5% Chance, dass ein Tonikum, das von einem Mutanten eingenommen wird, stattdessen eine unerwünschte Auswirkung erzeugt.
 
@@ -134,82 +134,82 @@ Tonikume können mit der Tinker-Fähigkeit hergestellt werden. Zusätzlich zu Bi
   <topic name="Weapons and Armor" DisplayName="Waffen und Rüstungen">
 [[{{C|Waffen}}]]
 Jede Waffe hat einen Durchdringungswert und einen Schadenwert
-(zum Beispiel, {{C|→}}4, {{R|♥}}1d4). Der Durchdringungswert von Nahkampf-Waffen bezieht sich auf Euren Stärkewert, obwohl der Wert auf dem Material der Waffe basiert ist ('l'ook an einer Waffe, um ihren Durchdringungswert cap zu ansehen). Fernkampf-Waffen haben statische Durchdringungswerte, die nicht auf Euren Stärkenwert ändern. Waffen können andere Statistiken modifizieren; 'l'ook an einer Waffe, um vollständig zu bestimmen, was es tut.
+(zum Beispiel, {{C|→}}4, {{R|♥}}1d4). Der Durchdringungswert von Nahkampf-Waffen bezieht sich auf deinen Stärkewert, obwohl der Wert auf dem Material der Waffe basiert ist ('l'ook an einer Waffe, um ihren Durchdringungswert cap zu ansehen). Fernkampf-Waffen haben statische Durchdringungswerte, die nicht auf deinen Stärkenwert ändern. Waffen können andere Statistiken modifizieren; 'l'ook an einer Waffe, um vollständig zu bestimmen, was es tut.
 
 [[{{C|Rüstung}}]]
 Die meisten Teile der Rüstung haben einen Rüstungs-Wert und einen Ausweichwert
-(zum Beispiel, {{b|♦}}4 {{K|○}}4) das vergrößert Eure eigner {{b|♦}}AV und {{K|○}}DV (sieh {{g|Attribute}}).
+(zum Beispiel, {{b|♦}}4 {{K|○}}4) das vergrößert deine eigner {{b|♦}}AV und {{K|○}}DV (sieh {{g|Attribute}}).
 Teile der Rüstung können andere Statistiken modifizieren; 'l'ook an einem Stück Rüstung, um vollständig zu bestimmen, was es tut.
 </topic>
   <topic name="Combat" DisplayName="Kampf">
 [[{{C|Nahkampf}}]]
 Nahkampf ist Kampf zwischen zwei benachbarten Gegnern mit Standardnähkampfwaffen
 wie Schwerter, Dolche, Äxte und Keulen. Um einen feindsamen benachbarten Gegner
-anzugreifen, bewegt Euch einfach in seine Richtung. Um etwas anderes anzugreifen,
-wie einen nicht-feindsligen Gegner oder eine Wand, nutzt '~CmdAttackDirection'
-und wählt die Richtung, in die Ihr angreifen möchtet.
+anzugreifen, bewege dich einfach in seine Richtung. Um etwas anderes anzugreifen,
+wie einen nicht-feindsligen Gegner oder eine Wand, nutze '~CmdAttackDirection'
+und wähle die Richtung, in die du angreifen möchtest.
 
-Wenn Ihr einen Nahkampfangriff gegen ein Ziel durchführt, passiert folgende Abfolge von
+Wenn du einen Nahkampfangriff gegen ein Ziel durchführst, passiert folgende Abfolge von
 Ereignissen:
 
-[[{{c|1. Bestimmt, ob Ihr das Ziel trefft oder nicht.}}]]
-Euer Trefferwurf ist 1w20 plus Euer Agilität-Modifikator plus eventuelle Boni, die Ihr
-von Eurer Waffe oder Fähigkeitskräften erhalten. Wenn dieser Wurf den Ausweichenwert (DV)
-Eures Gegners übersteigt, trefft Ihr. Ein leerer Kreis über Eurem
-Ziel zeigt an, dass Euer Angriff verfehlt hat.
+[[{{c|1. Bestimme, ob du das Ziel triffst oder nicht.}}]]
+Dein Trefferwurf ist 1w20 plus dein Agilität-Modifikator plus eventuelle Boni, die du
+von deiner Waffe oder Fähigkeitskräften erhältst. Wenn dieser Wurf den Ausweichenwert (DV)
+deines Gegners übersteigt, triffst du. Ein leerer Kreis über deinem
+Ziel zeigt an, dass dein Angriff verfehlt hat.
 
-[[{{c|2. Bestimmt, ob ein Schildblock stattfindet.}}]]
+[[{{c|2. Bestimme, ob ein Schildblock stattfindet.}}]]
 Wenn das Ziel einen Schild hat, hat es eine Basischance von 25%, damit zu blocken,
 die mit Geschick zunimmt. Ein erfolgreicher Block addiert den Rüstungswert (AV) des Schilds
 zum AV des Ziels für diesen Angriff.
 
-[[{{c|3. Bestimmt, wie sehr Euer Angriff die Rüstung des Ziels durchdringt.}}]]
+[[{{c|3. Bestimme, wie sehr dein Angriff die Rüstung des Ziels durchdringt.}}]]
 Jede Waffe hat einen Durchdringungswert ({{C|→}}4, zum Beispiel). Dieser Wert
-repräsentiert den Rüstungswert (AV), den Eure Waffe normalerweise leicht durchdringen wird.
-Wenn Euer Waffendurchdringungswert den AV des Ziels weit übersteigt,
-wird Eure Waffe wahrscheinlich mehrfach durchdringen. Jedes Mal, wenn Eure Waffe
-die Rüstung des Ziels durchdringt, erleidet das Ziel Schaden gleich dem Schadenwert Eurer
-Waffe ({{R|♥}}1w4, zum Beispiel). Ein gefüllter Kreis über Eurem
-Ziel zeigt an, dass Euer Angriff traf, aber nicht die Rüstung des Ziels durchdrang.
-Ein Herz-Symbol zeigt an, dass Euer Angriff traf und die Rüstung des Ziels durchdrang.
+repräsentiert den Rüstungswert (AV), den deine Waffe normalerweise leicht durchdringen wird.
+Wenn dein Waffendurchdringungswert den AV des Ziels weit übersteigt,
+wird deine Waffe wahrscheinlich mehrfach durchdringen. Jedes Mal, wenn deine Waffe
+die Rüstung des Ziels durchdringt, erleidet das Ziel Schaden gleich dem Schadenwert deiner
+Waffe ({{R|♥}}1w4, zum Beispiel). Ein gefüllter Kreis über deinem
+Ziel zeigt an, dass dein Angriff traf, aber nicht die Rüstung des Ziels durchdrang.
+Ein Herz-Symbol zeigt an, dass dein Angriff traf und die Rüstung des Ziels durchdrang.
 
-[[{{c|4. Bestimmt, ob mehrfache Angriffe durchgeführt werden.}}]]
-Es besteht eine 15% Chance, dass Ihr einen zusätzlichen Angriff mit Eurer
-Nebenhand durchführt. Charaktere mit mehreren Gliedmaßen können zusätzliche Angriffe
+[[{{c|4. Bestimme, ob mehrfache Angriffe durchgeführt werden.}}]]
+Es besteht eine 15% Chance, dass du einen zusätzlichen Angriff mit deiner
+Nebenhand durchführst. Charaktere mit mehreren Gliedmaßen können zusätzliche Angriffe
 über dies hinaus durchführen.
 
 [[{{C|Fernkampf}}]]
 Fernkampf ist Kampf zwischen zwei Gegnern mit Fernkampfwaffen wie
-Bögen, Pistolen und Gewehre. Um einen Fernkampfangriff durchzuführen, drückt '~CmdFire', um
-Eure Waffe zu richten, dann drückt '~CmdFire' erneut, um zu schießen.
+Bögen, Pistolen und Gewehre. Um einen Fernkampfangriff durchzuführen, drück '~CmdFire', um
+deine Waffe zu richten, dann drück '~CmdFire' erneut, um zu schießen.
 
-Wenn Ihr einen Fernkampfangriff durchführt, passiert folgende Abfolge von Ereignissen:
+Wenn du einen Fernkampfangriff durchführst, passiert folgende Abfolge von Ereignissen:
 
-[[{{c|1. Bestimmt die Flugbahn Eures Projektils.}}]]
+[[{{c|1. Bestimme die Flugbahn deines Projektils.}}]]
 Wie sehr ein Projektil wahrscheinlich von seiner beabsichtigten Bahn abweicht, wird
-durch Euren Agilität-Wert und die Genauigkeit der Waffe bestimmt.
+durch deinen Agilität-Wert und die Genauigkeit der Waffe bestimmt.
 
 [[{{c|2. Trifft das erste mittelgroße oder größere Objekt auf der Bahn}}]
 {{c|des Projektils.}}]]
 
-[[{{c|3. Bestimmt, wie sehr das Projektil die Rüstung des Ziels durchdringt.}}]]
+[[{{c|3. Bestimme, wie sehr das Projektil die Rüstung des Ziels durchdringt.}}]]
 Dies wird auf die gleiche Weise wie ein Nahkampfangriff gelöst.
 
-[[{{c|4. Bestimmt, ob mehrfache Angriffe durchgeführt werden.}}]]
-Bestimmte Fähigkeitskräfte erlauben es Euch, mehrere Projektile mit bestimmten Fernkampfwaffen
+[[{{c|4. Bestimme, ob mehrfache Angriffe durchgeführt werden.}}]]
+Bestimmte Fähigkeitskräfte erlauben es dir, mehrere Projektile mit bestimmten Fernkampfwaffen
 abzuschießen.
 
-Wenn Ihr in Nahkampf mit mehr als einem feindsligen Gegner verwickelt seid,
-besteht eine 50% Chance, dass jeder Fernkampfangriff, den Ihr durchführt, wild wird (weicht
+Wenn du in Nahkampf mit mehr als einem feindsligen Gegner verwickelt bist,
+besteht eine 50% Chance, dass jeder Fernkampfangriff, den du durchführst, wild wird (weicht
 45 Grad nach links oder rechts aus).
 </topic>
   <topic name="Saving Throws" DisplayName="Rettungswürfe">
-Bestimmte Effekte oder Fähigkeiten erfordern es, dass Kreaturen Rettungswürfe durchführen oder Konsequenzen erleiden. Jeder Rettungswurf hat ein damit verbundenes Attribut und eine Schwierigkeit. Um einen Rettungswurf zu bestehen, wird eine Basis 1d20 geworfen und dann Euer relevanter Attributsmodifikator hinzugefügt. Falls diese Zahl die Schwierigkeit erfüllt oder übertrifft, besteht Ihr. Ansonsten fehlschlagt Ihr. Einige Rettungswürfe gegen Fähigkeiten von Kreaturen addieren auch den Attributsmodifikator der Kreatur zur Schwierigkeit.
+Bestimmte Effekte oder Fähigkeiten erfordern es, dass Kreaturen Rettungswürfe durchführen oder Konsequenzen erleiden. Jeder Rettungswurf hat ein damit verbundenes Attribut und eine Schwierigkeit. Um einen Rettungswurf zu bestehen, wird eine Basis 1d20 geworfen und dann dein relevanter Attributsmodifikator hinzugefügt. Falls diese Zahl die Schwierigkeit erfüllt oder übertrifft, bestehst du. Ansonsten fehlschlägst du. Einige Rettungswürfe gegen Fähigkeiten von Kreaturen addieren auch den Attributsmodifikator der Kreatur zur Schwierigkeit.
 </topic>
   <topic name="Action Costs" DisplayName="Aktionskosten">
-Die Zeit, die es dauert, etwas zu tun, wird in Form einer Aktionskosten bewertet. Die meisten Aufgaben haben Aktionskosten von 1000. Eure Quickness erhöht die Rate, mit der Ihr diese Kosten wiederherstellt, wodurch Ihr häufiger handeln könnt als langsamere Kreaturen.
+Die Zeit, die es dauert, etwas zu tun, wird in Form einer Aktionskosten bewertet. Die meisten Aufgaben haben Aktionskosten von 1000. Deine Quickness erhöht die Rate, mit der du diese Kosten wiederherstellst, wodurch du häufiger handeln kannst als langsamere Kreaturen.
 
-Einige Fähigkeiten, Mutationen und Ausrüstungen ermöglichen es Euch, bestimmte Aktionen mit reduzierten oder null Aktionskosten zu ergreifen.
+Einige Fähigkeiten, Mutationen und Ausrüstungen ermöglichen es dir, bestimmte Aktionen mit reduzierten oder null Aktionskosten zu ergreifen.
 </topic>
   <topic name="Credits" DisplayName="Abspann">
 

@@ -1,0 +1,118 @@
+{
+  "batch": "du-liquids-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-liquids-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "bf8d3a6477d21f58",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[Algae]/part[SnackOnDrink]@Message",
+      "context": null,
+      "old_value": "Die Salzlake sticht in Eurem Mund und erfüllt Euren Atem mit Seeluft.",
+      "new_value": "Die Salzlake sticht in deinem Mund und erfüllt deinen Atem mit Seeluft.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "096177915856044d",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[GreenGoo]/part[PoisonOnGoingProne]@Message",
+      "context": null,
+      "old_value": "Giftiger Schleim brennt Eure Augen.",
+      "new_value": "Giftiger Schleim brennt deine Augen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "27099681d8b5e7d3",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[GreenGoo]/part[PoisonOnDrink]@Message",
+      "context": null,
+      "old_value": "Sie spüren Gift durch Ihre Adern fließen!",
+      "new_value": "Du spürst Gift durch deine Adern fließen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "31aa1b11a4d13304",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[Ooze]/part[DiseaseOnGoingProne]@Message",
+      "context": null,
+      "old_value": "Fauliger Schleim spritzt Euch in den Mund. Ihr würgt bei dem schrecklichen Geschmack.",
+      "new_value": "Fauliger Schleim spritzt dir in den Mund. Du würgst bei dem schrecklichen Geschmack.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3e1c6265d0f31437",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[PrimordialSoup]/part[HydrateOnDrink]@Message",
+      "context": null,
+      "old_value": "Sie spüren, wie die Suppe in Ihrem Magen herumschwappt.",
+      "new_value": "Du spürst, wie die Suppe in deinem Magen herumschwappt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae910cc47cb03232",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[Sludge]/part[RustOnGoingProne]@Message",
+      "context": null,
+      "old_value": "Brauner Schlamm spritzt in Euren Mund. Ihr zuckt bei dem metallischen Geschmack zusammen.",
+      "new_value": "Brauner Schlamm spritzt in deinen Mund. Du zuckst bei dem metallischen Geschmack zusammen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "269c9a54a0722753",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[Sunslag]/part[SunSlagOnDrink]/tooMuchMessage#1@#text",
+      "context": null,
+      "old_value": "Helligkeit brennt Euch im Mund, aber Ihr könnt nicht höher geweckt werden.",
+      "new_value": "Helligkeit brennt dir im Mund, aber du kannst nicht höher geweckt werden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6f86e49d0ec86096",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[Sunslag]/part[SunSlagOnDrink]/noStatMessage#2@#text",
+      "context": null,
+      "old_value": "Helligkeit brennt Euch im Mund.",
+      "new_value": "Helligkeit brennt dir im Mund.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "69455d18997dcd95",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[WarmStatic]/part[GlitchOnPour]/messageZone#2@#text",
+      "context": null,
+      "old_value": "Der Raum um Euch herum beginnt zu glitchern.",
+      "new_value": "Der Raum um dich herum beginnt zu glitchern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a76e15911c92da1c",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[WarmStatic]/part[GlitchOnPour]/accomplishmentObject#3@#text",
+      "context": null,
+      "old_value": "Ihr habt die rohe Entropie des Universums auf Dinge gegossen und habt sie in andere Dinge umgewandelt.",
+      "new_value": "Du hast die rohe Entropie des Universums auf Dinge gegossen und hast sie in andere Dinge umgewandelt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ad31b78a2e5215e5",
+      "file": "Liquids.de.xml",
+      "key": "/liquids#0/liquid[WarmStatic]/part[GlitchOnPour]/accomplishmentZone#4@#text",
+      "context": null,
+      "old_value": "Ihr habt die rohe Entropie des Universums auf den Boden gegossen und einen Fehler im Raum um euch herum verursacht.",
+      "new_value": "Du hast die rohe Entropie des Universums auf den Boden gegossen und einen Fehler im Raum um dich herum verursacht.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

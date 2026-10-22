@@ -1,0 +1,68 @@
+{
+  "batch": "du-genotypes-01",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-genotypes-01)",
+  "created": "2026-10-22 14:51",
+  "items": [
+    {
+      "uid": "791513f8d5fed500",
+      "file": "Genotypes.de.xml",
+      "key": "/genotypes#0/genotype[True Kin]/stat[Strength]@ChargenDescription",
+      "context": null,
+      "old_value": "Euer {{W|Stärke}}-Wert bestimmt, wie effektiv ihr die Rüstung eurer Gegner mit Nahkampfangriffen durchdringt, wie viel Schaden eure Nahkampfangriffe verursachen, eure Fähigkeit, erzwungenen Bewegungen zu widerstehen, und eure Tragekapazität.",
+      "new_value": "Dein {{W|Stärke}}-Wert bestimmt, wie effektiv du die Rüstung deiner Gegner mit Nahkampfangriffen durchdringst, wie viel Schaden deine Nahkampfangriffe verursachen, deine Fähigkeit, erzwungenen Bewegungen zu widerstehen, und deine Tragekapazität.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0b7104193d37857e",
+      "file": "Genotypes.de.xml",
+      "key": "/genotypes#0/genotype[True Kin]/stat[Agility]@ChargenDescription",
+      "context": null,
+      "old_value": "Euer {{W|Geschicklichkeit}}-Wert bestimmt eure Genauigkeit sowohl mit Nahkampf- als auch mit Fernkampfwaffen sowie eure Fähigkeit, Angriffen auszuweichen.",
+      "new_value": "Dein {{W|Geschicklichkeit}}-Wert bestimmt deine Genauigkeit sowohl mit Nahkampf- als auch mit Fernkampfwaffen sowie deine Fähigkeit, Angriffen auszuweichen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7c8844f47f080fde",
+      "file": "Genotypes.de.xml",
+      "key": "/genotypes#0/genotype[True Kin]/stat[Toughness]@ChargenDescription",
+      "context": null,
+      "old_value": "Euer {{W|Zähigkeit}}-Wert bestimmt eure Anzahl von Trefferpunkten, eure natürliche Heilungsrate und eure Fähigkeit, Giften und Krankheiten zu widerstehen.",
+      "new_value": "Dein {{W|Zähigkeit}}-Wert bestimmt deine Anzahl von Trefferpunkten, deine natürliche Heilungsrate und deine Fähigkeit, Giften und Krankheiten zu widerstehen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "20a7019e61478f7b",
+      "file": "Genotypes.de.xml",
+      "key": "/genotypes#0/genotype[True Kin]/stat[Intelligence]@ChargenDescription",
+      "context": null,
+      "old_value": "Euer {{W|Intelligenz}}-Wert bestimmt die Anzahl eurer Fertigkeitspunkte und eure Fähigkeit, Artefakte zu untersuchen.",
+      "new_value": "Dein {{W|Intelligenz}}-Wert bestimmt die Anzahl deiner Fertigkeitspunkte und deine Fähigkeit, Artefakte zu untersuchen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "58c89c5728cc4d55",
+      "file": "Genotypes.de.xml",
+      "key": "/genotypes#0/genotype[True Kin]/stat[Willpower]@ChargenDescription",
+      "context": null,
+      "old_value": "Euer {{W|Willenskraft}}-Wert modifiziert die Abklingzeiten eurer aktivierten Fähigkeiten, bestimmt eure Fähigkeit, mentalen Angriffen zu widerstehen, und modifiziert eure natürliche Heilungsrate.",
+      "new_value": "Dein {{W|Willenskraft}}-Wert modifiziert die Abklingzeiten deiner aktivierten Fähigkeiten, bestimmt deine Fähigkeit, mentalen Angriffen zu widerstehen, und modifiziert deine natürliche Heilungsrate.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3d0f57f9420c0f32",
+      "file": "Genotypes.de.xml",
+      "key": "/genotypes#0/genotype[True Kin]/stat[Ego]@ChargenDescription",
+      "context": null,
+      "old_value": "Euer {{W|Ego}}-Wert bestimmt die Stärke eurer Fähigkeit, mit Kaufleuten zu feilschen, sowie eure Fähigkeit, die Willen anderer lebender Kreaturen zu beherrschen.",
+      "new_value": "Dein {{W|Ego}}-Wert bestimmt die Stärke deiner Fähigkeit, mit Kaufleuten zu feilschen, sowie deine Fähigkeit, die Willen anderer lebender Kreaturen zu beherrschen.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}

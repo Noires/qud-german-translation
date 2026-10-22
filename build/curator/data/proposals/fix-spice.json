@@ -1,0 +1,98 @@
+{
+  "batch": "fix-spice",
+  "rule": "fix",
+  "note": "fix-spice",
+  "created": "2026-10-22 16:08",
+  "items": [
+    {
+      "uid": "8814d4d4cabc44a1",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/desire=/0",
+      "context": "spice.instancesOf.desire",
+      "old_value": "Verlangen",
+      "new_value": "brauche",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    },
+    {
+      "uid": "3e0c0d2224c6d8c3",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/desire=/1",
+      "context": "spice.instancesOf.desire",
+      "old_value": "Verlangen",
+      "new_value": "brauche dringend",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    },
+    {
+      "uid": "1e79b418a9e5bd51",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/desire=/2",
+      "context": "spice.instancesOf.desire",
+      "old_value": "brauchen",
+      "new_value": "begehre",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    },
+    {
+      "uid": "ac9db07f15ae087f",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/desire=/3",
+      "context": "spice.instancesOf.desire",
+      "old_value": "begehren",
+      "new_value": "verlange nach",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    },
+    {
+      "uid": "88528797ebb7ec2c",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/desire=/4",
+      "context": "spice.instancesOf.desire",
+      "old_value": "erfordern",
+      "new_value": "sehne mich nach",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    },
+    {
+      "uid": "9343beffd0aabeae",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/desire=/5",
+      "context": "spice.instancesOf.desire",
+      "old_value": "sich sehnen nach",
+      "new_value": "benötige",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    },
+    {
+      "uid": "aa907e28208aec89",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/desire=/7",
+      "context": "spice.instancesOf.desire",
+      "old_value": "Verwendung haben für",
+      "new_value": "könnte gebrauchen",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    },
+    {
+      "uid": "06db0604a1d8eec6",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/wouldLikeTo=/2",
+      "context": "spice.instancesOf.wouldLikeTo",
+      "old_value": "brauchen zu",
+      "new_value": "müsste",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    },
+    {
+      "uid": "e2e4d82d52db0df0",
+      "file": "HistorySpice.jsonc",
+      "key": "/spice/instancesOf/wouldLikeTo=/3",
+      "context": "spice.instancesOf.wouldLikeTo",
+      "old_value": "muss",
+      "new_value": "möchte",
+      "note": "1. Person (wird in loveToHave nach „ich“ eingesetzt)",
+      "status": "accepted"
+    }
+  ]
+}

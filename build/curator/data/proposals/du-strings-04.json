@@ -1,0 +1,1508 @@
+{
+  "batch": "du-strings-04",
+  "rule": "du",
+  "note": "Anrede Ihr/Sie → du (du-strings-04)",
+  "created": "2026-10-22 14:46",
+  "items": [
+    {
+      "uid": "7c5666ad149f3dd7",
+      "file": "Strings.de.xml",
+      "key": "TattooGun Unsuccessful Message|Something went wrong and you fail to complete the tattoo.",
+      "context": "TattooGun Unsuccessful Message",
+      "old_value": "Etwas ist schiefgelaufen und Ihr könnt die Tätowierung nicht vollenden.",
+      "new_value": "Etwas ist schiefgelaufen und du kannst die Tätowierung nicht vollenden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d5eeac9361739398",
+      "file": "Strings.de.xml",
+      "key": "TattooGun MarkOfDeath Popup|You tattoo the mark of death on =object.the.name's:withTitles= =part.ordinalName=.",
+      "context": "TattooGun MarkOfDeath Popup",
+      "old_value": "Ihr tätowiert das Todeszeichen auf =object.the.name's:withTitles= =part.ordinalName=.",
+      "new_value": "Du tätowierst das Todeszeichen auf =object.the.name's:withTitles= =part.ordinalName=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3642de2e6293a939",
+      "file": "Strings.de.xml",
+      "key": "TattooGun Success Popup|You tattoo =description= on =object.the.name's:withTitles= =part.ordinalName=.",
+      "context": "TattooGun Success Popup",
+      "old_value": "Ihr tätowiert =description= auf =object.the.name's:withTitles= =part.ordinalName=.",
+      "new_value": "Du tätowierst =description= auf =object.the.name's:withTitles= =part.ordinalName=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "de3a526b6871338d",
+      "file": "Strings.de.xml",
+      "key": "TeleporterPair AttemptTeleport Hostiles|You can't teleport with hostiles nearby!",
+      "context": "TeleporterPair AttemptTeleport Hostiles",
+      "old_value": "Ihr könnt nicht teleportieren, wenn Feindselige in der Nähe sind!",
+      "new_value": "Du kannst nicht teleportieren, wenn Feindselige in der Nähe sind!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "56aa48637fa53400",
+      "file": "Strings.de.xml",
+      "key": "TeleporterPair AttemptTeleport Cooldown|You must wait =turns.things:turn= before using =object.this= again.",
+      "context": "TeleporterPair AttemptTeleport Cooldown",
+      "old_value": "Ihr müsst =turns.things:turn= warten, bevor Ihr =object.this= erneut nutzen könnt.",
+      "new_value": "Du musst =turns.things:turn= warten, bevor du =object.this= erneut nutzen kannst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "84c8d72d70893353",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector Activate CopyRelationshipFail|You can't dominate =subject.itself=!",
+      "context": "Teleprojector Activate CopyRelationshipFail",
+      "old_value": "Ihr könnt =subject.itself= nicht dominieren!",
+      "new_value": "Du kannst =subject.itself= nicht dominieren!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9c9a93f05fb99569",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector Activate AlreadyDominating|You can't dominate someone you are already dominating.",
+      "context": "Teleprojector Activate AlreadyDominating",
+      "old_value": "Ihr könnt jemanden nicht beherrschen, den Ihr bereits beherrscht.",
+      "new_value": "Du kannst jemanden nicht beherrschen, den du bereits beherrschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "487bc8907e48553c",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector Activate TargetAlreadyDominated|You can't do that.",
+      "context": "Teleprojector Activate TargetAlreadyDominated",
+      "old_value": "Das könnt Ihr nicht tun.",
+      "new_value": "Das kannst du nicht tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9dae5a26a2ce4dcc",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector RobotDom YouTakeControl|You take control of =object.the.name=!",
+      "context": "Teleprojector RobotDom YouTakeControl",
+      "old_value": "Ihr übernehmt die Kontrolle über =object.the.name=!",
+      "new_value": "Du übernimmst die Kontrolle über =object.the.name=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1c1b10866e573c4f",
+      "file": "Strings.de.xml",
+      "key": "Teleprojector EndDomination|Your domination is broken!",
+      "context": "Teleprojector EndDomination",
+      "old_value": "Eure Dominanz ist gebrochen!",
+      "new_value": "Deine Dominanz ist gebrochen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "458444c4f4aadd6f",
+      "file": "Strings.de.xml",
+      "key": "TemperatureController Configure AnnounceNewSetting|You set a target temperature of =target=.",
+      "context": "TemperatureController Configure AnnounceNewSetting",
+      "old_value": "Ihr setzt eine Zieltemperatur von =target= fest.",
+      "new_value": "Du setzt eine Zieltemperatur von =target= fest.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "985afd46c7e6dc99",
+      "file": "Strings.de.xml",
+      "key": "ThermalAmp Rulespostfix ModifyHeat|{{=color=|=value.signed=% to the intensity of your heating effects}} =part.statusSummary|addParens=",
+      "context": "ThermalAmp Rulespostfix ModifyHeat",
+      "old_value": "{{=color=|=value.signed=% zur Intensität Eurer Wärmewirkungen}} =part.statusSummary|addParens=",
+      "new_value": "{{=color=|=value.signed=% zur Intensität deiner Wärmewirkungen}} =part.statusSummary|addParens=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "823e3f47ba47af7b",
+      "file": "Strings.de.xml",
+      "key": "ThermalAmp Rulespostfix ColdDamage|{{=color=|=value.signed=% to the intensity of your cooling effects}} =part.statusSummary|addParens=",
+      "context": "ThermalAmp Rulespostfix ColdDamage",
+      "old_value": "{{=color=|=value.signed=% zur Intensität Eurer Kühlwirkungen}} =part.statusSummary|addParens=",
+      "new_value": "{{=color=|=value.signed=% zur Intensität deiner Kühlwirkungen}} =part.statusSummary|addParens=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "035fe7635b5e17ec",
+      "file": "Strings.de.xml",
+      "key": "Torch Light Fail (covered)|You cannot light =object.the.name= because of the liquid =object.it.is= covered in.",
+      "context": "Torch Light Fail (covered)",
+      "old_value": "Ihr könnt =object.the.name= nicht entzünden, weil die Flüssigkeit =object.it.is= darin bedeckt ist.",
+      "new_value": "Du kannst =object.the.name= nicht entzünden, weil die Flüssigkeit =object.it.is= darin bedeckt ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8caaf4a1d1187bf3",
+      "file": "Strings.de.xml",
+      "key": "Torch Light Fail (submerged)|You cannot light =object.the.name= because of the liquid =object.it.is= submerged in.",
+      "context": "Torch Light Fail (submerged)",
+      "old_value": "Ihr könnt =object.the.name= nicht entzünden, weil die Flüssigkeit =object.it.is= darin versunken ist.",
+      "new_value": "Du kannst =object.the.name= nicht entzünden, weil die Flüssigkeit =object.it.is= darin versunken ist.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d3e33935edbcd318",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - drink failure message|You are unable to drink that.",
+      "context": "Liquid Volume - drink failure message",
+      "old_value": "Ihr könnt das nicht trinken.",
+      "new_value": "Du kannst das nicht trinken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "cb1db0ee34b47100",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - drink failure message|You are unable to drink liquids.",
+      "context": "Liquid Volume - drink failure message",
+      "old_value": "Ihr könnt keine Flüssigkeiten trinken.",
+      "new_value": "Du kannst keine Flüssigkeiten trinken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "43ad868564792de6",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - drink failure message|You cannot seem to interact with =object.the.name= in any way.",
+      "context": "Liquid Volume - drink failure message",
+      "old_value": "Ihr scheint nicht in der Lage zu sein, mit =object.dativ= auf irgendeine Weise zu interagieren.",
+      "new_value": "Du scheinst nicht in der Lage zu sein, mit =object.dativ= auf irgendeine Weise zu interagieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "92eb9771337ce197",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - statis error|You cannot seem to interact with =object.the.name= in any way.",
+      "context": "Liquid Volume - statis error",
+      "old_value": "Ihr scheint nicht in der Lage zu sein, mit =object.dativ= auf irgendeine Weise zu interagieren.",
+      "new_value": "Du scheinst nicht in der Lage zu sein, mit =object.dativ= auf irgendeine Weise zu interagieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "90fad77550cb0254",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn drink unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to drink from =subject.them=?",
+      "context": "Liquid Volume - Warn drink unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr aus =subject.them= trinken möchtet?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them= trinken möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6b7b99b78d5a9184",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn drain unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to drain =subject.them=?",
+      "context": "Liquid Volume - Warn drain unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr =subject.them= entleeren möchtet?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du =subject.them= entleeren möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8dd80de8d1d12917",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn fill unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to fill =subject.them=?",
+      "context": "Liquid Volume - Warn fill unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr =subject.them= füllen möchtet?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du =subject.them= füllen möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0e0afdad743232f2",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn collect unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to collect from =subject.them=?",
+      "context": "Liquid Volume - Warn collect unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr aus =subject.them= sammeln möchtet?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them= sammeln möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f295627728d4b981",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn clean unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to use =subject.liquid.name= from =subject.them=?",
+      "context": "Liquid Volume - Warn clean unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr =subject.liquid.name= von =subject.them= verwenden möchtet?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du =subject.liquid.name= von =subject.them= verwenden möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "504f939687d128f1",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn clean unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to pour from =subject.them=?",
+      "context": "Liquid Volume - Warn clean unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr aus =subject.them= gießen möchtet?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du aus =subject.them= gießen möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f565578878f5386c",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn fill unowned|=subject.IndicativeDistal= =subject.is= not owned by you. Are you sure you want to take from =subject.them=?",
+      "context": "Liquid Volume - Warn fill unowned",
+      "old_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr von =subject.them= nehmen möchtet?",
+      "new_value": "=subject.IndicativeDistal= =subject.is= nicht im Besitz von dir. Bist du sicher, dass du von =subject.them= nehmen möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1e4c4b144ad9f040",
+      "file": "Strings.de.xml",
+      "key": "EnergyCellSocket Attempt Replacing Cell, Not Owned|=object.IndicativeDistal= =object.is= not owned by you. Are you sure you want to access =object.its= energy cell?",
+      "context": "EnergyCellSocket Attempt Replacing Cell, Not Owned",
+      "old_value": "=object.IndicativeDistal= =object.is= ist nicht im Besitz von Euch. Seid Ihr sicher, dass Ihr auf =object.its:akk:f= Energiezelle zugreifen möchtet?",
+      "new_value": "=object.IndicativeDistal= =object.is= ist nicht im Besitz von dir. Bist du sicher, dass du auf =object.its:akk:f= Energiezelle zugreifen möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "756e7a02aa36bcea",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Fail to fill from container|You have no containers to pour from.",
+      "context": "Liquid Volume - Fail to fill from container",
+      "old_value": "Ihr habt keine Behälter zum Ausgießen.",
+      "new_value": "Du hast keine Behälter zum Ausgießen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4a2b79884fa57644",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - pour error|You can't pour from a container into =object.itself=.",
+      "context": "Liquid Volume - pour error",
+      "old_value": "Ihr könnt nicht aus einem Behälter in =object.itself= gießen.",
+      "new_value": "Du kannst nicht aus einem Behälter in =object.itself= gießen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb32bffc950c2cbd",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - ask empty target container|Do you want to empty =object.the.name= first?",
+      "context": "Liquid Volume - ask empty target container",
+      "old_value": "Möchtet Ihr =object.the.name= zuerst leeren?",
+      "new_value": "Möchtest du =object.the.name= zuerst leeren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "01d7394651ce2455",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Collect error|You have nowhere available to collect that.",
+      "context": "Liquid Volume - Collect error",
+      "old_value": "Ihr habt keinen verfügbaren Platz, um das zu sammeln.",
+      "new_value": "Du hast keinen verfügbaren Platz, um das zu sammeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "725b246edcf3620f",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - Warn collect a lot|You are able to collect =transfer.things:dram= of =volume.liquid.name=. Are you sure you want to?",
+      "context": "Liquid Volume - Warn collect a lot",
+      "old_value": "Ihr könnt =transfer.things:dram= von =volume.liquid.name= sammeln. Seid Ihr sicher?",
+      "new_value": "Du kannst =transfer.things:dram= von =volume.liquid.name= sammeln. Bist du sicher?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "861dbd9d4a607d4a",
+      "file": "Strings.de.xml",
+      "key": "LiquidVolume - Cleaning failure|You cannot do that for some reason.",
+      "context": "LiquidVolume - Cleaning failure",
+      "old_value": "Ihr könnt das aus irgendeinem Grund nicht tun.",
+      "new_value": "Du kannst das aus irgendeinem Grund nicht tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "704bfc1260c727ea",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - pour on self message|=amount.things:dram= of =volume.liquid.name= pours out all over you!",
+      "context": "Liquid Volume - pour on self message",
+      "old_value": "=amount.things:dram= von =volume.liquid.name= gießt sich überall auf Euch!",
+      "new_value": "=amount.things:dram= von =volume.liquid.name= gießt sich überall auf dich!",
+      "note": "auf + Akk (Richtung) -> dich",
+      "status": "accepted"
+    },
+    {
+      "uid": "573dd280ca3524f7",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - no containers to fill|You have no containers to fill.",
+      "context": "Liquid Volume - no containers to fill",
+      "old_value": "Ihr habt keine Behälter zum Füllen.",
+      "new_value": "Du hast keine Behälter zum Füllen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0ea786b96abcbf00",
+      "file": "Strings.de.xml",
+      "key": "Liquid Volume - can't pour on itself error|You can't pour from a container into =object.itself=.",
+      "context": "Liquid Volume - can't pour on itself error",
+      "old_value": "Ihr könnt nicht aus einem Behälter in =object.itself= gießen.",
+      "new_value": "Du kannst nicht aus einem Behälter in =object.itself= gießen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c0f40715d3915363",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging FailCantReach|You cannot reach =object.the.name= to bandage =object.its= wounds.",
+      "context": "BandageMedication PerformBandaging FailCantReach",
+      "old_value": "Ihr könnt =object.the.name= nicht erreichen, um =object.its:akk:pl= Wunden zu verbinden.",
+      "new_value": "Du kannst =object.the.name= nicht erreichen, um =object.its:akk:pl= Wunden zu verbinden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "260bf09c967b8ea4",
+      "file": "Strings.de.xml",
+      "key": "BandageMedication PerformBandaging hostile entity fail|=object.Does:won't= let you bandage =object.them=.",
+      "context": "BandageMedication PerformBandaging hostile entity fail",
+      "old_value": "=object.Does:won't= lässt Euch =object.them= nicht verbinden.",
+      "new_value": "=object.Does:won't= lässt dich =object.them= nicht verbinden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "045978bbedd6635d",
+      "file": "Strings.de.xml",
+      "key": "HealMedication Default Message|The tube hisses against your skin, and a warm feeling washes over your body.",
+      "context": "HealMedication Default Message",
+      "old_value": "Das Rohr zischt an Eurer Haut, und ein warmes Gefühl durchflutet Euren Körper.",
+      "new_value": "Das Rohr zischt an deiner Haut, und ein warmes Gefühl durchflutet deinen Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8e4cc8f001649a74",
+      "file": "Strings.de.xml",
+      "key": "RegenMedication Default Message|The tube hisses against your skin, and a hot tingling infuses your whole body.",
+      "context": "RegenMedication Default Message",
+      "old_value": "Das Rohr zischt an Eurer Haut, und ein heißes Kribbeln durchflutet Euren ganzen Körper.",
+      "new_value": "Das Rohr zischt an deiner Haut, und ein heißes Kribbeln durchflutet deinen ganzen Körper.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae4e59f4e0c9c40e",
+      "file": "Strings.de.xml",
+      "key": "StatBoostMedication Default Message|The tube hisses against your skin, and your blood burns!",
+      "context": "StatBoostMedication Default Message",
+      "old_value": "Das Rohr zischt gegen Eure Haut, und Euer Blut brennt!",
+      "new_value": "Das Rohr zischt gegen deine Haut, und dein Blut brennt!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e8195fdcb8aedcab",
+      "file": "Strings.de.xml",
+      "key": "BioAmmoLoader Reload NoLiquid|You have no =liquid.name= for =object.the.name=.",
+      "context": "BioAmmoLoader Reload NoLiquid",
+      "old_value": "Ihr habt keine =liquid.name= für =object.the.name=.",
+      "new_value": "Du hast keine =liquid.name= für =object.the.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "40f09a99939836ae",
+      "file": "Strings.de.xml",
+      "key": "BioAmmoLoader Reload DumpWrongLiquid|You dump the =volume.name= out of =nameBeforeReload=.",
+      "context": "BioAmmoLoader Reload DumpWrongLiquid",
+      "old_value": "Ihr leert =volume.name= aus =nameBeforeReload=.",
+      "new_value": "Du leerst =volume.name= aus =nameBeforeReload=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dd9162698a29cf7c",
+      "file": "Strings.de.xml",
+      "key": "BioAmmoLoader Reload Success Partial|You partially fill =nameBeforeReload= with =volume.name=.",
+      "context": "BioAmmoLoader Reload Success Partial",
+      "old_value": "Ihr füllt =nameBeforeReload= teilweise mit =volume.name=.",
+      "new_value": "Du füllst =nameBeforeReload= teilweise mit =volume.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6c9ded6beccd4da7",
+      "file": "Strings.de.xml",
+      "key": "BioAmmoLoader Reload Success|You fill =nameBeforeReload= with =volume.name=.",
+      "context": "BioAmmoLoader Reload Success",
+      "old_value": "Ihr füllt =nameBeforeReload= mit =volume.name=.",
+      "new_value": "Du füllst =nameBeforeReload= mit =volume.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "50593c05c8c61d6e",
+      "file": "Strings.de.xml",
+      "key": "BioammoLoader SupplyIntegratedHostWithAmmo AskNumber|Supply =object.the.name= with how many drams of your =liquid.name=? (max=equals==amount=)",
+      "context": "BioammoLoader SupplyIntegratedHostWithAmmo AskNumber",
+      "old_value": "Versorgt =object.the.name= mit wie vielen Drams von Eurer =liquid.name=? (max=equals==amount=)",
+      "new_value": "Versorge =object.the.name= mit wie vielen Drams von deiner =liquid.name=? (max=equals==amount=)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "775fd9b62cab09a8",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader FireEvent SupplyPopup AskNumber|Supply =object.the.name= with how many drams of your =liquid.name=? (max=equals==amount=)",
+      "context": "LiquidAmmoLoader FireEvent SupplyPopup AskNumber",
+      "old_value": "Versorgt =object.the.name= mit wie vielen Drams von Eurer =liquid.name=? (max=equals==amount=)",
+      "new_value": "Versorge =object.the.name= mit wie vielen Drams von deiner =liquid.name=? (max=equals==amount=)",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "934e98f540f2c252",
+      "file": "Strings.de.xml",
+      "key": "BioammoLoader SupplyIntegratedHostWithAmmo NoLiquid|You have no =liquid.name= to supply =object.the.name= with.",
+      "context": "BioammoLoader SupplyIntegratedHostWithAmmo NoLiquid",
+      "old_value": "Ihr habt keine =liquid.name=, um =object.the.name= damit zu versorgen.",
+      "new_value": "Du hast keine =liquid.name=, um =object.the.name= damit zu versorgen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "916c67c992378b55",
+      "file": "Strings.de.xml",
+      "key": "ElectricalDischargeLoader FireEvent SelectCellPopup|Select =already.sign:one:another= of your cells to supply =object.the.name= with, if desired.",
+      "context": "ElectricalDischargeLoader FireEvent SelectCellPopup",
+      "old_value": "Wählt =already.sign:one:another= Eurer Zellen aus, um =object.the.name= mit Energie zu versorgen, falls gewünscht.",
+      "new_value": "Wähle =already.sign:one:another= deiner Zellen aus, um =object.the.name= mit Energie zu versorgen, falls gewünscht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ec178bb2728af8a5",
+      "file": "Strings.de.xml",
+      "key": "EnergyAmmoLoader FireEvent SelectCellPopup|Select =already.sign:one:another= of your cells to supply =object.the.name= with, if desired.",
+      "context": "EnergyAmmoLoader FireEvent SelectCellPopup",
+      "old_value": "Wählt =already.sign:one:another= Eurer Zellen aus, um =object.the.name= mit Energie zu versorgen, falls gewünscht.",
+      "new_value": "Wähle =already.sign:one:another= deiner Zellen aus, um =object.the.name= mit Energie zu versorgen, falls gewünscht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "20c9422e4d145f5a",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader Reload NoLiquidAvailable|You have no =liquid.name= for =object.the.name=.",
+      "context": "LiquidAmmoLoader Reload NoLiquidAvailable",
+      "old_value": "Ihr habt keine =liquid.name= für =object.the.name=.",
+      "new_value": "Du hast keine =liquid.name= für =object.the.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3caa6d8f07159e01",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader Reload DumpWrongLiquidFirst|You dump the =volume.name= out of =object.the.name=.",
+      "context": "LiquidAmmoLoader Reload DumpWrongLiquidFirst",
+      "old_value": "Ihr schüttet =volume.name= aus =object.dativ= aus.",
+      "new_value": "Du schüttest =volume.name= aus =object.dativ= aus.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c67bc8f5b8e00f05",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader Reload Success Partial|You partially fill =object.the.name= with =volume.name=.",
+      "context": "LiquidAmmoLoader Reload Success Partial",
+      "old_value": "Ihr füllt =object.the.name= teilweise mit =volume.name=.",
+      "new_value": "Du füllst =object.the.name= teilweise mit =volume.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "4534fde4774b28e8",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader Reload Success|You fill =object.the.name= with =volume.name=.",
+      "context": "LiquidAmmoLoader Reload Success",
+      "old_value": "Ihr füllt =object.the.name= mit =volume.name=.",
+      "new_value": "Du füllst =object.the.name= mit =volume.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e57a5a520bbbd27d",
+      "file": "Strings.de.xml",
+      "key": "LiquidAmmoLoader FireEvent OutOfLiquid|You have no =liquid.name= to supply =object.the.name= with.",
+      "context": "LiquidAmmoLoader FireEvent OutOfLiquid",
+      "old_value": "Ihr habt keine =liquid.name=, um =object.the.name= damit zu versorgen.",
+      "new_value": "Du hast keine =liquid.name=, um =object.the.name= damit zu versorgen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3af0dcc96f0c2309",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader ReloadEvent NoMoreAmmo|You have no more ammo for =object.the.name=.",
+      "context": "MagazineAmmoLoader ReloadEvent NoMoreAmmo",
+      "old_value": "Ihr habt keine Munition mehr für =object.the.name=.",
+      "new_value": "Du hast keine Munition mehr für =object.the.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "beda4f440dff7c37",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader Load Success One|You reload =object.the.name= with =ammo.a.name=.",
+      "context": "MagazineAmmoLoader Load Success One",
+      "old_value": "Ihr ladet =object.the.name= mit =ammo.a.dativ= nach.",
+      "new_value": "Du lädst =object.the.name= mit =ammo.a.dativ= nach.",
+      "note": "ladet->lädst",
+      "status": "accepted"
+    },
+    {
+      "uid": "4d2ba9fa341fb8ff",
+      "file": "Strings.de.xml",
+      "key": "MagazineAmmoLoader Load Success|You reload =object.the.name= with =ammo.name=.",
+      "context": "MagazineAmmoLoader Load Success",
+      "old_value": "Ihr ladet =object.the.name= mit =ammo.name= nach.",
+      "new_value": "Du lädst =object.the.name= mit =ammo.name= nach.",
+      "note": "ladet->lädst",
+      "status": "accepted"
+    },
+    {
+      "uid": "d7a39bd673b57bfd",
+      "file": "Strings.de.xml",
+      "key": "|Fate intervenes and you deal no damage to =object.the.name=.",
+      "context": "",
+      "old_value": "Das Schicksal greift ein und Ihr verursacht keinen Schaden bei =object.dativ=.",
+      "new_value": "Das Schicksal greift ein und du verursachst keinen Schaden bei =object.dativ=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ca58d0dfecf68303",
+      "file": "Strings.de.xml",
+      "key": "ModDisguise Already Wearing|You are already wearing a disguise.",
+      "context": "ModDisguise Already Wearing",
+      "old_value": "Ihr tragt bereits eine Verkleidung.",
+      "new_value": "Du trägst bereits eine Verkleidung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d14220a8e65b2394",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled No Necessary Liquid|You have no =liquid.name|strip= for =object.the.name=.",
+      "context": "ModLiquidCooled No Necessary Liquid",
+      "old_value": "Ihr habt kein =liquid.name|strip= für =object.the.name=.",
+      "new_value": "Du hast kein =liquid.name|strip= für =object.the.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a33df118de6e65cb",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled Liquid Dump Message|You dump the =volume.liquid.name= out of =object.the.name=.",
+      "context": "ModLiquidCooled Liquid Dump Message",
+      "old_value": "Ihr leert das =volume.liquid.name= aus =object.dativ=.",
+      "new_value": "Du leerst das =volume.liquid.name= aus =object.dativ=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5e60ef38a9a5dd06",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled Liquid Fill Message|You=partial.if: partially:= fill =snapshotName= with =volume.liquid.name=.",
+      "context": "ModLiquidCooled Liquid Fill Message",
+      "old_value": "Ihr=partial.if: partially:= füllt =snapshotName= mit =volume.liquid.name=.",
+      "new_value": "Du=partial.if: partially:= füllst =snapshotName= mit =volume.liquid.name=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b4b7cdf8df4eb6e5",
+      "file": "Strings.de.xml",
+      "key": "ModLiquidCooled No Liquid For Host|You have no =liquid.name|strip= to supply =host.the.name= with.",
+      "context": "ModLiquidCooled No Liquid For Host",
+      "old_value": "Ihr habt kein =liquid.name|strip= um damit =host.the.name= zu versorgen.",
+      "new_value": "Du hast kein =liquid.name|strip= um damit =host.the.name= zu versorgen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e7206aff4edb77dc",
+      "file": "Strings.de.xml",
+      "key": "ModMorphogenetic Description|Morphogenetic: When powered and used to perform a successful, damaging hit, this weapon attempts to daze all other creatures of the same species as your target on the local map. Compute power on the local lattice increases the strength of this effect.",
+      "context": "ModMorphogenetic Description",
+      "old_value": "Morphogenetisch: Wenn angetrieben und verwendet, um einen erfolgreichen, schädigenden Treffer auszuführen, versucht diese Waffe, alle anderen Kreaturen der gleichen Art wie Euer Ziel auf der lokalen Karte zu verwirren. Die Rechenleistung auf dem lokalen Gitter erhöht die Stärke dieses Effekts.",
+      "new_value": "Morphogenetisch: Wenn angetrieben und verwendet, um einen erfolgreichen, schädigenden Treffer auszuführen, versucht diese Waffe, alle anderen Kreaturen der gleichen Art wie dein Ziel auf der lokalen Karte zu verwirren. Die Rechenleistung auf dem lokalen Gitter erhöht die Stärke dieses Effekts.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1598554ba0465fbe",
+      "file": "Strings.de.xml",
+      "key": "ModSpiked Description Shield|Spiked: This item adds bonus damage to Shield Slam equal to your Strength modifier and causes your target to bleed.",
+      "context": "ModSpiked Description Shield",
+      "old_value": "Gespiesst: Dieser Gegenstand fügt dem Schildstoß zusätzliche Schäden hinzu, gleich Eurem Stärkebonus, und verursacht, dass das Ziel blutet.",
+      "new_value": "Gespiesst: Dieser Gegenstand fügt dem Schildstoß zusätzliche Schäden hinzu, gleich deinem Stärkebonus, und verursacht, dass das Ziel blutet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "381d5c01c01ba17f",
+      "file": "Strings.de.xml",
+      "key": "ModImprovedBlock Description|Your chance to block with shields is increased by 25%.",
+      "context": "ModImprovedBlock Description",
+      "old_value": "Eure Chance, mit Schilden zu blockieren, erhöht sich um 25%.",
+      "new_value": "Deine Chance, mit Schilden zu blockieren, erhöht sich um 25%.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "10db71e3b99190e5",
+      "file": "Strings.de.xml",
+      "key": "Amnesia Forgot Secret Message|You feel like you forgot something important.",
+      "context": "Amnesia Forgot Secret Message",
+      "old_value": "Ihr fühlt, dass Ihr etwas Wichtiges vergessen habt.",
+      "new_value": "Du fühlst, dass du etwas Wichtiges vergessen hast.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fe2318867026d2b8",
+      "file": "Strings.de.xml",
+      "key": "Amnesia Forgot Layout Message|This place feels vaguely familiar.",
+      "context": "Amnesia Forgot Layout Message",
+      "old_value": "Dieser Ort kommt Ihnen vage bekannt vor.",
+      "new_value": "Dieser Ort kommt dir vage bekannt vor.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "35e333a77c361b32",
+      "file": "Strings.de.xml",
+      "key": "BlinkingTic Blink Message|You lurch suddenly!",
+      "context": "BlinkingTic Blink Message",
+      "old_value": "Ihr taumelt plötzlich!",
+      "new_value": "Du taumelst plötzlich!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2fd93fe0ca72b42c",
+      "file": "Strings.de.xml",
+      "key": "Brittle Bones trigger message log|You feel your bones fracture.",
+      "context": "Brittle Bones trigger message log",
+      "old_value": "Ihr spürt, wie Eure Knochen brechen.",
+      "new_value": "Du spürst, wie deine Knochen brechen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "53d04fa7d8c671d3",
+      "file": "Strings.de.xml",
+      "key": "EvilTwin Presence Message|{{c|You sense a sinister presence nearby.}}",
+      "context": "EvilTwin Presence Message",
+      "old_value": "{{c|Ihr spürt eine unheilvolle Präsenz in der Nähe.}}",
+      "new_value": "{{c|Du spürst eine unheilvolle Präsenz in der Nähe.}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "49e19bcfdcf4a663",
+      "file": "Strings.de.xml",
+      "key": "PsionicMigraines Cannot Equip Head|Your head is too sensitive to wear that.",
+      "context": "PsionicMigraines Cannot Equip Head",
+      "old_value": "Euer Kopf ist zu empfindlich, um das zu tragen.",
+      "new_value": "Dein Kopf ist zu empfindlich, um das zu tragen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "50b6698df8f1a97b",
+      "file": "Strings.de.xml",
+      "key": "QuantumJitters Slip Message|Your focus slips, causing you to dent spacetime in the local region.",
+      "context": "QuantumJitters Slip Message",
+      "old_value": "Euer Fokus lässt nach und verursacht, dass Ihr die Raumzeit in der lokalen Region verbeult.",
+      "new_value": "Dein Fokus lässt nach und verursacht, dass du die Raumzeit in der lokalen Region verbeulst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "3af8bc396732d33e",
+      "file": "Strings.de.xml",
+      "key": "Domination broken|{{r|Your domination is broken!}}",
+      "context": "Domination broken",
+      "old_value": "{{r|Eure Dominanz ist gebrochen! }}",
+      "new_value": "{{r|Deine Dominanz ist gebrochen! }}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5615702f6f7132ce",
+      "file": "Strings.de.xml",
+      "key": "Dominate Failure|You can't dominate someone you are already dominating.",
+      "context": "Dominate Failure",
+      "old_value": "Ihr könnt jemanden nicht beherrschen, den Ihr bereits beherrscht.",
+      "new_value": "Du kannst jemanden nicht beherrschen, den du bereits beherrschst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9660ff20ce354395",
+      "file": "Strings.de.xml",
+      "key": "Dominate Failure|You can't do that.",
+      "context": "Dominate Failure",
+      "old_value": "Das könnt Ihr nicht tun.",
+      "new_value": "Das kannst du nicht tun.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "b7ca3f2e8799f5b7",
+      "file": "Strings.de.xml",
+      "key": "LifeDrain Fail Invalid Target or Self|You cannot syphon vim from =object.the.name=.",
+      "context": "LifeDrain Fail Invalid Target or Self",
+      "old_value": "Ihr könnt kein Vim aus =object.dativ= siphonieren.",
+      "new_value": "Du kannst kein Vim aus =object.dativ= siphonieren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d0e038fd9572f41e",
+      "file": "Strings.de.xml",
+      "key": "LightManip Lase Fail too weak|Your capacity is too weak.",
+      "context": "LightManip Lase Fail too weak",
+      "old_value": "Eure Kapazität ist zu schwach.",
+      "new_value": "Deine Kapazität ist zu schwach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "521832f86fcb2f6f",
+      "file": "Strings.de.xml",
+      "key": "MassMind Passive With FungalVisionary|You feel a small ripple in space and time.",
+      "context": "MassMind Passive With FungalVisionary",
+      "old_value": "Ihr fühlt eine kleine Welle in Raum und Zeit.",
+      "new_value": "Du fühlst eine kleine Welle in Raum und Zeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "707f8cbc7e9d0a7c",
+      "file": "Strings.de.xml",
+      "key": "MassMind Tap Success|{{G|You innervate your mind at someone's expense.}}",
+      "context": "MassMind Tap Success",
+      "old_value": "{{G|Sie beleben Ihren Geist auf Kosten eines anderen.}}",
+      "new_value": "{{G|Du belebst deinen Geist auf Kosten eines anderen.}}",
+      "note": "Sie-Form -> du",
+      "status": "accepted"
+    },
+    {
+      "uid": "1506dd228f7bfee6",
+      "file": "Strings.de.xml",
+      "key": "Precognition Revert Player|Your focus returns to the present.",
+      "context": "Precognition Revert Player",
+      "old_value": "Euer Fokus kehrt zur Gegenwart zurück.",
+      "new_value": "Dein Fokus kehrt zur Gegenwart zurück.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "394968fa6c076e5e",
+      "file": "Strings.de.xml",
+      "key": "Precognition Near End Confirm Revert|Your precognition is about to run out. Would you like to return to the start of your vision?",
+      "context": "Precognition Near End Confirm Revert",
+      "old_value": "Eure Präkognition läuft gleich ab. Möchtet Ihr zum Anfang eurer Vision zurückkehren?",
+      "new_value": "Deine Präkognition läuft gleich ab. Möchtest du zum Anfang deiner Vision zurückkehren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5b0712a18e61bc74",
+      "file": "Strings.de.xml",
+      "key": "Precognition Start Other (Sensed)|You sense a subtle psychic disturbance.",
+      "context": "Precognition Start Other (Sensed)",
+      "old_value": "Ihr spürt eine subtile psychische Störung.",
+      "new_value": "Du spürst eine subtile psychische Störung.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "618e306f4561ff0d",
+      "file": "Strings.de.xml",
+      "key": "Precognition Revert Was Not Player|You cannot access someone else's precognitive vision.",
+      "context": "Precognition Revert Was Not Player",
+      "old_value": "Ihr könnt nicht auf die präkognitive Vision einer anderen Person zugreifen.",
+      "new_value": "Du kannst nicht auf die präkognitive Vision einer anderen Person zugreifen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "67f2d6a8437051ed",
+      "file": "Strings.de.xml",
+      "key": "Precognition Near Death Confirm Revert|You sense your imminent demise. Would you like to return to the start of your vision?",
+      "context": "Precognition Near Death Confirm Revert",
+      "old_value": "Ihr spürt euren unmittelbar bevorstehenden Tod. Möchtet Ihr zum Anfang eurer Vision zurückkehren?",
+      "new_value": "Du spürst deinen unmittelbar bevorstehenden Tod. Möchtest du zum Anfang deiner Vision zurückkehren?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bc4829597ece8663",
+      "file": "Strings.de.xml",
+      "key": "|=subject.Does:swim= before your eyes!",
+      "context": "",
+      "old_value": "=subject.Konjde:schwimmen= vor Euren Augen!",
+      "new_value": "=subject.Konjde:schwimmen= vor deinen Augen!",
+      "note": "",
+      "status": "open"
+    },
+    {
+      "uid": "fff1629d42cce5e7",
+      "file": "Strings.de.xml",
+      "key": "Psychometry Success Identify|You flush with understanding of the =object.isplural:artifacts':artifact's= past and determine =object.them= to be =object.a.name:single=.",
+      "context": "Psychometry Success Identify",
+      "old_value": "Ihr werdet von Verständnis für die Vergangenheit =object.isplural:artifacts':artifact's= durchflutet und bestimmt =object.them= als =object.a.name:single=.",
+      "new_value": "Du wirst von Verständnis für die Vergangenheit =object.isplural:artifacts':artifact's= durchflutet und bestimmst =object.them= als =object.a.name:single=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ae2c99ac26136077",
+      "file": "Strings.de.xml",
+      "key": "Psychometry reverse engineer|You abide the memory of =object.a.or.the==object.shortsingle's= creation. You learn to build =sample.pluralize=.",
+      "context": "Psychometry reverse engineer",
+      "old_value": "Ihr bewahrt das Gedächtnis an =object.a.or.the==object.shortsingle's= Erschaffung. Ihr lernt, =sample.pluralize= zu bauen.",
+      "new_value": "Du bewahrst das Gedächtnis an =object.a.or.the==object.shortsingle's= Erschaffung. Du lernst, =sample.pluralize= zu bauen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df3035beacb6cb21",
+      "file": "Strings.de.xml",
+      "key": "Psychometry Activate Fail Confused|You strain to part the veil of time in order to use psychometry on =object.the.name:single=, but you are too confused.",
+      "context": "Psychometry Activate Fail Confused",
+      "old_value": "Ihr strengt euch an, den Schleier der Zeit zu lüften, um Psychometrie auf =object.akkusativ:single= zu verwenden, aber ihr seid zu verwirrt.",
+      "new_value": "Du strengst dich an, den Schleier der Zeit zu lüften, um Psychometrie auf =object.akkusativ:single= zu verwenden, aber du bist zu verwirrt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "0665e3a269cfaea9",
+      "file": "Strings.de.xml",
+      "key": "Psychometry Activate Fail Cooldown|You strain to part the veil of time in order to use psychometry on =object.the.name:single=, but your psyche is too exhausted.",
+      "context": "Psychometry Activate Fail Cooldown",
+      "old_value": "Ihr strengt euch an, den Schleier der Zeit zu lüften, um Psychometrie auf =object.akkusativ:single= zu verwenden, aber eure Psyche ist zu erschöpft.",
+      "new_value": "Du strengst dich an, den Schleier der Zeit zu lüften, um Psychometrie auf =object.akkusativ:single= zu verwenden, aber deine Psyche ist zu erschöpft.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "81a6712fcf2ef800",
+      "file": "Strings.de.xml",
+      "key": "SpaceTimeVortex Player Message|You sunder spacetime.",
+      "context": "SpaceTimeVortex Player Message",
+      "old_value": "Ihr spaltet die Raumzeit.",
+      "new_value": "Du spaltest die Raumzeit.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8e918f1bf5c6392c",
+      "file": "Strings.de.xml",
+      "key": "SunderMind Canceled|Your concentration slips and the channel between you and =object.the.name= dissipates into aether.",
+      "context": "SunderMind Canceled",
+      "old_value": "Eure Konzentration lässt nach und der Kanal zwischen euch und =object.the.name= zerfällt in Äther.",
+      "new_value": "Deine Konzentration lässt nach und der Kanal zwischen dir und =object.the.name= zerfällt in Äther.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80f468501c94f0e8",
+      "file": "Strings.de.xml",
+      "key": "SunderMind Canceled|Your concentration slips and the channel dissipates.",
+      "context": "SunderMind Canceled",
+      "old_value": "Eure Konzentration lässt nach und der Kanal zerstreut sich.",
+      "new_value": "Deine Konzentration lässt nach und der Kanal zerstreut sich.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d27d96fa392f8a96",
+      "file": "Strings.de.xml",
+      "key": "SunderMind Start Channeling|You burrow a channel through the psychic aether to =object.the.name= and begin to sunder =object.its= mind!",
+      "context": "SunderMind Start Channeling",
+      "old_value": "Ihr gräbt einen Kanal durch die psychische Äther zu =object.dativ= und beginnt =object.its:akk:m= Verstand zu spalten!",
+      "new_value": "Du gräbst einen Kanal durch die psychische Äther zu =object.dativ= und beginnst =object.its:akk:m= Verstand zu spalten!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32c0a38a040adcb2",
+      "file": "Strings.de.xml",
+      "key": "SunderMind death by head explode pt.1|Your sense of self is pulled apart by what feels like a billion years of geologic pressure.",
+      "context": "SunderMind death by head explode pt.1",
+      "old_value": "Euer Ich wird auseinandergerissen durch das, was sich wie eine Milliarde Jahre geologischen Drucks anfühlt.",
+      "new_value": "Dein Ich wird auseinandergerissen durch das, was sich wie eine Milliarde Jahre geologischen Drucks anfühlt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "2f9d4c26bf5686e3",
+      "file": "Strings.de.xml",
+      "key": "SunderMind death by head explode pt.2|Your head explodes!",
+      "context": "SunderMind death by head explode pt.2",
+      "old_value": "Euer Kopf explodiert!",
+      "new_value": "Dein Kopf explodiert!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "71e0840fd6abfb5f",
+      "file": "Strings.de.xml",
+      "key": "SunderMind DeathReason|Your head was exploded by =object.a.name:withTitles=.",
+      "context": "SunderMind DeathReason",
+      "old_value": "Euer Kopf wurde von =object.a.dativ:withTitles= gesprengt.",
+      "new_value": "Dein Kopf wurde von =object.a.dativ:withTitles= gesprengt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "8dd9bc52f9db430b",
+      "file": "Strings.de.xml",
+      "key": "SunderMind Nosebleed death reason|You died from =source|article=.",
+      "context": "SunderMind Nosebleed death reason",
+      "old_value": "Ihr starbt durch =source|article=.",
+      "new_value": "Du starbst durch =source|article=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "a162c649adb2e123",
+      "file": "Strings.de.xml",
+      "key": "SunderMind PenetrationFailure|Your attack fails to penetrate =object.the.name's:withTitles= mental defenses.",
+      "context": "SunderMind PenetrationFailure",
+      "old_value": "Euer Angriff durchdringt =object.the.name's:withTitles= mentale Verteidigungen nicht.",
+      "new_value": "Dein Angriff durchdringt =object.the.name's:withTitles= mentale Verteidigungen nicht.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "abdec157729d3769",
+      "file": "Strings.de.xml",
+      "key": "SunderMind target slipped|You cannot sufficiently grasp the mind there to sunder it.",
+      "context": "SunderMind target slipped",
+      "old_value": "Ihr könnt den Verstand dort nicht ausreichend erfassen, um ihn zu zersplittern.",
+      "new_value": "Du kannst den Verstand dort nicht ausreichend erfassen, um ihn zu zersplittern.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "56db3545f55a8944",
+      "file": "Strings.de.xml",
+      "key": "TeleportOther Fail Self Popup|You may not teleport =object.the.name= with Teleport Other!",
+      "context": "TeleportOther Fail Self Popup",
+      "old_value": "Ihr könnt =object.the.name= nicht mit Teleporter Andere teleportieren!",
+      "new_value": "Du kannst =object.the.name= nicht mit Teleporter Andere teleportieren!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7af4741532b65ea4",
+      "file": "Strings.de.xml",
+      "key": "Infiltrate notify player enemy teleported them|You are teleported by =object.the.name=.",
+      "context": "Infiltrate notify player enemy teleported them",
+      "old_value": "Ihr werdet von =object.dativ= teleportiert.",
+      "new_value": "Du wirst von =object.dativ= teleportiert.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9dab0b6d71639118",
+      "file": "Strings.de.xml",
+      "key": "|Your adrenaline subsides.",
+      "context": "",
+      "old_value": "Euer Adrenalinanstieg lässt nach.",
+      "new_value": "Dein Adrenalinanstieg lässt nach.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f4cafd0966b1a3e4",
+      "file": "Strings.de.xml",
+      "key": "|Your adrenaline starts to flow.",
+      "context": "",
+      "old_value": "Euer Adrenalin fängt an zu fließen.",
+      "new_value": "Dein Adrenalin fängt an zu fließen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d47adeaf9185a363",
+      "file": "Strings.de.xml",
+      "key": "|You can't excavate with hostiles nearby.",
+      "context": "",
+      "old_value": "Ihr könnt nicht graben, wenn Feindselige in der Nähe sind.",
+      "new_value": "Du kannst nicht graben, wenn Feindselige in der Nähe sind.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "66643002f49797ab",
+      "file": "Strings.de.xml",
+      "key": "|You can't excavate the sky!",
+      "context": "",
+      "old_value": "Ihr könnt den Himmel nicht graben!",
+      "new_value": "Du kannst den Himmel nicht graben!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6657b3f0e91c3c0e",
+      "file": "Strings.de.xml",
+      "key": "|You tighten your =carapace.name=. Your AV increases by {{G|=tightFactor.name=}}.",
+      "context": "",
+      "old_value": "Ihr strafft euren =carapace.name=. Eure AV nimmt um {{G|=tightFactor.name=}} zu.",
+      "new_value": "Du straffst deinen =carapace.name=. Deine AV nimmt um {{G|=tightFactor.name=}} zu.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "80595301f565bfd9",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen DrinkCharge None Player|You can't seem to drink any of the juice from =object.the.name=.",
+      "context": "Elec Gen DrinkCharge None Player",
+      "old_value": "Ihr könnt anscheinend keinen Saft von =object.dativ= trinken.",
+      "new_value": "Du kannst anscheinend keinen Saft von =object.dativ= trinken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "743a128676de55d4",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen IPS Object Short Description Postfix|Integrated power: When equipped, you can power =object.this.them==object.nounIfBareIndicative:device|spaceBefore= via Electrical Generation.",
+      "context": "Elec Gen IPS Object Short Description Postfix",
+      "old_value": "Integrierte Stromversorgung: Wenn ausgerüstet, könnt Ihr =object.this.them==object.nounIfBareIndicative:device|spaceBefore= mit Stromerzeugung antreiben.",
+      "new_value": "Integrierte Stromversorgung: Wenn ausgerüstet, kannst du =object.this.them==object.nounIfBareIndicative:device|spaceBefore= mit Stromerzeugung antreiben.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "50e348dc385120a2",
+      "file": "Strings.de.xml",
+      "key": "Elec Gen Discharge Target Confirm Self|Are you sure you want to target yourself?",
+      "context": "Elec Gen Discharge Target Confirm Self",
+      "old_value": "Seid Ihr sicher, dass Ihr Euch selbst als Ziel wählen möchtet?",
+      "new_value": "Bist du sicher, dass du dich selbst als Ziel wählen möchtest?",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ce808d7284f6b186",
+      "file": "Strings.de.xml",
+      "key": "|You need at least =amount= charge to generate a discharge.",
+      "context": "",
+      "old_value": "Ihr benötigt mindestens =amount= Ladung, um eine Entladung zu erzeugen.",
+      "new_value": "Du benötigst mindestens =amount= Ladung, um eine Entladung zu erzeugen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f79aeb0750cb169",
+      "file": "Strings.de.xml",
+      "key": "Mutation Use Fail BodyPart Too Damaged|Your =part.ordinalName= =part.is= too damaged to do that!",
+      "context": "Mutation Use Fail BodyPart Too Damaged",
+      "old_value": "Euer =part.ordinalName= =part.is= ist zu beschädigt, um das zu tun!",
+      "new_value": "Dein =part.ordinalName= =part.is= ist zu beschädigt, um das zu tun!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1bfb2cb1d127701f",
+      "file": "Strings.de.xml",
+      "key": "Mutation Use Fail BodyPart Too Damaged (null)|Your =bodyPartType|lower= is too damaged to do that!",
+      "context": "Mutation Use Fail BodyPart Too Damaged (null)",
+      "old_value": "Euer =bodyPartType|lower= ist zu beschädigt, um das zu tun!",
+      "new_value": "Dein =bodyPartType|lower= ist zu beschädigt, um das zu tun!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "af255dfdb4ee50ac",
+      "file": "Strings.de.xml",
+      "key": "HeatAbsorption heal message (player only)|You are healed for =amount= by the heat.",
+      "context": "HeatAbsorption heal message (player only)",
+      "old_value": "Ihr werdet um =amount= durch die Hitze geheilt.",
+      "new_value": "Du wirst um =amount= durch die Hitze geheilt.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e91a04dda3f7e258",
+      "file": "Strings.de.xml",
+      "key": "Triple-Jointed Triggered Message Log|You do that with ease.",
+      "context": "Triple-Jointed Triggered Message Log",
+      "old_value": "Ihr macht das mühelos.",
+      "new_value": "Du machst das mühelos.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "1e81a95a01929bd4",
+      "file": "Strings.de.xml",
+      "key": "Photosynthetic Skin Bask Error|You can't bask with hostiles nearby.",
+      "context": "Photosynthetic Skin Bask Error",
+      "old_value": "Ihr könnt nicht faulenzen, wenn Gegner in der Nähe sind.",
+      "new_value": "Du kannst nicht faulenzen, wenn Gegner in der Nähe sind.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "724b07a9e872491f",
+      "file": "Strings.de.xml",
+      "key": "Photosynthetic Skin Bask Error|You need sunlight to bask in.",
+      "context": "Photosynthetic Skin Bask Error",
+      "old_value": "Ihr benötigt Sonnenlicht zum Faulenzen.",
+      "new_value": "Du benötigst Sonnenlicht zum Faulenzen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "f8b614fd2533de50",
+      "file": "Strings.de.xml",
+      "key": "Photosynthetic Skin Bask Metabolize popup|You start to metabolize the meal, gaining the following effect for the rest of the day:\n\n{{W|=effect.details=}}",
+      "context": "Photosynthetic Skin Bask Metabolize popup",
+      "old_value": "Ihr beginnt, die Mahlzeit zu verstoffwechseln und erhaltet für den Rest des Tages folgende Wirkung:\n\n{{W|=effect.details=}}",
+      "new_value": "Du beginnst, die Mahlzeit zu verstoffwechseln und erhältst für den Rest des Tages folgende Wirkung:\n\n{{W|=effect.details=}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "08b8f3f9fe2d07bb",
+      "file": "Strings.de.xml",
+      "key": "Quills Error Message|You don't have enough =quills=! You need at least =minimumQuills= =quills= to =abilityName=",
+      "context": "Quills Error Message",
+      "old_value": "Ihr habt nicht genug =quills=! Ihr benötigt mindestens =minimumQuills= =quills=, um =abilityName=",
+      "new_value": "Du hast nicht genug =quills=! Du benötigst mindestens =minimumQuills= =quills=, um =abilityName=",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6cd3781ee156177a",
+      "file": "Strings.de.xml",
+      "key": "Regeneration Decapitate Regen Message|{{G|You were decapitated, but a new head regrew immediately!}}",
+      "context": "Regeneration Decapitate Regen Message",
+      "old_value": "{{G|Ihr wurdet enthauptet, aber ein neuer Kopf ist sofort nachgewachsen!}}",
+      "new_value": "{{G|Du wurdest enthauptet, aber ein neuer Kopf ist sofort nachgewachsen!}}",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "279b2864e1596eb5",
+      "file": "Strings.de.xml",
+      "key": "Stinger Failure no stinger found|You don't have a stinger.",
+      "context": "Stinger Failure no stinger found",
+      "old_value": "Ihr habt keinen Stachel.",
+      "new_value": "Du hast keinen Stachel.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "e04bbe4b1555bcc3",
+      "file": "Strings.de.xml",
+      "key": "ErosTeleportaion FailMessage|You can only teleport to a place you have seen before!",
+      "context": "ErosTeleportaion FailMessage",
+      "old_value": "Ihr könnt nur an einen Ort teleportieren, den Ihr bereits gesehen habt!",
+      "new_value": "Du kannst nur an einen Ort teleportieren, den du bereits gesehen hast!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "befae871548ed0e5",
+      "file": "Strings.de.xml",
+      "key": "ErosTeleportation FailMessage|You may only teleport into an empty square!",
+      "context": "ErosTeleportation FailMessage",
+      "old_value": "Ihr könnt nur in ein leeres Feld teleportieren!",
+      "new_value": "Du kannst nur in ein leeres Feld teleportieren!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5b1b8f3f71827292",
+      "file": "Strings.de.xml",
+      "key": "Physics PassingBy|You pass by =passed.andList=.",
+      "context": "Physics PassingBy",
+      "old_value": "Ihr geht an =passed.andList= vorbei.",
+      "new_value": "Du gehst an =passed.andList= vorbei.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "914b4b8a595487e7",
+      "file": "Strings.de.xml",
+      "key": "DeathReason Self Kill|You =accidental.if:accidentally :=killed =subject.itself=.",
+      "context": "DeathReason Self Kill",
+      "old_value": "Ihr habt =subject.itself= =accidental.if:versehentlich :=getötet.",
+      "new_value": "Du hast =subject.itself= =accidental.if:versehentlich :=getötet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ba33b347d500a7f8",
+      "file": "Strings.de.xml",
+      "key": "DeathReason Killed By|You were =accidental.if:accidentally :=killed by =object.an=.",
+      "context": "DeathReason Killed By",
+      "old_value": "Ihr wurdet =accidental.if:versehentlich :=von =object.a.dativ= getötet.",
+      "new_value": "Du wurdest =accidental.if:versehentlich :=von =object.a.dativ= getötet.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "7a35adb234d849a4",
+      "file": "Strings.de.xml",
+      "key": "EnergyCellSocket Remove Failure|You can't remove =cell.the.name=!",
+      "context": "EnergyCellSocket Remove Failure",
+      "old_value": "Ihr könnt =cell.the.name= nicht entfernen!",
+      "new_value": "Du kannst =cell.the.name= nicht entfernen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "15828393cc64aa64",
+      "file": "Strings.de.xml",
+      "key": "EnergyCellSocket No Fitting Cells|You have no cells that fit.",
+      "context": "EnergyCellSocket No Fitting Cells",
+      "old_value": "Ihr habt keine passenden Zellen.",
+      "new_value": "Du hast keine passenden Zellen.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "abd5127c84ee1e54",
+      "file": "Strings.de.xml",
+      "key": "EnergyCellSocket Cell Stuck At Inventory|You can't take the new cell out of your inventory!",
+      "context": "EnergyCellSocket Cell Stuck At Inventory",
+      "old_value": "Ihr könnt die neue Zelle nicht aus dem Inventar nehmen!",
+      "new_value": "Du kannst die neue Zelle nicht aus dem Inventar nehmen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "bde4d206231d19cf",
+      "file": "Strings.de.xml",
+      "key": "EnergyCellSocket Can't Remove|You can't remove the old cell!",
+      "context": "EnergyCellSocket Can't Remove",
+      "old_value": "Ihr könnt die alte Zelle nicht entfernen!",
+      "new_value": "Du kannst die alte Zelle nicht entfernen!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6c6ade98d15717b1",
+      "file": "Strings.de.xml",
+      "key": "Shield Short Description Rules|Shields only grant their AV when you successfully block an attack.",
+      "context": "Shield Short Description Rules",
+      "old_value": "Schilde gewähren ihren Rüstungswert nur, wenn Sie erfolgreich einen Angriff blocken.",
+      "new_value": "Schilde gewähren ihren Rüstungswert nur, wenn du erfolgreich einen Angriff blocken.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5f92b7c352aca04d",
+      "file": "Strings.de.xml",
+      "key": "Jump only into empty spaces|You can only =verb= into empty spaces.",
+      "context": "Jump only into empty spaces",
+      "old_value": "Ihr könnt nur in leere Räume =verb=.",
+      "new_value": "Du kannst nur in leere Räume =verb=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "89e2f94e4c637923",
+      "file": "Strings.de.xml",
+      "key": "Jump cant jump over thing|You can't =verb= over =object.the.name:single=.",
+      "context": "Jump cant jump over thing",
+      "old_value": "Ihr könnt nicht über =object.the.name:single= =verb=.",
+      "new_value": "Du kannst nicht über =object.the.name:single= =verb=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "c33386eb2ce0714c",
+      "file": "Strings.de.xml",
+      "key": "Jump can't jump while flying|You cannot =verb= while flying.",
+      "context": "Jump can't jump while flying",
+      "old_value": "Ihr könnt nicht =verb=, während ihr fliegt.",
+      "new_value": "Du kannst nicht =verb=, während du fliegst.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "5906df83ecfb9617",
+      "file": "Strings.de.xml",
+      "key": "Jump can't jump without feet|You cannot =verb= without feet.",
+      "context": "Jump can't jump without feet",
+      "old_value": "Ihr könnt nicht ohne Füße =verb=.",
+      "new_value": "Du kannst nicht ohne Füße =verb=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "818e4160d4f070be",
+      "file": "Strings.de.xml",
+      "key": "Jump Fail above maximum range|You may not =verb= more than =range.cardinal.things:square=!",
+      "context": "Jump Fail above maximum range",
+      "old_value": "Ihr dürft nicht mehr als =range.cardinal.things:square= =verb=!",
+      "new_value": "Du darfst nicht mehr als =range.cardinal.things:square= =verb=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "ebcaa190b9b3cfbd",
+      "file": "Strings.de.xml",
+      "key": "Jump Fail below minimum range|You must =verb= at least =range.cardinal.things:square=!",
+      "context": "Jump Fail below minimum range",
+      "old_value": "Ihr müsst mindestens =range.cardinal.things:square= =verb=!",
+      "new_value": "Du musst mindestens =range.cardinal.things:square= =verb=!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "98555a14c7465e2f",
+      "file": "Strings.de.xml",
+      "key": "Dismember Fail No Primary Axe|You must have an axe equipped in your primary hand to dismember.",
+      "context": "Dismember Fail No Primary Axe",
+      "old_value": "Ihr müsst eine Axt in eurer Primärhand ausgerüstet haben, um zu verstümmeln.",
+      "new_value": "Du musst eine Axt in deiner Primärhand ausgerüstet haben, um zu verstümmeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "fb0924c30c3ecd14",
+      "file": "Strings.de.xml",
+      "key": "HookAndDrag FireEvent NoAxeEquipped|You must have an axe equipped in your primary hand to use Hook and Drag.",
+      "context": "HookAndDrag FireEvent NoAxeEquipped",
+      "old_value": "Ihr müsst eine Axt in eurer Primärhand ausgerüstet haben, um Hook and Drag zu verwenden.",
+      "new_value": "Du musst eine Axt in deiner Primärhand ausgerüstet haben, um Hook and Drag zu verwenden.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "9601255a686758c7",
+      "file": "Strings.de.xml",
+      "key": "BaseSkill Add Skill Popup (WaterRitual)|=subject.Does:teach|strip= you {{W|=skill.name=}}!",
+      "context": "BaseSkill Add Skill Popup (WaterRitual)",
+      "old_value": "=subject.Does:teach|strip= Euch {{W|=skill.name=}}!",
+      "new_value": "=subject.Does:teach|strip= dich {{W|=skill.name=}}!",
+      "note": "lehren + Akk -> dich",
+      "status": "accepted"
+    },
+    {
+      "uid": "2daf7ef1f056d7dd",
+      "file": "Strings.de.xml",
+      "key": "BaseSkill Add Skill Popup (Book)|You learn {{W|=skill.name=}}!",
+      "context": "BaseSkill Add Skill Popup (Book)",
+      "old_value": "Ihr lernt {{W|=skill.name=}}!",
+      "new_value": "Du lernst {{W|=skill.name=}}!",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "6a1a4fe74fb0402f",
+      "file": "Strings.de.xml",
+      "key": "Campfire Preserve error|You don't have the Cooking and Gathering skill.",
+      "context": "Campfire Preserve error",
+      "old_value": "Ihr habt nicht die Fähigkeit Kochen und Sammeln.",
+      "new_value": "Du hast nicht die Fähigkeit Kochen und Sammeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "dc6c2eda06b458c6",
+      "file": "Strings.de.xml",
+      "key": "Campfire PreserveExotic error|You don't have the Cooking and Gathering skill.",
+      "context": "Campfire PreserveExotic error",
+      "old_value": "Ihr habt nicht die Fähigkeit Kochen und Sammeln.",
+      "new_value": "Du hast nicht die Fähigkeit Kochen und Sammeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "047e2c46a9e647d8",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookFromIngredients Error|You don't have the Cooking and Gathering skill.",
+      "context": "Campfire CookFromIngredients Error",
+      "old_value": "Ihr habt nicht die Fähigkeit Kochen und Sammeln.",
+      "new_value": "Du hast nicht die Fähigkeit Kochen und Sammeln.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "50312a84db042792",
+      "file": "Strings.de.xml",
+      "key": "Campfire Preserve error|You don't have anything to preserve.",
+      "context": "Campfire Preserve error",
+      "old_value": "Ihr habt nichts zu bewahren.",
+      "new_value": "Du hast nichts zu bewahren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "d4e11766784fd4c2",
+      "file": "Strings.de.xml",
+      "key": "Campfire PreserveExotic error|You don't have anything to preserve.",
+      "context": "Campfire PreserveExotic error",
+      "old_value": "Ihr habt nichts zu bewahren.",
+      "new_value": "Du hast nichts zu bewahren.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "df87ac2095619a81",
+      "file": "Strings.de.xml",
+      "key": "Campfire Preserve final message|You preserved:\n\n=items.join:.\n=.",
+      "context": "Campfire Preserve final message",
+      "old_value": "Ihr habt bewahrt:\n\n=items.join:.\n=.",
+      "new_value": "Du hast bewahrt:\n\n=items.join:.\n=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "32acfb18ca7f3197",
+      "file": "Strings.de.xml",
+      "key": "Campfire PreserveExotic Final Message|You preserved:\n\n=preserveItem=.",
+      "context": "Campfire PreserveExotic Final Message",
+      "old_value": "Ihr habt bewahrt:\n\n=preserveItem=.",
+      "new_value": "Du hast bewahrt:\n\n=preserveItem=.",
+      "note": "",
+      "status": "accepted"
+    },
+    {
+      "uid": "70870e73e5a49db2",
+      "file": "Strings.de.xml",
+      "key": "Campfire CookPresetMeal Carnivorous Sick|Ugh, you feel sick.",
+      "context": "Campfire CookPresetMeal Carnivorous Sick",
+      "old_value": "Äh, Euch ist übel.",
+      "new_value": "Äh, dir ist übel.",
+      "note": "",
+      "status": "accepted"
+    }
+  ]
+}
