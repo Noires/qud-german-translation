@@ -7,3 +7,16 @@ build/**/obj/
 # (kept locally for reference, not in the repo)
 docs/screenshots/
 docs/archive/
+# loose screenshots dropped into the repo root (move to docs/screenshots/)
+/Screenshot*.png
+
+# Python (curator tooling)
+__pycache__/
+*.pyc
+
+# Curator: machine-local state; writer temp files; agent scratch I/O
+# (the *_RULES.md briefs in _work/ stay tracked)
+build/curator/config.json
+build/curator/data/last_sync.json
+build/curator/data/proposals/_work/*.json
+*.curator-tmp
