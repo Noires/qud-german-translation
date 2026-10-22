@@ -1,0 +1,14 @@
+{
+  "note": "Basis-Tokens, die nicht aus Korpus oder VariableReplacers.de.cs ableitbar sind. exact wird namensgenau (erster Buchstabe normalisiert) geprüft, prefixes als Präfix.",
+  "exact": [
+    "name", "player.name", "decor", "dirward", "direction", "exception",
+    "cardinal", "ordinal", "ordinal.digits", "multiplicative", "cardinal.things",
+    "the", "a", "an", "it", "its", "verb", "adverb",
+    "leaderboard", "friendsOnly.if", "color", "price", "give", "title",
+    "turns.things", "number.pluralize", "give.pluralize",
+    "quill", "material", "boost", "now.dayOfYear"
+  ],
+  "prefixes": [
+    "pronouns.", "commandKey:", "spice:", "spice#", "stat:", "hotkey"
+  ]
+}

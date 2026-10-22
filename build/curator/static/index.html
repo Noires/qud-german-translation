@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QudDE Kurator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="scenes.css">
+</head>
+<body>
+
+<header>
+  <span class="wordmark">QudDE Kurator</span>
+  <span class="status" id="statusbar">
+    <span class="pill" id="pill-units">…</span>
+    <span class="pill" id="pill-review" hidden></span>
+    <span class="pill" id="pill-deploy" hidden></span>
+    <span class="pill" id="pill-log" hidden></span>
+  </span>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button data-tab="uebersetzungen" class="active">Übersetzungen</button>
+  <button data-tab="szenen">Szenen</button>
+  <button data-tab="vorschlaege">Vorschläge</button>
+  <button data-tab="pruefungen">Prüfungen</button>
+  <button data-tab="tests">Tests</button>
+  <button data-tab="glossar">Glossar</button>
+  <button data-tab="lexikon">Lexikon</button>
+  <button data-tab="verben">Verben</button>
+  <button data-tab="protokoll">Protokoll &amp; Abgleich</button>
+  <button data-tab="abdeckung">Abdeckung</button>
+</nav>
+
+<main>
+  <!-- Übersetzungen: Master/Detail -->
+  <section class="tabpane active" id="tab-uebersetzungen">
+    <div class="master">
+      <div class="searchbar">
+        <input type="text" id="q" placeholder="Suchen … (Enter)" autocomplete="off">
+        <select id="mode">
+          <option value="de">Deutsch</option>
+          <option value="en">Englisch</option>
+          <option value="token">Token</option>
+          <option value="context">Kontext</option>
+        </select>
+        <select id="f-file"><option value="">alle Dateien</option></select>
+        <select id="f-cat"><option value="">alle Kategorien</option></select>
+        <label class="chk"><input type="checkbox" id="f-untr"> nur unübersetzt</label>
+        <label class="chk"><input type="checkbox" id="f-token"> enthält Token</label>
+        <label class="chk"><input type="checkbox" id="f-lint"> mit Prüf-Befund</label>
+        <select id="f-review" title="Geprüft-Status">
+          <option value="">Geprüft-Status: alle</option>
+          <option value="open">noch zu prüfen (inkl. veraltet)</option>
+          <option value="unchecked">nur ungeprüfte</option>
+          <option value="stale">nur veraltet geprüfte</option>
+          <option value="checked">nur geprüfte</option>
+        </select>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="unitlist" id="unitlist"></div>
+    </div>
+    <div class="detail" id="detail">
+      <div class="placeholder">Eintrag links auswählen — oder suchen.</div>
+    </div>
+  </section>
+
+  <section class="tabpane" id="tab-szenen">
+    <div class="pane scpane" id="pane-szenen"><div class="placeholder">Lade …</div></div>
+  </section>
+
+  <section class="tabpane" id="tab-vorschlaege">
+    <div class="pane scpane" id="pane-vorschlaege"><div class="placeholder">Lade …</div></div>
+  </section>
+
+  <section class="tabpane" id="tab-pruefungen">
+    <div class="pane" id="pane-pruefungen"><div class="placeholder">Lade …</div></div>
+  </section>
+
+  <section class="tabpane" id="tab-tests">
+    <div class="pane" id="pane-tests"><div class="placeholder">Lade …</div></div>
+  </section>
+
+  <section class="tabpane" id="tab-glossar">
+    <div class="pane" id="pane-glossar"><div class="placeholder">Lade …</div></div>
+  </section>
+
+  <section class="tabpane" id="tab-lexikon">
+    <div class="pane" id="pane-lexikon"><div class="placeholder">Lade …</div></div>
+  </section>
+
+  <section class="tabpane" id="tab-verben">
+    <div class="pane" id="pane-verben"><div class="placeholder">Lade …</div></div>
+  </section>
+
+  <section class="tabpane" id="tab-protokoll">
+    <div class="pane" id="pane-protokoll"><div class="placeholder">Lade …</div></div>
+  </section>
+
+  <section class="tabpane" id="tab-abdeckung">
+    <div class="pane" id="pane-abdeckung"><div class="placeholder">Lade …</div></div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+<script src="qudrender.js"></script>
+<script src="scenes.js"></script>
+<script src="glossary.js"></script>
+<script src="proposals.js"></script>
+</body>
+</html>

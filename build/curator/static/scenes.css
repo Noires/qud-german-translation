@@ -1,0 +1,195 @@
+/* QudDE Kurator — Szenen-Vorschau (In-Kontext-Prüfung).
+   Qud-Fenster im Spielstil: Source Code Pro, Viridian-Fläche (k),
+   gerasterter Rahmen wie die Modern-UI-Popups. Breite = Spalten × 1ch. */
+
+:root {
+  --q-bg: #0b2b2a;          /* Fensterfläche (dunkler als k) */
+  --q-edge: #3f7472;        /* Rahmenlinien */
+  --q-hatch: repeating-linear-gradient(45deg, #2c5654 0 1px, #1a3e3d 1px 3px);
+  --q-font: "Source Code Pro", Consolas, "Cascadia Mono", monospace;
+}
+
+/* ---------- Layout des Tabs ---------- */
+.scpane { display: flex; padding: 0; }
+.scmaster { width: 240px; min-width: 200px; display: flex; flex-direction: column; border-right: 1px solid var(--edge); }
+.scmaster .unitrow { grid-template-columns: 1fr auto; }
+.scstage { flex: 1; overflow-y: auto; padding: 12px 16px; min-width: 0; }
+.sceditor { width: 380px; min-width: 300px; overflow-y: auto; padding: 14px 16px; border-left: 1px solid var(--edge); }
+.sceditor h2 { font-size: 13px; font-weight: 600; color: var(--ink-dim); text-transform: uppercase; letter-spacing: .08em; margin: 16px 0 6px; }
+.sceditor h2:first-child { margin-top: 0; }
+.bar.thin { height: 4px; min-width: 0; width: 100%; display: block; margin-top: 3px; }
+
+.sctoolbar { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font-size: 12px; color: var(--ink-dim); margin-bottom: 8px; }
+.sctoolbar select, .sctoolbar input[type=number] {
+  background: var(--bg); color: var(--ink); border: 1px solid var(--edge); border-radius: 3px; padding: 2px 4px; font: 12px var(--sans);
+}
+.sctoolbar .ctl { display: inline-flex; align-items: center; gap: 4px; }
+.seg { display: inline-flex; border: 1px solid var(--edge); border-radius: 3px; overflow: hidden; }
+.seg button { background: none; border: none; color: var(--ink-dim); font: 12px var(--mono); padding: 3px 9px; cursor: pointer; }
+.seg button.on { background: var(--amber); color: #14161a; }
+button.sm { padding: 2px 8px; font-size: 12px; }
+.sctrail { margin: 2px 0 8px; min-height: 14px; }
+.sctrail a { color: var(--cyan); text-decoration: none; }
+.sctrail a:hover { text-decoration: underline; }
+.scview { overflow-x: auto; padding: 4px 0 10px; }
+.qpair { display: flex; gap: 16px; align-items: flex-start; }
+.qpair > div { min-width: 0; }
+
+/* ---------- das Qud-Fenster ---------- */
+.qscreen {
+  font: 15px/1.45 var(--q-font); color: #b1c9c3; background: var(--q-bg);
+  width: max-content; max-width: 100%; padding: 14px 18px;
+  border: 7px solid transparent; border-image: var(--q-hatch) 7;
+  box-shadow: inset 0 0 0 1px var(--q-edge);
+}
+.qscreen .qline { white-space: pre; min-height: 1.45em; }
+.qbody, .qchoices { width: calc(var(--cols) * 1ch); }
+.qscreen .qline.overflow { box-shadow: inset -3px 0 0 #d74200; }
+.qtitlebar { display: flex; align-items: center; gap: 10px; color: #cfc041; margin: -4px 0 10px; }
+.qtitlebar::before, .qtitlebar::after { content: ""; flex: 1; border-top: 1px solid var(--q-edge); }
+.qsep { border-top: 1px solid var(--q-edge); margin: 12px 0 10px; }
+.qchoice { display: flex; gap: 1ch; align-items: flex-start; }
+.qchoice + .qchoice { margin-top: 4px; }
+.qchoice.global { opacity: .62; }
+.qnum { color: #cfc041; cursor: pointer; white-space: pre; }
+.qnum:hover { color: #fff; text-decoration: underline; }
+.qvar { color: #77bfcf; cursor: pointer; font-size: 13px; }
+.qbody.center .qline { text-align: center; }
+.qpopframe { border-top: 1px solid var(--q-edge); border-bottom: 1px solid var(--q-edge); padding: 14px 6px 0; }
+.qbuttons { display: flex; justify-content: center; margin-top: 14px; }
+.qbtn { background: #163837; padding: 2px 14px; transform: translateY(50%); }
+.qlog { border-image: none; border: 1px solid var(--q-edge); padding: 8px 12px; }
+.qlog .qlogline { display: flex; gap: 1ch; width: calc(var(--cols) * 1ch); }
+.qlogline.ctx { opacity: .55; }
+.qlogmark { white-space: pre; }
+.qcardtitle { width: calc(var(--cols) * 1ch); margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid var(--q-edge); }
+.qcardtitle .qline { text-align: center; }
+
+/* ---------- Bausteine: Hover/Klick + Status-Overlay (abschaltbar) ---------- */
+.qslot { cursor: pointer; border-radius: 2px; outline-offset: 2px; flex: 1; min-width: 0; }
+.qslot:hover { outline: 1px dashed #77bfcf; }
+.qslot.sel { outline: 2px solid #cfc041; }
+.qslot.focus { outline: 2px solid #cfc041; background: rgba(207, 192, 65, .06); }
+.qslot.draft { background: rgba(119, 191, 207, .08); }
+.scview.overlay .qslot.st-untranslated { box-shadow: -6px 0 0 -3px #d74200; outline: 1px dashed #d74200; }
+.scview.overlay .qslot.st-checked { box-shadow: -6px 0 0 -3px #00c420; }
+.scview.overlay .qslot.st-stale { box-shadow: -6px 0 0 -3px #cfc041; }
+.scview.overlay .qslot.st-staleid { box-shadow: -6px 0 0 -3px #da5bd6; outline: 1px dashed #da5bd6; }
+.scview.overlay .qslot.st-lint { box-shadow: -6px 0 0 -3px #ff5a3d; }
+.scview.overlay .qslot.flagged { position: relative; }
+.scview.overlay .qslot.flagged::after { content: "⚑"; color: #cfc041; font-size: 12px; position: absolute; right: -14px; top: 0; }
+
+/* ---------- Token-Herkunft: dezente Unterstreichung ---------- */
+.qtok { text-decoration: underline dotted; text-underline-offset: 3px; }
+.qtok.how-emu { text-decoration-color: #40a4b9; }
+.qtok.how-approx { text-decoration-color: #98875f; }
+.qtok.how-sample { text-decoration-color: #b154cf; }
+.qtok.how-spice { text-decoration-color: #009403; }
+.qtok.how-unknown { text-decoration: underline wavy #cfc041; }
+.qtok.how-en { text-decoration: underline wavy #d74200; }
+.qtok.how-raw { color: var(--cyan) !important; text-decoration: none; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; margin: 4px 0 10px; }
+.legend .qtok { font-family: var(--mono); }
+.legend i.lg { display: inline-block; width: 10px; height: 10px; margin-right: 4px; vertical-align: -1px; border-radius: 2px; background: var(--panel2); }
+.legend i.lg.st-untranslated { border: 1px dashed #d74200; background: none; }
+.legend i.lg.st-checked { background: #00c420; }
+.legend i.lg.st-stale { background: #cfc041; }
+.legend i.lg.st-lint { background: #ff5a3d; }
+.legend i.lg.st-staleid { border: 1px dashed #da5bd6; background: none; }
+.legend i.lg.sel { border: 2px solid #cfc041; background: none; }
+.overflow-demo { white-space: nowrap; box-shadow: inset -3px 0 0 #d74200; padding-right: 5px; }
+
+/* ---------- Bausteinliste unter der Bühne ---------- */
+.scslots h2 { font-size: 12px; color: var(--ink-dim); text-transform: uppercase; letter-spacing: .08em; margin: 14px 0 4px; }
+.slotrow { display: grid; grid-template-columns: 12px 56px 1fr auto; gap: 8px; align-items: center; padding: 4px 6px; border-bottom: 1px solid #20242b; cursor: pointer; font-size: 12px; }
+.slotrow:hover { background: var(--panel); }
+.slotrow.sel { background: var(--panel2); box-shadow: inset 2px 0 0 var(--amber); }
+.slotrow .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-dim); }
+.slotrow.st-untranslated .dot { background: none; border: 1px dashed var(--red); }
+.slotrow.st-checked .dot { background: var(--green); }
+.slotrow.st-stale .dot { background: var(--yellow); }
+.slotrow.st-lint .dot { background: var(--red); }
+.slotrow.st-staleid .dot { background: none; border: 1px dashed #da5bd6; }
+.slotrow .role { font: 11px var(--mono); color: var(--ink-dim); }
+.slotrow .txt { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.toktab td { font-size: 12px; padding: 3px 6px; vertical-align: top; }
+.toktab td:first-child { word-break: break-all; }
+.toktab td:nth-child(2) { white-space: nowrap; }
+
+/* ---------- „Im Kontext"-Panel im Übersetzungen-Tab ---------- */
+details.incontext { margin-top: 18px; border-top: 1px solid var(--edge); padding-top: 8px; }
+details.incontext > summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--ink-dim); text-transform: uppercase; letter-spacing: .08em; }
+details.incontext .sctoolbar { margin-top: 8px; }
+
+/* ---------- Review-Workflow: Liste, Knotenkarte ---------- */
+.scmaster .searchbar select { font-size: 12px; }
+.bar.thin.two { position: relative; }
+.bar.thin.two > i { position: absolute; left: 0; top: 0; background: var(--green); opacity: .45; }
+.bar.thin.two > b { position: absolute; left: 0; top: 0; height: 100%; display: block; background: var(--cyan); }
+
+details.scgraph { margin: 0 0 10px; }
+details.scgraph > summary { cursor: pointer; font-size: 12px; color: var(--ink-dim); text-transform: uppercase; letter-spacing: .08em; }
+#sc-graph { overflow: auto; max-height: 340px; margin-top: 6px; border: 1px solid var(--edge); border-radius: 3px; background: var(--panel); padding: 8px; }
+.gwrap { position: relative; }
+.gwrap svg { position: absolute; left: 0; top: 0; pointer-events: none; }
+.gedge { fill: none; stroke: #3a4552; stroke-width: 1.2; }
+.gedge.back { stroke-dasharray: 3 3; }
+.gedge.glob { stroke-opacity: .25; }
+.gedge.hot { stroke: var(--amber); stroke-width: 1.8; stroke-opacity: 1; }
+.gnode {
+  position: absolute; box-sizing: border-box; font: 11px/22px var(--mono); padding: 0 6px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer;
+  background: var(--panel2); border: 1px solid var(--edge); border-left-width: 4px; border-radius: 3px; color: var(--ink);
+}
+.gnode:hover { border-color: var(--ink-dim); }
+.gnode.cur { outline: 2px solid var(--amber); }
+.gnode.unreach { opacity: .45; border-style: dashed; }
+.gnode.st-checked { border-left-color: var(--green); }
+.gnode.st-translated { border-left-color: var(--ink-dim); }
+.gnode.st-untranslated { border-left-color: var(--red); }
+.gnode.st-staleid { border-left-color: #da5bd6; }
+.gnode.st-lint { border-left-color: var(--yellow); }
+
+/* ---------- Befund-Markierung + Glossar-Begriffe in der Bühne ---------- */
+.scview.overlay .qslot.hasfind { background: rgba(207, 174, 85, .07); }
+.gterm { text-decoration: underline dotted rgba(119, 191, 207, .55); text-underline-offset: 4px; cursor: help; }
+
+/* ---------- Glossar-Tab ---------- */
+.glform input.deval { min-height: 0; width: 150px; padding: 5px 8px; font: 13px var(--sans); }
+.glform select { background: var(--bg); color: var(--ink); border: 1px solid var(--edge); border-radius: 3px; padding: 4px; }
+#pane-glossar select { background: var(--bg); color: var(--ink); border: 1px solid var(--edge); border-radius: 3px; padding: 3px; }
+
+/* ---------- Vorschläge-Tab ---------- */
+.pqmaster { width: 300px; min-width: 240px; overflow-y: auto; padding: 12px; border-right: 1px solid var(--edge); }
+.pqmaster h2, .pqdetail h2 { font-size: 13px; font-weight: 600; color: var(--ink-dim); text-transform: uppercase; letter-spacing: .08em; margin: 14px 0 6px; }
+.pqmaster .unitrow { grid-template-columns: 1fr auto; }
+.pqmaster .unitrow .en { white-space: normal; }
+.pqdetail { flex: 1; overflow-y: auto; padding: 12px 18px; min-width: 0; }
+.pqdiff { font: 13px/1.7 var(--mono); white-space: pre-wrap; word-break: break-word; background: var(--panel); border: 1px solid var(--edge); border-radius: 3px; padding: 10px 12px; margin-top: 8px; }
+.pqdiff del, .del { background: rgba(207, 106, 91, .22); color: #f0a094; text-decoration: line-through; }
+.pqdiff ins, .ins { background: rgba(139, 171, 106, .25); color: #c9e3ad; text-decoration: none; }
+.pqen { margin-top: 6px; font-size: 12px; color: var(--ink-dim); }
+button.ghost.on { border-color: var(--amber); color: var(--amber); }
+
+@media (max-width: 1300px) {
+  .scpane { flex-wrap: wrap; overflow-y: auto; }
+  .scmaster { width: 100%; max-height: 220px; border-right: none; border-bottom: 1px solid var(--edge); }
+  .sceditor { width: 100%; border-left: none; border-top: 1px solid var(--edge); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .slotrow, .qslot { transition: background .12s, outline-color .12s; }
+}
+
+/* ---------- Kalibrieren (Screenshot-Ebene) ---------- */
+.sccalib { font-size: 12px; color: var(--ink-dim); background: var(--panel); border: 1px dashed var(--edge); border-radius: 3px; padding: 8px 10px; margin-bottom: 8px; }
+.sccalwrap { position: relative; }
+#sc-cal-img { position: absolute; left: 0; top: 0; transform-origin: 0 0; pointer-events: none; z-index: 2; }
+.glinl { min-height: 0 !important; width: 200px; padding: 2px 6px !important; font: 13px var(--sans) !important; }
+
+/* ---------- Buch / Journal / Gewürz-Liste ---------- */
+.qbook .qbody, .qjournal .qbody { width: calc(var(--cols) * 1ch); }
+.qpager { text-align: center; margin-top: 10px; color: #77bfcf; }
+.qnav { cursor: pointer; padding: 0 1ch; color: #cfc041; }
+.qnav:hover { color: #fff; }
+.qlabel { color: #77bfcf; font-size: 13px; }

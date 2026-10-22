@@ -1,0 +1,12 @@
+{
+  "note": "Bekannt-benigne Startup-Misses: die Basis fragt diese VOR RefreshModDirectory ab; beide Seiten sind ModSensitiveStaticCache, im Spiel ist der Text deutsch (docs/OPEN_ISSUES.md).",
+  "misses": [
+    {"context": "DifficultyEvaluation Impossible", "id": "Impossible"},
+    {"context": "DifficultyEvaluation Very Tough", "id": "Very Tough"},
+    {"context": "DifficultyEvaluation Tough", "id": "Tough"},
+    {"context": "DifficultyEvaluation Average", "id": "Average"},
+    {"context": "DifficultyEvaluation Easy", "id": "Easy"},
+    {"context": "DifficultyEvaluation Trivial", "id": "Trivial"},
+    {"context": "Message Log Title", "id": "Message log"}
+  ]
+}

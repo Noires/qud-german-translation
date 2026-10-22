@@ -1,0 +1,69 @@
+{
+  "note": "Glossar + Anrede-Richtlinie der Kurator-UI (build/curator/). Prüfregeln K2/G1/G2. Committbar, wird NICHT deployt.",
+  "policy": {
+    "player_address": "du",
+    "choice_address": "du"
+  },
+  "terms": [
+    {
+      "en": "baetyl",
+      "de": "Baetyl",
+      "gender": "n",
+      "plural": "",
+      "variants_forbidden": [],
+      "note": "Eater-Maschinenstein; neutral wie im Großteil des Korpus (das Baetyl)"
+    },
+    {
+      "en": "electric resistance",
+      "de": "Elektroresistenz",
+      "gender": "f",
+      "plural": "",
+      "variants_forbidden": [
+        "Elektrische Widerstandsfähigkeit"
+      ],
+      "note": "Entscheidung 2026-10-22; wie Hitze-/Kälteresistenz"
+    },
+    {
+      "en": "gaslight chisel",
+      "de": "Gaslicht-Meißel",
+      "gender": "m",
+      "plural": "Gaslicht-Meißel",
+      "variants_forbidden": [
+        "Gaslicht Chisel"
+      ],
+      "note": "Entscheidung 2026-10-22"
+    },
+    {
+      "en": "gaslight flyssa",
+      "de": "Gaslicht-Flyssa",
+      "gender": "f",
+      "plural": "",
+      "variants_forbidden": [
+        "Gaslicht Schwert"
+      ],
+      "note": "Entscheidung 2026-10-22"
+    },
+    {
+      "en": "gaslight kris",
+      "de": "Gaslicht-Kris",
+      "gender": "m",
+      "plural": "",
+      "variants_forbidden": [
+        "Gaslicht Dolch"
+      ],
+      "note": "Entscheidung 2026-10-22"
+    },
+    {
+      "en": "recoiler",
+      "de": "Rückspuler",
+      "gender": "m",
+      "plural": "Rückspuler",
+      "variants_forbidden": [
+        "Rekorder",
+        "Rückstoßgerät",
+        "Rückstoßer"
+      ],
+      "note": "Entscheidung 2026-10-22"
+    }
+  ]
+}

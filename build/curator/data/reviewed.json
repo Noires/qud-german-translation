@@ -1,0 +1,11 @@
+{
+  "note": "Geprüft-Marken der Kurator-UI (build/curator/). uid -> {file, key, value_sha1, date}. value_sha1 = Wert zum Prüfzeitpunkt; weicht der aktuelle Wert ab, gilt die Marke als veraltet. Datei ist committbar, wird NICHT deployt.",
+  "reviewed": {
+    "cbba57082ea5178d": {
+      "file": "ActivatedAbilities.de.xml",
+      "key": "/activatedabilities#0/ability[CommandAmputateLimb]/description#1@#text",
+      "value_sha1": "ac1ebbe8a500",
+      "date": "2026-07-18"
+    }
+  }
+}
