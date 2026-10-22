@@ -4,6 +4,25 @@ Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung i
 `lang-experimental`-Branch. Reiner Daten-Mod mit nativen VariableReplacers; die frühere
 Laufzeit-DLL (`COQDE.dll`, v0.8.0–v0.8.1) wurde in v0.9.0 entfernt.
 
+## v0.10.0 – du-Anrede, vollständige Abdeckung, Grammatik-Erweiterungen
+
+- **Anrede du:** Der Spieler wird korpusweit geduzt (Engine: Personalpronomen
+  du/dich/dir, Possessiv „dein", Verbperson 2. Sg. in `Verbs.json`); rund 2.800 Texte
+  umgestellt. Gebete und Stellen in 3. Person („Ihr Licht") bleiben bewusst groß.
+- **Vollständige Abdeckung:** 389 fehlende String-Einträge und 26 Blueprint-Einträge
+  ergänzt – alle 17.804 übersetzbaren Einträge des Spiels haben jetzt einen Wert.
+- **Veraltete Gesprächs-IDs:** 5 Einträge griffen nach Spiel-Updates nicht mehr (im Log
+  als String-Miss bestätigt) und sind auf die aktuellen IDs gebracht.
+- **Token-Korrekturen:** fehlendes Subjekt bei `konjde` (313 Meldungen), englische
+  Argumente in Weichen-Tokens („Thou hast …", „despises") in 90 Texten, Objektpronomen
+  im Dativ („von ihm" statt „von ihn") in 34 Texten.
+- **Grammatik-Engine:** deutscher Plural (`COQDE/PluralLexicon.tsv` + Regeln),
+  Demonstrativ dieser/diese/dieses, Kasus und Possessiv am Körperteil
+  („an deiner rechten Hand"), Objektpronomen mit `:dat`.
+- **Terminologie:** Rückspuler, Elektroresistenz, Gaslicht-Waffen vereinheitlicht.
+- Für Mitwirkende: Kurator-Werkzeug unter `build/curator/` (Editor, Prüfregeln,
+  Szenen-Vorschau, Vorschlags-Warteschlange).
+
 ## v0.9.0 – Vollständig native Lokalisierung (Laufzeit-DLL entfernt)
 
 - **Laufzeit-DLL entfernt:** `COQDE.dll`, `Bootstrap.cs`, `Patterns.json` und `Terms.json`
