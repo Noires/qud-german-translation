@@ -57,8 +57,9 @@ Satzgerüste C#-komponierter Kampfzeilen („hits for 5 damage with").
 `CaseName`/`IndefCaseName` → `BuildDefinitePhrase`/`BuildIndefinitePhrase`.
 
 **Verhalten:**
-- Spieler + Zweitperson → Pronomen statt Phrase: Nom „Ihr", Akk/Dat „Euch", Gen „Euer"
-  (`PlayerPronoun`).
+- Spieler + Zweitperson → Pronomen statt Phrase: Nom „du", Akk „dich", Dat „dir",
+  Gen „deiner" (`PlayerPronoun`; Anrede-Richtlinie **du**, seit 2026-10-22 — vorher „Ihr").
+  Großschreibung nur am Satzanfang (`Context.Capitalize`), auch bei `the.name`/`a.name`.
 - Reflexiv (Objekt == Satzsubjekt, Akk/Dat) → „sich" (`IsReflexive`).
 - Eigennamen (`HasProperName`) → nackter Name; Genitiv per `GenitiveNoun` („Barathrums").
 - Plural (Engine-Flag `IsPlural`) → die/den/der-Pluralformen, keine indefiniten Artikel.
@@ -67,7 +68,7 @@ Satzgerüste C#-komponierter Kampfzeilen („hits for 5 damage with").
 `:single`, `:long`, `:withTitles`, `:asIfKnown`. **Besitz-Parameter:** `:itsPossessor` /
 `:itsSubjectPossessor` hängt den Halter im Genitiv an („aus der Wasserhaut des
 Schnappkiefers", `WithPossessor`); `:asPossessed` rendert Spieler-Besitz als dekliniertes
-„Euer" und Kreaturen-Besitz mit Genitiv-Anhang.
+„dein" und Kreaturen-Besitz mit Genitiv-Anhang.
 
 **Konvention — der Übersetzer wählt den Kasus im Value:**
 
@@ -129,7 +130,7 @@ Muster. Eingehängt im `GameObjectDisplayName`-Override.
 
 **Vorangestellter Genitiv** für englische `'s`-Konstruktionen (archaisch-poetisch, passt
 zum Qud-Ton): Replacer-Overrides `the.name's`/`t's`, `name's`/`basename's`/`refname's`,
-`a.name's`/`an's` → „des Krokodils Bein", „Barathrums", „eines Krokodils"; Spieler → „Euer".
+`a.name's`/`an's` → „des Krokodils Bein", „Barathrums", „eines Krokodils"; Spieler → „dein".
 Der Postprocessor-Override `possessive`/`makePossessive`/`'s` deckt alle `|'s`-Templates ab
 (HistorySpice: „Reshephs Wagen"); deutsche Regel in `GermanPossessiveSuffix` (+s, nach
 s/ß/x/z Apostroph, farbtag-sicher).
@@ -146,7 +147,7 @@ Stämme aus Pronomen-Sets wie hir/xyr bleiben bewusst undekliniert):
   `aus =subject.its.part:dat#part=` → „aus seiner rechten Hand".
 
 **Stamm-Regel** (`PossStem`) — Sinn-Kongruenz vor Nomen-Genus:
-1. Spieler → „euer" (Ausgabe immer großgeschrieben, Qud-Anrede).
+1. Spieler → „dein" (Großschreibung nur am Satzanfang).
 2. Spiel-Gender male/female (+hindren-Varianten) → sein/ihr — „die Karawanenwache (m) …
    mit seiner Axt" (Konstruktion ad sensum).
 3. Plural-Gender → „ihr".
@@ -158,8 +159,8 @@ Stämme aus Pronomen-Sets wie hir/xyr bleiben bewusst undekliniert):
 `GameObject.its_(Weapon)`-Konstruktionen ab (Pronomen kommt als `DefaultDefiniteArticle`
 durch), Stamm via `Item.Holder`→`PossStem`, volle Phrase inkl. Adjektivdeklination.
 **Dokumentierte HEURISTIK mit bekannten Fehlermodi:** kleingeschriebenes Pronomen =
-satzintern nach Präposition → Dativ; großes „Its" (Satzanfang) → Nominativ; „Euer" (in den
-Daten immer groß) → Dativ-Wette. Satzinitiale „Euer X"-Zeilen und Nicht-Präpositions-
+satzintern nach Präposition → Dativ; großes „Its"/„Dein" (Satzanfang) → Nominativ
+(Spieler-Pronomen „your"/„euer" wird auf „dein" normalisiert). Nicht-Präpositions-
 Kleinschreibfälle bekommen den falschen Kasus — Ein-Zeilen-Justierung, wenn ein
 Gegenbeispiel auftaucht. Bei Markup im Namen wird nur der Artikel dekliniert.
 
@@ -167,9 +168,12 @@ Gegenbeispiel auftaucht. Bei Markup im Namen wird nur der Artikel dekliniert.
 
 **`konjde` (Token):** `=subject.konjde:INFINITIV=` — der Übersetzer schreibt den deutschen
 Infinitiv ins Template. Starke/unregelmäßige Verben kommen aus
-`languages/lang-de/COQDE/Verbs.json` (`{inf, s3, p2, p3, en}`; s3=3. Sg, p2=„Ihr"-Form,
-p3=3. Pl); alles andere konjugiert `WeakConjugate` algorithmisch (Stamm+t, -et nach t/d).
-Person über `VerbPerson`: Spieler→p2, Plural→p3, sonst s3. **Nur Präsens.**
+`languages/lang-de/COQDE/Verbs.json` (`{inf, s3, s2, p2, p3, en}`; s3=3. Sg, s2=„du"-Form,
+p2=„ihr"-Form, p3=3. Pl); alles andere konjugiert `WeakConjugate` algorithmisch (Stamm+t,
+-et nach t/d; du: Stamm+st, -est nach t/d, nur -t nach s/ß/x/z). Fehlt s2, leitet
+`DeriveS2` es aus s3 ab (sieht→siehst, hält→hältst, lädt→lädst, löst→löst); echte
+Unregelmäßige (bist, hast, wirst, kannst …) stehen explizit in der Datei.
+Person über `VerbPerson`: Spieler→s2, Plural→p3, sonst s3. **Nur Präsens.**
 
 **Verbs.json-Regeln:** nur nicht-trennbare starke Verben eintragen (trennbare wie „greift
 an" brechen die Wortstellung in Ein-Token-Ersetzungen); `en`-Feld dokumentiert die
@@ -191,6 +195,39 @@ an („right hand" → „rechte Hand"; Flag-Mapping in `LateralityAdjectives` g
 dekompilieren `Laterality`-Konstanten verifiziert). **Nur Token-Pfad** — der
 Ausrüstungs-/Anatomie-Paperdoll ruft `GetCardinalName()` direkt in C# (OPEN_ISSUES,
 „Waiting on official localization support").
+
+**Kasus & Possessiv am Körperteil** (BodyPart-Überladungen, Dispatch per Parametertyp):
+`=part.nominativ=` … `=part.genitiv=` → „der rechten Hand"; `=part.poss:dat=` → Possessiv
+des Körper-Besitzers (`Part.ParentBody.ParentObject` → `PossStem`, Spieler „dein") →
+„deiner rechten Hand". Ersetzt Muster wie „an Eurem =part.ordinalName=", deren Endung das
+Genus des Teils nicht kennt; vorangestellter Genitiv vor einem Körperteil wird zu
+„=part.dativ= =object.genitiv=" („auf der rechten Hand des Krokodils").
+
+## 7a. Demonstrativ & Plural
+
+**Demonstrativ** (`this`/`indicativeProximal`, Override): Das Original liest
+`IndicativeProximal` aus dem Pronomen-Set (englisch „this/these"). Deutsch:
+dieser/diese/dieses/diese nach Genus des Nomens (`GuessGender`/`IsPlural`), Kasus per
+`:akk/:dat/:gen` wie bei `its`; Spieler → Personalpronomen.
+
+**Fern-Demonstrativ** (`that`/`indicativeDistal`, Override): dieselben Formen wie `this` —
+Deutsch unterscheidet nah/fern im Alltag nicht („jener" klingt gestelzt). Nicht
+überschrieben: `that.they`/`that.them` (vom Korpus nicht benutzt).
+
+**Objektpronomen mit Kasus** (`them`/`objective`, Override): ohne Parameter der Akkusativ
+aus dem Pronomen-Set (ihn/sie/es/dich); `:dat` bildet daraus den Dativ (ihn/es→ihm,
+sie→ihr bzw. Plural ihnen, dich→dir; Neopronomen unverändert). Nach Dativ-Präpositionen
+(von/mit/aus/zu/bei/nach/nahe …) und Dativ-Verben (helfen …) **immer** `=X.them:dat=`
+schreiben — Kurator-Regel K6; Wechselpräpositionen in Ortsbedeutung ebenfalls (`an =X.them:dat=`).
+
+**Plural** (`pluralize`/`plural`, alle Signaturen überschrieben — GameObject, GameObject+Wort,
+`pluralize.word`, Zahl+Wort int/long, Postprozessoren ohne/mit Zahl/mit Objekt, BodyPart):
+`GermanPlural` beugt das Kopfwort (`PluralWord`) — Quelle 1 `COQDE/PluralLexicon.tsv`
+(`singular<TAB>plural`, Komposita erben vom längsten bekannten Grundwort), Quelle 2
+konservative Endungsregeln (-e→-en, -ung/-heit/-keit/-ion→-en, -in→-nen, -um→-en,
+-chen/-lein/-er/-el/-en unverändert, sonst +e bzw. fem. +en); führende Adjektive bekommen
+die starke Plural-Endung. **Zahl + Wort im Template immer als Paar schreiben**
+(`=amount.pluralize:Punkt:Punkte=`) — das Einzelwort läuft sonst durch die Regeln.
 
 ## 8. Zahlen & Kultur (Translator-Provider)
 
@@ -242,19 +279,23 @@ Stand: 2026-07-17, gegen den Code verifiziert.
 - [ ] **Genitiv-Präpositionen** (wegen/trotz/während) — Templates wurden auf
   Dativ/weil-Konstruktionen umformuliert statt Genitiv-Rektion zu modellieren.
 - [ ] **Tempora jenseits Präsens** — `konjde`/`does` liefern nur Präsens (3. Sg,
-  „Ihr"-Form, 3. Pl). Präteritum/Perfekt in Templates sind handformuliert
-  (z. B. die „weil Ihr … habt"-Reason-Klauseln).
+  du-Form, 3. Pl). Präteritum/Perfekt in Templates sind handformuliert
+  (z. B. die „weil du … hast"-Reason-Klauseln).
 - [ ] **Trennbare Verben generell** — nur lexikalisierte nicht-trennbare Basen in
   Verbs.json; „X greift Y an"-Wortstellung ist mit Ein-Token-Ersetzung nicht baubar.
 - [ ] **Steigerung** (Komparativ/Superlativ) — keine Unterstützung; kommt in Templates
   bisher nur als festes Wortmaterial vor.
-- [ ] **Imperative** — nicht modelliert (Qud-Dialoge nutzen „Ihr"-Aussagesätze).
+- [ ] **Imperative** — nicht modelliert (Qud-Dialoge nutzen Aussagesätze).
 - [ ] **V2-/Verbend-Wortstellung in C#-Zeilen** — upstream-blockiert: das Satzgerüst
   („hits … for … damage with") ist ein C#-Literal (OPEN_ISSUES).
-- [ ] **Register** — durchgängig archaisches „Ihr/Euch/Euer"; kein du/Sie-Wechsel je
-  Sprecher.
+- [ ] **Register** — Richtlinie durchgängig „du" (seit 2026-10-22; Korpus-Umstellung von
+  „Ihr" läuft über die Vorschlags-Warteschlange des Kurators, Fortschritt = Prüfregel K2);
+  kein du/Sie-Wechsel je Sprecher.
 - [ ] **Ordinal-Deklination** — `Ordinal` liefert die -e-Grundform; „zum dritten Mal"
   bräuchte Kasus am Token.
+- [x] **Demonstrativ & Plural** — seit 2026-10-22 deutsch (Abschnitt 7a); Plural-Regeln
+  sind eine Heuristik, Ausnahmen gehören in `PluralLexicon.tsv`.
+- [x] **Körperteil-Kasus/Possessiv** — `=part.<kasus>=`, `=part.poss:<kasus>=` (Abschnitt 7).
 
 ## 11. Selbsttests als Ground Truth
 

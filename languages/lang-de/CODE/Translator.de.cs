@@ -56,7 +56,7 @@ namespace LanguagesOfQudGerman
             {
                 case "sein": case "its": case "his": return "sein";
                 case "ihr": case "her": case "their": return "ihr";
-                case "euer": case "your": return "euer";
+                case "euer": case "your": return "dein"; // Anrede-Richtlinie: du
                 case "mein": case "my": return "mein";
                 case "dein": return "dein";
                 case "unser": case "our": return "unser";
@@ -69,7 +69,7 @@ namespace LanguagesOfQudGerman
         // die Phrase deutsch: Stamm vom Pronomen, Genus vom Objektnamen, Adjektive dekliniert.
         // Kasus-Heuristik: kleingeschriebenes Pronomen = satzintern nach Präposition -> Dativ
         // ("mit seiner gepanzerten Klaue"); großgeschriebenes "Its"/"Sein" = Satzanfang -> Nominativ.
-        // "Euer" ist in den Daten immer groß und bleibt daher bei der Dativ-Wette.
+        // (Spieler: "dein"/"Dein" folgt derselben Regel.)
         public override string GameObjectDisplayName(GameObject GO, out bool AdjunctNounActive, GameObjectDisplayNameParams Params)
         {
             string poss = Params.WithDefiniteArticle ? Params.DefaultDefiniteArticle : null;
@@ -84,7 +84,7 @@ namespace LanguagesOfQudGerman
                 if (holder != null)
                     stem = VariableReplacers.PossStemFor(holder);
                 bool cap = Params.Capitalize || char.IsUpper(poss[0]);
-                bool dative = !(char.IsUpper(poss[0]) && stem != "euer");
+                bool dative = !char.IsUpper(poss[0]);
                 Params.WithDefiniteArticle = false;
                 Params.DefaultDefiniteArticle = null;
                 Params.Capitalize = false;

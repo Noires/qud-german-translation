@@ -24,8 +24,10 @@ namespace LanguagesOfQudGerman
             UnityEngine.Debug.Log("[QudDE] VariableReplacers (token strings) loaded (Lang=de, Override=true).");
             VariableReplacers.LoadLexicon();
             VariableReplacers.LoadVerbs();
+            VariableReplacers.LoadPlurals();
             VariableReplacers.SelfTestCases();
             VariableReplacers.SelfTestPipeline();
+            VariableReplacers.CuratorTests();
             TranslatorDeutsch.SelfTest();
         }
     }
@@ -311,7 +313,7 @@ namespace LanguagesOfQudGerman
             if (bareName.IndexOf("{{", StringComparison.Ordinal) >= 0 || bareName.IndexOf('[') >= 0)
             {
                 Gender g = plural ? Gender.Plural : GuessGender(VisibleText(bareName));
-                return Cap(DeclinePoss(stem, g, c), capitalize || stem == "euer") + " " + bareName;
+                return Cap(DeclinePoss(stem, g, c), capitalize) + " " + bareName;
             }
             return BuildPossessivePhrase(bareName, c, plural, capitalize, stem);
         }
@@ -333,7 +335,7 @@ namespace LanguagesOfQudGerman
         {
             string name = GermanName(Object);
             if (Object.IsPlayer() && Grammar.AllowSecondPerson)
-                return "Ihr";
+                return Cap(PlayerPronoun(CaseOf(Context)), Context.Capitalize);
             // Proper names ("Warden Ualraig") take no article in German.
             if (IsProper(Object)) return name;
             var art = DefiniteFor(Object, CaseOf(Context));
@@ -345,18 +347,19 @@ namespace LanguagesOfQudGerman
         //   "=object.nominativ=", "=object.akkusativ=",
         //   "=object.dativ="  (e.g. "mit =object.dativ="),
         //   "=object.genitiv=" (e.g. "der Zorn =object.genitiv=").
-        // Player (second person): nom "Ihr", akk/dat "Euch", gen "Euer".
+        // Player (second person, informelles du — Anrede-Richtlinie 2026-10-22):
+        // nom "du", akk "dich", dat "dir", gen "deiner".
         // Reflexive: an object in object/dative position that refers back to the sentence
-        // subject renders as "sich" (or "euch" for the player).
+        // subject renders as "sich" (for the player: "dich"/"dir").
 
         private static string PlayerPronoun(Case c)
         {
             switch (c)
             {
-                case Case.Acc:
-                case Case.Dat: return "euch";
-                case Case.Gen: return "euer";
-                default: return "Ihr"; // nominative
+                case Case.Acc: return "dich";
+                case Case.Dat: return "dir";
+                case Case.Gen: return "deiner";
+                default: return "du"; // nominative
             }
         }
 
@@ -532,12 +535,12 @@ namespace LanguagesOfQudGerman
                 return Cap("sich", Context.Capitalize);
             string name = GermanName(Object, Context);
             // asPossessed: Besitzer-Artikel statt bestimmtem Artikel. Spieler-Besitz ->
-            // dekliniertes "Euer" ("aus Eurem Wischmopp"); Kreaturen-Besitz -> Genitiv-Anhang.
+            // dekliniertes "dein" ("aus deinem Wischmopp"); Kreaturen-Besitz -> Genitiv-Anhang.
             if (Context.HasParameter("asPossessed"))
             {
                 GameObject holder = Object.Holder;
                 if (holder != null && holder.IsPlayer() && Grammar.AllowSecondPerson)
-                    return BuildPossessivePhrase(name, c, IsPlural(Object), Context.Capitalize);
+                    return BuildPossessivePhrase(name, c, IsPlural(Object), Context.Capitalize, "dein");
                 if (holder != null && holder.IsCreature)
                     return BuildDefinitePhrase(name, c, IsPlural(Object), Context.Capitalize)
                         + " " + GenitivePhrase(holder);
@@ -633,7 +636,7 @@ namespace LanguagesOfQudGerman
         // replacer (neither does the Turkish reference) — any remaining legacy =verb:X= tokens
         // simply render their English conjugation until the template is converted to =konjde:=.
         private static readonly Dictionary<string, string[]> VerbsByInf = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
-        // Englisches Basisverb -> deutsche Formen {s3,p2,p3}: erlaubt dem Does-Override,
+        // Englisches Basisverb -> deutsche Formen {s3,p2,p3,s2}: erlaubt dem Does-Override,
         // LAUFZEIT-Verben ("see", "hear" aus #verb-Argumenten) deutsch zu konjugieren.
         private static readonly Dictionary<string, string[]> VerbsByEn = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
 
@@ -655,7 +658,8 @@ namespace LanguagesOfQudGerman
                         // Only STRONG verbs (explicit s3) go in the table; WEAK verbs (inf only)
                         // fall through to WeakConjugate's algorithmic present tense.
                         if (string.IsNullOrEmpty(s3)) continue;
-                        var forms = new[] { s3, (string)v["p2"] ?? inf, (string)v["p3"] ?? inf };
+                        var forms = new[] { s3, (string)v["p2"] ?? inf, (string)v["p3"] ?? inf,
+                                            (string)v["s2"] ?? DeriveS2(s3, inf) };
                         VerbsByInf[inf] = forms;
                         string en = (string)v["en"];
                         if (!string.IsNullOrEmpty(en))
@@ -695,16 +699,17 @@ namespace LanguagesOfQudGerman
             return false;
         }
 
-        // 0 = 3rd sg (er/sie/es), 1 = 2nd pl / "Ihr" (player), 2 = 3rd pl.
+        // 0 = 3rd sg (er/sie/es), 1 = 2nd pl (ihr), 2 = 3rd pl, 3 = 2nd sg "du" (player).
         private static int VerbPerson(GameObject o)
         {
             if (o == null) return 0;
-            if (o.IsPlayer() && Grammar.AllowSecondPerson) return 1;
+            if (o.IsPlayer() && Grammar.AllowSecondPerson) return 3;
             if (o.IsPlural) return 2;
             return 0;
         }
 
         // Regular (weak) German present tense from an infinitive: s3/p2 = stem+t (+e- after t/d),
+        // s2 = stem+st (+e- after t/d, only -t after s/ß/x/z: "du reist"),
         // p3 = infinitive. Strong verbs are handled by the Verbs.json table, not here.
         private static string WeakConjugate(string inf, int person)
         {
@@ -713,7 +718,26 @@ namespace LanguagesOfQudGerman
             string stem = inf.EndsWith("en") ? inf.Substring(0, inf.Length - 2)
                         : inf.EndsWith("n") ? inf.Substring(0, inf.Length - 1) : inf;
             char last = stem.Length > 0 ? stem[stem.Length - 1] : ' ';
+            if (person == 3)
+                return stem + ((last == 't' || last == 'd') ? "est" : ("sßxz".IndexOf(last) >= 0 ? "t" : "st"));
             return stem + ((last == 't' || last == 'd') ? "et" : "t");
+        }
+
+        // s2 ("du"-Form) eines STARKEN Verbs aus seiner s3-Form, falls Verbs.json kein s2 hat:
+        // sieht->siehst, trägt->trägst, lässt->lässt, hält->hältst (t-Stamm), lädt->lädst
+        // (d-Stamm). Echte Unregelmäßige (bist, hast, wirst, kannst …) stehen explizit in der Datei.
+        internal static string DeriveS2(string s3, string inf)
+        {
+            if (string.IsNullOrEmpty(s3)) return WeakConjugate(inf, 3);
+            string stem = inf != null && inf.EndsWith("en") ? inf.Substring(0, inf.Length - 2) : (inf ?? "");
+            char sl = stem.Length > 0 ? stem[stem.Length - 1] : ' ';
+            // löst, lässt, zerbirst, heißt: s3 trägt das -st/-t schon in sich
+            if (s3.EndsWith("st") || s3.EndsWith("ßt") || s3.EndsWith("zt") || s3.EndsWith("xt")) return s3;
+            if (!s3.EndsWith("t")) return s3;
+            if (sl == 't') return s3.EndsWith("et") ? s3.Substring(0, s3.Length - 1) + "st" : s3 + "st";
+            if (sl == 'd') return s3.EndsWith("et") ? s3.Substring(0, s3.Length - 1) + "st"
+                                                    : s3.Substring(0, s3.Length - 1) + "st";
+            return s3.Substring(0, s3.Length - 1) + "st";
         }
 
         // Kleines Adverb-Lexikon für die "adverb:verb"-Form von Does ("already:have").
@@ -858,7 +882,7 @@ namespace LanguagesOfQudGerman
         // ---- Possessiv: vorangestellter Genitiv & Euer-Deklination ----
         // Englische 's-Konstruktionen werden als vorangestellter deutscher Genitiv gerendert:
         // "Barathrum's leg" -> "Barathrums Bein", "the croc's leg" -> "des Krokodils Bein"
-        // (gehoben/archaisch, passt zum Qud-Ton). Spieler-Besitz -> "Euer" (Grundform, da das
+        // (gehoben/archaisch, passt zum Qud-Ton). Spieler-Besitz -> "dein" (Grundform, da das
         // Genus des FOLGENDEN Substantivs hier nicht bekannt ist).
 
         // Deutsche 's-Regel für nackte Namen: +s, nach s/ß/x/z nur Apostroph (Marx').
@@ -888,7 +912,7 @@ namespace LanguagesOfQudGerman
         [VariableReplacer(new string[] { "the.name's", "t's" }, Override = true, Capitalization = true)]
         public static string PossessiveDefinite(VariableContext Context, GameObject Object)
         {
-            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("Euer", Context.Capitalize);
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("dein", Context.Capitalize);
             string n = GermanName(Object, Context);
             if (IsProper(Object)) return Cap(GenitiveNoun(n, Gender.Masc), Context.Capitalize);
             return BuildDefinitePhrase(n, Case.Gen, IsPlural(Object), Context.Capitalize);
@@ -897,7 +921,7 @@ namespace LanguagesOfQudGerman
         [VariableReplacer(new string[] { "name's", "basename's", "refname's" }, Override = true, Capitalization = true)]
         public static string PossessiveBare(VariableContext Context, GameObject Object)
         {
-            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("Euer", Context.Capitalize);
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("dein", Context.Capitalize);
             string n = GermanName(Object, Context);
             return Cap(GenitiveNoun(n, IsPlural(Object) ? Gender.Plural : GuessGender(n)), Context.Capitalize);
         }
@@ -905,7 +929,7 @@ namespace LanguagesOfQudGerman
         [VariableReplacer(new string[] { "a.name's", "an's" }, Override = true, Capitalization = true)]
         public static string PossessiveIndefinite(VariableContext Context, GameObject Object)
         {
-            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("Euer", Context.Capitalize);
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson) return Cap("dein", Context.Capitalize);
             return IndefCaseName(Context, Object, Case.Gen);
         }
 
@@ -917,7 +941,7 @@ namespace LanguagesOfQudGerman
 
         private static string PossStem(GameObject owner)
         {
-            if (owner.IsPlayer() && Grammar.AllowSecondPerson) return "euer";
+            if (owner.IsPlayer() && Grammar.AllowSecondPerson) return "dein";
             // Sinn-Kongruenz vor Nomen-Genus: echte männliche/weibliche Figuren behalten ihr
             // Geschlecht ("die Karawanenwache (m) ... mit seiner Axt"). Erst ungegenderte
             // Kreaturen (nonspecific/neuter) fallen auf das grammatische Genus des deutschen
@@ -964,20 +988,19 @@ namespace LanguagesOfQudGerman
             return Case.Nom;
         }
 
-        // "Eurem rostigen Wischmopp" / "seinem gefrorenen Biss" - Possessivartikel mit
+        // "deinem rostigen Wischmopp" / "seinem gefrorenen Biss" - Possessivartikel mit
         // beliebigem Stamm + Mixed-Adjektivdeklination (wie nach ein-Wörtern).
-        private static string BuildPossessivePhrase(string name, Case c, bool plural, bool capitalize, string stem = "euer")
+        private static string BuildPossessivePhrase(string name, Case c, bool plural, bool capitalize, string stem = "dein")
         {
             string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             if (words.Length == 0) return name;
             // Genus über den Phrasen-Kopf (GuessGender strippt Farbcodes/Markup selbst).
             Gender g = plural ? Gender.Plural : GuessGender(PhraseGenderHead(words));
-            // Spieler-Anrede "Euer" wird im Qud-Ton immer großgeschrieben.
             string det = DeclinePoss(stem, g, c);
             if (!IsAdjNounPattern(words))
-                return Cap(det, capitalize || stem == "euer") + " " + name;
+                return Cap(det, capitalize) + " " + name;
             string head = words[words.Length - 1];
-            var parts = new List<string> { Cap(det, capitalize || stem == "euer") };
+            var parts = new List<string> { Cap(det, capitalize) };
             for (int i = 0; i < words.Length - 1; i++)
                 parts.Add(DeclineAdj(words[i], DeclType.Mixed, c, g));
             parts.Add(c == Case.Gen ? GenitiveNoun(head, g) : head);
@@ -999,7 +1022,7 @@ namespace LanguagesOfQudGerman
             else if (Context.HasParameter("n")) g = Gender.Neut;
             else if (Context.HasParameter("pl")) g = Gender.Plural;
             string de = g.HasValue ? DeclinePoss(stem, g.Value, CaseParam(Context)) : stem;
-            return Cap(de, Context.Capitalize || stem == "euer");
+            return Cap(de, Context.Capitalize);
         }
 
         // "=subject.its.item:dativ#weapon=" -> "mit seinem Biss" / "mit Eurer Klinge".
@@ -1119,8 +1142,8 @@ namespace LanguagesOfQudGerman
                 new[] { GermanPossessiveSuffix("Krokodil"), "Krokodils" },
                 new[] { GermanPossessiveSuffix("Marx"), "Marx'" },
                 new[] { GermanPossessiveSuffix("{{M|Resheph}}"), "{{M|Reshephs}}" },
-                new[] { BuildPossessivePhrase("rostiger Wischmopp", Case.Dat, false, false), "Eurem rostigen Wischmopp" },
-                new[] { BuildPossessivePhrase("Flammenpistole", Case.Dat, false, false), "Eurer Flammenpistole" },
+                new[] { BuildPossessivePhrase("rostiger Wischmopp", Case.Dat, false, false), "deinem rostigen Wischmopp" },
+                new[] { BuildPossessivePhrase("Flammenpistole", Case.Dat, false, false), "deiner Flammenpistole" },
                 new[] { BuildPossessivePhrase("Biss", Case.Dat, false, false, "sein"), "seinem Biss" },
                 new[] { BuildPossessivePhrase("rechte Hand", Case.Dat, false, false, "ihr"), "ihrer rechten Hand" },
                 new[] { DeclinePoss("euer", Gender.Neut, Case.Acc), "euer" },
@@ -1131,6 +1154,25 @@ namespace LanguagesOfQudGerman
                 new[] { CSharpPossessivePhrase("Anzeige", null, "sein", false, true), "Seine Anzeige" },
                 new[] { CSharpPossessivePhrase("Kampfaxt", null, "ihr", true, false), "ihrer Kampfaxt" },
                 new[] { TryGermanVerb("see", 1, out var vSee) ? vSee : "?", "seht" },
+                new[] { TryGermanVerb("see", 3, out var vDu) ? vDu : "?", "siehst" },
+                new[] { DeriveS2("hält", "halten"), "hältst" },
+                new[] { DeriveS2("lädt", "laden"), "lädst" },
+                new[] { DeriveS2("lässt", "lassen"), "lässt" },
+                new[] { WeakConjugate("machen", 3), "machst" },
+                new[] { WeakConjugate("waten", 3), "watest" },
+                new[] { WeakConjugate("reisen", 3), "reist" },
+                new[] { Demonstrative(Gender.Masc, Case.Dat), "diesem" },
+                new[] { Demonstrative(Gender.Fem, Case.Nom), "diese" },
+                new[] { DativeFromAccusative("ihn", false), "ihm" },
+                new[] { DativeFromAccusative("sie", false), "ihr" },
+                new[] { DativeFromAccusative("sie", true), "ihnen" },
+                new[] { DativeFromAccusative("es", false), "ihm" },
+                new[] { DativeFromAccusative("dich", false), "dir" },
+                new[] { PluralWord("Klinge"), "Klingen" },
+                new[] { PluralWord("Rüstung"), "Rüstungen" },
+                new[] { PluralWord("Käfer"), "Käfer" },
+                new[] { PluralWord("Museum"), "Museen" },
+                new[] { GermanPlural("rostiger Wischmopp"), "rostige Wischmoppe" },
                 new[] { TryGermanVerb("Sehen", 0, out var vSehen) ? vSehen : "?", "sieht" },
                 new[] { TryGermanVerb("open", 0, out _) ? "TREFFER" : "fallback", "fallback" },
                 new[] { DeclineAfterArticle("Der nass Leuchtfisch", null), "Der nasse Leuchtfisch" },
@@ -1149,6 +1191,57 @@ namespace LanguagesOfQudGerman
                 if (!ok) UnityEngine.Debug.Log("[QudDE] possessiv-test FAIL: \"" + t[0] + "\" (erwartet \"" + t[1] + "\")");
             }
             UnityEngine.Debug.Log("[QudDE] pipeline-test summary: " + pass + " passed, " + fail + " failed");
+        }
+
+        // Kurator-Tests: datengetriebene Grammatik-Tests aus COQDE/CuratorTests.json,
+        // gepflegt über die Kurator-UI (build/curator/, py build/curator/server.py).
+        // Fehlende/leere Datei => stiller Skip. Die UI liest die Ergebniszeilen aus
+        // Player.log; der geloggte file-mtime ist ihr Staleness-Anker (Log-Ergebnis
+        // vs. aktuell deployte Testdatei).
+        public static void CuratorTests()
+        {
+            try
+            {
+                string p = null;
+                foreach (var mod in ModManager.Mods)
+                {
+                    string cand = Path.Combine(mod.Path, "languages", "lang-de", "COQDE", "CuratorTests.json");
+                    if (File.Exists(cand)) { p = cand; break; }
+                }
+                if (p == null) return;
+                var arr = (JArray)JObject.Parse(File.ReadAllText(p))["tests"];
+                if (arr == null || arr.Count == 0) return;
+                UnityEngine.Debug.Log("[QudDE] curator-tests file-mtime=" + File.GetLastWriteTimeUtc(p).Ticks
+                    + " count=" + arr.Count);
+                int pass = 0, fail = 0;
+                foreach (var t in arr)
+                {
+                    if (t["enabled"] != null && !(bool)t["enabled"]) continue;
+                    string id = (string)t["id"] ?? "?";
+                    string template = (string)t["template"] ?? "";
+                    string want = (string)t["expected"] ?? "";
+                    try
+                    {
+                        GameObject subj = GameObjectFactory.Factory.CreateObject((string)t["subject"] ?? "Snapjaw");
+                        GameObject obj = GameObjectFactory.Factory.CreateObject((string)t["object"] ?? "Snapjaw");
+                        string got = GameText.VariableReplace(template, subj, obj);
+                        bool ok = string.Equals(got, want, StringComparison.Ordinal);
+                        if (ok) pass++; else fail++;
+                        UnityEngine.Debug.Log("[QudDE] curator-test " + id + " " + (ok ? "PASS" : "FAIL")
+                            + (ok ? "" : " got=\"" + got + "\" want=\"" + want + "\""));
+                    }
+                    catch (Exception e)
+                    {
+                        fail++;
+                        UnityEngine.Debug.Log("[QudDE] curator-test " + id + " ERROR " + e.Message);
+                    }
+                }
+                UnityEngine.Debug.Log("[QudDE] curator-tests summary: " + pass + " passed, " + fail + " failed");
+            }
+            catch (Exception ex)
+            {
+                UnityEngine.Debug.LogWarning("[QudDE] curator-tests load failed: " + ex.Message);
+            }
         }
 
         // Load-time self-test: logs every case for representative nouns to Player.log
@@ -1180,6 +1273,260 @@ namespace LanguagesOfQudGerman
                     + BuildDefinitePhrase(p, Case.Dat, false, false) + "\"");
         }
 
+        // ---- Demonstrativ: "=subject.this=" -> dieser/diese/dieses (statt englisch this/these) ----
+        // Das Original (IndicativeProximal) liest das Pronomen-Set; Deutsch braucht Genus des
+        // NOMENS + Kasus (:akk/:dat/:gen wie bei its). Spieler (du) -> Personalpronomen.
+        private static string Demonstrative(Gender g, Case c)
+        {
+            switch (g)
+            {
+                case Gender.Masc: return c == Case.Acc ? "diesen" : c == Case.Dat ? "diesem" : c == Case.Gen ? "dieses" : "dieser";
+                case Gender.Fem: return (c == Case.Dat || c == Case.Gen) ? "dieser" : "diese";
+                case Gender.Neut: return c == Case.Dat ? "diesem" : "dieses";
+                default: return c == Case.Dat ? "diesen" : c == Case.Gen ? "dieser" : "diese";
+            }
+        }
+
+        [VariableReplacer(new string[] { "this", "indicativeProximal" }, Override = true, Capitalization = true)]
+        [VariableExample("dieses:Dieses", "Croc")]
+        [VariableExample("diese:Diese", "Goat")]
+        [VariableExample("dieser:Dieser", "Glowfish")]
+        public static string DemonstrativeDe(VariableContext Context, GameObject Object)
+        {
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson)
+                return Cap(PlayerPronoun(CaseParam(Context)), Context.Capitalize);
+            Gender g = IsPlural(Object) ? Gender.Plural : GuessGender(GermanName(Object));
+            return Cap(Demonstrative(g, CaseParam(Context)), Context.Capitalize);
+        }
+
+        // "=object.that=" / indicativeDistal: das Original liefert englisch "that/those" aus dem
+        // Pronomen-Set. Deutsch unterscheidet nah/fern im Alltag nicht ("jener" klingt gestelzt)
+        // -> dieselbe Form wie this: dieser/diese/dieses, Kasus per :akk/:dat/:gen.
+        [VariableReplacer(new string[] { "that", "indicativeDistal" }, Override = true, Capitalization = true)]
+        [VariableExample("dieses:Dieses", "Croc")]
+        public static string DistalDemonstrativeDe(VariableContext Context, GameObject Object)
+        {
+            return DemonstrativeDe(Context, Object);
+        }
+
+        // ---- Objektpronomen mit Kasus: "von =subject.them:dat=" -> "von ihm" ----
+        // Ohne Parameter bleibt es beim Akkusativ aus dem Pronomen-Set (Genders.de.xml /
+        // PronounSets.de.xml: ihn/sie/es/dich). :dat bildet den Dativ aus dieser Akkusativform
+        // (ihn/es -> ihm, sie -> ihr bzw. Plural ihnen, dich -> dir); unbekannte Formen
+        // (Neopronomen em/hir/xem/zir) bleiben unverändert.
+        internal static string DativeFromAccusative(string acc, bool plural)
+        {
+            switch ((acc ?? "").ToLowerInvariant())
+            {
+                case "ihn": case "es": return "ihm";
+                case "sie": return plural ? "ihnen" : "ihr";
+                case "dich": return "dir";
+                case "mich": return "mir";
+                default: return acc; // euch/uns gleichlautend, Neopronomen unverändert
+            }
+        }
+
+        [VariableReplacer(new string[] { "objective", "them" }, Override = true, Capitalization = true)]
+        public static string ObjectiveDe(VariableContext Context, GameObject Object)
+        {
+            Case c = CaseParam(Context);
+            if (Object.IsPlayer() && Grammar.AllowSecondPerson && c != Case.Nom)
+                return Cap(PlayerPronoun(c), Context.Capitalize);
+            string acc = Object.GetPronounProvider().Objective;
+            string s = c == Case.Dat ? DativeFromAccusative(acc, IsPlural(Object)) : acc;
+            return Cap(s, Context.Capitalize);
+        }
+
+        // ---- Deutscher Plural (pluralize/plural): ersetzt Grammar.Pluralize (englische Regeln) ----
+        // Quelle 1: COQDE/PluralLexicon.tsv (Singular<TAB>Plural; Komposita erben vom längsten
+        // bekannten Grundwort wie beim Genus). Quelle 2: konservative Endungsregeln. Nur das
+        // Kopfwort wird gebeugt; führende Adjektive bekommen die starke Plural-Endung -e, wenn
+        // das sichere Adjektiv+Kopf-Muster vorliegt. Farbcodes bleiben (SplitColor).
+        private static readonly Dictionary<string, string> Plurals = new Dictionary<string, string>(StringComparer.Ordinal);
+
+        internal static void LoadPlurals()
+        {
+            try
+            {
+                foreach (var mod in ModManager.Mods)
+                {
+                    string p = Path.Combine(mod.Path, "languages", "lang-de", "COQDE", "PluralLexicon.tsv");
+                    if (!File.Exists(p)) continue;
+                    int n = 0;
+                    foreach (var raw in File.ReadAllLines(p))
+                    {
+                        string line = raw.Trim();
+                        if (line.Length == 0 || line[0] == '#') continue;
+                        var parts = raw.Split('\t');
+                        if (parts.Length < 2) continue;
+                        string sg = parts[0].Trim().ToLowerInvariant(), pl = parts[1].Trim().ToLowerInvariant();
+                        if (sg.Length == 0 || pl.Length == 0) continue;
+                        Plurals[sg] = pl;
+                        n++;
+                    }
+                    UnityEngine.Debug.Log("[QudDE] plural lexicon: " + n + " entries");
+                    return;
+                }
+            }
+            catch (Exception ex) { UnityEngine.Debug.LogWarning("[QudDE] plural lexicon load failed: " + ex.Message); }
+        }
+
+        // Plural EINES Wortes (Kopfnomen), Groß-/Kleinschreibung des Originals bleibt.
+        internal static string PluralWord(string word)
+        {
+            if (string.IsNullOrEmpty(word)) return word;
+            string w = word.ToLowerInvariant();
+            if (Plurals.TryGetValue(w, out var exact)) return KeepCase(word, exact);
+            // Kompositum: längstes bekanntes Grundwort (>= 3 Zeichen) am Wortende
+            string bestKey = null;
+            foreach (var k in Plurals.Keys)
+                if (k.Length >= 3 && k.Length < w.Length && w.EndsWith(k, StringComparison.Ordinal)
+                    && (bestKey == null || k.Length > bestKey.Length))
+                    bestKey = k;
+            if (bestKey != null)
+                return word.Substring(0, word.Length - bestKey.Length) + Plurals[bestKey];
+            if (w.EndsWith("chen") || w.EndsWith("lein") || w.EndsWith("er") || w.EndsWith("el") || w.EndsWith("en"))
+                return word;
+            if (w.EndsWith("ung") || w.EndsWith("heit") || w.EndsWith("keit") || w.EndsWith("schaft")
+                || w.EndsWith("ion") || w.EndsWith("tät") || w.EndsWith("ik")) return word + "en";
+            if (w.EndsWith("in")) return word + "nen";
+            if (w.EndsWith("um")) return word.Substring(0, word.Length - 2) + "en";
+            if (w.EndsWith("e")) return word + "n";
+            char last = w[w.Length - 1];
+            if ("aiouy".IndexOf(last) >= 0) return word + "s";
+            Gender g = GuessGender(word);
+            return word + (g == Gender.Fem ? "en" : "e");
+        }
+
+        private static string KeepCase(string original, string lower)
+        {
+            if (original.Length > 0 && char.IsUpper(original[0]) && lower.Length > 0)
+                return char.ToUpperInvariant(lower[0]) + lower.Substring(1);
+            return lower;
+        }
+
+        // Plural eines Namens/einer Phrase ("rostiger Wischmopp" -> "rostige Wischmoppe").
+        internal static string GermanPlural(string name)
+        {
+            if (string.IsNullOrEmpty(name)) return name;
+            string[] words = name.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (words.Length == 0) return name;
+            int head = words.Length - 1;
+            for (int i = 1; i < words.Length; i++)
+                if (FunctionWords.Contains(words[i])) { head = i - 1; break; }  // "Phiole mit Wasser"
+            SplitColor(words[head], out string pre, out string core, out string post);
+            words[head] = pre + PluralWord(core) + post;
+            if (head == words.Length - 1 && IsAdjNounPattern(words))
+                for (int i = 0; i < head; i++)
+                    words[i] = DeclineAdj(words[i], DeclType.Strong, Case.Nom, Gender.Plural);
+            return string.Join(" ", words);
+        }
+
+        [VariableReplacer(new string[] { "pluralize", "plural" }, Override = true, Capitalization = true)]
+        [VariableExample("Krokodile:Krokodile", "Croc")]
+        [VariableExample("Ziegen:Ziegen", "Goat")]
+        public static string PluralizeDe(VariableContext Context, GameObject Object)
+        {
+            string n = GermanName(Object, Context);
+            return Cap(IsPlural(Object) ? n : GermanPlural(n), Context.Capitalize);
+        }
+
+        // "=subject.pluralize:Wort=" / "=subject.pluralize.word:Wort=": das ANGEGEBENE Wort nach
+        // der Pluralität des Objekts (deutsches Wort im Template).
+        [VariableReplacer(new string[] { "pluralize.word" }, Override = true, Capitalization = true)]
+        public static string PluralizeWordDe(VariableContext Context, GameObject Object)
+        {
+            string what = Context.Parameters != null && Context.Parameters.Count > 0 ? Context.Parameters[0] : "";
+            return Cap(IsPlural(Object) ? GermanPlural(what) : what, Context.Capitalize);
+        }
+
+        [VariableReplacer(new string[] { "pluralize", "plural", "pluralize.word" }, Override = true, Capitalization = true)]
+        public static string PluralizeArgDe(VariableContext Context, GameObject Object, string What)
+        {
+            return Cap(IsPlural(Object) ? GermanPlural(What) : What, Context.Capitalize);
+        }
+
+        // Zahl + Wort: "=amount.pluralize:Dram=" / "=amount.pluralize:Punkt:Punkte=".
+        [VariableReplacer(new string[] { "pluralize" }, Override = true)]
+        public static string PluralizeNumberDe(VariableContext Context, int Number)
+        {
+            if (Context.Parameters == null || Context.Parameters.Count == 0) return "";
+            if (Number == 1) return Context.Parameters[0];
+            return Context.Parameters.Count > 1 ? Context.Parameters[1] : GermanPlural(Context.Parameters[0]);
+        }
+
+        [VariableReplacer(new string[] { "pluralize" }, Override = true)]
+        public static string PluralizeLongDe(VariableContext Context, long Number)
+        {
+            if (Context.Parameters == null || Context.Parameters.Count == 0) return "";
+            if (Number == 1) return Context.Parameters[0];
+            return Context.Parameters.Count > 1 ? Context.Parameters[1] : GermanPlural(Context.Parameters[0]);
+        }
+
+        [VariablePostProcessor("pluralize", "plural", Override = true)]
+        public static string PluralizePost(VariableContext Context)
+        {
+            return GermanPlural(Context.Value.ToString());
+        }
+
+        [VariablePostProcessor("pluralize", "plural", Override = true)]
+        public static string PluralizePostNumber(VariableContext Context, int Number)
+        {
+            string v = Context.Value.ToString();
+            return Number == 1 ? v : GermanPlural(v);
+        }
+
+        [VariablePostProcessor("pluralize", "plural", Override = true)]
+        public static string PluralizePostObject(VariableContext Context, GameObject Object)
+        {
+            string v = Context.Value.ToString();
+            return Object.GetPlurality(Context.HasParameter("asIfKnown")) ? GermanPlural(v) : v;
+        }
+
+        // ---- Körperteile mit Kasus/Possessiv: "=part.dativ=" -> "der rechten Hand",
+        // "=part.poss:dat=" -> "deiner rechten Hand" (Besitzer = Träger des Körpers). Ersetzt
+        // Muster wie "an Eurem =part.ordinalName=", deren Endung das Genus nicht kennt.
+        private static string PartName(XRL.World.Anatomy.BodyPart Part)
+        {
+            return TransformBodyPart(Part.GetOrdinalName(), Part.Laterality, false);
+        }
+
+        private static string PartCase(VariableContext Context, XRL.World.Anatomy.BodyPart Part, Case c)
+        {
+            return BuildDefinitePhrase(PartName(Part), c, Part.Plural, Context.Capitalize);
+        }
+
+        [VariableReplacer(new string[] { "nominativ" }, Capitalization = true)]
+        public static string PartNominativ(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
+        { return PartCase(Context, Part, Case.Nom); }
+
+        [VariableReplacer(new string[] { "akkusativ" }, Capitalization = true)]
+        public static string PartAkkusativ(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
+        { return PartCase(Context, Part, Case.Acc); }
+
+        [VariableReplacer(new string[] { "dativ" }, Capitalization = true)]
+        public static string PartDativ(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
+        { return PartCase(Context, Part, Case.Dat); }
+
+        [VariableReplacer(new string[] { "genitiv" }, Capitalization = true)]
+        public static string PartGenitiv(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
+        { return PartCase(Context, Part, Case.Gen); }
+
+        [VariableReplacer(new string[] { "poss" }, Capitalization = true)]
+        public static string PartPossessive(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
+        {
+            GameObject owner = Part.ParentBody?.ParentObject;
+            string stem = owner != null ? PossStem(owner) : "sein";
+            return BuildPossessivePhrase(PartName(Part), CaseParam(Context), Part.Plural, Context.Capitalize, stem);
+        }
+
+        [VariableReplacer(new string[] { "pluralize", "plural" }, Override = true, Capitalization = true)]
+        public static string PartPluralizeDe(VariableContext Context, XRL.World.Anatomy.BodyPart Part)
+        {
+            string n = PartName(Part);
+            return Cap(Part.Plural ? n : GermanPlural(n), Context.Capitalize);
+        }
+
         // ---- indefinite article, no name ("=a=") ----
         [VariableReplacer(new string[] { "a" }, Default = "ein ", Capitalization = true, Override = true)]
         public static string IndefiniteArticle(VariableContext Context, GameObject Object)
@@ -1197,7 +1544,7 @@ namespace LanguagesOfQudGerman
         {
             string name = GermanName(Object);
             if (Object.IsPlayer() && Grammar.AllowSecondPerson)
-                return "Ihr";
+                return Cap(PlayerPronoun(CaseOf(Context)), Context.Capitalize);
             // Plurals and proper names get the bare name (no indefinite article).
             if (IsPlural(Object) || IsProper(Object)) return name;
             var art = Indefinite(GuessGender(name), CaseOf(Context));

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "note": "Kurator-Testfaelle: von VariableReplacers.CuratorTests() beim Mod-Load ausgefuehrt; Ergebnisse in Player.log ([QudDE] curator-test <id> PASS/FAIL). Gepflegt ueber die Kurator-UI: py build/curator/server.py. subject/object sind Blueprint-Namen; fehlend => Snapjaw.",
+  "tests": [
+    {
+      "id": "torch-a-dativ",
+      "description": "Fackel: unbestimmter Artikel im Dativ (Seed-Test, beweist den Loop)",
+      "template": "=object.a.dativ=",
+      "subject": "Snapjaw",
+      "object": "Torch",
+      "expected": "einer Fackel",
+      "enabled": true,
+      "sourceUnit": ""
+    }
+  ]
+}
