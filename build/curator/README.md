@@ -24,7 +24,7 @@ Installation. Pfade (Spiel, Player.log, Deploy-Ordner, Port) lassen sich über
 | **Übersetzungen** | Suchen/Filtern über ~28.700 Einheiten aus 44 `*.de.xml` + `HistorySpice.jsonc`; Editieren mit unveränderlicher ID, Token-Palette, Live-Prüfbefunden; „Nur unübersetzt" = Manifest-Diff; **Geprüft-Marken** je Eintrag (Filter: ungeprüft/veraltet/geprüft) |
 | **Vorschläge** | Warteschlange für Assistenten-Änderungen (du-Umstellung, K3-Behebung): Wort-Diff + Szenen-Vorschau mit neuem Wert, Annehmen/Ablehnen/Bearbeiten — geschrieben wird NUR beim Annehmen, über den Writer |
 | **Szenen** | In-Kontext-Vorschau: Übersetzungen in nachgebauten Qud-Fenstern (Gespräch, Popup, Nachrichtenlog, Look-Karte) zusammen mit ihren Nachbar-Bausteinen, Grammatik-Tokens emuliert — siehe unten |
-| **Prüfungen** | Lint über den ganzen Korpus (T1–T6 Token-Regeln, B1 Boolean, N1 Naming-Substring, X1 Entity, X2 Schema, K1–K4 Kontext, G1/G2 Glossar); Klick öffnet den Eintrag |
+| **Prüfungen** | Lint über den ganzen Korpus (T1–T6 Token-Regeln, B1 Boolean, N1 Naming-Substring, X1 Entity, X2 Schema, K1–K7 Kontext, G1/G2 Glossar, S/L/H/D Plausibilität); Klick öffnet den Eintrag |
 | **Glossar** | Begriffe (EN → DE, Genus, Plural, verbotene Varianten) + Anrede-Richtlinie (**du/du** seit 2026-10-22); Vorschläge aus Kreatur-/Gegenstandsnamen (mit „belegt"-Quote, Mehrfach-Übernahme) und eingefärbten Begriffen; Abgleich mit dem Genus-Lexikon |
 | **Tests** | CuratorTests.json pflegen; Ergebnisse des letzten Spiel-Laufs mit Staleness-Diagnose; **„Emulation prüfen"** erzeugt `ctx-auto-*`-Tests aus den häufigsten Grammatik-Tokens (FAIL = Vorschau weicht vom Spiel ab) |
 | **Lexikon** | GenderLexicon.tsv mit Konsequenz-Vorschau (Suffix-Vererbung!) und L1/L2-Prüfung |
@@ -119,6 +119,22 @@ hinweg (du/Ihr/Sie), Kasus über Fragmentgrenzen, Länge und Umbruch.
 | G1 | warning | Glossar-Begriff im Englischen, deutsche Festlegung fehlt / verbotene Variante |
 | G2 | warning | Artikel direkt vor dem Begriff passt in keinem Kasus zum Glossar-Genus; Genitiv m/n ohne -s |
 
+## Plausibilitätsprüfungen (`plausi.py`)
+
+Fehlerklassen aus dem Spieler-Feedback 2026-11-11; laufen im Prüfungen-Tab mit und als
+Gate von der Kommandozeile: `cd build && py -m curator.plausi` (Exit 1 bei error).
+
+| Regel | Schwere | Was |
+|---|---|---|
+| S1 | warning | String-ID veraltet: Context existiert im Manifest, der englische Text nicht mehr (Upstream-Update) — bzw. toter Alteintrag, wenn die neue Fassung schon übersetzt ist |
+| S2 | warning | Kontextloser String, den das Spiel nur mit Context abfragt — greift nie |
+| S3 | warning | Manifest-String fehlt bei uns (zeigt Englisch) |
+| L1 | error | Eigener Loader ohne `Load="Merge"` (`REPLACE_BY_NAME_LOADERS`, z. B. Baetyl-`<reward>`) — ersetzt Base-Daten komplett |
+| H1 | error | InventoryAction-Hotkey nicht genau ein Zeichen (`ein` statt `a`) |
+| H2 | error | `<display>` von Aktionen, die C# per `.Display` vergleicht (`CODE_READ_ACTIONS`), nicht kleingeschrieben — blockiert das Tutorial |
+| D1 | warning | Wortdopplung im Anzeigenamen („X X“, `{{c|A-B}}B`) |
+| D2 | warning | Stufen-Ziffer (I–VIII) im Namen, die das Englische nicht hat („Dolch VII“) |
+| D3 | warning | Englisches Material-/Attributwort im deutschen Namen (crysteel, flawless …) |
 
 **Schwere je Regel** (Prüfungen-Tab, Auswahl neben jeder Regel): Standard / off /
 info / warning / error, gespeichert in `glossary.json` → `rules`. `off` blendet die
@@ -253,6 +269,7 @@ py -m unittest discover -s build/curator/tests
 - `test_roundtrip.py` — No-op-Saves byte-identisch über JEDE Einheit;
   Mutations-/Restore-Test; Ausbruchs-, 409- und Naming-Guards; Neuanlage
 - `test_german.py` — WeakConjugate/GuessGender-Parität mit den C#-Vektoren
+- `test_plausi.py` — jede Plausibilitätsregel findet ihren Original-Defekt; Korpus 0 error
 - `test_lint.py` — Lint-Baseline (0 error-Befunde im Korpus) + Registry
 - `test_grammar_emu.py` — Token-Emulation gegen `[VariableExample]`,
   Pipeline-/Verb-Vektoren und CuratorTests.json (live aus dem C# geparst)

@@ -13,6 +13,7 @@ Regeln (Schwere: error > warning > info):
   X2 Elementpfad nicht im Spiel-Manifest                       warning
   P1 Parität zur Vorlage: Zahlen, Leerraum am Rand/doppelt, Klammern   warning/info
   K1–K7, G1/G2 Kontext-/Glossar-Regeln (korpusweit)        siehe context_lint.py
+  S1–S3, L1, H1/H2, D1–D3 Plausibilitätsprüfungen            siehe plausi.py
 
 Schwere je Regel übersteuerbar (glossary.json „rules“: off|info|warning|error).
 „error“ blockt zusätzlich das Speichern, wenn die Änderung einen NEUEN Befund
@@ -387,6 +388,7 @@ class LintEngine:
                 out.extend(self.lint_file(fn))
             out.extend(self.naming_findings())
             out.extend(self.context_findings())
+            out.extend(self.plausi_findings())
             return apply_levels(out)
 
     def context_findings(self):
@@ -396,19 +398,28 @@ class LintEngine:
             return []
         return context_lint.findings(self.store)
 
+    def plausi_findings(self):
+        try:
+            from . import plausi
+        except ImportError:
+            return []
+        return plausi.findings(self.store)
+
     def findings_for(self, u):
         with self.lock:
             per_file = self.lint_file(u.file)
             mine = [f for f in per_file if f["uid"] == u.uid]
             mine.extend(f for f in self.naming_findings() if f["uid"] == u.uid)
             mine.extend(f for f in self.context_findings() if f["uid"] == u.uid)
+            mine.extend(f for f in self.plausi_findings() if f["uid"] == u.uid)
             return apply_levels(mine)
 
     def value_findings(self, u):
         """Befunde, die nur vom Wert dieser Einheit abhängen (für Kandidaten-Werte)."""
-        from . import context_lint
+        from . import context_lint, plausi
         with self.lock:
-            return apply_levels(self.lint_value(u) + context_lint.unit_findings(u))
+            return apply_levels(self.lint_value(u) + context_lint.unit_findings(u)
+                                + plausi.unit_findings(u))
 
     def new_errors(self, old_u, new_u):
         """error-Befunde, die der neue Wert ZUSÄTZLICH erzeugt (Bestand blockt nicht)."""

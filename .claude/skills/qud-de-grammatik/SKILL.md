@@ -63,6 +63,8 @@ Eingang: „Zeile X ist englisch / falsch dekliniert / gemischt." Log:
 - [ ] Replacer/Postprocessor geben **string zurück** — keine TextBuilder-Schreib-Overloads
       (Append/Insert brechen den net48-Smoke mit CS0518).
 - [ ] **Smoke-Gate:** `dotnet build build/smoke/smoke.csproj -c Release` → 0 Fehler.
+- [ ] **Plausi-Gate:** `cd build && py -m curator.plausi` → 0 error (S/L/H/D-Regeln;
+      nach jedem Spiel-Update zusätzlich S1/S3 = 0, sonst sind IDs veraltet/fehlen).
 - [ ] XML-Validierung geänderter `.de.xml` (python ElementTree).
 - [ ] Buch-/Beschreibungs-/Konversationstexte geändert? →
       `python build/tools/build_library_corpus.py` neu laufen lassen.
