@@ -4,6 +4,30 @@ Deutsche Lokalisierung auf Basis der offiziellen Lokalisierungs-Unterstützung i
 `lang-experimental`-Branch. Reiner Daten-Mod mit nativen VariableReplacers; die frühere
 Laufzeit-DLL (`COQDE.dll`, v0.8.0–v0.8.1) wurde in v0.9.0 entfernt.
 
+## v0.11.0 – Spieler-Fixes, Spiel-Update-Abgleich, Gegenstandsnamen
+
+- **Absturz bei Paria-Gruppen behoben:** Gemischte Paria-Trupps (z. B. am Fluss
+  Richtung Mamon) brachten das Spiel zum Absturz – eine Endlosschleife beim
+  Possessivpronomen ihres Titels.
+- **Baetyls geben wieder Belohnungen:** Die Übersetzung hatte die Belohnungsdaten
+  überschrieben (kein Gegenstand, keine Punkte, kein Ruf).
+- **Tutorial wieder spielbar:** Menüoptionen wie „ausrüsten (auto)“ ließen sich nicht
+  bestätigen; 45 Tastenkürzel („ein“ statt „a“) korrigiert.
+- **Spiel-Update (lang-experimental, Build 26307554):** 587 geänderte/neue Texte
+  abgeglichen bzw. übersetzt; vorher fielen sie auf Englisch zurück.
+- **Gegenstandsnamen:** Material-Waffen und -Rüstungen einheitlich (Karbid, Fullerit,
+  Kristallstahl, Zetachrom; „makelloser Kristallstahl-Dolch“ statt „Dolch VII“),
+  42 doppelte Namen bereinigt, Figurinen zeigen wieder die Kreatur.
+- **Skills:** 46 Namen korrigiert (u. a. Kurzklinge, Abstechen, Konter, Sturmangriff,
+  Magazine leeren); Beschreibungen in Mutationen und Fähigkeiten durchgehend mit „du“.
+- **Grammatik:** Namen ohne Artikel werden dekliniert („nasser Leuchtfisch“), auch bei
+  farbig markierten Namen.
+- **Hinweis zu Spielständen:** Bereits erzeugte Gegenstände behalten ihre alten Namen,
+  schon festgelegte Baetyl-Belohnungen bleiben leer; neu erzeugte sind korrekt.
+- Bekannt: Der Titel „pariah to … people“ bleibt englisch (fest im Spielcode).
+- Für Mitwirkende: Plausibilitätsprüfungen als Commit-Gate
+  (`cd build && py -m curator.plausi`).
+
 ## v0.10.0 – du-Anrede, vollständige Abdeckung, Grammatik-Erweiterungen
 
 - **Anrede du:** Der Spieler wird korpusweit geduzt (Engine: Personalpronomen
