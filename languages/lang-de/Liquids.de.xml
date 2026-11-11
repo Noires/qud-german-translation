@@ -78,7 +78,7 @@
     <smearedAdjective>{{cloning|homogenisiert}}</smearedAdjective>
     <smearedName>{{cloning|homogenisiert}}</smearedName>
     <stainedName>{{cloning|Klonungs-Trank}}</stainedName>
-    <part Name="CloningBehaviors" DrinkMessage="Sie fühlen sich verstörendambivalent." />
+    <part Name="CloningBehaviors" DrinkMessage="Du fühlst dich verstörend ambivalent." />
   </liquid>
   <liquid Name="Convalessence">
     <circulatoryLossTerm>undicht</circulatoryLossTerm>
@@ -154,7 +154,7 @@
     <part Name="MessageOnDrink" Message="{{lava|ES BRENNT!}}" />
     <part Name="DamageOnDrink" Message="von {{lava|Lava trinken}}!" />
     <part Name="AccomplishmentOnDrink">
-      <accomplishment>Unerklärlich trinkt Ihr Lava.</accomplishment>
+      <accomplishment>Unerklärlicherweise hast du Lava getrunken.</accomplishment>
       <muralText>Aus Gründen, die die Sphinx der subjektiven Erfahrung geheim hält, trank =name= den verbotenen Tee.</muralText>
       <gospelText>While traveling through =player.zone.name=, =name= stopped at a tavern in =landmark.nearest=. There =player.subjective= lost a bet and bashfully drank a dram of lava. Miraculously, =player.subjective= left the tavern unharmed.</gospelText>
     </part>
@@ -201,7 +201,7 @@
     <stainedName>{{K|Schleim}}</stainedName>
     <part Name="MessageOnDrink" Message="Es ist abstoßend!" />
     <part Name="DiseaseOnGoingProne" Message="Fauliger Schleim spritzt dir in den Mund. Du würgst bei dem schrecklichen Geschmack." />
-    <part Name="DiseaseOnDrink" Message="Sie fühlen sich krank!" />
+    <part Name="DiseaseOnDrink" Message="Du fühlst dich krank!" />
   </liquid>
   <liquid Name="PrimordialSoup">
     <circulatoryLossTerm>undicht</circulatoryLossTerm>
@@ -278,7 +278,7 @@
     <smearedName>{{w|schlammig}}</smearedName>
     <stainedName>{{w|Schlamm}}</stainedName>
     <part Name="RustOnGoingProne" Message="Brauner Schlamm spritzt in deinen Mund. Du zuckst bei dem metallischen Geschmack zusammen." />
-    <part Name="PoisonOnDrink" Message="Sie fühlen sich krank!" />
+    <part Name="PoisonOnDrink" Message="Du fühlst dich krank!" />
     <part Name="MessageOnDrink" Message="Es ist entsetzlich!" />
   </liquid>
   <liquid Name="Sunslag">
@@ -298,7 +298,7 @@
 
         Your Quickness is permanently increased by {{rules|=boost=}}.
       </boostedMessage>
-      <accomplishmentText>Sie tranken die helle Creme des Palladium-Riffs und wurden beschleunigt.</accomplishmentText>
+      <accomplishmentText>Du trankst die helle Creme des Palladium-Riffs und wurdest beschleunigt.</accomplishmentText>
       <muralText>Seht =player.name= die Knochen der Poleis aufbrechen und ihr Mark trinken! Werdet belebt, unser Saad, durch die zivile Lebenskraft!</muralText>
       <gospelText>While traveling through =terrain.t=, =player.name= stopped at a tavern in =landmark.nearest=. There =player.subjective= won a bet and triumphantly drank a dram of sunslag. =player.Subjective= =player.verb:were= quickened and left the tavern at an untrackable pace.</gospelText>
     </part>
@@ -347,7 +347,7 @@
     <smearedAdjective>{{m|üppig}}</smearedAdjective>
     <smearedName>{{m|üppig}}</smearedName>
     <stainedName>{{m|Wein}}</stainedName>
-    <part Name="HydrateOnDrink" Message="Sie erglühen vom wärmenden Trunk!" />
+    <part Name="HydrateOnDrink" Message="Du erglühst vom wärmenden Trunk!" />
   </liquid>
   <liquid Name="WarmStatic">
     <circulatoryLossTerm>undicht</circulatoryLossTerm>

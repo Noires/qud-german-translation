@@ -29,14 +29,14 @@
         <p>Du regulierst die Ausschüttung von Adrenalin in deinem Körper.</p>
       </description>
       <leveltext>
-        <p>Ihr könnt den Adrenalinfluss Eures Körpers für <stat Name="Duration" /> steigern.</p>
-        <p>Während er fließt, erhaltet Ihr +<stat Name="QuicknessBonus" /> Schnelligkeit, und andere körperliche Mutationen erhalten +<stat Name="MutationBonus" Unit="rank" />.</p>
+        <p>Du kannst den Adrenalinfluss deines Körpers für <stat Name="Duration" /> steigern.</p>
+        <p>Während er fließt, erhältst du +<stat Name="QuicknessBonus" /> Schnelligkeit, und andere körperliche Mutationen erhalten +<stat Name="MutationBonus" Unit="rank" />.</p>
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
     </mutation>
     <mutation Name="Beak" DisplayName="Schnabel" BearerDescription="jene mit Schnäbeln">
       <description>
-        <p>Euer Gesicht ziert ein ansehnlicher <stat Name="BeakName" />.</p>
+        <p>Dein Gesicht ziert ein ansehnlicher <stat Name="BeakName" />.</p>
         <br />
         <p>+1 Ego</p>
         <p>Gelegentlich pickst du nach deinen Gegnern.</p>
@@ -87,13 +87,13 @@
             </p>
           </default>
         </switch>
-        <p>Ihr könnt Euren <stat Name="CarapaceName" /> festziehen, um den doppelten AV-Bonus bei einem Malus von -2 DV zu erhalten, solange Ihr regungslos bleibt.</p>
+        <p>Du kannst deinen <stat Name="CarapaceName" /> festziehen, um den doppelten AV-Bonus bei einem Malus von -2 DV zu erhalten, solange du regungslos bleibst.</p>
         <p>Kann keine Körperrüstung tragen.</p>
       </leveltext>
     </mutation>
     <mutation Name="Corrosive Gas Generation" DisplayName="Korrosive Gaserzeugung" BearerDescription="jene, die ätzendes Gas ausstoßen">
       <description>
-        <p>Ihr setzt einen Schwall von <stat Name="GasName" /> um Euch herum frei.</p>
+        <p>Du setzt einen Schwall von <stat Name="GasName" /> um dich herum frei.</p>
       </description>
       <leveltext>
         <p>Setzt Gas frei für <stat Name="Duration" />
@@ -116,7 +116,7 @@
       <leveltext>
         <p>+<stat Name="Strength" /> Stärke</p>
         <p>
-          <stat Name="DazeChance" />% Chance, Euren Gegner bei einem erfolgreichen Nahkampfangriff für 2-3 Runden zu betäuben</p>
+          <stat Name="DazeChance" />% Chance, deinen Gegner bei einem erfolgreichen Nahkampfangriff für 2-3 Runden zu betäuben</p>
       </leveltext>
     </mutation>
     <mutation Name="Electrical Generation" DisplayName="Stromerzeugung" BearerDescription="jene, die Elektrizität erzeugen">
@@ -138,7 +138,7 @@
             <p>Du kannst Ladung aus Energiezellen und Kondensatoren trinken.</p>
           </default>
         </switch>
-        <p>Ihr erhaltet <stat Name="DamageAbsorbFactor" /> Ladung pro Punkt erlittenen elektrischen Schadens.</p>
+        <p>Du erhältst <stat Name="DamageAbsorbFactor" /> Ladung pro Punkt erlittenen elektrischen Schadens.</p>
         <p>Du kannst ausgerüsteten Geräten mit integrierter Energieversorgung Ladung zuführen.</p>
       </leveltext>
     </mutation>
@@ -147,21 +147,21 @@
         <p>Du erzeugst einen elektromagnetischen Puls, der Artefakte und Maschinen in der Nähe deaktiviert.</p>
       </description>
       <leveltext>
-        <p>Bereich: <stat Name="Area" /> um Euch herum zentriert</p>
+        <p>Bereich: <stat Name="Area" /> um dich herum zentriert</p>
         <statline Name="Duration" DisplayName="Dauer" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
     </mutation>
     <mutation Name="Flaming Ray" DisplayName="Flammender Strahl" BearerDescription="die Feuerhändigen">
       <description>
-        <p>Ihr sondert einen Flammenstrahl ab<switch Name="BodyPartName">
+        <p>Du sonderst einen Flammenstrahl ab<switch Name="BodyPartName">
             <case Value="" />
-            <default> aus Eurem <stat Name="BodyPartName" />
+            <default> aus deinem <stat Name="BodyPartName" />
             </default>
           </switch>.</p>
       </description>
       <leveltext>
-        <p>Sondert einen <stat Name="Range" />-Felder langen Flammenstrahl in eine Richtung Eurer Wahl ab.</p>
+        <p>Sondert einen <stat Name="Range" />-Felder langen Flammenstrahl in eine Richtung deiner Wahl ab.</p>
         <statline Name="Damage" DisplayName="Schaden" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Nahkampfangriffe erhitzen Gegner um <stat Name="HeatOnHit" Unit="degree" />
@@ -170,14 +170,14 @@
     </mutation>
     <mutation Name="Freezing Ray" DisplayName="Gefrierender Strahl" BearerDescription="die Frosthändigen">
       <description>
-        <p>Ihr sondert einen Froststrahl ab<switch Name="BodyPartName">
+        <p>Du sonderst einen Froststrahl ab<switch Name="BodyPartName">
             <case Value="" />
-            <default> aus Eurem <stat Name="BodyPartName" />
+            <default> aus deinem <stat Name="BodyPartName" />
             </default>
           </switch>.</p>
       </description>
       <leveltext>
-        <p>Sondert einen <stat Name="Range" />-Felder langen Froststrahl in eine Richtung Eurer Wahl ab.</p>
+        <p>Sondert einen <stat Name="Range" />-Felder langen Froststrahl in eine Richtung deiner Wahl ab.</p>
         <statline Name="Damage" DisplayName="Schaden" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
         <p>Nahkampfangriffe kühlen Gegner um <stat Name="CoolOnHit" Unit="degree" />
@@ -189,7 +189,7 @@
         <p>Du besitzt ein unnatürlich scharfes Gehör.</p>
       </description>
       <leveltext>
-        <p>Ihr spürt die Anwesenheit von Kreaturen in einem Radius von <stat Name="Radius" />.</p>
+        <p>Du spürst die Anwesenheit von Kreaturen in einem Radius von <stat Name="Radius" />.</p>
         <switch Name="LevelMatch">
           <case Value="true">
             <p>Chance, entdeckte Kreaturen in der Nähe zu identifizieren</p>
@@ -286,9 +286,9 @@
         <p>Du regenerierst dich, indem du durch deine kräftige grüne Haut Sonnenlicht aufnimmst.</p>
       </description>
       <leveltext>
-        <p>Ihr könnt Euch <stat Name="DurationDay" Unit="day" /> lang im Sonnenlicht aalen, anstatt eine Mahlzeit zu essen, um einen besonderen Stoffwechseleffekt zu erhalten: +<stat Name="BonusRegen" /> auf die natürliche Heilungsrate und +<stat Name="BonusQuickness" /> Schnelligkeit</p>
-        <p>Solange Ihr Euch im Sonnenlicht befindet, sammelt Ihr Stärke und Lignin an, die Ihr als Zutaten für Mahlzeiten verwenden könnt, die Ihr kocht (maximal <stat Name="StarchServings" Unit="serving" /> von jedem).</p>
-        <p>+<stat Name="BonusCamoflage" /> DV, solange Ihr Euch am selben Ort wie Laub befindet</p>
+        <p>Du kannst dich <stat Name="DurationDay" Unit="day" /> lang im Sonnenlicht aalen, anstatt eine Mahlzeit zu essen, um einen besonderen Stoffwechseleffekt zu erhalten: +<stat Name="BonusRegen" /> auf die natürliche Heilungsrate und +<stat Name="BonusQuickness" /> Schnelligkeit</p>
+        <p>Solange du dich im Sonnenlicht befindest, sammelst du Stärke und Lignin an, die du als Zutaten für Mahlzeiten verwenden kannst, die du kochst (maximal <stat Name="StarchServings" Unit="serving" /> von jedem).</p>
+        <p>+<stat Name="BonusCamoflage" /> DV, solange du dich am selben Ort wie Laub befindest</p>
         <p>+200 Ruf bei {{w|Wurzeln}}, {{w|Bäumen}}, {{w|Ranken}} und {{w|dem Konsortium der Phyta}}</p>
       </leveltext>
     </mutation>
@@ -309,11 +309,11 @@
             </p>
           </default>
         </switch>
-        <p>Kann 10 % Eurer <stat Name="Quills" /> in einer Salve um Euch herum verschießen (<gametext>=pv=<stat Name="QuillPen" /> =damage=<stat Name="QuillDamage" />
+        <p>Kann 10 % deiner <stat Name="Quills" /> in einer Salve um dich herum verschießen (<gametext>=pv=<stat Name="QuillPen" /> =damage=<stat Name="QuillDamage" />
           </gametext>)</p>
-        <p>Regeneriert Eure <stat Name="Quills" /> mit einer ungefähren Rate von <stat Name="RegenRate" /> pro Runde</p>
-        <p>+<stat Name="AV" /> AV, solange Ihr die Hälfte Eurer <stat Name="Quills" /> behaltet (sonst +<stat Name="AVWithPenalty" /> AV)</p>
-        <p>Kreaturen, die Euch im Nahkampf angreifen, können sich an Euren <stat Name="Quills" /> aufspießen, wobei etwa 1 % davon brechen und pro gebrochenem <stat Name="Quill" /> 3 % Schaden reflektiert wird.</p>
+        <p>Regeneriert deine <stat Name="Quills" /> mit einer ungefähren Rate von <stat Name="RegenRate" /> pro Runde</p>
+        <p>+<stat Name="AV" /> AV, solange du die Hälfte deiner <stat Name="Quills" /> behältst (sonst +<stat Name="AVWithPenalty" /> AV)</p>
+        <p>Kreaturen, die dich im Nahkampf angreifen, können sich an deinen <stat Name="Quills" /> aufspießen, wobei etwa 1 % davon brechen und pro gebrochenem <stat Name="Quill" /> 3 % Schaden reflektiert wird.</p>
         <p>Körperrüstung kann nicht getragen werden</p>
         <p>Immun gegen die <stat Name="Quills" /> anderer Kreaturen</p>
       </leveltext>
@@ -347,7 +347,7 @@
     </mutation>
     <mutation Name="Sleep Gas Generation" DisplayName="Schlafgaserzeugung" BearerDescription="jene, die Schlafgas ausstoßen">
       <description>
-        <p>Ihr setzt einen Schwall <stat Name="GasName" /> um Euch herum frei.</p>
+        <p>Du setzt einen Schwall <stat Name="GasName" /> um dich herum frei.</p>
       </description>
       <leveltext>
         <p>Setzt Gas frei für <stat Name="Duration" />
@@ -397,10 +397,10 @@
     </mutation>
     <mutation Name="Stinger (Confusing Venom)" DisplayName="Stachel (Verwirrendes Gift)" BearerDescription="jene mit Stacheln voll verwirrenden Giftes">
       <description>
-        <p>Ihr besitzt einen Schwanz mit einem Stachel, der Euren Feinden <stat Name="VenomType" />-Gift injiziert.</p>
+        <p>Du besitzt einen Schwanz mit einem Stachel, der deinen Feinden <stat Name="VenomType" />-Gift injiziert.</p>
       </description>
       <leveltext>
-        <p>20 % Chance bei einem Nahkampfangriff, Euren Gegner zu stechen (<gametext>=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" />
+        <p>20 % Chance bei einem Nahkampfangriff, deinen Gegner zu stechen (<gametext>=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" />
           </gametext>)</p>
         <p>Der Stachel ist eine lange Klinge und kann nur einmal durchdringen.</p>
         <p>Sticht immer bei einem Ansturm oder Ausfallschritt.</p>
@@ -414,10 +414,10 @@
     </mutation>
     <mutation Name="Stinger (Paralyzing Venom)" DisplayName="Stachel (Lahmendes Gift)" BearerDescription="jene mit Stacheln voll lähmenden Giftes">
       <description>
-        <p>Ihr besitzt einen Schwanz mit einem Stachel, der Euren Feinden <stat Name="VenomType" />-Gift injiziert.</p>
+        <p>Du besitzt einen Schwanz mit einem Stachel, der deinen Feinden <stat Name="VenomType" />-Gift injiziert.</p>
       </description>
       <leveltext>
-        <p>20 % Chance bei einem Nahkampfangriff, Euren Gegner zu stechen (<gametext>=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" />
+        <p>20 % Chance bei einem Nahkampfangriff, deinen Gegner zu stechen (<gametext>=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" />
           </gametext>)</p>
         <p>Der Stachel ist eine lange Klinge und kann nur einmal durchdringen.</p>
         <p>Sticht immer bei einem Ansturm oder Ausfallschritt.</p>
@@ -431,10 +431,10 @@
     </mutation>
     <mutation Name="Stinger (Poisoning Venom)" DisplayName="Stachel (Vergiftendes Gift)" BearerDescription="jene mit Stacheln voll vergiftenden Giftes">
       <description>
-        <p>Ihr besitzt einen Schwanz mit einem Stachel, der Euren Feinden <stat Name="VenomType" />-Gift injiziert.</p>
+        <p>Du besitzt einen Schwanz mit einem Stachel, der deinen Feinden <stat Name="VenomType" />-Gift injiziert.</p>
       </description>
       <leveltext>
-        <p>20 % Chance bei einem Nahkampfangriff, Euren Gegner zu stechen <gametext>(=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" />
+        <p>20 % Chance bei einem Nahkampfangriff, deinen Gegner zu stechen <gametext>(=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" />
           </gametext>)</p>
         <p>Der Stachel ist eine lange Klinge und kann nur einmal durchdringen.</p>
         <p>Sticht immer bei einem Ansturm oder Ausfallschritt.</p>
@@ -481,7 +481,7 @@
       </description>
       <leveltext>
         <p>+<stat Name="Toughness" /> Zähigkeit</p>
-        <p>Ihr könnt <stat Name="SprintBonus" />% länger sprinten.</p>
+        <p>Du kannst <stat Name="SprintBonus" />% länger sprinten.</p>
       </leveltext>
     </mutation>
     <mutation Name="Wings" DisplayName="Flügel" BearerDescription="die Geflügelten">
@@ -489,16 +489,16 @@
         <p>Du fliegst.</p>
       </description>
       <leveltext>
-        <p>Ihr reist auf der Weltkarte mit <stat Name="WorldMapTravelSpeed" />-facher Geschwindigkeit.</p>
+        <p>Du reist auf der Weltkarte mit <stat Name="WorldMapTravelSpeed" />-facher Geschwindigkeit.</p>
         <p>
-          <stat Name="LostSaveBonus" />% geringere Chance, Euch zu verirren</p>
+          <stat Name="LostSaveBonus" />% geringere Chance, dich zu verirren</p>
         <p>Im Freien kannst du fliegen. Während du fliegst, kannst du von bodengebundenen Kreaturen nicht im Nahkampf getroffen werden.</p>
         <p>
           <stat Name="CrashChance" />% Chance, unsanft zu Boden zu stürzen</p>
         <p>
           <stat Name="SprintingMoveSpeedBonus" Filters="signed" />% Bewegungsgeschwindigkeit während des Sprintens</p>
-        <p>Ihr könnt <stat Name="JumpDistanceBonus" Unit="square" /> weiter springen.</p>
-        <p>Ihr könnt <stat Name="ChargeDistanceBonus" Unit="square" /> weiter stürmen.</p>
+        <p>Du kannst <stat Name="JumpDistanceBonus" Unit="square" /> weiter springen.</p>
+        <p>Du kannst <stat Name="ChargeDistanceBonus" Unit="square" /> weiter stürmen.</p>
         <p>+300 Ansehen bei {{w|Vögeln}} und {{w|geflügelten Säugetieren}}</p>
       </leveltext>
     </mutation>
@@ -508,7 +508,7 @@
       <description>
         <p>Deiner Haut, deinem Haar und deinen Augen fehlt jegliches Pigment.</p>
         <br />
-        <p>Bei Tageslicht regeneriert Ihr Trefferpunkte nur mit einem Fünftel der üblichen Rate.</p>
+        <p>Bei Tageslicht regenerierst du Trefferpunkte nur mit einem Fünftel der üblichen Rate.</p>
       </description>
       <leveltext />
     </mutation>
@@ -570,7 +570,7 @@
     </mutation>
     <mutation Name="Hooks for Feet" DisplayName="Haken für Füße" BearerDescription="jene mit Haken als Füßen">
       <description>
-        <p>Ihr habt <stat Name="BlueprintName" /> als Füße.</p>
+        <p>Du hast <stat Name="BlueprintName" /> als Füße.</p>
         <br />
         <p>Du kannst keine Schuhe tragen.</p>
       </description>
@@ -757,7 +757,7 @@
         <p>Du manipulierst Licht zu deinem Vorteil.</p>
       </description>
       <leveltext>
-        <p>Ihr erzeugt Umgebungslicht im Umkreis von <stat Name="Radius" />.</p>
+        <p>Du erzeugst Umgebungslicht im Umkreis von <stat Name="Radius" />.</p>
         <p>Du kannst das Licht in einen Laserstrahl bündeln und dabei den Radius deines Umgebungslichts vorübergehend um 1 verringern.</p>
         <statline Name="LaserDamageInc" DisplayName="Laser-Schadensinkrement" />
         <statline Name="LaserPen" DisplayName="Laser-Durchdringung" />
@@ -791,7 +791,7 @@
         <p>Du reflektierst mentale Angriffe zurück auf deine Angreifer.</p>
       </description>
       <leveltext>
-        <p>Wenn Ihr einen mentalen Angriff erleidet, während Mentaler Spiegel nicht abklingt, erhaltet Ihr +<stat Name="BonusMA" /> mentale Rüstung (MA).</p>
+        <p>Wenn du einen mentalen Angriff erleidest, während Mentaler Spiegel nicht abklingt, erhältst du +<stat Name="BonusMA" /> mentale Rüstung (MA).</p>
         <p>Wenn der Angriff daraufhin deine MA nicht durchdringt, wird er auf deinen Angreifer zurückreflektiert.</p>
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
@@ -845,7 +845,7 @@
       <description>
         <p>Du kannst andere mentale Mutanten durch den psychischen Äther spüren.</p>
         <br />
-        <p>Ihr erkennt die Anwesenheit psychischer Feinde in einem Radius von <stat Name="Radius" />.</p>
+        <p>Du erkennst die Anwesenheit psychischer Feinde in einem Radius von <stat Name="Radius" />.</p>
         <p>Es besteht eine Chance, dass du erkannte Feinde identifizierst.</p>
       </description>
       <leveltext />
@@ -890,7 +890,7 @@
         <p>Jede Handlung außer dem Aussetzen der Runde beendet die Verbindung.</p>
         <p>Jede Runde führst du einen mentalen Angriff gegen die mentale Rüstung (MA) aus.</p>
         <statline Name="DamageIncrement" DisplayName="Damage increment" />
-        <p>Nach der zehnten Runde fügt Ihr Bonusschaden in Höhe des bisher insgesamt verursachten Schadens zu.</p>
+        <p>Nach der zehnten Runde fügst du Bonusschaden in Höhe des bisher insgesamt verursachten Schadens zu.</p>
         <statline Name="Range" DisplayName="Reichweite" />
         <statline Name="Cooldown" DisplayName="Abklingzeit" />
       </leveltext>
@@ -940,7 +940,7 @@
         <p>Du verzerrst die Zeit um deine Person, um deine Feinde zu verlangsamen.</p>
       </description>
       <leveltext>
-        <p>Kreaturen innerhalb von <stat Name="Range" /> Feldern werden verlangsamt, je näher sie bei Euch sind.</p>
+        <p>Kreaturen innerhalb von <stat Name="Range" /> Feldern werden verlangsamt, je näher sie bei dir sind.</p>
         <p>Abstand 1: Kreaturen erhalten eine <stat Name="QuicknessPenalty1" />% Schnelligkeitsstrafe</p>
         <p>Abstand 4: Kreaturen erhalten eine <stat Name="QuicknessPenalty4" />% Schnelligkeitsstrafe</p>
         <p>Abstand 7: Kreaturen erhalten eine <stat Name="QuicknessPenalty7" />% Schnelligkeitsstrafe</p>

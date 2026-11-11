@@ -13,7 +13,7 @@
                     <p>Du besitzt außergewöhnlich scharfen Geruchssinn.</p>
                 </description>
       <leveltext>
-                    <p>Sie erkennen das Vorhandensein von Kreaturen in einem Bereich von typischerweise <stat Name="Radius" Unit="Platz" /> abhängig vom Gelände</p>
+                    <p>Du erkennst das Vorhandensein von Kreaturen in einem Bereich von typischerweise <stat Name="Radius" Unit="Platz" /> abhängig vom Gelände</p>
                     <switch Name="LevelMatch">
                         <case Value="true"><p>Chance, in der Nähe erkannte Kreaturen zu identifizieren</p></case>
                         <default><p>{{rules|Erhöhte Chance, erkannte Kreaturen in der Nähe zu identifizieren}}</p></default>
@@ -26,7 +26,7 @@
                     <p>Du teleportierst und nimmst Kreaturen mit dir.</p>
                 </description>
       <leveltext>
-                    <p>Ihr teleportiert Euch an einen nahegelegenen Ort und nehmt alle innerhalb des Radius <stat Name="TeleportRadius" /> mit Euch.</p>
+                    <p>Du teleportierst dich an einen nahegelegenen Ort und nimmst alle innerhalb des Radius <stat Name="TeleportRadius" /> mit dir.</p>
                     <statline Name="Cooldown" DisplayName="Abklingzeit" />
                 </leveltext>
     </mutation>
@@ -38,7 +38,7 @@
                     <p>Immun gegen Wärmeschaden</p>
                     <switch Name="HealFactor">
                         <case Value="0" />
-                        <default><p>Jedes Mal, wenn Ihr Hitzeschaden erleiden würdet, heilt Ihr stattdessen für <stat Name="HealFactor" />% dieses Schadens</p></default>
+                        <default><p>Jedes Mal, wenn du Hitzeschaden erleiden würdest, heilst du stattdessen für <stat Name="HealFactor" />% dieses Schadens</p></default>
                     </switch>
                 </leveltext>
     </mutation>
@@ -76,7 +76,7 @@
     <mutation Name="Shame Breath" DisplayName="Hauch der Schande" BearerDescription="jene mit beschämendem Atem" />
     <mutation Name="Plasma Emission" DisplayName="Plasmaemission" BearerDescription="jene, die Plasma aussenden">
       <description>
-                    <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
+                    <p>Du setzt einen Ausbruch von <stat Name="GasName" /> um dich herum frei.</p>
                 </description>
       <leveltext>
                     <p>Setzt Gas für <stat Name="Duration" /> frei</p>
@@ -89,7 +89,7 @@
     </mutation>
     <mutation Name="Poison Gas Generation" DisplayName="Giftgaserzeugung" BearerDescription="jene, die Giftgas ausstoßen">
       <description>
-                    <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
+                    <p>Du setzt einen Ausbruch von <stat Name="GasName" /> um dich herum frei.</p>
                 </description>
       <leveltext>
                     <p>Setzt Gas für <stat Name="Duration" /> frei</p>
@@ -102,7 +102,7 @@
     </mutation>
     <mutation Name="Defoliant Generation" DisplayName="Entlaubungsmittelerzeugung" BearerDescription="jene, die Entlaubungsmittel ausstoßen">
       <description>
-                    <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
+                    <p>Du setzt einen Ausbruch von <stat Name="GasName" /> um dich herum frei.</p>
                 </description>
       <leveltext>
                     <p>Setzt Gas für <stat Name="Duration" /> frei</p>
@@ -115,7 +115,7 @@
     </mutation>
     <mutation Name="Fungicide Generation" DisplayName="Fungizid-Erzeugung" BearerDescription="jene, die Fungizid ausstoßen">
       <description>
-                    <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
+                    <p>Du setzt einen Ausbruch von <stat Name="GasName" /> um dich herum frei.</p>
                 </description>
       <leveltext>
                     <p>Setzt Gas für <stat Name="Duration" /> frei</p>
@@ -128,7 +128,7 @@
     </mutation>
     <mutation Name="Confusion Gas Generation" DisplayName="Verwirrgaserzeugung" BearerDescription="jene, die Verwirrungsgas ausstoßen">
       <description>
-                    <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
+                    <p>Du setzt einen Ausbruch von <stat Name="GasName" /> um dich herum frei.</p>
                 </description>
       <leveltext>
                     <p>Setzt Gas für <stat Name="Duration" /> frei</p>
@@ -141,7 +141,7 @@
     </mutation>
     <mutation Name="Normality Gas Generation" DisplayName="Normalitätsgaserzeugung" BearerDescription="jene, die Normalitätsgas ausstoßen">
       <description>
-                    <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
+                    <p>Du setzt einen Ausbruch von <stat Name="GasName" /> um dich herum frei.</p>
                 </description>
       <leveltext>
                     <p>Setzt Gas für <stat Name="Duration" /> frei</p>
@@ -154,7 +154,7 @@
     </mutation>
     <mutation Name="Glitter Dust Generation" DisplayName="Glitter-Staub-Erzeugung" BearerDescription="jene, die Glitzerstaub ausstoßen">
       <description>
-                    <p>Ihr setzt einen Ausbruch von <stat Name="GasName" /> um euch herum frei.</p>
+                    <p>Du setzt einen Ausbruch von <stat Name="GasName" /> um dich herum frei.</p>
                 </description>
       <leveltext>
                     <p>Setzt Gas für <stat Name="Duration" /> frei</p>
