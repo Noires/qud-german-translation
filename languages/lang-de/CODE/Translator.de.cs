@@ -97,6 +97,8 @@ namespace LanguagesOfQudGerman
             // Artikel vorangestellt wurde. Greift nur beim sicheren Adjektiv+Kopf-Muster.
             if (Params.WithDefiniteArticle || Params.WithIndefiniteArticle)
                 result = VariableReplacers.DeclineAfterArticle(result, GO);
+            else if (GO != null && !GO.HasProperName)
+                result = VariableReplacers.DeclineBare(result, GO);
             return result;
         }
 

@@ -232,9 +232,13 @@ namespace LanguagesOfQudGerman
             return char.ToUpperInvariant(s[0]) + s.Substring(1);
         }
 
+        // WithoutTitles ist Pflicht: Titel/SocialRoles koennen selbst Tokens enthalten
+        // ("pariah to =pronouns.possessive= people"), die wieder hierher fuehren -> Endlos-
+        // Rekursion/StackOverflow (Spieler-Absturz bei Paria-Gruppen). Die Spiel-Delegates
+        // setzen WithoutTitles ebenfalls standardmaessig.
         private static string GermanName(GameObject obj)
         {
-            return obj.GetDisplayName(Short: true, BaseOnly: true);
+            return obj.GetDisplayName(Short: true, BaseOnly: true, WithoutTitles: true);
         }
 
         // Parameter-aware variant for the case replacers: honors the same display params the
@@ -431,11 +435,20 @@ namespace LanguagesOfQudGerman
         private static readonly Regex ColorWrap = new Regex(@"^(\{\{[^|{}]+\|)(.+?)(\}\})$", RegexOptions.CultureInvariant);
         private static readonly Regex ColorPrefix = new Regex(@"^((?:[&^].)+)(.+)$", RegexOptions.CultureInvariant);
 
+        // Offene Wrapper über Wortgrenzen hinweg: "{{K|makellose {{crysteel|Kristallstahl}}-Stiefel}}"
+        // zerfällt beim Split in "{{K|makellose" (nur Öffner) und "...-Stiefel}}" (nur Schließer).
+        private static readonly Regex OpenOnly = new Regex(@"^((?:\{\{[^|{}]+\|)+)(.+)$", RegexOptions.CultureInvariant);
+        private static readonly Regex CloseOnly = new Regex(@"^([^{}]+?)((?:\}\})+)$", RegexOptions.CultureInvariant);
+
         private static void SplitColor(string w, out string pre, out string core, out string post)
         {
             pre = ""; post = ""; core = w;
             var m = ColorWrap.Match(core);
             if (m.Success) { pre = m.Groups[1].Value; core = m.Groups[2].Value; post = m.Groups[3].Value; }
+            var o = OpenOnly.Match(core);
+            if (o.Success) { pre += o.Groups[1].Value; core = o.Groups[2].Value; }
+            var c = CloseOnly.Match(core);
+            if (c.Success) { core = c.Groups[1].Value; post = c.Groups[2].Value + post; }
             var p = ColorPrefix.Match(core);
             if (p.Success) { pre += p.Groups[1].Value; core = p.Groups[2].Value; }
         }
@@ -504,7 +517,10 @@ namespace LanguagesOfQudGerman
             DeclType decl;
             var rest = new string[all.Length - 1];
             Array.Copy(all, 1, rest, 0, rest.Length);
-            if (!IsAdjNounPattern(rest)) return s;
+            // Ganzer Rest = Adjektive + Kopf, ODER Adjektive + Kopf + Anhang (Titel wie
+            // "und Paria seines Volkes"): dekliniert werden nur die führenden Adjektive.
+            int head = IsAdjNounPattern(rest) ? rest.Length - 1 : LeadingAdjHead(rest);
+            if (head < 1) return s;
             switch (artLower)
             {
                 case "der": g = Gender.Masc; decl = DeclType.Weak; break;
@@ -514,16 +530,54 @@ namespace LanguagesOfQudGerman
                     decl = DeclType.Weak; break;
                 case "eine": g = Gender.Fem; decl = DeclType.Mixed; break;
                 case "ein":
-                    g = GuessGender(PhraseGenderHead(rest));
+                    g = GuessGender(head == rest.Length - 1 ? PhraseGenderHead(rest) : HeadCore(rest[head]));
                     if (g == Gender.Fem) g = Gender.Masc;   // "ein" schließt Fem aus
                     decl = DeclType.Mixed; break;
                 default: return s;
             }
             var parts = new List<string> { art };
-            for (int i = 0; i < rest.Length - 1; i++)
-                parts.Add(DeclineAdj(rest[i], decl, Case.Nom, g));
-            parts.Add(rest[rest.Length - 1]);
+            for (int i = 0; i < rest.Length; i++)
+                parts.Add(i < head ? DeclineAdj(rest[i], decl, Case.Nom, g) : rest[i]);
             return string.Join(" ", parts);
+        }
+
+        // Artikelloser Anzeigename (Look-Kopf, Titelzeilen): "nass Leuchtfisch" ->
+        // "nasser Leuchtfisch" (starke Deklination, Nominativ). Nur führende, klein-
+        // geschriebene Adjektive vor dem ersten großgeschriebenen Wort werden angefasst.
+        internal static string DeclineBare(string s, GameObject obj)
+        {
+            if (string.IsNullOrEmpty(s)) return s;
+            string[] words = s.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (words.Length < 2) return s;
+            int head = LeadingAdjHead(words);
+            if (head < 1) return s;
+            Gender g = (obj != null && IsPlural(obj)) ? Gender.Plural : GuessGender(HeadCore(words[head]));
+            var parts = new List<string>();
+            for (int i = 0; i < words.Length; i++)
+                parts.Add(i < head ? DeclineAdj(words[i], DeclType.Strong, Case.Nom, g) : words[i]);
+            return string.Join(" ", parts);
+        }
+
+        // Index des ersten großgeschriebenen Wortes, wenn ALLE Wörter davor reine
+        // kleingeschriebene Adjektive (keine Funktionswörter) sind; sonst -1.
+        private static int LeadingAdjHead(string[] words)
+        {
+            for (int i = 0; i < words.Length; i++)
+            {
+                SplitColor(words[i], out _, out string w, out _);
+                if (w.Length == 0) return -1;
+                if (char.IsUpper(w[0])) return i;
+                if (FunctionWords.Contains(w)) return -1;
+                foreach (char ch in w)
+                    if (!char.IsLetter(ch)) return -1;
+            }
+            return -1;
+        }
+
+        private static string HeadCore(string word)
+        {
+            SplitColor(word, out _, out string core, out _);
+            return core.TrimEnd(',', '.', ';', ':', '!', '?');
         }
 
         // Shared core for all four case replacers.
@@ -939,7 +993,19 @@ namespace LanguagesOfQudGerman
         // die Schlange -> "ihr" (deutsche Kongruenzregel, nicht das Spiel-Gender).
         internal static string PossStemFor(GameObject owner) { return PossStem(owner); }
 
+        // Re-Entrancy-Schutz: falls ein Anzeigename doch wieder ein Possessiv-Token desselben
+        // Besitzers expandiert, faellt die innere Ebene auf "sein" zurueck statt zu rekursieren.
+        [ThreadStatic] private static int _possStemDepth;
+
         private static string PossStem(GameObject owner)
+        {
+            if (_possStemDepth > 0) return "sein";
+            _possStemDepth++;
+            try { return PossStemCore(owner); }
+            finally { _possStemDepth--; }
+        }
+
+        private static string PossStemCore(GameObject owner)
         {
             if (owner.IsPlayer() && Grammar.AllowSecondPerson) return "dein";
             // Sinn-Kongruenz vor Nomen-Genus: echte männliche/weibliche Figuren behalten ihr
@@ -1119,6 +1185,18 @@ namespace LanguagesOfQudGerman
                 }
                 catch (Exception e) { UnityEngine.Debug.Log("[QudDE] verb-test ERROR: " + t[1] + " : " + e.Message); }
             }
+            // Regression: SocialRole mit Possessiv-Token desselben Objekts (Paria-Gruppen,
+            // Pariah.MakePariah). Vorher Endlos-Rekursion PossStem -> GermanName -> SocialRoles.
+            try
+            {
+                GameObject pr = GameObjectFactory.Factory.CreateObject("Croc");
+                pr.RequirePart<XRL.World.Parts.SocialRoles>().RequireRole("pariah to =pronouns.possessive= people");
+                string dn = pr.GetDisplayName();
+                bool ok = !string.IsNullOrEmpty(dn) && dn.IndexOf('=') < 0;
+                if (ok) pass++; else fail++;
+                UnityEngine.Debug.Log("[QudDE] pariah-role-test " + (ok ? "PASS" : "FAIL") + ": \"" + dn + "\"");
+            }
+            catch (Exception e) { fail++; UnityEngine.Debug.Log("[QudDE] pariah-role-test ERROR: " + e.Message); }
             // body-part transform (logic-level: strip English laterality -> German inflected)
             object[][] bp = {
                 new object[] { "right hand", 2, "rechte Hand" },
@@ -1177,6 +1255,18 @@ namespace LanguagesOfQudGerman
                 new[] { TryGermanVerb("open", 0, out _) ? "TREFFER" : "fallback", "fallback" },
                 new[] { DeclineAfterArticle("Der nass Leuchtfisch", null), "Der nasse Leuchtfisch" },
                 new[] { DeclineAfterArticle("ein nass Leuchtfisch", null), "ein nasser Leuchtfisch" },
+                new[] { DeclineAfterArticle("Der nass Leuchtfisch und Paria seines Volkes", null), "Der nasse Leuchtfisch und Paria seines Volkes" },
+                new[] { DeclineBare("nass Leuchtfisch", null), "nasser Leuchtfisch" },
+                new[] { DeclineBare("{{r|blutig}} Ziege", null), "{{r|blutige}} Ziege" },
+                new[] { DeclineBare("nass Krokodil und Paria seines Volkes", null), "nasses Krokodil und Paria seines Volkes" },
+                new[] { DeclineBare("Phiole mit Wasser", null), "Phiole mit Wasser" },
+                new[] { DeclineBare("rostiger Wischmopp", null), "rostiger Wischmopp" },
+                new[] { DeclineAfterArticle("die {{K|makellose {{crysteel|Kristallstahl}}-Stiefel}}", null), "die {{K|makellose {{crysteel|Kristallstahl}}-Stiefel}}" },
+                new[] { DeclineAfterArticle("der {{K|makelloser {{crysteel|Kristallstahl}}-Dolch}}", null), "der {{K|makellose {{crysteel|Kristallstahl}}-Dolch}}" },
+                new[] { DeclineAfterArticle("das zweihändiges {{b|Karbid}}-Langschwert", null), "das zweihändige {{b|Karbid}}-Langschwert" },
+                new[] { BuildDefinitePhrase("{{K|makelloser {{crysteel|Kristallstahl}}-Dolch}}", Case.Dat, false, false), "dem {{K|makellosen {{crysteel|Kristallstahl}}-Dolch}}" },
+                new[] { BuildDefinitePhrase("zweihändige {{K|Fullerit}}-Axt", Case.Acc, false, false), "die zweihändige {{K|Fullerit}}-Axt" },
+                new[] { GermanPlural("{{K|makellose {{crysteel|Kristallstahl}}-Streitaxt}}"), "{{K|makellose {{crysteel|Kristallstahl}}-Streitäxte}}" },
                 new[] { DeclineAfterArticle("das Zahnrad aus der Großen Maschine", null), "das Zahnrad aus der Großen Maschine" },
                 new[] { BuildDefinitePhrase("Phiole mit Wasser", Case.Nom, false, false), "die Phiole mit Wasser" },
                 new[] { BuildDefinitePhrase("Phiole mit Wasser", Case.Dat, false, false), "der Phiole mit Wasser" },
