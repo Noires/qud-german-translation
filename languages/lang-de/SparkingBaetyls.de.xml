@@ -2,13 +2,13 @@
 
 <sparkingbaetyls Lang="de" Encoding="utf-8">
   <rewards>
-    <reward Name="MeleeWeapon" Description="EINE MÄCHTIGE WAFFE" />
-    <reward Name="Armor" Description="EIN HERRLICHES GEWAND" />
-    <reward Name="MissileWeapon" Description="EINE LODERNDE KANONE" />
-    <reward Name="Artifact" Description="EINE SELTSAME VORRICHTUNG" />
-    <reward Name="AttributePoints" Description="VERSTÄRKTE GESCHICKLICHKEIT" />
-    <reward Name="MutationPoints" Description="VERSTÄRKTE GESCHICKLICHKEIT" />
-    <reward Name="SkillPoints" Description="ERHÖHTE FERTIGKEIT" />
-    <reward Name="Reputation" Description="GROSSE BERÜHMTHEIT" />
+    <reward Name="MeleeWeapon" Load="Merge" Description="EINE MÄCHTIGE WAFFE" />
+    <reward Name="Armor" Load="Merge" Description="EIN HERRLICHES GEWAND" />
+    <reward Name="MissileWeapon" Load="Merge" Description="EINE LODERNDE KANONE" />
+    <reward Name="Artifact" Load="Merge" Description="EINE SELTSAME VORRICHTUNG" />
+    <reward Name="AttributePoints" Load="Merge" Description="GESTEIGERTE KRAFT" />
+    <reward Name="MutationPoints" Load="Merge" Description="GESTEIGERTE KRAFT" />
+    <reward Name="SkillPoints" Load="Merge" Description="ERHÖHTE FERTIGKEIT" />
+    <reward Name="Reputation" Load="Merge" Description="GROSSE BERÜHMTHEIT" />
   </rewards>
 </sparkingbaetyls>

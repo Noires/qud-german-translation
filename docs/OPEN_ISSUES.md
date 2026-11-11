@@ -44,6 +44,16 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
   ohne Message-Rewriting nicht erreichbar. Erwartete Puma-Zeile jetzt:
   "Der Chitinpanzer-Puma hits (x1) for 5 damage with seiner gepanzerten Klaue."
 
+### 4. Paria-Rolle „pariah to =pronouns.possessive= people“ (Titel bleibt englisch)
+- `XRL.World.Parts.Pariah.MakePariah` vergibt die Rolle als **C#-Literal** per
+  `SocialRoles.RequireRole(...)`; `SocialRoles.HandleEvent(GetDisplayNameEvent)` jagt sie nur
+  durch `GameText.VariableReplace` — kein `Strings._S/_T`, kein Context. Ergebnis im Spiel:
+  „Krokodil und pariah to sein people“. Ebenso `"<Blueprint> Pariah"` für Benannte und
+  `"Hindren Pariah"` (HindrenQuestOutcome).
+- Rollen werden im Savegame persistiert — selbst ein Upstream-Fix greift nur für neue Parias.
+- **Status: WAIT** — Upstream bitten, die Rollen über die String-Table zu routen.
+- Unser Anteil (Endlos-Rekursion beim Possessiv-Token) ist gefixt, siehe Resolved 2026-11-11.
+
 ## Known-benign (do not chase)
 
 ### 7 string-table misses at every startup (DifficultyEvaluation ×6, Message Log Title)
@@ -52,6 +62,43 @@ _Last updated: 2026-07-17 (session 3). Branch: `native-migration`._
   (`DifficultyEvaluation._DifficultyTranslations`) are `[ModSensitiveStaticCache]`: they are
   cleared when mods load and rebuilt on next access, so **in-game text is German**. The miss
   lines are once-per-session log noise and cannot be fixed from mod data.
+
+## Resolved 2026-11-11
+
+### Spieler-Feedback-Runde (Baetyls, Paria-Absturz, Namen, Upstream-Update)
+- **Baetyls ohne Belohnung:** `SparkingBaetyls.de.xml` ohne `Load="Merge"` ersetzte die Base-
+  Rewards durch leere Objekte. Merke: eigene Loader (`HandleRewardNode` u. ä.) mergen NUR mit
+  `Load="Merge"` — bei neuen `.de.xml`-Dateien immer gegen den Loader prüfen.
+- **Absturz bei Paria-Gruppen:** Endlos-Rekursion `PossStem → GermanName → SocialRoles →
+  =pronouns.possessive=`. Fix: `GermanName` mit `WithoutTitles`, Re-Entrancy-Guard,
+  Selbsttest `pariah-role-test`.
+- **Gegenstandsnamen:** 42 doppelte Namen („X X“, `{{c|A-B}}B`) aus dem Erst-Import, dazu die
+  ganze Material-Familie per Glossar neu aufgebaut (Bronze/Eisen/Stahl geschlossen;
+  Karbid, Faltkarbid, Fullerit, Kristallstahl, Zetachrom mit Bindestrich; „makellos“,
+  „zweihändig“ als deklinierte Adjektive). Tier-Waffen hießen „Dolch VI“ statt Material.
+- **Engine:** `SplitColor` versteht offene/geschlossene Wrapper über Wortgrenzen
+  (`{{K|makellose … -Stiefel}}`); artikellose Namen werden stark dekliniert („nasser
+  Leuchtfisch“), auch mit Titel-Anhang.
+- **InventoryActions:** 45 Hotkeys `ein` → `a`.
+- **Upstream-Update (Build 26307554):** 587 String-Schlüssel neu/geändert. `coverage_audit.py`
+  sieht geänderte IDs NICHT (vergleicht nur Context) — nach jedem Update gegen
+  `ExampleLanguage/Strings*.example.xml` per (Context, ID) abgleichen. 79 IDs nachgezogen
+  (Token-Umbenennungen, Tippfehler-Fixes), 508 übersetzt, 204 tote kontextlose Doppel entfernt
+  (Einträge ohne Context greifen nie, wenn das Spiel mit Context abfragt).
+
+### Tutorial (Joppa) nicht abschließbar — Menüoptionen ließen sich nicht bestätigen
+- **Spieler-Meldung:** „Tutorial ist nicht spielbar, weil ich auf nicht bestätigende Textboxen stoße.“
+- **Mechanismus (lang-experimental):** `JoppaTutorial.*.AllowSelectedPopupCommand` vergleicht
+  `QudMenuItem.simpleText` (Markup/Hotkey entfernt, **`ToLower()`**) mit
+  `InventoryActionBlueprint.Get(<Name>).Display` (**unverändert**). Die Highlight-IDs sind
+  ebenfalls `"QudTextMenuItem:" + simpleText`. Eine großgeschriebene Anzeige („Ausrüsten (auto)“,
+  „Untersuchen“) kann daher nie matchen → jede Option außer Abbrechen wird abgelehnt.
+  (Der public-Branch vergleicht noch mit englischen Literalen; dort ist es nicht fixbar.)
+- **Kontrakt:** `<display>` folgender Aktionen in `InventoryActions.de.xml` MUSS komplett
+  kleingeschrieben sein: `CommandAutoEquipObject`, `CommandEquipObject`, `CommandTakeObject`,
+  `Examine`, `Look`, `OpenCasual` (alle per `.Display` im Code gelesen).
+- Dabei Fehlübersetzungen korrigiert: get = „nehmen“ (war „erhalten“), look = „ansehen“
+  (war „Aussehen“), open = „öffnen“ (war „offen“).
 
 ## Resolved 2026-07-17
 
