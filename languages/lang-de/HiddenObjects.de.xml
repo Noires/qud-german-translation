@@ -519,7 +519,7 @@
     <part Name="Render" DisplayName="Raumschiffplattform" />
   </object>
   <object Name="HangarWall" Load="Merge">
-    <part Name="Render" DisplayName="Crysteel-Hangarplatten" />
+    <part Name="Render" DisplayName="Kristallstahl-Hangarplatten" />
     <part Name="Description" Short="Breite Platten aus sterngefärbtem Metall umschließen den Raumschiffhangar und dienen als Palimpseste für tausend Alphabete." />
     <xtagGrammar iArticle="einige" />
   </object>
