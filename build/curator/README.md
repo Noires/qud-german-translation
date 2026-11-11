@@ -114,8 +114,17 @@ hinweg (du/Ihr/Sie), Kasus über Fragmentgrenzen, Länge und Umbruch.
 | K4 | info | Possessiv-Token ohne Kasus/Genus vor einem Wort — wird undekliniert ausgegeben |
 | K5 | warning | Weichen-Token (`=ifplayerplural:…:…=`, `=X.isPlural:…=`, `=X.ifPlural:…=`) mit englischen Argumenten (Archaismen, Funktionswörter oder wörtlich wie in der Vorlage) bzw. doppelter Anrede direkt dahinter — die Argumente sind Text und werden im Spiel wörtlich ausgegeben. Batches: `tools/du_batches.py export K5` → Agenten nach `_work/IFPLURAL_RULES.md` → `import ifplural-…` (Regel `fix-ifplural`); jedes Gate sperrt neue K5-Befunde |
 | K6 | warning | `=X.them=`/`=X.objective=` direkt nach Dativ-Präposition/-Verb ohne `:dat` — im Spiel „von ihn“. Wechselpräpositionen (an/in/unter/über) prüft die Regel bewusst nicht (Bewegung = Akkusativ); Gate-Regel `fix-case` erlaubt nur das Ergänzen des Kasus |
+| K7 | warning | Gleicher englischer Text, verschiedene deutsche Fassungen (Weblate „inconsistent“; Groß-/Kleinschreibung am Satzanfang zählt nicht). Gewollte Kontext-Varianten per „Varianten erlauben“ → `glossary.json` `ignore_inconsistent` |
+| P1 | warning/info | Parität zur Vorlage: Ziffernfolgen (außerhalb von Tokens/Farbcodes; 1.5 ≙ 1,5), Leerraum am Anfang/Ende (wichtig bei zusammengesetzten Texten), doppelte Leerzeichen, unausgewogene `()`/`[]` |
 | G1 | warning | Glossar-Begriff im Englischen, deutsche Festlegung fehlt / verbotene Variante |
 | G2 | warning | Artikel direkt vor dem Begriff passt in keinem Kasus zum Glossar-Genus; Genitiv m/n ohne -s |
+
+
+**Schwere je Regel** (Prüfungen-Tab, Auswahl neben jeder Regel): Standard / off /
+info / warning / error, gespeichert in `glossary.json` → `rules`. `off` blendet die
+Regel aus; `error` blockt zusätzlich das Speichern (Editor, Vorschlag-Annehmen,
+Werkzeuge) — aber nur, wenn die Änderung einen NEUEN Befund dieser Regel erzeugt;
+Bestandsbefunde blockieren nicht.
 
 Glossar und Richtlinie liegen in `data/glossary.json` (committbar, nicht
 deployt). Pronomen-Bezüge („um ihn herum") prüft G2 bewusst nicht.
@@ -157,6 +166,36 @@ deployt). Pronomen-Bezüge („um ihn herum") prüft G2 bewusst nicht.
 - **Nach angenommenen du-Batches** `py build/tools/build_library_corpus.py`
   laufen lassen (`LibraryCorpus.de.json` ist aus Büchern/Beschreibungen/Gesprächen
   generiert und enthält sonst weiter Ihr-Formen).
+
+## Kuratieren: Prüfrunde, Triage, Korrektur, Playtest
+
+Empfohlener Ablauf (Begründung: Deep-Research 2026-10-22 — LLM-Richter finden viel,
+melden aber noch mehr Falsches; Korrekturen an menschlich markierten Stellen sind
+zuverlässiger als freies Nachbearbeiten):
+
+1. **Regeln** (Prüfungen-Tab) bis keine Warnungen mehr offen sind.
+2. **Triage** (optional): `py build/curator/tools/triage.py export [bereich] [--limit N]` →
+   Agenten nach `_work/TRIAGE_RULES.md` → `triage.py import <batch>` → `data/triage.json`.
+   Wirkt NUR als Sortierschlüssel der Prüfrunde. Vorher kalibrieren: ~100 Einträge selbst
+   prüfen/markieren, dann `triage.py calibrate` (Präzision/Trefferquote gegen deine Urteile).
+3. **Prüfrunde** (Tab): Bereiche in Sichtbarkeits-Reihenfolge (Start/Optionen → Joppa →
+   Hauptquest → Meldungen → Gespräche → Dinge → Welt/Lore); je Bereich zuerst offene
+   Markierungen, Prüf-Befunde, Triage-Schwere. Tasten **G**/Enter geprüft · **M** markieren
+   (vorher die fehlerhafte Stelle im deutschen Wert mit der Maus auswählen, Kategorie +
+   Notiz) · **N**/→ weiter · **B**/← zurück · **E** Editor. Modus **Stichprobe**: feste
+   Zufallsauswahl (50 je Bereich, Seed bleibt) mit Fehlerquote = markiert/bearbeitet —
+   ohne Befunde gilt ein Bereich mit wenig Sichtbarkeit als vertretbar.
+4. **Korrektur**: `py build/curator/tools/review_fix.py export` → Agenten nach
+   `_work/REVIEWFIX_RULES.md` → `review_fix.py import <batch>` → Vorschläge-Tab. Gate
+   `review-fix` lässt nur Änderungen an der markierten Stelle (± 16 Zeichen) zu; Annehmen
+   setzt die Markierung auf erledigt — danach in der Prüfrunde erneut „geprüft“.
+5. **Playtest** (Tab): Befund mit Screenshot (Strg+V) und optional uid → „Behoben“ =
+   zu verifizieren → nach dem nächsten Spiel-Lauf „bestätigt“ oder „weiterhin falsch“.
+   String-Miss im neueren Player.log setzt automatisch „wieder aufgetaucht“.
+   Ablage `data/findings/findings.json` (committbar), Screenshots gitignoriert.
+
+Außerdem: **Verlauf** je Eintrag im Editor (Git-Commits der Zeile + Vorschlags-Batches)
+und **Konkordanz** im Glossar-Tab (englischer Begriff → alle deutschen Fassungen).
 
 ## Abdeckung, fehlende Einträge, Spiel-Updates
 
@@ -228,6 +267,11 @@ py -m unittest discover -s build/curator/tests
 - `fixtures.py` — `defect_copy()`: Kopie der String-Tabellen mit gezielt
   eingebauten K1/K2/K3-Defekten (der echte Korpus ist bereinigt, die Regeln
   brauchen trotzdem Testfälle)
+- `test_levels.py` — K7 Konsistenz + Ausnahmen, P1 Parität, Schwere je Regel,
+  error blockt nur NEUE Befunde beim Speichern
+- `test_review_queue.py` — Bereiche, Reihenfolge, stabile Stichprobe, Markierung mit Stelle
+- `test_review_fix.py` — Span-Gate review-fix, Annehmen schließt Markierung, Triage-Gewicht
+- `test_findings.py` — Playtest-Statusfluss, Auto-Regression, Verlauf, Konkordanz
 - `qudrender.test.js` — Markup-Parser/Umbruch der Vorschau:
   `node build/curator/tests/qudrender.test.js`
 

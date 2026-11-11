@@ -288,6 +288,8 @@ class Handler(BaseHTTPRequestHandler):
                     import traceback
                     traceback.print_exc()
                     status, obj = 500, {"error": "Interner Fehler: %s" % ex}
+                if isinstance(obj, tuple):  # (content-type, bytes), z. B. Screenshots
+                    return self._raw(status, *obj)
                 return self._json(status, obj)
         return self._json(404, {"error": "Unbekannter Endpoint: %s" % path})
 
@@ -303,6 +305,14 @@ class Handler(BaseHTTPRequestHandler):
             data = f.read()
         self.send_response(200)
         self.send_header("Content-Type", ctype + ("; charset=utf-8" if ctype.startswith("text") or ctype.endswith("javascript") else ""))
+        self.send_header("Content-Length", str(len(data)))
+        self.send_header("Cache-Control", "no-cache")
+        self.end_headers()
+        self.wfile.write(data)
+
+    def _raw(self, status, ctype, data):
+        self.send_response(status)
+        self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(data)))
         self.send_header("Cache-Control", "no-cache")
         self.end_headers()
@@ -336,7 +346,8 @@ def register_optional_routes():
     """Routen späterer Phasen — Module fehlen ggf. noch, dann ohne sie starten."""
     for mod in ("writer_routes", "lint_routes", "lexicon_routes",
                 "tests_routes", "log_routes", "deploy_routes", "review_routes",
-                "scene_routes", "glossary_routes", "proposal_routes", "coverage_routes"):
+                "scene_routes", "glossary_routes", "proposal_routes", "coverage_routes",
+                "findings_routes"):
         try:
             __import__("curator." + mod)
         except ImportError as ex:

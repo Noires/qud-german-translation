@@ -206,6 +206,7 @@ function renderDetail(u) {
     <div id="savemsg"></div>
     <div id="lintbox">${renderLint(u.lint)}</div>
     <div id="ctxbox"></div>
+    <details id="histbox"><summary class="mini">Verlauf — warum steht das so da?</summary><div></div></details>
     ${u.neighbors && u.neighbors.length ? `
       <h2>Nachbarn (${u.context ? "gleicher Kontext" : "gleiches Objekt"})</h2>
       <div class="neigh">${u.neighbors.map(n => `
@@ -243,6 +244,9 @@ function renderDetail(u) {
   if (rbu) rbu.onclick = () => setReview(false);
   buildPalette(u, enTokens);
   if (typeof SCENES !== "undefined") SCENES.attachContext(u);
+  const hb = $("#histbox");
+  if (hb && typeof FINDINGS !== "undefined")
+    hb.addEventListener("toggle", () => { if (hb.open) FINDINGS.history(hb.querySelector("div"), u.uid); });
 }
 
 function tokensIn(s) {
@@ -468,16 +472,23 @@ function renderLintPane(p, d) {
     K1: "ID veraltet (Spieltext geändert — Wert greift nie)", K2: "Anrede weicht von der Richtlinie ab",
     K3: "konjde ohne Subjekt (Does → Name fehlt)", K4: "Possessiv ohne Kasus/Genus-Annotation",
     G1: "Glossar-Begriff fehlt / verbotene Variante", G2: "Artikel passt nicht zum Glossar-Genus",
+    K5: "Weichen-Token mit englischen Argumenten", K6: "Objektpronomen ohne Dativ",
+    K7: "Gleicher englischer Text, verschiedene Übersetzungen", P1: "Parität: Zahlen / Leerraum / Klammern",
   };
+  const levels = d.levels || {};
+  const levelSel = rule => `<select class="sm" data-level="${esc(rule)}" title="Schwere dieser Regel (error blockt das Speichern neuer Befunde)">
+      ${["", "off", "info", "warning", "error"].map(l => `<option value="${l}" ${(levels[rule] || "") === l ? "selected" : ""}>${l || "Standard"}</option>`).join("")}
+    </select>`;
   const groups = Object.entries(d.rules || {}).map(([rule, r]) => `
     <details class="group" ${r.severity === "error" ? "open" : ""}>
       <summary><span class="badge ${esc(r.severity)}">${esc(rule)}</span>
-        ${esc(ruleNames[rule] || rule)} — ${r.count} Befund${r.count === 1 ? "" : "e"}</summary>
+        ${esc(ruleNames[rule] || rule)} — ${r.count} Befund${r.count === 1 ? "" : "e"} ${levelSel(rule)}</summary>
       <ul class="lintlist">
         ${r.samples.map(f => `
           <li class="${esc(f.severity)}" ${f.uid ? `data-uid="${esc(f.uid)}" style="cursor:pointer"` : ""}>
             <span class="rule">${esc(f.file || "")}</span>${esc(f.message)}
             ${rule === "K1" ? `<button class="ghost sm" data-rekey="${esc(f.uid)}">Neu anlegen mit aktueller ID</button>` : ""}
+            ${rule === "K7" && f.english ? `<button class="ghost sm" data-ignore-en="${esc(f.english)}" title="Verschiedene Übersetzungen sind hier gewollt (Kontext)">Varianten erlauben</button>` : ""}
           </li>`).join("")}
       </ul>
     </details>`).join("");
@@ -489,6 +500,22 @@ function renderLintPane(p, d) {
       <span class="badge info">info</span> ${sev.info || 0}
       — Klick auf einen Befund öffnet den Eintrag.</p>
     ${groups || '<p class="mini">Keine Befunde — Korpus sauber.</p>'}`;
+  const post = (url, obj) => api(url, { method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(obj) });
+  const reload = () => api("/api/lint/summary").then(nd => renderLintPane(p, nd));
+  $$("#pane-pruefungen [data-level]").forEach(s => {
+    s.addEventListener("click", e => e.stopPropagation());
+    s.addEventListener("change", async () => {
+      try { await post("/api/lint/level", { rule: s.dataset.level, level: s.value || null }); reload(); }
+      catch (ex) { alert(ex.message || ex); }
+    });
+  });
+  $$("#pane-pruefungen [data-ignore-en]").forEach(b =>
+    b.addEventListener("click", async e => {
+      e.stopPropagation();
+      try { await post("/api/lint/ignore-inconsistent", { english: b.dataset.ignoreEn, ignore: true }); reload(); }
+      catch (ex) { alert(ex.message || ex); }
+    }));
   $$("#pane-pruefungen [data-rekey]").forEach(b =>
     b.addEventListener("click", async e => {
       e.stopPropagation();

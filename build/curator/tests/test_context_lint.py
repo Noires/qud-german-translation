@@ -68,6 +68,9 @@ class TestHeuristics(unittest.TestCase):
 
     def test_ihr_seid_is_polite(self):
         self.assertIn("Ihr", cl.address_forms("Ihr seid gelähmt!"))
+        # Verb als Token am Satzanfang („Ihr =verb.pastTense= …“)
+        self.assertIn("Ihr", cl.address_forms("Ihr =verb.pastTense= =item.the.name:long=."))
+        self.assertNotIn("Ihr", cl.address_forms("Ihr Licht leuchtet."))
 
     def test_article_mismatch(self):
         term = {"en": "baetyl", "de": "Baetyl", "gender": "n"}

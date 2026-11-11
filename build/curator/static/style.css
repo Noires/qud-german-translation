@@ -181,3 +181,39 @@ details.group summary { cursor: pointer; color: var(--ink-dim); font-size: 13px;
   .tabpane.active { flex-direction: column; }
   .master { width: 100%; min-width: 0; max-height: 45%; border-right: none; border-bottom: 1px solid var(--edge); }
 }
+
+/* ---------- Prüfrunde ---------- */
+.rq { display: flex; min-height: 100%; }
+.rq-side { width: 300px; flex: none; border-right: 1px solid var(--edge); padding: 10px 12px; background: var(--panel); }
+.rq-mode { display: flex; flex-direction: column; gap: 2px; margin-bottom: 8px; font-size: 13px; }
+.rq-buckets { list-style: none; margin: 0; padding: 0; }
+.rq-buckets li { padding: 6px 8px; border: 1px solid transparent; border-radius: 4px; cursor: pointer; margin-bottom: 4px; }
+.rq-buckets li:hover { border-color: var(--edge); }
+.rq-buckets li.active { border-color: var(--amber); }
+.rq-bname { color: var(--ink); font-size: 13px; }
+.rq-bar { height: 4px; background: var(--panel2); border-radius: 2px; margin: 3px 0; overflow: hidden; }
+.rq-bar span { display: block; height: 100%; background: var(--green); }
+.rq-main { flex: 1; padding: 12px 16px; min-width: 0; }
+.rq-head { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 8px; }
+.rq-pos { margin-left: auto; font-family: var(--mono); }
+.rq-text { white-space: pre-wrap; padding: 8px 10px; border: 1px solid var(--edge); border-radius: 4px; margin-bottom: 8px; }
+.rq-text.en { color: var(--ink-dim); background: var(--panel); }
+.rq-text.de { background: var(--panel2); font-size: 15px; user-select: text; }
+.rq-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.rq-mark { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 8px; border: 1px solid var(--yellow); border-radius: 4px; margin-bottom: 8px; }
+.rq-mark input[name=note] { flex: 1; min-width: 240px; }
+.rq-mark[hidden] { display: none; }
+.rq-text.en:empty::before { content: "(keine englische Vorlage im Index)"; font-style: italic; }
+
+/* ---------- Playtest-Befunde ---------- */
+.fd-form { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 12px; }
+.fd-form input[name=text] { flex: 2; min-width: 320px; }
+.fd-form input[name=where], .fd-form input[name=uid] { flex: 1; min-width: 160px; }
+.fd-form label { cursor: pointer; border: 1px solid var(--edge); padding: 2px 8px; border-radius: 4px; }
+.fd-list { list-style: none; padding: 0; margin: 0 0 12px; }
+.fd-row { border: 1px solid var(--edge); border-radius: 4px; padding: 8px 10px; margin-bottom: 6px; background: var(--panel); }
+.fd-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.fd-unit { cursor: pointer; margin: 4px 0; }
+.fd-shot { max-width: 420px; max-height: 240px; border: 1px solid var(--edge); margin: 6px 0; display: block; }
+#histbox { margin-top: 10px; }
+mark { background: var(--amber); color: var(--bg); }

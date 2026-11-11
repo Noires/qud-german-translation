@@ -3,6 +3,8 @@
 build/curator/data/glossary.json — committbar, wird NICHT deployt:
   policy: {player_address: "Ihr", choice_address: "Ihr"}
   terms:  [{en, de, gender (m/f/n/p), plural, variants_forbidden[], note}]
+  rules:  {Regel-ID: off|info|warning|error}   Schwere-Übersteuerung der Prüfregeln
+  ignore_inconsistent: [englischer Text]       K7 bewusst ausgenommen (Kontext-Varianten)
 
 Die Prüfregeln G1/G2 (context_lint.py) und die Term-Markierung der
 Szenen-Vorschau lesen diese Datei. Vorschläge kommen aus den {{X|…}}-
@@ -20,7 +22,9 @@ from . import config
 PATH = os.path.join(config.DATA_DIR, "glossary.json")
 ADDRESS_FORMS = ("Ihr", "Sie", "du")
 GENDERS = ("m", "f", "n", "p")
-DEFAULT = {"policy": {"player_address": "Ihr", "choice_address": "Ihr"}, "terms": []}
+DEFAULT = {"policy": {"player_address": "Ihr", "choice_address": "Ihr"}, "terms": [],
+           "rules": {}, "ignore_inconsistent": []}
+LEVELS = ("off", "info", "warning", "error")
 
 _lock = threading.Lock()
 _COLORED = re.compile(r"\{\{[^|{}]+\|([^{}]+)\}\}")
@@ -49,6 +53,8 @@ class Glossary:
                     raw = json.load(f)
                 data["policy"].update(raw.get("policy") or {})
                 data["terms"] = raw.get("terms") or []
+                data["rules"] = raw.get("rules") or {}
+                data["ignore_inconsistent"] = raw.get("ignore_inconsistent") or []
             except (OSError, ValueError):
                 pass
         self._cache = (sig, data)
@@ -59,6 +65,8 @@ class Glossary:
         out = {"note": "Glossar + Anrede-Richtlinie der Kurator-UI (build/curator/). "
                        "Prüfregeln K2/G1/G2. Committbar, wird NICHT deployt.",
                "policy": data["policy"],
+               "rules": dict(sorted((data.get("rules") or {}).items())),
+               "ignore_inconsistent": sorted(set(data.get("ignore_inconsistent") or [])),
                "terms": sorted(data["terms"], key=lambda t: t["en"].lower())}
         tmp = self.path + ".curator-tmp"
         with open(tmp, "w", encoding="utf-8", newline="\n") as f:
@@ -73,15 +81,45 @@ class Glossary:
     def terms(self):
         return self.load()["terms"]
 
+    def rules(self):
+        return self.load()["rules"]
+
+    def ignore_inconsistent(self):
+        return set(self.load()["ignore_inconsistent"])
+
+    def set_rule(self, rule, level):
+        """level None = Standard-Schwere der Regel wiederherstellen."""
+        rule = (rule or "").strip().upper()
+        if not rule:
+            raise ValueError("Regel-ID fehlt.")
+        if level is not None and level not in LEVELS:
+            raise ValueError("Schwere muss eine von %s sein." % ", ".join(LEVELS))
+        with _lock:
+            data = self.load()
+            rules = dict(data["rules"])
+            if level is None:
+                rules.pop(rule, None)
+            else:
+                rules[rule] = level
+            self._write(dict(data, rules=rules))
+
+    def set_ignore_inconsistent(self, english, ignore=True):
+        if not english:
+            raise ValueError("englischer Text fehlt.")
+        with _lock:
+            data = self.load()
+            ign = set(data["ignore_inconsistent"])
+            (ign.add if ignore else ign.discard)(english)
+            self._write(dict(data, ignore_inconsistent=sorted(ign)))
+
     def set_policy(self, policy):
         for k in ("player_address", "choice_address"):
             if k in policy and policy[k] not in ADDRESS_FORMS:
                 raise ValueError("%s muss eine von %s sein." % (k, ", ".join(ADDRESS_FORMS)))
         with _lock:
             data = self.load()
-            data = {"policy": {**data["policy"], **{k: v for k, v in policy.items()
-                                                     if k in ("player_address", "choice_address")}},
-                    "terms": list(data["terms"])}
+            data = dict(data, policy={**data["policy"], **{k: v for k, v in policy.items()
+                                                            if k in ("player_address", "choice_address")}})
             self._write(data)
 
     def set_term(self, term):
@@ -100,7 +138,7 @@ class Glossary:
             data = self.load()
             terms = [t for t in data["terms"] if t["en"].lower() != en.lower()]
             terms.append(clean)
-            self._write({"policy": data["policy"], "terms": terms})
+            self._write(dict(data, terms=terms))
         return clean
 
     def delete_term(self, en):
@@ -109,7 +147,7 @@ class Glossary:
             terms = [t for t in data["terms"] if t["en"].lower() != (en or "").lower()]
             if len(terms) == len(data["terms"]):
                 raise KeyError("Begriff „%s“ nicht im Glossar." % en)
-            self._write({"policy": data["policy"], "terms": terms})
+            self._write(dict(data, terms=terms))
 
     def suggest(self, store, limit=80):
         """Eingefärbte Begriffe (EN) mit ihren häufigsten deutschen Spannen."""

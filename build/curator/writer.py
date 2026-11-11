@@ -114,6 +114,15 @@ def _persist(path, new_text, bom):
     os.replace(tmp, path)
 
 
+def _severity_errors(store_obj, u, new_value):
+    """Neue Befunde von Regeln mit Schwere „error“ (glossary.json „rules“ bzw.
+    Standard-error-Regeln wie B1/X1) blocken das Speichern."""
+    from . import lint
+    cand = xmlscan.Unit(**{k: getattr(u, k) for k in xmlscan.Unit.__slots__})
+    cand.value = u.escape_back(new_value)
+    return lint.get_engine(store_obj).new_errors(u, cand)
+
+
 def save(store_obj, uid, old_value, new_value):
     """Speichert einen geänderten Wert. -> Unit (frisch gescannt).
     old_value/new_value sind Display-Werte (entschärft, \\n statt &#10;)."""
@@ -147,6 +156,10 @@ def save(store_obj, uid, old_value, new_value):
         problems = _contract_check(store_obj, u.file, new_scan)
         if problems:
             raise WriteError(422, " / ".join(problems))
+        errs = _severity_errors(store_obj, u, new_value)
+        if errs:
+            raise WriteError(422, "Abgelehnt — Prüfregel auf „error“: " + " / ".join(
+                "%s %s" % (r, msg) for r, msg in errs))
 
         _persist(store_obj.path(u.file), new_text, res.bom)
         store_obj.refresh()

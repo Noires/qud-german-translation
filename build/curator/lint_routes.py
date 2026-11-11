@@ -1,6 +1,29 @@
 """HTTP-Routen der Prüf-Engine (Phase 3)."""
 from curator import lint, tokens
+from curator.glossary import GLOSSARY
 from curator.server import STORE, route
+
+
+@route("POST", r"/api/lint/level")
+def api_lint_level(m, q, body):
+    """{rule, level: off|info|warning|error|null} — null = Standard-Schwere."""
+    body = body or {}
+    try:
+        GLOSSARY.set_rule(body.get("rule"), body.get("level") or None)
+    except ValueError as ex:
+        return 422, {"error": str(ex)}
+    return 200, {"levels": GLOSSARY.rules()}
+
+
+@route("POST", r"/api/lint/ignore-inconsistent")
+def api_lint_ignore_inconsistent(m, q, body):
+    """K7-Ausnahme: {english, ignore: true|false}."""
+    body = body or {}
+    try:
+        GLOSSARY.set_ignore_inconsistent(body.get("english"), bool(body.get("ignore", True)))
+    except ValueError as ex:
+        return 422, {"error": str(ex)}
+    return 200, {"ok": True}
 
 
 @route("GET", r"/api/lint/summary")

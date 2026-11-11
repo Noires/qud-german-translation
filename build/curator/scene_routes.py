@@ -166,7 +166,11 @@ def api_flags_set(m, q, body):
             return 200, {"flag": FLAGS.set_status(u.uid, body["status"])}
         except (KeyError, ValueError) as ex:
             return 422, {"error": str(ex.args[0])}
-    return 200, {"flag": FLAGS.set(u, body.get("note", ""))}
+    try:
+        return 200, {"flag": FLAGS.set(u, body.get("note", ""), span=body.get("span"),
+                                       category=body.get("category"))}
+    except ValueError as ex:
+        return 422, {"error": str(ex)}
 
 
 @route("POST", r"/api/units/delete")

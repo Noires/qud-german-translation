@@ -5,6 +5,10 @@ passt (Ton, Kasus über Fragmentgrenzen, Länge …). Liegt in
 build/curator/data/flags.json — committbar, wird nicht deployt. Anders als
 geprüft-Marken verfallen Markierungen nicht bei Wertänderung; der Hash zum
 Markierzeitpunkt zeigt nur an, ob seitdem nachgebessert wurde.
+
+Optional mit Fehlerstelle (span: {start, end, text} im Display-Wert) und
+Kategorie (CATEGORIES) — Grundlage für tools/review_fix.py, das genau diese
+Stelle von einem Agenten korrigieren lässt.
 """
 import json
 import os
@@ -16,6 +20,31 @@ from .review import value_hash
 
 PATH = os.path.join(config.DATA_DIR, "flags.json")
 _lock = threading.Lock()
+
+CATEGORIES = {
+    "kasus-genus": "Kasus / Genus / Artikel",
+    "verb": "Verbform / Konjugation",
+    "anrede": "Anrede (du)",
+    "bedeutung": "Bedeutung falsch / Fehlübersetzung",
+    "stil": "Stil / Ton / holprig",
+    "begriff": "Begriff / Terminologie",
+    "tippfehler": "Tipp- / Rechtschreibfehler",
+    "unuebersetzt": "Unübersetzt / englischer Rest",
+    "sonstiges": "Sonstiges",
+}
+
+
+def check_span(value, span):
+    """-> bereinigter span oder ValueError (Grenzen + Text müssen zum Wert passen)."""
+    try:
+        s, e = int(span["start"]), int(span["end"])
+    except (KeyError, TypeError, ValueError):
+        raise ValueError("span braucht start und end.")
+    if not 0 <= s < e <= len(value):
+        raise ValueError("span liegt außerhalb des Werts.")
+    if span.get("text") is not None and value[s:e] != span["text"]:
+        raise ValueError("span-Text passt nicht zum aktuellen Wert — neu markieren.")
+    return {"start": s, "end": e, "text": value[s:e]}
 
 
 class Flags:
@@ -42,9 +71,13 @@ class Flags:
 
     STATES = ("open", "fixed", "wontfix")
 
-    def set(self, unit, note, kind=None):
+    def set(self, unit, note, kind=None, span=None, category=None):
         """Markierung setzen/erneuern (Status wieder open). kind: z. B. "orphan"
         für verwaiste Einträge nach K1-Neuanlage (dürfen gelöscht werden)."""
+        if category is not None and category not in CATEGORIES:
+            raise ValueError("Kategorie muss eine von %s sein." % ", ".join(CATEGORIES))
+        if span is not None:
+            span = check_span(unit.display_value(), span)
         with _lock:
             data = self.load()
             data[unit.uid] = {"file": unit.file, "key": unit.key, "note": note or "",
@@ -52,6 +85,10 @@ class Flags:
                               "date": time.strftime("%Y-%m-%d"), "status": "open"}
             if kind:
                 data[unit.uid]["kind"] = kind
+            if span:
+                data[unit.uid]["span"] = span
+            if category:
+                data[unit.uid]["category"] = category
             self._write(data)
             return data[unit.uid]
 

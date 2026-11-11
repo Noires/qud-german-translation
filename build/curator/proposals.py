@@ -29,10 +29,35 @@ _NAME_RE = re.compile(r"^[\w.-]{1,80}$")
 _lock = threading.Lock()
 
 
+# review-fix: so viele Zeichen links/rechts der markierten Stelle dürfen mitgeändert
+# werden (Artikel/Endung vor einem Nomen, Satzzeichen)
+SPAN_SLACK = 16
+
+
+def span_problem(old, new, span):
+    """Änderung muss innerhalb der markierten Stelle (± SPAN_SLACK) liegen."""
+    if not span or old == new:
+        return None
+    pre = 0
+    while pre < min(len(old), len(new)) and old[pre] == new[pre]:
+        pre += 1
+    suf = 0
+    while suf < min(len(old), len(new)) - pre and old[-1 - suf] == new[-1 - suf]:
+        suf += 1
+    if pre < span["start"] - SPAN_SLACK or len(old) - suf > span["end"] + SPAN_SLACK:
+        return ("Änderung reicht über die markierte Stelle „%s“ hinaus (geändert: Zeichen %d–%d)"
+                % (span.get("text", ""), pre, len(old) - suf))
+    return None
+
+
 def gate_problems(item, rule):
     """Prüfungen, die ein Vorschlag bestehen muss, bevor er annehmbar ist."""
     old, new = item.get("old_value") or "", item.get("new_value") or ""
     out = []
+    if rule == "review-fix":
+        sp = span_problem(old, new, item.get("span"))
+        if sp:
+            out.append(sp)
     if not new.strip():
         out.append("leerer Wert")
     told = Counter(m.group(0) for m in TOKEN_RE.finditer(old))
@@ -222,7 +247,7 @@ class Proposals:
     def save_batch(self, b):
         os.makedirs(self.dir, exist_ok=True)
         keep = ("uid", "op", "file", "key", "context", "id", "old_value", "new_value", "note",
-                "status", "created_uid")
+                "status", "created_uid", "span", "category")
         out = {"batch": b["batch"], "rule": b.get("rule"), "note": b.get("note", ""),
                "created": b.get("created") or time.strftime("%Y-%m-%d %H:%M"),
                "items": [{k: it[k] for k in keep if k in it} for it in b["items"]]}
@@ -270,6 +295,13 @@ class Proposals:
                 else:
                     writer.save(store, uid, it["old_value"], it["new_value"])
                 it["status"] = "accepted"
+                if b.get("rule") == "review-fix":
+                    # Markierung ist behoben; die geprüft-Marke setzt der Mensch neu
+                    from .flags import FLAGS
+                    try:
+                        FLAGS.set_status(uid, "fixed")
+                    except KeyError:
+                        pass
             elif action == "reject":
                 it["status"] = "rejected"
             elif action == "reopen":

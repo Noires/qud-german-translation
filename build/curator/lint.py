@@ -11,7 +11,12 @@ Regeln (Schwere: error > warning > info):
   N1 Naming ⊇ Strings Substring-Kontrakt                       error/warning
   X1 Entity-/Zeichenfehler                                     error
   X2 Elementpfad nicht im Spiel-Manifest                       warning
-  K1–K4, G1/G2 Kontext-/Glossar-Regeln (korpusweit)        siehe context_lint.py
+  P1 Parität zur Vorlage: Zahlen, Leerraum am Rand/doppelt, Klammern   warning/info
+  K1–K7, G1/G2 Kontext-/Glossar-Regeln (korpusweit)        siehe context_lint.py
+
+Schwere je Regel übersteuerbar (glossary.json „rules“: off|info|warning|error).
+„error“ blockt zusätzlich das Speichern, wenn die Änderung einen NEUEN Befund
+dieser Regel erzeugt (writer.save -> new_errors).
   (L1/L2 Lexikon-Regeln liegen in lexicon.py, wo die Datei gelesen wird.)
 
 Ergebnisse werden pro Datei-Hash gecacht; ein Save invalidiert nur die Datei.
@@ -39,6 +44,52 @@ class Finding(dict):
 
 def _mk(uid, rule, severity, message):
     return {"uid": uid, "rule": rule, "severity": severity, "message": message}
+
+
+def apply_levels(findings, levels=None):
+    """Schwere-Übersteuerung aus dem Glossar anwenden; „off“ entfernt den Befund."""
+    if levels is None:
+        from .glossary import GLOSSARY
+        levels = GLOSSARY.rules()
+    if not levels:
+        return findings
+    out = []
+    for f in findings:
+        lv = levels.get(f["rule"])
+        if lv == "off":
+            continue
+        out.append(dict(f, severity=lv) if lv and lv != f["severity"] else f)
+    return out
+
+
+# P1: Zahlen außerhalb von Tokens/Markup; deutsches Dezimal-/Tausender-Komma ist egal,
+# weil nur die Ziffernfolgen verglichen werden („1.5“ ≙ „1,5“)
+_NUM_STRIP = re.compile(r"=[^=\s][^=]*=|\{\{[^|{}]*\||&[A-Za-z]|\^[A-Za-z]")
+
+
+def _numbers(s):
+    return sorted(re.findall(r"\d+", _NUM_STRIP.sub(" ", s or "")))
+
+
+def parity_findings(uid, en, de):
+    out = []
+    if not en or not de:
+        return out
+    ne, nd = _numbers(en), _numbers(de)
+    if ne != nd:
+        out.append(_mk(uid, "P1", "warning",
+                       "Zahlen weichen von der Vorlage ab: EN %s, DE %s."
+                       % (" ".join(ne) or "–", " ".join(nd) or "–")))
+    for side, rx in (("Anfang", r"^\s"), ("Ende", r"\s$")):
+        if bool(re.search(rx, en)) != bool(re.search(rx, de)):
+            out.append(_mk(uid, "P1", "warning",
+                           "Leerraum am %s anders als in der Vorlage." % side))
+    if "  " in de.strip() and "  " not in en:
+        out.append(_mk(uid, "P1", "info", "Doppeltes Leerzeichen im deutschen Wert."))
+    for o, c in ("()", "[]"):
+        if de.count(o) != de.count(c) and en.count(o) == en.count(c):
+            out.append(_mk(uid, "P1", "warning", "Klammern %s%s unausgewogen." % (o, c)))
+    return out
 
 
 class LintEngine:
@@ -238,6 +289,8 @@ class LintEngine:
             for r in sorted(de_roles - en_roles):
                 out.append(_mk(u.uid, "T3", "info",
                                "Token-Rolle „%s“ nur im deutschen Wert." % r))
+        if u.kind != "json":  # Gewürz-Listen haben keine 1:1-Vorlage
+            out.extend(parity_findings(u.uid, en, de))
         return out
 
     @staticmethod
@@ -334,7 +387,7 @@ class LintEngine:
                 out.extend(self.lint_file(fn))
             out.extend(self.naming_findings())
             out.extend(self.context_findings())
-            return out
+            return apply_levels(out)
 
     def context_findings(self):
         try:
@@ -349,7 +402,20 @@ class LintEngine:
             mine = [f for f in per_file if f["uid"] == u.uid]
             mine.extend(f for f in self.naming_findings() if f["uid"] == u.uid)
             mine.extend(f for f in self.context_findings() if f["uid"] == u.uid)
-            return mine
+            return apply_levels(mine)
+
+    def value_findings(self, u):
+        """Befunde, die nur vom Wert dieser Einheit abhängen (für Kandidaten-Werte)."""
+        from . import context_lint
+        with self.lock:
+            return apply_levels(self.lint_value(u) + context_lint.unit_findings(u))
+
+    def new_errors(self, old_u, new_u):
+        """error-Befunde, die der neue Wert ZUSÄTZLICH erzeugt (Bestand blockt nicht)."""
+        def errs(x):
+            return {(f["rule"], f["message"]) for f in self.value_findings(x)
+                    if f["severity"] == "error"}
+        return sorted(errs(new_u) - errs(old_u))
 
     def uids_with_findings(self, severity=None):
         sevs = {severity} if severity else {"error", "warning", "info"}
@@ -374,7 +440,9 @@ class LintEngine:
                                  if f["uid"] in units else "?")
                             for f in fs[:200]],
             }
-        return {"by_severity": by_sev, "rules": det, "total": len(finds)}
+        from .glossary import GLOSSARY
+        return {"by_severity": by_sev, "rules": det, "total": len(finds),
+                "levels": GLOSSARY.rules()}
 
 
 _engine = None

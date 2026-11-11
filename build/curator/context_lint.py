@@ -9,6 +9,8 @@ Szenen-Vorschau sichtbar gemacht hat. Eingehängt in lint.LintEngine.all_finding
   K5 Weichen-Token (ifplayerplural/isplural) mit englischen Argumenten
      oder doppelter Anrede dahinter                                  warning
   K6 =X.them=/=X.objective= nach Dativ-Präposition/-Verb ohne :dat     warning
+  K7 gleicher englischer Text, verschiedene deutsche Werte (Konsistenz) warning
+     — Ausnahmen: glossary.json ignore_inconsistent
   G1 Glossar-Begriff im EN, deutsche Festlegung fehlt / verbotene Variante  warning
   G2 Artikel vor Glossar-Begriff passt nicht zum Genus (inkl. Genitiv-s)    warning
 
@@ -34,6 +36,7 @@ _DU = re.compile(r"\b(?:du|dich|dir|dein|deine[mnrs]?)\b", re.I)
 # Verb klein („Ihr Licht“ ≠ Ihr habt); „seid“ endet nicht auf -t (fehlte bis 2026-10-22)
 _IHR = re.compile(r"\b(?:Euch|Euer|Eure[mnrs]?)\b|\bIhr\s+(?:[a-zäöüß]\w*t|seid)\b")
 _IHR_BARE = re.compile(r"\bIhr\b(?!\s*[A-ZÄÖÜ])")
+_IHR_TOKEN = re.compile(r"(?:^|[.!?]\s+|\n)Ihr\s+=[a-z][\w.]*(?:[:|][^=]*)?=")  # Satzanfang, Verb als Token
 _IHR_PL = re.compile(r"\b(?:euch|euer|eure[mnrs]?)\b|\bihr\s+\w+t\b")
 _SIE_POSS = re.compile(r"\b(?:Ihnen|Ihre[mnrs]?)\b")
 _SIE_CAP = re.compile(r"\bSie\b")
@@ -53,8 +56,12 @@ def address_forms(value):
     if m:
         out["du"] = m.group(0)
     m = _IHR.search(txt)
+    m_tok = _IHR_TOKEN.search(value or "")
     if m:
         out["Ihr"] = m.group(0)
+    elif m_tok:
+        # „Ihr =verb.pastTense= …“: Verb kommt als Token — im sichtbaren Text unsichtbar
+        out["Ihr"] = m_tok.group(0).strip()
     else:
         # "weil Ihr =reason=": großes Ihr satzintern OHNE folgendes Nomen ist das
         # Pronomen (Ihr + Nomen wäre Possessiv „Ihr Licht“ = ihr/ihres)
@@ -271,12 +278,56 @@ def findings(store):
             return _cache["findings"]
     out = []
     out += _k1(store)
+    out += _k7(store)
     policy = GLOSSARY.policy()
     terms = GLOSSARY.terms()
     for u in store.all_units():
-        value = u.display_value()
-        if not value:
+        out += unit_findings(u, policy, terms)
+    with _lock:
+        _cache["sig"] = sig
+        _cache["findings"] = out
+    return out
+
+
+def _norm_variant(v):
+    # Groß-/Kleinschreibung am Anfang ist Satzposition, keine Inkonsistenz
+    v = v.strip()
+    return v[:1].lower() + v[1:]
+
+
+def _k7(store):
+    """Gleicher englischer Text -> mehrere deutsche Fassungen (Weblate „inconsistent“).
+    Nur mehrwortige bzw. längere Texte; Befund an jeder beteiligten Einheit."""
+    ignore = GLOSSARY.ignore_inconsistent()
+    groups = {}
+    for u in store.all_units():
+        en, v = u.english or "", u.display_value()
+        if not v or len(en.strip()) < 4 or en in ignore:
             continue
+        groups.setdefault(en, []).append(u)
+    out = []
+    for en, us in groups.items():
+        variants = {}
+        for u in us:
+            variants.setdefault(_norm_variant(u.display_value()), u.display_value())
+        if len(variants) < 2:
+            continue
+        shown = " | ".join("„%s“" % _short(v, 50) for v in list(variants.values())[:4])
+        for u in us:
+            out.append(_mk(u.uid, "K7", "warning",
+                           "„%s“ ist %d-mal verschieden übersetzt: %s"
+                           % (_short(en, 50), len(variants), shown)))
+    return out
+
+
+def unit_findings(u, policy=None, terms=None):
+    """Regeln, die nur den Wert einer Einheit brauchen (K2–K6, G1/G2) —
+    auch für den Speicher-Check auf einem Kandidaten-Wert (lint.new_errors)."""
+    policy = policy or GLOSSARY.policy()
+    terms = GLOSSARY.terms() if terms is None else terms
+    out = []
+    value = u.display_value()
+    if value:
         english = u.english or ""
         # Anrede gilt korpusweit (Spielmeldungen sprechen den Spieler genauso an)
         conv = (u.context or "").startswith("Conversation ")
@@ -312,9 +363,6 @@ def findings(store):
                 out.append(_mk(u.uid, "G1", "warning", "Glossar: " + miss))
             for msg in article_mismatches(value, t):
                 out.append(_mk(u.uid, "G2", "warning", "Glossar-Genus: " + msg))
-    with _lock:
-        _cache["sig"] = sig
-        _cache["findings"] = out
     return out
 
 

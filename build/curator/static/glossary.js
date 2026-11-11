@@ -60,7 +60,16 @@ const GLOSSAR = (() => {
         <tr><th>englisch</th><th>deutsch</th><th>Genus</th><th>Plural</th><th>verboten</th><th>Notiz</th><th></th></tr>
         ${rows || '<tr><td colspan="7" class="sans mini">Noch keine Begriffe — Vorschläge unten übernehmen.</td></tr>'}
       </table>
+      <h2>Konkordanz</h2>
+      <p class="mini">Englischen Begriff suchen → alle deutschen Fassungen nebeneinander (findet
+        Begriffs-Drift, die die Konsistenzregel K7 nicht sieht, weil die Sätze verschieden sind).</p>
+      <div class="btnrow"><input type="text" id="gl-conc" class="deval" placeholder="z. B. skill, baetyl, water ritual">
+        <button class="ghost" id="gl-conc-go">Suchen</button></div>
+      <div id="gl-conc-out"></div>
       <div id="gl-sugg"><div class="placeholder">Lade …</div></div>`;
+    const conc = () => { const t = $("#gl-conc").value.trim(); if (t && typeof FINDINGS !== "undefined") FINDINGS.concordance($("#gl-conc-out"), t); };
+    $("#gl-conc-go").onclick = conc;
+    $("#gl-conc").addEventListener("keydown", e => { if (e.key === "Enter") conc(); });
     $("#gl-policy").onclick = () => save({ policy: { player_address: $("#gl-player").value, choice_address: $("#gl-choice").value } });
     $("#gl-save").onclick = () => save({ term: {
       en: $("#gl-en").value, de: $("#gl-de").value, gender: $("#gl-g").value, plural: $("#gl-pl").value,
